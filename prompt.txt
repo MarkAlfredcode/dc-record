@@ -1,0 +1,123 @@
+You are producing today's edition of "The DC Record," a daily email newsletter for a journalist covering U.S. campaign-finance compliance and Congress. This runs unattended in CI — no human reviews it before it sends. Get every fact right, cite a source link for every claim, and never assert something (e.g. "no trades") that you didn't actually verify by reading the source. ALWAYS spell out full names — people's full names (not just last name after first mention), full committee names (not "Cmte."), full agency names — no abbreviations of names anywhere in the copy (abbreviations of terms like PAC, FEC, LDA are fine). ALWAYS bold every name the first time it appears in a section — people (e.g. <strong>Rep. Jared Huffman</strong>), committees (e.g. <strong>Friends of Don Beyer</strong>), and organizations/firms (e.g. <strong>Club for Growth PAC</strong>) — so a reader scanning the section can spot every named party at a glance. Bold on first mention per section is enough; don't re-bold the same name every time it repeats within that section.
+
+=== STEP 0: DATES ===
+Run `TZ=America/Los_Angeles date +%Y-%m-%d` first (this is a GitHub Actions runner, which defaults to UTC — do NOT use plain `date -u`/UTC for "today," the reader is in US-Pacific time and UTC is frequently already the next calendar day relative to Pacific evening/night). Call that TODAY — use it for the masthead date, the email subject line, and every place "today's date" is displayed to the reader. Separately, run `date -u +%Y-%m-%dT%H:%M:%SZ` and call that NOW — a real UTC timestamp, used only for the Task 7 committee-meeting window math (NOW to NOW+24h), not for display.
+
+The very first line of stdin tells you which edition this is: `EDITION_MODE=MORNING`, `EDITION_MODE=AFTERNOON`, or `EDITION_MODE=EVENING`. This changes what "YESTERDAY" means and the subject line:
+- MORNING edition: set YESTERDAY = TODAY (the local Pacific date) minus 1 calendar day, exactly as normal — this is the freshest complete government-processing day as of early morning. Email subject ends with " — Morning Edition".
+- AFTERNOON edition: set YESTERDAY = TODAY instead (i.e. today's own date) — by afternoon, agencies have been posting today's filings/registrations in real time, so this edition should catch what's newly posted TODAY, not re-report yesterday's already-covered items. Email subject ends with " — Afternoon Edition". Expect this edition to often be much shorter than the morning one (a partial day vs. a full day) — that's normal, don't pad it.
+- EVENING edition (only sent on days Congress is in session — see the gate below before doing anything else): set YESTERDAY = TODAY, same as the afternoon edition, catching whatever posted since the afternoon check. Email subject ends with " — Evening Edition".
+
+EVENING-ONLY GATE — do this FIRST, before Task 1, only when EDITION_MODE=EVENING: determine whether Congress was actually in session today. Check `https://api.govinfo.gov/collections/CREC/{TODAY}T00:00:00Z?pageSize=10&offsetMark=%2A&api_key=...` and look for a package whose `dateIssued` field equals TODAY exactly. If one exists, fetch its Daily Digest granules (same approach as Task 3) and check the chamber-action text: if BOTH chambers' digests describe only a pro forma session (met and adjourned in under a couple minutes, no votes), Congress was NOT meaningfully in session today. If at least one chamber did real business (votes, extended session, real floor activity), it WAS in session. If no CREC package with `dateIssued`=TODAY exists yet (common — the Record often doesn't post until the next morning), fall back: check `https://api.congress.gov/v3/committee-meeting/119/house?api_key=...&limit=30&format=json` and the `/senate` equivalent, pull detail records the same way as Task 7, and check whether any meeting's `date` falls on TODAY's calendar date — a real committee hearing/markup today is good evidence of a session day. If you find genuine session activity (either signal), proceed with the rest of this prompt normally. If you find NEITHER signal (no CREC record of real activity today, no committee meetings today), treat today as NOT a session day: do not build a newsletter, do not call Resend — just end your final message with one line stating Congress does not appear to have been in session today and no evening edition was sent, and stop there.
+
+Whichever value YESTERDAY ends up being (per the edition above), use it as the start of your coverage window everywhere below (e.g. `min_receipt_date=YESTERDAY` / `filing_dt_posted_after=YESTERDAY` / `publication_date][gte]=YESTERDAY`) — this approximates a rolling window without needing any persisted "last run" checkpoint (you have none; this is a fresh runner every time).
+
+=== BEFORE ANYTHING ELSE: CONNECTIVITY CHECK ===
+Quickly test each host used below with `curl -sS -o /dev/null -w "%{http_code}\n" --max-time 10 https://<host>/`: docquery.fec.gov, disclosures-clerk.house.gov, efdsearch.senate.gov, api.govinfo.gov, lda.gov, www.federalregister.gov, api.open.fec.gov, api.congress.gov. If 3 or more come back as a connection failure (not a 404/301/403 from the SITE itself, which means the host IS reachable — only a curl-level connect/timeout failure counts), STOP: don't build or send a normal edition. Instead send ONE short plain-text email via Resend with subject "The DC Record — network issue, no edition today" explaining exactly which hosts were unreachable, and end your report there. If fewer than 3 are down, proceed normally and just skip/note the specific task(s) whose host failed.
+
+=== CREDENTIALS ===
+All credentials are provided as environment variables (GitHub Actions secrets) — read them via the Bash tool, e.g. `echo "$RESEND_API_KEY"`. Do not hardcode any key value into any file you write, including the newsletter HTML itself.
+
+- `$FEC_KEYS` — a comma-separated pool of api.data.gov keys (works for api.open.fec.gov, api.congress.gov, api.govinfo.gov). Split on comma and round-robin across them — don't hammer a single one. Example: `IFS=',' read -ra KEYS <<< "$FEC_KEYS"`.
+- Senate LDA API (lda.gov) and Federal Register API (federalregister.gov) need NO key at all — just plain GET requests.
+- `$RESEND_API_KEY` — to send the finished newsletter. POST https://api.resend.com/emails with header `Authorization: Bearer $RESEND_API_KEY`, body {"from": "The DC Record <newsletter@markalfred.news>", "to": ["markalfred@notus.com"], "subject": "...", "html": "...", "text": "..."}.
+
+Use curl or Python requests directly against the exact URLs given here — do not use a web-search/fetch tool, and do not guess at undocumented URLs; if something isn't listed here and isn't in your own verified knowledge, skip it rather than guess.
+
+=== TASK 1: FEC — RFAI and Form 99 filings (candidates AND PACs/party committees) ===
+Endpoint: https://api.open.fec.gov/v1/filings/ — lists filings across EVERY committee, no need to enumerate committees yourself.
+
+Pull two form types, each with `sort=-receipt_date&min_receipt_date=YESTERDAY&per_page=100` (paginate with `page=` if `pagination.count` exceeds what you've pulled):
+- `form_type=F99` — free-text correspondence, terminations, debt settlements. `document_description` tells you the real subtype ("RFAI: ...", "Administrative Termination", "Termination Approval", "Miscellaneous Submission to FEC", "Commission Response to Debt Settlement Request", "Loan Forgiveness (FEC Form 99)", etc).
+- `form_type=FRQ` — the REAL form type for RFAI (Request for Additional Information) letters. (`form_type=RFAI` is NOT a real value and silently returns garbage/wrong sort — never use it.)
+
+`office` field: "H"/"S"/"P" = candidate committee; `null` = usually a PAC or party committee. Include BOTH, label which is which.
+
+For every RFAI (FRQ) and every F99 that is "Miscellaneous Submission to FEC", "Commission Response to Debt Settlement Request", "Loan Forgiveness", or otherwise not a routine termination: download `pdf_url` with curl, extract text with `pdftotext -layout <file> -` (install via `sudo apt-get update && sudo apt-get install -y poppler-utils` if missing — this is an Ubuntu runner), read the first 1-2 pages, and write a 1-3 sentence PLAIN-ENGLISH summary of what it actually says. Flag anything involving apparent personal use, restitution, embezzlement, misappropriation, or repeated/serial compliance problems prominently.
+
+For "Administrative Termination"/"Termination Approval" F99s: don't read each PDF — list committee name + link, batched as a compact "Terminations Wire," with a one-line total count.
+
+If multiple filings share the same treasurer name (visible in the PDF), note that connection.
+
+=== TASK 2: Personal financial disclosures & stock trades ===
+House (Clerk of the House bulk index, covers every filer):
+```
+curl -s -o fd.zip "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/${TODAY:0:4}FD.zip"
+```
+Unzip; tab-delimited `{year}FD.txt`, columns: Prefix, Last, First, Suffix, FilingType, StateDst, Year, FilingDate, DocID. Filter FilingDate >= YESTERDAY (M/D/YYYY, no leading zeros). FilingType: `C` = new Candidate Report (financial disclosure filed by a non-incumbent candidate), `P` = Periodic Transaction Report (STOCK Act trade), `X` = extension request, `O`/`A` = original annual/amendment. PTR (`P`) PDF path: `https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{year}/{DocID}.pdf` (different from other types, which use `.../financial-pdfs/{year}/{DocID}.pdf`).
+
+For each PTR, `pdftotext -layout` and parse trade lines: bracketed asset-type tag (`[ST]` = directly-tradeable public-company equity, the only kind worth tabulating; note bonds/funds/options in one line if a notably large amount but don't table them), parenthesized ticker, transaction type (Purchase/Sale (full)/Sale (partial)/Exchange), two dates, dollar range. Some PTRs are scanned images with no text layer — say "scanned/unreadable — link only" rather than claiming no trades. Table per member: ticker | company | type | date | amount. For `C` filings just note name/district/date/link.
+
+Senate (efdsearch.senate.gov, session/CSRF flow, blank name fields = every filer):
+```python
+import requests, re
+BASE = "https://efdsearch.senate.gov"
+s = requests.Session()
+s.headers.update({"User-Agent": "Mozilla/5.0 (research)"})
+r = s.get(f"{BASE}/search/", timeout=30)
+token = re.search(r"name=['\"]csrfmiddlewaretoken['\"] value=['\"]([^'\"]+)['\"]", r.text).group(1)
+s.post(f"{BASE}/search/home/", data={"csrfmiddlewaretoken": token, "prohibition_agreement": "1"}, headers={"Referer": f"{BASE}/search/"})
+data = {"start": 0, "length": 100, "report_type": "", "filer_types": "[]",
+        "submitted_start_date": "MM/DD/YYYY 00:00:00",  # = YESTERDAY
+        "submitted_end_date": "", "candidate_state": "", "senator_state": "", "office_id": "",
+        "first_name": "", "last_name": "", "csrfmiddlewaretoken": s.cookies.get("csrftoken")}
+r3 = s.post(f"{BASE}/search/report/data/", data=data, headers={"Referer": f"{BASE}/search/", "X-Requested-With": "XMLHttpRequest"})
+rows = r3.json()["data"]  # [first_name, last_name, filer_label, link_html, filed_date]
+```
+For each PTR row, GET the detail URL (same session `s`), parse `<table><tbody>` rows: #, transaction date, owner, ticker, asset name, asset type, transaction type, amount range. Skip ticker "--". Same table format as House.
+
+=== TASK 3: Congressional Record ("On the Record" section) ===
+`GET https://api.govinfo.gov/collections/CREC/{TODAY minus 10 days}T00:00:00Z?pageSize=10&offsetMark=%2A&api_key=...` — take the most recent `packageId`. Fetch granules: `.../packages/{packageId}/granules?offsetMark=%2A&pageSize=100&api_key=...`. Find Daily Digest granules (`-PgD` in ID, "Senate"/"House of Representatives" in title), fetch each as `.../granules/{granuleId}/htm`, strip HTML tags — gives a plain-English chamber-action summary. Find "PUBLIC BILLS AND RESOLUTIONS" granule for bill text/sponsor/referral. For each HR/HRES number, cross-check `https://api.congress.gov/v3/bill/119/{hr|hres}/{number}?api_key=...` for sponsor party/state and official short title.
+
+Headline + subhead + short paragraph on what happened (votes, or recess status), then every bill introduced with sponsor (full name, party, state) and a plain-English one-liner. EVERY bill/resolution listed must be a hyperlink (bold the bill number itself, e.g. <strong><a href="...">H.R. 10109</a></strong>) — link to its public congress.gov page: `https://www.congress.gov/bill/{congress}th-congress/{type}/{number}` where `{type}` is `house-bill` for H.R., `house-resolution` for H.Res., `house-joint-resolution` for H.J.Res., `senate-bill` for S., or `senate-resolution` for S.Res. (e.g. H.R. 10109 in the 119th Congress → https://www.congress.gov/bill/119th-congress/house-bill/10109). Do not list a bill number as plain text with no link. If recess continues with no new issue, say so briefly.
+
+=== TASK 4: Lobbying registrations & activity (Senate LDA) ===
+Domain is `lda.gov` (NOT `lda.senate.gov`, which redirects there). No API key needed.
+
+New registrations: `GET https://lda.gov/api/v1/filings/?filing_type=RR&filing_dt_posted_after=YESTERDAY&page_size=100` — each result has `registrant.name` (the lobbying firm), `client.name` + `client.general_description`, and `lobbying_activities[].general_issue_code_display` + `.description` + `.lobbyists[]`. Collect these for the table format specified in the ASSEMBLY section below (firm, client, issue area(s), what's being lobbied) — don't format as arrow-separated text lines here.
+
+New quarterly activity reports / terminations (not just registrations): same endpoint without `filing_type` filter, `filing_dt_posted_after=YESTERDAY&page_size=100`. Given volume could be 50-100+/day, summarize as a compact list (registrant → client → issue codes) rather than full prose per filing, but call out anything where the client or issue looks tied to a bill/member already mentioned elsewhere in today's newsletter.
+
+=== TASK 5: LD-203 lobbyist campaign contributions ===
+`GET https://lda.gov/api/v1/contributions/?filing_dt_posted_after=YESTERDAY&page_size=100` (no key). Skip rows where `no_contributions` is true. For the rest, `contribution_items[]` lists actual contributions with a `recipient_name` and `amount` — also check `pacs[]`. Collect these for the table format specified in the ASSEMBLY section below (lobbyist/registrant, recipient, amount) — don't format as arrow-separated text lines here. Flag any recipient that also appears elsewhere in today's newsletter.
+
+=== TASK 6: Federal Register — executive orders & final rules ===
+No key needed. `GET https://www.federalregister.gov/api/v1/documents.json?conditions[publication_date][gte]=YESTERDAY&conditions[type][]=PRESDOCU&conditions[type][]=RULE&per_page=100&order=newest` (URL-encode the bracket params). List each: type, title, issuing agency, one-line abstract if present, `html_url`. Also run with `conditions[type][]=PRORULE` but only include ones whose title suggests real policy significance; note the total count filtered out in one line.
+
+=== TASK 7: Committee meetings — today + next 24 hours ===
+`GET https://api.congress.gov/v3/committee-meeting/119/house?api_key=...&limit=50&format=json` and same for `/senate`. This list is sorted by `updateDate`, NOT the meeting's actual date. For each of the ~20-30 most recently updated meetings in EACH chamber, fetch the detail (`.../committee-meeting/119/{chamber}/{eventId}?api_key=...&format=json`), read its `date` field, and KEEP ONLY meetings whose `date` falls between NOW and NOW+24 hours. For each: committee full name, date/time, location, meeting title/purpose. If none qualify, say so in one line.
+
+=== TASK 8: Privately-sponsored travel disclosures ===
+No working public API to enumerate individual filings. Just note plainly that new privately-sponsored travel disclosures may have been filed in the last 24 hours, with two links: House at https://disclosures-clerk.house.gov/GiftTravelFilings and Senate at https://www.ethics.senate.gov/public/index.cfm/travel. One short paragraph, don't claim to know what's in them.
+
+=== ASSEMBLY: newsletter design ===
+Build ONE self-contained HTML file, styled as an actual EMAIL (table-based layout, `role="presentation"` tables, ALL styling inline via `style=""` — a `<style>` block as backup only). Width ~640px, centered. Palette: white/offwhite background (#ffffff main / #f7f5f2 outer wrapper), near-black ink (#161616 headlines / #262626 body), single deep red accent (#a6192e) for the masthead rule, section eyebrows, italic subhead/dek, and highlight callout boxes (light red wash #f7e3e6 bg + red left border for the lead/flagged story). Fonts: Georgia/Times New Roman serif for masthead and headlines, Arial/Helvetica sans for body — no custom webfonts.
+
+This is deliberately LIGHT-ONLY, always — black-on-white/offwhite regardless of the reader's system or email-client dark mode setting. Never add an `@media (prefers-color-scheme: dark)` rule or any dark variant. Lock it explicitly rather than just omitting dark styling: include a real `<html><head>` (this is a standalone email document) with `<meta name="color-scheme" content="light only">` and `<meta name="supported-color-schemes" content="light">`, plus in the `<style>` block: `:root { color-scheme: light only; supported-color-schemes: light; }`, `html, body { background: #f7f5f2 !important; color: #262626 !important; }`, and an Outlook.com dark-mode-lock rule: `[data-ogsc] body, [data-ogsc] table, [data-ogsc] td { background-color: inherit !important; color: inherit !important; }`. Every background/text color anywhere in the document should still be set explicitly inline too (not just relying on the `<style>` block, which some clients strip) — that inline-everywhere approach is itself part of what keeps Gmail's auto-dark-mode from repainting things.
+
+EVERY section below (not just the Top Story) needs its own headline + a short plain-English summary before any list/table/detail — never open a section with a raw list. Concretely, each section is: (a) a bold headline sentence stating the single most important/notable fact in that section (e.g. not "K Street" as a bare label, but something like "Two Firms Register to Lobby on the Bill You Just Read About Above" as the actual headline text under the "K Street" eyebrow), (b) 1-3 sentences of plain-English summary — what's the volume, what stands out, why should the reader care — and only then (c) the supporting list/table with links. This applies especially to K Street (Tasks 4 & 5) and The Federal Register (Task 6), which previously were just dumped as raw lists — don't do that. If a section's items are individually mundane, the summary should say so plainly ("17 routine registrations, nothing notable") rather than forcing false significance, but it should still read as a summary, not a list with no framing.
+
+Structure, newspaper style (skip a numbered section entirely if truly nothing to report):
+1. Masthead: "Morning Edition · [Weekday, Month Day, Year]", "Afternoon Edition · [Weekday, Month Day, Year]", or "Evening Edition · [Weekday, Month Day, Year]" (per EDITION_MODE), big serif nameplate "THE DC RECORD", italic tagline.
+2. Top Story: the single most newsworthy item from anywhere in Tasks 1-8 — full headline + red italic subhead/dek + 2-4 paragraphs + red-bordered "Read the filings" callout box with direct links. Don't manufacture false urgency if nothing stands out.
+3. "Requests for Additional Information" — headline + summary, then the in-brief list.
+4. "Form 99 Correspondence" — headline + summary, then the in-brief list.
+5. "Terminations Wire" — headline + summary (e.g. total count, any names worth flagging), then the list.
+6. "Personal Financial Disclosures & Stock Trades" — headline + summary of what stands out among the trades/disclosures, then the detail tables.
+7. "Privately-Sponsored Travel" — Task 8, still just the one short paragraph + two links (no separate list to summarize here).
+8. "On the Record" — Task 3. Headline + summary already required by Task 3's own instructions above; keep that pattern.
+9. "Committee Meetings — Next 24 Hours" — headline + summary, then the meeting details.
+10. "K Street" — Tasks 4 & 5. Headline naming the most interesting registration/contribution (or noting there isn't one), 2-3 sentence summary of overall volume and anything tied to names elsewhere in the newsletter, THEN the supporting detail as an actual HTML table (`<table>` with `<th>` headers, not an arrow-separated list of lines) — do not format this as "Firm → Client | Issue" text lines. Use one table for registrations/activity (Task 4) with columns Firm | Client | Issue Area(s) | What's Being Lobbied, and a separate table for LD-203 contributions (Task 5) with columns Lobbyist/Registrant | Recipient | Amount. Bold the firm/lobbyist and client/recipient names per the names rule above. Same table-based approach as the stock-trade tables elsewhere in this newsletter — inline styles, `role="presentation"` where appropriate, bordered/striped enough to be scannable in an email client.
+11. "The Federal Register" — Task 6. Headline naming the most significant order/rule (or noting there isn't one), summary sentence, then the list.
+12. Footer: coverage window, source list, note any task that was skipped and why, sign-off "— The DC Record".
+
+Every new filing/document mentioned must have its source link. Every characterization must be based on something actually read, not just a document_description/title, EXCEPT batched routine terminations and the travel-disclosures note.
+
+=== SEND IT ===
+Save the finished HTML to a file named `newsletter-TODAY.html` in the current directory, then send it:
+```
+curl -s https://api.resend.com/emails -H "Authorization: Bearer $RESEND_API_KEY" -H "Content-Type: application/json" -d '{"from":"The DC Record <newsletter@markalfred.news>","to":["markalfred@notus.com"],"subject":"The DC Record — <date> (Morning Edition|Afternoon Edition|Evening Edition, per EDITION_MODE)","html":"<the full html>","text":"<a short 5-10 line plain-text summary>"}'
+```
+Confirm the response has an id. If it errors, note the exact error. Use `curl` for this call, not Python's `urllib`/`requests` — Resend's endpoint sits behind a Cloudflare bot check that blocks the default urllib/requests user-agent (403 / error 1010) but accepts plain curl.
+
+End your final message (printed to stdout, this becomes the workflow run's log) with a short plain-text summary: send success/fail, filing counts per task, top story headline, and which (if any) tasks were skipped due to connectivity.

@@ -1,0 +1,72 @@
+name: The DC Record
+
+on:
+  schedule:
+    # All times UTC (GitHub Actions cron has no timezone support). These are
+    # tuned for PDT (UTC-7); they'll drift an hour once PST (UTC-8) kicks in
+    # each November -- revisit then, same caveat as every fixed-UTC cron.
+    - cron: '0 12 * * *'   # ~5:00am Pacific  -> Morning edition
+    - cron: '15 23 * * *'  # ~4:15pm Pacific  -> Afternoon edition
+    - cron: '45 4 * * *'   # ~9:45pm Pacific (previous Pacific day) -> Evening edition, session-gated
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: 'Which edition to run (manual test)'
+        required: true
+        default: 'MORNING'
+        type: choice
+        options:
+          - MORNING
+          - AFTERNOON
+          - EVENING
+
+concurrency:
+  group: dc-record-${{ github.event.schedule || inputs.edition }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Determine edition
+        id: edition
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.edition }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              '0 12 * * *')  echo "mode=MORNING" >> "$GITHUB_OUTPUT" ;;
+              '15 23 * * *') echo "mode=AFTERNOON" >> "$GITHUB_OUTPUT" ;;
+              '45 4 * * *')  echo "mode=EVENING" >> "$GITHUB_OUTPUT" ;;
+              *) echo "Unrecognized schedule '${{ github.event.schedule }}'"; exit 1 ;;
+            esac
+          fi
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          npm install -g @anthropic-ai/claude-code
+
+      - name: Run The DC Record
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          FEC_KEYS: ${{ secrets.FEC_KEYS }}
+        run: |
+          { echo "EDITION_MODE=${{ steps.edition.outputs.mode }}"; cat prompt.txt; } | \
+            claude -p \
+              --permission-mode bypassPermissions \
+              --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
+
+      - name: Upload generated newsletter as a build artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-${{ steps.edition.outputs.mode }}-${{ github.run_id }}
+          path: newsletter-*.html
+          if-no-files-found: ignore
+          retention-days: 30
