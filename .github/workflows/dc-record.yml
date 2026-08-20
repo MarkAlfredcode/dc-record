@@ -49,13 +49,14 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
-          npm install -g @anthropic-ai/claude-code --include=optional
-          # GitHub-hosted runners sometimes skip optional deps (the native
-          # binary) even with --include=optional; verify and self-heal.
-          if ! claude --version >/dev/null 2>&1; then
-            node "$(npm root -g)/@anthropic-ai/claude-code/install.cjs"
-          fi
-          claude --version
+          # Standalone installer (not npm -g): npm's global-install mode has
+          # a known quirk where it fails to resolve the platform-specific
+          # optionalDependency (the native binary) with no lockfile to pin
+          # against -- confirmed live in this workflow. The standalone
+          # installer downloads the correct native binary directly.
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
 
       - name: Run The DC Record
         env:
