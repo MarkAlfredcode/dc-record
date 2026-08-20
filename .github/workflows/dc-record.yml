@@ -5,9 +5,9 @@ on:
     # All times UTC (GitHub Actions cron has no timezone support). These are
     # tuned for PDT (UTC-7); they'll drift an hour once PST (UTC-8) kicks in
     # each November -- revisit then, same caveat as every fixed-UTC cron.
-    - cron: '0 12 * * *'   # ~5:00am Pacific  -> Morning edition
-    - cron: '15 23 * * *'  # ~4:15pm Pacific  -> Afternoon edition
-    - cron: '45 4 * * *'   # ~9:45pm Pacific (previous Pacific day) -> Evening edition, session-gated
+    - cron: '30 15 * * *'  # ~8:30am Pacific  -> Morning edition
+    - cron: '40 23 * * *'  # ~4:40pm Pacific  -> Afternoon edition
+    - cron: '35 4 * * *'   # ~9:35pm Pacific (previous Pacific day) -> Evening edition, session-gated
   workflow_dispatch:
     inputs:
       edition:
@@ -38,9 +38,9 @@ jobs:
             echo "mode=${{ inputs.edition }}" >> "$GITHUB_OUTPUT"
           else
             case "${{ github.event.schedule }}" in
-              '0 12 * * *')  echo "mode=MORNING" >> "$GITHUB_OUTPUT" ;;
-              '15 23 * * *') echo "mode=AFTERNOON" >> "$GITHUB_OUTPUT" ;;
-              '45 4 * * *')  echo "mode=EVENING" >> "$GITHUB_OUTPUT" ;;
+              '30 15 * * *') echo "mode=MORNING" >> "$GITHUB_OUTPUT" ;;
+              '40 23 * * *') echo "mode=AFTERNOON" >> "$GITHUB_OUTPUT" ;;
+              '35 4 * * *')  echo "mode=EVENING" >> "$GITHUB_OUTPUT" ;;
               *) echo "Unrecognized schedule '${{ github.event.schedule }}'"; exit 1 ;;
             esac
           fi

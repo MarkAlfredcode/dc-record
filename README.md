@@ -9,11 +9,11 @@ campaign-finance compliance and Congress.
 Runs entirely on GitHub Actions (`.github/workflows/dc-record.yml`), on a
 schedule, independent of any local machine. Three editions a day:
 
-- **Morning** (~5:00am Pacific) — full previous-day coverage.
-- **Afternoon** (~4:15pm Pacific) — today's postings so far (agencies post
+- **Morning** (~8:30am Pacific) — full previous-day coverage.
+- **Afternoon** (~4:40pm Pacific) — today's postings so far (agencies post
   filings continuously through the business day, so this isn't a repeat of
   the morning edition).
-- **Evening** (~9:45pm Pacific) — same as afternoon, but **only sent on days
+- **Evening** (~9:35pm Pacific) — same as afternoon, but **only sent on days
   Congress was actually in session** (the prompt checks this itself before
   doing anything else, via the Congressional Record and committee-meeting
   data).
