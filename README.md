@@ -61,11 +61,12 @@ then.
   load, and are automatically disabled if the repo goes 60 days without any
   activity (a commit, or someone re-enabling it manually) — worth an
   occasional check that it's still enabled.
-- **No GAO reports, no privately-sponsored travel API** — both were checked
-  and confirmed to have no usable public API as of 2026-08 (GAO blocks
-  automated requests outright; House/Senate travel-disclosure portals are
-  JS apps with no discoverable data endpoint). Travel gets a static "check
-  here" pointer instead of real content; GAO isn't covered at all.
+- **No GAO reports, no privately-sponsored travel coverage** — both were
+  checked and confirmed to have no usable public API as of 2026-08 (GAO
+  blocks automated requests outright; House/Senate travel-disclosure portals
+  are JS apps with no discoverable data endpoint). Travel's static
+  "check here" pointer section was removed 2026-08-20 at user request rather
+  than kept as a low-value placeholder; neither is covered at all now.
 - **Subscription usage limits** — now running on `CLAUDE_CODE_OAUTH_TOKEN`
   (subscription-backed, not metered billing), the risk shifts from "costs
   money" to "could hit a rate/usage limit" during a busy stretch, since it
