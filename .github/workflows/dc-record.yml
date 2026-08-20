@@ -5,9 +5,13 @@ on:
     # All times UTC (GitHub Actions cron has no timezone support). These are
     # tuned for PDT (UTC-7); they'll drift an hour once PST (UTC-8) kicks in
     # each November -- revisit then, same caveat as every fixed-UTC cron.
-    - cron: '30 15 * * *'  # ~8:30am Pacific  -> Morning edition
-    - cron: '40 23 * * *'  # ~4:40pm Pacific  -> Afternoon edition
-    - cron: '35 4 * * *'   # ~9:35pm Pacific (previous Pacific day) -> Evening edition, session-gated
+    # Each target is padded 30 min earlier than the actual desired delivery
+    # time (8:30am/4:40pm/9:35pm Pacific) to absorb GitHub's scheduling
+    # jitter -- see README "Known limitations" for why exact-time firing
+    # isn't guaranteed.
+    - cron: '0 15 * * *'   # ~8:00am Pacific  -> Morning edition (target delivery ~8:30am)
+    - cron: '10 23 * * *'  # ~4:10pm Pacific  -> Afternoon edition (target delivery ~4:40pm)
+    - cron: '5 4 * * *'    # ~9:05pm Pacific (previous Pacific day) -> Evening edition (target delivery ~9:35pm), session-gated
   workflow_dispatch:
     inputs:
       edition:
@@ -38,9 +42,9 @@ jobs:
             echo "mode=${{ inputs.edition }}" >> "$GITHUB_OUTPUT"
           else
             case "${{ github.event.schedule }}" in
-              '30 15 * * *') echo "mode=MORNING" >> "$GITHUB_OUTPUT" ;;
-              '40 23 * * *') echo "mode=AFTERNOON" >> "$GITHUB_OUTPUT" ;;
-              '35 4 * * *')  echo "mode=EVENING" >> "$GITHUB_OUTPUT" ;;
+              '0 15 * * *')  echo "mode=MORNING" >> "$GITHUB_OUTPUT" ;;
+              '10 23 * * *') echo "mode=AFTERNOON" >> "$GITHUB_OUTPUT" ;;
+              '5 4 * * *')   echo "mode=EVENING" >> "$GITHUB_OUTPUT" ;;
               *) echo "Unrecognized schedule '${{ github.event.schedule }}'"; exit 1 ;;
             esac
           fi

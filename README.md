@@ -18,6 +18,11 @@ schedule, independent of any local machine. Three editions a day:
   doing anything else, via the Congressional Record and committee-meeting
   data).
 
+Target delivery times above are ~8:30am / ~4:40pm / ~9:35pm, but the cron
+triggers in `dc-record.yml` are each set 30 minutes earlier than that
+(~8:00am / ~4:10pm / ~9:05pm) to absorb GitHub's scheduling jitter — see
+"Known limitations" below.
+
 The actual task list, data-source gotchas, and newsletter design spec all
 live in `prompt.txt` — that's the real source of truth, fed to `claude -p`
 as stdin (prefixed with an `EDITION_MODE=` line so the same prompt handles
@@ -57,10 +62,15 @@ then.
   hour later Pacific time. Revisit the cron expressions then, or move to a
   more elaborate DST-aware trigger if that annoyance isn't worth living with.
 - **GitHub's own scheduling isn't perfectly on-time** — GitHub explicitly
-  documents that scheduled workflows can be delayed during periods of high
-  load, and are automatically disabled if the repo goes 60 days without any
-  activity (a commit, or someone re-enabling it manually) — worth an
-  occasional check that it's still enabled.
+  documents that scheduled workflows fire late, never early, and can be
+  delayed further during periods of high load (confirmed live 2026-08-20: an
+  8:30am-target run actually fired at 8:56am, a 26-minute delay). The cron
+  times in `dc-record.yml` are padded 30 minutes ahead of each target
+  delivery time to absorb this; if delays exceed 30 minutes on a given day
+  that padding won't fully cover it. Scheduled workflows are also
+  automatically disabled if the repo goes 60 days without any activity (a
+  commit, or someone re-enabling it manually) — worth an occasional check
+  that it's still enabled.
 - **No GAO reports, no privately-sponsored travel coverage** — both were
   checked and confirmed to have no usable public API as of 2026-08 (GAO
   blocks automated requests outright; House/Senate travel-disclosure portals
