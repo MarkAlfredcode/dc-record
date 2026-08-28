@@ -1,0 +1,82 @@
+name: DC Record Watchdog
+
+# GitHub Actions' `schedule` trigger is documented as best-effort: under
+# platform load it can silently drop a scheduled run entirely, with no
+# retry and no queued catch-up (confirmed live: the AFTERNOON edition on
+# 2026-08-26 and the MORNING edition on 2026-08-27 both simply never fired
+# -- zero runs in the Actions history for those slots). This workflow is
+# an independent dead-man's-switch: it polls every ~10 minutes and, for
+# each of the three daily edition windows, checks whether a dc-record.yml
+# run actually started near that window. If one is missing well past its
+# grace period, it self-heals by firing workflow_dispatch for that edition
+# -- so a dropped trigger is caught and fixed automatically within roughly
+# 45-55 minutes instead of waiting for a human to notice a missing email.
+#
+# This workflow is itself subject to the same best-effort `schedule`
+# quirk, but firing every 10 minutes means all ~twelve watchdog ticks
+# between one edition and the next would all have to be dropped for the
+# watchdog to miss it too -- astronomically less likely than a single
+# schedule trigger being dropped.
+
+on:
+  schedule:
+    # Deliberately off the top/half of the hour to avoid GitHub's own
+    # scheduling pileup at :00/:30.
+    - cron: '7,17,27,37,47,57 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check for dropped DC Record triggers and self-heal
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          REPO="MarkAlfredcode/dc-record"
+          NOW_EPOCH=$(date -u +%s)
+          TODAY=$(date -u +%Y-%m-%d)
+
+          check_edition () {
+            local edition="$1" hh="$2" mm="$3" grace_min="$4"
+            local window_epoch
+            window_epoch=$(date -u -d "${TODAY}T${hh}:${mm}:00Z" +%s)
+            local due_epoch=$((window_epoch + grace_min * 60))
+
+            if [ "$NOW_EPOCH" -lt "$due_epoch" ]; then
+              echo "$edition: not due yet (window ${hh}:${mm} UTC, grace ${grace_min}m)"
+              return
+            fi
+
+            # Look for any run (scheduled or manual) since 5 min before the
+            # window opened -- covers normal GH scheduling jitter, and also
+            # naturally makes this idempotent: once we've dispatched a
+            # catch-up run, later ticks will find it here and stop firing.
+            local since_epoch=$((window_epoch - 300))
+            local since
+            since=$(date -u -d "@${since_epoch}" --iso-8601=seconds)
+
+            local count
+            count=$(gh api "repos/${REPO}/actions/workflows/dc-record.yml/runs" \
+              -f created=">=${since}" -f per_page=20 \
+              --jq '.workflow_runs | length')
+
+            if [ "$count" -gt 0 ]; then
+              echo "$edition: covered ($count run(s) since $since)"
+            else
+              echo "$edition: MISSING (no runs since $since) -- self-healing via workflow_dispatch"
+              gh workflow run "The DC Record" --repo "$REPO" -f edition="$edition"
+            fi
+          }
+
+          # hh mm are the same UTC trigger times as dc-record.yml's `schedule:`
+          # block. grace_min is how long past that trigger time to wait before
+          # concluding it was dropped rather than just running a bit late.
+          check_edition MORNING   15 00 45
+          check_edition AFTERNOON 23 10 45
+          check_edition EVENING   04 05 45
