@@ -70,7 +70,7 @@ jobs:
               echo "$edition: covered ($count run(s) since $since)"
             else
               echo "$edition: MISSING (no runs since $since) -- self-healing via workflow_dispatch"
-              gh workflow run "The DC Record" --repo "$REPO" -f edition="$edition"
+              gh workflow run "The DC Record" --repo "$REPO" --ref main -f edition="$edition"
             fi
           }
 
