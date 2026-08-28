@@ -62,7 +62,7 @@ jobs:
             since=$(date -u -d "@${since_epoch}" --iso-8601=seconds)
 
             local count
-            count=$(gh api "repos/${REPO}/actions/workflows/dc-record.yml/runs" \
+            count=$(gh api --method GET "repos/${REPO}/actions/workflows/dc-record.yml/runs" \
               -f created=">=${since}" -f per_page=20 \
               --jq '.workflow_runs | length')
 
