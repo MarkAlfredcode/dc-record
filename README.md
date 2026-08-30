@@ -19,9 +19,9 @@ schedule, independent of any local machine. Three editions a day:
   data).
 
 Target delivery times above are ~8:30am / ~4:40pm / ~9:35pm, but the cron
-triggers in `dc-record.yml` are each set 30 minutes earlier than that
-(~8:00am / ~4:10pm / ~9:05pm) to absorb GitHub's scheduling jitter — see
-"Known limitations" below.
+triggers in `dc-record.yml` are each set 90 minutes earlier than that
+(~7:00am / ~3:10pm / ~8:05pm) to absorb GitHub's scheduling jitter and the
+watchdog's drop-detection grace period — see "Known limitations" below.
 
 The actual task list, data-source gotchas, and newsletter design spec all
 live in `prompt.txt` — that's the real source of truth, fed to `claude -p`
@@ -64,13 +64,16 @@ then.
 - **GitHub's own scheduling isn't perfectly on-time** — GitHub explicitly
   documents that scheduled workflows fire late, never early, and can be
   delayed further during periods of high load (confirmed live 2026-08-20: an
-  8:30am-target run actually fired at 8:56am, a 26-minute delay). The cron
-  times in `dc-record.yml` are padded 30 minutes ahead of each target
-  delivery time to absorb this; if delays exceed 30 minutes on a given day
-  that padding won't fully cover it. Scheduled workflows are also
-  automatically disabled if the repo goes 60 days without any activity (a
-  commit, or someone re-enabling it manually) — worth an occasional check
-  that it's still enabled.
+  8:30am-target run actually fired at 8:56am, a 26-minute delay), and can be
+  dropped entirely (see `dc-record-watchdog.yml`, which catches a dropped
+  trigger and self-fires it up to ~45-55 minutes after the original window).
+  The cron times in `dc-record.yml` were widened from a 30-minute to a
+  90-minute pad ahead of each target delivery time on 2026-08-30, specifically
+  so a watchdog-caught drop still lands close to on-time; if delays exceed 90
+  minutes on a given day that padding won't fully cover it. Scheduled
+  workflows are also automatically disabled if the repo goes 60 days without
+  any activity (a commit, or someone re-enabling it manually) — worth an
+  occasional check that it's still enabled.
 - **No GAO reports, no privately-sponsored travel coverage** — both were
   checked and confirmed to have no usable public API as of 2026-08 (GAO
   blocks automated requests outright; House/Senate travel-disclosure portals
