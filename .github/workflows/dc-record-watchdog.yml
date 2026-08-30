@@ -77,6 +77,6 @@ jobs:
           # hh mm are the same UTC trigger times as dc-record.yml's `schedule:`
           # block. grace_min is how long past that trigger time to wait before
           # concluding it was dropped rather than just running a bit late.
-          check_edition MORNING   15 00 45
-          check_edition AFTERNOON 23 10 45
-          check_edition EVENING   04 05 45
+          check_edition MORNING   14 00 45
+          check_edition AFTERNOON 22 10 45
+          check_edition EVENING   03 05 45
