@@ -26,8 +26,18 @@ on:
           - AFTERNOON
           - EVENING
 
+permissions:
+  contents: read
+  actions: read  # needed by the duplicate-edition guard's runs/artifacts lookups
+
 concurrency:
-  group: dc-record-${{ github.event.schedule || inputs.edition }}
+  # Keyed on the resolved EDITION name (not the raw trigger), so a scheduled
+  # fire and a watchdog/manual dispatch for the same edition land in the same
+  # group instead of silently coexisting. GitHub Actions expressions have no
+  # real ternary, so this fakes one: each `cond && 'VALUE'` short-circuits to
+  # the edition name when the schedule string matches, otherwise falls through
+  # to inputs.edition for workflow_dispatch.
+  group: dc-record-${{ (github.event.schedule == '0 14 * * *' && 'MORNING') || (github.event.schedule == '10 22 * * *' && 'AFTERNOON') || (github.event.schedule == '5 3 * * *' && 'EVENING') || inputs.edition }}
   cancel-in-progress: false
 
 jobs:
@@ -51,7 +61,59 @@ jobs:
             esac
           fi
 
+      # GitHub's schedule trigger has been landing 2-10+ hours late (see
+      # dc-record-watchdog.yml's header), well past the watchdog's 45-min
+      # drop-detection grace period. That means the watchdog now routinely
+      # fires a catch-up dispatch for an edition whose original scheduled
+      # run hasn't actually dropped -- just delayed -- and *both* eventually
+      # run to completion. Unifying the concurrency group (above) only
+      # serializes that pair; it doesn't stop the second one from still
+      # sending a duplicate newsletter once it's done waiting. This step is
+      # the actual dedupe: if another run has already published this same
+      # EDITION since its window opened, skip the rest of the job.
+      - name: Guard against duplicate edition for this window
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          EDITION="${{ steps.edition.outputs.mode }}"
+          case "$EDITION" in
+            MORNING)   HH=14; MM=0  ;;
+            AFTERNOON) HH=22; MM=10 ;;
+            EVENING)   HH=3;  MM=5  ;;
+            *) echo "Unrecognized edition '$EDITION'"; exit 1 ;;
+          esac
+
+          NOW_EPOCH=$(date -u +%s)
+          TODAY=$(date -u +%Y-%m-%d)
+          WINDOW_EPOCH=$(date -u -d "${TODAY}T$(printf '%02d' "$HH"):$(printf '%02d' "$MM"):00Z" +%s)
+          # Most recent past occurrence of this edition's cron time (handles
+          # the EVENING cron landing after midnight UTC relative to its
+          # Pacific evening, same as dc-record-watchdog.yml).
+          if [ "$WINDOW_EPOCH" -gt "$NOW_EPOCH" ]; then
+            WINDOW_EPOCH=$((WINDOW_EPOCH - 86400))
+          fi
+          SINCE_EPOCH=$((WINDOW_EPOCH - 300))
+          SINCE=$(date -u -d "@${SINCE_EPOCH}" --iso-8601=seconds)
+
+          RUN_IDS=$(gh api --method GET "repos/${{ github.repository }}/actions/workflows/dc-record.yml/runs" \
+            -f status=success -f created=">=${SINCE}" -f per_page=20 \
+            --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }}) | .id] | .[]")
+
+          SHOULD_RUN=true
+          for RUN_ID in $RUN_IDS; do
+            NAME=$(gh api "repos/${{ github.repository }}/actions/runs/${RUN_ID}/artifacts" --jq '.artifacts[0].name // ""')
+            if [[ "$NAME" == newsletter-${EDITION}-* ]]; then
+              echo "Duplicate: run $RUN_ID already published $EDITION this window (artifact $NAME) -- skipping."
+              SHOULD_RUN=false
+              break
+            fi
+          done
+          echo "should_run=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
+
       - name: Install dependencies
+        if: steps.guard.outputs.should_run == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
@@ -65,6 +127,7 @@ jobs:
           "$HOME/.local/bin/claude" --version
 
       - name: Run The DC Record
+        if: steps.guard.outputs.should_run == 'true'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
@@ -76,7 +139,7 @@ jobs:
               --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
 
       - name: Upload generated newsletter as a build artifact
-        if: always()
+        if: always() && steps.guard.outputs.should_run == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: newsletter-${{ steps.edition.outputs.mode }}-${{ github.run_id }}
