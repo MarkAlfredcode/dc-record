@@ -132,6 +132,7 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
         run: |
           { echo "EDITION_MODE=${{ steps.edition.outputs.mode }}"; cat prompt.txt; } | \
             claude -p \
