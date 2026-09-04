@@ -1,0 +1,96 @@
+name: DC Record • Executive Branch
+
+on:
+  schedule:
+    # Once daily. All times UTC (GitHub Actions cron has no timezone
+    # support). 10:00 UTC = ~3:00am Pacific during PDT (UTC-7); will drift
+    # an hour once PST (UTC-8) kicks in each November -- revisit then, same
+    # caveat as the flagship dc-record.yml workflow.
+    - cron: '0 10 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read  # needed by the duplicate-run guard's runs/artifacts lookups
+
+concurrency:
+  group: dc-record-contracts
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      # Once-daily edition -- the main risk is a duplicate workflow_dispatch
+      # or a rare double cron fire, not the multi-edition-window collision
+      # the flagship dc-record.yml has to handle. Simpler guard: skip if a
+      # successful run already produced an artifact in the last 20 hours.
+      - name: Guard against duplicate run
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          SINCE=$(date -u -d "20 hours ago" --iso-8601=seconds)
+          RUN_IDS=$(gh api --method GET "repos/${{ github.repository }}/actions/workflows/dc-record-contracts.yml/runs" \
+            -f status=success -f created=">=${SINCE}" -f per_page=10 \
+            --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }}) | .id] | .[]" 2>/dev/null || echo "")
+          SHOULD_RUN=true
+          for RUN_ID in $RUN_IDS; do
+            NAME=$(gh api "repos/${{ github.repository }}/actions/runs/${RUN_ID}/artifacts" --jq '.artifacts[0].name // ""')
+            if [[ "$NAME" == newsletter-contracts-* ]]; then
+              echo "Duplicate: run $RUN_ID already published within the last 20h (artifact $NAME) -- skipping."
+              SHOULD_RUN=false
+              break
+            fi
+          done
+          echo "should_run=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
+
+      - name: Install dependencies
+        if: steps.guard.outputs.should_run == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/claude" --version
+
+      - name: Run DC Record • Executive Branch
+        if: steps.guard.outputs.should_run == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+        run: |
+          cat prompt-contracts.txt | \
+            claude -p \
+              --permission-mode bypassPermissions \
+              --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
+
+      # Only Tasks 8-9 (OMB Apportionments / USAspending Contracts) touch
+      # these files.
+      - name: Commit updated OMB/USAspending manifests
+        if: steps.guard.outputs.should_run == 'true'
+        run: |
+          set -euo pipefail
+          if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json; then
+            git config user.name "dc-record-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json
+            git commit -m "Update OMB/USAspending manifests [skip ci]"
+            git push
+          else
+            echo "Manifests unchanged, nothing to commit."
+          fi
+
+      - name: Upload generated newsletter as a build artifact
+        if: always() && steps.guard.outputs.should_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-contracts-${{ github.run_id }}
+          path: newsletter-*.html
+          if-no-files-found: ignore
+          retention-days: 30

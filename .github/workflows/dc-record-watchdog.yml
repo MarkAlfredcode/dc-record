@@ -1,5 +1,11 @@
 name: DC Record Watchdog
 
+# RETIRED 2026-09-04: watches dc-record.yml, which itself no longer sends
+# automatically (split into dc-record-fec.yml/dc-record-lobbying.yml/
+# dc-record-contracts.yml). Disabled below along with dc-record.yml rather
+# than deleted, in case the combined format's watchdog logic is worth
+# reviving/adapting for the three new workflows later.
+#
 # GitHub Actions' `schedule` trigger is documented as best-effort: under
 # platform load it can silently drop a scheduled run entirely, with no
 # retry and no queued catch-up (confirmed live: the AFTERNOON edition on
@@ -19,10 +25,10 @@ name: DC Record Watchdog
 # schedule trigger being dropped.
 
 on:
-  schedule:
-    # Deliberately off the top/half of the hour to avoid GitHub's own
-    # scheduling pileup at :00/:30.
-    - cron: '7,17,27,37,47,57 * * * *'
+  # schedule:
+  #   Deliberately off the top/half of the hour to avoid GitHub's own
+  #   scheduling pileup at :00/:30.
+  #   - cron: '7,17,27,37,47,57 * * * *'
   workflow_dispatch: {}
 
 permissions:
