@@ -27,7 +27,7 @@ on:
           - EVENING
 
 permissions:
-  contents: read
+  contents: write  # needed to commit the OMB/USAspending manifests (Tasks 8-9, morning-only)
   actions: read  # needed by the duplicate-edition guard's runs/artifacts lookups
 
 concurrency:
@@ -137,6 +137,22 @@ jobs:
             claude -p \
               --permission-mode bypassPermissions \
               --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
+
+      # Only Tasks 8-9 (OMB Apportionments / USAspending Contracts, morning-only)
+      # touch these files, so this is a no-op on AFTERNOON/EVENING runs.
+      - name: Commit updated OMB/USAspending manifests
+        if: steps.guard.outputs.should_run == 'true'
+        run: |
+          set -euo pipefail
+          if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json; then
+            git config user.name "dc-record-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json
+            git commit -m "Update OMB/USAspending manifests [skip ci]"
+            git push
+          else
+            echo "Manifests unchanged, nothing to commit."
+          fi
 
       - name: Upload generated newsletter as a build artifact
         if: always() && steps.guard.outputs.should_run == 'true'
