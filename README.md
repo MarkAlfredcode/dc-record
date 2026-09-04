@@ -3,13 +3,16 @@
 Automated daily newsletter — FEC compliance filings (RFAI/Form 99), House &
 Senate personal financial disclosures & stock trades, the Congressional
 Record, committee meetings, lobbying registrations (LDA) & LD-203
-contributions, and the Federal Register — for a journalist covering
-campaign-finance compliance and Congress.
+contributions, the Federal Register, OMB apportionments, and new large
+USAspending contract awards — for a journalist covering campaign-finance
+compliance and Congress.
 
 Runs entirely on GitHub Actions (`.github/workflows/dc-record.yml`), on a
 schedule, independent of any local machine. Three editions a day:
 
-- **Morning** (~8:30am Pacific) — full previous-day coverage.
+- **Morning** (~8:30am Pacific) — full previous-day coverage, plus the two
+  once-daily-only sections below (OMB Apportionments, USAspending
+  Contracts) that don't run in the other two editions.
 - **Afternoon** (~4:40pm Pacific) — today's postings so far (agencies post
   filings continuously through the business day, so this isn't a repeat of
   the morning edition).
@@ -27,6 +30,61 @@ The actual task list, data-source gotchas, and newsletter design spec all
 live in `prompt.txt` — that's the real source of truth, fed to `claude -p`
 as stdin (prefixed with an `EDITION_MODE=` line so the same prompt handles
 all three editions). The workflow YAML is a thin scheduler/wrapper around it.
+
+Design notes learned from a live trial run (2026-09-03): the masthead uses
+Google Fonts' 'Newsreader' with a navy+red rule treatment layered onto the
+existing white/offwhite palette (still light-only, still the same base
+colors — red/white/blue is an accent, not a repaint). Long lists (RFAI,
+Form 99, bills) render as bulleted lists with a real per-item description,
+never truncated mid-sentence and never curated down to a "selected" subset
+— a table was tried for these once and reverted, since a table fits
+genuinely columnar data (stock trades, K Street) better than a list whose
+real content is a paragraph per row. Every edition closes with NASA's
+Astronomy Picture of the Day, embedded as a base64 data URI (not a remote
+image link, which most mail clients block by default) — a deliberate visual
+break from the rest of the newspaper-style layout.
+
+## OMB Apportionments & USAspending Contracts (Morning Edition only)
+
+Tasks 8-9 in `prompt.txt` add two sections to the Morning Edition only,
+positioned right above "K Street" — checked once/day rather than 3x/day
+because both sources are naturally slower-moving than everything else in
+this newsletter, and re-checking them on the afternoon/evening runs would be
+pure repeated work for no new information.
+
+**OMB Apportionments** (`apportionment-public.max.gov`, a static file mirror
+with no real API): new apportionment JSON files are found with no stored
+state at all — filenames embed their own approval timestamp, so a rolling
+`>= yesterday` filter on the front page's file list is enough, same pattern
+as everything else in this repo. The ~137 Spend Plan PDFs are different: no
+date in their filename, and they can be silently revised in place under the
+same URL — `Last-Modified`/`ETag` on this site are useless for that
+(confirmed by hand: unrelated files served at the same moment carry an
+identical `Last-Modified` down to the second, meaning the whole site
+republishes as one bundle regardless of per-file changes).
+`data/omb-spend-plan-manifest.json` tracks each PDF's `Content-Length` (the
+one reliable signal) instead.
+
+**USAspending Contracts** (`api.usaspending.gov`): new $2M+ prime contract
+*base awards* only (`Mod == "0"`, excludes modifications/option-exercises).
+This source has real multi-day-to-multi-week posting lag with no reliable
+"date this record appeared" field (`last_modified_date` was tested and
+rejected — it reflects the *award*'s last-touched date, not the specific
+transaction's, so it resurfaces old already-reported activity whenever
+anything else changes on the same award). Instead of a rolling date window,
+this re-scans a 25-day trailing window every morning and diffs against
+`data/usaspending-contracts-manifest.json`, a persisted set of previously-
+seen award IDs, pruned of anything older than 30 days each run.
+
+Both manifests are committed back to the repo by the workflow's own "Commit
+updated OMB/USAspending manifests" step (needs `contents: write`, unlike the
+main job's earlier `contents: read`) — a no-op on afternoon/evening runs
+since only Tasks 8-9 touch those files. `data/omb-spend-plan-manifest.json`
+was bootstrapped 2026-09-03 with real `Content-Length` values for all 137
+spend plans as of that date; `data/usaspending-contracts-manifest.json` was
+bootstrapped the same day covering the trailing 25 days (748 entries) —
+both specifically so the first live morning run doesn't dump a backlog on
+the reader, only genuinely new items going forward.
 
 ## Required repository secrets
 
