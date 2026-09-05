@@ -6,7 +6,7 @@ Quickly test each host used below with `curl -sS -o /dev/null -w "%{http_code}\n
 === CREDENTIALS ===
 - `$SAM_API_KEY` — a real SAM.gov account key (Task 10, federal contracting). NOT an api.data.gov key and not interchangeable with any other key pool — confirmed by hand that api.data.gov keys 404 against api.sam.gov (a blanket 404 regardless of key validity, not a 401/403 — don't mistake that for a routing bug and go hunting for a different URL, the URL is right).
 - The Federal Register API, openomb.org, apportionment-public.max.gov, api.usaspending.gov, and OGE's endpoint (Task 11) all need NO key at all — just plain GET/POST requests.
-- `$RESEND_API_KEY` — to send the finished newsletter. POST https://api.resend.com/emails with header `Authorization: Bearer $RESEND_API_KEY`, body {"from": "DC Record • Executive Branch <newsletter@markalfred.news>", "to": ["markalfred@notus.com"], "subject": "...", "html": "...", "text": "..."}.
+- `$RESEND_API_KEY` — to send the finished newsletter. POST https://api.resend.com/emails with header `Authorization: Bearer $RESEND_API_KEY`, body {"from": "DC Record • Executive Branch <newsletter@markalfred.news>", "to": ["markalfred@notus.com", "taylorgiorno@notus.com", "annakramer@notus.com"], "subject": "...", "html": "...", "text": "..."}.
 
 Use curl or Python requests directly against the exact URLs given here — do not use a web-search/fetch tool, and do not guess at undocumented URLs; if something isn't listed here and isn't in your own verified knowledge, skip it rather than guess.
 === EFFICIENCY: BATCH, DON'T FAN OUT (added 2026-09-05) ===
@@ -87,7 +87,7 @@ REMINDER — BOLD NAMES, NO EXCEPTIONS: this rule (top of this prompt) applies t
 === SEND IT ===
 Save the finished HTML to a file named `newsletter-TODAY.html` in the current directory, then send it:
 ```
-curl -s https://api.resend.com/emails -H "Authorization: Bearer $RESEND_API_KEY" -H "Content-Type: application/json" -d '{"from":"DC Record • Executive Branch <newsletter@markalfred.news>","to":["markalfred@notus.com"],"subject":"DC Record • Executive Branch • <date>","html":"<the full html>","text":"<a short 5-10 line plain-text summary>"}'
+curl -s https://api.resend.com/emails -H "Authorization: Bearer $RESEND_API_KEY" -H "Content-Type: application/json" -d '{"from":"DC Record • Executive Branch <newsletter@markalfred.news>","to":["markalfred@notus.com", "taylorgiorno@notus.com", "annakramer@notus.com"],"subject":"DC Record • Executive Branch • <date>","html":"<the full html>","text":"<a short 5-10 line plain-text summary>"}'
 ```
 Confirm the response has an id. If it errors, note the exact error. Use `curl` for this call, not Python's `urllib`/`requests` — Resend's endpoint sits behind a Cloudflare bot check that blocks the default urllib/requests user-agent (403 / error 1010) but accepts plain curl.
 
