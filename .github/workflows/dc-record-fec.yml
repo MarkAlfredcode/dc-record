@@ -61,15 +61,25 @@ jobs:
 
           exit $CLAUDE_EXIT
 
-      # Only Task 1's incumbent-candidate lookup touches this file.
-      - name: Commit updated incumbent-candidates manifest
+      # Also mirrors today's newsletter to a fixed repo path (digest/campaigns.html)
+      # so the DC Record Digest routine can read it straight from its own git
+      # checkout -- GitHub Actions' build-artifact download redirects to Azure
+      # Blob Storage, which that routine's cloud sandbox cannot reach (confirmed
+      # live 2026-09-05), so a committed file is the reliable path.
+      - name: Commit updated incumbent-candidates manifest and today's newsletter
         run: |
           set -euo pipefail
-          if ! git diff --quiet -- data/incumbent-candidates-manifest.json; then
+          mkdir -p digest
+          if compgen -G "newsletter-*.html" > /dev/null; then
+            cp newsletter-*.html digest/campaigns.html
+          else
+            echo "No newsletter file produced this run (likely a skipped/failed send) -- leaving digest/campaigns.html as-is."
+          fi
+          if ! git diff --quiet -- data/incumbent-candidates-manifest.json digest/campaigns.html; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/incumbent-candidates-manifest.json
-            git commit -m "Update incumbent-candidates manifest [skip ci]"
+            git add data/incumbent-candidates-manifest.json digest/campaigns.html
+            git commit -m "Update incumbent-candidates manifest and today's newsletter [skip ci]"
             # Executive Branch's manifest-commit step runs on the same cron
             # slot and can push to this same branch around the same time --
             # rebase-and-retry on a non-fast-forward push instead of failing
@@ -86,7 +96,7 @@ jobs:
             done
             $PUSHED
           else
-            echo "Manifest unchanged, nothing to commit."
+            echo "Manifest and newsletter unchanged, nothing to commit."
           fi
 
       - name: Upload generated newsletter as a build artifact
