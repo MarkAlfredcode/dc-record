@@ -10,7 +10,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write  # needed to commit today's newsletter to digest/lobbying.html
 
 concurrency:
   group: dc-record-lobbying
@@ -59,6 +59,44 @@ jobs:
           echo "::endgroup::"
 
           exit $CLAUDE_EXIT
+
+      # Mirrors today's newsletter to a fixed repo path (digest/lobbying.html)
+      # so the DC Record Digest routine can read it straight from its own git
+      # checkout -- GitHub Actions' build-artifact download redirects to Azure
+      # Blob Storage, which that routine's cloud sandbox cannot reach (confirmed
+      # live 2026-09-05), so a committed file is the reliable path.
+      - name: Commit today's newsletter
+        run: |
+          set -euo pipefail
+          mkdir -p digest
+          if compgen -G "newsletter-*.html" > /dev/null; then
+            cp newsletter-*.html digest/lobbying.html
+          else
+            echo "No newsletter file produced this run (likely a skipped/failed send) -- leaving digest/lobbying.html as-is."
+          fi
+          if ! git diff --quiet -- digest/lobbying.html; then
+            git config user.name "dc-record-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add digest/lobbying.html
+            git commit -m "Update today's newsletter [skip ci]"
+            # Executive Branch and Campaigns & Congress also push to main on
+            # this same cron slot -- rebase-and-retry on a non-fast-forward
+            # push instead of failing outright (same race confirmed live
+            # 2026-09-05 between those two).
+            PUSHED=false
+            for i in 1 2 3 4 5; do
+              if git push; then
+                PUSHED=true
+                break
+              fi
+              echo "Push rejected (attempt $i/5), rebasing onto latest and retrying..."
+              git pull --rebase
+              sleep $((RANDOM % 5 + 1))
+            done
+            $PUSHED
+          else
+            echo "Newsletter unchanged, nothing to commit."
+          fi
 
       - name: Upload generated newsletter as a build artifact
         if: always()
