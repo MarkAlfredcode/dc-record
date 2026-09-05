@@ -65,10 +65,29 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
         run: |
+          set +e
           cat prompt-contracts.txt | \
             claude -p \
               --permission-mode bypassPermissions \
-              --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
+              --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
+              --output-format json > claude_result.json
+          CLAUDE_EXIT=$?
+          set -e
+
+          echo "::group::Claude usage/cost (Executive Branch)"
+          if jq -e . claude_result.json >/dev/null 2>&1; then
+            jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_creation_input_tokens=" + (.usage.cache_creation_input_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  duration_ms=" + (.duration_ms|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_result.json
+          else
+            echo "No valid JSON result (likely errored before completion, e.g. a session-limit preflight failure). Raw output:"
+            cat claude_result.json
+          fi
+          echo "::endgroup::"
+
+          echo "::group::Claude final message (Executive Branch)"
+          jq -r '.result // empty' claude_result.json 2>/dev/null || true
+          echo "::endgroup::"
+
+          exit $CLAUDE_EXIT
 
       # Only Tasks 8-9 (OMB Apportionments / USAspending Contracts) touch
       # these files.
