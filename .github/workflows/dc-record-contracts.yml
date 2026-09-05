@@ -71,7 +71,21 @@ jobs:
             git config user.email "actions@users.noreply.github.com"
             git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json
             git commit -m "Update OMB/USAspending manifests [skip ci]"
-            git push
+            # Campaigns & Congress's manifest-commit step runs on the same
+            # cron slot and can push to this same branch around the same
+            # time -- rebase-and-retry on a non-fast-forward push instead of
+            # failing outright (confirmed happening live 2026-09-05).
+            PUSHED=false
+            for i in 1 2 3 4 5; do
+              if git push; then
+                PUSHED=true
+                break
+              fi
+              echo "Push rejected (attempt $i/5), rebasing onto latest and retrying..."
+              git pull --rebase
+              sleep $((RANDOM % 5 + 1))
+            done
+            $PUSHED
           else
             echo "Manifests unchanged, nothing to commit."
           fi
