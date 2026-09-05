@@ -6,7 +6,7 @@ Quickly test each host used below with `curl -sS -o /dev/null -w "%{http_code}\n
 === CREDENTIALS ===
 No API keys needed for this edition — Senate LDA (lda.gov) and DOJ's FARA e-file system (efile.fara.gov) are both keyless.
 
-- `$RESEND_API_KEY` — to send the finished newsletter. POST https://api.resend.com/emails with header `Authorization: Bearer $RESEND_API_KEY`, body {"from": "DC Record • Lobbying <newsletter@markalfred.news>", "to": ["markalfred@notus.com"], "subject": "...", "html": "...", "text": "..."}.
+- `$RESEND_API_KEY` — to send the finished newsletter. POST https://api.resend.com/emails with header `Authorization: Bearer $RESEND_API_KEY`, body {"from": "DC Record • Lobbying <newsletter@markalfred.news>", "to": ["markalfred@notus.com", "taylorgiorno@notus.com", "annakramer@notus.com"], "subject": "...", "html": "...", "text": "..."}.
 
 Use curl or Python requests directly against the exact URLs given here — do not use a web-search/fetch tool, and do not guess at undocumented URLs; if something isn't listed here and isn't in your own verified knowledge, skip it rather than guess.
 === EFFICIENCY: BATCH, DON'T FAN OUT (added 2026-09-05) ===
@@ -53,7 +53,7 @@ REMINDER — BOLD NAMES, NO EXCEPTIONS: this rule (top of this prompt) applies t
 === SEND IT ===
 Save the finished HTML to a file named `newsletter-TODAY.html` in the current directory, then send it:
 ```
-curl -s https://api.resend.com/emails -H "Authorization: Bearer $RESEND_API_KEY" -H "Content-Type: application/json" -d '{"from":"DC Record • Lobbying <newsletter@markalfred.news>","to":["markalfred@notus.com"],"subject":"DC Record • Lobbying • <date>","html":"<the full html>","text":"<a short 5-10 line plain-text summary>"}'
+curl -s https://api.resend.com/emails -H "Authorization: Bearer $RESEND_API_KEY" -H "Content-Type: application/json" -d '{"from":"DC Record • Lobbying <newsletter@markalfred.news>","to":["markalfred@notus.com", "taylorgiorno@notus.com", "annakramer@notus.com"],"subject":"DC Record • Lobbying • <date>","html":"<the full html>","text":"<a short 5-10 line plain-text summary>"}'
 ```
 Confirm the response has an id. If it errors, note the exact error. Use `curl` for this call, not Python's `urllib`/`requests` — Resend's endpoint sits behind a Cloudflare bot check that blocks the default urllib/requests user-agent (403 / error 1010) but accepts plain curl.
 
