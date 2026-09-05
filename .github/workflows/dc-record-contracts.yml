@@ -61,16 +61,25 @@ jobs:
 
           exit $CLAUDE_EXIT
 
-      # Only Tasks 8-9 (OMB Apportionments / USAspending Contracts) touch
-      # these files.
-      - name: Commit updated OMB/USAspending manifests
+      # Also mirrors today's newsletter to a fixed repo path (digest/executive.html)
+      # so the DC Record Digest routine can read it straight from its own git
+      # checkout -- GitHub Actions' build-artifact download redirects to Azure
+      # Blob Storage, which that routine's cloud sandbox cannot reach (confirmed
+      # live 2026-09-05), so a committed file is the reliable path.
+      - name: Commit updated OMB/USAspending manifests and today's newsletter
         run: |
           set -euo pipefail
-          if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json; then
+          mkdir -p digest
+          if compgen -G "newsletter-*.html" > /dev/null; then
+            cp newsletter-*.html digest/executive.html
+          else
+            echo "No newsletter file produced this run (likely a skipped/failed send) -- leaving digest/executive.html as-is."
+          fi
+          if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json digest/executive.html; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json
-            git commit -m "Update OMB/USAspending manifests [skip ci]"
+            git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json digest/executive.html
+            git commit -m "Update OMB/USAspending manifests and today's newsletter [skip ci]"
             # Campaigns & Congress's manifest-commit step runs on the same
             # cron slot and can push to this same branch around the same
             # time -- rebase-and-retry on a non-fast-forward push instead of
@@ -87,7 +96,7 @@ jobs:
             done
             $PUSHED
           else
-            echo "Manifests unchanged, nothing to commit."
+            echo "Manifests and newsletter unchanged, nothing to commit."
           fi
 
       - name: Upload generated newsletter as a build artifact
