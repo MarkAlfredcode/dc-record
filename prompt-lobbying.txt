@@ -9,6 +9,8 @@ No API keys needed for this edition — Senate LDA (lda.gov) and DOJ's FARA e-fi
 - `$RESEND_API_KEY` — to send the finished newsletter. POST https://api.resend.com/emails with header `Authorization: Bearer $RESEND_API_KEY`, body {"from": "DC Record • Lobbying <newsletter@markalfred.news>", "to": ["markalfred@notus.com"], "subject": "...", "html": "...", "text": "..."}.
 
 Use curl or Python requests directly against the exact URLs given here — do not use a web-search/fetch tool, and do not guess at undocumented URLs; if something isn't listed here and isn't in your own verified knowledge, skip it rather than guess.
+=== EFFICIENCY: BATCH, DON'T FAN OUT (added 2026-09-05) ===
+Tool-call turns are the single biggest cost driver in this unattended pipeline — every turn re-sends the whole conversation so far. Neither task below needs per-item detail fetches (LDA's list endpoints already carry everything you need; FARA's per-registrant detail page is explicitly out of scope, see Task 12), but if pagination ever runs long, page through it with one bash loop into a single combined file rather than one tool call per page. Once you've pulled what you need out of a big API response, don't keep re-reading the raw JSON in later turns — pipe curl output straight to a file and jq-filter it, so an already-consumed response isn't carried forward through every remaining turn.
 === TASK 4: Lobbying registrations & activity (Senate LDA) ===
 Domain is `lda.gov` (NOT `lda.senate.gov`, which redirects there). No API key needed.
 
