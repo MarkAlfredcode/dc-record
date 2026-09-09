@@ -9,7 +9,14 @@ You read exactly one government filing PDF and return ONLY a compact, structured
 
 Given a `pdf_url` (and whatever filing-type/context the orchestrator passed you):
 
-1. `curl -s -o filing.pdf "<pdf_url>"` then `pdftotext -layout filing.pdf -` to get the full text. Read the WHOLE document, not just page 1 — an RFAI's numbered items and a PTR's trade table can run past the first page, and a summary built from a truncated read is worse than no summary at all.
+1. You are one of several copies of yourself running AT THE SAME TIME in the same working directory — NEVER download to a fixed/shared filename like `filing.pdf`, that causes concurrent dispatches to overwrite each other's file mid-read and produce a summary of the WRONG document (confirmed happening live 2026-09-09: two separate cross-contaminated summaries traced back to exactly this). Instead, first make yourself a private scratch directory and do all of your work inside it:
+   ```
+   WORKDIR=$(mktemp -d)
+   curl -s -o "$WORKDIR/filing.pdf" "<pdf_url>"
+   pdftotext -layout "$WORKDIR/filing.pdf" -
+   rm -rf "$WORKDIR"
+   ```
+   `mktemp -d` gives every dispatch its own unique directory, so no other copy of you can ever touch your file. Read the WHOLE document, not just page 1 — an RFAI's numbered items and a PTR's trade table can run past the first page, and a summary built from a truncated read is worse than no summary at all.
 
 2. Identify the filing type from context/content and produce the matching summary:
    - **FEC RFAI (FRQ) or F99 correspondence**: a genuine plain-English paraphrase of what's being asked or said — pull out real specifics (dollar amounts, vendor names in quotes, dates, line/schedule numbers), never a truncated quote of legal boilerplate. A bad example: "(2 items) Schedule H4 supporting Line 21(a)..." (cut off mid-sentence, tells the reader nothing). A good example: "Asked to clarify whether $2,500 in payments described only as 'Compliance Consulting' went to committee employees, which affects how the spending must be allocated." Explicitly flag apparent personal use, restitution, embezzlement, misappropriation, repeated/serial compliance problems, a candidate's death, or a committee's forced wind-down.
