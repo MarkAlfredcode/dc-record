@@ -7,7 +7,12 @@ on:
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: build the newsletter and update digest/executive.html normally, but skip the real Resend send"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -37,12 +42,13 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
           set +e
           cat prompt-contracts.txt | \
             claude -p \
               --permission-mode bypassPermissions \
-              --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
+              --allowedTools "Bash,Read,Write,Edit,Glob,Grep,Task" \
               --output-format json > claude_result.json
           CLAUDE_EXIT=$?
           set -e
