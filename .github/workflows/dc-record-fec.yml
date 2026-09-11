@@ -10,7 +10,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write  # needed to commit the incumbent-candidates manifest (Task 1)
+  contents: write  # needed to commit the incumbent-candidates manifest (Task 1) and the fec-filings-seen/pfd-ptr-seen dedupe manifests (Tasks 1 & 2)
 
 concurrency:
   group: dc-record-fec
@@ -86,7 +86,7 @@ jobs:
       # checkout -- GitHub Actions' build-artifact download redirects to Azure
       # Blob Storage, which that routine's cloud sandbox cannot reach (confirmed
       # live 2026-09-05), so a committed file is the reliable path.
-      - name: Commit updated incumbent-candidates manifest and today's newsletter
+      - name: Commit updated manifests and today's newsletter
         run: |
           set -euo pipefail
           mkdir -p digest
@@ -95,11 +95,11 @@ jobs:
           else
             echo "No newsletter file produced this run (likely a skipped/failed send) -- leaving digest/campaigns.html as-is."
           fi
-          if ! git diff --quiet -- data/incumbent-candidates-manifest.json digest/campaigns.html; then
+          if ! git diff --quiet -- data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/campaigns.html; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/incumbent-candidates-manifest.json digest/campaigns.html
-            git commit -m "Update incumbent-candidates manifest and today's newsletter [skip ci]"
+            git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/campaigns.html
+            git commit -m "Update incumbent-candidates/FEC-filings/PFD-PTR manifests and today's newsletter [skip ci]"
             # Executive Branch's manifest-commit step runs on the same cron
             # slot and can push to this same branch around the same time --
             # rebase-and-retry on a non-fast-forward push instead of failing
