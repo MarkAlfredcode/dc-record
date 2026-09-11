@@ -46,6 +46,8 @@ EVERY section below (not just the Top Story) needs its own headline + a short pl
 
 A note on list format, learned the hard way: RFAI, Form 99, and bill listings render as a bulleted `<ul><li>` list, NOT an HTML `<table>` — tried the table treatment for these once and it was reverted on request; a table is right for genuinely tabular/columnar data (stock trades, K Street firm/client/issue, LD-203 amounts) but wrong for a list whose real content is a paragraph-length description per row. Every `<li>` still bolds+links the committee/bill name per the names rule.
 
+NEVER STITCH MANY ITEMS INTO ONE PARAGRAPH (added 2026-09-11, on request): this applies everywhere in this edition — the moment you're naming more than four or five similar items in a row, each with its own name/amount/agency/link, each one gets its own `<li>` in a bulleted list. Never chain them together into a single semicolon- or comma-separated prose block just because each item's write-up is short — a long run-on paragraph of named entities is unreadable regardless of how brief each individual mention is.
+
 Structure, newspaper style (skip a numbered section entirely if truly nothing to report):
 1. Masthead: "[Weekday, Month Day, Year]", big serif nameplate "THE DC RECORD" (with "DC" in brass gold), italic tagline "Who's lobbying whom, and who's paying, every day.", framed by the forest green/brass gold rule treatment described above.
 2. Top Story: the single most newsworthy item from anywhere in today's tasks — full headline + brass gold italic subhead/dek + 2-4 paragraphs + brass gold-bordered "Read the filings" callout box with direct links. Don't manufacture false urgency if nothing stands out.
