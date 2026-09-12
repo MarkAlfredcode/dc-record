@@ -8,11 +8,11 @@ on:
     # collide with theirs on the same branch; will drift an hour once PST
     # (UTC-8) kicks in each November, same caveat as the others.
     - cron: '25 10 * * *'
-    # Site-refresh-only run, 45 minutes after the main one, same 25-minute
-    # stagger preserved -- see dc-record-fec.yml's matching comment for the
-    # full rationale. This edition already never emails either way, so no
+    # Site-refresh-only run, ~3:45pm Pacific, same 25-minute stagger
+    # preserved -- see dc-record-fec.yml's matching comment for the full
+    # rationale. This edition already never emails either way, so no
     # separate skip-email gating is needed here.
-    - cron: '10 11 * * *'
+    - cron: '10 23 * * *'
   workflow_dispatch: {}
 
 permissions:

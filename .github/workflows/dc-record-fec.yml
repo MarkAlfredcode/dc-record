@@ -7,17 +7,20 @@ on:
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
-    # Site-refresh-only run, 45 minutes after the main one. Generates and
-    # commits digest/campaigns.html (and the dedupe manifests) exactly like
-    # the main run, but the Send email step below skips sending for this
-    # specific schedule -- added so markalfred.news/dc-record has fresher
-    # content without a second email going out. NOTE: any filing that first
-    # appears in this 45-minute window gets marked "seen" in the dedupe
-    # manifests here and will NOT be in a future email either, since the
-    # 3:00am run already passed it by -- it'll show on the site but never
-    # get emailed. Flagged to Mark when this was added (2026-09-12); revisit
-    # if that ever loses something that mattered.
-    - cron: '45 10 * * *'
+    # Site-refresh-only run, ~3:45pm Pacific (22:45 UTC during PDT -- same
+    # DST caveat as above). Generates and commits digest/campaigns.html (and
+    # the dedupe manifests) exactly like the main run, but the Send email
+    # step below skips sending for this specific schedule -- added so
+    # markalfred.news/dc-record has fresher content in the afternoon without
+    # a second email going out. NOTE: any filing that first appears between
+    # the 3:00am run and this one (i.e. most of the business day) gets
+    # marked "seen" in the dedupe manifests here and will NOT be in a future
+    # email either, since the 3:00am run already passed it by -- it'll show
+    # on the site but never get emailed. Flagged to Mark when this was added
+    # (2026-09-12, then retimed from 3:45am same day -- the gap this leaves
+    # is now most of the day, not 45 minutes); revisit if that ever loses
+    # something that mattered.
+    - cron: '45 22 * * *'
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -136,8 +139,8 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.skip_email }}" == "true" ] || [ "${{ github.event.schedule }}" == "45 10 * * *" ]; then
-            echo "skip_email (manual input, or the 3:45am site-refresh-only schedule) -- not sending" > email_skipped.flag
+          if [ "${{ github.event.inputs.skip_email }}" == "true" ] || [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+            echo "skip_email (manual input, or the 3:45pm site-refresh-only schedule) -- not sending" > email_skipped.flag
           else
             TO_ARG=""
             if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then

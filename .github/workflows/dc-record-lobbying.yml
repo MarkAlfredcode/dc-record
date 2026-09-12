@@ -7,12 +7,12 @@ on:
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
-    # Site-refresh-only run, 45 minutes after the main one -- see
-    # dc-record-fec.yml's matching comment for the full rationale and the
-    # dedupe-manifest tradeoff this implies (nothing here has a "seen"
-    # manifest of its own the way FEC/PFD does, so that specific risk
-    # doesn't apply to this edition).
-    - cron: '45 10 * * *'
+    # Site-refresh-only run, ~3:45pm Pacific -- see dc-record-fec.yml's
+    # matching comment for the full rationale and the dedupe-manifest
+    # tradeoff this implies (nothing here has a "seen" manifest of its own
+    # the way FEC/PFD does, so that specific risk doesn't apply to this
+    # edition).
+    - cron: '45 22 * * *'
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -92,8 +92,8 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          if [ "${{ github.event.schedule }}" == "45 10 * * *" ]; then
-            echo "3:45am site-refresh-only schedule -- not sending" > email_skipped.flag
+          if [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+            echo "3:45pm site-refresh-only schedule -- not sending" > email_skipped.flag
           else
             TO_ARG=""
             if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
