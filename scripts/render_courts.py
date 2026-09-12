@@ -24,14 +24,14 @@ HEAD = """<!doctype html>
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: #f7f5f2; color: #262626; }
   body { font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.5; }
-  .wrap { max-width: 700px; margin: 0 auto; background: #ffffff; padding: 0 20px 30px; }
-  @media (min-width: 760px) { .wrap { max-width: 780px; padding: 0 32px 40px; } }
+  .wrap { max-width: 600px; margin: 0 auto; background: #ffffff; padding: 0 20px 30px; }
+  @media (min-width: 601px) { .wrap { max-width: 760px; padding: 0 32px 40px; } }
   .rule-top { height: 4px; background: #6e2332; margin: 0 -20px; }
   .rule-bottom { height: 3px; background: #445164; margin: 24px -20px 0; }
-  @media (min-width: 760px) { .rule-top, .rule-bottom { margin-left: -32px; margin-right: -32px; } }
+  @media (min-width: 601px) { .rule-top, .rule-bottom { margin-left: -32px; margin-right: -32px; } }
   .masthead { text-align: center; padding: 20px 0 18px; }
   .date { font-family: Arial, Helvetica, sans-serif; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; color: #6b6b64; margin-bottom: 6px; }
-  .nameplate { font-family: 'Newsreader', Georgia, 'Times New Roman', serif; font-size: 40px; font-weight: bold; color: #161616; letter-spacing: 0.5px; margin: 0; }
+  .nameplate { font-family: 'Newsreader', Georgia, 'Times New Roman', serif; font-size: 34px; font-weight: bold; color: #161616; letter-spacing: 0.5px; margin: 0; }
   .nameplate .dc { color: #6e2332; }
   .tagline { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 15px; color: #3c4858; margin-top: 4px; }
   .eyebrow { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 1.5px; color: #6e2332; text-transform: uppercase; padding-top: 20px; padding-bottom: 8px; }

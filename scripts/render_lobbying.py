@@ -131,7 +131,7 @@ def render_top_story(ts):
         '<tr><td class="px" style="padding:28px 18px 0 18px;">',
         f'<div style="font-family:Arial,Helvetica,sans-serif; font-size:12px; letter-spacing:1.5px; color:{GOLD}; '
         f'text-transform:uppercase; font-weight:bold;">{esc(ts.get("eyebrow", "Top Story"))}</div>',
-        f'<div class="headline" style="font-family:\'Newsreader\', Georgia,\'Times New Roman\',serif; font-size:24px; '
+        f'<div class="headline" style="font-family:\'Newsreader\', Georgia,\'Times New Roman\',serif; font-size:26px; '
         f'line-height:1.25; color:{INK}; font-weight:bold; padding:8px 0 6px 0;">{ts["headline"]}</div>',
     ]
     if ts.get("dek"):

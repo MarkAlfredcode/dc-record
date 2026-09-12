@@ -182,14 +182,27 @@ jobs:
           set -euo pipefail
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
+            # AM/PM edition snapshots -- see dc-record-fec.yml's commit step
+            # for the full rationale. digest/executive.html stays a "latest"
+            # alias for backward compatibility.
+            TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
+            AM_DATE_FILE="digest/.executive-am-date"
+            PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
+            if [ "$PREV_AM_DATE" != "$TODAY_TAG" ]; then
+              cp newsletter-*.html digest/executive-am.html
+              echo "$TODAY_TAG" > "$AM_DATE_FILE"
+              rm -f digest/executive-pm.html
+            else
+              cp newsletter-*.html digest/executive-pm.html
+            fi
             cp newsletter-*.html digest/executive.html
           else
-            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/executive.html as-is."
+            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/executive*.html as-is."
           fi
-          if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json digest/executive.html; then
+          if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json digest/; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json digest/executive.html
+            git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json digest/
             git commit -m "Update manifests and today's newsletter [skip ci]"
             # Campaigns & Congress's manifest-commit step runs on the same
             # cron slot and can push to this same branch around the same

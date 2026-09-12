@@ -131,14 +131,31 @@ jobs:
           set -euo pipefail
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
+            # AM/PM edition snapshots: the first run of the Pacific calendar
+            # day becomes the AM edition; if a run already happened today, a
+            # later run (a manual afternoon test, or a future second cron
+            # slot) becomes the PM edition instead of silently overwriting
+            # the morning's snapshot. digest/campaigns.html stays a "latest"
+            # alias (AM content until/unless a PM run happens) for backward
+            # compatibility with anything reading that fixed path.
+            TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
+            AM_DATE_FILE="digest/.campaigns-am-date"
+            PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
+            if [ "$PREV_AM_DATE" != "$TODAY_TAG" ]; then
+              cp newsletter-*.html digest/campaigns-am.html
+              echo "$TODAY_TAG" > "$AM_DATE_FILE"
+              rm -f digest/campaigns-pm.html
+            else
+              cp newsletter-*.html digest/campaigns-pm.html
+            fi
             cp newsletter-*.html digest/campaigns.html
           else
-            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/campaigns.html as-is."
+            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/campaigns*.html as-is."
           fi
-          if ! git diff --quiet -- data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/campaigns.html; then
+          if ! git diff --quiet -- data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/campaigns.html
+            git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/
             git commit -m "Update incumbent-candidates/FEC-filings/PFD-PTR manifests and today's newsletter [skip ci]"
             # Executive Branch's manifest-commit step runs on the same cron
             # slot and can push to this same branch around the same time --
