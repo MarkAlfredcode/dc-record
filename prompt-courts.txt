@@ -3,9 +3,11 @@ You are producing today's edition of "DC Record • Courts," a page in a journal
 Run `TZ=America/Los_Angeles date +%Y-%m-%d` first (this is a GitHub Actions runner, which defaults to UTC — do NOT use plain `date -u`/UTC for "today," the reader is in US-Pacific time). Call that TODAY — use it for the masthead date and every place "today's date" is displayed. Compute LOOKBACK = TODAY minus 3 calendar days (not 1 — CourtListener's RECAP mirror of PACER lags and can index a filing a day or two late; a persisted dedupe manifest, not a narrow window, is what prevents re-reporting the same case on multiple days — see DEDUPE below).
 === BEFORE ANYTHING ELSE: CONNECTIVITY CHECK ===
 Test with `curl -sS -o /dev/null -w "%{http_code}\n" --max-time 10 https://www.courtlistener.com/`. Expect a 403 here even when the site is completely healthy — see the SOURCE LINK rule below, every page on this host is gated by an AWS WAF challenge regardless of user agent, so a 403/301 response means the host IS reachable, not down. Only a curl-level connect/timeout failure (no HTTP response at all) means it's actually unreachable. If that happens: don't build today's page — instead write `digest_skipped.flag` per the STATUS FLAG RULES below (one line: "courtlistener.com unreachable") and stop.
+=== ARCHITECTURE (read this first) ===
+This edition's pipeline changed 2026-09-12 to cut token/turn cost: you no longer generate the final HTML yourself. You still do Task 1 below exactly as before (fetching, dedup, PDF reading). What changed is the OUTPUT: instead of building a full styled HTML page, you write a structured JSON file (`content-TODAY.json`, see OUTPUT FORMAT at the end) describing the content, and a separate script (`scripts/render_courts.py`) turns that into the actual styled page. This means you don't need to think about CSS/layout at all — just write good content in the schema given.
 === STATUS FLAG RULES (applies everywhere in this run) ===
 The workflow has no other way to know what happened this run — a downstream step reads whichever of these files exists and pushes a notification accordingly. Write exactly one, using the Write tool, in the current directory, as soon as the outcome is known:
-- `digest_written.flag` — today's page was built and saved successfully. Content: one line noting the case count.
+- `digest_written.flag` — you wrote a real `content-TODAY.json` (see OUTPUT FORMAT). Content: one line noting the case count.
 - `digest_skipped.flag` — the connectivity-check STOP above, or any other case where you deliberately decide not to build a real page without it being an error. Content: one line explaining why.
 - `digest_failed.flag` — any failure that stops you from finishing normally (a step you could not complete, an unexpected error). Content: the exact error, or a one-line description of what went wrong.
 Only write one of these three, matching the actual outcome, before your final message.
@@ -31,29 +33,41 @@ e. Classify what survives by `nature_of_suit`/`cause`: FOIA (nature_of_suit "895
 f. FOIA and immigration-delay suits run high, repetitive volume most days, often the same handful of frequent filers (e.g. Judicial Watch) or many near-identical suits against the same official. Roll these into a compact per-category count line (e.g. "11 new suits over delayed visa/green-card/naturalization adjudications, naming Secretary of State [Name] and other State/USCIS officials" / "10 new FOIA suits, 2 of them from Judicial Watch, against [agencies]") UNLESS one is individually distinctive: an unusual plaintiff (not a routine frequent filer — a state, a member of Congress, a major organization), a subject tied to something else already in today's edition, or an unusually large declared claim.
 g. For each distinctive case only (cap at 5, per the rate-limit rule above — fold any beyond that into the count line instead), fetch `GET https://www.courtlistener.com/api/rest/v4/dockets/{docket_id}/` to confirm `nature_of_suit`/`jurisdiction_type`. If a `recap_documents` entry's `description` mentions "COMPLAINT" and `is_available` is true, it will also carry a `filepath_local` (e.g. `recap/gov.uscourts.dcd.NNNNNN/gov.uscourts.dcd.NNNNNN.1.0.pdf`) — fetch and read the real PDF at `https://storage.courtlistener.com/{filepath_local}` per the SOURCE LINK rule above; most complaints are PACER-paywalled and NOT freely available (`is_available: false`, no `filepath_local`) — when that's the case, say plainly "complaint text not available, docket caption only" rather than inferring content you haven't read. Write 3-5 sentences: who sued whom (full names, official capacity noted), over what specific policy/action, what relief is sought, and why it's notable.
 h. After building the page, add every `docket_id` evaluated today (both individually written up and rolled into a count line — everything that survived step d) to the manifest with `"reported": TODAY`, drop entries whose `reported` date is more than 14 days old, and rewrite `data/courtlistener-cases-seen.json` with the full updated manifest every run, even if nothing changed.
-=== PAGE DESIGN ===
-Build ONE self-contained HTML file. Unlike the other three DC Record editions, this is NOT an email — it's a normal webpage, rendered in a browser iframe on markalfred.news, so none of the email-client workarounds used in the other prompts apply here (no table-based layout requirement, no Outlook/Gmail dark-mode-stripping hacks, no base64-image avoidance, no 600px email-safe width cap). Use ordinary responsive HTML/CSS — flexbox or grid, real `<style>` block, `@media` queries as needed for narrow screens.
-
-Keep the same "newspaper" visual identity as the other three editions for consistency across the site's tabs: white/offwhite background (#ffffff main / #f7f5f2 outer wrapper), near-black ink (#161616 headlines / #262626 body), Georgia/Times New Roman serif as the fallback for headlines, Arial/Helvetica sans for body copy. The masthead nameplate text AND every headline in the document (widened from nameplate-only 2026-09-12) are the exception: since this edition is a real webpage with no email-client font restrictions, include `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>` and `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@700&display=swap">` in the `<head>`, and set `font-family` to `'Newsreader', Georgia, 'Times New Roman', serif` on the nameplate ("THE DC RECORD"), the Top Story headline, and the "New Litigation" section's own headline — nowhere else in the document (body copy, italic subhead/dek, eyebrows all stay Georgia-fallback/Arial as specified above) — same treatment used on the website rendering of the other three editions, applied directly here since there's no email fallback concern to design around. This edition's own two-color accent pair, distinct from the other three (navy/red, forest green/brass gold, charcoal slate/rust): courthouse burgundy (#6e2332) alongside gunmetal blue-gray (#445164), used together — e.g. a burgundy top rule + gunmetal bottom rule framing the masthead block. The burgundy accent handles section eyebrows and italic subhead/dek. No filled/washed background in either accent color anywhere in the document — text/rule/border accents only, never a fill. Color "DC" in "THE DC RECORD" nameplate burgundy against an otherwise near-black wordmark, same pattern as the other editions.
-
-This is deliberately LIGHT-ONLY, matching the other three editions and the site's own per-tab iframe (which is hardcoded to a white background) — do not add a `@media (prefers-color-scheme: dark)` rule.
-
-EVERY section needs its own headline + a short plain-English summary before any list/detail — never open a section with a raw list. Concretely: (a) a bold headline sentence stating the single most important/notable fact in that section, (b) 1-3 sentences of plain-English summary — what's the volume, what stands out, why should the reader care — and only then (c) the supporting list with links. If a section's items are individually mundane, the summary should say so plainly rather than forcing false significance, but it should still read as a summary, not a list with no framing.
-
-NEVER STITCH MANY ITEMS INTO ONE PARAGRAPH: the moment you're naming more than four or five similar items in a row, each with its own name/amount/agency/link, each one gets its own `<li>` in a bulleted list — never chained together into a single semicolon- or comma-separated prose block.
-
-Structure, newspaper style (skip a numbered section entirely if truly nothing to report; if the only content is the routine-volume rollup with no individually distinctive case, don't manufacture a Top Story out of it — just note that plainly and go straight to section 3):
-1. Masthead: "[Weekday, Month Day, Year]", big serif nameplate "THE DC RECORD" (with "DC" in burgundy), italic tagline "Litigation against federal agencies and officials, every day.", framed by the burgundy/gunmetal rule treatment described above.
-2. Top Story: the single most newsworthy new case from today's pull — full headline + burgundy italic subhead/dek + 3-5 paragraphs + a burgundy-bordered "Read the complaint" callout box linking the real PDF (per the SOURCE LINK rule) when one exists. Don't manufacture false urgency if nothing stands out.
-3. "New Litigation" — every other distinctive case as its own `<li>` (parties bolded, complaint PDF linked when one exists, cause of action, relief sought), followed by the compact per-category "also filed" count lines for the routine FOIA/visa-delay volume.
-4. Footer: coverage window, source (CourtListener/RECAP, U.S. District Court for the District of Columbia only — note the D.D.C.-only scope limitation here), note if the run was skipped and why, sign-off "— The DC Record".
-
+=== WRITING RULES (apply everywhere) ===
+EVERY section needs its own headline + a short plain-English summary before any list/detail — never open a section with a raw list. If a section's items are individually mundane, say so plainly rather than forcing false significance.
+NEVER STITCH MANY ITEMS INTO ONE PARAGRAPH: the moment you're naming more than four or five similar items in a row, each gets its own item in a `list` block, never chained into one semicolon-separated paragraph.
 Every case mentioned must have its source link when one exists per the SOURCE LINK rule, or be explicitly noted as unavailable. Every characterization must be based on something actually read, not just a cause code/case caption, EXCEPT the routine rolled-up counts.
-
-REMINDER — BOLD NAMES, NO EXCEPTIONS: this rule (top of this prompt) applies to every section. Bold every name in <strong> tags the first time it appears within its section. Check every section before finishing, not just the Top Story.
-=== SAVE IT ===
-Save the finished HTML to a file named `newsletter-TODAY.html` in the current directory (same filename convention as the other three editions, so the workflow's commit step can find it the same way — despite the name, nothing is emailed).
-
-Follow the STATUS FLAG RULES above: write `digest_written.flag` now with the case count.
+Inline formatting inside any text you write (paragraphs, list items) may use `<strong>`, `<a href="...">`, and `<em>` — nothing else; the render script handles all page-level styling.
+=== OUTPUT FORMAT ===
+Write `content-TODAY.json` (TODAY = today's date, `YYYY-MM-DD`) via the Write tool, matching this schema exactly:
+```json
+{
+  "date": "Friday, September 11, 2026",
+  "top_story": {
+    "eyebrow": "Top Story",
+    "headline": "...", "dek": "... (one sentence, optional)",
+    "paragraphs": ["... 3-5 paragraphs ..."],
+    "callout": {"label": "Read the complaint", "links": [{"text": "...", "url": "..."}]}
+  },
+  "sections": [
+    {
+      "eyebrow": "New Litigation",
+      "headline": "...",
+      "paragraphs": ["... 1-3 summary sentences ..."],
+      "blocks": [
+        {"type": "list", "items": ["<li inner html for one distinctive case>"]},
+        {"type": "note", "text": "compact per-category 'also filed' count line, e.g. routine FOIA/visa-delay volume"}
+      ],
+      "no_news": false
+    }
+  ],
+  "footer": {
+    "coverage_window": "...",
+    "sources": "CourtListener/RECAP, U.S. District Court for the District of Columbia only.",
+    "known_gaps": "Note the D.D.C.-only scope limitation here, plus anything else skipped."
+  }
+}
+```
+If the only content is the routine-volume rollup with no individually distinctive case, don't manufacture a Top Story out of it — write a plain, honest headline in `top_story` saying so, omit the `callout`, and let "New Litigation" carry the rollup counts.
 
 End your final message (printed to stdout, this becomes the workflow run's log) with a short plain-text summary: case counts by category, top story headline (if any), and whether the run was skipped due to connectivity.

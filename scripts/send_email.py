@@ -5,11 +5,16 @@ the response in its own context. This removes an entire self-reporting
 hallucination surface (and the RESEND_API_KEY/Resend-handling instructions
 entirely from Claude's prompt/token budget).
 
-Usage: python3 send_email.py newsletter.html "DC Record • Executive Branch • <date>" [--to email1,email2,...]
+Usage: python3 send_email.py newsletter.html "DC Record • Executive Branch • <date>" \
+    [--to email1,email2,...] [--from "DC Record • Executive Branch <newsletter@markalfred.news>"]
 Requires: RESEND_API_KEY env var.
 Resend sits behind a Cloudflare bot check that blocks the default
 urllib/requests user agent (403 / error 1010) but accepts plain curl -- so
 this shells out to curl, same as the prompt used to instruct Claude to do.
+
+Shared across all emailed DC Record editions (Executive Branch, Campaigns &
+Congress, Lobbying) -- pass --from to identify which edition is sending;
+--to defaults to the standard 3-person list if omitted.
 """
 import json
 import os
@@ -17,7 +22,7 @@ import subprocess
 import sys
 
 DEFAULT_TO = ["markalfred@notus.com", "taylorgiorno@notus.com", "annakramer@notus.com"]
-FROM = "DC Record • Executive Branch <newsletter@markalfred.news>"
+DEFAULT_FROM = "DC Record • Executive Branch <newsletter@markalfred.news>"
 
 
 def make_text_summary(html_path):
@@ -33,6 +38,9 @@ def main():
     to = DEFAULT_TO
     if "--to" in sys.argv:
         to = sys.argv[sys.argv.index("--to") + 1].split(",")
+    from_addr = DEFAULT_FROM
+    if "--from" in sys.argv:
+        from_addr = sys.argv[sys.argv.index("--from") + 1]
 
     api_key = os.environ.get("RESEND_API_KEY")
     if not api_key:
@@ -44,7 +52,7 @@ def main():
         html_content = f.read()
 
     payload = {
-        "from": FROM, "to": to, "subject": subject,
+        "from": from_addr, "to": to, "subject": subject,
         "html": html_content, "text": make_text_summary(html_path),
     }
     proc = subprocess.run(
