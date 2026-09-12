@@ -52,13 +52,20 @@ jobs:
         env:
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
         run: |
-          cd scripts
+          # Run from the repo root, NOT `cd scripts` -- these scripts write
+          # to relative data/*.json paths expecting the repo root as cwd.
+          # (Python still finds dc_common.py fine either way: it adds the
+          # executed script's own directory to sys.path[0] regardless of
+          # cwd.) Confirmed by hand: `cd scripts` first made every fetch
+          # silently write to scripts/data/ instead, which the reachability
+          # check then read as "fetch script did not run" for all 5 and
+          # wrongly triggered the 3+-down skip path.
           set +e
-          python3 fetch_omb.py; echo "fetch_omb exit=$?"
-          python3 fetch_usaspending.py; echo "fetch_usaspending exit=$?"
-          python3 fetch_sam.py; echo "fetch_sam exit=$?"
-          python3 fetch_oge.py; echo "fetch_oge exit=$?"
-          python3 fetch_fedregister.py; echo "fetch_fedregister exit=$?"
+          python3 scripts/fetch_omb.py; echo "fetch_omb exit=$?"
+          python3 scripts/fetch_usaspending.py; echo "fetch_usaspending exit=$?"
+          python3 scripts/fetch_sam.py; echo "fetch_sam exit=$?"
+          python3 scripts/fetch_oge.py; echo "fetch_oge exit=$?"
+          python3 scripts/fetch_fedregister.py; echo "fetch_fedregister exit=$?"
           set -e
 
       # Mechanical: "3+ of 5 sources unreachable -> skip and notify" used to
