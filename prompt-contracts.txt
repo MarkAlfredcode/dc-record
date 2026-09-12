@@ -67,7 +67,7 @@ Write `content-TODAY.json` (TODAY = today's date, `YYYY-MM-DD`) via the Write to
   }
 }
 ```
-The order of `sections` is your call for which reads best when all have real news; a section whose only finding is the "nothing notable" case should be marked `"no_news": true` — the render script moves those to the bottom automatically, you don't need to reorder them yourself.
+The order of `sections` is your call for which reads best when all have real news, EXCEPT: USAspending Contracts always goes above The Federal Register, whenever both have real news that day. A section whose only finding is the "nothing notable" case should be marked `"no_news": true` — the render script moves those to the bottom automatically, you don't need to reorder them yourself.
 Top Story is the single most newsworthy item found across ALL five tasks — don't manufacture false urgency if nothing stands out; in that case write a plain, honest headline saying so and omit the `callout`.
 
 End your final message (printed to stdout, this becomes the workflow run's log) with a short plain-text summary: section count, Top Story headline, and any known gaps.
