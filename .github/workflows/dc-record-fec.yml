@@ -13,6 +13,10 @@ on:
         description: 'Send only to this address instead of the normal 3-person list (leave blank for normal recipients)'
         required: false
         default: ''
+      skip_email:
+        description: 'Skip sending email entirely (true/false) -- for snapshot-only test runs (e.g. producing an AM/PM edition to look at)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write  # needed to commit the incumbent-candidates manifest (Task 1) and the fec-filings-seen/pfd-ptr-seen dedupe manifests (Tasks 1 & 2)
@@ -90,15 +94,19 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          TO_ARG=""
-          if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
-            TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
+          if [ "${{ github.event.inputs.skip_email }}" == "true" ]; then
+            echo "skip_email=true -- not sending, this run is for testing/snapshot purposes only" > email_skipped.flag
+          else
+            TO_ARG=""
+            if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
+              TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
+            fi
+            python3 scripts/send_email.py \
+              "newsletter-${{ steps.date.outputs.today }}.html" \
+              "DC Record • Campaigns & Congress • ${{ steps.date.outputs.today }}" \
+              --from "DC Record • Campaigns & Congress <newsletter@markalfred.news>" \
+              $TO_ARG
           fi
-          python3 scripts/send_email.py \
-            "newsletter-${{ steps.date.outputs.today }}.html" \
-            "DC Record • Campaigns & Congress • ${{ steps.date.outputs.today }}" \
-            --from "DC Record • Campaigns & Congress <newsletter@markalfred.news>" \
-            $TO_ARG
 
       - name: Push ntfy notification of this run's outcome
         if: always()
@@ -109,6 +117,8 @@ jobs:
           }
           if [ -f email_sent.flag ]; then
             notify "DC Record Campaigns & Congress sent" "email" "$(cat email_sent.flag)"
+          elif [ -f email_skipped.flag ]; then
+            notify "DC Record Campaigns & Congress: test run (no email)" "test_tube" "$(cat email_skipped.flag)"
           elif [ -f email_failed.flag ]; then
             notify "DC Record Campaigns & Congress FAILED" "rotating_light" "$(cat email_failed.flag)"
           elif [ -f content_skipped.flag ]; then
