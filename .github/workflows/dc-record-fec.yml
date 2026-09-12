@@ -17,6 +17,10 @@ on:
         description: 'Skip sending email entirely (true/false) -- for snapshot-only test runs (e.g. producing an AM/PM edition to look at)'
         required: false
         default: 'false'
+      verbose_diagnostics:
+        description: 'Capture a full tool-by-tool trace (stream-json) as a build artifact, for cost/turn debugging (true/false)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write  # needed to commit the incumbent-candidates manifest (Task 1) and the fec-filings-seen/pfd-ptr-seen dedupe manifests (Tasks 1 & 2)
@@ -61,12 +65,30 @@ jobs:
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
         run: |
           set +e
-          cat prompt-fec.txt | \
-            claude -p \
-              --permission-mode bypassPermissions \
-              --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
-              --output-format json > claude_result.json
-          CLAUDE_EXIT=$?
+          if [ "${{ github.event.inputs.verbose_diagnostics }}" == "true" ]; then
+            # stream-json emits one JSON object per turn/tool-call instead of
+            # only the final result, so a turn-by-turn breakdown can actually
+            # be reconstructed afterward -- plain --output-format json (the
+            # normal path below) throws that away, which is why the 2026-09-11
+            # PM-test cost spike couldn't be diagnosed from its log alone. The
+            # stream's last line is a "result" event, same shape as plain
+            # json's single object, so the existing cost/turn extraction below
+            # still works unmodified against it.
+            cat prompt-fec.txt | \
+              claude -p \
+                --permission-mode bypassPermissions \
+                --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
+                --output-format stream-json --verbose > claude_stream.jsonl
+            CLAUDE_EXIT=$?
+            tail -n1 claude_stream.jsonl > claude_result.json
+          else
+            cat prompt-fec.txt | \
+              claude -p \
+                --permission-mode bypassPermissions \
+                --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
+                --output-format json > claude_result.json
+            CLAUDE_EXIT=$?
+          fi
           set -e
 
           echo "::group::Claude usage/cost (Campaigns & Congress)"
@@ -83,6 +105,15 @@ jobs:
           echo "::endgroup::"
 
           exit $CLAUDE_EXIT
+
+      - name: Upload verbose diagnostics trace
+        if: always() && github.event.inputs.verbose_diagnostics == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-stream-trace-${{ github.run_id }}
+          path: claude_stream.jsonl
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Render newsletter from content JSON
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
