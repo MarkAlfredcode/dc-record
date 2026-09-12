@@ -8,10 +8,9 @@ on:
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
     # Site-refresh-only run, ~3:45pm Pacific -- see dc-record-fec.yml's
-    # matching comment for the full rationale and the dedupe-manifest
-    # tradeoff this implies (nothing here has a "seen" manifest of its own
-    # the way FEC/PFD does, so that specific risk doesn't apply to this
-    # edition).
+    # matching comment for the full rationale. Nothing here has a "seen"
+    # dedupe manifest the way FEC/PFD does, so this edition only needs the
+    # digest/lobbying.html "latest"-alias protection, not a manifest revert.
     - cron: '45 22 * * *'
   workflow_dispatch:
     inputs:
@@ -46,6 +45,19 @@ jobs:
       - name: Compute today's date
         id: date
         run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      # Single source of truth for "will this run actually send an email" --
+      # reused by the Send email step below and by the Commit step, which
+      # needs the same answer to keep the site's "latest" alias on the real
+      # AM edition rather than an unsent afternoon scrape.
+      - name: Determine whether this run will send email
+        id: email_decision
+        run: |
+          SKIP="false"
+          if [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+            SKIP="true"
+          fi
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
 
       # 2026-09-12 architecture change: Claude no longer writes the final
       # HTML or sends the email itself -- it writes content-TODAY.json (see
@@ -92,7 +104,7 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          if [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+          if [ "${{ steps.email_decision.outputs.skip }}" == "true" ]; then
             echo "3:45pm site-refresh-only schedule -- not sending" > email_skipped.flag
           else
             TO_ARG=""
@@ -137,11 +149,12 @@ jobs:
       - name: Commit today's newsletter
         run: |
           set -euo pipefail
+          IS_SITE_REFRESH="${{ steps.email_decision.outputs.skip }}"
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
             # AM/PM edition snapshots -- see dc-record-fec.yml's commit step
-            # for the full rationale. digest/lobbying.html stays a "latest"
-            # alias for backward compatibility.
+            # for the full rationale, including why a site-refresh-only run
+            # never advances digest/lobbying.html.
             TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
             AM_DATE_FILE="digest/.lobbying-am-date"
             PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
@@ -152,7 +165,11 @@ jobs:
             else
               cp newsletter-*.html digest/lobbying-pm.html
             fi
-            cp newsletter-*.html digest/lobbying.html
+            if [ "$IS_SITE_REFRESH" == "true" ]; then
+              echo "Site-refresh-only (no-email) run -- leaving digest/lobbying.html on the real AM edition."
+            else
+              cp newsletter-*.html digest/lobbying.html
+            fi
           else
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/lobbying*.html as-is."
           fi
