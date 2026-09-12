@@ -2,12 +2,17 @@ name: DC Record • Courts
 
 on:
   schedule:
-    # Once daily. All times UTC (GitHub Actions cron has no timezone
+    # Twice daily. All times UTC (GitHub Actions cron has no timezone
     # support). 10:25 UTC -- offset 25 minutes from the other three DC
     # Record workflows (all at :00 or :05) so this one's git push doesn't
     # collide with theirs on the same branch; will drift an hour once PST
     # (UTC-8) kicks in each November, same caveat as the others.
     - cron: '25 10 * * *'
+    # Site-refresh-only run, 45 minutes after the main one, same 25-minute
+    # stagger preserved -- see dc-record-fec.yml's matching comment for the
+    # full rationale. This edition already never emails either way, so no
+    # separate skip-email gating is needed here.
+    - cron: '10 11 * * *'
   workflow_dispatch: {}
 
 permissions:

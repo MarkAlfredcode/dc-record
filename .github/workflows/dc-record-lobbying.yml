@@ -2,11 +2,17 @@ name: DC Record • Lobbying
 
 on:
   schedule:
-    # Once daily. All times UTC (GitHub Actions cron has no timezone
+    # Twice daily. All times UTC (GitHub Actions cron has no timezone
     # support). 10:00 UTC = ~3:00am Pacific during PDT (UTC-7); will drift
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
+    # Site-refresh-only run, 45 minutes after the main one -- see
+    # dc-record-fec.yml's matching comment for the full rationale and the
+    # dedupe-manifest tradeoff this implies (nothing here has a "seen"
+    # manifest of its own the way FEC/PFD does, so that specific risk
+    # doesn't apply to this edition).
+    - cron: '45 10 * * *'
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -86,15 +92,19 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          TO_ARG=""
-          if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
-            TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
+          if [ "${{ github.event.schedule }}" == "45 10 * * *" ]; then
+            echo "3:45am site-refresh-only schedule -- not sending" > email_skipped.flag
+          else
+            TO_ARG=""
+            if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
+              TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
+            fi
+            python3 scripts/send_email.py \
+              "newsletter-${{ steps.date.outputs.today }}.html" \
+              "DC Record • Lobbying • ${{ steps.date.outputs.today }}" \
+              --from "DC Record • Lobbying <newsletter@markalfred.news>" \
+              $TO_ARG
           fi
-          python3 scripts/send_email.py \
-            "newsletter-${{ steps.date.outputs.today }}.html" \
-            "DC Record • Lobbying • ${{ steps.date.outputs.today }}" \
-            --from "DC Record • Lobbying <newsletter@markalfred.news>" \
-            $TO_ARG
 
       - name: Push ntfy notification of this run's outcome
         if: always()
@@ -105,6 +115,8 @@ jobs:
           }
           if [ -f email_sent.flag ]; then
             notify "DC Record Lobbying sent" "email" "$(cat email_sent.flag)"
+          elif [ -f email_skipped.flag ]; then
+            notify "DC Record Lobbying: site refresh only (no email)" "test_tube" "$(cat email_skipped.flag)"
           elif [ -f email_failed.flag ]; then
             notify "DC Record Lobbying FAILED" "rotating_light" "$(cat email_failed.flag)"
           elif [ -f content_skipped.flag ]; then
