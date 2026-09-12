@@ -7,7 +7,12 @@ on:
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      test_recipient_override:
+        description: 'Send only to this address instead of the normal 3-person list (leave blank for normal recipients)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -30,19 +35,75 @@ jobs:
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           "$HOME/.local/bin/claude" --version
+          python3 --version
 
-      - name: Run DC Record • Executive Branch
+      - name: Compute today's date
+        id: date
+        run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      # 2026-09-12 architecture change: these 5 scripts do all the fully-
+      # mechanical fetch/paginate/filter/dedupe/flag work that used to happen
+      # inside Claude's own reasoning (73 turns / 8.6M cache-read tokens /
+      # $3.18 on 2026-09-11, the worst of the 4 DC Record editions) --
+      # see /Users/mark/.claude/plans/imperative-brewing-lerdorf.md. Claude's
+      # job narrows to reading their pre-digested candidates JSON and writing
+      # the prose/judgment calls that can't be scripted.
+      - name: Run fetch/filter scripts
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+        run: |
+          cd scripts
+          set +e
+          python3 fetch_omb.py; echo "fetch_omb exit=$?"
+          python3 fetch_usaspending.py; echo "fetch_usaspending exit=$?"
+          python3 fetch_sam.py; echo "fetch_sam exit=$?"
+          python3 fetch_oge.py; echo "fetch_oge exit=$?"
+          python3 fetch_fedregister.py; echo "fetch_fedregister exit=$?"
+          set -e
+
+      # Mechanical: "3+ of 5 sources unreachable -> skip and notify" used to
+      # be Claude's own judgment call reading its own connectivity-check
+      # curls; now it's just counting a boolean field 5 scripts already
+      # reported, so it happens here instead of costing a turn.
+      - name: Check source reachability
+        id: reachability
+        run: |
+          DOWN=$(python3 -c "
+          import json
+          files = ['omb_candidates.json','usaspending_candidates.json','sam_candidates.json','oge_candidates.json','fedregister_candidates.json']
+          hosts = ['openomb.org/apportionment-public.max.gov','api.usaspending.gov','api.sam.gov','extapps2.oge.gov','www.federalregister.gov']
+          down = []
+          for f, h in zip(files, hosts):
+              try:
+                  d = json.load(open(f'data/{f}'))
+                  if d.get('reachable') is False:
+                      down.append(h)
+              except FileNotFoundError:
+                  down.append(h + ' (fetch script did not run)')
+          print(','.join(down))
+          ")
+          COUNT=$(echo -n "$DOWN" | tr ',' '\n' | grep -c . || true)
+          echo "down_hosts=$DOWN" >> "$GITHUB_OUTPUT"
+          echo "down_count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Down hosts: $DOWN ($COUNT)"
+
+      - name: Send network-issue notice and skip (3+ sources down)
+        if: steps.reachability.outputs.down_count >= 3
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python3 scripts/send_notice.py "${{ steps.reachability.outputs.down_hosts }}"
+
+      - name: Run DC Record • Executive Branch (content generation)
         id: run_edition
+        if: steps.reachability.outputs.down_count < 3
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
         run: |
           set +e
           cat prompt-contracts.txt | \
             claude -p \
               --permission-mode bypassPermissions \
-              --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
+              --allowedTools "Read,Write" \
               --output-format json > claude_result.json
           CLAUDE_EXIT=$?
           set -e
@@ -62,6 +123,25 @@ jobs:
 
           exit $CLAUDE_EXIT
 
+      - name: Render newsletter from content JSON
+        if: steps.reachability.outputs.down_count < 3 && hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
+        run: |
+          python3 scripts/render_contracts.py "content-${{ steps.date.outputs.today }}.json" "newsletter-${{ steps.date.outputs.today }}.html"
+
+      - name: Send email
+        if: steps.reachability.outputs.down_count < 3 && hashFiles(format('newsletter-{0}.html', steps.date.outputs.today)) != ''
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          TO_ARG=""
+          if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
+            TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
+          fi
+          python3 scripts/send_email.py \
+            "newsletter-${{ steps.date.outputs.today }}.html" \
+            "DC Record • Executive Branch • ${{ steps.date.outputs.today }}" \
+            $TO_ARG
+
       - name: Push ntfy notification of this run's outcome
         if: always()
         run: |
@@ -75,7 +155,11 @@ jobs:
             notify "DC Record Executive Branch FAILED" "rotating_light" "$(cat email_failed.flag)"
           elif [ -f email_skipped.flag ]; then
             notify "DC Record Executive Branch skipped" "warning" "$(cat email_skipped.flag)"
-          elif [ "${{ steps.run_edition.outcome }}" != "success" ]; then
+          elif [ -f content_failed.flag ]; then
+            notify "DC Record Executive Branch content FAILED" "rotating_light" "$(cat content_failed.flag)"
+          elif [ -f content_skipped.flag ]; then
+            notify "DC Record Executive Branch content skipped" "warning" "$(cat content_skipped.flag)"
+          elif [ "${{ steps.run_edition.outcome }}" == "failure" ]; then
             notify "DC Record Executive Branch CRASHED" "rotating_light" "Run step failed with no status flag written — check the Actions log."
           else
             notify "DC Record Executive Branch: unknown outcome" "warning" "Run finished but wrote no status flag — check the Actions log."
@@ -86,20 +170,20 @@ jobs:
       # checkout -- GitHub Actions' build-artifact download redirects to Azure
       # Blob Storage, which that routine's cloud sandbox cannot reach (confirmed
       # live 2026-09-05), so a committed file is the reliable path.
-      - name: Commit updated OMB/USAspending manifests and today's newsletter
+      - name: Commit updated manifests and today's newsletter
         run: |
           set -euo pipefail
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
             cp newsletter-*.html digest/executive.html
           else
-            echo "No newsletter file produced this run (likely a skipped/failed send) -- leaving digest/executive.html as-is."
+            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/executive.html as-is."
           fi
           if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json digest/executive.html; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
             git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json digest/executive.html
-            git commit -m "Update OMB/USAspending manifests and today's newsletter [skip ci]"
+            git commit -m "Update manifests and today's newsletter [skip ci]"
             # Campaigns & Congress's manifest-commit step runs on the same
             # cron slot and can push to this same branch around the same
             # time -- rebase-and-retry on a non-fast-forward push instead of
