@@ -1,18 +1,16 @@
 name: DC Record • Courts
 
 on:
-  schedule:
-    # Twice daily. All times UTC (GitHub Actions cron has no timezone
-    # support). 10:25 UTC -- offset 25 minutes from the other three DC
-    # Record workflows (all at :00 or :05) so this one's git push doesn't
-    # collide with theirs on the same branch; will drift an hour once PST
-    # (UTC-8) kicks in each November, same caveat as the others.
-    - cron: '25 10 * * *'
-    # Site-refresh-only run, ~3:45pm Pacific, same 25-minute stagger
-    # preserved -- see dc-record-fec.yml's matching comment for the full
-    # rationale. This edition already never emails either way, so no
-    # separate skip-email gating is needed here.
-    - cron: '10 23 * * *'
+  # `schedule:` DISABLED 2026-09-12 -- GitHub's own schedule event was
+  # observed firing this and the other 3 editions ~3.5h late every single
+  # day (best-effort, no SLA). Replaced by ../scheduler/, a Cloudflare
+  # Worker with its own Cron Triggers that calls workflow_dispatch below at
+  # the exact times these crons used to (25 10 * * * / 10 23 * * * UTC).
+  # This edition never emails either way, so both dispatches are identical
+  # (no skip_email/site_refresh_only input needed).
+  # schedule:
+  #   - cron: '25 10 * * *'   # AM, ~3:25am PT (PDT)
+  #   - cron: '10 23 * * *'   # PM site-refresh, ~4:10pm PT (PDT)
   workflow_dispatch: {}
 
 permissions:

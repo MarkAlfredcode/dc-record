@@ -1,0 +1,20 @@
+name = "dc-record-scheduler"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Fires GitHub `workflow_dispatch` calls for the dc-record edition workflows
+# at exact wall-clock times, instead of relying on GitHub Actions' own
+# `schedule:` trigger (documented best-effort -- observed drifting ~3.5h
+# late every single day on this repo, see the disabled `schedule:` blocks
+# left in place in ../.github/workflows/*.yml for the times these replace).
+#
+# All times UTC (Cloudflare Cron Triggers have no timezone support, same
+# caveat as GitHub Actions cron -- these drift an hour relative to Pacific
+# each Nov/March DST change and need revisiting then, same as before).
+[triggers]
+crons = [
+  "0 10 * * *",   # AM: FEC / Lobbying / Contracts   -> ~3:00am PT (PDT)
+  "25 10 * * *",  # AM: Courts                        -> ~3:25am PT (PDT)
+  "45 22 * * *",  # PM site-refresh: FEC/Lobbying/Contracts -> ~3:45pm PT (PDT)
+  "10 23 * * *",  # PM site-refresh: Courts           -> ~4:10pm PT (PDT)
+]

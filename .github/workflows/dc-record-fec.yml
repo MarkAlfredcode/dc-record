@@ -1,24 +1,19 @@
 name: DC Record • Campaigns & Congress
 
 on:
-  schedule:
-    # Twice daily. All times UTC (GitHub Actions cron has no timezone
-    # support). 10:00 UTC = ~3:00am Pacific during PDT (UTC-7); will drift
-    # an hour once PST (UTC-8) kicks in each November -- revisit then, same
-    # caveat as the flagship dc-record.yml workflow.
-    - cron: '0 10 * * *'
-    # Site-refresh-only run, ~3:45pm Pacific (22:45 UTC during PDT -- same
-    # DST caveat as above). Generates the same content the main run would,
-    # but the Commit step below (see its "site-refresh" branch) reverts the
-    # fec-filings-seen/pfd-ptr-seen dedupe manifests before committing and
-    # skips advancing digest/campaigns.html (the site's default/"latest"
-    # view), so: (a) anything this run finds first is NOT marked "seen" and
-    # will still show up in tomorrow's real 3:00am email, and (b) the site's
-    # default view stays on the real AM edition rather than this unsent
-    # scrape -- it's saved to digest/campaigns-pm.html only, viewable via
-    # the PM Edition dropdown. Fixes what an earlier version of this comment
-    # flagged as a silent-loss risk (2026-09-12).
-    - cron: '45 22 * * *'
+  # `schedule:` DISABLED 2026-09-12 -- GitHub's own schedule event was
+  # observed firing this and the other 3 editions ~3.5h late every single
+  # day (best-effort, no SLA). Replaced by ../scheduler/, a Cloudflare
+  # Worker with its own Cron Triggers that calls workflow_dispatch below at
+  # the exact times these crons used to (0 10 * * * / 45 22 * * * UTC).
+  # Left here, commented, so the intended times/rationale aren't lost.
+  # schedule:
+  #   - cron: '0 10 * * *'    # AM, ~3:00am PT (PDT)
+  #   - cron: '45 22 * * *'   # PM site-refresh, ~3:45pm PT (PDT) -- dispatched
+  #                           # with the existing skip_email:"true" input
+  #                           # (this edition already had that input; the
+  #                           # other 2 editions got a new site_refresh_only
+  #                           # input instead). See ../scheduler/README.md.
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -69,7 +64,7 @@ jobs:
         id: email_decision
         run: |
           SKIP="false"
-          if [ "${{ github.event.inputs.skip_email }}" == "true" ] || [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+          if [ "${{ github.event.inputs.skip_email }}" == "true" ]; then
             SKIP="true"
           fi
           echo "skip=$SKIP" >> "$GITHUB_OUTPUT"

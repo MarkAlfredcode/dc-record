@@ -1,23 +1,28 @@
 name: DC Record • Lobbying
 
 on:
-  schedule:
-    # Twice daily. All times UTC (GitHub Actions cron has no timezone
-    # support). 10:00 UTC = ~3:00am Pacific during PDT (UTC-7); will drift
-    # an hour once PST (UTC-8) kicks in each November -- revisit then, same
-    # caveat as the flagship dc-record.yml workflow.
-    - cron: '0 10 * * *'
-    # Site-refresh-only run, ~3:45pm Pacific -- see dc-record-fec.yml's
-    # matching comment for the full rationale. Nothing here has a "seen"
-    # dedupe manifest the way FEC/PFD does, so this edition only needs the
-    # digest/lobbying.html "latest"-alias protection, not a manifest revert.
-    - cron: '45 22 * * *'
+  # `schedule:` DISABLED 2026-09-12 -- GitHub's own schedule event was
+  # observed firing this and the other 3 editions ~3.5h late every single
+  # day (best-effort, no SLA). Replaced by ../scheduler/, a Cloudflare
+  # Worker with its own Cron Triggers that calls workflow_dispatch below at
+  # the exact times these crons used to (0 10 * * * / 45 22 * * * UTC),
+  # passing `site_refresh_only: "true"` on the 45 22 dispatch in place of
+  # the old `github.event.schedule == '45 22 * * *'` check.
+  # schedule:
+  #   - cron: '0 10 * * *'    # AM, ~3:00am PT (PDT)
+  #   - cron: '45 22 * * *'   # PM site-refresh, ~3:45pm PT (PDT) -- protects
+  #                           # digest/lobbying.html's "latest" alias only
+  #                           # (no dedupe manifest on this edition)
   workflow_dispatch:
     inputs:
       test_recipient_override:
         description: 'Send only to this address instead of the normal 3-person list (leave blank for normal recipients)'
         required: false
         default: ''
+      site_refresh_only:
+        description: "Site-refresh-only run (true/false) -- generates content but skips sending email and protects digest/lobbying.html's \"latest\" alias, same as the old 3:45pm schedule slot"
+        required: false
+        default: 'false'
 
 permissions:
   contents: write  # needed to commit today's newsletter to digest/lobbying.html
@@ -54,7 +59,7 @@ jobs:
         id: email_decision
         run: |
           SKIP="false"
-          if [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+          if [ "${{ github.event.inputs.site_refresh_only }}" == "true" ]; then
             SKIP="true"
           fi
           echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
