@@ -1,2 +1,7 @@
 newsletter-*.html
 *.log
+__pycache__/
+*.pyc
+data/*_candidates.json
+content-*.json
+*.flag
