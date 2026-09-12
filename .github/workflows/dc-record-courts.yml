@@ -31,8 +31,18 @@ jobs:
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           "$HOME/.local/bin/claude" --version
+          python3 --version
 
-      - name: Run DC Record • Courts
+      - name: Compute today's date
+        id: date
+        run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      # 2026-09-12 architecture change: Claude no longer writes the final
+      # HTML itself -- it writes content-TODAY.json (see prompt-courts.txt's
+      # OUTPUT FORMAT section) and scripts/render_courts.py below takes it
+      # from there. This edition still does its own fetching via Bash
+      # exactly as before; no email is sent for this edition either way.
+      - name: Run DC Record • Courts (content generation)
         id: run_edition
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -61,6 +71,11 @@ jobs:
           echo "::endgroup::"
 
           exit $CLAUDE_EXIT
+
+      - name: Render page from content JSON
+        if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
+        run: |
+          python3 scripts/render_courts.py "content-${{ steps.date.outputs.today }}.json" "newsletter-${{ steps.date.outputs.today }}.html"
 
       - name: Push ntfy notification of this run's outcome
         if: always()
