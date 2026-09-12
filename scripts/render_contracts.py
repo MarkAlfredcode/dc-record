@@ -61,7 +61,7 @@ MASTHEAD = """<!-- MASTHEAD -->
 <td class="px" style="padding:24px 20px 16px 20px; border-top:3px solid #3c4858; border-bottom:3px solid #b5563c;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr><td align="center" style="font-family:Georgia, 'Times New Roman', serif; font-size:13px; letter-spacing:2px; color:#3c4858; padding-bottom:6px;">{date_upper}</td></tr>
-<tr><td align="center" class="headline" style="font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:36px; font-weight:bold; color:#161616; padding-bottom:6px;">THE <span style="color:#b5563c;">DC</span> RECORD</td></tr>
+<tr><td align="center" class="headline" style="font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:34px; font-weight:bold; color:#161616; padding-bottom:6px;">THE <span style="color:#b5563c;">DC</span> RECORD</td></tr>
 <tr><td align="center" style="font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-size:14px; color:#3c4858; padding-bottom:4px;">Federal contracting, apportionments, and regulatory action, every day.</td></tr>
 <tr><td align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; letter-spacing:1px; color:#8a8a8a; text-transform:uppercase;">Executive Branch Edition</td></tr>
 </table>
@@ -170,7 +170,7 @@ def render_top_story(ts):
         f'<div style="font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; '
         f'letter-spacing:1.5px; color:{RUST}; text-transform:uppercase; padding-bottom:8px;">{esc(ts.get("eyebrow", "Top Story"))}</div>',
         f'<h1 class="h1 headline" style="font-family:\'Newsreader\', Georgia, \'Times New Roman\', serif; '
-        f'font-size:28px; line-height:34px; color:{INK}; margin:0 0 8px 0;">{ts["headline"]}</h1>',
+        f'font-size:26px; line-height:32px; color:{INK}; margin:0 0 8px 0;">{ts["headline"]}</h1>',
     ]
     if ts.get("dek"):
         parts.append(
