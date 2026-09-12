@@ -2,11 +2,22 @@ name: DC Record • Campaigns & Congress
 
 on:
   schedule:
-    # Once daily. All times UTC (GitHub Actions cron has no timezone
+    # Twice daily. All times UTC (GitHub Actions cron has no timezone
     # support). 10:00 UTC = ~3:00am Pacific during PDT (UTC-7); will drift
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
+    # Site-refresh-only run, 45 minutes after the main one. Generates and
+    # commits digest/campaigns.html (and the dedupe manifests) exactly like
+    # the main run, but the Send email step below skips sending for this
+    # specific schedule -- added so markalfred.news/dc-record has fresher
+    # content without a second email going out. NOTE: any filing that first
+    # appears in this 45-minute window gets marked "seen" in the dedupe
+    # manifests here and will NOT be in a future email either, since the
+    # 3:00am run already passed it by -- it'll show on the site but never
+    # get emailed. Flagged to Mark when this was added (2026-09-12); revisit
+    # if that ever loses something that mattered.
+    - cron: '45 10 * * *'
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -125,8 +136,8 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.skip_email }}" == "true" ]; then
-            echo "skip_email=true -- not sending, this run is for testing/snapshot purposes only" > email_skipped.flag
+          if [ "${{ github.event.inputs.skip_email }}" == "true" ] || [ "${{ github.event.schedule }}" == "45 10 * * *" ]; then
+            echo "skip_email (manual input, or the 3:45am site-refresh-only schedule) -- not sending" > email_skipped.flag
           else
             TO_ARG=""
             if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then

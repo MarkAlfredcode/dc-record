@@ -2,11 +2,17 @@ name: DC Record • Executive Branch
 
 on:
   schedule:
-    # Once daily. All times UTC (GitHub Actions cron has no timezone
+    # Twice daily. All times UTC (GitHub Actions cron has no timezone
     # support). 10:00 UTC = ~3:00am Pacific during PDT (UTC-7); will drift
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
+    # Site-refresh-only run, 45 minutes after the main one -- see
+    # dc-record-fec.yml's matching comment for the full rationale and the
+    # dedupe-manifest tradeoff this implies (applies here too: the
+    # omb-spend-plan/usaspending-contracts/oge-filings-seen manifests all
+    # get updated and committed on this run just like the main one).
+    - cron: '45 10 * * *'
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -95,7 +101,7 @@ jobs:
           echo "Down hosts: $DOWN ($COUNT)"
 
       - name: Send network-issue notice and skip (3+ sources down)
-        if: steps.reachability.outputs.down_count >= 3
+        if: steps.reachability.outputs.down_count >= 3 && github.event.schedule != '45 10 * * *'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python3 scripts/send_notice.py "${{ steps.reachability.outputs.down_hosts }}"
@@ -140,14 +146,18 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          TO_ARG=""
-          if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
-            TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
+          if [ "${{ github.event.schedule }}" == "45 10 * * *" ]; then
+            echo "3:45am site-refresh-only schedule -- not sending" > email_skipped.flag
+          else
+            TO_ARG=""
+            if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
+              TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
+            fi
+            python3 scripts/send_email.py \
+              "newsletter-${{ steps.date.outputs.today }}.html" \
+              "DC Record • Executive Branch • ${{ steps.date.outputs.today }}" \
+              $TO_ARG
           fi
-          python3 scripts/send_email.py \
-            "newsletter-${{ steps.date.outputs.today }}.html" \
-            "DC Record • Executive Branch • ${{ steps.date.outputs.today }}" \
-            $TO_ARG
 
       - name: Push ntfy notification of this run's outcome
         if: always()
