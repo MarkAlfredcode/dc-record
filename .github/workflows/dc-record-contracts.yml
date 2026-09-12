@@ -7,12 +7,12 @@ on:
     # an hour once PST (UTC-8) kicks in each November -- revisit then, same
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
-    # Site-refresh-only run, 45 minutes after the main one -- see
-    # dc-record-fec.yml's matching comment for the full rationale and the
-    # dedupe-manifest tradeoff this implies (applies here too: the
-    # omb-spend-plan/usaspending-contracts/oge-filings-seen manifests all
-    # get updated and committed on this run just like the main one).
-    - cron: '45 10 * * *'
+    # Site-refresh-only run, ~3:45pm Pacific -- see dc-record-fec.yml's
+    # matching comment for the full rationale and the dedupe-manifest
+    # tradeoff this implies (applies here too: the omb-spend-plan/
+    # usaspending-contracts/oge-filings-seen manifests all get updated and
+    # committed on this run just like the main one).
+    - cron: '45 22 * * *'
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -101,7 +101,7 @@ jobs:
           echo "Down hosts: $DOWN ($COUNT)"
 
       - name: Send network-issue notice and skip (3+ sources down)
-        if: steps.reachability.outputs.down_count >= 3 && github.event.schedule != '45 10 * * *'
+        if: steps.reachability.outputs.down_count >= 3 && github.event.schedule != '45 22 * * *'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python3 scripts/send_notice.py "${{ steps.reachability.outputs.down_hosts }}"
@@ -146,8 +146,8 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          if [ "${{ github.event.schedule }}" == "45 10 * * *" ]; then
-            echo "3:45am site-refresh-only schedule -- not sending" > email_skipped.flag
+          if [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+            echo "3:45pm site-refresh-only schedule -- not sending" > email_skipped.flag
           else
             TO_ARG=""
             if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
