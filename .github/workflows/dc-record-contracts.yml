@@ -8,10 +8,11 @@ on:
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
     # Site-refresh-only run, ~3:45pm Pacific -- see dc-record-fec.yml's
-    # matching comment for the full rationale and the dedupe-manifest
-    # tradeoff this implies (applies here too: the omb-spend-plan/
-    # usaspending-contracts/oge-filings-seen manifests all get updated and
-    # committed on this run just like the main one).
+    # matching comment for the full rationale. Same protection applies here:
+    # the Commit step reverts the omb-spend-plan/usaspending-contracts/
+    # oge-filings-seen manifests before committing and skips advancing
+    # digest/executive.html, so nothing this run scrapes first is lost from
+    # tomorrow's real email or shown as the site's default view.
     - cron: '45 22 * * *'
   workflow_dispatch:
     inputs:
@@ -46,6 +47,20 @@ jobs:
       - name: Compute today's date
         id: date
         run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      # Single source of truth for "will this run actually send an email" --
+      # reused by the network-issue-notice step, the Send email step, and
+      # the Commit step, which needs the same answer to decide whether to
+      # protect the dedupe manifests and the site's "latest" alias from an
+      # unsent run.
+      - name: Determine whether this run will send email
+        id: email_decision
+        run: |
+          SKIP="false"
+          if [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+            SKIP="true"
+          fi
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
 
       # 2026-09-12 architecture change: these 5 scripts do all the fully-
       # mechanical fetch/paginate/filter/dedupe/flag work that used to happen
@@ -101,7 +116,7 @@ jobs:
           echo "Down hosts: $DOWN ($COUNT)"
 
       - name: Send network-issue notice and skip (3+ sources down)
-        if: steps.reachability.outputs.down_count >= 3 && github.event.schedule != '45 22 * * *'
+        if: steps.reachability.outputs.down_count >= 3 && steps.email_decision.outputs.skip != 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python3 scripts/send_notice.py "${{ steps.reachability.outputs.down_hosts }}"
@@ -146,7 +161,7 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          if [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+          if [ "${{ steps.email_decision.outputs.skip }}" == "true" ]; then
             echo "3:45pm site-refresh-only schedule -- not sending" > email_skipped.flag
           else
             TO_ARG=""
@@ -190,11 +205,12 @@ jobs:
       - name: Commit updated manifests and today's newsletter
         run: |
           set -euo pipefail
+          IS_SITE_REFRESH="${{ steps.email_decision.outputs.skip }}"
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
             # AM/PM edition snapshots -- see dc-record-fec.yml's commit step
-            # for the full rationale. digest/executive.html stays a "latest"
-            # alias for backward compatibility.
+            # for the full rationale, including why a site-refresh-only run
+            # never advances digest/executive.html.
             TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
             AM_DATE_FILE="digest/.executive-am-date"
             PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
@@ -205,9 +221,21 @@ jobs:
             else
               cp newsletter-*.html digest/executive-pm.html
             fi
-            cp newsletter-*.html digest/executive.html
+            if [ "$IS_SITE_REFRESH" == "true" ]; then
+              echo "Site-refresh-only (no-email) run -- leaving digest/executive.html on the real AM edition."
+            else
+              cp newsletter-*.html digest/executive.html
+            fi
           else
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/executive*.html as-is."
+          fi
+          # See dc-record-fec.yml's commit step for the full rationale --
+          # these 3 are this edition's "seen" dedupe manifests (written by
+          # the fetch scripts above), so a site-refresh-only run reverts
+          # them before staging rather than letting today's scrape get
+          # marked seen without ever having been emailed.
+          if [ "$IS_SITE_REFRESH" == "true" ]; then
+            git checkout -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json 2>/dev/null || true
           fi
           if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json digest/; then
             git config user.name "dc-record-bot"

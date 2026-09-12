@@ -8,18 +8,16 @@ on:
     # caveat as the flagship dc-record.yml workflow.
     - cron: '0 10 * * *'
     # Site-refresh-only run, ~3:45pm Pacific (22:45 UTC during PDT -- same
-    # DST caveat as above). Generates and commits digest/campaigns.html (and
-    # the dedupe manifests) exactly like the main run, but the Send email
-    # step below skips sending for this specific schedule -- added so
-    # markalfred.news/dc-record has fresher content in the afternoon without
-    # a second email going out. NOTE: any filing that first appears between
-    # the 3:00am run and this one (i.e. most of the business day) gets
-    # marked "seen" in the dedupe manifests here and will NOT be in a future
-    # email either, since the 3:00am run already passed it by -- it'll show
-    # on the site but never get emailed. Flagged to Mark when this was added
-    # (2026-09-12, then retimed from 3:45am same day -- the gap this leaves
-    # is now most of the day, not 45 minutes); revisit if that ever loses
-    # something that mattered.
+    # DST caveat as above). Generates the same content the main run would,
+    # but the Commit step below (see its "site-refresh" branch) reverts the
+    # fec-filings-seen/pfd-ptr-seen dedupe manifests before committing and
+    # skips advancing digest/campaigns.html (the site's default/"latest"
+    # view), so: (a) anything this run finds first is NOT marked "seen" and
+    # will still show up in tomorrow's real 3:00am email, and (b) the site's
+    # default view stays on the real AM edition rather than this unsent
+    # scrape -- it's saved to digest/campaigns-pm.html only, viewable via
+    # the PM Edition dropdown. Fixes what an earlier version of this comment
+    # flagged as a silent-loss risk (2026-09-12).
     - cron: '45 22 * * *'
   workflow_dispatch:
     inputs:
@@ -62,6 +60,19 @@ jobs:
       - name: Compute today's date
         id: date
         run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      # Single source of truth for "will this run actually send an email" --
+      # reused by the Send email step below AND by the Commit step, which
+      # needs the same answer to decide whether to protect the dedupe
+      # manifests and the site's "latest" alias from an unsent run.
+      - name: Determine whether this run will send email
+        id: email_decision
+        run: |
+          SKIP="false"
+          if [ "${{ github.event.inputs.skip_email }}" == "true" ] || [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+            SKIP="true"
+          fi
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
 
       # 2026-09-12 architecture change: Claude no longer writes the final
       # HTML or sends the email itself -- it writes content-TODAY.json (see
@@ -139,7 +150,7 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.skip_email }}" == "true" ] || [ "${{ github.event.schedule }}" == "45 22 * * *" ]; then
+          if [ "${{ steps.email_decision.outputs.skip }}" == "true" ]; then
             echo "skip_email (manual input, or the 3:45pm site-refresh-only schedule) -- not sending" > email_skipped.flag
           else
             TO_ARG=""
@@ -184,15 +195,19 @@ jobs:
       - name: Commit updated manifests and today's newsletter
         run: |
           set -euo pipefail
+          IS_SITE_REFRESH="${{ steps.email_decision.outputs.skip }}"
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
             # AM/PM edition snapshots: the first run of the Pacific calendar
             # day becomes the AM edition; if a run already happened today, a
-            # later run (a manual afternoon test, or a future second cron
-            # slot) becomes the PM edition instead of silently overwriting
-            # the morning's snapshot. digest/campaigns.html stays a "latest"
-            # alias (AM content until/unless a PM run happens) for backward
-            # compatibility with anything reading that fixed path.
+            # later run becomes the PM edition instead of silently
+            # overwriting the morning's snapshot. digest/campaigns.html
+            # stays a "latest" alias for backward compatibility with
+            # anything reading that fixed path -- but a site-refresh-only
+            # (no-email) run never advances it, so the site's default view
+            # stays on the real AM edition instead of today's unsent scrape;
+            # that scrape is still saved to digest/campaigns-pm.html,
+            # reachable via the PM Edition dropdown for anyone who wants it.
             TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
             AM_DATE_FILE="digest/.campaigns-am-date"
             PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
@@ -203,9 +218,24 @@ jobs:
             else
               cp newsletter-*.html digest/campaigns-pm.html
             fi
-            cp newsletter-*.html digest/campaigns.html
+            if [ "$IS_SITE_REFRESH" == "true" ]; then
+              echo "Site-refresh-only (no-email) run -- leaving digest/campaigns.html on the real AM edition."
+            else
+              cp newsletter-*.html digest/campaigns.html
+            fi
           else
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/campaigns*.html as-is."
+          fi
+          # A site-refresh-only run still lets Claude update the FEC-
+          # filings/PFD-PTR dedupe manifests on disk as part of its normal
+          # task instructions -- revert those specific files before staging
+          # so nothing gets marked "seen" without ever having been emailed;
+          # tomorrow's real 3:00am run will naturally re-find and correctly
+          # email whatever this run scraped first. incumbent-candidates-
+          # manifest.json isn't a "seen" dedupe file (just a candidate-
+          # status cache), so it's fine to let it update normally either way.
+          if [ "$IS_SITE_REFRESH" == "true" ]; then
+            git checkout -- data/fec-filings-seen.json data/pfd-ptr-seen.json 2>/dev/null || true
           fi
           if ! git diff --quiet -- data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/; then
             git config user.name "dc-record-bot"
