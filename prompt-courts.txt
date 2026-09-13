@@ -34,6 +34,8 @@ d. Drop anything that isn't really about a U.S. cabinet-level agency/official OR
    Explicitly EXCLUDE: Foreign Sovereign Immunities Act suits against a foreign country (`cause` containing "1605A", or a foreign-state defendant like "ISLAMIC REPUBLIC OF ___") — that's litigation against a foreign government, not a U.S. one; pure private-party Diversity-jurisdiction suits with no government party; and any docket number containing `-cr-` or `-mj-` (criminal cases and magistrate proceedings — a different beat, not covered here).
 e. Classify what survives by `nature_of_suit`/`cause`: FOIA (nature_of_suit "895" / cause "05:551" or "05:552"), APA/agency-action review ("899"), mandamus or APA-based suits over delayed visa/immigration adjudication (cause "28:1361", "28:1651", or an APA cause naming a State Department/USCIS official as defendant over an individual visa/green-card/naturalization delay), civil enforcement brought BY the government ("UNITED STATES v. ..." or "USA v. ..." on the plaintiff side, civil not criminal), and "other."
 f. FOIA and immigration-delay suits run high, repetitive volume most days, often the same handful of frequent filers (e.g. Judicial Watch) or many near-identical suits against the same official. Roll these into a compact per-category count line (e.g. "11 new suits over delayed visa/green-card/naturalization adjudications, naming Secretary of State [Name] and other State/USCIS officials" / "10 new FOIA suits, 2 of them from Judicial Watch, against [agencies]") UNLESS one is individually distinctive: an unusual plaintiff (not a routine frequent filer — a state, a member of Congress, a major organization), a subject tied to something else already in today's edition, or an unusually large declared claim.
+
+FOIA CASES GET THEIR OWN SECTION, ALWAYS LAST: everything classified FOIA in step e — the rolled-up count line and any individually distinctive write-ups alike — goes into a dedicated section (eyebrow "FOIA Litigation", not "New Litigation") covering only FOIA suits. This section is always the last entry in the `sections` array, after every non-FOIA section, whether or not it has real content that day. If there are no new FOIA cases this run, still write this section with `no_news: true` and a one-line note saying so (e.g. "No new FOIA suits against a cabinet-level agency or the District of Columbia government were filed today."). Non-FOIA categories (immigration-delay rollups, civil enforcement, distinctive cabinet/D.C. cases, "other") stay in the regular "New Litigation" section(s) as before.
 g. For each distinctive case only (cap at 5, per the rate-limit rule above — fold any beyond that into the count line instead), fetch `GET https://www.courtlistener.com/api/rest/v4/dockets/{docket_id}/` to confirm `nature_of_suit`/`jurisdiction_type`. If a `recap_documents` entry's `description` mentions "COMPLAINT" and `is_available` is true, it will also carry a `filepath_local` (e.g. `recap/gov.uscourts.dcd.NNNNNN/gov.uscourts.dcd.NNNNNN.1.0.pdf`) — fetch and read the real PDF at `https://storage.courtlistener.com/{filepath_local}` per the SOURCE LINK rule above; most complaints are PACER-paywalled and NOT freely available (`is_available: false`, no `filepath_local`) — when that's the case, say plainly "complaint text not available, docket caption only" rather than inferring content you haven't read. Write 3-5 sentences: who sued whom (full names, official capacity noted), over what specific policy/action, what relief is sought, and why it's notable.
 h. After building the page, add every `docket_id` evaluated today (both individually written up and rolled into a count line — everything that survived step d) to the manifest with `"reported": TODAY`, drop entries whose `reported` date is more than 14 days old, and rewrite `data/courtlistener-cases-seen.json` with the full updated manifest every run, even if nothing changed.
 === WRITING RULES (apply everywhere) ===
@@ -59,7 +61,17 @@ Write `content-TODAY.json` (TODAY = today's date, `YYYY-MM-DD`) via the Write to
       "paragraphs": ["... 1-3 summary sentences ..."],
       "blocks": [
         {"type": "list", "items": ["<li inner html for one distinctive case>"]},
-        {"type": "note", "text": "compact per-category 'also filed' count line, e.g. routine FOIA/visa-delay volume"}
+        {"type": "note", "text": "compact per-category 'also filed' count line, e.g. routine visa-delay volume (FOIA excluded, see below)"}
+      ],
+      "no_news": false
+    },
+    {
+      "eyebrow": "FOIA Litigation",
+      "headline": "...",
+      "paragraphs": ["... 1-3 summary sentences ..."],
+      "blocks": [
+        {"type": "list", "items": ["<li inner html for one distinctive FOIA case>"]},
+        {"type": "note", "text": "compact 'also filed' FOIA count line, or the no-news line if there were none"}
       ],
       "no_news": false
     }
@@ -71,6 +83,6 @@ Write `content-TODAY.json` (TODAY = today's date, `YYYY-MM-DD`) via the Write to
   }
 }
 ```
-If the only content is the routine-volume rollup with no individually distinctive case, don't manufacture a Top Story out of it — write a plain, honest headline in `top_story` saying so, omit the `callout`, and let "New Litigation" carry the rollup counts.
+If the only content is the routine-volume rollup with no individually distinctive case, don't manufacture a Top Story out of it — write a plain, honest headline in `top_story` saying so, omit the `callout`, and let "New Litigation" carry the rollup counts. Reminder: the "FOIA Litigation" section must always be the LAST entry in the `sections` array — never let a non-FOIA section follow it, even a `no_news` one.
 
 End your final message (printed to stdout, this becomes the workflow run's log) with a short plain-text summary: case counts by category, top story headline (if any), and whether the run was skipped due to connectivity.
