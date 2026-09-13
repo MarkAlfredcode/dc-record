@@ -125,6 +125,44 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python3 scripts/send_notice.py "${{ steps.reachability.outputs.down_hosts }}"
 
+      # 2026-09-13 architecture change: OMB Apportionments and OGE Ethics
+      # Filings are pure "describe what's already flagged" work with no
+      # cross-item editorial ranking, so they run on a cheaper model in their
+      # own pass, writing content-mechanical.json for the main pass below to
+      # read. If this step fails or produces something unusable, the main
+      # pass's own prompt falls back to doing both tasks itself (see
+      # prompt-contracts.txt's FALLBACK TASKS) -- so this step is allowed to
+      # fail without failing the job.
+      - name: Run mechanical content pass (OMB + OGE, cheap model)
+        id: run_mechanical
+        if: steps.reachability.outputs.down_count < 3
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          set +e
+          cat prompt-contracts-mechanical.txt | \
+            claude -p \
+              --model claude-haiku-4-5-20251001 \
+              --permission-mode bypassPermissions \
+              --allowedTools "Read,Write" \
+              --output-format json > claude_mechanical_result.json
+          echo "mechanical exit=$?"
+          set -e
+
+          echo "::group::Claude usage/cost (mechanical pass)"
+          if jq -e . claude_mechanical_result.json >/dev/null 2>&1; then
+            jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_mechanical_result.json
+          else
+            echo "No valid JSON result -- main pass will use its fallback path. Raw output:"
+            cat claude_mechanical_result.json
+          fi
+          echo "::endgroup::"
+
+          echo "::group::Claude final message (mechanical pass)"
+          jq -r '.result // empty' claude_mechanical_result.json 2>/dev/null || true
+          echo "::endgroup::"
+          exit 0
+
       - name: Run DC Record • Executive Branch (content generation)
         id: run_edition
         if: steps.reachability.outputs.down_count < 3

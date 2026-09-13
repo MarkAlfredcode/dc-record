@@ -5,3 +5,5 @@ __pycache__/
 data/*_candidates.json
 content-*.json
 *.flag
+claude_result.json
+claude_mechanical_result.json
