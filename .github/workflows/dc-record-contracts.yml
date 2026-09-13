@@ -10,14 +10,10 @@ on:
   # the old `github.event.schedule == '45 22 * * *'` check.
   # schedule:
   #   - cron: '0 10 * * *'    # AM, ~3:00am PT (PDT)
-  #   - cron: '45 22 * * *'   # PM site-refresh, ~3:45pm PT (PDT) -- sends no
-  #                           # email and skips advancing digest/
-  #                           # executive.html's "latest" alias (updates
-  #                           # digest/executive-pm.html instead). As of
-  #                           # 2026-09-13 it NO LONGER reverts the omb-
-  #                           # spend-plan/omb-apportionment/usaspending-
-  #                           # contracts/oge-filings-seen manifests -- see
-  #                           # the Commit step below for why.
+  #   - cron: '45 22 * * *'   # PM site-refresh, ~3:45pm PT (PDT) -- reverts
+  #                           # the omb-spend-plan/usaspending-contracts/
+  #                           # oge-filings-seen manifests before committing
+  #                           # and skips advancing digest/executive.html
   workflow_dispatch:
     inputs:
       test_recipient_override:
@@ -237,19 +233,14 @@ jobs:
           else
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/executive*.html as-is."
           fi
-          # 2026-09-13: a site-refresh-only (PM) run's dedupe manifests
-          # (written by the fetch scripts above) USED TO get reverted here,
-          # on the theory that nothing should be marked "seen" without
-          # having actually been emailed. Changed on request: that meant a
-          # PM run's scan was pure throwaway work -- anything it caught
-          # just got silently re-flagged (or worse, re-missed, for the
-          # openomb.org-lag case this manifest exists to fix) the next
-          # morning instead of ever counting as progress. PM still never
-          # emails (IS_SITE_REFRESH still gates that + the digest/
-          # executive.html "latest" alias below) -- only the manifest-
-          # revert is gone, so a PM run's findings persist and the AM run
-          # the next day picks up from where PM left off instead of
-          # redoing it.
+          # See dc-record-fec.yml's commit step for the full rationale --
+          # these 3 are this edition's "seen" dedupe manifests (written by
+          # the fetch scripts above), so a site-refresh-only run reverts
+          # them before staging rather than letting today's scrape get
+          # marked seen without ever having been emailed.
+          if [ "$IS_SITE_REFRESH" == "true" ]; then
+            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json 2>/dev/null || true
+          fi
           # `git add` before the diff check, and check --cached rather than
           # the working-tree diff -- a brand-new untracked file (e.g. the
           # first-ever digest/executive-pm.html) is invisible to a plain
