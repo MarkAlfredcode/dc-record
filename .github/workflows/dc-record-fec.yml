@@ -232,10 +232,15 @@ jobs:
           if [ "$IS_SITE_REFRESH" == "true" ]; then
             git checkout -- data/fec-filings-seen.json data/pfd-ptr-seen.json 2>/dev/null || true
           fi
-          if ! git diff --quiet -- data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/; then
+          # `git add` before the diff check, and check --cached rather than
+          # the working-tree diff -- a brand-new untracked file (e.g. the
+          # first-ever digest/campaigns-pm.html) is invisible to a plain
+          # `git diff`, which would silently skip the commit entirely
+          # (confirmed live 2026-09-12).
+          git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/
+          if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/pfd-ptr-seen.json digest/
             git commit -m "Update incumbent-candidates/FEC-filings/PFD-PTR manifests and today's newsletter [skip ci]"
             # Executive Branch's manifest-commit step runs on the same cron
             # slot and can push to this same branch around the same time --

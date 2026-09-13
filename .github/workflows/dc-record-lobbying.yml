@@ -178,10 +178,16 @@ jobs:
           else
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/lobbying*.html as-is."
           fi
-          if ! git diff --quiet -- digest/; then
+          # `git add` before the diff check, and check --cached rather than
+          # the working-tree diff -- a brand-new untracked file (e.g. the
+          # first-ever digest/lobbying-pm.html) is invisible to a plain
+          # `git diff`, which would silently skip the commit entirely
+          # (confirmed live 2026-09-12: this edition's very first PM
+          # snapshot never got committed because of exactly this).
+          git add digest/
+          if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add digest/
             git commit -m "Update today's newsletter [skip ci]"
             # Executive Branch and Campaigns & Congress also push to main on
             # this same cron slot -- rebase-and-retry on a non-fast-forward
