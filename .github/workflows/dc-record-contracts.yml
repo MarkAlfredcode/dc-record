@@ -241,10 +241,15 @@ jobs:
           if [ "$IS_SITE_REFRESH" == "true" ]; then
             git checkout -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json 2>/dev/null || true
           fi
-          if ! git diff --quiet -- data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json digest/; then
+          # `git add` before the diff check, and check --cached rather than
+          # the working-tree diff -- a brand-new untracked file (e.g. the
+          # first-ever digest/executive-pm.html) is invisible to a plain
+          # `git diff`, which would silently skip the commit entirely
+          # (confirmed live 2026-09-12).
+          git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json digest/
+          if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/omb-spend-plan-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json digest/
             git commit -m "Update manifests and today's newsletter [skip ci]"
             # Campaigns & Congress's manifest-commit step runs on the same
             # cron slot and can push to this same branch around the same

@@ -126,10 +126,16 @@ jobs:
           else
             echo "No page produced this run (likely a skipped/failed run) -- leaving digest/courts*.html as-is."
           fi
-          if ! git diff --quiet -- data/courtlistener-cases-seen.json digest/; then
+          # `git add` before the diff check, and check --cached rather than
+          # the working-tree diff -- a brand-new untracked file is invisible
+          # to a plain `git diff` (this happened to work today only because
+          # the manifest file also changed in the same run; confirmed live
+          # 2026-09-12 as a real bug on the other 3 editions' first-ever
+          # *-pm.html write).
+          git add data/courtlistener-cases-seen.json digest/
+          if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add data/courtlistener-cases-seen.json digest/
             git commit -m "Update litigation manifest and today's Courts page [skip ci]"
             # The other three DC Record workflows run on nearby cron slots and
             # can push to this same branch around the same time -- rebase-and-
