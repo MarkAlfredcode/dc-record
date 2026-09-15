@@ -71,6 +71,14 @@
     "party": "OTHER",
     "state": "CA"
   },
+  "H4CO03357": {
+    "checked": "2026-09-14",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "HURD, JEFFREY",
+    "office": "H",
+    "party": "REP",
+    "state": "CO"
+  },
   "H4CT03090": {
     "checked": "2026-09-10",
     "incumbent_challenge_full": "Challenger",
@@ -102,14 +110,6 @@
     "office": "H",
     "party": "REP",
     "state": "ND"
-  },
-  "H4CO03357": {
-    "checked": "2026-09-14",
-    "incumbent_challenge_full": "Incumbent",
-    "name": "HURD, JEFFREY",
-    "office": "H",
-    "party": "REP",
-    "state": "CO"
   },
   "H4NY11138": {
     "checked": "2026-09-11",
@@ -279,20 +279,20 @@
     "party": "DEM",
     "state": "NV"
   },
-  "H6OH07192": {
-    "checked": "2026-09-11",
-    "incumbent_challenge_full": "Unknown",
-    "name": "ASAD, THAHBIA I",
-    "office": "House",
-    "party": "INDEPENDENT",
-    "state": "OH"
-  },
   "H6OH01161": {
     "checked": "2026-09-14",
     "incumbent_challenge_full": "Challenger",
     "name": "ERBECK, STEVEN",
     "office": "H",
     "party": "REP",
+    "state": "OH"
+  },
+  "H6OH07192": {
+    "checked": "2026-09-11",
+    "incumbent_challenge_full": "Unknown",
+    "name": "ASAD, THAHBIA I",
+    "office": "House",
+    "party": "INDEPENDENT",
     "state": "OH"
   },
   "H6TN06213": {
