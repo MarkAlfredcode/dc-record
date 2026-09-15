@@ -92,6 +92,52 @@ def footnote_flag_reason(text):
     return None
 
 
+def _group_total(lines_by_group):
+    """Given the ApprovedAmount-bearing lines for one (bureau, account, TAFS)
+    grouping, pick the figure that actually represents the file's apportioned
+    total for that grouping -- preferring the 'Total budgetary resources
+    available' summary line (6190) over the pre-application-split summary
+    (1920), over just taking the largest number seen (better than nothing if
+    neither summary line is present)."""
+    by_line_number = {}
+    for ln in lines_by_group:
+        by_line_number.setdefault(ln["line_number"], ln["amount"])
+    for preferred in ("6190", "1920"):
+        if preferred in by_line_number:
+            return by_line_number[preferred]
+    amounts = [ln["amount"] for ln in lines_by_group if ln["amount"]]
+    return max(amounts) if amounts else 0
+
+
+def summarize_non_flagged_file(agency, bureau_account_lines, fiscal_year,
+                                approval_timestamp, source_url):
+    """bureau_account_lines: list of (bureau, account, line_number, amount)
+    tuples, one per ScheduleData/tafs.lines entry in the file. Groups by
+    (bureau, account) and returns one entry per grouping -- most files have
+    exactly one, but some (see FY2027 DOI/BOEM 2026-09-12) bundle several
+    accounts under one bureau in a single approval."""
+    groups = {}
+    order = []
+    for bureau, account, line_number, amount in bureau_account_lines:
+        key = (bureau or "Unknown bureau", account or "Unknown account")
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append({"line_number": line_number, "amount": amount})
+    entries = []
+    for bureau, account in order:
+        entries.append({
+            "agency": agency,
+            "bureau": bureau,
+            "accountTitle": account,
+            "approvedAmount": _group_total(groups[(bureau, account)]),
+            "fiscalYear": fiscal_year,
+            "approvalTimestamp": approval_timestamp,
+            "sourceUrl": source_url,
+        })
+    return entries
+
+
 def fetch_files_search(since, until):
     page = 1
     results = []
@@ -145,8 +191,14 @@ def process_openomb_detail(detail, out, agency_counts, seen_paths):
         return None
     agency = detail.get("folder", "Unknown agency")
     file_flagged = False
+    bureau_account_lines = []
     for tafs in detail.get("tafs", []) or []:
+        bureau = tafs.get("budgetBureauTitle")
+        account = tafs.get("accountTitle")
         for line in tafs.get("lines", []) or []:
+            bureau_account_lines.append((
+                bureau, account, line.get("lineNumber"), line.get("approvedAmount") or 0,
+            ))
             for fn in line.get("footnotes", []) or []:
                 reason = footnote_flag_reason(fn.get("footnoteText", ""))
                 if reason:
@@ -162,6 +214,10 @@ def process_openomb_detail(detail, out, agency_counts, seen_paths):
         out["counts"]["flagged_files"] = out["counts"].get("flagged_files", 0) + 1
     else:
         agency_counts[agency] = agency_counts.get(agency, 0) + 1
+        out["non_flagged_files"].extend(summarize_non_flagged_file(
+            agency, bureau_account_lines, detail.get("fiscalYear"),
+            detail.get("approvalTimestamp"), path,
+        ))
     return path
 
 
@@ -174,7 +230,12 @@ def process_raw_json(data, path, out, agency_counts):
         for fn in data.get("FootnoteData", []) or []
     }
     file_flagged = False
+    bureau_account_lines = []
     for line in data.get("ScheduleData", []) or []:
+        bureau_account_lines.append((
+            line.get("BudgetBureauTitle"), line.get("AccountTitle"),
+            line.get("LineNumber"), line.get("ApprovedAmount") or 0,
+        ))
         fn_num = line.get("FootnoteNumber")
         if not fn_num:
             continue
@@ -193,6 +254,10 @@ def process_raw_json(data, path, out, agency_counts):
         out["counts"]["flagged_files"] = out["counts"].get("flagged_files", 0) + 1
     else:
         agency_counts[agency] = agency_counts.get(agency, 0) + 1
+        out["non_flagged_files"].extend(summarize_non_flagged_file(
+            agency, bureau_account_lines, data.get("FiscalYear"),
+            data.get("ApprovalTimestamp"), path,
+        ))
 
 
 def main():
@@ -211,6 +276,7 @@ def main():
         "reachable": {"openomb.org": reachable_omb, "apportionment-public.max.gov": reachable_max},
         "flagged": [],
         "non_flagged_by_agency": {},
+        "non_flagged_files": [],
         "spend_plans": {"new_or_changed": [], "checked": 0},
         "errors": [],
         "counts": {"source_openomb_new": 0, "source_raw_scan_new": 0},
@@ -315,6 +381,7 @@ def main():
         out["counts"]["bootstrap_run"] = True
         out["flagged"] = []  # belt-and-suspenders: bootstrap never flags
         out["non_flagged_by_agency"] = {}
+        out["non_flagged_files"] = []
 
     save_manifest(APPORTIONMENT_MANIFEST_PATH, {"seen_paths": sorted(seen_paths)})
 
