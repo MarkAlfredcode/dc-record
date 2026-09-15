@@ -69,15 +69,59 @@ jobs:
           fi
           echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
 
+      # 2026-09-14: the two newest tasks (Voided & Negative Transactions,
+      # the red-flag keyword scan) get the full fetch-script treatment from
+      # day one instead of running inside Claude's own turn -- same pattern
+      # as the Executive Branch edition's fetch_omb.py/fetch_oge.py. The
+      # rest of this edition (Task 1's RFAI/F99 letters, Task 2's PFD/PTR)
+      # still does its own fetching/dedup/PDF-reading via Bash as before
+      # (see /Users/mark/.claude/plans/imperative-brewing-lerdorf.md for why
+      # that migration is a separate future phase, not this one). Both
+      # scripts are allowed to fail without failing the job -- the main
+      # pass's prompt has a fallback path for a missing/broken
+      # content-mechanical.json (see prompt-fec.txt's ARCHITECTURE note).
+      - name: Run negative-amounts and keyword-scan fetch scripts
+        env:
+          FEC_KEYS: ${{ secrets.FEC_KEYS }}
+        run: |
+          set +e
+          python3 scripts/fetch_negative_amounts.py; echo "fetch_negative_amounts exit=$?"
+          python3 scripts/fetch_keyword_scan.py; echo "fetch_keyword_scan exit=$?"
+          set -e
+
+      - name: Run mechanical content pass (Voided & Negative Transactions + keyword-scan handoff, cheap model)
+        id: run_mechanical
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          set +e
+          cat prompt-fec-mechanical.txt | \
+            claude -p \
+              --model claude-haiku-4-5-20251001 \
+              --permission-mode bypassPermissions \
+              --allowedTools "Read,Write" \
+              --output-format json > claude_mechanical_result.json
+          echo "mechanical exit=$?"
+          set -e
+
+          echo "::group::Claude usage/cost (mechanical pass)"
+          if jq -e . claude_mechanical_result.json >/dev/null 2>&1; then
+            jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_mechanical_result.json
+          else
+            echo "No valid JSON result -- main pass will use its fallback path. Raw output:"
+            cat claude_mechanical_result.json
+          fi
+          echo "::endgroup::"
+
+          echo "::group::Claude final message (mechanical pass)"
+          jq -r '.result // empty' claude_mechanical_result.json 2>/dev/null || true
+          echo "::endgroup::"
+          exit 0
+
       # 2026-09-12 architecture change: Claude no longer writes the final
       # HTML or sends the email itself -- it writes content-TODAY.json (see
       # prompt-fec.txt's OUTPUT FORMAT section) and scripts/render_fec.py +
-      # scripts/send_email.py below take it from there. This edition still
-      # does its own fetching/dedup/PDF-reading via Bash exactly as before
-      # (unlike the Executive Branch edition, which also got dedicated
-      # fetch scripts -- see /Users/mark/.claude/plans/imperative-brewing-
-      # lerdorf.md for why this edition's turn is a smaller, template-only
-      # slice of that same change for now).
+      # scripts/send_email.py below take it from there.
       - name: Run DC Record • Campaigns & Congress (content generation)
         id: run_edition
         env:
