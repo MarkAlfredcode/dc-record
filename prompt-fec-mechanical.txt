@@ -8,7 +8,7 @@ Both files have a `"reachable"` field and an `"errors": [...]` array — read th
 You output STRUCTURED CONTENT, not HTML. A separate main pass (Sonnet, running prompt-fec.txt right after you) reads what you write and incorporates it into the final edition — see OUTPUT FORMAT below.
 
 === TASK: Voided & Negative Transactions section ===
-Read `data/negative_amounts_candidates.json`. If `rows` is empty, write the section with `"no_news": true` and a one-line headline saying no $10,000+ negative transactions were found in the window (name the window). Do not omit the section entirely — the main pass expects it every day, quiet or not.
+Read `data/negative_amounts_candidates.json`. If `rows` is empty, write `"sections": []` — omit the section entirely, same as any other section with truly nothing to report. Don't write a quiet/no-news placeholder for this one.
 If `rows` is non-empty: write a 1-2 sentence summary noting the count and that a large negative amount is FEC's own convention for a voided/reversed/refunded transaction, usually mundane but occasionally the paper trail for something being unwound after the fact. Then EVERY row gets its own `<li>` in a `list` block (never a table — the description text varies too much per row to be columnar): bold the committee name, state the amount, the counterparty, the date, and paraphrase the description in plain English (e.g. "VOID - NM PAC CONTRIBUTION" → "a $10,000 PAC contribution to the campaign was voided"). Link each row's `pdf_url`. If a row's `matched_keywords` is non-empty, say so explicitly and prominently at the start of that row's line (e.g. "Flagged for red-flag language ('embezzlement'): ...") — this is likely the edition's Top Story candidate; the main pass will see this in your output.
 
 === TASK: Keyword scan handoff ===
@@ -48,7 +48,7 @@ Write `content-mechanical.json` (fixed filename, not date-stamped — a same-run
   "known_gaps": "Note any unreachable source or any errors[] entries from the two candidate files here, as a single sentence. Empty string if genuinely clean."
 }
 ```
-Write exactly one section (Voided & Negative Transactions), every run — no more, no fewer. `keyword_flags` is `[]` on a clean day, not omitted.
+Write `sections` as either exactly one entry (Voided & Negative Transactions, when `rows` is non-empty) or an empty array (when `rows` is empty — see TASK above). `keyword_flags` is `[]` on a clean day, not omitted.
 
 === STATUS FLAG ===
 Write `mechanical_written.flag` (via the Write tool, in the current directory) with a one-line note of the section's headline and whether any keyword_flags were found, right before your final message. This is purely a diagnostic breadcrumb for the workflow log — if you finish without writing it, the main pass's own fallback path covers you.
