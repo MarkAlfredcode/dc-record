@@ -5,22 +5,23 @@ on:
   # observed firing this and the other 3 editions ~3.5h late every single
   # day (best-effort, no SLA). Replaced by ../scheduler/, a Cloudflare
   # Worker with its own Cron Triggers that calls workflow_dispatch below at
-  # the exact times these crons used to (0 10 * * * / 45 22 * * * UTC),
-  # passing `site_refresh_only: "true"` on the 45 22 dispatch in place of
-  # the old `github.event.schedule == '45 22 * * *'` check.
+  # the exact times these crons used to (0 10 * * * / 45 22 * * * UTC).
   # schedule:
-  #   - cron: '0 10 * * *'    # AM, ~3:00am PT (PDT)
-  #   - cron: '45 22 * * *'   # PM site-refresh, ~3:45pm PT (PDT) -- protects
-  #                           # digest/lobbying.html's "latest" alias only
-  #                           # (no dedupe manifest on this edition)
+  #   - cron: '0 10 * * *'    # AM, ~3:00am PT (PDT) -- dispatched with mode:"am"
+  #   - cron: '45 22 * * *'   # PM, ~3:45pm PT (PDT) -- dispatched with mode:"pm"
+  #                           # See ../scheduler/README.md.
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'Which subscriber group to email: am or pm (see markalfred.news/dc-record-recipients). 2026-09-16: PM used to be a hardcoded no-email site-refresh; now it really sends, but only to subscribers who opted into the PM edition -- if nobody has, it still quietly no-ops (email_skipped.flag), same visible effect as before.'
+        required: false
+        default: 'am'
       test_recipient_override:
-        description: 'Send only to this address instead of the normal 3-person list (leave blank for normal recipients)'
+        description: 'Send only to this address instead of the live subscriber list (leave blank for normal recipients)'
         required: false
         default: ''
       site_refresh_only:
-        description: "Site-refresh-only run (true/false) -- generates content but skips sending email and protects digest/lobbying.html's \"latest\" alias, same as the old 3:45pm schedule slot"
+        description: "Site-refresh-only run (true/false) -- manual override that generates content but skips sending email and protects digest/lobbying.html's \"latest\" alias. The scheduler no longer sets this for the PM slot -- see mode above."
         required: false
         default: 'false'
 
@@ -51,18 +52,19 @@ jobs:
         id: date
         run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
-      # Single source of truth for "will this run actually send an email" --
-      # reused by the Send email step below and by the Commit step, which
-      # needs the same answer to keep the site's "latest" alias on the real
-      # AM edition rather than an unsent afternoon scrape.
-      - name: Determine whether this run will send email
+      # Just the MANUAL override signal now -- not the full "will this run
+      # send" answer, since that also depends on live subscriber counts,
+      # which aren't known until the Send email step actually queries them.
+      # The Commit step below derives its own answer from whether that step
+      # actually wrote email_sent.flag, not from this.
+      - name: Determine manual skip override
         id: email_decision
         run: |
-          SKIP="false"
+          MANUAL_SKIP="false"
           if [ "${{ github.event.inputs.site_refresh_only }}" == "true" ]; then
-            SKIP="true"
+            MANUAL_SKIP="true"
           fi
-          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          echo "manual_skip=$MANUAL_SKIP" >> "$GITHUB_OUTPUT"
 
       # 2026-09-12 architecture change: Claude no longer writes the final
       # HTML or sends the email itself -- it writes content-TODAY.json (see
@@ -108,19 +110,31 @@ jobs:
         if: hashFiles(format('newsletter-{0}.html', steps.date.outputs.today)) != ''
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DC_RECORD_RECIPIENTS_TOKEN: ${{ secrets.DC_RECORD_RECIPIENTS_TOKEN }}
         run: |
-          if [ "${{ steps.email_decision.outputs.skip }}" == "true" ]; then
-            echo "3:45pm site-refresh-only schedule -- not sending" > email_skipped.flag
-          else
-            TO_ARG=""
-            if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
-              TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
-            fi
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -z "$MODE" ]; then MODE="am"; fi
+          if [ "${{ steps.email_decision.outputs.manual_skip }}" == "true" ]; then
+            echo "manual site_refresh_only input -- not sending" > email_skipped.flag
+          elif [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
             python3 scripts/send_email.py \
               "newsletter-${{ steps.date.outputs.today }}.html" \
               "DC Record • Lobbying • ${{ steps.date.outputs.today }}" \
               --from "DC Record • Lobbying <newsletter@markalfred.news>" \
-              $TO_ARG
+              --to "${{ github.event.inputs.test_recipient_override }}"
+          else
+            EMAILS=$(curl -s -H "Authorization: Bearer $DC_RECORD_RECIPIENTS_TOKEN" \
+              "https://markalfred.news/dc-record-recipients?edition=lobbying&mode=$MODE" \
+              | python3 -c "import json,sys; d=json.load(sys.stdin); print(','.join(d.get('emails', [])))")
+            if [ -z "$EMAILS" ]; then
+              echo "no subscribers for lobbying/$MODE -- not sending" > email_skipped.flag
+            else
+              python3 scripts/send_email.py \
+                "newsletter-${{ steps.date.outputs.today }}.html" \
+                "DC Record • Lobbying • ${{ steps.date.outputs.today }}" \
+                --from "DC Record • Lobbying <newsletter@markalfred.news>" \
+                --to "$EMAILS"
+            fi
           fi
 
       - name: Push ntfy notification of this run's outcome
@@ -133,7 +147,7 @@ jobs:
           if [ -f email_sent.flag ]; then
             notify "DC Record Lobbying sent" "email" "$(cat email_sent.flag)"
           elif [ -f email_skipped.flag ]; then
-            notify "DC Record Lobbying: site refresh only (no email)" "test_tube" "$(cat email_skipped.flag)"
+            notify "DC Record Lobbying: no email sent" "test_tube" "$(cat email_skipped.flag)"
           elif [ -f email_failed.flag ]; then
             notify "DC Record Lobbying FAILED" "rotating_light" "$(cat email_failed.flag)"
           elif [ -f content_skipped.flag ]; then
@@ -154,7 +168,12 @@ jobs:
       - name: Commit today's newsletter
         run: |
           set -euo pipefail
-          IS_SITE_REFRESH="${{ steps.email_decision.outputs.skip }}"
+          # Derived from the actual send outcome -- see dc-record-fec.yml's
+          # Commit step for the full rationale.
+          IS_SITE_REFRESH="true"
+          if [ -f email_sent.flag ]; then
+            IS_SITE_REFRESH="false"
+          fi
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
             # AM/PM edition snapshots -- see dc-record-fec.yml's commit step

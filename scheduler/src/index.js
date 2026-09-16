@@ -5,7 +5,7 @@
 // This exists because GitHub Actions' own `schedule:` event is best-effort
 // and was observed firing this repo's editions ~3.5h late every day.
 //
-// Keep CRON_TO_WORKFLOWS/PM_CRONS/SAFE_INPUT in sync by hand with
+// Keep CRON_TO_WORKFLOWS/CRON_MODE/MANUAL_SKIP_INPUT in sync by hand with
 // wrangler.toml's [triggers].crons and with the (disabled) `schedule:`
 // comments left in each ../.github/workflows/*.yml for reference.
 
@@ -13,24 +13,30 @@ const REPO = "MarkAlfredcode/dc-record";
 
 const CRON_TO_WORKFLOWS = {
   "0 10 * * *": ["dc-record-fec.yml", "dc-record-lobbying.yml", "dc-record-contracts.yml"], // AM
-  "45 22 * * *": ["dc-record-fec.yml", "dc-record-lobbying.yml", "dc-record-contracts.yml"], // PM site-refresh
+  "45 22 * * *": ["dc-record-fec.yml", "dc-record-lobbying.yml", "dc-record-contracts.yml"], // PM
   "25 10 * * *": ["dc-record-courts.yml"], // AM
   "10 23 * * *": ["dc-record-courts.yml"], // PM site-refresh
 };
 
-// Crons that are the "3:45pm-style" site-refresh-only slot -- these need the
-// safe/no-email input passed below. Courts' PM slot (10 23 * * *) isn't
-// listed here because that edition never emails either way, so it needs no
-// input at all (and its workflow_dispatch declares none -- passing any would
-// 422).
-const PM_CRONS = new Set(["45 22 * * *"]);
+// Which subscriber group (see markalfred.news/dc-record-recipients) a real
+// dispatch of each cron slot should email -- the 3 emailing editions'
+// `mode` workflow_dispatch input, added 2026-09-16. Before this, the PM
+// slot always forced a no-email site-refresh; now it really sends, but only
+// to whoever opted into the PM edition (see MANUAL_SKIP_INPUT below for the
+// one case where a run still shouldn't try to send at all). Not used for
+// Courts, which never emails either way.
+const CRON_MODE = {
+  "0 10 * * *": "am",
+  "45 22 * * *": "pm",
+};
 
-// The workflow_dispatch input that makes each edition generate content
-// without sending email -- what the old `github.event.schedule == '45 22 *
-// * *'` check used to gate on, before schedule: was disabled in favor of
-// this scheduler. fec already had a `skip_email` input for manual test runs;
-// lobbying/contracts got a new `site_refresh_only` input added to match.
-const SAFE_INPUT = {
+// Manual override, used ONLY for a dry test dispatch (never a real cron
+// fire) -- forces a run to skip sending email entirely regardless of live
+// subscribers, for a pure content-only smoke test. Courts' PM slot
+// (10 23 * * *) isn't listed here because that edition never emails either
+// way, and its workflow_dispatch declares no inputs at all (passing any
+// would 422).
+const MANUAL_SKIP_INPUT = {
   "dc-record-fec.yml": { skip_email: "true" },
   "dc-record-lobbying.yml": { site_refresh_only: "true" },
   "dc-record-contracts.yml": { site_refresh_only: "true" },
@@ -38,10 +44,10 @@ const SAFE_INPUT = {
 };
 
 function inputsFor(cron, workflowFile, { dry }) {
-  const safe = SAFE_INPUT[workflowFile];
-  if (dry) return safe || undefined; // manual test: never risk a real send
-  if (PM_CRONS.has(cron)) return safe || undefined; // real PM run: site-refresh only
-  return undefined; // real AM run: normal send, no special input
+  if (dry) return MANUAL_SKIP_INPUT[workflowFile] || undefined; // manual test: never risk a real send
+  const mode = CRON_MODE[cron];
+  if (!mode || workflowFile === "dc-record-courts.yml") return undefined; // Courts takes no inputs
+  return { mode };
 }
 
 async function dispatch(workflowFile, inputs, env) {

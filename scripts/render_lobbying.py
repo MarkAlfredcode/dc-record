@@ -192,6 +192,7 @@ def render_footer(footer):
 <p style="margin:0 0 8px 0;"><strong>Coverage window:</strong> {footer["coverage_window"]}</p>
 <p style="margin:0 0 8px 0;"><strong>Sources:</strong> {footer["sources"]}</p>
 <p style="margin:0 0 8px 0;">{footer["known_gaps"]}</p>
+<p style="margin:0 0 8px 0; font-size:12px;">To change which editions/times you get, or to unsubscribe, visit <a href="https://markalfred.news/dc-record" style="color:{GREEN};">markalfred.news/dc-record</a> and enter the email address this was sent to.</p>
 <p style="margin:0;">— The DC Record</p>
 </td></tr>
 """

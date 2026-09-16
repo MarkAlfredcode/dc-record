@@ -8,20 +8,21 @@ on:
   # the exact times these crons used to (0 10 * * * / 45 22 * * * UTC).
   # Left here, commented, so the intended times/rationale aren't lost.
   # schedule:
-  #   - cron: '0 10 * * *'    # AM, ~3:00am PT (PDT)
-  #   - cron: '45 22 * * *'   # PM site-refresh, ~3:45pm PT (PDT) -- dispatched
-  #                           # with the existing skip_email:"true" input
-  #                           # (this edition already had that input; the
-  #                           # other 2 editions got a new site_refresh_only
-  #                           # input instead). See ../scheduler/README.md.
+  #   - cron: '0 10 * * *'    # AM, ~3:00am PT (PDT) -- dispatched with mode:"am"
+  #   - cron: '45 22 * * *'   # PM, ~3:45pm PT (PDT) -- dispatched with mode:"pm"
+  #                           # See ../scheduler/README.md.
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'Which subscriber group to email: am or pm (see markalfred.news/dc-record-recipients). 2026-09-16: PM used to be a hardcoded no-email site-refresh; now it really sends, but only to subscribers who opted into the PM edition -- if nobody has, it still quietly no-ops (email_skipped.flag), same visible effect as before.'
+        required: false
+        default: 'am'
       test_recipient_override:
-        description: 'Send only to this address instead of the normal 3-person list (leave blank for normal recipients)'
+        description: 'Send only to this address instead of the live subscriber list (leave blank for normal recipients)'
         required: false
         default: ''
       skip_email:
-        description: 'Skip sending email entirely (true/false) -- for snapshot-only test runs (e.g. producing an AM/PM edition to look at)'
+        description: 'Skip sending email entirely (true/false) -- manual override for snapshot-only test runs (e.g. producing an AM/PM edition to look at). The scheduler no longer sets this for the PM slot -- see mode above.'
         required: false
         default: 'false'
       verbose_diagnostics:
@@ -56,18 +57,19 @@ jobs:
         id: date
         run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
-      # Single source of truth for "will this run actually send an email" --
-      # reused by the Send email step below AND by the Commit step, which
-      # needs the same answer to decide whether to protect the dedupe
-      # manifests and the site's "latest" alias from an unsent run.
-      - name: Determine whether this run will send email
+      # Just the MANUAL override signal now -- not the full "will this run
+      # send" answer, since that also depends on live subscriber counts,
+      # which aren't known until the Send email step actually queries them.
+      # The Commit step below derives its own answer from whether that step
+      # actually wrote email_sent.flag, not from this.
+      - name: Determine manual skip override
         id: email_decision
         run: |
-          SKIP="false"
+          MANUAL_SKIP="false"
           if [ "${{ github.event.inputs.skip_email }}" == "true" ]; then
-            SKIP="true"
+            MANUAL_SKIP="true"
           fi
-          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          echo "manual_skip=$MANUAL_SKIP" >> "$GITHUB_OUTPUT"
 
       # 2026-09-14: the two newest tasks (Voided & Negative Transactions,
       # the red-flag keyword scan) get the full fetch-script treatment from
@@ -188,19 +190,31 @@ jobs:
         if: hashFiles(format('newsletter-{0}.html', steps.date.outputs.today)) != ''
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DC_RECORD_RECIPIENTS_TOKEN: ${{ secrets.DC_RECORD_RECIPIENTS_TOKEN }}
         run: |
-          if [ "${{ steps.email_decision.outputs.skip }}" == "true" ]; then
-            echo "skip_email (manual input, or the 3:45pm site-refresh-only schedule) -- not sending" > email_skipped.flag
-          else
-            TO_ARG=""
-            if [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
-              TO_ARG="--to ${{ github.event.inputs.test_recipient_override }}"
-            fi
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -z "$MODE" ]; then MODE="am"; fi
+          if [ "${{ steps.email_decision.outputs.manual_skip }}" == "true" ]; then
+            echo "manual skip_email input -- not sending" > email_skipped.flag
+          elif [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
             python3 scripts/send_email.py \
               "newsletter-${{ steps.date.outputs.today }}.html" \
               "DC Record • Campaigns & Congress • ${{ steps.date.outputs.today }}" \
               --from "DC Record • Campaigns & Congress <newsletter@markalfred.news>" \
-              $TO_ARG
+              --to "${{ github.event.inputs.test_recipient_override }}"
+          else
+            EMAILS=$(curl -s -H "Authorization: Bearer $DC_RECORD_RECIPIENTS_TOKEN" \
+              "https://markalfred.news/dc-record-recipients?edition=campaigns&mode=$MODE" \
+              | python3 -c "import json,sys; d=json.load(sys.stdin); print(','.join(d.get('emails', [])))")
+            if [ -z "$EMAILS" ]; then
+              echo "no subscribers for campaigns/$MODE -- not sending" > email_skipped.flag
+            else
+              python3 scripts/send_email.py \
+                "newsletter-${{ steps.date.outputs.today }}.html" \
+                "DC Record • Campaigns & Congress • ${{ steps.date.outputs.today }}" \
+                --from "DC Record • Campaigns & Congress <newsletter@markalfred.news>" \
+                --to "$EMAILS"
+            fi
           fi
 
       - name: Push ntfy notification of this run's outcome
@@ -213,6 +227,8 @@ jobs:
           if [ -f email_sent.flag ]; then
             notify "DC Record Campaigns & Congress sent" "email" "$(cat email_sent.flag)"
           elif [ -f email_skipped.flag ]; then
+            # email_skipped.flag now also covers "mode had zero subscribers",
+            # not just manual test runs -- see the Send email step above.
             notify "DC Record Campaigns & Congress: test run (no email)" "test_tube" "$(cat email_skipped.flag)"
           elif [ -f email_failed.flag ]; then
             notify "DC Record Campaigns & Congress FAILED" "rotating_light" "$(cat email_failed.flag)"
@@ -234,7 +250,16 @@ jobs:
       - name: Commit updated manifests and today's newsletter
         run: |
           set -euo pipefail
-          IS_SITE_REFRESH="${{ steps.email_decision.outputs.skip }}"
+          # Derived from the actual send outcome, not from mode/manual_skip
+          # directly -- since 2026-09-16 a "pm" mode run can genuinely send
+          # (to PM subscribers) just like "am" does, so the old shortcut of
+          # treating "pm" as always-a-site-refresh no longer holds. What
+          # matters for the manifest/digest-advance decision below is simply
+          # whether an email actually went out this run, regardless of mode.
+          IS_SITE_REFRESH="true"
+          if [ -f email_sent.flag ]; then
+            IS_SITE_REFRESH="false"
+          fi
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
             # AM/PM edition snapshots: the first run of the Pacific calendar

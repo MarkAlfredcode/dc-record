@@ -184,6 +184,7 @@ def render_footer(footer):
 <p style="font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:1.6; color:{GRAY}; margin:0 0 10px 0;">{footer["coverage_window"]}</p>
 <p style="font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:1.6; color:{GRAY}; margin:0 0 10px 0;">Sources: {footer["sources"]}</p>
 <p style="font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:1.6; color:{GRAY}; margin:0 0 10px 0;">{footer["known_gaps"]}</p>
+<p style="font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:1.6; color:{GRAY}; margin:0 0 10px 0;">To change which editions/times you get, or to unsubscribe, visit <a href="https://markalfred.news/dc-record" style="color:{NAVY};">markalfred.news/dc-record</a> and enter the email address this was sent to.</p>
 <p style="font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:14px; color:{INK}; margin:14px 0 0 0;">— The DC Record</p>
 </td></tr>
 """
