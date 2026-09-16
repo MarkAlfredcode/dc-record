@@ -9,6 +9,7 @@ candidates JSON and writing the actual prose/judgment calls.
 """
 import json
 import os
+import re
 import socket
 import sys
 import time
@@ -85,16 +86,30 @@ def http_get_json(url, headers=None, timeout=30):
     return json.loads(body)
 
 
-def http_post_json(url, payload, headers=None, timeout=30):
+def http_post_json(url, payload, headers=None, timeout=30, max_time_retries=2):
+    """POST with a couple retries on transient failures -- mirrors http_get's
+    retry behavior, which this lacked (confirmed live 2026-09-16: a single
+    unretried 30s timeout on USAspending's search endpoint silently zeroed
+    the whole Executive Branch USAspending section for the day, since the
+    caller's own try/except treated ANY exception, including a plain
+    timeout, as "stop paginating, report 0 results" rather than distinguishing
+    a real transient failure worth retrying)."""
     body = json.dumps(payload).encode()
     hdrs = {"Content-Type": "application/json"}
     hdrs.update(headers or {})
     req = urllib.request.Request(url, data=body, headers=hdrs, method="POST")
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.status, json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        return e.code, json.loads(e.read() or b"{}")
+    last_err = None
+    for attempt in range(max_time_retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.status, json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            return e.code, json.loads(e.read() or b"{}")
+        except Exception as e:  # noqa: BLE001 - genuine connect/timeout failure
+            last_err = e
+            if attempt < max_time_retries:
+                time.sleep(2)
+    raise ConnectionError(f"POST {url} failed after retries: {last_err}")
 
 
 def check_reachable(host, timeout=10):
@@ -131,6 +146,22 @@ def write_candidates(path, data):
         json.dump(data, f, indent=2)
         f.write("\n")
     print(f"wrote {path}", file=sys.stderr)
+
+
+_LI_WRAP_RE = re.compile(r"^\s*<li(?:\s[^>]*)?>(.*)</li>\s*$", re.IGNORECASE | re.DOTALL)
+
+
+def strip_li_wrapper(item):
+    """Defensively strips a redundant outer <li>...</li> the model sometimes
+    writes into a `list` block's item string despite the prompts asking for
+    bare inner HTML -- every render_*.py already wraps each item in its own
+    <li>, so a model-supplied wrapper produces nested <li><li>...</li></li>,
+    which browsers silently mis-render as doubled bullets (confirmed live in
+    the 2026-09-16 Executive Branch edition's OGE/SAM/Federal Register
+    sections). A genuinely bare item just doesn't match and passes through
+    unchanged."""
+    m = _LI_WRAP_RE.match(item)
+    return m.group(1).strip() if m else item
 
 
 def pdftotext(pdf_path):

@@ -12,6 +12,8 @@ import html
 import json
 import sys
 
+from dc_common import strip_li_wrapper
+
 INK = "#161616"
 BODY_INK = "#262626"
 SLATE = "#3c4858"
@@ -106,7 +108,7 @@ def render_blocks(blocks, body_font_size="16px", body_line_height="24px"):
         elif t == "list":
             items = b["items"]
             lis = "".join(
-                f'<li style="margin-bottom:{0 if i == len(items) - 1 else 10}px;">{item}</li>'
+                f'<li style="margin-bottom:{0 if i == len(items) - 1 else 10}px;">{strip_li_wrapper(item)}</li>'
                 for i, item in enumerate(items)
             )
             out.append(

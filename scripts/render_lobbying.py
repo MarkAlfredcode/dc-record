@@ -10,6 +10,8 @@ import html
 import json
 import sys
 
+from dc_common import strip_li_wrapper
+
 GREEN = "#2f5233"
 GOLD = "#9c7a29"
 INK = "#161616"
@@ -114,7 +116,7 @@ def render_blocks(blocks):
         elif t == "list":
             items = b["items"]
             lis = "".join(
-                f'<li style="margin-bottom:{0 if i == len(items) - 1 else 6}px;">{item}</li>'
+                f'<li style="margin-bottom:{0 if i == len(items) - 1 else 6}px;">{strip_li_wrapper(item)}</li>'
                 for i, item in enumerate(items)
             )
             out.append(f'<ul style="margin:0 0 16px 0; padding-left:20px;">{lis}</ul>')

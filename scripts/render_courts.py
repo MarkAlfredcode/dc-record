@@ -10,6 +10,8 @@ import html
 import json
 import sys
 
+from dc_common import strip_li_wrapper
+
 HEAD = """<!doctype html>
 <html lang="en">
 <head>
@@ -78,7 +80,7 @@ def render_blocks(blocks):
         elif t == "note":
             out.append(f'<p>{b["text"]}</p>')
         elif t == "list":
-            lis = "".join(f'<li>{item}</li>' for item in b["items"])
+            lis = "".join(f'<li>{strip_li_wrapper(item)}</li>' for item in b["items"])
             out.append(f'<ul>{lis}</ul>')
     return "\n".join(out)
 
