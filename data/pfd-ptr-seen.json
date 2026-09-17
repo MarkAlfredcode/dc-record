@@ -1,6 +1,12 @@
 {
+  "house:10078315": {
+    "reported": "2026-09-17"
+  },
   "house:10081702": {
     "reported": "2026-09-15"
+  },
+  "house:10082718": {
+    "reported": "2026-09-17"
   },
   "house:10082721": {
     "reported": "2026-09-11"
@@ -44,6 +50,30 @@
   "house:10082849": {
     "reported": "2026-09-16"
   },
+  "house:10082851": {
+    "reported": "2026-09-17"
+  },
+  "house:10082852": {
+    "reported": "2026-09-17"
+  },
+  "house:10082857": {
+    "reported": "2026-09-17"
+  },
+  "house:10082862": {
+    "reported": "2026-09-17"
+  },
+  "house:10082865": {
+    "reported": "2026-09-17"
+  },
+  "house:10082866": {
+    "reported": "2026-09-17"
+  },
+  "house:10082867": {
+    "reported": "2026-09-17"
+  },
+  "house:10082870": {
+    "reported": "2026-09-17"
+  },
   "house:20035390": {
     "reported": "2026-09-11"
   },
@@ -65,6 +95,9 @@
   "house:20035411": {
     "reported": "2026-09-11"
   },
+  "house:20035420": {
+    "reported": "2026-09-17"
+  },
   "house:20035431": {
     "reported": "2026-09-15"
   },
@@ -82,6 +115,9 @@
   },
   "house:40005013": {
     "reported": "2026-09-16"
+  },
+  "house:40005014": {
+    "reported": "2026-09-17"
   },
   "house:8156": {
     "reported": "2026-09-16"
@@ -116,10 +152,22 @@
   "senate:a843b848-f82f-41ee-b60b-a0f547a70a7c": {
     "reported": "2026-09-15"
   },
+  "senate:annual/a843b848-f82f-41ee-b60b-a0f547a70a7c": {
+    "reported": "2026-09-17"
+  },
   "senate:e5144197-e49c-4f74-bec4-19f1f3124668": {
     "reported": "2026-09-11"
   },
   "senate:e67c6e56-c81e-4e74-b960-849a460165e2": {
     "reported": "2026-09-15"
+  },
+  "senate:extension-notice/regular/3b430bcb-d2d1-4476-9ce4-1eaa614f34c0": {
+    "reported": "2026-09-17"
+  },
+  "senate:extension-notice/regular/47ef445c-f8cb-47fd-a28b-8fc78656f838": {
+    "reported": "2026-09-17"
+  },
+  "senate:ptr/e67c6e56-c81e-4e74-b960-849a460165e2": {
+    "reported": "2026-09-17"
   }
 }
