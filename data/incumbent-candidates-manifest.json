@@ -55,6 +55,22 @@
     "party": "DEM",
     "state": "IL"
   },
+  "H2MA09072": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "LYNCH, STEPHEN",
+    "office": "H",
+    "party": "DEMOCRATIC PARTY",
+    "state": "MA"
+  },
+  "H2MI07123": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "BARRETT, THOMAS MORE",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
+    "state": "MI"
+  },
   "H2MT01060": {
     "checked": "2026-09-16",
     "incumbent_challenge_full": "Challenger",
@@ -62,6 +78,14 @@
     "office": "H",
     "party": "REP",
     "state": "MT"
+  },
+  "H2NC06098": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Challenger",
+    "name": "ALLAM, NIDA",
+    "office": "H",
+    "party": "DEMOCRATIC PARTY",
+    "state": "NC"
   },
   "H2NC12278": {
     "checked": "2026-09-16",
@@ -77,6 +101,14 @@
     "name": "NICK, LALOTA",
     "office": "H",
     "party": "REP",
+    "state": "NY"
+  },
+  "H2NY13096": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "ESPAILLAT, ADRIANO",
+    "office": "H",
+    "party": "DEMOCRATIC PARTY",
     "state": "NY"
   },
   "H2VA10273": {
@@ -247,6 +279,14 @@
     "party": "DEM",
     "state": "CA"
   },
+  "H6FL14237": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Challenger",
+    "name": "BELTRAN, MIKE",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
+    "state": "FL"
+  },
   "H6FL17065": {
     "checked": "2026-09-11",
     "incumbent_challenge_full": "Challenger",
@@ -311,6 +351,14 @@
     "party": "DEM",
     "state": "IL"
   },
+  "H6IL09178": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Open seat",
+    "name": "ABUGHAZALEH, KATHERINE M.",
+    "office": "H",
+    "party": "DEMOCRATIC PARTY",
+    "state": "IL"
+  },
   "H6IL13162": {
     "checked": "2026-09-16",
     "incumbent_challenge_full": "Challenger",
@@ -327,6 +375,14 @@
     "party": "REP",
     "state": "IL"
   },
+  "H6IN07469": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Challenger",
+    "name": "WELLS, DESTINY",
+    "office": "H",
+    "party": "DEMOCRATIC PARTY",
+    "state": "IN"
+  },
   "H6KY06226": {
     "checked": "2026-09-10",
     "incumbent_challenge_full": "Open seat",
@@ -341,6 +397,14 @@
     "name": "JEWETT, LAUREN",
     "office": "H",
     "party": "DEM",
+    "state": "LA"
+  },
+  "H6LA05242": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Open seat",
+    "name": "ECHOLS, MICHAEL CHARLES",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
     "state": "LA"
   },
   "H6MD08549": {
@@ -390,6 +454,46 @@
     "office": "H",
     "party": "DEM",
     "state": "NV"
+  },
+  "H6NV02396": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Open seat",
+    "name": "SETTELMEYER, JAMES ARNOLD",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
+    "state": "NV"
+  },
+  "H6NV03238": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Challenger",
+    "name": "KENNEDY, RONDA",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
+    "state": "NV"
+  },
+  "H6NV04137": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Challenger",
+    "name": "KENNEDY, RONDA",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
+    "state": "NV"
+  },
+  "H6NY07214": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Open seat",
+    "name": "VALDEZ, CLAIRE",
+    "office": "H",
+    "party": "DEMOCRATIC PARTY",
+    "state": "NY"
+  },
+  "H6NY10176": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Challenger",
+    "name": "LANDER, BRAD MR.",
+    "office": "H",
+    "party": "DEMOCRATIC PARTY",
+    "state": "NY"
   },
   "H6OH01161": {
     "checked": "2026-09-14",
@@ -559,6 +663,14 @@
     "party": "REP",
     "state": "FL"
   },
+  "H8FL22103": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": null,
+    "name": "GALASSO, WAYNE HENRY",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
+    "state": "FL"
+  },
   "H8GA02095": {
     "checked": "2026-09-11",
     "incumbent_challenge_full": "Unknown",
@@ -566,6 +678,14 @@
     "office": "House",
     "party": "INDEPENDENCE PARTY",
     "state": "GA"
+  },
+  "H8IN04199": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "BAIRD, JAMES R DR.",
+    "office": "H",
+    "party": "REPUBLICAN PARTY",
+    "state": "IN"
   },
   "H8OH15076": {
     "checked": "2026-09-09",
@@ -607,6 +727,14 @@
     "office": "S",
     "party": "REP",
     "state": "AZ"
+  },
+  "S2MO00544": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "SCHMITT, ERIC",
+    "office": "S",
+    "party": "REPUBLICAN PARTY",
+    "state": "MO"
   },
   "S2MT00096": {
     "checked": "2026-09-16",
@@ -664,6 +792,14 @@
     "party": "REP",
     "state": "NH"
   },
+  "S6SC04395": {
+    "checked": "2026-09-17",
+    "incumbent_challenge_full": "Challenger",
+    "name": "BUCKNER, DUKE",
+    "office": "S",
+    "party": "REPUBLICAN PARTY",
+    "state": "SC"
+  },
   "S6TX00479": {
     "checked": "2026-09-11",
     "incumbent_challenge_full": "Challenger",
@@ -687,141 +823,5 @@
     "office": "S",
     "party": "REP",
     "state": "VA"
-  },
-  "H2MA09072": {
-    "name": "LYNCH, STEPHEN",
-    "office": "H",
-    "state": "MA",
-    "party": "DEMOCRATIC PARTY",
-    "incumbent_challenge_full": "Incumbent",
-    "checked": "2026-09-17"
-  },
-  "H8IN04199": {
-    "name": "BAIRD, JAMES R DR.",
-    "office": "H",
-    "state": "IN",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Incumbent",
-    "checked": "2026-09-17"
-  },
-  "H2NY13096": {
-    "name": "ESPAILLAT, ADRIANO",
-    "office": "H",
-    "state": "NY",
-    "party": "DEMOCRATIC PARTY",
-    "incumbent_challenge_full": "Incumbent",
-    "checked": "2026-09-17"
-  },
-  "S2MO00544": {
-    "name": "SCHMITT, ERIC",
-    "office": "S",
-    "state": "MO",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Incumbent",
-    "checked": "2026-09-17"
-  },
-  "H2MI07123": {
-    "name": "BARRETT, THOMAS MORE",
-    "office": "H",
-    "state": "MI",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Incumbent",
-    "checked": "2026-09-17"
-  },
-  "H6IL09178": {
-    "name": "ABUGHAZALEH, KATHERINE M.",
-    "office": "H",
-    "state": "IL",
-    "party": "DEMOCRATIC PARTY",
-    "incumbent_challenge_full": "Open seat",
-    "checked": "2026-09-17"
-  },
-  "H6NY10176": {
-    "name": "LANDER, BRAD MR.",
-    "office": "H",
-    "state": "NY",
-    "party": "DEMOCRATIC PARTY",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-17"
-  },
-  "H2NC06098": {
-    "name": "ALLAM, NIDA",
-    "office": "H",
-    "state": "NC",
-    "party": "DEMOCRATIC PARTY",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-17"
-  },
-  "H6NY07214": {
-    "name": "VALDEZ, CLAIRE",
-    "office": "H",
-    "state": "NY",
-    "party": "DEMOCRATIC PARTY",
-    "incumbent_challenge_full": "Open seat",
-    "checked": "2026-09-17"
-  },
-  "H6IN07469": {
-    "name": "WELLS, DESTINY",
-    "office": "H",
-    "state": "IN",
-    "party": "DEMOCRATIC PARTY",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-17"
-  },
-  "H6LA05242": {
-    "name": "ECHOLS, MICHAEL CHARLES",
-    "office": "H",
-    "state": "LA",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Open seat",
-    "checked": "2026-09-17"
-  },
-  "H6NV02396": {
-    "name": "SETTELMEYER, JAMES ARNOLD",
-    "office": "H",
-    "state": "NV",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Open seat",
-    "checked": "2026-09-17"
-  },
-  "H6NV03238": {
-    "name": "KENNEDY, RONDA",
-    "office": "H",
-    "state": "NV",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-17"
-  },
-  "H6NV04137": {
-    "name": "KENNEDY, RONDA",
-    "office": "H",
-    "state": "NV",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-17"
-  },
-  "H6FL14237": {
-    "name": "BELTRAN, MIKE",
-    "office": "H",
-    "state": "FL",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-17"
-  },
-  "S6SC04395": {
-    "name": "BUCKNER, DUKE",
-    "office": "S",
-    "state": "SC",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-17"
-  },
-  "H8FL22103": {
-    "name": "GALASSO, WAYNE HENRY",
-    "office": "H",
-    "state": "FL",
-    "party": "REPUBLICAN PARTY",
-    "incumbent_challenge_full": null,
-    "checked": "2026-09-17"
   }
 }
