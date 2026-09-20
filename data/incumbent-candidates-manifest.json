@@ -335,6 +335,14 @@
     "party": "REPUBLICAN PARTY",
     "state": "FL"
   },
+  "H6FL10185": {
+    "checked": "2026-09-19",
+    "incumbent_challenge_full": "Challenger",
+    "name": "RANCE, HOWARD STEVEN",
+    "office": "H",
+    "party": "REP",
+    "state": "FL"
+  },
   "H6FL14237": {
     "checked": "2026-09-17",
     "incumbent_challenge_full": "Challenger",
@@ -575,6 +583,22 @@
     "party": "INDEPENDENT",
     "state": "OH"
   },
+  "H6PA01231": {
+    "checked": "2026-09-19",
+    "incumbent_challenge_full": "Challenger",
+    "name": "TAFT, THOMAS PRINDLE MR.",
+    "office": "H",
+    "party": "DEM",
+    "state": "PA"
+  },
+  "H6PA15181": {
+    "checked": "2026-09-19",
+    "incumbent_challenge_full": "Challenger",
+    "name": "BILGER, RAYMOND ALLEN",
+    "office": "H",
+    "party": "DEM",
+    "state": "PA"
+  },
   "H6SC01201": {
     "checked": "2026-09-15",
     "incumbent_challenge_full": "Open seat",
@@ -807,6 +831,14 @@
     "party": "REP",
     "state": "US"
   },
+  "S0ME00111": {
+    "checked": "2026-09-19",
+    "incumbent_challenge_full": "Challenger",
+    "name": "GIDEON, SARA",
+    "office": "S",
+    "party": "DEM",
+    "state": "ME"
+  },
   "S2AZ00141": {
     "checked": "2026-09-13",
     "incumbent_challenge_full": "Incumbent",
@@ -855,6 +887,14 @@
     "office": "S",
     "party": "REP",
     "state": "OK"
+  },
+  "S6CO00499": {
+    "checked": "2026-09-20",
+    "incumbent_challenge_full": "Challenger",
+    "name": "GONZALES, JULIE",
+    "office": "S",
+    "party": "DEM",
+    "state": "CO"
   },
   "S6DC00055": {
     "checked": "2026-09-11",
@@ -919,37 +959,5 @@
     "office": "S",
     "party": "REP",
     "state": "VA"
-  },
-  "H6PA15181": {
-    "name": "BILGER, RAYMOND ALLEN",
-    "office": "H",
-    "state": "PA",
-    "party": "DEM",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-19"
-  },
-  "S0ME00111": {
-    "name": "GIDEON, SARA",
-    "office": "S",
-    "state": "ME",
-    "party": "DEM",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-19"
-  },
-  "H6FL10185": {
-    "name": "RANCE, HOWARD STEVEN",
-    "office": "H",
-    "state": "FL",
-    "party": "REP",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-19"
-  },
-  "H6PA01231": {
-    "name": "TAFT, THOMAS PRINDLE MR.",
-    "office": "H",
-    "state": "PA",
-    "party": "DEM",
-    "incumbent_challenge_full": "Challenger",
-    "checked": "2026-09-19"
   }
 }
