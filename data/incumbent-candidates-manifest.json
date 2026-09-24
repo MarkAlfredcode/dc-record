@@ -1055,5 +1055,37 @@
     "office": "S",
     "party": "REP",
     "state": "VA"
+  },
+  "H6CO01141": {
+    "name": "DEGETTE, DIANA L",
+    "office": "H",
+    "state": "CO",
+    "party": "DEM",
+    "incumbent_challenge_full": "Incumbent",
+    "checked": "2026-09-24"
+  },
+  "H6FL16141": {
+    "name": "GRUTERS, SYDNEY",
+    "office": "H",
+    "state": "FL",
+    "party": "REP",
+    "incumbent_challenge_full": "Open seat",
+    "checked": "2026-09-24"
+  },
+  "S6OH00437": {
+    "name": "HOLLIMAN, ANTHONY JOHN",
+    "office": "S",
+    "state": "OH",
+    "party": "IND",
+    "incumbent_challenge_full": "Challenger",
+    "checked": "2026-09-24"
+  },
+  "H6FL02349": {
+    "name": "ROWELL, AUDIE",
+    "office": "H",
+    "state": "FL",
+    "party": "REP",
+    "incumbent_challenge_full": "Open seat",
+    "checked": "2026-09-24"
   }
 }
