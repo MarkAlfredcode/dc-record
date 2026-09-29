@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Checks whether all 4 DC Record editions have finished their AM (or PM)
+"""Checks whether all 3 DC Record editions have finished their AM (or PM)
 run for today, and sends exactly one consolidated ntfy notification once
 they have -- either "all ready" or a plain explanation of whatever went
 wrong, never silence. Replaces the old dc-record-pm-alert.yml, which only
@@ -10,7 +10,7 @@ Usage: python3 scripts/check_editions_status.py am|pm
 Exit 0 always (this is a notifier, not a gate -- a bug here should never
 fail the calling workflow's job).
 
-Design: for each of the 4 editions, find the most recent GitHub Actions run
+Design: for each of the 3 editions, find the most recent GitHub Actions run
 of its workflow whose creation time falls on TODAY (America/Los_Angeles)
 and within the given window (am = 00:00-11:59:59 PT, pm = 12:00-23:59:59
 PT) -- this is how the scheduler's two daily dispatches per edition
@@ -41,8 +41,8 @@ one notification for this window and record today's date in
 digest/.{window}-alert-date so a later trigger the same day doesn't send it
 again. While anything is still PENDING, do nothing and exit quietly --
 same as the old behavior -- the calling workflow fires on every completion
-of any of the 4 editions' workflows (8x/day), so most invocations are
-expected to find "not all 4 done yet" and that's normal, not worth logging
+of any of the 3 editions' workflows (6x/day), so most invocations are
+expected to find "not all 3 done yet" and that's normal, not worth logging
 as a problem.
 """
 import json
@@ -57,7 +57,6 @@ EDITIONS = [
     ("campaigns", "dc-record-fec.yml", "Campaigns & Congress"),
     ("lobbying", "dc-record-lobbying.yml", "Lobbying"),
     ("executive", "dc-record-contracts.yml", "Executive Branch"),
-    ("courts", "dc-record-courts.yml", "Courts"),
 ]
 
 WINDOW_HOURS = {"am": range(0, 12), "pm": range(12, 24)}
@@ -133,18 +132,18 @@ def main():
         print(f"{label}: {state}" + (f" -- {detail}" if detail and state != 'OK' else ""))
 
     if any(s[2] == "PENDING" for s in statuses):
-        print(f"Not all 4 {window.upper()} editions are done yet -- staying quiet.")
+        print(f"Not all 3 {window.upper()} editions are done yet -- staying quiet.")
         return
 
     problems = [s for s in statuses if s[2] == "PROBLEM"]
     if problems:
-        title = f"DC Record {window.upper()}: {len(problems)} of 4 had a problem"
+        title = f"DC Record {window.upper()}: {len(problems)} of 3 had a problem"
         tags = "warning"
         body_lines = [d for _, _, state, d in statuses if state == "PROBLEM"]
         body_lines += [f"{label}: OK" for _, label, state, _ in statuses if state == "OK"]
         body = "\n".join(body_lines)
     else:
-        title = f"DC Record {window.upper()}: all 4 editions ready"
+        title = f"DC Record {window.upper()}: all 3 editions ready"
         tags = "white_check_mark"
         body = ", ".join(label for _, label, _, _ in statuses) + " have all finished."
 

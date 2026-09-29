@@ -1,7 +1,7 @@
 name: DC Record • status alert
 
 # Fires one ntfy notification per AM window and one per PM window, once
-# all 4 editions' run for that window has finished -- either "all 4
+# all 3 editions' run for that window has finished -- either "all 3
 # ready" or a plain explanation of whatever went wrong (a real crash),
 # never silence. Replaces the old dc-record-pm-alert.yml (2026-09-13),
 # which only ever notified on the all-success case and stayed completely
@@ -10,19 +10,18 @@ name: DC Record • status alert
 # Event-driven off each edition's own workflow completing (workflow_run)
 # rather than a fixed clock time, so it's immune to GitHub's own
 # scheduling drift (confirmed elsewhere in this repo to run hours late
-# some days) -- whichever of the 4 completes last is what actually
-# triggers the "all 4 done" check. scripts/check_editions_status.py does
+# some days) -- whichever of the 3 completes last is what actually
+# triggers the "all 3 done" check. scripts/check_editions_status.py does
 # the actual classification (see its own docstring) and is invoked twice
 # per trigger, once for each window -- it's cheap to check both every
 # time rather than try to guess which window "now" belongs to, and each
 # has its own dedupe marker (digest/.am-alert-date / .pm-alert-date) so a
 # same-day repeat trigger doesn't resend.
 #
-# workflow_run fires on EVERY completion of these 4 workflows (both the
-# AM real-send and the PM site-refresh-only run, 8 times/day), so most
-# invocations of this checker will correctly find "not all 4 done yet"
-# for at least one window and stay quiet for it -- that's expected, not
-# an error.
+# workflow_run fires on EVERY completion of these 3 workflows (both the
+# AM real-send and the PM run, 6 times/day), so most invocations of this
+# checker will correctly find "not all 3 done yet" for at least one
+# window and stay quiet for it -- that's expected, not an error.
 
 on:
   workflow_run:
@@ -30,13 +29,12 @@ on:
       - "DC Record • Campaigns & Congress"
       - "DC Record • Lobbying"
       - "DC Record • Executive Branch"
-      - "DC Record • Courts"
     types: [completed]
   workflow_dispatch: {}
 
 permissions:
   contents: write # needed to commit the dedupe markers
-  actions: read # needed for `gh run list` to see the 4 editions' run history
+  actions: read # needed for `gh run list` to see the 3 editions' run history
 
 concurrency:
   group: dc-record-status-alert
@@ -73,7 +71,7 @@ jobs:
           git config user.name "dc-record-bot"
           git config user.email "actions@users.noreply.github.com"
           git commit -m "Record today's DC Record status alert [skip ci]"
-          # The 4 edition workflows (and each other's manifest commits) can
+          # The 3 edition workflows (and each other's manifest commits) can
           # also be pushing to main around this same time -- rebase-and-
           # retry on a non-fast-forward push, same pattern used throughout
           # this repo's other commit steps.

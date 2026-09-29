@@ -14,8 +14,6 @@ const REPO = "MarkAlfredcode/dc-record";
 const CRON_TO_WORKFLOWS = {
   "0 10 * * *": ["dc-record-fec.yml", "dc-record-lobbying.yml", "dc-record-contracts.yml"], // AM
   "45 22 * * *": ["dc-record-fec.yml", "dc-record-lobbying.yml", "dc-record-contracts.yml"], // PM
-  "25 10 * * *": ["dc-record-courts.yml"], // AM
-  "10 23 * * *": ["dc-record-courts.yml"], // PM site-refresh
 };
 
 // Which subscriber group (see markalfred.news/dc-record-recipients) a real
@@ -23,8 +21,7 @@ const CRON_TO_WORKFLOWS = {
 // `mode` workflow_dispatch input, added 2026-09-16. Before this, the PM
 // slot always forced a no-email site-refresh; now it really sends, but only
 // to whoever opted into the PM edition (see MANUAL_SKIP_INPUT below for the
-// one case where a run still shouldn't try to send at all). Not used for
-// Courts, which never emails either way.
+// one case where a run still shouldn't try to send at all).
 const CRON_MODE = {
   "0 10 * * *": "am",
   "45 22 * * *": "pm",
@@ -32,21 +29,17 @@ const CRON_MODE = {
 
 // Manual override, used ONLY for a dry test dispatch (never a real cron
 // fire) -- forces a run to skip sending email entirely regardless of live
-// subscribers, for a pure content-only smoke test. Courts' PM slot
-// (10 23 * * *) isn't listed here because that edition never emails either
-// way, and its workflow_dispatch declares no inputs at all (passing any
-// would 422).
+// subscribers, for a pure content-only smoke test.
 const MANUAL_SKIP_INPUT = {
   "dc-record-fec.yml": { skip_email: "true" },
   "dc-record-lobbying.yml": { site_refresh_only: "true" },
   "dc-record-contracts.yml": { site_refresh_only: "true" },
-  "dc-record-courts.yml": null,
 };
 
 function inputsFor(cron, workflowFile, { dry }) {
   if (dry) return MANUAL_SKIP_INPUT[workflowFile] || undefined; // manual test: never risk a real send
   const mode = CRON_MODE[cron];
-  if (!mode || workflowFile === "dc-record-courts.yml") return undefined; // Courts takes no inputs
+  if (!mode) return undefined;
   return { mode };
 }
 
