@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Renders content-TODAY.json into the exact existing "DC Record • Lobbying"
-email HTML design (forest green/brass gold, Georgia/Arial + Newsreader-
-headline exception, email-safe table layout, light-only lock) -- see
-prompt-lobbying.txt's former ASSEMBLY section, which this replaces.
+"""Renders content-TODAY.json into the "DC Record • Officials" email HTML
+design (forest green/brass gold, Georgia/Arial + Newsreader-headline
+exception, email-safe table layout, light-only lock).
 
-Usage: python3 render_lobbying.py content-TODAY.json newsletter-TODAY.html
+Usage: python3 render_officials.py content-TODAY.json newsletter-TODAY.html
 """
 import html
 import json
@@ -27,7 +26,7 @@ HEAD = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
 <meta name="supported-color-schemes" content="light">
-<title>DC Record • Lobbying • {date}</title>
+<title>DC Record • Officials • {date}</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@700&display=swap">
 <style>
@@ -58,7 +57,7 @@ MASTHEAD = """<!-- MASTHEAD -->
 <tr><td class="px" style="padding:20px 18px 6px 18px; text-align:center;">
   <div style="font-family:Georgia,'Times New Roman',serif; font-size:14px; letter-spacing:2px; color:{gold}; text-transform:uppercase;">{date_upper}</div>
   <div class="headline" style="font-family:'Newsreader', Georgia,'Times New Roman',serif; font-size:34px; font-weight:bold; color:{ink}; letter-spacing:1px; padding:6px 0 4px 0;">THE <span style="color:{gold};">DC</span> RECORD</div>
-  <div style="font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:14px; color:{body};">Who's lobbying whom, and who's paying, every day.</div>
+  <div style="font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:14px; color:{body};">Ethics filings, lobbying, and personal financial disclosures, every day.</div>
 </td></tr>
 <tr><td style="padding:10px 18px 0 18px;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
@@ -111,6 +110,8 @@ def render_blocks(blocks):
         t = b.get("type")
         if t == "paragraph":
             out.append(f'<p style="margin:0 0 14px 0;">{b["text"]}</p>')
+        elif t == "subhead":
+            out.append(f'<p style="margin:0 0 6px 0; font-weight:bold;">{esc(b["text"])}</p>')
         elif t == "note":
             out.append(f'<p style="margin:0 0 8px 0;">{b["text"]}</p>')
         elif t == "list":
@@ -215,7 +216,7 @@ def render(content):
 
 def main():
     if len(sys.argv) != 3:
-        print("usage: render_lobbying.py content.json output.html", file=sys.stderr)
+        print("usage: render_officials.py content.json output.html", file=sys.stderr)
         sys.exit(1)
     with open(sys.argv[1]) as f:
         content = json.load(f)

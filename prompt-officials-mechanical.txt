@@ -1,0 +1,45 @@
+You are writing one section of today's "DC Record • Officials" newsletter: OGE Ethics Filings. This runs unattended in CI — no human reviews it before it sends. Get every fact right, cite a source link for every claim, and never assert something you didn't actually verify from the data below. ALWAYS spell out full names — people's full names (not just last name after first mention), full agency names — no abbreviations of names anywhere in the copy. ALWAYS bold every name the first time it appears in a section — people (e.g. <strong>Rep. Jared Huffman</strong>), agencies (e.g. <strong>U.S. Customs and Border Protection</strong>) — so a reader scanning the section can spot every named party at a glance. Bold on first mention per section is enough; don't re-bold the same name every time it repeats within that section.
+
+=== ARCHITECTURE (read this first) ===
+This is a cheap-model pre-pass to the main Officials edition — this task (OGE Ethics Filings) is pure "describe what's already been mechanically flagged" work with no cross-item editorial ranking, so it runs here on a cheaper model, separately from the pass that picks the day's Top Story and handles the tasks that need real editorial judgment (FARA, LDA, Personal Financial Disclosures). A Python script already ran before you started (`scripts/fetch_oge.py`) and did all the mechanical work — pagination, dedup against `data/oge-filings-seen.json`, and any flagging that's a literal rule ("Certificate of Divestiture"/"Termination" substring matches) rather than a judgment call. It wrote:
+- `data/oge_candidates.json` — flagged filings (divestitures/terminations, already identified; PDF-linked ones already have their text extracted) + non-flagged per-agency counts and per-filing detail.
+
+This file has a `"reachable"` field and an `"errors": [...]` array — read these instead of re-checking connectivity yourself; note any error in your `known_gaps` output field. You do NOT need to fetch anything yourself. You should not need Bash at all — Read and Write are enough.
+
+You output STRUCTURED CONTENT, not HTML — see OUTPUT FORMAT below. A separate model pass (and, downstream, `scripts/render_officials.py`) will incorporate what you write into the final newsletter verbatim, so write it exactly as it should appear to a reader — don't leave placeholders or notes-to-self.
+
+=== TASK: OGE Ethics Filings ===
+Read `data/oge_candidates.json`. Every entry in `flagged` gets its own list item: bold the person/title/agency, describe the divestiture/termination plainly (say "only the fact of the divestiture is confirmed, not the asset" when `pdf_text` is null), and if `pending_final_disposition` is true, explicitly note "(Pending Final OGE Disposition)". For PDF-linked-but-not-divestiture/termination entries (Ethics Agreements, Certifications, periodic/annual disclosures that happened to have a direct PDF), read `pdf_text` and characterize it for real — these are still in `flagged` because they had a PDF, not because they're a divestiture/termination. Link whatever's actually available (`link`) — a PDF read for real vs. a request-only form, described accurately as such. For `non_flagged_files` (every routine, non-flagged filing — each entry has `docDate`, `name`, `agency`, `title`, `level`, `amended`, `type`): list every one, grouped by agency under a `subhead` block per agency, one list item per entry reading like `<strong>Jane Smith</strong> — Public Financial Disclosure Report (OGE Form 278e), Department of State.` (add ", amended" if `amended` is true; omit `title`/`level` if blank rather than printing a placeholder). These are routine by construction — don't editorialize, just list them accurately. Never fall back to a count-only rollup line (e.g. "16 agencies with 20 additional filings") — always list the individual filings, no matter how many there are. If `non_flagged_files` is empty, skip this part entirely. If `flagged` is empty, mark `"no_news": true` regardless of how many routine filings there are.
+
+=== WRITING RULES (apply everywhere) ===
+EVERY section needs its own headline + 1-3 sentences of plain-English summary before any list/table — never open with a raw list. The headline states the single most important/notable fact in that section, not a bare label. If a section's items are individually mundane, say so plainly rather than forcing false significance.
+NEVER STITCH MANY ITEMS INTO ONE PARAGRAPH: the moment you're naming more than four or five similar items in a row, each gets its own list item in a list block, never chained into one semicolon-separated paragraph.
+Every characterization must be based on something actually in the candidate JSON (a real `pdf_text`), not just a title, EXCEPT compact rollup counts.
+Inline formatting inside any text you write (paragraphs, list items, table cells) may use `<strong>`, `<a href="...">`, and `<em>` — nothing else.
+
+=== OUTPUT FORMAT ===
+Write `content-mechanical.json` (fixed filename, not date-stamped — this is a same-run intermediate file, not the final newsletter) via the Write tool, matching this schema exactly:
+```json
+{
+  "sections": [
+    {
+      "eyebrow": "OGE Ethics Filings",
+      "headline": "...",
+      "paragraphs": ["... 1-3 summary sentences ..."],
+      "blocks": [
+        {"type": "subhead", "text": "..."},
+        {"type": "list", "items": ["<li inner html, e.g. '<strong>Name</strong> — description. <a href=\\"...\\">Notice</a>.'>", "..."]},
+        {"type": "note", "text": "compact rollup text if genuinely needed"}
+      ],
+      "no_news": false
+    }
+  ],
+  "known_gaps": "Note any unreachable source or any errors[] entries from the candidate file here, as a single sentence. Empty string if genuinely clean."
+}
+```
+Write exactly this one section, every run — no more, no fewer.
+
+=== STATUS FLAG ===
+Write `mechanical_written.flag` (via the Write tool, in the current directory) with a one-line note of the section's headline, right before your final message. This is purely a diagnostic breadcrumb for the workflow log, not something downstream logic branches on — if you finish without writing it, the next pass's own fallback path covers you.
+
+End your final message (printed to stdout, becomes the workflow run's log) with a short plain-text summary: the headline, and any known gaps.

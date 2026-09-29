@@ -4,7 +4,7 @@ window -- added 2026-09-14 alongside fetch_negative_amounts.py. Mechanizes
 the download+pdftotext+grep pass that used to run as an uncapped Bash loop
 inside Claude's own turn: the actual scanning needs no judgment (a literal
 `grep -i` against a fixed keyword list), so it happens here at zero LLM
-cost. Claude's Task 1 (in prompt-fec.txt) still does its own independent
+cost. Claude's Task 1 (in prompt-campaigns.txt) still does its own independent
 fetch/read/paraphrase of these same filings for the newsletter's real RFAI/
 Form 99 writeup -- this script is a SEPARATE, narrower pass whose only
 output is "which filings (if any) hit a red-flag keyword," so a hit can be
@@ -33,7 +33,7 @@ SEEN_MANIFEST_PATH = "data/fec-filings-seen.json"  # owned by Task 1 (main pass)
 
 # Keep in sync by hand with fetch_negative_amounts.py's KEYWORD_PATTERN.
 # NOTE: "forg" alone false-positives on "Loan Forgiveness" -- a routine FEC
-# Form 99 subtype prompt-fec.txt's Task 1 already documents as boilerplate
+# Form 99 subtype prompt-campaigns.txt's Task 1 already documents as boilerplate
 # (confirmed live 2026-09-14: ERBECK FOR OHIO's Form 99 flagged on exactly
 # this collision before the fix below). Require the forgery-specific
 # suffix instead of the bare substring.

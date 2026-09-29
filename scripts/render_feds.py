@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
-"""Renders content-TODAY.json into the exact existing "DC Record • Executive
-Branch" email HTML design (charcoal slate/rust, Georgia/Arial + Newsreader-
-headline exception, email-safe table layout, mobile-first/601px widen,
-light-only lock) -- see prompt-contracts.txt's former ASSEMBLY section, which
-this replaces. Claude no longer generates this markup; it only writes
-content-TODAY.json (see dc_common.py's module docstring for why).
+"""Renders content-TODAY.json into the "DC Record • The Feds" email HTML
+design (charcoal slate/rust, Georgia/Arial + Newsreader-headline exception,
+email-safe table layout, mobile-first/601px widen, light-only lock).
 
-Usage: python3 render_contracts.py content-TODAY.json newsletter-TODAY.html
+Usage: python3 render_feds.py content-TODAY.json newsletter-TODAY.html
 """
 import html
 import json
@@ -28,7 +25,7 @@ HEAD = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
 <meta name="supported-color-schemes" content="light">
-<title>DC Record • Executive Branch • {date}</title>
+<title>DC Record • The Feds • {date}</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@700&display=swap">
 <style>
@@ -64,8 +61,8 @@ MASTHEAD = """<!-- MASTHEAD -->
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr><td align="center" style="font-family:Georgia, 'Times New Roman', serif; font-size:13px; letter-spacing:2px; color:#3c4858; padding-bottom:6px;">{date_upper}</td></tr>
 <tr><td align="center" class="headline" style="font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:34px; font-weight:bold; color:#161616; padding-bottom:6px;">THE <span style="color:#b5563c;">DC</span> RECORD</td></tr>
-<tr><td align="center" style="font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-size:14px; color:#3c4858; padding-bottom:4px;">Federal contracting, apportionments, and regulatory action, every day.</td></tr>
-<tr><td align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; letter-spacing:1px; color:#8a8a8a; text-transform:uppercase;">Executive Branch Edition</td></tr>
+<tr><td align="center" style="font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-size:14px; color:#3c4858; padding-bottom:4px;">Federal contracting and OMB apportionments, every day.</td></tr>
+<tr><td align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; letter-spacing:1px; color:#8a8a8a; text-transform:uppercase;">The Feds Edition</td></tr>
 </table>
 </td>
 </tr>
@@ -139,7 +136,6 @@ def render_section(section, is_first):
         f'<h2 class="h2 headline" style="font-family:\'Newsreader\', Georgia, \'Times New Roman\', serif; '
         f'font-size:21px; line-height:27px; color:{INK}; margin:0 0 10px 0;">{headline}</h2>',
     ]
-    para_blocks = [b for b in section.get("blocks", []) if b.get("type") == "paragraph" and b.get("_intro")]
     intro_paragraphs = section.get("paragraphs", [])
     if intro_paragraphs:
         parts.append(f'<div style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:24px; color:{BODY_INK};">')
@@ -234,7 +230,7 @@ def render(content):
 
 def main():
     if len(sys.argv) != 3:
-        print("usage: render_contracts.py content.json output.html", file=sys.stderr)
+        print("usage: render_feds.py content.json output.html", file=sys.stderr)
         sys.exit(1)
     with open(sys.argv[1]) as f:
         content = json.load(f)

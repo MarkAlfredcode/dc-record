@@ -1,8 +1,8 @@
-name: DC Record • Lobbying
+name: DC Record • Officials
 
 on:
   # `schedule:` DISABLED 2026-09-12 -- GitHub's own schedule event was
-  # observed firing this and the other 3 editions ~3.5h late every single
+  # observed firing this and the other editions ~3.5h late every single
   # day (best-effort, no SLA). Replaced by ../scheduler/, a Cloudflare
   # Worker with its own Cron Triggers that calls workflow_dispatch below at
   # the exact times these crons used to (0 10 * * * / 45 22 * * * UTC).
@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Which subscriber group to email: am or pm (see markalfred.news/dc-record-recipients). 2026-09-16: PM used to be a hardcoded no-email site-refresh; now it really sends, but only to subscribers who opted into the PM edition -- if nobody has, it still quietly no-ops (email_skipped.flag), same visible effect as before.'
+        description: 'Which subscriber group to email: am or pm (see markalfred.news/dc-record-recipients).'
         required: false
         default: 'am'
       test_recipient_override:
@@ -21,15 +21,15 @@ on:
         required: false
         default: ''
       site_refresh_only:
-        description: "Site-refresh-only run (true/false) -- manual override that generates content but skips sending email and protects digest/lobbying.html's \"latest\" alias. The scheduler no longer sets this for the PM slot -- see mode above."
+        description: "Site-refresh-only run (true/false) -- manual override that generates content but skips sending email and protects the dedupe manifests + digest/officials.html \"latest\" alias."
         required: false
         default: 'false'
 
 permissions:
-  contents: write  # needed to commit today's newsletter to digest/lobbying.html
+  contents: write  # needed to commit the OGE/PFD-PTR dedupe manifests and today's newsletter
 
 concurrency:
-  group: dc-record-lobbying
+  group: dc-record-officials
   cancel-in-progress: false
 
 jobs:
@@ -52,11 +52,6 @@ jobs:
         id: date
         run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
-      # Just the MANUAL override signal now -- not the full "will this run
-      # send" answer, since that also depends on live subscriber counts,
-      # which aren't known until the Send email step actually queries them.
-      # The Commit step below derives its own answer from whether that step
-      # actually wrote email_sent.flag, not from this.
       - name: Determine manual skip override
         id: email_decision
         run: |
@@ -66,19 +61,48 @@ jobs:
           fi
           echo "manual_skip=$MANUAL_SKIP" >> "$GITHUB_OUTPUT"
 
-      # 2026-09-12 architecture change: Claude no longer writes the final
-      # HTML or sends the email itself -- it writes content-TODAY.json (see
-      # prompt-lobbying.txt's OUTPUT FORMAT section) and
-      # scripts/render_lobbying.py + scripts/send_email.py below take it
-      # from there. This edition still does its own fetching via Bash
-      # exactly as before.
-      - name: Run DC Record • Lobbying (content generation)
+      - name: Run OGE fetch script
+        run: |
+          set +e
+          python3 scripts/fetch_oge.py; echo "fetch_oge exit=$?"
+          set -e
+
+      - name: Run mechanical content pass (OGE Ethics Filings, cheap model)
+        id: run_mechanical
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          set +e
+          cat prompt-officials-mechanical.txt | \
+            claude -p \
+              --model claude-haiku-4-5-20251001 \
+              --permission-mode bypassPermissions \
+              --allowedTools "Read,Write" \
+              --output-format json > claude_mechanical_result.json
+          echo "mechanical exit=$?"
+          set -e
+
+          echo "::group::Claude usage/cost (mechanical pass)"
+          if jq -e . claude_mechanical_result.json >/dev/null 2>&1; then
+            jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_mechanical_result.json
+          else
+            echo "No valid JSON result -- main pass will use its fallback path. Raw output:"
+            cat claude_mechanical_result.json
+          fi
+          echo "::endgroup::"
+
+          echo "::group::Claude final message (mechanical pass)"
+          jq -r '.result // empty' claude_mechanical_result.json 2>/dev/null || true
+          echo "::endgroup::"
+          exit 0
+
+      - name: Run DC Record • Officials (content generation)
         id: run_edition
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           set +e
-          cat prompt-lobbying.txt | \
+          cat prompt-officials.txt | \
             claude -p \
               --permission-mode bypassPermissions \
               --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
@@ -86,7 +110,7 @@ jobs:
           CLAUDE_EXIT=$?
           set -e
 
-          echo "::group::Claude usage/cost (Lobbying)"
+          echo "::group::Claude usage/cost (Officials)"
           if jq -e . claude_result.json >/dev/null 2>&1; then
             jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_creation_input_tokens=" + (.usage.cache_creation_input_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  duration_ms=" + (.duration_ms|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_result.json
           else
@@ -95,7 +119,7 @@ jobs:
           fi
           echo "::endgroup::"
 
-          echo "::group::Claude final message (Lobbying)"
+          echo "::group::Claude final message (Officials)"
           jq -r '.result // empty' claude_result.json 2>/dev/null || true
           echo "::endgroup::"
 
@@ -104,7 +128,7 @@ jobs:
       - name: Render newsletter from content JSON
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
         run: |
-          python3 scripts/render_lobbying.py "content-${{ steps.date.outputs.today }}.json" "newsletter-${{ steps.date.outputs.today }}.html"
+          python3 scripts/render_officials.py "content-${{ steps.date.outputs.today }}.json" "newsletter-${{ steps.date.outputs.today }}.html"
 
       - name: Send email
         if: hashFiles(format('newsletter-{0}.html', steps.date.outputs.today)) != ''
@@ -119,20 +143,20 @@ jobs:
           elif [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
             python3 scripts/send_email.py \
               "newsletter-${{ steps.date.outputs.today }}.html" \
-              "DC Record • Lobbying • ${{ steps.date.outputs.today }}" \
-              --from "DC Record • Lobbying <newsletter@markalfred.news>" \
+              "DC Record • Officials • ${{ steps.date.outputs.today }}" \
+              --from "DC Record • Officials <newsletter@markalfred.news>" \
               --to "${{ github.event.inputs.test_recipient_override }}"
           else
             EMAILS=$(curl -s -H "Authorization: Bearer $DC_RECORD_RECIPIENTS_TOKEN" \
-              "https://markalfred.news/dc-record-recipients?edition=lobbying&mode=$MODE" \
+              "https://markalfred.news/dc-record-recipients?edition=officials&mode=$MODE" \
               | python3 -c "import json,sys; d=json.load(sys.stdin); print(','.join(d.get('emails', [])))")
             if [ -z "$EMAILS" ]; then
-              echo "no subscribers for lobbying/$MODE -- not sending" > email_skipped.flag
+              echo "no subscribers for officials/$MODE -- not sending" > email_skipped.flag
             else
               python3 scripts/send_email.py \
                 "newsletter-${{ steps.date.outputs.today }}.html" \
-                "DC Record • Lobbying • ${{ steps.date.outputs.today }}" \
-                --from "DC Record • Lobbying <newsletter@markalfred.news>" \
+                "DC Record • Officials • ${{ steps.date.outputs.today }}" \
+                --from "DC Record • Officials <newsletter@markalfred.news>" \
                 --to "$EMAILS"
             fi
           fi
@@ -145,73 +169,65 @@ jobs:
               https://ntfy.sh/markalfreddotnews >/dev/null 2>&1 || true
           }
           if [ -f email_sent.flag ]; then
-            notify "DC Record Lobbying sent" "email" "$(cat email_sent.flag)"
+            notify "DC Record Officials sent" "email" "$(cat email_sent.flag)"
           elif [ -f email_skipped.flag ]; then
-            notify "DC Record Lobbying: no email sent" "test_tube" "$(cat email_skipped.flag)"
+            notify "DC Record Officials: no email sent" "test_tube" "$(cat email_skipped.flag)"
           elif [ -f email_failed.flag ]; then
-            notify "DC Record Lobbying FAILED" "rotating_light" "$(cat email_failed.flag)"
+            notify "DC Record Officials FAILED" "rotating_light" "$(cat email_failed.flag)"
           elif [ -f content_skipped.flag ]; then
-            notify "DC Record Lobbying skipped" "warning" "$(cat content_skipped.flag)"
+            notify "DC Record Officials skipped" "warning" "$(cat content_skipped.flag)"
           elif [ -f content_failed.flag ]; then
-            notify "DC Record Lobbying content FAILED" "rotating_light" "$(cat content_failed.flag)"
+            notify "DC Record Officials content FAILED" "rotating_light" "$(cat content_failed.flag)"
           elif [ "${{ steps.run_edition.outcome }}" == "failure" ]; then
-            notify "DC Record Lobbying CRASHED" "rotating_light" "Run step failed with no status flag written — check the Actions log."
+            notify "DC Record Officials CRASHED" "rotating_light" "Run step failed with no status flag written — check the Actions log."
           else
-            notify "DC Record Lobbying: unknown outcome" "warning" "Run finished but wrote no status flag — check the Actions log."
+            notify "DC Record Officials: unknown outcome" "warning" "Run finished but wrote no status flag — check the Actions log."
           fi
 
-      # Mirrors today's newsletter to a fixed repo path (digest/lobbying.html)
-      # so the DC Record Digest routine can read it straight from its own git
-      # checkout -- GitHub Actions' build-artifact download redirects to Azure
-      # Blob Storage, which that routine's cloud sandbox cannot reach (confirmed
-      # live 2026-09-05), so a committed file is the reliable path.
-      - name: Commit today's newsletter
+      # Also mirrors today's newsletter to a fixed repo path (digest/officials.html)
+      # so the markalfredsite /dc-record Pages Function can read it straight
+      # from this repo's git history via GitHub's Contents API.
+      - name: Commit updated manifests and today's newsletter
         run: |
           set -euo pipefail
-          # Derived from the actual send outcome -- see dc-record-fec.yml's
-          # Commit step for the full rationale.
           IS_SITE_REFRESH="true"
           if [ -f email_sent.flag ]; then
             IS_SITE_REFRESH="false"
           fi
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
-            # AM/PM edition snapshots -- see dc-record-fec.yml's commit step
-            # for the full rationale, including why a site-refresh-only run
-            # never advances digest/lobbying.html.
             TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
-            AM_DATE_FILE="digest/.lobbying-am-date"
+            AM_DATE_FILE="digest/.officials-am-date"
             PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
             if [ "$PREV_AM_DATE" != "$TODAY_TAG" ]; then
-              cp newsletter-*.html digest/lobbying-am.html
+              cp newsletter-*.html digest/officials-am.html
               echo "$TODAY_TAG" > "$AM_DATE_FILE"
-              rm -f digest/lobbying-pm.html
+              rm -f digest/officials-pm.html
             else
-              cp newsletter-*.html digest/lobbying-pm.html
+              cp newsletter-*.html digest/officials-pm.html
             fi
             if [ "$IS_SITE_REFRESH" == "true" ]; then
-              echo "Site-refresh-only (no-email) run -- leaving digest/lobbying.html on the real AM edition."
+              echo "Site-refresh-only (no-email) run -- leaving digest/officials.html on the real AM edition."
             else
-              cp newsletter-*.html digest/lobbying.html
+              cp newsletter-*.html digest/officials.html
             fi
           else
-            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/lobbying*.html as-is."
+            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/officials*.html as-is."
           fi
-          # `git add` before the diff check, and check --cached rather than
-          # the working-tree diff -- a brand-new untracked file (e.g. the
-          # first-ever digest/lobbying-pm.html) is invisible to a plain
-          # `git diff`, which would silently skip the commit entirely
-          # (confirmed live 2026-09-12: this edition's very first PM
-          # snapshot never got committed because of exactly this).
-          git add digest/
+          # A site-refresh-only run still lets Claude update the PFD-PTR/OGE
+          # dedupe manifests on disk as part of its normal task instructions --
+          # revert those specific files before staging so nothing gets marked
+          # "seen" without ever having been emailed; tomorrow's real run will
+          # naturally re-find and correctly email whatever this run scraped
+          # first.
+          if [ "$IS_SITE_REFRESH" == "true" ]; then
+            git checkout -- data/pfd-ptr-seen.json data/oge-filings-seen.json 2>/dev/null || true
+          fi
+          git add data/pfd-ptr-seen.json data/oge-filings-seen.json digest/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
-            git commit -m "Update today's newsletter [skip ci]"
-            # Executive Branch and Campaigns & Congress also push to main on
-            # this same cron slot -- rebase-and-retry on a non-fast-forward
-            # push instead of failing outright (same race confirmed live
-            # 2026-09-05 between those two).
+            git commit -m "Update PFD-PTR/OGE manifests and today's newsletter [skip ci]"
             PUSHED=false
             for i in 1 2 3 4 5; do
               if git push; then
@@ -224,14 +240,14 @@ jobs:
             done
             $PUSHED
           else
-            echo "Newsletter unchanged, nothing to commit."
+            echo "Manifests and newsletter unchanged, nothing to commit."
           fi
 
       - name: Upload generated newsletter as a build artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: newsletter-lobbying-${{ github.run_id }}
+          name: newsletter-officials-${{ github.run_id }}
           path: newsletter-*.html
           if-no-files-found: ignore
           retention-days: 30

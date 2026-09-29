@@ -54,9 +54,9 @@ from zoneinfo import ZoneInfo
 LA_TZ = ZoneInfo("America/Los_Angeles")
 
 EDITIONS = [
-    ("campaigns", "dc-record-fec.yml", "Campaigns & Congress"),
-    ("lobbying", "dc-record-lobbying.yml", "Lobbying"),
-    ("executive", "dc-record-contracts.yml", "Executive Branch"),
+    ("campaigns", "dc-record-campaigns.yml", "Campaigns"),
+    ("feds", "dc-record-feds.yml", "The Feds"),
+    ("officials", "dc-record-officials.yml", "Officials"),
 ]
 
 WINDOW_HOURS = {"am": range(0, 12), "pm": range(12, 24)}

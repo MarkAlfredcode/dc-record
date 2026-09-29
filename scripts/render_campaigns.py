@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Renders content-TODAY.json into the exact existing "DC Record • Campaigns
-& Congress" email HTML design (navy/red, Georgia/Arial + Newsreader-headline
-exception, email-safe table layout, light-only lock) -- see
-prompt-fec.txt's former ASSEMBLY section, which this replaces.
+"""Renders content-TODAY.json into the "DC Record • Campaigns" email HTML
+design (navy/red, Georgia/Arial + Newsreader-headline exception, email-safe
+table layout, light-only lock).
 
-Usage: python3 render_fec.py content-TODAY.json newsletter-TODAY.html
+Usage: python3 render_campaigns.py content-TODAY.json newsletter-TODAY.html
 """
 import html
 import json
@@ -26,7 +25,7 @@ HEAD = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
 <meta name="supported-color-schemes" content="light">
-<title>DC Record • Campaigns & Congress • {date}</title>
+<title>DC Record • Campaigns • {date}</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:wght@700&display=swap">
 <style>
@@ -54,7 +53,7 @@ MASTHEAD = """<!-- MASTHEAD -->
 <tr><td class="px" style="padding:24px 18px 16px 18px; text-align:center;">
 <div style="font-family:Georgia,'Times New Roman',serif; font-size:14px; letter-spacing:2px; color:#262626; text-transform:uppercase; margin-bottom:10px;">{date_upper}</div>
 <div class="headline" style="font-family:'Newsreader', Georgia,'Times New Roman',serif; font-size:34px; font-weight:bold; color:{ink}; line-height:1.1;">THE <span style="color:{red};">DC</span> RECORD</div>
-<div style="font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:14px; color:{red}; margin-top:8px;">Campaign finance compliance and Congress, every day.</div>
+<div style="font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:14px; color:{red}; margin-top:8px;">Campaign finance compliance, every day.</div>
 </td></tr>
 <tr><td style="border-top:2px solid {navy}; border-bottom:3px solid {red}; padding:0;"></td></tr>
 """
@@ -208,7 +207,7 @@ def render(content):
 
 def main():
     if len(sys.argv) != 3:
-        print("usage: render_fec.py content.json output.html", file=sys.stderr)
+        print("usage: render_campaigns.py content.json output.html", file=sys.stderr)
         sys.exit(1)
     with open(sys.argv[1]) as f:
         content = json.load(f)

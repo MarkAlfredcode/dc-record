@@ -13,6 +13,8 @@ compatibility_date = "2026-09-01"
 # each Nov/March DST change and need revisiting then, same as before).
 [triggers]
 crons = [
-  "0 10 * * *",   # AM: FEC / Lobbying / Contracts (mode:"am") -> ~3:00am PT (PDT)
-  "45 22 * * *",  # PM: FEC / Lobbying / Contracts (mode:"pm") -> ~3:45pm PT (PDT)
+  "0 10 * * *",   # AM: Campaigns / Officials / The Feds (mode:"am") -> ~3:00am PT (PDT)
+  "25 10 * * *",  # AM: Congress                              -> ~3:25am PT (PDT)
+  "45 22 * * *",  # PM: Campaigns / Officials / The Feds (mode:"pm") -> ~3:45pm PT (PDT)
+  "10 23 * * *",  # PM site-refresh: Congress                 -> ~4:10pm PT (PDT)
 ]

@@ -26,9 +26,9 @@ name: DC Record • status alert
 on:
   workflow_run:
     workflows:
-      - "DC Record • Campaigns & Congress"
-      - "DC Record • Lobbying"
-      - "DC Record • Executive Branch"
+      - "DC Record • Campaigns"
+      - "DC Record • The Feds"
+      - "DC Record • Officials"
     types: [completed]
   workflow_dispatch: {}
 

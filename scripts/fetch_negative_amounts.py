@@ -8,7 +8,7 @@ summary sentence and, for any hit whose description/memo text matches a
 red-flag keyword, saying so plainly.
 
 Same LOOKBACK + persisted-manifest dedupe pattern as every other FEC-edition
-task (see prompt-fec.txt Step 0 and Task 1's DEDUPE note) -- FEC's own
+task (see prompt-campaigns.txt Step 0 and Task 1's DEDUPE note) -- FEC's own
 indexing can lag a couple days, so the window has no upper bound and repeat
 appearances are suppressed by the manifest instead of the window itself.
 

@@ -8,13 +8,44 @@ every solicitation so nothing gets missed.
 
 Output: data/sam_candidates.json
 """
+import html
 import os
+import re
 import sys
 
 from dc_common import check_reachable, days_ago_la, http_get_json, today_la, write_candidates
 
 OUT_PATH = "data/sam_candidates.json"
 BASE = "https://api.sam.gov/opportunities/v2/search"
+# Unauthenticated frontend endpoint -- confirmed live 2026-09-29 to carry the
+# same description body as the api_key-gated `desc_url` from a search row,
+# without spending any of the SAM_API_KEY quota. Fetching descriptions this
+# way instead of via the second authenticated hop is what actually fixed the
+# "title-only, description not available" gaps: those weren't missing
+# descriptions on SAM.gov's end, they were this script's own per-notice
+# authenticated desc-fetch calls getting 429'd once the day's justification
+# count pushed the key over its throttle (which then also self-extends
+# another 24h on any further call -- see reference_sam_gov_api memory).
+NOTICE_DETAIL = "https://sam.gov/api/prod/opps/v2/opportunities/{}"
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def notice_id_from_ui_link(ui_link):
+    if not ui_link:
+        return None
+    m = re.search(r"contract/opp/([^/]+)/view", ui_link)
+    return m.group(1) if m else None
+
+
+def fetch_description_noauth(notice_id):
+    """Pulls description text straight from SAM.gov's own frontend API,
+    keyed by noticeId, with no api_key needed."""
+    data = http_get_json(NOTICE_DETAIL.format(notice_id), timeout=20)
+    bodies = [d.get("body", "") for d in data.get("description", []) if isinstance(d, dict)]
+    text = " ".join(bodies)
+    text = html.unescape(_TAG_RE.sub(" ", text))
+    return _WS_RE.sub(" ", text).strip() or None
 
 
 def paginate(api_key, ptype, posted_from, posted_to):
@@ -77,14 +108,12 @@ def main():
         if i % 10 == 0:
             print(f"  justification detail {i}/{len(rows)}", file=sys.stderr)
         desc_text = None
-        desc_url = r.get("description")
-        if desc_url:
+        notice_id = notice_id_from_ui_link(r.get("uiLink"))
+        if notice_id:
             try:
-                sep = "&" if "?" in desc_url else "?"
-                dd = http_get_json(f"{desc_url}{sep}api_key={api_key}", timeout=20)
-                desc_text = dd.get("description") if isinstance(dd, dict) else None
+                desc_text = fetch_description_noauth(notice_id)
             except Exception as e:  # noqa: BLE001
-                out["errors"].append(f"justification desc fetch failed for {r.get('noticeId')}: {e}")
+                out["errors"].append(f"justification desc fetch failed for {notice_id}: {e}")
         out["justifications"].append({
             "title": r.get("title"),
             "agency": r.get("fullParentPathName"),

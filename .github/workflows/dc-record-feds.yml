@@ -1,8 +1,8 @@
-name: DC Record • Executive Branch
+name: DC Record • The Feds
 
 on:
   # `schedule:` DISABLED 2026-09-12 -- GitHub's own schedule event was
-  # observed firing this and the other 3 editions ~3.5h late every single
+  # observed firing this and the other editions ~3.5h late every single
   # day (best-effort, no SLA). Replaced by ../scheduler/, a Cloudflare
   # Worker with its own Cron Triggers that calls workflow_dispatch below at
   # the exact times these crons used to (0 10 * * * / 45 22 * * * UTC).
@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Which subscriber group to email: am or pm (see markalfred.news/dc-record-recipients). 2026-09-16: PM used to be a hardcoded no-email site-refresh; now it really sends, but only to subscribers who opted into the PM edition -- if nobody has, it still quietly no-ops (email_skipped.flag), same visible effect as before.'
+        description: 'Which subscriber group to email: am or pm (see markalfred.news/dc-record-recipients).'
         required: false
         default: 'am'
       test_recipient_override:
@@ -21,7 +21,7 @@ on:
         required: false
         default: ''
       site_refresh_only:
-        description: 'Site-refresh-only run (true/false) -- manual override that generates content but skips sending email and protects the dedupe manifests + digest/executive.html "latest" alias. The scheduler no longer sets this for the PM slot -- see mode above.'
+        description: 'Site-refresh-only run (true/false) -- manual override that generates content but skips sending email and protects the dedupe manifests + digest/feds.html "latest" alias.'
         required: false
         default: 'false'
 
@@ -29,7 +29,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dc-record-contracts
+  group: dc-record-feds
   cancel-in-progress: false
 
 jobs:
@@ -52,13 +52,6 @@ jobs:
         id: date
         run: echo "today=$(TZ=America/Los_Angeles date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
 
-      # Just the MANUAL override signal now -- not the full "will this run
-      # send" answer, since that also depends on live subscriber counts,
-      # which aren't known until the Send email step actually queries them.
-      # Still reused by the network-issue-notice step below (that one only
-      # cares about "was this a deliberate test/dry run", which manual_skip
-      # answers fine on its own). The Commit step derives its own answer
-      # from whether the Send email step actually wrote email_sent.flag.
       - name: Determine manual skip override
         id: email_decision
         run: |
@@ -68,44 +61,23 @@ jobs:
           fi
           echo "manual_skip=$MANUAL_SKIP" >> "$GITHUB_OUTPUT"
 
-      # 2026-09-12 architecture change: these 5 scripts do all the fully-
-      # mechanical fetch/paginate/filter/dedupe/flag work that used to happen
-      # inside Claude's own reasoning (73 turns / 8.6M cache-read tokens /
-      # $3.18 on 2026-09-11, the worst of the 4 DC Record editions) --
-      # see /Users/mark/.claude/plans/imperative-brewing-lerdorf.md. Claude's
-      # job narrows to reading their pre-digested candidates JSON and writing
-      # the prose/judgment calls that can't be scripted.
       - name: Run fetch/filter scripts
         env:
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
         run: |
-          # Run from the repo root, NOT `cd scripts` -- these scripts write
-          # to relative data/*.json paths expecting the repo root as cwd.
-          # (Python still finds dc_common.py fine either way: it adds the
-          # executed script's own directory to sys.path[0] regardless of
-          # cwd.) Confirmed by hand: `cd scripts` first made every fetch
-          # silently write to scripts/data/ instead, which the reachability
-          # check then read as "fetch script did not run" for all 5 and
-          # wrongly triggered the 3+-down skip path.
           set +e
           python3 scripts/fetch_omb.py; echo "fetch_omb exit=$?"
           python3 scripts/fetch_usaspending.py; echo "fetch_usaspending exit=$?"
           python3 scripts/fetch_sam.py; echo "fetch_sam exit=$?"
-          python3 scripts/fetch_oge.py; echo "fetch_oge exit=$?"
-          python3 scripts/fetch_fedregister.py; echo "fetch_fedregister exit=$?"
           set -e
 
-      # Mechanical: "3+ of 5 sources unreachable -> skip and notify" used to
-      # be Claude's own judgment call reading its own connectivity-check
-      # curls; now it's just counting a boolean field 5 scripts already
-      # reported, so it happens here instead of costing a turn.
       - name: Check source reachability
         id: reachability
         run: |
           DOWN=$(python3 -c "
           import json
-          files = ['omb_candidates.json','usaspending_candidates.json','sam_candidates.json','oge_candidates.json','fedregister_candidates.json']
-          hosts = ['openomb.org/apportionment-public.max.gov','api.usaspending.gov','api.sam.gov','extapps2.oge.gov','www.federalregister.gov']
+          files = ['omb_candidates.json','usaspending_candidates.json','sam_candidates.json']
+          hosts = ['openomb.org/apportionment-public.max.gov','api.usaspending.gov','api.sam.gov']
           down = []
           for f, h in zip(files, hosts):
               try:
@@ -121,28 +93,20 @@ jobs:
           echo "down_count=$COUNT" >> "$GITHUB_OUTPUT"
           echo "Down hosts: $DOWN ($COUNT)"
 
-      - name: Send network-issue notice and skip (3+ sources down)
-        if: steps.reachability.outputs.down_count >= 3 && steps.email_decision.outputs.manual_skip != 'true'
+      - name: Send network-issue notice and skip (2+ of 3 sources down)
+        if: steps.reachability.outputs.down_count >= 2 && steps.email_decision.outputs.manual_skip != 'true'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python3 scripts/send_notice.py "${{ steps.reachability.outputs.down_hosts }}"
 
-      # 2026-09-13 architecture change: OMB Apportionments and OGE Ethics
-      # Filings are pure "describe what's already flagged" work with no
-      # cross-item editorial ranking, so they run on a cheaper model in their
-      # own pass, writing content-mechanical.json for the main pass below to
-      # read. If this step fails or produces something unusable, the main
-      # pass's own prompt falls back to doing both tasks itself (see
-      # prompt-contracts.txt's FALLBACK TASKS) -- so this step is allowed to
-      # fail without failing the job.
-      - name: Run mechanical content pass (OMB + OGE, cheap model)
+      - name: Run mechanical content pass (OMB, cheap model)
         id: run_mechanical
-        if: steps.reachability.outputs.down_count < 3
+        if: steps.reachability.outputs.down_count < 2
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           set +e
-          cat prompt-contracts-mechanical.txt | \
+          cat prompt-feds-mechanical.txt | \
             claude -p \
               --model claude-haiku-4-5-20251001 \
               --permission-mode bypassPermissions \
@@ -165,14 +129,14 @@ jobs:
           echo "::endgroup::"
           exit 0
 
-      - name: Run DC Record • Executive Branch (content generation)
+      - name: Run DC Record • The Feds (content generation)
         id: run_edition
-        if: steps.reachability.outputs.down_count < 3
+        if: steps.reachability.outputs.down_count < 2
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
           set +e
-          cat prompt-contracts.txt | \
+          cat prompt-feds.txt | \
             claude -p \
               --permission-mode bypassPermissions \
               --allowedTools "Read,Write" \
@@ -180,7 +144,7 @@ jobs:
           CLAUDE_EXIT=$?
           set -e
 
-          echo "::group::Claude usage/cost (Executive Branch)"
+          echo "::group::Claude usage/cost (The Feds)"
           if jq -e . claude_result.json >/dev/null 2>&1; then
             jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_creation_input_tokens=" + (.usage.cache_creation_input_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  duration_ms=" + (.duration_ms|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_result.json
           else
@@ -189,19 +153,19 @@ jobs:
           fi
           echo "::endgroup::"
 
-          echo "::group::Claude final message (Executive Branch)"
+          echo "::group::Claude final message (The Feds)"
           jq -r '.result // empty' claude_result.json 2>/dev/null || true
           echo "::endgroup::"
 
           exit $CLAUDE_EXIT
 
       - name: Render newsletter from content JSON
-        if: steps.reachability.outputs.down_count < 3 && hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
+        if: steps.reachability.outputs.down_count < 2 && hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
         run: |
-          python3 scripts/render_contracts.py "content-${{ steps.date.outputs.today }}.json" "newsletter-${{ steps.date.outputs.today }}.html"
+          python3 scripts/render_feds.py "content-${{ steps.date.outputs.today }}.json" "newsletter-${{ steps.date.outputs.today }}.html"
 
       - name: Send email
-        if: steps.reachability.outputs.down_count < 3 && hashFiles(format('newsletter-{0}.html', steps.date.outputs.today)) != ''
+        if: steps.reachability.outputs.down_count < 2 && hashFiles(format('newsletter-{0}.html', steps.date.outputs.today)) != ''
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           DC_RECORD_RECIPIENTS_TOKEN: ${{ secrets.DC_RECORD_RECIPIENTS_TOKEN }}
@@ -213,18 +177,18 @@ jobs:
           elif [ -n "${{ github.event.inputs.test_recipient_override }}" ]; then
             python3 scripts/send_email.py \
               "newsletter-${{ steps.date.outputs.today }}.html" \
-              "DC Record • Executive Branch • ${{ steps.date.outputs.today }}" \
+              "DC Record • The Feds • ${{ steps.date.outputs.today }}" \
               --to "${{ github.event.inputs.test_recipient_override }}"
           else
             EMAILS=$(curl -s -H "Authorization: Bearer $DC_RECORD_RECIPIENTS_TOKEN" \
-              "https://markalfred.news/dc-record-recipients?edition=executive&mode=$MODE" \
+              "https://markalfred.news/dc-record-recipients?edition=feds&mode=$MODE" \
               | python3 -c "import json,sys; d=json.load(sys.stdin); print(','.join(d.get('emails', [])))")
             if [ -z "$EMAILS" ]; then
-              echo "no subscribers for executive/$MODE -- not sending" > email_skipped.flag
+              echo "no subscribers for feds/$MODE -- not sending" > email_skipped.flag
             else
               python3 scripts/send_email.py \
                 "newsletter-${{ steps.date.outputs.today }}.html" \
-                "DC Record • Executive Branch • ${{ steps.date.outputs.today }}" \
+                "DC Record • The Feds • ${{ steps.date.outputs.today }}" \
                 --to "$EMAILS"
             fi
           fi
@@ -237,80 +201,59 @@ jobs:
               https://ntfy.sh/markalfreddotnews >/dev/null 2>&1 || true
           }
           if [ -f email_sent.flag ]; then
-            notify "DC Record Executive Branch sent" "email" "$(cat email_sent.flag)"
+            notify "DC Record The Feds sent" "email" "$(cat email_sent.flag)"
           elif [ -f email_failed.flag ]; then
-            notify "DC Record Executive Branch FAILED" "rotating_light" "$(cat email_failed.flag)"
+            notify "DC Record The Feds FAILED" "rotating_light" "$(cat email_failed.flag)"
           elif [ -f email_skipped.flag ]; then
-            notify "DC Record Executive Branch skipped" "warning" "$(cat email_skipped.flag)"
+            notify "DC Record The Feds skipped" "warning" "$(cat email_skipped.flag)"
           elif [ -f content_failed.flag ]; then
-            notify "DC Record Executive Branch content FAILED" "rotating_light" "$(cat content_failed.flag)"
+            notify "DC Record The Feds content FAILED" "rotating_light" "$(cat content_failed.flag)"
           elif [ -f content_skipped.flag ]; then
-            notify "DC Record Executive Branch content skipped" "warning" "$(cat content_skipped.flag)"
+            notify "DC Record The Feds content skipped" "warning" "$(cat content_skipped.flag)"
           elif [ "${{ steps.run_edition.outcome }}" == "failure" ]; then
-            notify "DC Record Executive Branch CRASHED" "rotating_light" "Run step failed with no status flag written — check the Actions log."
+            notify "DC Record The Feds CRASHED" "rotating_light" "Run step failed with no status flag written — check the Actions log."
           else
-            notify "DC Record Executive Branch: unknown outcome" "warning" "Run finished but wrote no status flag — check the Actions log."
+            notify "DC Record The Feds: unknown outcome" "warning" "Run finished but wrote no status flag — check the Actions log."
           fi
 
-      # Also mirrors today's newsletter to a fixed repo path (digest/executive.html)
-      # so the DC Record Digest routine can read it straight from its own git
-      # checkout -- GitHub Actions' build-artifact download redirects to Azure
-      # Blob Storage, which that routine's cloud sandbox cannot reach (confirmed
-      # live 2026-09-05), so a committed file is the reliable path.
+      # Also mirrors today's newsletter to a fixed repo path (digest/feds.html)
+      # so the markalfredsite /dc-record Pages Function can read it straight
+      # from this repo's git history via GitHub's Contents API.
       - name: Commit updated manifests and today's newsletter
         run: |
           set -euo pipefail
-          # Derived from the actual send outcome -- see dc-record-fec.yml's
-          # Commit step for the full rationale.
           IS_SITE_REFRESH="true"
           if [ -f email_sent.flag ]; then
             IS_SITE_REFRESH="false"
           fi
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
-            # AM/PM edition snapshots -- see dc-record-fec.yml's commit step
-            # for the full rationale, including why a site-refresh-only run
-            # never advances digest/executive.html.
             TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
-            AM_DATE_FILE="digest/.executive-am-date"
+            AM_DATE_FILE="digest/.feds-am-date"
             PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
             if [ "$PREV_AM_DATE" != "$TODAY_TAG" ]; then
-              cp newsletter-*.html digest/executive-am.html
+              cp newsletter-*.html digest/feds-am.html
               echo "$TODAY_TAG" > "$AM_DATE_FILE"
-              rm -f digest/executive-pm.html
+              rm -f digest/feds-pm.html
             else
-              cp newsletter-*.html digest/executive-pm.html
+              cp newsletter-*.html digest/feds-pm.html
             fi
             if [ "$IS_SITE_REFRESH" == "true" ]; then
-              echo "Site-refresh-only (no-email) run -- leaving digest/executive.html on the real AM edition."
+              echo "Site-refresh-only (no-email) run -- leaving digest/feds.html on the real AM edition."
             else
-              cp newsletter-*.html digest/executive.html
+              cp newsletter-*.html digest/feds.html
             fi
           else
-            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/executive*.html as-is."
+            echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/feds*.html as-is."
           fi
-          # See dc-record-fec.yml's commit step for the full rationale --
-          # these 3 are this edition's "seen" dedupe manifests (written by
-          # the fetch scripts above), so a site-refresh-only run reverts
-          # them before staging rather than letting today's scrape get
-          # marked seen without ever having been emailed.
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json 2>/dev/null || true
+            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json 2>/dev/null || true
           fi
-          # `git add` before the diff check, and check --cached rather than
-          # the working-tree diff -- a brand-new untracked file (e.g. the
-          # first-ever digest/executive-pm.html) is invisible to a plain
-          # `git diff`, which would silently skip the commit entirely
-          # (confirmed live 2026-09-12).
-          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/oge-filings-seen.json digest/
+          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json digest/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
             git commit -m "Update manifests and today's newsletter [skip ci]"
-            # Campaigns & Congress's manifest-commit step runs on the same
-            # cron slot and can push to this same branch around the same
-            # time -- rebase-and-retry on a non-fast-forward push instead of
-            # failing outright (confirmed happening live 2026-09-05).
             PUSHED=false
             for i in 1 2 3 4 5; do
               if git push; then
@@ -330,7 +273,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: newsletter-contracts-${{ github.run_id }}
+          name: newsletter-feds-${{ github.run_id }}
           path: newsletter-*.html
           if-no-files-found: ignore
           retention-days: 30

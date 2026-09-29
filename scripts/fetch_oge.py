@@ -58,6 +58,7 @@ def main():
         "reachable": reachable,
         "flagged": [],
         "non_flagged_by_agency": {},
+        "non_flagged_files": [],
         "errors": [],
         "counts": {},
     }
@@ -141,7 +142,17 @@ def main():
                 "pdf_text": pdf_text,
             })
         else:
-            agency_counts[r.get("agency", "Unknown")] = agency_counts.get(r.get("agency", "Unknown"), 0) + 1
+            agency = r.get("agency", "Unknown")
+            agency_counts[agency] = agency_counts.get(agency, 0) + 1
+            out["non_flagged_files"].append({
+                "docDate": r.get("docDate"),
+                "name": r.get("name"),
+                "agency": agency,
+                "title": r.get("title"),
+                "level": r.get("level"),
+                "amended": r.get("amended"),
+                "type": re.sub(r"<[^>]+>", "", type_str).strip(),
+            })
         manifest[key] = {"reported": today}
 
     # Prune entries older than 14 days (bounds file size; far beyond any
