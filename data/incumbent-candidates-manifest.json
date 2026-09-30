@@ -15,6 +15,14 @@
     "party": "DEM",
     "state": "CO"
   },
+  "H0FL15104": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "FRANKLIN, SCOTT MR.",
+    "office": "H",
+    "party": "REP",
+    "state": "FL"
+  },
   "H0FL17118": {
     "checked": "2026-09-09",
     "incumbent_challenge_full": "Challenger",
@@ -39,6 +47,14 @@
     "party": "REPUBLICAN PARTY",
     "state": "MI"
   },
+  "H0MI13463": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Challenger",
+    "name": "LEMMO, ALFRED",
+    "office": "H",
+    "party": "REP",
+    "state": "MI"
+  },
   "H0OH18077": {
     "checked": "2026-09-18",
     "incumbent_challenge_full": "Incumbent",
@@ -54,6 +70,14 @@
     "office": "H",
     "party": "REP",
     "state": "OK"
+  },
+  "H0TX30073": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Open seat",
+    "name": "MALLORY CARAWAY, BARBARA",
+    "office": "H",
+    "party": "DEM",
+    "state": "TX"
   },
   "H0UT02096": {
     "checked": "2026-09-15",
@@ -487,6 +511,14 @@
     "party": "DEMOCRATIC PARTY",
     "state": "CO"
   },
+  "H6CO04228": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Challenger",
+    "name": "PRESTON, JENNA MICHALIK",
+    "office": "H",
+    "party": "DEM",
+    "state": "CO"
+  },
   "H6CO04251": {
     "checked": "2026-09-23",
     "incumbent_challenge_full": "Challenger",
@@ -573,6 +605,14 @@
     "name": "FLEETWOOD, CLIFFORD GENE MR.",
     "office": "H",
     "party": "UN",
+    "state": "FL"
+  },
+  "H6FL21034": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Challenger",
+    "name": "TAYLOR, BERNARD",
+    "office": "H",
+    "party": "DEM",
     "state": "FL"
   },
   "H6FL23188": {
@@ -831,6 +871,14 @@
     "party": "DEM",
     "state": "PA"
   },
+  "H6PA16379": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Challenger",
+    "name": "WAGNER, JUSTIN",
+    "office": "H",
+    "party": "DEM",
+    "state": "PA"
+  },
   "H6SC01201": {
     "checked": "2026-09-15",
     "incumbent_challenge_full": "Open seat",
@@ -863,6 +911,14 @@
     "party": "REP",
     "state": "TX"
   },
+  "H6TX30252": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Open seat",
+    "name": "MALLORY CARAWAY, BARBARA",
+    "office": "H",
+    "party": "DEM",
+    "state": "TX"
+  },
   "H6TX31169": {
     "checked": "2026-09-11",
     "incumbent_challenge_full": "Challenger",
@@ -877,6 +933,22 @@
     "name": "BINKLEY, RYAN",
     "office": "H",
     "party": "REP",
+    "state": "TX"
+  },
+  "H6TX37042": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Open seat",
+    "name": "KINNEY, JAMES MR",
+    "office": "H",
+    "party": "NNE",
+    "state": "TX"
+  },
+  "H6TX38024": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Open seat",
+    "name": "HUNTER, MARVALETTE",
+    "office": "H",
+    "party": "DEM",
     "state": "TX"
   },
   "H6UT01178": {
@@ -999,6 +1071,14 @@
     "party": "REP",
     "state": "FL"
   },
+  "H8FL17053": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "STEUBE, GREG",
+    "office": "H",
+    "party": "REP",
+    "state": "FL"
+  },
   "H8FL22103": {
     "checked": "2026-09-17",
     "incumbent_challenge_full": null,
@@ -1013,6 +1093,14 @@
     "name": "PATTERSON, FREDERICK TAYLOR",
     "office": "House",
     "party": "INDEPENDENCE PARTY",
+    "state": "GA"
+  },
+  "H8GA06393": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "MCBATH, LUCIA KAY MS.",
+    "office": "H",
+    "party": "DEM",
     "state": "GA"
   },
   "H8IN04199": {
@@ -1030,6 +1118,14 @@
     "office": "H",
     "party": "INDEPENDENT",
     "state": "MP"
+  },
+  "H8NM03196": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "LUJAN, BEN R MR.",
+    "office": "H",
+    "party": "DEM",
+    "state": "NM"
   },
   "H8OH15076": {
     "checked": "2026-09-09",
@@ -1086,6 +1182,14 @@
     "office": "S",
     "party": "DEM",
     "state": "ME"
+  },
+  "S0NM00058": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "LUJAN, BEN RAY",
+    "office": "S",
+    "party": "DEM",
+    "state": "NM"
   },
   "S0WY00137": {
     "checked": "2026-09-23",
@@ -1231,6 +1335,14 @@
     "office": "S",
     "party": "DEMOCRATIC PARTY",
     "state": "PA"
+  },
+  "S6RI00270": {
+    "checked": "2026-09-30",
+    "incumbent_challenge_full": "Challenger",
+    "name": "BURBRIDGE, CONNOR",
+    "office": "S",
+    "party": "DEM",
+    "state": "RI"
   },
   "S6SC04395": {
     "checked": "2026-09-17",
