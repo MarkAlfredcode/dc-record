@@ -152,6 +152,7 @@ def main():
                 "level": r.get("level"),
                 "amended": r.get("amended"),
                 "type": re.sub(r"<[^>]+>", "", type_str).strip(),
+                "link": link,
             })
         manifest[key] = {"reported": today}
 

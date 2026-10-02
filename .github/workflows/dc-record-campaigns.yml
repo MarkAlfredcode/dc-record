@@ -216,6 +216,7 @@ jobs:
       # so the markalfredsite /dc-record Pages Function can read it straight from
       # this repo's git history via GitHub's Contents API.
       - name: Commit updated manifests and today's newsletter
+        if: always()
         run: |
           set -euo pipefail
           IS_SITE_REFRESH="true"

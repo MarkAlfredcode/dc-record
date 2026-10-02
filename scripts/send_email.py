@@ -60,12 +60,18 @@ def main():
         "from": from_addr, "to": to, "subject": subject,
         "html": html_content, "text": make_text_summary(html_path),
     }
+    # Pass the payload via stdin (-d @-), not as a command-line argument --
+    # a large edition's HTML can exceed the OS's exec argument-size limit
+    # (ARG_MAX), which fails with "OSError: [Errno 7] Argument list too
+    # long" before curl even runs. Confirmed this hit The Feds (176KB
+    # rendered HTML) on 2026-10-02 while the three smaller editions were
+    # fine. Stdin has no such limit.
     proc = subprocess.run(
         ["curl", "-s", "https://api.resend.com/emails",
          "-H", f"Authorization: Bearer {api_key}",
          "-H", "Content-Type: application/json",
-         "-d", json.dumps(payload)],
-        capture_output=True, text=True, timeout=60,
+         "-d", "@-"],
+        input=json.dumps(payload), capture_output=True, text=True, timeout=60,
     )
     try:
         resp = json.loads(proc.stdout)
