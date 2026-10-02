@@ -136,12 +136,12 @@
     "state": "LA"
   },
   "H2MA09072": {
-    "checked": "2026-09-17",
-    "incumbent_challenge_full": "Incumbent",
     "name": "LYNCH, STEPHEN",
     "office": "H",
-    "party": "DEMOCRATIC PARTY",
-    "state": "MA"
+    "state": "MA",
+    "party": "DEM",
+    "incumbent_challenge_full": "Incumbent",
+    "checked": "2026-10-02"
   },
   "H2MI07123": {
     "checked": "2026-09-17",
@@ -504,12 +504,12 @@
     "state": "CO"
   },
   "H6CO03212": {
-    "checked": "2026-09-25",
-    "incumbent_challenge_full": "Challenger",
     "name": "KELLOFF, ALEXANDER GEORGE",
     "office": "H",
-    "party": "DEMOCRATIC PARTY",
-    "state": "CO"
+    "state": "CO",
+    "party": "DEM",
+    "incumbent_challenge_full": "Challenger",
+    "checked": "2026-10-02"
   },
   "H6CO04228": {
     "checked": "2026-09-30",
@@ -872,12 +872,12 @@
     "state": "PA"
   },
   "H6PA16379": {
-    "checked": "2026-09-30",
-    "incumbent_challenge_full": "Challenger",
     "name": "WAGNER, JUSTIN",
     "office": "H",
+    "state": "PA",
     "party": "DEM",
-    "state": "PA"
+    "incumbent_challenge_full": "Challenger",
+    "checked": "2026-10-02"
   },
   "H6SC01201": {
     "checked": "2026-09-15",
@@ -1438,6 +1438,46 @@
     "state": "WA",
     "party": "REP",
     "incumbent_challenge_full": "Challenger",
-    "checked": "2026-10-01"
+    "checked": "2026-10-02"
+  },
+  "H6VA07296": {
+    "name": "SCHIARIZZI, JOSEPH",
+    "office": "H",
+    "state": "VA",
+    "party": "DEM",
+    "incumbent_challenge_full": "Challenger",
+    "checked": "2026-10-02"
+  },
+  "S6TX00594": {
+    "name": "BROWN GAINES, JENNIFER TAWANDA",
+    "office": "S",
+    "state": "TX",
+    "party": "LBL",
+    "incumbent_challenge_full": "Challenger",
+    "checked": "2026-10-02"
+  },
+  "S6MN00267": {
+    "name": "KLOBUCHAR, AMY",
+    "office": "S",
+    "state": "MN",
+    "party": "DFL",
+    "incumbent_challenge_full": "Incumbent",
+    "checked": "2026-10-02"
+  },
+  "H6OR05242": {
+    "name": "ADAIR, PATTI",
+    "office": "H",
+    "state": "OR",
+    "party": "REP",
+    "incumbent_challenge_full": "Challenger",
+    "checked": "2026-10-02"
+  },
+  "H6OH11210": {
+    "name": "KIRCHNER, MIKE",
+    "office": "H",
+    "state": "OH",
+    "party": "REP",
+    "incumbent_challenge_full": null,
+    "checked": "2026-10-02"
   }
 }
