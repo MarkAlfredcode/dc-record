@@ -34,6 +34,20 @@ MODEL = "claude-haiku-4-5-20251001"
 BATCH_SIZE = 80
 WORKERS = 3
 
+# Deterministic safety net: Haiku's routine calls vary run to run (in testing
+# it sent the National Zoo and a border-security post to "routine" on one run
+# and not another), and anything it calls routine never reaches the main
+# pass. Any routine-tiered solicitation matching these is passed through
+# anyway as tier "keyword" -- ~10 extra items/day on 2026-10-01's data.
+SAFETY_NET_RE = re.compile(
+    r"washington,? d\.?c|\bd\.c\.|district of columbia|national capital region|"
+    r"national mall|white house|executive office of the president|secret service|"
+    r"camp david|air force one|marine one|capitol|smithsonian|national zoo|"
+    r"arlington national cemetery|detention|deport|removal flight|immigration|"
+    r"border|port of entry|unusual and compelling|urgent|emergency",
+    re.IGNORECASE,
+)
+
 SYSTEM = (
     "You screen federal contract solicitations for a Washington investigative "
     "reporter. Reply with a JSON array only, no prose, no code fences."
@@ -43,9 +57,9 @@ INSTRUCTIONS = """Below are federal contract solicitations posted to SAM.gov, on
 index | agency | title | description (may be truncated)
 
 Tier each one:
-- "priority": tied to Washington, D.C. (District of Columbia government, federal property/facilities in D.C., National Capital Region, National Mall, D.C. National Guard); the White House, Executive Office of the President or presidential operations (Air Force One, Marine One, Camp David, White House Military Office, White House Communications Agency); the war or any active U.S. military operation (combat-theater support, munitions replenishment, deployments, emergency wartime buys); work on a named Navy or Coast Guard vessel as a whole (USS ___ drydock, overhaul, refit, repair availability, alterations, dismantlement, a new ship class); the U.S. Secret Service; or anything unusual or urgent (emergency/expedited/urgent-and-compelling buys, odd subject matter for the agency, immigration detention, deportation flights, border wall, election security, federal law-enforcement deployments, politically sensitive buyers or vendors).
+- "priority": tied to Washington, D.C. (District of Columbia government, federal property/facilities in D.C., National Capital Region, National Mall, D.C. National Guard); the White House, Executive Office of the President or presidential operations (Air Force One, Marine One, Camp David, White House Military Office, White House Communications Agency); the war or any active U.S. military operation (combat-theater support, munitions replenishment, deployments, emergency wartime buys); MAJOR work on a named Navy or Coast Guard vessel (new construction or a new ship class, a major overhaul, refueling or mid-life modernization, battle- or collision-damage repair, replacing a whole main system like engines or propulsion, dismantlement/disposal); the U.S. Secret Service; or anything unusual or urgent (emergency/expedited/urgent-and-compelling buys, odd subject matter for the agency, immigration detention, deportation flights, border wall, election security, federal law-enforcement deployments, politically sensitive buyers or vendors).
 - "notable": not priority, but a reporter might plausibly care (a large or well-known program, major systems, IT modernization, a surprising buyer/purpose, anything that made you pause).
-- "routine": run-of-the-mill parts, supplies, repairs, maintenance, janitorial, facilities upkeep, standard services. Most Defense Logistics Agency national-stock-number parts buys are routine, INCLUDING a spare part whose description merely lists the ships, submarines or aircraft it fits -- naming a USS in a parts list does not make it priority (at most notable, if the part itself is unusual).
+- "routine": run-of-the-mill parts, supplies, repairs, maintenance, janitorial, facilities upkeep, standard services. Most Defense Logistics Agency national-stock-number parts buys are routine, INCLUDING a spare part whose description merely lists the ships, submarines or aircraft it fits -- naming a USS in a parts list does not make it priority (at most notable, if the part itself is unusual). Small ship maintenance is routine too, even on a named vessel: scheduled drydocks and dockside availabilities, inspections, refrigeration/HVAC/piping repairs, minor alterations, single parts.
 
 When unsure between notable and routine, choose notable.
 
@@ -127,13 +141,20 @@ def main():
         for f in flags:
             flagged[f["i"]] = f
 
+    for i, s in indexed:
+        if i in flagged or i in unscreened:
+            continue
+        m = SAFETY_NET_RE.search(f"{s.get('title') or ''} {s.get('description_text') or ''}")
+        if m:
+            flagged[i] = {"i": i, "tier": "keyword", "why": f"matched '{m.group(0)}' (Haiku called it routine)"}
+
     keep = []
     for i, s in indexed:
         if i in flagged:
             keep.append({**s, "triage_tier": flagged[i]["tier"], "triage_why": flagged[i].get("why", "")})
         elif i in unscreened:
             keep.append({**s, "triage_tier": "unscreened", "triage_why": "screening batch failed"})
-    keep.sort(key=lambda s: {"priority": 0, "unscreened": 1, "notable": 2}[s["triage_tier"]])
+    keep.sort(key=lambda s: {"priority": 0, "unscreened": 1, "notable": 2, "keyword": 3}[s["triage_tier"]])
 
     routine_counts = Counter(
         short_agency(s.get("agency")) for i, s in indexed if i not in flagged and i not in unscreened
@@ -154,6 +175,7 @@ def main():
             "solicitations_total": len(sols),
             "priority": sum(1 for s in keep if s["triage_tier"] == "priority"),
             "notable": sum(1 for s in keep if s["triage_tier"] == "notable"),
+            "keyword": sum(1 for s in keep if s["triage_tier"] == "keyword"),
             "unscreened": len(unscreened),
             "routine": sum(routine_counts.values()),
         },
