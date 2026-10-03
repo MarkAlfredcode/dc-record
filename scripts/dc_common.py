@@ -164,6 +164,18 @@ def strip_li_wrapper(item):
     return m.group(1).strip() if m else item
 
 
+_BOLD_TAG_RE = re.compile(r"</?(?:strong|b)(?:\s[^>]*)?>", re.IGNORECASE)
+
+
+def strip_bold_tags(text):
+    """Removes <strong>/<b> tags the model sometimes writes into a `subhead`
+    block's text. Every render_*.py HTML-escapes subhead text and already
+    renders it bold, so a model-supplied <strong> showed up as literal
+    "&lt;strong&gt;" text (confirmed live in the 2026-10-01 Officials PM
+    edition's PTR member subheads)."""
+    return _BOLD_TAG_RE.sub("", text)
+
+
 def pdftotext(pdf_path):
     """Run pdftotext -layout, return the extracted text (empty string on
     failure -- callers should treat that as 'text not available', matching

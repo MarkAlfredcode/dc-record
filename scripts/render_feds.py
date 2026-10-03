@@ -9,7 +9,7 @@ import html
 import json
 import sys
 
-from dc_common import strip_li_wrapper
+from dc_common import strip_bold_tags, strip_li_wrapper
 
 INK = "#161616"
 BODY_INK = "#262626"
@@ -99,7 +99,7 @@ def render_blocks(blocks, body_font_size="16px", body_line_height="24px"):
             out.append(
                 f'<tr><td class="px" style="padding:4px 20px 6px 20px;">'
                 f'<div style="font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; '
-                f'color:{SLATE}; text-transform:uppercase; letter-spacing:0.5px; padding:10px 0 6px 0;">{esc(b["text"])}</div>'
+                f'color:{SLATE}; text-transform:uppercase; letter-spacing:0.5px; padding:10px 0 6px 0;">{esc(strip_bold_tags(b["text"]))}</div>'
                 f'</td></tr>'
             )
         elif t == "list":

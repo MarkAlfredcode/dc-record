@@ -9,7 +9,7 @@ import html
 import json
 import sys
 
-from dc_common import strip_li_wrapper
+from dc_common import strip_bold_tags, strip_li_wrapper
 
 GREEN = "#2f5233"
 GOLD = "#9c7a29"
@@ -111,7 +111,7 @@ def render_blocks(blocks):
         if t == "paragraph":
             out.append(f'<p style="margin:0 0 14px 0;">{b["text"]}</p>')
         elif t == "subhead":
-            out.append(f'<p style="margin:0 0 6px 0; font-weight:bold;">{esc(b["text"])}</p>')
+            out.append(f'<p style="margin:0 0 6px 0; font-weight:bold;">{esc(strip_bold_tags(b["text"]))}</p>')
         elif t == "note":
             out.append(f'<p style="margin:0 0 8px 0;">{b["text"]}</p>')
         elif t == "list":
