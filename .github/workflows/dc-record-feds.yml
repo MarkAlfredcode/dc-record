@@ -99,6 +99,16 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python3 scripts/send_notice.py "${{ steps.reachability.outputs.down_hosts }}"
 
+      - name: Screen SAM.gov solicitations (cheap model)
+        if: steps.reachability.outputs.down_count < 2
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          # Haiku reads all ~700 solicitation titles/descriptions so the main
+          # pass doesn't have to; on failure the main pass falls back to
+          # data/sam_candidates.json on its own.
+          python3 scripts/triage_sam.py || echo "triage_sam failed -- main pass will fall back"
+
       - name: Run mechanical content pass (OMB, cheap model)
         id: run_mechanical
         if: steps.reachability.outputs.down_count < 2
