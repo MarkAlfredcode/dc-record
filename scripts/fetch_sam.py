@@ -4,7 +4,7 @@ pagination and description-fetching for justifications (all of which get
 full treatment per the existing rule -- small volume). Claude still judges
 which solicitations are flagged (agency/subject notability is a real
 editorial call) -- this script just removes the fetch chore and hands over
-every solicitation so nothing gets missed.
+every solicitation, with capped description text, so nothing gets missed.
 
 Output: data/sam_candidates.json
 """
@@ -12,6 +12,7 @@ import html
 import os
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 
 from dc_common import check_reachable, days_ago_la, http_get_json, today_la, write_candidates
 
@@ -29,6 +30,9 @@ BASE = "https://api.sam.gov/opportunities/v2/search"
 NOTICE_DETAIL = "https://sam.gov/api/prod/opps/v2/opportunities/{}"
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
+# Solicitations run ~700/day; most descriptions are a few hundred chars of
+# NSN/quantity boilerplate but a few run 25K+, so cap what the model reads.
+SOLICITATION_DESC_CAP = 800
 
 
 def notice_id_from_ui_link(ui_link):
@@ -132,7 +136,21 @@ def main():
     if err:
         out["errors"].append(f"solicitations fetch: {err}")
     print(f"SAM solicitations: {len(rows)} of {total}", file=sys.stderr)
-    for r in rows:
+    def sol_desc(r):
+        notice_id = notice_id_from_ui_link(r.get("uiLink"))
+        if not notice_id:
+            return None, None
+        try:
+            return fetch_description_noauth(notice_id), None
+        except Exception as e:  # noqa: BLE001
+            return None, f"solicitation desc fetch failed for {notice_id}: {e}"
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        descs = list(ex.map(sol_desc, rows))
+    for r, (desc_text, desc_err) in zip(rows, descs):
+        if desc_err:
+            out["errors"].append(desc_err)
+        truncated = bool(desc_text) and len(desc_text) > SOLICITATION_DESC_CAP
         out["solicitations"].append({
             "title": r.get("title"),
             "agency": r.get("fullParentPathName"),
@@ -142,6 +160,8 @@ def main():
             "classificationCode": r.get("classificationCode"),
             "uiLink": r.get("uiLink"),
             "noticeType": r.get("type"),
+            "description_text": desc_text[:SOLICITATION_DESC_CAP] if truncated else desc_text,
+            "description_truncated": truncated,
         })
     out["counts"]["solicitations_total"] = total
     out["counts"]["solicitations_fetched"] = len(rows)
