@@ -294,12 +294,18 @@ def _build(late, timed, diffs, notes, errors, history=None, oversight=(), outsid
         for x in timed:
             t = x["t"]
             grouped.setdefault((x["who"], x["url"], t["asset"], t["type"], t["tx_date"], t["amount"]), []).append(x)
-        timed = [min(g, key=lambda y: y["hit"]["days_before_event"]) | {"hits": sorted((y["hit"] for y in g), key=lambda h: h["days_before_event"])} for g in grouped.values()]
+        timed = [g[0] | {"hits": sorted({(y["hit"]["event"], y["hit"]["event_date"]): y["hit"] for y in g}.values(), key=lambda h: h["days_before_event"])} for g in grouped.values()]
         blocks.append({"type": "subhead", "text": "Trades just before market-moving events"})
+
+        def _events(hits):
+            # "3 days after A (date); 3 days before B (date); ..." -> one line, every event named once
+            return "; ".join(trades.timing_phrase(h) for h in hits)
         blocks.append({"type": "list", "items": [
             f"<strong>{esc(x['who'])}</strong>: {esc(x['t']['type'].lower())} of {link(x['t']['asset'][:80], x['url'])} "
-            f"({esc(x['t']['amount'])}) on {mdY(x['t']['tx_date'])}, {esc(trades.timing_phrase(x['hits'][0]))}"
-            f"{' (and ' + str(len(x['hits']) - 1) + ' other event' + ('s' if len(x['hits']) > 2 else '') + ')' if len(x['hits']) > 1 else ''}."
+            f"({esc(x['t']['amount'])}) on {mdY(x['t']['tx_date'])}, {len(x['hits'])} event{'s' if len(x['hits']) != 1 else ''} nearby: {_events(x['hits'])}."
+            if len(x["hits"]) > 1 else
+            f"<strong>{esc(x['who'])}</strong>: {esc(x['t']['type'].lower())} of {link(x['t']['asset'][:80], x['url'])} "
+            f"({esc(x['t']['amount'])}) on {mdY(x['t']['tx_date'])}, {esc(trades.timing_phrase(x['hits'][0]))}."
             for x in timed[:30]]})
         paras.append(f"{len(timed)} disclosed trade{'s' if len(timed) != 1 else ''} of $15,001 or more landed shortly before an event on the watch calendar.")
     SECTOR_NAMES = {"ai_chips": "AI/chip", "oil_gas": "oil and gas", "nuclear_uranium": "nuclear/uranium", "steel_aluminum": "steel/aluminum",
