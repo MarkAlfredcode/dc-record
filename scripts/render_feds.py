@@ -6,6 +6,7 @@ email-safe table layout, mobile-first/601px widen, light-only lock).
 Usage: python3 render_feds.py content-TODAY.json newsletter-TODAY.html
 """
 import html
+import re
 import json
 import sys
 
@@ -84,9 +85,21 @@ def esc(s):
     return html.escape(s, quote=False)
 
 
+_SWAPPED_LINK = re.compile(r'<a href="(?!https?://|mailto:|#)([^"]*)">(https?://[^<\s]+)</a>')
+
+
+def fix_swapped_links(text):
+    """The model sometimes writes grouped-award links backwards --
+    <a href="Cardinal $1,059,206">https://...</a> -- so the label is the href
+    (dead link) and the raw URL is the visible text. Swap them back."""
+    return _SWAPPED_LINK.sub(lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>', text)
+
+
 def render_blocks(blocks, body_font_size="16px", body_line_height="24px"):
     out = []
     for b in blocks:
+        b = {k: ([fix_swapped_links(i) for i in v] if k == "items" else fix_swapped_links(v) if k == "text" else v)
+             for k, v in b.items()}
         t = b.get("type")
         if t == "paragraph":
             out.append(f'<p style="margin:0 0 12px 0;">{b["text"]}</p>')
