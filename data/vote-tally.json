@@ -1,0 +1,6322 @@
+{
+  "house": {
+    "last_roll": 314,
+    "members": {
+      "A000055": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Aderholt",
+        "party": "R",
+        "state": "AL",
+        "streak": 0
+      },
+      "A000148": {
+        "cast": 298,
+        "last_cast": "2026-09-16",
+        "missed": 15,
+        "name": "Auchincloss",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "A000369": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Amodei (NV)",
+        "party": "R",
+        "state": "NV",
+        "streak": 0
+      },
+      "A000370": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Adams",
+        "party": "D",
+        "state": "NC",
+        "streak": 0
+      },
+      "A000371": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Aguilar",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "A000372": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Allen",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "A000375": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Arrington",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "A000379": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Alford",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "A000380": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Amo",
+        "party": "D",
+        "state": "RI",
+        "streak": 0
+      },
+      "A000381": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Ansari",
+        "party": "D",
+        "state": "AZ",
+        "streak": 0
+      },
+      "B000490": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Bishop",
+        "party": "D",
+        "state": "GA",
+        "streak": 0
+      },
+      "B000668": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Bentz",
+        "party": "R",
+        "state": "OR",
+        "streak": 0
+      },
+      "B000740": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Bice",
+        "party": "R",
+        "state": "OK",
+        "streak": 0
+      },
+      "B000825": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Boebert",
+        "party": "R",
+        "state": "CO",
+        "streak": 1
+      },
+      "B001257": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Bilirakis",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "B001260": {
+        "cast": 278,
+        "last_cast": "2026-09-16",
+        "missed": 35,
+        "name": "Buchanan",
+        "party": "R",
+        "state": "FL",
+        "streak": 5
+      },
+      "B001278": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Bonamici",
+        "party": "D",
+        "state": "OR",
+        "streak": 0
+      },
+      "B001281": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Beatty",
+        "party": "D",
+        "state": "OH",
+        "streak": 0
+      },
+      "B001282": {
+        "cast": 290,
+        "last_cast": "2026-09-16",
+        "missed": 23,
+        "name": "Barr",
+        "party": "R",
+        "state": "KY",
+        "streak": 0
+      },
+      "B001285": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "Brownley",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "B001287": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Bera",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "B001291": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Babin",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "B001292": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Beyer",
+        "party": "D",
+        "state": "VA",
+        "streak": 0
+      },
+      "B001295": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Bost",
+        "party": "R",
+        "state": "IL",
+        "streak": 0
+      },
+      "B001296": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Boyle (PA)",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "B001298": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Bacon",
+        "party": "R",
+        "state": "NE",
+        "streak": 0
+      },
+      "B001300": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Barragan",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "B001301": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Bergman",
+        "party": "R",
+        "state": "MI",
+        "streak": 0
+      },
+      "B001302": {
+        "cast": 256,
+        "last_cast": "2026-09-15",
+        "missed": 57,
+        "name": "Biggs (AZ)",
+        "party": "R",
+        "state": "AZ",
+        "streak": 7
+      },
+      "B001306": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Balderson",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "B001307": {
+        "cast": 278,
+        "last_cast": "2026-09-16",
+        "missed": 35,
+        "name": "Baird",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "B001309": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Burchett",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "B001313": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Brown",
+        "party": "D",
+        "state": "OH",
+        "streak": 0
+      },
+      "B001314": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Bean (FL)",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "B001315": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Budzinski",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "B001316": {
+        "cast": 295,
+        "last_cast": "2026-09-16",
+        "missed": 18,
+        "name": "Burlison",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "B001317": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "Brecheen",
+        "party": "R",
+        "state": "OK",
+        "streak": 0
+      },
+      "B001318": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Balint",
+        "party": "D",
+        "state": "VT",
+        "streak": 0
+      },
+      "B001321": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Barrett",
+        "party": "R",
+        "state": "MI",
+        "streak": 0
+      },
+      "B001322": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Baumgartner",
+        "party": "R",
+        "state": "WA",
+        "streak": 0
+      },
+      "B001323": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Begich",
+        "party": "R",
+        "state": "AK",
+        "streak": 0
+      },
+      "B001324": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Bell",
+        "party": "D",
+        "state": "MO",
+        "streak": 0
+      },
+      "B001325": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Biggs (SC)",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "B001326": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Bynum",
+        "party": "D",
+        "state": "OR",
+        "streak": 0
+      },
+      "B001327": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Bresnahan",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "B001328": {
+        "cast": 29,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Blair",
+        "party": "D",
+        "state": "GA",
+        "streak": 0
+      },
+      "C000059": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Calvert",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "C000537": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Clyburn",
+        "party": "D",
+        "state": "SC",
+        "streak": 0
+      },
+      "C001039": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Cammack",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "C001051": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Carter (TX)",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "C001053": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Cole",
+        "party": "R",
+        "state": "OK",
+        "streak": 0
+      },
+      "C001055": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Case",
+        "party": "D",
+        "state": "HI",
+        "streak": 0
+      },
+      "C001059": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Costa",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "C001061": {
+        "cast": 297,
+        "last_cast": "2026-09-16",
+        "missed": 16,
+        "name": "Cleaver",
+        "party": "D",
+        "state": "MO",
+        "streak": 0
+      },
+      "C001063": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Cuellar",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "C001066": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Castor (FL)",
+        "party": "D",
+        "state": "FL",
+        "streak": 1
+      },
+      "C001067": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Clarke (NY)",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "C001068": {
+        "cast": 295,
+        "last_cast": "2026-09-16",
+        "missed": 18,
+        "name": "Cohen",
+        "party": "D",
+        "state": "TN",
+        "streak": 0
+      },
+      "C001069": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Courtney",
+        "party": "D",
+        "state": "CT",
+        "streak": 0
+      },
+      "C001072": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Carson",
+        "party": "D",
+        "state": "IN",
+        "streak": 0
+      },
+      "C001080": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Chu",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "C001087": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Crawford",
+        "party": "R",
+        "state": "AR",
+        "streak": 0
+      },
+      "C001091": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Castro (TX)",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "C001101": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Clark (MA)",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "C001103": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Carter (GA)",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "C001108": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Comer",
+        "party": "R",
+        "state": "KY",
+        "streak": 0
+      },
+      "C001110": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Correa",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "C001112": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Carbajal",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "C001115": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Cloud",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "C001116": {
+        "cast": 286,
+        "last_cast": "2026-09-16",
+        "missed": 27,
+        "name": "Clyde",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "C001117": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Casten",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "C001118": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Cline",
+        "party": "R",
+        "state": "VA",
+        "streak": 0
+      },
+      "C001119": {
+        "cast": 293,
+        "last_cast": "2026-09-16",
+        "missed": 20,
+        "name": "Craig",
+        "party": "D",
+        "state": "MN",
+        "streak": 0
+      },
+      "C001120": {
+        "cast": 273,
+        "last_cast": "2026-09-16",
+        "missed": 40,
+        "name": "Crenshaw",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "C001121": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Crow",
+        "party": "D",
+        "state": "CO",
+        "streak": 0
+      },
+      "C001123": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Cisneros",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "C001125": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Carter (LA)",
+        "party": "D",
+        "state": "LA",
+        "streak": 0
+      },
+      "C001126": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Carey",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "C001127": {
+        "cast": 121,
+        "last_cast": "2026-04-20",
+        "missed": 4,
+        "name": "Cherfilus-McCormick",
+        "party": "D",
+        "state": "FL",
+        "streak": 1
+      },
+      "C001129": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Collins",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "C001130": {
+        "cast": 289,
+        "last_cast": "2026-09-16",
+        "missed": 24,
+        "name": "Crockett",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "C001131": {
+        "cast": 275,
+        "last_cast": "2026-09-16",
+        "missed": 38,
+        "name": "Casar",
+        "party": "D",
+        "state": "TX",
+        "streak": 1
+      },
+      "C001132": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Crane",
+        "party": "R",
+        "state": "AZ",
+        "streak": 0
+      },
+      "C001133": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "Ciscomani",
+        "party": "R",
+        "state": "AZ",
+        "streak": 0
+      },
+      "C001136": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Conaway",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "C001137": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Crank",
+        "party": "R",
+        "state": "CO",
+        "streak": 0
+      },
+      "D000032": {
+        "cast": 276,
+        "last_cast": "2026-09-16",
+        "missed": 37,
+        "name": "Donalds",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "D000096": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Davis (IL)",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "D000197": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "DeGette",
+        "party": "D",
+        "state": "CO",
+        "streak": 0
+      },
+      "D000216": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "DeLauro",
+        "party": "D",
+        "state": "CT",
+        "streak": 0
+      },
+      "D000230": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Davis (NC)",
+        "party": "D",
+        "state": "NC",
+        "streak": 0
+      },
+      "D000399": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Doggett",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "D000530": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Deluzio",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "D000594": {
+        "cast": 299,
+        "last_cast": "2026-09-16",
+        "missed": 14,
+        "name": "De La Cruz",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "D000600": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Diaz-Balart",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "D000616": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "DesJarlais",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "D000617": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "DelBene",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "D000623": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "DeSaulnier",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "D000624": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Dingell",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "D000626": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Davidson",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "D000628": {
+        "cast": 215,
+        "last_cast": "2026-07-22",
+        "missed": 98,
+        "name": "Dunn (FL)",
+        "party": "R",
+        "state": "FL",
+        "streak": 33
+      },
+      "D000629": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Davids (KS)",
+        "party": "D",
+        "state": "KS",
+        "streak": 0
+      },
+      "D000631": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Dean (PA)",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "D000634": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Downing",
+        "party": "R",
+        "state": "MT",
+        "streak": 0
+      },
+      "D000635": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Dexter",
+        "party": "D",
+        "state": "OR",
+        "streak": 0
+      },
+      "E000071": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Ellzey",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "E000235": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Ezell",
+        "party": "R",
+        "state": "MS",
+        "streak": 0
+      },
+      "E000246": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Edwards",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "E000294": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Emmer",
+        "party": "R",
+        "state": "MN",
+        "streak": 0
+      },
+      "E000296": {
+        "cast": 299,
+        "last_cast": "2026-09-16",
+        "missed": 14,
+        "name": "Evans (PA)",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "E000297": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Espaillat",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "E000298": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Estes",
+        "party": "R",
+        "state": "KS",
+        "streak": 0
+      },
+      "E000299": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Escobar",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "E000300": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Evans (CO)",
+        "party": "R",
+        "state": "CO",
+        "streak": 0
+      },
+      "E000301": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Elfreth",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "F000110": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Fields",
+        "party": "D",
+        "state": "LA",
+        "streak": 0
+      },
+      "F000246": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Fallon",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "F000446": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Feenstra",
+        "party": "R",
+        "state": "IA",
+        "streak": 0
+      },
+      "F000450": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Foxx",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "F000454": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Foster",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "F000459": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Fleischmann",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "F000462": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "Frankel, Lois",
+        "party": "D",
+        "state": "FL",
+        "streak": 0
+      },
+      "F000466": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Fitzpatrick",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "F000468": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Fletcher",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "F000469": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Fulcher",
+        "party": "R",
+        "state": "ID",
+        "streak": 0
+      },
+      "F000470": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Fischbach",
+        "party": "R",
+        "state": "MN",
+        "streak": 0
+      },
+      "F000471": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Fitzgerald",
+        "party": "R",
+        "state": "WI",
+        "streak": 0
+      },
+      "F000472": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Franklin, Scott",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "F000474": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Flood",
+        "party": "R",
+        "state": "NE",
+        "streak": 0
+      },
+      "F000475": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Finstad",
+        "party": "R",
+        "state": "MN",
+        "streak": 0
+      },
+      "F000476": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Frost",
+        "party": "D",
+        "state": "FL",
+        "streak": 0
+      },
+      "F000477": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Foushee",
+        "party": "D",
+        "state": "NC",
+        "streak": 0
+      },
+      "F000478": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Fry",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "F000480": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Fong",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "F000481": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Figures",
+        "party": "D",
+        "state": "AL",
+        "streak": 0
+      },
+      "F000482": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Fedorchak",
+        "party": "R",
+        "state": "ND",
+        "streak": 0
+      },
+      "F000483": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Friedman",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "F000484": {
+        "cast": 287,
+        "last_cast": "2026-09-16",
+        "missed": 26,
+        "name": "Fine",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "F000485": {
+        "cast": 205,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Fuller",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "G000546": {
+        "cast": 283,
+        "last_cast": "2026-09-16",
+        "missed": 30,
+        "name": "Graves",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "G000553": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Green, Al (TX)",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "G000558": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Guthrie",
+        "party": "R",
+        "state": "KY",
+        "streak": 0
+      },
+      "G000559": {
+        "cast": 272,
+        "last_cast": "2026-07-23",
+        "missed": 41,
+        "name": "Garamendi",
+        "party": "D",
+        "state": "CA",
+        "streak": 31
+      },
+      "G000565": {
+        "cast": 283,
+        "last_cast": "2026-09-16",
+        "missed": 30,
+        "name": "Gosar",
+        "party": "R",
+        "state": "AZ",
+        "streak": 0
+      },
+      "G000568": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Griffith",
+        "party": "R",
+        "state": "VA",
+        "streak": 0
+      },
+      "G000576": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Grothman",
+        "party": "R",
+        "state": "WI",
+        "streak": 0
+      },
+      "G000581": {
+        "cast": 297,
+        "last_cast": "2026-09-16",
+        "missed": 16,
+        "name": "Gonzalez, V.",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "G000583": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Gottheimer",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "G000585": {
+        "cast": 299,
+        "last_cast": "2026-09-16",
+        "missed": 14,
+        "name": "Gomez",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "G000586": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Garcia (IL)",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "G000587": {
+        "cast": 295,
+        "last_cast": "2026-09-16",
+        "missed": 18,
+        "name": "Garcia (TX)",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "G000589": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Gooden",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "G000591": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Guest",
+        "party": "R",
+        "state": "MS",
+        "streak": 0
+      },
+      "G000592": {
+        "cast": 296,
+        "last_cast": "2026-09-16",
+        "missed": 17,
+        "name": "Golden (ME)",
+        "party": "D",
+        "state": "ME",
+        "streak": 0
+      },
+      "G000593": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Gimenez",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "G000594": {
+        "cast": 81,
+        "last_cast": "2026-03-25",
+        "missed": 28,
+        "name": "Gonzales, Tony",
+        "party": "R",
+        "state": "TX",
+        "streak": 9
+      },
+      "G000597": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Garbarino",
+        "party": "R",
+        "state": "NY",
+        "streak": 0
+      },
+      "G000598": {
+        "cast": 296,
+        "last_cast": "2026-09-16",
+        "missed": 17,
+        "name": "Garcia (CA)",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "G000599": {
+        "cast": 262,
+        "last_cast": "2026-09-16",
+        "missed": 51,
+        "name": "Goldman (NY)",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "G000600": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Perez",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "G000601": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Goldman (TX)",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "G000602": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Gillen",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "G000603": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Gill (TX)",
+        "party": "R",
+        "state": "TX",
+        "streak": 1
+      },
+      "G000604": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Goodlander",
+        "party": "D",
+        "state": "NH",
+        "streak": 0
+      },
+      "G000605": {
+        "cast": 293,
+        "last_cast": "2026-09-16",
+        "missed": 20,
+        "name": "Gray",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "G000606": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Grijalva",
+        "party": "D",
+        "state": "AZ",
+        "streak": 0
+      },
+      "G000607": {
+        "cast": 92,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Gallagher",
+        "party": "R",
+        "state": "CA",
+        "streak": 1
+      },
+      "H000874": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Hoyer",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "H001047": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Himes",
+        "party": "D",
+        "state": "CT",
+        "streak": 0
+      },
+      "H001052": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Harris (MD)",
+        "party": "R",
+        "state": "MD",
+        "streak": 0
+      },
+      "H001058": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Huizenga",
+        "party": "R",
+        "state": "MI",
+        "streak": 0
+      },
+      "H001066": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Horsford",
+        "party": "D",
+        "state": "NV",
+        "streak": 0
+      },
+      "H001067": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Hudson",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "H001068": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Huffman",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "H001072": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Hill (AR)",
+        "party": "R",
+        "state": "AR",
+        "streak": 0
+      },
+      "H001077": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Higgins (LA)",
+        "party": "R",
+        "state": "LA",
+        "streak": 0
+      },
+      "H001081": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Hayes",
+        "party": "D",
+        "state": "CT",
+        "streak": 0
+      },
+      "H001082": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Hern (OK)",
+        "party": "R",
+        "state": "OK",
+        "streak": 0
+      },
+      "H001085": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Houlahan",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "H001086": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Harshbarger",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "H001090": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Harder (CA)",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "H001091": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Hinson",
+        "party": "R",
+        "state": "IA",
+        "streak": 0
+      },
+      "H001093": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Houchin",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "H001094": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Hoyle (OR)",
+        "party": "D",
+        "state": "OR",
+        "streak": 0
+      },
+      "H001095": {
+        "cast": 242,
+        "last_cast": "2026-09-16",
+        "missed": 71,
+        "name": "Hunt",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "H001096": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Hageman",
+        "party": "R",
+        "state": "WY",
+        "streak": 0
+      },
+      "H001098": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Hamadeh (AZ)",
+        "party": "R",
+        "state": "AZ",
+        "streak": 0
+      },
+      "H001099": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Haridopolos",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "H001100": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Hurd (CO)",
+        "party": "R",
+        "state": "CO",
+        "streak": 0
+      },
+      "H001101": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Harrigan",
+        "party": "R",
+        "state": "NC",
+        "streak": 1
+      },
+      "H001102": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Harris (NC)",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "H001103": {
+        "cast": 34,
+        "last_cast": "2026-07-22",
+        "missed": 4,
+        "name": "Hernandez",
+        "party": "D",
+        "state": "XX",
+        "streak": 0
+      },
+      "I000056": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Issa",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "I000058": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Ivey",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "J000288": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Johnson (GA)",
+        "party": "D",
+        "state": "GA",
+        "streak": 0
+      },
+      "J000289": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Jordan",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "J000294": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Jeffries",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "J000295": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Joyce (OH)",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "J000298": {
+        "cast": 295,
+        "last_cast": "2026-09-16",
+        "missed": 18,
+        "name": "Jayapal",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "J000299": {
+        "cast": 260,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Johnson (LA)",
+        "party": "R",
+        "state": "LA",
+        "streak": 0
+      },
+      "J000301": {
+        "cast": 289,
+        "last_cast": "2026-09-16",
+        "missed": 24,
+        "name": "Johnson (SD)",
+        "party": "R",
+        "state": "SD",
+        "streak": 0
+      },
+      "J000302": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Joyce (PA)",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "J000304": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Jackson (TX)",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "J000305": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Jacobs",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "J000307": {
+        "cast": 282,
+        "last_cast": "2026-09-16",
+        "missed": 31,
+        "name": "James",
+        "party": "R",
+        "state": "MI",
+        "streak": 1
+      },
+      "J000309": {
+        "cast": 282,
+        "last_cast": "2026-09-16",
+        "missed": 31,
+        "name": "Jackson (IL)",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "J000310": {
+        "cast": 291,
+        "last_cast": "2026-09-16",
+        "missed": 22,
+        "name": "Johnson (TX)",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "J000311": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Jack",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "K000009": {
+        "cast": 294,
+        "last_cast": "2026-09-16",
+        "missed": 19,
+        "name": "Kaptur",
+        "party": "D",
+        "state": "OH",
+        "streak": 0
+      },
+      "K000375": {
+        "cast": 296,
+        "last_cast": "2026-09-16",
+        "missed": 17,
+        "name": "Keating",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "K000376": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Kelly (PA)",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "K000385": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Kelly (IL)",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "K000388": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Kelly (MS)",
+        "party": "R",
+        "state": "MS",
+        "streak": 0
+      },
+      "K000389": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Khanna",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "K000391": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Krishnamoorthi",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "K000392": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Kustoff",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "K000397": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Kim",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "K000398": {
+        "cast": 169,
+        "last_cast": "2026-09-16",
+        "missed": 144,
+        "name": "Kean",
+        "party": "R",
+        "state": "NJ",
+        "streak": 0
+      },
+      "K000399": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Kiggans (VA)",
+        "party": "R",
+        "state": "VA",
+        "streak": 0
+      },
+      "K000400": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Kamlager-Dove",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "K000401": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Kiley (CA)",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "K000402": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Kennedy (NY)",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "K000403": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Kennedy (UT)",
+        "party": "R",
+        "state": "UT",
+        "streak": 0
+      },
+      "K000404": {
+        "cast": 29,
+        "last_cast": "2026-07-22",
+        "missed": 9,
+        "name": "King-Hinds",
+        "party": "R",
+        "state": "XX",
+        "streak": 0
+      },
+      "K000405": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Knott",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "L000273": {
+        "cast": 284,
+        "last_cast": "2026-09-16",
+        "missed": 29,
+        "name": "Leger Fernandez",
+        "party": "D",
+        "state": "NM",
+        "streak": 0
+      },
+      "L000397": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Lofgren",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "L000491": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Lucas",
+        "party": "R",
+        "state": "OK",
+        "streak": 0
+      },
+      "L000557": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Larson (CT)",
+        "party": "D",
+        "state": "CT",
+        "streak": 0
+      },
+      "L000560": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Larsen (WA)",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "L000562": {
+        "cast": 291,
+        "last_cast": "2026-09-16",
+        "missed": 22,
+        "name": "Lynch",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "L000566": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Latta",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "L000582": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Lieu",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "L000583": {
+        "cast": 290,
+        "last_cast": "2026-09-16",
+        "missed": 23,
+        "name": "Loudermilk",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "L000585": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "LaHood",
+        "party": "R",
+        "state": "IL",
+        "streak": 0
+      },
+      "L000590": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Lee (NV)",
+        "party": "D",
+        "state": "NV",
+        "streak": 0
+      },
+      "L000593": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Levin",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "L000595": {
+        "cast": 282,
+        "last_cast": "2026-09-16",
+        "missed": 31,
+        "name": "Letlow",
+        "party": "R",
+        "state": "LA",
+        "streak": 0
+      },
+      "L000596": {
+        "cast": 265,
+        "last_cast": "2026-09-16",
+        "missed": 48,
+        "name": "Luna",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "L000597": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Lee (FL)",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "L000598": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "LaLota",
+        "party": "R",
+        "state": "NY",
+        "streak": 0
+      },
+      "L000599": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Lawler",
+        "party": "R",
+        "state": "NY",
+        "streak": 0
+      },
+      "L000600": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Langworthy",
+        "party": "R",
+        "state": "NY",
+        "streak": 0
+      },
+      "L000601": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Landsman",
+        "party": "D",
+        "state": "OH",
+        "streak": 0
+      },
+      "L000602": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Lee (PA)",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "L000603": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Luttrell",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "L000606": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Latimer",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "L000607": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Liccardo",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "M000194": {
+        "cast": 210,
+        "last_cast": "2026-09-16",
+        "missed": 103,
+        "name": "Mace",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "M000312": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "McGovern",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "M000317": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Malliotakis",
+        "party": "R",
+        "state": "NY",
+        "streak": 0
+      },
+      "M000687": {
+        "cast": 295,
+        "last_cast": "2026-09-16",
+        "missed": 18,
+        "name": "Mfume",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "M000871": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Mann",
+        "party": "R",
+        "state": "KS",
+        "streak": 0
+      },
+      "M001136": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "McClain",
+        "party": "R",
+        "state": "MI",
+        "streak": 0
+      },
+      "M001137": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "Meeks",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "M001143": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "McCollum",
+        "party": "D",
+        "state": "MN",
+        "streak": 0
+      },
+      "M001157": {
+        "cast": 260,
+        "last_cast": "2026-09-16",
+        "missed": 53,
+        "name": "McCaul",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "M001160": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Moore (WI)",
+        "party": "D",
+        "state": "WI",
+        "streak": 0
+      },
+      "M001163": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Matsui",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "M001177": {
+        "cast": 298,
+        "last_cast": "2026-09-16",
+        "missed": 15,
+        "name": "McClintock",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "M001184": {
+        "cast": 292,
+        "last_cast": "2026-09-16",
+        "missed": 21,
+        "name": "Massie",
+        "party": "R",
+        "state": "KY",
+        "streak": 0
+      },
+      "M001188": {
+        "cast": 293,
+        "last_cast": "2026-09-16",
+        "missed": 20,
+        "name": "Meng",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "M001194": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Moolenaar",
+        "party": "R",
+        "state": "MI",
+        "streak": 0
+      },
+      "M001196": {
+        "cast": 238,
+        "last_cast": "2026-09-16",
+        "missed": 75,
+        "name": "Moulton",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "M001199": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Mast",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "M001204": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Meuser",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "M001205": {
+        "cast": 289,
+        "last_cast": "2026-09-16",
+        "missed": 24,
+        "name": "Miller (WV)",
+        "party": "R",
+        "state": "WV",
+        "streak": 0
+      },
+      "M001206": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Morelle",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "M001208": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "McBath",
+        "party": "D",
+        "state": "GA",
+        "streak": 0
+      },
+      "M001210": {
+        "cast": 264,
+        "last_cast": "2026-09-16",
+        "missed": 49,
+        "name": "Murphy",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "M001211": {
+        "cast": 299,
+        "last_cast": "2026-09-16",
+        "missed": 14,
+        "name": "Miller (IL)",
+        "party": "R",
+        "state": "IL",
+        "streak": 0
+      },
+      "M001212": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Moore (AL)",
+        "party": "R",
+        "state": "AL",
+        "streak": 0
+      },
+      "M001213": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Moore (UT)",
+        "party": "R",
+        "state": "UT",
+        "streak": 0
+      },
+      "M001214": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Mrvan",
+        "party": "D",
+        "state": "IN",
+        "streak": 0
+      },
+      "M001215": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Miller-Meeks",
+        "party": "R",
+        "state": "IA",
+        "streak": 0
+      },
+      "M001216": {
+        "cast": 275,
+        "last_cast": "2026-07-23",
+        "missed": 38,
+        "name": "Mills",
+        "party": "R",
+        "state": "FL",
+        "streak": 31
+      },
+      "M001217": {
+        "cast": 298,
+        "last_cast": "2026-09-16",
+        "missed": 15,
+        "name": "Moskowitz",
+        "party": "D",
+        "state": "FL",
+        "streak": 0
+      },
+      "M001218": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "McCormick",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "M001219": {
+        "cast": 35,
+        "last_cast": "2026-07-22",
+        "missed": 3,
+        "name": "Moylan",
+        "party": "R",
+        "state": "XX",
+        "streak": 0
+      },
+      "M001220": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "McGarvey",
+        "party": "D",
+        "state": "KY",
+        "streak": 0
+      },
+      "M001222": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Miller (OH)",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "M001223": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Magaziner",
+        "party": "D",
+        "state": "RI",
+        "streak": 0
+      },
+      "M001224": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Moran",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "M001225": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Mullin",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "M001226": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Menendez",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "M001227": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "McClellan",
+        "party": "D",
+        "state": "VA",
+        "streak": 0
+      },
+      "M001228": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Maloy",
+        "party": "R",
+        "state": "UT",
+        "streak": 0
+      },
+      "M001229": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "McIver",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "M001230": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Mackenzie",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "M001231": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Mannion",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "M001232": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "McClain Delaney",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "M001233": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Messmer",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "M001234": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Morrison",
+        "party": "D",
+        "state": "MN",
+        "streak": 0
+      },
+      "M001235": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Moore (WV)",
+        "party": "R",
+        "state": "WV",
+        "streak": 0
+      },
+      "M001236": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Moore (NC)",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "M001237": {
+        "cast": 298,
+        "last_cast": "2026-09-16",
+        "missed": 15,
+        "name": "McDonald Rivet",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "M001238": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "McBride",
+        "party": "D",
+        "state": "DE",
+        "streak": 0
+      },
+      "M001239": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "McGuire",
+        "party": "R",
+        "state": "VA",
+        "streak": 0
+      },
+      "M001240": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "McDowell",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "M001241": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Min",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "M001245": {
+        "cast": 256,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Menefee",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "M001246": {
+        "cast": 189,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Mejia",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "N000002": {
+        "cast": 289,
+        "last_cast": "2026-09-16",
+        "missed": 24,
+        "name": "Nadler",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "N000015": {
+        "cast": 288,
+        "last_cast": "2026-09-16",
+        "missed": 25,
+        "name": "Neal",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "N000026": {
+        "cast": 282,
+        "last_cast": "2026-09-16",
+        "missed": 31,
+        "name": "Nehls",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "N000147": {
+        "cast": 38,
+        "last_cast": "2026-07-22",
+        "missed": 0,
+        "name": "Norton",
+        "party": "D",
+        "state": "XX",
+        "streak": 0
+      },
+      "N000188": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Norcross",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "N000189": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Newhouse",
+        "party": "R",
+        "state": "WA",
+        "streak": 0
+      },
+      "N000190": {
+        "cast": 257,
+        "last_cast": "2026-09-16",
+        "missed": 56,
+        "name": "Norman",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "N000191": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Neguse",
+        "party": "D",
+        "state": "CO",
+        "streak": 0
+      },
+      "N000193": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Nunn (IA)",
+        "party": "R",
+        "state": "IA",
+        "streak": 0
+      },
+      "O000019": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Obernolte",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "O000086": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Owens",
+        "party": "R",
+        "state": "UT",
+        "streak": 0
+      },
+      "O000172": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "Ocasio-Cortez",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "O000173": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Omar",
+        "party": "D",
+        "state": "MN",
+        "streak": 0
+      },
+      "O000175": {
+        "cast": 277,
+        "last_cast": "2026-09-16",
+        "missed": 36,
+        "name": "Ogles",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "O000176": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Olszewski",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "O000177": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Onder",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "P000034": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Pallone",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "P000048": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Pfluger",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "P000197": {
+        "cast": 299,
+        "last_cast": "2026-09-16",
+        "missed": 14,
+        "name": "Pelosi",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "P000597": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Pingree",
+        "party": "D",
+        "state": "ME",
+        "streak": 0
+      },
+      "P000605": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Perry",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "P000607": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Pocan",
+        "party": "D",
+        "state": "WI",
+        "streak": 0
+      },
+      "P000608": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Peters",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "P000609": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Palmer",
+        "party": "R",
+        "state": "AL",
+        "streak": 0
+      },
+      "P000610": {
+        "cast": 2,
+        "last_cast": "2026-01-22",
+        "missed": 36,
+        "name": "Plaskett",
+        "party": "D",
+        "state": "XX",
+        "streak": 34
+      },
+      "P000613": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Panetta",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "P000614": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Pappas",
+        "party": "D",
+        "state": "NH",
+        "streak": 0
+      },
+      "P000617": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Pressley",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "P000620": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Pettersen",
+        "party": "D",
+        "state": "CO",
+        "streak": 0
+      },
+      "P000621": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Pou",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "P000622": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Patronis",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "Q000023": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Quigley",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "R000305": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Ross",
+        "party": "D",
+        "state": "NC",
+        "streak": 0
+      },
+      "R000395": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Rogers (KY)",
+        "party": "R",
+        "state": "KY",
+        "streak": 0
+      },
+      "R000575": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Rogers (AL)",
+        "party": "R",
+        "state": "AL",
+        "streak": 0
+      },
+      "R000579": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Ryan",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "R000599": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Ruiz",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "R000600": {
+        "cast": 0,
+        "last_cast": null,
+        "missed": 38,
+        "name": "Radewagen",
+        "party": "R",
+        "state": "XX",
+        "streak": 38
+      },
+      "R000603": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Rouzer",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "R000606": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Raskin",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "R000609": {
+        "cast": 300,
+        "last_cast": "2026-09-16",
+        "missed": 13,
+        "name": "Rutherford",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "R000610": {
+        "cast": 297,
+        "last_cast": "2026-09-16",
+        "missed": 16,
+        "name": "Reschenthaler",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "R000612": {
+        "cast": 285,
+        "last_cast": "2026-09-16",
+        "missed": 28,
+        "name": "Rose",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "R000614": {
+        "cast": 285,
+        "last_cast": "2026-09-16",
+        "missed": 28,
+        "name": "Roy",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "R000617": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Ramirez",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "R000619": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Rulli",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "R000620": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Rivas",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "R000621": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Randall",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "R000622": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Riley (NY)",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "S000168": {
+        "cast": 277,
+        "last_cast": "2026-09-15",
+        "missed": 36,
+        "name": "Salazar",
+        "party": "R",
+        "state": "FL",
+        "streak": 7
+      },
+      "S000185": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Scott (VA)",
+        "party": "D",
+        "state": "VA",
+        "streak": 0
+      },
+      "S000250": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Sessions",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "S000344": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Sherman",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "S000510": {
+        "cast": 278,
+        "last_cast": "2026-09-15",
+        "missed": 35,
+        "name": "Smith (WA)",
+        "party": "D",
+        "state": "WA",
+        "streak": 7
+      },
+      "S000522": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Smith (NJ)",
+        "party": "R",
+        "state": "NJ",
+        "streak": 0
+      },
+      "S000929": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Spartz",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "S001145": {
+        "cast": 275,
+        "last_cast": "2026-09-16",
+        "missed": 38,
+        "name": "Schakowsky",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "S001148": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Simpson",
+        "party": "R",
+        "state": "ID",
+        "streak": 0
+      },
+      "S001156": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Sanchez",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "S001157": {
+        "cast": 127,
+        "last_cast": "2026-04-21",
+        "missed": 3,
+        "name": "Scott, David",
+        "party": "D",
+        "state": "GA",
+        "streak": 2
+      },
+      "S001159": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Strickland",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "S001172": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Smith (NE)",
+        "party": "R",
+        "state": "NE",
+        "streak": 0
+      },
+      "S001176": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Scalise",
+        "party": "R",
+        "state": "LA",
+        "streak": 0
+      },
+      "S001183": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Schweikert",
+        "party": "R",
+        "state": "AZ",
+        "streak": 0
+      },
+      "S001185": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Sewell",
+        "party": "D",
+        "state": "AL",
+        "streak": 0
+      },
+      "S001188": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Stutzman",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "S001189": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Scott, Austin",
+        "party": "R",
+        "state": "GA",
+        "streak": 0
+      },
+      "S001190": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Schneider",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "S001193": {
+        "cast": 58,
+        "last_cast": "2026-03-27",
+        "missed": 49,
+        "name": "Swalwell",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "S001195": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Smith (MO)",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "S001196": {
+        "cast": 260,
+        "last_cast": "2026-09-16",
+        "missed": 53,
+        "name": "Stefanik",
+        "party": "R",
+        "state": "NY",
+        "streak": 0
+      },
+      "S001199": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Smucker",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "S001200": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Soto",
+        "party": "D",
+        "state": "FL",
+        "streak": 0
+      },
+      "S001201": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Suozzi",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "S001205": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Scanlon",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "S001211": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Stanton",
+        "party": "D",
+        "state": "AZ",
+        "streak": 0
+      },
+      "S001212": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Stauber",
+        "party": "R",
+        "state": "MN",
+        "streak": 0
+      },
+      "S001213": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Steil",
+        "party": "R",
+        "state": "WI",
+        "streak": 0
+      },
+      "S001214": {
+        "cast": 298,
+        "last_cast": "2026-09-16",
+        "missed": 15,
+        "name": "Steube",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "S001215": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Stevens",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "S001216": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Schrier",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "S001218": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Stansbury",
+        "party": "D",
+        "state": "NM",
+        "streak": 0
+      },
+      "S001220": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Strong",
+        "party": "R",
+        "state": "AL",
+        "streak": 0
+      },
+      "S001221": {
+        "cast": 295,
+        "last_cast": "2026-09-16",
+        "missed": 18,
+        "name": "Scholten",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "S001223": {
+        "cast": 296,
+        "last_cast": "2026-09-16",
+        "missed": 17,
+        "name": "Sykes",
+        "party": "D",
+        "state": "OH",
+        "streak": 0
+      },
+      "S001224": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Self",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "S001225": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Sorensen",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "S001226": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Salinas",
+        "party": "D",
+        "state": "OR",
+        "streak": 0
+      },
+      "S001228": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Schmidt",
+        "party": "R",
+        "state": "KS",
+        "streak": 0
+      },
+      "S001229": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Shreve",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "S001230": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Subramanyam",
+        "party": "D",
+        "state": "VA",
+        "streak": 0
+      },
+      "S001231": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Simon",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "T000165": {
+        "cast": 261,
+        "last_cast": "2026-09-03",
+        "missed": 52,
+        "name": "Tiffany",
+        "party": "R",
+        "state": "WI",
+        "streak": 19
+      },
+      "T000193": {
+        "cast": 293,
+        "last_cast": "2026-09-16",
+        "missed": 20,
+        "name": "Thompson (MS)",
+        "party": "D",
+        "state": "MS",
+        "streak": 0
+      },
+      "T000460": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Thompson (CA)",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "T000463": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Turner (OH)",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "T000467": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Thompson (PA)",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "T000468": {
+        "cast": 299,
+        "last_cast": "2026-09-16",
+        "missed": 14,
+        "name": "Titus",
+        "party": "D",
+        "state": "NV",
+        "streak": 0
+      },
+      "T000469": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Tonko",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "T000472": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Takano",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "T000474": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Torres (CA)",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "T000478": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Tenney",
+        "party": "R",
+        "state": "NY",
+        "streak": 0
+      },
+      "T000480": {
+        "cast": 304,
+        "last_cast": "2026-09-16",
+        "missed": 9,
+        "name": "Timmons",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "T000481": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Tlaib",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "T000482": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Trahan",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "T000486": {
+        "cast": 301,
+        "last_cast": "2026-09-16",
+        "missed": 12,
+        "name": "Torres (NY)",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "T000487": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Tokuda",
+        "party": "D",
+        "state": "HI",
+        "streak": 0
+      },
+      "T000488": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Thanedar",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "T000490": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Taylor",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "T000491": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Tran",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "U000040": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Underwood",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "V000081": {
+        "cast": 285,
+        "last_cast": "2026-09-16",
+        "missed": 28,
+        "name": "Velazquez",
+        "party": "D",
+        "state": "NY",
+        "streak": 1
+      },
+      "V000129": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Valadao",
+        "party": "R",
+        "state": "CA",
+        "streak": 0
+      },
+      "V000130": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Vargas",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "V000131": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Veasey",
+        "party": "D",
+        "state": "TX",
+        "streak": 0
+      },
+      "V000133": {
+        "cast": 308,
+        "last_cast": "2026-09-16",
+        "missed": 5,
+        "name": "Van Drew",
+        "party": "R",
+        "state": "NJ",
+        "streak": 0
+      },
+      "V000134": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Van Duyne",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "V000135": {
+        "cast": 281,
+        "last_cast": "2026-09-16",
+        "missed": 32,
+        "name": "Van Orden",
+        "party": "R",
+        "state": "WI",
+        "streak": 0
+      },
+      "V000136": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Vasquez",
+        "party": "D",
+        "state": "NM",
+        "streak": 0
+      },
+      "V000138": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Vindman",
+        "party": "D",
+        "state": "VA",
+        "streak": 0
+      },
+      "V000139": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Van Epps",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "W000187": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Waters",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "W000788": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Williams (GA)",
+        "party": "D",
+        "state": "GA",
+        "streak": 0
+      },
+      "W000795": {
+        "cast": 302,
+        "last_cast": "2026-09-16",
+        "missed": 11,
+        "name": "Wilson (SC)",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "W000797": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Wasserman Schultz",
+        "party": "D",
+        "state": "FL",
+        "streak": 0
+      },
+      "W000798": {
+        "cast": 311,
+        "last_cast": "2026-09-16",
+        "missed": 2,
+        "name": "Walberg",
+        "party": "R",
+        "state": "MI",
+        "streak": 0
+      },
+      "W000804": {
+        "cast": 305,
+        "last_cast": "2026-09-16",
+        "missed": 8,
+        "name": "Wittman",
+        "party": "R",
+        "state": "VA",
+        "streak": 0
+      },
+      "W000806": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Webster (FL)",
+        "party": "R",
+        "state": "FL",
+        "streak": 1
+      },
+      "W000808": {
+        "cast": 178,
+        "last_cast": "2026-09-16",
+        "missed": 135,
+        "name": "Wilson (FL)",
+        "party": "D",
+        "state": "FL",
+        "streak": 0
+      },
+      "W000809": {
+        "cast": 282,
+        "last_cast": "2026-09-15",
+        "missed": 31,
+        "name": "Womack",
+        "party": "R",
+        "state": "AR",
+        "streak": 14
+      },
+      "W000812": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Wagner",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "W000814": {
+        "cast": 310,
+        "last_cast": "2026-09-16",
+        "missed": 3,
+        "name": "Weber (TX)",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "W000816": {
+        "cast": 307,
+        "last_cast": "2026-09-16",
+        "missed": 6,
+        "name": "Williams (TX)",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "W000821": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Westerman",
+        "party": "R",
+        "state": "AR",
+        "streak": 0
+      },
+      "W000822": {
+        "cast": 309,
+        "last_cast": "2026-09-16",
+        "missed": 4,
+        "name": "Watson Coleman",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "W000829": {
+        "cast": 306,
+        "last_cast": "2026-09-16",
+        "missed": 7,
+        "name": "Wied",
+        "party": "R",
+        "state": "WI",
+        "streak": 0
+      },
+      "W000830": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Whitesides",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "W000831": {
+        "cast": 312,
+        "last_cast": "2026-09-16",
+        "missed": 1,
+        "name": "Walkinshaw",
+        "party": "D",
+        "state": "VA",
+        "streak": 0
+      },
+      "W000832": {
+        "cast": 22,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Wahab",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "Y000067": {
+        "cast": 313,
+        "last_cast": "2026-09-16",
+        "missed": 0,
+        "name": "Yakym",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "Z000018": {
+        "cast": 303,
+        "last_cast": "2026-09-16",
+        "missed": 10,
+        "name": "Zinke",
+        "party": "R",
+        "state": "MT",
+        "streak": 0
+      }
+    },
+    "present": [
+      "A000370",
+      "A000055",
+      "A000371",
+      "A000379",
+      "A000372",
+      "A000380",
+      "A000369",
+      "A000381",
+      "A000375",
+      "A000148",
+      "B001291",
+      "B001298",
+      "B001307",
+      "B001306",
+      "B001318",
+      "B001282",
+      "B001300",
+      "B001321",
+      "B001322",
+      "B001314",
+      "B001281",
+      "B001323",
+      "B001324",
+      "B000668",
+      "B001287",
+      "B001301",
+      "B001292",
+      "B000740",
+      "B001302",
+      "B001325",
+      "B001257",
+      "B000490",
+      "B001328",
+      "B000825",
+      "B001278",
+      "B001295",
+      "B001296",
+      "B001317",
+      "B001327",
+      "B001313",
+      "B001285",
+      "B001260",
+      "B001315",
+      "B001309",
+      "B001316",
+      "B001326",
+      "C000059",
+      "C001039",
+      "C001112",
+      "C001126",
+      "C001072",
+      "C001103",
+      "C001125",
+      "C001051",
+      "C001131",
+      "C001055",
+      "C001117",
+      "C001066",
+      "C001091",
+      "C001080",
+      "C001133",
+      "C001123",
+      "C001101",
+      "C001067",
+      "C001061",
+      "C001118",
+      "C001115",
+      "C000537",
+      "C001116",
+      "C001068",
+      "C001053",
+      "C001129",
+      "C001108",
+      "C001136",
+      "C001110",
+      "C001059",
+      "C001069",
+      "C001119",
+      "C001132",
+      "C001137",
+      "C001087",
+      "C001120",
+      "C001130",
+      "C001121",
+      "C001063",
+      "D000629",
+      "D000626",
+      "D000096",
+      "D000230",
+      "D000594",
+      "D000631",
+      "D000197",
+      "D000216",
+      "D000617",
+      "D000530",
+      "D000623",
+      "D000616",
+      "D000635",
+      "D000600",
+      "D000624",
+      "D000399",
+      "D000032",
+      "D000634",
+      "D000628",
+      "E000246",
+      "E000301",
+      "E000071",
+      "E000294",
+      "E000299",
+      "E000297",
+      "E000298",
+      "E000300",
+      "E000296",
+      "E000235",
+      "F000246",
+      "F000482",
+      "F000446",
+      "F000110",
+      "F000481",
+      "F000484",
+      "F000475",
+      "F000470",
+      "F000471",
+      "F000466",
+      "F000459",
+      "F000468",
+      "F000474",
+      "F000480",
+      "F000454",
+      "F000477",
+      "F000450",
+      "F000462",
+      "F000472",
+      "F000483",
+      "F000476",
+      "F000478",
+      "F000469",
+      "F000485",
+      "G000607",
+      "G000559",
+      "G000597",
+      "G000598",
+      "G000586",
+      "G000587",
+      "G000603",
+      "G000602",
+      "G000593",
+      "G000592",
+      "G000599",
+      "G000601",
+      "G000585",
+      "G000581",
+      "G000589",
+      "G000604",
+      "G000565",
+      "G000583",
+      "G000546",
+      "G000605",
+      "G000553",
+      "G000568",
+      "G000606",
+      "G000576",
+      "G000591",
+      "G000558",
+      "H001096",
+      "H001098",
+      "H001090",
+      "H001099",
+      "H001101",
+      "H001052",
+      "H001102",
+      "H001086",
+      "H001081",
+      "H001082",
+      "H001077",
+      "H001072",
+      "H001047",
+      "H001091",
+      "H001066",
+      "H001093",
+      "H001085",
+      "H000874",
+      "H001094",
+      "H001067",
+      "H001068",
+      "H001058",
+      "H001095",
+      "H001100",
+      "I000056",
+      "I000058",
+      "J000311",
+      "J000309",
+      "J000304",
+      "J000305",
+      "J000307",
+      "J000298",
+      "J000294",
+      "J000288",
+      "J000299",
+      "J000301",
+      "J000310",
+      "J000289",
+      "J000295",
+      "J000302",
+      "K000400",
+      "K000009",
+      "K000398",
+      "K000375",
+      "K000385",
+      "K000388",
+      "K000376",
+      "K000402",
+      "K000403",
+      "K000389",
+      "K000399",
+      "K000401",
+      "K000397",
+      "K000405",
+      "K000391",
+      "K000392",
+      "L000585",
+      "L000598",
+      "L000601",
+      "L000600",
+      "L000560",
+      "L000557",
+      "L000606",
+      "L000566",
+      "L000599",
+      "L000597",
+      "L000590",
+      "L000602",
+      "L000273",
+      "L000595",
+      "L000593",
+      "L000607",
+      "L000582",
+      "L000397",
+      "L000583",
+      "L000491",
+      "L000596",
+      "L000603",
+      "L000562",
+      "M000194",
+      "M001230",
+      "M001223",
+      "M000317",
+      "M001228",
+      "M000871",
+      "M001231",
+      "M001184",
+      "M001199",
+      "M001163",
+      "M001208",
+      "M001238",
+      "M001157",
+      "M001136",
+      "M001232",
+      "M001227",
+      "M001177",
+      "M001143",
+      "M001218",
+      "M001237",
+      "M001240",
+      "M001220",
+      "M000312",
+      "M001239",
+      "M001229",
+      "M001137",
+      "M001246",
+      "M001245",
+      "M001226",
+      "M001188",
+      "M001233",
+      "M001204",
+      "M000687",
+      "M001211",
+      "M001222",
+      "M001205",
+      "M001215",
+      "M001216",
+      "M001241",
+      "M001194",
+      "M001212",
+      "M001236",
+      "M001213",
+      "M001160",
+      "M001235",
+      "M001224",
+      "M001206",
+      "M001234",
+      "M001217",
+      "M001196",
+      "M001214",
+      "M001225",
+      "M001210",
+      "N000002",
+      "N000015",
+      "N000191",
+      "N000026",
+      "N000189",
+      "N000188",
+      "N000190",
+      "N000193",
+      "O000019",
+      "O000172",
+      "O000175",
+      "O000176",
+      "O000173",
+      "O000177",
+      "O000086",
+      "P000034",
+      "P000609",
+      "P000613",
+      "P000614",
+      "P000622",
+      "P000197",
+      "G000600",
+      "P000605",
+      "P000608",
+      "P000620",
+      "P000048",
+      "P000597",
+      "P000607",
+      "P000621",
+      "P000617",
+      "Q000023",
+      "R000617",
+      "R000621",
+      "R000606",
+      "R000610",
+      "R000622",
+      "R000620",
+      "R000575",
+      "R000395",
+      "R000612",
+      "R000305",
+      "R000603",
+      "R000614",
+      "R000599",
+      "R000619",
+      "R000609",
+      "R000579",
+      "S000168",
+      "S001226",
+      "S001156",
+      "S001176",
+      "S001205",
+      "S001145",
+      "S001228",
+      "S001190",
+      "S001221",
+      "S001216",
+      "S001183",
+      "S000185",
+      "S001189",
+      "S001224",
+      "S000250",
+      "S001185",
+      "S000344",
+      "S001229",
+      "S001231",
+      "S001148",
+      "S001195",
+      "S001172",
+      "S000522",
+      "S000510",
+      "S001199",
+      "S001225",
+      "S001200",
+      "S000929",
+      "S001218",
+      "S001211",
+      "S001212",
+      "S001196",
+      "S001213",
+      "S001214",
+      "S001215",
+      "S001159",
+      "S001220",
+      "S001188",
+      "S001230",
+      "S001201",
+      "S001223",
+      "T000472",
+      "T000490",
+      "T000478",
+      "T000488",
+      "T000460",
+      "T000193",
+      "T000467",
+      "T000165",
+      "T000480",
+      "T000468",
+      "T000481",
+      "T000487",
+      "T000469",
+      "T000474",
+      "T000486",
+      "T000482",
+      "T000491",
+      "T000463",
+      "U000040",
+      "V000129",
+      "V000133",
+      "V000134",
+      "V000139",
+      "V000135",
+      "V000130",
+      "V000136",
+      "V000131",
+      "V000081",
+      "V000138",
+      "W000812",
+      "W000832",
+      "W000798",
+      "W000831",
+      "W000797",
+      "W000187",
+      "W000822",
+      "W000814",
+      "W000806",
+      "W000821",
+      "W000830",
+      "W000829",
+      "W000788",
+      "W000816",
+      "W000808",
+      "W000795",
+      "W000804",
+      "W000809",
+      "Y000067",
+      "Z000018"
+    ]
+  },
+  "rolls": [
+    {
+      "chamber": "senate",
+      "date": "2026-09-14",
+      "nay": 46,
+      "not_voting": [
+        "S337",
+        "S398",
+        "S411",
+        "S288",
+        "S323",
+        "S420",
+        "S384"
+      ],
+      "num": 232,
+      "question": "On the Cloture Motion",
+      "result": "Cloture Motion Agreed to",
+      "subject": "Motion to Invoke Cloture: Matthew R. Byrne to be U.S. District Judge for the Southern District of Ohio",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00232.htm",
+      "yea": 47
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-15",
+      "nay": 45,
+      "not_voting": [
+        "S337",
+        "S174",
+        "S313"
+      ],
+      "num": 233,
+      "question": "On the Nomination",
+      "result": "Nomination Confirmed",
+      "subject": "Confirmation: Matthew R. Byrne, of Ohio, to be U.S. District Judge for the Southern District of Ohio",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00233.htm",
+      "yea": 52
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-15",
+      "nay": 50,
+      "not_voting": [
+        "S337"
+      ],
+      "num": 234,
+      "question": "On Cloture on the Motion to Proceed",
+      "result": "Cloture on the Motion to Proceed Rejected",
+      "subject": "Motion to Invoke Cloture: Motion to Proceed to H.R. 3633",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm",
+      "yea": 49
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-15",
+      "nay": 24,
+      "not_voting": [
+        "S337",
+        "S402"
+      ],
+      "num": 235,
+      "question": "On Cloture on the Motion to Proceed",
+      "result": "Cloture on the Motion to Proceed Agreed to",
+      "subject": "Motion to Invoke Cloture: Motion to Proceed to S. 4668",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00235.htm",
+      "yea": 74
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-17",
+      "nay": 22,
+      "not_voting": [
+        "S347"
+      ],
+      "num": 236,
+      "question": "On the Motion to Proceed",
+      "result": "Motion to Proceed Agreed to",
+      "subject": "Motion to Proceed to S. 4668",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00236.htm",
+      "yea": 77
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-17",
+      "nay": 47,
+      "not_voting": [
+        "S407",
+        "S174",
+        "S347",
+        "S412"
+      ],
+      "num": 237,
+      "question": "On the Cloture Motion",
+      "result": "Cloture Motion Agreed to",
+      "subject": "Motion to Invoke Cloture: Kasdin Miller Mitchell to be U.S. District Judge for the Northern District of Texas",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00237.htm",
+      "yea": 49
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-17",
+      "nay": 45,
+      "not_voting": [
+        "S411",
+        "S174",
+        "S347",
+        "S324",
+        "S412",
+        "S390"
+      ],
+      "num": 238,
+      "question": "On the Nomination",
+      "result": "Nomination Confirmed",
+      "subject": "Confirmation: Kasdin Miller Mitchell, of Texas, to be U.S. District Judge for the Northern District of Texas",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00238.htm",
+      "yea": 49
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-22",
+      "nay": 43,
+      "not_voting": [
+        "S373",
+        "S337",
+        "S432",
+        "S364",
+        "S316"
+      ],
+      "num": 239,
+      "question": "On the Cloture Motion",
+      "result": "Cloture Motion Agreed to",
+      "subject": "Motion to Invoke Cloture: Angela Veronica Colmenero to be U.S. District Judge for the Southern District of Texas",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00239.htm",
+      "yea": 52
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-22",
+      "nay": 21,
+      "not_voting": [
+        "S373",
+        "S337",
+        "S432",
+        "S426",
+        "S364",
+        "S353",
+        "S384",
+        "S412",
+        "S316"
+      ],
+      "num": 240,
+      "question": "On the Cloture Motion",
+      "result": "Cloture Motion Agreed to",
+      "subject": "Motion to Invoke Cloture: Cruz Amdt. No. 6776",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00240.htm",
+      "yea": 70
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-14",
+      "nay": 33,
+      "not_voting": [
+        "B001322",
+        "B001260",
+        "C001103",
+        "C001131",
+        "C001129",
+        "C001120",
+        "D000617",
+        "D000032",
+        "D000628",
+        "E000298",
+        "E000296",
+        "G000559",
+        "G000603",
+        "G000599",
+        "H001052",
+        "J000307",
+        "L000583",
+        "M000871",
+        "M001216",
+        "M001160",
+        "O000086",
+        "S001145",
+        "S000510",
+        "S001196",
+        "T000165",
+        "V000133",
+        "W000812",
+        "W000808"
+      ],
+      "num": 296,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 4219 National Wildlife Refuge System Invasive Species Strike Team Act",
+      "url": "https://clerk.house.gov/Votes/2026296",
+      "yea": 371
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-14",
+      "nay": 60,
+      "not_voting": [
+        "B001322",
+        "B000740",
+        "B001260",
+        "C001103",
+        "C001129",
+        "C001120",
+        "D000617",
+        "D000032",
+        "D000628",
+        "E000298",
+        "E000296",
+        "G000559",
+        "G000599",
+        "G000605",
+        "J000307",
+        "L000600",
+        "L000583",
+        "M000871",
+        "M001216",
+        "M001160",
+        "O000086",
+        "S001145",
+        "S000510",
+        "S001196",
+        "T000165",
+        "V000133",
+        "W000812"
+      ],
+      "num": 297,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 3276 Local Communities & Bird Habitat Stewardship Act",
+      "url": "https://clerk.house.gov/Votes/2026297",
+      "yea": 345
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 147,
+      "not_voting": [
+        "D000032",
+        "D000628",
+        "G000559",
+        "H001094",
+        "M001216",
+        "S000510",
+        "T000165"
+      ],
+      "num": 298,
+      "question": "On Motion to Table",
+      "result": "Passed",
+      "subject": "H RES 1486 Impeaching Donald John Trump, President of the United States, for high crimes and misdemeanors",
+      "url": "https://clerk.house.gov/Votes/2026298",
+      "yea": 232
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 208,
+      "not_voting": [
+        "D000032",
+        "D000628",
+        "G000559",
+        "H001094",
+        "J000289",
+        "L000590",
+        "M001216",
+        "G000600",
+        "S000510",
+        "S001218",
+        "T000165"
+      ],
+      "num": 299,
+      "question": "On Ordering the Previous Question",
+      "result": "Passed",
+      "subject": "H RES 1530 Providing for consideration of the bills H.R. 9576 and H.R. 10326, providing for consideration of the joint resolutions H.J. Res. 210 and H.J. Res. 213, and providing for consideration of the Senate amendments to H.R. 5334",
+      "url": "https://clerk.house.gov/Votes/2026299",
+      "yea": 214
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 211,
+      "not_voting": [
+        "D000032",
+        "D000628",
+        "G000559",
+        "H001094",
+        "M001216",
+        "R000614",
+        "S000510",
+        "T000165"
+      ],
+      "num": 300,
+      "question": "On Agreeing to the Resolution",
+      "result": "Passed",
+      "subject": "H RES 1530 Providing for consideration of the bills H.R. 9576 and H.R. 10326, providing for consideration of the joint resolutions H.J. Res. 210 and H.J. Res. 213, and providing for consideration of the Senate amendments to H.R. 5334",
+      "url": "https://clerk.house.gov/Votes/2026300",
+      "yea": 214
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 7,
+      "not_voting": [
+        "A000372",
+        "C001103",
+        "D000032",
+        "D000628",
+        "F000481",
+        "G000559",
+        "M001216",
+        "P000197",
+        "R000575",
+        "T000165",
+        "W000808",
+        "W000809"
+      ],
+      "num": 301,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 2978 GUARD Act",
+      "url": "https://clerk.house.gov/Votes/2026301",
+      "yea": 414
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 7,
+      "not_voting": [
+        "A000372",
+        "C001108",
+        "D000032",
+        "D000628",
+        "F000482",
+        "G000559",
+        "M001216",
+        "T000165",
+        "W000809"
+      ],
+      "num": 302,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 8278 Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act",
+      "url": "https://clerk.house.gov/Votes/2026302",
+      "yea": 417
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 0,
+      "not_voting": [
+        "A000372",
+        "B000825",
+        "D000032",
+        "D000628",
+        "G000559",
+        "M001216",
+        "R000603",
+        "T000165",
+        "W000809"
+      ],
+      "num": 303,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 4646 Whistleblower Protection Act",
+      "url": "https://clerk.house.gov/Votes/2026303",
+      "yea": 424
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 79,
+      "not_voting": [
+        "A000372",
+        "D000032",
+        "D000628",
+        "G000559",
+        "G000581",
+        "M001216",
+        "R000603",
+        "S001183",
+        "T000165",
+        "W000809"
+      ],
+      "num": 304,
+      "question": "On Motion to Suspend the Rules and Pass",
+      "result": "Passed",
+      "subject": "H R 2140 Diesel Emissions Reduction Act",
+      "url": "https://clerk.house.gov/Votes/2026304",
+      "yea": 343
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 17,
+      "not_voting": [
+        "A000372",
+        "D000032",
+        "D000628",
+        "G000559",
+        "H001090",
+        "M001216",
+        "T000165",
+        "W000809"
+      ],
+      "num": 305,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 9500 Tax Relief for Fraud Victims Act",
+      "url": "https://clerk.house.gov/Votes/2026305",
+      "yea": 408
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 211,
+      "not_voting": [
+        "D000032",
+        "D000628",
+        "G000559",
+        "M001216",
+        "T000165",
+        "W000809"
+      ],
+      "num": 306,
+      "question": "On Passage",
+      "result": "Passed",
+      "subject": "H J RES 210 Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \u201cCalifornia State Nonroad Engine Pollution Control Standards; Ocean-Going Vessels At-Berth; Notice of Decision\u201d",
+      "url": "https://clerk.house.gov/Votes/2026306",
+      "yea": 216
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-15",
+      "nay": 204,
+      "not_voting": [
+        "C001039",
+        "D000032",
+        "D000628",
+        "G000559",
+        "L000603",
+        "M001216",
+        "R000614",
+        "T000165",
+        "W000809"
+      ],
+      "num": 307,
+      "question": "On Agreeing to the Resolution",
+      "result": "Passed",
+      "subject": "H CON RES 93 Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+      "url": "https://clerk.house.gov/Votes/2026307",
+      "yea": 220
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-16",
+      "nay": 159,
+      "not_voting": [
+        "B001302",
+        "B001296",
+        "D000628",
+        "G000607",
+        "G000559",
+        "L000596",
+        "M001216",
+        "S000168",
+        "S000510",
+        "T000165",
+        "W000808",
+        "W000809"
+      ],
+      "num": 308,
+      "question": "On Motion to Concur in the Senate Amendments",
+      "result": "Passed",
+      "subject": "H R 5334 An Act to amend the Internal Revenue Code of 1986 to allow early childhood educators to take the educator expense deduction, and for other purposes",
+      "url": "https://clerk.house.gov/Votes/2026308",
+      "yea": 262
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-16",
+      "nay": 72,
+      "not_voting": [
+        "B001302",
+        "D000628",
+        "G000559",
+        "G000581",
+        "M001216",
+        "S000168",
+        "S000510",
+        "T000165",
+        "W000809"
+      ],
+      "num": 309,
+      "question": "On Passage",
+      "result": "Passed",
+      "subject": "H R 9576 National Fraud Enforcement Division Act",
+      "url": "https://clerk.house.gov/Votes/2026309",
+      "yea": 352
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-16",
+      "nay": 207,
+      "not_voting": [
+        "B001302",
+        "B001260",
+        "D000628",
+        "G000559",
+        "M001216",
+        "S000168",
+        "S000510",
+        "T000165",
+        "W000809"
+      ],
+      "num": 310,
+      "question": "On Passage",
+      "result": "Passed",
+      "subject": "H R 10326 PROOF Act",
+      "url": "https://clerk.house.gov/Votes/2026310",
+      "yea": 217
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-16",
+      "nay": 208,
+      "not_voting": [
+        "B001302",
+        "B001260",
+        "D000628",
+        "G000559",
+        "J000305",
+        "L000590",
+        "M001216",
+        "S000168",
+        "S000510",
+        "T000165",
+        "W000809"
+      ],
+      "num": 311,
+      "question": "On Passage",
+      "result": "Passed",
+      "subject": "H J RES 213 Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule issued by the Environmental Protection Agency relating to the \u201cCalifornia State Nonroad Engine Pollution Control Standards; Commercial Harbor Craft Regulations; Notice of Decision\u201d",
+      "url": "https://clerk.house.gov/Votes/2026311",
+      "yea": 214
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-16",
+      "nay": 3,
+      "not_voting": [
+        "B001302",
+        "B001296",
+        "B001260",
+        "D000628",
+        "G000559",
+        "L000273",
+        "M001216",
+        "P000608",
+        "S000168",
+        "S000510",
+        "T000165",
+        "W000809"
+      ],
+      "num": 312,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 9340 Ratepayer Protection Act",
+      "url": "https://clerk.house.gov/Votes/2026312",
+      "yea": 417
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-16",
+      "nay": 9,
+      "not_voting": [
+        "B001302",
+        "B001260",
+        "D000628",
+        "G000559",
+        "M001216",
+        "S000168",
+        "S000510",
+        "T000165",
+        "W000809"
+      ],
+      "num": 313,
+      "question": "On Motion to Suspend the Rules and Pass, as Amended",
+      "result": "Passed",
+      "subject": "H R 9497 Water Resources Development Act",
+      "url": "https://clerk.house.gov/Votes/2026313",
+      "yea": 415
+    },
+    {
+      "chamber": "house",
+      "date": "2026-09-16",
+      "nay": 14,
+      "not_voting": [
+        "B001302",
+        "B000825",
+        "B001260",
+        "C001131",
+        "C001066",
+        "D000628",
+        "G000607",
+        "G000559",
+        "G000603",
+        "H001101",
+        "J000307",
+        "M001216",
+        "S000168",
+        "S000510",
+        "T000165",
+        "V000081",
+        "W000806",
+        "W000809"
+      ],
+      "num": 314,
+      "question": "On Motion to Suspend the Rules and Pass",
+      "result": "Passed",
+      "subject": "S 2403 Retire through Ownership Act",
+      "url": "https://clerk.house.gov/Votes/2026314",
+      "yea": 401
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-23",
+      "nay": 47,
+      "not_voting": [
+        "S375",
+        "S376",
+        "S384"
+      ],
+      "num": 241,
+      "question": "On the Nomination",
+      "result": "Nomination Confirmed",
+      "subject": "Confirmation: Angela Veronica Colmenero, of T.X., to be U.S. District Judge for the Southern District of Texas",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00241.htm",
+      "yea": 50
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-24",
+      "nay": 23,
+      "not_voting": [],
+      "num": 242,
+      "question": "On the Amendment",
+      "result": "Amendment Agreed to",
+      "subject": "Amdt. No. 6776",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00242.htm",
+      "yea": 77
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-24",
+      "nay": 25,
+      "not_voting": [
+        "S384"
+      ],
+      "num": 243,
+      "question": "On the Cloture Motion",
+      "result": "Cloture Motion Agreed to",
+      "subject": "Motion to Invoke Cloture: S. 4668, as Amended",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00243.htm",
+      "yea": 74
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-24",
+      "nay": 50,
+      "not_voting": [
+        "S428"
+      ],
+      "num": 244,
+      "question": "On the Concurrent Resolution",
+      "result": "Concurrent Resolution Rejected",
+      "subject": "H. Con. Res. 89",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.htm",
+      "yea": 49
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-28",
+      "nay": 1,
+      "not_voting": [
+        "S429",
+        "S287",
+        "S383"
+      ],
+      "num": 245,
+      "question": "On the Amendment",
+      "result": "Amendment Agreed to",
+      "subject": "Baldwin Amdt. No. 6828",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00245.htm",
+      "yea": 96
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-28",
+      "nay": 94,
+      "not_voting": [
+        "S287",
+        "S346",
+        "S383",
+        "S384",
+        "S327"
+      ],
+      "num": 246,
+      "question": "On the Amendment",
+      "result": "Amendment Rejected",
+      "subject": "Paul Amdt. No. 6758",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00246.htm",
+      "yea": 1
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-28",
+      "nay": 54,
+      "not_voting": [
+        "S346",
+        "S383",
+        "S384",
+        "S412"
+      ],
+      "num": 247,
+      "question": "On the Amendment",
+      "result": "Amendment Rejected",
+      "subject": "Kennedy Amdt. No. 6760",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00247.htm",
+      "yea": 42
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-28",
+      "nay": 50,
+      "not_voting": [
+        "S383"
+      ],
+      "num": 248,
+      "question": "On the Amendment",
+      "result": "Amendment Rejected",
+      "subject": "Booker Amdt. No. 6805",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00248.htm",
+      "yea": 49
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-28",
+      "nay": 52,
+      "not_voting": [
+        "S383"
+      ],
+      "num": 249,
+      "question": "On the Amendment",
+      "result": "Amendment Rejected",
+      "subject": "Booker Amdt. No. 6835",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00249.htm",
+      "yea": 47
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-28",
+      "nay": 22,
+      "not_voting": [
+        "S383"
+      ],
+      "num": 250,
+      "question": "On Passage of the Bill",
+      "result": "Bill Passed",
+      "subject": "S. 4668, as amended",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00250.htm",
+      "yea": 77
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-29",
+      "nay": 51,
+      "not_voting": [
+        "S383"
+      ],
+      "num": 251,
+      "question": "On the Motion to Proceed",
+      "result": "Motion to Proceed Rejected",
+      "subject": "Motion to Proceed to S.J. Res. 197",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00251.htm",
+      "yea": 48
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-29",
+      "nay": 51,
+      "not_voting": [
+        "S373",
+        "S383"
+      ],
+      "num": 252,
+      "question": "On the Motion to Discharge",
+      "result": "Motion to Discharge Rejected",
+      "subject": "Motion to Discharge S. Res. 852",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00252.htm",
+      "yea": 47
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-30",
+      "nay": 47,
+      "not_voting": [],
+      "num": 253,
+      "question": "On Cloture on the Motion to Proceed",
+      "result": "Cloture on the Motion to Proceed Rejected",
+      "subject": "Motion to Invoke Cloture on the Motion to Proceed: H.R. 7008",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm",
+      "yea": 53
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-30",
+      "nay": 43,
+      "not_voting": [],
+      "num": 254,
+      "question": "On Cloture on the Motion to Proceed",
+      "result": "Cloture on the Motion to Proceed Rejected",
+      "subject": "Motion to Invoke Cloture on the Motion to Proceed to H.R. 9340",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00254.htm",
+      "yea": 57
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-30",
+      "nay": 47,
+      "not_voting": [],
+      "num": 255,
+      "question": "On the Cloture Motion",
+      "result": "Cloture Motion Agreed to",
+      "subject": "Motion to Invoke Cloture: Keith Sonderling to be Secretary of Labor",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00255.htm",
+      "yea": 53
+    },
+    {
+      "chamber": "senate",
+      "date": "2026-09-30",
+      "nay": 41,
+      "not_voting": [
+        "S396",
+        "S341",
+        "S287",
+        "S253",
+        "S376",
+        "S331",
+        "S174",
+        "S347",
+        "S394",
+        "S384",
+        "S327",
+        "S316"
+      ],
+      "num": 256,
+      "question": "On the Nomination",
+      "result": "Nomination Confirmed",
+      "subject": "Confirmation: Keith Sonderling, of F.L., to be Secretary of Labor",
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00256.htm",
+      "yea": 47
+    }
+  ],
+  "senate": {
+    "last_roll": 256,
+    "members": {
+      "S153": {
+        "cast": 236,
+        "last_cast": "2026-09-30",
+        "missed": 20,
+        "name": "Chuck Grassley",
+        "party": "R",
+        "state": "IA",
+        "streak": 0
+      },
+      "S174": {
+        "cast": 174,
+        "last_cast": "2026-09-30",
+        "missed": 82,
+        "name": "Mitch McConnell",
+        "party": "R",
+        "state": "KY",
+        "streak": 1
+      },
+      "S229": {
+        "cast": 249,
+        "last_cast": "2026-09-30",
+        "missed": 7,
+        "name": "Patty Murray",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "S247": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "Ron Wyden",
+        "party": "D",
+        "state": "OR",
+        "streak": 0
+      },
+      "S252": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "Susan Collins",
+        "party": "R",
+        "state": "ME",
+        "streak": 0
+      },
+      "S253": {
+        "cast": 249,
+        "last_cast": "2026-09-30",
+        "missed": 7,
+        "name": "Richard Durbin",
+        "party": "D",
+        "state": "IL",
+        "streak": 1
+      },
+      "S259": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "John Reed",
+        "party": "D",
+        "state": "RI",
+        "streak": 0
+      },
+      "S266": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Mike Crapo",
+        "party": "R",
+        "state": "ID",
+        "streak": 0
+      },
+      "S270": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "Charles Schumer",
+        "party": "D",
+        "state": "NY",
+        "streak": 0
+      },
+      "S275": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "Maria Cantwell",
+        "party": "D",
+        "state": "WA",
+        "streak": 0
+      },
+      "S287": {
+        "cast": 245,
+        "last_cast": "2026-09-30",
+        "missed": 11,
+        "name": "John Cornyn",
+        "party": "R",
+        "state": "TX",
+        "streak": 1
+      },
+      "S288": {
+        "cast": 240,
+        "last_cast": "2026-09-30",
+        "missed": 16,
+        "name": "Lisa Murkowski",
+        "party": "R",
+        "state": "AK",
+        "streak": 0
+      },
+      "S293": {
+        "cast": 176,
+        "last_cast": "2026-06-24",
+        "missed": 16,
+        "name": "Lindsey Graham",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "S303": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "John Thune",
+        "party": "R",
+        "state": "SD",
+        "streak": 0
+      },
+      "S311": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Amy Klobuchar",
+        "party": "D",
+        "state": "MN",
+        "streak": 0
+      },
+      "S313": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Bernie Sanders",
+        "party": "I",
+        "state": "VT",
+        "streak": 0
+      },
+      "S316": {
+        "cast": 244,
+        "last_cast": "2026-09-30",
+        "missed": 12,
+        "name": "Sheldon Whitehouse",
+        "party": "D",
+        "state": "RI",
+        "streak": 1
+      },
+      "S317": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "John Barrasso",
+        "party": "R",
+        "state": "WY",
+        "streak": 0
+      },
+      "S318": {
+        "cast": 249,
+        "last_cast": "2026-09-30",
+        "missed": 7,
+        "name": "Roger Wicker",
+        "party": "R",
+        "state": "MS",
+        "streak": 0
+      },
+      "S322": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "Jeff Merkley",
+        "party": "D",
+        "state": "OR",
+        "streak": 0
+      },
+      "S323": {
+        "cast": 242,
+        "last_cast": "2026-09-30",
+        "missed": 14,
+        "name": "James  Risch",
+        "party": "R",
+        "state": "ID",
+        "streak": 0
+      },
+      "S324": {
+        "cast": 242,
+        "last_cast": "2026-09-30",
+        "missed": 14,
+        "name": "Jeanne Shaheen",
+        "party": "D",
+        "state": "NH",
+        "streak": 0
+      },
+      "S327": {
+        "cast": 233,
+        "last_cast": "2026-09-30",
+        "missed": 23,
+        "name": "Mark Warner",
+        "party": "D",
+        "state": "VA",
+        "streak": 1
+      },
+      "S330": {
+        "cast": 185,
+        "last_cast": "2026-09-30",
+        "missed": 71,
+        "name": "Michael Bennet",
+        "party": "D",
+        "state": "CO",
+        "streak": 0
+      },
+      "S331": {
+        "cast": 248,
+        "last_cast": "2026-09-30",
+        "missed": 8,
+        "name": "Kirsten Gillibrand",
+        "party": "D",
+        "state": "NY",
+        "streak": 1
+      },
+      "S337": {
+        "cast": 237,
+        "last_cast": "2026-09-30",
+        "missed": 19,
+        "name": "Christopher Coons",
+        "party": "D",
+        "state": "DE",
+        "streak": 0
+      },
+      "S341": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "Richard Blumenthal",
+        "party": "D",
+        "state": "CT",
+        "streak": 1
+      },
+      "S343": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "John Boozman",
+        "party": "R",
+        "state": "AR",
+        "streak": 0
+      },
+      "S344": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "John Hoeven",
+        "party": "R",
+        "state": "ND",
+        "streak": 0
+      },
+      "S345": {
+        "cast": 252,
+        "last_cast": "2026-09-30",
+        "missed": 4,
+        "name": "Ron Johnson",
+        "party": "R",
+        "state": "WI",
+        "streak": 0
+      },
+      "S346": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Mike Lee",
+        "party": "R",
+        "state": "UT",
+        "streak": 0
+      },
+      "S347": {
+        "cast": 236,
+        "last_cast": "2026-09-30",
+        "missed": 20,
+        "name": "Jerry Moran",
+        "party": "R",
+        "state": "KS",
+        "streak": 1
+      },
+      "S348": {
+        "cast": 236,
+        "last_cast": "2026-09-30",
+        "missed": 20,
+        "name": "Rand Paul",
+        "party": "R",
+        "state": "KY",
+        "streak": 0
+      },
+      "S353": {
+        "cast": 252,
+        "last_cast": "2026-09-30",
+        "missed": 4,
+        "name": "Brian Schatz",
+        "party": "D",
+        "state": "HI",
+        "streak": 0
+      },
+      "S354": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "Tammy Baldwin",
+        "party": "D",
+        "state": "WI",
+        "streak": 0
+      },
+      "S355": {
+        "cast": 251,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Ted Cruz",
+        "party": "R",
+        "state": "TX",
+        "streak": 0
+      },
+      "S357": {
+        "cast": 251,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Deb Fischer",
+        "party": "R",
+        "state": "NE",
+        "streak": 0
+      },
+      "S359": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "Martin Heinrich",
+        "party": "D",
+        "state": "NM",
+        "streak": 0
+      },
+      "S361": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "Mazie Hirono",
+        "party": "D",
+        "state": "HI",
+        "streak": 0
+      },
+      "S362": {
+        "cast": 251,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Timothy Kaine",
+        "party": "D",
+        "state": "VA",
+        "streak": 0
+      },
+      "S363": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Angus King",
+        "party": "I",
+        "state": "ME",
+        "streak": 0
+      },
+      "S364": {
+        "cast": 251,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Christopher Murphy",
+        "party": "D",
+        "state": "CT",
+        "streak": 0
+      },
+      "S365": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Tim Scott",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      },
+      "S366": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "Elizabeth Warren",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "S369": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Edward Markey",
+        "party": "D",
+        "state": "MA",
+        "streak": 0
+      },
+      "S370": {
+        "cast": 246,
+        "last_cast": "2026-09-30",
+        "missed": 10,
+        "name": "Cory Booker",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "S372": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Shelley Capito",
+        "party": "R",
+        "state": "WV",
+        "streak": 0
+      },
+      "S373": {
+        "cast": 247,
+        "last_cast": "2026-09-30",
+        "missed": 9,
+        "name": "Bill Cassidy",
+        "party": "R",
+        "state": "LA",
+        "streak": 0
+      },
+      "S374": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Tom Cotton",
+        "party": "R",
+        "state": "AR",
+        "streak": 0
+      },
+      "S375": {
+        "cast": 247,
+        "last_cast": "2026-09-30",
+        "missed": 9,
+        "name": "Steve Daines",
+        "party": "R",
+        "state": "MT",
+        "streak": 0
+      },
+      "S376": {
+        "cast": 248,
+        "last_cast": "2026-09-30",
+        "missed": 8,
+        "name": "Joni Ernst",
+        "party": "R",
+        "state": "IA",
+        "streak": 1
+      },
+      "S378": {
+        "cast": 252,
+        "last_cast": "2026-09-30",
+        "missed": 4,
+        "name": "James Lankford",
+        "party": "R",
+        "state": "OK",
+        "streak": 0
+      },
+      "S380": {
+        "cast": 251,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Gary Peters",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "S381": {
+        "cast": 252,
+        "last_cast": "2026-09-30",
+        "missed": 4,
+        "name": "Mike Rounds",
+        "party": "R",
+        "state": "SD",
+        "streak": 0
+      },
+      "S383": {
+        "cast": 248,
+        "last_cast": "2026-09-30",
+        "missed": 8,
+        "name": "Dan Sullivan",
+        "party": "R",
+        "state": "AK",
+        "streak": 0
+      },
+      "S384": {
+        "cast": 219,
+        "last_cast": "2026-09-30",
+        "missed": 37,
+        "name": "Thomas Tillis",
+        "party": "R",
+        "state": "NC",
+        "streak": 1
+      },
+      "S385": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "Catherine Cortez Masto",
+        "party": "D",
+        "state": "NV",
+        "streak": 0
+      },
+      "S386": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Tammy Duckworth",
+        "party": "D",
+        "state": "IL",
+        "streak": 0
+      },
+      "S388": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Maggie Hassan",
+        "party": "D",
+        "state": "NH",
+        "streak": 0
+      },
+      "S389": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "John Kennedy",
+        "party": "R",
+        "state": "LA",
+        "streak": 0
+      },
+      "S390": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "Chris Van Hollen",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "S391": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "Todd Young",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "S394": {
+        "cast": 246,
+        "last_cast": "2026-09-30",
+        "missed": 10,
+        "name": "Tina Smith",
+        "party": "D",
+        "state": "MN",
+        "streak": 1
+      },
+      "S395": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Cindy Hyde-Smith",
+        "party": "R",
+        "state": "MS",
+        "streak": 0
+      },
+      "S396": {
+        "cast": 236,
+        "last_cast": "2026-09-30",
+        "missed": 20,
+        "name": "Marsha Blackburn",
+        "party": "R",
+        "state": "TN",
+        "streak": 1
+      },
+      "S398": {
+        "cast": 245,
+        "last_cast": "2026-09-30",
+        "missed": 11,
+        "name": "Kevin Cramer",
+        "party": "R",
+        "state": "ND",
+        "streak": 0
+      },
+      "S399": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Josh Hawley",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "S402": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Jacky Rosen",
+        "party": "D",
+        "state": "NV",
+        "streak": 0
+      },
+      "S404": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "Rick Scott",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "S406": {
+        "cast": 245,
+        "last_cast": "2026-09-30",
+        "missed": 11,
+        "name": "Mark Kelly",
+        "party": "D",
+        "state": "AZ",
+        "streak": 0
+      },
+      "S407": {
+        "cast": 242,
+        "last_cast": "2026-09-30",
+        "missed": 14,
+        "name": "Bill Hagerty",
+        "party": "R",
+        "state": "TN",
+        "streak": 0
+      },
+      "S408": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "John Hickenlooper",
+        "party": "D",
+        "state": "CO",
+        "streak": 0
+      },
+      "S409": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Ben Lujan",
+        "party": "D",
+        "state": "NM",
+        "streak": 0
+      },
+      "S410": {
+        "cast": 248,
+        "last_cast": "2026-09-30",
+        "missed": 8,
+        "name": "Cynthia Lummis",
+        "party": "R",
+        "state": "WY",
+        "streak": 0
+      },
+      "S411": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "Roger Marshall",
+        "party": "R",
+        "state": "KS",
+        "streak": 0
+      },
+      "S412": {
+        "cast": 224,
+        "last_cast": "2026-09-30",
+        "missed": 32,
+        "name": "Tommy Tuberville",
+        "party": "R",
+        "state": "AL",
+        "streak": 0
+      },
+      "S413": {
+        "cast": 251,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Alex Padilla",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "S414": {
+        "cast": 255,
+        "last_cast": "2026-09-30",
+        "missed": 1,
+        "name": "Jon Ossoff",
+        "party": "D",
+        "state": "GA",
+        "streak": 0
+      },
+      "S415": {
+        "cast": 246,
+        "last_cast": "2026-09-30",
+        "missed": 10,
+        "name": "Raphael Warnock",
+        "party": "D",
+        "state": "GA",
+        "streak": 0
+      },
+      "S416": {
+        "cast": 249,
+        "last_cast": "2026-09-30",
+        "missed": 7,
+        "name": "Katie Britt",
+        "party": "R",
+        "state": "AL",
+        "streak": 0
+      },
+      "S417": {
+        "cast": 254,
+        "last_cast": "2026-09-30",
+        "missed": 2,
+        "name": "Ted Budd",
+        "party": "R",
+        "state": "NC",
+        "streak": 0
+      },
+      "S418": {
+        "cast": 242,
+        "last_cast": "2026-09-30",
+        "missed": 14,
+        "name": "John Fetterman",
+        "party": "D",
+        "state": "PA",
+        "streak": 0
+      },
+      "S419": {
+        "cast": 63,
+        "last_cast": "2026-03-23",
+        "missed": 1,
+        "name": "Markwayne Mullin",
+        "party": "R",
+        "state": "OK",
+        "streak": 1
+      },
+      "S420": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Eric  Schmitt",
+        "party": "R",
+        "state": "MO",
+        "streak": 0
+      },
+      "S422": {
+        "cast": 252,
+        "last_cast": "2026-09-30",
+        "missed": 4,
+        "name": "Peter Welch",
+        "party": "D",
+        "state": "VT",
+        "streak": 0
+      },
+      "S423": {
+        "cast": 249,
+        "last_cast": "2026-09-30",
+        "missed": 7,
+        "name": "Pete Ricketts",
+        "party": "R",
+        "state": "NE",
+        "streak": 0
+      },
+      "S426": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Andy Kim",
+        "party": "D",
+        "state": "NJ",
+        "streak": 0
+      },
+      "S427": {
+        "cast": 249,
+        "last_cast": "2026-09-30",
+        "missed": 7,
+        "name": "Adam Schiff",
+        "party": "D",
+        "state": "CA",
+        "streak": 0
+      },
+      "S428": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Angela Alsobrooks",
+        "party": "D",
+        "state": "MD",
+        "streak": 0
+      },
+      "S429": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Jim Banks",
+        "party": "R",
+        "state": "IN",
+        "streak": 0
+      },
+      "S430": {
+        "cast": 252,
+        "last_cast": "2026-09-30",
+        "missed": 4,
+        "name": "Lisa Blunt Rochester",
+        "party": "D",
+        "state": "DE",
+        "streak": 0
+      },
+      "S431": {
+        "cast": 248,
+        "last_cast": "2026-09-30",
+        "missed": 8,
+        "name": "John  Curtis",
+        "party": "R",
+        "state": "UT",
+        "streak": 0
+      },
+      "S432": {
+        "cast": 235,
+        "last_cast": "2026-09-30",
+        "missed": 21,
+        "name": "Ruben Gallego",
+        "party": "D",
+        "state": "AZ",
+        "streak": 0
+      },
+      "S433": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "David McCormick",
+        "party": "R",
+        "state": "PA",
+        "streak": 0
+      },
+      "S434": {
+        "cast": 251,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Bernie Moreno",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "S435": {
+        "cast": 250,
+        "last_cast": "2026-09-30",
+        "missed": 6,
+        "name": "Tim Sheehy",
+        "party": "R",
+        "state": "MT",
+        "streak": 0
+      },
+      "S436": {
+        "cast": 253,
+        "last_cast": "2026-09-30",
+        "missed": 3,
+        "name": "Elissa Slotkin",
+        "party": "D",
+        "state": "MI",
+        "streak": 0
+      },
+      "S437": {
+        "cast": 245,
+        "last_cast": "2026-09-30",
+        "missed": 11,
+        "name": "James Justice",
+        "party": "R",
+        "state": "WV",
+        "streak": 0
+      },
+      "S438": {
+        "cast": 256,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "Jon Husted",
+        "party": "R",
+        "state": "OH",
+        "streak": 0
+      },
+      "S439": {
+        "cast": 249,
+        "last_cast": "2026-09-30",
+        "missed": 7,
+        "name": "Ashley Moody",
+        "party": "R",
+        "state": "FL",
+        "streak": 0
+      },
+      "S440": {
+        "cast": 191,
+        "last_cast": "2026-09-30",
+        "missed": 0,
+        "name": "Alan Armstrong",
+        "party": "R",
+        "state": "OK",
+        "streak": 0
+      },
+      "S441": {
+        "cast": 57,
+        "last_cast": "2026-09-30",
+        "missed": 5,
+        "name": "Darline Graham",
+        "party": "R",
+        "state": "SC",
+        "streak": 0
+      }
+    },
+    "present": [
+      "S428",
+      "S440",
+      "S354",
+      "S429",
+      "S317",
+      "S330",
+      "S396",
+      "S341",
+      "S430",
+      "S370",
+      "S343",
+      "S416",
+      "S417",
+      "S275",
+      "S372",
+      "S373",
+      "S252",
+      "S337",
+      "S287",
+      "S385",
+      "S374",
+      "S398",
+      "S266",
+      "S355",
+      "S431",
+      "S375",
+      "S386",
+      "S253",
+      "S376",
+      "S418",
+      "S357",
+      "S432",
+      "S331",
+      "S441",
+      "S153",
+      "S407",
+      "S388",
+      "S399",
+      "S359",
+      "S408",
+      "S361",
+      "S344",
+      "S438",
+      "S395",
+      "S345",
+      "S437",
+      "S362",
+      "S406",
+      "S389",
+      "S426",
+      "S363",
+      "S311",
+      "S378",
+      "S346",
+      "S409",
+      "S410",
+      "S369",
+      "S411",
+      "S174",
+      "S433",
+      "S322",
+      "S439",
+      "S347",
+      "S434",
+      "S288",
+      "S364",
+      "S229",
+      "S414",
+      "S413",
+      "S348",
+      "S380",
+      "S259",
+      "S423",
+      "S323",
+      "S402",
+      "S381",
+      "S313",
+      "S353",
+      "S427",
+      "S420",
+      "S270",
+      "S404",
+      "S365",
+      "S324",
+      "S435",
+      "S436",
+      "S394",
+      "S383",
+      "S303",
+      "S384",
+      "S412",
+      "S390",
+      "S327",
+      "S415",
+      "S366",
+      "S422",
+      "S316",
+      "S318",
+      "S247",
+      "S391"
+    ]
+  },
+  "year": 2026
+}

@@ -75,6 +75,19 @@ jobs:
 
           exit $CLAUDE_EXIT
 
+      # Deterministic sections, built with no LLM (added 2026-10-04) -- see
+      # scripts/dc_extras.py. Missed votes (House/Senate roll-call XML) and
+      # discharge petitions (House Clerk). Both fetch with curl because the
+      # .gov WAFs 403 Python's TLS fingerprint. assemble.py appends them below.
+      - name: Run extras scripts (missed votes, discharge petitions)
+        run: |
+          if [ "$(date -u +%H)" -lt 18 ]; then export MODE=am; else export MODE=pm; fi
+          set +e
+          for s in fetch_absences.py fetch_discharge.py; do
+            timeout 600 python3 scripts/$s; echo "$s exit=$?"
+          done
+          set -e
+
       - name: Assemble final content (Your Beat box, archive copy)
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
         run: |
@@ -129,7 +142,7 @@ jobs:
           else
             echo "No page produced this run (likely a skipped/failed run) -- leaving digest/congress*.html as-is."
           fi
-          git add digest/ archive/
+          git add digest/ archive/ data/vote-tally.json data/discharge-petitions.json 2>/dev/null || git add digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
