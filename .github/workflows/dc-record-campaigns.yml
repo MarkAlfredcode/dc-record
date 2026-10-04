@@ -83,7 +83,7 @@ jobs:
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
           set +e
-          for s in "fetch_deadlines.py --edition campaigns" fetch_money_out.py fetch_election.py; do
+          for s in "fetch_deadlines.py --edition campaigns" fetch_money_out.py fetch_election.py fetch_outside_money.py; do
             timeout 600 python3 scripts/$s; echo "$s exit=$?"
           done
           set -e
@@ -272,10 +272,10 @@ jobs:
           # isn't a "seen" dedupe file (just a candidate-status cache), so it's
           # fine to let it update normally either way.
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/fec-filings-seen.json data/negative-amounts-seen.json data/money-out-seen.json data/election-seen.json 2>/dev/null || true
+            git checkout -- data/fec-filings-seen.json data/negative-amounts-seen.json data/money-out-seen.json data/election-seen.json data/outside-money-seen.json 2>/dev/null || true
           fi
           git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/negative-amounts-seen.json \
-            data/money-out-seen.json data/election-seen.json data/former-members-committees.json data/member-committees.json digest/ archive/
+            data/money-out-seen.json data/election-seen.json data/outside-money-seen.json data/former-members-committees.json data/member-committees.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

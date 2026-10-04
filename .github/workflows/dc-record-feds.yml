@@ -72,6 +72,7 @@ jobs:
           python3 scripts/fetch_usaspending.py; echo "fetch_usaspending exit=$?"
           python3 scripts/fetch_sam.py; echo "fetch_sam exit=$?"
           python3 scripts/fetch_donor_awards.py; echo "fetch_donor_awards exit=$?"
+          timeout 600 python3 scripts/fetch_lobby_contracts.py; echo "fetch_lobby_contracts exit=$?"
           set -e
 
       - name: Check source reachability
@@ -279,9 +280,9 @@ jobs:
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/feds*.html as-is."
           fi
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json 2>/dev/null || true
+            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json 2>/dev/null || true
           fi
-          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/donor-awards-seen.json data/donor-awards-cache.json digest/ archive/
+          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/donor-awards-seen.json data/donor-awards-cache.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
