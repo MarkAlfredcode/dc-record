@@ -45,13 +45,13 @@ def main():
         payload = {
             "filters": {
                 "award_type_codes": ["A", "B", "C", "D"],
-                "time_period": [{"start_date": window_start, "end_date": today, "date_type": "action_date"}],
+                "time_period": [{"start_date": window_start, "end_date": today}],
                 "award_amounts": [{"lower_bound": 2000000}],
             },
             "fields": [
                 "Award ID", "Recipient Name", "Transaction Amount", "Awarding Agency",
                 "Awarding Sub Agency", "Transaction Description", "Action Date", "Mod",
-                "product_or_service_description", "naics_description",
+                "PSC", "NAICS",
             ],
             "page": page, "limit": 100, "sort": "Transaction Amount", "order": "desc",
         }
@@ -108,8 +108,8 @@ def main():
             "awarding_agency": row.get("Awarding Agency"),
             "awarding_sub_agency": row.get("Awarding Sub Agency"),
             "action_date": row.get("Action Date"),
-            "naics_description": row.get("naics_description"),
-            "product_or_service_description": row.get("product_or_service_description"),
+            "naics_description": (row.get("NAICS") or {}).get("description"),
+            "product_or_service_description": (row.get("PSC") or {}).get("description"),
             "raw_description": detail.get("description") or row.get("Transaction Description"),
             "url": f"https://www.usaspending.gov/award/{gen_id}" if gen_id else None,
         })

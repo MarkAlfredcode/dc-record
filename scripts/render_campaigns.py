@@ -82,7 +82,7 @@ def render_blocks(blocks):
         if t == "paragraph":
             out.append(f'<p style="margin:0 0 14px 0;">{b["text"]}</p>')
         elif t == "subhead":
-            out.append(f'<p style="margin:0 0 6px 0; font-weight:bold;">{esc(strip_bold_tags(b["text"]))}</p>')
+            out.append(f'<p data-toc-sub="1" style="margin:0 0 6px 0; font-weight:bold;">{esc(strip_bold_tags(b["text"]))}</p>')
         elif t == "note":
             out.append(f'<p style="margin:0 0 14px 0; font-size:14px; color:{GRAY};">{b["text"]}</p>')
         elif t == "list":

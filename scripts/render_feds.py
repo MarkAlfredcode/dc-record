@@ -99,7 +99,7 @@ def render_blocks(blocks, body_font_size="16px", body_line_height="24px"):
         elif t == "subhead":
             out.append(
                 f'<tr><td class="px" style="padding:4px 20px 6px 20px;">'
-                f'<div style="font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; '
+                f'<div data-toc-sub="1" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; '
                 f'color:{SLATE}; text-transform:uppercase; letter-spacing:0.5px; padding:10px 0 6px 0;">{esc(strip_bold_tags(b["text"]))}</div>'
                 f'</td></tr>'
             )
