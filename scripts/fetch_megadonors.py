@@ -22,7 +22,7 @@ from dc_extras import SeenManifest, esc, fec_key_cycle, fec_paginate, link, look
 
 CYCLE = 2026
 MIN_GIFT = 1_000_000
-MAX_LISTED = 8
+MAX_LISTED = 40
 KIND = {"O": "super PAC", "U": "super PAC", "V": "hybrid PAC", "W": "hybrid PAC", "X": "party committee", "Y": "party committee",
         "Z": "party committee", "N": "PAC", "Q": "PAC", "H": "House campaign", "S": "Senate campaign", "P": "presidential campaign",
         "D": "delegate committee", "E": "electioneering committee", "I": "independent expenditor", "C": "communication cost committee"}

@@ -221,7 +221,7 @@ def main():
         blocks.append({"type": "subhead", "text": f"Skipped half or more of the recent votes (since {mdY(since)})"})
         blocks.append({"type": "list", "items": [
             f"<strong>{esc(who(ch, mid))}</strong> missed {k} of {n} {cham[ch]} roll-call votes"
-            for _, k, ch, mid, n in items[:14]]})
+            for _, k, ch, mid, n in items[:40]]})
 
     # 2. votes where absences outweighed the margin
     close = []
@@ -236,7 +236,7 @@ def main():
             link(cham[r["chamber"]] + " roll call " + str(r["num"]), r["url"]) + f" ({mdY(r['date'])}): "
             f"{esc(r['question'])} on {esc(r['subject'][:140])} -- {esc(r['result'])}, {r['yea']}-{r['nay']}, "
             f"with {nv} not voting"
-            for margin, r, nv in close[:8]]})
+            for margin, r, nv in close[:20]]})
 
     am = run_mode() == "am"
     # 3. long unbroken streaks (AM only; the list barely moves between editions)
@@ -253,7 +253,7 @@ def main():
             blocks.append({"type": "list", "items": [
                 f"<strong>{esc(who(ch, mid))}</strong> has missed the last {k} {cham[ch]} roll-call votes in a row"
                 + (f"; last vote cast {mdY(last)}" if last else "; no vote cast this year")
-                for k, ch, mid, last in streaks[:10]]})
+                for k, ch, mid, last in streaks[:25]]})
         # 4. year-to-date leaders
         for ch in ("house", "senate"):
             cur = set(data[ch]["present"])
@@ -264,7 +264,7 @@ def main():
                 blocks.append({"type": "subhead", "text": f"{cham[ch]}: highest missed-vote rate in {year}"})
                 blocks.append({"type": "list", "items": [
                     f"<strong>{esc(who(ch, mid))}</strong>: {m} of {t} votes missed ({rate:.0%})"
-                    for rate, m, t, mid in rows[:6] if m >= 5]})
+                    for rate, m, t, mid in rows[:15] if m >= 5]})
 
     if blocks:
         n_h = sum(1 for r in win if r["chamber"] == "house")

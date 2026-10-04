@@ -37,7 +37,7 @@ ZIP = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}FD.z
 MIN_PRIOR = 6
 QUIET_DAYS = 90
 BASELINE_DAYS = 365
-MAX_LISTED = 8
+MAX_LISTED = 30
 
 
 def curl_bytes(url):

@@ -145,9 +145,7 @@ def main():
                 f"({link(p['bill'], p['bill_url']) if p['bill_url'] else esc(p['bill'])}, sponsor {esc(p['sponsor'])}) -- "
                 f"{p['count']} of {THRESHOLD} signatures" + (f", {THRESHOLD - p['count']} to go" if p["count"] < THRESHOLD else ""))
         if p["new"]:
-            line += f". Signed since {mdY(since)}: " + "; ".join(signer(s) + f" on {mdY(s['date'])}" for s in p["new"][:12])
-            if len(p["new"]) > 12:
-                line += f"; and {len(p['new']) - 12} more"
+            line += f". Signed since {mdY(since)}: " + "; ".join(signer(s) + f" on {mdY(s['date'])}" for s in p["new"])
         if crossed:
             line += f". <strong>Across party lines:</strong> " + ", ".join(signer(s) for s in crossed[:6]) + \
                     f" signed a petition sponsored by a {'Republican' if p['sponsor_party'] == 'R' else 'Democrat'}"
@@ -159,13 +157,13 @@ def main():
                    {"type": "list", "items": [card(p) + f". Reached 218 on {mdY(p['done_date'])}" for p in reached]}]
     if items:
         items.sort(key=lambda p: (-len(p["new"]), -p["count"]))
-        blocks += [{"type": "subhead", "text": "New signatures"}, {"type": "list", "items": [card(p) for p in items[:8]]}]
+        blocks += [{"type": "subhead", "text": "New signatures"}, {"type": "list", "items": [card(p) for p in items]}]
     if filed:
         blocks += [{"type": "subhead", "text": "New petitions"}, {"type": "list", "items": [card(p) for p in filed]}]
     if run_mode() == "am" and near_rows:
         near_rows.sort(key=lambda p: -p["count"])
         blocks += [{"type": "subhead", "text": f"Within {NEAR} signatures of 218"},
-                   {"type": "list", "items": [card(p) for p in near_rows[:6]]}]
+                   {"type": "list", "items": [card(p) for p in near_rows]}]
     if blocks:
         blocks.append({"type": "note", "text": "Signature counts and dates come from the House Clerk's Discharge Petitions page. A petition needs 218 signatures "
                        "(a majority of the full House); signatures can be added only while the House is in session. "
