@@ -112,7 +112,10 @@ def main():
         for s in extra.get("sections", []):
             if s.get("eyebrow", "").lower() in have:
                 continue  # never double-print if Claude copied one anyway
-            content.setdefault("sections", []).append(s)
+            if s.pop("priority", False):  # e.g. Donor Awards: lead the edition, don't trail it
+                content.setdefault("sections", []).insert(0, s)
+            else:
+                content.setdefault("sections", []).append(s)
     content["beat"] = [] if edition == "congress" else beat(content)  # no Your Beat box on the Congress edition
     with open(path, "w") as f:
         json.dump(content, f, indent=2)
