@@ -1,0 +1,492 @@
+{
+ "date": "Sunday, October 4, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "A quiet Sunday: no new ethics, foreign-agent or congressional trade filings",
+  "dek": "The only new activity in the window is a batch of routine third-quarter lobbying reports.",
+  "paragraphs": [
+   "The U.S. Office of Government Ethics flagged nothing, the FARA e-file system showed no new or terminated registrants, and every House and Senate disclosure since October 1 had already been reported. The 61 lobbying filings posted since October 3 are all quarterly reports, amendments or terminations."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new ethics filings flagged this period",
+   "paragraphs": [
+    "The U.S. Office of Government Ethics database contained 18 total filings in the reporting window, with no new divestitures, terminations, or other flagged disclosures to report today."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "FARA Registrants",
+   "headline": "No new or terminated foreign-agent registrants",
+   "paragraphs": [
+    "The <a href=\"https://efile.fara.gov/ords/fara/f?p=1381:6:0::NO:6:P6_FROMDATE,P6_TODATE:10/03/2026,10/04/2026\">New Registrants report</a> and <a href=\"https://efile.fara.gov/ords/fara/f?p=1381:7:0::NO:7:P7_FROMDATE,P7_TODATE:10/03/2026,10/04/2026\">Terminated Registrants report</a> each showed zero entries for October 3 through October 4, 2026."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Personal Financial Disclosures & Stock Trades",
+   "headline": "No new congressional disclosures since the last edition",
+   "paragraphs": [
+    "Every filing in the Clerk of the House index and the Senate eFD search for October 1 onward, including <strong>Rep. Donald Sternoff Beyer Jr.</strong>'s and <strong>Rep. Cleo Fields</strong>'s trade reports and <strong>Sen. Sheldon Whitehouse</strong>'s, was already reported in a prior edition, so nothing is repeated here."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "61 quarterly lobbying reports posted, no new registrations",
+   "paragraphs": [
+    "Senate lobbying disclosure posted 61 filings since October 3, 2026, all Third Quarter activity reports, amendments or terminations; none was a new registration. Holland & Knight LLP, The D Major Group, Ruttenkern Policy Group, Ruffalo and Associates, LLC and Ryberg and Smith, L.L.C. account for most of them, and nothing here is tied to a bill or member named elsewhere in today's edition. Each client name links to the filing."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Codes",
+      "Filing Type"
+     ],
+     "rows": [
+      [
+       "KATHERINE OH",
+       "<a href=\"https://lda.gov/filings/public/filing/5e963a91-4b92-46f6-87f5-affcba31df2d/print/\">DEMAND PROGRESS EDUCATION FUND</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Report (No Activity)"
+      ],
+      [
+       "KATHERINE OH",
+       "<a href=\"https://lda.gov/filings/public/filing/ed4ecb31-2fa6-4335-8908-eacb79472c77/print/\">DEMAND PROGRESS ACTION</a>",
+       "INT/GOV/IMM/LBR/FIN/DEF",
+       "3rd Quarter - Report"
+      ],
+      [
+       "SLAIMAN CONSULTING LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/c3f3db7f-e013-473f-8363-04fa6a3f6a9e/print/\">ALTRIA CLIENT SERVICES LLC</a>",
+       "TOB",
+       "3rd Quarter - Report"
+      ],
+      [
+       "4TH ST COMMUNICATIONS",
+       "<a href=\"https://lda.gov/filings/public/filing/1e42ce16-e54c-4be9-b33b-3e54cc4d38ce/print/\">NATIONAL ASSOCIATION OF TRIBAL HISTORIC PRESERVATION OFFICERS</a>",
+       "IND/NAT",
+       "3rd Quarter - Report"
+      ],
+      [
+       "THE D MAJOR GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/59c7398e-35ba-41c2-a82a-bd60059613f0/print/\">BANNER HEALTH</a>",
+       "BUD/TAX/MMM/HCR",
+       "3rd Quarter - Report"
+      ],
+      [
+       "THE D MAJOR GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/849f4eac-0048-40cc-8064-2aa417e1266e/print/\">HEALTH CARE SUPPLY CHAIN ASSOCIATION</a>",
+       "TRD/MMM/HCR",
+       "3rd Quarter - Report"
+      ],
+      [
+       "THE D MAJOR GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/4a838cc6-39d6-4559-8939-42b89b4758a2/print/\">THE DOCTORS HOSPITAL AT RENAISSANCE</a>",
+       "MMM/HCR/BUD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "LARSON STRATEGIES LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/30adce56-57c8-4c53-ba6c-5634423d397f/print/\">SACRAMENTO AREA FLOOD CONTROL AGENCY (SAFCA)</a>",
+       "BUD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "THE D MAJOR GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/60b550e5-2546-4e11-bfef-2c4a5944c110/print/\">EMD SERONO, INC.</a>",
+       "HCR/DEF/BUD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "THE D MAJOR GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/cd43a3d7-e69e-4768-85ad-7ca0ef49972f/print/\">HEALTH CARE SERVICE CORPORATION, A MUTUAL LEGAL RESERVE COMPANY (HCSC)</a>",
+       "INS/MMM",
+       "3rd Quarter - Report"
+      ],
+      [
+       "FOOD ALLERGY RESEARCH AND EDUCATION (FARE)",
+       "<a href=\"https://lda.gov/filings/public/filing/9a6562f4-af16-4f11-9911-9c287173def4/print/\">FOOD ALLERGY RESEARCH AND EDUCATION (FARE)</a>",
+       "FOO/HCR/MED",
+       "3rd Quarter - Report"
+      ],
+      [
+       "MARK MCCORMICK",
+       "<a href=\"https://lda.gov/filings/public/filing/1667304f-ffe5-43e3-967d-6c3ba70bc35f/print/\">POLARIS INC.</a>",
+       "DEF",
+       "3rd Quarter - Report"
+      ],
+      [
+       "GALLANT GOVERNMENT &amp; LAW GROUP, LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/4d9917d3-1282-471c-8133-e27b81d971ab/print/\">8X8, INC.</a>",
+       "TEC",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUTTENKERN POLICY GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/55f32127-9782-43ff-a71e-53fbba9fe27c/print/\">HIGHLAND DAIRY &amp; FARM</a>",
+       "ENV",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUTTENKERN POLICY GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/cb0bbaa0-9f1f-427b-a152-3f1573dec590/print/\">RAJEN DAIRY</a>",
+       "ENV",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUTTENKERN POLICY GROUP",
+       "<a href=\"https://lda.gov/filings/public/filing/90f46619-174d-498e-a11a-64c0de26ba22/print/\">DO-RENE DAIRY</a>",
+       "ENV",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RICHARD BURNESS",
+       "<a href=\"https://lda.gov/filings/public/filing/2a580de5-3222-4f75-b2a6-eddcb1d6f030/print/\">BROWNSTEIN HYATT FARBER SCHRECK, LLP OBO DELL TECHNOLOGIES, INC.</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Report (No Activity)"
+      ],
+      [
+       "RICHARD BURNESS",
+       "<a href=\"https://lda.gov/filings/public/filing/e1a6ae39-ed44-4abb-b44b-d700afc5f0a2/print/\">BROWNSTEIN HYATT FARBER SCHRECK, LLP OBO ATHENE HOLDING</a>",
+       "TAX",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RICHARD BURNESS",
+       "<a href=\"https://lda.gov/filings/public/filing/cc5be045-832e-407e-9a33-81b9fac7210c/print/\">BROWNSTEIN HYATT FARBER SCHRECK, LLP OBO TEACHERS INSURANCE AND ANNUITY ASSOC</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Report (No Activity)"
+      ],
+      [
+       "RICHARD BURNESS",
+       "<a href=\"https://lda.gov/filings/public/filing/530a6205-6db5-47ce-be30-72b03df2a183/print/\">BROWNSTEIN HYATT FARBER SCHRECK, LLP OBO APOLLO MANAGEMENT HOLDING</a>",
+       "TAX",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RICHARD BURNESS",
+       "<a href=\"https://lda.gov/filings/public/filing/df2a8bee-636b-4d85-a1d7-56878d0ea3d4/print/\">BROWNSTEIN HYATT FARBER SCHRECK, LLP OBO JOHNSON &amp; JOHNSON</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Report (No Activity)"
+      ],
+      [
+       "RICHARD BURNESS",
+       "<a href=\"https://lda.gov/filings/public/filing/f734377a-5e3a-4ac3-8e93-70137c5f1b29/print/\">BROWNSTEIN HYATT FARBER SCHRECK LLP OBO REINSURANCE ASSOCIATION OF AMERICA</a>",
+       "TAX",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUFFALO AND ASSOCIATES, LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/47f53f39-0aab-4c76-bd9d-40c002896dda/print/\">RIVERSIDE COUNTY TRANSPORTATION COMMISSION</a>",
+       "TRA",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUFFALO AND ASSOCIATES, LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/1d0de234-fb29-44d3-8fa3-8bdbb0be8f40/print/\">AMERICAN ASSOCIATION OF STATE HIGHWAY AND TRANSPORTATION OFFICIALS</a>",
+       "TRA",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/2bbb3184-0b0f-452d-a0fc-632a8a6d2050/print/\">ACTIVEHOURS, INC. D/B/A EARNIN</a>",
+       "BAN",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUFFALO AND ASSOCIATES, LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/90fb193e-7646-4d0f-858a-8bef83adf20f/print/\">INTERNATIONAL BRIDGE, TUNNEL AND TURNPIKE ASSOCIATION</a>",
+       "TRA",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUFFALO AND ASSOCIATES, LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/dc384e74-8207-455b-a358-a6e5062a1537/print/\">COMMERCIAL VEHICLE SAFETY ALLIANCE</a>",
+       "TRA",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/cd856177-adc1-4c6b-8bcd-44c1cfce94ec/print/\">AXON ENTERPRISE, INC.</a>",
+       "LAW/FIR/TAX",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RUFFALO AND ASSOCIATES, LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/4c743563-77c5-4e3c-98a8-9bec28d09c48/print/\">HERITAGE HEALTH SOLUTIONS, INC.</a>",
+       "HCR",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/cd54c55b-cffc-464c-9693-34c29e6c2bdf/print/\">BREAD FINANCIAL PAYMENTS, INC.</a>",
+       "FIN",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/4556380f-9379-45e2-ae78-c9c7d0165999/print/\">COLORADO SCHOOL OF MINES</a>",
+       "BUD/NAT/SCI",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/93f25244-8af6-411c-bc8a-85476cabe9ba/print/\">STRYTEN ENERGY</a>",
+       "ENG",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/58610bc1-4b6e-4dad-97d7-7845bae942fd/print/\">THE US CANNABIS ROUNDTABLE</a>",
+       "BAN/HCR/BUD/AGR",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/8556dd87-407a-45f7-a3d4-2bfe97f18922/print/\">TWIN RIVERS PAPER COMPANY</a>",
+       "BUD/TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RYBERG AND SMITH, L.L.C.",
+       "<a href=\"https://lda.gov/filings/public/filing/8870f5a9-f200-41fd-b12c-331e9a08bfcd/print/\">AFRICAN COALITION FOR TRADE</a>",
+       "TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RYBERG AND SMITH, L.L.C.",
+       "<a href=\"https://lda.gov/filings/public/filing/b805db37-2b49-4241-b354-d35ceb225184/print/\">MAURITIUS SUGAR SYNDICATE AND MAURITIUS CHAMBER OF AGRICULTURE</a>",
+       "AGR/TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RYBERG AND SMITH, L.L.C.",
+       "<a href=\"https://lda.gov/filings/public/filing/11c18530-5c4a-4d5f-88bb-09ccf9df243c/print/\">MAURITIUS-U.S. BUSINESS ASSOCIATION, INC.</a>",
+       "TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/5d131407-7096-4880-a96d-55a9679ece67/print/\">CIGAR RIGHTS OF AMERICA</a>",
+       "TOB/TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RYBERG AND SMITH, L.L.C.",
+       "<a href=\"https://lda.gov/filings/public/filing/68b738d3-aa74-4d82-ac13-3330593c7c4b/print/\">INTERNATIONAL SUGAR TRADE COALITION</a>",
+       "AGR/TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RYBERG AND SMITH, L.L.C.",
+       "<a href=\"https://lda.gov/filings/public/filing/e1f84d8f-83bc-4531-9cdb-9722769f4323/print/\">CBI SUGAR GROUP</a>",
+       "AGR/TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/1a996184-d25e-4b28-82be-359dccbddd8b/print/\">CLARK STREET ASSOCIATES ON BEHALF OF LIGHTPATH TECHNOLOGIES</a>",
+       "DEF",
+       "3rd Quarter - Report"
+      ],
+      [
+       "RYBERG AND SMITH, L.L.C.",
+       "<a href=\"https://lda.gov/filings/public/filing/221abe3c-9b2a-47b3-bd62-bcf2170b8e6a/print/\">FLORIDA CRYSTALS CORP.</a>",
+       "TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/e71984e6-6ad3-42cf-a8a2-d8da44d7b9ef/print/\">CLARK STREET ASSOCIATES ON BEHALF OF LATTICE SEMICONDUCTOR</a>",
+       "BUD/SCI",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/3afa0c35-42e2-4e9d-a6e0-23ba50c1fe52/print/\">CLARK STREET ASSOCIATES ON BEHALF OF MARVELL TECHNOLOGY, INC.</a>",
+       "DEF/BUD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "PLATFORM GOVERNMENT STRATEGIES",
+       "<a href=\"https://lda.gov/filings/public/filing/600beec9-5665-45fd-9988-2c3b0e604a62/print/\">ALIGNMENT HEALTHCARE, INC</a>",
+       "MMM",
+       "3rd Quarter - Report"
+      ],
+      [
+       "PLATFORM GOVERNMENT STRATEGIES",
+       "<a href=\"https://lda.gov/filings/public/filing/e687f96d-6506-441a-8351-e497e0e7e693/print/\">THE HEALTHCARE ALLIANCE, WDBA THE COALITION FOR HEALTHCARE INNOVATION</a>",
+       "HCR",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/e21611ed-b297-4936-bf23-e4a0b126c034/print/\">CONSERVATION INTERNATIONAL</a>",
+       "NAT/FOR",
+       "3rd Quarter - Termination"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/8e803c25-16c5-4575-a5c6-f23f465b0171/print/\">NATIONAL PARKS CONSERVATION ASSOCIATION</a>",
+       "NAT",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/1f952ee9-d68c-43dd-bc75-fae1d4601961/print/\">MACQUARIE ASSET MANAGEMENT</a>",
+       "TRA",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/0605284a-cd1e-46d4-937d-3b274b9d0b3c/print/\">A.O. SMITH CORPORATION</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Report (No Activity)"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/b96dd2d8-0530-460b-844a-1208355d1d37/print/\">CHARGEPOINT, INC.</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Report (No Activity)"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/35895ff6-3202-4df4-b94b-7b87ee18f6d2/print/\">CITIZENS FOR RESPONSIBLE ENERGY SOLUTIONS</a>",
+       "ENG",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/8f55ecb7-f4f7-4a6a-963d-bd4ede99f0e2/print/\">ENERGIZER HOLDINGS, INC.</a>",
+       "CSP/TAX/TRD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/42e60086-197c-4ecf-94a9-ea4fdb340827/print/\">NATIONAL PARKS CONSERVATION ASSOCIATION</a>",
+       "NAT",
+       "3rd Quarter - Amendment"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/ff6b605a-10ae-437d-94de-9a7835495be7/print/\">PILOT TRAVEL CENTERS LLC</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Termination (No Activity)"
+      ],
+      [
+       "CAPEDC ADVISORS, LLC",
+       "<a href=\"https://lda.gov/filings/public/filing/c22b170d-a536-4df1-a2bd-cc5d49b63d5b/print/\">UNIVERSAL SYNAPTICS CORPORATION</a>",
+       "DEF",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/7636bcdd-c11b-4d94-b9ce-387d3b2eb1af/print/\">DARROW EVERETT LLP FKA SAXON, GILMORE &amp; CARRAWAY, P.A. (OBO ENVISION ORLANDO)</a>",
+       "BUD/HOU",
+       "3rd Quarter - Report"
+      ],
+      [
+       "HOLLAND &amp; KNIGHT LLP",
+       "<a href=\"https://lda.gov/filings/public/filing/985a973a-005c-4050-ad0f-f8cb0320628f/print/\">DARROWEVERETT LLP FKA SAXON, GILMORE &amp; CARRAWAY, PA OBO MERIDIAN RIVER DEV CORP</a>",
+       "HOU/BUD",
+       "3rd Quarter - Report"
+      ],
+      [
+       "KEYSIGHT TECHNOLOGIES, INC",
+       "<a href=\"https://lda.gov/filings/public/filing/a1e48c4b-cdcc-4161-a318-8a74a7af8d3a/print/\">KEYSIGHT TECHNOLOGIES, INC</a>",
+       "DEF/SCI/EDU/TEC/TRD/TAX",
+       "3rd Quarter - Report"
+      ],
+      [
+       "U.S. APPLE ASSOCIATION",
+       "<a href=\"https://lda.gov/filings/public/filing/eba7f7bb-449a-4341-9613-6c517c135711/print/\">U.S. APPLE ASSOCIATION</a>",
+       "AGR/TRD/IMM",
+       "3rd Quarter - Report"
+      ],
+      [
+       "TMP METALS GROUP, LTD.",
+       "<a href=\"https://lda.gov/filings/public/filing/19647845-eff6-4337-9858-467ddf100015/print/\">TMP METALS GROUP, LTD.</a>",
+       "n/a (no activity listed)",
+       "3rd Quarter - Report (No Activity)"
+      ]
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Industries to Watch",
+   "headline": "Lobbying in prediction markets, crypto, AI and defense tech",
+   "paragraphs": [
+    "1 new filing in watched industries; no new clients or spending jumps."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Other new filings in watched industries"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Client",
+      "Firm",
+      "Industry",
+      "Reported",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "DEMAND PROGRESS ACTION",
+       "KATHERINE OH",
+       "Crypto &amp; digital assets",
+       "\u2014",
+       "<a href=\"https://lda.gov/filings/public/filing/ed4ecb31-2fa6-4335-8908-eacb79472c77/print/\">3rd Quarter - Report</a>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Industries and keywords are set in data/lda_industries.json. Amounts are the income (firm) or expenses (in-house) line on the filing."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Stopped Trading",
+   "headline": "Rep. Jefferson Shreve filed 7 trade reports last year, none in 120 days",
+   "paragraphs": [
+    "3 House member(s) with a history of frequent stock trading have stopped filing trade reports."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Jefferson Shreve (R-IN-6)</strong> filed 7 periodic transaction reports in the 12 months from 7/6/2025 to 7/6/2026, and none in the 120 days since the last, on 6/6/2026",
+      "<strong>Rep. Thomas R. Suozzi (D-NY-3)</strong> filed 7 periodic transaction reports in the 12 months from 7/6/2025 to 7/6/2026, and none in the 117 days since the last, on 6/9/2026",
+      "<strong>Rep. Daniel Meuser (R-PA-9)</strong> filed 7 periodic transaction reports in the 12 months from 7/6/2025 to 7/6/2026, and none in the 94 days since the last, on 7/2/2026"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "House members who filed 6 or more periodic transaction reports (STOCK Act trade disclosures) in the year before the last 90 days and none since, per the House Clerk's disclosure index. Silence doesn't say why: the member may have sold off holdings, moved assets into a blind trust or index fund, been covered by a new law, or just not traded -- and trades are reportable up to 45 days late, so the latest ones may not be filed yet. House members only; the Senate's e-filing search isn't covered. "
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 3, 2026 00:00 Pacific through the morning of October 4, 2026 (House/Senate disclosures from October 1, 2026)",
+  "sources": "OGE's ethics-filing search endpoint; DOJ FARA e-file system; Senate Office of Public Records LDA API; Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "No tasks were skipped."
+ },
+ "beat": []
+}
