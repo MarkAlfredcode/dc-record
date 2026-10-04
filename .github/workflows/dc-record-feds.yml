@@ -282,7 +282,10 @@ jobs:
           if [ "$IS_SITE_REFRESH" == "true" ]; then
             git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json 2>/dev/null || true
           fi
-          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/donor-awards-seen.json data/donor-awards-cache.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json digest/ archive/
+          # Some cache files only exist after certain code paths run; git add aborts on a missing pathspec
+          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/donor-awards-seen.json data/donor-awards-cache.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json digest/ archive/; do
+            [ -e "$f" ] && git add "$f"
+          done
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
