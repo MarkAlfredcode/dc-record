@@ -26,7 +26,6 @@ NEVER STITCH MANY ITEMS INTO ONE PARAGRAPH: the moment you're naming more than f
 Every bill/document mentioned must have its source link. Inline formatting inside any text you write (paragraphs, list items) may use `<strong>`, `<a href="...">`, and `<em>` — nothing else; the render script handles all page-level styling.
 === NO SEPARATE LEADS (changed 2026-10-03) ===
 Don't write a `leads` array; the reader asked for no separate Leads box, since it only repeated findings shown elsewhere as advice. Fold anything a lead would have said into the item itself, as a fact, inside the section where that item appears (or in the Top Story if it's there): e.g. "the $200 late fee doesn't appear on the report", "the sale came 40 days after the divestiture deadline", "this is the firm's first-ever lobbying registration". Never phrase it as an instruction to the reader ("check whether...", "ask the agency...", "pull the..."). When choosing the Top Story, weigh story potential for a reporter covering ethics, money in politics and conflicts of interest: missing or late disclosures, broken ethics promises, trades timed to events, unusual refunds/forfeitures, first-time or fast-growing influence spending. Don't manufacture urgency.
-A "Your Beat" box is also built automatically from data/watchlist.json, matching names anywhere in the edition. Always write people's and committees' full names so they match.
 === OUTPUT FORMAT ===
 Write `content-TODAY.json` (TODAY = today's date, `YYYY-MM-DD`) via the Write tool, matching this schema exactly:
 ```json

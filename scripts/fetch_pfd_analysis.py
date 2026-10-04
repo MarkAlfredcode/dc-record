@@ -37,6 +37,7 @@ HOUSE_PTR = "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{year}/{do
 HOUSE_FD = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}/{doc}.pdf"
 SEEN_PATH = "data/pfd-analysis-seen.json"
 LATE_DAYS = 45
+TIMED_MIN_AMOUNT = 15001  # $1,001-$15,000 trades matched to broad events are noise, not red flags
 MAX_PDFS = 80  # safety valve on a heavy day; every skipped filing is counted in the note
 # Outside income worth a look ("Members of Congress Score Major Paydays From Books")
 OUTSIDE_RE = re.compile(r"royalt|\bbook|publish|\badvance\b|author|speak|honorari|lectur|\bboard\b|director|consult|advis|"
@@ -252,7 +253,11 @@ def _check_trade(t, who, filed, url, events, late, timed, jur=None, comms=(), ov
     lag = trades.days_between(t.get("tx_date"), filed)
     if lag is not None and lag > LATE_DAYS and t.get("status", "New") == "New":
         late.append({"who": who, "t": t, "filed": filed, "lag": lag, "url": url})
+    if (t.get("amount_floor") or 0) < TIMED_MIN_AMOUNT:
+        return
     for h in trades.event_hits(t, events):
+        if h["days_before_event"] < 0:  # trade came after the event; it can't have been a tip-off
+            continue
         timed.append({"who": who, "t": t, "hit": h, "url": url})
 
 
@@ -284,12 +289,19 @@ def _build(late, timed, diffs, notes, errors, history=None, oversight=(), outsid
         filers = sorted({x["who"] for x in late})
         paras.append(f"{len(late)} trade{'s' if len(late) != 1 else ''} disclosed past the STOCK Act's {LATE_DAYS}-day limit, by {', '.join(filers[:6])}{' and others' if len(filers) > 6 else ''}.")
     if timed:
-        blocks.append({"type": "subhead", "text": "Trades near market-moving events"})
+        # One line per trade (not per trade x event); list every event it preceded, nearest first.
+        grouped = {}
+        for x in timed:
+            t = x["t"]
+            grouped.setdefault((x["who"], x["url"], t["asset"], t["type"], t["tx_date"], t["amount"]), []).append(x)
+        timed = [min(g, key=lambda y: y["hit"]["days_before_event"]) | {"hits": sorted((y["hit"] for y in g), key=lambda h: h["days_before_event"])} for g in grouped.values()]
+        blocks.append({"type": "subhead", "text": "Trades just before market-moving events"})
         blocks.append({"type": "list", "items": [
             f"<strong>{esc(x['who'])}</strong>: {esc(x['t']['type'].lower())} of {link(x['t']['asset'][:80], x['url'])} "
-            f"({esc(x['t']['amount'])}) on {mdY(x['t']['tx_date'])}, {esc(trades.timing_phrase(x['hit']))}."
+            f"({esc(x['t']['amount'])}) on {mdY(x['t']['tx_date'])}, {esc(trades.timing_phrase(x['hits'][0]))}"
+            f"{' (and ' + str(len(x['hits']) - 1) + ' other event' + ('s' if len(x['hits']) > 2 else '') + ')' if len(x['hits']) > 1 else ''}."
             for x in timed[:30]]})
-        paras.append(f"{len(timed)} disclosed trade{'s' if len(timed) != 1 else ''} landed near an event on the watch calendar.")
+        paras.append(f"{len(timed)} disclosed trade{'s' if len(timed) != 1 else ''} of $15,001 or more landed shortly before an event on the watch calendar.")
     SECTOR_NAMES = {"ai_chips": "AI/chip", "oil_gas": "oil and gas", "nuclear_uranium": "nuclear/uranium", "steel_aluminum": "steel/aluminum",
                     "health_insurers": "health-insurer", "insurers_utilities": "utility/insurer", "critical_minerals": "critical-minerals",
                     "prediction_markets": "prediction-market", "clean_energy": "clean-energy"}

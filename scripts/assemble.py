@@ -113,7 +113,7 @@ def main():
             if s.get("eyebrow", "").lower() in have:
                 continue  # never double-print if Claude copied one anyway
             content.setdefault("sections", []).append(s)
-    content["beat"] = beat(content)
+    content["beat"] = [] if edition == "congress" else beat(content)  # no Your Beat box on the Congress edition
     with open(path, "w") as f:
         json.dump(content, f, indent=2)
         f.write("\n")
