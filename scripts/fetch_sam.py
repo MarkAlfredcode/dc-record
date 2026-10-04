@@ -14,6 +14,7 @@ import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
 
+import sam_docs
 from dc_common import check_reachable, days_ago_la, http_get_json, today_la, write_candidates
 
 OUT_PATH = "data/sam_candidates.json"
@@ -130,6 +131,10 @@ def main():
             "description_text": desc_text,
         })
     out["counts"]["justifications_total"] = total
+    # The signed J&A attachments, not just the notice blurb -- see sam_docs.py.
+    texts = sam_docs.enrich(out["justifications"])
+    sam_docs.write_documents(texts)
+    out["counts"]["justification_documents_read"] = len(texts)
 
     # Solicitations (ptype=o,k,p) -- hand over ALL, Claude flags by judgment
     rows, total, err = paginate(api_key, "o,k,p", posted_from_fmt, posted_to_fmt)

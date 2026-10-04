@@ -170,14 +170,17 @@ fire. The generated HTML is also uploaded as a downloadable build artifact
 on every run (30-day retention), regardless of whether the email send
 succeeded.
 
-## Deterministic extras, Your Beat, Leads, archive (added 2026-10-03)
+## Deterministic extras, Your Beat, archive (added 2026-10-03)
 
 Pre-pass scripts that build whole sections with **no LLM**. Each writes
 `extras/<edition>/<name>.json`; `scripts/assemble.py` appends them to
 Claude's `content-TODAY.json` after the main pass (Claude reads only their
-one-line summaries, to weigh Top Story/Leads), builds the **Your Beat** box
+one-line summaries, to weigh Top Story), builds the **Your Beat** box
 from `data/watchlist.json`, and saves a dated copy to
-`archive/<edition>/<date>-<am|pm>.json`.
+`archive/<edition>/<date>-<am|pm>.json`. (A separate Leads box was removed
+the same day at the reader's request -- it repeated findings shown
+elsewhere; prompts now fold any next-step fact into the item itself.
+`render_common.py` still draws the box if `leads` is ever non-empty.)
 
 | Script | Edition | Section |
 |---|---|---|

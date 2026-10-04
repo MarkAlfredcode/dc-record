@@ -49,6 +49,9 @@ def units(content):
                     yield label, " · ".join(row), "item"
             elif b.get("type") in ("note", "paragraph"):
                 yield label, b.get("text", ""), "para"
+            elif b.get("type") == "card":
+                meta = " · ".join(m for m in b.get("meta") or [] if m)
+                yield label, f"<strong>{b.get('title', '')}</strong> ({meta}) {b.get('text', '')}", "para"
 
 
 def snippet(text_html, rx, kind):

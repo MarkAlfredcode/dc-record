@@ -42,7 +42,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y poppler-utils
+          # tesseract: OCR for image-only J&A PDFs (scripts/sam_docs.py)
+          sudo apt-get install -y poppler-utils tesseract-ocr
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           "$HOME/.local/bin/claude" --version
@@ -103,10 +104,12 @@ jobs:
         if: steps.reachability.outputs.down_count < 2
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
-          # Haiku reads all ~700 solicitation titles/descriptions so the main
-          # pass doesn't have to; on failure the main pass falls back to
-          # data/sam_candidates.json on its own.
+          # Haiku reads all ~700 solicitation titles/descriptions and every
+          # new J&A document so the main pass doesn't have to, deduping
+          # against data/sam-seen.json for this AM/PM slot; on failure the
+          # main pass falls back to data/sam_candidates.json on its own.
           python3 scripts/triage_sam.py || echo "triage_sam failed -- main pass will fall back"
 
       - name: Run mechanical content pass (OMB, cheap model)
@@ -265,9 +268,9 @@ jobs:
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/feds*.html as-is."
           fi
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json 2>/dev/null || true
+            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/sam-seen.json 2>/dev/null || true
           fi
-          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json digest/ archive/
+          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/sam-seen.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

@@ -33,7 +33,9 @@ def texts(c):
                 yield e, it
             for row in b.get("rows", []):
                 yield e, " · ".join(row)
-            if b.get("text"):
+            if b.get("type") == "card":
+                yield e, f"{b.get('title', '')} — {' · '.join(m for m in b.get('meta') or [] if m)} — {b.get('text', '')}"
+            elif b.get("text"):
                 yield e, b["text"]
 
 

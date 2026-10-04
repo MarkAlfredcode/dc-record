@@ -154,12 +154,37 @@ def render_section(section, is_first):
         elif t in ("list", "table"):
             inner = render_blocks([b])
             parts.append(f'<tr><td class="px" style="padding:0 20px 20px 20px;">{inner}</td></tr>')
+        elif t == "card":
+            parts.append(render_card(b))
         elif t == "paragraph":
             parts.append(
                 f'<tr><td class="px" style="padding:0 20px 12px 20px; font-family:Arial, Helvetica, sans-serif; '
                 f'font-size:16px; line-height:24px; color:{BODY_INK};"><p style="margin:0;">{b["text"]}</p></td></tr>'
             )
     return "\n".join(parts)
+
+
+def render_card(b):
+    """A must-read item (added 2026-10-03 for Federal Contracting Actions):
+    plain-English title, a scannable vendor/value/authority/agency line, a
+    short write-up, and its links -- so the few items worth reading stand
+    apart from the one-line tail."""
+    meta = " &nbsp;·&nbsp; ".join(esc(strip_bold_tags(m)) for m in b.get("meta") or [] if m)
+    links = " &nbsp;|&nbsp; ".join(
+        f'<a href="{l["url"]}" style="color:{RUST};">{esc(l["text"])}</a>'
+        for l in b.get("links") or [] if l.get("url"))
+    return (
+        f'<tr><td class="px" style="padding:0 20px 14px 20px;">'
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
+        f'style="border-left:3px solid {RUST}; background-color:#faf8f5;">'
+        f'<tr><td style="padding:12px 14px; font-family:Arial, Helvetica, sans-serif;">'
+        f'<div style="font-size:16px; line-height:22px; font-weight:bold; color:{INK}; padding-bottom:4px;">{b.get("title", "")}</div>'
+        + (f'<div style="font-size:12px; line-height:18px; color:{SLATE}; text-transform:uppercase; '
+           f'letter-spacing:0.3px; padding-bottom:8px;">{meta}</div>' if meta else "")
+        + f'<div style="font-size:15px; line-height:22px; color:{BODY_INK};">{b.get("text", "")}</div>'
+        + (f'<div style="font-size:13px; line-height:20px; padding-top:8px;">{links}</div>' if links else "")
+        + '</td></tr></table></td></tr>'
+    )
 
 
 def render_top_story(ts):
