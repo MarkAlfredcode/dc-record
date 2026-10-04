@@ -169,3 +169,37 @@ dropdown. Useful for testing changes without waiting for the next scheduled
 fire. The generated HTML is also uploaded as a downloadable build artifact
 on every run (30-day retention), regardless of whether the email send
 succeeded.
+
+## Deterministic extras, Your Beat, Leads, archive (added 2026-10-03)
+
+Pre-pass scripts that build whole sections with **no LLM**. Each writes
+`extras/<edition>/<name>.json`; `scripts/assemble.py` appends them to
+Claude's `content-TODAY.json` after the main pass (Claude reads only their
+one-line summaries, to weigh Top Story/Leads), builds the **Your Beat** box
+from `data/watchlist.json`, and saves a dated copy to
+`archive/<edition>/<date>-<am|pm>.json`.
+
+| Script | Edition | Section |
+|---|---|---|
+| `fetch_deadlines.py` | Officials, Campaigns | Deadline Watch: members missing/late on annual PFDs; members' campaigns with no FEC report covering a period; coming-due calendar (`data/deadlines.json`) |
+| `fetch_ethics_agreements.py` | Officials | Ethics Agreement Tracker: overdue/late compliance certifications, sales of promised divestitures after deadline, late executive-branch 278-Ts, new conflict-of-interest waivers, amended-filing diffs |
+| `fetch_pfd_analysis.py` | Officials | Disclosure Red Flags: House/Senate trades disclosed >45 days late (with repeat-offender history), trades near `data/events.json` events, amended-report diffs |
+| `fetch_presidential_trades.py` | Officials | The President's Trades: Trump/Vance 278-Ts counted and summarized |
+| `fetch_lda_trends.py` | Officials | Industries to Watch (`data/lda_industries.json`) |
+| `fetch_money_out.py` | Campaigns | Money Out: bulk refunds, forfeitures/disgorgements (FTX-linked flagged), investments, Trump-property spending, thefts, former members' still-spending committees |
+| `fetch_election.py` | Campaigns | Election Watch (only inside `election_mode` dates): new IEs by race, self-funding, new outside groups |
+
+| `fetch_wiki_events.py` → `prompt-events.txt` → `apply_event_additions.py` | (calendar) | Every ~10 days (`dc-record-events.yml`, 1st/11th/21st): new items on this year's Wikipedia timeline/year pages; Claude picks market-moving ones; the script copies dates/sources from the candidates (never from the model) into `data/events.json`, commits, and pushes an ntfy summary |
+
+Oversight-area checks use `data/jurisdiction.json` (committee and agency → sectors) via `scripts/jurisdiction.py`.
+
+Editable config, no code changes needed: `data/watchlist.json`,
+`data/events.json` (fill in dates; undated events are skipped),
+`data/deadlines.json`, `data/lda_industries.json`, `data/jurisdiction.json`.
+
+Search past editions: `python3 scripts/search_archive.py "Justice|Greenbrier" --since 2026-09-01`.
+Test a script against older data: `DC_LOOKBACK_DAYS=60 python3 scripts/fetch_pfd_analysis.py`.
+
+OGE note: OGE moved its index API from `API.xsp/v2/rest` to `v3/rest`
+(2026-10-03); v3 ignores sort order, so `scripts/oge_index.py` pulls the
+whole index (~8s) and filters locally.

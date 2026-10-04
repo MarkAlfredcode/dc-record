@@ -1,0 +1,53 @@
+{
+  "_about": "Which events.json sectors each congressional committee and executive agency oversees. Used to flag trades in a filer's own oversight area: a House Armed Services member buying defense stocks, an Army official buying a defense contractor, the Federal Highway Administrator buying a transportation company. Committee keys are unitedstates/congress-legislators thomas_ids (full committees only); agency keys are case-insensitive substrings of OGE's agency field, checked in order, all matches apply. Sector names must exist in data/events.json (plus 'banks', defined here because no event uses it).",
+  "extra_sectors": {
+    "banks": {"keywords": ["jpmorgan", "bank of america", "wells fargo", "citigroup", "goldman sachs", "morgan stanley", "u\\.s\\. bancorp", "pnc financial", "truist", "charles schwab", "capital one", "american express", "blackrock", "visa inc", "mastercard", "paypal"],
+              "tickers": ["JPM", "BAC", "WFC", "C", "GS", "MS", "USB", "PNC", "TFC", "SCHW", "COF", "AXP", "BLK", "V", "MA", "PYPL", "XLF", "KBE", "KRE"]}
+  },
+  "committees": {
+    "HSAS": ["defense", "aerospace"], "SSAS": ["defense", "aerospace"],
+    "HLIG": ["defense"], "SLIN": ["defense"], "HSHM": ["defense"], "SSGA": ["defense"],
+    "HSIF": ["pharma", "health_insurers", "oil_gas", "clean_energy", "nuclear_uranium", "insurers_utilities", "ai_chips", "autos", "crypto"],
+    "SSCM": ["airlines", "aerospace", "autos", "ai_chips", "shipping"],
+    "HSPW": ["airlines", "aerospace", "autos", "shipping", "insurers_utilities"],
+    "HSBA": ["banks", "crypto", "prediction_markets"], "SSBK": ["banks", "crypto", "prediction_markets"],
+    "HSAG": ["agriculture", "crypto", "prediction_markets"], "SSAF": ["agriculture", "crypto", "prediction_markets"],
+    "SSEG": ["oil_gas", "nuclear_uranium", "clean_energy", "critical_minerals", "insurers_utilities"],
+    "HSII": ["oil_gas", "critical_minerals"],
+    "SSEV": ["oil_gas", "autos", "clean_energy", "insurers_utilities", "nuclear_uranium"],
+    "SSHR": ["pharma", "health_insurers"],
+    "HSWM": ["health_insurers", "pharma", "steel_aluminum", "autos"],
+    "SSFI": ["health_insurers", "pharma", "steel_aluminum", "autos"],
+    "HSSY": ["aerospace", "ai_chips", "nuclear_uranium", "clean_energy"],
+    "HSZS": ["ai_chips", "critical_minerals"]
+  },
+  "agencies": {
+    "Transportation": ["airlines", "autos", "aerospace", "shipping"],
+    "Federal Aviation": ["airlines", "aerospace"],
+    "Department of Energy": ["oil_gas", "nuclear_uranium", "clean_energy", "insurers_utilities"],
+    "Federal Energy Regulatory": ["oil_gas", "insurers_utilities"],
+    "Nuclear Regulatory": ["nuclear_uranium"],
+    "Defense": ["defense", "aerospace"],
+    "Department of The Army": ["defense", "aerospace"],
+    "Department of The Navy": ["defense", "aerospace", "shipping"],
+    "Department of The Air Force": ["defense", "aerospace"],
+    "Homeland Security": ["defense"],
+    "Health and Human Services": ["pharma", "health_insurers"],
+    "Food and Drug": ["pharma"],
+    "Medicare": ["health_insurers", "pharma"],
+    "Treasury": ["banks", "crypto"],
+    "Securities and Exchange": ["banks", "crypto", "prediction_markets"],
+    "Commodity Futures": ["crypto", "prediction_markets", "agriculture", "oil_gas"],
+    "Federal Reserve": ["banks"],
+    "Federal Deposit": ["banks"],
+    "Comptroller of the Currency": ["banks", "crypto"],
+    "Consumer Financial Protection": ["banks"],
+    "Interior": ["oil_gas", "critical_minerals", "clean_energy"],
+    "Environmental Protection": ["oil_gas", "autos", "clean_energy", "insurers_utilities"],
+    "Agriculture": ["agriculture"],
+    "Commerce": ["ai_chips", "steel_aluminum", "critical_minerals", "autos"],
+    "Trade Representative": ["steel_aluminum", "autos", "agriculture"],
+    "National Aeronautics": ["aerospace"],
+    "Federal Communications": ["ai_chips"]
+  }
+}

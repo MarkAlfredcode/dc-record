@@ -1,0 +1,4925 @@
+{
+ "built": "2026-10-03",
+ "committees": {
+  "C00000125": {
+   "committee": "ARCHER FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Bill Archer"
+  },
+  "C00002154": {
+   "committee": "SPENCE FOR CONGRESS COMMITTEE",
+   "left": "2001-08-16",
+   "name": "former Rep. Floyd Spence"
+  },
+  "C00002600": {
+   "committee": "JOHN D. DINGELL FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. John D. Dingell"
+  },
+  "C00005041": {
+   "committee": "REGULA FOR CONGRESS COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Rep. Ralph Regula"
+  },
+  "C00007682": {
+   "committee": "CITIZENS COMMITTEE FOR GILMAN FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Benjamin Gilman"
+  },
+  "C00012229": {
+   "committee": "ALASKANS FOR DON YOUNG",
+   "left": "2022-03-18",
+   "name": "former Rep. Don Young"
+  },
+  "C00012757": {
+   "committee": "RE-ELECT CONGRESSMAN JOSEPH MOAKLEY COMMITTEE",
+   "left": "2001-05-28",
+   "name": "former Rep. John Moakley"
+  },
+  "C00013128": {
+   "committee": "CONGRESSMAN WAXMAN CAMPAIGN COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Henry A. Waxman"
+  },
+  "C00013573": {
+   "committee": "HENRY J. HYDE FOR CONGRESS COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Henry Hyde"
+  },
+  "C00014944": {
+   "committee": "BUD SHUSTER FOR CONGRESS COMMITTEE",
+   "left": "2001-02-05",
+   "name": "former Rep. Elmer Shuster"
+  },
+  "C00015362": {
+   "committee": "JEFFORDS FOR VERMONT COMMITTEE INC",
+   "left": "2007-01-03",
+   "name": "former Sen. James Jeffords"
+  },
+  "C00015560": {
+   "committee": "BILL GOODLING FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. William Goodling"
+  },
+  "C00017830": {
+   "committee": "A LOT OF PEOPLE FOR DAVE OBEY",
+   "left": "2011-01-03",
+   "name": "former Rep. David Obey"
+  },
+  "C00019075": {
+   "committee": "MURTHA FOR CONGRESS COMMITTEE",
+   "left": "2010-02-08",
+   "name": "former Rep. John Murtha"
+  },
+  "C00019158": {
+   "committee": "JOHN BREAUX RE-ELECTION COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Sen. John Breaux"
+  },
+  "C00020974": {
+   "committee": "PETE STARK RE-ELECTION COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Fortney Pete Stark"
+  },
+  "C00024620": {
+   "committee": "CLAY CAMPAIGN COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. William Clay"
+  },
+  "C00025379": {
+   "committee": "FRIENDS OF JOHN LAFALCE",
+   "left": "2003-01-03",
+   "name": "former Rep. John LaFalce"
+  },
+  "C00025973": {
+   "committee": "IKE SKELTON FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Ike Skelton"
+  },
+  "C00026179": {
+   "committee": "BONIOR FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. David Bonior"
+  },
+  "C00026740": {
+   "committee": "CRANE FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Philip Crane"
+  },
+  "C00027664": {
+   "committee": "ROTH SENATE COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Sen. William Roth"
+  },
+  "C00027987": {
+   "committee": "FRIENDS OF ROBERT C BYRD COMMITTEE",
+   "left": "2010-06-28",
+   "name": "former Sen. Robert Byrd"
+  },
+  "C00028316": {
+   "committee": "STEVENS FOR SENATE COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Sen. Ted Stevens"
+  },
+  "C00028332": {
+   "committee": "HOLLINGS FOR SENATE",
+   "left": "2005-01-03",
+   "name": "former Sen. Ernest Hollings"
+  },
+  "C00029371": {
+   "committee": "DANIEL K INOUYE IN 86",
+   "left": "2012-12-17",
+   "name": "former Sen. Daniel K. Inouye"
+  },
+  "C00029694": {
+   "committee": "GRAMM FOR SENATE COMMITTEE",
+   "left": "2002-11-29",
+   "name": "former Sen. Phil Gramm"
+  },
+  "C00029777": {
+   "committee": "CITIZENS FOR SARBANES",
+   "left": "2007-01-03",
+   "name": "former Sen. Paul Sarbanes"
+  },
+  "C00036830": {
+   "committee": "LUNGREN FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Daniel E. Lungren"
+  },
+  "C00046003": {
+   "committee": "VOLUNTEERS FOR VENTO",
+   "left": "2001-01-03",
+   "name": "former Rep. Bruce Vento"
+  },
+  "C00051227": {
+   "committee": "CONGRESSMAN BILL YOUNG CAMPAIGN COMMITTEE",
+   "left": "2013-10-18",
+   "name": "former Rep. C. W. Bill Young"
+  },
+  "C00052076": {
+   "committee": "GEPHARDT IN CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Richard Gephardt"
+  },
+  "C00063883": {
+   "committee": "COMMITTEE TO RE-ELECT RON PAUL",
+   "left": "2013-01-03",
+   "name": "former Rep. Ron Paul"
+  },
+  "C00074807": {
+   "committee": "HELMS FOR SENATE (78)",
+   "left": "2003-01-03",
+   "name": "former Sen. Jesse Helms"
+  },
+  "C00076513": {
+   "committee": "PALMETTO LEADERSHIP PAC (FKA REELECT THURMOND CMTE)",
+   "left": "2003-01-03",
+   "name": "former Sen. J. Thurmond"
+  },
+  "C00078105": {
+   "committee": "KILDEE FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Dale E. Kildee"
+  },
+  "C00078295": {
+   "committee": "MOYNIHAN COMMITTEE INC",
+   "left": "2001-01-03",
+   "name": "former Sen. Daniel Moynihan"
+  },
+  "C00079020": {
+   "committee": "PORTER FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. John Porter"
+  },
+  "C00080622": {
+   "committee": "CHET EDWARDS FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Thomas Edwards"
+  },
+  "C00081141": {
+   "committee": "STENHOLM FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Charles Stenholm"
+  },
+  "C00081356": {
+   "committee": "KEEP NICK RAHALL IN CONGRESS COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Nick J. Rahall II"
+  },
+  "C00081885": {
+   "committee": "BEREUTER FOR CONGRESS",
+   "left": "2004-08-31",
+   "name": "former Rep. Douglas Bereuter"
+  },
+  "C00082347": {
+   "committee": "CITIZENS FOR TONY HALL",
+   "left": "2002-09-09",
+   "name": "former Rep. Tony Hall"
+  },
+  "C00083428": {
+   "committee": "SENSENBRENNER COMMITTEE",
+   "left": "2021-01-03",
+   "name": "former Rep. F. James Sensenbrenner, Jr."
+  },
+  "C00083709": {
+   "committee": "IOWANS FOR JIM LEACH",
+   "left": "2007-01-03",
+   "name": "former Rep. James Leach"
+  },
+  "C00085688": {
+   "committee": "BOB MATSUI FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Robert Matsui"
+  },
+  "C00086728": {
+   "committee": "MARTIN OLAV SABO FOR CONGRESS VOLUNTEER COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Martin Sabo"
+  },
+  "C00088484": {
+   "committee": "FRIENDS OF SENATOR CARL LEVIN",
+   "left": "2015-01-03",
+   "name": "former Sen. Carl Levin"
+  },
+  "C00088658": {
+   "committee": "DREIER FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. David Dreier"
+  },
+  "C00088666": {
+   "committee": "JULIAN C DIXON - DEMOCRAT FOR CONGRESS",
+   "left": "2001-01-03",
+   "name": "former Rep. Julian Dixon"
+  },
+  "C00091298": {
+   "committee": "THE COMMITTEE TO RE-ELECT CONGRESSWOMAN MARGE ROUKEMA",
+   "left": "2003-01-03",
+   "name": "former Rep. Marge Roukema"
+  },
+  "C00091892": {
+   "committee": "CITIZENS FOR COCHRAN",
+   "left": "2018-04-01",
+   "name": "former Sen. Thad Cochran"
+  },
+  "C00100537": {
+   "committee": "BILL THOMAS CAMPAIGN COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. William Thomas"
+  },
+  "C00104752": {
+   "committee": "HATCH ELECTION COMMITTEE INC",
+   "left": "2019-01-03",
+   "name": "former Sen. Orrin G. Hatch"
+  },
+  "C00107003": {
+   "committee": "CITIZENS FOR TOM PETRI",
+   "left": "2015-01-03",
+   "name": "former Rep. Thomas E. Petri"
+  },
+  "C00111633": {
+   "committee": "GEJDENSON REELECTION COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Sam Gejdenson"
+  },
+  "C00112250": {
+   "committee": "TOM LANTOS FOR CONGRESS COMMITTEE",
+   "left": "2008-02-11",
+   "name": "former Rep. Tom Lantos"
+  },
+  "C00112839": {
+   "committee": "CONNIE MORELLA FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Constance Morella"
+  },
+  "C00113092": {
+   "committee": "FRIENDS OF PHIL GRAMM",
+   "left": "2002-11-29",
+   "name": "former Sen. Phil Gramm"
+  },
+  "C00115667": {
+   "committee": "CRAIG FOR US SENATE",
+   "left": "2009-01-03",
+   "name": "former Sen. Larry Craig"
+  },
+  "C00117119": {
+   "committee": "FRIENDS OF CLAY SHAW",
+   "left": "2007-01-03",
+   "name": "former Rep. E. Shaw"
+  },
+  "C00119040": {
+   "committee": "BILLY TAUZIN CONGRESSIONAL COMMITTEE, THE",
+   "left": "2005-01-03",
+   "name": "former Rep. William Tauzin"
+  },
+  "C00119701": {
+   "committee": "COYNE FOR CONGRESS (WILLIAM J COYNE)",
+   "left": "2003-01-03",
+   "name": "former Rep. William Coyne"
+  },
+  "C00120683": {
+   "committee": "HALL FOR CONGRESS COMMITTEE (RALPH HALL - ROCKWALL, TEXAS)",
+   "left": "2015-01-03",
+   "name": "former Rep. Ralph M. Hall"
+  },
+  "C00122176": {
+   "committee": "FRIENDS OF DICK LUGAR INC",
+   "left": "2013-01-03",
+   "name": "former Sen. Richard G. Lugar"
+  },
+  "C00122424": {
+   "committee": "PAYNE FOR CONGRESS COMMITTEE",
+   "left": "2012-03-06",
+   "name": "former Rep. Donald Payne"
+  },
+  "C00122770": {
+   "committee": "THOMAS J BLILEY FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Tom Bliley"
+  },
+  "C00126961": {
+   "committee": "COMMITTEE TO RE-ELECT CONGRESSMAN DUNCAN HUNTER",
+   "left": "2009-01-03",
+   "name": "former Rep. Duncan Hunter"
+  },
+  "C00127886": {
+   "committee": "STRICKLAND FOR CONGRESS COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Ted Strickland"
+  },
+  "C00127944": {
+   "committee": "PEOPLE FOR BASS",
+   "left": "2013-01-03",
+   "name": "former Rep. Charles F. Bass"
+  },
+  "C00128868": {
+   "committee": "BARNEY FRANK FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Barney Frank"
+  },
+  "C00128876": {
+   "committee": "PAT ROBERTS FOR US SENATE INC",
+   "left": "2021-01-03",
+   "name": "former Sen. Pat Roberts"
+  },
+  "C00136374": {
+   "committee": "JOE SKEEN FOR CONGRESS INC",
+   "left": "2003-01-03",
+   "name": "former Rep. Joseph Skeen"
+  },
+  "C00139329": {
+   "committee": "NICK SMITH FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Nick Smith"
+  },
+  "C00142000": {
+   "committee": "OXLEY FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Michael Oxley"
+  },
+  "C00142331": {
+   "committee": "BARTLETT FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Roscoe G. Bartlett"
+  },
+  "C00144857": {
+   "committee": "KOLBE FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. James Kolbe"
+  },
+  "C00145607": {
+   "committee": "JOHNSON FOR CONGRESS COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Nancy Johnson"
+  },
+  "C00145680": {
+   "committee": "FRIENDS OF JIM COOPER COMMITTEE",
+   "left": "2023-01-03",
+   "name": "former Rep. Jim Cooper"
+  },
+  "C00145862": {
+   "committee": "DAN BURTON FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Dan Burton"
+  },
+  "C00146779": {
+   "committee": "FRIENDS OF LANE EVANS COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Lane Evans"
+  },
+  "C00147686": {
+   "committee": "BERMAN FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Howard L. Berman"
+  },
+  "C00148429": {
+   "committee": "BORSKI FOR CONGRESS COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Borski"
+  },
+  "C00148585": {
+   "committee": "LIPINSKI FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. William Lipinski"
+  },
+  "C00149187": {
+   "committee": "ORTIZ FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Solomon Ortiz"
+  },
+  "C00149732": {
+   "committee": "FRIENDS OF RON PACKARD",
+   "left": "2001-01-03",
+   "name": "former Rep. Ron Packard"
+  },
+  "C00149930": {
+   "committee": "CITIZENS FOR CONNIE MACK FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Sen. Connie Mack"
+  },
+  "C00150516": {
+   "committee": "FRIENDS OF BOB TORRICELLI INC",
+   "left": "2003-01-03",
+   "name": "former Sen. Robert Torricelli"
+  },
+  "C00151159": {
+   "committee": "BOB CLEMENT FOR CONGRESS COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Clement"
+  },
+  "C00151456": {
+   "committee": "ALAN MOLLOHAN FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Alan Mollohan"
+  },
+  "C00152009": {
+   "committee": "COMMITTEE TO RE-ELECT BARBARA BOXER TO CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Sen. Barbara Boxer"
+  },
+  "C00152363": {
+   "committee": "PICKETT FOR U S SENATE",
+   "left": "2001-01-03",
+   "name": "former Rep. Owen Pickett"
+  },
+  "C00152603": {
+   "committee": "BOB WISE FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Robert Wise"
+  },
+  "C00152827": {
+   "committee": "GEKAS FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. George Gekas"
+  },
+  "C00153213": {
+   "committee": "MIKE BILIRAKIS FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Michael Bilirakis"
+  },
+  "C00153478": {
+   "committee": "SISISKY FOR CONGRESS",
+   "left": "2001-03-29",
+   "name": "former Rep. Norman Sisisky"
+  },
+  "C00153734": {
+   "committee": "CITIZENS FOR KASICH",
+   "left": "2001-01-03",
+   "name": "former Rep. John Kasich"
+  },
+  "C00155796": {
+   "committee": "SPRATT FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. John Spratt"
+  },
+  "C00156612": {
+   "committee": "LEVIN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Sander M. Levin"
+  },
+  "C00157529": {
+   "committee": "FRIENDS OF SHERWOOD BOEHLERT",
+   "left": "2007-01-03",
+   "name": "former Rep. Sherwood Boehlert"
+  },
+  "C00157586": {
+   "committee": "FRIENDS FOR SLADE GORTON",
+   "left": "2001-01-03",
+   "name": "former Sen. T. Gorton"
+  },
+  "C00161737": {
+   "committee": "FRIENDS OF SENATOR FRANK MURKOWSKI",
+   "left": "2002-12-19",
+   "name": "former Sen. Frank Murkowski"
+  },
+  "C00165241": {
+   "committee": "COMMITTEE TO ELECT GARY L. ACKERMAN, INC.",
+   "left": "2013-01-03",
+   "name": "former Rep. Gary L. Ackerman"
+  },
+  "C00165449": {
+   "committee": "LUTHER FOR CONGRESS VOLUNTEER COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. William Luther"
+  },
+  "C00166017": {
+   "committee": "FRIENDS OF FRANK WOLF",
+   "left": "2015-01-03",
+   "name": "former Rep. Frank R. Wolf"
+  },
+  "C00166041": {
+   "committee": "BILL MCCOLLUM FOR US SENATE",
+   "left": "2001-01-03",
+   "name": "former Rep. Bill McCollum"
+  },
+  "C00166504": {
+   "committee": "VISCLOSKY FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Peter J. Visclosky"
+  },
+  "C00166694": {
+   "committee": "MARTIN FROST CAMPAIGN COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Jonas Frost"
+  },
+  "C00166827": {
+   "committee": "CITIZENS FOR HARKIN",
+   "left": "2015-01-03",
+   "name": "former Sen. Tom Harkin"
+  },
+  "C00167437": {
+   "committee": "MATTHEW MARTINEZ CONGRESSIONAL COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Matthew Mart\u00ednez"
+  },
+  "C00169417": {
+   "committee": "BURRIS FOR U S SENATOR COMMITTEE",
+   "left": "2010-11-29",
+   "name": "former Sen. Roland Burris"
+  },
+  "C00170001": {
+   "committee": "DEWINE FOR RE-ELECTION COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Sen. Michael DeWine"
+  },
+  "C00170860": {
+   "committee": "TOM DELAY CONGRESSIONAL COMMITTEE",
+   "left": "2006-06-09",
+   "name": "former Rep. Thomas DeLay"
+  },
+  "C00171348": {
+   "committee": "JIM HANSEN COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. James Hansen"
+  },
+  "C00174052": {
+   "committee": "FRIENDS OF JERRY KLECZKA",
+   "left": "2005-01-03",
+   "name": "former Rep. Gerald Kleczka"
+  },
+  "C00175869": {
+   "committee": "WELDON VICTORY COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. W. Weldon"
+  },
+  "C00176560": {
+   "committee": "CALLAHAN FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. H. Callahan"
+  },
+  "C00180505": {
+   "committee": "PENNSYLVANIANS FOR KANJORSKI",
+   "left": "2011-01-03",
+   "name": "former Rep. Paul Kanjorski"
+  },
+  "C00183244": {
+   "committee": "TRAFICANT FOR CONGRESS",
+   "left": "2002-07-24",
+   "name": "former Rep. James Traficant"
+  },
+  "C00193623": {
+   "committee": "SHELBY FOR U.S. SENATE",
+   "left": "2023-01-03",
+   "name": "former Sen. Richard C. Shelby"
+  },
+  "C00194589": {
+   "committee": "COMBEST CONGRESSIONAL COMMITTEE",
+   "left": "2003-05-31",
+   "name": "former Rep. Larry Combest"
+  },
+  "C00194803": {
+   "committee": "GALLEGLY FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Elton Gallegly"
+  },
+  "C00195065": {
+   "committee": "THE CONGRESSMAN JOE BARTON COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Joe Barton"
+  },
+  "C00195628": {
+   "committee": "PRICE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. David E. Price"
+  },
+  "C00196501": {
+   "committee": "BAKER FOR CONGRESS COMMITTEE",
+   "left": "2008-02-02",
+   "name": "former Rep. Richard Baker"
+  },
+  "C00196527": {
+   "committee": "FRIENDS OF BOB GRAHAM COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Sen. Bob Graham"
+  },
+  "C00196584": {
+   "committee": "BOB SMITH FOR CONGRESS - 1986",
+   "left": "2003-01-03",
+   "name": "former Sen. Robert Smith"
+  },
+  "C00196915": {
+   "committee": "CONGRESSMAN BART GORDON COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Barton Gordon"
+  },
+  "C00197152": {
+   "committee": "CITIZENS FOR BUNNING",
+   "left": "2011-01-03",
+   "name": "former Sen. Jim Bunning"
+  },
+  "C00197285": {
+   "committee": "COMMITTEE TO RE-ELECT ED TOWNS",
+   "left": "2013-01-03",
+   "name": "former Rep. Edolphus Towns"
+  },
+  "C00197483": {
+   "committee": "HEFLEY FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Joel Hefley"
+  },
+  "C00197699": {
+   "committee": "FRIENDS OF JIM SAXTON",
+   "left": "2009-01-03",
+   "name": "former Rep. H. Saxton"
+  },
+  "C00198614": {
+   "committee": "CONNIE MORELLA FOR CONGRESS COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Constance Morella"
+  },
+  "C00198796": {
+   "committee": "COBLE FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Howard Coble"
+  },
+  "C00199273": {
+   "committee": "MIKULSKI FOR SENATE COMMITTEE",
+   "left": "2017-01-03",
+   "name": "former Sen. Barbara A. Mikulski"
+  },
+  "C00199836": {
+   "committee": "BEN CARDIN FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Sen. Benjamin L. Cardin"
+  },
+  "C00200873": {
+   "committee": "PICKETT FOR CONGRESS",
+   "left": "2001-01-03",
+   "name": "former Rep. Owen Pickett"
+  },
+  "C00200980": {
+   "committee": "CASS BALLENGER FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Cass Ballenger"
+  },
+  "C00201533": {
+   "committee": "TIM JOHNSON FOR SOUTH DAKOTA INC",
+   "left": "2015-01-03",
+   "name": "former Sen. Tim Johnson"
+  },
+  "C00201830": {
+   "committee": "ASA HUTCHINSON FOR U S SENATE COMMITTEE",
+   "left": "2001-08-06",
+   "name": "former Rep. Asa Hutchinson"
+  },
+  "C00202283": {
+   "committee": "ABERCROMBIE FOR CONGRESS",
+   "left": "2010-03-01",
+   "name": "former Rep. Neil Abercrombie"
+  },
+  "C00202416": {
+   "committee": "JOHN LEWIS FOR CONGRESS",
+   "left": "2020-07-17",
+   "name": "former Rep. John Lewis"
+  },
+  "C00202648": {
+   "committee": "PEOPLE FOR PETE DOMENICI",
+   "left": "2009-01-03",
+   "name": "former Sen. Pete Domenici"
+  },
+  "C00202754": {
+   "committee": "FRIENDS OF KENT CONRAD",
+   "left": "2013-01-03",
+   "name": "former Sen. Kent Conrad"
+  },
+  "C00203521": {
+   "committee": "HERB KOHL FOR UNITED STATES SENATE INC",
+   "left": "2013-01-03",
+   "name": "former Sen. Herb Kohl"
+  },
+  "C00203554": {
+   "committee": "TOM SAWYER COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Thomas Sawyer"
+  },
+  "C00204370": {
+   "committee": "FRIENDS FOR HARRY REID",
+   "left": "2017-01-03",
+   "name": "former Sen. Harry Reid"
+  },
+  "C00206201": {
+   "committee": "COMMITTEE TO ELECT CANDICE MILLER FOR CONGRESS",
+   "left": "2016-12-31",
+   "name": "former Rep. Candice S. Miller"
+  },
+  "C00208090": {
+   "committee": "HASTERT FOR CONGRESS COMMITTEE",
+   "left": "2007-11-26",
+   "name": "former Rep. J. Hastert"
+  },
+  "C00208207": {
+   "committee": "FRIENDS FOR HOUGHTON",
+   "left": "2005-01-03",
+   "name": "former Rep. Amory Houghton"
+  },
+  "C00208975": {
+   "committee": "FRIENDS OF VOINOVICH",
+   "left": "2011-01-03",
+   "name": "former Sen. George Voinovich"
+  },
+  "C00213041": {
+   "committee": "BOB SMITH FOR CONGRESS 1988",
+   "left": "2003-01-03",
+   "name": "former Sen. Robert Smith"
+  },
+  "C00213611": {
+   "committee": "LOUISE SLAUGHTER RE-ELECTION COMMITTEE",
+   "left": "2018-03-16",
+   "name": "former Rep. Louise McIntosh Slaughter"
+  },
+  "C00215699": {
+   "committee": "CHRISTOPHER SHAYS FOR CONGRESS COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Rep. Christopher Shays"
+  },
+  "C00215830": {
+   "committee": "JOHN BREAUX COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Sen. John Breaux"
+  },
+  "C00217117": {
+   "committee": "HELMS FOR SENATE COMMITTEE (2002)",
+   "left": "2003-01-03",
+   "name": "former Sen. Jesse Helms"
+  },
+  "C00218230": {
+   "committee": "FRIENDS OF CONNIE MACK",
+   "left": "2001-01-03",
+   "name": "former Sen. Connie Mack"
+  },
+  "C00219204": {
+   "committee": "PORTER GOSS RE-ELECTION TEAM",
+   "left": "2004-09-23",
+   "name": "former Rep. Porter Goss"
+  },
+  "C00219881": {
+   "committee": "NITA LOWEY FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Nita M. Lowey"
+  },
+  "C00220145": {
+   "committee": "GENE TAYLOR FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Gene Taylor"
+  },
+  "C00220186": {
+   "committee": "MCCRERY FOR CONGRESS COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Rep. James McCrery"
+  },
+  "C00221242": {
+   "committee": "ROBB FOR THE SENATE",
+   "left": "2001-01-03",
+   "name": "former Sen. Charles Robb"
+  },
+  "C00222042": {
+   "committee": "BILL MCCOLLUM FOR SENATE EXPLORATORY COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Bill McCollum"
+  },
+  "C00222653": {
+   "committee": "CHARLES TAYLOR FOR CONGRESS COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Charles Taylor"
+  },
+  "C00222687": {
+   "committee": "ED BRYANT FOR CONGRESS CAMPAIGN COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Ed Bryant"
+  },
+  "C00222943": {
+   "committee": "CHABOT FOR CONGRESS COMMITTEE",
+   "left": "2023-01-03",
+   "name": "former Rep. Steve Chabot"
+  },
+  "C00223198": {
+   "committee": "CITIZENS FOR GILLMOR",
+   "left": "2007-09-05",
+   "name": "former Rep. Paul Gillmor"
+  },
+  "C00223230": {
+   "committee": "FRIENDS OF JOHN TANNER",
+   "left": "2011-01-03",
+   "name": "former Rep. John Tanner"
+  },
+  "C00223297": {
+   "committee": "CHRISTOPHER COX CONGRESSIONAL COMMITTEE",
+   "left": "2005-08-02",
+   "name": "former Rep. C. Cox"
+  },
+  "C00224691": {
+   "committee": "ROHRABACHER FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Dana Rohrabacher"
+  },
+  "C00225045": {
+   "committee": "DON PAYNE FOR CONGRESS",
+   "left": "2012-03-06",
+   "name": "former Rep. Donald Payne"
+  },
+  "C00229104": {
+   "committee": "DUNCAN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. John J. Duncan, Jr."
+  },
+  "C00229377": {
+   "committee": "FRIENDS OF CLIFF STEARNS",
+   "left": "2013-01-03",
+   "name": "former Rep. Cliff Stearns"
+  },
+  "C00230417": {
+   "committee": "MCNULTY FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Michael McNulty"
+  },
+  "C00231092": {
+   "committee": "FALEOMAVAEGA FOR CONGRESS COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Eni F. H. Faleomavaega"
+  },
+  "C00235499": {
+   "committee": "DAN COATS FOR INDIANA",
+   "left": "2017-01-03",
+   "name": "former Sen. Daniel Coats"
+  },
+  "C00235515": {
+   "committee": "FRIENDS OF JOE LIEBERMAN",
+   "left": "2013-01-03",
+   "name": "former Sen. Joseph I. Lieberman"
+  },
+  "C00236026": {
+   "committee": "FRIENDS FOR BRYAN-2000",
+   "left": "2001-01-03",
+   "name": "former Sen. Richard Bryan"
+  },
+  "C00236125": {
+   "committee": "CRAIG THOMAS FOR CONGRESS INC",
+   "left": "2007-06-04",
+   "name": "former Sen. Craig Thomas"
+  },
+  "C00236349": {
+   "committee": "SANTORUM FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Sen. Richard Santorum"
+  },
+  "C00236513": {
+   "committee": "ENGEL FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Eliot L. Engel"
+  },
+  "C00236810": {
+   "committee": "WAYNE ALLARD FOR UNITED STATES SENATE COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Sen. Wayne Allard"
+  },
+  "C00237479": {
+   "committee": "HOOSIERS FOR TIM ROEMER",
+   "left": "2003-01-03",
+   "name": "former Rep. Timothy Roemer"
+  },
+  "C00237958": {
+   "committee": "BOB CLEMENT COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Clement"
+  },
+  "C00237982": {
+   "committee": "BARRETT COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Bill Barrett"
+  },
+  "C00238378": {
+   "committee": "NUSSLE FOR CONGRESS COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. James Nussle"
+  },
+  "C00238444": {
+   "committee": "COSTELLO FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Jerry F. Costello"
+  },
+  "C00238626": {
+   "committee": "RUSS CARNAHAN FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Russ Carnahan"
+  },
+  "C00240465": {
+   "committee": "CHET EDWARDS FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Thomas Edwards"
+  },
+  "C00240986": {
+   "committee": "SERRANO FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Jos\u00e9 E. Serrano"
+  },
+  "C00241349": {
+   "committee": "MORAN FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. James P. Moran"
+  },
+  "C00242446": {
+   "committee": "FRIENDS OF DUKE CUNNINGHAM",
+   "left": "2005-12-01",
+   "name": "former Rep. Randall Cunningham"
+  },
+  "C00242768": {
+   "committee": "JOHN T. DOOLITTLE FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. John Doolittle"
+  },
+  "C00243816": {
+   "committee": "GILCHREST FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Wayne Gilchrest"
+  },
+  "C00244129": {
+   "committee": "JIM RAMSTAD VOLUNTEER COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Rep. James Ramstad"
+  },
+  "C00246199": {
+   "committee": "PATSY T MINK CAMPAIGN COMMITTEE",
+   "left": "2002-09-28",
+   "name": "former Rep. Patsy Mink"
+  },
+  "C00247544": {
+   "committee": "CONDIT FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Gary Condit"
+  },
+  "C00250282": {
+   "committee": "MATSUI FOR SENATE COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Robert Matsui"
+  },
+  "C00250555": {
+   "committee": "EWING IL COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Thomas Ewing"
+  },
+  "C00250720": {
+   "committee": "FRIENDS OF SAM JOHNSON",
+   "left": "2019-01-03",
+   "name": "former Rep. Sam Johnson"
+  },
+  "C00250860": {
+   "committee": "CITIZENS FOR JOHN OLVER FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. John W. Olver"
+  },
+  "C00251322": {
+   "committee": "CAMPBELL FOR U S SENATE",
+   "left": "2001-01-03",
+   "name": "former Rep. Tom Campbell"
+  },
+  "C00251348": {
+   "committee": "THE JEFFERSON COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Rep. William Jefferson"
+  },
+  "C00251918": {
+   "committee": "PASTOR FOR ARIZONA",
+   "left": "2015-01-03",
+   "name": "former Rep. Ed Pastor"
+  },
+  "C00252973": {
+   "committee": "DONALD A. MANZULLO FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Donald A. Manzullo"
+  },
+  "C00253047": {
+   "committee": "FRIENDS OF MAJOR OWENS",
+   "left": "2007-01-03",
+   "name": "former Rep. Major Owens"
+  },
+  "C00253377": {
+   "committee": "WYNN FOR CONGRESS",
+   "left": "2008-05-31",
+   "name": "former Rep. Albert Wynn"
+  },
+  "C00253534": {
+   "committee": "TALENT FOR GOVERNOR INC (FKA TALENT FOR U S CONGRESS)",
+   "left": "2007-01-03",
+   "name": "former Sen. James Talent"
+  },
+  "C00253930": {
+   "committee": "BARRETT FOR WISCONSIN",
+   "left": "2003-01-03",
+   "name": "former Rep. Thomas Barrett"
+  },
+  "C00253963": {
+   "committee": "INGLIS FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Bob Inglis"
+  },
+  "C00254185": {
+   "committee": "GENE GREEN CONGRESSIONAL CAMPAIGN",
+   "left": "2019-01-03",
+   "name": "former Rep. Gene Green"
+  },
+  "C00254375": {
+   "committee": "AMERICANS FOR HARKIN",
+   "left": "2015-01-03",
+   "name": "former Sen. Tom Harkin"
+  },
+  "C00254441": {
+   "committee": "FATTAH FOR CONGRESS",
+   "left": "2016-06-23",
+   "name": "former Rep. Chaka Fattah"
+  },
+  "C00254573": {
+   "committee": "EDDIE BERNICE JOHNSON FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Eddie Bernice Johnson"
+  },
+  "C00254581": {
+   "committee": "GUTIERREZ FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Luis V. Guti\u00e9rrez"
+  },
+  "C00255141": {
+   "committee": "FRIENDS OF JANE HARMAN",
+   "left": "2011-02-28",
+   "name": "former Rep. Jane Harman"
+  },
+  "C00255182": {
+   "committee": "CANADY FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Charles Canady"
+  },
+  "C00255190": {
+   "committee": "BARTLETT FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Roscoe G. Bartlett"
+  },
+  "C00255463": {
+   "committee": "FRIENDS OF BLANCHE LINCOLN",
+   "left": "2011-01-03",
+   "name": "former Sen. Blanche Lincoln"
+  },
+  "C00255703": {
+   "committee": "GREENWOOD FOR CONGRESS INC.",
+   "left": "2005-01-03",
+   "name": "former Rep. James Greenwood"
+  },
+  "C00256115": {
+   "committee": "RICHARD BURR COMMITTEE, THE",
+   "left": "2023-01-03",
+   "name": "former Sen. Richard Burr"
+  },
+  "C00256354": {
+   "committee": "CYNTHIA MCKINNEY FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Cynthia McKinney"
+  },
+  "C00257014": {
+   "committee": "CARRIE MEEK FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Carrie Meek"
+  },
+  "C00257121": {
+   "committee": "CITIZENS FOR RUSH",
+   "left": "2023-01-03",
+   "name": "former Rep. Bobby L. Rush"
+  },
+  "C00257402": {
+   "committee": "TEXANS FOR HENRY BONILLA",
+   "left": "2007-01-03",
+   "name": "former Rep. Henry Bonilla"
+  },
+  "C00257543": {
+   "committee": "EVA CLAYTON COMMITTEE FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Eva Clayton"
+  },
+  "C00258244": {
+   "committee": "FRIENDS OF BUCK MCKEON",
+   "left": "2015-01-03",
+   "name": "former Rep. Howard P. \"Buck\" McKeon"
+  },
+  "C00258475": {
+   "committee": "ANNA ESHOO FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Anna G. Eshoo"
+  },
+  "C00258855": {
+   "committee": "VOLUNTEERS FOR SHIMKUS",
+   "left": "2021-01-03",
+   "name": "former Rep. John Shimkus"
+  },
+  "C00259143": {
+   "committee": "LUCILLE ROYBAL-ALLARD FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Lucille Roybal-Allard"
+  },
+  "C00259754": {
+   "committee": "FRIENDS OF PAUL BROUN '92",
+   "left": "2015-01-03",
+   "name": "former Rep. Paul C. Broun"
+  },
+  "C00260265": {
+   "committee": "WOOLSEY FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Lynn C. Woolsey"
+  },
+  "C00260547": {
+   "committee": "BACHUS FOR CONGRESS COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Spencer Bachus"
+  },
+  "C00260570": {
+   "committee": "STEVE HORN FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Stephen Horn"
+  },
+  "C00260604": {
+   "committee": "MEL WATT FOR CONGRESS COMMITTEE",
+   "left": "2014-01-06",
+   "name": "former Rep. Melvin L. Watt"
+  },
+  "C00261388": {
+   "committee": "BOB FILNER FOR CONGRESS",
+   "left": "2012-12-03",
+   "name": "former Rep. Bob Filner"
+  },
+  "C00261958": {
+   "committee": "FRIENDS OF JACK KINGSTON",
+   "left": "2015-01-03",
+   "name": "former Rep. Jack Kingston"
+  },
+  "C00262816": {
+   "committee": "HILLIARD FOR CONGRESS CAMPAIGN",
+   "left": "2003-01-03",
+   "name": "former Rep. Earl Hilliard"
+  },
+  "C00263103": {
+   "committee": "HUTCHINSON FOR CONGRESS COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Sen. Tim Hutchinson"
+  },
+  "C00263236": {
+   "committee": "MASCARA FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Frank Mascara"
+  },
+  "C00263608": {
+   "committee": "NATHAN DEAL FOR CONGRESS",
+   "left": "2010-03-22",
+   "name": "former Rep. Nathan Deal"
+  },
+  "C00264028": {
+   "committee": "LINCOLN DIAZ-BALART FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Lincoln Diaz-Balart"
+  },
+  "C00264101": {
+   "committee": "BECERRA FOR CONGRESS",
+   "left": "2017-01-24",
+   "name": "former Rep. Xavier Becerra"
+  },
+  "C00264127": {
+   "committee": "DANNER FOR CONGRESS",
+   "left": "2001-01-03",
+   "name": "former Rep. Pat Danner"
+  },
+  "C00264564": {
+   "committee": "MENENDEZ FOR SENATE",
+   "left": "2024-08-20",
+   "name": "former Sen. Robert Menendez"
+  },
+  "C00264630": {
+   "committee": "ROD GRAMS FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Sen. Rod Grams"
+  },
+  "C00264838": {
+   "committee": "FRIENDS OF DAN MILLER",
+   "left": "2003-01-03",
+   "name": "former Rep. Dan Miller"
+  },
+  "C00264846": {
+   "committee": "MINGE FOR CONGRESS",
+   "left": "2001-01-03",
+   "name": "former Rep. David Minge"
+  },
+  "C00265157": {
+   "committee": "MY COMMITTEE NICK SMITH FOR BETTER GOVERNMENT",
+   "left": "2005-01-03",
+   "name": "former Rep. Nick Smith"
+  },
+  "C00265298": {
+   "committee": "TERRY EVERETT FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Terry Everett"
+  },
+  "C00265322": {
+   "committee": "FRIENDS OF CONGRESSMAN TIM HOLDEN",
+   "left": "2013-01-03",
+   "name": "former Rep. Tim Holden"
+  },
+  "C00265363": {
+   "committee": "GUAM'S VOICE IN CONGRESS: ROBERT A UNDERWOOD",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Underwood"
+  },
+  "C00265421": {
+   "committee": "CITIZENS FOR RON KLINK",
+   "left": "2001-01-03",
+   "name": "former Rep. Ron Klink"
+  },
+  "C00265850": {
+   "committee": "PRYCE FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Deborah Pryce"
+  },
+  "C00265892": {
+   "committee": "TED STRICKLAND FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Ted Strickland"
+  },
+  "C00265942": {
+   "committee": "MAC COLLINS FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Michael Collins"
+  },
+  "C00266619": {
+   "committee": "EARL POMEROY FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Earl Pomeroy"
+  },
+  "C00266767": {
+   "committee": "KNOLLENBERG FOR CONGRESS COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Rep. Joseph Knollenberg"
+  },
+  "C00266932": {
+   "committee": "CHAMBLISS FOR SENATE",
+   "left": "2015-01-03",
+   "name": "former Sen. Saxby Chambliss"
+  },
+  "C00267708": {
+   "committee": "PETER DEUTSCH FOR SENATE",
+   "left": "2005-01-03",
+   "name": "former Rep. Peter Deutsch"
+  },
+  "C00267997": {
+   "committee": "DICKEY FOR CONGRESS CAMPAIGN COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Jay Dickey"
+  },
+  "C00268714": {
+   "committee": "KUCINICH FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Dennis J. Kucinich"
+  },
+  "C00268938": {
+   "committee": "DELAHUNT FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. William Delahunt"
+  },
+  "C00269340": {
+   "committee": "LOBIONDO FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Frank A. LoBiondo"
+  },
+  "C00269506": {
+   "committee": "BARCIA FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. James Barcia"
+  },
+  "C00269837": {
+   "committee": "HASTINGS FOR CONGRESS",
+   "left": "2021-04-06",
+   "name": "former Rep. Alcee L. Hastings"
+  },
+  "C00270041": {
+   "committee": "THE MARTY MEEHAN FOR CONGRESS COMMITTEE",
+   "left": "2007-07-01",
+   "name": "former Rep. Martin Meehan"
+  },
+  "C00270140": {
+   "committee": "STUPAK FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Bart Stupak"
+  },
+  "C00270249": {
+   "committee": "PETER HOEKSTRA FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Peter Hoekstra"
+  },
+  "C00270330": {
+   "committee": "FRIENDS OF STEVE STOCKMAN",
+   "left": "2015-01-03",
+   "name": "former Rep. Steve Stockman"
+  },
+  "C00272211": {
+   "committee": "PETE KING FOR CONGRESS COMMITTEE",
+   "left": "2021-01-03",
+   "name": "former Rep. Peter T. King"
+  },
+  "C00272633": {
+   "committee": "FRIENDS OF MAURICE HINCHEY",
+   "left": "2013-01-03",
+   "name": "former Rep. Maurice D. Hinchey"
+  },
+  "C00272732": {
+   "committee": "FRIENDS OF CORRINE BROWN",
+   "left": "2017-01-03",
+   "name": "former Rep. Corrine Brown"
+  },
+  "C00273169": {
+   "committee": "MALONEY FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Carolyn B. Maloney"
+  },
+  "C00276428": {
+   "committee": "FRANKS FOR CONGRESS",
+   "left": "2001-01-03",
+   "name": "former Rep. Bob Franks"
+  },
+  "C00279273": {
+   "committee": "KAY BAILEY HUTCHISON FOR SENATE COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Sen. Kay Bailey Hutchison"
+  },
+  "C00279299": {
+   "committee": "PORTMAN FOR CONGRESS COMMITTEE",
+   "left": "2023-01-03",
+   "name": "former Sen. Rob Portman"
+  },
+  "C00279315": {
+   "committee": "FRIENDS OF BARBARA BOXER",
+   "left": "2017-01-03",
+   "name": "former Sen. Barbara Boxer"
+  },
+  "C00279323": {
+   "committee": "TEXANS FOR JOE BARTON",
+   "left": "2019-01-03",
+   "name": "former Rep. Joe Barton"
+  },
+  "C00279422": {
+   "committee": "FRIENDS OF JIM COOPER",
+   "left": "2023-01-03",
+   "name": "former Rep. Jim Cooper"
+  },
+  "C00280206": {
+   "committee": "CITIZENS FOR ARLEN SPECTER",
+   "left": "2011-01-03",
+   "name": "former Sen. Arlen Specter"
+  },
+  "C00280453": {
+   "committee": "JOHN SHADEGGS FRIENDS",
+   "left": "2011-01-03",
+   "name": "former Rep. John Shadegg"
+  },
+  "C00281568": {
+   "committee": "COMMITTEE TO ELECT TRENT FRANKS TO CONGRESS",
+   "left": "2017-12-08",
+   "name": "former Rep. Trent Franks"
+  },
+  "C00281840": {
+   "committee": "PEOPLE FOR GANSKE",
+   "left": "2003-01-03",
+   "name": "former Rep. Greg Ganske"
+  },
+  "C00282020": {
+   "committee": "HELEN'S LIST",
+   "left": "2001-01-03",
+   "name": "former Rep. Helen Chenoweth-Hage"
+  },
+  "C00282160": {
+   "committee": "GUTKNECHT FOR U.S. CONGRESS COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Gilbert Gutknecht"
+  },
+  "C00282970": {
+   "committee": "FRIENDS OF ROD BLAGOJEVICH",
+   "left": "2003-01-03",
+   "name": "former Rep. Rod Blagojevich"
+  },
+  "C00283044": {
+   "committee": "ISTOOK FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Ernest Istook"
+  },
+  "C00283051": {
+   "committee": "MICA FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. John L. Mica"
+  },
+  "C00283085": {
+   "committee": "ED BRYANT FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Ed Bryant"
+  },
+  "C00283267": {
+   "committee": "EHLERS FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Vernon Ehlers"
+  },
+  "C00283606": {
+   "committee": "PEOPLE FOR ENGLISH",
+   "left": "2009-01-03",
+   "name": "former Rep. Philip English"
+  },
+  "C00284174": {
+   "committee": "LATOURETTE FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Steven C. LaTourette"
+  },
+  "C00284356": {
+   "committee": "FITZGERALD FOR CONGRESS ALLIANCE INC",
+   "left": "2005-01-03",
+   "name": "former Sen. Peter Fitzgerald"
+  },
+  "C00284778": {
+   "committee": "ASHFORD FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Brad Ashford"
+  },
+  "C00284901": {
+   "committee": "FRIENDS OF RAY LAHOOD",
+   "left": "2009-01-03",
+   "name": "former Rep. Ray LaHood"
+  },
+  "C00285114": {
+   "committee": "KEN BENTSEN FOR CONGRESS COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Ken Bentsen"
+  },
+  "C00285189": {
+   "committee": "SOUDER FOR CONGRESS, INC.",
+   "left": "2010-05-21",
+   "name": "former Rep. Mark Souder"
+  },
+  "C00285254": {
+   "committee": "SANFORD FOR SENATE",
+   "left": "2019-01-03",
+   "name": "former Rep. Mark Sanford"
+  },
+  "C00285445": {
+   "committee": "DAVID MCINTOSH FOR CONGRESS",
+   "left": "2001-01-03",
+   "name": "former Rep. David McIntosh"
+  },
+  "C00285866": {
+   "committee": "ROMNEY FOR U S SENATE COMMITTEE INC",
+   "left": "2025-01-03",
+   "name": "former Sen. Mitt Romney"
+  },
+  "C00285932": {
+   "committee": "TOM DAVIS FOR CONGRESS",
+   "left": "2008-11-24",
+   "name": "former Rep. Thomas Davis"
+  },
+  "C00286054": {
+   "committee": "ROD GRAMS FOR US SENATE",
+   "left": "2001-01-03",
+   "name": "former Sen. Rod Grams"
+  },
+  "C00286187": {
+   "committee": "THORNBERRY FOR CONGRESS COMMITTEE",
+   "left": "2021-01-03",
+   "name": "former Rep. Mac Thornberry"
+  },
+  "C00286476": {
+   "committee": "ENSIGN FOR SENATE",
+   "left": "2011-05-03",
+   "name": "former Sen. John Ensign"
+  },
+  "C00286963": {
+   "committee": "EHRLICH FOR CONGRESS COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Ehrlich"
+  },
+  "C00287367": {
+   "committee": "NORWOOD FOR CONGRESS",
+   "left": "2007-02-13",
+   "name": "former Rep. Charles Norwood"
+  },
+  "C00287532": {
+   "committee": "CORKER FOR U S SENATE",
+   "left": "2019-01-03",
+   "name": "former Sen. Bob Corker"
+  },
+  "C00287771": {
+   "committee": "FRIENDS OF MATT SALMON",
+   "left": "2017-01-03",
+   "name": "former Rep. Matt Salmon"
+  },
+  "C00287904": {
+   "committee": "SHEILA JACKSON LEE FOR CONGRESS",
+   "left": "2024-07-19",
+   "name": "former Rep. Sheila Jackson Lee"
+  },
+  "C00287953": {
+   "committee": "FRIENDS OF CRAIG THOMAS",
+   "left": "2007-06-04",
+   "name": "former Sen. Craig Thomas"
+  },
+  "C00287987": {
+   "committee": "JD HAYWORTH FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. John Hayworth"
+  },
+  "C00288183": {
+   "committee": "FRIENDS OF JOE SCARBOROUGH",
+   "left": "2001-09-05",
+   "name": "former Rep. Joe Scarborough"
+  },
+  "C00288324": {
+   "committee": "BOB NEY FOR CONGRESS",
+   "left": "2006-11-03",
+   "name": "former Rep. Robert Ney"
+  },
+  "C00288654": {
+   "committee": "KAREN MCCARTHY FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Karen McCarthy"
+  },
+  "C00289140": {
+   "committee": "FRIENDS OF MARK FOLEY FOR CONGRESS",
+   "left": "2006-09-29",
+   "name": "former Rep. Mark Foley"
+  },
+  "C00290155": {
+   "committee": "CUBIN FOR CONGRESS, INC.",
+   "left": "2009-01-03",
+   "name": "former Rep. Barbara Cubin"
+  },
+  "C00290429": {
+   "committee": "FRIENDS OF FARR",
+   "left": "2017-01-03",
+   "name": "former Rep. Sam Farr"
+  },
+  "C00291211": {
+   "committee": "RIVERS FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Lynn Rivers"
+  },
+  "C00292607": {
+   "committee": "COMMITTEE TO ELECT LINDSEY GRAHAM",
+   "left": "2026-07-11",
+   "name": "former Sen. Lindsey Graham"
+  },
+  "C00294280": {
+   "committee": "FRIENDS OF DAVE WELDON",
+   "left": "2009-01-03",
+   "name": "former Rep. David Weldon"
+  },
+  "C00294306": {
+   "committee": "FRIENDS OF MIKE FORBES",
+   "left": "2001-01-03",
+   "name": "former Rep. Michael Forbes"
+  },
+  "C00294900": {
+   "committee": "SUE KELLY FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Sue Kelly"
+  },
+  "C00295287": {
+   "committee": "LINCOLN DAVIS FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Lincoln Davis"
+  },
+  "C00295592": {
+   "committee": "KANSANS FOR TIAHRT",
+   "left": "2011-01-03",
+   "name": "former Rep. Todd Tiahrt"
+  },
+  "C00295923": {
+   "committee": "HULSHOF FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Kenny Hulshof"
+  },
+  "C00296137": {
+   "committee": "TOM COBURN FOR CONGRESS COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Sen. Tom Coburn"
+  },
+  "C00299404": {
+   "committee": "FRELINGHUYSEN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Rodney P. Frelinghuysen"
+  },
+  "C00300681": {
+   "committee": "FRIENDS OF ZACH WAMP",
+   "left": "2011-01-03",
+   "name": "former Rep. Zach Wamp"
+  },
+  "C00300830": {
+   "committee": "BRIAN BILBRAY FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Brian P. Bilbray"
+  },
+  "C00300970": {
+   "committee": "FRIENDS OF JOHN HOSTETTLER COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Rep. John Hostettler"
+  },
+  "C00301150": {
+   "committee": "FRIST 2000 INC",
+   "left": "2007-01-03",
+   "name": "former Sen. William Frist"
+  },
+  "C00301440": {
+   "committee": "BALDACCI FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. John Baldacci"
+  },
+  "C00301697": {
+   "committee": "PAUL BROUN FOR U S SENATE",
+   "left": "2015-01-03",
+   "name": "former Rep. Paul C. Broun"
+  },
+  "C00301838": {
+   "committee": "STEVE CHABOT FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Steve Chabot"
+  },
+  "C00302349": {
+   "committee": "BOB SCHAFFER FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Bob Schaffer"
+  },
+  "C00302422": {
+   "committee": "RANGEL FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Charles B. Rangel"
+  },
+  "C00302570": {
+   "committee": "BASS VICTORY COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Charles F. Bass"
+  },
+  "C00303354": {
+   "committee": "ABRAHAM SENATE 2000",
+   "left": "2001-01-03",
+   "name": "former Sen. Spencer Abraham"
+  },
+  "C00303602": {
+   "committee": "RICK HILL FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Rick Hill"
+  },
+  "C00303636": {
+   "committee": "FRIENDS FOR JACK METCALF",
+   "left": "2001-01-03",
+   "name": "former Rep. Jack Metcalf"
+  },
+  "C00304527": {
+   "committee": "RON LEWIS FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Ron Lewis"
+  },
+  "C00304667": {
+   "committee": "SUE MYRICK FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Sue Wilkins Myrick"
+  },
+  "C00304949": {
+   "committee": "WATTS FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. J.C. Watts"
+  },
+  "C00305110": {
+   "committee": "A LOT OF PEOPLE WHO SUPPORT JEFF BINGAMAN (2000)",
+   "left": "2013-01-03",
+   "name": "former Sen. Jeff Bingaman"
+  },
+  "C00305342": {
+   "committee": "COMMITTEE TO RE-ELECT RON PAUL",
+   "left": "2013-01-03",
+   "name": "former Rep. Ron Paul"
+  },
+  "C00305482": {
+   "committee": "ROGAN FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. James Rogan"
+  },
+  "C00306290": {
+   "committee": "TORRICELLI FOR U S SENATE INC",
+   "left": "2003-01-03",
+   "name": "former Sen. Robert Torricelli"
+  },
+  "C00306704": {
+   "committee": "FRIENDS OF SESSIONS SENATE COMMITTEE INC",
+   "left": "2017-02-08",
+   "name": "former Sen. Jeff Sessions"
+  },
+  "C00306761": {
+   "committee": "DEFAZIO FOR SENATE",
+   "left": "2023-01-03",
+   "name": "former Rep. Peter A. DeFazio"
+  },
+  "C00306829": {
+   "committee": "MIKE MCINTYRE FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Mike McIntyre"
+  },
+  "C00306860": {
+   "committee": "EVAN BAYH COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Sen. Evan Bayh"
+  },
+  "C00307280": {
+   "committee": "ISAKSON FOR U S SENATE",
+   "left": "2019-12-31",
+   "name": "former Sen. Johnny Isakson"
+  },
+  "C00307306": {
+   "committee": "COMITE CARLOS ROMERO BARCLO AL RESCATE DE WASHINGTON",
+   "left": "2001-01-03",
+   "name": "former Rep. Carlos Romero-Barcel\u00f3"
+  },
+  "C00307348": {
+   "committee": "COOKSEY FOR CONGRESS COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. John Cooksey"
+  },
+  "C00307512": {
+   "committee": "FRIENDS OF MAX CLELAND FOR THE US SENATE INC",
+   "left": "2003-01-03",
+   "name": "former Sen. J. Cleland"
+  },
+  "C00307660": {
+   "committee": "WEYGAND COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Robert Weygand"
+  },
+  "C00307694": {
+   "committee": "ROBERT WEXLER FOR CONGRESS COMMITTEE",
+   "left": "2010-01-04",
+   "name": "former Rep. Robert Wexler"
+  },
+  "C00307710": {
+   "committee": "STABENOW FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Sen. Debbie Stabenow"
+  },
+  "C00307959": {
+   "committee": "BOB RILEY FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Bob Riley"
+  },
+  "C00308387": {
+   "committee": "JIM TURNER FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. James Turner"
+  },
+  "C00308429": {
+   "committee": "MAX SANDLIN FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Max Sandlin"
+  },
+  "C00308577": {
+   "committee": "PICKERING FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Charles Pickering"
+  },
+  "C00309237": {
+   "committee": "THE REYES COMMITTEE, INC.",
+   "left": "2013-01-03",
+   "name": "former Rep. Silvestre Reyes"
+  },
+  "C00310011": {
+   "committee": "GIBBONS FOR NEVADA",
+   "left": "2007-01-03",
+   "name": "former Rep. James Gibbons"
+  },
+  "C00310136": {
+   "committee": "FRIENDS OF JOE PITTS",
+   "left": "2017-01-03",
+   "name": "former Rep. Joseph R. Pitts"
+  },
+  "C00310318": {
+   "committee": "CUMMINGS FOR CONGRESS CAMPAIGN COMMITTEE",
+   "left": "2019-10-17",
+   "name": "former Rep. Elijah E. Cummings"
+  },
+  "C00310532": {
+   "committee": "KAY GRANGER CAMPAIGN FUND",
+   "left": "2025-01-03",
+   "name": "former Rep. Kay Granger"
+  },
+  "C00310607": {
+   "committee": "BOYD FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Allen Boyd"
+  },
+  "C00310706": {
+   "committee": "ELLEN TAUSCHER FOR CONGRESS",
+   "left": "2009-06-26",
+   "name": "former Rep. Ellen Tauscher"
+  },
+  "C00310839": {
+   "committee": "WATKINS FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Wes Watkins"
+  },
+  "C00310896": {
+   "committee": "RUBEN HINOJOSA FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Rub\u00e9n Hinojosa"
+  },
+  "C00310904": {
+   "committee": "BAIRD FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Brian Baird"
+  },
+  "C00311076": {
+   "committee": "PEOPLE FOR JUANITA MCDONALD FOR CONGRESS, THE",
+   "left": "2007-04-22",
+   "name": "former Rep. Juanita Millender-McDonald"
+  },
+  "C00311555": {
+   "committee": "BOB ETHERIDGE FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Bob Etheridge"
+  },
+  "C00311647": {
+   "committee": "PEASE FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Edward Pease"
+  },
+  "C00311852": {
+   "committee": "FRIENDS OF JOHN PETERSON",
+   "left": "2009-01-03",
+   "name": "former Rep. John Peterson"
+  },
+  "C00311969": {
+   "committee": "JULIA CARSON FOR CONGRESS COMMITTEE",
+   "left": "2007-12-15",
+   "name": "former Rep. Julia Carson"
+  },
+  "C00312017": {
+   "committee": "KIND FOR CONGRESS COMMITTEE",
+   "left": "2023-01-03",
+   "name": "former Rep. Ron Kind"
+  },
+  "C00312900": {
+   "committee": "LANCE FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Leonard Lance"
+  },
+  "C00313494": {
+   "committee": "STEVE ROTHMAN FOR NEW JERSEY, INC.",
+   "left": "2013-01-03",
+   "name": "former Rep. Steven R. Rothman"
+  },
+  "C00313684": {
+   "committee": "RUSH HOLT FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Rush Holt"
+  },
+  "C00313734": {
+   "committee": "MARION BERRY FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Robert Berry"
+  },
+  "C00314120": {
+   "committee": "HOEFFEL FOR CONGRESS COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Joseph Hoeffel"
+  },
+  "C00315986": {
+   "committee": "GOODE FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Virgil Goode"
+  },
+  "C00316141": {
+   "committee": "HAROLD FORD JR FOR TENNESSEE",
+   "left": "2007-01-03",
+   "name": "former Rep. Harold Ford"
+  },
+  "C00316307": {
+   "committee": "HOOLEY FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Darlene Hooley"
+  },
+  "C00316596": {
+   "committee": "CHRIS JOHN FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Christopher John"
+  },
+  "C00316661": {
+   "committee": "BOSWELL FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Leonard L. Boswell"
+  },
+  "C00317503": {
+   "committee": "ENZI FOR US SENATE",
+   "left": "2021-01-03",
+   "name": "former Sen. Michael B. Enzi"
+  },
+  "C00317842": {
+   "committee": "KILPATRICK FOR UNITED STATES CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Carolyn Kilpatrick"
+  },
+  "C00317974": {
+   "committee": "JIM DAVIS FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. James Davis"
+  },
+  "C00318584": {
+   "committee": "WILLIAM L 'BILL' JENKINS FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. William Jenkins"
+  },
+  "C00318931": {
+   "committee": "FRIENDS OF CAROLYN MCCARTHY",
+   "left": "2015-01-03",
+   "name": "former Rep. Carolyn McCarthy"
+  },
+  "C00319285": {
+   "committee": "ASHCROFT 2000",
+   "left": "2001-01-03",
+   "name": "former Sen. John Ashcroft"
+  },
+  "C00319384": {
+   "committee": "DICKEY FOR SENATE EXPLORATORY COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Jay Dickey"
+  },
+  "C00319822": {
+   "committee": "HUTCHINSON FOR SENATE",
+   "left": "2003-01-03",
+   "name": "former Sen. Tim Hutchinson"
+  },
+  "C00320051": {
+   "committee": "FRIENDS OF BROWNBACK",
+   "left": "2011-01-03",
+   "name": "former Sen. Samuel Brownback"
+  },
+  "C00320457": {
+   "committee": "TEAM EMERSON FOR JO ANN EMERSON",
+   "left": "2013-01-22",
+   "name": "former Rep. Jo Ann Emerson"
+  },
+  "C00320754": {
+   "committee": "DONNA CHRISTENSEN CAMPAIGN",
+   "left": "2015-01-03",
+   "name": "former Rep. Donna M. Christensen"
+  },
+  "C00323618": {
+   "committee": "LAZIO 2000 INC",
+   "left": "2001-01-03",
+   "name": "former Rep. Rick Lazio"
+  },
+  "C00325126": {
+   "committee": "FRIENDS OF MARY LANDRIEU, INC.",
+   "left": "2015-01-03",
+   "name": "former Sen. Mary L. Landrieu"
+  },
+  "C00325449": {
+   "committee": "FRIENDS OF JOE BACA 2014",
+   "left": "2013-01-03",
+   "name": "former Rep. Joe Baca"
+  },
+  "C00325738": {
+   "committee": "BERKLEY FOR SENATE",
+   "left": "2013-01-03",
+   "name": "former Rep. Shelley Berkley"
+  },
+  "C00325878": {
+   "committee": "LARGENT FOR CONGRESS 2002",
+   "left": "2002-02-15",
+   "name": "former Rep. Steve Largent"
+  },
+  "C00326066": {
+   "committee": "CIRO D. RODRIGUEZ FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Ciro Rodriguez"
+  },
+  "C00326124": {
+   "committee": "FITZGERALD FOR SENATE INC",
+   "left": "2005-01-03",
+   "name": "former Sen. Peter Fitzgerald"
+  },
+  "C00326140": {
+   "committee": "FRIENDS OF PATRICK J. KENNEDY INC.",
+   "left": "2011-01-03",
+   "name": "former Rep. Patrick Kennedy"
+  },
+  "C00326264": {
+   "committee": "COMMITTEE TO RE-ELECT LORETTA SANCHEZ",
+   "left": "2017-01-03",
+   "name": "former Rep. Loretta Sanchez"
+  },
+  "C00326611": {
+   "committee": "HAGEL FOR SENATE COMMITTEE",
+   "left": "2009-01-03",
+   "name": "former Sen. Charles Hagel"
+  },
+  "C00326975": {
+   "committee": "RADANOVICH FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. George Radanovich"
+  },
+  "C00327205": {
+   "committee": "PHELPS FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. David Phelps"
+  },
+  "C00327742": {
+   "committee": "FRIENDS OF WEINER",
+   "left": "2011-06-21",
+   "name": "former Rep. Anthony Weiner"
+  },
+  "C00327874": {
+   "committee": "MARK GREEN FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Mark Green"
+  },
+  "C00327924": {
+   "committee": "FRIENDS OF JIM MALONEY, INC.",
+   "left": "2003-01-03",
+   "name": "former Rep. James Maloney"
+  },
+  "C00328070": {
+   "committee": "COMMITTEE TO RE-ELECT VITO FOSSELLA",
+   "left": "2009-01-03",
+   "name": "former Rep. Vito Fossella"
+  },
+  "C00328245": {
+   "committee": "TOM ALLEN FOR SENATE",
+   "left": "2009-01-03",
+   "name": "former Rep. Thomas Allen"
+  },
+  "C00328898": {
+   "committee": "EDWARDS FOR SENATE",
+   "left": "2005-01-03",
+   "name": "former Sen. John Edwards"
+  },
+  "C00328997": {
+   "committee": "LAMPSON FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Nicholas Lampson"
+  },
+  "C00329896": {
+   "committee": "UDALL FOR US ALL",
+   "left": "2021-01-03",
+   "name": "former Sen. Tom Udall"
+  },
+  "C00330043": {
+   "committee": "ROSKAM FOR CONGRESS COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Peter J. Roskam"
+  },
+  "C00330084": {
+   "committee": "CHARLES A. GONZALEZ CONGRESSIONAL CAMPAIGN",
+   "left": "2013-01-03",
+   "name": "former Rep. Charles A. Gonzalez"
+  },
+  "C00330241": {
+   "committee": "JUDY BIGGERT FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Judy Biggert"
+  },
+  "C00330811": {
+   "committee": "LEE TERRY FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Lee Terry"
+  },
+  "C00331066": {
+   "committee": "MOORE FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Dennis Moore"
+  },
+  "C00331256": {
+   "committee": "HAYES FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Robin Hayes"
+  },
+  "C00331389": {
+   "committee": "FRIENDS OF LOIS CAPPS",
+   "left": "2017-01-03",
+   "name": "former Rep. Lois Capps"
+  },
+  "C00331439": {
+   "committee": "UDALL FOR COLORADO",
+   "left": "2015-01-03",
+   "name": "former Sen. Mark Udall"
+  },
+  "C00331496": {
+   "committee": "GARY MILLER FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Gary G. Miller"
+  },
+  "C00331769": {
+   "committee": "BARBARA LEE FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Barbara Lee"
+  },
+  "C00333575": {
+   "committee": "KUYKENDALL CONGRESSIONAL COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Steven Kuykendall"
+  },
+  "C00333740": {
+   "committee": "BOB BRADY FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Robert A. Brady"
+  },
+  "C00334011": {
+   "committee": "TANCREDO FOR CONGRESS COMMITTEE INC.",
+   "left": "2009-01-03",
+   "name": "former Rep. Thomas Tancredo"
+  },
+  "C00334037": {
+   "committee": "CITIZENS FOR BIDEN",
+   "left": "2009-01-15",
+   "name": "former Sen. Joseph Biden"
+  },
+  "C00334060": {
+   "committee": "HEATHER WILSON FOR SENATE",
+   "left": "2009-01-03",
+   "name": "former Rep. Heather Wilson"
+  },
+  "C00334151": {
+   "committee": "STEPHANIE TUBBS JONES FOR US CONGRESS",
+   "left": "2008-08-20",
+   "name": "former Rep. Stephanie Jones"
+  },
+  "C00334441": {
+   "committee": "SNYDER FOR CONGRESS CAMPAIGN COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Victor Snyder"
+  },
+  "C00334706": {
+   "committee": "NAPOLITANO FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Grace F. Napolitano"
+  },
+  "C00334797": {
+   "committee": "HAHN FOR CONGRESS",
+   "left": "2016-12-04",
+   "name": "former Rep. Janice Hahn"
+  },
+  "C00335695": {
+   "committee": "COLLINS FOR CONGRESS",
+   "left": "2019-10-01",
+   "name": "former Rep. Chris Collins"
+  },
+  "C00336388": {
+   "committee": "CAPUANO FOR CONGRESS COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Michael E. Capuano"
+  },
+  "C00337428": {
+   "committee": "SWEENEY FOR CONGRESS, INC",
+   "left": "2007-01-03",
+   "name": "former Rep. John Sweeney"
+  },
+  "C00337436": {
+   "committee": "INSLEE FOR CONGRESS",
+   "left": "2012-03-20",
+   "name": "former Rep. Jay Inslee"
+  },
+  "C00338707": {
+   "committee": "SCHWARTZ 2000 COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Allyson Y. Schwartz"
+  },
+  "C00338954": {
+   "committee": "CROWLEY FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Joseph Crowley"
+  },
+  "C00341529": {
+   "committee": "HENRY E. BROWN JR. FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Henry Brown"
+  },
+  "C00341594": {
+   "committee": "GEORGIANS FOR ISAKSON",
+   "left": "2019-12-31",
+   "name": "former Sen. Johnny Isakson"
+  },
+  "C00342154": {
+   "committee": "MCCAIN 2000 INC",
+   "left": "2018-08-25",
+   "name": "former Sen. John McCain"
+  },
+  "C00342220": {
+   "committee": "ALEXANDER FOR PRESIDENT INC",
+   "left": "2021-01-03",
+   "name": "former Sen. Lamar Alexander"
+  },
+  "C00342410": {
+   "committee": "DAVID VITTER FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Sen. David Vitter"
+  },
+  "C00342741": {
+   "committee": "DOUG OSE FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Doug Ose"
+  },
+  "C00343236": {
+   "committee": "CULBERSON FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. John Abney Culberson"
+  },
+  "C00343327": {
+   "committee": "BENNETT ELECTION COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Sen. Robert Bennett"
+  },
+  "C00343376": {
+   "committee": "PEOPLE FOR PLATTS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Todd Russell Platts"
+  },
+  "C00343475": {
+   "committee": "TODD AKIN FOR SENATE",
+   "left": "2013-01-03",
+   "name": "former Rep. W. Todd Akin"
+  },
+  "C00343558": {
+   "committee": "FRIENDS OF DON SHERWOOD",
+   "left": "2007-01-03",
+   "name": "former Rep. Donald Sherwood"
+  },
+  "C00344051": {
+   "committee": "BILL NELSON FOR US SENATE",
+   "left": "2019-01-03",
+   "name": "former Sen. Bill Nelson"
+  },
+  "C00344150": {
+   "committee": "FLETCHER FOR CONGRESS",
+   "left": "2003-12-08",
+   "name": "former Rep. Ernest Fletcher"
+  },
+  "C00344184": {
+   "committee": "WEYGAND COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Robert Weygand"
+  },
+  "C00344473": {
+   "committee": "STABENOW FOR US SENATE",
+   "left": "2025-01-03",
+   "name": "former Sen. Debbie Stabenow"
+  },
+  "C00344671": {
+   "committee": "SUSAN DAVIS FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Susan A. Davis"
+  },
+  "C00344697": {
+   "committee": "LANGEVIN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. James R. Langevin"
+  },
+  "C00344705": {
+   "committee": "CANNON FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Christopher Cannon"
+  },
+  "C00344721": {
+   "committee": "MATHESON FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Jim Matheson"
+  },
+  "C00345090": {
+   "committee": "KELLER FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Ric Keller"
+  },
+  "C00345652": {
+   "committee": "MINGE 2000 EXPLORATORY COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. David Minge"
+  },
+  "C00345710": {
+   "committee": "MIKE ROSS FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Mike Ross"
+  },
+  "C00346080": {
+   "committee": "CLAY JR. FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Wm. Lacy Clay"
+  },
+  "C00346296": {
+   "committee": "SOLIS FOR CONGRESS",
+   "left": "2009-02-24",
+   "name": "former Rep. Hilda Solis"
+  },
+  "C00346783": {
+   "committee": "ORRIN HATCH PRESIDENTIAL EXPLORATORY COMMITTEE INC",
+   "left": "2019-01-03",
+   "name": "former Sen. Orrin G. Hatch"
+  },
+  "C00347104": {
+   "committee": "CANDICE MILLER FOR CONGRESS",
+   "left": "2016-12-31",
+   "name": "former Rep. Candice S. Miller"
+  },
+  "C00347310": {
+   "committee": "FRIENDS OF CHRIS DODD",
+   "left": "2011-01-03",
+   "name": "former Sen. Christopher Dodd"
+  },
+  "C00347492": {
+   "committee": "FRIENDS OF TIBERI",
+   "left": "2018-01-15",
+   "name": "former Rep. Patrick J. Tiberi"
+  },
+  "C00347716": {
+   "committee": "FRIENDS OF JIM MARSHALL",
+   "left": "2011-01-03",
+   "name": "former Rep. James Marshall"
+  },
+  "C00347872": {
+   "committee": "COMMITTEE TO RE-ELECT ARTUR DAVIS TO CONGRESS, THE",
+   "left": "2011-01-03",
+   "name": "former Rep. Artur Davis"
+  },
+  "C00348813": {
+   "committee": "BOB FRANKS FOR US SENATE INC",
+   "left": "2001-01-03",
+   "name": "former Rep. Bob Franks"
+  },
+  "C00349217": {
+   "committee": "CARPER FOR SENATE",
+   "left": "2025-01-03",
+   "name": "former Sen. Thomas R. Carper"
+  },
+  "C00349431": {
+   "committee": "REHBERG FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Denny Rehberg"
+  },
+  "C00349688": {
+   "committee": "MESSER FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Luke Messer"
+  },
+  "C00350397": {
+   "committee": "MIKE PENCE COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Mike Pence"
+  },
+  "C00350942": {
+   "committee": "CAMPBELL FOR SENATE",
+   "left": "2001-01-03",
+   "name": "former Rep. Tom Campbell"
+  },
+  "C00351379": {
+   "committee": "MIKE HONDA FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Michael M. Honda"
+  },
+  "C00354001": {
+   "committee": "JO ANN DAVIS FOR CONGRESS INC.",
+   "left": "2007-10-06",
+   "name": "former Rep. Jo Ann Davis"
+  },
+  "C00355461": {
+   "committee": "CANTOR FOR CONGRESS",
+   "left": "2014-08-18",
+   "name": "former Rep. Eric Cantor"
+  },
+  "C00358895": {
+   "committee": "FRIENDS OF HILLARY",
+   "left": "2009-01-21",
+   "name": "former Sen. Hillary Clinton"
+  },
+  "C00363978": {
+   "committee": "KENNEDY FOR SENATE 2012",
+   "left": "2009-08-25",
+   "name": "former Sen. Edward Kennedy"
+  },
+  "C00364042": {
+   "committee": "FRIENDS OF VAN HILLEARY",
+   "left": "2003-01-03",
+   "name": "former Rep. Van Hilleary"
+  },
+  "C00364117": {
+   "committee": "PUTNAM FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Adam Putnam"
+  },
+  "C00364182": {
+   "committee": "COOKSEY FOR SENATE",
+   "left": "2003-01-03",
+   "name": "former Rep. John Cooksey"
+  },
+  "C00364331": {
+   "committee": "DIANE E WATSON FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Diane Watson"
+  },
+  "C00364349": {
+   "committee": "JERRY WELLER FOR CONGRESS, INC.",
+   "left": "2009-01-03",
+   "name": "former Rep. Gerald Weller"
+  },
+  "C00364448": {
+   "committee": "NORTHUP FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Anne Northup"
+  },
+  "C00364497": {
+   "committee": "MIKE DEWINE FOR US SENATE",
+   "left": "2007-01-03",
+   "name": "former Sen. Michael DeWine"
+  },
+  "C00364521": {
+   "committee": "GANSKE FOR SENATE",
+   "left": "2003-01-03",
+   "name": "former Rep. Greg Ganske"
+  },
+  "C00364612": {
+   "committee": "WELLSTONE FOR SENATE",
+   "left": "2002-10-25",
+   "name": "former Sen. Paul Wellstone"
+  },
+  "C00365015": {
+   "committee": "LINCOLN DAVIS FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Lincoln Davis"
+  },
+  "C00365106": {
+   "committee": "SANTORUM 2006",
+   "left": "2007-01-03",
+   "name": "former Sen. Richard Santorum"
+  },
+  "C00365379": {
+   "committee": "INGLIS FOR CONGRESS COMMITTEE, INC.",
+   "left": "2011-01-03",
+   "name": "former Rep. Bob Inglis"
+  },
+  "C00365593": {
+   "committee": "CANDICE MILLER FOR CONGRESS",
+   "left": "2016-12-31",
+   "name": "former Rep. Candice S. Miller"
+  },
+  "C00365692": {
+   "committee": "FORBES FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. J. Randy Forbes"
+  },
+  "C00365841": {
+   "committee": "MCCOTTER CONGRESSIONAL COMMITTEE",
+   "left": "2012-07-06",
+   "name": "former Rep. Thaddeus McCotter"
+  },
+  "C00366237": {
+   "committee": "CHAFEE FOR SENATE",
+   "left": "2007-01-03",
+   "name": "former Sen. Lincoln Chafee"
+  },
+  "C00366401": {
+   "committee": "MARK PRYOR FOR US SENATE",
+   "left": "2015-01-03",
+   "name": "former Sen. Mark L. Pryor"
+  },
+  "C00366617": {
+   "committee": "BARRETT FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. James Barrett"
+  },
+  "C00366757": {
+   "committee": "JEFF MILLER FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Jeff Miller"
+  },
+  "C00366773": {
+   "committee": "JOHN SULLIVAN FOR CONGRESS, INC",
+   "left": "2013-01-03",
+   "name": "former Rep. John Sullivan"
+  },
+  "C00367110": {
+   "committee": "COMMITTEE TO RE-ELECT TRENT FRANKS TO CONGRESS",
+   "left": "2017-12-08",
+   "name": "former Rep. Trent Franks"
+  },
+  "C00367367": {
+   "committee": "PORTER FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Jon Porter"
+  },
+  "C00367441": {
+   "committee": "COLORADANS FOR COFFMAN",
+   "left": "2019-01-03",
+   "name": "former Rep. Mike Coffman"
+  },
+  "C00367631": {
+   "committee": "STEPHANIE HERSETH SANDLIN FOR SOUTH DAKOTA",
+   "left": "2011-01-03",
+   "name": "former Rep. Stephanie Herseth Sandlin"
+  },
+  "C00367771": {
+   "committee": "GINGREY FOR US SENATE",
+   "left": "2015-01-03",
+   "name": "former Rep. Phil Gingrey"
+  },
+  "C00367821": {
+   "committee": "MICHAUD FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Michael H. Michaud"
+  },
+  "C00368183": {
+   "committee": "TALENT FOR SENATE COMMITTEE",
+   "left": "2007-01-03",
+   "name": "former Sen. James Talent"
+  },
+  "C00368472": {
+   "committee": "DOUG JONES FOR US SENATE",
+   "left": "2021-01-03",
+   "name": "former Sen. Doug Jones"
+  },
+  "C00368829": {
+   "committee": "FRIENDS OF RAHM EMANUEL",
+   "left": "2009-01-03",
+   "name": "former Rep. Rahm Emanuel"
+  },
+  "C00368951": {
+   "committee": "TOM FEENEY FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Tom Feeney"
+  },
+  "C00369140": {
+   "committee": "ELIZABETH DOLE  COMMITTEE INC",
+   "left": "2009-01-03",
+   "name": "former Sen. Elizabeth Dole"
+  },
+  "C00369470": {
+   "committee": "GEOFF DAVIS FOR CONGRESS",
+   "left": "2012-07-31",
+   "name": "former Rep. Geoff Davis"
+  },
+  "C00369686": {
+   "committee": "COMM. TO ELECT MADELEINE Z. BORDALLO",
+   "left": "2019-01-03",
+   "name": "former Rep. Madeleine Z. Bordallo"
+  },
+  "C00369710": {
+   "committee": "MELISSA BEAN FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Melissa Bean"
+  },
+  "C00369801": {
+   "committee": "DAVID SCOTT FOR CONGRESS",
+   "left": "2026-04-21",
+   "name": "former Rep. David Scott"
+  },
+  "C00370031": {
+   "committee": "TEAM SUNUNU",
+   "left": "2009-01-03",
+   "name": "former Sen. John Sununu"
+  },
+  "C00370056": {
+   "committee": "DEVIN NUNES CAMPAIGN COMMITTEE",
+   "left": "2022-01-03",
+   "name": "former Rep. Devin Nunes"
+  },
+  "C00370288": {
+   "committee": "KEN BENTSEN FOR US SENATE COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Ken Bentsen"
+  },
+  "C00370783": {
+   "committee": "GINGREY FOR SENATE INC",
+   "left": "2015-01-03",
+   "name": "former Rep. Phil Gingrey"
+  },
+  "C00370874": {
+   "committee": "RICK RENZI FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Rick Renzi"
+  },
+  "C00371211": {
+   "committee": "BRAD MILLER FOR UNITED STATES CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Brad Miller"
+  },
+  "C00371880": {
+   "committee": "MUSGRAVE FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Marilyn Musgrave"
+  },
+  "C00372102": {
+   "committee": "JIM GERLACH FOR CONGRESS COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Jim Gerlach"
+  },
+  "C00372532": {
+   "committee": "MICHAEL BURGESS FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Michael C. Burgess"
+  },
+  "C00373464": {
+   "committee": "TIM RYAN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Tim Ryan"
+  },
+  "C00373563": {
+   "committee": "KING FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Steve King"
+  },
+  "C00374231": {
+   "committee": "ROB BISHOP FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Rob Bishop"
+  },
+  "C00375220": {
+   "committee": "JO BONNER FOR CONGRESS COMMITTEE",
+   "left": "2013-08-02",
+   "name": "former Rep. Jo Bonner"
+  },
+  "C00375618": {
+   "committee": "TIM BISHOP FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Timothy H. Bishop"
+  },
+  "C00376228": {
+   "committee": "ED BRYANT FOR U S SENATE INC",
+   "left": "2003-01-03",
+   "name": "former Rep. Ed Bryant"
+  },
+  "C00376350": {
+   "committee": "BOB CLEMENT FOR UNITED STATES SENATE",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Clement"
+  },
+  "C00376665": {
+   "committee": "COOPER FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Jim Cooper"
+  },
+  "C00376673": {
+   "committee": "DUTCH RUPPERSBERGER FOR CONGRESS COMMITTEE",
+   "left": "2025-01-03",
+   "name": "former Rep. C. A. Dutch Ruppersberger"
+  },
+  "C00376749": {
+   "committee": "RODNEY ALEXANDER FOR CONGRESS INC.",
+   "left": "2013-09-27",
+   "name": "former Rep. Rodney Alexander"
+  },
+  "C00379727": {
+   "committee": "KENDRICK MEEK CAMPAIGN FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Kendrick Meek"
+  },
+  "C00382457": {
+   "committee": "LAUTENBERG FOR SENATE",
+   "left": "2013-06-03",
+   "name": "former Sen. Frank R. Lautenberg"
+  },
+  "C00382960": {
+   "committee": "SMITH TEAM EXPLORATORY COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Sen. Robert Smith"
+  },
+  "C00383554": {
+   "committee": "FRIENDS OF GORDON SMITH",
+   "left": "2009-01-03",
+   "name": "former Sen. Gordon Smith"
+  },
+  "C00383745": {
+   "committee": "ALEXANDER FOR SENATE 2020 INC",
+   "left": "2021-01-03",
+   "name": "former Sen. Lamar Alexander"
+  },
+  "C00383794": {
+   "committee": "FRIENDS OF DENNIS CARDOZA",
+   "left": "2012-08-15",
+   "name": "former Rep. Dennis Cardoza"
+  },
+  "C00383828": {
+   "committee": "CONAWAY FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. K. Michael Conaway"
+  },
+  "C00384016": {
+   "committee": "NEUGEBAUER CONGRESSIONAL COMMITTEE",
+   "left": "2017-01-03",
+   "name": "former Rep. Randy Neugebauer"
+  },
+  "C00384610": {
+   "committee": "CAMPBELL FOR COLORADO",
+   "left": "2005-01-03",
+   "name": "former Sen. Ben Campbell"
+  },
+  "C00384636": {
+   "committee": "TEAM DEMINT",
+   "left": "2013-01-01",
+   "name": "former Sen. Jim DeMint"
+  },
+  "C00384677": {
+   "committee": "SENATOR JOHN WARNER COMMITTEE, THE",
+   "left": "2009-01-03",
+   "name": "former Sen. John Warner"
+  },
+  "C00384693": {
+   "committee": "GEORGIANS FOR ISAKSON",
+   "left": "2019-12-31",
+   "name": "former Sen. Johnny Isakson"
+  },
+  "C00384735": {
+   "committee": "FRIENDS OF JOHN BARROW",
+   "left": "2015-01-03",
+   "name": "former Rep. John Barrow"
+  },
+  "C00385526": {
+   "committee": " RICHARD BURR COMMITTEE; THE",
+   "left": "2023-01-03",
+   "name": "former Sen. Richard Burr"
+  },
+  "C00386458": {
+   "committee": "COLEMAN FOR SENATE 08",
+   "left": "2009-01-03",
+   "name": "former Sen. Norm Coleman"
+  },
+  "C00386532": {
+   "committee": "LOUIE GOHMERT FOR CONGRESS COMMITTEE",
+   "left": "2023-01-03",
+   "name": "former Rep. Louie Gohmert"
+  },
+  "C00387340": {
+   "committee": "MAC COLLINS FOR SENATE",
+   "left": "2005-01-03",
+   "name": "former Rep. Michael Collins"
+  },
+  "C00388173": {
+   "committee": "KUHL FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. John Kuhl"
+  },
+  "C00388322": {
+   "committee": "HOEFFEL FOR SENATE COMMITTEE",
+   "left": "2005-01-03",
+   "name": "former Rep. Joseph Hoeffel"
+  },
+  "C00389197": {
+   "committee": "ALLYSON SCHWARTZ FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Allyson Y. Schwartz"
+  },
+  "C00389239": {
+   "committee": "NETHERCUTT FOR SENATE",
+   "left": "2005-01-03",
+   "name": "former Rep. George Nethercutt"
+  },
+  "C00390955": {
+   "committee": "LUNGREN FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Daniel E. Lungren"
+  },
+  "C00392084": {
+   "committee": "NANCY BOYDA FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Nancy Boyda"
+  },
+  "C00393033": {
+   "committee": "JOHN SALAZAR FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. John Salazar"
+  },
+  "C00393512": {
+   "committee": "BEN CHANDLER FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Ben Chandler"
+  },
+  "C00393652": {
+   "committee": "DONNELLY FOR INDIANA",
+   "left": "2019-01-03",
+   "name": "former Sen. Joe Donnelly"
+  },
+  "C00394338": {
+   "committee": "MARTINEZ FOR SENATE",
+   "left": "2009-09-09",
+   "name": "former Sen. Mel Martinez"
+  },
+  "C00394353": {
+   "committee": "CANSECO FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Francisco \"Quico\" Canseco"
+  },
+  "C00394445": {
+   "committee": "CHRIS JOHN FOR US SENATE",
+   "left": "2005-01-03",
+   "name": "former Rep. Christopher John"
+  },
+  "C00394593": {
+   "committee": "DAVID VITTER FOR US SENATE",
+   "left": "2017-01-03",
+   "name": "former Sen. David Vitter"
+  },
+  "C00394866": {
+   "committee": "BOUSTANY FOR SENATE INC",
+   "left": "2017-01-03",
+   "name": "former Rep. Charles W. Boustany Jr."
+  },
+  "C00395467": {
+   "committee": "JEFF FORTENBERRY FOR UNITED STATES CONGRESS",
+   "left": "2022-03-31",
+   "name": "former Rep. Jeff Fortenberry"
+  },
+  "C00397034": {
+   "committee": "CHARLIE MELANCON CAMPAIGN COMMITTEE INC",
+   "left": "2011-01-03",
+   "name": "former Rep. Charles Melancon"
+  },
+  "C00397679": {
+   "committee": "SALAZAR FOR SENATE",
+   "left": "2009-01-21",
+   "name": "former Sen. Ken Salazar"
+  },
+  "C00397737": {
+   "committee": "FRIENDS OF DAVE REICHERT",
+   "left": "2019-01-03",
+   "name": "former Rep. David G. Reichert"
+  },
+  "C00398644": {
+   "committee": "MCNERNEY FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Jerry McNerney"
+  },
+  "C00400077": {
+   "committee": "PAUL HODES FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Paul Hodes"
+  },
+  "C00404236": {
+   "committee": "FITZPATRICK FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Michael G. Fitzpatrick"
+  },
+  "C00405431": {
+   "committee": "DAN LIPINSKI FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Daniel Lipinski"
+  },
+  "C00405696": {
+   "committee": "THELMA DRAKE FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Thelma Drake"
+  },
+  "C00406272": {
+   "committee": "PETER DEUTSCH FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Peter Deutsch"
+  },
+  "C00408823": {
+   "committee": "COMMITTEE  TO  RE-ELECT  BOBBY JINDAL",
+   "left": "2008-01-14",
+   "name": "former Rep. Bobby Jindal"
+  },
+  "C00409383": {
+   "committee": "ED BRYANT FOR US SENATE INC",
+   "left": "2003-01-03",
+   "name": "former Rep. Ed Bryant"
+  },
+  "C00409409": {
+   "committee": "TIM WALZ FOR US CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Timothy J. Walz"
+  },
+  "C00409441": {
+   "committee": "BRALEY FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Bruce L. Braley"
+  },
+  "C00409797": {
+   "committee": "CONYERS FOR CONGRESS",
+   "left": "2017-12-05",
+   "name": "former Rep. John Conyers, Jr."
+  },
+  "C00409888": {
+   "committee": "COBURN FOR SENATE 2010",
+   "left": "2015-01-03",
+   "name": "former Sen. Tom Coburn"
+  },
+  "C00410118": {
+   "committee": "BACHMANN FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Michele Bachmann"
+  },
+  "C00410415": {
+   "committee": "FORTUNO IN CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Luis Fortu\u00f1o"
+  },
+  "C00410522": {
+   "committee": "KLEIN FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Ron Klein"
+  },
+  "C00410647": {
+   "committee": "SCHMIDT FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Jean Schmidt"
+  },
+  "C00410753": {
+   "committee": "SIRES FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Albio Sires"
+  },
+  "C00410779": {
+   "committee": "FRIENDS OF SCOTT TIPTON",
+   "left": "2021-01-03",
+   "name": "former Rep. Scott R. Tipton"
+  },
+  "C00410829": {
+   "committee": "BOREN FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Dan Boren"
+  },
+  "C00410837": {
+   "committee": "HELLER FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Sen. Dean Heller"
+  },
+  "C00410969": {
+   "committee": "ROSKAM FOR CONGRESS COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Peter J. Roskam"
+  },
+  "C00411306": {
+   "committee": "MASSA FOR CONGRESS",
+   "left": "2010-03-08",
+   "name": "former Rep. Eric Massa"
+  },
+  "C00411587": {
+   "committee": "BEN CARDIN FOR SENATE, INC.",
+   "left": "2025-01-03",
+   "name": "former Sen. Benjamin L. Cardin"
+  },
+  "C00411835": {
+   "committee": "HOOSIERS FOR HILL",
+   "left": "2011-01-03",
+   "name": "former Rep. Baron Hill"
+  },
+  "C00411934": {
+   "committee": "OBAMA 2010 INC",
+   "left": "2008-11-16",
+   "name": "former Sen. Barack Obama"
+  },
+  "C00411991": {
+   "committee": "PATRICK MURPHY FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Patrick Murphy"
+  },
+  "C00412015": {
+   "committee": "FRIENDS OF CHARLIE WILSON",
+   "left": "2011-01-03",
+   "name": "former Rep. Charles Wilson"
+  },
+  "C00412304": {
+   "committee": "MONTANANS FOR TESTER",
+   "left": "2025-01-03",
+   "name": "former Sen. Jon Tester"
+  },
+  "C00412346": {
+   "committee": "ELLSWORTH FOR INDIANA",
+   "left": "2011-01-03",
+   "name": "former Rep. Brad Ellsworth"
+  },
+  "C00412452": {
+   "committee": "MAC COLLINS FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Michael Collins"
+  },
+  "C00412809": {
+   "committee": "KAGEN 4 CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Steve Kagen"
+  },
+  "C00413096": {
+   "committee": "KANSANS FOR HUELSKAMP",
+   "left": "2017-01-03",
+   "name": "former Rep. Tim Huelskamp"
+  },
+  "C00413310": {
+   "committee": "CITIZENS FOR ALTMIRE",
+   "left": "2013-01-03",
+   "name": "former Rep. Jason Altmire"
+  },
+  "C00413393": {
+   "committee": "HEATH SHULER FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Heath Shuler"
+  },
+  "C00414078": {
+   "committee": "SALI FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Bill Sali"
+  },
+  "C00414318": {
+   "committee": "LOEBSACK FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. David Loebsack"
+  },
+  "C00414391": {
+   "committee": "CARNEY FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Christopher Carney"
+  },
+  "C00415182": {
+   "committee": "FRIENDS OF JOHN SARBANES",
+   "left": "2025-01-03",
+   "name": "former Rep. John P. Sarbanes"
+  },
+  "C00415778": {
+   "committee": "FALLIN FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Mary Fallin"
+  },
+  "C00416016": {
+   "committee": "TIM MAHONEY FOR FLORIDA",
+   "left": "2009-01-03",
+   "name": "former Rep. Tim Mahoney"
+  },
+  "C00416156": {
+   "committee": "KILROY FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Mary Jo Kilroy"
+  },
+  "C00416818": {
+   "committee": "ZACK SPACE FOR CONGRESS COMMITTEE",
+   "left": "2011-01-03",
+   "name": "former Rep. Zachary Space"
+  },
+  "C00416826": {
+   "committee": "FRIENDS OF JAY ROCKEFELLER",
+   "left": "2015-01-03",
+   "name": "former Sen. John D. Rockefeller, IV"
+  },
+  "C00417451": {
+   "committee": "JOHN HALL FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. John Hall"
+  },
+  "C00417550": {
+   "committee": "FRIENDS OF DAN MAFFEI",
+   "left": "2015-01-03",
+   "name": "former Rep. Daniel B. Maffei"
+  },
+  "C00417816": {
+   "committee": "BETTY SUTTON FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Betty Sutton"
+  },
+  "C00418541": {
+   "committee": "ARCURI FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Michael Arcuri"
+  },
+  "C00419291": {
+   "committee": "SESTAK FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Joe Sestak"
+  },
+  "C00419630": {
+   "committee": "YARMUTH FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. John A. Yarmuth"
+  },
+  "C00419705": {
+   "committee": "LUCAS FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Kenneth Lucas"
+  },
+  "C00419879": {
+   "committee": "TOM SAWYER COMMITTEE",
+   "left": "2003-01-03",
+   "name": "former Rep. Thomas Sawyer"
+  },
+  "C00420935": {
+   "committee": "KEVIN MCCARTHY FOR CONGRESS",
+   "left": "2023-12-31",
+   "name": "former Rep. Kevin McCarthy"
+  },
+  "C00421271": {
+   "committee": "HARRY MITCHELL FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Harry Mitchell"
+  },
+  "C00421891": {
+   "committee": "DAVID DAVIS VICTORY FUND",
+   "left": "2009-01-03",
+   "name": "former Rep. David Davis"
+  },
+  "C00422410": {
+   "committee": "ELLISON FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Keith Ellison"
+  },
+  "C00422717": {
+   "committee": "MERRILL COOK FOR CONGRESS COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Merrill Cook"
+  },
+  "C00422923": {
+   "committee": "FRIENDS OF PHIL HARE",
+   "left": "2011-01-03",
+   "name": "former Rep. Phil Hare"
+  },
+  "C00422964": {
+   "committee": "DONNA EDWARDS FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Donna F. Edwards"
+  },
+  "C00424101": {
+   "committee": "CITIZENS TO ELECT PHIL ROE TO CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. David P. Roe"
+  },
+  "C00424713": {
+   "committee": "COMMITTEE TO ELECT ALAN GRAYSON",
+   "left": "2017-01-03",
+   "name": "former Rep. Alan Grayson"
+  },
+  "C00425025": {
+   "committee": "ROD GRAMS FOR CONGRESS",
+   "left": "2001-01-03",
+   "name": "former Sen. Rod Grams"
+  },
+  "C00430462": {
+   "committee": "BOB CORKER FOR SENATE 2018 INC",
+   "left": "2019-01-03",
+   "name": "former Sen. Bob Corker"
+  },
+  "C00430470": {
+   "committee": "JOHN MCCAIN 2008 INC.",
+   "left": "2018-08-25",
+   "name": "former Sen. John McCain"
+  },
+  "C00430686": {
+   "committee": "WEBB FOR SENATE",
+   "left": "2013-01-03",
+   "name": "former Sen. Jim Webb"
+  },
+  "C00431056": {
+   "committee": "BOB CASEY FOR SENATE INC",
+   "left": "2025-01-03",
+   "name": "former Sen. Robert P. Casey, Jr."
+  },
+  "C00432351": {
+   "committee": "JIM RYUN FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Jim Ryun"
+  },
+  "C00432401": {
+   "committee": "BEN NELSON 2012",
+   "left": "2013-01-03",
+   "name": "former Sen. Ben Nelson"
+  },
+  "C00432732": {
+   "committee": "DAN INOUYE FOR US SENATE",
+   "left": "2012-12-17",
+   "name": "former Sen. Daniel K. Inouye"
+  },
+  "C00432880": {
+   "committee": "AKAKA IN 2012",
+   "left": "2013-01-03",
+   "name": "former Sen. Daniel K. Akaka"
+  },
+  "C00432906": {
+   "committee": "TOM ROONEY FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Thomas J. Rooney"
+  },
+  "C00432955": {
+   "committee": "PAUL BROUN COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Paul C. Broun"
+  },
+  "C00433136": {
+   "committee": "THE NIKI TSONGAS COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Niki Tsongas"
+  },
+  "C00433524": {
+   "committee": "DUNCAN D. HUNTER FOR CONGRESS",
+   "left": "2020-01-13",
+   "name": "former Rep. Duncan Hunter"
+  },
+  "C00433763": {
+   "committee": "KISSELL FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Larry Kissell"
+  },
+  "C00434571": {
+   "committee": "RICHARDSON FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Laura Richardson"
+  },
+  "C00434662": {
+   "committee": "DRIEHAUS FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Steve Driehaus"
+  },
+  "C00434936": {
+   "committee": "FRANK KRATOVIL FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Frank Kratovil"
+  },
+  "C00435065": {
+   "committee": "BOCCIERI FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. John Boccieri"
+  },
+  "C00435370": {
+   "committee": "FRIENDS OF JARED POLIS COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Jared Polis"
+  },
+  "C00435636": {
+   "committee": "COMITE PIERLUISI, INC.",
+   "left": "2017-01-03",
+   "name": "former Rep. Pedro R. Pierluisi"
+  },
+  "C00436063": {
+   "committee": "MARKEY FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Betsy Markey"
+  },
+  "C00437293": {
+   "committee": "KIRKPATRICK FOR ARIZONA",
+   "left": "2023-01-03",
+   "name": "former Rep. Ann Kirkpatrick"
+  },
+  "C00437756": {
+   "committee": "SCHOCK FOR CONGRESS",
+   "left": "2015-03-31",
+   "name": "former Rep. Aaron Schock"
+  },
+  "C00437913": {
+   "committee": "OLSON FOR CONGRESS COMMITTEE",
+   "left": "2021-01-03",
+   "name": "former Rep. Pete Olson"
+  },
+  "C00438341": {
+   "committee": "SCHAUER FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Mark Schauer"
+  },
+  "C00438788": {
+   "committee": "PERRIELLO FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Thomas Perriello"
+  },
+  "C00439067": {
+   "committee": "ADLER FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. John Adler"
+  },
+  "C00439505": {
+   "committee": "ZELDIN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Lee M. Zeldin"
+  },
+  "C00439661": {
+   "committee": "FRIENDS OF ERIK PAULSEN",
+   "left": "2019-01-03",
+   "name": "former Rep. Erik Paulsen"
+  },
+  "C00439703": {
+   "committee": "COMMITTEE TO ELECT MICHELLE LUJAN GRISHAM, INC.",
+   "left": "2018-12-31",
+   "name": "former Rep. Michelle Lujan Grisham"
+  },
+  "C00439802": {
+   "committee": "JOHANNS FOR SENATE INCORPORATED",
+   "left": "2015-01-03",
+   "name": "former Sen. Mike Johanns"
+  },
+  "C00440115": {
+   "committee": "STEVE AUSTRIA FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Steve Austria"
+  },
+  "C00440149": {
+   "committee": "KOSMAS FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Suzanne Kosmas"
+  },
+  "C00440271": {
+   "committee": "KATHY DAHLKEMPER FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Kathleen Dahlkemper"
+  },
+  "C00440420": {
+   "committee": "PEOPLE FOR PEARCE",
+   "left": "2019-01-03",
+   "name": "former Rep. Stevan Pearce"
+  },
+  "C00440735": {
+   "committee": "HARRY TEAGUE FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Harry Teague"
+  },
+  "C00441105": {
+   "committee": "MINNICK FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Walter Minnick"
+  },
+  "C00441295": {
+   "committee": "GREGG HARPER FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Gregg Harper"
+  },
+  "C00441352": {
+   "committee": "STIVERS FOR CONGRESS",
+   "left": "2021-05-16",
+   "name": "former Rep. Steve Stivers"
+  },
+  "C00443606": {
+   "committee": "CHILDERS FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Travis Childers"
+  },
+  "C00443820": {
+   "committee": "CAZAYOUX FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Donald Cazayoux"
+  },
+  "C00443846": {
+   "committee": "FRIENDS OF GLENN NYE",
+   "left": "2011-01-03",
+   "name": "former Rep. Glenn Nye"
+  },
+  "C00443911": {
+   "committee": "SHOWS FOR SENATE",
+   "left": "2003-01-03",
+   "name": "former Rep. Ronnie Shows"
+  },
+  "C00444224": {
+   "committee": "LANCE FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Leonard Lance"
+  },
+  "C00444836": {
+   "committee": "DOUG OSE FOR CONGRESS",
+   "left": "2005-01-03",
+   "name": "former Rep. Doug Ose"
+  },
+  "C00444968": {
+   "committee": "FRIENDS OF BILL POSEY",
+   "left": "2025-01-03",
+   "name": "former Rep. Bill Posey"
+  },
+  "C00445452": {
+   "committee": "CONNOLLY FOR CONGRESS",
+   "left": "2025-05-21",
+   "name": "former Rep. Gerald E. Connolly"
+  },
+  "C00446138": {
+   "committee": "BRIGHT FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Bobby Bright"
+  },
+  "C00448654": {
+   "committee": "ANDREWS FOR SENATE",
+   "left": "2014-02-18",
+   "name": "former Rep. Robert E. Andrews"
+  },
+  "C00450148": {
+   "committee": "CHRIS LEE FOR CONGRESS",
+   "left": "2011-02-09",
+   "name": "former Rep. Christopher Lee"
+  },
+  "C00451005": {
+   "committee": "RICHARD HANNA FOR CONGRESS COMMITTEE",
+   "left": "2017-01-03",
+   "name": "former Rep. Richard L. Hanna"
+  },
+  "C00451138": {
+   "committee": "MIKE MCMAHON FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Michael McMahon"
+  },
+  "C00451336": {
+   "committee": "RICHMOND FOR CONGRESS",
+   "left": "2021-01-15",
+   "name": "former Rep. Cedric L. Richmond"
+  },
+  "C00454694": {
+   "committee": "MARCIA FUDGE FOR CONGRESS",
+   "left": "2021-03-10",
+   "name": "former Rep. Marcia L. Fudge"
+  },
+  "C00455808": {
+   "committee": "JOSEPH CAO FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Anh Cao"
+  },
+  "C00457622": {
+   "committee": "HAGAN FOR US SENATE INC",
+   "left": "2015-01-03",
+   "name": "former Sen. Kay R. Hagan"
+  },
+  "C00458059": {
+   "committee": "ALASKANS FOR BEGICH 2014",
+   "left": "2015-01-03",
+   "name": "former Sen. Mark Begich"
+  },
+  "C00458349": {
+   "committee": "BURRIS FOR SENATE",
+   "left": "2010-11-29",
+   "name": "former Sen. Roland Burris"
+  },
+  "C00458828": {
+   "committee": "TEAM GRAHAM, INC.",
+   "left": "2026-07-11",
+   "name": "former Sen. Lindsey Graham"
+  },
+  "C00458844": {
+   "committee": "MARCO RUBIO FOR PRESIDENT",
+   "left": "2025-01-20",
+   "name": "former Sen. Marco Rubio"
+  },
+  "C00458893": {
+   "committee": "SCOTT MURPHY FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Scott Murphy"
+  },
+  "C00459354": {
+   "committee": "BOBBY SCHILLING FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Robert T. Schilling"
+  },
+  "C00459461": {
+   "committee": "FRIENDS OF DENNIS ROSS",
+   "left": "2019-01-03",
+   "name": "former Rep. Dennis A. Ross"
+  },
+  "C00460063": {
+   "committee": "BILLY LONG FOR SENATE",
+   "left": "2023-01-03",
+   "name": "former Rep. Billy Long"
+  },
+  "C00460261": {
+   "committee": "AL LAWSON FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Al Lawson, Jr."
+  },
+  "C00460667": {
+   "committee": "I LIKE LUKE",
+   "left": "2019-01-03",
+   "name": "former Rep. Luke Messer"
+  },
+  "C00460899": {
+   "committee": "JOHN CARNEY FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. John C. Carney Jr."
+  },
+  "C00461350": {
+   "committee": "FRIENDS OF FRANK GUINTA",
+   "left": "2017-01-03",
+   "name": "former Rep. Frank C. Guinta"
+  },
+  "C00461368": {
+   "committee": "BUCK FOR COLORADO",
+   "left": "2024-03-22",
+   "name": "former Rep. Ken Buck"
+  },
+  "C00462143": {
+   "committee": "MARTHA ROBY FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Martha Roby"
+  },
+  "C00462523": {
+   "committee": "TREY GOWDY FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Trey Gowdy"
+  },
+  "C00462861": {
+   "committee": "KUSTER FOR CONGRESS, INC",
+   "left": "2025-01-03",
+   "name": "former Rep. Ann M. Kuster"
+  },
+  "C00463620": {
+   "committee": "RIBBLE FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Reid J. Ribble"
+  },
+  "C00463687": {
+   "committee": "SCOTT RIGELL FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. E. Scott Rigell"
+  },
+  "C00463836": {
+   "committee": "PEOPLE FOR PEARCE",
+   "left": "2019-01-03",
+   "name": "former Rep. Stevan Pearce"
+  },
+  "C00463877": {
+   "committee": "SANDY ADAMS FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Sandy Adams"
+  },
+  "C00464149": {
+   "committee": "MO BROOKS FOR SENATE",
+   "left": "2023-01-03",
+   "name": "former Rep. Mo Brooks"
+  },
+  "C00464297": {
+   "committee": "FRIENDS OF KELLY AYOTTE INC",
+   "left": "2017-01-03",
+   "name": "former Sen. Kelly Ayotte"
+  },
+  "C00464339": {
+   "committee": "DUFFY FOR WISCONSIN",
+   "left": "2019-09-23",
+   "name": "former Rep. Sean P. Duffy"
+  },
+  "C00464487": {
+   "committee": "NUNNELEE FOR CONGRESS",
+   "left": "2015-02-06",
+   "name": "former Rep. Alan Nunnelee"
+  },
+  "C00464495": {
+   "committee": "BILL OWENS FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. William L. Owens"
+  },
+  "C00464602": {
+   "committee": "VICKY HARTZLER FOR SENATE",
+   "left": "2023-01-03",
+   "name": "former Rep. Vicky Hartzler"
+  },
+  "C00465633": {
+   "committee": "RYAN COSTELLO FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Ryan A. Costello"
+  },
+  "C00465971": {
+   "committee": "DOLD FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Robert J. Dold"
+  },
+  "C00466276": {
+   "committee": "CORRINE BROWN FOR US SENATE EXPLORATORY COMMITTEE",
+   "left": "2017-01-03",
+   "name": "former Rep. Corrine Brown"
+  },
+  "C00466359": {
+   "committee": "RENACCI FOR US SENATE",
+   "left": "2019-01-03",
+   "name": "former Rep. James B. Renacci"
+  },
+  "C00466490": {
+   "committee": "FRIENDS OF NAN HAYWORTH",
+   "left": "2013-01-03",
+   "name": "former Rep. Nan A. S. Hayworth"
+  },
+  "C00466516": {
+   "committee": "GIBBS FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Bob Gibbs"
+  },
+  "C00466854": {
+   "committee": "STEVE FINCHER FOR SENATE",
+   "left": "2017-01-03",
+   "name": "former Rep. Stephen Lee Fincher"
+  },
+  "C00467522": {
+   "committee": "RANDY HULTGREN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Randy Hultgren"
+  },
+  "C00467621": {
+   "committee": "CAPUANO FOR SENATE COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Michael E. Capuano"
+  },
+  "C00468116": {
+   "committee": "RE-ELECT TIM GRIFFIN FOR CONGRESS COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Tim Griffin"
+  },
+  "C00468264": {
+   "committee": "SCOTT TAYLOR FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Scott Taylor"
+  },
+  "C00468405": {
+   "committee": "ROBERT HURT FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Robert Hurt"
+  },
+  "C00468413": {
+   "committee": "HANABUSA FOR HAWAII",
+   "left": "2019-01-03",
+   "name": "former Rep. Colleen Hanabusa"
+  },
+  "C00468421": {
+   "committee": "FRIENDS OF JOE HECK CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Joseph J. Heck"
+  },
+  "C00468579": {
+   "committee": "WALORSKI FOR CONGRESS INC",
+   "left": "2022-08-03",
+   "name": "former Rep. Jackie Walorski"
+  },
+  "C00468959": {
+   "committee": "SOUTHERLAND FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Steve Southerland II"
+  },
+  "C00469163": {
+   "committee": "TED DEUTCH FOR CONGRESS COMMITTEE",
+   "left": "2022-09-30",
+   "name": "former Rep. Theodore E. Deutch"
+  },
+  "C00469882": {
+   "committee": "KILILI FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Gregorio Kilili Camacho Sablan"
+  },
+  "C00470351": {
+   "committee": "TEXANS FOR HURD ",
+   "left": "2021-01-03",
+   "name": "former Rep. Will Hurd"
+  },
+  "C00470757": {
+   "committee": "VOTETIPTON.COM",
+   "left": "2021-01-03",
+   "name": "former Rep. Scott R. Tipton"
+  },
+  "C00470948": {
+   "committee": "RAUL LABRADOR FOR IDAHO",
+   "left": "2019-01-03",
+   "name": "former Rep. Ra\u00fal R. Labrador"
+  },
+  "C00471292": {
+   "committee": "MULVANEY FOR CONGRESS",
+   "left": "2017-02-16",
+   "name": "former Rep. Mick Mulvaney"
+  },
+  "C00471896": {
+   "committee": "RENEE ELLMERS FOR CONGRESS COMMITTEE",
+   "left": "2017-01-03",
+   "name": "former Rep. Renee L. Ellmers"
+  },
+  "C00471946": {
+   "committee": "HAGEDORN FOR CONGRESS COMMITTEE",
+   "left": "2022-02-17",
+   "name": "former Rep. Jim Hagedorn"
+  },
+  "C00472159": {
+   "committee": "DENNY HECK FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Denny Heck"
+  },
+  "C00472241": {
+   "committee": "BILL FLORES FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Bill Flores"
+  },
+  "C00472365": {
+   "committee": "YODER FOR CONGRESS, INC",
+   "left": "2019-01-03",
+   "name": "former Rep. Kevin Yoder"
+  },
+  "C00472704": {
+   "committee": "JAIME FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Jaime Herrera Beutler"
+  },
+  "C00472712": {
+   "committee": "LANDRY FOR LOUISIANA",
+   "left": "2013-01-03",
+   "name": "former Rep. Jeffrey M. Landry"
+  },
+  "C00472878": {
+   "committee": "DIANE BLACK FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Diane Black"
+  },
+  "C00473033": {
+   "committee": "POMBO FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. Richard Pombo"
+  },
+  "C00473132": {
+   "committee": "MCKINLEY FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. David B. McKinley"
+  },
+  "C00473272": {
+   "committee": "DENHAM FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Jeff Denham"
+  },
+  "C00473579": {
+   "committee": "JOE WALSH FOR CONGRESS COMMITTEE, INC.",
+   "left": "2013-01-03",
+   "name": "former Rep. Joe Walsh"
+  },
+  "C00473736": {
+   "committee": "ELECT BLAKE FARENTHOLD COMMITTEE",
+   "left": "2018-04-06",
+   "name": "former Rep. Blake Farenthold"
+  },
+  "C00473751": {
+   "committee": "ANN MARIE BUERKLE FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Ann Marie Buerkle"
+  },
+  "C00473892": {
+   "committee": "CAMPBELL FOR US SENATE",
+   "left": "2001-01-03",
+   "name": "former Rep. Tom Campbell"
+  },
+  "C00474361": {
+   "committee": "JOHN HOSTETTLER FOR SENATE",
+   "left": "2007-01-03",
+   "name": "former Rep. John Hostettler"
+  },
+  "C00474619": {
+   "committee": "BERG FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Rick Berg"
+  },
+  "C00475103": {
+   "committee": "FITZPATRICK FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Michael G. Fitzpatrick"
+  },
+  "C00475145": {
+   "committee": "MARINO FOR CONGRESS",
+   "left": "2019-01-23",
+   "name": "former Rep. Tom Marino"
+  },
+  "C00475632": {
+   "committee": "CRAVAACK FOR CONGRESS CAMPAIGN COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Chip Cravaack"
+  },
+  "C00475863": {
+   "committee": "QUAYLE FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Benjamin Quayle"
+  },
+  "C00476192": {
+   "committee": "HOOSIERS FOR ROKITA, INC.",
+   "left": "2019-01-03",
+   "name": "former Rep. Todd Rokita"
+  },
+  "C00476291": {
+   "committee": "JUSTIN AMASH FOR SENATE",
+   "left": "2021-01-03",
+   "name": "former Rep. Justin Amash"
+  },
+  "C00476325": {
+   "committee": "BENISHEK FOR CONGRESS, INC.",
+   "left": "2017-01-03",
+   "name": "former Rep. Dan Benishek"
+  },
+  "C00476523": {
+   "committee": "KAREN BASS FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Karen Bass"
+  },
+  "C00476564": {
+   "committee": "CICILLINE COMMITTEE",
+   "left": "2023-05-31",
+   "name": "former Rep. David N. Cicilline"
+  },
+  "C00476853": {
+   "committee": "KRISTI FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Kristi L. Noem"
+  },
+  "C00476861": {
+   "committee": "MARK CRITZ FOR CONGRESS COMMITTEE",
+   "left": "2013-01-03",
+   "name": "former Rep. Mark S. Critz"
+  },
+  "C00477323": {
+   "committee": "PALAZZO FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Steven M. Palazzo"
+  },
+  "C00477356": {
+   "committee": "DAVID RIVERA FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. David Rivera"
+  },
+  "C00477661": {
+   "committee": "JON RUNYAN FOR CONGRESS, INC",
+   "left": "2015-01-03",
+   "name": "former Rep. Jon Runyan"
+  },
+  "C00477828": {
+   "committee": "HANSEN CLARKE FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Hansen Clarke"
+  },
+  "C00477984": {
+   "committee": "CHRIS GIBSON FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Christopher P. Gibson"
+  },
+  "C00480517": {
+   "committee": "MERRILL COOK FOR SENATE COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Merrill Cook"
+  },
+  "C00481150": {
+   "committee": "JODY HICE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Jody B. Hice"
+  },
+  "C00482281": {
+   "committee": "FRIENDS OF RICH NUGENT",
+   "left": "2017-01-03",
+   "name": "former Rep. Richard B. Nugent"
+  },
+  "C00482307": {
+   "committee": "ROB WOODALL FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Rob Woodall"
+  },
+  "C00493023": {
+   "committee": "JANICE HAHN FOR CONGRESS",
+   "left": "2016-12-04",
+   "name": "former Rep. Janice Hahn"
+  },
+  "C00493684": {
+   "committee": "RUSS CARNAHAN FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Russ Carnahan"
+  },
+  "C00494013": {
+   "committee": "KATHY HOCHUL FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. Kathleen C. Hochul"
+  },
+  "C00494203": {
+   "committee": "FRIENDS OF ELIZABETH ESTY",
+   "left": "2019-01-03",
+   "name": "former Rep. Elizabeth H. Esty"
+  },
+  "C00494229": {
+   "committee": "HELLER FOR SENATE",
+   "left": "2019-01-03",
+   "name": "former Sen. Dean Heller"
+  },
+  "C00494583": {
+   "committee": "TED YOHO FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Ted S. Yoho"
+  },
+  "C00497396": {
+   "committee": "TULSI FOR HAWAI'I",
+   "left": "2021-01-03",
+   "name": "former Rep. Tulsi Gabbard"
+  },
+  "C00498212": {
+   "committee": "ALAN LOWENTHAL FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Alan S. Lowenthal"
+  },
+  "C00498345": {
+   "committee": "MULLIN FOR AMERICA",
+   "left": "2026-03-23",
+   "name": "former Sen. Markwayne Mullin"
+  },
+  "C00498568": {
+   "committee": "FRIENDS OF CHERI BUSTOS",
+   "left": "2023-01-03",
+   "name": "former Rep. Cheri Bustos"
+  },
+  "C00498873": {
+   "committee": "TONY CARDENAS FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Tony C\u00e1rdenas"
+  },
+  "C00498980": {
+   "committee": "VAL DEMINGS FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Val Butler Demings"
+  },
+  "C00499053": {
+   "committee": "NOLAN FOR CONGRESS VOLUNTEER COMMITTEE",
+   "left": "2019-01-03",
+   "name": "former Rep. Richard M. Nolan"
+  },
+  "C00499236": {
+   "committee": "GEORGE HOLDING FOR CONGRESS INC.",
+   "left": "2021-01-03",
+   "name": "former Rep. George Holding"
+  },
+  "C00500207": {
+   "committee": "FRIENDS OF SUSAN BROOKS",
+   "left": "2021-01-03",
+   "name": "former Rep. Susan W. Brooks"
+  },
+  "C00501049": {
+   "committee": "KUYKENDALL CONGRESSIONAL COMMITTEE",
+   "left": "2001-01-03",
+   "name": "former Rep. Steven Kuykendall"
+  },
+  "C00501254": {
+   "committee": "FRIENDS OF MICHELLE",
+   "left": "2018-12-31",
+   "name": "former Rep. Michelle Lujan Grisham"
+  },
+  "C00502039": {
+   "committee": "COLLINS FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Doug Collins"
+  },
+  "C00502294": {
+   "committee": "SWALWELL FOR CONGRESS",
+   "left": "2026-04-14",
+   "name": "former Rep. Eric Swalwell"
+  },
+  "C00502393": {
+   "committee": "FRIENDS OF JIM BRIDENSTINE INC.",
+   "left": "2018-04-23",
+   "name": "former Rep. Jim Bridenstine"
+  },
+  "C00502534": {
+   "committee": "GLORIA NEGRETE MCLEOD FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Gloria Negrete McLeod"
+  },
+  "C00502773": {
+   "committee": "RUBEN KIHUEN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Ruben J. Kihuen"
+  },
+  "C00506139": {
+   "committee": "BLUM FOR CONGRESS 2012",
+   "left": "2019-01-03",
+   "name": "former Rep. Rod Blum"
+  },
+  "C00506931": {
+   "committee": "FRIENDS FOR CHRIS STEWART, INC.",
+   "left": "2023-09-15",
+   "name": "former Rep. Chris Stewart"
+  },
+  "C00508077": {
+   "committee": "LAMPSON FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Nicholas Lampson"
+  },
+  "C00508416": {
+   "committee": "FRIENDS OF JOHN DELANEY",
+   "left": "2019-01-03",
+   "name": "former Rep. John K. Delaney"
+  },
+  "C00508804": {
+   "committee": "SINEMA FOR ARIZONA",
+   "left": "2025-01-03",
+   "name": "former Sen. Kyrsten Sinema"
+  },
+  "C00509372": {
+   "committee": "PARKER GRIFFITH FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Parker Griffith"
+  },
+  "C00509422": {
+   "committee": "DOUG LAMALFA COMMITTEE",
+   "left": "2026-01-05",
+   "name": "former Rep. Doug LaMalfa"
+  },
+  "C00509968": {
+   "committee": "CARTWRIGHT FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Matt Cartwright"
+  },
+  "C00510008": {
+   "committee": "BRENDA LAWRENCE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Brenda L. Lawrence"
+  },
+  "C00510768": {
+   "committee": "FRIENDS OF TREY RADEL",
+   "left": "2014-01-27",
+   "name": "former Rep. Trey Radel"
+  },
+  "C00511568": {
+   "committee": "RON DESANTIS FOR FLORIDA",
+   "left": "2018-09-10",
+   "name": "former Rep. Ron DeSantis"
+  },
+  "C00512129": {
+   "committee": "RON BARBER FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Ron Barber"
+  },
+  "C00512202": {
+   "committee": "PAUL COOK FOR CONGRESS",
+   "left": "2020-12-07",
+   "name": "former Rep. Paul Cook"
+  },
+  "C00512236": {
+   "committee": "MCSALLY FOR CONGRESS",
+   "left": "2020-12-02",
+   "name": "former Sen. Martha McSally"
+  },
+  "C00512426": {
+   "committee": "SEAN PATRICK MALONEY FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Sean Patrick Maloney"
+  },
+  "C00512970": {
+   "committee": "KENNEDY FOR MASSACHUSETTS",
+   "left": "2021-01-03",
+   "name": "former Rep. Joseph P. Kennedy III"
+  },
+  "C00513531": {
+   "committee": "FILEMON VELA FOR CONGRESS",
+   "left": "2022-03-31",
+   "name": "former Rep. Filemon Vela"
+  },
+  "C00514513": {
+   "committee": "PITTENGER FOR CONGRESS LLC",
+   "left": "2019-01-03",
+   "name": "former Rep. Robert Pittenger"
+  },
+  "C00514893": {
+   "committee": "PEOPLE FOR DEREK KILMER",
+   "left": "2025-01-03",
+   "name": "former Rep. Derek Kilmer"
+  },
+  "C00515122": {
+   "committee": "NEBRASKANS FOR KERREY",
+   "left": "2001-01-03",
+   "name": "former Sen. J. Kerrey"
+  },
+  "C00518654": {
+   "committee": "POLIQUIN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Bruce Poliquin"
+  },
+  "C00519355": {
+   "committee": "DONALD M PAYNE JR FOR CONGRESS",
+   "left": "2024-04-24",
+   "name": "former Rep. Donald M. Payne, Jr."
+  },
+  "C00520379": {
+   "committee": "COLLINS FOR CONGRESS",
+   "left": "2019-10-01",
+   "name": "former Rep. Chris Collins"
+  },
+  "C00521781": {
+   "committee": "JOE GARCIA FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Joe Garcia"
+  },
+  "C00521948": {
+   "committee": "RODNEY FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Rodney Davis"
+  },
+  "C00523258": {
+   "committee": "ENYART FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. William L. Enyart"
+  },
+  "C00527051": {
+   "committee": "CURSON FOR CONGRESS",
+   "left": "2013-01-03",
+   "name": "former Rep. David Alan Curson"
+  },
+  "C00539890": {
+   "committee": "FEINSTEIN FOR SENATE 2024",
+   "left": "2023-09-28",
+   "name": "former Sen. Dianne Feinstein"
+  },
+  "C00539932": {
+   "committee": "HALVORSON FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Deborah Halvorson"
+  },
+  "C00541003": {
+   "committee": "BENTIVOLIO FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Kerry L. Bentivolio"
+  },
+  "C00541417": {
+   "committee": "BRALEY FOR IOWA",
+   "left": "2015-01-03",
+   "name": "former Rep. Bruce L. Braley"
+  },
+  "C00543231": {
+   "committee": "WALKER 4 NC",
+   "left": "2021-01-03",
+   "name": "former Rep. Mark Walker"
+  },
+  "C00543249": {
+   "committee": "GRAHAM FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Gwen Graham"
+  },
+  "C00543405": {
+   "committee": "BARR CONGRESS INC.",
+   "left": "2003-01-03",
+   "name": "former Rep. Bob Barr"
+  },
+  "C00543926": {
+   "committee": "BLUM FOR IOWA",
+   "left": "2019-01-03",
+   "name": "former Rep. Rod Blum"
+  },
+  "C00544445": {
+   "committee": "JODY HICE FOR CONGRESS, INC.",
+   "left": "2023-01-03",
+   "name": "former Rep. Jody B. Hice"
+  },
+  "C00545467": {
+   "committee": "HURD FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Will Hurd"
+  },
+  "C00545673": {
+   "committee": "BYRNE FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Bradley Byrne"
+  },
+  "C00546846": {
+   "committee": "CARLOS CURBELO CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Carlos Curbelo"
+  },
+  "C00546853": {
+   "committee": "WALTERS FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Mimi Walters"
+  },
+  "C00547570": {
+   "committee": "PERDUE FOR SENATE",
+   "left": "2021-01-03",
+   "name": "former Sen. David Perdue"
+  },
+  "C00547976": {
+   "committee": "BEN SASSE FOR U.S. SENATE, INC.",
+   "left": "2023-01-08",
+   "name": "former Sen. Ben Sasse"
+  },
+  "C00548131": {
+   "committee": "MARK TAKAI FOR CONGRESS",
+   "left": "2016-07-20",
+   "name": "former Rep. Mark Takai"
+  },
+  "C00548271": {
+   "committee": "JENKINS FOR SENATE",
+   "left": "2018-09-30",
+   "name": "former Rep. Evan H. Jenkins"
+  },
+  "C00548289": {
+   "committee": "MATT ROSENDALE FOR MONTANA",
+   "left": "2025-01-03",
+   "name": "former Rep. Matthew M. Rosendale, Sr."
+  },
+  "C00548941": {
+   "committee": "TROTT FOR CONGRESS, INC.",
+   "left": "2019-01-03",
+   "name": "former Rep. David A. Trott"
+  },
+  "C00549352": {
+   "committee": "COMMITTEE TO ELECT VANCE MCALLISTER",
+   "left": "2015-01-03",
+   "name": "former Rep. Vance M. McAllister"
+  },
+  "C00550608": {
+   "committee": "CRESENT HARDY FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Cresent Hardy"
+  },
+  "C00550640": {
+   "committee": "WALSH FOR MONTANA",
+   "left": "2015-01-03",
+   "name": "former Sen. John E. Walsh"
+  },
+  "C00550707": {
+   "committee": "FRIENDS OF HAGEDORN",
+   "left": "2022-02-17",
+   "name": "former Rep. Jim Hagedorn"
+  },
+  "C00551572": {
+   "committee": "FRIENDS OF DAVID JOLLY",
+   "left": "2017-01-03",
+   "name": "former Rep. David W. Jolly"
+  },
+  "C00552547": {
+   "committee": "ZELDIN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Lee M. Zeldin"
+  },
+  "C00552588": {
+   "committee": "BRENDA LAWRENCE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Brenda L. Lawrence"
+  },
+  "C00552968": {
+   "committee": "FRIENDS OF SENATOR BOB SMITH",
+   "left": "2003-01-03",
+   "name": "former Sen. Robert Smith"
+  },
+  "C00554014": {
+   "committee": "STEVE KNIGHT FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Stephen Knight"
+  },
+  "C00554113": {
+   "committee": "RATCLIFFE FOR CONGRESS",
+   "left": "2020-05-22",
+   "name": "former Rep. John Ratcliffe"
+  },
+  "C00554261": {
+   "committee": "COMSTOCK FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Barbara Comstock"
+  },
+  "C00554949": {
+   "committee": "FRIENDS OF DAVE BRAT INC.",
+   "left": "2019-01-03",
+   "name": "former Rep. Dave Brat"
+  },
+  "C00554972": {
+   "committee": "CURT CLAWSON- THE OUTSIDER FOR CONGRESS COMMITTEE",
+   "left": "2017-01-03",
+   "name": "former Rep. Curt Clawson"
+  },
+  "C00555813": {
+   "committee": "KATHLEEN RICE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Kathleen M. Rice"
+  },
+  "C00557181": {
+   "committee": "BRAD ASHFORD FOR CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Brad Ashford"
+  },
+  "C00557520": {
+   "committee": "TOM MACARTHUR FOR CONGRESS INC.",
+   "left": "2019-01-03",
+   "name": "former Rep. Thomas MacArthur"
+  },
+  "C00558486": {
+   "committee": "GARRET GRAVES FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Garret Graves"
+  },
+  "C00558510": {
+   "committee": "STEVE RUSSELL FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Steve Russell"
+  },
+  "C00558833": {
+   "committee": "DJOU HAWAII",
+   "left": "2011-01-03",
+   "name": "former Rep. Charles Djou"
+  },
+  "C00558957": {
+   "committee": "GENE TAYLOR FOR CONGRESS",
+   "left": "2011-01-03",
+   "name": "former Rep. Gene Taylor"
+  },
+  "C00561001": {
+   "committee": "MIKE BISHOP FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Mike Bishop"
+  },
+  "C00561423": {
+   "committee": "PAUL MITCHELL FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Paul Mitchell"
+  },
+  "C00563940": {
+   "committee": "RALPH ABRAHAM FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Ralph Lee Abraham"
+  },
+  "C00564492": {
+   "committee": "KANSANS FOR TIAHRT",
+   "left": "2011-01-03",
+   "name": "former Rep. Todd Tiahrt"
+  },
+  "C00571869": {
+   "committee": "DONOVAN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Daniel M. Donovan, Jr."
+  },
+  "C00571919": {
+   "committee": "KAMALA HARRIS FOR SENATE",
+   "left": "2021-01-18",
+   "name": "former Sen. Kamala D. Harris"
+  },
+  "C00573212": {
+   "committee": "STRICKLAND FOR SENATE",
+   "left": "2007-01-03",
+   "name": "former Rep. Ted Strickland"
+  },
+  "C00574640": {
+   "committee": "ANTHONY BROWN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Anthony G. Brown"
+  },
+  "C00575043": {
+   "committee": "TEXANS FOR PETE",
+   "left": "2015-01-03",
+   "name": "former Rep. Pete P. Gallego"
+  },
+  "C00581090": {
+   "committee": "FRIENDS OF PAUL MITCHELL",
+   "left": "2021-01-03",
+   "name": "former Rep. Paul Mitchell"
+  },
+  "C00582890": {
+   "committee": "TOM O'HALLERAN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Tom O\u2019Halleran"
+  },
+  "C00588392": {
+   "committee": "TODOS CON JENNIFFER INC.  DBA JENNIFFER FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Jenniffer Gonz\u00e1lez-Col\u00f3n"
+  },
+  "C00589234": {
+   "committee": "JASON LEWIS FOR CONGRESS, INC.",
+   "left": "2019-01-03",
+   "name": "former Rep. Jason Lewis"
+  },
+  "C00590067": {
+   "committee": "CHARLIE CRIST FOR CONGRESS",
+   "left": "2022-08-31",
+   "name": "former Rep. Charlie Crist"
+  },
+  "C00590463": {
+   "committee": "TREY FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Trey Hollingsworth"
+  },
+  "C00607101": {
+   "committee": "TOM GARRETT FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Thomas A. Garrett, Jr."
+  },
+  "C00607952": {
+   "committee": "DAVID TRONE FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. David J. Trone"
+  },
+  "C00610964": {
+   "committee": "MCEACHIN FOR CONGRESS",
+   "left": "2022-11-28",
+   "name": "former Rep. A. Donald McEachin"
+  },
+  "C00612432": {
+   "committee": "FRIENDS OF MATT GAETZ",
+   "left": "2024-11-13",
+   "name": "former Rep. Matt Gaetz"
+  },
+  "C00614818": {
+   "committee": "KELLER FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Ric Keller"
+  },
+  "C00618223": {
+   "committee": "ROONEY FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Francis Rooney"
+  },
+  "C00619734": {
+   "committee": "BENTIVOLIO FOR CONGRESS 2016",
+   "left": "2015-01-03",
+   "name": "former Rep. Kerry L. Bentivolio"
+  },
+  "C00620518": {
+   "committee": "MARCO RUBIO FOR SENATE",
+   "left": "2025-01-20",
+   "name": "former Sen. Marco Rubio"
+  },
+  "C00629287": {
+   "committee": "COFFMAN FOR CONGRESS 2018",
+   "left": "2019-01-03",
+   "name": "former Rep. Mike Coffman"
+  },
+  "C00629451": {
+   "committee": "STRANGE FOR SENATE",
+   "left": "2018-01-03",
+   "name": "former Sen. Luther Strange"
+  },
+  "C00631945": {
+   "committee": "GREG FOR MONTANA",
+   "left": "2021-01-03",
+   "name": "former Rep. Greg Gianforte"
+  },
+  "C00633362": {
+   "committee": "HANDEL FOR CONGRESS, INC.",
+   "left": "2019-01-03",
+   "name": "former Rep. Karen C. Handel"
+  },
+  "C00633859": {
+   "committee": "DELGADO FOR CONGRESS",
+   "left": "2022-05-25",
+   "name": "former Rep. Antonio Delgado"
+  },
+  "C00633982": {
+   "committee": "HARLEY ROUDA FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Harley Rouda"
+  },
+  "C00636670": {
+   "committee": "MARIE NEWMAN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Marie Newman"
+  },
+  "C00637868": {
+   "committee": "COLIN ALLRED FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Colin Z. Allred"
+  },
+  "C00638023": {
+   "committee": "WEXTON FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Jennifer Wexton"
+  },
+  "C00639054": {
+   "committee": "DEB HAALAND FOR CONGRESS",
+   "left": "2021-03-16",
+   "name": "former Rep. Debra A. Haaland"
+  },
+  "C00640003": {
+   "committee": "MIKIE SHERRILL FOR CONGRESS",
+   "left": "2025-11-20",
+   "name": "former Rep. Mikie Sherrill"
+  },
+  "C00640714": {
+   "committee": "DEAN PHILLIPS FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Dean Phillips"
+  },
+  "C00646844": {
+   "committee": "CINDY AXNE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Cynthia Axne"
+  },
+  "C00647826": {
+   "committee": "TEAMSTERSLU377LA1557",
+   "left": "2023-01-03",
+   "name": "former Rep. Tim Ryan"
+  },
+  "C00647834": {
+   "committee": "RICHARD SANDBERG",
+   "left": "2023-01-03",
+   "name": "former Rep. Tim Ryan"
+  },
+  "C00648725": {
+   "committee": "BRINDISI FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Anthony Brindisi"
+  },
+  "C00648915": {
+   "committee": "KENDRA HORN FOR SENATE",
+   "left": "2021-01-03",
+   "name": "former Rep. Kendra S. Horn"
+  },
+  "C00649244": {
+   "committee": "GALLEGO FOR TEXAS EXPLORATORY COMMITTEE",
+   "left": "2015-01-03",
+   "name": "former Rep. Pete P. Gallego"
+  },
+  "C00649376": {
+   "committee": "CAROLYN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Carolyn Bourdeaux"
+  },
+  "C00649913": {
+   "committee": "SPANBERGER FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Abigail Davis Spanberger"
+  },
+  "C00650507": {
+   "committee": "JOE CUNNINGHAM FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Joe Cunningham"
+  },
+  "C00652065": {
+   "committee": "DEBBIE FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Debbie Mucarsel-Powell"
+  },
+  "C00652248": {
+   "committee": "MAX ROSE FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Max Rose"
+  },
+  "C00653196": {
+   "committee": "DAVID TRONE FOR MARYLAND, INC.",
+   "left": "2025-01-03",
+   "name": "former Rep. David J. Trone"
+  },
+  "C00653634": {
+   "committee": "VAN TAYLOR CAMPAIGN",
+   "left": "2023-01-03",
+   "name": "former Rep. Van Taylor"
+  },
+  "C00655571": {
+   "committee": "YVETTE4CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Yvette Herrell"
+  },
+  "C00656033": {
+   "committee": "BENTIVOLIO FOR CONGRESS",
+   "left": "2015-01-03",
+   "name": "former Rep. Kerry L. Bentivolio"
+  },
+  "C00656751": {
+   "committee": "FRIENDS OF MICHAEL GRIMM",
+   "left": "2015-01-03",
+   "name": "former Rep. Michael G. Grimm"
+  },
+  "C00657411": {
+   "committee": "CONOR LAMB FOR SENATE",
+   "left": "2023-01-03",
+   "name": "former Rep. Conor Lamb"
+  },
+  "C00658385": {
+   "committee": "MARK GREEN FOR CONGRESS",
+   "left": "2025-07-21",
+   "name": "former Rep. Mark E. Green"
+  },
+  "C00658401": {
+   "committee": "GREG PENCE FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Greg Pence"
+  },
+  "C00658567": {
+   "committee": "SUSAN WILD FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Susan Wild"
+  },
+  "C00658633": {
+   "committee": "FRIENDS OF BEN MCADAMS",
+   "left": "2021-01-03",
+   "name": "former Rep. Ben McAdams"
+  },
+  "C00660050": {
+   "committee": "COMMITTEE TO RE-ELECT STEVE WATKINS",
+   "left": "2021-01-03",
+   "name": "former Rep. Steve Watkins"
+  },
+  "C00662171": {
+   "committee": "RON WRIGHT FOR CONGRESS",
+   "left": "2021-02-07",
+   "name": "former Rep. Ron Wright"
+  },
+  "C00662577": {
+   "committee": "KATHY MANNING FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Kathy E. Manning"
+  },
+  "C00662619": {
+   "committee": "ANDY LEVIN FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Andy Levin"
+  },
+  "C00663419": {
+   "committee": "BOB STUMP FOR CONGRESS",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Stump"
+  },
+  "C00664375": {
+   "committee": "ELAINE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Elaine G. Luria"
+  },
+  "C00666149": {
+   "committee": "XOCHITL FOR NEW MEXICO",
+   "left": "2021-01-03",
+   "name": "former Rep. Xochitl Torres Small"
+  },
+  "C00666396": {
+   "committee": "MICHAEL WALTZ FOR CONGRESS",
+   "left": "2025-01-20",
+   "name": "former Rep. Michael Waltz"
+  },
+  "C00668137": {
+   "committee": "FRIENDS OF BRENDA JONES",
+   "left": "2019-01-03",
+   "name": "former Rep. Brenda Jones"
+  },
+  "C00668335": {
+   "committee": "MICHAEL SAN NICOLAS FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Michael F. Q. San Nicolas"
+  },
+  "C00670547": {
+   "committee": "ARMSTRONG FOR CONGRESS",
+   "left": "2024-12-14",
+   "name": "former Rep. Kelly Armstrong"
+  },
+  "C00676668": {
+   "committee": "ROSS SPANO FOR CONGRESS",
+   "left": "2021-01-03",
+   "name": "former Rep. Ross Spano"
+  },
+  "C00677492": {
+   "committee": "SHEILA CHERFILUS MCCORMICK FOR CONGRESS, INC",
+   "left": "2026-04-21",
+   "name": "former Rep. Sheila Cherfilus-McCormick"
+  },
+  "C00680488": {
+   "committee": "FRIENDS OF DENVER RIGGLEMAN, INC.",
+   "left": "2021-01-03",
+   "name": "former Rep. Denver Riggleman"
+  },
+  "C00694604": {
+   "committee": "KAHELE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Kaiali\u2019i Kahele"
+  },
+  "C00697789": {
+   "committee": "JERRY CARL FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Jerry L. Carl"
+  },
+  "C00699660": {
+   "committee": "BISHOP FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Dan Bishop"
+  },
+  "C00701102": {
+   "committee": "MIKE GARCIA FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Mike Garcia"
+  },
+  "C00704981": {
+   "committee": "MICHELLE STEEL FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Michelle Steel"
+  },
+  "C00706614": {
+   "committee": "TONY GONZALES FOR CONGRESS",
+   "left": "2026-04-14",
+   "name": "former Rep. Tony Gonzales"
+  },
+  "C00706788": {
+   "committee": "JACOBS FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Chris Jacobs"
+  },
+  "C00709196": {
+   "committee": "BOWMAN FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Jamaal Bowman"
+  },
+  "C00710962": {
+   "committee": "PETER MEIJER FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Peter Meijer"
+  },
+  "C00711150": {
+   "committee": "MONDAIRE FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Mondaire Jones"
+  },
+  "C00721308": {
+   "committee": "GOOD FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Bob Good"
+  },
+  "C00729608": {
+   "committee": "GEORGIANS FOR KELLY LOEFFLER",
+   "left": "2021-01-20",
+   "name": "former Sen. Kelly Loeffler"
+  },
+  "C00733394": {
+   "committee": "TAYLOR FOR CONGRESS 2020",
+   "left": "2019-01-03",
+   "name": "former Rep. Scott Taylor"
+  },
+  "C00735530": {
+   "committee": "MEEHAN FOR PA",
+   "left": "2018-04-27",
+   "name": "former Rep. Patrick Meehan"
+  },
+  "C00750547": {
+   "committee": "COMMITTEE TO ELECT ROBERT A. UNDERWOOD",
+   "left": "2003-01-03",
+   "name": "former Rep. Robert Underwood"
+  },
+  "C00753962": {
+   "committee": "KWANZA HALL FOR CONGRESS, INC.",
+   "left": "2021-01-03",
+   "name": "former Rep. Kwanza Hall"
+  },
+  "C00763045": {
+   "committee": "WILEY NICKEL FOR NORTH CAROLINA",
+   "left": "2025-01-03",
+   "name": "former Rep. Wiley Nickel"
+  },
+  "C00767400": {
+   "committee": "JEFF JACKSON FOR CONGRESS",
+   "left": "2024-12-31",
+   "name": "former Rep. Jeff Jackson"
+  },
+  "C00768705": {
+   "committee": "MOONEY FOR CONGRESS 2022",
+   "left": "2025-01-03",
+   "name": "former Rep. Alexander X. Mooney"
+  },
+  "C00768994": {
+   "committee": "MAYRA FLORES FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Mayra Flores"
+  },
+  "C00783142": {
+   "committee": "JD VANCE FOR SENATE INC.",
+   "left": "2025-01-09",
+   "name": "former Sen. J.D. Vance"
+  },
+  "C00783159": {
+   "committee": "JOE SEMPOLINSKI FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Joseph Sempolinski"
+  },
+  "C00783480": {
+   "committee": "JASON MINNICOZZI FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Mondaire Jones"
+  },
+  "C00784520": {
+   "committee": "LORI CHAVEZ-DEREMER FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Lori Chavez-DeRemer"
+  },
+  "C00787788": {
+   "committee": "CARAVEO FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Yadira Caraveo"
+  },
+  "C00788968": {
+   "committee": "BRUCE POLIQUIN FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Bruce Poliquin"
+  },
+  "C00789586": {
+   "committee": "MARC FOR US INC.",
+   "left": "2025-01-03",
+   "name": "former Rep. Marcus J. Molinaro"
+  },
+  "C00797878": {
+   "committee": "ELLMERS FOR NC",
+   "left": "2017-01-03",
+   "name": "former Rep. Renee L. Ellmers"
+  },
+  "C00799767": {
+   "committee": "MENENDEZ FOR CONGRESS",
+   "left": "2024-08-20",
+   "name": "former Sen. Robert Menendez"
+  },
+  "C00801050": {
+   "committee": "CONNIE CONWAY FOR CONGRESS",
+   "left": "2023-01-03",
+   "name": "former Rep. Connie Conway"
+  },
+  "C00801290": {
+   "committee": "DONNA EDWARDS 4 CONGRESS",
+   "left": "2017-01-03",
+   "name": "former Rep. Donna F. Edwards"
+  },
+  "C00806307": {
+   "committee": "BRANDON FOR CONGRESS NY22",
+   "left": "2025-01-03",
+   "name": "former Rep. Brandon Williams"
+  },
+  "C00808279": {
+   "committee": "JOHN DUARTE FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. John S. Duarte"
+  },
+  "C00809426": {
+   "committee": "DESPOSITO FOR NEW YORK",
+   "left": "2025-01-03",
+   "name": "former Rep. Anthony D\u2019Esposito"
+  },
+  "C00809608": {
+   "committee": "DENNIS ROSS FOR CONGRESS",
+   "left": "2019-01-03",
+   "name": "former Rep. Dennis A. Ross"
+  },
+  "C00812388": {
+   "committee": "MARY PELTOLA FOR ALASKA",
+   "left": "2025-01-03",
+   "name": "former Rep. Mary Sattler Peltola"
+  },
+  "C00866293": {
+   "committee": "RE-ELECT DENNIS KUCINICH",
+   "left": "2013-01-03",
+   "name": "former Rep. Dennis J. Kucinich"
+  },
+  "C00869933": {
+   "committee": "JOHN HOSTETTLER FOR CONGRESS",
+   "left": "2007-01-03",
+   "name": "former Rep. John Hostettler"
+  },
+  "C00870618": {
+   "committee": "MONTANANS FOR REHBERG 2024",
+   "left": "2013-01-03",
+   "name": "former Rep. Denny Rehberg"
+  },
+  "C00872564": {
+   "committee": "SANTOS FOR CONGRESS",
+   "left": "2023-12-01",
+   "name": "former Rep. George Santos"
+  },
+  "C00875252": {
+   "committee": "GREG LOPEZ FOR CONGRESS",
+   "left": "2025-01-03",
+   "name": "former Rep. Greg Lopez"
+  },
+  "C00881177": {
+   "committee": "BOYDA FOR CONGRESS",
+   "left": "2009-01-03",
+   "name": "former Rep. Nancy Boyda"
+  },
+  "C00885301": {
+   "committee": "SYLVESTER TURNER CAMPAIGN",
+   "left": "2025-03-04",
+   "name": "former Rep. Sylvester Turner"
+  },
+  "C00886473": {
+   "committee": "ERICA LEE CARTER FOR TEXAS",
+   "left": "2025-01-03",
+   "name": "former Rep. Erica Lee Carter"
+  },
+  "C00909440": {
+   "committee": "COLLINS FOR CONGRESS",
+   "left": "2019-10-01",
+   "name": "former Rep. Chris Collins"
+  },
+  "C00911743": {
+   "committee": "JESSEJACKSONJRFORCONGRESS.COM",
+   "left": "2012-11-21",
+   "name": "former Rep. Jesse L. Jackson Jr."
+  },
+  "C00916288": {
+   "committee": "FRIENDS OF SHERROD BROWN",
+   "left": "2025-01-03",
+   "name": "former Sen. Sherrod Brown"
+  },
+  "C00922153": {
+   "committee": "CORI FOR US",
+   "left": "2025-01-03",
+   "name": "former Rep. Cori Bush"
+  },
+  "C00929844": {
+   "committee": "ALLRED FOR TEXAS",
+   "left": "2025-01-03",
+   "name": "former Rep. Colin Z. Allred"
+  },
+  "C00930230": {
+   "committee": "FRIENDS OF STEVE STOCKMAN",
+   "left": "2015-01-03",
+   "name": "former Rep. Steve Stockman"
+  }
+ }
+}

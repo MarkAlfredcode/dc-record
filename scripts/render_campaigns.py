@@ -10,6 +10,7 @@ import json
 import sys
 
 from dc_common import strip_bold_tags, strip_li_wrapper
+from render_common import email_boxes
 
 NAVY = "#1c3b5e"
 RED = "#a6192e"
@@ -192,6 +193,7 @@ def render_footer(footer):
 def render(content):
     date_str = content["date"]
     parts = [HEAD.format(date=date_str), MASTHEAD.format(navy=NAVY, red=RED, ink=INK, date_upper=date_str.upper())]
+    parts.append(email_boxes(content, NAVY, INK, BODY_INK))
     parts.append(render_top_story(content["top_story"]))
     sections = content.get("sections", [])
     news_sections = [s for s in sections if not s.get("no_news")]

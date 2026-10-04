@@ -1,0 +1,2061 @@
+{
+ "_about": "Market-moving events that trade-timing checks (fetch_pfd_analysis.py, fetch_ethics_agreements.py, fetch_presidential_trades.py) compare disclosed trades against. A trade is flagged when its asset matches the event's sectors/keywords/tickers and its transaction date falls within window_before_days before (or window_after_days after) the event date. Events with \"date\": null are skipped until a verified date is filled in -- never guess a date here, this feeds an unattended newsletter. Add an event the day it happens; keywords are regex fragments matched against the asset description, case-insensitive, word-boundary-anchored at the start. Seeded 2026-10-03 from Wikipedia's quarterly 'Timeline of the second Trump presidency' pages (2025 Q1 - 2026 Q4) plus the '2025', '2026' and '2026 in the United States' pages; each event keeps the timeline line it came from and its first citation as 'source'. 'any_asset' events are market-wide shocks: every equity trade in their (short) window counts, bonds/munis don't.",
+ "sectors": {
+  "oil_gas": {
+   "keywords": [
+    "apa corp",
+    "cheniere",
+    "chevron",
+    "conocophillips",
+    "coterra",
+    "devon energy",
+    "diamondback",
+    "energy select",
+    "eog",
+    "exxon",
+    "halliburton",
+    "hess",
+    "liquefied natural gas",
+    "lng",
+    "marathon",
+    "natural gas",
+    "occidental",
+    "oil",
+    "oilfield",
+    "petroleum",
+    "phillips 66",
+    "schlumberger",
+    "slb",
+    "tanker",
+    "valero",
+    "ypf"
+   ],
+   "tickers": [
+    "APA",
+    "BP",
+    "COP",
+    "CTRA",
+    "CVX",
+    "DVN",
+    "EOG",
+    "FANG",
+    "HAL",
+    "HES",
+    "LNG",
+    "MPC",
+    "OIH",
+    "OXY",
+    "PSX",
+    "SHEL",
+    "SLB",
+    "SOC",
+    "TELL",
+    "TTE",
+    "USO",
+    "VLO",
+    "XLE",
+    "XOM",
+    "XOP",
+    "YPF"
+   ]
+  },
+  "defense": {
+   "keywords": [
+    "aerospace & defense",
+    "aerovironment",
+    "anduril",
+    "bae systems",
+    "boeing",
+    "booz allen",
+    "general dynamics",
+    "huntington ingalls",
+    "kratos",
+    "l3harris",
+    "leidos",
+    "lockheed",
+    "northrop",
+    "palantir",
+    "raytheon",
+    "rtx",
+    "spacex",
+    "textron"
+   ],
+   "tickers": [
+    "LMT",
+    "NOC",
+    "RTX",
+    "GD",
+    "LHX",
+    "HII",
+    "BA",
+    "PLTR",
+    "LDOS",
+    "KTOS",
+    "AVAV",
+    "BAH",
+    "TXT",
+    "ITA",
+    "XAR",
+    "PPA"
+   ]
+  },
+  "nuclear_uranium": {
+   "keywords": [
+    "uranium",
+    "nuclear",
+    "cameco",
+    "centrus",
+    "nuscale",
+    "oklo",
+    "constellation energy",
+    "bwx"
+   ],
+   "tickers": [
+    "CCJ",
+    "LEU",
+    "SMR",
+    "OKLO",
+    "CEG",
+    "BWXT",
+    "URA",
+    "URNM",
+    "NLR"
+   ]
+  },
+  "airlines": {
+   "keywords": [
+    "airlines",
+    "air lines",
+    "airways",
+    "alaska air",
+    "jetblue",
+    "southwest airlines",
+    "skywest",
+    "allegiant",
+    "frontier group",
+    "spirit aero"
+   ],
+   "tickers": [
+    "DAL",
+    "UAL",
+    "AAL",
+    "LUV",
+    "ALK",
+    "JBLU",
+    "SKYW",
+    "ALGT",
+    "ULCC",
+    "RJET",
+    "JETS"
+   ]
+  },
+  "crypto": {
+   "keywords": [
+    "bitcoin",
+    "ethereum",
+    "crypto",
+    "coinbase",
+    "microstrategy",
+    "strategy inc",
+    "marathon digital",
+    "riot platforms",
+    "grayscale",
+    "ishares bitcoin",
+    "stablecoin"
+   ],
+   "tickers": [
+    "COIN",
+    "MSTR",
+    "MARA",
+    "RIOT",
+    "IBIT",
+    "GBTC",
+    "FBTC",
+    "ETHA",
+    "HOOD"
+   ]
+  },
+  "ai_chips": {
+   "keywords": [
+    "nvidia",
+    "advanced micro devices",
+    "broadcom",
+    "taiwan semiconductor",
+    "micron",
+    "intel",
+    "super micro",
+    "arm holdings",
+    "marvell",
+    "semiconductor"
+   ],
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "TSM",
+    "MU",
+    "INTC",
+    "SMCI",
+    "ARM",
+    "MRVL",
+    "SMH",
+    "SOXX"
+   ]
+  },
+  "steel_aluminum": {
+   "keywords": [
+    "steel",
+    "aluminum",
+    "alcoa",
+    "nucor",
+    "cleveland-cliffs",
+    "century aluminum",
+    "steel dynamics",
+    "commercial metals",
+    "kaiser aluminum"
+   ],
+   "tickers": [
+    "X",
+    "NUE",
+    "CLF",
+    "STLD",
+    "AA",
+    "CENX",
+    "CMC",
+    "KALU",
+    "SLX"
+   ]
+  },
+  "autos": {
+   "keywords": [
+    "general motors",
+    "ford motor",
+    "stellantis",
+    "toyota",
+    "honda",
+    "tesla",
+    "rivian",
+    "lucid",
+    "aptiv",
+    "borgwarner",
+    "lear corp",
+    "magna",
+    "auto parts",
+    "autozone",
+    "o'reilly"
+   ],
+   "tickers": [
+    "GM",
+    "F",
+    "STLA",
+    "TM",
+    "HMC",
+    "TSLA",
+    "RIVN",
+    "LCID",
+    "APTV",
+    "BWA",
+    "LEA",
+    "MGA",
+    "CARZ"
+   ]
+  },
+  "pharma": {
+   "keywords": [
+    "pfizer",
+    "eli lilly",
+    "lilly",
+    "novo nordisk",
+    "merck",
+    "astrazeneca",
+    "johnson & johnson",
+    "abbvie",
+    "bristol-myers",
+    "amgen",
+    "gilead",
+    "regeneron",
+    "moderna",
+    "sanofi",
+    "gsk",
+    "novartis",
+    "roche",
+    "pharmaceutical"
+   ],
+   "tickers": [
+    "PFE",
+    "LLY",
+    "NVO",
+    "MRK",
+    "AZN",
+    "JNJ",
+    "ABBV",
+    "BMY",
+    "AMGN",
+    "GILD",
+    "REGN",
+    "MRNA",
+    "SNY",
+    "GSK",
+    "NVS",
+    "XLV",
+    "XPH",
+    "IHE"
+   ]
+  },
+  "health_insurers": {
+   "keywords": [
+    "unitedhealth",
+    "centene",
+    "molina",
+    "elevance",
+    "humana",
+    "cigna",
+    "cvs health",
+    "oscar health"
+   ],
+   "tickers": [
+    "UNH",
+    "CNC",
+    "MOH",
+    "ELV",
+    "HUM",
+    "CI",
+    "CVS",
+    "OSCR"
+   ]
+  },
+  "clean_energy": {
+   "keywords": [
+    "solar",
+    "wind",
+    "first solar",
+    "enphase",
+    "sunrun",
+    "nextera",
+    "orsted",
+    "plug power",
+    "renewable",
+    "clean energy",
+    "totalenergies"
+   ],
+   "tickers": [
+    "FSLR",
+    "ENPH",
+    "RUN",
+    "NEE",
+    "PLUG",
+    "SEDG",
+    "ICLN",
+    "TAN",
+    "TTE"
+   ]
+  },
+  "critical_minerals": {
+   "keywords": [
+    "rare earth",
+    "mp materials",
+    "lithium",
+    "albemarle",
+    "usa rare earth",
+    "energy fuels",
+    "critical metals",
+    "freeport",
+    "copper",
+    "cobalt",
+    "graphite"
+   ],
+   "tickers": [
+    "MP",
+    "ALB",
+    "USAR",
+    "UUUU",
+    "CRML",
+    "FCX",
+    "LAC",
+    "REMX",
+    "LIT",
+    "COPX"
+   ]
+  },
+  "agriculture": {
+   "keywords": [
+    "deere",
+    "archer-daniels",
+    "archer daniels",
+    "bunge",
+    "corteva",
+    "mosaic",
+    "nutrien",
+    "cf industries",
+    "tyson",
+    "agco"
+   ],
+   "tickers": [
+    "DE",
+    "ADM",
+    "BG",
+    "CTVA",
+    "MOS",
+    "NTR",
+    "CF",
+    "TSN",
+    "AGCO",
+    "MOO"
+   ]
+  },
+  "cannabis": {
+   "keywords": [
+    "cannabis",
+    "marijuana",
+    "tilray",
+    "canopy growth",
+    "curaleaf",
+    "green thumb",
+    "trulieve",
+    "cresco",
+    "aurora cannabis"
+   ],
+   "tickers": [
+    "TLRY",
+    "CGC",
+    "CURLF",
+    "GTBIF",
+    "TCNNF",
+    "MSOS",
+    "ACB"
+   ]
+  },
+  "shipping": {
+   "keywords": [
+    "shipping",
+    "tanker",
+    "maritime",
+    "frontline",
+    "scorpio tankers",
+    "zim integrated",
+    "matson",
+    "kirby corp",
+    "international seaways",
+    "dht holdings"
+   ],
+   "tickers": [
+    "FRO",
+    "STNG",
+    "ZIM",
+    "MATX",
+    "KEX",
+    "INSW",
+    "DHT",
+    "TNK",
+    "BWET"
+   ]
+  },
+  "aerospace": {
+   "keywords": [
+    "airbus",
+    "boeing",
+    "embraer",
+    "ge aerospace",
+    "general electric",
+    "heico",
+    "howmet",
+    "rtx",
+    "safran",
+    "space exploration technologies",
+    "spacex",
+    "spirit aerosystems",
+    "transdigm"
+   ],
+   "tickers": [
+    "BA",
+    "GE",
+    "RTX",
+    "HWM",
+    "SPR",
+    "HEI",
+    "TDG",
+    "EADSY",
+    "ERJ"
+   ]
+  },
+  "prediction_markets": {
+   "keywords": [
+    "robinhood",
+    "draftkings",
+    "flutter",
+    "fanduel",
+    "kalshi",
+    "polymarket",
+    "coinbase",
+    "cme group",
+    "intercontinental exchange"
+   ],
+   "tickers": [
+    "HOOD",
+    "DKNG",
+    "FLUT",
+    "COIN",
+    "CME",
+    "ICE"
+   ]
+  },
+  "insurers_utilities": {
+   "keywords": [
+    "edison international",
+    "southern california edison",
+    "pg&e",
+    "pacific gas",
+    "allstate",
+    "travelers",
+    "chubb",
+    "mercury general",
+    "progressive corp"
+   ],
+   "tickers": [
+    "EIX",
+    "PCG",
+    "ALL",
+    "TRV",
+    "CB",
+    "MCY",
+    "PGR"
+   ]
+  }
+ },
+ "events": [
+  {
+   "label": "Los Angeles wildfires (utility liability, insurers)",
+   "date": "2025-01-07",
+   "sectors": [
+    "insurers_utilities"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.bbc.co.uk/news/live/c5y81zyp1ext",
+   "timeline": "https://en.wikipedia.org/wiki/2025",
+   "timeline_text": "Greater Los Angeles experiences the most destructive wildfires in its history, fueled by strong winds and prolonged drought conditions. Over 13,000 structures are destroyed. At least 29 deaths are reported, while 180,000 people are evacuated, with fires continuing for days."
+  },
+  {
+   "label": "Trump announces Stargate, a $500B AI infrastructure venture",
+   "date": "2025-01-21",
+   "sectors": [
+    "ai_chips"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cbsnews.com/news/trump-announces-private-sector-ai-infrastructure-investment/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump announces Stargate, a new AI infrastructure company expected to invest up to $500 billion in the sector.",
+   "keywords": [
+    "oracle",
+    "softbank"
+   ],
+   "tickers": [
+    "ORCL",
+    "SFTBY"
+   ]
+  },
+  {
+   "label": "Executive order to build an \"Iron Dome for America\"",
+   "date": "2025-01-27",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.timesofisrael.com/liveblog_entry/trump-signs-executive-order-to-develop-iron-dome-for-america/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump signs an executive order to develop \u201cthe Iron Dome for America.\""
+  },
+  {
+   "label": "DeepSeek release triggers AI-chip selloff",
+   "date": "2025-01-27",
+   "sectors": [
+    "ai_chips"
+   ],
+   "window_before_days": 7,
+   "window_after_days": 2,
+   "source": "https://www.theguardian.com/business/2025/jan/27/tech-shares-asia-europe-fall-china-ai-deepseek",
+   "timeline": "https://en.wikipedia.org/wiki/2025",
+   "timeline_text": "Global technology shares outside China fall sharply in response to the release of DeepSeek's chatbot, a Chinese competitor to OpenAI's ChatGPT. Chip giant Nvidia loses almost $600 billion of its value, the biggest drop for a single company in U.S. stock market history."
+  },
+  {
+   "label": "Potomac River mid-air collision (American Airlines regional jet)",
+   "date": "2025-01-29",
+   "sectors": [],
+   "window_before_days": 7,
+   "window_after_days": 3,
+   "source": "https://www.cbsnews.com/news/crash-reagan-national-airport-washington-dc/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "American Eagle Flight 5342 collides with a U.S. Army helicopter over the Potomac River in Washington, D.C., killing all 67 people on board both aircraft.",
+   "keywords": [
+    "american airlines"
+   ],
+   "tickers": [
+    "AAL"
+   ]
+  },
+  {
+   "label": "First Canada/Mexico 25% and China 10% tariffs imposed",
+   "date": "2025-02-01",
+   "sectors": [
+    "autos"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nbcnews.com/politics/donald-trump/trudeau-retaliatory-tariffs-canada-us-trump-rcna190314",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "Canadian prime minister Justin Trudeau announces that Canada will respond to President Trump's decision to enact a 25% tariff on Canadian exports to the U.S. by implementing a retaliatory 25% tariff against $155 billion in U.S. goods."
+  },
+  {
+   "label": "25% tariff on all steel and aluminum imports",
+   "date": "2025-02-10",
+   "sectors": [
+    "steel_aluminum"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2025/02/10/politics/tariffs-steel-aluminum-trump/index.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump imposes a 25% tariff on all foreign imports of steel and aluminum to the United States."
+  },
+  {
+   "label": "Trump-Putin call opens Ukraine peace negotiations",
+   "date": "2025-02-12",
+   "sectors": [
+    "defense",
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2025/02/12/politics/putin-trump-phone-call/index.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump speaks with Russian president Vladimir Putin over the phone, agreeing to begin negotiations to end the Russian invasion of Ukraine."
+  },
+  {
+   "label": "Canada/Mexico tariffs confirmed for March 4 plus additional 10% on China",
+   "date": "2025-02-27",
+   "sectors": [
+    "autos"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2025/02/27/trump-says-mexico-canada-tariffs-will-start-march-4-plus-additional-10percent-on-china.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump announces 25% tariffs on Mexico and Canada will proceed on March 4, alongside a new, additional 10% tariff on China."
+  },
+  {
+   "label": "Trump announces a U.S. Crypto Strategic Reserve",
+   "date": "2025-03-02",
+   "sectors": [
+    "crypto"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2025/03/02/trump-announces-strategic-crypto-reserve-including-bitcoin-solana-xrp-and-more.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump announces a U.S. Crypto Strategic Reserve which will include Ripple (XRP), Solana (SOL), and Cardano (ADA). He clarified about 2 hours later that it will also include Bitcoin (BTC) and Ethereum (ETH).",
+   "keywords": [
+    "ripple",
+    "xrp",
+    "solana",
+    "cardano"
+   ]
+  },
+  {
+   "label": "TSMC commits $100B to U.S. chip manufacturing",
+   "date": "2025-03-03",
+   "sectors": [
+    "ai_chips"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.whitehouse.gov/articles/2025/03/another-historic-investment-secured-under-president-trump/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump announces TSMC will be investing at least $100 billion in U.S.-based semiconductor manufacturing."
+  },
+  {
+   "label": "30-day tariff break for automakers",
+   "date": "2025-03-05",
+   "sectors": [
+    "autos"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump announces a 30-day tariff break for the automobile manufacturing sector."
+  },
+  {
+   "label": "Trump and Musk promote Tesla vehicles at the White House",
+   "date": "2025-03-11",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nytimes.com/2025/03/11/us/politics/trump-buy-tesla-elon-musk.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "Responding to nationwide protests at Tesla showrooms over Elon Musk's role in the Trump administration, Trump and Musk promote several Tesla automobiles on the South Grounds of the White House in what the New York Times describes as \"part news conference, part car commercial.\"",
+   "keywords": [
+    "tesla"
+   ],
+   "tickers": [
+    "TSLA"
+   ]
+  },
+  {
+   "label": "U.S. airstrikes on Houthi-controlled Yemen",
+   "date": "2025-03-15",
+   "sectors": [
+    "defense",
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://apnews.com/article/trump-yemen-houthis-rebels-attack-airstrike-11b0e080b3982542dd621338a7b18afd",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump orders a series of airstrikes against Houthi-controlled Yemen in response to the Red Sea crisis, killing at least 31 people."
+  },
+  {
+   "label": "25% tariff on all imported cars",
+   "date": "2025-03-26",
+   "sectors": [
+    "autos"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.whitehouse.gov/presidential-actions/2025/03/adjusting-imports-of-automobiles-and-autombile-parts-into-the-united-states/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q1)",
+   "timeline_text": "President Trump imposes a 25% tariff on all foreign car imports, set to go into effect one week after the imposition."
+  },
+  {
+   "label": "\"Liberation Day\" universal and reciprocal tariffs announced",
+   "date": "2025-04-02",
+   "sectors": [],
+   "window_before_days": 10,
+   "window_after_days": 2,
+   "source": "https://www.cbsnews.com/news/liberation-day-trump-tariffs-explained/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "In what he calls \"Liberation Day\", President Trump announces a baseline 10% universal tariff on all goods brought into the U.S. taking effect on April 5. He also announces that discounted reciprocal tariffs will take effect April 9.",
+   "any_asset": true
+  },
+  {
+   "label": "Reciprocal tariffs paused for 90 days (except China)",
+   "date": "2025-04-09",
+   "sectors": [],
+   "window_before_days": 7,
+   "window_after_days": 1,
+   "source": "https://www.wsj.com/politics/elections/trump-authorizes-90-day-pause-on-reciprocal-tariffs-f31d5097?mod=politics_lead_story",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump announces on Truth Social that reciprocal tariffs above 10%, which had gone into effect that morning, will be paused for 90 days for all countries except China; China's minimum tariff rate will instead be increased to 145%.",
+   "any_asset": true
+  },
+  {
+   "label": "U.S.-Ukraine minerals agreement signed",
+   "date": "2025-04-30",
+   "sectors": [
+    "critical_minerals"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2025/05/01/world/what-we-know-about-trumps-ukraine-mineral-deal-intl",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "U.S. Treasury Secretary Scott Bessent and Ukrainian first deputy prime minister Yulia Svyrydenko sign the Ukraine\u2013United States Mineral Resources Agreement."
+  },
+  {
+   "label": "Budget proposes $1 trillion defense spending",
+   "date": "2025-05-02",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2025/05/02/politics/trump-budget-proposal-defense-spending",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "The White House proposes a budget that would increase defense spending 13% to total of $1 trillion, and cut $163 billion from non-defense spending including funds for foreign affairs, national parks, climate and science research, health care programs, and education."
+  },
+  {
+   "label": "U.S.-Houthi ceasefire ends Yemen airstrikes",
+   "date": "2025-05-06",
+   "sectors": [
+    "defense",
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.theguardian.com/world/2025/may/06/us-to-halt-bombing-campaign-against-houthis-in-yemen-trump-says",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump announces a ceasefire deal with the Houthis, ending the US\u2013UK airstrikes on Yemen that began in January 2024."
+  },
+  {
+   "label": "House GOP unveils One Big Beautiful Bill Act (Medicaid and green-energy cuts)",
+   "date": "2025-05-13",
+   "sectors": [
+    "health_insurers",
+    "clean_energy"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://apnews.com/article/congress-tax-cuts-republicans-medicaid-67013369b771d02c0128ee6421f302eb",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "House Republicans unveil a bill containing at least $4.9 trillion in tax cuts, to be partly paid for with cuts to Medicaid, food stamps and green energy programs. Named the One Big Beautiful Bill Act, the plan would reduce the number of people with health care by 8.6 million according to the nonpart"
+  },
+  {
+   "label": "U.S.-Saudi strategic economic partnership (energy, defense, AI)",
+   "date": "2025-05-13",
+   "sectors": [
+    "defense",
+    "ai_chips"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.latimes.com/world-nation/story/2025-05-13/trump-arrives-in-saudi-arabia-amid-much-pomp",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump arrives at the King Khalid International Airport in Saudi Arabia and meets with Saudi Crown Prince Mohammed bin Salman. They sign a strategic economic partnership agreement addressing energy, defense and other issues."
+  },
+  {
+   "label": "Qatar deal announced during Trump's Gulf trip, including Boeing aircraft",
+   "date": "2025-05-14",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.irishstar.com/news/bizarre-scenes-donald-trump-given-35225502",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump arrives at the Hamad International Airport in Qatar and meets with Emir Tamim bin Hamad Al Thani. His motorcade is escorted with red Tesla Cybertruck vehicles. During the trip, he announces a deal to acquire around 160 Boeing jets from Qatar Airways.",
+   "keywords": [
+    "boeing"
+   ],
+   "tickers": [
+    "BA"
+   ]
+  },
+  {
+   "label": "Executive orders to fast-track nuclear power and reform the NRC",
+   "date": "2025-05-23",
+   "sectors": [
+    "nuclear_uranium"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2025/05/23/trump-nuclear-executive-order.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "Trump signs a series of executive orders aiming to reform the Nuclear Regulatory Commission. The order contains language to \"adopt science-based radiation limits\" and orders to the NRC to \"reconsider reliance on the linear no-threshold (LNT) model for radiation exposure.\""
+  },
+  {
+   "label": "U.S. Steel-Nippon Steel partnership",
+   "date": "2025-05-25",
+   "sectors": [
+    "steel_aluminum"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/politics/live-news/trump-presidency-news-05-25-25",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "Discussing a recent partnership between US Steel and Japan, Trump mistakenly referrers to Japanese steel company Nippon as \"Nissan\" the Japanese automobile manufacturer.",
+   "keywords": [
+    "united states steel",
+    "u\\.s\\. steel",
+    "nippon steel"
+   ],
+   "tickers": [
+    "X",
+    "NPSCY"
+   ]
+  },
+  {
+   "label": "Steel tariffs doubled to 50%",
+   "date": "2025-05-30",
+   "sectors": [
+    "steel_aluminum"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.pbs.org/newshour/politics/watch-live-trump-delivers-remarks-at-rally-to-promote-deal-for-japan-based-company-and-u-s-steel",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump delivers remarks on U.S. steel deal in West Mifflin, Pennsylvania announcing he will double steel tariffs to 50%, potentially driving up prices for materials used to make houses, cars and other goods."
+  },
+  {
+   "label": "Trump-Musk feud; Trump threatens Musk's government subsidies and contracts",
+   "date": "2025-06-05",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.pbs.org/newshour/politics/in-trump-musk-feud-a-once-steady-alliance-turns-into-an-online-spectacle",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump and Elon Musk's online feud deteriorates further over social media, with Trump threatening to cut Musk's government subsidies and Musk writing \"Time to drop the really big bomb: Donald Trump is in the Epstein files. That is the real reason they have not been made public.\"",
+   "keywords": [
+    "tesla"
+   ],
+   "tickers": [
+    "TSLA"
+   ]
+  },
+  {
+   "label": "Air India Boeing 787 crash",
+   "date": "2025-06-12",
+   "sectors": [
+    "aerospace"
+   ],
+   "window_before_days": 7,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/business/aerospace-defense/authorities-identify-all-one-260-victims-air-india-plane-crash-2025-06-24/",
+   "timeline": "https://en.wikipedia.org/wiki/2025",
+   "timeline_text": "Air India Flight 171, a London-bound Boeing 787, crashes into a building after take-off from Ahmedabad, India, killing 229 passengers, 12 crew on board, and 19 people on the ground. One passenger survives the crash. It is the first fatal crash and hull loss involving a Boeing 787 Dreamliner."
+  },
+  {
+   "label": "Israel strikes Iran: start of the twelve-day war",
+   "date": "2025-06-13",
+   "sectors": [
+    "oil_gas",
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.bbc.co.uk/news/live/c93ydeqyq71t",
+   "timeline": "https://en.wikipedia.org/wiki/2025",
+   "timeline_text": "Iran\u2013Israel war: Israel conducts air strikes against Iran's nuclear facilities, killing military commanders including Hossein Salami; Iran retaliates."
+  },
+  {
+   "label": "U.S. strikes Iranian nuclear sites",
+   "date": "2025-06-21",
+   "sectors": [
+    "oil_gas",
+    "defense",
+    "nuclear_uranium"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.bbc.com/news/articles/c39z01m93r4o",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump orders direct strikes on multiple nuclear sites in Iran. Nuclear experts say the facilities only exist because of Trump's first term rejection of the 2015 Iran nuclear deal and that the President is neutralizing a threat of his own making."
+  },
+  {
+   "label": "Trump announces Israel-Iran ceasefire",
+   "date": "2025-06-23",
+   "sectors": [
+    "oil_gas",
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://thehill.com/homenews/5365135-trump-ceasefire-israel-iran/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q2)",
+   "timeline_text": "President Trump announces a ceasefire between Israel and Iran in the Iran\u2013Israel war. The purported ceasefire is broken within hours of the announcement."
+  },
+  {
+   "label": "Senate passes the One Big Beautiful Bill Act",
+   "date": "2025-07-01",
+   "sectors": [
+    "health_insurers",
+    "clean_energy"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.pbs.org/newshour/politics/senate-passes-trumps-reconciliation-bill-with-vance-casting-tie-breaking-vote",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "Vice President JD Vance casts a tie-breaking vote to pass the amended One Big Beautiful Bill Act in the Senate. According to the non-partisan Congressional Budget Office, the bill will add $2.8 trillion to the national debt."
+  },
+  {
+   "label": "GENIUS Act (stablecoins) signed into law",
+   "date": "2025-07-18",
+   "sectors": [
+    "crypto"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://apnews.com/article/donald-trump-stablecoins-congress-cryptocurrency-94fa3c85e32ec6fd5a55576cf46e58ea",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "President Trump signs the bipartisan cryptocurrency GENIUS Act into law.",
+   "keywords": [
+    "circle internet"
+   ],
+   "tickers": [
+    "CRCL"
+   ]
+  },
+  {
+   "label": "White House AI Action Plan released",
+   "date": "2025-07-23",
+   "sectors": [
+    "ai_chips"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.whitehouse.gov/articles/2025/07/white-house-unveils-americas-ai-action-plan/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "President Trump unveils his AI Action plan, coupled with the launch of AI.gov."
+  },
+  {
+   "label": "Apple's $100B U.S. pledge; 100% semiconductor tariff with exemptions",
+   "date": "2025-08-06",
+   "sectors": [
+    "ai_chips"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2025/08/06/politics/video/tim-cook-oval-office-trump-gift-gold-vrtc",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "Apple Inc. announces additional $100 billion in US investment, and gifts President Trump a plaque with a 24K gold base in exchange for an exemption on a proposed 100% tariff on semiconductors.",
+   "keywords": [
+    "apple"
+   ],
+   "tickers": [
+    "AAPL"
+   ]
+  },
+  {
+   "label": "Trump-Putin summit in Anchorage",
+   "date": "2025-08-15",
+   "sectors": [
+    "defense",
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "President Trump and Russian President Vladimir Putin participate in the summit at Joint Base Elmendorf\u2013Richardson in Anchorage, Alaska."
+  },
+  {
+   "label": "World Liberty Financial token launches",
+   "date": "2025-09-01",
+   "sectors": [
+    "crypto"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://abcnews.com/US/trump-family-profits-launch-world-liberty-financial-crypto/story?id=125179318",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "World Liberty Financial, a new company founded and majority owned by Trump and his family,launches a cryptocurrency token which immediately adds approximately $5 billion to the family's asset value. Trump himself owns an unspecified amount of the digital token."
+  },
+  {
+   "label": "Tariffs announced on branded drugs, heavy trucks and furniture",
+   "date": "2025-09-25",
+   "sectors": [
+    "pharma"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2025/09/26/us-to-impose-100percent-tariff-on-branded-patented-drugs-unless-firms-build-plants-locally-trump-says.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "President Trump issued a new round of tariffs including branded patented drugs, large trucks, and furniture, to be enacted in early October 2025.",
+   "keywords": [
+    "paccar",
+    "heavy truck",
+    "furniture",
+    "wayfair",
+    "rh\\b",
+    "la-z-boy"
+   ],
+   "tickers": [
+    "PCAR",
+    "W",
+    "RH",
+    "LZB"
+   ]
+  },
+  {
+   "label": "TrumpRx and Pfizer drug-pricing deal announced",
+   "date": "2025-09-30",
+   "sectors": [
+    "pharma"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2025/09/30/politics/pfizer-drug-prices-trump",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q3)",
+   "timeline_text": "President Trump announces TrumpRX (a direct-to-consumer website for discounted medicine) and a deal with Pfizer to reduce the cost of many of its products."
+  },
+  {
+   "label": "AstraZeneca drug-pricing deal",
+   "date": "2025-10-10",
+   "sectors": [
+    "pharma"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-announces-second-deal-to-bring-most-favored-nation-pricing-to-american-patients/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump announces the second agreement with pharmaceutical company, AstraZeneca, to bring American drug prices in line with the lowest paid by other developed nations."
+  },
+  {
+   "label": "Trump threatens 100% tariff on Chinese goods from Nov. 1",
+   "date": "2025-10-10",
+   "sectors": [],
+   "window_before_days": 7,
+   "window_after_days": 1,
+   "source": "https://thehill.com/homenews/administration/5550244-trump-raises-tariffs-china/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump announces on Truth Social that he would impose a 100% tariff on Chinese goods beginning on November 1.",
+   "any_asset": true
+  },
+  {
+   "label": "U.S.-Australia critical minerals deal",
+   "date": "2025-10-20",
+   "sectors": [
+    "critical_minerals"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cbsnews.com/news/trump-australia-critical-minerals-deal-rare-earths-china/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump holds a bilateral meeting with Australian prime minister Anthony Albanese at the White House, resulting in a critical minerals deal between the two countries."
+  },
+  {
+   "label": "Sanctions on Russia's two largest oil companies (Rosneft, Lukoil)",
+   "date": "2025-10-22",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://time.com/7327889/trump-united-states-european-union-sanctions-russia-oil-gas/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "Sanctions against two major Russian oil companies are announced by the US Treasury and the European Union."
+  },
+  {
+   "label": "UPS MD-11 cargo crash in Louisville",
+   "date": "2025-11-04",
+   "sectors": [
+    "aerospace"
+   ],
+   "window_before_days": 7,
+   "window_after_days": 3,
+   "source": "https://www.whas11.com/article/news/national/ups-plane-crash/mayor-greenberg-confirms-ups-crash-victim/417-eca72dde-f9e3-4e34-8bc3-7d1441e53605",
+   "timeline": "https://en.wikipedia.org/wiki/2025",
+   "timeline_text": "UPS Airlines Flight 2976, a Honolulu-bound McDonnell Douglas MD-11F, crashes shortly after take-off near Louisville Muhammad Ali International Airport in Kentucky, United States, killing all three crew members and 12 people on the ground, as well as injuring 22 others.",
+   "keywords": [
+    "united parcel",
+    "\\bups\\b"
+   ],
+   "tickers": [
+    "UPS"
+   ]
+  },
+  {
+   "label": "GLP-1 pricing deal with Eli Lilly and Novo Nordisk",
+   "date": "2025-11-06",
+   "sectors": [
+    "pharma"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2025/11/06/trump-eli-lilly-novo-nordisk-deal-obesity-drug-prices.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump announces deal with Eli Lilly and Novo Nordisk in regards to prices of GLP-1 drugs on Medicare and Medicaid and offer the drugs via the TrumpRX website.",
+   "keywords": [
+    "eli lilly",
+    "novo nordisk",
+    "hims"
+   ],
+   "tickers": [
+    "LLY",
+    "NVO",
+    "HIMS"
+   ]
+  },
+  {
+   "label": "Trump backs 28-point Russia-Ukraine peace plan",
+   "date": "2025-11-20",
+   "sectors": [
+    "defense",
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cbsnews.com/news/ukraine-russia-war-trump-approves-peace-plan-zelenskyy-not-on-board/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump reportedly approves a 28-point plan to end the Russo-Ukrainian war. Ukraine has not backed the plan so far."
+  },
+  {
+   "label": "Offshore oil and gas leasing opened on nearly all U.S. coasts",
+   "date": "2025-11-20",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://alaskabeacon.com/2025/11/21/trump-administration-proposes-offshore-leasing-in-almost-all-alaska-waters/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "The Trump administration announces plans to allow for offshore oil and gas leasing, opening up almost all of the Alaska marine waters, the entire Pacific coast and the Gulf of Mexico to development."
+  },
+  {
+   "label": "Maduro government designated a foreign terrorist organization",
+   "date": "2025-11-24",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2025/11/24/politics/venezuela-terrorist-designation-maduro",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "The Trump administration designats Venezuelan president Nicol\u00e1s Maduro and his government allies as members of a foreign terrorist organization."
+  },
+  {
+   "label": "$12 billion in payments to farmers announced",
+   "date": "2025-12-08",
+   "sectors": [
+    "agriculture"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.npr.org/2025/12/08/nx-s1-5637476/trump-administration-announcing-12-billion-in-one-time-payments-to-farmers",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump announces $12 billion in one-time payments to farmers during a White House roundtable with Treasury Secretary Scott Bessent and Agriculture Secretary Brooke Rollins."
+  },
+  {
+   "label": "U.S. seizes an oil tanker off Venezuela",
+   "date": "2025-12-10",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://apnews.com/live/donald-trump-news-updates-12-10-2025",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump announces that the US Coast Guard and Navy had seized an oil tanker off the coast of Venezuela as part of Operation Southern Spear."
+  },
+  {
+   "label": "Executive order to preempt state AI laws",
+   "date": "2025-12-11",
+   "sectors": [
+    "ai_chips"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.npr.org/2025/12/11/nx-s1-5638562/trump-ai-david-sacks-executive-order",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump signs an executive order directing the Justice Department to set up an AI Litigation Task Force to sue states over state AI laws. Additionally it tasked the Federal Trade Commission, DOJ, and Federal Communications Commission to circumvent any additional state or local regulations."
+  },
+  {
+   "label": "Executive order to reschedule cannabis to Schedule III",
+   "date": "2025-12-18",
+   "sectors": [
+    "cannabis"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2025_Q4)",
+   "timeline_text": "President Trump signs executive order that expedites the reclassification of cannabis from Schedule I to a Schedule III drug."
+  },
+  {
+   "label": "U.S. strikes Caracas and captures Maduro",
+   "date": "2026-01-03",
+   "sectors": [
+    "oil_gas",
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.bbc.co.uk/news/articles/cpdyvn176lzo",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "President Trump orders airstrikes in Caracas, the capital of Venezuela, and the Venezuelan President Nicol\u00e1s Maduro and the First Lady Cilia Flores are captured by American forces."
+  },
+  {
+   "label": "U.S. seizes shadow-fleet tankers (incl. Russian-flagged)",
+   "date": "2026-01-07",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nytimes.com/live/2026/01/07/world/venezuela-us-trump",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "The United States seizes two shadow fleet tankers, including one under a Russian flag, in the United States oil blockade during Operation Southern Spear."
+  },
+  {
+   "label": "Allegiant to buy Sun Country for $1.5B",
+   "date": "2026-01-11",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.entrepreneur.com/business-news/allegiant-is-buying-sun-country-for-15-billion/501787",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Low-cost airline Allegiant Air purchases Sun Country Airlines for $1.5 billion.",
+   "keywords": [
+    "allegiant",
+    "sun country"
+   ],
+   "tickers": [
+    "ALGT",
+    "SNCY"
+   ]
+  },
+  {
+   "label": "10% tariff on European goods over Greenland",
+   "date": "2026-01-17",
+   "sectors": [],
+   "window_before_days": 7,
+   "window_after_days": 2,
+   "source": "https://www.bbc.co.uk/news/live/c1j8kw866p3t",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Trump confirms that European countries will be hit with a 10% tariff on \"all or any goods\" exported to the US from February 1, amid the dispute over Greenland.",
+   "any_asset": true
+  },
+  {
+   "label": "Project Vault: $12B critical-minerals stockpile",
+   "date": "2026-02-02",
+   "sectors": [
+    "critical_minerals"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/business/autos-transportation/trump-announces-creation-critical-mineral-reserve-2026-02-02/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "President Trump formally launches \u201cProject Vault,\u201d a $12 billion U.S. strategic critical-minerals reserve to stockpile rare earths and battery metals, aiming to shield American industry from China-linked supply shocks."
+  },
+  {
+   "label": "New START nuclear arms treaty expires",
+   "date": "2026-02-05",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/world/china/new-nuclear-age-beckons-clock-ticks-down-last-russia-us-arms-deal-2026-02-04/",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "The New START treaty limiting strategic nuclear weapons between the United States and Russia expires."
+  },
+  {
+   "label": "Supreme Court strikes down IEEPA tariffs",
+   "date": "2026-02-20",
+   "sectors": [],
+   "window_before_days": 10,
+   "window_after_days": 2,
+   "source": "https://www.nbcnews.com/politics/supreme-court/supreme-court-strikes-trumps-tariffs-major-blow-president-rcna244827",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "The Supreme Court rules that President Trump exceeded his authority in imposing tariffs on products entering the United States under the 1977 law; International Emergency Economic Powers Act. The ruling invalidates many, but not all of the enacted tariffs.",
+   "any_asset": true
+  },
+  {
+   "label": "Meta agrees to buy AMD AI chips (up to 6 GW)",
+   "date": "2026-02-24",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.wsj.com/tech/ai/meta-and-amd-agree-to-ai-chips-deal-worth-more-than-100-billion-9c7fd06b?gaa_at=eafs&gaa_n=AWEtsqcPP4BY3xiES4yOqpUDHO-QhtdoKjUbjeqSIQHE9CI29fcEa64HtrFrAlAUruI%3D&gaa_ts=699e39df&gaa_sig=e-bFMPtAuB1lIDCQRAuGboDB-zbdta1K6pifgOAiFF0C5IpxIfOluK0DnBiaU2QC08XRNqgCwjfytYfeIBsvwA%3D%3D",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Meta agrees to purchase millions of artificial intelligence chips from AMD, with AMD committing to supply up to six gigawatts of graphics processing units and issuing Meta warrants convertible into 160 million shares as part of a long-term partnership.",
+   "keywords": [
+    "advanced micro devices",
+    "meta platforms"
+   ],
+   "tickers": [
+    "AMD",
+    "META"
+   ]
+  },
+  {
+   "label": "U.S. and Israel launch strikes on Iran: start of the Iran war",
+   "date": "2026-02-28",
+   "sectors": [
+    "oil_gas",
+    "defense",
+    "nuclear_uranium",
+    "airlines",
+    "shipping"
+   ],
+   "window_before_days": 21,
+   "window_after_days": 3,
+   "source": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "The United States and Israeli militaries launch joint strikes on Iran, targeting key officials, and military facilities."
+  },
+  {
+   "label": "Iran war begins (market-wide)",
+   "date": "2026-02-28",
+   "sectors": [],
+   "window_before_days": 7,
+   "window_after_days": 1,
+   "source": "https://www.nytimes.com/live/2026/02/28/world/iran-strikes-trump",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "The United States and Israeli militaries launch joint strikes on Iran, targeting key officials, and military facilities.",
+   "any_asset": true
+  },
+  {
+   "label": "TikTok U.S. deal completed (Oracle, Silver Lake, MGX)",
+   "date": "2026-03-13",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.wsj.com/tech/tiktok-deal-fee-trump-administration-5aa31c9f",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "It is reported that the Trump administration is set to receive about $10 billion in fees from investors, such as Oracle, Silver Lake, and MGX, through the recently completed deal to control TikTok's US business from the Chinese parent company ByteDance.",
+   "keywords": [
+    "oracle"
+   ],
+   "tickers": [
+    "ORCL"
+   ]
+  },
+  {
+   "label": "U.S. strikes Iran's Kharg Island oil hub",
+   "date": "2026-03-13",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://thehill.com/homenews/administration/5783850-trump-bombs-iran-kharg-island/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "In a Truth Social post, President Trump claims that the US military had \"obliterated\" every military target on Iran's Kharg Island through bombing raids. He claimed that for \"decency\" they did not wipe out oil infrastructure on the island."
+  },
+  {
+   "label": "Defense Production Act invoked for energy; Sable Offshore ordered to restart",
+   "date": "2026-03-13",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.latimes.com/california/story/2026-03-13/trump-administration-orders-restart-of-california-coastal-oil-drilling",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "President Trump signs an executive order giving the Department of Energy the ability to use the Defense Production Act from the Cold War. Energy Secretary Chris Wright shortly after ordered the Sable Offshore Corp to restore operations of the Santa Ynez Unit and the Gaviota Coast Pipeline System in ",
+   "keywords": [
+    "sable offshore"
+   ],
+   "tickers": [
+    "SOC"
+   ]
+  },
+  {
+   "label": "Arizona files first criminal charges against Kalshi",
+   "date": "2026-03-17",
+   "sectors": [
+    "prediction_markets"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.npr.org/2026/03/17/nx-s1-5751165/kalshi-criminal-charges-arizona",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Arizona Attorney General Kris Mayes files the first criminal charges against Kalshi, alleging that the prediction market is hosting illegal gambling and breaking state law by betting on elections."
+  },
+  {
+   "label": "Pentagon seeks $200B more for the Iran war",
+   "date": "2026-03-19",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://apnews.com/article/iran-war-us-pentagon-972ec1bd956a2c3633e6ab7fff389791",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The Pentagon seeks $200 billion in additional funds for the Iran war."
+  },
+  {
+   "label": "Sanctions temporarily lifted on Iranian oil at sea",
+   "date": "2026-03-20",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nytimes.com/2026/03/20/world/middleeast/us-sanctions-iran-oil.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "In an attempt to tame oil prices, the Treasury department announced they will temporarily lift sanctions for 30 days on Iranian oil that is currently at sea."
+  },
+  {
+   "label": "$1B payment for TotalEnergies to drop offshore wind leases",
+   "date": "2026-03-23",
+   "sectors": [
+    "clean_energy"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.npr.org/2026/03/23/g-s1-114868/trump-totalenergies-offshore-wind-leases",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)",
+   "timeline_text": "The Department of Interior announced that it will pay $1 billion to French company TotalEnergies to walk away from two offshore wind farm leases off the coasts of North Carolina and New York. The payment was a refund of its prior lease payments."
+  },
+  {
+   "label": "Appeals court overturns $16.1B YPF judgment against Argentina",
+   "date": "2026-03-27",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "A federal appeals court overturns a $16.1 billion judgment against Argentina over their nationalization of oil firm YPF.",
+   "keywords": [
+    "ypf"
+   ],
+   "tickers": [
+    "YPF"
+   ]
+  },
+  {
+   "label": "New tariffs on branded drugs from companies without pricing deals",
+   "date": "2026-04-02",
+   "sectors": [
+    "pharma"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2026/04/02/trump-pharmaceutical-tariffs-100percent.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "The Trump administration imposed new tariffs on branded drugs from pharmaceutical companies that have not struck deals with the US to lower US drug prices."
+  },
+  {
+   "label": "Trump requests record defense budget ($1.15T base)",
+   "date": "2026-04-03",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.politico.com/news/2026/04/03/trump-white-house-budget-00857167",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "President Trump requested $1.15 trillion in base defense budget spending from Congress."
+  },
+  {
+   "label": "Two-week Iran ceasefire announced",
+   "date": "2026-04-07",
+   "sectors": [
+    "oil_gas",
+    "defense",
+    "airlines"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/world/asia-pacific/trump-agrees-two-week-ceasefire-iran-says-safe-passage-through-hormuz-possible-2026-04-08/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "President Trump announces on Truth Social that a two-week ceasefire with Iran has been reached, two hours before his deadline."
+  },
+  {
+   "label": "Islamabad talks fail; U.S. blockades Iranian shipping",
+   "date": "2026-04-12",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.bbc.com/news/articles/c5y7k4y0veyo",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "Vice President Vance returned home from Islamabad, having failed to reach a deal in ceasefire negotiations. In response, Trump and the U.S. military announced it would blockade all shipping maritime traffic entering and exiting Iranian ports."
+  },
+  {
+   "label": "Marijuana formally reclassified to Schedule III",
+   "date": "2026-04-23",
+   "sectors": [
+    "cannabis"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://abcnews.com/Health/acting-ag-todd-blanche-signs-order-reclassifying-state/story?id=132308701",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Acting Attorney General Blanche reclassifies marijuana to a Schedule III drug."
+  },
+  {
+   "label": "WBD shareholders approve $111B Paramount Skydance acquisition",
+   "date": "2026-04-23",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/legal/transactional/warner-bros-shareholders-back-110-billion-merger-with-paramount-skydance-2026-04-23/",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Warner Bros. Discovery shareholders approve Paramount Skydance's proposed acquisition of the company in a deal valued at $111 billion including debt, moving the merger a step closer to completion pending regulatory approval.",
+   "keywords": [
+    "warner bros",
+    "discovery",
+    "paramount",
+    "netflix"
+   ],
+   "tickers": [
+    "WBD",
+    "PSKY",
+    "NFLX"
+   ]
+  },
+  {
+   "label": "Spirit Airlines shuts down, citing Iran-war fuel costs",
+   "date": "2026-05-01",
+   "sectors": [
+    "airlines"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "Spirit Airlines shuts down operations, citing high fuel costs stemming from the 2026 Iran War .",
+   "keywords": [
+    "spirit"
+   ],
+   "tickers": [
+    "SAVE"
+   ]
+  },
+  {
+   "label": "UAE leaves OPEC",
+   "date": "2026-05-01",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://economictimes.indiatimes.com/news/international/us/opec-just-lost-one-of-its-biggest-players-heres-the-inside-story-of-the-uaes-exit-and-what-the-saudi-uae-split-really-means-for-opecs-market-power/articleshow/130634333.cms?from=mdr",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "The United Arab Emirates leaves OPEC, ending six decades of membership and removing one of the organization's largest oil producers."
+  },
+  {
+   "label": "Operation Epic Fury declared concluded",
+   "date": "2026-05-05",
+   "sectors": [
+    "oil_gas",
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://time.com/article/2026/05/05/rubio-iran-epic-fury-over-strait-hormuz/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "U.S. Secretary of State Marco Rubio announces that Operation Epic Fury has concluded, with the US shifting focus to a more defensive position and restoring commercial passage through the Strait of Hormuz."
+  },
+  {
+   "label": "Oil plunges on report of imminent Iran ceasefire",
+   "date": "2026-05-06",
+   "sectors": [
+    "oil_gas",
+    "airlines"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nbcnews.com/business/business-news/oil-markets-gas-prices-450-us-iran-near-deal-end-war-hormuz-rcna343819",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "Prices of oil plunged and markets surged after a report was issued that the US believed a ceasefire to end the Iran war and reopening of the Strait of Hormuz was imminent. Shortly before the announcement, the average retail US gas price was reported at $4.50 per gallon."
+  },
+  {
+   "label": "Antares nuclear microreactor reaches criticality at Idaho National Lab",
+   "date": "2026-06-05",
+   "sectors": [
+    "nuclear_uranium"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.pbs.org/newshour/nation/energy-department-says-advanced-nuclear-reactor-first-to-reach-critical-milestone",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Energy Secretary Chris Wright announces a nuclear microreactor developed by Antares Nuclear at the Idaho National Laboratory reached criticality, a milestone for the Trump administration's development of nuclear energy."
+  },
+  {
+   "label": "U.S. resumes strikes on Iran",
+   "date": "2026-06-10",
+   "sectors": [
+    "oil_gas",
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2026/06/10/trump-iran-war-attacks-deal.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "The United States struck multiple targets in Iran, following comments by President Trump who promised that the US would strike Iran \"hard again today\" while pressing Iran to sign a deal and end the war."
+  },
+  {
+   "label": "SpaceX IPO, largest ever (>$2T valuation)",
+   "date": "2026-06-12",
+   "sectors": [],
+   "window_before_days": 21,
+   "window_after_days": 3,
+   "source": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-20-2026",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "Elon Musk becomes the first US dollar trillionaire with the initial public offering of SpaceX.",
+   "keywords": [
+    "spacex",
+    "space exploration technologies"
+   ]
+  },
+  {
+   "label": "Preliminary deal to end the Iran war",
+   "date": "2026-06-14",
+   "sectors": [
+    "oil_gas",
+    "defense",
+    "airlines"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://apnews.com/article/iran-us-war-ceasefire-deal-e0a9e4e1152ea8da10ea066ad174a23a",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)",
+   "timeline_text": "President Trump announces he has reached a preliminary deal to end the 2026 Iran war."
+  },
+  {
+   "label": "U.S. says it won't renew USMCA",
+   "date": "2026-07-01",
+   "sectors": [
+    "autos",
+    "agriculture"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nbcnews.com/business/economy/trump-usmca-renewal-tariffs-trade-rcna352594",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Trade Representative Jamieson Greer announces that the US will not renew the USMCA free trade agreement signed during Trump's first administration."
+  },
+  {
+   "label": "Turkey sanctions lifted; F-35 sales considered",
+   "date": "2026-07-07",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/world/middle-east/trump-says-will-lift-turkey-sanctions-decide-selling-f-35s-2026-07-07/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "President Trump announced the lifting of sanctions on Turkey and decide about potential sales of F-35s to Ankara at the start of a meeting with Turkish president Tayyip Erdogan at the NATO summit.",
+   "keywords": [
+    "lockheed"
+   ],
+   "tickers": [
+    "LMT"
+   ]
+  },
+  {
+   "label": "Islamabad Memorandum collapses; Iran ceasefire ends",
+   "date": "2026-07-08",
+   "sectors": [
+    "oil_gas",
+    "defense",
+    "shipping",
+    "airlines"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/world/europe/trump-says-interim-accord-with-iran-end-war-is-over-2026-07-08/",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "2026 Iran war: The Islamabad Memorandum between the United States and Iran breaks down, with U.S. President Trump saying the agreement is \"over\" following renewed U.S. strikes on Iranian targets."
+  },
+  {
+   "label": "Section 232 action on commercial aircraft and engines",
+   "date": "2026-07-09",
+   "sectors": [
+    "aerospace"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.whitehouse.gov/presidential-actions/2026/07/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "President Trump signs a proclamation under Section 232 of the Trade Expansion Act of 1962 directing the Commerce Department and United States Trade Representative to negotiate agreements with foreign countries to address imports of commercial aircraft, jet engines, and aircraft and engine parts that"
+  },
+  {
+   "label": "IRGC closes the Strait of Hormuz again",
+   "date": "2026-07-11",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.haaretz.com/israel-news/israel-security/2026-07-11/ty-article-live/aoc-calls-to-release-gaza-hospital-director-hussam-abu-safiya/0000019f-4de2-d38b-afbf-5ff684110004?liveBlogItemId=785550510#785550510",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Iran war: Iran's IRGC navy says that it has closed the Strait until further notice after firing a warning shot at a vessel trying to transit through an unapproved route."
+  },
+  {
+   "label": "20% fee on all cargo through the Strait of Hormuz",
+   "date": "2026-07-13",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2026/07/13/trump-iran-hormuz-strait-charge-reimburse.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "President Trump announced that the US will impose fees at a 20% rate on all cargo shipped in the Strait of Hormuz, and called the US the \"guardian\" of the route. He also announced the reintroduction of the blockade of Iranian ports starting on July 14."
+  },
+  {
+   "label": "50% tariffs on most Canadian goods",
+   "date": "2026-07-20",
+   "sectors": [
+    "autos",
+    "steel_aluminum"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.npr.org/2026/07/21/nx-s1-5901905/trump-imposes-tariffs-canadian-goods",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "President Trump imposed 50% tariffs on most Canadian goods, and raised claims that Canada had discriminated against American autos, alcohol, and dairy products."
+  },
+  {
+   "label": "Houthis declare Bab el-Mandeb blockade against Saudi Arabia",
+   "date": "2026-07-20",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/world/middle-east/yemens-houthis-declare-naval-blockade-against-saudi-arabia-statement-2026-07-20/",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "2026 Iran war: The Houthis announce a maritime blockade against Saudi Arabia on the Bab el-Mandeb strait."
+  },
+  {
+   "label": "U.S.-Saudi deal could allow Saudi uranium enrichment",
+   "date": "2026-07-22",
+   "sectors": [
+    "nuclear_uranium"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nytimes.com/live/2026/07/23/us/trump-news",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "The Trump administration signs a deal with Saudi Arabia that officials say could allow the country to enrich fuel for nuclear reactors."
+  },
+  {
+   "label": "New 10-12.5% tariffs on 60 trading partners",
+   "date": "2026-07-23",
+   "sectors": [],
+   "window_before_days": 7,
+   "window_after_days": 2,
+   "source": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "United States Trade Representative Jamieson Greer imposes tariffs of 10% or 12.5% on most imports from 60 major trading partners, including China, the United Kingdom and the European Union, citing their failure to adequately restrict imports produced using forced labour. The countries and territorie",
+   "any_asset": true
+  },
+  {
+   "label": "Oval Office announcement on American nuclear innovation",
+   "date": "2026-07-24",
+   "sectors": [
+    "nuclear_uranium"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "President Trump makes an announcement on American nuclear innovation in the Oval Office."
+  },
+  {
+   "label": "Lockheed wins record $58.6B Patriot interceptor contract",
+   "date": "2026-07-30",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.timesofisrael.com/liveblog_entry/us-awards-lockheed-martin-a-record-58-6b-contract-to-produce-patriot-missile-interceptors/",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The US awards Lockheed Martin a record $58.6 billion contract to manufacture Patriot missile interceptors, as the Middle Eastern crisis and the Russo-Ukrainian war reduced global US military armament stocks.",
+   "keywords": [
+    "lockheed"
+   ],
+   "tickers": [
+    "LMT"
+   ]
+  },
+  {
+   "label": "Trump criticizes oil-company windfall profits",
+   "date": "2026-08-03",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnbc.com/2026/08/03/trump-says-exxon-and-chevron-made-too-much-money-off-high-oil-prices-during-iran-conflict-i-dont-like-it.html",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "Following reports of windfall profits for Exxon and Chevron, President Trump states he did not like the fact that oil companies were making so much money in response to the ongoing Iran War."
+  },
+  {
+   "label": "Pentagon asks industry to accelerate munitions production",
+   "date": "2026-08-08",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.washingtonpost.com/technology/2026/08/08/pentagon-presses-defense-firms-build-weapons-iran-war-depletes-stocks/?pwapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWFzb24iOiJnaWZ0IiwibmJmIjoxNzg2MTYxNjAwLCJpc3MiOiJzdWJzY3JpcHRpb25zIiwiZXhwIjoxNzg3NTQzOTk5LCJpYXQiOjE3ODYxNjE2MDAsImp0aSI6IjljNzhhODE5LTc3NmUtNDQxNC1hZGVkLTUwMjU1MGRlODlhOCIsInVybCI6Imh0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS90ZWNobm9sb2d5LzIwMjYvMDgvMDgvcGVudGFnb24tcHJlc3Nlcy1kZWZlbnNlLWZpcm1zLWJ1aWxkLXdlYXBvbnMtaXJhbi13YXItZGVwbGV0ZXMtc3RvY2tzLyJ9.U-HXpVG9XrIL4Sg5iBlmh_h6C5wZm_PjrpBexmpxfIQ",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The United States Department of Defense asks the US defense sector to accelerate the manufacturing and delivery of armaments, including ammunition that is in short supply because of the 2026 Iran war."
+  },
+  {
+   "label": "\"Economic D-Day\": sanctions on any nation trading with Iran",
+   "date": "2026-08-20",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://doi.org/10.64628/aa.rh9etjgpa",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "2026 Iran war: U.S President Donald Trump announces an \"Economic D-Day\" against Iran, calling on allies to join efforts to isolate Iran economically."
+  },
+  {
+   "label": "FDA approves Revolution Medicines' daraxonrasib",
+   "date": "2026-08-26",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://apnews.com/article/pancreatic-cancer-drug-fda-approval-rasonque-03e437bfb8d728ec2a73b142cf8ec2fe",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The FDA approves the new daraxonrasib drug by Revolution Medicines to treat pancreatic cancer. Studies and testing found that patients taking the drug nearly doubled their survival time with fewer side effects.",
+   "keywords": [
+    "revolution medicines"
+   ],
+   "tickers": [
+    "RVMD"
+   ]
+  },
+  {
+   "label": "Deal for a large share of Venezuela's oil reserves",
+   "date": "2026-08-28",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://thehill.com/homenews/administration/6058643-trump-says-he-secured-majority-u-s-control-of-large-slice-of-venezuelas-oil-reserve/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "President Trump announces that he has secured deal on a large swath of Venezuela's oil reserves."
+  },
+  {
+   "label": "Pentagon signs 7-year munitions deals with General Dynamics and Lockheed",
+   "date": "2026-08-31",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.timesofisrael.com/liveblog_entry/pentagon-signs-7-year-deals-to-increase-missile-production/",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The Pentagon signs seven-year agreements with General Dynamics Ordnance and Tactical Systems and Lockheed Martin to boost production quantities and expedite delivery schedules for critical missile subcomponents supporting THAAD and Patriot missiles."
+  },
+  {
+   "label": "Nvidia to buy Hugging Face for $12.9B",
+   "date": "2026-09-03",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Chipmaker Nvidia agrees to buy the Hugging Face AI platform in a deal worth $12.9 billion.",
+   "keywords": [
+    "nvidia"
+   ],
+   "tickers": [
+    "NVDA"
+   ]
+  },
+  {
+   "label": "Oil tops $100 again",
+   "date": "2026-09-09",
+   "sectors": [
+    "oil_gas",
+    "airlines"
+   ],
+   "window_before_days": 10,
+   "window_after_days": 2,
+   "source": "https://www.nytimes.com/2026/09/09/business/brent-oil-100-barrel-iran-war.html?unlocked_article_code=1._1A.P17g.6GHbNAjgUiRY",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The price of oil exceeds $100 per barrel for the first time since July."
+  },
+  {
+   "label": "Saudi East-West Pipeline shut after drone strikes",
+   "date": "2026-09-10",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.msn.com/en-us/news/world/why-saudi-arabia-s-east-west-pipeline-matters-for-global-oil/ar-AA2ccag2",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "11 \u2013 2026 Iran war: Saudi Arabia temporarily shuts down the East-West Pipeline following damage sustained from drone strikes launched from Iraqi territory."
+  },
+  {
+   "label": "GM begins making Patriot interceptor parts for Lockheed",
+   "date": "2026-09-17",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.timesofisrael.com/liveblog_entry/lockheed-martin-gets-first-batch-of-patriot-interceptor-parts-from-general-motors/",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Lockheed Martin receives the first batch of Patriot interceptor parts from General Motors less than a month after the two companies signed a manufacturing agreement, in a success for the Pentagon's push for faster weapon production, particularly the Patriot missile defense system, as it remained one",
+   "keywords": [
+    "general motors",
+    "lockheed"
+   ],
+   "tickers": [
+    "GM",
+    "LMT"
+   ]
+  },
+  {
+   "label": "DFC backs Global Atomic's Niger uranium project",
+   "date": "2026-09-17",
+   "sectors": [
+    "nuclear_uranium"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.aljazeera.com/news/2026/9/17/us-approves-414m-uranium-investment-in-niger-two-years-after-troops-left",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The U.S. International Development Finance Corporation approves a debt facility worth up to $414 million for Canadian miner Global Atomic's Dasa project in Niger, which the company describes as the highest-grade uranium deposit in Africa.",
+   "keywords": [
+    "global atomic"
+   ],
+   "tickers": [
+    "GLATF"
+   ]
+  },
+  {
+   "label": "Russia/Iran sanctions act signed (tariffs on Russian-oil buyers)",
+   "date": "2026-09-19",
+   "sectors": [
+    "oil_gas",
+    "shipping"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.aljazeera.com/news/2026/9/19/trump-signs-sweeping-russia-sanctions-over-ukraine-war",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Trump signs the \"Lindsey O Graham Sanctioning Russia and Iran Act of 2026,\" which allows him to impose tariffs of up to 100 percent on Russian oil buyers, including China and India, in response to the country's war in Ukraine, as well as to extend existing sanctions on Iran."
+  },
+  {
+   "label": "Trump rejects Iran ceasefire proposal; resumed bombing expected",
+   "date": "2026-09-25",
+   "sectors": [
+    "oil_gas",
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.wsj.com/world/middle-east/trump-rejects-iran-ceasefire-expects-renewed-bombing-after-midterms-5982ee50",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "Trump rejects an Iranian proposal for a ceasefire which would have reopened the Strait of Hormuz and resumed nuclear talks. Trump has told aides that he expects to resume bombing Iran after the 2026 midterm elections."
+  },
+  {
+   "label": "Administration rolls back vehicle fuel-economy (CAFE) standards",
+   "date": "2026-09-28",
+   "sectors": [
+    "autos"
+   ],
+   "window_before_days": 21,
+   "window_after_days": 3,
+   "source": "https://thehill.com/homenews/administration/6114586-live-updates-trump-iran-midterms-college-sports-act-supreme-court/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "The Trump administration rolls back vehicle fuel economy standards alleging that the Biden administration \"went far beyond\" Congressional requirements.",
+   "added_by": "every-10-days refresh"
+  },
+  {
+   "label": "South Korean investment in an Alaska natural-gas pipeline",
+   "date": "2026-09-30",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cbsnews.com/news/trump-south-korean-investment-alaska-gas-pipeline/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)",
+   "timeline_text": "President Trump announces the investment by South Korea into an natural gas pipeline in Alaska with exports of the product to Asia."
+  },
+  {
+   "label": "Europe to release diesel stockpiles after G7 call",
+   "date": "2026-10-02",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cbsnews.com/news/trump-europe-diesel-oil-release/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q4)",
+   "timeline_text": "Following a G7 video conference to discuss fuel supply and prices President Trump announces that Europe would release diesel oil from its stockpiles. A joint statement from G7 leaders was released by the \u00c9lys\u00e9e Palace confirming the release over a four month period."
+  }
+ ]
+}

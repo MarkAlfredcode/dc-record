@@ -7,3 +7,6 @@ content-*.json
 *.flag
 claude_result.json
 claude_mechanical_result.json
+extras/
+events_additions.json
+events_summary.txt

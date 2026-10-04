@@ -1,0 +1,22 @@
+{
+  "_about": "Industries fetch_lda_trends.py watches in new LDA filings. 'search' terms are sent to lda.gov's loose token search (one API call each, rate limit ~15/min, so keep the list short); 'confirm' regexes are then checked locally against the filing's client name/description, registrant name, and lobbying-activity text -- a filing only counts if a confirm regex matches.",
+  "industries": {
+    "Prediction markets": {
+      "search": [["client_name", "Kalshi"], ["client_name", "Polymarket"], ["filing_specific_lobbying_issues", "prediction market"], ["filing_specific_lobbying_issues", "event contracts"]],
+      "confirm": ["kalshi", "polymarket", "prediction market", "event contract", "crypto\\.com", "robinhood", "underdog", "prizepicks", "draftkings predictions"]
+    },
+    "Crypto & digital assets": {
+      "search": [["filing_specific_lobbying_issues", "stablecoin"], ["filing_specific_lobbying_issues", "digital asset"], ["client_name", "Coinbase"]],
+      "confirm": ["crypto", "digital asset", "stablecoin", "blockchain", "bitcoin", "coinbase", "ripple", "circle internet", "tether", "\\bweb3\\b", "\\bdefi\\b"]
+    },
+    "Artificial intelligence": {
+      "search": [["filing_specific_lobbying_issues", "artificial intelligence"], ["client_name", "OpenAI"], ["client_name", "Anthropic"]],
+      "confirm": ["artificial intelligence", "\\bAI\\b", "openai", "anthropic", "xai\\b", "nvidia", "data center", "large language model", "frontier model"]
+    },
+    "Defense tech": {
+      "search": [["client_name", "Anduril"], ["client_name", "Palantir"], ["filing_specific_lobbying_issues", "drone"], ["filing_specific_lobbying_issues", "counter-UAS"]],
+      "confirm": ["anduril", "palantir", "shield ai", "saronic", "\\bdrones?\\b", "unmanned", "counter-uas", "autonomous systems", "hypersonic", "golden dome"]
+    }
+  },
+  "spend_jump": {"min_increase": 50000, "min_ratio": 1.5}
+}

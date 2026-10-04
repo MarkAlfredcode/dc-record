@@ -169,6 +169,13 @@ jobs:
 
           exit $CLAUDE_EXIT
 
+      - name: Assemble final content (append extras, Your Beat box, archive copy)
+        if: steps.reachability.outputs.down_count < 2 && hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
+        env:
+          MODE: ${{ github.event.inputs.mode || 'am' }}
+        run: |
+          python3 scripts/assemble.py feds "content-${{ steps.date.outputs.today }}.json"
+
       - name: Render newsletter from content JSON
         if: steps.reachability.outputs.down_count < 2 && hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
         run: |
@@ -260,7 +267,7 @@ jobs:
           if [ "$IS_SITE_REFRESH" == "true" ]; then
             git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json 2>/dev/null || true
           fi
-          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json digest/
+          git add data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

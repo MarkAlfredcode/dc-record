@@ -10,6 +10,7 @@ import json
 import sys
 
 from dc_common import strip_bold_tags, strip_li_wrapper
+from render_common import email_boxes
 
 INK = "#161616"
 BODY_INK = "#262626"
@@ -212,6 +213,7 @@ def render_footer(footer):
 def render(content):
     date_str = content["date"]
     parts = [HEAD.format(date=date_str), MASTHEAD.format(date_upper=date_str.upper())]
+    parts.append(email_boxes(content, RUST, INK, BODY_INK))
     parts.append(render_top_story(content["top_story"]))
     # Reorder: sections with real news first (in their given order), then
     # no_news sections (in their given order) -- this used to be a rule

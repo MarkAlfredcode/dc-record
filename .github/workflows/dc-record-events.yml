@@ -1,0 +1,72 @@
+name: DC Record • Events calendar refresh
+
+# Every ~10 days: read this year's Wikipedia timeline/year pages for new
+# items, have Claude pick the market-moving ones, and merge them into
+# data/events.json (the trade-timing calendar). Added 2026-10-03.
+# GitHub's own scheduler is fine here (unlike the daily editions, which
+# moved to the Cloudflare scheduler for punctuality): a few hours' drift
+# doesn't matter on a 10-day cadence.
+on:
+  schedule:
+    - cron: '0 15 1,11,21 * *'   # ~8am PT on the 1st, 11th and 21st
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dc-record-events
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Claude Code
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Fetch new Wikipedia items
+        id: fetch
+        run: |
+          python3 scripts/fetch_wiki_events.py
+          N=$(python3 -c "import json; print(len(json.load(open('data/wiki_candidates.json'))['candidates']))")
+          echo "n=$N" >> "$GITHUB_OUTPUT"
+
+      - name: Curate (Claude)
+        if: steps.fetch.outputs.n != '0'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          set +e
+          cat prompt-events.txt | claude -p \
+            --permission-mode bypassPermissions \
+            --allowedTools "Read,Write,Bash" \
+            --output-format json > claude_result.json
+          jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_result.json 2>/dev/null || cat claude_result.json
+          jq -r '.result // empty' claude_result.json 2>/dev/null || true
+          exit 0
+
+      - name: Apply additions
+        if: steps.fetch.outputs.n != '0'
+        run: python3 scripts/apply_event_additions.py
+
+      - name: Commit and notify
+        if: always()
+        run: |
+          set -euo pipefail
+          SUMMARY="No new Wikipedia items since the last run."
+          [ -f events_summary.txt ] && SUMMARY="$(cat events_summary.txt)"
+          git add data/events.json data/wiki-events-seen.json
+          if ! git diff --cached --quiet; then
+            git config user.name "dc-record-bot"
+            git config user.email "actions@users.noreply.github.com"
+            printf 'Events calendar refresh [skip ci]\n\n%s\n' "$SUMMARY" | git commit -F -
+            for i in 1 2 3 4 5; do git push && break; git pull --rebase; sleep $((RANDOM % 5 + 1)); done
+          fi
+          curl -s --max-time 10 -H "Title: DC Record events calendar" -H "Tags: calendar" \
+            -d "$SUMMARY" https://ntfy.sh/markalfreddotnews >/dev/null 2>&1 || true

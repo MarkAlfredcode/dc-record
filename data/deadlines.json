@@ -1,0 +1,19 @@
+{
+  "_about": "Filing-deadline calendar for fetch_deadlines.py and fetch_election.py. 'calendar' entries print as 'Coming due' notes in the matching edition (AM only) during the 14 days before 'date'. 'fec_checks' run after their due date (+1 day grace) for up to 'check_days' days, listing sitting members whose principal campaign committee has no report of that type on file. 'pfd_annual' drives the House/Senate missing/late annual-report checks. Statutory dates for the 2026 cycle; update each cycle.",
+  "election_mode": {"start": "2026-10-01", "end": "2026-11-06", "election_day": "2026-11-03"},
+  "pfd_annual": {"report_year": 2025, "due": "2026-05-15", "final_extension": "2026-08-13"},
+  "fec_checks": [
+    {"report_type": "Q3", "report_year": 2026, "due": "2026-10-15", "label": "October Quarterly (Q3)", "covers_through": "2026-09-30", "check_days": 30}
+  ],
+  "calendar": [
+    {"date": "2026-10-15", "edition": "campaigns", "label": "FEC October Quarterly (Q3) reports due, covering activity through Sept. 30"},
+    {"date": "2026-10-15", "edition": "campaigns", "label": "48-hour contribution notices (Form 6) and 24-hour independent-expenditure reports begin for the Nov. 3 general (contributions/IEs of $1,000+ from Oct. 15 through Oct. 31/Nov. 1)"},
+    {"date": "2026-10-22", "edition": "campaigns", "label": "FEC Pre-General (12G) reports due, covering activity through Oct. 14"},
+    {"date": "2026-11-03", "edition": "campaigns", "label": "General Election Day"},
+    {"date": "2026-12-03", "edition": "campaigns", "label": "FEC Post-General (30G) reports due"},
+    {"date": "2026-10-20", "edition": "officials", "label": "LDA third-quarter LD-2 activity reports due"},
+    {"date": "2027-01-20", "edition": "officials", "label": "LDA fourth-quarter LD-2 activity reports due"},
+    {"date": "2027-01-30", "edition": "officials", "label": "LDA year-end LD-203 contribution reports due"},
+    {"date": "2027-01-31", "edition": "campaigns", "label": "FEC Year-End reports due"}
+  ]
+}

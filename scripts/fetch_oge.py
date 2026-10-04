@@ -22,14 +22,14 @@ Side effect: rewrites data/oge-filings-seen.json.
 import re
 import sys
 
+import oge_index
 from dc_common import (
     check_reachable, days_ago_la, download, load_manifest, pdftotext,
-    save_manifest, today_la, write_candidates, http_get_json,
+    save_manifest, today_la, write_candidates,
 )
 
 OUT_PATH = "data/oge_candidates.json"
 MANIFEST_PATH = "data/oge-filings-seen.json"
-BASE = "https://extapps2.oge.gov/201/Presiden.nsf/API.xsp/v2/rest"
 
 UNID_RE = re.compile(r"Presiden\.nsf/[^/]+/([0-9A-Fa-f]{32})/")
 
@@ -69,25 +69,14 @@ def main():
 
     manifest = load_manifest(MANIFEST_PATH)
 
-    rows_in_window = []
-    start = 0
-    length = 100
-    while True:
-        url = f"{BASE}?draw=1&start={start}&length={length}"
-        try:
-            data = http_get_json(url, timeout=30)
-        except Exception as e:  # noqa: BLE001
-            out["errors"].append(f"page start={start} failed: {e}")
-            break
-        batch = data.get("data", [])
-        if not batch:
-            break
-        in_window = [r for r in batch if r.get("docDate", "") >= lookback]
-        rows_in_window.extend(in_window)
-        print(f"  OGE page start={start}: {len(in_window)}/{len(batch)} in window", file=sys.stderr)
-        if len(in_window) < len(batch):
-            break  # this batch ran off the front of the window; sorted newest-first, so stop
-        start += length
+    # OGE's v3 index can't be paged newest-first (see oge_index.py), so pull
+    # the whole thing and filter to the window locally.
+    try:
+        all_rows = oge_index.fetch_all()
+    except Exception as e:  # noqa: BLE001
+        out["errors"].append(f"OGE index fetch failed: {e}")
+        all_rows = []
+    rows_in_window = [r for r in all_rows if r.get("docDate", "") >= lookback]
 
     print(f"OGE: {len(rows_in_window)} rows in {lookback}..{today} window", file=sys.stderr)
 
@@ -113,8 +102,7 @@ def main():
         elif "termination" in low:
             flag_reason = "termination"
 
-        link_match = re.search(r"href=['\"]([^'\"]+)['\"]", type_str)
-        link = link_match.group(1) if link_match else None
+        link = oge_index.doc_link(type_str)
         is_pdf_link = bool(link) and link.lower().endswith(".pdf")
         pending_final = "pending final oge disposition" in low
 

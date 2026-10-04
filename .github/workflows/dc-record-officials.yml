@@ -67,6 +67,21 @@ jobs:
           python3 scripts/fetch_oge.py; echo "fetch_oge exit=$?"
           set -e
 
+      # Deterministic sections, built with no LLM (added 2026-10-03) -- see
+      # scripts/dc_extras.py. Each writes extras/officials/<name>.json, which
+      # assemble.py appends after the main pass; failures never fail the job.
+      - name: Run extras scripts (deadlines, ethics agreements, PFD red flags, presidential trades, LDA industries)
+        env:
+          FEC_KEYS: ${{ secrets.FEC_KEYS }}
+          MODE: ${{ github.event.inputs.mode || 'am' }}
+        run: |
+          set +e
+          python3 -m pip install --quiet requests >/dev/null 2>&1
+          for s in "fetch_deadlines.py --edition officials" fetch_ethics_agreements.py fetch_pfd_analysis.py fetch_presidential_trades.py fetch_lda_trends.py; do
+            timeout 600 python3 scripts/$s; echo "$s exit=$?"
+          done
+          set -e
+
       - name: Run mechanical content pass (OGE Ethics Filings, cheap model)
         id: run_mechanical
         env:
@@ -124,6 +139,13 @@ jobs:
           echo "::endgroup::"
 
           exit $CLAUDE_EXIT
+
+      - name: Assemble final content (append extras, Your Beat box, archive copy)
+        if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
+        env:
+          MODE: ${{ github.event.inputs.mode || 'am' }}
+        run: |
+          python3 scripts/assemble.py officials "content-${{ steps.date.outputs.today }}.json"
 
       - name: Render newsletter from content JSON
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
@@ -222,9 +244,10 @@ jobs:
           # naturally re-find and correctly email whatever this run scraped
           # first.
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/pfd-ptr-seen.json data/oge-filings-seen.json 2>/dev/null || true
+            git checkout -- data/pfd-ptr-seen.json data/oge-filings-seen.json data/pfd-analysis-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/stock-act-ledger.json 2>/dev/null || true
           fi
-          git add data/pfd-ptr-seen.json data/oge-filings-seen.json digest/
+          git add data/pfd-ptr-seen.json data/oge-filings-seen.json data/pfd-analysis-seen.json data/ethics-tracker-seen.json \
+            data/presidential-trades-seen.json data/stock-act-ledger.json data/ethics-agreements.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

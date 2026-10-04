@@ -9,6 +9,7 @@ import json
 import sys
 
 from dc_common import strip_li_wrapper
+from render_common import web_boxes
 
 HEAD = """<!doctype html>
 <html lang="en">
@@ -122,7 +123,7 @@ def render_footer(footer):
 
 
 def render(content):
-    parts = [HEAD.replace("__DATE__", esc(content["date"])), render_top_story(content["top_story"])]
+    parts = [HEAD.replace("__DATE__", esc(content["date"])), web_boxes(content, "#6e2332"), render_top_story(content["top_story"])]
     sections = content.get("sections", [])
     news_sections = [s for s in sections if not s.get("no_news")]
     quiet_sections = [s for s in sections if s.get("no_news")]
