@@ -1,0 +1,38 @@
+name: DC Record • Usage window ping
+
+on:
+  # Dispatched by ../scheduler/ (Cloudflare Cron Triggers) ~4h before each
+  # edition batch: 0 6 * * * ->~11:00pm PT (PDT) ahead of the 3:00am run,
+  # 45 18 * * * -> ~11:45am PT (PDT) ahead of the 3:45pm run.
+  # Purpose: send one tiny Haiku message on the shared CLAUDE_CODE_OAUTH_TOKEN
+  # subscription so the 5-hour usage window opens early. The editions then
+  # land in that window's last hour and it resets ~1h after they start,
+  # leaving a fresh window for interactive use. If a window is already open
+  # (you're actively using Claude), this is a harmless no-op.
+  workflow_dispatch: {}
+
+concurrency:
+  group: dc-record-window-ping
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # No checkout needed -- keeps this to ~1 Actions minute.
+      - name: Install Claude Code
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Ping
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          echo "Reply with just: ok" | \
+            claude -p \
+              --model claude-haiku-4-5-20251001 \
+              --max-turns 1 \
+              --output-format json > ping_result.json
+          jq -r '"result=" + (.result|tostring) + "  cost_usd=" + (.total_cost_usd|tostring)' ping_result.json

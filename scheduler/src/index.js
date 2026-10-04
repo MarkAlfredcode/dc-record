@@ -12,10 +12,11 @@
 const REPO = "MarkAlfredcode/dc-record";
 
 const CRON_TO_WORKFLOWS = {
-  "0 10 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml"], // AM
-  "45 22 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml"], // PM
-  "25 10 * * *": ["dc-record-congress.yml"], // AM
-  "10 23 * * *": ["dc-record-congress.yml"], // PM site-refresh
+  "0 10 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // AM
+  "45 22 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // PM
+  // Usage-window pings, ~4h ahead of each batch (see dc-record-window-ping.yml)
+  "0 6 * * *": ["dc-record-window-ping.yml"], // ahead of AM
+  "45 18 * * *": ["dc-record-window-ping.yml"], // ahead of PM
 };
 
 // Which subscriber group (see markalfred.news/dc-record-recipients) a real
@@ -32,21 +33,21 @@ const CRON_MODE = {
 
 // Manual override, used ONLY for a dry test dispatch (never a real cron
 // fire) -- forces a run to skip sending email entirely regardless of live
-// subscribers, for a pure content-only smoke test. Congress's PM slot
-// (10 23 * * *) isn't listed here because that edition never emails either
-// way, and its workflow_dispatch declares no inputs at all (passing any
-// would 422).
+// subscribers, for a pure content-only smoke test. Congress and the window
+// ping map to null because they never email either way, and their
+// workflow_dispatch declares no inputs at all (passing any would 422).
 const MANUAL_SKIP_INPUT = {
   "dc-record-campaigns.yml": { skip_email: "true" },
   "dc-record-officials.yml": { site_refresh_only: "true" },
   "dc-record-feds.yml": { site_refresh_only: "true" },
   "dc-record-congress.yml": null,
+  "dc-record-window-ping.yml": null,
 };
 
 function inputsFor(cron, workflowFile, { dry }) {
   if (dry) return MANUAL_SKIP_INPUT[workflowFile] || undefined; // manual test: never risk a real send
   const mode = CRON_MODE[cron];
-  if (!mode || workflowFile === "dc-record-congress.yml") return undefined; // Congress takes no inputs
+  if (!mode || workflowFile === "dc-record-congress.yml") return undefined; // Congress/ping take no inputs
   return { mode };
 }
 

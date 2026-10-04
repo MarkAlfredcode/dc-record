@@ -5,7 +5,8 @@ on:
   # this and the other editions ~3.5h late every single day (best-effort,
   # no SLA). Replaced by ../scheduler/, a Cloudflare Worker with its own
   # Cron Triggers that calls workflow_dispatch below at the exact times
-  # these crons used to (25 10 * * * / 10 23 * * * UTC).
+  # these crons used to (25 10 * * * / 10 23 * * * UTC). As of 2026-10-03
+  # it's dispatched with the other 3 editions at 0 10 / 45 22 UTC instead.
   # This edition never emails either way, so both dispatches are identical
   # (no skip_email/site_refresh_only input needed).
   # schedule:

@@ -10,16 +10,17 @@ Cloudflare Cron Triggers (independently reliable) to call each workflow's
 
 ## How it works
 
-`wrangler.toml` declares 4 Cron Triggers, matching the times that used to
-live in each workflow's (now-disabled, left commented for reference)
-`schedule:` block:
+`wrangler.toml` declares 4 Cron Triggers (2 edition batches + 2
+usage-window pings). The edition slots match the times that used to live in
+each workflow's (now-disabled, left commented for reference) `schedule:`
+block:
 
 | Cron (UTC) | ~Pacific (PDT) | Fires |
 |---|---|---|
-| `0 10 * * *` | 3:00am | Campaigns, Officials, The Feds -- AM edition (`mode: "am"`) |
-| `25 10 * * *` | 3:25am | Congress -- real AM edition |
-| `45 22 * * *` | 3:45pm | Campaigns, Officials, The Feds -- PM edition (`mode: "pm"`) |
-| `10 23 * * *` | 4:10pm | Congress -- site-refresh only (Congress never emails either way) |
+| `0 10 * * *` | 3:00am | Campaigns, Officials, The Feds -- AM edition (`mode: "am"`) -- plus Congress |
+| `45 22 * * *` | 3:45pm | Campaigns, Officials, The Feds -- PM edition (`mode: "pm"`) -- plus Congress |
+| `0 6 * * *` | 11:00pm (prev. day) | Usage-window ping (`dc-record-window-ping.yml`) -- one Haiku message so the 5h Claude usage window opens ~4h before the AM batch and resets right after it |
+| `45 18 * * *` | 11:45am | Usage-window ping, ~4h before the PM batch |
 
 `src/index.js`'s `scheduled()` handler looks up which workflows that exact
 cron string maps to and fires one `workflow_dispatch` REST call per workflow,
@@ -31,9 +32,11 @@ non-empty -- the 3:45pm slot used to be a hardcoded no-email site-refresh
 (forcing `skip_email`/`site_refresh_only`), which is now a MANUAL-only
 override (`MANUAL_SKIP_INPUT`, used just for the `dry=true` test path below),
 not something a real cron dispatch sets. Congress is untouched by any of this
--- it never emails, so its PM slot still just refreshes site content and
-takes no input at all (`dc-record-congress.yml` declares none; passing any
-input would 422).
+-- it never emails and takes no input at all (`dc-record-congress.yml`
+declares none; passing any input would 422). It used to have its own
+3:25am/4:10pm slots, inherited from the deleted Courts edition for no
+functional reason; it now rides the main batches (pushes to `main` already
+rebase-and-retry, and each workflow has its own concurrency group).
 
 ## DST caveat
 
