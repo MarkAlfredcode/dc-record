@@ -31,6 +31,21 @@ def plain(s):
     return html.unescape(TAG_RE.sub("", s or "")).strip()
 
 
+IDENTITY_HEADERS = {"race", "candidate", "name", "filer", "member", "rep", "who", "#"}
+
+
+def table_row_text(headers, row):
+    """Flatten a table row for Your Beat without losing what each number is:
+    '$2,031,458 · $4,536,588' means nothing, 'Supporting: $2,031,458' does."""
+    if [h.lower() for h in headers] == ["race", "candidate", "supporting", "opposing", "top spender"] and len(row) == 5:
+        race, cand, sup, opp, top = row
+        return (f"{race} · {cand}: outside groups newly reported {sup} in independent expenditures supporting "
+                f"and {opp} opposing this candidate; the largest single spender is {top}.")
+    if len(headers) != len(row):
+        return " · ".join(row)
+    return " · ".join(c if h.lower() in IDENTITY_HEADERS else f"{h}: {c}" for h, c in zip(headers, row))
+
+
 def units(content):
     """(section label, html, kind) for every piece of text in the edition."""
     ts = content.get("top_story") or {}
@@ -46,7 +61,7 @@ def units(content):
                     yield label, it, "item"
             elif b.get("type") == "table":
                 for row in b.get("rows", []):
-                    yield label, " · ".join(row), "item"
+                    yield label, table_row_text(b.get("headers") or [], row), "item"
             elif b.get("type") in ("note", "paragraph"):
                 yield label, b.get("text", ""), "para"
             elif b.get("type") == "card":

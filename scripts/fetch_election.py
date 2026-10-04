@@ -147,10 +147,19 @@ def lookback_days_ago(n):
     return days_ago_la(n)
 
 
+def top_spender(v):
+    """Largest outside spender for a candidate, with which way it is spending:
+    'DEFEND US PAC ($4,100,000 opposing)'."""
+    name = max(v["spenders"].items(), key=lambda x: x[1])[0]
+    sd = v["sides"][name]
+    parts = [f"{money(sd[k])} {w}" for k, w in (("S", "supporting"), ("O", "opposing")) if sd[k]]
+    return f"{esc(name)} ({' and '.join(parts)})"
+
+
 def build(ies, f6, new_groups, errors, em):
     blocks, paras = [], []
     if ies:
-        by = defaultdict(lambda: {"S": 0.0, "O": 0.0, "spenders": defaultdict(float)})
+        by = defaultdict(lambda: {"S": 0.0, "O": 0.0, "spenders": defaultdict(float), "sides": defaultdict(lambda: {"S": 0.0, "O": 0.0})})
         names = {}
         for r in ies:  # group by FEC candidate ID; filers spell names differently
             names.setdefault(r["cand_id"] or r["cand"], r["cand"] or r["cand_id"])
@@ -158,13 +167,14 @@ def build(ies, f6, new_groups, errors, em):
             k = (race(r), names[r["cand_id"] or r["cand"]])
             by[k]["S" if r["so"] == "S" else "O"] += r["amount"]
             by[k]["spenders"][r["committee"]] += r["amount"]
+            by[k]["sides"][r["committee"]]["S" if r["so"] == "S" else "O"] += r["amount"]
         ranked = sorted(by.items(), key=lambda kv: -(kv[1]["S"] + kv[1]["O"]))[:15]
         total = sum(r["amount"] for r in ies)
         paras.append(f"{money(total)} in new independent expenditures reported across {len(by)} candidates, led by {esc(ranked[0][0][1])} ({esc(ranked[0][0][0])}).")
         blocks.append({"type": "subhead", "text": "Where new outside money is landing"})
         blocks.append({"type": "table", "headers": ["Race", "Candidate", "Supporting", "Opposing", "Top spender"],
                        "rows": [[esc(k[0]), f"<strong>{esc(k[1])}</strong>", money(v["S"]), money(v["O"]),
-                                 esc(max(v["spenders"].items(), key=lambda x: x[1])[0])] for k, v in ranked]})
+                                 top_spender(v)] for k, v in ranked]})
         big = sorted(ies, key=lambda r: -r["amount"])[:10]
         blocks.append({"type": "subhead", "text": "Largest new independent expenditures"})
         blocks.append({"type": "list", "items": [
