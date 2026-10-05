@@ -56,19 +56,21 @@ def main():
         ids.add(iid)
         if iid not in seen:
             fresh.append({"id": iid, **it})
-            seen[iid] = today
+            if a.seed:
+                seen[iid] = today
     # bounded: ids older than ~14 months can't reappear in the pages we read
     cutoff = days_ago_la(430)
     seen = {k: v for k, v in seen.items() if v >= cutoff}
-    with open(SEEN_PATH, "w") as f:
-        json.dump(seen, f, indent=0, sort_keys=True)
-        f.write("\n")
     if a.seed:
+        with open(SEEN_PATH, "w") as f:
+            json.dump(seen, f, indent=0, sort_keys=True)
+            f.write("\n")
         print(f"seeded {len(ids)} items as seen; pages missing: {missing}", file=sys.stderr)
         return
     with open(OUT_PATH, "w") as f:
         json.dump({"generated": today, "pages_missing": missing, "candidates": fresh}, f, indent=1)
         f.write("\n")
+    # Not marked seen here: apply_event_additions.py does that only once Claude has reviewed them.
     print(f"{len(fresh)} new item(s) of {len(ids)}; pages missing: {missing}", file=sys.stderr)
 
 

@@ -19,8 +19,6 @@ Output: extras/feds/lobby_contracts.json
 """
 import json
 import os
-import re
-import sys
 import time
 from urllib.parse import urlencode
 
@@ -34,6 +32,7 @@ MIN_AWARD = 1_000_000
 MAX_RECIPIENTS = int(os.environ.get("DC_LOBBY_MAX_RECIPIENTS") or 40)
 BUDGET_SEC = int(os.environ.get("DC_LOBBY_BUDGET_SEC") or 420)
 CACHE_PATH = "data/lobby-contracts-cache.json"
+PENDING_PATH = "data/lobby-contracts-pending.json"  # awards whose recipient we ran out of budget to check
 CACHE_DAYS = 30
 SUFFIX = {"inc", "incorporated", "llc", "llp", "lp", "ltd", "corp", "corporation", "company", "co", "the", "plc", "pllc", "pc", "of", "and"}
 _last = [0.0]
@@ -110,8 +109,15 @@ def lookup(recipient, year):
 def main():
     cand = load_json("data/usaspending_candidates.json", {}) or {}
     awards = [a for a in cand.get("new_awards", []) if (a.get("transaction_amount") or 0) >= MIN_AWARD and a.get("recipient")]
+    # USAspending's own manifest never re-offers an award, so ones we couldn't check last run are carried here.
+    awards += [a for a in (load_json(PENDING_PATH, []) or []) if isinstance(a, dict)]
     seen = SeenManifest("data/lobby-contracts-seen.json", keep_days=30)
-    awards = [a for a in awards if a["award_id"] not in seen]
+    cutoff_pending = days_ago_la(CACHE_DAYS)
+    uniq = {}
+    for a in awards:
+        if a["award_id"] not in seen and (a.get("action_date") or "9") >= cutoff_pending:
+            uniq[a["award_id"]] = a
+    awards = list(uniq.values())
     if not awards:
         write_extra("feds", "lobby_contracts", [], "No new $1M+ awards to check against lobbying clients.")
         return
@@ -141,6 +147,9 @@ def main():
             errors.append(f"{rec}: {e}")
     if not os.environ.get("DC_NO_SAVE"):
         save_manifest(CACHE_PATH, cache)
+        with open(PENDING_PATH, "w") as f:
+            json.dump([a for k in by_rec if k not in cache for a in by_rec[k]], f)
+            f.write("\n")
 
     matched = []
     for key in order:

@@ -25,7 +25,7 @@ import tempfile
 
 from dc_common import (
     check_reachable, days_ago_la, download, http_get_json, load_manifest,
-    pdftotext, today_la, write_candidates,
+    pdftotext, write_candidates,
 )
 
 OUT_PATH = "data/keyword_scan_candidates.json"
@@ -86,7 +86,6 @@ def context_snippet(text, match_start, match_end, radius=120):
 
 def main():
     lookback = days_ago_la(3)
-    today = today_la()
     reachable = check_reachable("api.open.fec.gov")
     out = {
         "window_start": lookback,

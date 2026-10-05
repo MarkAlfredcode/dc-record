@@ -25,7 +25,8 @@ import sys
 import time
 import unicodedata
 
-from dc_common import days_ago_la, http_get, load_manifest, save_manifest, today_la
+from dc_common import days_ago_la, load_manifest, save_manifest, today_la
+from dc_common import http_get  # noqa: F401  (re-exported for callers)
 
 EXTRAS_DIR = "extras"
 
@@ -47,7 +48,7 @@ def write_extra(edition, name, sections, summary):
     os.makedirs(os.path.join(EXTRAS_DIR, edition), exist_ok=True)
     path = os.path.join(EXTRAS_DIR, edition, f"{name}.json")
     with open(path, "w") as f:
-        json.dump({"name": name, "summary": summary, "sections": sections}, f, indent=2)
+        json.dump({"name": name, "generated": today_la(), "summary": summary, "sections": sections}, f, indent=2)
         f.write("\n")
     print(f"wrote {path} ({len(sections)} section(s)): {summary}", file=sys.stderr)
 
@@ -61,7 +62,11 @@ def load_extras(edition):
         if fn.endswith(".json"):
             try:
                 with open(os.path.join(d, fn)) as f:
-                    out.append(json.load(f))
+                    ex = json.load(f)
+                if ex.get("generated", today_la()) != today_la():
+                    print(f"skipping stale extra {fn} (generated {ex['generated']})", file=sys.stderr)
+                    continue
+                out.append(ex)
             except Exception as e:  # noqa: BLE001
                 print(f"skipping unreadable extra {fn}: {e}", file=sys.stderr)
     return out

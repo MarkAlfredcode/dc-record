@@ -42,11 +42,10 @@ import re
 import sys
 import time
 from datetime import date, timedelta
-from urllib.parse import quote
 
 from dc_common import http_get, http_post_json, load_manifest, save_manifest, today_la
 from dc_extras import (
-    SeenManifest, esc, fec_get, fec_paginate, fec_key_cycle, link, load_json, mdY, money, norm, section, write_extra,
+    SeenManifest, esc, fec_get, fec_paginate, fec_key_cycle, load_json, mdY, money, norm, section, write_extra,
 )
 
 CACHE_PATH = "data/donor-awards-cache.json"
@@ -303,17 +302,6 @@ def departures(keys, today):
     return out
 
 
-# USAspending uses toptier names; congress.gov uses the same department names for cabinet
-# nominations ("Department of Homeland Security"), so most map directly. Independent agencies
-# need an alias; anything unresolved is reported as "agency not matched" rather than guessed.
-AGENCY_ALIASES = {
-    "Environmental Protection Agency": "Environmental Protection Agency",
-    "National Aeronautics and Space Administration": "National Aeronautics and Space Administration",
-    "Small Business Administration": "Small Business Administration",
-    "General Services Administration": "General Services Administration",
-    "Office of Personnel Management": "Office of Personnel Management",
-    "Social Security Administration": "Social Security Administration",
-}
 
 
 def usaspending_awards(agency, start, end, min_usd):
@@ -322,7 +310,7 @@ def usaspending_awards(agency, start, end, min_usd):
         payload = {
             "filters": {
                 "award_type_codes": ["A", "B", "C", "D"],
-                "agencies": [{"type": "awarding", "tier": "toptier", "name": AGENCY_ALIASES.get(agency, agency)}],
+                "agencies": [{"type": "awarding", "tier": "toptier", "name": agency}],
                 "time_period": [{"start_date": start, "end_date": end}],
                 "award_amounts": [{"lower_bound": min_usd}],
             },
@@ -459,7 +447,6 @@ def main():
 
     findings, weak, checked = [], 0, 0
     pending = []  # (args for consider) -- gathered first so donor lookups can run in parallel
-    labels_for = {}
     agency_heads = {}
     done = set()
 

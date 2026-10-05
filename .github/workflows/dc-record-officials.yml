@@ -171,7 +171,8 @@ jobs:
           else
             EMAILS=$(curl -s -H "Authorization: Bearer $DC_RECORD_RECIPIENTS_TOKEN" \
               "https://markalfred.news/dc-record-recipients?edition=officials&mode=$MODE" \
-              | python3 -c "import json,sys; d=json.load(sys.stdin); print(','.join(d.get('emails', [])))")
+              | python3 -c "import json,sys; d=json.load(sys.stdin); sys.exit('recipients endpoint error: ' + json.dumps(d)[:300]) if 'emails' not in d else print(','.join(d['emails']))") \
+              || { echo "recipients lookup failed (bad token or endpoint down)" > email_failed.flag; exit 1; }
             if [ -z "$EMAILS" ]; then
               echo "no subscribers for officials/$MODE -- not sending" > email_skipped.flag
             else
@@ -213,15 +214,14 @@ jobs:
           fi
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
-            TODAY_TAG=$(TZ="America/Los_Angeles" date +%Y-%m-%d)
-            AM_DATE_FILE="digest/.officials-am-date"
-            PREV_AM_DATE=$(cat "$AM_DATE_FILE" 2>/dev/null || echo "")
-            if [ "$PREV_AM_DATE" != "$TODAY_TAG" ]; then
-              cp newsletter-*.html digest/officials-am.html
-              echo "$TODAY_TAG" > "$AM_DATE_FILE"
-              rm -f digest/officials-pm.html
-            else
+            # AM/PM comes from the dispatch `mode` input, not from run order: if the AM run failed,
+            # the PM run must not be filed (and labeled) as AM.
+            SLOT="${{ github.event.inputs.mode }}"
+            if [ "$SLOT" == "pm" ]; then
               cp newsletter-*.html digest/officials-pm.html
+            else
+              cp newsletter-*.html digest/officials-am.html
+              rm -f digest/officials-pm.html
             fi
             if [ "$IS_SITE_REFRESH" == "true" ]; then
               echo "Site-refresh-only (no-email) run -- leaving digest/officials.html on the real AM edition."
@@ -238,10 +238,10 @@ jobs:
           # naturally re-find and correctly email whatever this run scraped
           # first.
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/pfd-ptr-seen.json data/oge-filings-seen.json data/pfd-analysis-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/stock-act-ledger.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json 2>/dev/null || true
+            git checkout -- data/pfd-ptr-seen.json data/oge-filings-seen.json data/pfd-analysis-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/stock-act-ledger.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json 2>/dev/null || true
           fi
           git add data/pfd-ptr-seen.json data/oge-filings-seen.json data/pfd-analysis-seen.json data/ethics-tracker-seen.json \
-            data/presidential-trades-seen.json data/stock-act-ledger.json data/ethics-agreements.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json digest/ archive/
+            data/presidential-trades-seen.json data/stock-act-ledger.json data/ethics-agreements.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

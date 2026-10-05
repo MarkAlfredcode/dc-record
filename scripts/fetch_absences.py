@@ -25,9 +25,9 @@ import sys
 import time
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, datetime, timedelta
+from datetime import datetime
 
-from dc_common import days_ago_la, http_get, load_manifest, save_manifest, today_la
+from dc_common import days_ago_la, load_manifest, save_manifest, today_la
 from dc_extras import esc, link, mdY, run_mode, section, write_extra
 from members import house_roster
 
@@ -122,6 +122,12 @@ def pull_new(chamber, year, last):
     partial list is still usable, the next run resumes from last_roll."""
     url_fn, parse = (house_url, parse_house) if chamber == "house" else (senate_url, parse_senate)
     out, n = [], last + 1
+    if last > 0:
+        # Canary: a roll we already have must still be fetchable. A House 403 on the NEXT roll normally just
+        # means "not held yet", so a WAF block on this runner would otherwise look like a quiet day.
+        status, _ = curl_get(url_fn(year, last))
+        if status >= 400:
+            return out, f"canary roll {last} -> HTTP {status} (blocked or rate-limited)"
     with ThreadPoolExecutor(2) as ex:
         while len(out) < MAX_NEW_PER_RUN:
             batch = list(range(n, n + 4))
@@ -132,7 +138,11 @@ def pull_new(chamber, year, last):
             for i, root in zip(batch, roots):
                 if root is None:
                     return out, None
-                out.append((i, parse(root, i, year)))  # parsed is None for quorum calls
+                try:
+                    out.append((i, parse(root, i, year)))  # parsed is None for quorum calls
+                except Exception as e:  # noqa: BLE001  (one odd roll must not block every later one)
+                    print(f"{chamber} roll {i} unparseable, skipped: {e}", file=sys.stderr)
+                    out.append((i, None))
             n += 4
             time.sleep(0.4)
     return out, None
@@ -227,6 +237,11 @@ def main():
     close = []
     for r in win:
         nv, margin = len(r["not_voting"]), abs(r["yea"] - r["nay"])
+        q = (r["question"] + " " + r["subject"]).lower()
+        if "suspend the rules" in q or "two-thirds" in q or "2/3" in q:
+            margin = abs(r["yea"] - 2 * r["nay"])  # needs 2/3, so the distance is to yea == 2*nay
+        elif "cloture" in q and r["chamber"] == "senate":
+            margin = abs(r["yea"] - 60)
         if r["yea"] + r["nay"] and nv > margin and margin <= (12 if r["chamber"] == "house" else 4):
             close.append((margin, r, nv))
     close.sort(key=lambda t: t[0])

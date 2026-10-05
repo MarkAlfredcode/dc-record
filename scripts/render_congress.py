@@ -8,7 +8,7 @@ import html
 import json
 import sys
 
-from dc_common import strip_li_wrapper
+from dc_common import strip_bold_tags, strip_li_wrapper
 from render_common import web_boxes
 
 HEAD = """<!doctype html>
@@ -81,6 +81,21 @@ def render_blocks(blocks):
         elif t == "list":
             lis = "".join(f'<li>{strip_li_wrapper(item)}</li>' for item in b["items"])
             out.append(f'<ul>{lis}</ul>')
+        elif t == "subhead":
+            out.append(f'<h3 style="font-family:Arial,Helvetica,sans-serif; font-size:13px; text-transform:uppercase; '
+                       f'letter-spacing:0.5px; color:#445164; margin:14px 0 6px 0;">{esc(strip_bold_tags(b["text"]))}</h3>')
+        elif t == "table":
+            heads = "".join(f'<th align="left" style="border-bottom:2px solid #6e2332; padding:6px 8px;">{esc(h)}</th>' for h in b["headers"])
+            rows = "".join("<tr>" + "".join(f'<td style="padding:6px 8px; border-bottom:1px solid #dcd5c7;">{c}</td>' for c in row) + "</tr>"
+                           for row in b["rows"])
+            out.append(f'<table style="width:100%; border-collapse:collapse; font-size:14px; margin-bottom:14px;"><tr>{heads}</tr>{rows}</table>')
+        elif t == "card":
+            meta = " · ".join(esc(strip_bold_tags(m)) for m in b.get("meta") or [] if m)
+            links = " | ".join(f'<a href="{html.escape(l["url"], quote=True)}">{esc(l["text"])}</a>' for l in b.get("links") or [] if l.get("url"))
+            out.append(f'<div style="border-left:3px solid #6e2332; background:#faf8f5; padding:10px 14px; margin-bottom:12px;">'
+                       f'<div style="font-weight:bold;">{b.get("title", "")}</div>'
+                       + (f'<div style="font-size:12px; text-transform:uppercase; color:#445164;">{meta}</div>' if meta else "")
+                       + f'<div>{b.get("text", "")}</div>' + (f'<div style="font-size:13px;">{links}</div>' if links else "") + '</div>')
     return "\n".join(out)
 
 

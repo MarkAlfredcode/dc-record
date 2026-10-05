@@ -5,8 +5,8 @@
 Industry Courts Democrats by Pouring Millions Into Elections".)
 
 Pulls itemized receipts of $1,000,000+ dated within the lookback window
-(default 21 days, because super PACs file monthly/quarterly and a gift shows
-up weeks after it was made; dedupe via data/megadonors-seen.json by sub_id),
+(by FEC LOAD date, 7 days, because super PACs file monthly/quarterly and a gift
+shows up weeks after it was made -- a receipt-date window returned nothing; dedupe via data/megadonors-seen.json by sub_id),
 drops FEC memo duplicates, groups gifts by donor + recipient, and reports the
 biggest. Gifts from other committees/organizations are kept and labeled --
 a $20M check from a 501(c)(4) to a super PAC is the dark-money-into-
@@ -50,12 +50,12 @@ def pretty_org(name):
 
 def main():
     keys = fec_key_cycle()
-    since = lookback(21)
+    since = lookback(7)  # by FEC load date; the seen-manifest dedupes the overlap
     seen = SeenManifest("data/megadonors-seen.json", keep_days=60)
     errors, rows = [], []
     try:
         for r in fec_paginate("schedules/schedule_a/", {
-                "two_year_transaction_period": CYCLE, "min_amount": MIN_GIFT, "min_date": since, "per_page": 100,
+                "two_year_transaction_period": CYCLE, "min_amount": MIN_GIFT, "min_load_date": since, "per_page": 100,
                 "sort": "-contribution_receipt_amount", "sort_hide_null": "true"}, keys, max_pages=4):
             if r.get("memo_code") == "X" or (r.get("contribution_receipt_amount") or 0) < MIN_GIFT:
                 continue
@@ -119,7 +119,7 @@ def main():
         blocks.append({"type": "subhead", "text": "Where the money went"})
         blocks.append({"type": "list", "items": [
             f"{esc(pretty_org(rec))}: {money(amt)}" for rec, amt in sorted(by_rec.items(), key=lambda kv: -kv[1])[:5]]})
-        blocks.append({"type": "note", "text": f"Itemized receipts of $1,000,000 or more dated {mdY(since)} or later that DC Record hasn't reported before, from FEC Schedule A "
+        blocks.append({"type": "note", "text": f"Itemized receipts of $1,000,000 or more that FEC processed since {mdY(since)} and DC Record hasn't reported before, from FEC Schedule A "
                        "(2025-26 cycle). Super PACs file monthly or quarterly, so a gift can surface weeks after it was made. "
                        "Gifts from other committees and organizations are included and labeled."})
         n_ind = sum(1 for c in cards if c[2])

@@ -21,7 +21,6 @@ Persisted dedupe: data/election-seen.json (file numbers).
 Output: extras/campaigns/election.json
 """
 import re
-import sys
 from collections import defaultdict
 
 from dc_common import http_get, today_la

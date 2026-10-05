@@ -53,8 +53,6 @@ same principle as the original 2026-09-03 Spend Plan manifest bootstrap, so
 the first real run doesn't dump years of backlog on the reader.
 """
 import datetime as dt
-import html
-import json
 import re
 import sys
 
@@ -336,7 +334,7 @@ def main():
             page_html = body.decode(errors="replace")
             cur_fy, next_fy = current_and_next_fiscal_years()
             fy_prefixes = tuple(
-                f"/Fiscal%20Year%20{fy}/" for fy in (cur_fy, next_fy)
+                f"/Fiscal%20Year%20{fy}/" for fy in (cur_fy - 1, cur_fy, next_fy)  # prior FY still gets revisions just after Oct 1
             )
             hrefs = sorted(set(
                 h for h in re.findall(r'href="(/Fiscal%20Year%20\d+/[^"]+/JSON/[^"]+\.json)"', page_html)
@@ -410,6 +408,8 @@ def main():
                         content_length = int(resp.headers.get("Content-Length", 0))
                 except Exception as e:  # noqa: BLE001
                     out["errors"].append(f"HEAD failed for {href}: {e}")
+                    if href in manifest:
+                        new_manifest[href] = manifest[href]  # else it would come back as NEW next run
                     continue
                 prior = manifest.get(href, {}).get("content_length")
                 new_manifest[href] = {"content_length": content_length}

@@ -75,13 +75,37 @@ async function dispatch(workflowFile, inputs, env) {
   }
 }
 
+async function dispatchWithRetry(workflowFile, inputs, env) {
+  let lastErr;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      return await dispatch(workflowFile, inputs, env);
+    } catch (e) {
+      lastErr = e;
+      await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+    }
+  }
+  throw lastErr;
+}
+
+async function alertFailure(failures) {
+  await fetch("https://ntfy.sh/markalfreddotnews", {
+    method: "POST",
+    headers: { Title: "DC Record dispatch FAILED", Tags: "rotating_light" },
+    body: failures.join("\n").slice(0, 900),
+  }).catch(() => {});
+}
+
 async function fireForCron(cron, env, { dry = false } = {}) {
   const workflows = CRON_TO_WORKFLOWS[cron];
   if (!workflows) return { cron, error: "no workflow mapping for this cron string" };
 
   const results = await Promise.allSettled(
-    workflows.map((wf) => dispatch(wf, inputsFor(cron, wf, { dry }), env))
+    workflows.map((wf) => dispatchWithRetry(wf, inputsFor(cron, wf, { dry }), env))
   );
+
+  const failures = results.map((r, i) => (r.status === "rejected" ? `${workflows[i]}: ${String(r.reason)}` : null)).filter(Boolean);
+  if (failures.length) await alertFailure(failures);
 
   return {
     cron,

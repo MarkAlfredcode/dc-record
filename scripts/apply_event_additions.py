@@ -20,14 +20,39 @@ ADDS = "events_additions.json"
 SUMMARY = "events_summary.txt"
 
 
+def _int(v, default):
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return default
+
+
+def mark_reviewed(cands):
+    """Candidates Claude has now reviewed (picked or not) are marked seen."""
+    import datetime
+    path = "data/wiki-events-seen.json"
+    try:
+        seen = json.load(open(path))
+    except (FileNotFoundError, json.JSONDecodeError):
+        seen = {}
+    today = datetime.date.today().isoformat()
+    for cid in cands:
+        seen[cid] = today
+    cutoff = (datetime.date.today() - datetime.timedelta(days=430)).isoformat()
+    seen = {k: v for k, v in seen.items() if v >= cutoff}
+    with open(path, "w") as f:
+        json.dump(seen, f, indent=0, sort_keys=True)
+        f.write("\n")
+
+
 def main():
     events = json.load(open(EVENTS))
     cands = {c["id"]: c for c in json.load(open(CANDS))["candidates"]}
     try:
         adds = json.load(open(ADDS))
     except (FileNotFoundError, json.JSONDecodeError) as e:
-        open(SUMMARY, "w").write(f"No usable additions file ({e}); events.json unchanged.\n")
-        return
+        open(SUMMARY, "w").write(f"No usable additions file ({e}); events.json unchanged, candidates stay unreviewed for the next run.\n")
+        return  # candidates are deliberately NOT marked seen
     sectors = events["sectors"]
     problems, added = [], []
 
@@ -54,17 +79,19 @@ def main():
         if not label or not (secs or kws or tks or any_asset):
             problems.append(f"{c['id']}: no label or nothing to match on")
             continue
-        for bad in kws:
+        good = []
+        for kw in kws:
             try:
-                re.compile(bad)
+                re.compile(kw)
+                good.append(kw)
             except re.error:
-                problems.append(f"{c['id']}: bad keyword regex {bad!r}")
-                kws.remove(bad)
+                problems.append(f"{c['id']}: bad keyword regex {kw!r}")
+        kws = good
         if (c["date"], label.lower()) in existing:
             continue
         ev = {"label": label, "date": c["date"], "sectors": secs,
-              "window_before_days": max(1, min(int(a.get("window_before_days", 14)), 30)),
-              "window_after_days": max(0, min(int(a.get("window_after_days", 3)), 10)),
+              "window_before_days": max(1, min(_int(a.get("window_before_days"), 14), 30)),
+              "window_after_days": max(0, min(_int(a.get("window_after_days"), 3), 10)),
               "source": c.get("url") or c["page"], "timeline": c["page"], "timeline_text": c["text"][:300],
               "added_by": "every-10-days refresh"}
         if kws:
@@ -88,6 +115,7 @@ def main():
     if problems:
         lines += ["", "Skipped: " + "; ".join(problems[:20])]
     open(SUMMARY, "w").write("\n".join(lines) + "\n")
+    mark_reviewed(cands)
     print("\n".join(lines), file=sys.stderr)
 
 

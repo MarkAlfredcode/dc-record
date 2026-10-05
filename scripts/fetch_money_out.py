@@ -25,9 +25,7 @@ Output: extras/campaigns/money_out.json
 """
 import json
 import re
-import sys
 from collections import defaultdict
-from datetime import date
 
 from dc_common import days_ago_la, http_get, today_la
 from dc_extras import (
@@ -383,7 +381,7 @@ def build(refunds, forfeits, invest, zombies, trump_rows, losses, errors, securi
             f"spent {money(z['total'])} across {z['n']} new line items. Largest: "
             + "; ".join(f"{money(t['amount'])} to {esc(t['recipient'][:40])} ({esc(t['desc'][:50])})" for t in z["top"])
             for z in zombies[:15]]})
-        paras.append(f"{len(zombies)} former member{'s\'' if len(zombies) != 1 else '\'s'} campaign committees reported new spending.")
+        paras.append(f"{len(zombies)} former member{"s'" if len(zombies) != 1 else "'s"} campaign committees reported new spending.")
     if errors:
         blocks.append({"type": "note", "text": "Partial run: " + esc(" | ".join(errors))})
     if not paras:

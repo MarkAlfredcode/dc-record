@@ -147,7 +147,7 @@ def main():
         if p["new"]:
             line += f". Signed since {mdY(since)}: " + "; ".join(signer(s) + f" on {mdY(s['date'])}" for s in p["new"])
         if crossed:
-            line += f". <strong>Across party lines:</strong> " + ", ".join(signer(s) for s in crossed[:6]) + \
+            line += ". <strong>Across party lines:</strong> " + ", ".join(signer(s) for s in crossed[:6]) + \
                     f" signed a petition sponsored by a {'Republican' if p['sponsor_party'] == 'R' else 'Democrat'}"
         return line
 

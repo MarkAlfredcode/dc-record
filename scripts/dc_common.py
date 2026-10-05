@@ -71,6 +71,10 @@ def http_get(url, headers=None, timeout=30, max_time_retries=2):
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.status, resp.read()
         except urllib.error.HTTPError as e:
+            if e.code in (502, 503, 504) and attempt < max_time_retries:
+                last_err = e
+                time.sleep(2)
+                continue
             return e.code, e.read()
         except Exception as e:  # noqa: BLE001 - genuine connect/timeout failure
             last_err = e
@@ -104,7 +108,15 @@ def http_post_json(url, payload, headers=None, timeout=30, max_time_retries=2):
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.status, json.loads(resp.read())
         except urllib.error.HTTPError as e:
-            return e.code, json.loads(e.read() or b"{}")
+            raw = e.read() or b"{}"
+            if e.code in (502, 503, 504) and attempt < max_time_retries:
+                last_err = e
+                time.sleep(2)
+                continue
+            try:
+                return e.code, json.loads(raw)
+            except ValueError:  # HTML error page from a gateway
+                return e.code, {"error": raw[:300].decode("utf-8", "replace")}
         except Exception as e:  # noqa: BLE001 - genuine connect/timeout failure
             last_err = e
             if attempt < max_time_retries:

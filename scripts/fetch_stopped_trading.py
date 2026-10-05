@@ -22,7 +22,6 @@ Output: extras/officials/stopped_trading.json
 """
 import csv
 import io
-import re
 import subprocess
 import sys
 import zipfile
@@ -30,7 +29,7 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta
 
 from dc_common import today_la
-from dc_extras import SeenManifest, esc, link, mdY, norm, section, write_extra
+from dc_extras import SeenManifest, esc, mdY, norm, section, write_extra
 from members import house_roster
 
 ZIP = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}FD.zip"
@@ -51,7 +50,9 @@ def index_rows(year):
         z = zipfile.ZipFile(io.BytesIO(body))
     except zipfile.BadZipFile:
         return []
-    name = next(n for n in z.namelist() if n.endswith(".txt"))
+    name = next((n for n in z.namelist() if n.endswith(".txt")), None)
+    if not name:
+        return []
     return list(csv.DictReader(io.StringIO(z.read(name).decode("utf-8-sig", errors="replace")), delimiter="\t"))
 
 
@@ -76,11 +77,11 @@ def main():
         by_key[(r["dst"], norm(r["last"]))] = bio
     ptrs = defaultdict(list)  # bioguide -> [filing dates]
     seen_years = 0
-    for year in range(today.year - 2, today.year + 1):
+    for year in range(today.year - 1, today.year + 1):
         rows = index_rows(year)
         seen_years += bool(rows)
         for r in rows:
-            if r["FilingType"] != "P" or not (r["Prefix"] or "").strip().startswith("Hon"):
+            if r["FilingType"] != "P":
                 continue
             d = parse(r["FilingDate"])
             sd = r["StateDst"]

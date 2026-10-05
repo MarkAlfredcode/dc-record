@@ -30,7 +30,7 @@ from stock_act_ledger import Ledger, history_phrase
 from jurisdiction import Jurisdiction
 from dc_common import download, http_get, pdftotext, today_la
 from dc_extras import SeenManifest, esc, link, lookback, mdY, section, write_extra
-from fetch_deadlines import SENATE, iso_from_mdy, senate_href, senate_label, senate_search, senate_session
+from fetch_deadlines import iso_from_mdy, senate_href, senate_label, senate_search, senate_session
 
 HOUSE_ZIP = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}FD.zip"
 HOUSE_PTR = "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{year}/{doc}.pdf"
@@ -61,7 +61,7 @@ def pdf_text(url, tmp):
         download(url, path, timeout=60)
     except Exception as e:  # noqa: BLE001
         print(f"download failed {url}: {e}", file=sys.stderr)
-        return ""
+        return None  # distinct from "" (downloaded but scanned/unreadable)
     return pdftotext(path)
 
 
@@ -99,6 +99,9 @@ def main():
         if r["FilingType"] == "P":
             url = HOUSE_PTR.format(year=r["Year"], doc=r["DocID"])
             text = pdf_text(url, tmp)
+            if text is None:
+                notes.append(f"{link(who_house(r) + ' PTR', url)}: download failed, will retry next run.")
+                continue  # not marked seen
             parsed = trades.parse_house_ptr(text)
             if not parsed:
                 notes.append(f"{link(who_house(r) + ' PTR', url)}: scanned or unparseable, not checked.")
@@ -107,7 +110,11 @@ def main():
                 _check_trade(t, who_house(r), filed, url, events, late, timed, jur, comms, oversight)
         elif r["FilingType"] == "O":
             url = HOUSE_FD.format(year=r["Year"], doc=r["DocID"])
-            _house_outside(who_house(r), url, pdf_text(url, tmp), outside)
+            fd_text = pdf_text(url, tmp)
+            if fd_text is None:
+                notes.append(f"{link(who_house(r) + ' annual report', url)}: download failed, will retry next run.")
+                continue
+            _house_outside(who_house(r), url, fd_text, outside)
         else:  # amended annual report -> diff against the original
             # The original is an annual (O) or, for non-incumbents, a candidate report (C).
             orig = sorted([o for o in rows if o["FilingType"] in ("O", "C") and o["Last"] == r["Last"]
@@ -120,9 +127,12 @@ def main():
             else:
                 old_url = HOUSE_FD.format(year=orig[0]["Year"], doc=orig[0]["DocID"])
                 budget -= 1
-                new_text = pdf_text(new_url, tmp)
+                new_text, old_text = pdf_text(new_url, tmp), pdf_text(old_url, tmp)
+                if new_text is None or old_text is None:
+                    notes.append(f"{link(who_house(r) + ' amended report', new_url)}: download failed, will retry next run.")
+                    continue
                 diffs.append(_diff(who_house(r), "candidate report" if orig[0]["FilingType"] == "C" else f"CY{r['Year']} annual report", old_url, new_url,
-                                   pdf_text(old_url, tmp), new_text))
+                                   old_text, new_text))
                 _house_outside(who_house(r), new_url, new_text, outside)
         seen.add(key)
 
@@ -153,7 +163,10 @@ def main():
                 budget -= 1
                 page = s.get(href, timeout=60).text
                 comms = jur.member_committees(r[1].split(",")[0], r[0])
+                amended = "Amendment" in lab  # an amendment restates old trades; the original filing governs lateness
                 for t in trades.parse_senate_ptr(page):
+                    if amended:
+                        t["status"] = "Amended"
                     _check_trade(t, who, filed, href, events, late, timed, jur, comms, oversight)
             elif lab.startswith("Annual Report") and "Extension" not in lab and "/annual/" in href:
                 budget -= 1
@@ -279,7 +292,6 @@ def _build(late, timed, diffs, notes, errors, history=None, oversight=(), outsid
                                 for x in late[:40]]})
         if len(late) > 40:
             blocks.append({"type": "note", "text": f"{len(late) - 40} more late trades not shown."})
-        repeat = [h.strip() for h in (history or {}).values() if h]
         per_filing = {}
         for x in late:
             per_filing.setdefault(x["url"], x)

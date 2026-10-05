@@ -145,7 +145,7 @@ def render_section(section):
     eyebrow = esc(section["eyebrow"])
     parts = [
         divider(),
-        f'<tr><td class="px" style="padding:24px 18px 8px 18px;">',
+        '<tr><td class="px" style="padding:24px 18px 8px 18px;">',
         f'<div style="font-family:Arial,Helvetica,sans-serif; font-size:12px; letter-spacing:1.5px; text-transform:uppercase; '
         f'color:{NAVY}; font-weight:bold; margin-bottom:6px;">{eyebrow}</div>',
         f'<div class="headline" style="font-family:\'Newsreader\', Georgia,\'Times New Roman\',serif; font-size:21px; '

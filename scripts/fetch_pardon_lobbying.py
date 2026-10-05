@@ -18,12 +18,11 @@ Output: extras/officials/pardon_lobbying.json
 import json
 import os
 import re
-import sys
 import time
 from urllib.parse import urlencode
 
 from dc_common import http_get
-from dc_extras import SeenManifest, esc, link, lookback, mdY, money, norm, section, write_extra
+from dc_extras import SeenManifest, esc, link, lookback, money, norm, section, write_extra
 
 API = "https://lda.gov/api/v1/filings/"
 THROTTLE = 4.3

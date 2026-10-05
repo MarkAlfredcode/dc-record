@@ -19,12 +19,11 @@ Output: extras/campaigns/outside_money.json
 """
 import os
 import re
-import sys
 from collections import defaultdict
 
-from dc_common import days_ago_la, today_la
+from dc_common import days_ago_la
 from dc_extras import (
-    SeenManifest, esc, fec_get, fec_key_cycle, fec_paginate, link, lookback, mdY, money,
+    SeenManifest, esc, fec_get, fec_key_cycle, fec_paginate, lookback, mdY, money,
     norm, section, write_extra,
 )
 
@@ -35,11 +34,16 @@ NEW_COMMITTEE_DAYS = 180
 CYCLE = 2026
 SUFFIX = {"inc", "llc", "llp", "lp", "ltd", "corp", "corporation", "company", "co", "the", "and", "of"}
 # processors/platforms that serve everyone -- sharing them means nothing
-GENERIC = re.compile(r"actblue|winred|anedot|google|facebook|meta platforms|amazon|paypal|stripe|united states postal|usps|fedex|ups\b|"
-                     r"verizon|at&t|gusto|adp\b|quickbooks|intuit|microsoft|apple\b|uber|lyft|delta air|american express|visa\b|mastercard|"
-                     r"bank|payroll|irs\b|treasury|fec\b|federal election|fundraising|salesforce|zoom|slack|dropbox|mailchimp|constant contact|"
-                     r"x corp|twitter|youtube|hulu|netflix|tiktok|snap inc|comcast|charter|spectrum|nbc|cbs|fox|abc\b|cnn|iheart|cumulus|"
-                     r"gannett|cox media|sinclair|nexstar|tegna|hearst|gray tv|scripps", re.I)
+_GENERIC_TERMS = ["actblue", "winred", "anedot", "google", "facebook", "meta platforms", "amazon", "paypal", "stripe",
+                  "united states postal", "usps", "fedex", "ups", "verizon", "at&t", "gusto", "adp", "quickbooks", "intuit",
+                  "microsoft", "apple", "uber", "lyft", "delta air", "american express", "visa", "mastercard", "bank",
+                  "bank of america", "payroll", "irs", "treasury", "fec", "federal election", "salesforce", "zoom", "slack",
+                  "dropbox", "mailchimp", "constant contact", "x corp", "twitter", "youtube", "hulu", "netflix", "tiktok",
+                  "snap inc", "comcast", "charter", "spectrum", "nbc", "cbs", "fox news", "fox corp", "fox broadcasting",
+                  "abc", "cnn", "iheart", "cumulus", "gannett", "cox media", "sinclair", "nexstar", "tegna", "hearst",
+                  "gray tv", "scripps"]
+# whole-word matches only: "Focus Groups", "Fairs & Events", "Advisa" and "Fox Strategic" are real campaign vendors
+GENERIC = re.compile(r"\b(?:" + "|".join(re.escape(x) for x in _GENERIC_TERMS) + r")\b", re.I)
 
 
 def vendor_key(name):

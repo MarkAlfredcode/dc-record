@@ -31,6 +31,10 @@ on:
       - "DC Record • The Feds"
       - "DC Record • Officials"
     types: [completed]
+  # Safety net for a dispatch that never happened (no workflow_run would ever fire):
+  schedule:
+    - cron: '30 16 * * *'   # ~9:30am PT
+    - cron: '30 3 * * *'    # ~8:30pm PT
   workflow_dispatch: {}
 
 permissions:
@@ -65,6 +69,8 @@ jobs:
           # run (confirmed by hand).
           [ -f digest/.am-alert-date ] && git add digest/.am-alert-date || true
           [ -f digest/.pm-alert-date ] && git add digest/.pm-alert-date || true
+          [ -f digest/.am-missing-alert-date ] && git add digest/.am-missing-alert-date || true
+          [ -f digest/.pm-missing-alert-date ] && git add digest/.pm-missing-alert-date || true
           if git diff --cached --quiet; then
             echo "No new alert sent this run -- nothing to commit."
             exit 0

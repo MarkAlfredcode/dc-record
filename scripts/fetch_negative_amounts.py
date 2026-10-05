@@ -111,12 +111,12 @@ def main():
     try:
         b_url = (
             "https://api.open.fec.gov/v1/schedules/schedule_b/"
-            f"?min_date={lookback}&max_amount={THRESHOLD}&sort=disbursement_date&per_page=100"
+            f"?min_date={days_ago_la(14)}&max_amount={THRESHOLD}&sort=disbursement_date&per_page=100"  # B ignores load date; widen + dedupe
         )
         for r in paginate(b_url, key_cycle, ["last_disbursement_date", "last_index"]):
             all_rows.append({
                 "schedule": "B",
-                "key": f"schedule_b:{r.get('image_number')}",
+                "key": f"schedule_b:{r.get('sub_id') or r.get('image_number')}",
                 "committee_name": (r.get("committee") or {}).get("name"),
                 "committee_id": r.get("committee_id"),
                 "counterparty": r.get("recipient_name"),
@@ -135,13 +135,13 @@ def main():
         period = two_year_period(today)
         a_url = (
             "https://api.open.fec.gov/v1/schedules/schedule_a/"
-            f"?min_date={lookback}&max_amount={THRESHOLD}&two_year_transaction_period={period}"
+            f"?min_load_date={lookback}&max_amount={THRESHOLD}&two_year_transaction_period={period}"
             "&sort=contribution_receipt_date&per_page=100"
         )
         for r in paginate(a_url, key_cycle, ["last_contribution_receipt_date", "last_index"]):
             all_rows.append({
                 "schedule": "A",
-                "key": f"schedule_a:{r.get('image_number')}",
+                "key": f"schedule_a:{r.get('sub_id') or r.get('image_number')}",
                 "committee_name": (r.get("committee") or {}).get("name"),
                 "committee_id": r.get("committee_id"),
                 "counterparty": r.get("contributor_name"),

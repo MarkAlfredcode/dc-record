@@ -16,12 +16,12 @@ Output: extras/officials/lda_trends.json
 """
 import json
 import re
-import sys
 import time
 from urllib.parse import urlencode
 
 from dc_common import days_ago_la, http_get
-from dc_extras import esc, link, load_json, mdY, money, norm, section, write_extra
+import os
+from dc_extras import SeenManifest, esc, link, load_json, mdY, money, norm, section, write_extra
 
 API = "https://lda.gov/api/v1/filings/"
 THROTTLE = 4.3
@@ -74,7 +74,7 @@ def ld203(since):
     contributions posted in the window."""
     out, errors = [], []
     for ctype in ("ple", "pic", "he"):
-        page = 1
+        page, tries = 1, 0
         while page <= 8:
             try:
                 wait = THROTTLE - (time.time() - _last[0])
@@ -84,6 +84,10 @@ def ld203(since):
                 status, body = http_get(f"{CONTRIB_API}?{urlencode({'filing_dt_posted_after': since, 'contribution_type': ctype, 'page_size': 25, 'page': page})}",
                                         headers={"User-Agent": "dc-record-bot"}, timeout=60)
                 if status == 429:
+                    tries += 1
+                    if tries >= 3:
+                        errors.append(f"LD-203 {ctype}: rate-limited")
+                        break
                     time.sleep(61)
                     continue
                 if status >= 400:
@@ -97,7 +101,10 @@ def ld203(since):
                 for c in f.get("contribution_items") or []:
                     if c.get("contribution_type") != ctype:
                         continue
-                    amt = float(c.get("amount") or 0)
+                    try:
+                        amt = float(c.get("amount") or 0)
+                    except (TypeError, ValueError):
+                        continue
                     blob = f"{c.get('payee_name') or ''} {c.get('honoree_name') or ''}"
                     if (ctype in ("ple", "pic") and amt >= 1000) or (ctype == "he" and HONOREE_RE.search(blob)):
                         out.append({"type": ctype, "filer": filer, "payee": c.get("payee_name"), "honoree": c.get("honoree_name"),
@@ -113,6 +120,7 @@ def main():
     since = days_ago_la(1)
     jump = cfg.get("spend_jump", {"min_increase": 50000, "min_ratio": 1.5})
     hits, errors = {}, []
+    seen = SeenManifest("data/lda-trends-seen.json", keep_days=14)
     for industry, spec in (cfg.get("industries") or {}).items():
         confirm = re.compile("|".join(spec.get("confirm", [])), re.I)
         for param, term in spec.get("search", []):
@@ -122,7 +130,7 @@ def main():
                 errors.append(f"{industry} '{term}': {e}")
                 continue
             for f in d.get("results", []):
-                if confirm.search(haystack(f)):
+                if f["filing_uuid"] not in seen and confirm.search(haystack(f)):
                     hits.setdefault(f["filing_uuid"], {"f": f, "industries": set()})["industries"].add(industry)
 
     regs, jumps, others = [], [], []
@@ -184,6 +192,13 @@ def main():
         blocks.append({"type": "note", "text": "Partial run: " + esc(" | ".join(errors[:4]))})
     gifts, gerr = ld203(since)
     errors.extend(gerr)
+    gifts = [g for g in gifts if f"ld203:{g['filer']}|{g['payee']}|{g['amount']}|{g['date']}" not in seen]
+    if not os.environ.get("DC_NO_SAVE"):
+        for u in hits:
+            seen.add(u)
+        for g in gifts:
+            seen.add(f"ld203:{g['filer']}|{g['payee']}|{g['amount']}|{g['date']}")
+        seen.save()
     gift_section = []
     if gifts:
         names = {"ple": "presidential library", "pic": "inaugural committee", "he": "honorary expense"}

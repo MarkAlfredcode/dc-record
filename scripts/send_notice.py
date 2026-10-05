@@ -13,7 +13,7 @@ import subprocess
 import sys
 
 TO = ["markalfred@notus.com", "taylorgiorno@notus.com", "annakramer@notus.com"]
-FROM = "DC Record • Executive Branch <newsletter@markalfred.news>"
+FROM = "DC Record • The Feds <newsletter@markalfred.news>"
 
 
 def main():
@@ -24,9 +24,9 @@ def main():
     if api_key:
         payload = {
             "from": FROM, "to": TO,
-            "subject": "DC Record • Executive Branch • network issue, no edition today",
-            "html": f"<p>Today's Executive Branch edition could not be built: {down_hosts} were unreachable.</p>",
-            "text": f"Today's Executive Branch edition could not be built: {down_hosts} were unreachable.",
+            "subject": "DC Record • The Feds • network issue, no edition today",
+            "html": f"<p>Today's The Feds edition could not be built: {down_hosts} were unreachable.</p>",
+            "text": f"Today's The Feds edition could not be built: {down_hosts} were unreachable.",
         }
         subprocess.run(
             ["curl", "-s", "https://api.resend.com/emails",

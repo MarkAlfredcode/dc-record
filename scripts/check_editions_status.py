@@ -61,6 +61,8 @@ EDITIONS = [
 ]
 
 WINDOW_HOURS = {"am": range(0, 12), "pm": range(12, 24)}
+# Past this Pacific hour with no run at all, the dispatch itself failed (Worker, GitHub token, outage).
+MISSING_AFTER_HOUR = {"am": 8, "pm": 20}
 
 
 def gh_runs(workflow_file):
@@ -92,6 +94,8 @@ def classify(edition_id, workflow_file, label, window, today_str):
 
     run = latest_run_in_window(runs, today_str, WINDOW_HOURS[window])
     if run is None:
+        if datetime.now(LA_TZ).hour >= MISSING_AFTER_HOUR[window]:
+            return "MISSING", f"{label}: no {window.upper()} run was ever dispatched"
         return "PENDING", None
     if run["status"] != "completed":
         return "PENDING", None
@@ -131,6 +135,23 @@ def main():
         state, detail = classify(edition_id, workflow_file, label, window, today_str)
         statuses.append((edition_id, label, state, detail))
         print(f"{label}: {state}" + (f" -- {detail}" if detail and state != 'OK' else ""))
+
+    missing = [s for s in statuses if s[2] == "MISSING"]
+    if missing:
+        mpath = f"digest/.{window}-missing-alert-date"
+        try:
+            sent = open(mpath).read().strip() == today_str
+        except FileNotFoundError:
+            sent = False
+        if not sent:
+            send_ntfy(f"DC Record {window.upper()}: edition(s) never ran", "rotating_light",
+                      "; ".join(s[3] for s in missing) + ". Check the Cloudflare scheduler / its GitHub token.")
+            import os
+            os.makedirs("digest", exist_ok=True)
+            with open(mpath, "w") as f:
+                f.write(today_str + "\n")
+        print(f"{len(missing)} {window.upper()} edition(s) never ran -- alerted.")
+        return
 
     if any(s[2] == "PENDING" for s in statuses):
         print(f"Not all 4 {window.upper()} editions are done yet -- staying quiet.")
