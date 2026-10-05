@@ -1,0 +1,266 @@
+{
+ "date": "Monday, October 5, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Nancy Pelosi Reports Up to $1 Million Stake in San Francisco Office-Building LLC",
+  "dek": "A spouse-owned investment in a private LLC was the largest single transaction in today's disclosures.",
+  "paragraphs": [
+   "Rep. Nancy Pelosi's periodic transaction report, filed October 2, lists a $500,001\u2013$1,000,000 purchase on September 8 in REOF XXX, LLC, which the filing says is acquiring and managing a commercial office property at 225 Bush Street in San Francisco. The filing marks the owner as spouse.",
+   "Separately, Rep. Michael Rulli reported three trades of $1,001\u2013$15,000 each in Goldman Sachs Group, Inc., Microsoft Corporation and Wells Fargo & Company. Beyond that, the day's FARA, LDA and Office of Government Ethics activity was routine."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Pelosi periodic transaction report",
+     "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035553.pdf"
+    },
+    {
+     "text": "Rulli periodic transaction report",
+     "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "Eight Routine Ethics Filings Filed",
+   "paragraphs": [
+    "Department of State and White House officials filed eight ethics disclosures and transaction reports today. All filings are pending final OGE disposition."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Department of State"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>John Arrigo</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Arrigo\">Transaction Report</a>, Department of State.",
+      "<strong>John Arrigo</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Arrigo\">Transaction Report</a>, Department of State.",
+      "<strong>Howard Brodie</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Brodie\">Transaction Report</a>, Department of State.",
+      "<strong>Joseph Popolo</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Popolo\">Transaction Report</a>, Department of State.",
+      "<strong>Christopher Landau</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Landau\">Annual Disclosure (2026)</a>, Department of State."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "White House Office"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Christopher Ambrosini</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Ambrosini\">Annual Disclosure (2026)</a>, White House Office.",
+      "<strong>Vincent M Haley</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Haley\">Annual Disclosure (2026)</a>, White House Office.",
+      "<strong>Stephen Miller</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/201%20Request?OpenForm&Filer=Miller\">Annual Disclosure (2026)</a>, White House Office."
+     ]
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "FARA Registrants",
+   "headline": "No New or Terminated FARA Registrants",
+   "paragraphs": [
+    "The Justice Department's FARA e-file reports showed no new or terminated registrants between October 4 and October 5, 2026."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Personal Financial Disclosures & Stock Trades",
+   "headline": "Pelosi Reports $500,001\u2013$1 Million Office-Building LLC Investment; Rulli Discloses Three Stock Trades",
+   "paragraphs": [
+    "The Clerk of the House logged five new House filings since October 2: two periodic transaction reports and three new candidate reports. Both transaction reports were read in full. The Senate electronic filing system returned no filings for the same window."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Periodic transaction reports (STOCK Act)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Nancy Pelosi</strong> (D-CA11) filed a <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035553.pdf\">periodic transaction report</a> on 10/02/2026 listing one purchase: a spouse-owned $500,001\u2013$1,000,000 investment on 09/08/2026 in REOF XXX, LLC, a private vehicle that the filing says is acquiring and managing a commercial office property at 225 Bush Street in San Francisco. It is not a publicly traded stock, so there is no ticker to tabulate.",
+      "<strong>Rep. Michael Rulli</strong> (R-OH06) filed a <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf\">periodic transaction report</a> on 10/02/2026 listing three stock trades in a Merrill Lynch SIMPLE Managed Account, all in the $1,001\u2013$15,000 range:"
+     ]
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Ticker",
+      "Company",
+      "Type",
+      "Date",
+      "Amount"
+     ],
+     "rows": [
+      [
+       "GS",
+       "Goldman Sachs Group, Inc.",
+       "Purchase",
+       "09/03/2026",
+       "$1,001 - $15,000"
+      ],
+      [
+       "MSFT",
+       "Microsoft Corporation",
+       "Sale (partial)",
+       "09/28/2026",
+       "$1,001 - $15,000"
+      ],
+      [
+       "WFC",
+       "Wells Fargo & Company",
+       "Sale (partial)",
+       "09/03/2026",
+       "$1,001 - $15,000"
+      ]
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "New candidate reports"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Shimon Blau</strong> (CO01) \u2014 new <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082725.pdf\">candidate report</a>, filed 10/02/2026.",
+      "<strong>Tim Sharman</strong> (VA08) \u2014 new <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082920.pdf\">candidate report</a>, filed 10/02/2026.",
+      "<strong>Michael Anthony Murphy</strong> (PA04) \u2014 new <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082994.pdf\">candidate report</a>, filed 10/04/2026."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "No New Lobbying Registrations; Third-Quarter Reports Dominate",
+   "paragraphs": [
+    "The Senate lobbying database posted 263 filings since October 4, none of them new registrations. They are almost entirely routine third-quarter reports (204 with activity, 42 reporting no activity), plus 12 amendments and 7 terminations. Nothing stood out as tied to a bill or member covered in today's other sections."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Terminations"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "<strong>Holland & Knight LLP</strong>",
+       "<strong>Conservation International</strong>",
+       "Foreign Relations, Natural Resources",
+       "<a href=\"https://lda.gov/filings/public/filing/e21611ed-b297-4936-bf23-e4a0b126c034/print/\">Termination</a>"
+      ],
+      [
+       "<strong>Smith Advocacy Group, LLC</strong>",
+       "<strong>The Aleut Corporation</strong>",
+       "Defense, Natural Resources, Transportation",
+       "<a href=\"https://lda.gov/filings/public/filing/e9e72d02-0eb8-46a2-a260-296a59898143/print/\">Termination</a>"
+      ],
+      [
+       "<strong>Holland & Knight LLP</strong>",
+       "<strong>Pilot Travel Centers LLC</strong>",
+       "none (no activity)",
+       "<a href=\"https://lda.gov/filings/public/filing/ff6b605a-10ae-437d-94de-9a7835495be7/print/\">Termination, no activity</a>"
+      ],
+      [
+       "<strong>Dinino Associates, LLC</strong>",
+       "<strong>Cornerstone Government Affairs on behalf of Tunica Biloxi Tribe of Louisiana</strong>",
+       "none (no activity)",
+       "<a href=\"https://lda.gov/filings/public/filing/583c220f-7d36-4cab-a14b-8d5c27b7d067/print/\">Termination, no activity (2nd quarter)</a>"
+      ],
+      [
+       "<strong>A1.9 Strategies LLC</strong>",
+       "<strong>Thruvision America</strong>",
+       "none (no activity)",
+       "<a href=\"https://lda.gov/filings/public/filing/b7e21629-5d21-463c-9106-4ebbcebb4ba6/print/\">Termination, no activity</a>"
+      ],
+      [
+       "<strong>TSE Consulting</strong>",
+       "<strong>A-1 Global Holdings, Inc.</strong>",
+       "none (no activity)",
+       "<a href=\"https://lda.gov/filings/public/filing/e548c93f-3d19-426f-bf28-c270296aadf6/print/\">Termination, no activity</a>"
+      ],
+      [
+       "<strong>Cassidy & Associates, Inc.</strong>",
+       "<strong>Tonopah Solar Energy</strong>",
+       "none (no activity)",
+       "<a href=\"https://lda.gov/filings/public/filing/68387e55-bf7f-4680-9ae7-8fb28560ff96/print/\">Termination, no activity</a>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Remaining filings are routine quarterly reports and amendments, searchable at lda.gov."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Industries to Watch",
+   "headline": "Lobbying in prediction markets, crypto, AI and defense tech",
+   "paragraphs": [
+    "3 new filings in watched industries; no new clients or spending jumps."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Other new filings in watched industries"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Client",
+      "Firm",
+      "Industry",
+      "Reported",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "COPYRIGHT ALLIANCE",
+       "COPYRIGHT ALLIANCE",
+       "Artificial intelligence",
+       "$30,000",
+       "<a href=\"https://lda.gov/filings/public/filing/99d69140-9429-419d-9e2b-b5819295de47/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "MICROSOFT CORPORATION",
+       "THE GIBSON GROUP, LLC",
+       "Artificial intelligence",
+       "$30,000",
+       "<a href=\"https://lda.gov/filings/public/filing/353cb880-7e1c-4ac5-84ea-4c98534c0be5/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "SECURITY INDUSTRY ASSOCIATION",
+       "DUNKEL GOVERNMENT RELATIONS",
+       "Defense tech",
+       "$24,000",
+       "<a href=\"https://lda.gov/filings/public/filing/dc15a9ad-16c7-4eaa-b7fb-4b2200a46fdd/print/\">3rd Quarter - Report</a>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Industries and keywords are set in data/lda_industries.json. Amounts are the income (firm) or expenses (in-house) line on the filing."
+    }
+   ],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "FARA/LDA: October 4, 2026 through the morning of October 5; House and Senate disclosures filed October 2 or later.",
+  "sources": "OGE's ethics-filing search endpoint; DOJ FARA e-file system; Senate Office of Public Records LDA API; Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "No tasks were skipped. The Senate eFD search returned zero rows for the window."
+ },
+ "beat": []
+}
