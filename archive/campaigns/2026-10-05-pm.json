@@ -1,0 +1,29 @@
+{
+ "date": "Monday, October 5, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings since this morning's edition",
+  "dek": "Every request for additional information and Form 99 in the October 2\u20135 window was already covered earlier today.",
+  "paragraphs": [
+   "The FEC filings API returned 6 requests for additional information and 14 Form 99 submissions received since October 2. All of them appeared in this morning's edition or an earlier one, so nothing new is reported here.",
+   "The deterministic checks for missing reports, megadonor gifts, Money Out findings and outside spending also found nothing new."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "FEC Filings",
+   "headline": "Nothing new to report",
+   "paragraphs": [
+    "No FEC filings surfaced in this window that hadn't already been reported in a prior edition."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 2, 2026 through the afternoon of October 5, 2026 (Pacific), filings by FEC receipt date",
+  "sources": "FEC filings API.",
+  "known_gaps": "The voided and negative transactions pre-pass produced no qualifying transactions. NASA's Astronomy Picture of the Day was not fetched, so it is omitted."
+ },
+ "beat": []
+}
