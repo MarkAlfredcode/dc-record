@@ -46,11 +46,50 @@ def table_row_text(headers, row):
     return " · ".join(c if h.lower() in IDENTITY_HEADERS else f"{h}: {c}" for h, c in zip(headers, row))
 
 
-def units(content):
-    """(section label, html, kind) for every piece of text in the edition."""
+HREF_RE = re.compile(r'href="([^"]+)"')
+
+
+def top_story_urls(content):
     ts = content.get("top_story") or {}
-    for p in [ts.get("headline", "")] + list(ts.get("paragraphs", [])):
-        yield "Top Story", p, "para"
+    urls = {l.get("url") for l in (ts.get("callout") or {}).get("links", [])}
+    for p in ts.get("paragraphs", []):
+        urls.update(HREF_RE.findall(p))
+    return urls - {None}
+
+
+def drop_repeats_of_top_story(content):
+    """The Top Story already tells the story of any award it links; the
+    Donor Awards section must not retell it (added 2026-10-04: one award
+    ran as Top Story + Donor Awards cards + a Your Beat quote of both).
+    Cards whose every link the Top Story also carries are removed; a
+    section left with no cards disappears."""
+    urls = top_story_urls(content)
+    if not urls:
+        return
+    kept = []
+    for s in content.get("sections", []):
+        if s.get("eyebrow", "").lower() != "donor awards":
+            kept.append(s)
+            continue
+        blocks = s.get("blocks", [])
+        left = [b for b in blocks if not (b.get("type") == "card" and b.get("links")
+                                          and all(l.get("url") in urls for l in b["links"]))]
+        cards = [b for b in left if b.get("type") == "card"]
+        if not cards:
+            continue
+        if len(left) != len(blocks):
+            n = len(cards)
+            s["headline"] = f"{n} more donor-linked award{'s' if n != 1 else ''} beyond the Top Story"
+            s["paragraphs"] = []
+            s["blocks"] = left
+        kept.append(s)
+    content["sections"] = kept
+
+
+def units(content):
+    """(section label, html, kind) for every piece of text in the edition.
+    The Top Story is not yielded: Your Beat only points at things the
+    reader hasn't already been handed at the top of the page."""
     for s in content.get("sections", []):
         label = s.get("eyebrow", "")
         for p in [s.get("headline", "")] + list(s.get("paragraphs", [])):
@@ -131,6 +170,7 @@ def main():
                 content.setdefault("sections", []).insert(0, s)
             else:
                 content.setdefault("sections", []).append(s)
+    drop_repeats_of_top_story(content)
     content["beat"] = [] if edition == "congress" else beat(content)  # no Your Beat box on the Congress edition
     with open(path, "w") as f:
         json.dump(content, f, indent=2)
