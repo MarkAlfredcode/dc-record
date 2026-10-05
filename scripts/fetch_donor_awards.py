@@ -365,18 +365,16 @@ def vendor_summary(rows, targets_label):
 
 
 def describe_donations(s, official_labels):
-    """One plain sentence of evidence. Never says 'owner'."""
-    bits = []
+    """One short evidence line. Never says 'owner'."""
     ppl = sorted(s["people"].items(), key=lambda kv: -kv[1])
+    who = []
     if ppl:
-        names = ", ".join(f"{esc(n.title())} ({money(a)})" for n, a in ppl[:3])
-        more = f" and {len(ppl) - 3} more" if len(ppl) > 3 else ""
-        bits.append(f"{len(ppl)} individual donor(s) list the company as their employer, giving "
-                    f"{money(sum(a for _, a in ppl))} in total — {names}{more}")
+        who.append(", ".join(f"{esc(n.title())} ({money(a)})" for n, a in ppl[:2]) + (f" +{len(ppl) - 2}" if len(ppl) > 2 else "")
+                   + " list it as employer")
     if s["entity"]:
-        bits.append(f"the company itself gave {money(s['entity'])}")
-    where = "; ".join(f"{esc(c)} {money(a)}" for c, a in sorted(s["committees"].items(), key=lambda kv: -kv[1])[:4])
-    return "; ".join(bits) + f". Recipients: {where}."
+        who.append(f"the company gave {money(s['entity'])}")
+    top = sorted(s["committees"].items(), key=lambda kv: -kv[1])[:2]
+    return "; ".join(who) + " → " + ", ".join(f"{esc(c)} {money(a)}" for c, a in top) + "."
 
 
 def pretty_desc(text):
@@ -533,49 +531,37 @@ def main():
     blocks = []
     for f in findings[:6]:
         a, s, d = f["award"], f["stats"], f["departure"]
-        dep = (f"{d['predecessor']} left {d['agency']}; {d['successor']} confirmed {mdY(d['confirmed'])}"
-               if f["kind"] == "exit" else f"{d['agency']} head change: {d['predecessor']} → {d['successor']}")
+        dep = f"{d['predecessor']} → {d['successor']} ({mdY(d['confirmed'])})"
         timing = ""
         if f["days_before"] is not None:
-            timing = (f" Signed {mdY(a['date'])}, {f['days_before']} day(s) before the successor was confirmed."
-                      if f["days_before"] else f" Signed {mdY(a['date'])}, the day the successor was confirmed.")
-        who = "an owner/executive donor to the agency head's own committees" if (f["owner"] and f["to_official"]) else \
-              "an owner/executive donor to Trump-world committees" if f["owner"] else \
-              "donors to the agency head's own committees" if f["to_official"] else "large giving to Trump-world committees"
+            timing = (f" Signed {f['days_before']}d before the successor's confirmation."
+                      if f["days_before"] else " Signed the day the successor was confirmed.")
         blocks.append({
             "type": "card",
-            "title": f"<strong>{esc(pretty(a['recipient']))}</strong> won {money(a['amount'])} from "
-                     f"<strong>{esc(a['sub_agency'] or a['agency'])}</strong>; FEC shows {who}",
-            "meta": [dep, "Donor link: FEC", money(a["amount"])],
-            "text": f"{esc(pretty_desc(a['description']))}.{timing} FEC records: {describe_donations(s, f['labels'])} "
-                    f"A donor listing the company as employer does not by itself show who owns it.",
+            "title": f"<strong>{esc(pretty(a['recipient']))}</strong>: {money(a['amount'])} from {esc(a['sub_agency'] or a['agency'])}",
+            "meta": [dep],
+            "text": f"{esc(pretty_desc(a['description'])[:110])}.{timing} {describe_donations(s, f['labels'])}",
             "links": [{"text": "Award", "url": a["url"]}],
         })
     rest = findings[6:]
     if rest:
         blocks.append({"type": "list", "items": [
             f"<strong>{esc(pretty(f['award']['recipient']))}</strong> — {money(f['award']['amount'])}, "
-            f"{esc(f['award']['sub_agency'] or f['award']['agency'])}: {money(f['stats']['total'])} in FEC-linked giving "
+            f"{esc(f['award']['sub_agency'] or f['award']['agency'])}, {money(f['stats']['total'])} FEC-linked "
             f"(<a href=\"{esc(f['award']['url'])}\">award</a>)." for f in rest[:10]]})
     blocks.append({"type": "note", "text": (
-        f"Checked {checked} award(s) against {len(deps)} agency-head change(s) confirmed in the last {EXIT_LOOKBACK_DAYS} days "
-        f"({', '.join(esc(x['predecessor']) for x in deps)}): $1 million+ awards in the 30 days before each successor's confirmation, "
-        f"plus new $2 million+ awards at those agencies. Donor data: FEC contributions (2024 and 2026 cycles) to the departing/arriving "
-        f"head's own committees and to Trump's committees, MAGA Inc., the Trump National Committee JFC and the Republican National Committee; "
-        f"matched on the vendor's exact name as donor, as donors' stated employer, or as the employer of a donor whose occupation is owner/"
-        f"executive." + (f" {'; '.join(note_bits)}." if note_bits else ""))})
+        f"Checked {checked} award(s): $1M+ in the 30 days before each of {len(deps)} agency-head change(s), plus new $2M+ awards at those agencies. "
+        "Matches are FEC donors (2024/2026) to the head's own committees or Trump-world committees whose employer is the vendor, "
+        "or the vendor itself; an employer match does not show ownership."
+        + (f" {'; '.join(note_bits)}." if note_bits else ""))})
     top = findings[0]
     ta = top["award"]
-    headline = (f"{pretty(ta['recipient'])} won {money(ta['amount'])} from {ta['sub_agency'] or ta['agency']} "
-                f"as {top['departure']['predecessor']} was leaving — FEC links it to "
-                + ("an owner/executive donor" if top["owner"] else "donors") + " "
-                + ("to the agency head" if top["to_official"] else "to Trump-world committees"))
-    if top["kind"] != "exit":
-        headline = (f"New {money(ta['amount'])} award to {pretty(ta['recipient'])} from {ta['sub_agency'] or ta['agency']} — "
-                    f"FEC links its donors to {'the agency head' if top['to_official'] else 'Trump-world committees'}")
+    who_link = "the agency head" if top["to_official"] else "Trump-world committees"
+    headline = (f"{pretty(ta['recipient'])} won {money(ta['amount'])} from {ta['sub_agency'] or ta['agency']}; donors tied to {who_link}"
+                if top["kind"] == "exit" else
+                f"New {money(ta['amount'])} award to {pretty(ta['recipient'])}; donors tied to {who_link}")
     sections = [{**section("Donor Awards", headline,
-                           [f"{len(findings)} award(s) went to vendors tied by FEC records to the agency head's own donors or to "
-                            f"large Trump-world giving, around a change at the top of the agency."], blocks), "priority": True}]
+                           [f"{len(findings)} award(s) to donor-linked vendors around an agency-head change."], blocks), "priority": True}]
     summary = (f"Donor awards: {len(findings)} hit(s). Top: {ta['recipient']} {money(ta['amount'])} "
                f"({ta['sub_agency'] or ta['agency']}, {mdY(ta['date'] or '')}); "
                f"{sum(1 for f in findings if f['to_official'])} tied to the agency head's own committees, "
