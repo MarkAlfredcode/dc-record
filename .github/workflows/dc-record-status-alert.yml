@@ -27,6 +27,7 @@ on:
   workflow_run:
     workflows:
       - "DC Record • Campaigns"
+      - "DC Record • Congress"
       - "DC Record • The Feds"
       - "DC Record • Officials"
     types: [completed]

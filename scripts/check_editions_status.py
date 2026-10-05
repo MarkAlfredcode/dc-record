@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Checks whether all 3 DC Record editions have finished their AM (or PM)
+"""Checks whether all 4 DC Record editions have finished their AM (or PM)
 run for today, and sends exactly one consolidated ntfy notification once
 they have -- either "all ready" or a plain explanation of whatever went
 wrong, never silence. Replaces the old dc-record-pm-alert.yml, which only
@@ -42,7 +42,7 @@ digest/.{window}-alert-date so a later trigger the same day doesn't send it
 again. While anything is still PENDING, do nothing and exit quietly --
 same as the old behavior -- the calling workflow fires on every completion
 of any of the 3 editions' workflows (6x/day), so most invocations are
-expected to find "not all 3 done yet" and that's normal, not worth logging
+expected to find "not all 4 done yet" and that's normal, not worth logging
 as a problem.
 """
 import json
@@ -55,6 +55,7 @@ LA_TZ = ZoneInfo("America/Los_Angeles")
 
 EDITIONS = [
     ("campaigns", "dc-record-campaigns.yml", "Campaigns"),
+    ("congress", "dc-record-congress.yml", "Congress"),
     ("feds", "dc-record-feds.yml", "The Feds"),
     ("officials", "dc-record-officials.yml", "Officials"),
 ]
@@ -132,20 +133,20 @@ def main():
         print(f"{label}: {state}" + (f" -- {detail}" if detail and state != 'OK' else ""))
 
     if any(s[2] == "PENDING" for s in statuses):
-        print(f"Not all 3 {window.upper()} editions are done yet -- staying quiet.")
+        print(f"Not all 4 {window.upper()} editions are done yet -- staying quiet.")
         return
 
     problems = [s for s in statuses if s[2] == "PROBLEM"]
     if problems:
-        title = f"DC Record {window.upper()}: {len(problems)} of 3 had a problem"
-        tags = "warning"
-        body_lines = [d for _, _, state, d in statuses if state == "PROBLEM"]
-        body_lines += [f"{label}: OK" for _, label, state, _ in statuses if state == "OK"]
-        body = "\n".join(body_lines)
-    else:
-        title = f"DC Record {window.upper()}: all 3 editions ready"
-        tags = "white_check_mark"
-        body = ", ".join(label for _, label, _, _ in statuses) + " have all finished."
+        # Each edition's own workflow already sent its failure ntfy; don't
+        # double-alert, and don't write the marker so a successful re-run
+        # later in the window can still trigger the all-done notice.
+        print(f"{len(problems)} {window.upper()} edition(s) failed -- failure alerts already sent by the editions themselves; staying quiet.")
+        return
+
+    title = f"DC Record {window.upper()}: all {len(EDITIONS)} editions ready"
+    tags = "white_check_mark"
+    body = ", ".join(label for _, label, _, _ in statuses) + " have all finished."
 
     send_ntfy(title, tags, body)
     print(f"Sent {window.upper()} alert: {title}")

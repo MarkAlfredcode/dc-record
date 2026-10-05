@@ -190,20 +190,14 @@ jobs:
             curl -s --max-time 10 -H "Title: $1" -H "Tags: $2" -d "$3" \
               https://ntfy.sh/markalfreddotnews >/dev/null 2>&1 || true
           }
-          if [ -f email_sent.flag ]; then
-            notify "DC Record Officials sent" "email" "$(cat email_sent.flag)"
-          elif [ -f email_skipped.flag ]; then
-            notify "DC Record Officials: no email sent" "test_tube" "$(cat email_skipped.flag)"
-          elif [ -f email_failed.flag ]; then
+          # Failures only -- success/skipped runs are intentionally silent; the
+          # status-alert workflow sends one ntfy once all 4 editions finish OK.
+          if [ -f email_failed.flag ]; then
             notify "DC Record Officials FAILED" "rotating_light" "$(cat email_failed.flag)"
-          elif [ -f content_skipped.flag ]; then
-            notify "DC Record Officials skipped" "warning" "$(cat content_skipped.flag)"
           elif [ -f content_failed.flag ]; then
             notify "DC Record Officials content FAILED" "rotating_light" "$(cat content_failed.flag)"
-          elif [ "${{ steps.run_edition.outcome }}" == "failure" ]; then
-            notify "DC Record Officials CRASHED" "rotating_light" "Run step failed with no status flag written — check the Actions log."
-          else
-            notify "DC Record Officials: unknown outcome" "warning" "Run finished but wrote no status flag — check the Actions log."
+          elif [ "${{ job.status }}" == "failure" ]; then
+            notify "DC Record Officials CRASHED" "rotating_light" "A step failed with no status flag written — check the Actions log."
           fi
 
       # Also mirrors today's newsletter to a fixed repo path (digest/officials.html)
