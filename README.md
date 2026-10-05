@@ -205,3 +205,20 @@ Test a script against older data: `DC_LOOKBACK_DAYS=60 python3 scripts/fetch_pfd
 OGE note: OGE moved its index API from `API.xsp/v2/rest` to `v3/rest`
 (2026-10-03); v3 ignores sort order, so `scripts/oge_index.py` pulls the
 whole index (~8s) and filters locally.
+
+## Conflicts edition (web-only, added 2026-10-04)
+
+Fifth edition, never emailed, **no Claude pass** -- every section is a deterministic scanner
+(`dc-record-conflicts.yml`, dispatched with the other editions by the Cloudflare scheduler):
+
+| Script | Section |
+|---|---|
+| `fetch_donor_awards.py` (moved from Feds) | Donor Awards |
+| `fetch_pfd_analysis.py` (moved from Officials) | Disclosure Red Flags |
+| `trade_awards.py` (called by `fetch_pfd_analysis.py` with every parsed stock trade) | Trades Near Contract Awards: trade within 30 days of a $10M+ new award / $50M+ modification to a recipient whose name equals the issuer's |
+
+Each flag is also recorded in `data/conflict-signals.json` (`conflict_signals.py`); `build_conflicts.py`
+archives the run to `archive/conflicts/`, merges today's AM+PM runs, keeps a 14-day "Earlier flags"
+log, and ranks people/companies flagged more than once in 60 days ("Repeat names").
+`render_conflicts.py` writes the page; the markalfred.news `/dc-record` page lists it as a fifth tab.
+Name matching is strict on purpose (subsidiaries missed; Crane & Co. != Crane Co.).

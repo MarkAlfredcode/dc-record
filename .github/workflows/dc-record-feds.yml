@@ -71,7 +71,6 @@ jobs:
           timeout 900 python3 scripts/fetch_omb.py; echo "fetch_omb exit=$?"
           timeout 900 python3 scripts/fetch_usaspending.py; echo "fetch_usaspending exit=$?"
           timeout 900 python3 scripts/fetch_sam.py; echo "fetch_sam exit=$?"
-          timeout 900 python3 scripts/fetch_donor_awards.py; echo "fetch_donor_awards exit=$?"
           timeout 600 python3 scripts/fetch_lobby_contracts.py; echo "fetch_lobby_contracts exit=$?"
           set -e
 
@@ -274,10 +273,10 @@ jobs:
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/feds*.html as-is."
           fi
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/donor-awards-seen.json data/lobby-contracts-seen.json data/lobby-contracts-pending.json 2>/dev/null || true
+            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-pending.json 2>/dev/null || true
           fi
           # Some cache files only exist after certain code paths run; git add aborts on a missing pathspec
-          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/donor-awards-seen.json data/donor-awards-cache.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json digest/ archive/; do
+          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json digest/ archive/; do
             [ -e "$f" ] && git add "$f"
           done
           if ! git diff --cached --quiet; then

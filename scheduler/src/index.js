@@ -12,8 +12,8 @@
 const REPO = "MarkAlfredcode/dc-record";
 
 const CRON_TO_WORKFLOWS = {
-  "0 14 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // AM (~7:00am PDT)
-  "45 22 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // PM
+  "0 14 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml", "dc-record-conflicts.yml"], // AM (~7:00am PDT)
+  "45 22 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml", "dc-record-conflicts.yml"], // PM
   // Usage-window pings, ~4h ahead of each batch (see dc-record-window-ping.yml)
   "0 10 * * *": ["dc-record-window-ping.yml"], // ahead of AM
   "45 18 * * *": ["dc-record-window-ping.yml"], // ahead of PM
@@ -41,13 +41,14 @@ const MANUAL_SKIP_INPUT = {
   "dc-record-officials.yml": { site_refresh_only: "true" },
   "dc-record-feds.yml": { site_refresh_only: "true" },
   "dc-record-congress.yml": null,
+  "dc-record-conflicts.yml": null,
   "dc-record-window-ping.yml": null,
 };
 
 function inputsFor(cron, workflowFile, { dry }) {
   if (dry) return MANUAL_SKIP_INPUT[workflowFile] || undefined; // manual test: never risk a real send
   const mode = CRON_MODE[cron];
-  if (!mode || workflowFile === "dc-record-congress.yml") return undefined; // Congress/ping take no inputs
+  if (!mode || workflowFile === "dc-record-congress.yml" || workflowFile === "dc-record-conflicts.yml") return undefined; // Congress/Conflicts/ping take no inputs
   return { mode };
 }
 

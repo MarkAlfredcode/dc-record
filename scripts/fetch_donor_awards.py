@@ -31,8 +31,8 @@ vendor as their EMPLOYER or (b) the vendor itself as the contributor. An
 employer match proves a link between the company and the money, NOT that the
 donor owns the company -- the output says so and never asserts ownership.
 
-Output: extras/feds/donor_awards.json (priority section -- assemble.py puts
-it at the top). Persists data/donor-awards-seen.json (award dedupe) and
+Output: extras/conflicts/donor_awards.json (moved from the Feds edition to the
+web-only Conflicts edition 2026-10-04). Persists data/donor-awards-seen.json (award dedupe) and
 data/donor-awards-cache.json (committee + donor lookups, 14-day TTL).
 """
 import itertools
@@ -44,6 +44,7 @@ import time
 from datetime import date, timedelta
 
 from dc_common import http_get, http_post_json, load_manifest, save_manifest, today_la
+from conflict_signals import Signals
 from dc_extras import (
     SeenManifest, esc, fec_get, fec_paginate, fec_key_cycle, load_json, mdY, money, norm, section, write_extra,
 )
@@ -428,7 +429,7 @@ def evaluate(lk, a, head_targets, trump, head_idx, trump_idx):
 def main():
     keys_pool = [k.strip() for k in os.environ.get("FEC_KEYS", "").split(",") if k.strip()]
     if not keys_pool:
-        write_extra("feds", "donor_awards", [], "Donor awards: skipped, FEC_KEYS unset.")
+        write_extra("conflicts", "donor_awards", [], "Donor awards: skipped, FEC_KEYS unset.")
         return
     cyc = itertools.cycle(keys_pool)
     today = today_la()
@@ -521,7 +522,7 @@ def main():
         note_bits.append(f"{weak} further award(s) went to vendors whose employees gave only small amounts to Trump-world "
                          f"committees — too common among big contractors to mean anything, so not listed")
     if not findings:
-        write_extra("feds", "donor_awards", [],
+        write_extra("conflicts", "donor_awards", [],
                     f"Donor awards: nothing new. {checked} award(s) at {len(agency_heads)} agencies with a recent head change "
                     f"checked ({len(deps)} departure(s) tracked); no vendor tied to the head's own donors or to large Trump-world giving.")
         return
@@ -529,7 +530,7 @@ def main():
     findings.sort(key=lambda f: (f["tier"], not f["to_official"],
                                  f["days_before"] if f["days_before"] is not None else 999, -f["award"]["amount"]))
     blocks = []
-    for f in findings[:6]:
+    for f in findings[:12]:
         a, s, d = f["award"], f["stats"], f["departure"]
         dep = f"{d['predecessor']} → {d['successor']} ({mdY(d['confirmed'])})"
         timing = ""
@@ -543,12 +544,12 @@ def main():
             "text": f"{esc(pretty_desc(a['description'])[:110])}.{timing} {describe_donations(s, f['labels'])}",
             "links": [{"text": "Award", "url": a["url"]}],
         })
-    rest = findings[6:]
+    rest = findings[12:]
     if rest:
         blocks.append({"type": "list", "items": [
             f"<strong>{esc(pretty(f['award']['recipient']))}</strong> — {money(f['award']['amount'])}, "
             f"{esc(f['award']['sub_agency'] or f['award']['agency'])}, {money(f['stats']['total'])} FEC-linked "
-            f"(<a href=\"{esc(f['award']['url'])}\">award</a>)." for f in rest[:10]]})
+            f"(<a href=\"{esc(f['award']['url'])}\">award</a>)." for f in rest[:40]]})
     blocks.append({"type": "note", "text": (
         f"Checked {checked} award(s): $1M+ in the 30 days before each of {len(deps)} agency-head change(s), plus new $2M+ awards at those agencies. "
         "Matches are FEC donors (2024/2026) to the head's own committees or Trump-world committees whose employer is the vendor, "
@@ -560,13 +561,22 @@ def main():
     headline = (f"{pretty(ta['recipient'])} won {money(ta['amount'])} from {ta['sub_agency'] or ta['agency']}; donors tied to {who_link}"
                 if top["kind"] == "exit" else
                 f"New {money(ta['amount'])} award to {pretty(ta['recipient'])}; donors tied to {who_link}")
-    sections = [{**section("Donor Awards", headline,
-                           [f"{len(findings)} award(s) to donor-linked vendors around an agency-head change."], blocks), "priority": True}]
+    sections = [section("Donor Awards", headline,
+                        [f"{len(findings)} award(s) to donor-linked vendors around an agency-head change."], blocks)]
+    signals = Signals()
+    for f in findings:
+        a, d = f["award"], f["departure"]
+        signals.add(f"donor_award|{a['url']}", "donor_award", None, a["date"],
+                    f"{money(a['amount'])} award from {a['sub_agency'] or a['agency']} to {pretty(a['recipient'])}; "
+                    f"{money(f['stats']['total'])} in FEC-linked donations"
+                    + (f"; agency head change {d['predecessor']} → {d['successor']}" if d else ""),
+                    a["url"], company=a["recipient"])
+    signals.save()
     summary = (f"Donor awards: {len(findings)} hit(s). Top: {ta['recipient']} {money(ta['amount'])} "
                f"({ta['sub_agency'] or ta['agency']}, {mdY(ta['date'] or '')}); "
                f"{sum(1 for f in findings if f['to_official'])} tied to the agency head's own committees, "
                f"{sum(1 for f in findings if f['owner'])} via an owner/executive donor. Top Story candidate.")
-    write_extra("feds", "donor_awards", sections, summary)
+    write_extra("conflicts", "donor_awards", sections, summary)
 
 
 if __name__ == "__main__":

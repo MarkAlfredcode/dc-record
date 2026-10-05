@@ -15,7 +15,10 @@ For every House/Senate filing new in the LOOKBACK window:
 Pure data, no LLM. Persisted dedupe: data/pfd-analysis-seen.json (reverted
 on site-refresh-only runs like the other seen-manifests).
 
-Output: extras/officials/pfd_analysis.json
+Output: extras/conflicts/pfd_analysis.json (moved from the Officials edition to the
+web-only Conflicts edition 2026-10-04). Also records each flag in
+data/conflict-signals.json and hands every parsed stock trade to
+trade_awards.py (Trades Near Contract Awards).
 """
 import csv
 import io
@@ -26,6 +29,8 @@ import tempfile
 import zipfile
 
 import trades
+import trade_awards
+from conflict_signals import Signals
 from stock_act_ledger import Ledger, history_phrase
 from jurisdiction import Jurisdiction
 from dc_common import download, http_get, pdftotext, today_la
@@ -38,7 +43,7 @@ HOUSE_FD = "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year
 SEEN_PATH = "data/pfd-analysis-seen.json"
 LATE_DAYS = 45
 TIMED_MIN_AMOUNT = 15001  # $1,001-$15,000 trades matched to broad events are noise, not red flags
-MAX_PDFS = 80  # safety valve on a heavy day; every skipped filing is counted in the note
+MAX_PDFS = 150  # safety valve on a heavy day; every skipped filing is counted in the note
 # Outside income worth a look ("Members of Congress Score Major Paydays From Books")
 OUTSIDE_RE = re.compile(r"royalt|\bbook|publish|\badvance\b|author|speak|honorari|lectur|\bboard\b|director|consult|advis|"
                         r"\bfees?\b|commission|contract|partner|licens", re.I)
@@ -199,7 +204,25 @@ def main():
         history[url] = history_phrase(n, first)
     ledger.save()
     sections, summary = _build(late, timed, diffs, notes, errors, history, oversight, outside, jur)
-    write_extra("officials", "pfd_analysis", sections, summary)
+    write_extra("conflicts", "pfd_analysis", sections, summary)
+    signals = Signals()
+    for x in late:
+        signals.add(f"late|{x['url']}|{x['t']['asset']}|{x['t']['tx_date']}|{x['t']['type']}", "late_trade", x["who"], x["filed"],
+                    f"{x['t']['type']} of {x['t']['asset'][:60]} ({x['t']['amount']}) disclosed {x['lag']} days after the trade",
+                    x["url"], company=x["t"]["asset"])
+    for x in timed:
+        signals.add(f"timed|{x['url']}|{x['t']['asset']}|{x['t']['tx_date']}|{x['t']['type']}", "event_timed", x["who"], x["t"]["tx_date"],
+                    f"{x['t']['type']} of {x['t']['asset'][:60]} ({x['t']['amount']}): {trades.timing_phrase(x['hit'])}",
+                    x["url"], company=x["t"]["asset"])
+    for x in oversight:
+        signals.add(f"oversight|{x['url']}|{x['t']['asset']}|{x['t']['tx_date']}|{x['t']['type']}", "oversight_trade", x["who"], x["t"]["tx_date"],
+                    f"{x['t']['type']} of {x['t']['asset'][:60]} ({x['t']['amount']}) in a sector overseen by {x['committee']}",
+                    x["url"], company=x["t"]["asset"])
+    try:
+        trade_awards.run(ALL_TRADES, signals)
+    except Exception as e:  # noqa: BLE001
+        print(f"trade_awards failed: {e}", file=sys.stderr)
+    signals.save()
 
 
 def _html_text(page):
@@ -257,7 +280,12 @@ def _senate_outside(who, url, page, outside):
         outside.append({"who": who, "url": url, "kind": "agreement", "text": " · ".join(cells[1:])})
 
 
+ALL_TRADES = []  # every non-amended trade parsed this run, for trade_awards.run
+
+
 def _check_trade(t, who, filed, url, events, late, timed, jur=None, comms=(), oversight=None):
+    if t.get("status", "New") != "Amended":
+        ALL_TRADES.append({"who": who, "t": t, "filed": filed, "url": url, "comms": comms, "jur": jur})
     if jur is not None and comms and oversight is not None:
         secs = jur.sectors_for_committees(comms)
         hit = jur.trade_sector(t, list(secs))
@@ -289,9 +317,7 @@ def _build(late, timed, diffs, notes, errors, history=None, oversight=(), outsid
         blocks.append({"type": "table", "headers": ["Filer", "Asset", "Trade", "Traded", "Disclosed", "Days", "Amount"],
                        "rows": [[f"<strong>{esc(x['who'])}</strong>", link(x["t"]["asset"][:70], x["url"]), esc(x["t"]["type"]),
                                  mdY(x["t"]["tx_date"]), mdY(x["filed"]), str(x["lag"]), esc(x["t"]["amount"])]
-                                for x in late[:40]]})
-        if len(late) > 40:
-            blocks.append({"type": "note", "text": f"{len(late) - 40} more late trades not shown."})
+                                for x in late]})
         per_filing = {}
         for x in late:
             per_filing.setdefault(x["url"], x)
@@ -318,7 +344,7 @@ def _build(late, timed, diffs, notes, errors, history=None, oversight=(), outsid
             if len(x["hits"]) > 1 else
             f"<strong>{esc(x['who'])}</strong>: {esc(x['t']['type'].lower())} of {link(x['t']['asset'][:80], x['url'])} "
             f"({esc(x['t']['amount'])}) on {mdY(x['t']['tx_date'])}, {esc(trades.timing_phrase(x['hits'][0]))}."
-            for x in timed[:30]]})
+            for x in timed]})
         paras.append(f"{len(timed)} disclosed trade{'s' if len(timed) != 1 else ''} of $15,001 or more landed shortly before an event on the watch calendar.")
     SECTOR_NAMES = {"ai_chips": "AI/chip", "oil_gas": "oil and gas", "nuclear_uranium": "nuclear/uranium", "steel_aluminum": "steel/aluminum",
                     "health_insurers": "health-insurer", "insurers_utilities": "utility/insurer", "critical_minerals": "critical-minerals",
@@ -330,14 +356,14 @@ def _build(late, timed, diffs, notes, errors, history=None, oversight=(), outsid
         blocks.append({"type": "list", "items": [
             f"<strong>{esc(x['who'])}</strong> ({esc(x['committee'])}): {esc(x['t']['type'].lower())} of "
             f"{link(x['t']['asset'][:80], x['url'])} ({esc(x['t']['amount'])}) on {mdY(x['t']['tx_date'])} ({esc(SECTOR_NAMES.get(x['sector'], x['sector']))} sector)."
-            for x in oversight[:25]]})
+            for x in oversight]})
         paras.append(f"{len(oversight)} trade{'s' if len(oversight) != 1 else ''} in sectors overseen by the filer's own committee.")
     if outside:
         labels = {"income": "Earned income", "honoraria": "Honoraria", "position": "Outside position", "agreement": "Agreement/arrangement"}
         blocks.append({"type": "subhead", "text": "Outside income, positions and arrangements in new annual reports"})
         blocks.append({"type": "list", "items": [
             f"<strong>{esc(x['who'])}</strong>, {labels[x['kind']].lower()}: {esc(x['text'][:220])} ({link('report', x['url'])})"
-            for x in outside[:30]]})
+            for x in outside]})
         paras.append(f"{len(outside)} outside-income, position or future-employment entr{'ies' if len(outside) != 1 else 'y'} in newly filed annual reports.")
     for dfx in diffs:
         blocks.append({"type": "subhead", "text": f"What changed: {dfx['who']}, amended {dfx['what']}"})
@@ -353,7 +379,7 @@ def _build(late, timed, diffs, notes, errors, history=None, oversight=(), outsid
         paras.append(f"{len(diffs)} amended annual report{'s' if len(diffs) != 1 else ''}, with what changed spelled out below.")
     if notes:
         blocks.append({"type": "subhead", "text": "Not checked"})
-        blocks.append({"type": "list", "items": notes[:20]})
+        blocks.append({"type": "list", "items": notes})
     if errors:
         blocks.append({"type": "note", "text": "Partial run: " + esc(" | ".join(errors))})
     has_news = bool(late or timed or diffs or oversight or outside)
