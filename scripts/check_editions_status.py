@@ -62,7 +62,7 @@ EDITIONS = [
 
 WINDOW_HOURS = {"am": range(0, 12), "pm": range(12, 24)}
 # Past this Pacific hour with no run at all, the dispatch itself failed (Worker, GitHub token, outage).
-MISSING_AFTER_HOUR = {"am": 8, "pm": 20}
+MISSING_AFTER_HOUR = {"am": 10, "pm": 20}
 
 
 def gh_runs(workflow_file):

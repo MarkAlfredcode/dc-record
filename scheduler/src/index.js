@@ -12,10 +12,10 @@
 const REPO = "MarkAlfredcode/dc-record";
 
 const CRON_TO_WORKFLOWS = {
-  "0 10 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // AM
+  "0 14 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // AM (~7:00am PDT)
   "45 22 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // PM
   // Usage-window pings, ~4h ahead of each batch (see dc-record-window-ping.yml)
-  "0 6 * * *": ["dc-record-window-ping.yml"], // ahead of AM
+  "0 10 * * *": ["dc-record-window-ping.yml"], // ahead of AM
   "45 18 * * *": ["dc-record-window-ping.yml"], // ahead of PM
 };
 
@@ -27,7 +27,7 @@ const CRON_TO_WORKFLOWS = {
 // one case where a run still shouldn't try to send at all). Not used for
 // Congress, which never emails either way.
 const CRON_MODE = {
-  "0 10 * * *": "am",
+  "0 14 * * *": "am",
   "45 22 * * *": "pm",
 };
 

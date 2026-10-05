@@ -2,7 +2,7 @@ name: DC Record • Usage window ping
 
 on:
   # Dispatched by ../scheduler/ (Cloudflare Cron Triggers) ~4h before each
-  # edition batch: 0 6 * * * ->~11:00pm PT (PDT) ahead of the 3:00am run,
+  # edition batch: 0 10 * * * -> ~3:00am PT (PDT) ahead of the 7:00am run,
   # 45 18 * * * -> ~11:45am PT (PDT) ahead of the 3:45pm run.
   # Purpose: send one tiny Haiku message on the shared CLAUDE_CODE_OAUTH_TOKEN
   # subscription so the 5-hour usage window opens early. The editions then

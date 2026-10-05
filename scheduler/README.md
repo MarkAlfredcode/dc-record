@@ -17,9 +17,9 @@ block:
 
 | Cron (UTC) | ~Pacific (PDT) | Fires |
 |---|---|---|
-| `0 10 * * *` | 3:00am | Campaigns, Officials, The Feds -- AM edition (`mode: "am"`) -- plus Congress |
+| `0 14 * * *` | 7:00am | Campaigns, Officials, The Feds -- AM edition (`mode: "am"`) -- plus Congress |
 | `45 22 * * *` | 3:45pm | Campaigns, Officials, The Feds -- PM edition (`mode: "pm"`) -- plus Congress |
-| `0 6 * * *` | 11:00pm (prev. day) | Usage-window ping (`dc-record-window-ping.yml`) -- one Haiku message so the 5h Claude usage window opens ~4h before the AM batch and resets right after it |
+| `0 10 * * *` | 3:00am | Usage-window ping (`dc-record-window-ping.yml`) -- one Haiku message so the 5h Claude usage window opens ~4h before the AM batch and resets right after it |
 | `45 18 * * *` | 11:45am | Usage-window ping, ~4h before the PM batch |
 
 `src/index.js`'s `scheduled()` handler looks up which workflows that exact
