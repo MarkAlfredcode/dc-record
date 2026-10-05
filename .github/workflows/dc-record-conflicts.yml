@@ -93,17 +93,7 @@ jobs:
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
             git commit -m "Update today's Conflicts page [skip ci]"
-            PUSHED=false
-            for i in 1 2 3 4 5; do
-              if git push; then
-                PUSHED=true
-                break
-              fi
-              echo "Push rejected (attempt $i/5), rebasing onto latest and retrying..."
-              git pull --rebase
-              sleep $((RANDOM % 5 + 1))
-            done
-            $PUSHED
+            bash scripts/push_with_retry.sh
           else
             echo "Page unchanged, nothing to commit."
           fi

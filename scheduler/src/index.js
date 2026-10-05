@@ -97,12 +97,49 @@ async function alertFailure(failures) {
   }).catch(() => {});
 }
 
-async function fireForCron(cron, env, { dry = false } = {}) {
+// Cloudflare doesn't guarantee one invocation per cron tick: on 2026-10-05
+// (right after a redeploy) it fired "45 18" and "45 22" twice each, seconds
+// apart, and every PM subscriber got two copies. So a scheduled fire first
+// asks GitHub whether this workflow already has a dispatch run created since
+// the start of this slot's minute, and skips it if so. Fails open (dispatches
+// anyway) if GitHub can't be asked -- a duplicate beats a missed edition, and
+// the emailing workflows have their own data/sent/ guard as a backstop.
+async function alreadyDispatched(workflowFile, sinceIso, env) {
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${REPO}/actions/workflows/${workflowFile}/runs?event=workflow_dispatch&per_page=1&created=${encodeURIComponent(">=" + sinceIso)}`,
+      {
+        headers: {
+          Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+          Accept: "application/vnd.github+json",
+          "User-Agent": "dc-record-scheduler",
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+      }
+    );
+    if (!res.ok) return false;
+    const data = await res.json();
+    return (data.total_count || 0) > 0;
+  } catch {
+    return false;
+  }
+}
+
+async function fireForCron(cron, env, { dry = false, scheduledTime = null } = {}) {
   const workflows = CRON_TO_WORKFLOWS[cron];
   if (!workflows) return { cron, error: "no workflow mapping for this cron string" };
 
+  // Manual test hits (no scheduledTime) are never deduped.
+  const sinceIso = scheduledTime
+    ? new Date(Math.floor(scheduledTime / 60000) * 60000).toISOString().replace(/\.\d{3}Z$/, "Z")
+    : null;
+
   const results = await Promise.allSettled(
-    workflows.map((wf) => dispatchWithRetry(wf, inputsFor(cron, wf, { dry }), env))
+    workflows.map(async (wf) => {
+      if (sinceIso && (await alreadyDispatched(wf, sinceIso, env))) return "skipped (already dispatched this slot)";
+      await dispatchWithRetry(wf, inputsFor(cron, wf, { dry }), env);
+      return "dispatched";
+    })
   );
 
   const failures = results.map((r, i) => (r.status === "rejected" ? `${workflows[i]}: ${String(r.reason)}` : null)).filter(Boolean);
@@ -114,6 +151,7 @@ async function fireForCron(cron, env, { dry = false } = {}) {
     results: results.map((r, i) => ({
       workflow: workflows[i],
       ok: r.status === "fulfilled",
+      outcome: r.status === "fulfilled" ? r.value : undefined,
       error: r.status === "rejected" ? String(r.reason) : undefined,
     })),
   };
@@ -122,7 +160,7 @@ async function fireForCron(cron, env, { dry = false } = {}) {
 export default {
   async scheduled(controller, env, ctx) {
     ctx.waitUntil(
-      fireForCron(controller.cron, env).then((r) => console.log(JSON.stringify(r)))
+      fireForCron(controller.cron, env, { scheduledTime: controller.scheduledTime }).then((r) => console.log(JSON.stringify(r)))
     );
   },
 

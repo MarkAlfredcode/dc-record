@@ -146,17 +146,7 @@ jobs:
             # The other 3 DC Record workflows run on nearby cron slots and
             # can push to this same branch around the same time -- rebase-and-
             # retry on a non-fast-forward push instead of failing outright.
-            PUSHED=false
-            for i in 1 2 3 4 5; do
-              if git push; then
-                PUSHED=true
-                break
-              fi
-              echo "Push rejected (attempt $i/5), rebasing onto latest and retrying..."
-              git pull --rebase
-              sleep $((RANDOM % 5 + 1))
-            done
-            $PUSHED
+            bash scripts/push_with_retry.sh
           else
             echo "Page unchanged, nothing to commit."
           fi

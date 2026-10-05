@@ -83,14 +83,4 @@ jobs:
           # also be pushing to main around this same time -- rebase-and-
           # retry on a non-fast-forward push, same pattern used throughout
           # this repo's other commit steps.
-          PUSHED=false
-          for i in 1 2 3 4 5; do
-            if git push; then
-              PUSHED=true
-              break
-            fi
-            echo "Push rejected (attempt $i/5), rebasing onto latest and retrying..."
-            git pull --rebase
-            sleep $((RANDOM % 5 + 1))
-          done
-          $PUSHED
+          bash scripts/push_with_retry.sh

@@ -25,6 +25,10 @@ on:
         description: 'Skip sending email entirely (true/false) -- manual override for snapshot-only test runs (e.g. producing an AM/PM edition to look at).'
         required: false
         default: 'false'
+      force_resend:
+        description: 'Send even if this date+mode already went out (true/false) -- bypasses the duplicate-send guard, see data/sent/.'
+        required: false
+        default: 'false'
       verbose_diagnostics:
         description: 'Capture a full tool-by-tool trace (stream-json) as a build artifact, for cost/turn debugging (true/false)'
         required: false
@@ -38,7 +42,37 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Duplicate-send guard (added 2026-10-05, after Cloudflare double-fired the
+  # PM cron and every subscriber got two copies). The concurrency group above
+  # already queues a second dispatch until the first finishes, so by the time
+  # this runs, a real send for the same date+mode has committed its line to
+  # data/sent/campaigns.txt on main. Only applies to real subscriber sends --
+  # skip_email/test_recipient_override runs and force_resend always proceed.
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - name: Check whether this date+mode was already sent
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MODE: ${{ github.event.inputs.mode || 'am' }}
+          REAL_SEND: ${{ github.event.inputs.skip_email != 'true' && github.event.inputs.test_recipient_override == '' && github.event.inputs.force_resend != 'true' }}
+        run: |
+          TODAY=$(TZ=America/Los_Angeles date +%Y-%m-%d)
+          SKIP=false
+          if [ "$REAL_SEND" == "true" ] && gh api "repos/${{ github.repository }}/contents/data/sent/campaigns.txt?ref=main" \
+              -H "Accept: application/vnd.github.raw" 2>/dev/null | grep -qx "$TODAY $MODE"; then
+            SKIP=true
+            echo "::notice::campaigns $MODE edition for $TODAY already sent -- skipping this duplicate dispatch (rerun with force_resend=true to override)."
+          fi
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+
   publish:
+    needs: guard
+    if: needs.guard.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -238,6 +272,12 @@ jobs:
           if [ -f email_sent.flag ]; then
             IS_SITE_REFRESH="false"
           fi
+          # Record a real subscriber send so the guard job skips a duplicate dispatch of this slot.
+          if [ "$IS_SITE_REFRESH" == "false" ] && [ -z "${{ github.event.inputs.test_recipient_override }}" ]; then
+            mkdir -p data/sent
+            echo "${{ steps.date.outputs.today }} ${{ github.event.inputs.mode || 'am' }}" >> data/sent/campaigns.txt
+            git add data/sent/campaigns.txt
+          fi
           mkdir -p digest
           if compgen -G "newsletter-*.html" > /dev/null; then
             # AM/PM comes from the dispatch `mode` input, not from run order: if the AM run failed,
@@ -277,17 +317,7 @@ jobs:
             # The Feds and Officials editions also push to main on nearby cron
             # slots -- rebase-and-retry on a non-fast-forward push instead of
             # failing outright.
-            PUSHED=false
-            for i in 1 2 3 4 5; do
-              if git push; then
-                PUSHED=true
-                break
-              fi
-              echo "Push rejected (attempt $i/5), rebasing onto latest and retrying..."
-              git pull --rebase
-              sleep $((RANDOM % 5 + 1))
-            done
-            $PUSHED
+            bash scripts/push_with_retry.sh
           else
             echo "Manifest and newsletter unchanged, nothing to commit."
           fi
