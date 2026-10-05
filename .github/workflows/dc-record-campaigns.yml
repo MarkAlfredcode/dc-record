@@ -77,13 +77,13 @@ jobs:
 
       # Deterministic sections, built with no LLM (added 2026-10-03) -- see
       # scripts/dc_extras.py. assemble.py appends them after the main pass.
-      - name: Run extras scripts (deadlines, Schedule B money-out sweep, election watch)
+      - name: Run extras scripts (deadlines, Schedule B money-out sweep)
         env:
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
           set +e
-          for s in "fetch_deadlines.py --edition campaigns" fetch_money_out.py fetch_election.py fetch_outside_money.py fetch_megadonors.py; do
+          for s in "fetch_deadlines.py --edition campaigns" fetch_money_out.py fetch_outside_money.py fetch_megadonors.py; do
             timeout 600 python3 scripts/$s; echo "$s exit=$?"
           done
           set -e

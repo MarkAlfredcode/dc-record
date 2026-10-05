@@ -190,7 +190,6 @@ elsewhere; prompts now fold any next-step fact into the item itself.
 | `fetch_presidential_trades.py` | Officials | The President's Trades: Trump/Vance 278-Ts counted and summarized |
 | `fetch_lda_trends.py` | Officials | Industries to Watch (`data/lda_industries.json`) |
 | `fetch_money_out.py` | Campaigns | Money Out: bulk refunds, forfeitures/disgorgements (FTX-linked flagged), investments, Trump-property spending, thefts, former members' still-spending committees |
-| `fetch_election.py` | Campaigns | Election Watch (only inside `election_mode` dates): new IEs by race, self-funding, new outside groups |
 
 | `fetch_wiki_events.py` → `prompt-events.txt` → `apply_event_additions.py` | (calendar) | Every ~10 days (`dc-record-events.yml`, 1st/11th/21st): new items on this year's Wikipedia timeline/year pages; Claude picks market-moving ones; the script copies dates/sources from the candidates (never from the model) into `data/events.json`, commits, and pushes an ntfy summary |
 

@@ -1,5 +1,5 @@
 {
-  "_about": "Filing-deadline calendar for fetch_deadlines.py and fetch_election.py. 'calendar' entries print as 'Coming due' notes in the matching edition (AM only) during the 14 days before 'date'. 'fec_checks' run after their due date (+1 day grace) for up to 'check_days' days, listing sitting members whose principal campaign committee has no report of that type on file. 'pfd_annual' drives the House/Senate missing/late annual-report checks. Statutory dates for the 2026 cycle; update each cycle.",
+  "_about": "Filing-deadline calendar for fetch_deadlines.py. 'calendar' entries print as 'Coming due' notes in the matching edition (AM only) during the 14 days before 'date'. 'fec_checks' run after their due date (+1 day grace) for up to 'check_days' days, listing sitting members whose principal campaign committee has no report of that type on file. 'pfd_annual' drives the House/Senate missing/late annual-report checks. Statutory dates for the 2026 cycle; update each cycle.",
   "election_mode": {"start": "2026-10-01", "end": "2026-11-06", "election_day": "2026-11-03"},
   "pfd_annual": {"report_year": 2025, "due": "2026-05-15", "final_extension": "2026-08-13"},
   "fec_checks": [
