@@ -2,26 +2,27 @@
  "date": "Tuesday, October 6, 2026",
  "top_story": {
   "eyebrow": "Top Story",
-  "headline": "No new FEC compliance filings since this morning's edition",
+  "headline": "No new FEC correspondence filings since this morning's edition",
+  "dek": "All 87 RFAI and Form 99 filings in the three-day window were already reported earlier today.",
   "paragraphs": [
-   "All 87 Form 99 and Request for Additional Information filings the Federal Election Commission indexed from October 3 through now were already covered in earlier editions, most of them in this morning's. Nothing new has surfaced since."
+   "Every Request for Additional Information (FRQ) and Form 99 filing the FEC API returned for October 3 through October 6 had already been listed in this morning's edition, so nothing is repeated here. The mechanical keyword scan flagged four October 5 Requests for Additional Information (the committees with unusual names and the University of Alabama entry), but each hit was only the standard boilerplate warning about penalties for materially false statements, not an allegation of fraud."
   ]
  },
  "sections": [
   {
    "eyebrow": "Requests for Additional Information",
-   "headline": "Nothing new to report",
+   "headline": "No new filings to report",
    "paragraphs": [
-    "No Requests for Additional Information or Form 99 correspondence appeared that hadn't already been listed in a prior edition. A keyword scan flagged four letters, but the only hit in each was the standard federal warning about penalties for fraudulent statements, not an allegation, and all four were already covered."
+    "No Request for Additional Information or Form 99 filing surfaced in the window that was not already covered in this morning's edition."
    ],
    "blocks": [],
    "no_news": true
   }
  ],
  "footer": {
-  "coverage_window": "FEC filings received October 3, 2026 through the time of this run on October 6, 2026, Pacific time.",
+  "coverage_window": "October 3, 2026 through the time of this run, deduplicated against earlier editions.",
   "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
-  "known_gaps": "The NASA Astronomy Picture of the Day call returned no data, so that closer is omitted. No other tasks were skipped."
+  "known_gaps": "No tasks were skipped. The NASA Astronomy Picture of the Day was omitted from this edition. No voided or negative-amount transactions were found by the mechanical pass."
  },
  "beat": []
 }
