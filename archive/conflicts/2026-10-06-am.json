@@ -1,0 +1,58 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Trades Near Contract Awards",
+   "headline": "1 member traded a company's stock within 30 days of a major federal contract action for it",
+   "paragraphs": [
+    "1 of these had a trade before at least one of the actions; 0 involve a filer on a committee that oversees the awarding agency's area."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Filer",
+      "Trade",
+      "Contract actions near it"
+     ],
+     "rows": [
+      [
+       "<strong>Rep. Lloyd Doggett (TX-37)</strong>",
+       "International Business Machines Corporation Common<br>Purchase 9/10/2026, $1,001 - $15,000 (<a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf\">filing</a>)",
+       "<a href=\"https://www.usaspending.gov/award/CONT_AWD_28321326FDS030164_2800_28321326D00060004_2800\">International Business Machines Corporation</a>: $130,434,206, Social Security Administration, 9/28/2026 (18d after the first trade)<br><small>THIS REQUISITION IS TO ESTABLISH THE IBM MAINFRAME HARDWARE AND STORAGE CONTRACT THAT WILL REPLACE, </small><br><a href=\"https://www.usaspending.gov/award/CONT_AWD_70RDA126FC0000058_7001_70RDA125A00000001_7001\">International Business Machines Corporation</a>: $14,004,616, Office of Procurement Operations, 9/30/2026 (20d after the first trade)<br><small>CONSOLIDATED ASSET PORTFOLIO AND SUSTAINABILITY INFORMATION SYSTEM SUPPORT SERVICES</small>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Checked 4 of 4 issuers from this run's trades: new contract awards of $10M+ and modifications of $50M+ within 30 days of a trade, to a recipient whose name equals the issuer's. Subsidiaries (Boeing Defense, GDIT) and renamed parents are missed; timing alone does not show anyone acted on non-public information."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Disclosure Red Flags",
+   "headline": "Late trades, trades in their own jurisdiction, outside income and amended reports",
+   "paragraphs": [
+    "1 trade in sectors overseen by the filer's own committee."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Trades in their own committee's jurisdiction"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Lloyd Doggett (TX-37)</strong> (House Committee on Ways and Means): purchase of <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf\">Johnson &amp; Johnson Common Stock (JNJ) [ST]</a> ($1,001 - $15,000) on 9/8/2026 (pharma sector)."
+     ]
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "summaries": {
+  "donor_awards": "Donor awards: nothing new. 189 award(s) at 8 agencies with a recent head change checked (11 departure(s) tracked); no vendor tied to the head's own donors or to large Trump-world giving.",
+  "pfd_analysis": "1 trade in sectors overseen by the filer's own committee.",
+  "trade_awards": "Trades near awards: 1 hit(s). Top: Rep. Lloyd Doggett (TX-37) / INTERNATIONAL BUSINESS MACHINES CORPORATION $130,434,206."
+ }
+}
