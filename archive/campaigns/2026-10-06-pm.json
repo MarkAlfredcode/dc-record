@@ -1,0 +1,27 @@
+{
+ "date": "Tuesday, October 6, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings since this morning's edition",
+  "paragraphs": [
+   "All 87 Form 99 and Request for Additional Information filings the Federal Election Commission indexed from October 3 through now were already covered in earlier editions, most of them in this morning's. Nothing new has surfaced since."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Requests for Additional Information",
+   "headline": "Nothing new to report",
+   "paragraphs": [
+    "No Requests for Additional Information or Form 99 correspondence appeared that hadn't already been listed in a prior edition. A keyword scan flagged four letters, but the only hit in each was the standard federal warning about penalties for fraudulent statements, not an allegation, and all four were already covered."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "FEC filings received October 3, 2026 through the time of this run on October 6, 2026, Pacific time.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "The NASA Astronomy Picture of the Day call returned no data, so that closer is omitted. No other tasks were skipped."
+ },
+ "beat": []
+}
