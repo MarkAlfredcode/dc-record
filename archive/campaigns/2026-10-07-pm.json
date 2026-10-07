@@ -2,34 +2,54 @@
  "date": "Wednesday, October 7, 2026",
  "top_story": {
   "eyebrow": "Top Story",
-  "headline": "Quiet window: no new FEC correspondence beyond what earlier editions reported",
-  "dek": "Every Form 99 and request for additional information (RFAI) indexed since October 4 was already covered in a prior edition.",
+  "headline": "PAC Tells FEC a Federal Court Ordered Its Former Treasurer to Repay $29,413.77",
+  "dek": "Forward Together PAC answered an FEC inquiry on Tuesday about restitution it lists as a debt owed to the committee.",
   "paragraphs": [
-   "The FEC filings feed returned 148 Form 99 and RFAI records received October 4\u20136, and all of them were already reported in earlier editions, so none are repeated here.",
-   "The one new item is a $20,000 candidate-loan reversal at Lily 4 Congress Committee, in the Voided &amp; Negative Transactions section below. A keyword scan of RFAI filings for fraud-related terms turned up only the FEC's standard boilerplate warning about false statements, not any allegation against a committee."
+   "<strong>Forward Together PAC</strong> of Williamsburg, Virginia filed a Form 99 on October 6 responding to a September 1 Request for Additional Information on its July 2026 Quarterly Report. The FEC's letter flagged a Schedule D debt described as \"Court-ordered restitution payment owed to the Committee,\" and said it appeared to be related to an unauthorized use of committee funds.",
+   "In the response, the committee says a federal court has ordered its former treasurer, <strong>Katherine Buchanan</strong>, to pay restitution totaling $29,413.77, which it therefore reports as money owed to the committee. It cites FEC advisory opinions 1991-38 (<strong>DeConcini</strong>) and 2005-04 (<strong>Boehner</strong>) and says it explained the matter in an earlier Form 99 filed July 20, 2026 and has made other filings giving context.",
+   "The filing does not say how much was taken, over what period, or how much has been repaid; the committee says only that it \"continues to work with the Commission on its resolution.\" Separately, two other committees drew FEC questions this week over transactions the agency labeled apparent unauthorized disbursements: <strong>James Osyf for Congress</strong> ($2,058.01) and <strong>Friends of Chris Bennett</strong> ($112.67), both listed under Requests for Additional Information below."
   ],
   "callout": {
-   "label": "Read the filing",
+   "label": "Read the filings",
    "links": [
     {
-     "text": "Lily 4 Congress Committee reversal",
-     "url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610059908537103"
+     "text": "Forward Together PAC Form 99 (Oct. 6)",
+     "url": "https://docquery.fec.gov/pdf/414/202610069908541414/202610069908541414.pdf"
+    },
+    {
+     "text": "James Osyf for Congress RFAI (July Quarterly)",
+     "url": "https://docquery.fec.gov/pdf/704/202610060300361704/202610060300361704.pdf"
+    },
+    {
+     "text": "Friends of Chris Bennett RFAI",
+     "url": "https://docquery.fec.gov/pdf/646/202610060300361646/202610060300361646.pdf"
     }
    ]
   }
  },
  "sections": [
   {
-   "eyebrow": "Voided & Negative Transactions",
-   "headline": "One Candidate Loan to Campaign Reversed",
+   "eyebrow": "Sitting Lawmakers",
+   "headline": "Four Sitting Members Draw RFAIs, Two Over Joint-Fundraising Disclosure; Three Others File Form 99 Replies",
    "paragraphs": [
-    "One large negative amount was reported this week. In FEC filings, negative transaction amounts represent voided, reversed, or refunded contributions\u2014typically routine bookkeeping corrections, but occasionally the paper trail for something being unwound after the fact."
+    "Seven sitting members of Congress appear in this window: 9 FEC letters went to the committees of <strong>Delegate James Moylan</strong>, <strong>Delegate Kimberlyn King-Hinds</strong>, <strong>Sen. Katie Britt</strong> and <strong>Rep. Raja Krishnamoorthi</strong>, and <strong>Rep. Mary Miller</strong>, <strong>Rep. Jennifer Kiggans</strong> and <strong>Rep. Adam Gray</strong> filed Form 99 responses. The Moylan and King-Hinds letters (seven of them) share a theme: transfers from <strong>American Battleground Fund</strong> that the FEC says weren't disclosed through a joint fundraising representative designation."
    ],
    "blocks": [
     {
      "type": "list",
      "items": [
-      "<strong>Lily 4 Congress Committee</strong> reversed a $20,000 loan from <strong>Lily Tang Williams</strong>, dated December 31, 2025 (reported October 5, 2026). The filing describes this as \"loans received from the candidate\" being reversed. <a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610059908537103\">View filing.</a>"
+      "<strong>Sen. Katie Britt</strong> (R-AL), committee <strong>Britt for Alabama INC</strong> \u2014 RFAI on the July 2026 Quarterly Report: Schedule A lists one or more contributions that appear to exceed the contribution limits (the specific donors are in an attachment to the FEC letter) (received 10/06). <a href=\"https://docquery.fec.gov/pdf/673/202610060300361673/202610060300361673.pdf\">Filing</a>.",
+      "<strong>Rep. Raja Krishnamoorthi</strong> (D-IL-8), committee <strong>Friends of Raja for Congress</strong> \u2014 RFAI on the April 2026 Quarterly Report: Schedule D shows apparent credits against debt owed to <strong>Spiros Consulting</strong>, and the FEC asks for clarification of those credits (received 10/05). <a href=\"https://docquery.fec.gov/pdf/644/202610060300361644/202610060300361644.pdf\">Filing</a>.",
+      "<strong>Delegate James Moylan</strong> (R-GU), committee <strong>James Moylan for Congress</strong> \u2014 RFAI on the July 2026 Quarterly Report: transfers from <strong>American Battleground Fund</strong> look like joint-fundraising proceeds, but that committee isn't listed as a joint fundraising representative on the Statement of Organization, and the transfers appear on the wrong summary line (should be Line 12) (received 10/06). <a href=\"https://docquery.fec.gov/pdf/742/202610060300361742/202610060300361742.pdf\">Filing</a>.",
+      "Delegate James Moylan (R-GU), committee <strong>James Moylan for Congress</strong> \u2014 RFAI on the April 2026 Quarterly Report: same issue \u2014 transfers from <strong>American Battleground Fund</strong> look like joint-fundraising proceeds but the committee isn't disclosed as a joint fundraising representative, and they are on the wrong summary line (received 10/06). <a href=\"https://docquery.fec.gov/pdf/740/202610060300361740/202610060300361740.pdf\">Filing</a>.",
+      "Delegate James Moylan (R-GU), committee <strong>James Moylan for Congress</strong> \u2014 RFAI on the 2025 Year-End Report: the combined 2025 reports show joint-fundraising transfers from <strong>American Battleground Fund</strong> without the required memo Schedule A itemizing the committee's share of gross contributions (received 10/06). <a href=\"https://docquery.fec.gov/pdf/737/202610060300361737/202610060300361737.pdf\">Filing</a>.",
+      "<strong>Delegate Kimberlyn King-Hinds</strong> (R-MP), committee <strong>King-Hinds for Congress</strong> \u2014 RFAI on the October 2025 Quarterly Report: transfers from <strong>American Battleground Fund</strong> appear to be joint-fundraising proceeds, but it is not disclosed as a joint fundraising representative; the report also puts some activity (including offsets to operating expenditures) on the wrong summary line (received 10/06). <a href=\"https://docquery.fec.gov/pdf/725/202610060300361725/202610060300361725.pdf\">Filing</a>.",
+      "Delegate Kimberlyn King-Hinds (R-MP), committee <strong>King-Hinds for Congress</strong> \u2014 RFAI on the July 2026 Quarterly Report: memo entries on Schedule A were counted in totals, which deflates reported cash on hand, and transfers from <strong>American Battleground Fund</strong> aren't backed by a joint fundraising representative designation (received 10/06). <a href=\"https://docquery.fec.gov/pdf/731/202610060300361731/202610060300361731.pdf\">Filing</a>.",
+      "Delegate Kimberlyn King-Hinds (R-MP), committee <strong>King-Hinds for Congress</strong> \u2014 RFAI on the 2025 Year-End Report: no memo Schedule A itemizing the committee's share of joint-fundraising gross receipts from <strong>American Battleground Fund</strong>, and that committee isn't listed as a joint fundraising representative (received 10/06). <a href=\"https://docquery.fec.gov/pdf/727/202610060300361727/202610060300361727.pdf\">Filing</a>.",
+      "Delegate Kimberlyn King-Hinds (R-MP), committee <strong>King-Hinds for Congress</strong> \u2014 RFAI on the April 2025 Quarterly Report: cycle-to-date (Column B) totals on Lines 7(a), 7(c), 17 and 22 look wrong, and the beginning cash balance doesn't match the ending balance of the 2024 Year-End Report (received 10/06). <a href=\"https://docquery.fec.gov/pdf/723/202610060300361723/202610060300361723.pdf\">Filing</a>.",
+      "<strong>Rep. Mary Miller</strong> (R-IL-15), committee <strong>Mary Miller for Congress</strong> \u2014 Form 99 responds to a Sept. 3 RFAI on its July Quarterly Report about three debts to <strong>Launchpad Strategies</strong> ($9,262.03, $9,130.84 and $9,646.48, totaling $28,039.35) that disappeared from the report: says the invoices were billed to the candidate committee by mistake, belonged to a joint fundraising committee and were rebilled (received 10/06). <a href=\"https://docquery.fec.gov/pdf/728/202610069908546728/202610069908546728.pdf\">Filing</a>.",
+      "<strong>Rep. Jennifer Kiggans</strong> (R-VA-2), committee <strong>Kiggans for Congress</strong> \u2014 Form 99 responds to a Sept. 3 RFAI on apparent excessive contributions: says any contribution lacking donor reattribution or redesignation was refunded within 60 days (received 10/05). <a href=\"https://docquery.fec.gov/pdf/913/202610059908526913/202610059908526913.pdf\">Filing</a>.",
+      "<strong>Rep. Adam Gray</strong> (D-CA-13), committee <strong>Adam Gray for Congress</strong> \u2014 Form 99 responds to an Aug. 30 RFAI on Column B totals on its July Quarterly Report: says it amended the report to correct them; signed by treasurer <strong>Lauren Decot Lee</strong>, who also signed the Villegas for Congress letter and is listed as treasurer on the Juliana for Illinois RFAI (received 10/05). <a href=\"https://docquery.fec.gov/pdf/334/202610059908531334/202610059908531334.pdf\">Filing</a>."
      ]
     }
    ],
@@ -37,18 +57,234 @@
   },
   {
    "eyebrow": "Requests for Additional Information",
-   "headline": "No new RFAIs or Form 99s this window",
+   "headline": "35 RFAIs to Challengers, Open-Seat Candidates, PACs and Parties",
    "paragraphs": [
-    "All 76 RFAI (FRQ) and 72 Form 99 records received since October 4 were already reported in prior editions; nothing new to list."
+    "Most of these are routine disclosure fixes: general-election money held by candidates who are out of the race, missing 48-hour notices, wrong summary totals and payroll allocation questions. Two items stand out for apparent unauthorized use of committee funds (<strong>James Osyf for Congress</strong> and <strong>Friends of Chris Bennett</strong>), and four committees got \"Verification of Form 1\" letters, including one registered under a sexually explicit name referring to <strong>Rep. Lauren Boebert</strong>. The FEC's keyword scan flagged four of those letters for \"fraud,\" but the word appears only in the standard penalty language about false statements."
    ],
-   "blocks": [],
-   "no_news": true
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>1776 America First Party, USA / Storm</strong> \u2014 RFAI titled \"Verification of Form 1\": the FEC says the Statement of Organization may lack true, correct or complete committee information and asks the committee to verify it (received 10/05). <a href=\"https://docquery.fec.gov/pdf/546/202610050300361546/202610050300361546.pdf\">Filing</a>.",
+      "<strong>Aaron Gies for Congress</strong> \u2014 RFAI on the amended October 2025 Quarterly Report: the amendment cut reported receipts by $37,871.84 with no clear explanation, and payments to the conduit \"Actblue Technical Services\" require itemizing earmarked contributions (received 10/05). <a href=\"https://docquery.fec.gov/pdf/528/202610050300361528/202610050300361528.pdf\">Filing</a>.",
+      "<strong>Aaron Gies for Congress</strong> \u2014 RFAI on the 12-Day Pre-Primary Report: cycle-to-date totals look incorrect, and earmarked contributions lack required conduit information (received 10/05). <a href=\"https://docquery.fec.gov/pdf/534/202610050300361534/202610050300361534.pdf\">Filing</a>.",
+      "<strong>Aaron Gies for Congress</strong> \u2014 RFAI on the April 2026 Quarterly Report: contributions from unregistered organizations (permissibility must be shown), incorrect Column B totals, and earmarked contributions missing conduit information (received 10/05). <a href=\"https://docquery.fec.gov/pdf/530/202610050300361530/202610050300361530.pdf\">Filing</a>.",
+      "<strong>Dallas County Republican Party - Primary</strong> \u2014 RFAI on the August 2026 Monthly Report: Schedule H4 payments to \"SUREPAYROLL\" for \"PAYROLL - SEE MEMO ITEMS\" need memo entries naming each employee, date, amount and purpose (received 10/05). <a href=\"https://docquery.fec.gov/pdf/536/202610050300361536/202610050300361536.pdf\">Filing</a>.",
+      "<strong>Deford for Congress</strong> \u2014 RFAI on the July 2026 Quarterly Report: apparent excessive contributions, and general-election contributions that must be accounted for separately (refund or redesignate if not used) (received 10/05). <a href=\"https://docquery.fec.gov/pdf/619/202610050300361619/202610050300361619.pdf\">Filing</a>.",
+      "<strong>Deford for Congress</strong> \u2014 RFAI on the Termination Report: the FEC says the committee must file amendments to correct problems on its reports before it can be allowed to terminate (received 10/05). <a href=\"https://docquery.fec.gov/pdf/625/202610050300361625/202610050300361625.pdf\">Filing</a>.",
+      "<strong>Democratic Socialists of America INC.</strong> \u2014 RFAI on the July 2026 Quarterly Report: the report is not acceptable as filed and must be re-submitted on FEC Form 5 (independent expenditures) (received 10/05). <a href=\"https://docquery.fec.gov/pdf/567/202610050300361567/202610050300361567.pdf\">Filing</a>.",
+      "<strong>Dr. Sarah Sun Liew for U.s. Senate</strong> \u2014 RFAI on the July 2026 Quarterly Report: the report is not acceptable as filed and must be re-submitted on FEC Form 3 (received 10/06). <a href=\"https://docquery.fec.gov/pdf/733/202610060300361733/202610060300361733.pdf\">Filing</a>.",
+      "<strong>Driscoll for Congress</strong> \u2014 RFAI on the 12-Day Pre-Primary Report: contributions from unregistered organizations need a showing of permissible funds, and several donors are listed with placeholder identification such as \"Information Requested\" and \"NA/NA\" for occupation and employer (received 10/05). <a href=\"https://docquery.fec.gov/pdf/648/202610060300361648/202610060300361648.pdf\">Filing</a>.",
+      "<strong>Elkind for New York</strong> \u2014 RFAI on the 2025 Year-End Report: general-election contributions (including $3,500 amounts) held although the candidate is not seeking office, so they must be returned to donors; the FEC also notes an additional explanation the committee gave (received 10/06). <a href=\"https://docquery.fec.gov/pdf/706/202610060300361706/202610060300361706.pdf\">Filing</a>.",
+      "<strong>Friends of Chris Bennett</strong> \u2014 RFAI on the amended April 2026 Quarterly Report: a $112.67 disbursement labeled \"Unauthorized Charge, To Be Reimbursed\" appears to be an unauthorized use of committee funds, with a reimbursement to <strong>Kari Shipman</strong> (received 10/05). <a href=\"https://docquery.fec.gov/pdf/646/202610060300361646/202610060300361646.pdf\">Filing</a>.",
+      "<strong>Friends of Howard Rosenblum</strong> \u2014 RFAI on the April 2026 Quarterly Report: general-election contributions on hand even though the candidate won't be in the general election (they must be refunded or redesignated), and possible missing 48-hour notices for contributions of $1,000 or more (received 10/06). <a href=\"https://docquery.fec.gov/pdf/716/202610060300361716/202610060300361716.pdf\">Filing</a>.",
+      "<strong>Gregg Mele for America</strong> \u2014 RFAI on the amended 2025 Year-End Report: candidate advances are labeled \"Loan for Candidate Paid Expenses Itemized,\" which may misreport reimbursements as loans, and the amendment raised both candidate loans and disbursements by $21,581.40 (received 10/06). <a href=\"https://docquery.fec.gov/pdf/748/202610060300361748/202610060300361748.pdf\">Filing</a>.",
+      "<strong>Hoskins for IL 7</strong> \u2014 RFAI on the July 2026 Quarterly Report: the report shows a negative ending cash balance of $3,292.17, suggesting an overdraft, math error or unreported debt (received 10/06). <a href=\"https://docquery.fec.gov/pdf/671/202610060300361671/202610060300361671.pdf\">Filing</a>.",
+      "<strong>Hoskins for IL 7</strong> \u2014 RFAI on the April 2026 Quarterly Report: apparent excessive contributions, general-election contributions needing refund or redesignation, and a negative ending cash balance of $2,841.85 (received 10/06). <a href=\"https://docquery.fec.gov/pdf/665/202610060300361665/202610060300361665.pdf\">Filing</a>.",
+      "<strong>James Osyf for Congress</strong> \u2014 RFAI on the April 2026 Quarterly Report: the report omits a $3,500.20 debt to <strong>Jones Mandel</strong> that appeared on earlier reports (received 10/06). <a href=\"https://docquery.fec.gov/pdf/702/202610060300361702/202610060300361702.pdf\">Filing</a>.",
+      "<strong>James Osyf for Congress</strong> \u2014 RFAI on the July 2026 Quarterly Report: a $2,058.01 Schedule B disbursement labeled \"Unauthorized transaction\" appears to be an unauthorized use of committee funds; the FEC notes the committee's explanation and asks for more as it becomes available, and says it may take further legal action. Same treasurer, <strong>Danielle Salanitri</strong>, as the April RFAI (received 10/06). <a href=\"https://docquery.fec.gov/pdf/704/202610060300361704/202610060300361704.pdf\">Filing</a>.",
+      "<strong>Juliana for Illinois</strong> \u2014 RFAI on the amended April 2026 Quarterly Report: possible missing 48-hour notices for contributions of $1,000 or more received just before the primary, and a $39,871.24 increase in vendor debts versus the original report (received 10/06). <a href=\"https://docquery.fec.gov/pdf/634/202610060300361634/202610060300361634.pdf\">Filing</a>.",
+      "<strong>Kirakos Mitsotakis Andreas Katsaniotis Nea Dimokratia Greece Soukou Skrekas Kedikoglou Simos</strong> \u2014 RFAI titled \"Verification of Form 1\": the FEC says the Statement of Organization may lack true, correct or complete committee information and asks the committee to verify it (received 10/05). <a href=\"https://docquery.fec.gov/pdf/551/202610050300361551/202610050300361551.pdf\">Filing</a>.",
+      "<strong>Lauren Boebert Loves to Eat Pussy</strong> \u2014 RFAI titled \"Verification of Form 1\": the FEC says the Statement of Organization may lack true, correct or complete committee information and asks the committee to verify it (received 10/05). <a href=\"https://docquery.fec.gov/pdf/544/202610050300361544/202610050300361544.pdf\">Filing</a>.",
+      "<strong>Mark Nair for CD13</strong> \u2014 RFAI on the amended April 2026 Quarterly Report: possible missing 48-hour notices for contributions of $1,000 or more before the primary, and an operating expenditure reported on the wrong summary line (received 10/06). <a href=\"https://docquery.fec.gov/pdf/660/202610060300361660/202610060300361660.pdf\">Filing</a>.",
+      "<strong>Melissa Bailey for Congress</strong> \u2014 RFAI on the July 2026 Quarterly Report: itemized Schedule B disbursements are missing addresses, and payments to a conduit for \"Credit Card Processing\" raise earmarked-contribution itemization questions (received 10/06). <a href=\"https://docquery.fec.gov/pdf/721/202610060300361721/202610060300361721.pdf\">Filing</a>.",
+      "<strong>Melissa Bailey for Congress</strong> \u2014 RFAI on the amended April 2026 Quarterly Report: disbursements missing an address or purpose, candidate personal-funds spending that must be disclosed as committee disbursements, and \"Credit Card Processing\" conduit payments (received 10/06). <a href=\"https://docquery.fec.gov/pdf/713/202610060300361713/202610060300361713.pdf\">Filing</a>.",
+      "<strong>Michael Farrell for Utah</strong> \u2014 RFAI on the 12-Day Pre-Primary Report: possible missing 48-hour notices for contributions of $1,000 or more, and earmarked contributions missing required conduit information (received 10/05). <a href=\"https://docquery.fec.gov/pdf/656/202610060300361656/202610060300361656.pdf\">Filing</a>.",
+      "<strong>Michael Farrell for Utah</strong> \u2014 RFAI on the amended 12-Day Pre-Convention Report: earmarked contributions are missing the required conduit information (received 10/05). <a href=\"https://docquery.fec.gov/pdf/654/202610060300361654/202610060300361654.pdf\">Filing</a>.",
+      "<strong>Michael Farrell for Utah</strong> \u2014 RFAI on the July 2026 Quarterly Report: memo entries on Schedule A were counted in totals, deflating reported cash on hand (received 10/05). <a href=\"https://docquery.fec.gov/pdf/663/202610060300361663/202610060300361663.pdf\">Filing</a>.",
+      "<strong>Mullock for Congress</strong> \u2014 RFAI on the July 2026 Quarterly Report: cycle-to-date (Column B) totals on Lines 7(a), 7(c), 17 and 22 look incorrect (received 10/05). <a href=\"https://docquery.fec.gov/pdf/554/202610050300361554/202610050300361554.pdf\">Filing</a>.",
+      "<strong>Ohio Republican Party State Central & Executive Committee</strong> \u2014 RFAI on the amended August 2026 Monthly Report: Schedule H4 allocates \"INSURANCE\" and \"PAYROLL\" payments, but salaries and benefits for employees spending more than 25% of their time on federal election activity must be paid with federal funds (received 10/05). <a href=\"https://docquery.fec.gov/pdf/538/202610050300361538/202610050300361538.pdf\">Filing</a>.",
+      "<strong>Preston for Congress</strong> \u2014 RFAI on the April 2026 Quarterly Report: general-election contributions held even though the candidate won't be in the general election; they must be refunded or redesignated to the primary (received 10/06). <a href=\"https://docquery.fec.gov/pdf/710/202610060300361710/202610060300361710.pdf\">Filing</a>.",
+      "<strong>University of Alabama</strong> \u2014 RFAI titled \"Verification of Form 1\": the FEC says the Statement of Organization may lack true, correct or complete committee information and asks the committee to verify it (received 10/05). <a href=\"https://docquery.fec.gov/pdf/549/202610050300361549/202610050300361549.pdf\">Filing</a>.",
+      "<strong>Western Alliance of Farmworker Advocates PAC (WAFA Pac)</strong> \u2014 RFAI on the amended Statement of Organization (received 09/19): the form marks the committee as a separate segregated fund, which requires naming the connected organization and including it in the committee's name (received 10/06). <a href=\"https://docquery.fec.gov/pdf/750/202610060300361750/202610060300361750.pdf\">Filing</a>.",
+      "<strong>Wilson for Congress</strong> \u2014 RFAI on the amended 12-Day Pre-Primary Report: the amendment increased disbursements by $13,883.75 versus the original; the FEC notes the committee's explanation and asks for more detail (received 10/05). <a href=\"https://docquery.fec.gov/pdf/639/202610060300361639/202610060300361639.pdf\">Filing</a>.",
+      "<strong>Wilson for Congress</strong> \u2014 RFAI on the amended July 2026 Quarterly Report: the amendment increased receipts by $51,433.42 versus the original; the FEC notes the committee's explanation and asks for more detail (received 10/05). <a href=\"https://docquery.fec.gov/pdf/641/202610060300361641/202610060300361641.pdf\">Filing</a>.",
+      "<strong>Wilson for Congress</strong> \u2014 RFAI on the amended July 2025 Quarterly Report: the amendment increased disbursements by $42,146.54 versus the original; the FEC asks for further clarification (received 10/05). <a href=\"https://docquery.fec.gov/pdf/637/202610060300361637/202610060300361637.pdf\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Missed-Report Notices",
+   "headline": "FEC Sends 26 Notices to Committees That May Have Skipped Reports",
+   "paragraphs": [
+    "These are the FEC's standard letters to committees that apparently did not file a required report, almost all for the September Monthly (covering August). Civil penalties for late reports begin the day after the due date with no grace period. The committee that missed two quarterlies is the Senate candidate committee <strong>Committee to Elect Sean Brown</strong>."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Alliance for Gun Responsibility Federal Victory Fund</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/591/202610050300361591/202610050300361591.pdf\">Filing</a>.",
+      "<strong>America First Majority PAC</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/607/202610050300361607/202610050300361607.pdf\">Filing</a>.",
+      "<strong>American Commercial Barge Line LLC PAC</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/581/202610050300361581/202610050300361581.pdf\">Filing</a>.",
+      "<strong>Americans for Democratic Action INC Political Action Committee</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/569/202610050300361569/202610050300361569.pdf\">Filing</a>.",
+      "<strong>Asian Pacific Empowerment PAC</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/593/202610050300361593/202610050300361593.pdf\">Filing</a>.",
+      "<strong>Broker Action Coalition PAC (BACPAC)</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/599/202610050300361599/202610050300361599.pdf\">Filing</a>.",
+      "<strong>Campaign for Primary Accountability INC</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/587/202610050300361587/202610050300361587.pdf\">Filing</a>.",
+      "<strong>Christin Powers Campaign</strong> (presidential candidate committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/613/202610050300361613/202610050300361613.pdf\">Filing</a>.",
+      "<strong>Citizens for Jorge Zavala</strong> (presidential candidate committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/615/202610050300361615/202610050300361615.pdf\">Filing</a>.",
+      "<strong>Committee to Elect Sean Brown</strong> (Senate candidate committee) \u2014 FEC notice that it may have failed to file its July Quarterly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/542/202610050300361542/202610050300361542.pdf\">Filing</a>.",
+      "<strong>Committee to Elect Sean Brown</strong> (Senate candidate committee) \u2014 FEC notice that it may have failed to file its April Quarterly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/540/202610050300361540/202610050300361540.pdf\">Filing</a>.",
+      "<strong>Constitution Party National Committee</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/609/202610050300361609/202610050300361609.pdf\">Filing</a>.",
+      "<strong>Disarm the Deep State</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/595/202610050300361595/202610050300361595.pdf\">Filing</a>.",
+      "<strong>Fragomen Political Action Committee (FRAGOMEN Pac)</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/579/202610050300361579/202610050300361579.pdf\">Filing</a>.",
+      "<strong>Friends of Israel Political Action Committee - FIPAC</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/573/202610050300361573/202610050300361573.pdf\">Filing</a>.",
+      "<strong>Full Employment Now-Political Action Committee</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/589/202610050300361589/202610050300361589.pdf\">Filing</a>.",
+      "<strong>Illinois Green Party</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/611/202610050300361611/202610050300361611.pdf\">Filing</a>.",
+      "<strong>International Longshore and Warehouse Union -- Political Action Fund</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/575/202610050300361575/202610050300361575.pdf\">Filing</a>.",
+      "<strong>Nelnet INC PAC (NELNET Pac)</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/577/202610050300361577/202610050300361577.pdf\">Filing</a>.",
+      "<strong>Restart Smarter Alliance Political Action Committee (RSAPAC)</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/603/202610050300361603/202610050300361603.pdf\">Filing</a>.",
+      "<strong>Sanford for President 2024</strong> (presidential candidate committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/617/202610050300361617/202610050300361617.pdf\">Filing</a>.",
+      "<strong>Sunpower Corporation Political Action Committee (SUNPOWER Pac)</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/585/202610050300361585/202610050300361585.pdf\">Filing</a>.",
+      "<strong>Technology Literacy Alliance Political Action Committee (TLAPAC)</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/605/202610050300361605/202610050300361605.pdf\">Filing</a>.",
+      "<strong>Transport Workers Union Local 100 Political Contributions Committee</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/571/202610050300361571/202610050300361571.pdf\">Filing</a>.",
+      "<strong>USA Patriots PAC</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/601/202610050300361601/202610050300361601.pdf\">Filing</a>.",
+      "<strong>Zayopac of Zayogroup, LLC</strong> (PAC/party/other committee) \u2014 FEC notice that it may have failed to file its September Monthly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/583/202610050300361583/202610050300361583.pdf\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Form 99 Correspondence",
+   "headline": "38 Form 99 Submissions From Challengers, PACs and Parties",
+   "paragraphs": [
+    "Most are replies to RFAIs, plus a handful of loan-forgiveness statements, no-activity statements and termination requests. Residual cash on hand after a campaign ends is the recurring subject: four campaigns told the FEC they are keeping money without committing to personal use."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>America Is the Way PAC</strong> \u2014 asks to terminate its registration as a voluntary filer; says it registered Sept. 3, 2026, received and spent nothing, and is ceasing operations (treasurer <strong>Zachary J. Kuck</strong>) (received 10/06). <a href=\"https://docquery.fec.gov/pdf/896/202610069908538896/202610069908538896.pdf\">Filing</a>.",
+      "<strong>Aswar</strong> \u2014 a handwritten, scanned FEC Form 3 filed on paper under a Form 99 listing; the scan is largely illegible (summary pages show near-zero activity), so figures could not be confirmed (received 10/06). <a href=\"https://docquery.fec.gov/pdf/243/202610060300535243/202610060300535243.pdf\">Filing</a>.",
+      "<strong>Ben Samuels for Congress</strong> \u2014 responds to a Sept. 2 RFAI about residual cash on hand: says funds support aligned candidates and causes and none has been converted to personal use (received 10/04). <a href=\"https://docquery.fec.gov/pdf/919/202610049908517919/202610049908517919.pdf\">Filing</a>.",
+      "<strong>Build the Barn PAC</strong> \u2014 responds to an Aug. 31 RFAI about contributors who gave to <strong>Wahls for Iowa</strong> for the general election: confirms all were refunded within 60 days and further refunds will appear on its October Quarterly Report (received 10/04). <a href=\"https://docquery.fec.gov/pdf/715/202610049908519715/202610049908519715.pdf\">Filing</a>.",
+      "<strong>California Republican Party Federal Acct.</strong> \u2014 California Republican Party responds to an RFAI on its June Monthly Report: says \"Digital Media Consulting-less than 25% FEA\" payments were administrative website, analytics and design work that did not refer to a candidate, and explains salary allocation between Line 30(b) and Schedule H4 (received 10/05). <a href=\"https://docquery.fec.gov/pdf/923/202610059908519923/202610059908519923.pdf\">Filing</a>.",
+      "<strong>California Republican Party Federal Acct.</strong> \u2014 responds to an RFAI on its July Monthly Report with the same explanation of \"Digital Media Consulting-less than 25% FEA\" payments and salary allocation (received 10/05). <a href=\"https://docquery.fec.gov/pdf/924/202610059908519924/202610059908519924.pdf\">Filing</a>.",
+      "<strong>California Republican Party Federal Acct.</strong> \u2014 responds to an RFAI on its amended March Monthly Report: says it corrected the Schedule H4 administrative category to match Schedule H1, so period totals are correct and no further amendment is needed (received 10/05). <a href=\"https://docquery.fec.gov/pdf/066/202610059908523066/202610059908523066.pdf\">Filing</a>.",
+      "<strong>California Republican Party Federal Acct.</strong> \u2014 responds to an RFAI on its amended February Monthly Report: says it amended Schedule H4 to match the Schedule H1 ratio, did not over-transfer from its non-federal account, and repeats the \"Digital Media Consulting\" explanation (received 10/05). <a href=\"https://docquery.fec.gov/pdf/025/202610059908520025/202610059908520025.pdf\">Filing</a>.",
+      "<strong>Campaign for Democracy PAC</strong> \u2014 responds to a Sept. 1 RFAI on its July Quarterly Report, arguing every travel and subsistence reimbursement was fully itemized with memo entries, so no amendment is needed (treasurer <strong>Analea Patterson</strong>) (received 10/06). <a href=\"https://docquery.fec.gov/pdf/415/202610069908541415/202610069908541415.pdf\">Filing</a>.",
+      "<strong>Chuck Uribe for California Congressional District 4</strong> \u2014 states only that \"there was no activity during this time period\" (received 10/06). <a href=\"https://docquery.fec.gov/pdf/783/202610069908545783/202610069908545783.pdf\">Filing</a>.",
+      "<strong>Coloradans for Kerry Donovan</strong> \u2014 responds to a Sept. 2 RFAI: says it will keep residual cash for a possible future federal run by <strong>Kerry Donovan</strong>, with no office or cycle chosen, and won't use funds for personal use (received 10/05). <a href=\"https://docquery.fec.gov/pdf/305/202610059908531305/202610059908531305.pdf\">Filing</a>.",
+      "<strong>Congressional Black Caucus PAC</strong> \u2014 Form 99 with no readable text beyond the committee header (received 10/05). <a href=\"https://docquery.fec.gov/pdf/330/202610059908538330/202610059908538330.pdf\">Filing</a>.",
+      "<strong>Deliver Energize Succeed PAC</strong> \u2014 FEC notice dated Oct. 5 to treasurer <strong>Jen Slater</strong> that the committee failed to file its Form 1M (multicandidate status notification) electronically as required for committees above $50,000 or voluntarily filing electronically (received 10/05). <a href=\"https://docquery.fec.gov/pdf/564/202610050300361564/202610050300361564.pdf\">Filing</a>.",
+      "<strong>Dem Turnout Fund</strong> \u2014 responds to a Sept. 1 RFAI about how it collects missing employer and occupation information for donors: describes a 30-day follow-up note to donors and a donor-database record of the follow-ups as its \"best efforts\" process (received 10/05). <a href=\"https://docquery.fec.gov/pdf/675/202610059908527675/202610059908527675.pdf\">Filing</a>.",
+      "<strong>Felicia Harris Hoss for Congress</strong> \u2014 Form 99 with no readable text beyond the committee header (substance likely in an attachment) (received 10/06). <a href=\"https://docquery.fec.gov/pdf/270/202610069908544270/202610069908544270.pdf\">Filing</a>.",
+      "<strong>Forward Together PAC</strong> \u2014 responds to a Sept. 1 RFAI about a \"Court-ordered restitution payment owed to the Committee\" on Schedule D, saying a federal court ordered former treasurer <strong>Katherine Buchanan</strong> to pay $29,413.77 in restitution, which it reports as a debt owed to the committee. See today's Top Story (received 10/06). <a href=\"https://docquery.fec.gov/pdf/414/202610069908541414/202610069908541414.pdf\">Filing</a>.",
+      "<strong>Frese for Congress</strong> \u2014 says it has not raised or spent more than $5,000 through Sept. 30, 2026 and so isn't required to file the October Quarterly Report; candidate <strong>Jeffrey Frese</strong>, California's 10th District (received 10/05). <a href=\"https://docquery.fec.gov/pdf/710/202610059908527710/202610059908527710.pdf\">Filing</a>.",
+      "<strong>Jami Floyd for Congress</strong> \u2014 responds to an Aug. 31 RFAI on its April Quarterly Report: amended to replace the vague purpose \"Political Consulting\" and to add memo entries itemizing a reimbursement to <strong>Sandor Weiss</strong> (received 10/05). <a href=\"https://docquery.fec.gov/pdf/745/202610059908531745/202610059908531745.pdf\">Filing</a>.",
+      "<strong>Johnson Leadership Fund</strong> \u2014 responds to an Aug. 31 RFAI on its July Quarterly Report: says a contribution from <strong>Yum Brands Inc Good Government Fund</strong> was reported accurately (given 2/12/26, deposited 5/7/26) and that event expenses were catering, site rental and travel; treasurer <strong>Lisa Lisker</strong> (received 10/05). <a href=\"https://docquery.fec.gov/pdf/329/202610059908538329/202610059908538329.pdf\">Filing</a>.",
+      "<strong>Lone Star Liberty PAC</strong> \u2014 responds to an RFAI: says it filed an independent-expenditure report for a runoff as a 48-hour report when it should have been a 24-hour report, making the filing one day late, and says staff have reviewed the rules (received 10/05). <a href=\"https://docquery.fec.gov/pdf/501/202610059908529501/202610059908529501.pdf\">Filing</a>.",
+      "<strong>Lorenzo Rios for Congress</strong> \u2014 responds to an Aug. 30 RFAI on general-election contributions: says all were timely refunded, to be reflected on the October Quarterly Report (received 10/05). <a href=\"https://docquery.fec.gov/pdf/725/202610059908527725/202610059908527725.pdf\">Filing</a>.",
+      "<strong>Los Angeles County Democratic Central Committee</strong> \u2014 responds to an Aug. 31 RFAI on Schedule H1: says its April\u2013June 2026 monthly reports disclose the fixed administrative percentage and note that payroll was for employees spending 25% or less of their time on federal election activity (received 10/06). <a href=\"https://docquery.fec.gov/pdf/730/202610069908538730/202610069908538730.pdf\">Filing</a>.",
+      "<strong>Lucio for Congress</strong> \u2014 candidate <strong>Daniel Lucio</strong> forgives all remaining personal loans and advances owed to him by the committee (Loan Forgiveness; amount not stated) (received 10/06). <a href=\"https://docquery.fec.gov/pdf/403/202610069908544403/202610069908544403.pdf\">Filing</a>.",
+      "<strong>Mark Smith for Congress</strong> \u2014 candidate <strong>Mark Smith</strong> says he forgave all personal loans he made to his campaign, totaling $378,259.26 (treasurer <strong>Steve Martin</strong>) (received 10/05). <a href=\"https://docquery.fec.gov/pdf/200/202610050300535200/202610050300535200.pdf\">Filing</a>.",
+      "<strong>Massachusetts Democratic State Committee - Fed Fund</strong> \u2014 responds to a Sept. 1 RFAI on its July Monthly Report: says a contribution from <strong>International Union of Painters and Allied Trades Political Action Together</strong> was not from its federal account and has been refunded (to be reported Oct. 20), while one from <strong>IBEW Local 103 Federal Political Action Committee</strong> was federal (received 10/05). <a href=\"https://docquery.fec.gov/pdf/238/202610059908535238/202610059908535238.pdf\">Filing</a>.",
+      "<strong>Massachusetts Republican Party</strong> \u2014 responds to an Aug. 31 RFAI on its July Monthly Report, saying administrative expenses were properly disclosed and salary and wages were allocated on Schedule H4 because no employee spent more than 25% of their time on federal election activity (received 10/05). <a href=\"https://docquery.fec.gov/pdf/274/202610059908536274/202610059908536274.pdf\">Filing</a>.",
+      "<strong>Massachusetts Republican Party</strong> \u2014 second Massachusetts Republican Party Form 99 with no readable text beyond the header (received 10/05). <a href=\"https://docquery.fec.gov/pdf/852/202610059908531852/202610059908531852.pdf\">Filing</a>.",
+      "<strong>Mike Johnston for US Senate</strong> \u2014 responds to a Sept. 2 RFAI about significant residual cash on hand: says it is aware of the restrictions on using the funds, has complied, and is \"weighing our options\" (received 10/06). <a href=\"https://docquery.fec.gov/pdf/141/202610069908541141/202610069908541141.pdf\">Filing</a>.",
+      "<strong>Montana Republican State Central Committee</strong> \u2014 responds to an Aug. 31 RFAI on its July Monthly Report: says utilities are included in its office rental and that a payment to <strong>Ultra Graphics</strong> described as donation envelopes will be amended to \"MTGOP Printing: letterhead, and letterhead envelopes\" (received 10/05). <a href=\"https://docquery.fec.gov/pdf/190/202610059908535190/202610059908535190.pdf\">Filing</a>.",
+      "<strong>New Era Leadership</strong> \u2014 responds to an RFAI on its amended June Monthly Report: says a $25,000 debt to <strong>AL Media LLC</strong> for a supplemental ad buy was incurred June 1, not May 29, and admits a separate 24-hour independent-expenditure report for that $25,000 buy should have been filed by June 2 but was overlooked; the earlier buy was $125,000 (received 10/05). <a href=\"https://docquery.fec.gov/pdf/202/202610059908536202/202610059908536202.pdf\">Filing</a>.",
+      "<strong>Ola Victory Fund</strong> \u2014 responds to a Sept. 2 RFAI on its 2025 Year-End Report: says a $24,000 contribution on Dec. 31, 2025 was the personal money of federal candidate <strong>Ola Nesheswat Hawatmeh</strong>, sent through the wrong fundraising link and allocated entirely to <strong>People For Ola</strong>, so it was not excessive; asks that this resolve the issue and allow the pending termination review to finish (received 10/06). <a href=\"https://docquery.fec.gov/pdf/549/202610069908546549/202610069908546549.pdf\">Filing</a>.",
+      "<strong>Richoz for Congress</strong> \u2014 Form 99 whose readable page is a U.S. House Committee on Ethics late-fee waiver form for financial disclosure statements and periodic transaction reports; no explanatory text was legible (received 10/05). <a href=\"https://docquery.fec.gov/pdf/087/202610059908523087/202610059908523087.pdf\">Filing</a>.",
+      "<strong>States Win</strong> \u2014 responds to an RFAI on its July Quarterly Report: corrected a contribution from <strong>Vote Save America</strong> from $5,000 to $10,000 and added a previously omitted $5,000 disbursement to its non-federal account <strong>States Win, Inc.</strong>; treasurer <strong>Cassie Tinsmon</strong> (received 10/05). <a href=\"https://docquery.fec.gov/pdf/087/202610059908536087/202610059908536087.pdf\">Filing</a>.",
+      "<strong>Theresa Greenfield for Iowa</strong> \u2014 responds about residual funds on its April and July 2026 reports: says they'll be used per FEC rules and not for personal use (received 10/05). <a href=\"https://docquery.fec.gov/pdf/814/202610059908530814/202610059908530814.pdf\">Filing</a>.",
+      "<strong>Timmins for Congress</strong> \u2014 candidate <strong>Patrick Timmins</strong> files a statement of loan forgiveness with the committee's Termination Report (amount not stated in the legible text) (received 10/05). <a href=\"https://docquery.fec.gov/pdf/189/202610050300535189/202610050300535189.pdf\">Filing</a>.",
+      "<strong>Villegas for Congress</strong> \u2014 responds to an Aug. 30 RFAI on its July Quarterly Report: corrects a received date on a contribution from <strong>Immigrants' List</strong> and says a contribution first reported from \"Haystaq DNA\" was reattributed to <strong>Ken Strasma</strong> because it is a single-member LLC; treasurer <strong>Lauren Decot Lee</strong> (received 10/05). <a href=\"https://docquery.fec.gov/pdf/421/202610059908524421/202610059908524421.pdf\">Filing</a>.",
+      "<strong>Vote Courage 4 Democracy Fund</strong> \u2014 a very small independent-expenditure-only committee formed in August 2026 explains late filings: it filed a paper Form 3X Aug. 14 and will refile electronically, filed a 48-hour report late for $13,470 and $10,000 in expenditures, and refunded $23,870 in contributions that were first attributed to <strong>Ansercall LLC</strong> and later to donor <strong>George Jordan</strong>; asks for leniency (received 10/05). <a href=\"https://docquery.fec.gov/pdf/772/202610059908531772/202610059908531772.pdf\">Filing</a>.",
+      "<strong>You Can Push Back</strong> \u2014 Form 99 submitted with no readable text beyond the committee header (the substance appears to be in an attachment not captured in the text layer) (received 10/06). <a href=\"https://docquery.fec.gov/pdf/958/202610069908545958/202610069908545958.pdf\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Voided & Negative Transactions",
+   "headline": "One Committee Voided a $20,000 Candidate Loan",
+   "paragraphs": [
+    "One large negative transaction appeared in this window: large negative amounts on FEC Schedule A are the agency's convention for voided or reversed transactions, most often routine reversals or refunds but occasionally the paper trail for something being unwound after the fact."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Lily For Congress Committee</strong> voided a $20,000 loan received from candidate <strong>Lily Tang Williams</strong> dated December 31, 2025. <a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610059908537103\">PDF</a>"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Terminations Wire",
+   "headline": "31 Termination Approvals, Mostly Joint Victory Funds and Long-Shot House Campaigns",
+   "paragraphs": [
+    "The FEC approved terminations for these committees in the window; none were individually read, as they are routine."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "31 termination approvals in this window."
+    },
+    {
+     "type": "list",
+     "items": [
+      "<a href=\"https://docquery.fec.gov/pdf/559/202610050300361559/202610050300361559.pdf\">Ali for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/700/202610060300361700/202610060300361700.pdf\">Angelita Valles for Faith Family Freedom</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/754/202610060300361754/202610060300361754.pdf\">Battleground PAC</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/701/202610060300361701/202610060300361701.pdf\">Belatti for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/758/202610060300361758/202610060300361758.pdf\">Better Future for Everyone PAC</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/735/202610060300361735/202610060300361735.pdf\">Booker Lujan Victory Fund</a> (Senate candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/755/202610060300361755/202610060300361755.pdf\">Common Ground Project</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/756/202610060300361756/202610060300361756.pdf\">Conservative Action PAC</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/709/202610060300361709/202610060300361709.pdf\">Goodenough for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/562/202610050300361562/202610050300361562.pdf\">Gordon Bryan for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/757/202610060300361757/202610060300361757.pdf\">Green Congressional Campaign Committee</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/558/202610050300361558/202610050300361558.pdf\">Hickenlooper Reed Victory Fund</a> (Senate candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/643/202610060300361643/202610060300361643.pdf\">Iowa Victory Fund</a> (Senate candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/630/202610050300361630/202610050300361630.pdf\">Jean Monestime for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/744/202610060300361744/202610060300361744.pdf\">Joel Lava for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/746/202610060300361746/202610060300361746.pdf\">John Thompson Parker for Congress 2026</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/556/202610050300361556/202610050300361556.pdf\">Kishla Askins for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/629/202610050300361629/202610050300361629.pdf\">Lautenberg for Senate</a> (Senate candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/759/202610060300361759/202610060300361759.pdf\">MC-KEE PAC</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/560/202610050300361560/202610050300361560.pdf\">Michael Gist for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/736/202610060300361736/202610060300361736.pdf\">Michael Paul Jackson for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/566/202610050300361566/202610050300361566.pdf\">Navajo Natani</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/632/202610050300361632/202610050300361632.pdf\">Nick Lewis for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/760/202610060300361760/202610060300361760.pdf\">Powell for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/747/202610060300361747/202610060300361747.pdf\">Purves for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/563/202610050300361563/202610050300361563.pdf\">Rachel Hurley for Tennessee</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/628/202610050300361628/202610050300361628.pdf\">Shevrin for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/752/202610060300361752/202610060300361752.pdf\">The Mills Victory Fund</a> (PAC/party/other)",
+      "<a href=\"https://docquery.fec.gov/pdf/627/202610050300361627/202610050300361627.pdf\">Verlina for Congress</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/653/202610060300361653/202610060300361653.pdf\">Vindman Squared 2026</a> (House candidate)",
+      "<a href=\"https://docquery.fec.gov/pdf/753/202610060300361753/202610060300361753.pdf\">Voice for Values</a> (PAC/party/other)"
+     ]
+    }
+   ],
+   "no_news": false
   }
  ],
  "footer": {
-  "coverage_window": "FEC filings received October 4, 2026 through the morning of October 7, 2026 (Pacific)",
-  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
-  "known_gaps": "NASA's APOD API returned no data (rate-limited), so the picture of the day is omitted. The Trump-property spending check in the deterministic Money Out extras timed out (HTTP 504). No other tasks were skipped."
+  "coverage_window": "Filings received by the FEC October 4\u20137, 2026 (Pacific), excluding filings reported in prior editions.",
+  "sources": "FEC filings API (F99 and FRQ); FEC Schedule A/B itemized transactions; FEC candidate and committee records.",
+  "known_gaps": "A few Form 99 PDFs (noted above) contained no readable text beyond the header or were illegible scans, so their substance was not characterized. The Trump-properties check in the Money Out extras timed out at the FEC API (HTTP 504). The NASA picture of the day request timed out and was omitted. Otherwise no tasks were skipped."
  },
- "beat": []
+ "beat": [
+  {
+   "name": "Rep. Lauren Boebert",
+   "why": "Late/missing annual disclosure",
+   "mentions": [
+    {
+     "section": "Requests for Additional Information",
+     "html": "Lauren Boebert."
+    },
+    {
+     "section": "Requests for Additional Information",
+     "html": "<strong>Lauren Boebert Loves to Eat Pussy</strong> \u2014 RFAI titled \"Verification of Form 1\": the FEC says the Statement of Organization may lack true, correct or complete committee information and asks the committee to verify it (received 10/05). <a href=\"https://docquery.fec.gov/pdf/544/202610050300361544/202610050300361544.pdf\">Filing</a>."
+    }
+   ]
+  }
+ ]
 }
