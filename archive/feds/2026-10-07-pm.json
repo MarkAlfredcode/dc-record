@@ -1,0 +1,201 @@
+{
+ "date": "Wednesday, October 7, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "TSA cuts short a five-year sole-source award after a protest and will re-compete it",
+  "dek": "The Transportation Security Administration says it is taking corrective action on a no-bid help-desk contract it gave to its incumbent in August.",
+  "paragraphs": [
+   "According to a justification posted this week, the <strong>Transportation Security Administration</strong> awarded task order 70T01026F7670N008 to the incumbent, <strong>Quasars</strong>, on August 20, 2026 as a five-year sole-source contract to run the Online Learning Center help desk, which supports about 70,000 users. The document says that \"following an agency-level protest, TSA has taken corrective action to conduct a competitive procurement.\"",
+   "To keep services running in the meantime, a modification shortens the period of performance to no later than May 19, 2027. The justification does not state a dollar value. The earlier incumbent task order had been competitively awarded as a small-business set-aside through the National Institutes of Health's CIO-SP3 contract vehicle."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "TSA notice",
+     "url": "https://sam.gov/workspace/contract/opp/454768711ab4412582faa25b276c28b1/view"
+    },
+    {
+     "text": "J&A document",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3a94f1cac7614cc7a30f2390d1e8eb30/download"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Federal Contracting Actions (SAM.gov)",
+   "headline": "TSA shortens a five-year sole-source award to its incumbent after a protest and will re-compete it",
+   "paragraphs": [
+    "69 new sole-source justifications and 1,000 new solicitations were screened; 0 repeats from earlier editions were left out. Beyond the TSA protest, the day's notable justifications involve immigration detention in Batavia, New York, security-systems work at the White House Complex, and an $81.4 million Education Department attorney contract."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Must read"
+    },
+    {
+     "type": "card",
+     "title": "TSA cuts short a five-year sole-source helpdesk award after a protest, will re-compete it",
+     "meta": [
+      "Quasars",
+      "no value given",
+      "other (modification shortening an existing sole-source order)",
+      "Transportation Security Administration"
+     ],
+     "text": "The Transportation Security Administration awarded the incumbent, <strong>Quasars</strong>, a five-year sole-source task order on August 20, 2026 to run the Online Learning Center help desk for about 70,000 users. According to the justification, an agency-level protest followed and the agency \"has taken corrective action to conduct a competitive procurement,\" so this modification shortens the period of performance to no later than May 19, 2027 to keep services running meanwhile.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/454768711ab4412582faa25b276c28b1/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3a94f1cac7614cc7a30f2390d1e8eb30/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Education Department plans $81.4 million more for contract attorneys deciding student-loan borrower defense claims",
+     "meta": [
+      "Vendor redacted",
+      "$81,382,398 estimated",
+      "logical follow-on (federal supply schedule sole source)",
+      "Department of Education, Federal Student Aid"
+     ],
+     "text": "Two task order modifications (91003126F0014 and F0015) would extend attorney adjudication work on borrower defense applications. The department says changing contractors would waste the onboarding and training of the 144 contract attorneys already in place and set back its goal of clearing the backlog by 2028, and that the original scope \"has proven to be larger than initially anticipated.\" The same justification was posted as two notices with the same estimate, so the figure is one total, not two.",
+     "links": [
+      {
+       "text": "Notice 1 of 2",
+       "url": "https://sam.gov/workspace/contract/opp/90288799a1ab4d9eaf9bc73d58f742d2/view"
+      },
+      {
+       "text": "Notice 2 of 2",
+       "url": "https://sam.gov/workspace/contract/opp/fe4549f628554d7c97350bed8be84402/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7e33fd6e8c87435fbbacf03b0af8e754/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "ICE adds a temporary 100-bed detention structure in Batavia, New York to an incumbent's contract without competition",
+     "meta": [
+      "Akima Infrastructure Protection, LLC",
+      "value redacted",
+      "only one company can do it",
+      "U.S. Immigration and Customs Enforcement"
+     ],
+     "text": "<strong>Akima Infrastructure Protection, LLC</strong> would get a modification to its existing detention services contract for a temporary detention structure for up to 100 detainees, supporting medical and environmental infrastructure and armed guard services at the Batavia Service Processing Center. The agency says the company already provides related services there and that using multiple vendors would create operational and security risk. The justification states Enforcement and Removal Operations has \"an increased need for detention beds in New York due to changes affecting the availability of state and local detention space.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/123b6de0a366404d92a9cf38a6a87f5d/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e0999fa6a0a64a9cb91fa79093e17b75/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "General Services Administration picks the same contractor for a second security-systems upgrade across the White House Complex",
+     "meta": [
+      "Convergint Technologies LLC",
+      "value redacted",
+      "only one company can do it",
+      "General Services Administration, Public Buildings Service"
+     ],
+     "text": "<strong>Convergint Technologies LLC</strong> would get a design-build follow-on to a 2020 contract, completed in 2024, to upgrade existing systems at the White House Complex and at Joint Base Anacostia-Bolling in Washington, D.C. Sites listed include the Dwight D. Eisenhower Executive Office Building, the Winder Building, 1724 F Street NW, the New Executive Office Building and 726 Jackson Place NW. The justification cites the company's existing security clearance and White House Complex experience as additional factors, and the notice describes the work as a head-end system upgrade.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/ddfd9e24582549ac83902968528ffd4d/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9d4d3ac3541245428d7e21dea5bc08e4/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "State Department hires 65 contractors without competition after staffing gap it blames on retirements and USAID's absorption",
+     "meta": [
+      "Nakupuna Federal LLC",
+      "$7,487,184 estimated (base period)",
+      "urgent need, no time to compete",
+      "Department of State"
+     ],
+     "text": "The Bureau of Global Acquisitions placed a sole-source order with <strong>Nakupuna Federal LLC</strong> for 65 contractor positions supporting acquisition and federal assistance work while it runs a replacement competition. The justification cites \"unprecedented\" retirements and the integration of the U.S. Agency for International Development, with a September 16 deadline, and says staff reductions limited the personnel available to address the coverage issue.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/df935c1c32a74381b06144f93a146054/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58518d9384124b18a2df6b62d44db23a/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of Homeland Security</strong> \u2014 interim bridge contract for operations and maintenance of the Visa Security Program Tracking System; <strong>Steampunk Inc.</strong>; skipped competition among existing contract holders; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/e25b8eade1f9433f8e57fc27d7bfc35b/view\">70CTD026FR0000055</a>).",
+      "<strong>Department of the Air Force</strong> \u2014 bridge contract for sustainment of the Medusa counter-drone command-and-control system; <strong>Leidos, Inc.</strong>; only one company can do it; the bridge covers the gap until a competitive follow-on is awarded; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/c968b18b1a994ff2adba66db42ee606f/view\">FA238126CB001</a>).",
+      "<strong>General Services Administration</strong> \u2014 historic balcony replacement at the Winder Building next to the White House; <strong>DJB Contracting, Inc</strong>; only one company can do it; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/0e11c796caf54986b8b05c4417c3bfca/view\">47PE5226C0022</a>).",
+      "<strong>Department of the Navy</strong> \u2014 late-added repair of the outboard stabilizing hulls on USS Gabrielle Giffords (LCS-10), damage found after drydocking; <strong>Vigor Marine LLC</strong>; value not stated (<a href=\"https://sam.gov/workspace/contract/opp/f0f20278b25f4e4fae6ca54cb5ddcaf9/view\">N00024-25-C-4409_A00039</a>).",
+      "<strong>Department of Homeland Security</strong> \u2014 secure storage rental for the Buffalo Special Response Team's equipment at the Town of Lancaster police campus; <strong>Town of Lancaster</strong>; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/3223c4394cc34585a0ef2c2244b4db5b/view\">JA-26-0247</a>).",
+      "<strong>Department of Homeland Security</strong> \u2014 operational technology operations center support (network, cybersecurity and help desk); <strong>Sherpa 6, Inc.</strong>; only one company can do it; no value given (<a href=\"https://sam.gov/workspace/contract/opp/1aa7be40b77a4b53a3a29a553ebd919f/view\">70B04C26F00001152</a>).",
+      "<strong>Defense Threat Reduction Agency</strong> \u2014 bridge for IT services on Defense Stockpile Management Systems; <strong>General Dynamics Information Technology, Inc.</strong>; limited-source; $16,566,466 (<a href=\"https://sam.gov/workspace/contract/opp/32736bde360a40e792a12e9e59c1edb3/view\">HDTRA126C0035</a>).",
+      "<strong>Department of the Navy</strong> \u2014 communications components and engineering support for the MQ-4C Triton drone; <strong>L3 Communication Systems-West</strong>; only one company can do it; $25,000,000 (<a href=\"https://sam.gov/workspace/contract/opp/b77d73d400f34d769bc4f40501458d12/view\">N0016426GMP07</a>).",
+      "<strong>U.S. Coast Guard</strong> \u2014 solicitation for the Homeland Security Cutter \u2013 Light Icebreaker, an indefinite-delivery contract for design and production in a two-phase down-select; no value given (<a href=\"https://sam.gov/workspace/contract/opp/b1424ad63ae2419f993e0734d1eff2e4/view\">70Z02326R93280004</a>).",
+      "<strong>U.S. Immigration and Customs Enforcement</strong> \u2014 solicitation for teleradiology services for the ICE Health Service Corps (detention medical care); proposal deadline extended repeatedly; no value given (<a href=\"https://sam.gov/workspace/contract/opp/c61889d45bfa47d5a496237f2860b991/view\">70CDCR26R00000016</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Other sole-source justifications (routine parts, renewals, maintenance and smaller buys): <strong>Defense Logistics Agency</strong> \u2014 13 (<a href=\"https://sam.gov/workspace/contract/opp/2da9202d645c41319a29f03dc7cadd1c/view\">SP4709-26-Q-1006</a>, <a href=\"https://sam.gov/workspace/contract/opp/2d4b0a5e6f6844f8bf52ac80bf5fc382/view\">SP4709-26-Q-1013</a>, <a href=\"https://sam.gov/workspace/contract/opp/9f78ca6e563a48b091a829dc92a91057/view\">SP4709-26-Q-1018</a>, <a href=\"https://sam.gov/workspace/contract/opp/3b7d8b73bec447dd8b9a96201b43f843/view\">7014488436</a>, <a href=\"https://sam.gov/workspace/contract/opp/28a74e0116264a92a0750e7ff57fd454/view\">SPE603-22-D-5003</a>, <a href=\"https://sam.gov/workspace/contract/opp/fc0427974045432bbee17836bc1ab39f/view\">SP4709-26-Q-1016</a>, <a href=\"https://sam.gov/workspace/contract/opp/8857d042791e44d4ab75b7779ba63d7f/view\">SP4709-26-Q-1009</a>, <a href=\"https://sam.gov/workspace/contract/opp/f4626247aaa84fc0afa3c7aaa28fb2a3/view\">SPE4A726R0629</a>, <a href=\"https://sam.gov/workspace/contract/opp/a6b57dc2cc214e41a99de44af17c5a84/view\">SPRPA125QEV53</a>, <a href=\"https://sam.gov/workspace/contract/opp/2d19b8f6965b4414aa4464196b3d777e/view\">SPRPA126QRC34</a>, <a href=\"https://sam.gov/workspace/contract/opp/e1dc1c8c064e467c9f68c1f903d27641/view\">SPE4A525R0307</a>, <a href=\"https://sam.gov/workspace/contract/opp/3d60e0c36e484d39a10e1bac6b637232/view\">SPE4A726R0497JA</a>, <a href=\"https://sam.gov/workspace/contract/opp/176ec5b8508f430ba25e5157d8062f29/view\">SPE4A726R0392JA</a>); <strong>Department of the Navy</strong> \u2014 10 (<a href=\"https://sam.gov/workspace/contract/opp/22d6a970a8964c4ba69a3c5c9b780c66/view\">N0018926FZ108</a>, <a href=\"https://sam.gov/workspace/contract/opp/18b98473cc9b46a58157a14f23660e70/view\">HQCA-2026-A-091</a>, <a href=\"https://sam.gov/workspace/contract/opp/23308c2cdefc426893102c85f74359b1/view\">N00174-26-RFPREQ-W34-0002</a>, <a href=\"https://sam.gov/workspace/contract/opp/752a5fd21d19435385c13959b6112e25/view\">N6247026C0011</a>, <a href=\"https://sam.gov/workspace/contract/opp/9320aedb911d4d2f9538b49fafb74502/view\">N6893626Q5167</a>, <a href=\"https://sam.gov/workspace/contract/opp/efcfbbad99e248bc8df42c8cb305d44f/view\">N6449826D0011JA</a>, <a href=\"https://sam.gov/workspace/contract/opp/a82b39c3158d4794be208a6295573b59/view\">N0018926FB113</a>, <a href=\"https://sam.gov/workspace/contract/opp/aec7255f51984a8db6e389e0db5aca8e/view\">N0038326FNQ00</a>, <a href=\"https://sam.gov/workspace/contract/opp/7186f4655a6f4394a799a74ea0a81c07/view\">N0038326FNQ02</a>, <a href=\"https://sam.gov/workspace/contract/opp/0e5abeef2c40461488b06eba2ba688e9/view\">N6893626Q5150</a>); <strong>Department of the Army</strong> \u2014 5 (<a href=\"https://sam.gov/workspace/contract/opp/19750a9f22c0434c9bb0db0085fccfea/view\">W912CH26C0077</a>, <a href=\"https://sam.gov/workspace/contract/opp/953fd22b541641a6a3c3bcae77eb37d6/view\">W912BV26RA031</a>, <a href=\"https://sam.gov/workspace/contract/opp/3e9a9966210446f6ba2c3c6def70ff31/view\">W912CL26PA009</a>, <a href=\"https://sam.gov/workspace/contract/opp/9362fd4586d34d4d81189b9f6e74abc9/view\">CEHNC-26-0035</a>, <a href=\"https://sam.gov/workspace/contract/opp/54665b03c5ec46c8a7274553f6b491a4/view\">W911RZ-26-P-A033</a>); <strong>Department of Veterans Affairs</strong> \u2014 5 (<a href=\"https://sam.gov/workspace/contract/opp/6ec8951a79324ebab90feda563aa1f2d/view\">36C25926P0715</a>, <a href=\"https://sam.gov/workspace/contract/opp/011d87b94d3548ad896bf8aaa44deeb6/view\">36C10D26P0093</a>, <a href=\"https://sam.gov/workspace/contract/opp/9afdd05983404b95bbaccc7228bc8859/view\">36C25927N0009</a>, <a href=\"https://sam.gov/workspace/contract/opp/b4d1894401664160a4124f21863b166c/view\">36C26227D0001</a>, <a href=\"https://sam.gov/workspace/contract/opp/308f10460e384e38a3215907da9f9e03/view\">36C24427P0008</a>); <strong>Department of the Air Force</strong> \u2014 4 (<a href=\"https://sam.gov/workspace/contract/opp/4714cba4772e44ed9d1ce05a103c2b48/view\">FA664825C0007P00002</a>, <a href=\"https://sam.gov/workspace/contract/opp/d0de7be558744304be25dec192da2914/view\">FA853826CB002_JA</a>, <a href=\"https://sam.gov/workspace/contract/opp/bdf40d2b882746e880b9e5e8003ae376/view\">FA521526P0040</a>, <a href=\"https://sam.gov/workspace/contract/opp/c68071bc9cc143c08558facfb4c857d7/view\">FA853826CB003</a>); <strong>National Aeronautics and Space Administration</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/e75de17bfb4044479fcf597b6e1742c7/view\">80SSC018D0012_80KSC025F7018_P00002</a>, <a href=\"https://sam.gov/workspace/contract/opp/b729c725159c4f138864b4ac6cbc1017/view\">80SSC018D0004_80KSC024F0066_P00015</a>, <a href=\"https://sam.gov/workspace/contract/opp/5bd36cfe64cd4300b9afd765f7cb67ca/view\">80KSC020C0013P00064</a>); <strong>Department of Health and Human Services</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/778062aa3b294dd3900910dba4afcb86/view\">NIH-OD-26-010503</a>, <a href=\"https://sam.gov/workspace/contract/opp/db2381abf223462c9b55e5b29ca01448/view\">7571PS26P00045</a>, <a href=\"https://sam.gov/workspace/contract/opp/dc18439b87d14bba8825137a3d6dfe58/view\">7571TE26Q00388</a>); <strong>Department of Homeland Security</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/d94d03fd74c94aeb981cbcdd40c55168/view\">20157583</a>, <a href=\"https://sam.gov/workspace/contract/opp/f35d50591f8245c2958cc9533ca825ee/view\">ROPL-26-00029</a>, <a href=\"https://sam.gov/workspace/contract/opp/d4a7f3f800a44c2cae8795654389eab1/view\">JA2026011414</a>); <strong>General Services Administration</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/384e046332864732aa827550df739410/view\">47QACA26Q0581</a>, <a href=\"https://sam.gov/workspace/contract/opp/d63dbd59a9b64e21983b76a6fd7a9072/view\">6CA1318</a>, <a href=\"https://sam.gov/workspace/contract/opp/272528a5b1004d3a94c35e1a08e5c558/view\">6MO0294</a>); <strong>Department of Commerce</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/42ae62bb33bd4b68a83cd14a782edd23/view\">REQUIREMENTS-26-1617</a>); <strong>Department of Justice</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/659a2a55f6a74583b18abba2cc9a8044/view\">DJA-26-APLD-PR-0584</a>); <strong>Defense Information Systems Agency</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/9def588ca09a4211b5b223f8a31a2ed3/view\">832675794</a>); <strong>Federal Communications Commission</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/d3f05b8806f24517881f205a15e52efa/view\">LIBR260029</a>); <strong>Department of State</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/7ed798d1100f4d1da71a6d9e81f7cfbc/view\">3007263760</a>); <strong>Defense Health Agency</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/1d0bf7491ef741ebb062d37ddb613f88/view\">PANDHA-26-P-0000-047373_Redacted_Justification</a>)."
+    },
+    {
+     "type": "note",
+     "text": "Solicitations not listed (954 of the 1,000 fetched): Defense Logistics Agency 553, Department of the Navy 170, Department of Veterans Affairs 53, Department of the Army 49, Department of the Air Force 27, Department of the Interior 16, Department of Agriculture 11, Department of Commerce 10, National Aeronautics and Space Administration 8, Department of Health and Human Services 8, General Services Administration 8, Department of Transportation 7, Department of Homeland Security 6, Department of State 5, Department of Energy 5, Defense Health Agency 2, U.S. Transportation Command 2, Department of Justice 2, Defense Microelectronics Activity 2, Environmental Protection Agency 2, Social Security Administration 2, U.S. Special Operations Command 1, Export-Import Bank of the United States 1, Pension Benefit Guaranty Corporation 1, Department of the Treasury 1, Federal Deposit Insurance Corporation 1, Defense Information Systems Agency 1. 75 of these were flagged by the screen but judged not newsworthy enough to list (including Air Force and Navy sole-source weapons-parts notices and Federal Protective Service guard contracts). A quota was hit: only 1,000 of 1,903 posted solicitations were fetched. 44 amendments to solicitations listed in earlier editions are omitted."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "No new federal contract awards of $100,000 or more to report",
+   "paragraphs": [
+    "USAspending turned up no new-to-report awards of $2 million or more since the last edition, and the under-$2 million screen found no new awards in its October 4-7 window."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new apportionment files were approved this week",
+   "paragraphs": [
+    "Between October 2 and October 7, no agencies submitted new apportionment files to the OMB or revised their spend plans. All monitored sources remain reachable and no flagged activity was detected in this window."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 6-7, 2026 (Pacific time) for SAM.gov; October 4-7 for USAspending contracts under $2 million, with a trailing sweep from September 12 for larger awards.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API; SAM.gov Get Opportunities Public API.",
+  "known_gaps": "SAM.gov quota partial fetch: 1,000 of 1,903 solicitations retrieved. All sources reachable; no errors listed in any candidate file."
+ },
+ "beat": []
+}
