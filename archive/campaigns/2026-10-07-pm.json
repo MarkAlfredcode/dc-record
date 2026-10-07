@@ -1,0 +1,54 @@
+{
+ "date": "Wednesday, October 7, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Quiet window: no new FEC correspondence beyond what earlier editions reported",
+  "dek": "Every Form 99 and request for additional information (RFAI) indexed since October 4 was already covered in a prior edition.",
+  "paragraphs": [
+   "The FEC filings feed returned 148 Form 99 and RFAI records received October 4\u20136, and all of them were already reported in earlier editions, so none are repeated here.",
+   "The one new item is a $20,000 candidate-loan reversal at Lily 4 Congress Committee, in the Voided &amp; Negative Transactions section below. A keyword scan of RFAI filings for fraud-related terms turned up only the FEC's standard boilerplate warning about false statements, not any allegation against a committee."
+  ],
+  "callout": {
+   "label": "Read the filing",
+   "links": [
+    {
+     "text": "Lily 4 Congress Committee reversal",
+     "url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610059908537103"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Voided & Negative Transactions",
+   "headline": "One Candidate Loan to Campaign Reversed",
+   "paragraphs": [
+    "One large negative amount was reported this week. In FEC filings, negative transaction amounts represent voided, reversed, or refunded contributions\u2014typically routine bookkeeping corrections, but occasionally the paper trail for something being unwound after the fact."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Lily 4 Congress Committee</strong> reversed a $20,000 loan from <strong>Lily Tang Williams</strong>, dated December 31, 2025 (reported October 5, 2026). The filing describes this as \"loans received from the candidate\" being reversed. <a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610059908537103\">View filing.</a>"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Requests for Additional Information",
+   "headline": "No new RFAIs or Form 99s this window",
+   "paragraphs": [
+    "All 76 RFAI (FRQ) and 72 Form 99 records received since October 4 were already reported in prior editions; nothing new to list."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "FEC filings received October 4, 2026 through the morning of October 7, 2026 (Pacific)",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "NASA's APOD API returned no data (rate-limited), so the picture of the day is omitted. The Trump-property spending check in the deterministic Money Out extras timed out (HTTP 504). No other tasks were skipped."
+ },
+ "beat": []
+}
