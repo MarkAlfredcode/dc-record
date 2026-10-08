@@ -1,0 +1,297 @@
+{
+ "date": "Thursday, October 8, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "ICE adds a 100-bed temporary detention structure in Batavia, New York, to an existing contract without competition",
+  "dek": "The agency says changes affecting state and local detention space created an increased need for beds in New York.",
+  "paragraphs": [
+   "U.S. Immigration and Customs Enforcement plans to modify its comprehensive detention services contract with Akima Infrastructure Protection, LLC, of Herndon, Virginia, on a sole-source basis. The modification adds a temporary detention structure, supporting medical and environmental infrastructure, and armed guard services at the Batavia, New York, service processing center, which would house up to 100 detainees of all security levels.",
+   "The justification says integrating with existing detention operations avoids duplicated costs and operational and security risks from multiple vendors. It also raises the ceiling of the existing contract; the dollar figures are redacted in the public document.",
+   "Elsewhere in today's sole-source notices, the General Services Administration plans a $152,779,419 ceiling increase for CACI on an Army intelligence-support task order, and the Transportation Security Administration is defending a five-year sole-source award to its incumbent after a protest."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Batavia notice",
+     "url": "https://sam.gov/workspace/contract/opp/123b6de0a366404d92a9cf38a6a87f5d/view"
+    },
+    {
+     "text": "Batavia J&A document",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e0999fa6a0a64a9cb91fa79093e17b75/download"
+    },
+    {
+     "text": "CACI ceiling increase",
+     "url": "https://sam.gov/workspace/contract/opp/ad37e4fef707475eb4a3e9c8fea0e1b8/view"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Federal Contracting Actions (SAM.gov)",
+   "headline": "ICE adds a 100-bed temporary detention structure in Batavia, New York, to an existing contract without competition",
+   "paragraphs": [
+    "There were 28 new sole-source justifications and 831 new solicitations; 176 notices already covered in earlier editions are not repeated (7 justifications, 169 solicitations). Four items stand out below, led by the detention expansion and a $152.8 million ceiling increase."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Must read"
+    },
+    {
+     "type": "card",
+     "title": "ICE adds a temporary detention structure for 100 detainees at Batavia, New York, to an existing contract without competition",
+     "meta": [
+      "Akima Infrastructure Protection, LLC",
+      "value redacted",
+      "only one company can do it",
+      "U.S. Immigration and Customs Enforcement"
+     ],
+     "text": "U.S. Immigration and Customs Enforcement will modify its existing detention services contract with <strong>Akima Infrastructure Protection, LLC</strong> to add a temporary detention structure, supporting medical and environmental infrastructure, and armed guards at its Batavia, New York, processing center. The agency says it needs more detention beds in New York because of changes affecting state and local detention space, and that using the existing vendor avoids duplicated costs and security risks from multiple contractors. The modification also raises the contract ceiling; the figures are redacted.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/123b6de0a366404d92a9cf38a6a87f5d/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e0999fa6a0a64a9cb91fa79093e17b75/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army-backed intelligence-support task order gets a $152.8 million ceiling increase for CACI with no new competition",
+     "meta": [
+      "CACI",
+      "$152,779,419 estimated",
+      "skipped the competition among existing contract holders",
+      "General Services Administration"
+     ],
+     "text": "The <strong>General Services Administration</strong>, buying for the Army's Combat Capabilities Development Command C5ISR Center, plans to raise the ceiling of a 2024 task order for intelligence, surveillance and threat-analysis support, originally awarded competitively with a $414,857,176 ceiling. The justification says mission demand exceeded estimates and that internal funding realignments are exhausted, so an immediate ceiling increase is the only way to keep operations going.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/ad37e4fef707475eb4a3e9c8fea0e1b8/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d4c151fd3d984b279296e1373b4828cf/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "TSA justifies keeping its incumbent after a protest of a five-year sole-source award",
+     "meta": [
+      "Quasars",
+      "value redacted",
+      "only one company can do it",
+      "Transportation Security Administration"
+     ],
+     "text": "The <strong>Transportation Security Administration</strong> awarded the Online Learning Center help desk task order to incumbent <strong>Quasars</strong> on August 20, 2026, as a five-year sole-source contract. After an agency-level protest, the agency took corrective action and shortened the period so a competitive procurement can follow, while keeping the incumbent in place for continuity. The award came before the justification was posted.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/454768711ab4412582faa25b276c28b1/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3a94f1cac7614cc7a30f2390d1e8eb30/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy extends KPMG's financial-management data work, citing an 18-month delay if it switched vendors",
+     "meta": [
+      "KPMG",
+      "value redacted",
+      "skipped the competition among existing contract holders",
+      "Department of the Navy"
+     ],
+     "text": "The <strong>Department of the Navy</strong> plans to continue financial-management data transformation services, including a Rapid Response Team and the Navy Budget Orchestration System, with <strong>KPMG</strong>. The document says KPMG has been the Navy's primary vendor for this work since September 2018 and that changing vendors would delay audit remediation by an estimated 18 months.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/22d6a970a8964c4ba69a3c5c9b780c66/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/186bca266c9147849a24dbc8414a39eb/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of Commerce</strong> \u2014 network operations and integration services for the department's modernization effort; ANG Signal, the incumbent, called the only vendor with the needed knowledge; $8,226,672 over up to two years (<a href=\"https://sam.gov/workspace/contract/opp/42ae62bb33bd4b68a83cd14a782edd23/view\">REQUIREMENTS-26-1617</a>).",
+      "<strong>Department of the Navy</strong> \u2014 port and starboard repair on USS Gabrielle Giffords (LCS-10) after damage was found with the ship in drydock; Vigor Marine LLC; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/f0f20278b25f4e4fae6ca54cb5ddcaf9/view\">N00024-25-C-4409_A00039</a>).",
+      "<strong>U.S. Customs and Border Protection</strong> \u2014 six-month extension of facilities-support services with incumbent Constant Solutions, LLC, adding $1,173,086 and setting a formal $5,163,702.61 ceiling on an 8(a) contract (<a href=\"https://sam.gov/workspace/contract/opp/d94d03fd74c94aeb981cbcdd40c55168/view\">20157583</a>).",
+      "<strong>U.S. Immigration and Customs Enforcement</strong> \u2014 Hootsuite social media management and Talkwalker visual-recognition licenses for its public affairs office; brand-name only; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/87fa4242d7d34586a4e47988e2482a3a/view\">JA-26-0292</a>).",
+      "<strong>U.S. Immigration and Customs Enforcement</strong> \u2014 secure storage facility rental from the Town of Lancaster for the Buffalo field office; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/3223c4394cc34585a0ef2c2244b4db5b/view\">JA-26-0247</a>).",
+      "<strong>U.S. Immigration and Customs Enforcement</strong> \u2014 open solicitation for teleradiology services for detainees (<a href=\"https://sam.gov/workspace/contract/opp/c61889d45bfa47d5a496237f2860b991/view\">70CDCR26R00000016</a>).",
+      "<strong>U.S. Coast Guard</strong> \u2014 open solicitation for the Homeland Security Cutter \u2013 Light Icebreaker (<a href=\"https://sam.gov/workspace/contract/opp/b1424ad63ae2419f993e0734d1eff2e4/view\">70Z02326R93280004</a>).",
+      "<strong>U.S. Coast Guard</strong> \u2014 open solicitation for the third generation of its Response Boat\u2013Small (<a href=\"https://sam.gov/workspace/contract/opp/c4d26418ed8944a198acff3058824a04/view\">70Z02326R93250001</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Other sole-source justifications (routine parts, renewals, maintenance, small buys, and notices whose documents could not be read): <strong>Department of the Navy</strong> \u2014 5 (<a href=\"https://sam.gov/workspace/contract/opp/a82b39c3158d4794be208a6295573b59/view\">N0018926FB113</a>, <a href=\"https://sam.gov/workspace/contract/opp/752a5fd21d19435385c13959b6112e25/view\">N6247026C0011</a>, <a href=\"https://sam.gov/workspace/contract/opp/efcfbbad99e248bc8df42c8cb305d44f/view\">N6449826D0011JA</a>, <a href=\"https://sam.gov/workspace/contract/opp/18b98473cc9b46a58157a14f23660e70/view\">HQCA-2026-A-091</a>, <a href=\"https://sam.gov/workspace/contract/opp/13f81ff8450049fa8c37a6d49eb2c201/view\">M6785426C0085</a>); <strong>Department of Veterans Affairs</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/b4d1894401664160a4124f21863b166c/view\">36C26227D0001</a>, <a href=\"https://sam.gov/workspace/contract/opp/9afdd05983404b95bbaccc7228bc8859/view\">36C25927N0009</a>, <a href=\"https://sam.gov/workspace/contract/opp/6ec8951a79324ebab90feda563aa1f2d/view\">36C25926P0715</a>); <strong>Department of the Air Force</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/d06105127084424586759521ca3eccd6/view\">DB25001</a>, <a href=\"https://sam.gov/workspace/contract/opp/c5524713c3664d6a91296324a448f940/view\">FA282327P0006</a>); <strong>Transportation Security Administration</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/d4a7f3f800a44c2cae8795654389eab1/view\">JA2026011414</a>, <a href=\"https://sam.gov/workspace/contract/opp/1326458d4ee84a1e9ca2ac4e981d64ca/view\">JA-2026-01-1370</a>); <strong>U.S. Customs and Border Protection</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/1aa7be40b77a4b53a3a29a553ebd919f/view\">70B04C26F00001152</a>); <strong>Department of the Army</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/9362fd4586d34d4d81189b9f6e74abc9/view\">CEHNC-26-0035</a>); <strong>Department of State</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/7ed798d1100f4d1da71a6d9e81f7cfbc/view\">3007263760</a>); <strong>National Archives and Records Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/ea913b2b80bb4ada8c9bbc482964c057/view\">88310326F00140</a>); <strong>Federal Law Enforcement Training Centers</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/031ed3737db44d93ba3228c461ce4d61/view\">27NCR0001</a>); <strong>General Services Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/d63dbd59a9b64e21983b76a6fd7a9072/view\">6CA1318</a>); <strong>Defense Logistics Agency</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/3b7d8b73bec447dd8b9a96201b43f843/view\">7014488436</a>)."
+    },
+    {
+     "type": "note",
+     "text": "Solicitations not listed above: 828 of 831 new notices \u2014 119 flagged by the screen but not promoted and 709 routine. Routine and unpromoted counts by agency (routine only): Defense Logistics Agency, 454, Department of the Navy, 119, Department of Veterans Affairs, 43, Department of the Army, 29, all other agencies, 16, Department of the Interior, 13, Department of Agriculture, 12, Department of the Air Force, 9, National Aeronautics and Space Administration, 5, Department of Energy, 5, other Department of Defense components, 4. SAM.gov returned 1,000 of 1,052 solicitations, so a quota cut off the rest."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "Department of Veterans Affairs books $2.59 billion in three Optum managed-care awards, plus a $99.6 million Forest Service timber contract",
+   "paragraphs": [
+    "Twenty-eight new awards of $2 million or more appeared in the window; none was tied to the White House or the Executive Office of the President. The largest were three Optum awards on September 30, 2026, a Forest Service timber contract, and two Treasury metal-strip buys for the U.S. Mint."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Department of Veterans Affairs managed-care awards"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Optum Public Sector Solutions, Inc.</strong> received three awards from the <strong>Department of Veterans Affairs</strong> dated September 30, 2026, totaling $2,586,504,068.77: <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10G26K0298_3600_36C79119D0006_3600\">$1,085,804,852.71</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10G26K0297_3600_36C79119D0005_3600\">$770,881,595.07</a> and <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10G26K0296_3600_36C79119D0004_3600\">$729,817,620.99</a>. All are in the managed healthcare category and are labeled \"Express Report\" for the fourth quarter of fiscal 2026 (regions R1, R2 and R3, July), which suggests quarterly payment reports under existing contracts rather than newly competed work; the descriptions give no more detail."
+    },
+    {
+     "type": "subhead",
+     "text": "Other notable awards of $2 million or more"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Peachtree Lumber Company, Inc</strong> won a $99,575,262 <strong>Forest Service</strong> (Department of Agriculture) logging contract on October 6, 2026 for the Buck Helene fuels reduction project. The description says $87,804,491.92 is timber value applied, for a total contract value of $87,836,891.92, with performance running through September 13, 2028. The award amount is higher than the stated contract value, and the description does not explain the difference. <a href=\"https://www.usaspending.gov/award/CONT_AWD_12363N27C4000_12C2_-NONE-_-NONE-\">Award</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "The <strong>United States Mint</strong> (Department of the Treasury) placed two base-metal orders on October 6, 2026 for coinage blanks and freight: <strong>Wieland Rolled Products North America, LLC</strong> for $17,876,251.20 of copper-alloy strip (<a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F70148_2044_2031JG23D00001_2044\">award</a>) and <strong>PMX Industries, Inc.</strong> for $14,728,410 of coil (<a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F71130_2044_2031JG23D00002_2044\">award</a>), together about $32.6 million."
+    },
+    {
+     "type": "subhead",
+     "text": "Every other new award of $2 million or more"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>TriWest Healthcare Alliance Corp</strong> \u2014 $29,119,142.83, Department of Veterans Affairs: a quarterly \"express report\" payment for September 2026 under a healthcare contract (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10G26K0301_3600_36C10G21D0001_3600\">award</a>).",
+      "<strong>Standard Communications Inc</strong> \u2014 $10,998,537.79, Department of Veterans Affairs: replacing and upgrading the overhead paging system at a VA hospital (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25627C0004_3600_-NONE-_-NONE-\">award</a>).",
+      "<strong>Nakupuna Federal LLC</strong> \u2014 $7,487,183.60, Department of State: professional contract-support services (<a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM26F1347_1900_47QTCA26D003Q_4732\">award</a>).",
+      "<strong>Direct Energy Business LLC</strong> \u2014 $6,508,648.12, Department of Veterans Affairs: fiscal 2027 electricity for the VA Boston campuses (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24127F0017_3600_47PA0825D0027_4740\">award</a>).",
+      "<strong>Island Empire Technology Systems LLC</strong> \u2014 $5,250,566.49, National Archives and Records Administration: nationwide labor services for Federal Records Centers, through a General Services Administration task order (<a href=\"https://www.usaspending.gov/award/CONT_AWD_88310327F00004_8800_47QTCA24D006T_4732\">award</a>).",
+      "<strong>McCalls Grading & Construction Inc</strong> \u2014 $4,536,521, Department of Agriculture (Forest Service): road and recreation-site repairs in Pisgah National Forest (<a href=\"https://www.usaspending.gov/award/CONT_AWD_12445226F0035_12C2_12445224D0049_12C2\">award</a>).",
+      "<strong>Picis Clinical Solutions, Inc.</strong> \u2014 $3,802,655.62, Department of Veterans Affairs: sustainment of a clinical information software system (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10B27C0005_3600_-NONE-_-NONE-\">award</a>).",
+      "<strong>Guidehouse Inc.</strong> \u2014 $3,697,192.64, Department of the Treasury (Office of the Comptroller of the Currency): business process and technology support (<a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JW27F00006_2046_GS00F045DA_4732\">award</a>).",
+      "<strong>Potomac Electric Power Co</strong> \u2014 $3,504,000, Department of Transportation: electricity task order under the General Services Administration areawide utility contract, base year plus four option years (<a href=\"https://www.usaspending.gov/award/CONT_AWD_693JK426F55018N_6901_47PA0420D0064_4740\">award</a>).",
+      "<strong>Lockheed Martin Corporation</strong> \u2014 $3,300,003, National Aeronautics and Space Administration: fabricating nine units of a space-vehicle component, one built from spare parts of the VIPER lunar rover program (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80ARC027P0001_8000_-NONE-_-NONE-\">award</a>).",
+      "<strong>Insurance Auto Auctions, Inc.</strong> \u2014 $2,747,675 and $2,043,591, General Services Administration: two marshalling-services awards for handling vehicles at various locations (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47QMCA27F2JH8_4732_47QMCA25D001C_4732\">$2,747,675</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_47QMCA27F2JH9_4732_47QMCA25D001D_4732\">$2,043,591</a>) (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47QMCA27F2JH8_4732_47QMCA25D001C_4732\">award</a>).",
+      "<strong>Thundercat Technology, LLC</strong> \u2014 $2,666,000, Department of State: Dataminr, a real-time event-alert and social media monitoring service (<a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7215_1900_19AQMM25A1227_1900\">award</a>).",
+      "<strong>LeadsOnline, LLC</strong> \u2014 $2,362,844, Department of Justice (Bureau of Alcohol, Tobacco, Firearms and Explosives): refresh of the BrassTrax ballistic-evidence imaging system used with the National Integrated Ballistic Information Network (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15A00026FAQ000197_1560_15A00025DAQA00018_1560\">award</a>).",
+      "<strong>Nextera Energy Services Rhode Island LLC</strong> \u2014 $2,168,917.91, Department of Veterans Affairs: utility service (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24127F0003_3600_47PA0825D0031_4740\">award</a>).",
+      "<strong>Trans-Med Ambulance Inc.</strong> \u2014 $2,083,042, Department of Veterans Affairs: advanced and basic life support ambulance and wheelchair-van transport (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24427N0048_3600_36C24426D0013_3600\">award</a>).",
+      "<strong>Prime Physicians Tri Providers LLC</strong> \u2014 $2,076,048, Department of Veterans Affairs: four full-time primary care physicians for the St. Cloud VA medical center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C26327N0139_3600_36C10X24D0010_3600\">award</a>).",
+      "<strong>Incare, LLC</strong> \u2014 $2,061,852, Department of Veterans Affairs: paratransit transportation, option year one (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25027N0012_3600_36C25026D0033_3600\">award</a>).",
+      "<strong>Siemens Medical Solutions USA, Inc.</strong> \u2014 $2,032,926.25, Department of Veterans Affairs: preventive maintenance on medical imaging equipment (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C26227F0006_3600_SPE2D117D0023_9700\">award</a>).",
+      "<strong>Ignited LLC</strong> \u2014 $2,000,000, Department of Homeland Security (Transportation Security Administration): a REAL ID public-awareness campaign plan (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70T05026F7503N001_7013_70T05024A5500N001_7013\">award</a>).",
+      "<strong>International Organization for Migration</strong> \u2014 $0 (no new dollars obligated), Department of Homeland Security (U.S. Citizenship and Immigration Services): home-country support services to help beneficiaries of the \"Miss L\" settlement reunite with family (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70SBUR26P00000013_7003_-NONE-_-NONE-\">award</a>).",
+      "<strong>A-Team Solutions LLC</strong> \u2014 $0 (no new dollars obligated), Department of Veterans Affairs: pharmacist, pharmacy technician and shipper/packer staffing; the description cites Executive Order 14398 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C77027N0013_3600_36C77025D0003_3600\">award</a>)."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other notable awards under $2 million"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Zozude LLC</strong> \u2014 $600,000, National Aeronautics and Space Administration: \"designing solutions for NASA's Moon base,\" per the award description; the company is an LLC with little public track record (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80JSC027F0003_8000_80JSC025D0055_8000\">award</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Of 76 new awards under $2 million screened, 1 was flagged and listed and 75 were routine, 51 of them from the Department of Veterans Affairs. Four awards worth $1,763,652 cite Executive Order 14398 in their descriptions."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new flagged apportionments in this window; AmeriCorps spend plan revised",
+   "paragraphs": [
+    "No apportionment files matching keyword triggers for review were approved in the October 3\u20138 window. OMB did approve two routine bureau-level apportionments and revised the fiscal-year 2026 spend plan for AmeriCorps, which decreased significantly in size."
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "text": "<strong>Corporation for National and Community Service</strong> (operating as AmeriCorps) revised its FY 2026 Spend Plan (status marked as changed, though the PDF decreased from 652 KB to 92 KB). The revised spend plan allocates across AmeriCorps programs: <strong>VISTA</strong> at $103.3 million, <strong>AmeriCorps State and National</strong> at $557.1 million, <strong>National Senior Volunteer Corps</strong> at $236.9 million (including Foster Grandparents Program at $125.4 million and Senior Companion Program at $56.4 million), and <strong>National Civilian Community Corps</strong> at $37.7 million. The plan includes footnotes citing statutory authorities under the Domestic Volunteer Service Act. <a href=\"https://apportionment-public.max.gov/Spend%20Plans/FY%202026%20CNCS%20Spend%20Plan.pdf\">Spend Plan</a>."
+    },
+    {
+     "type": "note",
+     "text": "Routine apportionments (non-flagged): <strong>Department of Health and Human Services</strong>, 1; <strong>Other Independent Agencies</strong>, 1."
+    },
+    {
+     "type": "subhead",
+     "text": "Department of Health and Human Services"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Indian Health Service</strong> \u2014 Contract Support Costs, $1,819,175,578 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Health%20and%20Human%20Services/JSON/FY2027_Agency%3DHHS_Bureau%3DIHS_TAFS%3D075-2027-2027-0344_Iteration%3D1_2026-10-05-16.13.json\">Notice</a>."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other Independent Agencies"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Corporation for National and Community Service</strong> \u2014 Operating Expenses, $202,471,083 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Other%20Independent%20Agencies/JSON/FY2027_Agency%3DCNCS_Bureau%3DCNCS_TAFS%3D485-2027-2027-2728_Iteration%3D2_2026-10-05-16.04.json\">Notice</a>."
+     ]
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Lobbying \u00d7 Contracts",
+   "headline": "Companies that lobby Washington and just won federal money",
+   "paragraphs": [
+    "5 of 23 large new awardees checked are also registered federal lobbying clients, collectively landing $39,480,916 or more in new awards."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Triwest Healthcare Alliance Corp</strong>: a registered lobbying client in 2026, no quarterly spend reported yet; issues: Veterans; firms: THE ONEILL GROUP, LLC. <a href=\"https://lda.gov/filings/public/filing/4c2c0987-356f-42b0-a848-81c5e47d57a3/print/\">latest filing</a>. New awards: $29,119,143 from Department of Veterans Affairs (9/30/2026, Express report: september fy26 q4) <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10G26K0301_3600_36C10G21D0001_3600\">award</a>.",
+      "<strong>Lockheed Martin Corporation</strong>: $4,190,000 in lobbying reported so far in 2026 (2 quarters); issues: Defense, Budget/Appropriations, Taxation/Internal Revenue Code, Intelligence; firms: BALLARD SPAHR LLP, CAPITOL COUNSEL LLC, COZEN O'CONNOR PUBLIC STRATEGIES. <a href=\"https://lda.gov/filings/public/filing/dedc9bd7-5168-4cad-8973-aece07645b9f/print/\">latest filing</a>. New awards: $3,300,003 from National Aeronautics and Space Administration (10/6/2026, Fabricate nine units, with one of the nine nss units fabricated using viper nss spare parts. all units will be fabricated per the previous n) <a href=\"https://www.usaspending.gov/award/CONT_AWD_80ARC027P0001_8000_-NONE-_-NONE-\">award</a>.",
+      "<strong>Thundercat Technology, Llc</strong>: a registered lobbying client in 2026, no quarterly spend reported yet; issues: Computer Industry; firms: BALLARD PARTNERS. <a href=\"https://lda.gov/filings/public/filing/3c1944ac-d871-438f-a1f0-a295c0c9cfb5/print/\">latest filing</a>. New awards: $2,666,000 from Department of State (9/30/2026, Dataminr) <a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7215_1900_19AQMM25A1227_1900\">award</a>.",
+      "<strong>Leadsonline, Llc</strong>: $60,000 in lobbying reported so far in 2026 (2 quarters); issues: Budget/Appropriations, Law Enforcement/Crime/Criminal Justice; firms: BROOKS BAWDEN MOORE, LLC, FORMERLY REPORTED AS BROOKS BAWDEN, LLC. <a href=\"https://lda.gov/filings/public/filing/d84dd1ac-09ef-4006-9381-18fbaf21880f/print/\">latest filing</a>. New awards: $2,362,844 from Bureau of Alcohol, Tobacco, Firearms and Explosives Acquisition and Property Management Division (9/29/2026, Nibin - brasstrax refresh - fy26/27) <a href=\"https://www.usaspending.gov/award/CONT_AWD_15A00026FAQ000197_1560_15A00025DAQA00018_1560\">award</a>.",
+      "<strong>Siemens Medical Solutions Usa, Inc.</strong>: $1,560,000 in lobbying reported so far in 2026 (2 quarters); issues: Health Issues, Medicare/Medicaid, Trade (domestic/foreign), Tariff (miscellaneous tariff bills); firms: AVENUE SOLUTIONS, BRICK STREET STRATEGY, SIEMENS MEDICAL SOLUTIONS USA, INC. <a href=\"https://lda.gov/filings/public/filing/12e75bdc-39a5-417e-8549-cb7b712f69ae/print/\">latest filing</a>. New awards: $2,032,926 from Department of Veterans Affairs (10/1/2026, Siemens service pm) <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C26227F0006_3600_SPE2D117D0023_9700\">award</a>."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Awards of $1M+ from this edition's USAspending pull, matched by company name to Lobbying Disclosure Act clients for the current year. Spend is the largest report per quarter (a client with several firms may have spent more). Contractors lobbying under a parent or subsidiary name will not match."
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 5-8, 2026 (Pacific time), with a trailing sweep from September 13, 2026 for USAspending contract actions.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API; SAM.gov Get Opportunities Public API.",
+  "known_gaps": "SAM.gov returned 1,000 of 1,052 solicitations (quota). One batch of sole-source justification document extractions failed, so several justifications were judged from notice text only. Dollar figures in many justifications are redacted. No other errors reported."
+ },
+ "beat": []
+}

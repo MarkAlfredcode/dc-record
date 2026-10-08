@@ -7,12 +7,78 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "direct energy business": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "guidehouse": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "ignited": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "incare": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "insurance auto auctions": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "island empire technology systems": {
+    "checked": "2026-10-08",
+    "result": null
+  },
   "ist research": {
     "checked": "2026-10-05",
     "result": null
   },
+  "leadsonline": {
+    "checked": "2026-10-08",
+    "result": {
+      "client": "LEADSONLINE, LLC",
+      "firms": [
+        "BROOKS BAWDEN MOORE, LLC, FORMERLY REPORTED AS BROOKS BAWDEN, LLC"
+      ],
+      "issues": [
+        "Budget/Appropriations",
+        "Law Enforcement/Crime/Criminal Justice"
+      ],
+      "n_filings": 2,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/d84dd1ac-09ef-4006-9381-18fbaf21880f/print/",
+      "ytd": 60000.0
+    }
+  },
+  "lockheed martin": {
+    "checked": "2026-10-08",
+    "result": {
+      "client": "LOCKHEED MARTIN CORPORATION",
+      "firms": [
+        "BALLARD SPAHR LLP",
+        "CAPITOL COUNSEL LLC",
+        "COZEN O'CONNOR PUBLIC STRATEGIES"
+      ],
+      "issues": [
+        "Defense",
+        "Budget/Appropriations",
+        "Taxation/Internal Revenue Code",
+        "Intelligence"
+      ],
+      "n_filings": 25,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/dedc9bd7-5168-4cad-8973-aece07645b9f/print/",
+      "ytd": 4190000.0
+    }
+  },
   "mayvin": {
     "checked": "2026-10-05",
+    "result": null
+  },
+  "mccalls grading construction": {
+    "checked": "2026-10-08",
     "result": null
   },
   "messer construction": {
@@ -23,12 +89,109 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "nakupuna federal": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "nextera energy services rhode island": {
+    "checked": "2026-10-08",
+    "result": null
+  },
   "noblis": {
     "checked": "2026-10-05",
     "result": null
   },
+  "optum public sector solutions": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "peachtree lumber": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "picis clinical solutions": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "pmx industries": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "potomac electric power": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "prime physicians tri providers": {
+    "checked": "2026-10-08",
+    "result": null
+  },
   "raven services": {
     "checked": "2026-10-05",
+    "result": null
+  },
+  "siemens medical solutions usa": {
+    "checked": "2026-10-08",
+    "result": {
+      "client": "SIEMENS MEDICAL SOLUTIONS USA, INC",
+      "firms": [
+        "AVENUE SOLUTIONS",
+        "BRICK STREET STRATEGY",
+        "SIEMENS MEDICAL SOLUTIONS USA, INC"
+      ],
+      "issues": [
+        "Health Issues",
+        "Medicare/Medicaid",
+        "Trade (domestic/foreign)",
+        "Tariff (miscellaneous tariff bills)"
+      ],
+      "n_filings": 5,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/12e75bdc-39a5-417e-8549-cb7b712f69ae/print/",
+      "ytd": 1560000.0
+    }
+  },
+  "standard communications": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "thundercat technology": {
+    "checked": "2026-10-08",
+    "result": {
+      "client": "THUNDERCAT TECHNOLOGY LLC",
+      "firms": [
+        "BALLARD PARTNERS"
+      ],
+      "issues": [
+        "Computer Industry"
+      ],
+      "n_filings": 1,
+      "quarters": 0,
+      "url": "https://lda.gov/filings/public/filing/3c1944ac-d871-438f-a1f0-a295c0c9cfb5/print/",
+      "ytd": 0
+    }
+  },
+  "trans med ambulance": {
+    "checked": "2026-10-08",
+    "result": null
+  },
+  "triwest healthcare alliance": {
+    "checked": "2026-10-08",
+    "result": {
+      "client": "TRIWEST HEALTHCARE ALLIANCE CORP",
+      "firms": [
+        "THE ONEILL GROUP, LLC"
+      ],
+      "issues": [
+        "Veterans"
+      ],
+      "n_filings": 3,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/4c2c0987-356f-42b0-a848-81c5e47d57a3/print/",
+      "ytd": 0
+    }
+  },
+  "wieland rolled products north america": {
+    "checked": "2026-10-08",
     "result": null
   }
 }
