@@ -248,5 +248,45 @@
   "detail": "Purchase of International Business Machines Corporation Common Stock (IB ($1,001 - $15,000) within 30 days of 2 contract action(s) for INTERNATIONAL BUSINESS MACHINES CORPORATION, largest $130,434,206 from Social Security Administration",
   "url": "https://www.usaspending.gov/award/CONT_AWD_28321326FDS030164_2800_28321326D00060004_2800",
   "recorded": "2026-10-06"
+ },
+ {
+  "key": "oversight|https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf|Citigroup, Inc. Common Stock (C) [ST]|2026-09-24|Sale (partial)",
+  "kind": "oversight_trade",
+  "who": "Rep. Maria Elvira Salazar (FL-27)",
+  "company": "citigroup",
+  "date": "2026-09-24",
+  "detail": "Sale (partial) of Citigroup, Inc. Common Stock (C) [ST] ($1,001 - $15,000) in a sector overseen by House Committee on Financial Services",
+  "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf",
+  "recorded": "2026-10-08"
+ },
+ {
+  "key": "oversight|https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf|Goldman Sachs Group, Inc. (GS) [ST]|2026-09-24|Sale (partial)",
+  "kind": "oversight_trade",
+  "who": "Rep. Maria Elvira Salazar (FL-27)",
+  "company": "goldman sachs",
+  "date": "2026-09-24",
+  "detail": "Sale (partial) of Goldman Sachs Group, Inc. (GS) [ST] ($1,001 - $15,000) in a sector overseen by House Committee on Financial Services",
+  "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf",
+  "recorded": "2026-10-08"
+ },
+ {
+  "key": "trade_award|Rep. Maria Elvira Salazar (FL-27)|boeing|2026-09-24|Sale (partial)",
+  "kind": "trade_award",
+  "who": "Rep. Maria Elvira Salazar (FL-27)",
+  "company": "boeing",
+  "date": "2026-09-24",
+  "detail": "Sale (partial) of Boeing Company (BA) [ST] ($1,001 - $15,000) within 30 days of 2 contract action(s) for THE BOEING COMPANY, largest $210,564,974 from National Aeronautics and Space Administration",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_NAS1510000_8000_-NONE-_-NONE-",
+  "recorded": "2026-10-08"
+ },
+ {
+  "key": "trade_award|Rep. Maria Elvira Salazar (FL-27)|international business machines|2026-09-04|Sale",
+  "kind": "trade_award",
+  "who": "Rep. Maria Elvira Salazar (FL-27)",
+  "company": "international business machines",
+  "date": "2026-09-04",
+  "detail": "Sale of International Business Machines Corporation Common Stock (IB ($1,001 - $15,000) within 30 days of 3 contract action(s) for INTERNATIONAL BUSINESS MACHINES CORPORATION, largest $130,434,206 from Social Security Administration",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_28321326FDS030164_2800_28321326D00060004_2800",
+  "recorded": "2026-10-08"
  }
 ]
