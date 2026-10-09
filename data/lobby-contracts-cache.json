@@ -1,4 +1,20 @@
 {
+  "atlantic diving supply": {
+    "checked": "2026-10-09",
+    "result": {
+      "client": "ATLANTIC DIVING SUPPLY, INC. (ADS)",
+      "firms": [
+        "CROSSROADS STRATEGIES, LLC"
+      ],
+      "issues": [
+        "Defense"
+      ],
+      "n_filings": 2,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/32407034-d1d8-416e-a888-58673ff0339a/print/",
+      "ytd": 100000.0
+    }
+  },
   "avani services": {
     "checked": "2026-10-05",
     "result": null
@@ -11,16 +27,36 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "bozdemir construction": {
+    "checked": "2026-10-09",
+    "result": null
+  },
   "censeo consulting group": {
     "checked": "2026-10-05",
+    "result": null
+  },
+  "chakrabarti management consultancy": {
+    "checked": "2026-10-09",
+    "result": null
+  },
+  "crane": {
+    "checked": "2026-10-09",
     "result": null
   },
   "direct energy business": {
     "checked": "2026-10-08",
     "result": null
   },
+  "fruta royal": {
+    "checked": "2026-10-09",
+    "result": null
+  },
   "guidehouse": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "hamline construction": {
+    "checked": "2026-10-09",
     "result": null
   },
   "id me": {
@@ -63,6 +99,28 @@
   "ist research": {
     "checked": "2026-10-05",
     "result": null
+  },
+  "j g m property group": {
+    "checked": "2026-10-09",
+    "result": null
+  },
+  "johns hopkins university applied physics laboratory": {
+    "checked": "2026-10-09",
+    "result": {
+      "client": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "firms": [
+        "ACTUM I, LLC"
+      ],
+      "issues": [
+        "Defense",
+        "Budget/Appropriations",
+        "Science/Technology"
+      ],
+      "n_filings": 2,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/59339f2c-90c5-4bf7-8a53-d28fe28b533c/print/",
+      "ytd": 200000.0
+    }
   },
   "leadsonline": {
     "checked": "2026-10-08",
@@ -158,6 +216,10 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "sea pac engineering": {
+    "checked": "2026-10-09",
+    "result": null
+  },
   "siemens medical solutions usa": {
     "checked": "2026-10-08",
     "result": {
@@ -218,6 +280,10 @@
       "url": "https://lda.gov/filings/public/filing/4c2c0987-356f-42b0-a848-81c5e47d57a3/print/",
       "ytd": 0
     }
+  },
+  "vetmed group": {
+    "checked": "2026-10-09",
+    "result": null
   },
   "wieland rolled products north america": {
     "checked": "2026-10-08",
