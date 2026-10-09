@@ -1,0 +1,306 @@
+{
+ "date": "Friday, October 9, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Immigration agency signs sole-source follow-on for court-ordered family reunification after prior contract expired",
+  "dek": "Also today: an Army armed-guard order in Iraq posted weeks after work began, and a protest-frozen Fort Carson extension.",
+  "paragraphs": [
+   "The <strong>U.S. Citizenship and Immigration Services</strong> posted a justification for a sole-source follow-on with the <strong>International Organization for Migration</strong> to support families reunited under the <em>Miss L. v. Immigration and Customs Enforcement</em> settlement. The previous contract, awarded sole-source in August 2021, ran through September 12, 2026. The value is redacted.",
+   "The agency says a lapse would violate the court order and that a 120-day procurement timeline left too little time to compete. The document says responsibility moved from <strong>U.S. Immigration and Customs Enforcement</strong> after a late-fiscal-2025 decision by the Secretary of Homeland Security, with the transfer settled in April 2026.",
+   "Separately, the <strong>Department of the Army</strong> issued a notice to proceed on September 10 to <strong>GardaWorld Federal Services</strong> for armed guards near Erbil, Iraq, and posted its justification October 8. The <strong>Department of the Army</strong> also extended base operations at Fort Carson for 60 days with <strong>T&H Services LLC</strong> while a <strong>Government Accountability Office</strong> protest holds up the successor contract."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Family reunification justification",
+     "url": "https://sam.gov/workspace/contract/opp/89923a42836b48e88eebf4a8445887c9/view"
+    },
+    {
+     "text": "Erbil armed guards justification",
+     "url": "https://sam.gov/workspace/contract/opp/7a047e0a2c164e198e383cc91e614339/view"
+    },
+    {
+     "text": "Fort Carson extension",
+     "url": "https://sam.gov/workspace/contract/opp/0857c87c797941aaac9c05e6f7cc81cf/view"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Federal Contracting Actions (SAM.gov)",
+   "headline": "Immigration contractor's court-ordered family reunification work continues through a sole-source follow-on after the prior contract ran out",
+   "paragraphs": [
+    "25 new sole-source justifications and 603 new solicitations were posted October 8-9; 184 notices already covered in earlier editions are not repeated (7 justifications, 177 solicitations). Two of the eight document-extraction batches failed, so 13 justifications below are judged from titles only."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Must read"
+    },
+    {
+     "type": "card",
+     "title": "Immigration agency keeps a sole-source contractor for court-ordered family reunification services",
+     "meta": [
+      "International Organization for Migration",
+      "value redacted",
+      "urgent need, no time to compete (document cites 41 U.S.C. 1901)",
+      "U.S. Citizenship and Immigration Services"
+     ],
+     "text": "The follow-on covers help for families reunited under the <em>Miss L. v. Immigration and Customs Enforcement</em> settlement: parole and work-permit applications, travel booking, pre-departure briefings and a help desk. The prior contract, awarded sole-source in August 2021, ran through September 12, 2026; the agency says a lapse would violate the court order and that a 120-day procurement timeline left too little time to compete. The document says administration moved from <strong>U.S. Immigration and Customs Enforcement</strong> to <strong>U.S. Citizenship and Immigration Services</strong> after a late-fiscal-2025 decision by the Secretary of Homeland Security, with the transfer settled in April 2026.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/89923a42836b48e88eebf4a8445887c9/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6bb52e66417c4779849d403e131db347/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army orders armed guards for Erbil, Iraq, from GardaWorld and posts the justification weeks after work began",
+     "meta": [
+      "GardaWorld Federal Services",
+      "value redacted",
+      "urgent need, skipped competition among existing contract holders",
+      "Department of the Army, Army Contracting Command\u2013Rock Island"
+     ],
+     "text": "The order covers armed guard services near Erbil International Airport for U.S. Army Central and the Combined Joint Task Force for Operation Inherent Resolve. The document says the Army issued a notice to proceed on September 10, 2026 and awarded an undefinitized task order under an existing contract, then posted the justification October 8. It says the need left about 20 days to mobilize armed personnel and that GardaWorld was the most immediately executable option.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/7a047e0a2c164e198e383cc91e614339/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9ab143bdd0cd4d7887435b116b7b465d/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Fort Carson base operations extended 60 days with the incumbent while a protest freezes the successor contract",
+     "meta": [
+      "T&H Services LLC",
+      "value redacted",
+      "only one company can do it",
+      "Department of the Army, Mission and Installation Contracting Command\u2013Fort Carson"
+     ],
+     "text": "The extension keeps base operations and maintenance running at Fort Carson. The document says a formal <strong>Government Accountability Office</strong> protest (B-424583) against the successor contract led to a stop-work order on June 15, 2026, and calls the incumbent the only responsible source able to sustain operations during the transition.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/0857c87c797941aaac9c05e6f7cc81cf/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/354367448a8c46fea26d8bdb4b935c04/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "NASA gives its longtime collision-avoidance contractor a $47.5 million sole-source award",
+     "meta": [
+      "Omitron, Inc.",
+      "$47,453,711 estimated",
+      "only one company can do it",
+      "National Aeronautics and Space Administration, Goddard Space Flight Center"
+     ],
+     "text": "The award covers orbital safety analysis for conjunction assessment and collision avoidance on NASA missions. The agency says <strong>Omitron, Inc.</strong> developed the legacy Astrodynamics Support Workstation software and has provided this service since the 1980s, leaving no other source with the specialized expertise.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/4f57d85b34a740a4934f8c4627423464/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a45cfa9ea70b433ab4665e9e89609807/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Homeland Security buys fingerprint-matching software support for its biometric databases from the only vendor with the code",
+     "meta": [
+      "Thales DIS USA, Inc.",
+      "value redacted",
+      "only one company can do it",
+      "Department of Homeland Security, Office of Procurement Operations"
+     ],
+     "text": "The purchase covers licensing, maintenance and sustainment of fingerprint matching software and hardware for the department's IDENT and HART biometric systems. The justification says the systems are built on proprietary Thales technology whose source code and interfaces are not available to the government or third parties.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/3b31d4b8ad124ba68df67968995aa8d9/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/72f008fe68904e75aaf2ed22d729ee0a/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Washington Headquarters Services</strong> \u2014 short bridge contract (two-month base plus four one-month options) for Department of Defense ManTech program support; vendor PM2 Strategies; value redacted; the agency cites a possible 30-day service lapse while a competitive follow-on is awarded (<a href=\"https://sam.gov/workspace/contract/opp/3c544a90e43b4c44bb8b7deefcbac336/view\">HQ003426PE158</a>).",
+      "<strong>Space Development Agency</strong> \u2014 KG-142 Ethernet encryptor modification; vendor Viasat, Inc., the sole designer with exclusive proprietary rights; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/cfab29e6fa934666b41e78871e59b150/view\">SDA-SN-27-0001</a>).",
+      "<strong>U.S. Immigration and Customs Enforcement</strong> \u2014 one-year brand-name renewal of enterprise software maintenance for agency mission systems; vendor name redacted; the justification cites an executive order (<a href=\"https://sam.gov/workspace/contract/opp/3f39b39c6a934ca1b5d6edcb49e212a2/view\">JA260229</a>).",
+      "<strong>U.S. Immigration and Customs Enforcement, Mission Support Washington</strong> \u2014 justification for Potomac Center South parking; document not extracted, so vendor and value are unknown (<a href=\"https://sam.gov/workspace/contract/opp/ef05f430e2444640a707554aa0a9833c/view\">JA-26-0192</a>).",
+      "<strong>Department of Veterans Affairs</strong> \u2014 solicitation for a television system digital conversion at the Washington, D.C. VA Medical Center (36C24527Q0029; Network Contract Office 5)",
+      "<strong>U.S. Coast Guard</strong> \u2014 solicitation for governor overhaul and cylinder head replacement on main diesel engines 1 and 3 of the icebreaker Healy (<a href=\"https://sam.gov/workspace/contract/opp/11d600b9a16f4303a1fb991ad57134b2/view\">70Z08527QLRE0004</a>).",
+      "<strong>Defense Information Systems Agency</strong> \u2014 solicitation for a 100-megabit Ethernet circuit from Pennsylvania to Egypt (<a href=\"https://sam.gov/workspace/contract/opp/f207d47554ea434b8d1071fddd710d7e/view\">HC101327QA001</a>).",
+      "<strong>Department of the Navy, Naval Air Systems Command</strong> \u2014 presolicitation for F/A-18E/F and EA-18G Advanced Cockpit System engineering change proposal requirements refinements (<a href=\"https://sam.gov/workspace/contract/opp/d473f110352b4cc7a741d715d8a3ce45/view\">N00019-26-NORFP-TPM265-0523</a>).",
+      "<strong>Naval Facilities Engineering Systems Command Mid-Atlantic</strong> \u2014 solicitation for a Next Generation Torpedo Integration Lab at Naval Station Newport, Rhode Island (<a href=\"https://sam.gov/workspace/contract/opp/872dc29fa6ca4698bd31ca57332413a4/view\">N4008526R0178</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Other sole-source justifications (routine parts, renewals, maintenance, or not extracted): <strong>Defense Logistics Agency</strong> \u2014 4 (<a href=\"https://sam.gov/workspace/contract/opp/ef24d7a2bd52409fbc8e06b343af093a/view\">SPE8ED26Q0576</a>, <a href=\"https://sam.gov/workspace/contract/opp/3ad734f311ff40278eb6981912a697df/view\">SPE7MX25R0005</a>, <a href=\"https://sam.gov/workspace/contract/opp/1187d0c6cf174865ad5e67c707ff792a/view\">SPE60126P1506</a>, <a href=\"https://sam.gov/workspace/contract/opp/e35077eb9cbd4fe088881597ebbc02bd/view\">SPRTA126R0254_Redacted_JA</a>); <strong>Department of the Army</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/10d0adcbe40a42e48078597c42d1d485/view\">W912BU26RADERP</a>, <a href=\"https://sam.gov/workspace/contract/opp/06db1585f85e4fbd9c0297da2656fe92/view\">JA-26-RockIsland-EIS-0454</a>); <strong>Internal Revenue Service</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/1bde592dd03d4be397446ceacbcf3365/view\">2032H8-27-C-00001</a>, <a href=\"https://sam.gov/workspace/contract/opp/815449b5fed440d8b85d03255b1aedb1/view\">2032H8-27-F-00001</a>); <strong>General Services Administration</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/e93f5dc170ca48da8f12076b08d2df29/view\">0MD2322</a>, <a href=\"https://sam.gov/workspace/contract/opp/51cfe8792f994c3797f3daae3bf54ae5/view\">47QACA26F0494_</a>); <strong>Washington Headquarters Services</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/fdab436a0fc2461f97048c28f55e96b7/view\">WHS-26-R-DCFO-RMF</a>); <strong>Department of State</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/7357974904ff4ec6b97c346c23cc5f5d/view\">19AJ2026P0285</a>); <strong>Federal Bureau of Prisons</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/f3c362c534a547038bac36c73bbdb2af/view\">15B10727P00000001</a>); <strong>Naval Surface Warfare Center Crane</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/3658cc5df17d4c33b07973435e9beaf4/view\">CR25390</a>); <strong>Department of the Air Force</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/24843b2725774d8faa5e5874669f6182/view\">FA251725F0154P00001</a>); <strong>National Aeronautics and Space Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/a66e5b1f22a14a89a6f642b898b05b8a/view\">80HQTR26C0010</a>)."
+    },
+    {
+     "type": "note",
+     "text": "Solicitations not listed: 598 of the 603 new solicitations, including 496 screened as routine (mostly Defense Logistics Agency and Navy spare parts and repairs) and about 100 flagged as notable that were judged not to stand out, among them many Navy ship and aircraft parts repairs and Department of Veterans Affairs facility work. 17 amendments to solicitations listed earlier were also left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "$900 million Department of Veterans Affairs award to TriWest Healthcare Alliance leads 18 new awards of $2 million or more",
+   "paragraphs": [
+    "The 25-day sweep found 19 new first-time awards, 18 of them $2 million or more. None were tied to the White House or Executive Office of the President."
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "text": "<strong>TriWest Healthcare Alliance Corp</strong> received a $900,485,187 order from the <strong>Department of Veterans Affairs</strong> on October 7. It is classified as government health insurance programs, and the only description on file is \"EXPRESS REPORT: FY26 SEPTEMBER,\" so the record does not say what services it covers. <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10G27K0004_3600_36C10G19D0038_3600\">Award</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Atlantic Diving Supply, Inc.</strong> won two call orders from the <strong>Department of State</strong>, $12,045,581 (September 16) and $4,514,119 (September 18), under a blanket purchase agreement. The descriptions say only that the orders follow an attached spreadsheet and are classified as miscellaneous professional support, so the items bought are not stated. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7216_1900_19AQMM23A0106_1900\">$12,045,581</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7217_1900_19AQMM23A0106_1900\">$4,514,119</a>)."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>J G M Property Group, Inc.</strong> received $11,501,529 from the <strong>Department of Housing and Urban Development</strong> on September 30 for field service management in areas 1P and 4P, classified as maintenance of residential buildings. <a href=\"https://www.usaspending.gov/award/CONT_AWD_86614526F00016_8600_86614524D00002_8600\">Award</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Crane & Co., Inc.</strong> got two October 7 orders from the <strong>Bureau of Engraving and Printing</strong> for December 2026 currency paper deliveries: $10,479,176 for one fund and $8,769,414 for another, about $19.2 million combined. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_2031ZA27F00007_2041_2031ZA26D00001_2041\">$10,479,176</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031ZA27F00008_2041_2031ZA26D00001_2041\">$8,769,414</a>)."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>ID.me, LLC</strong> received an $8,000,000 call order from the <strong>General Services Administration</strong> on September 28 for identity-verification software as a service; the description references HHS CMS, which appears to point to a Department of Health and Human Services customer. <a href=\"https://www.usaspending.gov/award/CONT_AWD_47QACA26F0485_4732_47QACA26A0037_4732\">Award</a>."
+    },
+    {
+     "type": "subhead",
+     "text": "Other new awards"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Barque Consulting, LLC</strong> \u2014 $5,941,640, Department of Veterans Affairs: campus-wide fire alarm upgrade in Waco (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25727C0004_3600_-NONE-_-NONE-\">award</a>).",
+      "<strong>The Johns Hopkins University Applied Physics Laboratory LLC</strong> \u2014 $4,893,039, Federal Emergency Management Agency: exercises option period 3 of a research contract migrated from an earlier system (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70FA9026C00000002_7022_-NONE-_-NONE-\">award</a>).",
+      "<strong>Chakrabarti Management Consultancy, Inc.</strong> \u2014 $4,879,597, Federal Emergency Management Agency: cloud software engineering and application support for the Department of Homeland Security (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70FA9026F00000010_7022_47QTCA20D0094_4732\">award</a>).",
+      "<strong>VetMed Group LLC</strong> \u2014 $4,420,197, Department of Veterans Affairs: emergent teleradiology services (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24727P0018_3600_-NONE-_-NONE-\">award</a>).",
+      "<strong>Birmingham Industrial Construction, LLC</strong> \u2014 $4,402,363, Department of Veterans Affairs: electronic health record data center upgrades in Charleston, South Carolina; the description cites Executive Order 14398 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C77627C0014_3600_-NONE-_-NONE-\">award</a>).",
+      "<strong>Fruta Royal, LLC</strong> \u2014 $6,777,492 across two orders, Agricultural Marketing Service: fresh mandarin tangerines for federal food donations (<a href=\"https://www.usaspending.gov/award/CONT_AWD_123J1426C2030_12K2_-NONE-_-NONE-\">$3,811,140</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_123J1426C2031_12K2_-NONE-_-NONE-\">$2,966,352</a>).",
+      "<strong>Hamline Construction Inc</strong> \u2014 $3,163,938, General Services Administration: variable air volume box replacement at the Diana E. Murphy Courthouse in Minneapolis (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PD5327F0004_4740_47PF0024D0044_4740\">award</a>).",
+      "<strong>Bozdemir Construction LLC</strong> \u2014 $2,599,809, and <strong>Sea Pac Engineering Inc</strong> \u2014 $2,356,980, both Department of State: an HVAC system and a parking restoration (<a href=\"https://www.usaspending.gov/award/CONT_AWD_19GE5026F0518_1900_19GE5024D0045_1900\">Bozdemir</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_19GE5026C0102_1900_-NONE-_-NONE-\">Sea Pac</a>).",
+      "<strong>Prime Physicians Tri Providers LLC</strong> \u2014 $2,187,744, Indian Health Service: general surgery services for Gallup Indian Medical Center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_75H71027F26001_7527_75H71125D00003_7527\">award</a>).",
+      "<strong>Chenega Global Protection, LLC</strong> \u2014 $299,905, National Aeronautics and Space Administration: aircraft rescue and firefighting, option B (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80ARC026FA051_8000_80KSC022DA002_8000\">award</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "The under-$2 million screen could not run because api.usaspending.gov was unreachable for that pass, so awards below $2 million were not reviewed today (one such award, Chenega Global Protection, surfaced in the main sweep and is listed above)."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "OMB Conditions $2.9 Billion CBP Apportionment on Hiring Plan Revisions",
+   "paragraphs": [
+    "The <strong>Office of Management and Budget</strong> approved $2.9 billion in apportionments to the <strong>Department of Homeland Security</strong> for <strong>U.S. Customs and Border Protection</strong> personnel and retention bonuses, but with a significant condition: <strong>OMB</strong> is withholding full approval until the agency finalizes a revised CBP hiring plan that relies on existing funding sources to the greatest extent possible. This represents an oversight hold\u2014a mechanism <strong>OMB</strong> uses to request additional information on programmatic spending before releasing funds."
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "text": "<strong>U.S. Customs and Border Protection</strong> received $2.3 billion for personnel (line 6032) and $576 million for retention, hiring, and performance bonuses (line 6033), both under <strong>Public Law 119-21</strong> appropriations for fiscal 2027. The footnote on both line items states: \"<strong>OMB</strong> requests additional information on programmatic spending for some or all of the apportioned funds.\" According to the apportionment documents, <strong>DHS</strong> will work closely with <strong>OMB</strong> to finalize the hiring plan using existing sources where possible. <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Homeland%20Security/JSON/FY2027_Agency%3DDHS_Bureau%3DCBP_TAFS%3D070-2025-2029-0530_Iteration%3D1_2026-10-06-16.03.json\">Apportionment</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "The <strong>Corporation for National and Community Service</strong> (operating as <strong>AmeriCorps</strong>) submitted an updated fiscal 2026 spend plan significantly larger than its prior version\u2014652 kilobytes versus 93 kilobytes\u2014indicating material revisions to program allocations. The plan allocates $103.3 million to <strong>Volunteers in Service to America</strong>, $236.9 million to the <strong>National Senior Volunteer Corps</strong>, $557.1 million to <strong>AmeriCorps</strong> State and National operations, and $37.7 million to the <strong>National Civilian Community Corps</strong>, totaling $975.5 million in operating expenses. While we cannot see a line-by-line diff of what changed from the prior version, the size increase indicates substantial revisions to budget detail or program structure. <a href=\"https://apportionment-public.max.gov/Spend%20Plans/FY%202026%20CNCS%20Spend%20Plan.pdf\">Spend Plan</a>."
+    },
+    {
+     "type": "subhead",
+     "text": "Department of Defense--Military Programs"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Procurement</strong> \u2014 Defense Strategic Capital Credit Loan Financing Account, $1,656,776,119 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20War/JSON/FY2027_Agency%3DDOD_Bureau%3DPROCURE_TAFS%3D097-X-4450_Iteration%3D2_2026-10-06-10.50.json\">Notice</a>."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "International Assistance Programs"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Inter-American Foundation</strong> \u2014 Inter-American Foundation, $5,721,700 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/International%20Assistance%20Programs/JSON/FY2027_Agency%3DIAP_Bureau%3DIAF_TAFS%3D164-2027-2028-3100_Iteration%3D1_2026-10-06-16.04.json\">Notice</a>.",
+      "<strong>Military Sales Program</strong> \u2014 Special Defense Acquisition Fund, $789,400,000 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/International%20Assistance%20Programs/JSON/FY2027_Agency%3DIAP_Bureau%3DMILSALES_TAFS%3D097-011-2026-2028-4116_Iteration%3D1_2026-10-06-16.04.json\">Notice</a>."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other Independent Agencies"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>United States Institute of Peace</strong> \u2014 United States Institute of Peace, $3,946,000 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Other%20Independent%20Agencies/JSON/FY2027_Agency%3DUSIP_Bureau%3DUSIP_TAFS%3D458-2027-2028-1300_Iteration%3D1_2026-10-06-16.04.json\">Notice</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Lobbying \u00d7 Contracts",
+   "headline": "Companies that lobby Washington and just won federal money",
+   "paragraphs": [
+    "2 of 15 large new awardees checked are also registered federal lobbying clients, collectively landing $908,485,187 or more in new awards."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Triwest Healthcare Alliance Corp</strong>: a registered lobbying client in 2026, no quarterly spend reported yet; issues: Veterans; firms: THE ONEILL GROUP, LLC. <a href=\"https://lda.gov/filings/public/filing/4c2c0987-356f-42b0-a848-81c5e47d57a3/print/\">latest filing</a>. New awards: $900,485,187 from Department of Veterans Affairs (10/7/2026, Express report: fy26 september) <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10G27K0004_3600_36C10G19D0038_3600\">award</a>.",
+      "<strong>Id.Me, Llc</strong>: $520,000 in lobbying reported so far in 2026 (2 quarters); issues: Government Issues, Science/Technology, Consumer Issues/Safety/Products, Veterans; firms: CORNERSTONE GOVERNMENT AFFAIRS, INC., ID.ME, LLC, MILLER STRATEGIES, LLC. <a href=\"https://lda.gov/filings/public/filing/d234e961-7eac-44ee-9256-b88321cb65c3/print/\">latest filing</a>. New awards: $8,000,000 from Federal Acquisition Service (9/28/2026, Bpa call order hhscms 8m idme identity services csp clin 0001) <a href=\"https://www.usaspending.gov/award/CONT_AWD_47QACA26F0485_4732_47QACA26A0037_4732\">award</a>."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Awards of $1M+ from this edition's USAspending pull, matched by company name to Lobbying Disclosure Act clients for the current year. Spend is the largest report per quarter (a client with several firms may have spent more). Contractors lobbying under a parent or subsidiary name will not match. Partial run: ATLANTIC DIVING SUPPLY, INC.: lda.gov HTTP 503 | J G M PROPERTY GROUP, INC.: lda.gov HTTP 503"
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 8-9, 2026 (Pacific time) for SAM.gov, with a 25-day trailing sweep for USAspending contract actions and the latest OMB apportionment postings.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API; SAM.gov Get Opportunities Public API.",
+  "known_gaps": "The under-$2 million USAspending screen did not run (api.usaspending.gov unreachable for that pass). Two of eight SAM.gov justification-extraction batches failed (JSON parse errors), so 13 justifications were judged from titles only."
+ },
+ "beat": []
+}

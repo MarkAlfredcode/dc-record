@@ -3,6 +3,14 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "barque consulting": {
+    "checked": "2026-10-09",
+    "result": null
+  },
+  "birmingham industrial construction": {
+    "checked": "2026-10-09",
+    "result": null
+  },
   "censeo consulting group": {
     "checked": "2026-10-05",
     "result": null
@@ -14,6 +22,27 @@
   "guidehouse": {
     "checked": "2026-10-08",
     "result": null
+  },
+  "id me": {
+    "checked": "2026-10-09",
+    "result": {
+      "client": "ID.ME, LLC",
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "ID.ME, LLC",
+        "MILLER STRATEGIES, LLC"
+      ],
+      "issues": [
+        "Government Issues",
+        "Science/Technology",
+        "Consumer Issues/Safety/Products",
+        "Veterans"
+      ],
+      "n_filings": 6,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/d234e961-7eac-44ee-9256-b88321cb65c3/print/",
+      "ytd": 520000.0
+    }
   },
   "ignited": {
     "checked": "2026-10-08",
