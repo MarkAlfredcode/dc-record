@@ -7,6 +7,22 @@
   "party": "W",
   "state": "CA"
  },
+ "H0CA33216": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "LIEW, SARAH SUN DR.",
+  "office": "H",
+  "party": "REP",
+  "state": "CA"
+ },
+ "H0CA48024": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "ISSA, DARRELL",
+  "office": "H",
+  "party": "REP",
+  "state": "CA"
+ },
  "H0CO01136": {
   "checked": "2026-09-12",
   "incumbent_challenge_full": "Challenger",
@@ -23,6 +39,14 @@
   "party": "REP",
   "state": "FL"
  },
+ "H0FL17068": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "WILSON, FREDERICA S.",
+  "office": "H",
+  "party": "DEM",
+  "state": "FL"
+ },
  "H0FL17118": {
   "checked": "2026-09-09",
   "incumbent_challenge_full": "Challenger",
@@ -31,6 +55,14 @@
   "party": "DEM",
   "state": "FL"
  },
+ "H0IL15129": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "MILLER, MARY",
+  "office": "H",
+  "party": "REP",
+  "state": "IL"
+ },
  "H0IN05326": {
   "checked": "2026-09-11",
   "incumbent_challenge_full": "Incumbent",
@@ -38,6 +70,14 @@
   "office": "H",
   "party": "REP",
   "state": "IN"
+ },
+ "H0LA01087": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "SCALISE, STEVE MR",
+  "office": "H",
+  "party": "REP",
+  "state": "LA"
  },
  "H0MI02094": {
   "checked": "2026-09-18",
@@ -71,6 +111,14 @@
   "party": "REP",
   "state": "OK"
  },
+ "H0OR04107": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "SKARLATOS, ALEK",
+  "office": "H",
+  "party": "REP",
+  "state": "OR"
+ },
  "H0TX30073": {
   "checked": "2026-09-30",
   "incumbent_challenge_full": "Open seat",
@@ -95,6 +143,22 @@
   "party": "REPUBLICAN PARTY",
   "state": "WI"
  },
+ "H2CA13115": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "GRAY, ADAM C.",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
+ "H2CA15094": {
+  "checked": "2026-10-09",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "SWALWELL, ERIC MICHAEL",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
  "H2CA39086": {
   "checked": "2026-09-23",
   "incumbent_challenge_full": "Challenger",
@@ -103,6 +167,22 @@
   "party": "DEM",
   "state": "CA"
  },
+ "H2CO03211": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "DONOVAN, KERRY",
+  "office": "H",
+  "party": "DEM",
+  "state": "CO"
+ },
+ "H2CT05131": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "ESTY, ELIZABETH",
+  "office": "H",
+  "party": "DEM",
+  "state": "CT"
+ },
  "H2FL13220": {
   "checked": "2026-09-09",
   "incumbent_challenge_full": "Open seat",
@@ -110,6 +190,30 @@
   "office": "H",
   "party": "DEM",
   "state": "FL"
+ },
+ "H2FL24052": {
+  "checked": "2026-10-01",
+  "incumbent_challenge_full": "Open seat",
+  "name": "GONZALEZ, PATRICIA",
+  "office": "H",
+  "party": "REP",
+  "state": "FL"
+ },
+ "H2GA13012": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "SCOTT, DAVID ALBERT",
+  "office": "H",
+  "party": "DEM",
+  "state": "GA"
+ },
+ "H2GU01031": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "MOYLAN, JAMES C.",
+  "office": "H",
+  "party": "REP",
+  "state": "GU"
  },
  "H2IL02172": {
   "checked": "2026-09-18",
@@ -127,6 +231,14 @@
   "party": "DEM",
   "state": "IL"
  },
+ "H2LA02149": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "CARTER, TROY A. SR.",
+  "office": "H",
+  "party": "DEM",
+  "state": "LA"
+ },
  "H2LA05126": {
   "checked": "2026-09-18",
   "incumbent_challenge_full": "Incumbent",
@@ -136,12 +248,12 @@
   "state": "LA"
  },
  "H2MA09072": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Incumbent",
   "name": "LYNCH, STEPHEN",
   "office": "H",
-  "state": "MA",
   "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-02"
+  "state": "MA"
  },
  "H2MI07123": {
   "checked": "2026-09-17",
@@ -150,6 +262,38 @@
   "office": "H",
   "party": "REPUBLICAN PARTY",
   "state": "MI"
+ },
+ "H2MI11240": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "ESSHAKI, ERIC",
+  "office": "H",
+  "party": "REP",
+  "state": "MI"
+ },
+ "H2MI13311": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "ELLIOTT, STEVEN",
+  "office": "H",
+  "party": "REP",
+  "state": "MI"
+ },
+ "H2MI14111": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "LAWRENCE, BRENDA LULENAR",
+  "office": "H",
+  "party": "DEM",
+  "state": "MI"
+ },
+ "H2MO02193": {
+  "checked": "2026-10-05",
+  "incumbent_challenge_full": "Challenger",
+  "name": "SAMUELS, E. BENJAMIN",
+  "office": "H",
+  "party": "DEM",
+  "state": "MO"
  },
  "H2MT01060": {
   "checked": "2026-09-16",
@@ -182,6 +326,14 @@
   "office": "H",
   "party": "REP",
   "state": "NC"
+ },
+ "H2NJ06210": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "MELE, GREGG",
+  "office": "H",
+  "party": "REP",
+  "state": "NJ"
  },
  "H2NV00050": {
   "checked": "2026-09-27",
@@ -223,6 +375,30 @@
   "party": "DEMOCRATIC PARTY",
   "state": "PA"
  },
+ "H2TX00064": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "SELF, KEITH ALAN",
+  "office": "H",
+  "party": "REP",
+  "state": "TX"
+ },
+ "H2TX14123": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "HARRIS HOSS, FELICIA",
+  "office": "H",
+  "party": "REP",
+  "state": "TX"
+ },
+ "H2VA02064": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "KIGGANS, JENNIFER",
+  "office": "H",
+  "party": "REP",
+  "state": "VA"
+ },
  "H2VI00082": {
   "checked": "2026-09-23",
   "incumbent_challenge_full": "Incumbent",
@@ -238,6 +414,30 @@
   "office": "H",
   "party": "REP",
   "state": "WA"
+ },
+ "H4AZ01228": {
+  "checked": "2026-10-03",
+  "incumbent_challenge_full": null,
+  "name": "GALAN-WOODS, MARLENE",
+  "office": "H",
+  "party": "DEM",
+  "state": "AZ"
+ },
+ "H4CA12055": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "KHANNA, ROHIT",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
+ "H4CA33119": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "LIEU, TED",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
  },
  "H4CA37102": {
   "checked": "2026-09-11",
@@ -287,6 +487,14 @@
   "party": "DEM",
   "state": "FL"
  },
+ "H4GA03126": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "JACK, BRIAN",
+  "office": "H",
+  "party": "REP",
+  "state": "GA"
+ },
  "H4GA10071": {
   "checked": "2026-09-25",
   "incumbent_challenge_full": "Incumbent",
@@ -318,6 +526,22 @@
   "office": "H",
   "party": "REPUBLICAN PARTY",
   "state": "MN"
+ },
+ "H4MP01022": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "KING-HINDS, KIMBERLYN KAY",
+  "office": "H",
+  "party": "REP",
+  "state": "MP"
+ },
+ "H4NC02135": {
+  "checked": "2026-10-01",
+  "incumbent_challenge_full": "Challenger",
+  "name": "DOUGLASS, EUGENE FARLEY DR.",
+  "office": "H",
+  "party": "REP",
+  "state": "NC"
  },
  "H4ND00061": {
   "checked": "2026-09-09",
@@ -351,6 +575,14 @@
   "party": "REP",
   "state": "UT"
  },
+ "H4UT02304": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "RIEBE, KATHLEEN",
+  "office": "H",
+  "party": "DEM",
+  "state": "UT"
+ },
  "H4UT03260": {
   "checked": "2026-09-29",
   "incumbent_challenge_full": "Incumbent",
@@ -366,6 +598,14 @@
   "office": "H",
   "party": "DEM",
   "state": "VA"
+ },
+ "H4WA09061": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BASLER, DOUGLAS MICHAEL",
+  "office": "H",
+  "party": "REP",
+  "state": "WA"
  },
  "H4WI06048": {
   "checked": "2026-09-09",
@@ -407,10 +647,50 @@
   "party": "DEMOCRATIC PARTY",
   "state": "AZ"
  },
+ "H6AZ01330": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "LUCIO, DANIEL LEE",
+  "office": "H",
+  "party": "DEM",
+  "state": "AZ"
+ },
+ "H6CA01277": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "VALLES, ANGELITA",
+  "office": "H",
+  "party": "REP",
+  "state": "CA"
+ },
  "H6CA01285": {
   "checked": "2026-09-11",
   "incumbent_challenge_full": "Challenger",
   "name": "GALLAGHER, JAMES",
+  "office": "H",
+  "party": "REP",
+  "state": "CA"
+ },
+ "H6CA04248": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "URIBE, CHARLES MR. JR.",
+  "office": "H",
+  "party": "REP",
+  "state": "CA"
+ },
+ "H6CA06268": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BENNETT, CHRISTOPHER JERMAN",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
+ "H6CA10187": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "FRESE, JEFFREY",
   "office": "H",
   "party": "REP",
   "state": "CA"
@@ -431,12 +711,44 @@
   "party": "NO PARTY AFFILIATION",
   "state": "CA"
  },
+ "H6CA17224": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "KATZ, MIKE",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
+ "H6CA21234": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "RIOS, LORENZO",
+  "office": "H",
+  "party": "REP",
+  "state": "CA"
+ },
+ "H6CA22190": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "VILLEGAS, RANDY",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
  "H6CA26308": {
   "checked": "2026-09-18",
   "incumbent_challenge_full": "Open seat",
   "name": "ESPINOSA, CHRIS",
   "office": "H",
   "party": "DEMOCRATIC PARTY",
+  "state": "CA"
+ },
+ "H6CA30276": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "LAVA, JOEL MR.",
+  "office": "H",
+  "party": "DEM",
   "state": "CA"
  },
  "H6CA33122": {
@@ -463,12 +775,36 @@
   "party": "DEM",
   "state": "CA"
  },
+ "H6CA41224": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "CHAVEZ, ABEL",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
  "H6CA41323": {
   "checked": "2026-09-23",
   "incumbent_challenge_full": "Challenger",
   "name": "KEISSIEH, CLAUDE MANUEL",
   "office": "H",
   "party": "DEM",
+  "state": "CA"
+ },
+ "H6CA41356": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "WILLIAMS, SHONIQUE",
+  "office": "H",
+  "party": "DEM",
+  "state": "CA"
+ },
+ "H6CA42180": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BLOM, NOAH",
+  "office": "H",
+  "party": "REP",
   "state": "CA"
  },
  "H6CA44210": {
@@ -504,12 +840,12 @@
   "state": "CO"
  },
  "H6CO03212": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Challenger",
   "name": "KELLOFF, ALEXANDER GEORGE",
   "office": "H",
-  "state": "CO",
   "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-02"
+  "state": "CO"
  },
  "H6CO04228": {
   "checked": "2026-09-30",
@@ -527,6 +863,14 @@
   "party": "UN",
   "state": "CO"
  },
+ "H6CO05365": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": "Challenger",
+  "name": "FULLER, STEVEN",
+  "office": "H",
+  "party": "IDP",
+  "state": "CO"
+ },
  "H6CT04150": {
   "checked": "2026-09-25",
   "incumbent_challenge_full": "Challenger",
@@ -535,12 +879,28 @@
   "party": "REPUBLICAN PARTY",
   "state": "CT"
  },
+ "H6FL02323": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Open seat",
+  "name": "LEWIS, NICHOLAS JUSTIN",
+  "office": "H",
+  "party": "REP",
+  "state": "FL"
+ },
  "H6FL02349": {
   "checked": "2026-09-24",
   "incumbent_challenge_full": "Open seat",
   "name": "ROWELL, AUDIE",
   "office": "H",
   "party": "REP",
+  "state": "FL"
+ },
+ "H6FL06423": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "GIST, MICHAEL",
+  "office": "H",
+  "party": "NPA",
   "state": "FL"
  },
  "H6FL09070": {
@@ -565,6 +925,14 @@
   "name": "RANCE, HOWARD STEVEN",
   "office": "H",
   "party": "REP",
+  "state": "FL"
+ },
+ "H6FL13189": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "LYNN, ERIC",
+  "office": "H",
+  "party": "DEM",
   "state": "FL"
  },
  "H6FL14237": {
@@ -631,6 +999,14 @@
   "party": "DEM",
   "state": "FL"
  },
+ "H6FL24087": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Open seat",
+  "name": "JONES, SHEVRIN",
+  "office": "H",
+  "party": "DEM",
+  "state": "FL"
+ },
  "H6GA01133": {
   "checked": "2026-09-25",
   "incumbent_challenge_full": "Open seat",
@@ -647,6 +1023,22 @@
   "party": "DEM",
   "state": "GA"
  },
+ "H6GA11108": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Open seat",
+  "name": "RICHOZ, NATALIE MARIE",
+  "office": "H",
+  "party": "W",
+  "state": "GA"
+ },
+ "H6GA11116": {
+  "checked": "2026-10-01",
+  "incumbent_challenge_full": "Open seat",
+  "name": "HARDEN, CHRISTOPHER MATTHEW",
+  "office": "H",
+  "party": "DEM",
+  "state": "GA"
+ },
  "H6GU00059": {
   "checked": "2026-09-09",
   "incumbent_challenge_full": "Unknown",
@@ -655,10 +1047,50 @@
   "party": "REP",
   "state": "GU"
  },
+ "H6HI01345": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BELATTI, DELLA AU",
+  "office": "H",
+  "party": "DEM",
+  "state": "HI"
+ },
+ "H6IA03276": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "KONFRST, JENNIFER",
+  "office": "H",
+  "party": "DEM",
+  "state": "IA"
+ },
  "H6IL02124": {
   "checked": "2026-09-16",
   "incumbent_challenge_full": "Open seat",
   "name": "JACKSON, JESSE L. JR",
+  "office": "H",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "H6IL02363": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "PRESTON, WILLIE JUNIOR MR",
+  "office": "H",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "H6IL07396": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "HOSKINS, RORY E.",
+  "office": "H",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "H6IL08147": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "KRISHNAMOORTHI, S. RAJA",
   "office": "H",
   "party": "DEM",
   "state": "IL"
@@ -677,6 +1109,38 @@
   "name": "ABUGHAZALEH, KATHERINE M.",
   "office": "H",
   "party": "DEMOCRATIC PARTY",
+  "state": "IL"
+ },
+ "H6IL09236": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "AMIWALA, BUSHRA",
+  "office": "H",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "H6IL09251": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "ROSENBLUM, HOWARD",
+  "office": "H",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "H6IL09376": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "COHEN, JEFF",
+  "office": "H",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "H6IL13154": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "WILSON, JEFF",
+  "office": "H",
+  "party": "REP",
   "state": "IL"
  },
  "H6IL13162": {
@@ -711,12 +1175,36 @@
   "party": "REP",
   "state": "KY"
  },
+ "H6LA05176": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "FOY, LARRY W",
+  "office": "H",
+  "party": "DEM",
+  "state": "LA"
+ },
+ "H6LA05192": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "WYATT, SAMUEL LEE MR.",
+  "office": "H",
+  "party": "REP",
+  "state": "LA"
+ },
  "H6LA05242": {
   "checked": "2026-09-17",
   "incumbent_challenge_full": "Open seat",
   "name": "ECHOLS, MICHAEL CHARLES",
   "office": "H",
   "party": "REPUBLICAN PARTY",
+  "state": "LA"
+ },
+ "H6LA06158": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "APPEANING, ANJANITA MONIQUE",
+  "office": "H",
+  "party": "REP",
   "state": "LA"
  },
  "H6MA01146": {
@@ -726,6 +1214,22 @@
   "office": "H",
   "party": "IND",
   "state": "MA"
+ },
+ "H6MD04209": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "BROWN, ANTHONY",
+  "office": "H",
+  "party": "DEM",
+  "state": "MD"
+ },
+ "H6MD06279": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BURNETT, CHRISTOPHER MICHAEL",
+  "office": "H",
+  "party": "REP",
+  "state": "MD"
  },
  "H6MD08549": {
   "checked": "2026-09-12",
@@ -743,6 +1247,14 @@
   "party": "REP",
   "state": "ME"
  },
+ "H6MI03198": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "DEBOER, TERRI",
+  "office": "H",
+  "party": "REP",
+  "state": "MI"
+ },
  "H6MI10359": {
   "checked": "2026-09-18",
   "incumbent_challenge_full": "Open seat",
@@ -751,12 +1263,28 @@
   "party": "REPUBLICAN PARTY",
   "state": "MI"
  },
+ "H6MI11290": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "BAKER, ETHAN D",
+  "office": "H",
+  "party": "REP",
+  "state": "MI"
+ },
  "H6MN02263": {
   "checked": "2026-09-11",
   "incumbent_challenge_full": "Open seat",
   "name": "PRATT, ERIC",
   "office": "H",
   "party": "REP",
+  "state": "MN"
+ },
+ "H6MN04285": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "RAHMAN, ASWAR",
+  "office": "H",
+  "party": "DFL",
   "state": "MN"
  },
  "H6MN07312": {
@@ -783,6 +1311,62 @@
   "party": "IND",
   "state": "NC"
  },
+ "H6NC08210": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": "Challenger",
+  "name": "WHITEHEAD, ROBERT W MR.",
+  "office": "H",
+  "party": "GRE",
+  "state": "NC"
+ },
+ "H6NE02224": {
+  "checked": "2026-10-01",
+  "incumbent_challenge_full": "Open seat",
+  "name": "ASKINS, KISHLA",
+  "office": "H",
+  "party": "DEM",
+  "state": "NE"
+ },
+ "H6NH01347": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "BAILEY, MELISSA",
+  "office": "H",
+  "party": "REP",
+  "state": "NH"
+ },
+ "H6NH02311": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": "Challenger",
+  "name": "CONCEICAO, BRANDON",
+  "office": "H",
+  "party": "OTH",
+  "state": "NH"
+ },
+ "H6NJ02251": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "MULLOCK, ZACK",
+  "office": "H",
+  "party": "DEM",
+  "state": "NJ"
+ },
+ "H6NJ08209": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "ALI, MUSSAB",
+  "office": "H",
+  "party": "DEM",
+  "state": "NJ"
+ },
+ "H6NJ12300": {
+  "checked": "2026-10-01",
+  "incumbent_challenge_full": "Open seat",
+  "name": "REYNOLDS-JACKSON, VERLINA",
+  "office": "H",
+  "party": "DEM",
+  "state": "NJ"
+ },
  "H6NV02297": {
   "checked": "2026-09-09",
   "incumbent_challenge_full": "Open seat",
@@ -807,6 +1391,14 @@
   "party": "REPUBLICAN PARTY",
   "state": "NV"
  },
+ "H6NV03295": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "ROBINSON, TERRILL",
+  "office": "H",
+  "party": "DEM",
+  "state": "NV"
+ },
  "H6NV04137": {
   "checked": "2026-09-17",
   "incumbent_challenge_full": "Challenger",
@@ -814,6 +1406,30 @@
   "office": "H",
   "party": "REPUBLICAN PARTY",
   "state": "NV"
+ },
+ "H6NY02173": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "PETERSEN, GARRETT",
+  "office": "H",
+  "party": "DEM",
+  "state": "NY"
+ },
+ "H6NY04211": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "DRISCOLL, JEANINE",
+  "office": "H",
+  "party": "REP",
+  "state": "NY"
+ },
+ "H6NY06166": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "PARK, CHARLES",
+  "office": "H",
+  "party": "DEM",
+  "state": "NY"
  },
  "H6NY07214": {
   "checked": "2026-09-17",
@@ -829,6 +1445,46 @@
   "name": "LANDER, BRAD MR.",
   "office": "H",
   "party": "DEMOCRATIC PARTY",
+  "state": "NY"
+ },
+ "H6NY12164": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "ELKIND, LIAM",
+  "office": "H",
+  "party": "DEM",
+  "state": "NY"
+ },
+ "H6NY12222": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Open seat",
+  "name": "FLOYD, JAMI",
+  "office": "H",
+  "party": "DEM",
+  "state": "NY"
+ },
+ "H6NY12396": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Open seat",
+  "name": "TIMMINS, PATRICK JOHN MR.",
+  "office": "H",
+  "party": "DEM",
+  "state": "NY"
+ },
+ "H6NY23559": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "GIES, AARON DR.",
+  "office": "H",
+  "party": "DEM",
+  "state": "NY"
+ },
+ "H6NY29168": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "MASSA, ERIC JJ",
+  "office": "H",
+  "party": "DEM",
   "state": "NY"
  },
  "H6OH01161": {
@@ -855,6 +1511,30 @@
   "party": "INDEPENDENT",
   "state": "OH"
  },
+ "H6OH11210": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": null,
+  "name": "KIRCHNER, MIKE",
+  "office": "H",
+  "party": "REP",
+  "state": "OH"
+ },
+ "H6OK05319": {
+  "checked": "2026-10-03",
+  "incumbent_challenge_full": "Challenger",
+  "name": "MARTIN, TREY",
+  "office": "H",
+  "party": "DEM",
+  "state": "OK"
+ },
+ "H6OR05242": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Challenger",
+  "name": "ADAIR, PATTI",
+  "office": "H",
+  "party": "REP",
+  "state": "OR"
+ },
  "H6PA01231": {
   "checked": "2026-09-19",
   "incumbent_challenge_full": "Challenger",
@@ -872,12 +1552,12 @@
   "state": "PA"
  },
  "H6PA16379": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Challenger",
   "name": "WAGNER, JUSTIN",
   "office": "H",
-  "state": "PA",
   "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-02"
+  "state": "PA"
  },
  "H6SC01201": {
   "checked": "2026-09-15",
@@ -886,6 +1566,54 @@
   "office": "H",
   "party": "DEM",
   "state": "SC"
+ },
+ "H6SC01227": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Open seat",
+  "name": "DEFORD, WILLIAM MAC",
+  "office": "H",
+  "party": "DEM",
+  "state": "SC"
+ },
+ "H6SC01250": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Open seat",
+  "name": "SMITH, MARK",
+  "office": "H",
+  "party": "REP",
+  "state": "SC"
+ },
+ "H6SC02159": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "KHALIFA, ZYON DESHON",
+  "office": "H",
+  "party": "DEM",
+  "state": "SC"
+ },
+ "H6SC02167": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "KHALIFA, ZYON DESHON",
+  "office": "H",
+  "party": "DEM",
+  "state": "SC"
+ },
+ "H6TN05439": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "HURLEY, RACHEL",
+  "office": "H",
+  "party": "DEM",
+  "state": "TN"
+ },
+ "H6TN08359": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BRYAN, DEWEY GORDON",
+  "office": "H",
+  "party": "DEM",
+  "state": "TN"
  },
  "H6TX02244": {
   "checked": "2026-09-11",
@@ -903,12 +1631,36 @@
   "party": "DEM",
   "state": "TX"
  },
+ "H6TX09215": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "IVEY, R. TODD DR.",
+  "office": "H",
+  "party": "DEM",
+  "state": "TX"
+ },
+ "H6TX10270": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "BIUS, WALTER BENJAMIN",
+  "office": "H",
+  "party": "REP",
+  "state": "TX"
+ },
  "H6TX10304": {
   "checked": "2026-09-23",
   "incumbent_challenge_full": "Open seat",
   "name": "STORY, JEREMY",
   "office": "H",
   "party": "REP",
+  "state": "TX"
+ },
+ "H6TX13159": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "NAIR, MARK",
+  "office": "H",
+  "party": "DEM",
   "state": "TX"
  },
  "H6TX30252": {
@@ -967,6 +1719,22 @@
   "party": "DEM",
   "state": "UT"
  },
+ "H6UT01236": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "FARRELL, MICHAEL",
+  "office": "H",
+  "party": "DEM",
+  "state": "UT"
+ },
+ "H6UT02523": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "LISONBEE, KARIANNE",
+  "office": "H",
+  "party": "REP",
+  "state": "UT"
+ },
  "H6VA01208": {
   "checked": "2026-09-16",
   "incumbent_challenge_full": "Challenger",
@@ -979,6 +1747,14 @@
   "checked": "2026-09-16",
   "incumbent_challenge_full": "Challenger",
   "name": "BEGGS, ELIZABETH DEMPSEY",
+  "office": "H",
+  "party": "DEM",
+  "state": "VA"
+ },
+ "H6VA02149": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "OSYF, JAMES",
   "office": "H",
   "party": "DEM",
   "state": "VA"
@@ -1007,12 +1783,28 @@
   "party": "DEM",
   "state": "VA"
  },
+ "H6VA05233": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "LUCERO, MELANIE VIRGINIA",
+  "office": "H",
+  "party": "REP",
+  "state": "VA"
+ },
  "H6VA07189": {
   "checked": "2026-09-16",
   "incumbent_challenge_full": "Challenger",
   "name": "GRAY, JOHN",
   "office": "H",
   "party": "REP",
+  "state": "VA"
+ },
+ "H6VA07296": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Challenger",
+  "name": "SCHIARIZZI, JOSEPH",
+  "office": "H",
+  "party": "DEM",
   "state": "VA"
  },
  "H6VA08328": {
@@ -1022,6 +1814,46 @@
   "office": "H",
   "party": "DEMOCRATIC PARTY",
   "state": "VA"
+ },
+ "H6VA09151": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "JACKSON, MICHAEL PAUL",
+  "office": "H",
+  "party": "IND",
+  "state": "VA"
+ },
+ "H6VA11249": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "PURVES, ARTHUR GRAHAME MR.",
+  "office": "H",
+  "party": "REP",
+  "state": "VA"
+ },
+ "H6VA11256": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": null,
+  "name": "PURVES, ARTHUR GRAHAME MR.",
+  "office": "H",
+  "party": "REP",
+  "state": "VA"
+ },
+ "H6VA11264": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": null,
+  "name": "PURVES, ARTHUR GRAHAME MR.",
+  "office": "H",
+  "party": "REP",
+  "state": "VA"
+ },
+ "H6WA05239": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "POWELL, NATE",
+  "office": "H",
+  "party": "IND",
+  "state": "WA"
  },
  "H6WA05247": {
   "checked": "2026-09-11",
@@ -1038,6 +1870,30 @@
   "office": "H",
   "party": "DEM",
   "state": "WI"
+ },
+ "H6WI06217": {
+  "checked": "2026-10-03",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BELL, AMANDA H",
+  "office": "H",
+  "party": "DEM",
+  "state": "WI"
+ },
+ "H6WI06225": {
+  "checked": "2026-10-03",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BELL, AMANDA H",
+  "office": "H",
+  "party": "DEM",
+  "state": "WI"
+ },
+ "H6WY01207": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "GOODENOUGH, KEITH BRIAN MR.",
+  "office": "H",
+  "party": "REP",
+  "state": "WY"
  },
  "H8CT04172": {
   "checked": "2026-09-23",
@@ -1087,6 +1943,14 @@
   "party": "REPUBLICAN PARTY",
   "state": "FL"
  },
+ "H8FL27052": {
+  "checked": "2026-10-01",
+  "incumbent_challenge_full": "Open seat",
+  "name": "RODRIGUEZ, JOSE JAVIER",
+  "office": "H",
+  "party": "DEM",
+  "state": "FL"
+ },
  "H8GA02095": {
   "checked": "2026-09-11",
   "incumbent_challenge_full": "Unknown",
@@ -1110,6 +1974,30 @@
   "office": "H",
   "party": "REPUBLICAN PARTY",
   "state": "IN"
+ },
+ "H8KS02157": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Open seat",
+  "name": "TYSON, CARYN",
+  "office": "H",
+  "party": "REP",
+  "state": "KS"
+ },
+ "H8KS04112": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "ESTES, RON",
+  "office": "H",
+  "party": "REP",
+  "state": "KS"
+ },
+ "H8MI11254": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "STEVENS, HALEY",
+  "office": "H",
+  "party": "DEM",
+  "state": "MI"
  },
  "H8MP00033": {
   "checked": "2026-09-18",
@@ -1141,6 +2029,14 @@
   "name": "NORMAN, RALPH W. JR.",
   "office": "H",
   "party": "REPUBLICAN PARTY",
+  "state": "SC"
+ },
+ "H8SC06123": {
+  "checked": "2026-10-04",
+  "incumbent_challenge_full": null,
+  "name": "HAIGLER, KYLE ANTHONY",
+  "office": "H",
+  "party": "DEM",
   "state": "SC"
  },
  "H8TX04154": {
@@ -1175,6 +2071,22 @@
   "party": "REP",
   "state": "US"
  },
+ "S0CO00468": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "JOHNSTON, MICHAEL C",
+  "office": "S",
+  "party": "DEM",
+  "state": "CO"
+ },
+ "S0IA00176": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "GREENFIELD, THERESA",
+  "office": "S",
+  "party": "DEM",
+  "state": "IA"
+ },
  "S0ME00111": {
   "checked": "2026-09-19",
   "incumbent_challenge_full": "Challenger",
@@ -1199,6 +2111,14 @@
   "party": "REP",
   "state": "WY"
  },
+ "S2AL00145": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "BRITT, KATIE BOYD",
+  "office": "S",
+  "party": "REP",
+  "state": "AL"
+ },
  "S2AZ00141": {
   "checked": "2026-09-13",
   "incumbent_challenge_full": "Incumbent",
@@ -1207,6 +2127,14 @@
   "office": "S",
   "party": "REP",
   "state": "AZ"
+ },
+ "S2CA00872": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": null,
+  "name": "LIEW, SARAH SUN DR.",
+  "office": "S",
+  "party": "REP",
+  "state": "CA"
  },
  "S2MO00544": {
   "checked": "2026-09-17",
@@ -1223,6 +2151,14 @@
   "office": "S",
   "party": "REP",
   "state": "MT"
+ },
+ "S2NJ00080": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Challenger",
+  "name": "LAUTENBERG, FRANK R",
+  "office": "S",
+  "party": "DEM",
+  "state": "NJ"
  },
  "S4MA00325": {
   "checked": "2026-09-16",
@@ -1248,6 +2184,14 @@
   "party": "DEM",
   "state": "NJ"
  },
+ "S4NJ00409": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "MELE, GREGG",
+  "office": "S",
+  "party": "REP",
+  "state": "NJ"
+ },
  "S4TN00575": {
   "checked": "2026-09-29",
   "incumbent_challenge_full": "Challenger",
@@ -1255,6 +2199,14 @@
   "office": "S",
   "party": "INDEPENDENT",
   "state": "TN"
+ },
+ "S4WV00357": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "SHREWSBURY, ZACHARY C",
+  "office": "S",
+  "party": "DEM",
+  "state": "WV"
  },
  "S6AL00443": {
   "checked": "2026-09-25",
@@ -1304,6 +2256,38 @@
   "party": "DEM",
   "state": "IL"
  },
+ "S6IL00458": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": "Open seat",
+  "name": "STRATTON, JULIANA",
+  "office": "S",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "S6IL00730": {
+  "checked": "2026-10-06",
+  "incumbent_challenge_full": "",
+  "name": "BROWN, SEAN AMEDEE",
+  "office": "S",
+  "party": "DEM",
+  "state": "IL"
+ },
+ "S6LA00532": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "WYATT, SAMUEL LEE MR.",
+  "office": "S",
+  "party": "REP",
+  "state": "LA"
+ },
+ "S6MN00267": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Incumbent",
+  "name": "KLOBUCHAR, AMY",
+  "office": "S",
+  "party": "DFL",
+  "state": "MN"
+ },
  "S6NC00415": {
   "checked": "2026-09-25",
   "incumbent_challenge_full": "Open seat",
@@ -1311,6 +2295,14 @@
   "office": "S",
   "party": "REPUBLICAN PARTY",
   "state": "NC"
+ },
+ "S6NE00152": {
+  "checked": "2026-10-08",
+  "incumbent_challenge_full": "Challenger",
+  "name": "MARVIN, MIKE",
+  "office": "S",
+  "party": "OTH",
+  "state": "NE"
  },
  "S6NH00208": {
   "checked": "2026-09-16",
@@ -1368,6 +2360,14 @@
   "party": "DEMOCRATIC PARTY",
   "state": "TX"
  },
+ "S6TX00594": {
+  "checked": "2026-10-02",
+  "incumbent_challenge_full": "Challenger",
+  "name": "BROWN GAINES, JENNIFER TAWANDA",
+  "office": "S",
+  "party": "LBL",
+  "state": "TX"
+ },
  "S8FL00323": {
   "checked": "2026-09-11",
   "incumbent_challenge_full": "Challenger",
@@ -1375,6 +2375,14 @@
   "office": "S",
   "party": "REP",
   "state": "FL"
+ },
+ "S8GA00230": {
+  "checked": "2026-10-05",
+  "incumbent_challenge_full": "Challenger",
+  "name": "WATKINS, DANTWAN MR",
+  "office": "S",
+  "party": "DEM",
+  "state": "GA"
  },
  "S8VA00321": {
   "checked": "2026-09-15",
@@ -1384,1012 +2392,12 @@
   "party": "REP",
   "state": "VA"
  },
- "H2FL24052": {
-  "name": "GONZALEZ, PATRICIA",
-  "office": "H",
-  "state": "FL",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-01"
- },
- "H6GA11116": {
-  "name": "HARDEN, CHRISTOPHER MATTHEW",
-  "office": "H",
-  "state": "GA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-01"
- },
- "H8FL27052": {
-  "name": "RODRIGUEZ, JOSE JAVIER",
-  "office": "H",
-  "state": "FL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-01"
- },
- "H4NC02135": {
-  "name": "DOUGLASS, EUGENE FARLEY DR.",
-  "office": "H",
-  "state": "NC",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-01"
- },
- "H6NE02224": {
-  "name": "ASKINS, KISHLA",
-  "office": "H",
-  "state": "NE",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-01"
- },
- "H6NJ12300": {
-  "name": "REYNOLDS-JACKSON, VERLINA",
-  "office": "H",
-  "state": "NJ",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-01"
- },
- "H4WA09061": {
-  "name": "BASLER, DOUGLAS MICHAEL",
-  "office": "H",
-  "state": "WA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-02"
- },
- "H6VA07296": {
-  "name": "SCHIARIZZI, JOSEPH",
-  "office": "H",
-  "state": "VA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-02"
- },
- "S6TX00594": {
-  "name": "BROWN GAINES, JENNIFER TAWANDA",
-  "office": "S",
-  "state": "TX",
-  "party": "LBL",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-02"
- },
- "S6MN00267": {
-  "name": "KLOBUCHAR, AMY",
-  "office": "S",
-  "state": "MN",
-  "party": "DFL",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-02"
- },
- "H6OR05242": {
-  "name": "ADAIR, PATTI",
-  "office": "H",
-  "state": "OR",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-02"
- },
- "H6OH11210": {
-  "name": "KIRCHNER, MIKE",
-  "office": "H",
-  "state": "OH",
-  "party": "REP",
-  "incumbent_challenge_full": null,
-  "checked": "2026-10-02"
- },
- "H6WI06217": {
-  "name": "BELL, AMANDA H",
-  "office": "H",
-  "state": "WI",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-03"
- },
- "H6WI06225": {
-  "name": "BELL, AMANDA H",
-  "office": "H",
-  "state": "WI",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-03"
- },
- "H6CO05365": {
-  "name": "FULLER, STEVEN",
-  "office": "H",
-  "state": "CO",
-  "party": "IDP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-04"
- },
- "H0FL17068": {
-  "name": "WILSON, FREDERICA S.",
-  "office": "H",
-  "state": "FL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-04"
- },
- "H6NY29168": {
-  "name": "MASSA, ERIC JJ",
-  "office": "H",
-  "state": "NY",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-04"
- },
- "H2GA13012": {
-  "name": "SCOTT, DAVID ALBERT",
-  "office": "H",
-  "state": "GA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-04"
- },
- "H4CA12055": {
-  "name": "KHANNA, ROHIT",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-04"
- },
- "H4AZ01228": {
-  "name": "GALAN-WOODS, MARLENE",
-  "office": "H",
-  "state": "AZ",
-  "party": "DEM",
-  "incumbent_challenge_full": null,
-  "checked": "2026-10-03"
- },
- "H6OK05319": {
-  "name": "MARTIN, TREY",
-  "office": "H",
-  "state": "OK",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-03"
- },
- "H6NH02311": {
-  "name": "CONCEICAO, BRANDON",
-  "office": "H",
-  "state": "NH",
-  "party": "OTH",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-04"
- },
- "H8SC06123": {
-  "name": "HAIGLER, KYLE ANTHONY",
-  "office": "H",
-  "state": "SC",
-  "party": "DEM",
-  "incumbent_challenge_full": null,
-  "checked": "2026-10-04"
- },
- "H6NC08210": {
-  "name": "WHITEHEAD, ROBERT W MR.",
-  "office": "H",
-  "state": "NC",
-  "party": "GRE",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-04"
- },
- "S8GA00230": {
-  "name": "WATKINS, DANTWAN MR",
-  "office": "S",
-  "state": "GA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-05"
- },
- "H2MO02193": {
-  "name": "SAMUELS, E. BENJAMIN",
-  "office": "H",
-  "state": "MO",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-05"
- },
- "H2VA02064": {
-  "name": "KIGGANS, JENNIFER",
-  "office": "H",
-  "state": "VA",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-06"
- },
- "H2CA13115": {
-  "name": "GRAY, ADAM C.",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-06"
- },
- "H6CA22190": {
-  "name": "VILLEGAS, RANDY",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6NY23559": {
-  "name": "GIES, AARON DR.",
-  "office": "H",
-  "state": "NY",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6CA21234": {
-  "name": "RIOS, LORENZO",
-  "office": "H",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6SC01227": {
-  "name": "DEFORD, WILLIAM MAC",
-  "office": "H",
-  "state": "SC",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-06"
- },
- "S6IL00730": {
-  "name": "BROWN, SEAN AMEDEE",
-  "office": "S",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "",
-  "checked": "2026-10-06"
- },
- "H6SC01250": {
-  "name": "SMITH, MARK",
-  "office": "H",
-  "state": "SC",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-06"
- },
- "H6GA11108": {
-  "name": "RICHOZ, NATALIE MARIE",
-  "office": "H",
-  "state": "GA",
-  "party": "W",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-06"
- },
- "H6NY12222": {
-  "name": "FLOYD, JAMI",
-  "office": "H",
-  "state": "NY",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-06"
- },
- "H6CA10187": {
-  "name": "FRESE, JEFFREY",
-  "office": "H",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6FL02323": {
-  "name": "LEWIS, NICHOLAS JUSTIN",
-  "office": "H",
-  "state": "FL",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-06"
- },
- "H6NY12396": {
-  "name": "TIMMINS, PATRICK JOHN MR.",
-  "office": "H",
-  "state": "NY",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-06"
- },
- "H6NJ08209": {
-  "name": "ALI, MUSSAB",
-  "office": "H",
-  "state": "NJ",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6NJ02251": {
-  "name": "MULLOCK, ZACK",
-  "office": "H",
-  "state": "NJ",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6TN08359": {
-  "name": "BRYAN, DEWEY GORDON",
-  "office": "H",
-  "state": "TN",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6FL06423": {
-  "name": "GIST, MICHAEL",
-  "office": "H",
-  "state": "FL",
-  "party": "NPA",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6TN05439": {
-  "name": "HURLEY, RACHEL",
-  "office": "H",
-  "state": "TN",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-06"
- },
- "H6FL24087": {
-  "name": "JONES, SHEVRIN",
-  "office": "H",
-  "state": "FL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-06"
- },
- "S2NJ00080": {
-  "name": "LAUTENBERG, FRANK R",
-  "office": "S",
-  "state": "NJ",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H2TX14123": {
-  "name": "HARRIS HOSS, FELICIA",
-  "office": "H",
-  "state": "TX",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6IL08147": {
-  "name": "KRISHNAMOORTHI, S. RAJA",
-  "office": "H",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-07"
- },
- "S0CO00468": {
-  "name": "JOHNSTON, MICHAEL C",
-  "office": "S",
-  "state": "CO",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H0CA33216": {
-  "name": "LIEW, SARAH SUN DR.",
-  "office": "H",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "S2CA00872": {
-  "name": "LIEW, SARAH SUN DR.",
-  "office": "S",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": null,
-  "checked": "2026-10-07"
- },
- "H0IL15129": {
-  "name": "MILLER, MARY",
-  "office": "H",
-  "state": "IL",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-07"
- },
- "S2AL00145": {
-  "name": "BRITT, KATIE BOYD",
-  "office": "S",
-  "state": "AL",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-07"
- },
- "H2NJ06210": {
-  "name": "MELE, GREGG",
-  "office": "H",
-  "state": "NJ",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H2GU01031": {
-  "name": "MOYLAN, JAMES C.",
-  "office": "H",
-  "state": "GU",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-07"
- },
- "H4MP01022": {
-  "name": "KING-HINDS, KIMBERLYN KAY",
-  "office": "H",
-  "state": "MP",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-07"
- },
- "H6IL13154": {
-  "name": "WILSON, JEFF",
-  "office": "H",
-  "state": "IL",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6CA06268": {
-  "name": "BENNETT, CHRISTOPHER JERMAN",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "S6IL00458": {
-  "name": "STRATTON, JULIANA",
-  "office": "S",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6NH01347": {
-  "name": "BAILEY, MELISSA",
-  "office": "H",
-  "state": "NH",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6IL09251": {
-  "name": "ROSENBLUM, HOWARD",
-  "office": "H",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6VA02149": {
-  "name": "OSYF, JAMES",
-  "office": "H",
-  "state": "VA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6IL02363": {
-  "name": "PRESTON, WILLIE JUNIOR MR",
-  "office": "H",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6IL07396": {
-  "name": "HOSKINS, RORY E.",
-  "office": "H",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6NY12164": {
-  "name": "ELKIND, LIAM",
-  "office": "H",
-  "state": "NY",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6TX13159": {
-  "name": "NAIR, MARK",
-  "office": "H",
-  "state": "TX",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6AZ01330": {
-  "name": "LUCIO, DANIEL LEE",
-  "office": "H",
-  "state": "AZ",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6HI01345": {
-  "name": "BELATTI, DELLA AU",
-  "office": "H",
-  "state": "HI",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6CA01277": {
-  "name": "VALLES, ANGELITA",
-  "office": "H",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6UT01236": {
-  "name": "FARRELL, MICHAEL",
-  "office": "H",
-  "state": "UT",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6WA05239": {
-  "name": "POWELL, NATE",
-  "office": "H",
-  "state": "WA",
-  "party": "IND",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6CA30276": {
-  "name": "LAVA, JOEL MR.",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6MN04285": {
-  "name": "RAHMAN, ASWAR",
-  "office": "H",
-  "state": "MN",
-  "party": "DFL",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6VA09151": {
-  "name": "JACKSON, MICHAEL PAUL",
-  "office": "H",
-  "state": "VA",
-  "party": "IND",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6CA04248": {
-  "name": "URIBE, CHARLES MR. JR.",
-  "office": "H",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6NY04211": {
-  "name": "DRISCOLL, JEANINE",
-  "office": "H",
-  "state": "NY",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "H6WY01207": {
-  "name": "GOODENOUGH, KEITH BRIAN MR.",
-  "office": "H",
-  "state": "WY",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6VA11249": {
-  "name": "PURVES, ARTHUR GRAHAME MR.",
-  "office": "H",
-  "state": "VA",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6VA11256": {
-  "name": "PURVES, ARTHUR GRAHAME MR.",
-  "office": "H",
-  "state": "VA",
-  "party": "REP",
-  "incumbent_challenge_full": null,
-  "checked": "2026-10-07"
- },
- "H6VA11264": {
-  "name": "PURVES, ARTHUR GRAHAME MR.",
-  "office": "H",
-  "state": "VA",
-  "party": "REP",
-  "incumbent_challenge_full": null,
-  "checked": "2026-10-07"
- },
  "S8WA00418": {
+  "checked": "2026-10-07",
+  "incumbent_challenge_full": null,
   "name": "14-11-1963, SIMEON B KEDIKOGLOU MR",
   "office": "S",
-  "state": "WA",
   "party": "DEM",
-  "incumbent_challenge_full": null,
-  "checked": "2026-10-07"
- },
- "H2CO03211": {
-  "name": "DONOVAN, KERRY",
-  "office": "H",
-  "state": "CO",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "S0IA00176": {
-  "name": "GREENFIELD, THERESA",
-  "office": "S",
-  "state": "IA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-07"
- },
- "S4NJ00409": {
-  "name": "MELE, GREGG",
-  "office": "S",
-  "state": "NJ",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-07"
- },
- "H6IL09236": {
-  "name": "AMIWALA, BUSHRA",
-  "office": "H",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H6LA06158": {
-  "name": "APPEANING, ANJANITA MONIQUE",
-  "office": "H",
-  "state": "LA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6MI11290": {
-  "name": "BAKER, ETHAN D",
-  "office": "H",
-  "state": "MI",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H6TX10270": {
-  "name": "BIUS, WALTER BENJAMIN",
-  "office": "H",
-  "state": "TX",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H6CA42180": {
-  "name": "BLOM, NOAH",
-  "office": "H",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6MD04209": {
-  "name": "BROWN, ANTHONY",
-  "office": "H",
-  "state": "MD",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H6MD06279": {
-  "name": "BURNETT, CHRISTOPHER MICHAEL",
-  "office": "H",
-  "state": "MD",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H2LA02149": {
-  "name": "CARTER, TROY A. SR.",
-  "office": "H",
-  "state": "LA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H6CA41224": {
-  "name": "CHAVEZ, ABEL",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H6IL09376": {
-  "name": "COHEN, JEFF",
-  "office": "H",
-  "state": "IL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H6MI03198": {
-  "name": "DEBOER, TERRI",
-  "office": "H",
-  "state": "MI",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H2MI13311": {
-  "name": "ELLIOTT, STEVEN",
-  "office": "H",
-  "state": "MI",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H2MI11240": {
-  "name": "ESSHAKI, ERIC",
-  "office": "H",
-  "state": "MI",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H8KS04112": {
-  "name": "ESTES, RON",
-  "office": "H",
-  "state": "KS",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H2CT05131": {
-  "name": "ESTY, ELIZABETH",
-  "office": "H",
-  "state": "CT",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H6LA05176": {
-  "name": "FOY, LARRY W",
-  "office": "H",
-  "state": "LA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H0CA48024": {
-  "name": "ISSA, DARRELL",
-  "office": "H",
-  "state": "CA",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H6TX09215": {
-  "name": "IVEY, R. TODD DR.",
-  "office": "H",
-  "state": "TX",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H4GA03126": {
-  "name": "JACK, BRIAN",
-  "office": "H",
-  "state": "GA",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H6CA17224": {
-  "name": "KATZ, MIKE",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6SC02159": {
-  "name": "KHALIFA, ZYON DESHON",
-  "office": "H",
-  "state": "SC",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6SC02167": {
-  "name": "KHALIFA, ZYON DESHON",
-  "office": "H",
-  "state": "SC",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6IA03276": {
-  "name": "KONFRST, JENNIFER",
-  "office": "H",
-  "state": "IA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H2MI14111": {
-  "name": "LAWRENCE, BRENDA LULENAR",
-  "office": "H",
-  "state": "MI",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H4CA33119": {
-  "name": "LIEU, TED",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H6UT02523": {
-  "name": "LISONBEE, KARIANNE",
-  "office": "H",
-  "state": "UT",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6VA05233": {
-  "name": "LUCERO, MELANIE VIRGINIA",
-  "office": "H",
-  "state": "VA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6FL13189": {
-  "name": "LYNN, ERIC",
-  "office": "H",
-  "state": "FL",
-  "party": "DEM",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "S6NE00152": {
-  "name": "MARVIN, MIKE",
-  "office": "S",
-  "state": "NE",
-  "party": "OTH",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6NY06166": {
-  "name": "PARK, CHARLES",
-  "office": "H",
-  "state": "NY",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6NY02173": {
-  "name": "PETERSEN, GARRETT",
-  "office": "H",
-  "state": "NY",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H4UT02304": {
-  "name": "RIEBE, KATHLEEN",
-  "office": "H",
-  "state": "UT",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6NV03295": {
-  "name": "ROBINSON, TERRILL",
-  "office": "H",
-  "state": "NV",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H0LA01087": {
-  "name": "SCALISE, STEVE MR",
-  "office": "H",
-  "state": "LA",
-  "party": "REP",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H2TX00064": {
-  "name": "SELF, KEITH ALAN",
-  "office": "H",
-  "state": "TX",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "S4WV00357": {
-  "name": "SHREWSBURY, ZACHARY C",
-  "office": "S",
-  "state": "WV",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H0OR04107": {
-  "name": "SKARLATOS, ALEK",
-  "office": "H",
-  "state": "OR",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H8MI11254": {
-  "name": "STEVENS, HALEY",
-  "office": "H",
-  "state": "MI",
-  "party": "DEM",
-  "incumbent_challenge_full": "Incumbent",
-  "checked": "2026-10-08"
- },
- "H8KS02157": {
-  "name": "TYSON, CARYN",
-  "office": "H",
-  "state": "KS",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
- },
- "H6CA41356": {
-  "name": "WILLIAMS, SHONIQUE",
-  "office": "H",
-  "state": "CA",
-  "party": "DEM",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "S6LA00532": {
-  "name": "WYATT, SAMUEL LEE MR.",
-  "office": "S",
-  "state": "LA",
-  "party": "REP",
-  "incumbent_challenge_full": "Challenger",
-  "checked": "2026-10-08"
- },
- "H6LA05192": {
-  "name": "WYATT, SAMUEL LEE MR.",
-  "office": "H",
-  "state": "LA",
-  "party": "REP",
-  "incumbent_challenge_full": "Open seat",
-  "checked": "2026-10-08"
+  "state": "WA"
  }
 }
