@@ -2,27 +2,27 @@
  "date": "Friday, October 9, 2026",
  "top_story": {
   "eyebrow": "Top Story",
-  "headline": "CACI gets a $152.8 million sole-source ceiling increase on an Army support task order",
-  "dek": "The General Services Administration says internal funding realignments are exhausted and only a ceiling increase can sustain operations.",
+  "headline": "Army put armed guards in Erbil, Iraq, to work on September 10 and justified skipping competition on October 8",
+  "dek": "The task order supports U.S. Army Central and the Operation Inherent Resolve task force, and its dollar value is redacted.",
   "paragraphs": [
-   "The General Services Administration, acting for the Army's C5ISR Center, posted a justification for an exception to fair opportunity that raises the ceiling on the Global Operational Support, Information Insight, and Threat task order held by <strong>CACI</strong> by $152,779,419. The task order was competitively awarded on May 20, 2024 with a ceiling of $414,857,176 and runs through May 2029.",
-   "The justification says earlier funding realignments are completely exhausted and an immediate ceiling increase is the only viable way to sustain operations.",
-   "Elsewhere in today's postings, two bridge contracts trace to protests: the Army Corps of Engineers wants a bridge for fuel-system maintenance, and the Navy wants a third bridge for Naval District Washington custodial services after two Government Accountability Office protests."
+   "The <strong>Department of the Army</strong>'s contracting command at Rock Island issued a notice to proceed on September 10, 2026 to <strong>GardaWorld Federal Services</strong> for armed guard services near Erbil International Airport, then awarded the work as an undefinitized task order under the Global Protective Services contract. The justification for an exception to fair opportunity, a post-award document, is dated October 8, 2026.",
+   "The Army says about 20 days remained to mobilize and obtain the approvals needed for armed performance, and chose GardaWorld as the vendor most immediately able to perform based on responses to a request for information. The requiring activity is <strong>U.S. Army Central</strong> and the <strong>Combined Joint Task Force \u2013 Operation Inherent Resolve</strong>. The value is redacted in the public document.",
+   "Also in today's justifications: a $152.8 million ceiling increase for <strong>CACI</strong> at the <strong>General Services Administration</strong>, and a bridge contract for Air Force fuel-system maintenance while a protest is pending at the <strong>U.S. Army Corps of Engineers</strong>."
   ],
   "callout": {
    "label": "Read the filings",
    "links": [
     {
-     "text": "CACI notice",
+     "text": "GardaWorld Erbil notice",
+     "url": "https://sam.gov/workspace/contract/opp/7a047e0a2c164e198e383cc91e614339/view"
+    },
+    {
+     "text": "J&A document",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9ab143bdd0cd4d7887435b116b7b465d/download"
+    },
+    {
+     "text": "CACI ceiling increase",
      "url": "https://sam.gov/workspace/contract/opp/ad37e4fef707475eb4a3e9c8fea0e1b8/view"
-    },
-    {
-     "text": "CACI J&A document",
-     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d4c151fd3d984b279296e1373b4828cf/download"
-    },
-    {
-     "text": "Navy custodial bridge",
-     "url": "https://sam.gov/workspace/contract/opp/95b7a5af64dc4422b456e21ae52d0f45/view"
     }
    ]
   }
@@ -30,9 +30,9 @@
  "sections": [
   {
    "eyebrow": "Federal Contracting Actions (SAM.gov)",
-   "headline": "CACI gets a $152.8 million sole-source ceiling increase; protests drive two bridge contracts",
+   "headline": "Army skipped competition for armed guards in Erbil, Iraq, and wrote the justification after the work started",
    "paragraphs": [
-    "52 new sole-source justifications and 921 new solicitations; 0 notices already covered in earlier editions are not repeated. The five items below are the ones with the clearest news value; the rest are listed by agency."
+    "52 new sole-source justifications and 922 new solicitations were posted October 8\u20139, 2026; none had been covered in an earlier edition, and 97 solicitation amendments to items already flagged are left out. The five must-read items are below; every other justification is linked at the bottom."
    ],
    "blocks": [
     {
@@ -41,56 +41,35 @@
     },
     {
      "type": "card",
-     "title": "Army Corps of Engineers seeks sole-source bridge for fuel-system maintenance at 45 installations while a protest of the follow-on award is pending",
+     "title": "Army hires GardaWorld to guard Erbil, Iraq, and paperwork on skipping competition came after work began",
      "meta": [
-      "Vendor not named in the posted document",
-      "Value redacted",
-      "Urgent need, no time to compete",
-      "Department of Defense (U.S. Army Corps of Engineers, for the Defense Logistics Agency)"
+      "GardaWorld Federal Services",
+      "value redacted",
+      "urgent need, no time to compete",
+      "Department of the Army"
      ],
-     "text": "The Army Corps of Engineers Huntsville center wants a bridge contract of up to 336 days (a 66-day base plus three 90-day options) for preventive and emergency repair of the Air Force fuels program, starting September 29, 2026, right after the current task order expires on September 28. The justification says the bridge is needed to avoid a gap in service while protest litigation over the successor contract remains active; it adds that the incumbent already has the workforce, installation access and maintenance records to continue without a transition period.",
+     "text": "The Army's contracting office at Rock Island issued a notice to proceed on September 10, 2026 for armed guard services near Erbil International Airport, supporting U.S. Army Central and the Combined Joint Task Force for Operation Inherent Resolve, and awarded it as an undefinitized task order. The justification for skipping competition among existing contract holders is dated October 8, 2026, so it was written after the award. The Army says about 20 days were left to mobilize armed guards, and picked GardaWorld as the vendor most immediately able to perform based on responses to a request for information.",
      "links": [
       {
        "text": "Notice",
-       "url": "https://sam.gov/workspace/contract/opp/c85f73a342cd46a29ffd9064a39fc51a/view"
+       "url": "https://sam.gov/workspace/contract/opp/7a047e0a2c164e198e383cc91e614339/view"
       },
       {
        "text": "J&A document",
-       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6a48b00f40724d06a4c8a0ec5d2526bb/download"
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9ab143bdd0cd4d7887435b116b7b465d/download"
       }
      ]
     },
     {
      "type": "card",
-     "title": "Navy asks for a third bridge for Washington-area custodial services after two Government Accountability Office protests",
-     "meta": [
-      "NJS Joint Venture, LLC",
-      "Value redacted",
-      "Urgent need, no time to compete",
-      "Department of Defense (Naval Facilities Engineering Systems Command Washington)"
-     ],
-     "text": "The Navy wants a 12-month bridge (a two-month base plus ten one-month options, October 1, 2026 through September 30, 2027) for custodial services at Naval District Washington facilities. The justification says a pre-award protest filed March 16, 2026 delayed proposal evaluations, and that after the Government Accountability Office dismissed it, a second protest was received May 22, 2026.",
-     "links": [
-      {
-       "text": "Notice",
-       "url": "https://sam.gov/workspace/contract/opp/95b7a5af64dc4422b456e21ae52d0f45/view"
-      },
-      {
-       "text": "J&A document",
-       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b5147d6755d6412ea032505f853dc86e/download"
-      }
-     ]
-    },
-    {
-     "type": "card",
-     "title": "U.S. Citizenship and Immigration Services sole-sources follow-on support for court-ordered family reunification of separated families",
+     "title": "Homeland Security extends court-ordered family reunification help to the International Organization for Migration, after the old contract ran out",
      "meta": [
       "International Organization for Migration",
-      "Value redacted",
-      "Urgent need, no time to compete",
-      "Department of Homeland Security"
+      "value redacted",
+      "urgent need, no time to compete",
+      "U.S. Citizenship and Immigration Services"
      ],
-     "text": "The follow-on covers help with parole and work-authorization applications, travel booking, pre-departure briefings and a help desk for families covered by the <em>Miss L. v. Immigration and Customs Enforcement</em> settlement. The incumbent contract, first awarded to the International Organization for Migration on August 13, 2021, ran through September 12, 2026 on option periods; the document says responsibility moved from Immigration and Customs Enforcement to the agency in late fiscal 2025, and that a lapse would violate the settlement.",
+     "text": "This is the follow-on to a 2021 sole-source contract set up to comply with a court order in the Miss L. v. Immigration and Customs Enforcement class action, which required the government to return separated families to the United States. The prior contract's options ran through September 12, 2026. The justification says the Secretary of Homeland Security decided in late fiscal year 2025 to move administration from U.S. Immigration and Customs Enforcement to U.S. Citizenship and Immigration Services, and that the agency lacked the roughly 120 days needed to compete the work, citing the risk of violating the settlement if services lapsed.",
      "links": [
       {
        "text": "Notice",
@@ -104,35 +83,35 @@
     },
     {
      "type": "card",
-     "title": "Immigration and Customs Enforcement sole-sources 366 parking spaces near its D.C. headquarters, citing protests and the return-to-office order",
+     "title": "Army Corps of Engineers buys a sole-source bridge to keep Air Force fuel-system maintenance going while a protest is pending",
      "meta": [
-      "Potomac Center CF, LLC",
-      "Value redacted",
-      "Only one company can do it",
-      "Department of Homeland Security (U.S. Immigration and Customs Enforcement)"
+      "Vendor redacted (incumbent)",
+      "value redacted",
+      "urgent need, no time to compete",
+      "Department of the Army, U.S. Army Corps of Engineers Huntsville Engineering and Support Center"
      ],
-     "text": "The agency would buy 366 underground spaces at the Potomac Center South garage in Washington, D.C. for government vehicles. The justification says the spaces are needed for overflow capacity because of a surge in accommodation requests and parking demand under the Executive Order on Return to In-Person Work, and says the garage provides emergency access and egress for employees during protests or building lockdowns.",
+     "text": "The justification covers up to 336 days of preventive and corrective maintenance and emergency repair for the North Atlantic Division\u2013Air Force fuels program, starting September 29, 2026, the day after the current task order expires, with a 66-day base and three 90-day options. The Corps says the bridge is needed because protest litigation over the follow-on contract is still active and the successor contractor cannot begin transition until a notice to proceed is issued. The requiring activity is the Defense Logistics Agency's energy office.",
      "links": [
       {
        "text": "Notice",
-       "url": "https://sam.gov/workspace/contract/opp/ef05f430e2444640a707554aa0a9833c/view"
+       "url": "https://sam.gov/workspace/contract/opp/c85f73a342cd46a29ffd9064a39fc51a/view"
       },
       {
        "text": "J&A document",
-       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/cd982e4aa2054127a63c472c7a850083/download"
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6a48b00f40724d06a4c8a0ec5d2526bb/download"
       }
      ]
     },
     {
      "type": "card",
-     "title": "CACI gets a $152.8 million ceiling increase on an Army support task order without competition",
+     "title": "General Services Administration lifts a task order ceiling by $152.8 million for CACI without a new competition",
      "meta": [
       "CACI",
-      "$152,779,419 estimated",
-      "Skipped the competition among existing contract holders",
-      "General Services Administration (for the U.S. Army Combat Capabilities Development Command C5ISR Center)"
+      "$152,779,419 ceiling increase",
+      "skipped the competition among existing contract holders",
+      "General Services Administration"
      ],
-     "text": "The General Services Administration, acting for the Army, says the task order for threat-analysis and technology support to the soldier was competitively awarded in May 2024 with a $414,857,176 ceiling and a period running through May 2029. The justification says earlier internal funding realignments are exhausted and an immediate ceiling increase is the only way to sustain operations.",
+     "text": "The agency's Federal Systems Integration and Management Center intends to raise the ceiling on a task order for intelligence, surveillance and reconnaissance capabilities and threat analysis support for an Army command-and-control center. It calls the increase a logical follow-on to an existing competed order, with scope unchanged but mission demand above estimates. The document says earlier internal funding realignments are exhausted, making a ceiling increase the only way to sustain operations.",
      "links": [
       {
        "text": "Notice",
@@ -145,40 +124,61 @@
      ]
     },
     {
+     "type": "card",
+     "title": "Immigration and Customs Enforcement buys 366 reserved parking spaces for its Washington headquarters, citing the return-to-office order",
+     "meta": [
+      "Potomac Center CF, LLC",
+      "value redacted",
+      "only one company can do it",
+      "U.S. Immigration and Customs Enforcement"
+     ],
+     "text": "The sole-source buy is for 366 spaces in the Potomac Center South underground garage at 550 12th Street SW in Washington, D.C. The agency says the spaces provide overflow capacity because of a surge in reasonable-accommodation requests and other authorized parking under the Return to In-Person Work executive order, and that the garage is the only facility with a secure connection to its headquarters and security modifications suited to an elevated threat environment that includes frequent protests.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/ef05f430e2444640a707554aa0a9833c/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/cd982e4aa2054127a63c472c7a850083/download"
+      }
+     ]
+    },
+    {
      "type": "subhead",
      "text": "Also worth a look"
     },
     {
      "type": "list",
      "items": [
-      "<strong>Department of Homeland Security</strong> \u2014 enterprise fingerprint-matching licenses, maintenance and sustainment for the biometric systems used for immigration and border screening; <strong>Thales DIS USA Inc.</strong>, value redacted (<a href=\"https://sam.gov/workspace/contract/opp/3b31d4b8ad124ba68df67968995aa8d9/view\">SSJ_FY26_0190</a>).",
-      "<strong>Department of Homeland Security</strong> \u2014 Hootsuite social media management platform and Talkwalker visual recognition for U.S. Immigration and Customs Enforcement public affairs; <strong>Hootsuite Inc.</strong>, brand-name only, value redacted (<a href=\"https://sam.gov/workspace/contract/opp/87fa4242d7d34586a4e47988e2482a3a/view\">JA-26-0292</a>).",
-      "<strong>Department of Defense</strong> \u2014 armed guard services near Erbil International Airport, Iraq for U.S. Army Central and the Operation Inherent Resolve task force, a justification written after the action; <strong>GardaWorld Federal Services</strong>, value redacted (<a href=\"https://sam.gov/workspace/contract/opp/7a047e0a2c164e198e383cc91e614339/view\">W519TC26FA649JEFO</a>).",
-      "<strong>Department of Defense</strong> \u2014 eight aeromedical evacuation communication kits with Starshield terminals for Air Mobility Command; <strong>NexTech Solutions / SpaceX</strong>, brand-name only, value redacted (<a href=\"https://sam.gov/workspace/contract/opp/3126383e734f4d72b4e38ca24bc9fbb8/view\">AECommsKitsBNOJA2026</a>).",
-      "<strong>National Aeronautics and Space Administration</strong> \u2014 orbital safety analysis (collision-avoidance) support to the incumbent; <strong>Omitron, Inc.</strong>, $47,453,711 (<a href=\"https://sam.gov/workspace/contract/opp/4f57d85b34a740a4934f8c4627423464/view\">80GSFC26D0010JOFOC</a>).",
-      "<strong>Department of Defense</strong> \u2014 60-day extension of Fort Carson base operations; <strong>T&amp;H Services LLC</strong>, with a Government Accountability Office protest disrupting the follow-on competition (<a href=\"https://sam.gov/workspace/contract/opp/0857c87c797941aaac9c05e6f7cc81cf/view\">W911RZ19C0002P0085</a>).",
-      "<strong>Department of Defense</strong> \u2014 second bridge for Navy construction-management system operations and database migration; <strong>Bahfed Corp</strong>, $3,800,000 (<a href=\"https://sam.gov/workspace/contract/opp/de5ac99efcf24cf989817108a7ab010d/view\">N3943022F9978_P00006</a>).",
-      "<strong>Department of Defense</strong> \u2014 hydrophone housings for Navy and U.K. hydrophones; <strong>Stark Precision Machine, LLC, D &amp; D Automation, Inc. and Enjet Aero Terre Haute LLC</strong>, $4,100,000 (<a href=\"https://sam.gov/workspace/contract/opp/3658cc5df17d4c33b07973435e9beaf4/view\">CR25390</a>).",
-      "<strong>Department of Defense</strong> \u2014 two-month base plus four one-month bridge for professional support to a Department of Defense manufacturing technology program, after a six-month extension; <strong>PM2 Strategies</strong>, value redacted (<a href=\"https://sam.gov/workspace/contract/opp/3c544a90e43b4c44bb8b7deefcbac336/view\">HQ003426PE158</a>).",
-      "<strong>Department of Defense</strong> \u2014 open solicitation (Combined Synopsis/Solicitation): Navy intends a sole-source delivery order to <strong>The Boeing Company</strong> under an existing basic ordering agreement for navigation-warfare A-kits for F/A-18E/F aircraft (<a href=\"https://sam.gov/workspace/contract/opp/93d0796fae184e8c9f0261231ad5bedc/view\">N00019-25-RFPREQ-TPM265-0780-SYN</a>)."
+      "<strong>U.S. Department of Homeland Security</strong> \u2014 Thales fingerprint-matching software licensing and maintenance for the biometric systems IDENT and HART; vendor <strong>Thales DIS USA Inc.</strong>; value redacted; the agency says the government and third parties cannot get the source code and interfaces (<a href=\"https://sam.gov/workspace/contract/opp/3b31d4b8ad124ba68df67968995aa8d9/view\">SSJ_FY26_0190</a>).",
+      "<strong>National Aeronautics and Space Administration</strong> \u2014 orbital safety and collision-avoidance analysis for Goddard Space Flight Center; vendor <strong>Omitron, Inc.</strong>; $47,453,711 (<a href=\"https://sam.gov/workspace/contract/opp/4f57d85b34a740a4934f8c4627423464/view\">80GSFC26D0010JOFOC</a>).",
+      "<strong>Department of the Navy</strong> \u2014 third bridge for custodial services at Naval District Washington, up to 12 months after two Government Accountability Office protests delayed the replacement award; vendor <strong>NJS Joint Venture, LLC</strong>; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/95b7a5af64dc4422b456e21ae52d0f45/view\">N40080-26-JA-011</a>).",
+      "<strong>Department of the Air Force</strong> \u2014 eight tactical communication kits built around SpaceX Starshield terminals for aeromedical evacuation, brand name only; vendor <strong>NexTech Solutions</strong> with <strong>Space Exploration Technologies Corp.</strong> terminals; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/3126383e734f4d72b4e38ca24bc9fbb8/view\">AECommsKitsBNOJA2026</a>).",
+      "<strong>U.S. Immigration and Customs Enforcement</strong> \u2014 Hootsuite social media platform and Talkwalker visual recognition for public affairs; vendor <strong>Hootsuite Inc.</strong>; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/87fa4242d7d34586a4e47988e2482a3a/view\">JA-26-0292</a>).",
+      "<strong>Washington Headquarters Services</strong> \u2014 bridge of support services for a Department of Defense ManTech program, two-month base plus four one-month options; vendor <strong>PM2 Strategies</strong>; value redacted (<a href=\"https://sam.gov/workspace/contract/opp/3c544a90e43b4c44bb8b7deefcbac336/view\">HQ003426PE158</a>).",
+      "<strong>U.S. Coast Guard</strong> \u2014 request for proposals for the Homeland Security Cutter \u2013 Light Icebreaker, an indefinite-delivery contract for design and production of a new vessel class, two-phase down-select (<a href=\"https://sam.gov/workspace/contract/opp/c70dfd0881ef43de87526ca7ac049d0c/view\">70Z02326R93280004</a>).",
+      "<strong>General Services Administration</strong> \u2014 multiple-award construction contract for the D.C. Metro area; proposals due October 29, 2026 (<a href=\"https://sam.gov/workspace/contract/opp/d3c1bbb227e1424d84b827e600306a47/view\">47PH5226R0003</a>).",
+      "<strong>Department of the Navy</strong> \u2014 Naval Sea Systems Command solicitation for sustaining a time-and-attendance system with more than 60,000 users, including the Executive Office of the President (<a href=\"https://sam.gov/workspace/contract/opp/f5eab03cf50c4fa09b53ed95e157ce55/view\">N0003926R0005</a>).",
+      "<strong>General Services Administration</strong> \u2014 one class justification for Transportation Security Administration on-airport office and support space leases across 441 U.S. locations; no vendor named (<a href=\"https://sam.gov/workspace/contract/opp/3234666fd8334510b46749dd31c16c21/view\">6CA1463</a>)."
      ]
     },
     {
      "type": "note",
-     "text": "Other sole-source justifications (routine parts, renewals, maintenance, leases and smaller buys): <strong>Department of Defense</strong> \u2014 20 (<a href=\"https://sam.gov/workspace/contract/opp/10d0adcbe40a42e48078597c42d1d485/view\">W912BU26RADERP</a>, <a href=\"https://sam.gov/workspace/contract/opp/abaead089f7a4abc89c42f7068c6119f/view\">1301383174</a>, <a href=\"https://sam.gov/workspace/contract/opp/42f54f55338d49db89d49dd1ea2313b1/view\">N6247326F0710</a>, <a href=\"https://sam.gov/workspace/contract/opp/24843b2725774d8faa5e5874669f6182/view\">FA251725F0154P00001</a>, <a href=\"https://sam.gov/workspace/contract/opp/cfab29e6fa934666b41e78871e59b150/view\">SDA-SN-27-0001</a>, <a href=\"https://sam.gov/workspace/contract/opp/17b588f2ca4a4448be23bb53c45e5fab/view\">DACMS2026SSJA</a>, <a href=\"https://sam.gov/workspace/contract/opp/fdab436a0fc2461f97048c28f55e96b7/view\">WHS-26-R-DCFO-RMF</a>, <a href=\"https://sam.gov/workspace/contract/opp/3ad734f311ff40278eb6981912a697df/view\">SPE7MX25R0005</a>, <a href=\"https://sam.gov/workspace/contract/opp/c5524713c3664d6a91296324a448f940/view\">FA282327P0006</a>, <a href=\"https://sam.gov/workspace/contract/opp/1187d0c6cf174865ad5e67c707ff792a/view\">SPE60126P1506</a>, <a href=\"https://sam.gov/workspace/contract/opp/ef24d7a2bd52409fbc8e06b343af093a/view\">SPE8ED26Q0576</a>, <a href=\"https://sam.gov/workspace/contract/opp/db973f78e1e74486a7b0b566a61f0dd8/view\">SP4709-26-Q-1019</a>, <a href=\"https://sam.gov/workspace/contract/opp/b313e599e2e843839eb3de6ea5aa7444/view\">SP4709-26-Q-1012</a>, <a href=\"https://sam.gov/workspace/contract/opp/769f7a64f5544abfbe014af183caa5a5/view\">W912BU22D0016</a>, <a href=\"https://sam.gov/workspace/contract/opp/2ff64744e07143ef984c2bbbdeaa491c/view\">NAVWAR_HQCA-2026-A-093</a>, <a href=\"https://sam.gov/workspace/contract/opp/2e6caa9f00c54bebaa0e0969e37c8d93/view\">SPE7L1</a>, <a href=\"https://sam.gov/workspace/contract/opp/00f2890283614c4abbbc44d98d1b5316/view\">SP4706-26-P-0024</a>, <a href=\"https://sam.gov/workspace/contract/opp/e35077eb9cbd4fe088881597ebbc02bd/view\">SPRTA126R0254_Redacted_JA</a>, <a href=\"https://sam.gov/workspace/contract/opp/13f81ff8450049fa8c37a6d49eb2c201/view\">M6785426C0085</a>, <a href=\"https://sam.gov/workspace/contract/opp/06db1585f85e4fbd9c0297da2656fe92/view\">JA-26-RockIsland-EIS-0454</a>); <strong>General Services Administration</strong> \u2014 5 (<a href=\"https://sam.gov/workspace/contract/opp/1a2f2ce19b6f4f97981c8d9cc5383787/view\">4ID0159</a>, <a href=\"https://sam.gov/workspace/contract/opp/3234666fd8334510b46749dd31c16c21/view\">6CA1463</a>, <a href=\"https://sam.gov/workspace/contract/opp/51cfe8792f994c3797f3daae3bf54ae5/view\">47QACA26F0494_</a>, <a href=\"https://sam.gov/workspace/contract/opp/e93f5dc170ca48da8f12076b08d2df29/view\">0MD2322</a>, <a href=\"https://sam.gov/workspace/contract/opp/986329b9d26e4431b4f3e455eb8c9c4e/view\">4TX0994</a>); <strong>Department of Homeland Security</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/3f39b39c6a934ca1b5d6edcb49e212a2/view\">JA260229</a>, <a href=\"https://sam.gov/workspace/contract/opp/1326458d4ee84a1e9ca2ac4e981d64ca/view\">JA-2026-01-1370</a>, <a href=\"https://sam.gov/workspace/contract/opp/031ed3737db44d93ba3228c461ce4d61/view\">27NCR0001</a>); <strong>Department of the Treasury</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/1bde592dd03d4be397446ceacbcf3365/view\">2032H8-27-C-00001</a>, <a href=\"https://sam.gov/workspace/contract/opp/7ec34b9203924a4b82badb4f95dbb88e/view\">20731JW27P00001</a>, <a href=\"https://sam.gov/workspace/contract/opp/815449b5fed440d8b85d03255b1aedb1/view\">2032H8-27-F-00001</a>); <strong>Department of Health and Human Services</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/e3f145eb4a824b369581aa84bc3e5d26/view\">7571PS26C00061</a>, <a href=\"https://sam.gov/workspace/contract/opp/0dc8ef2d83734849b27086243edba9c5/view\">7571MN26C00062</a>); <strong>Department of Veterans Affairs</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/aed85c0e621444b3b3f9c32dfcb070ea/view\">36C25926D0053</a>); <strong>Department of State</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/7357974904ff4ec6b97c346c23cc5f5d/view\">19AJ2026P0285</a>); <strong>Department of Justice</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/f3c362c534a547038bac36c73bbdb2af/view\">15B10727P00000001</a>); <strong>National Archives and Records Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/ea913b2b80bb4ada8c9bbc482964c057/view\">88310326F00140</a>); <strong>National Aeronautics and Space Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/a66e5b1f22a14a89a6f642b898b05b8a/view\">80HQTR26C0010</a>)."
+     "text": "Other sole-source justifications (routine parts, renewals, maintenance, leases, small buys): <strong>Defense Logistics Agency</strong> \u2014 8 (<a href=\"https://sam.gov/workspace/contract/opp/3ad734f311ff40278eb6981912a697df/view\">SPE7MX25R0005</a>, <a href=\"https://sam.gov/workspace/contract/opp/1187d0c6cf174865ad5e67c707ff792a/view\">SPE60126P1506</a>, <a href=\"https://sam.gov/workspace/contract/opp/ef24d7a2bd52409fbc8e06b343af093a/view\">SPE8ED26Q0576</a>, <a href=\"https://sam.gov/workspace/contract/opp/db973f78e1e74486a7b0b566a61f0dd8/view\">SP4709-26-Q-1019</a>, <a href=\"https://sam.gov/workspace/contract/opp/b313e599e2e843839eb3de6ea5aa7444/view\">SP4709-26-Q-1012</a>, <a href=\"https://sam.gov/workspace/contract/opp/2e6caa9f00c54bebaa0e0969e37c8d93/view\">SPE7L1</a>, <a href=\"https://sam.gov/workspace/contract/opp/00f2890283614c4abbbc44d98d1b5316/view\">SP4706-26-P-0024</a>, <a href=\"https://sam.gov/workspace/contract/opp/e35077eb9cbd4fe088881597ebbc02bd/view\">SPRTA126R0254_Redacted_JA</a>); <strong>Department of the Navy</strong> \u2014 6 (<a href=\"https://sam.gov/workspace/contract/opp/de5ac99efcf24cf989817108a7ab010d/view\">N3943022F9978_P00006</a>, <a href=\"https://sam.gov/workspace/contract/opp/42f54f55338d49db89d49dd1ea2313b1/view\">N6247326F0710</a>, <a href=\"https://sam.gov/workspace/contract/opp/abaead089f7a4abc89c42f7068c6119f/view\">1301383174</a>, <a href=\"https://sam.gov/workspace/contract/opp/3658cc5df17d4c33b07973435e9beaf4/view\">CR25390</a>, <a href=\"https://sam.gov/workspace/contract/opp/2ff64744e07143ef984c2bbbdeaa491c/view\">NAVWAR_HQCA-2026-A-093</a>, <a href=\"https://sam.gov/workspace/contract/opp/13f81ff8450049fa8c37a6d49eb2c201/view\">M6785426C0085</a>); <strong>Department of the Army</strong> \u2014 4 (<a href=\"https://sam.gov/workspace/contract/opp/0857c87c797941aaac9c05e6f7cc81cf/view\">W911RZ19C0002P0085</a>, <a href=\"https://sam.gov/workspace/contract/opp/10d0adcbe40a42e48078597c42d1d485/view\">W912BU26RADERP</a>, <a href=\"https://sam.gov/workspace/contract/opp/769f7a64f5544abfbe014af183caa5a5/view\">W912BU22D0016</a>, <a href=\"https://sam.gov/workspace/contract/opp/06db1585f85e4fbd9c0297da2656fe92/view\">JA-26-RockIsland-EIS-0454</a>); <strong>Department of the Air Force</strong> \u2014 4 (<a href=\"https://sam.gov/workspace/contract/opp/17b588f2ca4a4448be23bb53c45e5fab/view\">DACMS2026SSJA</a>, <a href=\"https://sam.gov/workspace/contract/opp/cfab29e6fa934666b41e78871e59b150/view\">SDA-SN-27-0001</a>, <a href=\"https://sam.gov/workspace/contract/opp/24843b2725774d8faa5e5874669f6182/view\">FA251725F0154P00001</a>, <a href=\"https://sam.gov/workspace/contract/opp/c5524713c3664d6a91296324a448f940/view\">FA282327P0006</a>); <strong>General Services Administration</strong> \u2014 4 (<a href=\"https://sam.gov/workspace/contract/opp/51cfe8792f994c3797f3daae3bf54ae5/view\">47QACA26F0494_</a>, <a href=\"https://sam.gov/workspace/contract/opp/986329b9d26e4431b4f3e455eb8c9c4e/view\">4TX0994</a>, <a href=\"https://sam.gov/workspace/contract/opp/1a2f2ce19b6f4f97981c8d9cc5383787/view\">4ID0159</a>, <a href=\"https://sam.gov/workspace/contract/opp/e93f5dc170ca48da8f12076b08d2df29/view\">0MD2322</a>); <strong>Department of the Treasury</strong> \u2014 3 (<a href=\"https://sam.gov/workspace/contract/opp/1bde592dd03d4be397446ceacbcf3365/view\">2032H8-27-C-00001</a>, <a href=\"https://sam.gov/workspace/contract/opp/7ec34b9203924a4b82badb4f95dbb88e/view\">20731JW27P00001</a>, <a href=\"https://sam.gov/workspace/contract/opp/815449b5fed440d8b85d03255b1aedb1/view\">2032H8-27-F-00001</a>); <strong>Department of Health and Human Services</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/e3f145eb4a824b369581aa84bc3e5d26/view\">7571PS26C00061</a>, <a href=\"https://sam.gov/workspace/contract/opp/0dc8ef2d83734849b27086243edba9c5/view\">7571MN26C00062</a>); <strong>U.S. Immigration and Customs Enforcement</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/3f39b39c6a934ca1b5d6edcb49e212a2/view\">JA260229</a>); <strong>Department of Justice</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/f3c362c534a547038bac36c73bbdb2af/view\">15B10727P00000001</a>); <strong>Washington Headquarters Services</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/fdab436a0fc2461f97048c28f55e96b7/view\">WHS-26-R-DCFO-RMF</a>); <strong>Department of Veterans Affairs</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/aed85c0e621444b3b3f9c32dfcb070ea/view\">36C25926D0053</a>); <strong>Department of State</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/7357974904ff4ec6b97c346c23cc5f5d/view\">19AJ2026P0285</a>); <strong>National Archives and Records Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/ea913b2b80bb4ada8c9bbc482964c057/view\">88310326F00140</a>); <strong>National Aeronautics and Space Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/a66e5b1f22a14a89a6f642b898b05b8a/view\">80HQTR26C0010</a>); <strong>Transportation Security Administration</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/1326458d4ee84a1e9ca2ac4e981d64ca/view\">JA-2026-01-1370</a>); <strong>Federal Law Enforcement Training Center</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/031ed3737db44d93ba3228c461ce4d61/view\">27NCR0001</a>)."
     },
     {
      "type": "note",
-     "text": "Solicitations not listed (829, of 921 new): Department of Defense, 634, Department of Veterans Affairs, 75, Department of Agriculture, 25, Department of the Interior, 15, National Aeronautics and Space Administration, 12, Department of Health and Human Services, 12, Department of State, 10, Department of Transportation, 9, Department of Energy, 7, General Services Administration, 6, Department of Commerce, 5, Department of Homeland Security, 5, Department of Justice, 4, Social Security Administration, 2, Administrative Office of The Us Courts, 2, Federal Deposit Insurance Corporation, 1, Pension Benefit Guaranty Corporation, 1, Department of Housing and Urban Development, 1, Environmental Protection Agency, 1, National Archives and Records Administration, 1, Commodity Futures Trading Commission, 1. 0 solicitations and 0 justifications repeated from earlier editions are omitted; 91 flagged solicitations were amendments or reposts of ones already listed. All 921 of 921 solicitations were fetched."
+     "text": "Solicitations not listed (about 824): <strong>Defense Logistics Agency</strong>, 336, <strong>Department of the Navy</strong>, 194, <strong>Department of Veterans Affairs</strong>, 73, <strong>Department of the Army</strong>, 65, <strong>Department of the Air Force</strong>, 29, <strong>Department of Agriculture</strong>, 25, <strong>Department of the Interior</strong>, 14, <strong>National Aeronautics and Space Administration</strong>, 12; all other agencies, 76. The 922 new solicitations also include 97 amendments to solicitations already flagged in earlier editions (new deadlines or question-and-answer updates), which are omitted. All 922 solicitations in the window were fetched; no quota was hit."
     }
    ],
    "no_news": false
   },
   {
    "eyebrow": "USAspending Contracts",
-   "headline": "No new awards of $2 million or more; four mid-size awards stand out",
+   "headline": "No new contract awards of $2 million or more; four under-$2 million awards stand out",
    "paragraphs": [
-    "No new contract awards of $2 million or more appeared in the September 14 to October 9 sweep. Among 45 new awards between $100,000 and $2 million, four were flagged."
+    "No new awards of $2 million or more appeared in the September 14\u2013October 9, 2026 sweep. Among 45 new awards between $100,000 and $2 million from October 6\u20139, four are worth a line each; none involves the White House or the Executive Office of the President."
    ],
    "blocks": [
     {
@@ -188,24 +188,24 @@
     {
      "type": "list",
      "items": [
-      "<strong>Deloitte Consulting LLP</strong> \u2014 $1,199,958.75, National Aeronautics and Space Administration: program support for systems engineering, integration and risk management on the lunar landing missions at Marshall Space Flight Center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80HQTR27FA002_8000_80HQTR24AA007_8000\">award</a>).",
-      "<strong>Fasone Construction, Inc.</strong> \u2014 $1,147,809.73, General Services Administration: task order for hardening (security upgrades) at the Richard H. Chambers Courthouse in Pasadena, California (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PD5427F0003_4740_47PK0121D0052_4740\">award</a>).",
-      "<strong>Procare Ambulance of Maryland, Inc.</strong> \u2014 $1,252,145.65, Department of Veterans Affairs: first ordering period of ambulance services for the Washington, D.C. medical center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24527N0062_3600_36C24527D0003_3600\">award</a>).",
-      "<strong>Hirt Electric, LLC</strong> \u2014 $585,400, Department of Veterans Affairs: replacing chillers in Building 1W at the Huntington, West Virginia medical center; the description notes a new contract clause on diversity, equity and inclusion discrimination (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24527N0080_3600_36C24525D0041_3600\">award</a>)."
+      "<strong>Deloitte Consulting LLP</strong> \u2014 $1,199,958, National Aeronautics and Space Administration: program support covering systems engineering, integration, risk and certification expertise for lunar landing missions at Marshall Space Flight Center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80HQTR27FA002_8000_80HQTR24AA007_8000\">award</a>).",
+      "<strong>Fasone Construction, Inc.</strong> \u2014 $1,147,809, General Services Administration: task order for \"court hardening\" at the Richard H. Chambers Courthouse in Pasadena, California, a security upgrade to a federal courthouse (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PD5427F0003_4740_47PK0121D0052_4740\">award</a>).",
+      "<strong>Procare Ambulance of Maryland, Inc.</strong> \u2014 $1,252,145, Department of Veterans Affairs: first ordering period of ambulance services for the Washington, D.C. VA Medical Center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24527N0062_3600_36C24527D0003_3600\">award</a>).",
+      "<strong>Hirt Electric, LLC</strong> \u2014 $585,400, Department of Veterans Affairs: chiller replacement at the Huntington VA Medical Center, with a modification adding the new federal clause on diversity, equity and inclusion discrimination (FAR 52.222-90) \u2014 routine boilerplate rather than a dispute (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24527N0080_3600_36C24525D0041_3600\">award</a>)."
      ]
     },
     {
      "type": "note",
-     "text": "45 new awards under $2 million were screened; all 4 flagged awards are listed above and 41 routine ones are not, led by the Department of Veterans Affairs (22) and the General Services Administration (5). One award worth $1.2 million cites Executive Order 14398 in its description."
+     "text": "45 new awards under $2 million were screened; all 4 flagged are listed above and 41 are routine, led by 22 from the Department of Veterans Affairs and 5 from the General Services Administration. One award worth $1.2 million cites Executive Order 14398 in its description."
     }
    ],
-   "no_news": false
+   "no_news": true
   },
   {
    "eyebrow": "OMB Apportionments",
-   "headline": "No new apportionments approved this week",
+   "headline": "No new apportionment files approved in this window",
    "paragraphs": [
-    "No new apportionment files were released by the Office of Management and Budget during the October 4\u20139 window. Spend Plan updates were checked across 145 federal agencies, with no new or revised plans published."
+    "The federal apportionment process \u2014 in which the Office of Management and Budget releases appropriated funds to agencies in quarterly tranches \u2014 produced no new filings between October 4\u20139, 2026. Both OpenOMB.org and the official apportionment tracking system remained accessible with no new flagged items or spend-plan modifications of note."
    ],
    "blocks": [],
    "no_news": true
@@ -233,9 +233,9 @@
   }
  ],
  "footer": {
-  "coverage_window": "October 8-9, 2026 (Pacific time) for SAM.gov, October 4-9 for OMB, and October 6-9 for sub-$2 million USAspending awards, with a trailing sweep from September 14 for USAspending contract actions of $2 million or more.",
+  "coverage_window": "SAM.gov October 8\u20139, 2026; USAspending awards of $2 million or more, September 14\u2013October 9, 2026; awards under $2 million, October 6\u20139, 2026; OMB apportionments October 4\u20139, 2026 (Pacific time).",
   "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API; SAM.gov Get Opportunities Public API.",
-  "known_gaps": "No tasks were skipped. Several J&A values and vendor names are redacted in the source documents."
+  "known_gaps": "No tasks were skipped. Sole-source values are shown only where verified in the J&A document; many are redacted. Haiku screening was used for solicitations and under-$2 million awards."
  },
  "beat": []
 }
