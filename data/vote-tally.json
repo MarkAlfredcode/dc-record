@@ -4429,56 +4429,6 @@
   "rolls": [
     {
       "chamber": "senate",
-      "date": "2026-09-17",
-      "nay": 22,
-      "not_voting": [
-        "S347"
-      ],
-      "num": 236,
-      "question": "On the Motion to Proceed",
-      "result": "Motion to Proceed Agreed to",
-      "subject": "Motion to Proceed to S. 4668",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00236.htm",
-      "yea": 77
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-17",
-      "nay": 47,
-      "not_voting": [
-        "S407",
-        "S174",
-        "S347",
-        "S412"
-      ],
-      "num": 237,
-      "question": "On the Cloture Motion",
-      "result": "Cloture Motion Agreed to",
-      "subject": "Motion to Invoke Cloture: Kasdin Miller Mitchell to be U.S. District Judge for the Northern District of Texas",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00237.htm",
-      "yea": 49
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-17",
-      "nay": 45,
-      "not_voting": [
-        "S411",
-        "S174",
-        "S347",
-        "S324",
-        "S412",
-        "S390"
-      ],
-      "num": 238,
-      "question": "On the Nomination",
-      "result": "Nomination Confirmed",
-      "subject": "Confirmation: Kasdin Miller Mitchell, of Texas, to be U.S. District Judge for the Northern District of Texas",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00238.htm",
-      "yea": 49
-    },
-    {
-      "chamber": "senate",
       "date": "2026-09-22",
       "nay": 43,
       "not_voting": [
