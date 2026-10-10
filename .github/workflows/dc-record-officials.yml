@@ -278,10 +278,11 @@ jobs:
           # naturally re-find and correctly email whatever this run scraped
           # first.
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/pfd-ptr-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json 2>/dev/null || true
+            git checkout -- data/pfd-ptr-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json data/stock-act-ledger.json 2>/dev/null || true
           fi
           git add data/pfd-ptr-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json \
-            data/presidential-trades-seen.json data/ethics-agreements.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json digest/ archive/
+            data/presidential-trades-seen.json data/ethics-agreements.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json \
+            data/stock-act-ledger.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

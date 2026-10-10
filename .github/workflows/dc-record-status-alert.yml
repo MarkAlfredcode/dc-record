@@ -28,7 +28,6 @@ on:
     workflows:
       - "DC Record • Campaigns"
       - "DC Record • Congress"
-      - "DC Record • Conflicts"
       - "DC Record • The Feds"
       - "DC Record • Officials"
     types: [completed]

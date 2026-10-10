@@ -56,7 +56,6 @@ LA_TZ = ZoneInfo("America/Los_Angeles")
 EDITIONS = [
     ("campaigns", "dc-record-campaigns.yml", "Campaigns"),
     ("congress", "dc-record-congress.yml", "Congress"),
-    ("conflicts", "dc-record-conflicts.yml", "Conflicts"),
     ("feds", "dc-record-feds.yml", "The Feds"),
     ("officials", "dc-record-officials.yml", "Officials"),
 ]

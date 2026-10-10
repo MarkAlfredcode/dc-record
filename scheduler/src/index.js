@@ -12,8 +12,8 @@
 const REPO = "MarkAlfredcode/dc-record";
 
 const CRON_TO_WORKFLOWS = {
-  "0 14 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml", "dc-record-conflicts.yml"], // AM (~7:00am PDT)
-  "45 22 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml", "dc-record-conflicts.yml"], // PM
+  "0 14 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // AM (~7:00am PDT)
+  "45 22 * * *": ["dc-record-campaigns.yml", "dc-record-officials.yml", "dc-record-feds.yml", "dc-record-congress.yml"], // PM
   // Usage-window pings moved 2026-10-10 to an hourly schedule in the public
   // MarkAlfredcode/cron-utils repo (free Actions minutes there).
 };
@@ -32,21 +32,20 @@ const CRON_MODE = {
 
 // Manual override, used ONLY for a dry test dispatch (never a real cron
 // fire) -- forces a run to skip sending email entirely regardless of live
-// subscribers, for a pure content-only smoke test. Congress and Conflicts
-// map to null because they never email either way, and their
-// workflow_dispatch declares no inputs at all (passing any would 422).
+// subscribers, for a pure content-only smoke test. Congress maps to null
+// because it never emails either way, and its workflow_dispatch declares no
+// inputs at all (passing any would 422).
 const MANUAL_SKIP_INPUT = {
   "dc-record-campaigns.yml": { skip_email: "true" },
   "dc-record-officials.yml": { site_refresh_only: "true" },
   "dc-record-feds.yml": { site_refresh_only: "true" },
   "dc-record-congress.yml": null,
-  "dc-record-conflicts.yml": null,
 };
 
 function inputsFor(cron, workflowFile, { dry }) {
   if (dry) return MANUAL_SKIP_INPUT[workflowFile] || undefined; // manual test: never risk a real send
   const mode = CRON_MODE[cron];
-  if (!mode || workflowFile === "dc-record-congress.yml" || workflowFile === "dc-record-conflicts.yml") return undefined; // Congress/Conflicts/ping take no inputs
+  if (!mode || workflowFile === "dc-record-congress.yml") return undefined; // Congress/ping take no inputs
   return { mode };
 }
 

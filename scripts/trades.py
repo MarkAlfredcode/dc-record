@@ -1,6 +1,7 @@
 """Mechanical transaction parsers + trade-timing checks, shared by
-fetch_pfd_analysis.py (House/Senate PTRs), fetch_ethics_agreements.py (OGE
-278-Ts vs. ethics-agreement deadlines) and fetch_presidential_trades.py.
+fetch_ethics_agreements.py (OGE 278-Ts vs. ethics-agreement deadlines) and
+fetch_presidential_trades.py (the House/Senate PTR parsers were also used by
+the Conflicts edition's fetch_pfd_analysis.py, removed 2026-10-10).
 
 Parsers are deliberately tolerant and report what they could NOT parse, so
 callers can say "parsed X of Y" instead of implying completeness:
