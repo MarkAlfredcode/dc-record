@@ -46,7 +46,8 @@ _SKIP = re.compile(r"^(redacted|null|none|unknown|n/?a|various|multiple|tbd)$", 
 def search_text(name):
     """What to send USAspending: suffixes and punctuation stripped, words as
     written (its search finds nothing for "bae system land and armament")."""
-    k = _SUFFIX.sub(" ", re.sub(r"[^a-z0-9& ]", " ", (name or "").lower()))
+    # USAspending files "M & M WELDING": spaced ampersands, or the search finds nothing.
+    k = _SUFFIX.sub(" ", re.sub(r"[^a-z0-9& ]", " ", (name or "").lower().replace("&", " & ")))
     return " ".join(re.sub(r"\b([a-z]) (\d)\b", r"\1\2", k).split())  # "L-3" -> "l3"
 
 
@@ -136,7 +137,10 @@ def _attempts(name):
     shorten past a distinctive word: "Ultimate Fighting Championship" ->
     "ultimate" matched ULTIMATE CONCRETE LLC."""
     key = search_text(name)
-    out = [key, ALIASES.get(key)]
+    # Hyphens kept as written: "Mid-America Aerotech" finds MID-AMERICA
+    # AEROTECH, LLC; "mid america aerotech" finds nothing.
+    hyphen = " ".join(_SUFFIX.sub(" ", re.sub(r"[^a-z0-9&\- ]", " ", name.lower().replace("&", " & "))).split())
+    out = [key, hyphen if "-" in hyphen else None, ALIASES.get(key)]
     w = key.split()
     for n in (2, 1):
         if len(w) > n and all(x in _GENERIC for x in w[n:]) and (n == 2 or (len(w[0]) >= 4 and w[0] not in _GENERIC)):
