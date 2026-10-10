@@ -1,0 +1,305 @@
+{
+ "date": "Saturday, October 10, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Navy extends Washington-area custodial contract a third time after two protests",
+  "dek": "The Naval District Washington bridge is one of several sole-source extensions posted October 9 that lean on stalled competitions.",
+  "paragraphs": [
+   "The Navy posted a justification for a third sole-source bridge of custodial services for Naval District Washington facilities, covering October 2026 through September 2027, with <strong>NJS Joint Venture, LLC</strong> as the vendor and the value redacted. The Naval Facilities Engineering Systems Command Washington office says a Government Accountability Office pre-award protest filed March 16, 2026 delayed proposal evaluations, and a second protest filed May 22, 2026 followed the dismissal of the first.",
+   "The same day, the Army Corps of Engineers posted a bridge for Air Force fuel-facility maintenance, citing active Court of Federal Claims litigation, and the Navy posted a second one-year bridge for a legacy construction-management system run by <strong>Bahfed Corp</strong>, valued at $3,800,000."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Custodial services notice",
+     "url": "https://sam.gov/workspace/contract/opp/95b7a5af64dc4422b456e21ae52d0f45/view"
+    },
+    {
+     "text": "Custodial services J&A",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b5147d6755d6412ea032505f853dc86e/download"
+    },
+    {
+     "text": "Fuel maintenance bridge notice",
+     "url": "https://sam.gov/workspace/contract/opp/c85f73a342cd46a29ffd9064a39fc51a/view"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Federal Contracting Actions (SAM.gov)",
+   "headline": "Navy extends Washington-area custodial contract a third time after two Government Accountability Office protests",
+   "paragraphs": [
+    "20 new sole-source justifications and 159 new solicitations were posted October 9\u201310; 3 justifications and 140 solicitations already covered in earlier editions are not repeated. Four of the five must-read items are bridge contracts that keep an incumbent in place while a competition is stalled."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Must read"
+    },
+    {
+     "type": "card",
+     "title": "Navy gives a third bridge to its Washington-area custodial contractor after two protests stalled the replacement contract",
+     "meta": [
+      "NJS Joint Venture, LLC",
+      "value redacted",
+      "urgent need, no time to compete",
+      "Department of the Navy, Naval Facilities Engineering Systems Command Washington"
+     ],
+     "text": "The Navy is extending custodial services for Naval District Washington facilities for October 2026 through September 2027. The justification says a Government Accountability Office pre-award protest filed March 16, 2026 delayed proposal evaluations, and a second protest filed May 22, 2026 followed the dismissal of the first; with no time left for a new award and a 30-day transition, it picked the incumbent. This is the third bridge for the contract.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/95b7a5af64dc4422b456e21ae52d0f45/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b5147d6755d6412ea032505f853dc86e/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army Corps of Engineers bridges fuel-facility maintenance for the Air Force while a bid protest is in court",
+     "meta": [
+      "Vendor redacted",
+      "value redacted",
+      "urgent need, no time to compete",
+      "Department of the Army, U.S. Army Corps of Engineers Huntsville Engineering and Support Center"
+     ],
+     "text": "The Army Corps of Engineers is awarding a sole-source bridge of up to 336 days for preventive and corrective maintenance and emergency repair of the Air Force fuels program in the North Atlantic Division, for the Defense Logistics Agency. The justification says Court of Federal Claims litigation is active and the follow-on contractor cannot begin performance, and that without a bridge the government would have no contractor after September 28, 2026.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/c85f73a342cd46a29ffd9064a39fc51a/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6a48b00f40724d06a4c8a0ec5d2526bb/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy buys a second one-year bridge for a legacy construction-management system, citing the shutdown",
+     "meta": [
+      "Bahfed Corp",
+      "$3,800,000 estimated",
+      "limited-source order (only one company can do it)",
+      "Department of the Navy, Naval Facilities Engineering Systems and Expeditionary Warfare Center"
+     ],
+     "text": "The justification authorizes a 12-month bridge extension of a task order for maintenance and database-migration support of the legacy eCMS system used for Naval Facilities Engineering Systems Command construction management. The Navy blames a 43-day partial federal government shutdown at the start of fiscal year 2026 and the wait for a Defense Information Systems Agency provisional authorization for stalling the transition, and says Bahfed is the incumbent and exclusive authorized reseller of the legacy platform.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/de5ac99efcf24cf989817108a7ab010d/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fed8298fdf234010b36df85e53537e6b/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy keeps CACI on a budget-defense system because only the incumbent can reach its data",
+     "meta": [
+      "CACI",
+      "value redacted",
+      "only one company can do it",
+      "Department of the Navy, Naval Supply Systems Command Fleet Logistics Center San Diego"
+     ],
+     "text": "The Navy is giving CACI a follow-on contract for technical and analytical support of the Aviation Cost Evaluation System, which supports Naval Air Forces budget defense. The justification says only CACI can reach the legacy data on commercial servers needed for a migration to a government cloud. Separately, this pipeline logged an October 8 justification for CACI at the General Services Administration, a task order ceiling increase valued at $152,779,419.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/abaead089f7a4abc89c42f7068c6119f/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/30d8a28bd48f4c578e52ee6f84711f14/download"
+      },
+      {
+       "text": "Earlier CACI justification",
+       "url": "https://sam.gov/workspace/contract/opp/ad37e4fef707475eb4a3e9c8fea0e1b8/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Air Force picks brand-name SpaceX Starshield terminals for aeromedical evacuation communications kits",
+     "meta": [
+      "NexTech Solutions / SpaceX",
+      "value redacted",
+      "brand-name only",
+      "Department of the Air Force, 763rd Enterprise Sourcing Squadron"
+     ],
+     "text": "Air Mobility Command wants eight TUCK-19 routing and automation kits and four SpaceX Starshield terminals to build tactical communications kits for aeromedical evacuation. The justification says no other platform has reached the same level of low-size, low-weight hardware and software automation integration, and describes the pairing as a new requirement.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/workspace/contract/opp/3126383e734f4d72b4e38ca24bc9fbb8/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c947bd9c4fc9464899e72a61bb8d0b40/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of Health and Human Services</strong> \u2014 two sole-source buys from <strong>Premier Healthcare Solutions, Inc.</strong> for its proprietary healthcare database: maternal morbidity and mortality data analysis for the Office on Women's Health (<a href=\"https://sam.gov/workspace/contract/opp/e3f145eb4a824b369581aa84bc3e5d26/view\">7571PS26C00061</a>) and a fertility data and analysis initiative (<a href=\"https://sam.gov/workspace/contract/opp/0dc8ef2d83734849b27086243edba9c5/view\">7571MN26C00062</a>); no values stated.",
+      "<strong>General Services Administration</strong> \u2014 class justification for leasing on-airport workspace for the Transportation Security Administration at 441 locations averaging about 3,000 square feet; no vendor or value (<a href=\"https://sam.gov/workspace/contract/opp/3234666fd8334510b46749dd31c16c21/view\">6CA1463</a>).",
+      "<strong>Department of the Navy, Naval Facilities Engineering Systems Command Southwest</strong> \u2014 12-month bridge for resource-efficiency management services at four Marine Corps and Navy installations; incumbent <strong>Lindahl Reed, Inc.</strong>; no value stated (<a href=\"https://sam.gov/workspace/contract/opp/42f54f55338d49db89d49dd1ea2313b1/view\">N6247326F0710</a>).",
+      "<strong>National Aeronautics and Space Administration</strong> \u2014 Commercial Low Earth Orbit Destination Contract request for proposals, from Johnson Space Center (<a href=\"https://sam.gov/workspace/contract/opp/aee4374189ab4118b3ec0dcb00ae8408/view\">80JSC027R0004</a>).",
+      "<strong>National Aeronautics and Space Administration</strong> \u2014 two NextSTEP-3 lunar solicitations: Lunar Enabling Infrastructure Accelerator (<a href=\"https://sam.gov/workspace/contract/opp/812c81b0f0b84943be12a5f29615d3c8/view\">80GRC026R0008</a>) and Moon Base Demonstrations (<a href=\"https://sam.gov/workspace/contract/opp/65fd92eccfb14d1e971e000dfbd4b930/view\">M2M-MSFC-0001</a>).",
+      "<strong>Defense Logistics Agency</strong> \u2014 presolicitation for a linear electro-mechanical actuator for the LGM-30 Minuteman III missile (<a href=\"https://sam.gov/workspace/contract/opp/fe965536149443c8bd48a403a062c486/view\">SPE4A727R0018-Synopsis</a>).",
+      "<strong>Department of Veterans Affairs</strong> \u2014 draft request for proposals for Medical Disability Examinations-Next Generation (<a href=\"https://sam.gov/workspace/contract/opp/178c9b5d174943fd930150abf84ed6ae/view\">36C10X27R0001</a>).",
+      "<strong>Administrative Office of the U.S. Courts</strong> \u2014 presolicitation for a judiciary-wide Jury Management Solution system (<a href=\"https://sam.gov/workspace/contract/opp/6ba7c891fdc147868fc0fbca45bd54e7/view\">USCA27R0009</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Other sole-source justifications (routine parts, renewals, maintenance, leases): <strong>Defense Logistics Agency</strong> \u2014 4 (<a href=\"https://sam.gov/workspace/contract/opp/2e6caa9f00c54bebaa0e0969e37c8d93/view\">SPE7L126R0081</a>, <a href=\"https://sam.gov/workspace/contract/opp/00f2890283614c4abbbc44d98d1b5316/view\">SP4706-26-P-0024</a>, <a href=\"https://sam.gov/workspace/contract/opp/db973f78e1e74486a7b0b566a61f0dd8/view\">SP4709-26-Q-1019</a>, <a href=\"https://sam.gov/workspace/contract/opp/b313e599e2e843839eb3de6ea5aa7444/view\">SP4709-26-Q-1012</a>); <strong>General Services Administration</strong> \u2014 2 (<a href=\"https://sam.gov/workspace/contract/opp/1a2f2ce19b6f4f97981c8d9cc5383787/view\">4ID0159</a>, <a href=\"https://sam.gov/workspace/contract/opp/986329b9d26e4431b4f3e455eb8c9c4e/view\">4TX0994</a>); <strong>Department of Veterans Affairs</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/aed85c0e621444b3b3f9c32dfcb070ea/view\">36C25926D0053</a>); <strong>Department of the Air Force</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/17b588f2ca4a4448be23bb53c45e5fab/view\">DACMS2026SSJA</a>); <strong>Department of the Treasury</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/7ec34b9203924a4b82badb4f95dbb88e/view\">20731JW27P00001</a>); <strong>Department of the Army</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/769f7a64f5544abfbe014af183caa5a5/view\">W912BU22D0016</a>); <strong>Department of the Navy</strong> \u2014 1 (<a href=\"https://sam.gov/workspace/contract/opp/2ff64744e07143ef984c2bbbdeaa491c/view\">NAVWAR_HQCA-2026-A-093</a>)."
+    },
+    {
+     "type": "note",
+     "text": "Not listed: about 153 other new solicitations, including 123 the screen rated routine, led by Defense Logistics Agency aviation, weapons-support and troop-support buys, Department of Veterans Affairs network contract offices and Army Corps of Engineers districts. A further six flagged notices were amendments or reposts of solicitations already listed in earlier editions and are left out. All 299 solicitations in the window were fetched."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "General Services Administration awards a $21.3 million Nuclear Regulatory Commission office renovation",
+   "paragraphs": [
+    "Nine new awards of $2 million or more were reported, none tied to the White House or the Executive Office of the President. A further 94 new awards under $2 million were screened."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Largest new awards"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Matos-Grunley Joint Venture</strong> won $21,292,000 from the <strong>General Services Administration</strong> (Public Buildings Service) on October 8 to renovate the second and third floors of One White Flint North in Rockville, Maryland, for the <strong>Nuclear Regulatory Commission</strong>. It is the largest new award in the window. <a href=\"https://www.usaspending.gov/award/CONT_AWD_47PB5227F0001_4740_47PL0122D0004_4740\">Award</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>NAPC &amp; HSCC JV LLC</strong> received $10,720,445 from the <strong>Department of Veterans Affairs</strong> on October 8 to renovate ground-floor halls and walls at a hospital; the award record does not name the facility. <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24827C0004_3600_-NONE-_-NONE-\">Award</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Birmingham Industrial Construction, LLC</strong> won $8,400,000 from the <strong>National Aeronautics and Space Administration</strong> on October 8 for phase 3 of revitalizing pressure and propellant systems, classified as utility repair and alteration. <a href=\"https://www.usaspending.gov/award/CONT_AWD_80MSFC27F7050_8000_80SSC018D0011_8000\">Award</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Signature Science LLC</strong> received $3,283,470 from the <strong>Federal Emergency Management Agency</strong> on September 30; the description says the action exercises option period four of an environmental consulting task order and replaces an earlier contract number. <a href=\"https://www.usaspending.gov/award/CONT_AWD_70FA9026F00000011_7022_GS00F105CA_4732\">Award</a>."
+    },
+    {
+     "type": "subhead",
+     "text": "Other new awards of $2 million or more"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Jones Lang LaSalle Americas, Inc.</strong> \u2014 $2,023,946, Department of Justice (<strong>Federal Bureau of Investigation</strong>): real estate and facilities management services on the Maximo platform (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15F06726F0001332_1549_47QSHA19D003F_4732\">award</a>).",
+      "<strong>Roche Diagnostics Corporation</strong> \u2014 $2,014,496, Department of Veterans Affairs: chemistry immunoassay supplies and service order (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C26227N0119_3600_36C26224D0190_3600\">award</a>).",
+      "<strong>NanoRacks, LLC</strong> \u2014 $2,000,000, National Aeronautics and Space Administration: administering the High School Students United with NASA to Create Hardware program (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80JSC027F0007_8000_80JSC027D0001_8000\">award</a>).",
+      "<strong>Advanced Technologies Group LLC</strong> \u2014 $0 reported, Department of Justice (<strong>Federal Bureau of Prisons</strong>): fiscal 2027 operations and maintenance support for the TRUFACS enterprise system (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15BNAS26P00000199_1540_-NONE-_-NONE-\">award</a>).",
+      "<strong>1 Source Consulting, Inc.</strong> \u2014 $0 reported, Department of Homeland Security (<strong>U.S. Citizenship and Immigration Services</strong>): technical and mission support for its Office of Security and Integrity and Office of Investigations (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000284_7003_47QTCA19D00AQ_4732\">award</a>)."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other notable awards"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Deloitte Consulting LLP</strong> \u2014 $1,199,959, National Aeronautics and Space Administration: systems engineering, integration, risk and certification support for the Human Landing System lunar landing missions at Marshall Space Flight Center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80HQTR27FA002_8000_80HQTR24AA007_8000\">award</a>).",
+      "<strong>Fasone Construction, Inc.</strong> \u2014 $2,235,736 across two General Services Administration task orders for federal courthouse hardening, at the Richard H. Chambers Courthouse in Pasadena, California, and the Ronald Reagan Federal Building in Santa Ana, California (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PD5427F0003_4740_47PK0121D0052_4740\">Pasadena $1,147,810</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_47PD5427F0004_4740_47PK0121D0052_4740\">Santa Ana $1,087,926</a>).",
+      "<strong>Crane &amp; Co., Inc.</strong> \u2014 $1,102,550, Department of the Treasury (<strong>Bureau of Engraving and Printing</strong>): an order of optically variable thread for the $100 note (<a href=\"https://www.usaspending.gov/award/CONT_AWD_2031ZA27F00012_2041_2031ZA20D00001_2041\">award</a>).",
+      "<strong>NaphCare LLC</strong> \u2014 $300,000, Department of Justice (Federal Bureau of Prisons): medical services at Federal Correctional Complex Allenwood; the description cites Executive Order 14398 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15B20127F00000002_1540_15BCMS26D00000009_1540\">award</a>).",
+      "<strong>J.C. Chang &amp; Associates, Inc.</strong> \u2014 $206,826, Department of Justice (Federal Bureau of Prisons): environmental assessment for projects at Federal Correctional Institution Morgantown and Federal Correctional Institution Duluth; cites Executive Order 14398 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15BBNF27F70000001_1540_15B70022D00000019_1540\">award</a>).",
+      "<strong>Hirt Electric, LLC</strong> \u2014 $585,400, Department of Veterans Affairs: chiller replacement at the Huntington VA Medical Center; the record says the modification implements new clause 52.222-90 on diversity, equity and inclusion discrimination by federal contractors (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24527N0080_3600_36C24525D0041_3600\">award</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "94 new awards under $2 million were screened; all 7 flagged awards are listed above and the other 87 were rated routine, including 40 from the Department of Veterans Affairs and 14 from the General Services Administration. Four awards worth $1,851,526 in total cite Executive Order 14398 in their descriptions."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "Education Department's $25.6M held pending OMB information request; Justice apportions $896.6M under continuing resolution rescission",
+   "paragraphs": [
+    "Five new apportionment approvals were published in the past five days. Two files triggered flags for further review, and three routine non-flagged apportionments were also approved across Department of Homeland Security and independent agencies."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Flagged Apportionments"
+    },
+    {
+     "type": "paragraph",
+     "text": "The <strong>Department of Education</strong> held $25,633,000 of discretionary funds pending reapportionment, citing an OMB request for additional information. The fund line, labeled \"Unallocated,\" is available for obligation only after reapportionment to a \"Category B\" account. The apportionment footnote states: \"Amounts apportioned on this line are available for obligation upon reapportionment to an applicable Category B line. [Rationale: OMB requests additional information on programmatic spending for some or all of the apportioned funds].\" A related entry on the same apportionment document, \"Total budgetary resources available,\" holds an additional $26,133,000 under the same rationale. <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Education/JSON/FY2027_Agency%3DED_Bureau%3DOVAE_TAFS%3D091-2026-2027-0400_Iteration%3D2_2026-10-07-17.03.json\">Apportionment</a>."
+    },
+    {
+     "type": "paragraph",
+     "text": "The <strong>Department of Justice</strong> apportioned $896,610,000 under a continuing resolution for FY2027 that authorizes operations based on FY2026 enacted levels, adjusted for rescissions and mandated transfers. The footnote cites Public Law 119-103, which provides the continuing resolution authority: \"Pursuant to P.L.119-103, the Continuing Resolution rate of operations is based on the FY 2026 enacted appropriations, less rescission and adding or subtracting mandated transfers.\" <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Justice/JSON/FY2027_Agency%3DDOJ_Bureau%3DLEGALACT_TAFS%3D015-2027-2027-0128_Iteration%3D2_2026-10-07-17.55.json\">Apportionment</a>."
+    },
+    {
+     "type": "subhead",
+     "text": "Routine Apportionments"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of Homeland Security</strong>",
+      "<strong>Federal Emergency Management Agency</strong> \u2014 Operations and Support, $48,980,001 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Homeland%20Security/JSON/FY2027_Agency%3DDHS_Bureau%3DFEMA_TAFS%3D070-X-0700_Iteration%3D1_2026-10-07-10.58.json\">Apportionment</a>.",
+      "<strong>United States Coast Guard</strong> \u2014 Operations and Support, $535,617,686 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Homeland%20Security/JSON/FY2027_Agency%3DDHS_Bureau%3DUSCG_TAFS%3D070-2025-2029-0610_Iteration%3D1_2026-10-07-10.58.json\">Apportionment</a>.",
+      "<strong>Other Independent Agencies</strong>",
+      "<strong>U.S. Agency for Global Media</strong> \u2014 International Broadcasting Operations, $126,863,900 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Other%20Independent%20Agencies/JSON/FY2027_Agency%3DUSAGM_Bureau%3DUSAGM_TAFS%3D514-2027-2027-0206_Iteration%3D1_2026-10-07-13.10.json\">Apportionment</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Lobbying \u00d7 Contracts",
+   "headline": "Companies that lobby Washington and just won federal money",
+   "paragraphs": [
+    "2 of 17 large new awardees checked are also registered federal lobbying clients, collectively landing $16,938,620 or more in new awards."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Atlantic Diving Supply, Inc.</strong>: $100,000 in lobbying reported so far in 2026 (2 quarters); issues: Defense; firms: CROSSROADS STRATEGIES, LLC. <a href=\"https://lda.gov/filings/public/filing/32407034-d1d8-416e-a888-58673ff0339a/print/\">latest filing</a>. New awards: $12,045,581 from Department of State (9/16/2026, New award ---------- comments: attn: contracting officer, please issue a new call order under 19aqmm23a0106 for bpa contract holder 'ads' in) <a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7216_1900_19AQMM23A0106_1900\">award</a>; $4,514,119 from Department of State (9/18/2026, New award ---------- comments: attn: contracting officer, please issue a new call order under 19aqmm23a0106 for bpa contract holder 'ads' in) <a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7217_1900_19AQMM23A0106_1900\">award</a>.",
+      "<strong>The Johns Hopkins University Applied Physics Laboratory Llc</strong>: $200,000 in lobbying reported so far in 2026 (2 quarters); issues: Defense, Budget/Appropriations, Science/Technology; firms: ACTUM I, LLC. <a href=\"https://lda.gov/filings/public/filing/59339f2c-90c5-4bf7-8a53-d28fe28b533c/print/\">latest filing</a>. New awards: $4,893,039 from Federal Emergency Management Agency (9/18/2026, The purpose of this modification is to exercise option period 3. this contract is migrating from a previous contract system, 70rwmd23c000000) <a href=\"https://www.usaspending.gov/award/CONT_AWD_70FA9026C00000002_7022_-NONE-_-NONE-\">award</a>."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Awards of $1M+ from this edition's USAspending pull, matched by company name to Lobbying Disclosure Act clients for the current year. Spend is the largest report per quarter (a client with several firms may have spent more). Contractors lobbying under a parent or subsidiary name will not match. Partial run: MATOS-GRUNLEY JOINT VENTURE: lda.gov HTTP 503 | NAPC &amp; HSCC JV LLC: lda.gov HTTP 503"
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 9\u201310, 2026 (Pacific time) for SAM.gov; September 15\u2013October 10, 2026 for USAspending contract awards of $2 million or more; October 7\u201310, 2026 for awards under $2 million; apportionments published over the past five days.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API; SAM.gov Get Opportunities Public API.",
+  "known_gaps": "No source errors were reported. Three SAM.gov justifications (two Defense Logistics Agency task orders and one Army Corps of Engineers capacity increase) had no J&A document to read, so they rest on the notice text. SAM.gov value fields come only from verified quotes; redacted values are marked as such. Under-$2 million USAspending awards were screened by an automated first pass."
+ },
+ "beat": []
+}
