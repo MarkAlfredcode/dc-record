@@ -68,7 +68,8 @@ def search_name(vendor):
 ALIASES = {"spacex": "space exploration technologies", "aws": "amazon web services", "ibm": "international business machines",
            "ge": "general electric", "ge aerospace": "general electric", "hp": "hewlett packard", "hpe": "hewlett packard enterprise",
            "l3": "l3 technologies", "l3harris": "l3harris technologies", "jhu apl": "johns hopkins university applied physics",
-           "iom": "international organization for migration", "thales dis usa": "gemalto", "gdit": "general dynamics information technology"}
+           "iom": "international organization for migration", "thales dis usa": "gemalto", "gdit": "general dynamics information technology",
+           "lockheed martin rotary and mission systems": "lockheed martin", "lm rms": "lockheed martin"}
 # Too common to stand alone as a one-word retry ("American ..." would match anything).
 _GENERIC = set("american national global united international general federal advanced applied integrated technical "
                "technology technologies systems services solutions group north south east west first new pacific "
