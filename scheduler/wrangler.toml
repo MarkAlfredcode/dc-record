@@ -15,6 +15,4 @@ compatibility_date = "2026-09-01"
 crons = [
   "0 14 * * *",   # AM: Campaigns / Officials / The Feds (mode:"am") + Congress/Conflicts -> ~7:00am PT (PDT)
   "45 22 * * *",  # PM: Campaigns / Officials / The Feds (mode:"pm") + Congress/Conflicts -> ~3:45pm PT (PDT)
-  "0 10 * * *",   # Usage-window ping, ~4h ahead of AM        -> ~3:00am PT (PDT)
-  "45 18 * * *",  # Usage-window ping, ~4h ahead of PM        -> ~11:45am PT (PDT)
 ]
