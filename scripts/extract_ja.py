@@ -50,7 +50,10 @@ RED_FLAGS = [
     "politically_sensitive",        # immigration enforcement, elections, White House, DOGE, Jan. 6, etc.
     "unusually_large",
     "foreign_vendor",
+    "cites_prior_agency_work",      # the vendor already did work for this agency / has agency-specific experience
+    "outside_agency_mission",       # the agency is buying something outside its own mission
 ]
+VENDOR_KINDS = ("government contractor", "commercial OEM/supplier")
 
 SYSTEM = ("You extract facts from federal Justification & Approval (J&A) documents for an "
           "investigative reporter. Reply with a JSON array only, no prose, no code fences.")
@@ -59,6 +62,7 @@ INSTRUCTIONS = """Each document below is a federal agency's justification for bu
 
 {"i": <index>,
  "vendor": "<company getting the work, as written; 'redacted' if blacked out; null if not named>",
+ "vendor_kind": "government contractor" | "commercial OEM/supplier" | "unusual for government: <what it is, e.g. fight-promotion company>",
  "value_usd": <number or null>,
  "value_quote": "<VERBATIM text, under 200 chars, copied exactly from the document, that states this action's estimated value; null if none>",
  "value_status": "stated" | "redacted" | "not_stated",
@@ -70,7 +74,7 @@ INSTRUCTIONS = """Each document below is a federal agency's justification for bu
  "red_flags": [any of %(flags)s],
  "flag_evidence": {"<each red flag you listed>": "<VERBATIM text, under 200 chars, from the document that shows it>"},
  "news": <1-5>,
- "news_why": "<under 15 words>"}
+ "news_why": "<under 15 words; lead with what is unusual, e.g. 'A fight-promotion company training FBI agents'>"}
 
 TRAPS -- read carefully:
 - J&A templates list APPROVAL THRESHOLDS ("approve if over $90 million", "contracts between $900K and $90 million", "Simplified Acquisition Threshold of $250,000"). Those are NOT the value. The value is the dollar figure the document gives for THIS purchase (often "estimated value", "total estimated cost", "not to exceed", "ceiling"). For a modification, prefer the amount being added; if only the new total ceiling is given, use that.
@@ -80,12 +84,18 @@ TRAPS -- read carefully:
 - Copy quotes character for character from the document. Never paraphrase inside a quote. If you can't find exact supporting text, use null.
 - Text may contain OCR errors; quote it as it appears.
 
+"vendor_kind":
+- "government contractor": a company whose main business is government work (defense primes, federal IT/services firms, base-operations contractors).
+- "commercial OEM/supplier": an ordinary commercial maker or supplier of the thing being bought (Nikon, Siemens, a lab-equipment maker, a software publisher, a parts distributor).
+- "unusual for government: <what it is>": the vendor's main business is NOT government work or ordinary supply -- sports leagues and promotions, entertainment, media, celebrities or influencers, consumer brands, venues, restaurants, private clubs, political or advocacy groups -- or the agency/vendor pairing would surprise a general reader. Say what the company is in a few words.
+
 "news" scale:
-5 = a reporter should read this today (very large value, public-interest or politically sensitive purpose, protest/challenge, after-the-fact award, scandal-adjacent vendor, a policy shift visible in what's being bought)
-4 = clearly interesting (large value with a weak rationale, urgency the agency caused itself, repeated bridges, White House/EOP/D.C./war/immigration ties)
+5 = a reporter should read this today. ABOVE ALL: the vendor is unusual for the government to work with (vendor_kind "unusual for government") or the agency/vendor pairing would surprise a general reader ("the FBI buys training from the UFC"). Also: very large value, public-interest or politically sensitive purpose, protest/challenge, after-the-fact award, scandal-adjacent vendor, a policy shift visible in what's being bought.
+4 = clearly interesting: the agency is buying something outside its own mission (outside_agency_mission); the justification leans on the vendor's earlier, uncompeted work for this same agency ("experience ... specific to the FBI": cites_prior_agency_work) with no sign that work was competed; large value with a weak rationale; urgency the agency caused itself; repeated bridges; White House/EOP/D.C./war/immigration ties. Either of the first two together with an unusual vendor = 5.
 3 = notable program or sizable services contract
 2 = ordinary sole-source services/software/equipment
-1 = routine spare part, NSN replacement part, routine maintenance, license renewal
+1 = routine spare part, NSN replacement part, routine maintenance, license renewal (a commercial OEM maintaining its own equipment is 1-2)
+A redacted or blank value NEVER lowers the score -- judge the purchase, not the missing number. Political ties of a vendor's owners or executives to the President or senior officials are a secondary signal: mention them in news_why only after what makes the purchase itself unusual, and never let them stand in for it.
 
 DOCUMENTS:
 """
@@ -136,6 +146,8 @@ def verify(rec, doc_text):
     ev = rec.get("flag_evidence") if isinstance(rec.get("flag_evidence"), dict) else {}
     rec["flag_evidence"] = {f: q for f, q in ev.items()
                             if f in rec["red_flags"] and isinstance(q, str) and _norm(q) and _norm(q) in norm_doc}
+    vk = rec.get("vendor_kind") if isinstance(rec.get("vendor_kind"), str) else ""
+    rec["vendor_kind"] = vk.strip()[:120] if (vk.strip() in VENDOR_KINDS or vk.strip().lower().startswith("unusual for government")) else None
     try:
         rec["news"] = max(1, min(5, int(rec.get("news") or 1)))
     except (TypeError, ValueError):

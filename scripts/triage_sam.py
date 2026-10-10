@@ -51,6 +51,7 @@ from datetime import date, timedelta
 
 import extract_ja
 import screen_sam_docs
+import vendor_history
 from dc_common import load_manifest, save_manifest, today_la
 from dc_extras import run_mode
 
@@ -199,7 +200,16 @@ def watchlist_matcher():
 
 AUTH_BONUS = {"public_interest": 15, "urgency": 6, "national_security": 4}
 FLAG_BONUS = {"protest_or_challenge": 8, "politically_sensitive": 6, "after_the_fact": 6,
-              "urgency_from_poor_planning": 5, "repeated_extension": 4, "cites_executive_order": 2}
+              "urgency_from_poor_planning": 5, "outside_agency_mission": 5, "repeated_extension": 4,
+              "cites_prior_agency_work": 3, "cites_executive_order": 2}
+# A vendor whose main business isn't government work (2026-10-10, after the
+# FBI's sole-source J&A to the UFC scored 3/5 in six of six test runs).
+UNUSUAL_VENDOR_BONUS = 12
+# No federal contract on record in USAspending (vendor_history.py) -- the size
+# of the watchlist bonus -- and more when the J&A nonetheless leans on the
+# vendor's earlier work for the agency (the UFC pattern).
+FIRST_TIME_BONUS = 15
+FIRST_TIME_PRIOR_WORK_BONUS = 10
 
 
 def score(j):
@@ -212,6 +222,12 @@ def score(j):
     s += sum(FLAG_BONUS.get(f, 0) * (1 if f in ev else 0.5) for f in j.get("red_flags") or [])
     s += 4 if len(j.get("vendor_history") or []) >= 2 else 0
     s += 15 if j.get("watchlist") else 0
+    s += UNUSUAL_VENDOR_BONUS if (j.get("vendor_kind") or "").lower().startswith("unusual") else 0
+    # A "government contractor" with no history under the J&A's name is far
+    # more likely a name mismatch (a subsidiary, a trade name) than a debut.
+    if j.get("first_time_vendor") and j.get("vendor_kind") != "government contractor":
+        s += FIRST_TIME_BONUS
+        s += FIRST_TIME_PRIOR_WORK_BONUS if j.get("first_time_but_cites_agency_experience") else 0
     s += 8 if j.get("keyword_hit") else 0
     s += j.get("_doc_bonus", 0)
     return round(s)
@@ -285,6 +301,8 @@ def build_justifications(js, texts, seen, mode, today, doc_cache=None, read_now=
         if todo[i].get("noticeId"):
             cache[todo[i]["noticeId"]] = {**rec, "d": today}
     recs = {i: cache[j["noticeId"]] for i, j in enumerate(fresh) if j.get("noticeId") in cache}
+    history = vendor_history.check([(x.get("vendor"), (fresh[i].get("award") or {}).get("uei"))
+                                    for i, x in recs.items() if x.get("vendor")], today)
     match = watchlist_matcher()
     out = []
     for i, j in enumerate(fresh):
@@ -304,9 +322,16 @@ def build_justifications(js, texts, seen, mode, today, doc_cache=None, read_now=
         }
         for k in ("vendor", "value_usd", "value_quote", "value_status", "value_verified", "authority",
                   "authority_quote", "authority_verified", "action", "what", "why_no_competition",
-                  "red_flags", "flag_evidence", "news", "news_why"):
+                  "red_flags", "flag_evidence", "news", "news_why", "vendor_kind"):
             if k in x:
                 r[k] = x[k]
+        h = history.get(r.get("vendor")) if r.get("vendor") else None
+        if h is not None:
+            r["first_time_vendor"] = not h["has_contracts"]
+            if h["has_contracts"]:
+                r["vendor_federal_history"] = {"first_contract": h["first"], "examples": h["examples"][:2]}
+            elif "cites_prior_agency_work" in (r.get("flag_evidence") or {}):
+                r["first_time_but_cites_agency_experience"] = True
         vk = vendor_key(r.get("vendor"))
         r["vendor_history"] = [h for h in seen["vendors"].get(vk, []) if h["nid"] != j.get("noticeId")] if vk else []
         r["watchlist"] = match(" ".join(str(r.get(k) or "") for k in ("vendor", "title", "what")))
@@ -333,7 +358,8 @@ def build_justifications(js, texts, seen, mode, today, doc_cache=None, read_now=
             # Routine (spare parts, renewals): the main pass only one-lines
             # these, so it gets just enough to do that.
             for k in ("notice_text", "value_quote", "authority_quote", "why_no_competition",
-                      "news_why", "flag_evidence", "value_verified", "authority_verified", "postedDate"):
+                      "news_why", "flag_evidence", "value_verified", "authority_verified", "postedDate",
+                      "vendor_federal_history"):
                 r.pop(k, None)
             if r.get("document_findings"):
                 r["document_findings"] = [{k: v for k, v in f.items() if k != "context"}

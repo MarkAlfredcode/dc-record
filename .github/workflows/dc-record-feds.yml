@@ -332,7 +332,7 @@ jobs:
             fi
           fi
           # Some cache files only exist after certain code paths run; git add aborts on a missing pathspec
-          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json data/sam-docs-read.json data/sam-docs-pending.json data/surfaced-links.json digest/ archive/; do
+          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json data/sam-docs-read.json data/sam-docs-pending.json data/surfaced-links.json data/vendor-history-cache.json digest/ archive/; do
             [ -e "$f" ] && git add "$f"
           done
           if ! git diff --cached --quiet; then
