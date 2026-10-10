@@ -59,7 +59,8 @@ jobs:
 
   publish:
     needs: guard
-    if: needs.guard.outputs.skip != 'true'
+    # !cancelled(): if the guard job itself errors, still run (fail open).
+    if: ${{ !cancelled() && needs.guard.outputs.skip != 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
