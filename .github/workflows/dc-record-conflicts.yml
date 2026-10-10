@@ -14,7 +14,44 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Duplicate-dispatch guard (added 2026-10-10). Cloudflare has been firing
+  # each cron twice, and this edition doesn't email, so it has no data/sent/
+  # line to check like the emailing editions' guard. Instead: skip if another
+  # dispatch of this same workflow was created in the 10 minutes before this
+  # one. Fails open (runs anyway) if the API can't be asked. A manual rerun
+  # within 10 minutes of a real one is skipped too -- wait it out.
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      actions: read
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+    steps:
+      - name: Check whether this slot was already dispatched
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          SKIP=false
+          if ME=$(gh api "repos/$REPO/actions/runs/$RUN_ID"); then
+            WF=$(jq -r .workflow_id <<<"$ME")
+            CREATED=$(jq -r .created_at <<<"$ME")
+            SINCE=$(date -u -d "@$(( $(date -u -d "$CREATED" +%s) - 600 ))" +%Y-%m-%dT%H:%M:%SZ)
+            EARLIER=$(gh api "repos/$REPO/actions/workflows/$WF/runs?event=workflow_dispatch&per_page=20&created=$SINCE..$CREATED" \
+              --jq "[.workflow_runs[] | select(.id < $RUN_ID)] | length" || echo 0)
+            if [ "${EARLIER:-0}" -gt 0 ]; then
+              SKIP=true
+              echo "::notice::another dispatch of this workflow was created between $SINCE and $CREATED -- skipping this duplicate."
+            fi
+          fi
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+
   publish:
+    needs: guard
+    if: needs.guard.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
