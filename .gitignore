@@ -11,6 +11,7 @@ extras/
 events_additions.json
 events_summary.txt
 data/sam_documents.json
+data/sam_files.json
 data/sam_triage.json
 .wrangler/
 .DS_Store

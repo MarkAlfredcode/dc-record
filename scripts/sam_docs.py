@@ -1,171 +1,222 @@
 #!/usr/bin/env python3
-"""Downloads and reads the actual Justification & Approval documents attached
-to SAM.gov justification notices (added 2026-10-03).
+"""Downloads and reads every file attached to every SAM.gov notice in the
+window -- justifications AND solicitations (J&As since 2026-10-03; all
+notices since 2026-10-10).
 
-The notice `description` that fetch_sam.py used to rely on is a short blurb
-(median ~190 characters on 2026-10-01's 79 notices). The signed J&A itself --
-vendor, estimated value, the FAR authority cited, the agency's reasoning,
-market research, any protest -- is an attached PDF/DOCX on 76 of those 79.
-Measured that day: a GE engine bridge on a $125M sole-source ceiling and an
-"urgent and compelling" organ-transplant-network bridge both went out as
-dollar-less one-liners because only the blurb was read.
+Why every file: the notice blurb is a few hundred characters, the J&A, the
+statement of work, the specifications, the price schedule and the Q&A
+amendments are attachments. On 2026-10-09, 234 of 632 notices carried 1,402
+public files, 526 of them new that day (~570 MB).
 
-Everything here uses SAM.gov's own unauthenticated frontend API, so it costs
-none of the SAM_API_KEY quota (see reference_sam_gov_api memory: that key's
-throttle self-extends 24h on any call made while throttled).
+What this script does (no LLM; runs in the fetch step):
+- lists each notice's attachments via SAM.gov's own unauthenticated
+  frontend API (none of the SAM_API_KEY quota, see reference_sam_gov_api);
+- skips any file already read by an earlier run: data/sam-docs-read.json,
+  keyed by SAM resourceId, committed by every run (AM and PM) -- amendments
+  re-attach the whole earlier file set, so most files on a notice usually
+  were read before;
+- downloads and extracts the rest with sam_reader.read_file (PDF with
+  per-page OCR, DOCX, XLSX, PPTX, ZIP, legacy Office, images, text);
+- stops starting new files at the time budget (DC_SAM_DOCS_BUDGET_SEC);
+  anything left is "deferred" and goes to the pending queue
+  (data/sam-docs-pending.json, kept by screen_sam_docs.py), which every run
+  reads first -- nothing is silently skipped.
 
-Text extraction handles the three failure modes seen in real J&As:
-- image-only PDFs (redaction tools often flatten pages) -> OCR via tesseract
-  when it's installed (15 of 75 PDFs on 2026-10-01);
-- PDFs with a shifted font encoding, where every glyph comes out 29 code
-  points low ("$SSURYDO" = "Approval") -> decoded line by line;
-- DOCX attachments -> word/document.xml text.
+Outputs:
+- data/sam_files.json   {resourceId: {name, url, nids, sols, titles, agency,
+                         kind, method, info, text | error | deferred}} --
+                         this run's files for screen_sam_docs.py (gitignored)
+- data/sam_documents.json {noticeId: J&A text} for extract_ja.py, as before
+- each notice record gains `attachments` [{rid, name, url, status}] and
+  `links` (external pages such as DIBBS/PIEE/NECO, which aren't fetched).
 
-The text itself goes to a separate file, data/sam_documents.json
-({noticeId: text}), so data/sam_candidates.json stays small enough for the
-main pass's fallback path to read; extract_ja.py is the only reader of it.
-
-CLI (enrich an existing candidates file in place, e.g. to test without
-re-calling api.sam.gov):
-    python3 scripts/sam_docs.py data/sam_candidates.json [data/sam_documents.json]
+CLI (re-read an existing candidates file, e.g. to test without re-calling
+api.sam.gov):
+    python3 scripts/sam_docs.py data/sam_candidates.json
 """
-import glob
 import json
 import os
 import re
-import shutil
-import subprocess
 import sys
 import tempfile
-import zipfile
+import time
 from concurrent.futures import ThreadPoolExecutor
+from urllib.parse import urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from dc_common import download, http_get_json  # noqa: E402
+from dc_common import download, http_get_json, load_manifest  # noqa: E402
+from sam_reader import read_file  # noqa: E402
 
 RESOURCES = "https://sam.gov/api/prod/opps/v3/opportunities/{}/resources"
 FILE_URL = "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/{}/download"
-# A J&A is 1,000-2,500 words typically (max ~4,000 seen); this keeps the
-# value/authority/rationale/market-research sections of even long ones.
-TEXT_CAP = 24000
-OCR_PAGES = 8
-_COMMON = re.compile(r"\b(the|and|of|to|for|is|this|that|with)\b", re.IGNORECASE)
-_WS = re.compile(r"[ \t]+")
+CACHE_PATH = "data/sam-docs-read.json"
+# Files a run couldn't get to (time or screening budget, or a failed read),
+# with their notice's details, so a later run reads them even after the notice
+# has left the fetch window. Written by screen_sam_docs.py, committed.
+PENDING_PATH = "data/sam-docs-pending.json"
+FILES_PATH = "data/sam_files.json"
+DOCS_PATH = "data/sam_documents.json"
+# J&A text handed to extract_ja.py for vendor/value/authority. Every file is
+# also screened in full by screen_sam_docs.py; this cap is only for the
+# structured extraction, which needs the J&A itself, not its attachments.
+JA_TEXT_CAP = 24000
+# A J&A-looking file name (also used by fetch_sam.py to route Special/Award/
+# Sources Sought notices carrying one into the justification pipeline).
+JA_FILE_NAME = re.compile(r"\bj\s*&\s*a\b|\bj\s*and\s*a\b|\bja\b|justification|jofoc|\blsj\b|sole[\s_-]*source|brand[\s_-]*name|"
+                          r"\bsssj\b|\bjefo\b|\bfoc\b|\bbnj\b|\bsss?j\b", re.I)
+WORKERS = 4
+BUDGET_SEC = int(os.environ.get("DC_SAM_DOCS_BUDGET_SEC") or 1200)
 
 
 def notice_id_from_ui_link(ui_link):
-    m = re.search(r"contract/opp/([^/]+)/view", ui_link or "")
+    m = re.search(r"/opp/([^/]+)/view", ui_link or "")
     return m.group(1) if m else None
 
 
-def _unshift_line(line):
-    shifted = "".join(chr(ord(c) + 29) if 3 <= ord(c) <= 93 else c for c in line)
-    return shifted if len(_COMMON.findall(shifted)) > len(_COMMON.findall(line)) else line
-
-
-def _ocr(pdf_path):
-    if not (shutil.which("tesseract") and shutil.which("pdftoppm")):
-        return ""
-    with tempfile.TemporaryDirectory() as d:
-        subprocess.run(["pdftoppm", "-r", "200", "-gray", "-l", str(OCR_PAGES), pdf_path, f"{d}/p"],
-                       capture_output=True, timeout=120)
-        pages = []
-        for p in sorted(glob.glob(f"{d}/p*")):
-            r = subprocess.run(["tesseract", p, "-", "--psm", "6"], capture_output=True, text=True, timeout=120)
-            pages.append(r.stdout)
-        return "\n".join(pages)
-
-
-def file_text(path, name=""):
-    """Returns (text, method). Never raises."""
-    ext = os.path.splitext(name or path)[1].lower()
+def list_attachments(nid):
+    """([file attachments], [links], error)"""
     try:
-        with open(path, "rb") as f:
-            head = f.read(5)
-        if head.startswith(b"%PDF") or ext == ".pdf":
-            r = subprocess.run(["pdftotext", "-layout", path, "-"], capture_output=True, timeout=60)
-            text = r.stdout.decode("utf-8", "replace")
-            if len(text.split()) < 30:
-                return _ocr(path), "ocr"
-            return "\n".join(_unshift_line(l) for l in text.split("\n")), "pdf"
-        if head.startswith(b"PK") or ext == ".docx":
-            xml = zipfile.ZipFile(path).read("word/document.xml").decode("utf-8", "replace")
-            return re.sub(r"<[^>]+>", "", xml.replace("</w:p>", "\n")), "docx"
-        if ext in (".txt", ".htm", ".html"):
-            with open(path, errors="replace") as f:
-                return re.sub(r"<[^>]+>", " ", f.read()), "text"
+        data = http_get_json(RESOURCES.format(nid), timeout=20)
     except Exception as e:  # noqa: BLE001
-        return "", f"error: {e}"
-    return "", f"unsupported {ext or 'type'}"
+        return [], [], f"attachment list: {e}"
+    files, links = [], []
+    for grp in (data.get("_embedded") or {}).get("opportunityAttachmentList", []):
+        for a in grp.get("attachments", []):
+            if a.get("deletedFlag") == "1":
+                continue
+            if a.get("type") == "link":
+                links.append({"url": a.get("uri"), "host": urlparse(a.get("uri") or "").netloc,
+                              "description": a.get("description")})
+            elif a.get("resourceId"):
+                files.append(a)
+    return files, links, None
 
 
-def clean(text):
-    lines = (_WS.sub(" ", l).strip() for l in text.split("\n"))
-    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
-
-
-def fetch_documents(notice_id):
-    """{attachments: [{name, url}], document_text, document_source, document_error}"""
-    out = {"attachments": [], "document_text": None, "document_source": None, "document_error": None}
-    try:
-        data = http_get_json(RESOURCES.format(notice_id), timeout=20)
-    except Exception as e:  # noqa: BLE001
-        out["document_error"] = f"attachment list: {e}"
-        return out
-    files = [a for grp in (data.get("_embedded") or {}).get("opportunityAttachmentList", [])
-             for a in grp.get("attachments", [])]
-    texts, methods = [], []
+def _read_one(rid, name, deadline):
+    if time.time() > deadline:
+        return {"deferred": True}
     with tempfile.TemporaryDirectory() as d:
-        for a in files:
-            rid = a.get("resourceId")
-            if a.get("type") == "link" or not rid:
-                continue
-            if a.get("accessLevel") != "public":
-                out["attachments"].append({"name": a.get("name"), "url": None, "access": a.get("accessLevel")})
-                continue
-            url = FILE_URL.format(rid)
-            out["attachments"].append({"name": a.get("name"), "url": url})
-            if sum(len(t) for t in texts) >= TEXT_CAP:
-                continue
-            path = os.path.join(d, rid)
+        path = os.path.join(d, "f")
+        err = None
+        # 3 of 470 test downloads hit connect timeouts that cleared on retry.
+        for wait in (0, 5, 20):
+            time.sleep(wait)
             try:
-                download(url, path, timeout=60)
+                download(FILE_URL.format(rid), path, timeout=180)
+                err = None
+                break
             except Exception as e:  # noqa: BLE001
-                out["document_error"] = f"download {a.get('name')}: {e}"
-                continue
-            text, method = file_text(path, a.get("name") or "")
-            if text.strip():
-                texts.append(f"[{a.get('name')}]\n{clean(text)}")
-                methods.append(method)
-    if texts:
-        out["document_text"] = "\n\n".join(texts)[:TEXT_CAP]
-        out["document_source"] = "+".join(sorted(set(methods)))
-    elif not out["document_error"]:
-        out["document_error"] = "no readable attachment" if files else "no attachments"
+                err = e
+        if err:
+            return {"error": f"download failed: {err}"[:300]}
+        text, method, info = read_file(path, name, deadline=deadline + 300)
+    out = {"method": method, "info": info, "text": text}
+    if not text.strip() and info.get("error"):
+        out["error"] = info["error"]
     return out
 
 
-DOCS_PATH = "data/sam_documents.json"
+def enrich(justifications, notices=(), budget_sec=BUDGET_SEC, prelisted=None):
+    """Attaches `attachments`/`links`/`document_*` fields to each notice in
+    place, reads every file not already in the cache, writes FILES_PATH and
+    returns {noticeId: J&A text} for extract_ja.py. `prelisted` = {noticeId:
+    list_attachments() result} already fetched by the caller."""
+    start = time.time()
+    deadline = start + budget_sec
+    cache = load_manifest(CACHE_PATH).get("files", {})
+    pairs = [("justification", j) for j in justifications] + [("notice", n) for n in notices]
+    for _, n in pairs:
+        n["noticeId"] = n.get("noticeId") or notice_id_from_ui_link(n.get("uiLink"))
+    listings = dict(prelisted or {})
+    todo = list({n["noticeId"] for _, n in pairs if n["noticeId"] and n["noticeId"] not in listings})
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        listings.update(zip(todo, ex.map(list_attachments, todo)))
+    listed = [listings.get(n["noticeId"], ([], [], "no noticeId")) for _, n in pairs]
+    notices = pairs
 
+    # Which files need reading: everything not already read by an earlier
+    # run, plus every file on a justification (extract_ja needs the J&A text
+    # whether or not its news screen is cached).
+    files = {}
+    for (kind, n), (atts, links, err) in zip(notices, listed):
+        n["attachments"], n["links"] = [], links
+        if err:
+            n["document_error"] = err
+        for a in atts:
+            rid, name = a["resourceId"], a.get("name") or ""
+            public = a.get("accessLevel") == "public"
+            cached = cache.get(rid)
+            status = "restricted" if not public else (cached or {}).get("s") if cached and cached.get("s") != "retry" else "pending"
+            n["attachments"].append({"rid": rid, "name": name, "url": FILE_URL.format(rid) if public else None,
+                                     "size": a.get("size"), "posted": (a.get("postedDate") or "")[:10] or None,
+                                     "status": status})
+            if not public:
+                continue
+            need_screen = status == "pending"
+            if need_screen or kind == "justification":
+                f = files.setdefault(rid, {"name": name, "url": FILE_URL.format(rid), "size": a.get("size") or 0,
+                                           "posted": a.get("postedDate"), "nids": [], "sols": [], "titles": [],
+                                           "uiLinks": [], "agency": n.get("agency"), "kind": kind,
+                                           "type": n.get("noticeTypeLabel"), "screen": False})
+                f["screen"] = f["screen"] or need_screen
+                f["nids"].append(n["noticeId"])
+                f["sols"].append(n.get("solicitationNumber") or n["noticeId"])
+                f["titles"].append(n.get("title"))
+                f["uiLinks"].append(n.get("uiLink"))
+                if kind == "justification":
+                    f["kind"] = "justification"
 
-def enrich(justifications, workers=6):
-    """Adds noticeId/attachments/document_source/document_error to each
-    justification in place; returns {noticeId: document_text}."""
-    def one(j):
-        nid = notice_id_from_ui_link(j.get("uiLink"))
-        return fetch_documents(nid) if nid else {"attachments": [], "document_text": None,
-                                                  "document_source": None, "document_error": "no noticeId"}
+    # Files earlier runs couldn't get to, whether or not their notice is
+    # still in the window.
+    queued = 0
+    for rid, meta in load_manifest(PENDING_PATH).get("files", {}).items():
+        if rid in files or (cache.get(rid) or {}).get("s", "retry") != "retry":
+            continue
+        files[rid] = {**meta, "screen": True, "from_queue": True}
+        queued += 1
+
+    # J&A files first (the edition always reports every justification), then
+    # the queue (oldest first), then smallest first so a time-budget cutoff
+    # defers the fewest files.
+    order = sorted(files, key=lambda r: (files[r]["kind"] != "justification", not files[r].get("from_queue"),
+                                         files[r].get("queued_since") or "", files[r]["size"]))
+    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+        results = list(ex.map(lambda r: _read_one(r, files[r]["name"], deadline), order))
+    for rid, res in zip(order, results):
+        files[rid].update(res)
+
     texts = {}
-    with ThreadPoolExecutor(max_workers=workers) as ex:
-        for j, docs in zip(justifications, ex.map(one, justifications)):
-            j["noticeId"] = notice_id_from_ui_link(j.get("uiLink"))
-            text = docs.pop("document_text")
-            j.update(docs)
-            j["document_chars"] = len(text or "")
-            if text and j["noticeId"]:
-                texts[j["noticeId"]] = text
-    ocr = sum(1 for j in justifications if "ocr" in (j.get("document_source") or ""))
-    print(f"J&A documents: read {len(texts)}/{len(justifications)} ({ocr} via OCR)", file=sys.stderr)
+    for kind, n in notices:
+        for a in n["attachments"]:
+            f = files.get(a["rid"])
+            if f and a["status"] == "pending":
+                a["status"] = "deferred" if f.get("deferred") else "error" if f.get("error") else "read"
+        if kind != "justification":
+            continue
+        parts = sorted(((a["name"], files[a["rid"]].get("text") or "") for a in n["attachments"] if a["rid"] in files),
+                       key=lambda p: not JA_FILE_NAME.search(p[0]))
+        text = "\n\n".join(f"[{name}]\n{t.strip()}" for name, t in parts if t.strip())
+        n["document_chars"] = len(text)
+        n["document_source"] = "+".join(sorted({files[a["rid"]].get("method") for a in n["attachments"]
+                                                if a["rid"] in files and files[a["rid"]].get("method")})) or None
+        if text and n["noticeId"]:
+            texts[n["noticeId"]] = text[:JA_TEXT_CAP]
+        elif not n.get("document_error"):
+            n["document_error"] = "no readable attachment" if n["attachments"] else "no attachments"
+
+    with open(FILES_PATH, "w") as fh:
+        json.dump(files, fh)
+    read = sum(1 for f in files.values() if "text" in f)
+    deferred = sum(1 for f in files.values() if f.get("deferred"))
+    errors = sum(1 for f in files.values() if f.get("error"))
+    ocr = sum(1 for f in files.values() if "ocr" in (f.get("method") or ""))
+    cached = sum(1 for _, n in notices for a in n["attachments"] if a["status"] not in ("pending", "read", "deferred", "error", "restricted"))
+    print(f"SAM attachments: {sum(len(n['attachments']) for _, n in notices)} files on "
+          f"{sum(1 for _, n in notices if n['attachments'])} notices; read {read} now ({ocr} with OCR), "
+          f"{cached} already read by earlier runs, {queued} from the queue, {deferred} deferred to next run, "
+          f"{errors} failed; "
+          f"{time.time() - start:.0f}s", file=sys.stderr)
+    print(f"J&A documents: read {len(texts)}/{len(justifications)}", file=sys.stderr)
     return texts
 
 
@@ -177,11 +228,10 @@ def write_documents(texts, path=DOCS_PATH):
 
 def main():
     path = sys.argv[1] if len(sys.argv) > 1 else "data/sam_candidates.json"
-    docs_path = sys.argv[2] if len(sys.argv) > 2 else DOCS_PATH
     with open(path) as f:
         cands = json.load(f)
-    texts = enrich(cands.get("justifications") or [])
-    write_documents(texts, docs_path)
+    texts = enrich(cands.get("justifications") or [], cands.get("solicitations") or [])
+    write_documents(texts)
     cands.setdefault("counts", {})["justification_documents_read"] = len(texts)
     with open(path, "w") as f:
         json.dump(cands, f, indent=2)

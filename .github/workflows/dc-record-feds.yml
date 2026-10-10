@@ -69,15 +69,16 @@ jobs:
     needs: guard
     if: needs.guard.outputs.skip != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
       - name: Install dependencies
         run: |
           sudo apt-get update
-          # tesseract: OCR for image-only J&A PDFs (scripts/sam_docs.py)
-          sudo apt-get install -y poppler-utils tesseract-ocr
+          # poppler/tesseract: PDF text + OCR of scanned pages; catdoc: legacy
+          # .doc/.xls/.ppt -- every SAM.gov attachment is read (scripts/sam_reader.py)
+          sudo apt-get install -y poppler-utils tesseract-ocr catdoc
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           "$HOME/.local/bin/claude" --version
@@ -98,13 +99,16 @@ jobs:
 
       - name: Run fetch/filter scripts
         env:
-          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
+          # Stop starting new SAM.gov attachments after 20 min; the rest are
+          # read next edition (scripts/sam_docs.py).
+          DC_SAM_DOCS_BUDGET_SEC: "1200"
+          OMP_THREAD_LIMIT: "1"
         run: |
           set +e
           timeout 900 python3 scripts/fetch_omb.py; echo "fetch_omb exit=$?"
           timeout 900 python3 scripts/fetch_usaspending.py; echo "fetch_usaspending exit=$?"
-          timeout 900 python3 scripts/fetch_sam.py; echo "fetch_sam exit=$?"
+          timeout 2400 python3 scripts/fetch_sam.py; echo "fetch_sam exit=$?"
           timeout 600 python3 scripts/fetch_lobby_contracts.py; echo "fetch_lobby_contracts exit=$?"
           set -e
 
@@ -114,7 +118,7 @@ jobs:
           DOWN=$(python3 -c "
           import json
           files = ['omb_candidates.json','usaspending_candidates.json','sam_candidates.json']
-          hosts = ['openomb.org/apportionment-public.max.gov','api.usaspending.gov','api.sam.gov']
+          hosts = ['openomb.org/apportionment-public.max.gov','api.usaspending.gov','sam.gov']
           down = []
           for f, h in zip(files, hosts):
               try:
@@ -142,8 +146,9 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
-          # Haiku reads all ~700 solicitation titles/descriptions and every
-          # new J&A document so the main pass doesn't have to, deduping
+          # Haiku reads every attachment not read by an earlier run
+          # (scripts/screen_sam_docs.py), all ~700 solicitation titles/
+          # descriptions, and every new J&A document, deduping
           # against data/sam-seen.json for this AM/PM slot; on failure the
           # main pass falls back to data/sam_candidates.json on its own.
           python3 scripts/triage_sam.py || echo "triage_sam failed -- main pass will fall back"
@@ -316,7 +321,7 @@ jobs:
             git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-pending.json 2>/dev/null || true
           fi
           # Some cache files only exist after certain code paths run; git add aborts on a missing pathspec
-          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json digest/ archive/; do
+          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json data/sam-docs-read.json data/sam-docs-pending.json digest/ archive/; do
             [ -e "$f" ] && git add "$f"
           done
           if ! git diff --cached --quiet; then

@@ -153,10 +153,13 @@ def doc_for(j, text):
 RETRY_WAITS = (20, 60)
 
 
-def run_claude(prompt, system, timeout=600, model=MODEL):
+def run_claude(prompt, system, timeout=600, model=MODEL, env=None):
     """One tool-less `claude -p` call, retried: parallel batches sometimes
     exit 1 with nothing on stderr (seen 2026-10-03, rate limiting), and a
-    failed batch means its items go unread. Returns the JSON envelope."""
+    failed batch means its items go unread. Returns the JSON envelope.
+    `env` adds environment variables, e.g. DISABLE_PROMPT_CACHING for
+    one-off prompts that would only ever be written to the cache (at 2x the
+    input price), never read back."""
     err = None
     for wait in (0,) + RETRY_WAITS:
         time.sleep(wait)
@@ -165,7 +168,7 @@ def run_claude(prompt, system, timeout=600, model=MODEL):
              "--output-format", "json"],
             input=prompt, capture_output=True, text=True, timeout=timeout,
             # Thinking off: a simple extraction/sort, and much faster/cheaper.
-            env={**os.environ, "MAX_THINKING_TOKENS": "0"},
+            env={**os.environ, "MAX_THINKING_TOKENS": "0", **(env or {})},
         )
         if proc.returncode == 0:
             return json.loads(proc.stdout)
@@ -173,14 +176,60 @@ def run_claude(prompt, system, timeout=600, model=MODEL):
     raise RuntimeError(err)
 
 
+def parse_array(text):
+    """The reply's JSON array. If it doesn't parse -- usually an unescaped
+    quote inside a verbatim quote, which cost 13 of 25 justifications their
+    extraction on 2026-10-09 -- salvage every well-formed flat object."""
+    m = re.search(r"\[.*\]", text or "", re.DOTALL)
+    if m:
+        try:
+            out = json.loads(m.group(0))
+            if isinstance(out, list):
+                return out
+        except json.JSONDecodeError:
+            pass
+    objs = []
+    for o in re.findall(r"\{(?:[^{}]|\{[^{}]*\})*\}", text or ""):
+        try:
+            objs.append(json.loads(o))
+        except json.JSONDecodeError:
+            continue
+    if objs or re.search(r"\[\s*\]", text or ""):
+        return objs
+    raise RuntimeError(f"no JSON array in reply: {(text or '')[:200]!r}")
+
+
 def _call(batch):
     prompt = INSTRUCTIONS % {"auth": json.dumps(list(AUTHORITIES)), "flags": json.dumps(RED_FLAGS)}
     prompt += "\n\n".join(f"===== DOCUMENT {i} =====\n{text}" for i, text in batch)
     env = run_claude(prompt, SYSTEM, timeout=900)
-    m = re.search(r"\[.*\]", env.get("result") or "", re.DOTALL)
-    if not m:
-        raise RuntimeError(f"no JSON array in reply: {(env.get('result') or '')[:200]!r}")
-    return json.loads(m.group(0)), env.get("total_cost_usd") or 0
+    return parse_array(env.get("result")), env.get("total_cost_usd") or 0
+
+
+def _call_with_split(batch, depth=0):
+    """A failed or partly-unparseable batch is retried as two halves (twice
+    over) for the items it didn't return. Returns (records, cost, errors)."""
+    try:
+        out, cost = _call(batch)
+    except Exception as e:  # noqa: BLE001
+        out, cost, err = [], 0, str(e)
+    else:
+        err = None
+    got = {r.get("i") for r in out if isinstance(r, dict)}
+    missing = [b for b in batch if b[0] not in got]
+    if not missing or depth >= 2:
+        errs = [f"J&A extraction: {len(missing)} of batch {batch[0][0]}-{batch[-1][0]} not returned"
+                + (f" ({err})" if err else "")] if missing else []
+        return out, cost, errs
+    if len(missing) == 1:
+        halves = [missing]
+    else:
+        halves = [missing[:len(missing) // 2], missing[len(missing) // 2:]]
+    errors = []
+    for h in halves:
+        o, c, e = _call_with_split(h, depth + 1)
+        out, cost, errors = out + o, cost + c, errors + e
+    return out, cost, errors
 
 
 def extract(justifications, texts):
@@ -197,20 +246,12 @@ def extract(justifications, texts):
     if cur:
         batches.append(cur)
 
-    def run(batch):
-        try:
-            return batch, *_call(batch), None
-        except Exception as e:  # noqa: BLE001
-            return batch, [], 0, str(e)
-
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        results = list(ex.map(run, batches))
+        results = list(ex.map(lambda b: (b, *_call_with_split(b)), batches))
     recs, cost, errors = {}, 0.0, []
-    for batch, out, c, err in results:
+    for batch, out, c, errs in results:
         cost += c
-        if err:
-            errors.append(f"J&A extraction batch {batch[0][0]}-{batch[-1][0]} failed: {err}")
-            continue
+        errors += errs
         valid = {i for i, _ in batch}
         for r in out:
             if isinstance(r, dict) and r.get("i") in valid:
