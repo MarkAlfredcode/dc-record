@@ -223,9 +223,7 @@ def score(j):
     s += 4 if len(j.get("vendor_history") or []) >= 2 else 0
     s += 15 if j.get("watchlist") else 0
     s += UNUSUAL_VENDOR_BONUS if (j.get("vendor_kind") or "").lower().startswith("unusual") else 0
-    # A "government contractor" with no history under the J&A's name is far
-    # more likely a name mismatch (a subsidiary, a trade name) than a debut.
-    if j.get("first_time_vendor") and j.get("vendor_kind") != "government contractor":
+    if j.get("first_time_vendor"):
         s += FIRST_TIME_BONUS
         s += FIRST_TIME_PRIOR_WORK_BONUS if j.get("first_time_but_cites_agency_experience") else 0
     s += 8 if j.get("keyword_hit") else 0
@@ -326,7 +324,10 @@ def build_justifications(js, texts, seen, mode, today, doc_cache=None, read_now=
             if k in x:
                 r[k] = x[k]
         h = history.get(r.get("vendor")) if r.get("vendor") else None
-        if h is not None:
+        # No history for a self-described government contractor or commercial
+        # supplier is far likelier a legal-name mismatch (THALES DIS USA is
+        # filed as Gemalto) than a debut -- never assert "first" for those.
+        if h is not None and (h["has_contracts"] or r.get("vendor_kind") not in vendor_history.ORDINARY_KINDS):
             r["first_time_vendor"] = not h["has_contracts"]
             if h["has_contracts"]:
                 r["vendor_federal_history"] = {"first_contract": h["first"], "examples": h["examples"][:2]}
