@@ -318,10 +318,21 @@ jobs:
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/feds*.html as-is."
           fi
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-pending.json 2>/dev/null || true
+            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/lobby-contracts-seen.json data/lobby-contracts-pending.json 2>/dev/null || true
+            if [ "${{ steps.email_decision.outputs.manual_skip }}" == "true" ]; then
+              # A manual test run: record nothing as shown.
+              git checkout -- data/sam-seen.json data/surfaced-links.json 2>/dev/null || true
+            else
+              # Published to the website without email (the PM edition has no
+              # subscribers): keep this mode's dedupe so the next edition of
+              # the same mode doesn't repeat it (scripts/surfaced.py). Until
+              # 2026-10-10 sam-seen.json was reverted whole and every PM
+              # edition repeated 25-41 SAM.gov items.
+              python3 scripts/keep_mode_keys.py data/sam-seen.json "${{ github.event.inputs.mode || 'am' }}" extracts
+            fi
           fi
           # Some cache files only exist after certain code paths run; git add aborts on a missing pathspec
-          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json data/sam-docs-read.json data/sam-docs-pending.json digest/ archive/; do
+          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json data/sam-docs-read.json data/sam-docs-pending.json data/surfaced-links.json digest/ archive/; do
             [ -e "$f" ] && git add "$f"
           done
           if ! git diff --cached --quiet; then

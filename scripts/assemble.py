@@ -9,7 +9,11 @@
 2. Builds content["beat"]: every mention of a data/watchlist.json name
    anywhere in the finished edition (Top Story, sections, lists, tables),
    for the "Your Beat" box at the top.
-3. Writes a dated copy of the finished content to
+3. Campaigns and The Feds only (2026-10-10): drops any list item, card or
+   table row whose links all surfaced in an earlier edition of the same
+   AM/PM mode, then records today's links (scripts/surfaced.py) -- an item
+   shown in one edition is gone from the next one of that mode.
+4. Writes a dated copy of the finished content to
    archive/<edition>/<YYYY-MM-DD>-<am|pm>.json (searchable with
    scripts/search_archive.py).
 
@@ -21,6 +25,7 @@ import os
 import re
 import sys
 
+import surfaced
 from dc_extras import load_extras, load_json, run_mode
 from dc_common import today_la
 
@@ -130,6 +135,10 @@ def main():
                 content.setdefault("sections", []).insert(0, s)
             else:
                 content.setdefault("sections", []).append(s)
+    dropped = 0
+    if edition in surfaced.EDITIONS:
+        dropped = surfaced.drop_repeats(content, surfaced.prior(edition))
+        surfaced.record(content, edition)
     content["beat"] = [] if edition == "congress" else beat(content)  # no Your Beat box on the Congress edition
     with open(path, "w") as f:
         json.dump(content, f, indent=2)
@@ -140,7 +149,8 @@ def main():
         json.dump(content, f, indent=1)
         f.write("\n")
     print(f"assembled {path}: {len(content.get('sections', []))} sections, {len(content['beat'])} beat hit(s), "
-          f"{len(content.get('leads') or [])} lead(s); archived {arch}", file=sys.stderr)
+          f"{len(content.get('leads') or [])} lead(s), {dropped} repeat item(s) dropped; archived {arch}",
+          file=sys.stderr)
 
 
 if __name__ == "__main__":

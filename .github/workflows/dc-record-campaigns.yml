@@ -156,7 +156,11 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
+          MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
+          # Links already shown in an earlier edition of this AM/PM mode, for
+          # Task 1 to skip (scripts/surfaced.py).
+          python3 scripts/surfaced.py prior campaigns || echo '{"links": []}' > data/surfaced-prior-campaigns.json
           set +e
           if [ "${{ github.event.inputs.verbose_diagnostics }}" == "true" ]; then
             cat prompt-campaigns.txt | \
@@ -308,8 +312,16 @@ jobs:
           if [ "$IS_SITE_REFRESH" == "true" ]; then
             git checkout -- data/fec-filings-seen.json data/negative-amounts-seen.json data/money-out-seen.json data/election-seen.json data/outside-money-seen.json data/megadonors-seen.json 2>/dev/null || true
           fi
+          # data/surfaced-links.json is kept per AM/PM mode, so a published
+          # no-email run (the PM edition has no subscribers) still records
+          # what it showed -- the next PM edition then doesn't repeat it.
+          # Only a manual test run records nothing.
+          if [ "${{ steps.email_decision.outputs.manual_skip }}" == "true" ]; then
+            git checkout -- data/surfaced-links.json 2>/dev/null || true
+          fi
           git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/negative-amounts-seen.json \
-            data/money-out-seen.json data/election-seen.json data/outside-money-seen.json data/megadonors-seen.json data/former-members-committees.json data/member-committees.json digest/ archive/
+            data/money-out-seen.json data/election-seen.json data/outside-money-seen.json data/megadonors-seen.json data/former-members-committees.json data/member-committees.json \
+            data/surfaced-links.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"
