@@ -1783,27 +1783,6 @@
       "what": "WMATA SmartBenefits transit subsidy program administration and SmarTrip cards for FLETC employees",
       "why_no_competition": "WMATA is sole provider of SmartBenefits transit subsidy system and SmarTrip card issuance"
     },
-    "0712109ab4984325a4b178bc5bfd55d2": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "The data is proprietary, the design and associated data is owned by Pratt & Whitney (formerly Hamilton Sunstrand CAGE 55820) and was never purchased by the government. Currently the government has limited rights to this data, which means that Pratt is the sole source",
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 40,
-      "news": 2,
-      "news_why": "Routine sole-source aircraft component with proprietary data constraints; limited market research conducted",
-      "red_flags": [
-        "no_market_research"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "RTX Corporation (Pratt & Whitney formerly Hamilton Sundstrand) and AAR Supply Chain",
-      "what": "Fuel Control Starting component (NSN 291001355681RP) for aircraft fuel systems",
-      "why_no_competition": "Proprietary design data owned by manufacturer; Government has limited data rights; uneconomical to purchase data; technical data unavailable for competitive solicitation"
-    },
     "0857c87c797941aaac9c05e6f7cc81cf": {
       "action": "extension",
       "authority": "only_one_source",
@@ -2031,29 +2010,6 @@
       "what": "GeneExpert instrument rental and service agreement, 36 months, for VA Medical Center and five clinics in Louisiana",
       "why_no_competition": "Cepheid is the original equipment manufacturer; only source can provide required proprietary equipment maintenance and support"
     },
-    "172e7a80dabc42afa5420cae97b3561d": {
-      "action": "follow_on",
-      "authority": "other",
-      "authority_quote": "this is a logical follow to an FSS order already issued on a competitive basis",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "incumbent_lock_in": "Introducing a new contractor at this stage would risk significant delays and increased costs, potentially jeopardizing the EPA's ability to meet critical deadlines and fulfill its legal obligations"
-      },
-      "i": 39,
-      "news": 2,
-      "news_why": "Logical follow-on to competitive order for ongoing water quality monitoring program",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Research Triangle Institute",
-      "what": "Technical support for US Virgin Islands Basic Water Quality Monitoring Program (USVI BWQMP) under EPA water quality contract",
-      "why_no_competition": "Logical follow-on to competitive FSS order; continuation of complex multi-year TMDL technical projects; new contractor would cause delays in court-mandated compliance deadlines"
-    },
     "176ec5b8508f430ba25e5157d8062f29": {
       "action": "order",
       "authority": "limited_sources",
@@ -2278,25 +2234,6 @@
       "what": "Maintenance and calibration services for three Cold Spray machines at Portsmouth Naval Shipyard",
       "why_no_competition": "Proprietary equipment requires OEM personnel only; calibrations must be performed by manufacturer per technical specifications"
     },
-    "1d0bf7491ef741ebb062d37ddb613f88": {
-      "action": "bridge",
-      "authority": "other",
-      "authority_quote": null,
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 6,
-      "news": 1,
-      "news_why": "Redacted document; insufficient information available.",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": null,
-      "what": "Disease Surveillance and Research Support contract.",
-      "why_no_competition": "Bridge contract; details redacted."
-    },
     "1f72a193f1bc4905b3f8b6e4f559d09f": {
       "action": "new_award",
       "authority": "brand_name",
@@ -2453,48 +2390,6 @@
       "vendor": "ITS Testing Services UK, LTD.SHJ.BR",
       "what": "Laboratory testing of government petroleum products in Middle East Region, October 2026-March 2027 (6-month bridge)",
       "why_no_competition": "Incumbent has necessary workforce and infrastructure in place; transitioning to new contractor risks service gap disrupting mission"
-    },
-    "29a1ed60e5994673b91c6b315eba2770": {
-      "action": "new_award",
-      "authority": "urgency",
-      "authority_quote": "The nature of the requirement has been deemed urgent due to unusual and compelling circumstances. Following competitive procedures would result in unacceptable delays resulting in serious injury to the Government",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "urgency_from_poor_planning": "The facility currently has zero operating seawater intake lines and is not able to pump seawater into the lab"
-      },
-      "i": 38,
-      "news": 3,
-      "news_why": "Emergency marine research facility infrastructure failure; unusual and compelling urgency for federal lab operations",
-      "red_flags": [
-        "urgency_from_poor_planning"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Caldwell Marine International LLC",
-      "what": "Emergency seawater intake line #2 inspection, jetting, and obstruction clearance at NOAA James J. Howard Marine Sciences Laboratory, Sandy Hook, NJ",
-      "why_no_competition": "Critical research facility has zero operating seawater intake lines; catastrophic impact on marine animal welfare and scientific mission if not resolved within 15-30 days"
-    },
-    "29c79bd2f819486e87642b65b278ec07": {
-      "action": "order",
-      "authority": "fair_opportunity_exception",
-      "authority_quote": null,
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 37,
-      "news": 3,
-      "news_why": "SpaceX awarded task order under Space Force contract exception; commercially sensitive space operations",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "SpaceX",
-      "what": "Specialized commercial services and hardware for fail-over capabilities supporting critical space mission operations",
-      "why_no_competition": "Fair opportunity exception to award task order under multiple award contract; SpaceX uniquely qualified for mission-critical requirements"
     },
     "2d0f07c3d97542758d56fff916cc2c76": {
       "action": "new_award",
@@ -2785,28 +2680,6 @@
       "what": "OpenText LoadRunner software licenses, maintenance and updates for VA Veterans Benefits Administration",
       "why_no_competition": "Only OpenText LoadRunner supports full range of technologies required including Tuxedo services and existing proprietary scripts"
     },
-    "32736bde360a40e792a12e9e59c1edb3": {
-      "action": "bridge",
-      "authority": "limited_sources",
-      "authority_quote": "services are deemed available from the original source for the continued provision of highly specialized services and...it is likely that award to any other source would result in unacceptable delays in fulfilling the agency's requirements.",
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 5,
-      "news": 3,
-      "news_why": "Large defense IT contract with nuclear mission; bridge delay caused by internal agency restructuring.",
-      "red_flags": [
-        "urgency_from_poor_planning",
-        "incumbent_lock_in"
-      ],
-      "value_quote": "The contract was awarded on 24 September 2026 in the amount of $16,566,466.36.",
-      "value_status": "stated",
-      "value_usd": 16566466,
-      "value_verified": true,
-      "vendor": "General Dynamics Information Technology, Inc.",
-      "what": "IT services for Defense Stockpile Management Systems, nuclear stockpile database maintenance.",
-      "why_no_competition": "Specialized expertise in Atomic Energy Act Restricted Data and nuclear stockpile operations; onboarding new contractor would cause unacceptable delays."
-    },
     "33da19a3ed8f4c3db35b2ea99000029e": {
       "action": "new_award",
       "authority": "only_one_source",
@@ -2826,32 +2699,6 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Base Plus 3 Years service contract for Parata ATP and Perl 3 Pouch verification system",
       "why_no_competition": "OEM only authorizes certified employees to service equipment; only responsible source"
-    },
-    "36739e68f46a4fca8215751fe9f2a0d4": {
-      "action": "new_award",
-      "authority": "urgency",
-      "authority_quote": "This is an urgent and compelling requirement that must be completed no later than a beginning date in October which cannot be disclosed because of security concerns",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "politically_sensitive": "Building 410 at JBAB operates under top-secret security protocols with strict site access requirements",
-        "urgency_from_poor_planning": "We plan to market ideas with our customer at the beginning of the first quarter of the next fiscal year to proactively avoid the excessive number of sole source acquisitions that have resulted from urgency such as this one"
-      },
-      "i": 36,
-      "news": 4,
-      "news_why": "White House facility urgent maintenance; agency admits chronic poor planning causes sole-sourcing",
-      "red_flags": [
-        "urgency_from_poor_planning",
-        "politically_sensitive",
-        "cites_executive_order"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "BSA Contractors, LLC",
-      "what": "Exterior masonry repairs, power washing, and cosmetic restoration of Building 410 at JBAB (White House complex)",
-      "why_no_competition": "Urgent timeline cannot be disclosed; contractor has White House security clearance and prior experience; other vendors lack clearance and security access"
     },
     "384e046332864732aa827550df739410": {
       "action": "order",
@@ -2992,29 +2839,6 @@
       "what": "Professional and technical support services for DoD ManTech program for 2-month base plus four 1-month options",
       "why_no_competition": "Bridge to maintain continuity while competitive follow-on contract is being competed; incumbent uniquely positioned"
     },
-    "3d60e0c36e484d39a10e1bac6b637232": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "10 U.S.C. 3204(a)(1) \u2014 Available from only one or limited number of sources.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "no_market_research": "Based upon the technical certification on file, technical data is not available and cannot be developed to permit full and open competition"
-      },
-      "i": 4,
-      "news": 1,
-      "news_why": "Routine aircraft spare parts acquisition with standard technical restrictions",
-      "red_flags": [
-        "no_market_research"
-      ],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Robertson Fuel Systems, LLC",
-      "what": "Aircraft fuel probe assembly for UH-60 series helicopters, 3-year indefinite quantity contract",
-      "why_no_competition": "Technical data not available and cannot be developed; design control activity engineering source approval required to maintain part quality"
-    },
     "3e9a9966210446f6ba2c3c6def70ff31": {
       "action": "modification",
       "authority": "only_one_source",
@@ -3039,27 +2863,6 @@
       "vendor": "redacted",
       "what": "Base Life Support surge services for 150 military personnel in Panama, October 2026-September 2027",
       "why_no_competition": "Tight 25 September 2026 deadline; incumbent has cleared environmental/base access requirements; new vendor mobilization impossible in timeframe"
-    },
-    "3f371afa53a44f0fa73bcba2b9297428": {
-      "action": "bridge",
-      "authority": "only_one_source",
-      "authority_quote": "TRC is currently the only known responsible source with the ability to meet the agency's requirements without substantial duplication of costs or delays in obtaining services",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 35,
-      "news": 3,
-      "news_why": "Military operations depend on incumbent's owned infrastructure; bridge contract locks in extended sole-source performance",
-      "red_flags": [
-        "repeated_extension"
-      ],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "TRC Government Services, LLC.",
-      "what": "Seven-month bridge modification for fuel supply facility operations at DFSP Fort Bragg, NC",
-      "why_no_competition": "Incumbent owns facilities; new contractor needs time to acquire infrastructure, permits, training; facility removal required at contract end"
     },
     "3f39b39c6a934ca1b5d6edcb49e212a2": {
       "action": "order",
@@ -3245,29 +3048,6 @@
       "what": "Aircraft Fire Training Facility repairs: pump integration, electrical work, civil foundation at Homestead Air Reserve Base",
       "why_no_competition": "Incumbent contractor mobilized on-site; specialized integration non-severable; new contractor would cause operational delays and safety risks"
     },
-    "487cb53addb049f693e766fa81a527c0": {
-      "action": "order",
-      "authority": "only_one_source",
-      "authority_quote": "Only bins manufactured by Vanderlande are compatible with the Vanderlande ASL x-ray system",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "incumbent_lock_in": "Vanderlande Industries will void all warranties to the machine if any other vendor's bins are used"
-      },
-      "i": 34,
-      "news": 2,
-      "news_why": "Proprietary equipment lock-in at TSA airport screening checkpoint",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Vanderlande Industries Inc.",
-      "what": "1,000 security bins for Vanderlande Automated Screening Lane x-ray systems at LAS airport",
-      "why_no_competition": "Proprietary RFID chip compatibility; only bins with Vanderlande-embedded RFID codes work with ASL machines"
-    },
     "48ed7fa786ef4542b0d93e5443a016b3": {
       "action": "follow_on",
       "authority": "only_one_source",
@@ -3292,25 +3072,6 @@
       "vendor_kind": "government contractor",
       "what": "Industrial Base Analytics & Integration (IBAI) Software-as-a-Service and analytical support for Strategic Systems Programs",
       "why_no_competition": "Poplicus is the incumbent with operational capability, required accreditations, and SSP network integrations; transitioning to alternative platform would cause unacceptable schedule delays"
-    },
-    "4bbbd1bad21b43babeefe7b11fe21d81": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "only one capable source with the technical data required to manufacture, test and certify this item prior to unit delivery and is the sole approved manufacturing source",
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 33,
-      "news": 2,
-      "news_why": "Routine sole-source spare part acquisition with proper engineering approval",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Chemring Energetic Devices",
-      "what": "Impact Initiator and Front Mount Initiator spare parts (NSN 1377-01-423-2502 and 1377-01-423-1008)",
-      "why_no_competition": "Only capable source with required technical data; Government lacks data rights; sole approved manufacturing source per design control"
     },
     "4dc30ac063864dbc8eef191b91d33b6e": {
       "action": "new_award",
@@ -3512,29 +3273,6 @@
       "what": "Forensics equipment and support services for Homeland Security Task Force investigations at DHS ICE",
       "why_no_competition": "Government determined only one source reasonably available based on capabilities; minimal justification provided"
     },
-    "58ff73ed3b5a461c917bfcce74a28b79": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "GSAM/R 538.7104-3(b)(1)(ii)- Only one source is capable of providing the products, services, or solution required at the level of quality required because the products, services, or solutions are unique or highly specialized",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "incumbent_lock_in": "NIH FOIA has utilized the SecureRelease platform over the last six years spanning two contracts; the initial base year order and the current order with a total five year period of performance. NIH FOIA has six years of FOIA case files and documents that FOIA coordinators rely on"
-      },
-      "i": 32,
-      "news": 3,
-      "news_why": "Congressionally sensitive FOIA and oversight document processing system; proprietary platform lock-in",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": "At time of award, only the required Line will be funded in the amount of $919,280.00",
-      "value_status": "stated",
-      "value_usd": 919280,
-      "value_verified": true,
-      "vendor": "Deloitte Financial Services",
-      "what": "SecureRelease Platform Software Licensing and Support for NIH FOIA case management and HHS consolidation",
-      "why_no_competition": "SecureRelease is proprietary to Deloitte; HHS FOIA consolidation directive requires platform compatibility; six years of FOIA case files and data within proprietary system"
-    },
     "5aec1e53fe2944ea9f89b65993ca86d1": {
       "action": "new_award",
       "authority": "only_one_source",
@@ -3556,50 +3294,6 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Digital Evidence Management System, accessories, and 135 body camera licenses for DOJ OIG.",
       "why_no_competition": "Continuity with existing system; switching vendors would cause gaps in evidence, duplicate costs."
-    },
-    "5b00e7bc7dfa43058b59027a16ef2fe9": {
-      "action": "ceiling_increase",
-      "authority": "fair_opportunity_exception",
-      "authority_quote": "RFO FAR 16.507-6(d)(2) \u2013 Exception to fair opportunity justification for orders valued above the SAT. 'The order must be issued on a sole-source basis in the interest of economy and efficiency because it is a logical follow-on to an order already issued under the contract'",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "repeated_extension": "Initiating a new contract request purely for competitive purposes would yield redundant results as ARA is the sole source vendor capable of meeting this requirement"
-      },
-      "i": 31,
-      "news": 2,
-      "news_why": "Routine multi-award IDIQ ceiling increase for existing contractor",
-      "red_flags": [
-        "repeated_extension"
-      ],
-      "value_quote": "$4,339,131.44",
-      "value_status": "stated",
-      "value_usd": 4339131.44,
-      "value_verified": true,
-      "vendor": "Applied Research Associates, Inc.",
-      "what": "Support and improvement services for development and maintenance under Army IDIQ contract",
-      "why_no_competition": "Logical follow-on to existing order; ARA is sole contractor currently working development support; new competition would cause delays and duplicate costs"
-    },
-    "5bd36cfe64cd4300b9afd765f7cb67ca": {
-      "action": "modification",
-      "authority": "only_one_source",
-      "authority_quote": "10 U.S.C. 3204(a)(1)...Only one responsible source and no other supplies or services will satisfy agency requirements...follow-on contract for highly specialized services would result in substantial duplication of cost to the Government...or unacceptable delays",
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 3,
-      "news": 2,
-      "news_why": "Mission-critical NASA facility upgrade; incumbent continuation justified by technical specialization",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": "The estimated value of this effort is with performance beginning 2026 and continuing through 2027.",
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Sauer Incorporated",
-      "what": "Design-build construction services for Converter Compressor Facility Phase 3 helium recovery system at NASA Kennedy Space Center",
-      "why_no_competition": "Incumbent contractor holds proprietary engineering baselines and software integration from Phases 1-2; new contractor would duplicate $20M annual helium-recovery costs"
     },
     "5be53cb10d3846ac94a43c36f3a26c1a": {
       "action": null,
@@ -3669,25 +3363,6 @@
       "what": "Blood, blood products, and apheresis services for VISN 2 VA medical centers (follow-on procurement)",
       "why_no_competition": "Only source determined capable; follow-on until long-term contract established"
     },
-    "5d72b494b08c48078803a64b74f05bbe": {
-      "action": "new_award",
-      "authority": "statute",
-      "authority_quote": "38 U.S.C. \u00a7 8127(b), as implemented by RFO 6.103-5 (Authorized or Required by Statute)",
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 30,
-      "news": 1,
-      "news_why": "Routine SDVOSB sole-source procurement under statutory authority",
-      "red_flags": [],
-      "value_quote": "$139,200.00",
-      "value_status": "stated",
-      "value_usd": 139200,
-      "value_verified": true,
-      "vendor": "CDS Services Inc.",
-      "what": "Bed bug extermination and pest control services for Louis Stokes Cleveland VA Medical Center and CBOCs",
-      "why_no_competition": "Certified Service-Disabled Veteran-Owned Small Business (SDVOSB) sole-source award authorized under Veterans First Contracting Program"
-    },
     "5f0e249c5c584a10863d3044c1bb3aee": {
       "action": "new_award",
       "authority": "statute",
@@ -3736,29 +3411,6 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Furniture reconfiguration, disassembly, new furniture purchase, installation in Buildings 309 and 214",
       "why_no_competition": "Existing Herman Miller furniture not interchangeable; requires factory-trained certified technicians; only regional authorized dealer available"
-    },
-    "61028feb50004547ae83b6ab1a99bbc3": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "10 U.S.C. 3204(a)(1), Only one responsible source and no other supplies or services will satisfy agency requirements",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "incumbent_lock_in": "MAA acquired all associated Intellectual Property (IP) for this system in June 2023 from the original equipment manufacturer (OEM), Moog Inc. As the sole owner of the proprietary technical data, drawings, and manufacturing processes, MAA is the only company capable of producing the M-LIMIT"
-      },
-      "i": 29,
-      "news": 2,
-      "news_why": "Sole-source military equipment procurement justified by proprietary IP ownership",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Mid-America Aerotech",
-      "what": "Modernized Main Landing Gear Tester (M-LIMIT) and components for B-2 weapon system sustainment",
-      "why_no_competition": "MAA is sole owner of proprietary intellectual property for M-LIMIT acquired from OEM Moog Inc. in June 2023; Government does not own technical data"
     },
     "64a6dad4e05c4a59ac68d2769c4fc4f5": {
       "action": "new_award",
@@ -3894,25 +3546,6 @@
       "what": "Renewal of 15 Revvity Image Artist software user licenses and maintenance agreements for NCI high-throughput imaging facility.",
       "why_no_competition": "Revvity is sole developer and copyright holder of proprietary Image Artist software; switching platforms would require data migration and workflow reconfiguration."
     },
-    "6d054ce1b0b9467abd28de20241ce46e": {
-      "action": "modification",
-      "authority": "other",
-      "authority_quote": null,
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 28,
-      "news": 1,
-      "news_why": "No J&A document attached; insufficient information for assessment",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": null,
-      "what": "Osceola Harbor dredging channel extension implementing newly authorized Federal project",
-      "why_no_competition": "No J&A document provided; notice only indicates modification for newly authorized project"
-    },
     "6f61efbf0b744bd89d285e98d18c73d0": {
       "action": "new_award",
       "authority": "only_one_source",
@@ -3976,29 +3609,6 @@
       "what": null,
       "why_no_competition": null
     },
-    "7163f60cbd94495a923a9643fe579150": {
-      "action": "ceiling_increase",
-      "authority": "urgency",
-      "authority_quote": "10 U.S.C. \u00a7 3204(a)(2), Unusual and compelling urgency",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "urgency_from_poor_planning": "Historically, NAVFAC EXWC averaged per year for specialized A-E energy services. However, due to rapidly evolving global threat environments and subsequent DoW/Navy mandates to close shore installation energy resilience gaps"
-      },
-      "i": 27,
-      "news": 3,
-      "news_why": "Military energy resilience urgency driving capacity increase for active IDIQ contract",
-      "red_flags": [
-        "urgency_from_poor_planning"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "CH2M Hill / Clark Nexsen Joint Venture",
-      "what": "Architect-Engineer services for energy security projects at naval shore facilities worldwide",
-      "why_no_competition": "Rapidly evolving global threat environments and DoW/Navy mandates to close energy resilience gaps at shore installations driven by DON strategy and SIOP program"
-    },
     "7186f4655a6f4394a799a74ea0a81c07": {
       "action": "order",
       "authority": "only_one_source",
@@ -4041,29 +3651,6 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Explosion Effects and Blast Loading supplies and devices (EBW detonators, control units, firing systems, high-voltage cables) for Army Corps of Engineers blast testing operations.",
       "why_no_competition": "GSL's specific operational requirements for safe and continual blast testing with exploding bridge-wire detonators; Teledyne Risi provides critical components meeting those requirements."
-    },
-    "7504bc443d58412c8ecf380b03f0e385": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "Only one source is capable of providing the products, services, or solution required at the level of quality required because the products, services or solutions are unique or highly specialized",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "incumbent_lock_in": "The incumbent contractor, Immersion Consulting, LLC, has been fully integrated into the program since October of 2023, supporting design and implementation and working closely with USCIS personnel. Through this involvement, the contractor has developed deep, program-specific knowledge that is not fully captured in project documentation"
-      },
-      "i": 26,
-      "news": 2,
-      "news_why": "Routine continuation of financial systems modernization with incumbent contractor",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Immersion Consulting LLC",
-      "what": "Financial Systems Modernization support services for USCIS SAP S/4HANA transition",
-      "why_no_competition": "Incumbent contractor has deep program-specific knowledge since October 2023; transition to new contractor would require three months and risk data integrity"
     },
     "765da3696c2e479580755b7a42737d0e": {
       "action": "new_award",
@@ -4167,27 +3754,6 @@
       "what": "Siemens UNIPOC licenses and maintenance for point-of-care testing systems at William Beaumont Army Medical Center",
       "why_no_competition": "Only Siemens provides the UNIPOC middleware integrating multiple third-party blood testing analyzers"
     },
-    "79eb4e17ea2940a08debeebafa8c6220": {
-      "action": "new_award",
-      "authority": "urgency",
-      "authority_quote": "Unusual and Compelling Urgency per 41 USC \u00a73304(a)(2) as implemented by RFO 6.103-2",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 25,
-      "news": 3,
-      "news_why": "Emergency facility repair affecting patient care; critical infrastructure; sole-source urgency justified",
-      "red_flags": [
-        "urgency_from_poor_planning"
-      ],
-      "value_quote": "$898,500.00",
-      "value_status": "stated",
-      "value_usd": 898500,
-      "value_verified": true,
-      "vendor": "Briston Construction, LLC",
-      "what": "Emergency replacement of automatic transfer switches for VA Medical Center chiller plant",
-      "why_no_competition": "Two ATS actively failing, third showing imminent failure; contractor already mobilized on-site; delay risks patient care"
-    },
     "7a047e0a2c164e198e383cc91e614339": {
       "action": "order",
       "authority": "urgency",
@@ -4233,29 +3799,6 @@
       "what": "Preventive maintenance and 24/7 on-call support for security systems at NRL building in Guam (36 months)",
       "why_no_competition": "Only responsible source identified; simplified acquisition procedures applied"
     },
-    "7a35ffda4ccf418ab70fe1dd921575f7": {
-      "action": "bridge",
-      "authority": "only_one_source",
-      "authority_quote": "Only One Responsible Source and No Other Supplies or Services Will Satisfy Agency Requirements -- FAR RFO 6.103-1.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "urgency_from_poor_planning": "Following the completion of market research, the acquisition strategy underwent several organizational and strategic shifts to better align with the agency's updated mission requirements and long-term goals. These changes in strategy required revising the procurement package, refining the Performance Work Statement (PWS), and modifying the evaluation criteria multiple times, which significantly compressed the procurement schedule."
-      },
-      "i": 24,
-      "news": 4,
-      "news_why": "National security bridge contract; delays from internal strategy shifts; redacted value; sensitive mission",
-      "red_flags": [
-        "urgency_from_poor_planning"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Olgoonik Solutions, LLC",
-      "what": "Technical surveillance countermeasures (TSCM) services for DOE security operations",
-      "why_no_competition": "Only one source with active TS/SCI cleared personnel, ITC certified technicians, specialized baseline knowledge"
-    },
     "7b6650cb07e447ca91ede909449c2291": {
       "action": "new_award",
       "authority": "only_one_source",
@@ -4275,29 +3818,6 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Master Blanket Purchase Agreement for explosive detonators, firing systems, and high-voltage cables for Army ERDC blast testing operations",
       "why_no_competition": "Specialized EBW detonators and integrated firing systems for safe explosive blast testing; sole supplier of required components"
-    },
-    "7ba44807e1bf47bd856246c01fa0edf3": {
-      "action": "ceiling_increase",
-      "authority": "urgency",
-      "authority_quote": "GSAR 538.7104-3(b)(1)(i) The Government's need to maintain working building boilers for the ESC represents an unusual and compelling urgency that precludes full and open competition",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "urgency_from_poor_planning": "It is anticipated that it would take a minimum of 150 days to conduct a competitive acquisition which would threaten Environmental Science Center operations"
-      },
-      "i": 23,
-      "news": 2,
-      "news_why": "Routine facility maintenance with urgency justification; modest contract value",
-      "red_flags": [
-        "urgency_from_poor_planning"
-      ],
-      "value_quote": "increase the ceiling of this award by $427,038.68",
-      "value_status": "stated",
-      "value_usd": 427038.68,
-      "value_verified": true,
-      "vendor": "Native Energy & Technology, Inc.",
-      "what": "Boiler tubes and controllers replacement for Environmental Science Center facility",
-      "why_no_competition": "Urgent need to complete work before winter months; 150 days for competitive acquisition infeasible"
     },
     "7c0f60892caa408bad296b64f31c2017": {
       "action": "new_award",
@@ -4387,29 +3907,6 @@
       "what": "Maintenance and software support for PAR Excellence Weight-Based Inventory Management System",
       "why_no_competition": "PAR Excellence sole proprietor of proprietary tools and engineering knowledge; system integrated with VA national inventory system"
     },
-    "803014e3d0514329892de042aa86b729": {
-      "action": "new_award",
-      "authority": "limited_sources",
-      "authority_quote": "10 U.S.C. \u00a7 3204(a)(3)(B), as implemented by FAR 6.103-3(b)(2) \"Agencies may contract without providing for full and open competition when it is necessary to award the contract to a particular source or sources in order to establish or maintain an essential engineering, research, or development capability\"",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "no_market_research": "Market research identified a number of facilities that conducted dynamic impactor testing. However, all such facilities, apart from one, were found to have test lab set-ups that were significantly undersized"
-      },
-      "i": 22,
-      "news": 2,
-      "news_why": "Specialized research and development services; limited source justification appropriate",
-      "red_flags": [
-        "no_market_research"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Georgia Tech Research Corporation",
-      "what": "Fabrication and 3-point bending testing of precast concrete panels via dynamic impactor",
-      "why_no_competition": "Only two facilities have required dynamic actuators; UCSD facility unavailable; Georgia Tech uniquely capable"
-    },
     "80f7b6a3bcad4b9ca8613356afa8f213": {
       "action": "new_award",
       "authority": "brand_name",
@@ -4448,29 +3945,6 @@
       "vendor": "National Grid",
       "what": "Electric utility services for IRS facility, Andover, MA via GSA areawide contract",
       "why_no_competition": "National Grid only electric distribution utility serving Andover; GSA areawide contract mandated by 40 U.S.C. 501 and FAR 41.204(c)(1)"
-    },
-    "820613fc610c46fa9853ef225617430a": {
-      "action": "order",
-      "authority": "other",
-      "authority_quote": "16.507-6(b)(3) \u2013 Logical follow-on.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "incumbent_lock_in": "Accenture Federal Services LLC has operated and enhanced FSA's student, borrower, and partner platforms for more than eight (8) years and has developed extensive institutional knowledge"
-      },
-      "i": 21,
-      "news": 4,
-      "news_why": "Large-value follow-on with significant transition costs; incumbent lock-in concerns",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": "$352,153,142",
-      "value_status": "stated",
-      "value_usd": 352153142,
-      "value_verified": true,
-      "vendor": "Accenture Federal Services LLC",
-      "what": "Operation, maintenance, enhancement of student, borrower, partner platforms for FSA",
-      "why_no_competition": "Incumbent has 8+ years institutional knowledge; transition costs with new vendor estimated at $23M"
     },
     "845c02fdf2a741a9bf042aa940868344": {
       "action": null,
@@ -4579,25 +4053,6 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Water services for Pointes West Recreation Area, Fort Gordon, Georgia",
       "why_no_competition": "Only utility provider available in Columbia County for this location"
-    },
-    "893a334a16694a5e8559f13dc78cac58": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "10 United States Code (U.S.C.) 3204(a)(1) as implemented by the Federal Acquisition Regulation (FAR) 6.302-1, Only One Responsible Source",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 20,
-      "news": 1,
-      "news_why": "Routine military vehicle component acquisition from approved source",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Weibel Equipment Inc.",
-      "what": "Kit, Muzzle Velocity Radar System Antenna with Container (NSN 5895-01-524-8674) for M109 Paladin vehicles",
-      "why_no_competition": "Second or subsequent acquisition directly from manufacturer per source control drawing requirement"
     },
     "89423ffd55df48a4b7bc6b7f8e33ae67": {
       "action": "follow_on",
@@ -4919,30 +4374,6 @@
       "what": "Fort Worth, TX lease renewal (208,234 RSF)",
       "why_no_competition": "Document excerpt only; full J&A details redacted"
     },
-    "9b114ae9b27542dab322075cc3107c54": {
-      "action": "bridge",
-      "authority": "urgency",
-      "authority_quote": "unusual and compelling urgency...There is insufficient time to synopsize this action, solicit offers, conduct source selection, negotiate, and award an interim, short-term contract",
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "protest_or_challenge": "The bridge request arose from a timely GAO bid protest submitted on March 13, 2026. This resulted in suspension of performance on the newly awarded contract N4008026D1003"
-      },
-      "i": 19,
-      "news": 4,
-      "news_why": "Navy security services bridge contract triggered by GAO protest and corrective action delays",
-      "red_flags": [
-        "protest_or_challenge",
-        "repeated_extension"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "redacted",
-      "what": "Regional Security Operation Services IDIQ bridge contract for Naval District Washington installations",
-      "why_no_competition": "GAO bid protest caused suspension; bridge needed to maintain continuous security services during corrective action"
-    },
     "9def588ca09a4211b5b223f8a31a2ed3": {
       "action": "new_award",
       "authority": "only_one_source",
@@ -4966,27 +4397,6 @@
       "vendor": null,
       "what": "GPS Mil Spec Splitters with 8 outputs, EMI shielding, hermetically sealed, waterproof for Critical Time Dissemination",
       "why_no_competition": "Sole source brand-name manufacturer; splitters are proprietary and required for CTD and Two-Way Satellite Time Transfer mission"
-    },
-    "9e5a703e48d54574ae8707785c5f83ce": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "The bins manufactured by Daifuku are the only item compatible with the Daifuku ASL x-ray system",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 18,
-      "news": 2,
-      "news_why": "TSA airport screening equipment replacement due to proprietary vendor lock-in",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "DAIFUKU AIRPORT AMERICA CORPORATION",
-      "what": "1,750 ASL standard bin trays with RFID labels for Daifuku X-ray machines at Denver International Airport",
-      "why_no_competition": "Proprietary RFID chip required; only Daifuku bins compatible with equipment at DEN; warranty void with other vendors"
     },
     "9f78ca6e563a48b091a829dc92a91057": {
       "action": "order",
@@ -5225,27 +4635,6 @@
       "what": "Off-site teleradiology physician services for Grand Junction VA Medical Center, six months",
       "why_no_competition": "Urgent need for uninterrupted coverage; onboarding and credentialing delays with new provider would interrupt patient care"
     },
-    "b2d32093c81748808a039bca4d14bb43": {
-      "action": "order",
-      "authority": "limited_sources",
-      "authority_quote": "FAR 16.507-6 (b)(2) Only one awardee is capable of providing the supplies or services required at the level of quality required because the supplies or services ordered are unique or highly specialized",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 17,
-      "news": 3,
-      "news_why": "TSA counter-drone procurement for 15 Core 30 airports under sole-source justification",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Dedrone Defense, LLC",
-      "what": "Dedrone RF-560 C-UAS fixed and mobile sensors and software for TSA airport drone detection",
-      "why_no_competition": "System deeply embedded in existing TSA/DHS architecture; switching systems poses unacceptable interoperability risk"
-    },
     "b313e599e2e843839eb3de6ea5aa7444": {
       "action": "other",
       "authority": "fair_opportunity_exception",
@@ -5305,49 +4694,6 @@
       "what": "Integrated solid-waste management, collection, recycling services for Malmstrom AFB, Montana",
       "why_no_competition": "Only landfill operator in region; sole provider with required infrastructure and capability"
     },
-    "b692107c8502421f933849a71bcdd3f5": {
-      "action": "new_award",
-      "authority": "urgency",
-      "authority_quote": "This is an urgent and compelling requirement that must be completed no later than a beginning date in October which cannot be disclosed because of security concerns",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 16,
-      "news": 4,
-      "news_why": "White House facility HVAC work with acknowledged planning failures causing urgency",
-      "red_flags": [
-        "urgency_from_poor_planning",
-        "politically_sensitive"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "M&M Welding & Fabricators, Inc.",
-      "what": "HVAC repair and upgrade for JBAB Building 410 warehouse and administrative offices",
-      "why_no_competition": "Urgent timeline, security restrictions, and vendor's specialized knowledge of White House Complex systems"
-    },
-    "b6ee4b12936b42319127b9a24d0e8f2f": {
-      "action": "order",
-      "authority": "only_one_source",
-      "authority_quote": "10 U.S.C. 3204(a)(1) \u2014 Available from only one or limited number of sources",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 15,
-      "news": 1,
-      "news_why": "Routine aircraft component procurement with limited technical data",
-      "red_flags": [
-        "no_market_research"
-      ],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "STEIN SEAL COMPANY",
-      "what": "Seal Assembly, Match (NSN 2840-009573745) for T-38 aircraft, 160 units EAQ",
-      "why_no_competition": "Technical data not available to permit competition; government data reflects minimum needs only"
-    },
     "b729c725159c4f138864b4ac6cbc1017": {
       "action": "modification",
       "authority": "fair_opportunity_exception",
@@ -5370,27 +4716,6 @@
       "vendor": "Diversified Construction of Oklahoma, Inc.",
       "what": "Systems furniture procurement and installation for Booster Fabrication Facility renovation; NASA Kennedy Space Center",
       "why_no_competition": "Logical follow-on to base renovation contract; new contractor would cause design incompatibility, schedule delays, and coordination inefficiencies"
-    },
-    "b77d73d400f34d769bc4f40501458d12": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "10 U.S.C. 3204 (a)(1), Only one responsible source and no other supplies or services will satisfy agency requirements.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 2,
-      "news": 3,
-      "news_why": "Sizable military contract for specialized unmanned aircraft systems; incumbent lock-in justified by integration complexity",
-      "red_flags": [
-        "incumbent_lock_in"
-      ],
-      "value_quote": "Establishment of a Basic Ordering Agreement (BOA) on a sole source basis in the amount of $25,000,000",
-      "value_status": "stated",
-      "value_usd": 25000000,
-      "value_verified": true,
-      "vendor": "L3 Communication Systems-West",
-      "what": "Communications system components, engineering and logistics support for MQ-4C Triton unmanned aircraft",
-      "why_no_competition": "OEM holds proprietary test fixtures, software documentation, and technical data; alternate source would require 5 years and $12 million+ retooling"
     },
     "b896006238ef4d94b5cb2ae912d06621": {
       "action": "new_award",
@@ -5692,25 +5017,6 @@
       "what": "Preventive and corrective maintenance services for North Atlantic Division Air Force fuels program at military installations",
       "why_no_competition": "Active bid protest litigation prevents transition to competed follow-on contractor; incumbent only source ready by September 29, 2026 start date"
     },
-    "c89949e77d6a47a4964df3c0e4c37faf": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "Unique characteristics that limit availability to only one source, with the reason no other supplies or services can be used",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 14,
-      "news": 1,
-      "news_why": "Routine medical equipment replacement for VA facility",
-      "red_flags": [],
-      "value_quote": "The estimated value of the proposed action is $ 19,547.70",
-      "value_status": "stated",
-      "value_usd": 19547.7,
-      "value_verified": true,
-      "vendor": "Span-America Medical Systems, Inc.",
-      "what": "Ten Control Units (P/N 27686) for Dayton VA Medical Center Community Living Center",
-      "why_no_competition": "Custom modified pump required for specific Span-America mattress system; no alternative control units available"
-    },
     "c968b18b1a994ff2adba66db42ee606f": {
       "action": "bridge",
       "authority": "only_one_source",
@@ -5803,25 +5109,6 @@
       "what": "Individually Ventilated Cage Systems for Oklahoma City VA Medical Center research facilities",
       "why_no_competition": "Proprietary Allentown equipment; existing 21 IVC racks require compatible components; VA LAMb grant designated Allentown"
     },
-    "cbfd98e8b1ff40f4a16f5adc2dfd2845": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "Elekta is not only the sole manufacturer of the Unity system, but also the only responsible source for installation and commissioning of the system. Elekta does not authorize third-party sales or third-party installation of this equipment.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 13,
-      "news": 3,
-      "news_why": "Specialized medical equipment; sole manufacturer of integrated system; NIH research mission.",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Elekta Inc.",
-      "what": "MRI-guided linear accelerator system with installation for NCI radiation therapy research.",
-      "why_no_competition": "Only Elekta manufactures integrated 1.5T MR-Linac; proprietary hardware/software; specialized site planning and commissioning."
-    },
     "cce05a573ecc4ebe8110e799ea77e796": {
       "action": "new_award",
       "authority": "only_one_source",
@@ -5908,25 +5195,6 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Outward Mindset training, materials, and facilitator certification for North Texas VA Health Care System",
       "why_no_competition": "Brand-name requirement for specific Arbinger Institute methodology with standardized, evidence-based curriculum"
-    },
-    "cf9b66570d8a4513845fb4575684f801": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "Only one source is capable of providing the products, services, or solution required at the level of quality required because the products, services, or solutions are unique or highly specialized.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 12,
-      "news": 2,
-      "news_why": "Proprietary software sole-source; NIH research mission.",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Plexus Scientific",
-      "what": "START INCLUDE tracking and reporting module for Down Syndrome research at NIH.",
-      "why_no_competition": "Plexus Scientific sole holder of proprietary START platform; no other vendor has licensed access."
     },
     "cfab29e6fa934666b41e78871e59b150": {
       "action": "modification",
@@ -6096,27 +5364,6 @@
       "vendor": null,
       "what": "60-month lease extension for 8,045 ABOA/9,039 RSF office space at 6651 Gateway Park Drive, San Diego, CA.",
       "why_no_competition": "Occupying agency still developing long-term requirements; extension most expedient way to protect occupancy while planning relocation."
-    },
-    "d6bba6e564ab49c5b9f1ef0f4692b1bf": {
-      "action": "new_award",
-      "authority": "urgency",
-      "authority_quote": "Unusual and Compelling Urgency (RFO 6.103-2) is required to maintain continuity of care. If this requirement is not awarded as a sole source under Unusual and Compelling Urgency, this would affect patient safety.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 11,
-      "news": 3,
-      "news_why": "Emergency health/safety award; patient care risk; incumbent contractor advantage.",
-      "red_flags": [
-        "urgency_from_poor_planning"
-      ],
-      "value_quote": null,
-      "value_status": "unverified",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Briston Construction, LLC",
-      "what": "Design-build ATS chiller plant replacement at VA Medical Center.",
-      "why_no_competition": "Incumbent contractor already mobilized on-site; new contractor would require mobilization, security badging, familiarization; urgent patient safety risk."
     },
     "d94d03fd74c94aeb981cbcdd40c55168": {
       "action": "extension",
@@ -6327,68 +5574,6 @@
       "what": "Legacy eCMS system maintenance and database migration support for NAVFAC construction management",
       "why_no_competition": "Bahfed is exclusive authorized reseller of CMiC platform with proprietary database schema knowledge; gap in coverage would deactivate system"
     },
-    "de6050e886d940659250e237d306ef3c": {
-      "action": "other",
-      "authority": "fair_opportunity_exception",
-      "authority_quote": null,
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 10,
-      "news": 1,
-      "news_why": "No J&A document; insufficient information to assess.",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": null,
-      "what": "Renovate Dormitory B90369 at Army Corps facility.",
-      "why_no_competition": "Exception to Fair Opportunity claimed; no J&A document provided."
-    },
-    "df935c1c32a74381b06144f93a146054": {
-      "action": "new_award",
-      "authority": "urgency",
-      "authority_quote": "unusual urgency exception...the need is of such unusual urgency that following the competitive Schedule procedures would result in unacceptable delay",
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "urgency_from_poor_planning": "Staffing reductions also limited the personnel available to identify and address the coverage issue. That circumstance contributed to the compressed response"
-      },
-      "i": 1,
-      "news": 4,
-      "news_why": "Large services contract with weak urgency rationale; self-inflicted deadline pressure",
-      "red_flags": [
-        "urgency_from_poor_planning",
-        "incumbent_lock_in"
-      ],
-      "value_quote": "Base-period estimated value: $7,487,183.60.",
-      "value_status": "stated",
-      "value_usd": 7487183.6,
-      "value_verified": true,
-      "vendor": "Nakupuna Federal LLC",
-      "what": "65 contractor positions for federal acquisition and assistance support services at State Department",
-      "why_no_competition": "Unprecedented workforce retirements and USAID integration created unforeseen staffing gap with September 16 deadline"
-    },
-    "e1dc1c8c064e467c9f68c1f903d27641": {
-      "action": "other",
-      "authority": "only_one_source",
-      "authority_quote": null,
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 0,
-      "news": 1,
-      "news_why": "Routine aircraft spare part acquisition",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": null,
-      "what": "Vibration absorber assembly for UH-60 helicopter series aircraft",
-      "why_no_competition": "Document is heavily redacted; specific justification unavailable"
-    },
     "e25b8eade1f9433f8e57fc27d7bfc35b": {
       "action": "bridge",
       "authority": "fair_opportunity_exception",
@@ -6454,25 +5639,6 @@
       "vendor": "Premier Healthcare Solutions, Inc.",
       "what": "Maternal morbidity and mortality data and analysis services for HHS Office on Women's Health",
       "why_no_competition": "Premier is sole owner of Premier Healthcare Database with required historical continuity, encounter types, and analytical capabilities"
-    },
-    "e5146c3968b24251ae5e56e73395a793": {
-      "action": "other",
-      "authority": "other",
-      "authority_quote": null,
-      "authority_verified": false,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 9,
-      "news": 1,
-      "news_why": "No J&A document; insufficient information to assess.",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": null,
-      "what": "FGDS technical support and sustainment for F-35 Block 4 CNI avionics.",
-      "why_no_competition": "No J&A document provided; notice text only describes requirement for expert technical services."
     },
     "e6516bc3c4964b2d9cdd6035004d58cb": {
       "action": "new_award",
@@ -6817,25 +5983,6 @@
       "what": "T408 Depot Peculiar Support Equipment for CH-53K aircraft engine maintenance.",
       "why_no_competition": "GE Aviation holds proprietary data and drawing rights; Rhinestahl is sole authorized source for engine tooling after GE transfer."
     },
-    "f8e6b092517246108a9687fc8acac453": {
-      "action": "new_award",
-      "authority": "limited_sources",
-      "authority_quote": "The acquisition is restricted to the only source(s) of supply known to have the capability of furnishing the required supplies/services.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {},
-      "i": 8,
-      "news": 1,
-      "news_why": "Routine spare parts acquisition for aircraft support.",
-      "red_flags": [],
-      "value_quote": null,
-      "value_status": "redacted",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Eaton Corp and Sikorsky",
-      "what": "Hydraulic cylinder, part NSN 1630-010829843, 3-year base.",
-      "why_no_competition": "Controlled by DLA; only Eaton and Sikorsky known to have capability. Technical data unavailable for competition."
-    },
     "fa0057c3f58c45b9b15e93febc73913a": {
       "action": null,
       "authority": "other",
@@ -6855,29 +6002,6 @@
       "vendor_kind": null,
       "what": null,
       "why_no_competition": null
-    },
-    "fa34e53eabc64bce85d98e496df9b930": {
-      "action": "new_award",
-      "authority": "only_one_source",
-      "authority_quote": "Only one source is capable of providing the products, services, or solution required at the level of quality required because the products, services, or solutions are unique or highly specialized.",
-      "authority_verified": true,
-      "d": "2026-10-06",
-      "flag_evidence": {
-        "no_market_research": "The government assessed which vendors have experience and history with Plexus Scientific's START platform. The government was only able to determine that Plexus Scientific as the license holder still maintains an active ability to adapt and create new coding language in the START software programming language."
-      },
-      "i": 7,
-      "news": 2,
-      "news_why": "Proprietary software sole-source; limited market research documented.",
-      "red_flags": [
-        "no_market_research"
-      ],
-      "value_quote": null,
-      "value_status": "not_stated",
-      "value_usd": null,
-      "value_verified": false,
-      "vendor": "Plexus Scientific",
-      "what": "START AI knowledge management platform expansion for NINR and NIAMS at NIH.",
-      "why_no_competition": "Plexus Scientific is sole holder of proprietary START platform; no other vendor has licensed access."
     },
     "fc0427974045432bbee17836bc1ab39f": {
       "action": "order",
@@ -10681,6 +9805,7 @@
     "bde3413a18594e7a977673fc34a94477": "2026-10-10",
     "bdfd65c7c1844f6790b246739aedbfa9": "2026-10-10",
     "be0b8273c7604bc7872042cd4de067ae": "2026-10-10",
+    "be1338aad57441258746c56caa82271d": "2026-10-11",
     "be2b5aa7bd2f4c6d8f4f4396257172f6": "2026-10-10",
     "be7e27bd85c849fabcc1fb97a99883b1": "2026-10-10",
     "be9830e2f49c4fc8a556b2cb6c86a8ec": "2026-10-10",
@@ -10955,6 +10080,7 @@
     "d8c0cdbbe2094690ae785e7ea62b1a16": "2026-10-10",
     "d8dc5125bedf4cacb2656e00c34ae880": "2026-10-10",
     "d8dde025342749899f8458648db51ba0": "2026-10-10",
+    "d8ec2a9efecd42548e13c38a27746483": "2026-10-11",
     "d9015d48415a48738f39d6a532eb52c4": "2026-10-10",
     "d9075059e9f242d5908d459f413a26bf": "2026-10-10",
     "d90d3c8a07454bba8518af3602048eed": "2026-10-10",
@@ -10974,7 +10100,7 @@
     "da8802245a784ea694b4bea389813f43": "2026-10-10",
     "da952702bc8a42448e8edf9884b5347a": "2026-10-10",
     "da9a2bf50ce8468a88e75ee13b16a3fa": "2026-10-10",
-    "daa1e8e40787461fa8e150fc993944d8": "2026-10-10",
+    "daa1e8e40787461fa8e150fc993944d8": "2026-10-11",
     "dabd184dc6c844029ee2caeda80339a1": "2026-10-10",
     "dacdbfba979b47ab93d3a4fa7afd7328": "2026-10-10",
     "db1cb44b650f4cdc892299917c04adf9": "2026-10-10",
@@ -11006,6 +10132,7 @@
     "de8de3e2181f4a46b207e697ca045430": "2026-10-10",
     "de9cd3451c28428cae5bf1be4f2e2516": "2026-10-10",
     "dea157ad847b4c1ab08f59f792a85aa3": "2026-10-10",
+    "ded9f2f94a8443518dd5951c5152da3d": "2026-10-11",
     "dedcac42f4eb4791948d4aecf1001e9e": "2026-10-10",
     "df0a326db3a845a5a8d1afa4c97ad23b": "2026-10-10",
     "df45f7d38cdb4b09a395e09675bf418c": "2026-10-10",
@@ -11071,6 +10198,7 @@
     "e4e4f5926e924af2b81256ae43ffef88": "2026-10-10",
     "e4e62b337b144a7bab6836e78821fa7f": "2026-10-10",
     "e5001d7444d14556b8284247add8a267": "2026-10-10",
+    "e5156961052c4b23ae5b113c02d32b81": "2026-10-11",
     "e52d1c39dbdc42f4b58a008c20ce7125": "2026-10-10",
     "e54cd76b26ac4f10bd3bd7faceb61c58": "2026-10-10",
     "e55819040786421283f1b982cf649c7f": "2026-10-10",
@@ -11124,6 +10252,7 @@
     "ea0220e237d840d1aeb65df295e54f11": "2026-10-10",
     "ea0852e57c964b79a44ce1bb277e4084": "2026-10-10",
     "ea437c4774134102b2465fd6530d1b53": "2026-10-10",
+    "ea9ce96f989b4c0ebc1753b715d6e81e": "2026-10-11",
     "eab43be507a34d7986973e3e7aed9b86": "2026-10-10",
     "eafc0f4d8eb94507a0fb0caf44d61d8a": "2026-10-10",
     "eb03a822fdc24872bed349249a5c0ce6": "2026-10-10",
@@ -11320,6 +10449,7 @@
     "fc34a558da5140148e138310785ab139": "2026-10-10",
     "fc56940a7575448795b3ce91c000ef82": "2026-10-10",
     "fc6d81a11d3844c18b55ed6ad1811d2c": "2026-10-10",
+    "fc6eefee8325431dbd05077d90c72f78": "2026-10-11",
     "fc94a6278c0f47bf803e0001429e9aab": "2026-10-10",
     "fcb03eada33c458582ebbd002ad93c8e": "2026-10-10",
     "fcb457692ada4f93ab75d799cb50a9ca": "2026-10-10",

@@ -1190,7 +1190,9 @@
       "https://www.usaspending.gov/award/CONT_AWD_W912QR26CA035_9700_-NONE-_-NONE-": "2026-10-05"
     },
     "pm": {
+      "https://lda.gov/filings/public/filing/3237700f-33e6-4f8a-be73-55b2f29919af/print": "2026-10-11",
       "https://lda.gov/filings/public/filing/32407034-d1d8-416e-a888-58673ff0339a/print": "2026-10-09",
+      "https://lda.gov/filings/public/filing/527a21d1-04ee-40a5-a586-6b91074fab43/print": "2026-10-11",
       "https://lda.gov/filings/public/filing/59339f2c-90c5-4bf7-8a53-d28fe28b533c/print": "2026-10-09",
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0bb3d57425914575b925fc2f6d538832/download": "2026-10-05",
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/26b5b4df3b114aa3b0e174a4b20c8cba/download": "2026-10-05",
@@ -1206,6 +1208,7 @@
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7e33fd6e8c87435fbbacf03b0af8e754/download": "2026-10-06",
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/860b23d697684f559d5930870fd03898/download": "2026-10-10",
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8ab7b332305d435d99b6b987ec8603ee/download": "2026-10-07",
+      "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8cff213c8dc8493196ac4f5102f1d522/download": "2026-10-11",
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9586331b7d014c40bc58fd1915629230/download": "2026-10-06",
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/97b0de0e201c458c8869b82e599541c4/download": "2026-10-10",
       "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9ab143bdd0cd4d7887435b116b7b465d/download": "2026-10-08",
@@ -1506,6 +1509,7 @@
       "https://sam.gov/opp/e916eeb5f70f4c6698cc4c44401a0e09/view": "2026-10-10",
       "https://sam.gov/opp/e93f5dc170ca48da8f12076b08d2df29/view": "2026-10-08",
       "https://sam.gov/opp/ea913b2b80bb4ada8c9bbc482964c057/view": "2026-10-08",
+      "https://sam.gov/opp/ea9ce96f989b4c0ebc1753b715d6e81e/view": "2026-10-11",
       "https://sam.gov/opp/ef05f430e2444640a707554aa0a9833c/view": "2026-10-08",
       "https://sam.gov/opp/ef24d7a2bd52409fbc8e06b343af093a/view": "2026-10-09",
       "https://sam.gov/opp/ef65fc8c9eac43288af6258a3f1be0b0/view": "2026-10-10",
@@ -1535,17 +1539,27 @@
       "https://sam.gov/opp/fdab436a0fc2461f97048c28f55e96b7/view": "2026-10-08",
       "https://sam.gov/opp/fe4549f628554d7c97350bed8be84402/view": "2026-10-06",
       "https://sam.gov/opp/fed9202f152a4443ab79d4b29a6494fb/view": "2026-10-10",
+      "https://www.usaspending.gov/award/CONT_AWD_12314427F0005_1205_GS00F045DA_4732": "2026-10-11",
+      "https://www.usaspending.gov/award/CONT_AWD_15B20127F00000003_1540_15BCMS26D00000009_1540": "2026-10-11",
       "https://www.usaspending.gov/award/CONT_AWD_15BRRC26F00000308_1540_15BRRC24D00000013_1540": "2026-10-04",
       "https://www.usaspending.gov/award/CONT_AWD_15BRRC26F00000310_1540_15BRRC19D00000149_1540": "2026-10-04",
       "https://www.usaspending.gov/award/CONT_AWD_15BRRC26F00000322_1540_15BRRC26D00000014_1540": "2026-10-04",
       "https://www.usaspending.gov/award/CONT_AWD_15BRRC26F00000325_1540_15BRRC20D00000110_1540": "2026-10-04",
       "https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7216_1900_19AQMM23A0106_1900": "2026-10-09",
       "https://www.usaspending.gov/award/CONT_AWD_19AQMM26F7217_1900_19AQMM23A0106_1900": "2026-10-09",
+      "https://www.usaspending.gov/award/CONT_AWD_36C10G27N0015_3600_36C10G22D0009_3600": "2026-10-11",
+      "https://www.usaspending.gov/award/CONT_AWD_36C10X27K0013_3600_36C10X26D0037_3600": "2026-10-11",
       "https://www.usaspending.gov/award/CONT_AWD_36C24527N0062_3600_36C24527D0003_3600": "2026-10-09",
       "https://www.usaspending.gov/award/CONT_AWD_36C24527N0080_3600_36C24525D0041_3600": "2026-10-09",
+      "https://www.usaspending.gov/award/CONT_AWD_36C24727F0010_3600_47QSWA21D006G_4732": "2026-10-11",
+      "https://www.usaspending.gov/award/CONT_AWD_36C24827C0001_3600_-NONE-_-NONE-": "2026-10-11",
+      "https://www.usaspending.gov/award/CONT_AWD_36C24827C0005_3600_-NONE-_-NONE-": "2026-10-11",
       "https://www.usaspending.gov/award/CONT_AWD_47PD5427F0003_4740_47PK0121D0052_4740": "2026-10-09",
+      "https://www.usaspending.gov/award/CONT_AWD_70B01C26F00001093_7014_70B01C26D00000025_7014": "2026-10-11",
       "https://www.usaspending.gov/award/CONT_AWD_70FA9026C00000002_7022_-NONE-_-NONE-": "2026-10-09",
-      "https://www.usaspending.gov/award/CONT_AWD_80HQTR27FA002_8000_80HQTR24AA007_8000": "2026-10-09"
+      "https://www.usaspending.gov/award/CONT_AWD_70FA9026F00000011_7022_GS00F105CA_4732": "2026-10-11",
+      "https://www.usaspending.gov/award/CONT_AWD_80HQTR27FA002_8000_80HQTR24AA007_8000": "2026-10-09",
+      "https://www.usaspending.gov/award/CONT_AWD_80JSC027F0007_8000_80JSC027D0001_8000": "2026-10-11"
     }
   }
 }
