@@ -1,0 +1,29 @@
+{
+ "date": "Saturday, October 10, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Quiet day: no new ethics or disclosure filings found, and two sources were unavailable",
+  "dek": "The lobbying and foreign-agent feeds could not be read today.",
+  "paragraphs": [
+   "The <strong>Office of Government Ethics</strong> pass found nothing significant, and every House and Senate financial disclosure in the lookback window had already been reported in earlier editions.",
+   "The Senate lobbying disclosure site (lda.gov) was returning errors, and the foreign-agent registration pages from the <strong>U.S. Department of Justice</strong> returned no readable rows, so neither was verified."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No significant ethics filings reported this period",
+   "paragraphs": [
+    "The Office of Government Ethics' public database shows 34 filings submitted during the period of October 7\u201311, 2026, with no divestitures, ethics agreement amendments, or other filings flagged for reporting."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "Oct. 9, 2026 00:00 Pacific through early Oct. 10, 2026 (financial disclosures: filed Oct. 7 onward, deduplicated against prior editions)",
+  "sources": "OGE's ethics-filing search endpoint; DOJ FARA e-file system; Senate Office of Public Records LDA API; Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "lda.gov returned HTTP 503 / timed out on repeated attempts, so LDA registrations and activity were not checked today. The FARA new/terminated registrant pages returned HTML with no row data in the initial response (the report table appears to load client-side), so FARA registrants could not be verified today. All House (11) and Senate (3) disclosure filings in the lookback window were already reported in earlier editions. "
+ },
+ "beat": []
+}
