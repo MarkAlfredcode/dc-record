@@ -2056,6 +2056,96 @@
    "source": "https://www.cbsnews.com/news/trump-europe-diesel-oil-release/",
    "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q4)",
    "timeline_text": "Following a G7 video conference to discuss fuel supply and prices President Trump announces that Europe would release diesel oil from its stockpiles. A joint statement from G7 leaders was released by the \u00c9lys\u00e9e Palace confirming the release over a four month period."
+  },
+  {
+   "label": "$1B APKWS sale to UAE and $400M Patriot repair deal for Kuwait",
+   "date": "2026-10-05",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.timesofisrael.com/liveblog_entry/us-approves-1-billion-arms-sale-to-uae-400-million-sale-to-kuwait/",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The Trump administration authorizes a $1 billion munitions sale to the UAE for up to 10,000 Advanced Precision Kill Weapon Systems, as well as a $400 million sale of \"repair and return services\" for Patriot missiles to Kuwait.",
+   "added_by": "every-10-days refresh",
+   "keywords": [
+    "bae systems",
+    "raytheon"
+   ]
+  },
+  {
+   "label": "Paramount Skydance completes $110B Warner Bros. Discovery acquisition",
+   "date": "2026-10-06",
+   "sectors": [],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.bbc.co.uk/news/articles/cxj0604d33qzo",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Paramount Skydance completes its US$110 billion acquisition of Warner Bros. Discovery, in one of the largest media mergers in history. The deal combines two of Hollywood's largest film studios with major television and streaming businesses including CBS, CNN, HBO and Paramount+, with the combined co",
+   "added_by": "every-10-days refresh",
+   "keywords": [
+    "paramount",
+    "warner bros"
+   ],
+   "tickers": [
+    "PSKY",
+    "WBD"
+   ]
+  },
+  {
+   "label": "Trump says Putin agreed to release diesel into U.S. and global markets",
+   "date": "2026-10-09",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.timesofisrael.com/liveblog_entry/trump-says-putin-agrees-to-major-release-of-diesel-to-help-soaring-costs-amid-iran-war/",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Trump announces that he secured Russian president Vladimir Putin's agreement to release diesel into U.S. and worldwide markets, saying that this will reduce rising energy costs in the midst of the Iran war.",
+   "added_by": "every-10-days refresh"
+  },
+  {
+   "label": "Houthi missile attack on Riyadh airport",
+   "date": "2026-10-10",
+   "sectors": [
+    "oil_gas",
+    "airlines",
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.nytimes.com/2026/10/10/world/middleeast/riyadh-airport-attack-energy-congress.html",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "Houthi-Saudi conflict: At least 13 people are killed and 308 injured in a ballistic missile attack on King Khalid International Airport in Riyadh, which was conducted by the Houthis.",
+   "added_by": "every-10-days refresh"
+  },
+  {
+   "label": "Hurricane Isaias hits Gulf Coast, mass power outages",
+   "date": "2026-10-10",
+   "sectors": [
+    "insurers_utilities"
+   ],
+   "window_before_days": 7,
+   "window_after_days": 3,
+   "source": "https://abcnews.com/US/wireStory/hundreds-thousands-power-after-isaias-slams-florida-panhandle-137153995",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "Hundreds of thousands of Americans in Alabama and the Florida panhandle are without electricity after Hurricane Isaias hits the U.S. Gulf Coast. Trump cancels his intentions to attend a football match between the University of Georgia and the University of Alabama in Tuscaloosa, citing a desire not ",
+   "added_by": "every-10-days refresh"
+  },
+  {
+   "label": "Russia-Ukraine energy ceasefire announced",
+   "date": "2026-10-11",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://thehill.com/homenews/administration/6141275-trump-russia-ukraine-energy-ceasefire/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q4)",
+   "timeline_text": "President Trump announces an energy ceasefire deal has been reached between Russia and Ukraine.",
+   "added_by": "every-10-days refresh"
   }
  ]
 }
