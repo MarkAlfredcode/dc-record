@@ -10,6 +10,7 @@ every run so no file is read twice. Record fields:
   m  extraction method        c  characters screened   sol solicitation no.
   f  findings [{news, finding, quote, verified, context}]
   a  failed attempts          e  last error
+  r  note (e.g. every line repeated an earlier file on the same notice)
 Status: screened | wage_determination | boilerplate_only | no_text |
 unsupported | failed (gave up after MAX_ATTEMPTS, or not read within
 QUEUE_DAYS) | retry (read failed; queued). A file deferred for time or
@@ -131,6 +132,24 @@ def verify(f, text):
     return rec
 
 
+def drop_repeated_lines(cleaned, seen):
+    """Drops lines already sent to Haiku this run in another file of the same
+    solicitation -- amendments re-upload the same statement of work under a
+    new file id (7.7% of the characters screened on 2026-10-10). Only
+    substantial lines (26+ characters) count; quotes are still verified
+    against the file's full text. Returns (text, new line keys, lines dropped)."""
+    keep, new, dropped = [], set(), 0
+    for line in cleaned.split("\n"):
+        key = " ".join(line.split()).lower()
+        if len(key) > 25:
+            if key in seen:
+                dropped += 1
+                continue
+            new.add(key)
+        keep.append(line)
+    return "\n".join(keep), new, dropped
+
+
 def prune(cache, today):
     cutoff = (date.fromisoformat(today) - timedelta(days=KEEP_DAYS)).isoformat()
     return {k: v for k, v in cache.items() if v.get("d", today) >= cutoff}
@@ -180,24 +199,36 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
                                         not todo[r].get("from_queue"),
                                         todo[r].get("queued_since") or "", len(docs[r][0])))
     chunks, raw_chars, kept_chars, over_budget = [], 0, 0, set()
+    sol_lines, repeat_chars = {}, 0
     for k, rid in enumerate(order):
         text = docs[rid][0]
         f = todo[rid]
         cleaned = sam_boilerplate.clean(text, common, ocr="ocr" in (f.get("method") or ""))
-        if kept_chars and kept_chars + len(cleaned) > MAX_SCREEN_CHARS:
+        seen = sol_lines.setdefault(docs[rid][1], set())
+        deduped, new_lines, repeats = drop_repeated_lines(cleaned, seen)
+        if kept_chars and kept_chars + len(deduped) > MAX_SCREEN_CHARS:
             over_budget.add(rid)
             del recs[rid]
             continue
+        seen.update(new_lines)
         raw_chars += len(text)
-        kept_chars += len(cleaned)
-        recs[rid]["c"] = len(cleaned)
+        kept_chars += len(deduped)
+        repeat_chars += len(cleaned) - len(deduped)
+        recs[rid]["c"] = len(deduped)
         if not cleaned.strip():
             recs[rid]["s"] = "boilerplate_only"
             continue
-        pieces = [cleaned[i:i + CHUNK_CHARS] for i in range(0, len(cleaned), CHUNK_CHARS)]
+        if not deduped.strip():
+            # every line was in a file already sent this run for the same
+            # solicitation (an amendment re-uploading its SOW): read there
+            recs[rid].update({"s": "screened", "r": "repeat of an earlier file on this notice"})
+            continue
+        note = f" ({repeats} lines identical to an earlier file on this notice omitted)" if repeats else ""
+        pieces = [deduped[i:i + CHUNK_CHARS] for i in range(0, len(deduped), CHUNK_CHARS)]
         for p, piece in enumerate(pieces):
             header = (f"NOTICE: {(f.get('titles') or [''])[0]} ({(f.get('sols') or [''])[0]}; {f.get('agency') or ''}; "
-                      f"{f.get('type') or f.get('kind')})\nFILE: {f.get('name')}" + (f" (part {p + 1} of {len(pieces)})" if len(pieces) > 1 else ""))
+                      f"{f.get('type') or f.get('kind')})\nFILE: {f.get('name')}" + (f" (part {p + 1} of {len(pieces)})" if len(pieces) > 1 else "")
+                      + note)
             chunks.append((f"D{k}" + (f".{p + 1}" if len(pieces) > 1 else ""), rid, header, piece))
 
     batches, cur, size = [], [], 0
@@ -265,7 +296,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         "files_deferred_time_budget": len(deferred),
         "files_deferred_screen_budget": len(over_budget),
         "files_queued_for_next_run": len(queue),
-        "chars_extracted": raw_chars, "chars_screened": kept_chars,
+        "chars_extracted": raw_chars, "chars_screened": kept_chars, "chars_skipped_as_repeats": repeat_chars,
         "batches": len(batches), "findings": sum(len(r.get("f") or []) for r in recs.values()),
         "cost_usd": round(cost, 3),
     }

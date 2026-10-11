@@ -65,9 +65,16 @@ republishes as one bundle regardless of per-file changes).
 `data/omb-spend-plan-manifest.json` tracks each PDF's `Content-Length` (the
 one reliable signal) instead.
 
-**USAspending Contracts** (`api.usaspending.gov`): new $2M+ prime contract
-*base awards* only (`Mod == "0"`, excludes modifications/option-exercises).
-This source has real multi-day-to-multi-week posting lag with no reliable
+**USAspending Contracts** (`api.usaspending.gov`), rebuilt 2026-10-11 (see
+`scripts/usaspending_common.py`): new $2M+ base awards, single modifications
+of +$25M and cuts of -$5M or more, AM edition only (PM carries the morning's
+section over). A second sweep covers the Department of Defense, whose
+contract data is published ~90 days after signing and so never appeared in
+the 25-day window. `scripts/triage_usaspending.py` (Haiku) picks what the main
+pass writes up; the routine rest is listed mechanically in an extras section.
+The $100K-$2M band (`triage_usaspending_small.py`) uses the same two sweeps.
+
+Older notes: this source has real multi-day-to-multi-week posting lag with no reliable
 "date this record appeared" field (`last_modified_date` was tested and
 rejected — it reflects the *award*'s last-touched date, not the specific
 transaction's, so it resurfaces old already-reported activity whenever

@@ -119,6 +119,30 @@ def beat(content):
     return out
 
 
+CARRY_OVER = ("USAspending", "Lobbying × Contracts")
+
+
+def carry_over_usaspending(content):
+    """The Feds PM edition doesn't pull USAspending (it loads once a day;
+    fetch_usaspending.py writes a `skipped: "pm"` stub), so its sections are
+    copied from this morning's archived edition -- the website's PM page
+    would otherwise have none. No-op if the PM pass wrote its own or the AM
+    edition didn't run."""
+    have = {s.get("eyebrow", "") for s in content.get("sections", [])}
+    if any(e.startswith(CARRY_OVER) for e in have):
+        return
+    am = load_json(os.path.join("archive", "feds", f"{today_la()}-am.json"), {}) or {}
+    carried = [s for s in am.get("sections", []) if s.get("eyebrow", "").startswith(CARRY_OVER)]
+    if not carried:
+        return
+    carried[0] = {**carried[0], "paragraphs": ["From this morning's edition: USAspending.gov is pulled once a day."]
+                  + list(carried[0].get("paragraphs", []))}
+    secs = content.setdefault("sections", [])
+    at = next((i for i, s in enumerate(secs) if "apportion" in s.get("eyebrow", "").lower()), len(secs))
+    secs[at:at] = carried
+    print(f"carried over {len(carried)} USAspending section(s) from this morning's edition", file=sys.stderr)
+
+
 def main():
     if len(sys.argv) != 3:
         print("usage: assemble.py <edition> content-TODAY.json", file=sys.stderr)
@@ -135,6 +159,8 @@ def main():
                 content.setdefault("sections", []).insert(0, s)
             else:
                 content.setdefault("sections", []).append(s)
+    if edition == "feds" and run_mode() == "pm":
+        carry_over_usaspending(content)
     dropped = 0
     if edition in surfaced.EDITIONS:
         dropped = surfaced.drop_repeats(content, surfaced.prior(edition))

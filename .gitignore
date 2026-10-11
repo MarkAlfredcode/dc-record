@@ -14,5 +14,7 @@ data/sam_documents.json
 data/sam_files.json
 data/surfaced-prior-*.json
 data/sam_triage.json
+data/usaspending_triage.json
+data/usaspending_small_triage.json
 .wrangler/
 .DS_Store

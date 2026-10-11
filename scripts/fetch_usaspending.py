@@ -1,130 +1,115 @@
 #!/usr/bin/env python3
-"""Task 9 (USAspending Contracts) fetch/filter. Mechanizes: pagination,
-Mod=="0" filtering, and manifest-based novelty dedup. Claude still decides
-which new awards get a full paragraph vs. a one-line mention and writes the
-actual English description -- that's real judgment/writing, not scriptable.
+"""Task 9 (USAspending Contracts) fetch/filter: new base contract awards of
+$2M+, plus large modifications (+$25M and up) and cuts (-$5M and down).
+Claude still decides what's notable and writes the English; the cheap-model
+screen (triage_usaspending.py) sorts the pile first.
+
+Rebuilt 2026-10-11 (see usaspending_common.py for the why):
+- Defense backlog sweep: Pentagon awards appear ~90 days after signing, so
+  the old 25-day window never held a single one. They're reported when
+  USAspending publishes them, flagged `sweep: "defense_backlog"`.
+- spending_by_award (base awards only, description inline) instead of ~102
+  pages of transactions plus a detail fetch per award.
+- Modifications were dropped entirely before (Mod != "0"); 143 of +$25M and
+  31 cuts of -$5M or more in one 25-day window.
+- AM only: USAspending loads once a day, and website-only PM runs revert the
+  manifest anyway (so whatever PM found was re-reported the next morning).
+  PM writes a `skipped: "pm"` stub and assemble.py carries the morning's
+  section over. DC_USA_FORCE=1 runs it in PM anyway.
 
 Output: data/usaspending_candidates.json
 Side effect: rewrites data/usaspending-contracts-manifest.json.
 """
+import os
 import sys
 
-from dc_common import (
-    check_reachable, days_ago_la, http_post_json, http_get_json,
-    load_manifest, save_manifest, today_la, write_candidates,
-)
+from dc_common import check_reachable, days_ago_la, load_manifest, save_manifest, today_la, write_candidates
+import usaspending_common as uc
 
 MANIFEST_PATH = "data/usaspending-contracts-manifest.json"
 OUT_PATH = "data/usaspending_candidates.json"
-BASE = "https://api.usaspending.gov"
+FLOOR = 2_000_000
+MOD_INCREASE_FLOOR = 25_000_000
+MOD_CUT_FLOOR = 5_000_000
+MANIFEST_DAYS = 30
+FIRST_RUN_MOD_DAYS = 5
+
+
+def pm_skip():
+    return (os.environ.get("MODE") or "am").strip().lower() == "pm" and not os.environ.get("DC_USA_FORCE")
 
 
 def main():
     today = today_la()
-    window_start = days_ago_la(25)
+    if pm_skip():
+        write_candidates(OUT_PATH, {
+            "skipped": "pm", "reachable": True, "errors": [], "new_awards": [], "modifications": [], "cuts": [],
+            "note": "USAspending is pulled once a day, in the AM edition; this PM edition carries the morning's section over.",
+        })
+        return
+
     reachable = check_reachable("api.usaspending.gov")
-
+    sweeps = uc.sweeps(today)
     out = {
-        "window": {"start": window_start, "end": today},
+        "window": {s[0]: {"start": s[1], "end": s[2]} for s in sweeps},
         "reachable": reachable,
-        "new_awards": [],
-        "errors": [],
-        "counts": {},
+        "thresholds": {"new_award_floor": FLOOR, "modification_increase_floor": MOD_INCREASE_FLOOR,
+                       "cut_floor": -MOD_CUT_FLOOR},
+        "new_awards": [], "modifications": [], "cuts": [],
+        "errors": [], "counts": {},
     }
-
     if not reachable:
         out["errors"].append("api.usaspending.gov unreachable")
         write_candidates(OUT_PATH, out)
         return
 
     manifest = load_manifest(MANIFEST_PATH)
-    new_rows = []
-    page = 1
-    total_pages = 0
-    while True:
-        payload = {
-            "filters": {
-                "award_type_codes": ["A", "B", "C", "D"],
-                "time_period": [{"start_date": window_start, "end_date": today}],
-                "award_amounts": [{"lower_bound": 2000000}],
-            },
-            "fields": [
-                "Award ID", "Recipient Name", "Transaction Amount", "Awarding Agency",
-                "Awarding Sub Agency", "Transaction Description", "Action Date", "Mod",
-                "PSC", "NAICS",
-            ],
-            "page": page, "limit": 100, "sort": "Transaction Amount", "order": "desc",
-        }
-        try:
-            status, data = http_post_json(f"{BASE}/api/v2/search/spending_by_transaction/", payload, timeout=30)
-        except Exception as e:  # noqa: BLE001
-            out["errors"].append(f"page {page} fetch failed: {e}")
-            break
-        if status >= 400:
-            out["errors"].append(f"page {page} -> HTTP {status}")
-            break
-        results = data.get("results", [])
-        if page % 10 == 0 or page == 1:
-            print(f"  USAspending page {page}, {len(results)} rows", file=sys.stderr)
-        for row in results:
-            if row.get("Mod") != "0":
-                continue
-            internal_id = str(row.get("internal_id"))
-            if internal_id in manifest:
-                continue
-            new_rows.append(row)
-            manifest[internal_id] = {
-                "action_date": row.get("Action Date"),
-                "award_id": row.get("Award ID"),
-                "recipient": row.get("Recipient Name"),
-            }
-        total_pages = page
-        if not data.get("page_metadata", {}).get("hasNext"):
-            break
-        page += 1
+    meta = manifest.get("_meta") or {"action_date": "9999-12-31"}
+    legacy = uc.legacy_seen_ids(manifest)
 
-    out["counts"]["total_pages"] = total_pages
-    out["counts"]["new_count"] = len(new_rows)
-    print(f"USAspending: {total_pages} pages, {len(new_rows)} new-to-report awards", file=sys.stderr)
+    awards, mods, cuts = [], [], []
+    for label, start, end, agencies in sweeps:
+        awards += [uc.award_record(r, label) for r in
+                   uc.search_awards(start, end, FLOOR, agencies=agencies, errors=out["errors"], label=f"{label} awards")]
+        mods += [uc.modification_record(r, label) for r in
+                 uc.search_modifications(start, end, MOD_INCREASE_FLOOR, True, agencies, errors=out["errors"],
+                                         label=f"{label} increases")]
+        cuts += [uc.modification_record(r, label) for r in
+                 uc.search_modifications(start, end, MOD_CUT_FLOOR, False, agencies, errors=out["errors"],
+                                         label=f"{label} cuts")]
 
-    # Fetch full description for every new-to-report award (Claude decides
-    # full-paragraph vs. one-line treatment, but needs real text either way)
-    for i, row in enumerate(new_rows):
-        gen_id = row.get("generated_internal_id")
-        detail = {}
-        if gen_id:
-            try:
-                detail = http_get_json(f"{BASE}/api/v2/awards/{gen_id}/", timeout=30)
-            except Exception as e:  # noqa: BLE001
-                out["errors"].append(f"award detail failed for {gen_id}: {e}")
-        if i % 10 == 0:
-            print(f"  award detail {i}/{len(new_rows)}", file=sys.stderr)
-        out["new_awards"].append({
-            "internal_id": row.get("internal_id"),
-            "generated_internal_id": gen_id,
-            "award_id": row.get("Award ID"),
-            "recipient": row.get("Recipient Name"),
-            "transaction_amount": row.get("Transaction Amount"),
-            "awarding_agency": row.get("Awarding Agency"),
-            "awarding_sub_agency": row.get("Awarding Sub Agency"),
-            "action_date": row.get("Action Date"),
-            "naics_description": (row.get("NAICS") or {}).get("description"),
-            "product_or_service_description": (row.get("PSC") or {}).get("description"),
-            "raw_description": detail.get("description") or row.get("Transaction Description"),
-            "url": f"https://www.usaspending.gov/award/{gen_id}" if gen_id else None,
-        })
+    # First run of each new sweep: record the backlog, report only its newest days.
+    award_seed = mod_seed = None
+    if not meta.get("defense_backlog_since"):
+        seed_before = uc.defense_seed_cutoff(awards)
+        award_seed = uc.backlog_seed(seed_before)
+        meta["defense_backlog_since"] = today
+        out["counts"]["defense_backlog_first_run_reported_from"] = seed_before
+    if not meta.get("modifications_since"):
+        # Modifications were never pulled before: report the last few days', not the whole window's.
+        mods_from = days_ago_la(FIRST_RUN_MOD_DAYS)
+        mod_seed = lambda r: (r.get("action_date") or "") < mods_from if r["sweep"] == "recent" else (  # noqa: E731
+            award_seed(r) if award_seed else False)
+        meta["modifications_since"] = today
+    new_awards, seeded_a = uc.take_new(awards, manifest, legacy, award_seed)
+    new_mods, seeded_m = uc.take_new(mods, manifest, legacy, mod_seed)
+    new_cuts, seeded_c = uc.take_new(cuts, manifest, legacy, mod_seed)
 
-    # Prune manifest entries older than 30 days
-    pruned = {}
-    for k, v in manifest.items():
-        try:
-            age_ok = v.get("action_date", "") >= days_ago_la(30)
-        except Exception:  # noqa: BLE001
-            age_ok = True
-        if age_ok:
-            pruned[k] = v
-    save_manifest(MANIFEST_PATH, pruned)
+    out["new_awards"] = sorted(new_awards, key=lambda r: -(r.get("transaction_amount") or 0))
+    out["modifications"] = sorted(new_mods, key=lambda r: -(r.get("transaction_amount") or 0))
+    out["cuts"] = sorted(new_cuts, key=lambda r: r.get("transaction_amount") or 0)
+    out["counts"].update({
+        "new_count": len(new_awards),
+        "new_defense_backlog": sum(1 for r in new_awards if r["sweep"] == "defense_backlog"),
+        "new_modifications": len(new_mods),
+        "new_cuts": len(new_cuts),
+        "seeded_not_reported": seeded_a + seeded_m + seeded_c,
+    })
+    print(f"USAspending: {len(new_awards)} new awards ({out['counts']['new_defense_backlog']} from the Defense backlog), "
+          f"{len(new_mods)} modifications, {len(new_cuts)} cuts", file=sys.stderr)
 
+    manifest["_meta"] = meta
+    save_manifest(MANIFEST_PATH, uc.prune_manifest(manifest, MANIFEST_DAYS))
     write_candidates(OUT_PATH, out)
 
 

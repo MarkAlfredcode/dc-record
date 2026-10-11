@@ -100,6 +100,8 @@ jobs:
       - name: Run fetch/filter scripts
         env:
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
+          # fetch_usaspending.py is AM-only (USAspending loads once a day); PM writes a stub.
+          MODE: ${{ github.event.inputs.mode || 'am' }}
           # Stop starting new SAM.gov attachments after 20 min; the rest are
           # read next edition (scripts/sam_docs.py).
           DC_SAM_DOCS_BUDGET_SEC: "1200"
@@ -153,13 +155,20 @@ jobs:
           # main pass falls back to data/sam_candidates.json on its own.
           python3 scripts/triage_sam.py || echo "triage_sam failed -- main pass will fall back"
 
-      - name: Screen USAspending awards under $2M (cheap model)
+      - name: Screen USAspending awards (cheap model)
         if: steps.reachability.outputs.down_count < 2
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
-          # ~1,800 new $100K-$2M awards per run; Haiku names the newsworthy
-          # ones, the main pass reads only data/usaspending_small_triage.json.
+          # AM only (both write a skipped stub in PM; assemble.py carries the
+          # morning's section over). $2M+: new awards, +$25M modifications and
+          # -$5M cuts, incl. the Defense Department's 90-day-delayed releases;
+          # Haiku sorts what the main pass writes up from the routine rest
+          # (listed mechanically in extras/feds/usaspending_routine.json).
+          python3 scripts/triage_usaspending.py || echo "triage_usaspending failed -- main pass will fall back"
+          # $100K-$2M: Haiku names the newsworthy ones, the main pass reads
+          # only data/usaspending_small_triage.json.
           python3 scripts/triage_usaspending_small.py || echo "triage_usaspending_small failed -- section will say so"
 
       - name: Run mechanical content pass (OMB, cheap model)
