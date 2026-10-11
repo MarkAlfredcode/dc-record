@@ -1,4 +1,12 @@
 {
+  "after action medical dental supply": {
+    "checked": "2026-10-11",
+    "result": null
+  },
+  "ascellon": {
+    "checked": "2026-10-11",
+    "result": null
+  },
   "atlantic diving supply": {
     "checked": "2026-10-09",
     "result": {
@@ -27,6 +35,10 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "blue cord design construction": {
+    "checked": "2026-10-11",
+    "result": null
+  },
   "bozdemir construction": {
     "checked": "2026-10-09",
     "result": null
@@ -45,6 +57,10 @@
   },
   "direct energy business": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "excelsior defense": {
+    "checked": "2026-10-11",
     "result": null
   },
   "fruta royal": {
@@ -164,6 +180,10 @@
       "ytd": 4190000.0
     }
   },
+  "matos grunley joint venture": {
+    "checked": "2026-10-11",
+    "result": null
+  },
   "mayvin": {
     "checked": "2026-10-05",
     "result": null
@@ -182,6 +202,24 @@
   },
   "nakupuna federal": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "nanoracks": {
+    "checked": "2026-10-11",
+    "result": {
+      "client": "NANORACKS LLC",
+      "firms": [
+        "MEEKS, BUTERA & ISRAEL PLLC"
+      ],
+      "issues": [],
+      "n_filings": 2,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/527a21d1-04ee-40a5-a586-6b91074fab43/print/",
+      "ytd": 0
+    }
+  },
+  "napc hscc jv": {
+    "checked": "2026-10-11",
     "result": null
   },
   "nextera energy services rhode island": {
@@ -248,6 +286,28 @@
       "url": "https://lda.gov/filings/public/filing/12e75bdc-39a5-417e-8549-cb7b712f69ae/print/",
       "ytd": 1560000.0
     }
+  },
+  "signature science": {
+    "checked": "2026-10-11",
+    "result": {
+      "client": "SIGNATURE SCIENCE LLC",
+      "firms": [
+        "AKIN GUMP STRAUSS HAUER & FELD"
+      ],
+      "issues": [
+        "Government Issues",
+        "Homeland Security",
+        "Law Enforcement/Crime/Criminal Justice"
+      ],
+      "n_filings": 2,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/3237700f-33e6-4f8a-be73-55b2f29919af/print/",
+      "ytd": 20000.0
+    }
+  },
+  "southwest valley constructors": {
+    "checked": "2026-10-11",
+    "result": null
   },
   "standard communications": {
     "checked": "2026-10-08",

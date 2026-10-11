@@ -1,0 +1,38 @@
+{
+  "regeneron pharmaceutical": {
+    "d": "2026-10-11",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 5565000000.0,
+        "recipient": "REGENERON PHARMACEUTICALS INC",
+        "start": "2021-01-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W15QKN21C0014_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 973560406.91,
+        "recipient": "REGENERON PHARMACEUTICALS INC",
+        "start": "2017-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSO100201700016C_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 278844171.83,
+        "recipient": "REGENERON PHARMACEUTICALS INC",
+        "start": "2017-09-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSO100201700020C_7505_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2013-09-27",
+    "has_contracts": true,
+    "raw_hits": 7
+  },
+  "virginia community college system": {
+    "d": "2026-10-11",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  }
+}
