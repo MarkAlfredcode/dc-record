@@ -1,0 +1,19 @@
+{
+ "date": "Saturday, October 10, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings since the last edition",
+  "dek": "All 212 RFAI and Form 99 filings received since October 7 were already reported in earlier editions.",
+  "paragraphs": [
+   "The FEC filings API returned 108 RFAI letters (form type FRQ) and 104 Form 99 filings received October 7 through October 10. Each one had already appeared in a prior edition, so none is repeated here.",
+   "The overnight screen of filing text for fraud-related keywords turned up only two filings, both of which were already surfaced in earlier editions. The pre-pass found no voided or negative transactions of $10,000 or more."
+  ]
+ },
+ "sections": [],
+ "footer": {
+  "coverage_window": "FEC filings received October 7, 2026 through the morning of October 10, 2026 (Pacific time), minus filings reported in earlier editions.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "The NASA Astronomy Picture of the Day request returned no data, so it is omitted. One Money Out query (Trump National) timed out at the FEC with an HTTP 504."
+ },
+ "beat": []
+}
