@@ -1,0 +1,176 @@
+{
+ "date": "Sunday, October 11, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "A quiet weekend: no new registrations, ethics filings or unreported disclosures",
+  "dek": "The only substantial activity was a batch of third-quarter lobbying reports, nine of them terminations.",
+  "paragraphs": [
+   "The Office of Government Ethics logged 18 filings, all already covered in earlier editions. The Clerk of the House and Senate disclosure systems showed only filings reported previously, and the lobbying database held no new registrations."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new OGE ethics filings to report",
+   "paragraphs": [
+    "The Office of Government Ethics received 18 new filings during the reporting window, all of which have already been disclosed in prior editions of this newsletter."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "No new lobbying registrations; 282 quarterly reports and amendments filed, nine of them terminations",
+   "paragraphs": [
+    "The Senate lobbying database posted 282 filings from October 10 through the morning of October 11, 2026, and none were new registrations. Most were routine third-quarter activity reports (253 with activity, 17 reporting no activity). The issue areas named most often were Budget/Appropriations, Education and Transportation.",
+    "Nine filings terminate a lobbying relationship, listed below. <a href=\"https://lda.gov/api/v1/filings/?filing_dt_posted_after=2026-10-10&page_size=100\">Full filing list</a>."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/ffbe1047-bdfe-4242-b09c-b8f9bede5356/\">Acg Advocacy</a>",
+       "Chemonics International, Inc.",
+       "Budget/Appropriations, Foreign Relations",
+       "3rd Quarter - Termination; effective 2026-08-31"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/52d47ab0-d3f2-46e7-8a16-54582507c638/\">Acg Advocacy</a>",
+       "Office Of Ronald Lauder",
+       "Budget/Appropriations",
+       "2nd Quarter - Termination; effective 2026-06-30"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/b527317a-9b2e-4a3c-8c49-4bb03db031c8/\">Holland & Knight Llp</a>",
+       "Honeywell International, Inc.",
+       "Aviation/Airlines/Airports, Budget/Appropriations",
+       "2nd Quarter - Termination; effective 2026-06-30"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/565a9fa1-5af0-49b7-b202-2a8277f44a17/\">Allen Egon Cholakian</a>",
+       "Allatra International Public Movement / \"Mizhnarodnyi Gromadskiy Rukh >Allatra<",
+       "None listed (no activity)",
+       "3rd Quarter - Termination (No Activity); effective 2026-09-30"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/525d5d4a-b3d2-4182-b976-0e51e1641d54/\">Jeffrey J. Kimbell & Associates, Inc.</a>",
+       "Innovage",
+       "Health Issues, Medicare/Medicaid",
+       "3rd Quarter - Termination; effective 2026-09-30"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/6db50bd4-e7e5-47b7-a6fd-2e9bee837f31/\">Holland & Knight Llp</a>",
+       "The Little Potato Company",
+       "None listed (no activity)",
+       "3rd Quarter - Termination (No Activity); effective 2026-07-01"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/0db05dac-1457-48ed-be67-8b41e030c220/\">Mcguirewoods Consulting (A Subsidiary Of Mcguirewoods Llp)</a>",
+       "Ata Action",
+       "None listed (no activity)",
+       "3rd Quarter - Termination (No Activity); effective 2026-09-30"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/a6d181f2-5059-42a3-bb03-f9ad80bcca19/\">Alki Strategies Llc</a>",
+       "Qanapi",
+       "None listed (no activity)",
+       "3rd Quarter - Termination (No Activity); effective 2026-07-02"
+      ],
+      [
+       "<a href=\"https://lda.gov/api/v1/filings/74364d69-4084-4739-a63d-bcfb80606be5/\">Hartwell Capitol Consulting</a>",
+       "Joint Opportunity Enlistment",
+       "Defense",
+       "3rd Quarter - Termination; effective 2026-08-31"
+      ]
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Industries to Watch",
+   "headline": "Lobbying in prediction markets, crypto, AI and defense tech",
+   "paragraphs": [
+    "6 new filings in watched industries; no new clients or spending jumps."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Other new filings in watched industries"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Client",
+      "Firm",
+      "Industry",
+      "Reported",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "WHITE CANE, INC. DBA TELEIDOSCOPE",
+       "HOLLAND &amp; KNIGHT LLP",
+       "Defense tech",
+       "$100,000",
+       "<a href=\"https://lda.gov/filings/public/filing/bb1d8a4f-4dbd-4238-9c67-2d56d4d1b4cc/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "MILLE LACS BAND OF OJIBWE INDIANS",
+       "HOLLAND &amp; KNIGHT LLP",
+       "Prediction markets",
+       "$80,000",
+       "<a href=\"https://lda.gov/filings/public/filing/6cbd0dc5-aaf9-4592-bcb3-c7be6deed195/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "PACIFIC DEFENSE STRATEGIES, INC.",
+       "HOLLAND &amp; KNIGHT LLP",
+       "Defense tech",
+       "$60,000",
+       "<a href=\"https://lda.gov/filings/public/filing/b13378ac-f41c-43e3-9702-9a112d9488a9/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "ST REGIS MOHAWK TRIBE",
+       "HOLLAND &amp; KNIGHT LLP",
+       "Prediction markets",
+       "$50,000",
+       "<a href=\"https://lda.gov/filings/public/filing/4e8e5a25-f107-43ef-9428-20669875cd0e/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "DRAI HEALTH",
+       "HARTWELL CAPITOL CONSULTING",
+       "Artificial intelligence",
+       "$50,000",
+       "<a href=\"https://lda.gov/filings/public/filing/a704afb3-61bb-4f83-8b32-d65388973362/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "SAFESKY SYSTEMS USA",
+       "MADISON GOVERNMENT AFFAIRS",
+       "Defense tech",
+       "$12,000",
+       "<a href=\"https://lda.gov/filings/public/filing/9d02bbcf-c159-4df5-8253-9b35d4dee3e5/print/\">3rd Quarter - Report</a>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Industries and keywords are set in data/lda_industries.json. Amounts are the income (firm) or expenses (in-house) line on the filing."
+    }
+   ],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 10, 2026 00:00 Pacific through about 3 a.m. October 11, 2026 (disclosures: October 8 onward, minus filings already reported).",
+  "sources": "OGE's ethics-filing search endpoint; DOJ FARA e-file system; Senate Office of Public Records LDA API; Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "The FARA new and terminated registrant pages loaded but returned no table rows in the initial HTML, so FARA activity could not be verified and that section is omitted. All House and Senate disclosure filings in the window (three House candidate reports and one Senate candidate report) were already reported in earlier editions, so that section is omitted."
+ },
+ "beat": []
+}
