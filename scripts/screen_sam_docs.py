@@ -173,7 +173,11 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
     common = sam_boilerplate.common_shingles(docs)
     # Budget order: J&A files, then the queue (oldest first), then smallest
     # first -- a cutoff then leaves the fewest, largest files for later.
-    order = sorted(docs, key=lambda r: (todo[r].get("kind") != "justification", not todo[r].get("from_queue"),
+    # DC_SAM_SCREEN_FIRST_TYPES="Award Notice,Special Notice" puts those
+    # notice types right after the J&As (a manual backfill run).
+    first = {t.strip() for t in (os.environ.get("DC_SAM_SCREEN_FIRST_TYPES") or "").split(",") if t.strip()}
+    order = sorted(docs, key=lambda r: (todo[r].get("kind") != "justification", todo[r].get("type") not in first,
+                                        not todo[r].get("from_queue"),
                                         todo[r].get("queued_since") or "", len(docs[r][0])))
     chunks, raw_chars, kept_chars, over_budget = [], 0, 0, set()
     for k, rid in enumerate(order):

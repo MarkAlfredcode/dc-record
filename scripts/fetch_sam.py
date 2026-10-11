@@ -35,6 +35,7 @@ Output: data/sam_candidates.json
   notices:        [row]   every s/a/r/o/k/p notice (promoted ones too)
 """
 import html
+import os
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -69,8 +70,19 @@ def notice_id_from_ui_link(ui_link):
     return m.group(1) if m else None
 
 
-def window_start_utc():
-    start = datetime.combine(datetime.fromisoformat(days_ago_la(1)).date(), dtime(0),
+def type_lookback_days():
+    """DC_SAM_TYPE_LOOKBACK="a:7,s:7,r:7" widens the window for those types
+    (a manual backfill); every other type keeps the normal 1 day."""
+    out = {}
+    for part in (os.environ.get("DC_SAM_TYPE_LOOKBACK") or "").split(","):
+        t, _, n = part.strip().partition(":")
+        if t in TYPES and n.strip().isdigit():
+            out[t] = int(n)
+    return out
+
+
+def window_start_utc(days=1):
+    start = datetime.combine(datetime.fromisoformat(days_ago_la(days)).date(), dtime(0),
                              tzinfo=ZoneInfo("America/Los_Angeles"))
     return start.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%S")
 
@@ -149,9 +161,13 @@ def to_row(r, detail):
 
 def main():
     since = window_start_utc()
+    lookback = type_lookback_days()
+    since_by_type = {t: window_start_utc(lookback.get(t, 1)) for t in TYPES}
     reachable = check_reachable("sam.gov")
     out = {
-        "window": {"from": days_ago_la(1), "to": today_la(), "modified_since_utc": since},
+        "window": {"from": days_ago_la(1), "to": today_la(), "modified_since_utc": since,
+                   **({"backfill": {TYPES[t]: f"from {days_ago_la(n)}" for t, n in lookback.items()}}
+                      if lookback else {})},
         "reachable": reachable,
         "justifications": [],
         "notices": [],
@@ -164,7 +180,7 @@ def main():
         return
 
     with ThreadPoolExecutor(max_workers=len(TYPES)) as ex:
-        listed = dict(zip(TYPES, ex.map(lambda t: list_type(t, since), TYPES)))
+        listed = dict(zip(TYPES, ex.map(lambda t: list_type(t, since_by_type[t]), TYPES)))
     raw = []
     for t, (rows, err) in listed.items():
         if err:
