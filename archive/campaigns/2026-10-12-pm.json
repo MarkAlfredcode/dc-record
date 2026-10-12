@@ -1,0 +1,17 @@
+{
+ "date": "Monday, October 12, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings since the last edition",
+  "paragraphs": [
+   "No new RFAI letters, Form 99 correspondence or voided transactions of $10,000 or more surfaced since the last PM edition."
+  ]
+ },
+ "sections": [],
+ "footer": {
+  "coverage_window": "FEC filings received 2026-10-09 onward, deduplicated against earlier editions.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "No model pass this run: the pre-fetch found nothing new to write about."
+ },
+ "beat": []
+}
