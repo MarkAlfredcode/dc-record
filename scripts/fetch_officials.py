@@ -59,28 +59,118 @@ def plain(s):
 
 
 # ---------------- FARA ----------------
-def fara_report(page, since_mdy, today_mdy):
-    url = f"{FARA}f?p=1381:{page}:0::NO:{page}:P{page}_FROMDATE,P{page}_TODATE:{since_mdy},{today_mdy}"
-    # efile.fara.gov 403s Python's TLS fingerprint; curl gets through.
-    body = curl_bytes(url).decode("utf-8", "replace")
-    if "a-IRR-table" not in body and "a-IRR-noDataMsg" in body:
-        return []  # APEX drops the table entirely when the window is empty
-    if "a-IRR-table" not in body and "is-loading" in body:
-        # Seen 2026-10-12 on the terminated-registrants report (page 7): the
-        # rows load by AJAX, even for a six-week window.
-        raise LookupError(f"FARA page {page} now loads its rows client-side; not fetchable as plain HTML")
-    if "a-IRR-table" not in body:
-        raise RuntimeError(f"FARA page {page}: no report table in the response ({len(body)} bytes)")
-    t = body[body.find("a-IRR-table"):]
-    rows = []
-    for tr in re.findall(r"<tr\s*>(.*?)</tr>", t, re.S):
-        cells = dict(re.findall(r'<td[^>]*headers="([A-Z_]+)"[^>]*>(.*?)</td>', tr, re.S))
-        if cells.get("NAME"):
-            num = plain(cells.get("REG_NUMBER"))
-            rows.append({"name": plain(cells["NAME"]), "number": num,
-                         "registered": plain(cells.get("REG_DATE")), "terminated": plain(cells.get("TERMINATION_DATE")),
-                         "url": f"{FARA}f?p=1381:200::::RP,200:P200_REG_NUMBER:{num}"})
-    return rows
+# DOJ's daily bulk files (added 2026-10-12): the report pages give only a
+# registrant's name and number, and the terminated-registrants page now loads
+# its rows by AJAX. The bulk files add each registrant's foreign principals
+# and countries, new clients of existing agents, and every filed document's
+# PDF (scanned: OCR). Exhibit AB is the agreement with the foreign principal.
+FARA_BULK = "https://efile.fara.gov/bulk/zip/{}.csv.zip"
+FARA_READ_TYPES = ("Exhibit AB", "Registration Statement", "Amendment")
+FARA_DOC_CHARS = 3500
+FARA_SEEN = "data/fara-seen.json"
+FARA_ITEMS = "data/fara_items.json"
+
+
+def fara_csv(name):
+    import csv
+    import io
+    import zipfile
+
+    z = zipfile.ZipFile(io.BytesIO(curl_bytes(FARA_BULK.format(name))))
+    member = next(n for n in z.namelist() if n.endswith(".csv"))
+    return list(csv.DictReader(io.StringIO(z.read(member).decode("utf-8", "replace"))))
+
+
+def fara_date(s):
+    d = trades.parse_date(s)
+    return d.isoformat() if d else ""
+
+
+def fara_doc_text(url, tmp):
+    import sam_reader
+    p = os.path.join(tmp, re.sub(r"\W", "_", url[-60:]) + ".pdf")
+    with open(p, "wb") as fh:
+        fh.write(curl_bytes(url))
+    text = sam_reader.read_pdf(p)[0] if os.path.getsize(p) else ""
+    text = re.sub(r"[ \t]+", " ", text)
+    i = text.find("1. Name of Registrant")
+    return text[i:] if i > 0 else text
+
+
+def fara(since, refs, items, errors):
+    """Returns (bundle lines, count of new items)."""
+    regs = fara_csv("FARA_All_Registrants")
+    fps = fara_csv("FARA_All_ForeignPrincipals")
+    docs = fara_csv("FARA_All_RegistrantDocs")
+    seen = load_manifest(FARA_SEEN)
+    by_reg = {}
+    for f in fps:
+        by_reg.setdefault(f["Registration Number"], []).append(f)
+    page = lambda num: f"{FARA}f?p=1381:200::::RP,200:P200_REG_NUMBER:{num}"  # noqa: E731
+
+    def new(key, url):
+        if key in seen:
+            return None
+        ref = f"F{len(refs) + 1}"
+        refs[ref] = url
+        items.append({"key": key, "url": url})
+        return ref
+
+    L, n = [], 0
+    fp_line = lambda f: f"{f['Foreign Principal']} ({f['Country/Location Represented'].strip()})"  # noqa: E731
+    for r in regs:
+        num = r["Registration Number"]
+        if fara_date(r["Registration Date"]) >= since and (ref := new(f"reg:{num}", page(num))):
+            n += 1
+            L.append(f"[{ref}] NEW REGISTRANT: {r['Name'].strip()} | #{num} | registered {r['Registration Date']} | "
+                     f"foreign principal(s): " + ("; ".join(fp_line(f) for f in by_reg.get(num, [])) or "none listed yet"))
+        if fara_date(r["Termination Date"]) >= since and (ref := new(f"term:{num}", page(num))):
+            n += 1
+            L.append(f"[{ref}] TERMINATED REGISTRANT: {r['Name'].strip()} | #{num} | terminated {r['Termination Date']}")
+    for f in fps:
+        num, who = f["Registration Number"], f["Foreign Principal"].strip()
+        if fara_date(f["Foreign Principal Registration Date"]) >= since and fara_date(f["Registrant Date"]) < since \
+                and (ref := new(f"fp:{num}:{who}", page(num))):
+            n += 1
+            L.append(f"[{ref}] NEW FOREIGN PRINCIPAL for an existing registrant: {f['Registrant Name'].strip()} (#{num}, "
+                     f"registered {f['Registrant Date']}) now represents {fp_line(f)} from {f['Foreign Principal Registration Date']}")
+        if fara_date(f["Foreign Principal Termination Date"]) >= since and (ref := new(f"fpterm:{num}:{who}", page(num))):
+            n += 1
+            L.append(f"[{ref}] FOREIGN PRINCIPAL DROPPED: {f['Registrant Name'].strip()} (#{num}) no longer represents "
+                     f"{fp_line(f)}, as of {f['Foreign Principal Termination Date']}")
+    recent = [d for d in docs if fara_date(d["Date Stamped"]) >= since and d["URL"] not in seen]
+    to_read = [d for d in recent if d["Document Type"] in FARA_READ_TYPES]
+    texts = {}
+    with tempfile.TemporaryDirectory() as tmp:
+        for d in to_read:
+            try:
+                texts[d["URL"]] = fara_doc_text(d["URL"], tmp)
+            except Exception as e:  # noqa: BLE001
+                errors.append(f"FARA document {d['URL']}: {e}")
+    # Form questions repeat in every document: keep only lines unique to one.
+    df = {}
+    for t in texts.values():
+        for line in {" ".join(x.split()).lower() for x in t.split("\n") if len(x.strip()) > 25}:
+            df[line] = df.get(line, 0) + 1
+    L.append(f"FILED DOCUMENTS stamped {since} onward ({len(recent)}):")
+    for d in sorted(recent, key=lambda d: (d["Document Type"] not in FARA_READ_TYPES, d["Document Type"])):
+        ref = new(d["URL"], d["URL"])
+        if not ref:
+            continue
+        n += 1
+        fp = f" | foreign principal: {d['Foreign Principal Name']} ({d['Foreign Principal Country']})" if d["Foreign Principal Name"] else ""
+        sf = f" | short-form filer: {d['Short Form Name']}" if d["Short Form Name"] else ""
+        L.append(f"[{ref}] {d['Document Type']}: {d['Registrant Name'].strip()} (#{d['Registration Number']}) | "
+                 f"stamped {d['Date Stamped']}{fp}{sf}")
+        t = texts.get(d["URL"])
+        if t is not None:
+            keep = [" ".join(x.split()) for x in t.split("\n") if x.strip()
+                    and (len(x.strip()) <= 25 or df.get(" ".join(x.split()).lower(), 0) < 2 or len(texts) < 3)]
+            body = " / ".join(keep)
+            L.append("    text (OCR, form questions shared with other filings removed): "
+                     + (body[:FARA_DOC_CHARS] + (" [...]" if len(body) > FARA_DOC_CHARS else "") if body else "(no text)"))
+    json.dump({"items": items}, open(FARA_ITEMS, "w"), indent=1)
+    return L, n
 
 
 # ---------------- LDA ----------------
@@ -182,19 +272,11 @@ def main():
 
     # FARA
     if "efile.fara.gov" not in down:
-        sd, td = date.fromisoformat(since), date.fromisoformat(today)
-        for page, kind in ((6, "NEW"), (7, "TERMINATED")):
-            try:
-                for i, r in enumerate(fara_report(page, sd.strftime("%m/%d/%Y"), td.strftime("%m/%d/%Y"))):
-                    ref = f"F{len(refs) + 1}"
-                    refs[ref] = r["url"]
-                    n["fara"] += 1
-                    L_fara.append(f"[{ref}] {kind}: {r['name']} | registration #{r['number']} | registered {r['registered']}"
-                                  + (f" | terminated {r['terminated']}" if r["terminated"] not in ("", "-") else ""))
-            except LookupError as e:
-                gaps.append(f"FARA {kind.lower()} registrants not checked: {e}")
-            except Exception as e:  # noqa: BLE001
-                errors.append(f"FARA {kind.lower()} registrants: {e}")
+        try:
+            fitems = []
+            L_fara, n["fara"] = fara(lookback, refs, fitems, errors)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"FARA bulk data: {e}")
 
     # LDA
     if "lda.gov" not in down:
@@ -362,7 +444,8 @@ def main():
                                                               for k, v in by.items()))
     if mech.get("known_gaps"):
         L.append("OGE known gaps: " + mech["known_gaps"])
-    L += ["", f"--- FARA REGISTRANTS ({n['fara']}) ---"] + L_fara
+    L += ["", f"--- FARA ({n['fara']} new items: registrants, foreign principals, filed documents; "
+              f"since {lookback}, minus items reported earlier) ---"] + L_fara
     L += ["", f"--- PERSONAL FINANCIAL DISCLOSURES ({n['house']} House, {n['senate']} Senate) ---",
           "Trade lines: ticker | asset | type | date | amount | owner | asset type | status | LATE Nd = disclosed N days "
           "after the trade (STOCK Act allows 45)."] + L_pfd
