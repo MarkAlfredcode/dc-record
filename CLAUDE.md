@@ -18,7 +18,7 @@ Four editions, each `.github/workflows/dc-record-<edition>.yml` + `prompt-<editi
 
 - **campaigns**: FEC RFAIs/Form 99s, outside money (Schedule E), megadonors, money-out
 - **congress**: Congressional Record, committee meetings, missed votes, discharge petitions. Takes no `mode` input (422 if passed).
-- **feds**: SAM.gov notices (the section Mark cares most about; flag *unusual vendors for the government* above political ties), USAspending awards/mods/cuts, OMB apportionments, Federal Register
+- **feds**: SAM.gov notices (the section Mark cares most about; flag *unusual vendors for the government* above political ties), USAspending awards/mods/cuts, OMB apportionments, Federal Register, Section 232 Dockets (`fetch_trade_dockets.py`: new comment windows, inclusion requests, who commented or opposed, Federal Register 232 actions on Commerce's regulations.gov dockets; FEC_KEYS pool works for regulations.gov)
 - **officials**: House/Senate PFDs and STOCK Act trades, OGE filings, presidential 278-Ts, stopped traders, pardon lobbying
 
 `prompt-*-mechanical.txt` are cheap Haiku passes. `dc-record-events.yml` refreshes `data/events.json` from Wikipedia on the 1st/11th/21st. `dc-record.yml`, `dc-record-watchdog.yml`, `dc-record-window-ping.yml` are retired (manual dispatch only). `dc-record-status-alert.yml` checks the editions ran.

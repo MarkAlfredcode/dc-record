@@ -112,6 +112,7 @@ jobs:
           timeout 900 python3 scripts/fetch_usaspending.py; echo "fetch_usaspending exit=$?"
           timeout 2400 python3 scripts/fetch_sam.py; echo "fetch_sam exit=$?"
           timeout 600 python3 scripts/fetch_lobby_contracts.py; echo "fetch_lobby_contracts exit=$?"
+          timeout 600 python3 scripts/fetch_trade_dockets.py; echo "fetch_trade_dockets exit=$?"
           set -e
 
       - name: Check source reachability
@@ -343,7 +344,7 @@ jobs:
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/feds*.html as-is."
           fi
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/lobby-contracts-seen.json data/lobby-contracts-pending.json 2>/dev/null || true
+            git checkout -- data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/lobby-contracts-seen.json data/lobby-contracts-pending.json data/trade-dockets-seen.json 2>/dev/null || true
             if [ "${{ steps.email_decision.outputs.manual_skip }}" == "true" ]; then
               # A manual test run: record nothing as shown.
               git checkout -- data/sam-seen.json data/surfaced-links.json 2>/dev/null || true
@@ -357,7 +358,7 @@ jobs:
             fi
           fi
           # Some cache files only exist after certain code paths run; git add aborts on a missing pathspec
-          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json data/sam-docs-read.json data/sam-docs-pending.json data/surfaced-links.json data/vendor-history-cache.json digest/ archive/; do
+          for f in data/omb-spend-plan-manifest.json data/omb-apportionment-manifest.json data/usaspending-contracts-manifest.json data/usaspending-small-manifest.json data/sam-seen.json data/lobby-contracts-seen.json data/lobby-contracts-cache.json data/lobby-contracts-pending.json data/trade-dockets-seen.json data/sam-docs-read.json data/sam-docs-pending.json data/surfaced-links.json data/vendor-history-cache.json digest/ archive/; do
             [ -e "$f" ] && git add "$f"
           done
           if ! git diff --cached --quiet; then
