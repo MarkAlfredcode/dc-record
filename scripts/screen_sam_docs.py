@@ -23,6 +23,8 @@ sam_boilerplate.clean -> ~70 Haiku calls. This text tokenizes poorly (tables,
 part numbers: ~1.7 characters per token), so ~4.8M input tokens, ~$5/day at
 list price; the cache means each file is paid for once, AM or PM.
 """
+import base64
+import hashlib
 import json
 import os
 import re
@@ -53,6 +55,19 @@ WORKERS = 4
 MAX_ATTEMPTS = 3
 KEEP_DAYS = 60
 CONTEXT_CHARS = 700
+# Lines already screened for each solicitation on EARLIER runs (added
+# 2026-10-12). Amendments posted days later re-upload the same SOW under a
+# new file id; drop_repeated_lines() only knew about this run. Measured on
+# the 10/10 attachment set split at 10/08: 3.2% of the later day's
+# characters had already been screened. Small, but lossless, and it also
+# stops an amendment from re-producing (and re-surfacing) an old finding.
+# Only lines of files that finished screening are remembered, so a failed
+# or deferred file is read in full later.
+# {sol: {"d": last date, "h": base64 of 8-byte line hashes}}; not in git
+# (random hashes don't compress) -- the workflow keeps it in actions/cache;
+# a missing file just means no cross-run dedupe that run.
+LINE_MEMORY_PATH = "data/sam-line-memory.json"
+LINE_MEMORY_DAYS = 30
 
 SYSTEM = ("You read federal contracting documents for a Washington investigative reporter and pull out "
           "anything newsworthy. Reply with a JSON array only, no prose, no code fences.")
@@ -132,22 +147,51 @@ def verify(f, text):
     return rec
 
 
+def line_key(line):
+    """8-byte hash of a substantial line (26+ characters), else None."""
+    key = " ".join(line.split()).lower()
+    if len(key) <= 25:
+        return None
+    return int.from_bytes(hashlib.blake2b(key.encode(), digest_size=8).digest(), "big")
+
+
 def drop_repeated_lines(cleaned, seen):
-    """Drops lines already sent to Haiku this run in another file of the same
-    solicitation -- amendments re-upload the same statement of work under a
-    new file id (7.7% of the characters screened on 2026-10-10). Only
-    substantial lines (26+ characters) count; quotes are still verified
+    """Drops lines already sent to Haiku in another file of the same
+    solicitation -- this run or (via the line memory) an earlier one;
+    amendments re-upload the same statement of work under a new file id.
+    Only substantial lines (26+ characters) count; quotes are still verified
     against the file's full text. Returns (text, new line keys, lines dropped)."""
     keep, new, dropped = [], set(), 0
     for line in cleaned.split("\n"):
-        key = " ".join(line.split()).lower()
-        if len(key) > 25:
-            if key in seen:
+        k = line_key(line)
+        if k is not None:
+            if k in seen:
                 dropped += 1
                 continue
-            new.add(key)
+            new.add(k)
         keep.append(line)
     return "\n".join(keep), new, dropped
+
+
+def load_line_memory(path=None):
+    try:
+        with open(path or LINE_MEMORY_PATH) as fh:
+            raw = json.load(fh)
+    except (OSError, json.JSONDecodeError):
+        return {}
+    out = {}
+    for sol, v in raw.items():
+        b = base64.b64decode(v.get("h", ""))
+        out[sol] = (v.get("d", ""), {int.from_bytes(b[i:i + 8], "big") for i in range(0, len(b), 8)})
+    return out
+
+
+def save_line_memory(mem, today, path=None):
+    cutoff = (date.fromisoformat(today) - timedelta(days=LINE_MEMORY_DAYS)).isoformat()
+    raw = {sol: {"d": d, "h": base64.b64encode(b"".join(h.to_bytes(8, "big") for h in sorted(hs))).decode()}
+           for sol, (d, hs) in mem.items() if d >= cutoff and hs}
+    with open(path or LINE_MEMORY_PATH, "w") as fh:
+        json.dump(raw, fh, separators=(",", ":"))
 
 
 def prune(cache, today):
@@ -199,18 +243,26 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
                                         not todo[r].get("from_queue"),
                                         todo[r].get("queued_since") or "", len(docs[r][0])))
     chunks, raw_chars, kept_chars, over_budget = [], 0, 0, set()
-    sol_lines, repeat_chars = {}, 0
+    memory = load_line_memory()
+    sol_lines, repeat_chars, memory_chars, file_lines = {}, 0, 0, {}
     for k, rid in enumerate(order):
         text = docs[rid][0]
         f = todo[rid]
+        sol = docs[rid][1]
         cleaned = sam_boilerplate.clean(text, common, ocr="ocr" in (f.get("method") or ""))
-        seen = sol_lines.setdefault(docs[rid][1], set())
+        if sol not in sol_lines:
+            sol_lines[sol] = set(memory.get(sol, ("", set()))[1])
+        seen = sol_lines[sol]
         deduped, new_lines, repeats = drop_repeated_lines(cleaned, seen)
         if kept_chars and kept_chars + len(deduped) > MAX_SCREEN_CHARS:
             over_budget.add(rid)
             del recs[rid]
             continue
+        if sol in memory:
+            within_run_only = seen - memory[sol][1]
+            memory_chars += len(drop_repeated_lines(cleaned, within_run_only)[0]) - len(deduped)
         seen.update(new_lines)
+        file_lines[rid] = (sol, new_lines)
         raw_chars += len(text)
         kept_chars += len(deduped)
         repeat_chars += len(cleaned) - len(deduped)
@@ -223,7 +275,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
             # solicitation (an amendment re-uploading its SOW): read there
             recs[rid].update({"s": "screened", "r": "repeat of an earlier file on this notice"})
             continue
-        note = f" ({repeats} lines identical to an earlier file on this notice omitted)" if repeats else ""
+        note = f" ({repeats} lines identical to an earlier file of this solicitation omitted)" if repeats else ""
         pieces = [deduped[i:i + CHUNK_CHARS] for i in range(0, len(deduped), CHUNK_CHARS)]
         for p, piece in enumerate(pieces):
             header = (f"NOTICE: {(f.get('titles') or [''])[0]} ({(f.get('sols') or [''])[0]}; {f.get('agency') or ''}; "
@@ -267,6 +319,14 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
             recs[rid]["f"] = sorted(fs, key=lambda x: (-x["verified"], -x["news"]))[:6]
 
     cache.update(recs)
+    for rid, (sol, lines) in file_lines.items():
+        if recs.get(rid, {}).get("s") == "screened" and lines:
+            d, hs = memory.get(sol, ("", set()))
+            memory[sol] = (today, hs | lines)
+    try:
+        save_line_memory(memory, today)
+    except OSError as e:
+        errors.append(f"line memory not saved: {e}")
 
     # Pending queue: everything not read to a final status this run.
     pending = load_manifest(pending_path).get("files", {})
@@ -297,6 +357,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         "files_deferred_screen_budget": len(over_budget),
         "files_queued_for_next_run": len(queue),
         "chars_extracted": raw_chars, "chars_screened": kept_chars, "chars_skipped_as_repeats": repeat_chars,
+        "chars_skipped_seen_on_earlier_runs": memory_chars,
         "batches": len(batches), "findings": sum(len(r.get("f") or []) for r in recs.values()),
         "cost_usd": round(cost, 3),
     }

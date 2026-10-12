@@ -83,40 +83,8 @@ jobs:
       # FORMAT section) and scripts/render_congress.py below takes it from
       # there. This edition does its own fetching via Bash; no email is
       # sent for this edition either way.
-      - name: Run DC Record • Congress (content generation)
-        id: run_edition
-        env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          FEC_KEYS: ${{ secrets.FEC_KEYS }}
-        run: |
-          set +e
-          cat prompt-congress.txt | \
-            claude -p \
-              --permission-mode bypassPermissions \
-              --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
-              --output-format json > claude_result.json
-          CLAUDE_EXIT=$?
-          set -e
-
-          echo "::group::Claude usage/cost (Congress)"
-          if jq -e . claude_result.json >/dev/null 2>&1; then
-            jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_creation_input_tokens=" + (.usage.cache_creation_input_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  duration_ms=" + (.duration_ms|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_result.json
-          else
-            echo "No valid JSON result (likely errored before completion, e.g. a session-limit preflight failure). Raw output:"
-            cat claude_result.json
-          fi
-          echo "::endgroup::"
-
-          echo "::group::Claude final message (Congress)"
-          jq -r '.result // empty' claude_result.json 2>/dev/null || true
-          echo "::endgroup::"
-
-          exit $CLAUDE_EXIT
-
-      # Deterministic sections, built with no LLM (added 2026-10-04) -- see
-      # scripts/dc_extras.py. Missed votes (House/Senate roll-call XML) and
-      # discharge petitions (House Clerk). Both fetch with curl because the
-      # .gov WAFs 403 Python's TLS fingerprint. assemble.py appends them below.
+      # Extras first, so the model can weigh them for Top Story (they used
+      # to run after the model pass, which never saw them).
       - name: Run extras scripts (missed votes, discharge petitions)
         run: |
           if [ "$(date -u +%H)" -lt 18 ]; then export MODE=am; else export MODE=pm; fi
@@ -125,6 +93,50 @@ jobs:
             timeout 600 python3 scripts/$s; echo "$s exit=$?"
           done
           set -e
+
+      # Everything the model used to fetch itself (govinfo issue, Daily
+      # Digest, introductions, congress.gov sponsors) -- added 2026-10-12.
+      - name: Fetch the Congressional Record (no LLM)
+        env:
+          FEC_KEYS: ${{ secrets.FEC_KEYS }}
+        run: |
+          timeout 600 python3 scripts/fetch_congress.py || echo "fetch_congress failed"
+
+      - name: Run DC Record • Congress (content generation)
+        id: run_edition
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          TODAY="${{ steps.date.outputs.today }}"
+          if [ ! -s data/congress_input.txt ]; then
+            echo "fetch_congress.py produced no input bundle" > digest_failed.flag
+            exit 1
+          fi
+          if grep -q '^GOVINFO UNREACHABLE\|^NO ISSUE' data/congress_input.txt; then
+            head -1 data/congress_input.txt > digest_skipped.flag
+            exit 0
+          fi
+          # Same Record issue as an earlier edition -> carry its summary over
+          # (gate.py writes content-TODAY.json); only the extras are new.
+          if [ "$(python3 scripts/gate.py congress)" == "skip" ]; then
+            echo "no new Record issue -- summary carried over, extras refreshed" > digest_written.flag
+            exit 0
+          fi
+          set +e
+          echo "::group::Claude usage/cost (Congress)"
+          python3 scripts/run_pass.py prompt-congress.txt data/congress_input.txt \
+            "content-$TODAY.json" data/congress_input.json
+          CLAUDE_EXIT=$?
+          echo "::endgroup::"
+          set -e
+          if jq -e . "content-$TODAY.json" >/dev/null 2>&1; then
+            python3 scripts/gate.py record-congress "content-$TODAY.json"
+            echo "content written" > digest_written.flag
+          else
+            rm -f "content-$TODAY.json"
+            echo "main pass exited $CLAUDE_EXIT without a valid content-$TODAY.json" > digest_failed.flag
+          fi
+          exit $CLAUDE_EXIT
 
       - name: Assemble final content (Your Beat box, archive copy)
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
@@ -176,7 +188,7 @@ jobs:
           else
             echo "No page produced this run (likely a skipped/failed run) -- leaving digest/congress*.html as-is."
           fi
-          git add digest/ archive/ data/vote-tally.json data/discharge-petitions.json 2>/dev/null || git add digest/ archive/
+          git add digest/ archive/ data/vote-tally.json data/discharge-petitions.json data/congress-covered.json 2>/dev/null || git add digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

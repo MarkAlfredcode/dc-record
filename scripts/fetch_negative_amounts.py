@@ -30,12 +30,12 @@ MANIFEST_PATH = "data/negative-amounts-seen.json"
 THRESHOLD = -10000  # "$10,000 or more negative" -- catches five-figure AND larger voids
 PAGE_CAP = 5  # safety valve; observed real volume is single digits per window, this is 10-20x headroom
 
-# Same red-flag pattern as Task 1's keyword scan (fetch_keyword_scan.py) --
+# Same red-flag pattern as fetch_campaigns.py's filing scan --
 # duplicated here (not imported) so this script has no import-order
 # dependency on that one; keep the two patterns in sync by hand if either
 # changes. NOTE: "forg" alone false-positives on "Loan Forgiveness" -- a
 # routine FEC Form 99 subtype -- hence the forgery-specific suffix instead
-# of the bare substring (confirmed live 2026-09-14, see fetch_keyword_scan.py).
+# of the bare substring (confirmed live 2026-09-14).
 KEYWORD_PATTERN = (
     r"fraud|fraudulent|embezzl|misappropriat|theft|steal|stolen"
     r"|forg(?:e|ed|ery)|unauthorized use|restitution|indictment|subpoena"

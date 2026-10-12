@@ -18,3 +18,9 @@ data/usaspending_triage.json
 data/usaspending_small_triage.json
 .wrangler/
 .DS_Store
+data/campaigns_input.txt
+data/apod.json
+data/*_input.txt
+data/*_input.json
+data/sam-line-memory.json
+data/*_append.json

@@ -143,6 +143,51 @@ def carry_over_usaspending(content):
     print(f"carried over {len(carried)} USAspending section(s) from this morning's edition", file=sys.stderr)
 
 
+def _key(eyebrow):
+    return " ".join(html.unescape(eyebrow or "").lower().split())
+
+
+# Sections a cheap-model pass already wrote (content-mechanical.json): the
+# main pass only weighs them for Top Story, assemble inserts them, so they
+# cost no main-pass output tokens (2026-10-12). Index = position.
+MECHANICAL = {"officials": 0, "feds": None}
+
+
+def insert_mechanical(content, edition):
+    if edition not in MECHANICAL or not os.path.exists("content-mechanical.json"):
+        return
+    mech = load_json("content-mechanical.json", {}) or {}
+    secs = content.setdefault("sections", [])
+    have = {_key(s.get("eyebrow")) for s in secs}
+    for s in mech.get("sections") or []:
+        if _key(s.get("eyebrow")) in have:
+            continue
+        at = MECHANICAL[edition]
+        secs.insert(len(secs) if at is None else at, s)
+    gaps = (mech.get("known_gaps") or "").strip()
+    if gaps and gaps not in (content.get("footer") or {}).get("known_gaps", ""):
+        f = content.setdefault("footer", {})
+        f["known_gaps"] = (f.get("known_gaps", "").rstrip() + " " + gaps).strip()
+
+
+def append_blocks(content, edition):
+    """data/<edition>_append.json: {"date", "append": {eyebrow: [blocks]}} --
+    tables a fetch script built (e.g. Officials' stock-trade tables), added
+    to the end of the matching section so the model never retypes them."""
+    extra = load_json(f"data/{edition}_append.json", {}) or {}
+    if extra.get("date") != today_la():
+        return
+    secs = content.setdefault("sections", [])
+    for eyebrow, blocks in (extra.get("append") or {}).items():
+        if not blocks:
+            continue
+        sec = next((s for s in secs if _key(s.get("eyebrow")) == _key(eyebrow)), None)
+        if sec is None:
+            sec = {"eyebrow": eyebrow, "headline": eyebrow, "paragraphs": [], "blocks": []}
+            secs.append(sec)
+        sec.setdefault("blocks", []).extend(blocks)
+
+
 def main():
     if len(sys.argv) != 3:
         print("usage: assemble.py <edition> content-TODAY.json", file=sys.stderr)
@@ -150,6 +195,8 @@ def main():
     edition, path = sys.argv[1], sys.argv[2]
     with open(path) as f:
         content = json.load(f)
+    insert_mechanical(content, edition)
+    append_blocks(content, edition)
     have = {s.get("eyebrow", "").lower() for s in content.get("sections", [])}
     for extra in load_extras(edition):
         for s in extra.get("sections", []):
@@ -161,6 +208,11 @@ def main():
                 content.setdefault("sections", []).append(s)
     if edition == "feds" and run_mode() == "pm":
         carry_over_usaspending(content)
+    if edition == "campaigns" and not content.get("apod"):
+        # Fetched by fetch_campaigns.py; the model never writes it.
+        pic = load_json("data/apod.json", {}) or {}
+        if pic.get("date") == today_la() and pic.get("apod"):
+            content["apod"] = pic["apod"]
     dropped = 0
     if edition in surfaced.EDITIONS:
         dropped = surfaced.drop_repeats(content, surfaced.prior(edition))

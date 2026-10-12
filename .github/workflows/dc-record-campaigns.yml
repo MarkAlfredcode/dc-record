@@ -29,10 +29,6 @@ on:
         description: 'Send even if this date+mode already went out (true/false) -- bypasses the duplicate-send guard, see data/sent/.'
         required: false
         default: 'false'
-      verbose_diagnostics:
-        description: 'Capture a full tool-by-tool trace (stream-json) as a build artifact, for cost/turn debugging (true/false)'
-        required: false
-        default: 'false'
 
 permissions:
   contents: write  # needed to commit the incumbent-candidates manifest (Task 1) and the fec-filings-seen/negative-amounts dedupe manifests
@@ -100,13 +96,12 @@ jobs:
           fi
           echo "manual_skip=$MANUAL_SKIP" >> "$GITHUB_OUTPUT"
 
-      - name: Run negative-amounts and keyword-scan fetch scripts
+      - name: Run negative-amounts fetch script
         env:
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
         run: |
           set +e
           python3 scripts/fetch_negative_amounts.py; echo "fetch_negative_amounts exit=$?"
-          python3 scripts/fetch_keyword_scan.py; echo "fetch_keyword_scan exit=$?"
           set -e
 
       # Deterministic sections, built with no LLM (added 2026-10-03) -- see
@@ -122,34 +117,16 @@ jobs:
           done
           set -e
 
-      - name: Run mechanical content pass (Voided & Negative Transactions + keyword-scan handoff, cheap model)
-        id: run_mechanical
+      # Everything the model used to fetch itself (FEC filings, RFAI/Form 99
+      # PDFs, incumbency, dedupe, keyword scan, APOD) -- added 2026-10-12.
+      # Runs after the extras so member-committees.json is fresh and the
+      # bundle can list the extras summaries.
+      - name: Fetch FEC filings and build the model's input bundle (no LLM)
         env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          FEC_KEYS: ${{ secrets.FEC_KEYS }}
+          MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
-          set +e
-          cat prompt-campaigns-mechanical.txt | \
-            claude -p \
-              --model claude-haiku-4-5-20251001 \
-              --permission-mode bypassPermissions \
-              --allowedTools "Read,Write" \
-              --output-format json > claude_mechanical_result.json
-          echo "mechanical exit=$?"
-          set -e
-
-          echo "::group::Claude usage/cost (mechanical pass)"
-          if jq -e . claude_mechanical_result.json >/dev/null 2>&1; then
-            jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_mechanical_result.json
-          else
-            echo "No valid JSON result -- main pass will use its fallback path. Raw output:"
-            cat claude_mechanical_result.json
-          fi
-          echo "::endgroup::"
-
-          echo "::group::Claude final message (mechanical pass)"
-          jq -r '.result // empty' claude_mechanical_result.json 2>/dev/null || true
-          echo "::endgroup::"
-          exit 0
+          timeout 900 python3 scripts/fetch_campaigns.py || echo "fetch_campaigns failed -- main pass will say so"
 
       - name: Run DC Record • Campaigns (content generation)
         id: run_edition
@@ -158,51 +135,38 @@ jobs:
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
-          # Links already shown in an earlier edition of this AM/PM mode, for
-          # Task 1 to skip (scripts/surfaced.py).
-          python3 scripts/surfaced.py prior campaigns || echo '{"links": []}' > data/surfaced-prior-campaigns.json
-          set +e
-          if [ "${{ github.event.inputs.verbose_diagnostics }}" == "true" ]; then
-            cat prompt-campaigns.txt | \
-              claude -p \
-                --permission-mode bypassPermissions \
-                --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
-                --output-format stream-json --verbose > claude_stream.jsonl
-            CLAUDE_EXIT=$?
-            tail -n1 claude_stream.jsonl > claude_result.json
-          else
-            cat prompt-campaigns.txt | \
-              claude -p \
-                --permission-mode bypassPermissions \
-                --allowedTools "Bash,Read,Write,Edit,Glob,Grep" \
-                --output-format json > claude_result.json
-            CLAUDE_EXIT=$?
+          TODAY="${{ steps.date.outputs.today }}"
+          if [ ! -s data/campaigns_input.txt ]; then
+            echo "fetch_campaigns.py produced no input bundle" > content_failed.flag
+            exit 1
           fi
+          if grep -q '^FEC UNREACHABLE' data/campaigns_input.txt; then
+            echo "FEC hosts unreachable -- no edition" > content_skipped.flag
+            exit 0
+          fi
+          # Nothing new at all -> gate.py writes a short edition itself.
+          if [ "$(python3 scripts/gate.py campaigns)" == "skip" ]; then
+            echo "no new filings -- edition written without a model pass" > content_written.flag
+            exit 0
+          fi
+          # One turn, no tools: prompt + bundle on stdin, the edition JSON
+          # comes back as the reply (scripts/run_pass.py -- caching off,
+          # effort medium, #n link refs expanded from the candidates file).
+          set +e
+          echo "::group::Claude usage/cost (Campaigns)"
+          python3 scripts/run_pass.py prompt-campaigns.txt data/campaigns_input.txt \
+            "content-$TODAY.json" data/campaigns_candidates.json
+          CLAUDE_EXIT=$?
+          echo "::endgroup::"
           set -e
 
-          echo "::group::Claude usage/cost (Campaigns)"
-          if jq -e . claude_result.json >/dev/null 2>&1; then
-            jq -r '"cost_usd=" + (.total_cost_usd|tostring) + "  input_tokens=" + (.usage.input_tokens|tostring) + "  output_tokens=" + (.usage.output_tokens|tostring) + "  cache_creation_input_tokens=" + (.usage.cache_creation_input_tokens|tostring) + "  cache_read_input_tokens=" + (.usage.cache_read_input_tokens|tostring) + "  duration_ms=" + (.duration_ms|tostring) + "  num_turns=" + (.num_turns|tostring)' claude_result.json
+          if jq -e . "content-$TODAY.json" >/dev/null 2>&1; then
+            echo "content written" > content_written.flag
           else
-            echo "No valid JSON result (likely errored before completion, e.g. a session-limit preflight failure). Raw output:"
-            cat claude_result.json
+            rm -f "content-$TODAY.json"
+            echo "main pass exited $CLAUDE_EXIT without a valid content-$TODAY.json" > content_failed.flag
           fi
-          echo "::endgroup::"
-
-          echo "::group::Claude final message (Campaigns)"
-          jq -r '.result // empty' claude_result.json 2>/dev/null || true
-          echo "::endgroup::"
-
           exit $CLAUDE_EXIT
-
-      - name: Upload verbose diagnostics trace
-        if: always() && github.event.inputs.verbose_diagnostics == 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: claude-stream-trace-${{ github.run_id }}
-          path: claude_stream.jsonl
-          if-no-files-found: ignore
-          retention-days: 7
 
       - name: Assemble final content (append extras, Your Beat box, archive copy)
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
@@ -210,6 +174,7 @@ jobs:
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
           python3 scripts/assemble.py campaigns "content-${{ steps.date.outputs.today }}.json"
+          python3 scripts/mark_seen.py "content-${{ steps.date.outputs.today }}.json" data/campaigns_candidates.json data/fec-filings-seen.json || echo "mark_seen failed"
 
       - name: Render newsletter from content JSON
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
@@ -301,9 +266,9 @@ jobs:
           else
             echo "No newsletter file produced this run (likely a skipped/failed run) -- leaving digest/campaigns*.html as-is."
           fi
-          # A site-refresh-only run still lets Claude update the FEC-filings/
-          # negative-amounts dedupe manifests on disk as part of its normal
-          # task instructions -- revert those specific files before staging so
+          # A site-refresh-only run still updates the FEC-filings/
+          # negative-amounts dedupe manifests on disk (mark_seen.py,
+          # fetch_negative_amounts.py) -- revert those specific files before staging so
           # nothing gets marked "seen" without ever having been emailed;
           # tomorrow's real run will naturally re-find and correctly email
           # whatever this run scraped first. incumbent-candidates-manifest.json
@@ -319,7 +284,7 @@ jobs:
           if [ "${{ steps.email_decision.outputs.manual_skip }}" == "true" ]; then
             git checkout -- data/surfaced-links.json 2>/dev/null || true
           fi
-          git add data/incumbent-candidates-manifest.json data/fec-filings-seen.json data/negative-amounts-seen.json \
+          git add data/incumbent-candidates-manifest.json data/committee-candidates.json data/fec-filings-seen.json data/negative-amounts-seen.json \
             data/money-out-seen.json data/election-seen.json data/outside-money-seen.json data/megadonors-seen.json data/former-members-committees.json data/member-committees.json \
             data/surfaced-links.json digest/ archive/
           if ! git diff --cached --quiet; then

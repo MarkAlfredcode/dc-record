@@ -7,6 +7,28 @@ contributions, the Federal Register, OMB apportionments, and new large
 USAspending contract awards — for a journalist covering campaign-finance
 compliance and Congress.
 
+## Current pipeline (2026-10-12)
+
+Four editions (`dc-record-{campaigns,congress,officials,feds}.yml`), each:
+
+1. **Fetch, no LLM.** Python does every fetch, dedupe and parse and writes
+   one text bundle: `scripts/fetch_campaigns.py`, `fetch_congress.py`,
+   `fetch_officials.py`, `build_feds_input.py` (after the Feds Haiku
+   triage). Extras scripts (`extras/<edition>/*.json`) run first so the
+   bundle carries their summaries for Top Story.
+2. **Gate.** `scripts/gate.py` skips the model when there's nothing new
+   (Campaigns/Officials: a short edition; Congress: same Record issue as an
+   earlier edition, so its summary is carried over and only extras refresh).
+3. **One turn.** `scripts/run_pass.py`: prompt + bundle on stdin, no tools,
+   prompt caching off (a one-turn pass never reads the cache back, and the
+   1-hour cache write bills at 2x), effort medium. The reply is the content
+   JSON; `href="#N12"`-style refs are expanded from the bundle's ref map.
+4. **Assemble.** `scripts/assemble.py` inserts cheap-model sections (OGE,
+   OMB) and script-built tables (Officials' stock trades), appends extras,
+   drops repeats; `scripts/mark_seen.py` records what was actually shown.
+
+Older notes below describe earlier designs.
+
 Runs entirely on GitHub Actions (`.github/workflows/dc-record.yml`), on a
 schedule, independent of any local machine. Three editions a day:
 
