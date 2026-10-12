@@ -260,6 +260,16 @@ jobs:
         run: |
           python3 scripts/render_feds.py "content-${{ steps.date.outputs.today }}.json" "newsletter-${{ steps.date.outputs.today }}.html"
 
+      - name: Suggest FOIA requests (private, for the /foia tracker)
+        # One extra no-tools pass; posts drafts to markalfred.news/foia and never emails anyone.
+        if: steps.reachability.outputs.down_count < 2 && hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          FOIA_INGEST_TOKEN: ${{ secrets.FOIA_INGEST_TOKEN }}
+        run: python3 scripts/suggest_foias.py feds "content-${{ steps.date.outputs.today }}.json"
+
       - name: Send email
         if: steps.reachability.outputs.down_count < 2 && hashFiles(format('newsletter-{0}.html', steps.date.outputs.today)) != ''
         env:

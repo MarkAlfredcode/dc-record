@@ -1,0 +1,4738 @@
+[
+ {
+  "id": 1,
+  "agency": "Department of Health and Human Services",
+  "parent": null,
+  "email": "foiarequest@hhs.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 2,
+  "agency": "Department of Labor",
+  "parent": null,
+  "email": "foiarequests@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 3,
+  "agency": "Department of Justice",
+  "parent": null,
+  "email": "mrufoia.requests@usdoj.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Central; component-specific preferred — see justice.gov/oip/find-foia-contact-doj/list",
+  "source": "directory"
+ },
+ {
+  "id": 4,
+  "agency": "Department of Energy",
+  "parent": null,
+  "email": "foia-central@hq.doe.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 5,
+  "agency": "Department of the Treasury",
+  "parent": null,
+  "email": "foia@treasury.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Bureaus separate",
+  "source": "directory"
+ },
+ {
+  "id": 6,
+  "agency": "FinCEN",
+  "parent": "Treasury",
+  "email": "fincenfoia@fincen.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 7,
+  "agency": "Department of Veterans Affairs",
+  "parent": null,
+  "email": "vacofoiaservice@va.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 8,
+  "agency": "Department of Education",
+  "parent": null,
+  "email": "edfoiamanager@ed.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 9,
+  "agency": "USDA — FPAC",
+  "parent": "USDA",
+  "email": "sm.fp.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 10,
+  "agency": "USDA — FNA",
+  "parent": "USDA",
+  "email": "foia-fna@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 11,
+  "agency": "USDA — AMS",
+  "parent": "USDA",
+  "email": "ams.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 12,
+  "agency": "USDA — APHIS",
+  "parent": "USDA",
+  "email": "foia.officer@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Or securefoia.usda.gov",
+  "source": "directory"
+ },
+ {
+  "id": 13,
+  "agency": "Department of Commerce",
+  "parent": null,
+  "email": "efoia@doc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Bureaus separate",
+  "source": "directory"
+ },
+ {
+  "id": 14,
+  "agency": "Commerce OIG",
+  "parent": "Commerce",
+  "email": "foia@oig.doc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 15,
+  "agency": "Department of the Army",
+  "parent": "DoD",
+  "email": "foia@rmda.belvoir.army.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 16,
+  "agency": "Department of Transportation",
+  "parent": null,
+  "email": "ost.foia@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 17,
+  "agency": "FAA",
+  "parent": "DOT",
+  "email": "7-awa-arc-foia@faa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 18,
+  "agency": "NHTSA",
+  "parent": "DOT",
+  "email": "nhtsa.webmaster@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 19,
+  "agency": "PHMSA",
+  "parent": "DOT",
+  "email": "phmsa.foia@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 20,
+  "agency": "Dept. of Housing and Urban Development",
+  "parent": null,
+  "email": "foia@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 21,
+  "agency": "Consumer Financial Protection Bureau",
+  "parent": null,
+  "email": "cfpb_foia@consumerfinance.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 22,
+  "agency": "Court Services & Offender Supervision Agency (DC)",
+  "parent": null,
+  "email": "foia@csosa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 23,
+  "agency": "Equal Employment Opportunity Commission",
+  "parent": null,
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 24,
+  "agency": "Federal Communications Commission",
+  "parent": null,
+  "email": "foia@fcc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 25,
+  "agency": "Federal Trade Commission",
+  "parent": null,
+  "email": "foia@ftc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 26,
+  "agency": "General Services Administration",
+  "parent": null,
+  "email": "gsa.foia@gsa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 27,
+  "agency": "NASA",
+  "parent": null,
+  "email": "hq-foia@mail.nasa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 28,
+  "agency": "National Archives and Records Admin.",
+  "parent": null,
+  "email": "foia@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Operational / archival split",
+  "source": "directory"
+ },
+ {
+  "id": 29,
+  "agency": "National Credit Union Administration",
+  "parent": null,
+  "email": "foia@ncua.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 30,
+  "agency": "National Science Foundation",
+  "parent": null,
+  "email": "foia@nsf.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 31,
+  "agency": "Nuclear Regulatory Commission",
+  "parent": null,
+  "email": "foia.resource@nrc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 32,
+  "agency": "Office of Personnel Management",
+  "parent": null,
+  "email": "foia@opm.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 33,
+  "agency": "Securities and Exchange Commission",
+  "parent": null,
+  "email": "foiapa@sec.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 34,
+  "agency": "Small Business Administration",
+  "parent": null,
+  "email": "foia@sba.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 35,
+  "agency": "Social Security Administration",
+  "parent": null,
+  "email": "foia.public.liaison@ssa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 36,
+  "agency": "US Agency for Global Media",
+  "parent": null,
+  "email": "foia@usagm.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 37,
+  "agency": "US Agency for International Development",
+  "parent": null,
+  "email": "foia@usaid.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 38,
+  "agency": "Defense Nuclear Facilities Safety Board",
+  "parent": null,
+  "email": "foia@dnfsb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 39,
+  "agency": "Federal Election Commission",
+  "parent": null,
+  "email": "foia@fec.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 40,
+  "agency": "Peace Corps",
+  "parent": null,
+  "email": "foia@peacecorps.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 41,
+  "agency": "Federal Bureau of Investigation",
+  "parent": "DOJ",
+  "email": "fbi.foia@fbi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Phone (540) 868-1535",
+  "source": "directory"
+ },
+ {
+  "id": 42,
+  "agency": "Drug Enforcement Administration",
+  "parent": "DOJ",
+  "email": "dea.foia@usdoj.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 43,
+  "agency": "US Marshals Service",
+  "parent": "DOJ",
+  "email": "usms.foia@usdoj.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal: foia.usmarshals.gov",
+  "source": "directory"
+ },
+ {
+  "id": 44,
+  "agency": "Federal Bureau of Prisons",
+  "parent": "DOJ",
+  "email": "bop-ogc-efoia-s@bop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 45,
+  "agency": "US Mint",
+  "parent": "Treasury",
+  "email": "foia@usmint.treas.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 46,
+  "agency": "Commodity Futures Trading Commission",
+  "parent": null,
+  "email": "foiasubmissions@cftc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 47,
+  "agency": "Federal Housing Finance Agency",
+  "parent": null,
+  "email": "foia@fhfa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal: foiapal.fhfa.gov",
+  "source": "directory"
+ },
+ {
+  "id": 48,
+  "agency": "FHFA Office of Inspector General",
+  "parent": "FHFA",
+  "email": "foia@fhfaoig.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 49,
+  "agency": "Farm Credit Administration",
+  "parent": null,
+  "email": "foiaofficer@fca.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 50,
+  "agency": "Pension Benefit Guaranty Corporation",
+  "parent": null,
+  "email": "disclosure@pbgc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "FOIAonline participant; mail: Disclosure Division",
+  "source": "directory"
+ },
+ {
+  "id": 51,
+  "agency": "Federal Retirement Thrift Investment Board",
+  "parent": null,
+  "email": "foiarequest@tsp.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 52,
+  "agency": "Office of the Director of National Intelligence",
+  "parent": null,
+  "email": "dni-foia@dni.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 53,
+  "agency": "Defense Intelligence Agency",
+  "parent": "DoD",
+  "email": "foia1@dodiis.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 54,
+  "agency": "National Geospatial-Intelligence Agency",
+  "parent": "DoD",
+  "email": "foianga@nga.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 55,
+  "agency": "Office of the Secretary of Defense / Joint Staff",
+  "parent": "DoD",
+  "email": "whs.mc-alex.esd.mbx.osd-js-foia-requester-service-center@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Via Executive Services Directorate (esd.whs.mil/FOID)",
+  "source": "directory"
+ },
+ {
+  "id": 56,
+  "agency": "Defense Logistics Agency",
+  "parent": "DoD",
+  "email": "hq-foia@dla.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 57,
+  "agency": "US Marine Corps",
+  "parent": "DoD (Navy Dept)",
+  "email": "hqmcfoia@usmc.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 58,
+  "agency": "DoD Office of Inspector General",
+  "parent": "DoD",
+  "email": "foiarequests@dodig.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Appeals: foiaappeals@dodig.mil",
+  "source": "directory"
+ },
+ {
+  "id": 59,
+  "agency": "Centers for Disease Control and Prevention",
+  "parent": "HHS",
+  "email": "foiarequests@cdc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal: foia.cdc.gov",
+  "source": "directory"
+ },
+ {
+  "id": 60,
+  "agency": "Food and Drug Administration",
+  "parent": "HHS",
+  "email": "cdrh-foistatus@fda.hhs.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "CDRH-specific: CDRH-FOIStatus@fda.hhs.gov",
+  "source": "directory"
+ },
+ {
+  "id": 61,
+  "agency": "National Institutes of Health",
+  "parent": "HHS",
+  "email": "nihfoia@od.nih.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal preferred: foiaportal.nih.gov",
+  "source": "directory"
+ },
+ {
+  "id": 62,
+  "agency": "US Census Bureau",
+  "parent": "Commerce",
+  "email": "census.efoia@census.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 63,
+  "agency": "Bureau of Economic Analysis",
+  "parent": "Commerce",
+  "email": "foia@bea.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 64,
+  "agency": "Occupational Safety and Health Administration",
+  "parent": "DOL",
+  "email": "osha.foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Central DOL address also works",
+  "source": "directory"
+ },
+ {
+  "id": 65,
+  "agency": "Mine Safety and Health Administration",
+  "parent": "DOL",
+  "email": "msha.foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 66,
+  "agency": "Bureau of Labor Statistics",
+  "parent": "DOL",
+  "email": "blsfoiaservicecenter@bls.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 67,
+  "agency": "US Forest Service",
+  "parent": "USDA",
+  "email": "sm.fs.wofoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Regional FOIA offices also exist (R4, R5, R9, etc.)",
+  "source": "directory"
+ },
+ {
+  "id": 68,
+  "agency": "Consumer Product Safety Commission",
+  "parent": null,
+  "email": "cpscfoiarequests@cpsc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal: foiapal.cpsc.gov",
+  "source": "directory"
+ },
+ {
+  "id": 69,
+  "agency": "Federal Maritime Commission",
+  "parent": null,
+  "email": "foia@fmc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 70,
+  "agency": "Federal Energy Regulatory Commission",
+  "parent": null,
+  "email": "foia@ferc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 71,
+  "agency": "Surface Transportation Board",
+  "parent": null,
+  "email": "foia.privacy@stb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal: pal.stb.gov",
+  "source": "directory"
+ },
+ {
+  "id": 72,
+  "agency": "Export-Import Bank of the United States",
+  "parent": null,
+  "email": "foia@exim.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 73,
+  "agency": "Railroad Retirement Board",
+  "parent": null,
+  "email": "efoia@rrb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 74,
+  "agency": "Federal Labor Relations Authority",
+  "parent": null,
+  "email": "solmail@flra.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "OIG-specific: OIGmail@flra.gov; portal foia.flra.gov",
+  "source": "directory"
+ },
+ {
+  "id": 75,
+  "agency": "Merit Systems Protection Board",
+  "parent": null,
+  "email": "foiahg@mspb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal: PAL application at mspb.gov",
+  "source": "directory"
+ },
+ {
+  "id": 76,
+  "agency": "Office of Special Counsel",
+  "parent": null,
+  "email": "foiarequest@osc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Portal: efoia.osc.gov",
+  "source": "directory"
+ },
+ {
+  "id": 77,
+  "agency": "Office of Government Ethics",
+  "parent": null,
+  "email": "usoge@oge.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": true,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 78,
+  "agency": "National Mediation Board",
+  "parent": null,
+  "email": "foia@nmb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 79,
+  "agency": "Postal Regulatory Commission",
+  "parent": null,
+  "email": "foia@prc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 80,
+  "agency": "US Chemical Safety Board",
+  "parent": null,
+  "email": "steven.messer@csb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": true,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 81,
+  "agency": "National Indian Gaming Commission",
+  "parent": null,
+  "email": "foia@nigc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 82,
+  "agency": "Selective Service System",
+  "parent": null,
+  "email": "foia@sss.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 83,
+  "agency": "National Endowment for the Arts",
+  "parent": null,
+  "email": "foia@arts.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 84,
+  "agency": "National Endowment for the Humanities",
+  "parent": null,
+  "email": "gencounsel@neh.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 85,
+  "agency": "Institute of Museum and Library Services",
+  "parent": null,
+  "email": "foia@imls.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 86,
+  "agency": "AmeriCorps (Corp. for National & Community Service)",
+  "parent": null,
+  "email": "foiaappeals@americorpsoig.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": true,
+  "note": "Appeals: FOIAappeals@AmeriCorpsOIG.gov",
+  "source": "directory"
+ },
+ {
+  "id": 87,
+  "agency": "US International Development Finance Corp. (DFC)",
+  "parent": null,
+  "email": "foiadfcoig@dfc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": true,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 88,
+  "agency": "Inter-American Foundation",
+  "parent": null,
+  "email": "foia@iaf.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 89,
+  "agency": "US African Development Foundation",
+  "parent": null,
+  "email": "info@usadf.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": true,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 90,
+  "agency": "Millennium Challenge Corporation",
+  "parent": null,
+  "email": "foia@mcc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Only address accepted — others rejected as improper",
+  "source": "directory"
+ },
+ {
+  "id": 91,
+  "agency": "Office of Management and Budget",
+  "parent": "EOP",
+  "email": "ombfoia@omb.eop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 92,
+  "agency": "Council on Environmental Quality",
+  "parent": "EOP",
+  "email": "efoia@ceq.eop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "No attachments accepted",
+  "source": "directory"
+ },
+ {
+  "id": 93,
+  "agency": "Office of Science and Technology Policy",
+  "parent": "EOP",
+  "email": "ostpfoia@ostp.eop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "No attachments accepted",
+  "source": "directory"
+ },
+ {
+  "id": 94,
+  "agency": "Office of the US Trade Representative",
+  "parent": "EOP",
+  "email": "foia@ustr.eop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "No attachments accepted",
+  "source": "directory"
+ },
+ {
+  "id": 95,
+  "agency": "US Postal Service",
+  "parent": "— (independent est.)",
+  "email": "foiaappeal@usps.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": "Mail: Manager, Records Office; appeals FOIAAppeal@usps.gov",
+  "source": "directory"
+ },
+ {
+  "id": 96,
+  "agency": "Federal Mediation and Conciliation Service",
+  "parent": null,
+  "email": "foia@fmcs.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 97,
+  "agency": "Presidio Trust",
+  "parent": null,
+  "email": "foiarequest@presidiotrust.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "directory"
+ },
+ {
+  "id": 98,
+  "agency": "Administrative Conference of the United States",
+  "parent": null,
+  "email": "ntomasso@acus.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 99,
+  "agency": "Appraisal Subcommittee",
+  "parent": null,
+  "email": "foia@asc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 100,
+  "agency": "Civil Rights Cold Case Records Review Board",
+  "parent": null,
+  "email": "info@coldcaserecords.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 101,
+  "agency": "Commission of Fine Arts",
+  "parent": null,
+  "email": "foia@cfa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 102,
+  "agency": "Committee for Purchase from People Who Are Blind or Severely Disabled",
+  "parent": null,
+  "email": "foia@abilityone.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 103,
+  "agency": "Corporation for National and Community Service",
+  "parent": "Corporation for National and Community Service (operating as AmeriCorps)",
+  "email": "dandavis@americorps.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 104,
+  "agency": "Council of the Inspectors General on Integrity and Efficiency",
+  "parent": "Council of the Inspectors General on Integrity and Efficiency",
+  "email": "elizabeth.sweetland@cigie.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 105,
+  "agency": "Agricultural Marketing Service",
+  "parent": "Department of Agriculture",
+  "email": "ams.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 106,
+  "agency": "Animal and Plant Health Inspection Service",
+  "parent": "Department of Agriculture",
+  "email": "foia.officer@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 107,
+  "agency": "Departmental Administration",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 108,
+  "agency": "Farm Production and Conservation Business Center",
+  "parent": "Department of Agriculture",
+  "email": "sm.fp.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 109,
+  "agency": "Farm Service Agency",
+  "parent": "Department of Agriculture",
+  "email": "sm.fp.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 110,
+  "agency": "Food Safety and Inspection Service",
+  "parent": "Department of Agriculture",
+  "email": "fsis.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 111,
+  "agency": "Food and Nutrition Administration",
+  "parent": "Department of Agriculture",
+  "email": "foia-fns@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 112,
+  "agency": "Foreign Agricultural Service",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 113,
+  "agency": "Forest Service",
+  "parent": "Department of Agriculture",
+  "email": "sm.fs.wofoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 114,
+  "agency": "National Finance Center",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 115,
+  "agency": "Natural Resources Conservation Service",
+  "parent": "Department of Agriculture",
+  "email": "sm.fp.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 116,
+  "agency": "Office of Budget & Program Analysis",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 117,
+  "agency": "Office of Hearings and Appeals",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 118,
+  "agency": "Office of the Assistant Secretary for Civil Rights",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 119,
+  "agency": "Office of the Chief Financial Officer",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 120,
+  "agency": "Office of the General Counsel",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 121,
+  "agency": "Office of the Inspector General",
+  "parent": "Department of Agriculture",
+  "email": "foiastaff@oig.usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 122,
+  "agency": "Office of the Secretary",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 123,
+  "agency": "Research, Education, and Economics",
+  "parent": "Department of Agriculture",
+  "email": "usdafoia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 124,
+  "agency": "Risk Management Agency",
+  "parent": "Department of Agriculture",
+  "email": "sm.fp.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 125,
+  "agency": "Rural Development",
+  "parent": "Department of Agriculture",
+  "email": "rd.foia@usda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 126,
+  "agency": "Armed Services Board of Contract Appeals",
+  "parent": "Department of Defense",
+  "email": "asbca.foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 127,
+  "agency": "Defense Commissary Agency",
+  "parent": "Department of Defense",
+  "email": "deca.lee.hq.mbx.foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 128,
+  "agency": "Defense Contract Audit Agency",
+  "parent": "Department of Defense",
+  "email": "dcaa.belvoir.hq.mbx.hq-foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 129,
+  "agency": "Defense Contract Management Agency",
+  "parent": "Department of Defense",
+  "email": "dcma.gregg-adams.hq.mbx.dcma-foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 130,
+  "agency": "Defense Counterintelligence and Security Agency",
+  "parent": "Department of Defense",
+  "email": "dcsa.quantico.dcsa-hq.mbx.foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 131,
+  "agency": "Defense Finance and Accounting Service",
+  "parent": "Department of Defense",
+  "email": "dfas.foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 132,
+  "agency": "Defense Health Agency",
+  "parent": "Department of Defense",
+  "email": "dha.foia@health.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 133,
+  "agency": "Defense Information Systems Agency",
+  "parent": "Department of Defense",
+  "email": "disa.meade.eiic.mbx.cio-foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 134,
+  "agency": "Defense Technical Information Center",
+  "parent": "Department of Defense",
+  "email": "dtic.belvoir.rm.mbx.foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 135,
+  "agency": "Defense Threat Reduction Agency",
+  "parent": "Department of Defense",
+  "email": "dtra.belvoir.it.mbx.efoia-privacy@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 136,
+  "agency": "Department of War Education Activity",
+  "parent": "Department of Defense",
+  "email": "foia@dodea.edu",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 137,
+  "agency": "Department of War Office of Inspector General",
+  "parent": "Department of Defense",
+  "email": "foiapublicliaison@dodig.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 138,
+  "agency": "Department of the Air Force",
+  "parent": "Department of Defense",
+  "email": "daf.foia@us.af.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 139,
+  "agency": "Department of the Navy",
+  "parent": "Department of Defense",
+  "email": "usn.ncr.dns.mbx.don-foia-pa@us.navy.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 140,
+  "agency": "Joint Personnel Recovery Agency",
+  "parent": "Department of Defense",
+  "email": "js.belvoir.jpra.mbx.foia-pa@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 141,
+  "agency": "National Guard Bureau",
+  "parent": "Department of Defense",
+  "email": "ngb.foia@army.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 142,
+  "agency": "National Reconnaissance Office",
+  "parent": "Department of Defense",
+  "email": "foia@nro.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 143,
+  "agency": "National Security Agency",
+  "parent": "Department of Defense",
+  "email": "foiarsc@nsa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 144,
+  "agency": "Office of the Secretary of War and Joint Staff",
+  "parent": "Department of Defense",
+  "email": "whs.mc-alex.esd.mbx.osd-js-foia-requester-service-center@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 145,
+  "agency": "U.S. Central Command",
+  "parent": "Department of Defense",
+  "email": "centcom.macdill.centcom-hq.mbx.freedom-of-information-act@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 146,
+  "agency": "U.S. Cyber Command",
+  "parent": "Department of Defense",
+  "email": "cybercom_foia@cybercom.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 147,
+  "agency": "U.S. European Command",
+  "parent": "Department of Defense",
+  "email": "eucom.stuttgart.ecj1.list.foia-privact-request-mb-access@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 148,
+  "agency": "U.S. Marine Corps",
+  "parent": "Department of Defense",
+  "email": "christopher.a.julka.civ@us.navy.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 149,
+  "agency": "U.S. Northern Command",
+  "parent": "Department of Defense",
+  "email": "rhonda.n.ross.civ@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 150,
+  "agency": "U.S. Pacific Command",
+  "parent": "Department of Defense",
+  "email": "indopacom.hmsmith.pcj6.mbx.foia@us.navy.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 151,
+  "agency": "U.S. Southern Command",
+  "parent": "Department of Defense",
+  "email": "southcom.miami.sc-cc.mbx.southcomfoia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 152,
+  "agency": "U.S. Space Command",
+  "parent": "Department of Defense",
+  "email": "usspacecom.j0.foia-pa@us.af.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 153,
+  "agency": "U.S. Space Force",
+  "parent": "Department of Defense",
+  "email": "daf.foia@us.af.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 154,
+  "agency": "U.S. Special Operations Command",
+  "parent": "Department of Defense",
+  "email": "foia@socom.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 155,
+  "agency": "U.S. Strategic Command",
+  "parent": "Department of Defense",
+  "email": "stratcom.offutt.mbx.j0-stratcom-foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 156,
+  "agency": "U.S. Transportation Command",
+  "parent": "Department of Defense",
+  "email": "transcom.scott.tcja.mbx.foia@mail.mil",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 157,
+  "agency": "Office of Inspector General",
+  "parent": "Department of Education",
+  "email": "oigfoia@ed.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 158,
+  "agency": "Bonneville Power Administration",
+  "parent": "Department of Energy",
+  "email": "foia@bpa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 159,
+  "agency": "Chicago Office",
+  "parent": "Department of Energy",
+  "email": "kim.donham@science.doe.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 160,
+  "agency": "Environmental Management Consolidated Business Center",
+  "parent": "Department of Energy",
+  "email": "foiaoffice@emcbc.doe.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 161,
+  "agency": "Naval Reactors Laboratory Field Office",
+  "parent": "Department of Energy",
+  "email": "clifford.nunn@nrp.doe.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 162,
+  "agency": "Oak Ridge Office",
+  "parent": "Department of Energy",
+  "email": "kim.donham@science.doe.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 163,
+  "agency": "Western Area Power Administration",
+  "parent": "Department of Energy",
+  "email": "grant@wapa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 164,
+  "agency": "Center for Medicare and Medicaid Services",
+  "parent": "Department of Health and Human Services",
+  "email": "joseph.tripline@cms.hhs.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 165,
+  "agency": "Health Resources and Services Administration",
+  "parent": "Department of Health and Human Services",
+  "email": "foia@hrsa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 166,
+  "agency": "Indian Health Service",
+  "parent": "Department of Health and Human Services",
+  "email": "ihsfoiamailbox@ihs.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 167,
+  "agency": "Headquarters",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foia@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 168,
+  "agency": "Region I (Boston, Hartford, Manchester, Providence)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion1@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 169,
+  "agency": "Region II (New York, Albany, Buffalo, Newark)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion2@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 170,
+  "agency": "Region III (Philadelphia, Baltimore, Pittsburgh, Richmond, Washington, D.C., Charleston, Wilmington)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion3@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 171,
+  "agency": "Region IV (Atlanta, Birmingham, Caribbean, Columbia, Greensboro, Jackson, Jacksonville, Knoxville, Louisville, Nashville, Memphis, Miami, Orlando, Tampa)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion4@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 172,
+  "agency": "Region IX (San Francisco, Honolulu, Los Angeles, Phoenix, Sacramento)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion9@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 173,
+  "agency": "Region V (Chicago, Columbus, Cleveland, Detroit, Indianapolis, Milwaukee, Minneapolis-St. Paul)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion5@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 174,
+  "agency": "Region VI (Texas, Arkansas, Louisiana, New Mexico and Oklahoma)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion6@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 175,
+  "agency": "Region VII (Kansas City, Des Moines, Omaha, St. Louis)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion7@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 176,
+  "agency": "Region VIII (Denver)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion8@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 177,
+  "agency": "Region X (Seattle, Anchorage, Portland)",
+  "parent": "Department of Housing and Urban Development",
+  "email": "foiaregion10@hud.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 178,
+  "agency": "Executive Office for Immigration Review",
+  "parent": "Department of Justice",
+  "email": "eoir.foiarequests@usdoj.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 179,
+  "agency": "National Fraud Enforcement Division",
+  "parent": "Department of Justice",
+  "email": "fraud.foiarequests@usdoj.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 180,
+  "agency": "Office on Violence Against Women",
+  "parent": "Department of Justice",
+  "email": "ovw.foia@usdoj.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 181,
+  "agency": "Adjudicatory Boards",
+  "parent": "Department of Labor",
+  "email": "boardsfoia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 182,
+  "agency": "Bureau of International Labor Affairs",
+  "parent": "Department of Labor",
+  "email": "yoon.bruce@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 183,
+  "agency": "Jobs Corps",
+  "parent": "Department of Labor",
+  "email": "ofccp_no_foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 184,
+  "agency": "Occupational Safety & Health Administration",
+  "parent": "Department of Labor",
+  "email": "osha.foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 185,
+  "agency": "Office of Disability Employment Policy",
+  "parent": "Department of Labor",
+  "email": "parker.angela@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 186,
+  "agency": "Office of Federal Contract Compliance Programs",
+  "parent": "Department of Labor",
+  "email": "ofccp_no_foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 187,
+  "agency": "Office of Labor-Management Standards",
+  "parent": "Department of Labor",
+  "email": "olms-foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 188,
+  "agency": "Office of the Administrative Law Judges",
+  "parent": "Department of Labor",
+  "email": "foia2@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 189,
+  "agency": "Office of the Assistant Secretary for Administration and Management",
+  "parent": "Department of Labor",
+  "email": "oasam-foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 190,
+  "agency": "Office of the Assistant Secretary for Policy",
+  "parent": "Department of Labor",
+  "email": "fryer.terry@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 191,
+  "agency": "Office of the Secretary",
+  "parent": "Department of Labor",
+  "email": "osec-foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 192,
+  "agency": "Office of the Solicitor",
+  "parent": "Department of Labor",
+  "email": "karamoko.arginia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 193,
+  "agency": "Select Department of Labor component for me",
+  "parent": "Department of Labor",
+  "email": "foiarequest@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 194,
+  "agency": "Wage and Hour Division",
+  "parent": "Department of Labor",
+  "email": "whd-foia@dol.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 195,
+  "agency": "Women's Bureau",
+  "parent": "Department of Labor",
+  "email": "wb-foia@dol.goc",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 196,
+  "agency": "Federal Aviation Administration",
+  "parent": "Department of Transportation",
+  "email": "9-afn-foia-public-liaison@faa.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 197,
+  "agency": "Federal Highway Administration",
+  "parent": "Department of Transportation",
+  "email": "foia.officer@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 198,
+  "agency": "Federal Railroad Administration",
+  "parent": "Department of Transportation",
+  "email": "frafoialiaison@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 199,
+  "agency": "Federal Transit Administration",
+  "parent": "Department of Transportation",
+  "email": "nancy.sipes@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 200,
+  "agency": "Great Lakes St. Lawrence Seaway Development Corporation",
+  "parent": "Department of Transportation",
+  "email": "ost.foia@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 201,
+  "agency": "National Highway Traffic Safety Administration",
+  "parent": "Department of Transportation",
+  "email": "nhtsa.foia@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 202,
+  "agency": "Pipeline and Hazardous Materials Safety Administration",
+  "parent": "Department of Transportation",
+  "email": "phmsa.foia@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 203,
+  "agency": "Select Department of Transportation component for me",
+  "parent": "Department of Transportation",
+  "email": "ost.foia@dot.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 204,
+  "agency": "National Cemetery Administration",
+  "parent": "Department of Veterans Affairs",
+  "email": "cemncafoia@va.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 205,
+  "agency": "Office of Information and Technology - VA Central Office FOIA Service",
+  "parent": "Department of Veterans Affairs",
+  "email": "foiahelp@va.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 206,
+  "agency": "Veterans Benefits Administration",
+  "parent": "Department of Veterans Affairs",
+  "email": "foia.vbaco@va.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 207,
+  "agency": "Veterans Health Administration",
+  "parent": "Department of Veterans Affairs",
+  "email": "vhafoiahelp@va.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 208,
+  "agency": "Assistant Secretary – Indian Affairs",
+  "parent": "Department of the Interior",
+  "email": "as-ia_foia@bia.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 209,
+  "agency": "Bureau of Indian Affairs",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 210,
+  "agency": "Bureau of Indian Education",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 211,
+  "agency": "Bureau of Land Management",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 212,
+  "agency": "Bureau of Reclamation",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 213,
+  "agency": "Marine Minerals Administration",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 214,
+  "agency": "National Park Service",
+  "parent": "Department of the Interior",
+  "email": "npsfoia@nps.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 215,
+  "agency": "Office of Surface Mining Reclamation and Enforcement",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 216,
+  "agency": "U.S. Fish and Wildlife Service",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 217,
+  "agency": "U.S. Geological Survey",
+  "parent": "Department of the Interior",
+  "email": "doifoiapublicliaison@sol.doi.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 218,
+  "agency": "Alcohol and Tobacco Tax and Trade Bureau",
+  "parent": "Department of the Treasury",
+  "email": "foiapl@treasury.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 219,
+  "agency": "Bureau of Engraving and Printing",
+  "parent": "Department of the Treasury",
+  "email": "foiapl@treasury.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 220,
+  "agency": "Bureau of the Fiscal Service",
+  "parent": "Department of the Treasury",
+  "email": "foiapl@treasury.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 221,
+  "agency": "Departmental Offices",
+  "parent": "Department of the Treasury",
+  "email": "foiapl@treasury.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 222,
+  "agency": "Financial Crimes Enforcement Network",
+  "parent": "Department of the Treasury",
+  "email": "foiapl@treasury.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 223,
+  "agency": "United States Mint",
+  "parent": "Department of the Treasury",
+  "email": "foiapl@treasury.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 224,
+  "agency": "Atlanta District Office (Savannah Local Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 225,
+  "agency": "Birmingham District Office (Mobile Local Office; Jackson Area Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 226,
+  "agency": "Charlotte District Office (Greensboro, Greenville, Norfolk, Richmond Local Offices; Raleigh Area Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 227,
+  "agency": "Chicago District Office (Milwaukee and Minneapolis Area Offices)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 228,
+  "agency": "Dallas District Office (San Antonio Field Office; El Paso Area Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 229,
+  "agency": "Houston District Office (New Orleans Field Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 230,
+  "agency": "Indianapolis District Office (Detroit Field Office; Cincinnati and Louisville Area Offices)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 231,
+  "agency": "Los Angeles District Office (Fresno, Honolulu, Las Vegas, and San Diego Local Offices)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 232,
+  "agency": "Memphis District Office (Little Rock and Nashville Area Offices)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 233,
+  "agency": "Miami District Office (Tampa Field Office and San Juan Local Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 234,
+  "agency": "New York District Office (Boston and Newark Area Offices; Buffalo Local Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 235,
+  "agency": "Office of Legal Counsel/Headquarters (FOIA Division)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 236,
+  "agency": "Philadelphia District Office (Baltimore and Cleveland Field Offices; Pittsburgh Area Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 237,
+  "agency": "Phoenix District Office (Denver Field Office; Albuquerque Area Office)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 238,
+  "agency": "San Francisco District Office (Seattle Field Office; Oakland and San Jose Local Offices)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 239,
+  "agency": "Select Equal Employment Opportunity Commission component for me",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 240,
+  "agency": "St. Louis District Office (Kansas City and Oklahoma Area Offices)",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 241,
+  "agency": "Washington Field Office",
+  "parent": "Equal Employment Opportunity Commission",
+  "email": "foia@eeoc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 242,
+  "agency": "Farm Credit System Insurance Corporation",
+  "parent": null,
+  "email": "fcsicfoiapublicliaison@fcsic.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 243,
+  "agency": "Federal Deposit Insurance Corporation",
+  "parent": null,
+  "email": "foiapublicliaison@fdic.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 244,
+  "agency": "The Authority",
+  "parent": "Federal Labor Relations Authority",
+  "email": "ebalkum@flra.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 245,
+  "agency": "Federal Mine Safety and Health Review Commission",
+  "parent": null,
+  "email": "foia-liaison@fmshrc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 246,
+  "agency": "Federal Permitting Improvement Steering Council",
+  "parent": null,
+  "email": "foia@permitting.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 247,
+  "agency": "Office of Legal Affairs",
+  "parent": "Legal Services Corporation",
+  "email": "guytonh@lsc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 248,
+  "agency": "Barack Obama Presidential Library",
+  "parent": "National Archives and Records Administration",
+  "email": "libraries.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 249,
+  "agency": "Donald J. Trump Presidential Library",
+  "parent": "National Archives and Records Administration",
+  "email": "libraries.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 250,
+  "agency": "George Bush Presidential Library",
+  "parent": "National Archives and Records Administration",
+  "email": "libraries.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 251,
+  "agency": "George W. Bush Presidential Library",
+  "parent": "National Archives and Records Administration",
+  "email": "libraries.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 252,
+  "agency": "National Archives at Atlanta",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 253,
+  "agency": "National Archives at Boston",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 254,
+  "agency": "National Archives at Chicago",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 255,
+  "agency": "National Archives at Denver",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 256,
+  "agency": "National Archives at Fort Worth",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 257,
+  "agency": "National Archives at Kansas City",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 258,
+  "agency": "National Archives at Philadelphia",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 259,
+  "agency": "National Archives at Riverside",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 260,
+  "agency": "National Archives at San Francisco",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 261,
+  "agency": "National Archives at Seattle",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 262,
+  "agency": "National Personnel Records Center",
+  "parent": "National Archives and Records Administration",
+  "email": "nprc_foia@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 263,
+  "agency": "Office of General Counsel, Operational FOIA and Access Division",
+  "parent": "National Archives and Records Administration",
+  "email": "ngc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 264,
+  "agency": "Office of Presidential Libraries, Archival Operations Division",
+  "parent": "National Archives and Records Administration",
+  "email": "libraries.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 265,
+  "agency": "Office of Research Services, Special Access and FOIA - Washington, DC Area",
+  "parent": "National Archives and Records Administration",
+  "email": "dc.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 266,
+  "agency": "Ronald Reagan Presidential Library",
+  "parent": "National Archives and Records Administration",
+  "email": "libraries.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 267,
+  "agency": "Select National Archives component for me",
+  "parent": "National Archives and Records Administration",
+  "email": "foia@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 268,
+  "agency": "William J. Clinton Presidential Library",
+  "parent": "National Archives and Records Administration",
+  "email": "libraries.foia.liaison@nara.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 269,
+  "agency": "National Council on Disability",
+  "parent": null,
+  "email": "asoliman@ncd.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 270,
+  "agency": "Main Office",
+  "parent": "National Credit Union Administration",
+  "email": "foia@ncua.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 271,
+  "agency": "National Labor Relations Board",
+  "parent": null,
+  "email": "foiapublicliaison@nlrb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 272,
+  "agency": "National Passenger Railroad Corporation Headquarters",
+  "parent": "National Railroad Passenger Corporation",
+  "email": "foiapublicliaison@amtrak.com",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 273,
+  "agency": "Office of the Inspector General",
+  "parent": "National Railroad Passenger Corporation",
+  "email": "foia@amtrakoig.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 274,
+  "agency": "National Transportation Safety Board",
+  "parent": null,
+  "email": "foia@ntsb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 275,
+  "agency": "Occupational Safety and Health Review Commission",
+  "parent": null,
+  "email": "oshrc_foia@oshrc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 276,
+  "agency": "Office of Pandemic Preparedness and Response Policy",
+  "parent": null,
+  "email": "mbx.oppr.foia@oppr.eop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 277,
+  "agency": "U.S. Office of Special Counsel",
+  "parent": "Office of Special Counsel",
+  "email": "jhanna@osc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 278,
+  "agency": "Office of the Intellectual Property Enforcement Coordinator",
+  "parent": null,
+  "email": "ipecfoia@ipec.eop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 279,
+  "agency": "Office of the National Cyber Director",
+  "parent": null,
+  "email": "foia@ncd.eop.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 280,
+  "agency": "Special Inspector General for Afghanistan Reconstruction",
+  "parent": "Office of the Special Inspector General for Afghanistan Reconstruction",
+  "email": "sigar.pentagon.gen-coun.mbx.foia@mail.mi",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 281,
+  "agency": "Privacy and Civil Liberties Oversight Board",
+  "parent": null,
+  "email": "foia@pclob.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 282,
+  "agency": "Social Security Advisory Board",
+  "parent": null,
+  "email": "cheri.cannon@ssab.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 283,
+  "agency": "Tennessee Valley Authority",
+  "parent": null,
+  "email": "foia@tva.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 284,
+  "agency": "U.S. Agency for Global Media",
+  "parent": null,
+  "email": "foia@usagm.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 285,
+  "agency": "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
+  "parent": "U.S. Chemical Safety and Hazard Investigation Board",
+  "email": "steven.messer@csb.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 286,
+  "agency": "Bureau of Consular Affairs, Passport Services",
+  "parent": "U.S. Department of State",
+  "email": "foiastatus@state.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 287,
+  "agency": "Department of State",
+  "parent": "U.S. Department of State",
+  "email": "foiastatus@state.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 288,
+  "agency": "U.S. Election Assistance Commission",
+  "parent": null,
+  "email": "foia@eac.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 289,
+  "agency": "U.S. International Development Finance Corporation",
+  "parent": null,
+  "email": "foia@dfc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 290,
+  "agency": "U.S. Access Board",
+  "parent": "United States Access Board",
+  "email": "foia@access-board.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 291,
+  "agency": "United States African Development Foundation",
+  "parent": null,
+  "email": "info@usadf.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 292,
+  "agency": "United States Copyright Office",
+  "parent": null,
+  "email": "copfoia@copyright.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 293,
+  "agency": "United States International Trade Commission",
+  "parent": null,
+  "email": "erica.adjei@usitc.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 294,
+  "agency": "Postal Inspection Service",
+  "parent": "United States Postal Service",
+  "email": "foia@uspis.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 295,
+  "agency": "USPS Headquarters Office",
+  "parent": "United States Postal Service",
+  "email": "foia12@usps.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ },
+ {
+  "id": 296,
+  "agency": "United States Trade and Development Agency",
+  "parent": null,
+  "email": "brivers@ustda.gov",
+  "level": "Federal",
+  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
+  "rule": {
+   "days": 20,
+   "kind": "bd",
+   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
+  },
+  "unverified": false,
+  "note": null,
+  "source": "foia.gov"
+ }
+]
