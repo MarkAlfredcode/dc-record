@@ -188,6 +188,52 @@ def append_blocks(content, edition):
         sec.setdefault("blocks", []).extend(blocks)
 
 
+def n_items(section):
+    """Reportable items in a section: cards, list items, table rows."""
+    n = 0
+    for b in section.get("blocks") or []:
+        t = b.get("type")
+        n += 1 if t == "card" else len(b.get("items") or []) if t == "list" else len(b.get("rows") or []) if t == "table" else 0
+    return n
+
+
+_STOP = {"the", "a", "an", "of", "to", "for", "and", "in", "on", "its", "with", "by", "at", "as", "from", "new", "s"}
+
+
+def _words(text):
+    return {w for w in re.findall(r"[a-z0-9$]+", plain(text).lower()) if w not in _STOP and len(w) > 2}
+
+
+def fix_hollow_sections(content, before):
+    """A section left with no items must not keep a headline about an item it
+    doesn't contain (10/12: Presolicitations was headlined on the VA item the
+    model had moved to Top Story; Solicitations kept a NASA headline after its
+    card was dropped as a repeat). Such a section becomes a no-news section
+    with a headline that says where the item went, and sorts to the bottom."""
+    top = content.get("top_story") or {}
+    top_words = _words(top.get("headline", "") + " " + top.get("dek", ""))
+    fixed = 0
+    for s in content.get("sections") or []:
+        if s.get("no_news") or n_items(s):
+            continue
+        text = " ".join([s.get("headline", "")] + [p for p in s.get("paragraphs") or [] if isinstance(p, str)])
+        hw = _words(s.get("headline", ""))
+        # the headline is mostly the Top Story's own words ("Veterans Affairs previews a $40 billion-ceiling
+        # disability exam contract" vs. the VA Top Story), not two shared common words
+        about_top = "top story" in text.lower() or (len(hw) >= 3 and len(hw & top_words) >= 0.5 * len(hw))
+        emptied = before.get(id(s), 0) > 0
+        if not (about_top or emptied):
+            continue  # a paragraph-only section with its own news: leave it
+        eb = s.get("eyebrow", "this section")
+        s["headline"] = (f"Today's Top Story comes from {eb}; nothing else new here" if about_top
+                         else f"Nothing new in {eb} after removing items already reported")
+        s["no_news"] = True
+        fixed += 1
+        print(f"assemble: hollow section '{eb}' re-headlined ({'top story' if about_top else 'repeats removed'})",
+              file=sys.stderr)
+    return fixed
+
+
 def main():
     if len(sys.argv) != 3:
         print("usage: assemble.py <edition> content-TODAY.json", file=sys.stderr)
@@ -215,7 +261,9 @@ def main():
             content["apod"] = pic["apod"]
     dropped = 0
     if edition in surfaced.EDITIONS:
+        before = {id(sec): n_items(sec) for sec in content.get("sections", [])}
         dropped = surfaced.drop_repeats(content, surfaced.prior(edition))
+        fix_hollow_sections(content, before)
         surfaced.record(content, edition)
     content["beat"] = [] if edition == "congress" else beat(content)  # no Your Beat box on the Congress edition
     with open(path, "w") as f:
