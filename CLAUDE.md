@@ -23,6 +23,13 @@ Four editions, each `.github/workflows/dc-record-<edition>.yml` + `prompt-<editi
 
 `prompt-*-mechanical.txt` are cheap Haiku passes. `dc-record-events.yml` refreshes `data/events.json` from Wikipedia on the 1st/11th/21st. `dc-record.yml`, `dc-record-watchdog.yml`, `dc-record-window-ping.yml` are retired (manual dispatch only). `dc-record-status-alert.yml` checks the editions ran.
 
+## FOIA
+
+- `scripts/suggest_foias.py` (a step in all four edition workflows, AM and PM) drafts up to 3 narrow FOIA requests per edition from `data/foia_contacts.json` (federal FOIA offices that take email; rebuild with markalfredsite's `foia/pipeline/build_contacts.py`) and posts them to the private tracker at markalfred.news/foia.
+- `scripts/draft_foia_replies.py` (Congress workflow, AM and PM) drafts replies to flagged agency emails and appeals/refiles of denials from the tracker's queue (`prompt-foia-replies.txt`).
+- `foia-inbox/` is the Cloudflare Email Worker behind foia@markalfred.news (Email Routing rule on the markalfred.news zone): forward to Yahoo first, then log to the tracker's D1 database `foia-tracker`. Deploy with `npx wrangler deploy` from that folder.
+- None of these email anyone; Mark sends from the tracker. All need the `FOIA_INGEST_TOKEN` Actions secret (same value as the site's Pages secret) and skip without it.
+
 ## Schedule
 
 A Cloudflare Worker (`scheduler/`, deployed as `dc-record-scheduler`) dispatches the 4 edition workflows via `workflow_dispatch` at `0 14` (AM, ~7:00am PT) and `45 22` (PM, ~3:45pm PT) UTC. The workflows' own `schedule:` blocks are commented out. **Revisit both crons at the Nov 1 DST change.** Cloudflare has double-fired crons before; the Worker skips a workflow already dispatched that minute, and each workflow has a `guard` job (`data/sent/<edition>.txt` for emailing editions, a 10-minute recent-run check for congress).
