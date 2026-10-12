@@ -39,6 +39,7 @@ EDITIONS = ("campaigns", "feds")
 _HREF = re.compile(r"""href=["']([^"']+)["']""")
 
 
+_SAM_FILE = re.compile(r"sam\.gov/api/prod/opps/v3/opportunities/resources/files/")
 _SAM_OLD = re.compile(r"https://sam\.gov/workspace/contract/opp/([^/]+)/view")
 
 
@@ -85,8 +86,23 @@ def drop_repeats(content, already):
         ls = links_in(x)
         return bool(ls) and ls <= already
 
+    def card_repeat(b):
+        """A card is its notice (the first link): its vendor-history or
+        notice links can be new without the item being. But a SAM.gov
+        attachment nobody has shown yet means a document read today -- the
+        late-finding cards the prompt asks for -- so the card is new even if
+        its notice ran before. (2026-10-12: NASA's CLDC card, built on Q&A
+        files read that morning, was dropped because the CLDC solicitation
+        had run on 10/10, leaving the Solicitations headline about nothing.)"""
+        if not b.get("links"):
+            return repeat(b)
+        if norm(b["links"][0].get("url")) not in already:
+            return False
+        return not any(_SAM_FILE.search(u) and u not in already for u in links_in(b))
+
     for s in content.get("sections", []):
         blocks = []
+        lost_top_card = False
         for b in s.get("blocks", []):
             t = b.get("type")
             if t == "list":
@@ -95,11 +111,10 @@ def drop_repeats(content, already):
                 if not keep:
                     continue
                 b["items"] = keep
-            elif t == "card" and (norm((b.get("links") or [{}])[0].get("url")) in already
-                                  if b.get("links") else repeat(b)):
-                # A card is its notice: the first link. Its other links (a
-                # document, vendor history) can be new without the item being.
+            elif t == "card" and card_repeat(b):
                 dropped += 1
+                if not any(x.get("type") == "card" for x in blocks):
+                    lost_top_card = True
                 continue
             elif t == "table":
                 rows = b.get("rows", [])
@@ -109,6 +124,15 @@ def drop_repeats(content, already):
                     continue
                 b["rows"] = keep
             blocks.append(b)
+        # The section headline is written about its top card; if that card was a
+        # repeat, lead with the next surviving card instead of a headline about nothing.
+        if lost_top_card:
+            nxt = next((x for x in blocks if x.get("type") == "card" and x.get("title")), None)
+            if nxt:
+                s["headline"] = nxt["title"]
+            else:
+                print(f"surfaced: top card of '{s.get('eyebrow')}' dropped as a repeat and no card left; "
+                      f"headline may describe a removed item: {s.get('headline')!r}", file=sys.stderr)
         # A subhead whose items were all repeats has nothing left to head.
         s["blocks"] = [b for k, b in enumerate(blocks)
                        if not (b.get("type") == "subhead"
