@@ -2,28 +2,83 @@
  "date": "Sunday, October 11, 2026",
  "top_story": {
   "eyebrow": "Top Story",
-  "headline": "A quiet weekend: no new registrations, ethics filings or unreported disclosures",
-  "dek": "The only substantial activity was a batch of third-quarter lobbying reports, nine of them terminations.",
+  "headline": "South Korea's Korea Foundation Registers Its Washington Office Under FARA",
+  "dek": "The Korea Foundation, a statutory body funded by an endowment from Korean passport fees, filed for its D.C. overseas office as Korea Foundation USA.",
   "paragraphs": [
-   "The Office of Government Ethics logged 18 filings, all already covered in earlier editions. The Clerk of the House and Senate disclosure systems showed only filings reported previously, and the lobbying database held no new registrations."
-  ]
+   "<strong>Korea Foundation USA</strong> registered under the Foreign Agents Registration Act on October 8 as registrant #7777, with <strong>The Korea Foundation</strong> of South Korea as its only foreign principal (<a href=\"https://efile.fara.gov/ords/fara/f?p=1381:200::::RP,200:P200_REG_NUMBER:7777\">registrant listing</a>). The registration statement says the registrant is not separately incorporated. It describes itself as the Washington overseas office of the foundation, operating under headquarters' internal regulations, approved plans, personnel arrangements and budgetary control. It lists a D.C. organization date of December 9, 2005, and names <strong>Sung Won Bae</strong> as director (<a href=\"https://efile.fara.gov/docs/7777-Registration-Statement-20261008-1.pdf\">registration statement</a>).",
+   "The Exhibit AB says the foundation was established under the Korea Foundation Act and is categorized by Korea's Ministry of Finance and Economy as a Non-Classified Public Institution. It describes its funding as an endowment drawn from Korea's passport issuance fees, managed by the foundation (<a href=\"https://efile.fara.gov/docs/7777-Exhibit-AB-20261008-1.pdf\">Exhibit AB</a>). Its stated work is Korean studies, cultural and people-to-people exchange, research and dialogue. The OCR text available here is cut off before the answers on government supervision and financing, and shows no fee or contract terms."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Registrant listing",
+     "url": "https://efile.fara.gov/ords/fara/f?p=1381:200::::RP,200:P200_REG_NUMBER:7777"
+    },
+    {
+     "text": "Exhibit AB",
+     "url": "https://efile.fara.gov/docs/7777-Exhibit-AB-20261008-1.pdf"
+    },
+    {
+     "text": "Registration statement",
+     "url": "https://efile.fara.gov/docs/7777-Registration-Statement-20261008-1.pdf"
+    }
+   ]
+  }
  },
  "sections": [
   {
    "eyebrow": "OGE Ethics Filings",
-   "headline": "No new OGE ethics filings to report",
+   "headline": "No new ethics filings or divestitures in the window",
    "paragraphs": [
-    "The Office of Government Ethics received 18 new filings during the reporting window, all of which have already been disclosed in prior editions of this newsletter."
+    "The Office of Government Ethics filing system shows no newly submitted divestitures, terminations, or ethics agreements in the past four days. The routine disclosure filings tracked during this window contained no novel restrictions or disclosures requiring separate notice."
    ],
    "blocks": [],
    "no_news": true
   },
   {
-   "eyebrow": "LDA Registrations & Activity",
-   "headline": "No new lobbying registrations; 282 quarterly reports and amendments filed, nine of them terminations",
+   "eyebrow": "FARA Registrants",
+   "headline": "One New Registrant, a Madagascar Consulting Extension and a Nigeria Agent Departure",
    "paragraphs": [
-    "The Senate lobbying database posted 282 filings from October 10 through the morning of October 11, 2026, and none were new registrations. Most were routine third-quarter activity reports (253 with activity, 17 reporting no activity). The issue areas named most often were Budget/Appropriations, Education and Transportation.",
-    "Nine filings terminate a lobbying relationship, listed below. <a href=\"https://lda.gov/api/v1/filings/?filing_dt_posted_after=2026-10-10&page_size=100\">Full filing list</a>."
+    "One new registrant, one amended foreign-principal agreement and one individual agent's departure from a foreign-principal engagement were stamped on October 8. No registrants were terminated and no new or dropped foreign principals appeared in the bulk files."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>New registrant:</strong> <strong>Korea Foundation USA</strong> (#7777), registered 10/08/2026, foreign principal <strong>The Korea Foundation</strong> (South Korea). <a href=\"https://efile.fara.gov/ords/fara/f?p=1381:200::::RP,200:P200_REG_NUMBER:7777\">Listing</a>; <a href=\"https://efile.fara.gov/docs/7777-Registration-Statement-20261008-1.pdf\">registration statement</a> (a second copy was also stamped: <a href=\"https://efile.fara.gov/docs/7777-Registration-Statement-20261008-1.pdf\">duplicate</a>); <a href=\"https://efile.fara.gov/docs/7777-Exhibit-AB-20261008-1.pdf\">Exhibit AB</a>.",
+      "<strong>Sonoran Policy Group, LLC D/B/A Stryk Global Diplomacy</strong> (#6399) filed an updated Exhibit AB for <strong>Harena Resources PLC</strong> (United Kingdom), now named <strong>Harena Rare Earths PLC</strong>. Under the extension, signed 9/9/2026, the International Consulting Agreement dated May 5, 2026 runs from August 6 through November 5, 2026. The client pays US$50,000 plus expenses, and services performed since August 6 are treated as covered. The consultant advises the client on engagement with U.S. government officials regarding the Republic of Madagascar. The agreement ends November 5 unless the parties sign a further extension. <a href=\"https://efile.fara.gov/docs/6399-Exhibit-AB-20261008-1.pdf\">Exhibit AB</a>; <a href=\"https://efile.fara.gov/docs/6399-Amendment-20261008-1.pdf\">amendment</a>.",
+      "<strong>DCI Group AZ, LLC</strong> (#6278) filed an amendment reporting that <strong>Nick Lewis</strong> ended his relationship with the foreign principal <strong>Republic of Nigeria through Aster Legal</strong> on 08/01/2026 because he ceased working on the project. The filing was stamped 10/08/2026, 68 days after that date. <a href=\"https://efile.fara.gov/docs/6278-Amendment-20261008-8.pdf\">Amendment</a>."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Also stamped October 8: informational materials from <strong>DCI Group AZ, LLC</strong> for the <strong>Republic of Srpska</strong> (Bosnia &amp; Herzegovina) (<a href=\"https://efile.fara.gov/docs/6278-Informational-Materials-20261008-69.pdf\">filing</a>); supplemental statements from <strong>NRW Global Business North America LLC</strong> (#6645) (<a href=\"https://efile.fara.gov/docs/6645-Supplemental-Statement-20261008-17.pdf\">filing</a>) and <strong>The Brooks Law Firm PC</strong> (#7178) (<a href=\"https://efile.fara.gov/docs/7178-Supplemental-Statement-20261008-8.pdf\">filing</a>). No text was available for these three."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Personal Financial Disclosures & Stock Trades",
+   "headline": "One Filing: A Texas Senate Candidate Report",
+   "paragraphs": [
+    "No House filings and no stock-trade reports appeared in this window. The only new disclosure is a Senate candidate report from a Texas candidate."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Jade Simmons</strong> (Senate candidate, Texas; candidacy commenced 08/17/2026), candidate report filed 10/08/2026. She reports $250,000 in self-employment income from <strong>Jade Media Global, LLC</strong> of Kingwood, Texas, and no reportable assets, honoraria, gifts, travel, positions or agreements. Liabilities: an educational loan of $50,001-$100,000 owed to the <strong>U.S. Department of Education</strong>, deferred during the campaign, and two revolving charge accounts at <strong>Chase Bank</strong> of $10,001-$15,000 and $15,001-$50,000. <a href=\"https://efdsearch.senate.gov/search/view/annual/1d73f70a-e833-4181-bc5e-fe263715b733/\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "No New Registrations; Ten Terminations and a Wave of Third-Quarter Reports",
+   "paragraphs": [
+    "Of 308 filings posted since October 10, 295 were third-quarter reports (278 with activity, 17 with no activity), 10 were terminations, and 3 were amendments. There were no new registrations. The table lists all ten terminations and the activity reports with the clearest signal: former officials, large spending and live fights. Most of the 298 activity reports are not detailed."
    ],
    "blocks": [
     {
@@ -32,64 +87,104 @@
       "Firm",
       "Client",
       "Issue Area(s)",
-      "Filing"
+      "What's Being Lobbied"
      ],
      "rows": [
       [
-       "<a href=\"https://lda.gov/api/v1/filings/ffbe1047-bdfe-4242-b09c-b8f9bede5356/\">Acg Advocacy</a>",
-       "Chemonics International, Inc.",
-       "Budget/Appropriations, Foreign Relations",
-       "3rd Quarter - Termination; effective 2026-08-31"
+       "<strong>ACG Advocacy</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/ffbe1047-bdfe-4242-b09c-b8f9bede5356/print/\">filing</a>)",
+       "<strong>Chemonics International, Inc.</strong>",
+       "Budget/Appropriations; Foreign Relations",
+       "Appropriations, international and Middle East issues. $30,000 income; covered positions include a former U.S. Trade Representative official and a former White House and Office of Management and Budget legislative affairs aide. Terminated 2026-08-31."
       ],
       [
-       "<a href=\"https://lda.gov/api/v1/filings/52d47ab0-d3f2-46e7-8a16-54582507c638/\">Acg Advocacy</a>",
-       "Office Of Ronald Lauder",
+       "<strong>ACG Advocacy</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/52d47ab0-d3f2-46e7-8a16-54582507c638/print/\">filing</a>)",
+       "<strong>Office of Ronald Lauder</strong>",
        "Budget/Appropriations",
-       "2nd Quarter - Termination; effective 2026-06-30"
+       "Israel and anti-Semitism issues. Same former White House and Office of Management and Budget aide as covered position. Terminated 2026-06-30."
       ],
       [
-       "<a href=\"https://lda.gov/api/v1/filings/b527317a-9b2e-4a3c-8c49-4bb03db031c8/\">Holland & Knight Llp</a>",
-       "Honeywell International, Inc.",
-       "Aviation/Airlines/Airports, Budget/Appropriations",
-       "2nd Quarter - Termination; effective 2026-06-30"
+       "<strong>Holland &amp; Knight LLP</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/b527317a-9b2e-4a3c-8c49-4bb03db031c8/print/\">filing</a>)",
+       "<strong>Honeywell International, Inc.</strong>",
+       "Aviation; Budget/Appropriations",
+       "Aviation safety technology, Advanced Air Mobility, H.R.4704 (ROTOR Act) and H.R.7613 (ALERT Act). $80,000 income. Terminated 2026-06-30."
       ],
       [
-       "<a href=\"https://lda.gov/api/v1/filings/565a9fa1-5af0-49b7-b202-2a8277f44a17/\">Allen Egon Cholakian</a>",
-       "Allatra International Public Movement / \"Mizhnarodnyi Gromadskiy Rukh >Allatra<",
-       "None listed (no activity)",
-       "3rd Quarter - Termination (No Activity); effective 2026-09-30"
+       "<strong>Jeffrey J. Kimbell &amp; Associates, Inc.</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/525d5d4a-b3d2-4182-b976-0e51e1641d54/print/\">filing</a>)",
+       "<strong>InnovAge</strong>",
+       "Health; Medicare/Medicaid",
+       "PACE program issues. $20,000 income; six covered positions, including former aides to Sens. Tim Scott and Lamar Alexander and Reps. Mike Kelly, Marsha Blackburn and Cathy McMorris Rodgers. Terminated 2026-09-30."
       ],
       [
-       "<a href=\"https://lda.gov/api/v1/filings/525d5d4a-b3d2-4182-b976-0e51e1641d54/\">Jeffrey J. Kimbell & Associates, Inc.</a>",
-       "Innovage",
-       "Health Issues, Medicare/Medicaid",
-       "3rd Quarter - Termination; effective 2026-09-30"
-      ],
-      [
-       "<a href=\"https://lda.gov/api/v1/filings/6db50bd4-e7e5-47b7-a6fd-2e9bee837f31/\">Holland & Knight Llp</a>",
-       "The Little Potato Company",
-       "None listed (no activity)",
-       "3rd Quarter - Termination (No Activity); effective 2026-07-01"
-      ],
-      [
-       "<a href=\"https://lda.gov/api/v1/filings/0db05dac-1457-48ed-be67-8b41e030c220/\">Mcguirewoods Consulting (A Subsidiary Of Mcguirewoods Llp)</a>",
-       "Ata Action",
-       "None listed (no activity)",
-       "3rd Quarter - Termination (No Activity); effective 2026-09-30"
-      ],
-      [
-       "<a href=\"https://lda.gov/api/v1/filings/a6d181f2-5059-42a3-bb03-f9ad80bcca19/\">Alki Strategies Llc</a>",
-       "Qanapi",
-       "None listed (no activity)",
-       "3rd Quarter - Termination (No Activity); effective 2026-07-02"
-      ],
-      [
-       "<a href=\"https://lda.gov/api/v1/filings/74364d69-4084-4739-a63d-bcfb80606be5/\">Hartwell Capitol Consulting</a>",
-       "Joint Opportunity Enlistment",
+       "<strong>Hartwell Capitol Consulting</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/74364d69-4084-4739-a63d-bcfb80606be5/print/\">filing</a>)",
+       "<strong>Joint Opportunity Enlistment</strong>",
        "Defense",
-       "3rd Quarter - Termination; effective 2026-08-31"
+       "AI recruiting software for military recruitment. Terminated 2026-08-31."
+      ],
+      [
+       "<strong>Cornerstone Government Affairs, Inc.</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/a6ae5fab-661d-41f9-b3a3-2089a4cbc738/print/\">filing</a>)",
+       "<strong>Flock Homes, Inc.</strong>",
+       "Housing",
+       "Policies affecting real estate investment platforms and property owners. $30,000 income; covered position is a former House Majority Whip floor director and White House legislative affairs aide. Terminated 2026-07-31."
+      ],
+      [
+       "<strong>Allen Egon Cholakian</strong> (no-activity termination, <a href=\"https://lda.gov/filings/public/filing/565a9fa1-5af0-49b7-b202-2a8277f44a17/print/\">filing</a>)",
+       "<strong>ALLATRA International Public Movement</strong>",
+       "None listed",
+       "No activity reported. Terminated 2026-09-30."
+      ],
+      [
+       "<strong>Holland &amp; Knight LLP</strong> / <strong>McGuireWoods Consulting</strong> / <strong>Alki Strategies LLC</strong> (no-activity terminations: <a href=\"https://lda.gov/filings/public/filing/6db50bd4-e7e5-47b7-a6fd-2e9bee837f31/print/\">L16</a>, <a href=\"https://lda.gov/filings/public/filing/0db05dac-1457-48ed-be67-8b41e030c220/print/\">L17</a>, <a href=\"https://lda.gov/filings/public/filing/a6d181f2-5059-42a3-bb03-f9ad80bcca19/print/\">L18</a>)",
+       "<strong>The Little Potato Company</strong>; <strong>ATA Action</strong>; <strong>QANAPI</strong>",
+       "None listed",
+       "No activity reported for any of the three."
+      ],
+      [
+       "<strong>Crypto Council for Innovation</strong> (in-house, <a href=\"https://lda.gov/filings/public/filing/c8e7ad34-a7b7-4f39-ab54-1308b024be4b/print/\">filing</a>)",
+       "Itself",
+       "Banking; Taxation",
+       "$300,000 in expenses, the largest figure in the flagged set. Stablecoin legislation implementation (GENIUS Act), anti-money-laundering requirements, and digital-asset tax treatment such as wash-sale rules and staking income. Covered positions include a former Senate Majority Leader Charles Schumer legislative aide."
+      ],
+      [
+       "<strong>Holland &amp; Knight LLP</strong> (<a href=\"https://lda.gov/filings/public/filing/4770a80a-52a4-40d9-9bc1-61567753a648/print/\">filing</a>)",
+       "<strong>Guidehouse LLP</strong>",
+       "Defense; Health; Transportation; Veterans",
+       "$90,000. Health and Human Services contracting, the FY 2027 National Defense Authorization Act, electronic health record modernization and transportation procurement. Covered positions include former Rep. <strong>Ed Perlmutter</strong>."
+      ],
+      [
+       "<strong>Cornerstone Government Affairs, Inc.</strong> (<a href=\"https://lda.gov/filings/public/filing/9ef84b15-e765-4934-b127-3f5f9cd5f52d/print/\">filing</a>)",
+       "<strong>UBS Group AG</strong>",
+       "Banking; Financial Institutions",
+       "$90,000. Outreach on congressional investigations. Covered positions include a former chief counsel to Sen. Cory Booker."
+      ],
+      [
+       "<strong>Cornerstone Government Affairs, Inc.</strong> (<a href=\"https://lda.gov/filings/public/filing/b66652d3-d3a1-4c77-8643-e74130bf708b/print/\">filing</a>)",
+       "<strong>Bollinger Shipyards, LLC</strong>",
+       "Appropriations; Defense; Homeland Security; Maritime",
+       "$80,000. Shipbuilding appropriations and policy; four covered positions, including a former Office of Management and Budget program examiner and a former aide to Rep. Steve Scalise."
+      ],
+      [
+       "<strong>Cornerstone Government Affairs, Inc.</strong> (<a href=\"https://lda.gov/filings/public/filing/4213cdbe-a08e-4794-a065-0e55be27d4bb/print/\">filing</a>)",
+       "<strong>Louisiana Energy Services, LLC dba Urenco USA</strong>",
+       "Energy/Nuclear; Trade",
+       "$50,000. Uranium trade and possible sanctions or tariffs, the Russian uranium prohibition, and the Department of Energy's HALEU availability program."
+      ],
+      [
+       "<strong>MWR Strategies, Inc.</strong> (<a href=\"https://lda.gov/filings/public/filing/d7ad9837-f0d7-411b-9b8a-5d3d007be112/print/\">filing</a>)",
+       "<strong>Williams &amp; Lake</strong>",
+       "Transportation",
+       "$30,000. Advocated for the National Highway Traffic Safety Administration to restrain its efforts against certain aftermarket parts. Covered position: <strong>Michael McKenna</strong>, former Deputy Assistant to the President."
+      ],
+      [
+       "<strong>Old North Strategies, LLC</strong> (<a href=\"https://lda.gov/filings/public/filing/09e3cc13-f93c-483d-ae73-05185fb7d591/print/\">L64</a>, <a href=\"https://lda.gov/filings/public/filing/2d7b7de6-19c7-4dde-b6b1-d845725b9287/print/\">L77</a>, <a href=\"https://lda.gov/filings/public/filing/befc3058-b3e7-45d9-8623-7656f9a12c64/print/\">L80</a>)",
+       "<strong>Exela Pharma Sciences, LLC</strong>; <strong>BESI</strong>; <strong>Peter Damon Group</strong> (for Driverdo, LLC dba Draiver)",
+       "Health; Appropriations; Transportation",
+       "Medication manufacturing, appropriations and general transportation, for $27,000, $12,000 and $7,500 respectively. Each lists <strong>Joseph King</strong>, former deputy chief of staff to Rep. Mark Meadows, as a covered position."
       ]
      ]
+    },
+    {
+     "type": "note",
+     "text": "<strong>ATS Communications, Inc. (dba Silbey Strategies)</strong> filed third-quarter reports for 18 clients in the flagged set, all on defense appropriations or defense issues, including <strong>Pantheon Data</strong> ($70,000, <a href=\"https://lda.gov/filings/public/filing/10c4d0a7-aee8-457a-9a1b-ed8912517a1e/print/\">filing</a>), <strong>Astranis Space Technologies Corp</strong> and <strong>Parker Hannifin Corporation</strong>. Every one lists <strong>Alexander Silbey</strong>, former senior policy adviser in the office of the House Majority Whip, as a covered position. Amounts run from $10,000 to $70,000, and a few reports show none."
     }
    ],
    "no_news": false
@@ -168,9 +263,20 @@
   }
  ],
  "footer": {
-  "coverage_window": "October 10, 2026 00:00 Pacific through about 3 a.m. October 11, 2026 (disclosures: October 8 onward, minus filings already reported).",
-  "sources": "OGE's ethics-filing search endpoint; DOJ FARA e-file system; Senate Office of Public Records LDA API; Clerk of the House financial disclosures; Senate eFD.",
-  "known_gaps": "The FARA new and terminated registrant pages loaded but returned no table rows in the initial HTML, so FARA activity could not be verified and that section is omitted. All House and Senate disclosure filings in the window (three House candidate reports and one Senate candidate report) were already reported in earlier editions, so that section is omitted."
+  "coverage_window": "FARA and LDA filings posted October 8-11, 2026 (LDA from October 10); House and Senate financial disclosures filed October 8 onward and not reported in earlier editions.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "No tasks were skipped. The Office of Government Ethics search showed no new filings or divestitures in the window. Some FARA OCR text was truncated in the source material."
  },
- "beat": []
+ "beat": [
+  {
+   "name": "Sen. Marsha Blackburn",
+   "why": "FEC audit findings (2016)",
+   "mentions": [
+    {
+     "section": "LDA Registrations & Activity",
+     "html": "Firm: <strong>Jeffrey J. Kimbell &amp; Associates, Inc.</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/525d5d4a-b3d2-4182-b976-0e51e1641d54/print/\">filing</a>) \u00b7 Client: <strong>InnovAge</strong> \u00b7 Issue Area(s): Health; Medicare/Medicaid \u00b7 What's Being Lobbied: PACE program issues. $20,000 income; six covered positions, including former aides to Sens. Tim Scott and Lamar Alexander and Reps. Mike Kelly, Marsha Blackburn and Cathy McMorris Rodgers. Terminated 2026-09-30."
+    }
+   ]
+  }
+ ]
 }
