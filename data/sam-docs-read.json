@@ -24,6 +24,14 @@
       "s": "screened",
       "sol": "80GRC026R0008 "
     },
+    "0049c57f151d43e9b742d5e8acb75e10": {
+      "c": 86794,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Medallist Softener.pdf",
+      "s": "screened",
+      "sol": "W911QX27QA002"
+    },
     "00684f2fe73b475a982fd94e8091bbad": {
       "c": 336,
       "d": "2026-10-10",
@@ -198,6 +206,14 @@
       "n": "Attachment G - Eligibility Certification for Participation of International Team Members.pdf",
       "s": "screened",
       "sol": "80GRC026R0008 "
+    },
+    "025b391ae9e64d918d5eb76273724977": {
+      "c": 6509,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Solicitation Amendment - FA441826R00090002.pdf",
+      "s": "screened",
+      "sol": "FA441826R0009"
     },
     "02631723174f40eaaa9e24733ef118d0": {
       "c": 1663,
@@ -914,6 +930,14 @@
       "n": "36C77626Q0257 0002.docx",
       "s": "screened",
       "sol": "36C77626Q0257"
+    },
+    "0a214cc893b9448187d2e5700f92ff12": {
+      "c": 890,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Attachment E -Provisions and Clauses - Updated.pdf",
+      "s": "screened",
+      "sol": "SPE60526R0217"
     },
     "0a215afa24604fa295c8cc2bfba24806": {
       "c": 2566,
@@ -1730,6 +1754,35 @@
       "s": "screened",
       "sol": "70Z02326R93280004"
     },
+    "12822a824a0f424db6f3cfc12577ffb4": {
+      "c": 27715,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ng, Jr. Washington\u2019s Birthday Memorial Day Juneteenth National Independence Day Independence Day Labor Day Columbus Day Veterans Day Thanksgiving Day Christmas Day V. VA Security A. All Contractor and, if applicable, Subcontractor personnel shall be required to pass a background check and be fingerprinted to receive a Contractor\u2019s Flash Badge prior to performing any work on VA grounds. The Contractor shall work with the COR during this process within the first 5-7 business days after the contract award date. The Contractor shall notify the COR immediately each time a new Contractor and/or Subcontractor employee is hired to perform the work of this SOW in order to initiate the background check and fingerprint requirements for that new employee. B. Appropriate Contractor personnel (as determined by the VA) perfo",
+          "finding": "Contract personnel require background checks, fingerprinting, and Contractor Flash Badge before accessing VA grounds; medical center tightening access controls.",
+          "news": 3,
+          "quote": "All Contractor and, if applicable, Subcontractor personnel shall be required to pass a background check and be fingerprinted to receive a Contractor's Flash Badge prior to performing any work on VA grounds.",
+          "verified": true
+        },
+        {
+          "finding": "$41 million VA contract for water treatment services managing Legionella control at Hot Springs medical center with mandatory proprietary reagents and certified technicians.",
+          "news": 4,
+          "quote": "The Contractor shall provide Water Treatment, Maintenance, and Monitoring Services...monochloramine and corrosion inhibitor...in accordance with VHA Directive 1061(4) \u2013 Prevention of Health Care-Associated Legionella Disease.",
+          "verified": false
+        },
+        {
+          "finding": "VA contract requires contractor to be authorized distributor of Sanipur US LLC equipment exclusively; no substitutions allowed without approval.",
+          "news": 3,
+          "quote": "Water treatment reagents must be manufactured by Klenzoid, Inc. (or be equal to those reagents manufactured by Klenzoid, Inc...No substitutions will be considered or allowed unless approved by the COR.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S02 - 36C26327Q0023.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0023"
+    },
     "128b9e22eebb453fa7c340046493826a": {
       "c": 388,
       "d": "2026-10-10",
@@ -2069,6 +2122,14 @@
       "s": "screened",
       "sol": "N0060426R0003"
     },
+    "15f802befc5e44bda9193ab7cc444484": {
+      "c": 4305,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Attachment E -Provisions and Clauses - Final.pdf",
+      "s": "screened",
+      "sol": "SPE60526R0218 "
+    },
     "15fd76ac5f714f958611e14dec2139bc": {
       "c": 22245,
       "d": "2026-10-11",
@@ -2110,6 +2171,34 @@
       "s": "screened",
       "sol": "140R3026R0012"
     },
+    "1652ac22aee940f5b1cae7a95225e7a4": {
+      "c": 175419,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "U.S. Probation & Pretrial Services District of Alaska soliciting forensic polygraph services to examine federal defendants' sexual histories and unreported offenses.",
+          "news": 4,
+          "quote": "Clinical Polygraph Examination and Report (5022) shall be employed to assist in the treatment and supervision of persons under supervision by verifying the truth of their statements. The two types of polygraph examinations that shall be administered to persons under supervision under this code are: ",
+          "verified": false
+        },
+        {
+          "finding": "Polygraph examiners required to have 40+ hours specialized sex offender testing training, active APA membership, and minimum 2 years criminal case experience.",
+          "news": 3,
+          "quote": "Polygraph examiners shall complete and receive certification for a minimum of 40 hours of Post-Conviction Sex Offender Testing (PCSOT) specialized instruction, beyond the basic polygraph examiner training. Examiners shall have passed a final examination approved by the APA. (2) Examiners shall have ",
+          "verified": false
+        },
+        {
+          "finding": "Contract allows Government unilateral extension for additional four years in one-year increments without vendor consent; total contract duration up to 60 months.",
+          "news": 3,
+          "quote": "with a provision that shall allow the Government to unilaterally extend the agreements for an additional four (4) years, in one year increments, at the Government's discretion. The total duration of this BPA, including the exercise of four 12-month options, shall not exceed 60 months.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "097--27-04PO Solicitation Packet (1).pdf",
+      "s": "screened",
+      "sol": "097--27-04PO"
+    },
     "1659f1cb472448ff99d2a72a37aac1a7": {
       "c": 2867,
       "d": "2026-10-10",
@@ -2117,6 +2206,41 @@
       "n": "Cover Letter.pdf",
       "s": "screened",
       "sol": "19C02026Q0016"
+    },
+    "167285e5c07c49039c0873db395911ce": {
+      "c": 72133,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "iption Hypersonic Affordable Mass Weapon Concepts (HAMWC) Program 1. Optional Sprint 1 (Preliminary Design Review (PDR)) and Optional Sprint 2 (Critical Design Review (CDR)) It is anticipated optional Sprint 1 (PDR) and optional Sprint 2 (CDR) will be awarded as Firm Fixed Price (FFP) CLINs with a schedule incentive included. The Government shall set aside 15% of the base cost for the schedule performance incentive. In order for the contractor to earn the maximum schedule incentive, the contractor must deliver and meet all established PDR and CDR exit criteria no later than 90 days after the option is exercised. See below for the PDR/CDR exit criteria that must be met. The payment of any schedule incentive pro\ufb01t earned will be determined at completion of the Sprint and is contingent on the contractor successfully delivering within 80-90 calendar days (15%) or 91-100 calendar days (5%) after option exercise. No portion of the schedule incentive can be earned if delivery occurs between 101-120 (on tim",
+          "finding": "HAMWC contracts structured with aggressive schedule incentives: 15% profit bonus for FFP sprints if delivered 80-90 days after option exercise, signaling urgency.",
+          "news": 4,
+          "quote": "The Government shall set aside 15% of the base cost for the schedule performance incentive. In order for the contractor to earn the maximum schedule incentive, the contractor must deliver and meet all established PDR and CDR exit criteria no later than 90 days after the option is exercised.",
+          "verified": true
+        },
+        {
+          "finding": "Air Force soliciting hypersonic weapons designs from multiple vendors, targeting 20 units per month production and flight tests of at least two vehicles.",
+          "news": 5,
+          "quote": "The objectives of this program are to design and demonstrate affordable and producible hypersonic weapon concepts through a multi-vendor, phased research and development (R&D) activity...with the intent to select and fly at least two vehicle concepts.",
+          "verified": false
+        },
+        {
+          "finding": "Hypersonic weapon program (HAMWC) budgeted at $750K-$1.25M per vendor for baseline, ~8 awards anticipated, with sprint options potentially reaching production-scale manufacturing.",
+          "news": 5,
+          "quote": "Estimated Total Program Cost: AFRL anticipates that the cost for the foundational baseline effort should fall within a range of $750,000 - $1,250,000...Anticipated Number of Awards: The Air Force anticipates ~ 8 awards for this Call",
+          "verified": false
+        },
+        {
+          "finding": "Air Force explicitly encouraging partnerships with emerging manufacturers and early-stage companies new to prior collaborations, with government support for obtaining classified facility clearances.",
+          "news": 4,
+          "quote": "Partnerships with new or emerging manufacturing-focused companies that bring innovative capabilities not represented in prior project or program cycles are highly encouraged...For emerging companies that do not yet have the required clearances or infrastructure in place, the government will support ",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Call for HAMWC dated 16 March 2026.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
     },
     "1675c1f6d0e445d9b4377fa7a5c59210": {
       "c": 9340,
@@ -2215,6 +2339,14 @@
       "n": "Atch 8 (RFO-based) Research and Related Senior and Key Person Profile Worksheet.pdf",
       "s": "screened",
       "sol": "FA2391-23-S-2403"
+    },
+    "17986f3649d443a7b46391050a018795": {
+      "c": 10976,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Solicitation FA853827RB002.pdf",
+      "s": "screened",
+      "sol": "FA8538-27-R-B002"
     },
     "17df22a2dbd44474837e79fecec491f0": {
       "c": 10777,
@@ -2536,6 +2668,30 @@
       "s": "screened",
       "sol": "70Z08526QIBCT0051"
     },
+    "1c0389c7fde044688de624729864423f": {
+      "c": 58699,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ARE NOT PRESENTLY AVAILABLE FOR THIS EFFORT. NO AWARD WILL BE MADE UNDER THIS SOLICITATION UNTIL FUNDS ARE AVAILABLE. THE GOVERNMENT RESERVES THE RIGHT TO CANCEL THIS SOLICITATION, EITHER BEFORE OR AFTER THE CLOSING DATE. IN THE EVENT THE GOVERNMENT CANCELS THIS SOLICITATION, THE GOVERNMENT HAS NO OBLIGATION TO REIMBURSE AN OFFEROR FOR ANY COSTS. The maximum amount of all Task Orders issued shall not exceed $400,000,000 over 5 yrs and 6 months, as extended through the exercise of options. NAICS Code: 236220 Size Standard: $45,000,000 Please forward any questions or concerns to SSgt Lauren Parker; lauren.parker.4@us.af.mil 11. The contractor shall begin performance within 10 calendar days and complete it within calendar days after receiving award, notice to proceed. This performance period is mandatory negotiable. (See FAR 52.211-10 ). 12a. THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS? 12b. CALENDAR DAYS (If \"Y",
+          "finding": "Air Force issuing $400M multiple-award construction contract for Joint Base Charleston covering air base, naval weapons station, and outlying areas across three states.",
+          "news": 4,
+          "quote": "The maximum amount of all Task Orders issued shall not exceed $400,000,000 over 5 yrs and 6 months, as extended through the exercise of options.",
+          "verified": true
+        },
+        {
+          "context": "liary Air\ufb01eld, North, SC; Seymour Johnson AFB, Goldsboro, NC; and Shaw AFB, Sumter, SC. MACC awardees will compete for subsequent Task Orders. The Government will issue Task Orders for projects generally valued between $1M and $25M. Site Visit attendance shall be required for Task Order Proposal Submission unless otherwise speci\ufb01ed. Contractors are required to submit responsive proposals on 75% of Task Order Proposal Requests (TOPRs) over a twelve month period of performance or risk being removed from the MACC at no cost to the Government in accordance with On and Off-Ramp procedures. No more than 10% of Task Orders by Quantity of Task Orders shall be issued for Outlying Areas. Requirements Statement of Work and Technical Speci\ufb01cations (See Section J, Attachment 1) FA441826R0009 Page 7 of 46 Section",
+          "finding": "JB Charleston MACC contract requires contractors to submit proposals on 75% of task orders or face removal from contract; no on-ramp opportunity mentioned initially.",
+          "news": 3,
+          "quote": "Contractors are required to submit responsive proposals on 75% of Task Order Proposal Requests (TOPRs) over a twelve month period of performance or risk being removed from the MACC at no cost to the Government",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation - FA441826R0009.pdf",
+      "s": "screened",
+      "sol": "FA441826R0009"
+    },
     "1c62a04986c44385819fa7c1b4b5a709": {
       "c": 5547,
       "d": "2026-10-11",
@@ -2576,6 +2732,22 @@
       "s": "screened",
       "sol": "70Z08526QIBCT0051"
     },
+    "1d303c781fe94a71aea40e1adba76150": {
+      "c": 28358,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Air Force soliciting $250M contract for MJU-76/B air-to-air flare countermeasures; five-year ordering period with sixth-year option through 2032.",
+          "news": 5,
+          "quote": "The MAC IDIQ will have one five-year ordering period with a sixth year option (1-year option). Anticipated ordering period are from July 2026 through July 2031. Option year from July 2031 through July 2032. is $250,000,000",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation - FA821326RB005.pdf",
+      "s": "screened",
+      "sol": "FA821326RB005-Solicitation"
+    },
     "1d55d746727f4d8c947e2b9a798d2997": {
       "c": 9872,
       "d": "2026-10-10",
@@ -2599,6 +2771,14 @@
       "n": "Sol_140P2026B0004_Amd_0005.pdf",
       "s": "screened",
       "sol": "140P2026B0004"
+    },
+    "1d8d7c598cb34fc8a98d498145eee95d": {
+      "c": 8191,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "C04k_8a Hart Trap Road Plans.pdf",
+      "s": "screened",
+      "sol": "12363N26R4014"
     },
     "1dc58186e1c143d48787d06187320966": {
       "c": 3244,
@@ -2686,6 +2866,14 @@
       "n": "Attachment 1_AIT SOW_Draft.pdf",
       "s": "screened",
       "sol": "N0025327XXXXX"
+    },
+    "1e2b2110479742cc891db3f0f7fe01bd": {
+      "c": 10647,
+      "d": "2026-10-12",
+      "m": "docx",
+      "n": "C04b Attachment 2 Specifications Kents Lake 1240LT26Q0106.docx",
+      "s": "screened",
+      "sol": "1240LT26Q0106 "
     },
     "1e471033765b42949092e35a08a425c4": {
       "c": 70712,
@@ -2817,6 +3005,29 @@
       "s": "screened",
       "sol": "36C25027Q0030"
     },
+    "1fa0ee76c87d44a0aae9c549a264fb9c": {
+      "c": 30741,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "Page 3 of 71 Section B - Supplies or Services & Prices or Costs Additional Information/Notes Notice to Offeror(s)/Supplier(s): The Government anticipates the \ufb01rst Delivery Order to be a buy-to-budget acquisition, IAW 10 USC 2308; the buy-to-budget amount totals $23,615,851.84. Future delivery orders may also be buy-to budget acquisitions. This solicitation is anticipated to be other than full and open competition with limited sources, FAR 6.302-1, Armtec and Chemring (CAGE: 3DU30& Z3487, respectively). All responsible sources may submit a capability statement, proposal, or quotation, which shall be considered by the agency. Offerors must have a valid U.S. security clearance of Secret or higher in order to respond to this RFP, because the RFP includes information classi\ufb01ed at the Secret level which will be released only to offerors possessing the appropriate clearance. All classi\ufb01ed material must be handled in accordance with the National Industrial Security Program Operating Manual (NISPOM) (DoD 5220-22-M) and Industrial",
+          "finding": "Countermeasure flare procurement limited to two vendors (Armtec and Chemring) via FAR 6.302-1 limited-sources justification; classified materials restricted to Secret-level clearance holders.",
+          "news": 3,
+          "quote": "This solicitation is anticipated to be other than full and open competition with limited sources, FAR 6.302-1, Armtec and Chemring (CAGE: 3DU30& Z3487, respectively).",
+          "verified": true
+        },
+        {
+          "finding": "Air Force establishes $250 million five-year IDIQ contract for MJU-76/B countermeasure flares; first delivery order budgeted at $23.6 million with international foreign military sales component.",
+          "news": 4,
+          "quote": "Requirement is to establish a MAC IDIQ for a 5 year ordering period with a 6th year option ordering period... estimated maximum amounts for resulting MAC IDIQ contract/s is $250,000,000",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation Amendment - FA821326RB0050003.pdf",
+      "s": "screened",
+      "sol": "FA821326RB005-Solicitation"
+    },
     "1fa2a348578a4c67a952bb0451a8ce36": {
       "c": 6519,
       "d": "2026-10-10",
@@ -2898,6 +3109,36 @@
       "n": "2027 Okinawa Vendor Symposium Poster.pdf",
       "s": "screened",
       "sol": "OVS2027"
+    },
+    "205d210ddcc84607ae684add44a4ff4e": {
+      "c": 56384,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "tes of fund availability. Anticipated Number of Awards: The Air Force anticipates two or more for this announcement. However, the Air Force reserves the right to award zero, one, or more contracts for all, some or none of the solicited efforts based on the offeror\u2019s ability to perform desired work and funding fluctuations. Brief Program Summary: The objective of this effort is to conduct rapid vision system studies to discover, assess, and deliver novel propulsion architectures and technologies, which offer new capabilities and meaningfully reduces the turbine engine development timeline. Studies conducted under this effort shall integrate relevant digital engineering and model-based system engineering methods to deliver increased system capability and shorten the conceptual engine design and vehicle integration process. To the extent practical, capability assessments, vehicle concepts, system definitions, and digital engineering methods are to be based on leveraging existing information from prior efforts. This effort include",
+          "finding": "Air Force soliciting $4.8M in rapid propulsion architecture research to reduce turbine engine development timelines for military aircraft, including autonomous and high-speed platforms.",
+          "news": 4,
+          "quote": "The objective of this effort is to conduct rapid vision system studies to discover, assess, and deliver novel propulsion architectures and technologies, which offer new capabilities and meaningfully reduces the turbine engine development timeline.",
+          "verified": true
+        },
+        {
+          "context": "10, A012, A013, A015, A017, A018) 3.4 Proof of Concept Demonstration: The contractor may conduct, if appropriate, but not required, feasibility testing and demonstration of relevant propulsion & power technologies identified in 3.1 that enables new architectures and/or reduces the turbine engine development timeline. Design, fabricate, and conduct rig testing to verify performance / integration of innovative propulsion architectures and technologies up to TRL 5 & MRL 5. (CDRLs A001, A005, A006, A007, A008, A009, A010, A011, A012, A013, A015, A016, A017, A018) 3.5 Program Management & Technical Reporting: Track technical, schedule, and cost performance; provide status reports; perform customer coordination; conduct a kickoff meeting, provide monthly progress updates, milestone/annual technical reviews; create detailed research plans and review annually; and conduct customer reviews. Quarterly technical and cost- reporting status reports will be submitted. Comp",
+          "finding": "Air Force seeking proof-of-concept demonstrations of advanced propulsion technologies up to Technology Readiness Level 5, potentially advancing next-generation military aircraft capabilities by 2030.",
+          "news": 4,
+          "quote": "Design, fabricate, and conduct rig testing to verify performance / integration of innovative propulsion architectures and technologies up to TRL 5 & MRL 5.",
+          "verified": true
+        },
+        {
+          "finding": "Contract includes classified work up to Secret level with strict operational security and export control requirements tied to international arms regulations (ITAR).",
+          "news": 3,
+          "quote": "Information involved in this research effort is subject to Export Control (International Traffic in Arms Regulation (ITAR)) 22 CFR 120-130, or Export Administration Regulations (EAR) 15 CFR 730-774.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "CALL for INNATE 08 AUG 2023 and Attachments.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
     },
     "20800d14d3dc449ea8c215086be74a8f": {
       "c": 36853,
@@ -3097,6 +3338,14 @@
       "s": "screened",
       "sol": "70Z02326R93280004"
     },
+    "226076c8b8ba4646bb83ff8c54f1a211": {
+      "c": 15595,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "AMENDMENT 0002 36C10X26Q0091 dtd 8 Oct 2026.pdf",
+      "s": "screened",
+      "sol": "36C10X26Q0091"
+    },
     "22c3d12f62f5436aa443ebd7eb017016": {
       "c": 12003,
       "d": "2026-10-10",
@@ -3239,6 +3488,37 @@
       "n": "Attachment 26QA171.pdf",
       "s": "screened",
       "sol": "W912WJ26QA171"
+    },
+    "249b1b1b19184ec38f171775e60f8ec5": {
+      "c": 288265,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "garbage is removed from the facility property in such a manner to ensure sanitation and to prevent accumulation, odors, and pest control problems. 46 CHAPTER 9 - REFERRAL AND INTAKE PROCESSING The contractor will have written policy and procedures governing resident referral and intake processing. It is the philosophy and policy of the Bureau of Prisons that all inmates are afforded the opportunity for community placement; including but not limited to, sex offenders, violent offenders, arsonists, etc., in RRCs. Policies which may restrict the placement of inmates within community facilities are subject to the interpretation of the BOP, who is the determining agency for placement in community facilities. The contractor will accept all inmates for placement at the facility and manage any inmate referred by the RRM. In cases where local and/or state laws or ordinances do not allow for placement of a specific type of referral, the contractor will submit written justification to the RRM w",
+          "finding": "Federal Bureau of Prisons solicitation for residential reentry centers in 14 Kentucky counties with 150-mile home confinement radius, accepting all inmate types including sex offenders and violent offenders.",
+          "news": 4,
+          "quote": "It is the philosophy and policy of the Bureau of Prisons that all inmates are afforded the opportunity for community placement; including but not limited to, sex offenders, violent offenders, arsonists, etc., in RRCs.",
+          "verified": true
+        },
+        {
+          "context": "ure Date/Time Resident signature Date/Time Record Copy \u2013 Facility Director; Copy \u2013 RRM (This form may be replicated via computer) Attachment D [Name of RRM] [Addressee] Re: Request for DNA Collection Dear [Name of Facility CEO]: The DNA Analysis Backlog Elimination Act (DNA Act) requires the Federal Bureau of Prisons to obtain DNA samples from all residents with qualifying offenses. Currently, the Attorney General is authorized to collect DNA samples from individuals who are arrested, facing charges, or convicted or from non-United States persons who are detained under the authority of the United States. See 42 U.S.C. Sec. 14135a (a)(1)(A). An implementing regulation was published in the Federal Register on December 10, 2008 (Vol. 73, No. 238, pp. 74932-74943). The FBI analyzes submitted DNA samples and maintains the results in the Combined DNA Index System (CODIS). The following [xx] residents are housed at your f",
+          "finding": "BOP requires DNA collection from all federal and qualifying D.C. Code felony offenders in residential reentry facilities, with samples sent to FBI within 24 hours of collection.",
+          "news": 3,
+          "quote": "The DNA Analysis Backlog Elimination Act (DNA Act) requires the BOP to obtain DNA samples from all residents with qualifying offenses in order to comply with the DNA Analysis Backlog Elimination Act of 2000 (P.L. 106-546) and USA Patriot Act (P.L. 107-56).",
+          "verified": true
+        },
+        {
+          "context": "ovide on-site emergency first aid and crisis intervention to include a first aid kit, trained staff in basic first aid, and policy that outlines steps employees take in case of an emergency. The contents of the first aid kit will meet, and be maintained by the standards set by the American Red Cross, Required First Aid Kit Contents, Attachment H. The contractor will maintain a supply of Naloxone when allowable under state laws and regulations to be used in the event of a suspected opioid overdose. The facility will ensure all staff are properly trained in the use of Naloxone. Naloxone kits will be readily available to all staff along with other first aid kits. The contractor will ensure all staff are certified in cardiopulmonary resuscitation (CPR) prior to working with federal residents unless a plan of action has been submitted and approved in writing by the RRM with concurrence of the Contracting Officer. In addition, the contractor will ensure staff is trained to respond to health-related situations to include universal precautio",
+          "finding": "Contractors required to maintain Naloxone supply and train staff in opioid overdose response at residential reentry centers.",
+          "news": 3,
+          "quote": "The contractor will maintain a supply of Naloxone when allowable under state laws and regulations to be used in the event of a suspected opioid overdose. The facility will ensure all staff are properly trained in the use of Naloxone.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Section J Attach 01  RRC SOW March 2022 Final.pdf",
+      "s": "screened",
+      "sol": "15BRRC27R00000001"
     },
     "24ccaab85bab4ed285eeac3ed1b8f4c9": {
       "c": 1166,
@@ -3455,6 +3735,22 @@
       "n": "NASA Langley Industry Day Presentations 9.22.2026.pdf",
       "s": "screened",
       "sol": "LARC-RFI-2026_2027"
+    },
+    "2783c2576d5b4d72b141442d26caf0f6": {
+      "c": 3269,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Amendment to MJU-76/B flare countermeasure contract extends proposal deadline to October 15, 2026; maintains same $250M ceiling.",
+          "news": 4,
+          "quote": "FA821326RB0050002 NEGOTIATED (RFP) REQUEST FOR PROPOSAL 10 Jun 2026...until 02:00 PM local time 15 Oct 2026",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation Amendment - FA821326RB0050002.pdf",
+      "s": "screened",
+      "sol": "FA821326RB005-Solicitation"
     },
     "2788391f2a5243c6898e18ac5f257788": {
       "c": 20749,
@@ -3727,6 +4023,30 @@
       "s": "screened",
       "sol": "N6339427Q4001"
     },
+    "2abf1e7229ec4d0d82abe5b246595d5c": {
+      "c": 79698,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "9 Claimant Program Code: A5 SPRDL127RA021 Page 8 of 124 Pricing Arrangement: Firm Fixed Price Additional Descriptive Data: 1. The approved part number for this requirement is 090ALT01-02 (CAGE FAUX0, Safran Aerosystems). No other part number or manufacturing source of supply is acceptable. 2. Inspection/Acceptance at origin means that you MUST contact the DCMA to arrange for a Government inspection BEFORE you ship the supplies called out in this order. Failure to have the items inspected and accepted will result in their rejection at the destination. The rejected supplies will be returned to you at your expense. 3. See narrative FS6051 in Section F below for delivery requirements. Option GUN CHARGER 18 Each Li",
+          "finding": "Defense Logistics Agency procuring 18 gun chargers (military weapons component) with 180-day delivery; manufactured by Safran Aerosystems under restricted part number.",
+          "news": 3,
+          "quote": "The approved part number for this requirement is 090ALT01-02 (CAGE FAUX0, Safran Aerosystems). No other part number or manufacturing source of supply is acceptable.",
+          "verified": true
+        },
+        {
+          "context": "ENDAR DAYS (%) 20 CALENDAR DAYS (%) 30 CALENDAR DAYS (%) CALENDAR DAYS (%) (See Section I, Clause Number 52.232-8) 14. ACKNOWLEDGMENT OF AMENDMENTS AMENDMENT NUMBER DATE AMENDMENT NUMBER DATE (The offeror acknowledges receipt of amendments to the SOLICITATION for offerors and related documents numbered and dated): CODE FACILITY 16. NAME AND THE TITLE OF PERSON AUTHORIZED TO SIGN OFFER (Type or print) 15A. NAME AND ADDRESS OF OFFEROR 15B. TELEPHONE NUMBER 17. SIGNATURE 18. OFFER DATE",
+          "finding": "Gun charger contract includes significant demilitarization and trade security control requirements; contractor must retain supply chain traceability documentation for ten years.",
+          "news": 3,
+          "quote": "The contractor shall retain supply chain traceability documentation for ten years after final payment under this contract for audit and other valid government purposes.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation - SPRDL127RA021.pdf",
+      "s": "screened",
+      "sol": "SPRDL1-27-R-A021"
+    },
     "2ad48090bb19452b92bdd093103332b9": {
       "c": 674,
       "d": "2026-10-10",
@@ -3808,6 +4128,14 @@
       "s": "screened",
       "sol": "F138_Follow-on_10052026"
     },
+    "2b8b22f3aa6e42398a4aaf5fbab91521": {
+      "c": 181206,
+      "d": "2026-10-12",
+      "m": "xlsx",
+      "n": "Attachment_15_STORES_Inventory_345_Catalog__2_of_2.xlsx",
+      "s": "screened",
+      "sol": "140R3026R0012"
+    },
     "2bbfd2ba0b274d4b84f9a8851c38a1f3": {
       "c": 7570,
       "d": "2026-10-11",
@@ -3815,6 +4143,23 @@
       "n": "853363_QUALASSURANCE.pdf",
       "s": "screened",
       "sol": "SPRTA127R0023"
+    },
+    "2c2dba47923a44b19feb978f28fafcf8": {
+      "c": 19085,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "D. OTHER (Specify type of modification and authority) E. IMPORTANT: Contractor is not, is required to sign this document and return _______ copies to the issuing office. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract subject matter where feasible.) This amendment changes the contract type from Firm#Fixed#Price to a multiple-award IDIQ structure with fixed unit pricing. Per FAR 16.103(b), FFP is unsuitable due to variability in chemical usage and analysis needs. FAR 16.504(a)(2) confirms IDIQ is appropriate when quantities cannot be precisely determined in advance. This structure better aligns risk, enhances pricing transparency, and promotes efficient Government ordering. Removing Clause 52.219-6 as this is not applicable in an Unrestricted solicitation. (See Continuation Page) Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in full fo",
+          "finding": "Federal prison at FCC Butner, NC converted water testing contract from fixed-price to IDIQ structure citing variability in chemical usage.",
+          "news": 3,
+          "quote": "This amendment changes the contract type from Firm#Fixed#Price to a multiple-award IDIQ structure with fixed unit pricing. Per FAR 16.103(b), FFP is unsuitable due to variability in chemical usage and analysis needs.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "15BGCS26Q10600001 (Modificaiton 2) - Butner Water Chemical Testing.pdf",
+      "s": "screened",
+      "sol": "15BGCS26Q10600001"
     },
     "2c43707d0bb0486e8fc4868762121e90": {
       "c": 995,
@@ -4072,6 +4417,14 @@
       "s": "screened",
       "sol": "36C78626Q50257"
     },
+    "2e04724f783648439899251dc12281b5": {
+      "c": 12623,
+      "d": "2026-10-12",
+      "m": "docx",
+      "n": "36C24926Q0334.docx",
+      "s": "screened",
+      "sol": "36C24926Q0334_1"
+    },
     "2e58263c1e8d46eaaa3c09921a17d9db": {
       "c": 1361,
       "d": "2026-10-10",
@@ -4189,6 +4542,28 @@
       "n": "2.04.6 Attachment (5) - DTR Appx A-G, Att A-G4 - Definitions.pdf",
       "s": "screened",
       "sol": "N0060426R0003"
+    },
+    "2f6914de0e714839aabcc7b67e2b602e": {
+      "c": 59216,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "VA contract for medical respite housing serving homeless veterans includes provisions for substance abuse treatment and medication-assisted therapy despite prior abstinence or treatment history.",
+          "news": 4,
+          "quote": "Veterans can not be denied entry into the program based solely upon length of current abstinence from alcohol or non-prescribed controlled substances, the number of previous treatment episodes, the time interval since the last program entry, the use of prescribed controlled substances, mental health",
+          "verified": false
+        },
+        {
+          "finding": "Medical respite facility contracts include random drug testing but restrict use for discipline, adopting harm reduction over abstinence model.",
+          "news": 3,
+          "quote": "Facility will conduct random urine drug screen testing and breathalyzer testing at least twice a month. Pursuant to these principles, drug testing alone may not be used to discharge or discipline a Veteran but may be used as a clinical intervention to modify behavior.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "36C24627Q0019.pdf",
+      "s": "screened",
+      "sol": "36C24627Q0019"
     },
     "2f7c47f3f82b4f9fba227cc5becf6bc4": {
       "c": 27335,
@@ -4639,6 +5014,14 @@
       "s": "screened",
       "sol": "36C24227Q0040"
     },
+    "35034b4ead3a4c12a601cb6c6a1e3b70": {
+      "c": 34165,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "36C26327Q0050.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0050"
+    },
     "353a0f7320854cb3b098a4dc16a58865": {
       "c": 187,
       "d": "2026-10-10",
@@ -4654,6 +5037,14 @@
       "n": "36C24227A0002 36C24227N0132_1.docx",
       "s": "screened",
       "sol": "36C24226Q0498"
+    },
+    "3546cee6b4724ffcbd78a9a8f1922ded": {
+      "c": 156666,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Section J-13E SFLC Std Spec 6310 Requirements for Preservation of Ship Structures.pdf",
+      "s": "screened",
+      "sol": "70Z02326R93280004"
     },
     "3585cd8d57d44e43a6d309727e7795a8": {
       "c": 9325,
@@ -4780,6 +5171,22 @@
       "n": "80JSC027R0004 Attachment L-01 Price Template.xlsx",
       "s": "screened",
       "sol": "80JSC027R0004"
+    },
+    "3765b1df60ea4b3f8bf79a2ed9fbd096": {
+      "c": 4983,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Fourth Floor and CLC Layouts.pdf",
+      "s": "screened",
+      "sol": "36C24427R0001"
+    },
+    "379882f100f8460a81a3b1774aeae200": {
+      "c": 27501,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "15BGCS26Q10600001 (Modificaiton 3) - Butner Water Chemical Testing.pdf",
+      "s": "screened",
+      "sol": "15BGCS26Q10600001"
     },
     "3798cc263d6b4862b53e64eeb84c12d4": {
       "c": 262,
@@ -4926,6 +5333,23 @@
       "s": "screened",
       "sol": "FA480027S0002"
     },
+    "39837322974b4f04a8d5cd826e83ca48": {
+      "c": 142875,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "Value Status RFP Treatment 52.216-1 Type of Contract multiple-award IDIQ with Firm-Fixed-Price (FFP) Line Items with limited Time-and-Material (T&M), Other Direct Costs (ODC) Line Items for travel and special modes of transportation Complete IBR / Government-completed paragraph in full text IAW VAAR 852.102(b). 52.216-27 Single or Multiple Awards The Government estimates that it will make two to four IDIQ awards for each Service Group. Complete IBR / Authorized modification IAW FAR 52.104(b). 52.252-1 Solicitation Provisions Incorporated by Reference https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-52 (RFO) ; https://www.acquisition.gov/far/ ; https://www.acquisition.gov/vaar/ Complete Full Text 52.252-5 Authorized Deviations in Provisions (b) VA Acquisition Regulation (VAAR); 48 CFR Chapter 8 Complete Full Text 52.216-18 Ordering (a) the start date of the IDIQ Ordering Period specified in Section B.1 to the last date of the IDIQ Ordering Period, including any exercised options. Complete IBR / G",
+          "finding": "VA conducting major next-generation medical disability examination procurement via IDIQ contract with estimated 2-4 awards per service group.",
+          "news": 3,
+          "quote": "The Government estimates that it will make two to four IDIQ awards for each Service Group.",
+          "verified": true
+        }
+      ],
+      "m": "zip",
+      "n": "DRAFT_MDE-NG - RFP Attachments.zip",
+      "s": "screened",
+      "sol": "36C10X27R0001"
+    },
     "39cb928886574562b4c23ed45c39d5ad": {
       "c": 1100,
       "d": "2026-10-10",
@@ -4973,6 +5397,35 @@
       "n": "RFI ERP SI PWS DRAFT6.26.26.pdf",
       "s": "screened",
       "sol": "36C10B26Q0585"
+    },
+    "3a51914cd2f44012b312de62d7b50cd6": {
+      "c": 77778,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ARDS 2004 ADAABAAG & ADA STANDARDS IN EFFECT AT THE TIME OF THE PROJECT 2023 ASME BOILER AND PRESSURE VESSEL CODE ASHRAE 90.1-2016 PROJECT SUMMARY: THE PROJECT CONSISTS OF REPLACING THE EXISTING BOILER HEATING SYSTEM AND WINDOW UNIT COOLING SYSTEM WITH AN ELECTRIC VRF, DOAS, AND BASEBOARD HEATERS AT THE ROSEBUD AGENCY BUILDING #1004 LOCATED IN MISSION, SD. VICINITY MAP LOCATION MAP Proj ID",
+          "finding": "Bureau of Indian Affairs replacing boiler and HVAC systems at Rosebud Agency in South Dakota with electric VRF and baseboard heaters.",
+          "news": 3,
+          "quote": "THE PROJECT CONSISTS OF REPLACING THE EXISTING BOILER HEATING SYSTEM AND WINDOW UNIT COOLING SYSTEM WITH AN ELECTRIC VRF, DOAS, AND BASEBOARD HEATERS AT THE ROSEBUD AGENCY BUILDING #1004 LOCATED IN MISSION, SD.",
+          "verified": true
+        },
+        {
+          "finding": "Building contains asbestos in ceiling and piping requiring environmental remediation during renovation.",
+          "news": 3,
+          "quote": "EXISTING CEILING CONTAINS ASBESTOS MASTIC...SEE ENVIRONMENT REPORT AND SPECIFICATIONS FOR REMOVAL REQUIREMENTS...PIPING HAS ASBESTOS MATERIAL.",
+          "verified": false
+        },
+        {
+          "finding": "Project to remove 10,000 gallon and 300 gallon underground fuel oil storage tanks and remediate contaminated soil.",
+          "news": 3,
+          "quote": "REMOVE EXISTING 10,000 GALLON AND 300 GALLON UNDERGROUND FUEL OIL STORAGE TANKS. REMOVE CONTAMINATED SOIL AND REMEDIATE SOIL AROUND STORAGE TANKS AS REQUIRED FOLLOWING REMOVAL.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Attachment_1_-_Drawings.pdf",
+      "s": "screened",
+      "sol": "140A1626Q0086"
     },
     "3a63245c84904787bc86e4f4faadaa3b": {
       "c": 2907,
@@ -5054,6 +5507,14 @@
       "n": "Attachment C- Model Contract - Amendment 1.pdf",
       "s": "screened",
       "sol": "80GRC026R0008 "
+    },
+    "3b5efca7fe844b458bb4e2bbf67d8b10": {
+      "c": 66580,
+      "d": "2026-10-12",
+      "m": "docx",
+      "n": "36C24627Q0019_1.docx",
+      "s": "screened",
+      "sol": "36C24627Q0019   "
     },
     "3b7c89f8b0ed48d2ab236d55d8cfb039": {
       "c": 16322,
@@ -5485,6 +5946,14 @@
       "s": "screened",
       "sol": "M2M-MSFC-0001"
     },
+    "3f7974340d694c4ba145474633ae6b6d": {
+      "c": 3135,
+      "d": "2026-10-12",
+      "m": "docx",
+      "n": "D.1 36C25027Q5393 10.9.2026.docx",
+      "s": "screened",
+      "sol": "36C25027Q5393"
+    },
     "3fa3a54adfc045b8a33bba7f65efabe4": {
       "c": 21013,
       "d": "2026-10-11",
@@ -5907,6 +6376,23 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "43c771fa062846e68b161ff7c40ddbea": {
+      "c": 87110,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "PRODUCT DESCRIPTION (PD) DEPARTMENT OF VETERANS AFFAIRS Office of Information & Technology (OIT) Financial Service Center Brand Name or Equivalent \u2013 Active Navigation Discovery Center Date: September 22, 2026 VA-27-00000574 PD Version Number: 1.2 PRODUCT REQUIREMENTS The Department of Veterans Affairs (VA), Financial Service Center (FSC), has a requirement for the purchase of brand name Active Navigation (or equivalent) to provide an agentless Advanced Electronic File Analysis Solution (hereafter referred to as \u201cthe Solution\u201d) to index, categorize, and tag documents within 10 terabytes (TB) of unstructured repositories. The Solution shall discover redundant, obsolete, and trivial data and remediate information at risk of spillage. The Solution must also store electronic content holdings in VA File Shares to identify duplicated content and de-duplicate files as appropriate, remediate sensitive content such as personally identifiable information (PII), protected health information (PHI), agency confidential documents, and other",
+          "finding": "VA seeking $34M contract for document file analysis software to handle sensitive veteran data, PII, and PHI across 10TB repositories.",
+          "news": 4,
+          "quote": "has a requirement for the purchase of brand name Active Navigation (or equivalent) to provide an agentless Advanced Electronic File Analysis Solution (hereafter referred to as \"the Solution\") to index, categorize, and tag documents within 10 terabytes (TB) of unstructured repositories",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C10B27R0001 Final.docx",
+      "s": "screened",
+      "sol": "36C10B27R0001"
+    },
     "43d46e3cd5e348aa98f516733a614e4e": {
       "c": 3827,
       "d": "2026-10-11",
@@ -5922,6 +6408,55 @@
       "n": "Att 011 DHS 11000-6 Non-Disclosure Agreement - Copy.pdf",
       "s": "screened",
       "sol": "70LGLY27RSSB00001"
+    },
+    "442463483ec247c29746d2d8110bfde5": {
+      "c": 130594,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ication structure or mounted to adjacent cabin structures, provided they are accessible to the crewmembers while seated. 070-3.4 [Orig] The RB-S III working deck space shall allow adequate passage around the boat without obstacles, tripping hazards, or snag hazards. 070-3.4.1 [Orig] There shall be forward and aft working decks, each accommodating weapon mounts for M240B light machine guns (LMG). 070-3.4.2 [Orig] The forward working deck shall be recessed to provide a protected area for crewmembers operating forward of the cabin. 070-3.4.3 [Orig] The aft working deck shall have the following features: 070-3.4.3.1 [Orig] A minimum of 40 square feet of clear deck space. 070-3.4.3.2 [Orig] Four tie-down points capable of securing a 36-inch wide \u00d7 36-inch deep x 36- inch high, 150 lb container. 070-3.4.4 [Orig] The deck area on both sides of the cabin shall have a m",
+          "finding": "RB-S III specification mandates M240B light machine gun mounts on forward and aft working decks with dedicated firing arcs.",
+          "news": 4,
+          "quote": "There shall be forward and aft working decks, each accommodating weapon mounts for M240B light machine guns (LMG).",
+          "verified": true
+        },
+        {
+          "context": "shall: 439-1.0.1 [Orig] Be suitable for both daytime and nighttime use. 439-1.0.2 [Orig] Provide remote\u2011controlled pan, tilt, and zoom (minimum 4X), and a \u201chome\u201d (park) position control. 439-1.0.3 [Orig] Include a thermal/infrared camera and a visible\u2011light/electro\u2011optic camera. 439-1.0.4 [Orig] Be capable of detecting a 30\u2011foot vessel at a range greater than one nautical mile in total darkness. 439-1.1 [Orig] The IR camera system shall be integrated so its video can be displayed on all SINS\u20112 MFDs. 441 [Orig] COMMUNICATION SYSTEMS 441-1 [Orig] General 441-1.1 [Orig] The Contractor shall provide and install, in accordance with OEM requirements, the following communication systems: 441-1.1.1 [Orig] Two Motorola APX-8500 Tactical Radio Systems 441-1.1.2 [Orig] One Standard Horizon GX-6000 DSC Class D radio 441-1.2 [Orig] The transceivers for the radios shall be mounted for easy access to load frequencies and",
+          "finding": "Boats equipped with electro-optic/infrared camera systems capable of detecting 30-foot vessels over one nautical mile in total darkness for surveillance operations.",
+          "news": 4,
+          "quote": "Be capable of detecting a 30\u2011foot vessel at a range greater than one nautical mile in total darkness.",
+          "verified": true
+        },
+        {
+          "context": "o minimize solar heat gain and glare. 070-3.3.2 [Orig] The aft port seat shall feature a designated workspace equipped with a stowable table. The table mechanism shall be capable of being locked in both the deployed and stowed positions without the use of tools. 070-3.3.3 [Orig] The aft seats shall be elevated three inches higher than the forward seating positions to allow the aft crewmembers to have a forward line of sight through the cabin forward\u2011facing windows. 070-3.3.4 [Orig] The cabin arrangement shall incorporate dedicated receptacles (e.g., fabric, webbing, or non-rigid cup holders) at each of the four crewmember seats to accommodate the secure stowage of personal water containers. The receptacles may be integrated into the seating Section C Attachment 1 6 SPECIFICATION",
+          "finding": "Boats designed for tactical operations with cabin seating for four crew plus eight passengers, with elevated aft seats for weapon sightlines and firing arc provisions.",
+          "news": 3,
+          "quote": "The aft seats shall be elevated three inches higher than the forward seating positions to allow the aft crewmembers to have a forward line of sight through the cabin forward\u2011facing windows.",
+          "verified": true
+        },
+        {
+          "finding": "Coast Guard ordering Response Boats with weapon mounts, firing arcs, and tactical communications for law enforcement and migrant interdiction.",
+          "news": 5,
+          "quote": "Maritime Law Enforcement: Conduct routine and high-risk boardings... Drug Interdiction (DI) and Migrant Interdiction (MI): Conduct patrols; pursue, interdict, and board vessels; requires speed, acceleration, and agility to outmaneuver hostile vessels and use of force to compel compliance",
+          "verified": false
+        },
+        {
+          "finding": "Specification requires wireless crew communications with AES 256-bit encryption and active hearing protection, operational in 50-knot winds.",
+          "news": 4,
+          "quote": "Use Advanced Encryption Standard (AES) 256\u2011bit encryption... The system shall be capable of transmitting and receiving intelligible voice communications in relative wind speeds up to 50 knots.",
+          "verified": false
+        },
+        {
+          "finding": "U.S. Coast Guard Response Boat specifications detail weapons mounts for M240B machine gun and storage for rifles, shotguns, and ammunition.",
+          "news": 4,
+          "quote": "Each weapon mounting point shall accommodate an M240B LMG using the MK 16 MOD 8 pintle\u2011type weapon stand, which will be provided by the USCG. The RB-S III shall be equipped with four dedicated, vertically mounted small arms racks configured as follows: two racks located outboard of the aft cabin sea",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "C-1 RB-S III Specification.pdf",
+      "s": "screened",
+      "sol": "70Z02326R93250001"
     },
     "44859764d038497a9e68212a4ae231b8": {
       "c": 968,
@@ -5995,6 +6530,14 @@
       "s": "screened",
       "sol": "N0060426Q4106"
     },
+    "45b3d12864e64103aada658a1a3c6e50": {
+      "c": 12860,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "15BGCS26Q10600001 - Butner Water Chemical Testing.pdf",
+      "s": "screened",
+      "sol": "15BGCS26Q10600001"
+    },
     "45f99e61ab804eeaa8ae0d207aea2391": {
       "c": 417,
       "d": "2026-10-10",
@@ -6002,6 +6545,14 @@
       "n": "Redacted Quote - Tak Server.pdf",
       "s": "screened",
       "sol": "FA487726QA238"
+    },
+    "4605d38d8e2e4a5593585d24800b33af": {
+      "c": 288452,
+      "d": "2026-10-12",
+      "m": "docx",
+      "n": "C05c Attachment 2 Spec 1240LT26Q0106 092426.docx",
+      "s": "screened",
+      "sol": "1240LT26Q0106 "
     },
     "4610af391363443d91d0a3f1b183feae": {
       "c": 14798,
@@ -7036,6 +7587,14 @@
       "s": "screened",
       "sol": "7017523062"
     },
+    "4f6696a5f0074c02b855065301cac5ef": {
+      "c": 9740,
+      "d": "2026-10-12",
+      "m": "zip",
+      "n": "C04p_11 BRF G-Z LTIRSC Optional Subdivisions.zip",
+      "s": "screened",
+      "sol": "12363N26R4014"
+    },
     "4f80239af8e245518c537148f454015e": {
       "c": 9618,
       "d": "2026-10-11",
@@ -7391,6 +7950,42 @@
       "s": "screened",
       "sol": "FA821326R3031"
     },
+    "53d132abbc014d10ab939a742486e36c": {
+      "c": 276219,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "n Section B.3.8, Ordering Procedures and Information, and in the CLIN/SLIN Mapping Tables of the solicitation. The estimated quantities for CLIN X005 are as follows: Base Year: 20,357 units; Option Year 1: 23,411 units; Option Year 2: 26,922 units; Option Year 3: 30,960 units; and Option Year 4: 35,605 units. The anticipated total quantity for CLIN X005 over the full five (5) year contract lifespan, if all options are exercised, is estimated to be 137,255 units. These quantities are estimates for evaluation of the Price Factor only, which is calculated from each Offeror\u2019s Attachment 0001 - Price Matrix submission by multiplying the Offeror\u2019s unit price by the Government\u2019s estimated ordering quantity across all periods of performance, each Offerors Total Estimated Price (TEP) is the sum of the TEP from the parent CLIN and the subordinate SLIN, the sum is the Offeror\u2019s TEP. The Government provided estimated ordering quantities do not constitute, nor shall they be construed as a Government minimum o",
+          "finding": "VA's electrotherapy procurement (36C79126R0011) seeks 137,255 TENS neuromodulation devices over five years with $500M ceiling.",
+          "news": 4,
+          "quote": "The anticipated total quantity for CLIN X005 over the full five (5) year contract lifespan, if all options are exercised, is estimated to be 137,255 units.",
+          "verified": true
+        },
+        {
+          "context": "umber: 36C79126R0011 Date Posted at the GPE: September 18, 2026 Amendment 0001 Issue Date: September 30, 2026 Amendment 0002 Issue Date: October 2, 2026 Amendment 0003 Issue Date: October 6, 2026 Offerors Q & A Closure Deadline: October 5, 2026, at 3:00PM CDT Common Response Date/Time: October 19, 2026, at 3:00PM CDT Clarification-Only Statement: The following Government responses are provided solely for clarification purposes and do not amend, alter, or supersede any terms, conditions, or requirements of Solicitation Number 36C79126R0011. Any material changes or official clarifications to the solicitation will be issued via a formal amendment and posted to the official SAM.gov opportunity listing. Q1. (From Offeror Received 9/18/2026): \u201cThe instructions to Attachment 0005 state that it is a mandatory submission for \"Other-Than-Small Business (e.g., Large Business Concerns) Offerors.\" As a certified Small Business and SBA VetCert-certified SDVOSB under NAICS 334510, is Attachment 0005 required as part of my proposal submission or wh",
+          "finding": "VA procurement structured as tiered set-aside prioritizing service-disabled veteran-owned small businesses (SDVOSBs), reversing earlier full-competition plan.",
+          "news": 3,
+          "quote": "The VA has evolved the level of competition from the Full and Open Competition level, to the SDVOSB Total Set Aside level, and the VA finally settled on the Tiered Set Aside Evaluation Approach due the failure to meet the VA's Rule of Two.",
+          "verified": true
+        },
+        {
+          "finding": "VA corrected solicitation to exclude Buy American Act compliance requirement, applying only Trade Agreements Act for foreign sourcing eligibility.",
+          "news": 3,
+          "quote": "This acquisition is governed exclusively by the Trade Agreements Act (TAA). The Buy American Act (BAA) does not apply. Attachment 0004 \u2013 BAA Certificate is not required and is removed under Amendment 0003.",
+          "verified": false
+        },
+        {
+          "finding": "VA procurement for transcutaneous electrical nerve stimulation (TENS) devices\u2014non-opioid pain management\u2014establishes national supply chain standards for all VA facilities.",
+          "news": 3,
+          "quote": "The VA is actively seeking to discover additional electrode types available in the marketplace... alternative pads may offer improved clinical performance or enhanced health outcomes for the Veterans we serve.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S05_All Offerors Questions and All Government Responses_Solicitation Number 36C79126R0011_Final_Dated 09OCT2026.pdf",
+      "s": "screened",
+      "sol": "36C79126R0011"
+    },
     "53f37c46b2b24ce48a5a059cce8fe727": {
       "c": 462,
       "d": "2026-10-10",
@@ -7481,6 +8076,14 @@
       "n": "EXHIBIT R - PFD Tarrant County CBOC.pdf",
       "s": "screened",
       "sol": "36C24W26R0055"
+    },
+    "551a361a73244539a4b7d3fb2163df61": {
+      "c": 159535,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Attachment_1_-_Statement_of_Objectives_rev.pdf",
+      "s": "screened",
+      "sol": "140R4025R0017"
     },
     "552128f0b6bf4fa39b38248741223175": {
       "c": 7181,
@@ -7693,6 +8296,14 @@
       "n": "J-2  Performance Work Statement NAPL-007-27.pdf",
       "s": "screened",
       "sol": "N6817127QN003"
+    },
+    "578f2470d9644cbb840221462752ca37": {
+      "c": 80188,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "CORHQ-26-Q-0382 JFROG.pdf",
+      "s": "screened",
+      "sol": "CORHQ-26-Q-0382"
     },
     "57c4569bff9a4ba6844379a791ce9264": {
       "c": 9241,
@@ -8105,6 +8716,22 @@
       "s": "screened",
       "sol": "DARPA-PS-26-141"
     },
+    "5caaa625a19b49f19283d4b8ffada110": {
+      "c": 16728,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Grand Canyon North Rim water infrastructure destroyed; emergency contract to haul 662,000 gallons potable water by Oct 29, 2026.",
+          "news": 4,
+          "quote": "Emergency and Follow-On Potable Water Hauling Services North Rim...critical pipeline destruction...deliver six hundred sixty-two thousand (662,000) gallons of water by 29 October 2026",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Sol_140PP027Q0008.pdf",
+      "s": "screened",
+      "sol": "140PP027Q0008"
+    },
     "5cce46c7b559420cae7002d029f4bc1a": {
       "c": 1203,
       "d": "2026-10-10",
@@ -8159,6 +8786,14 @@
       "n": "Attachment 2 Provisions and Clauses.pdf",
       "s": "screened",
       "sol": "75H70427Q00002"
+    },
+    "5e03baae3f0e4b5d8efd6720ee41b7c2": {
+      "c": 100858,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "W912CH26B0009.pdf",
+      "s": "screened",
+      "sol": "W912CH-26-B-0009"
     },
     "5e05b859882e4d61b611b0909784b20e": {
       "c": 10313,
@@ -8920,6 +9555,14 @@
       "s": "screened",
       "sol": "FA4626NOIBASEREFUSE"
     },
+    "673725efa47d4db18e0d2e79b3bb6a8d": {
+      "c": 60250,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Solicitation 19C02026Q0016.pdf",
+      "s": "screened",
+      "sol": "19C02026Q0016"
+    },
     "6775f87b665c4ef7be43289862074bbb": {
       "c": 30085,
       "d": "2026-10-10",
@@ -9258,6 +9901,14 @@
       "s": "screened",
       "sol": "80NSSC26945676Q"
     },
+    "6a65adaf4146436a9f91130e221769da": {
+      "c": 20024,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "S02- Solicitation RFQ 36C26227Q0031.pdf",
+      "s": "screened",
+      "sol": "36C26227Q0031"
+    },
     "6a73bafb05d64e508f342b1cb9396b34": {
       "c": 1350,
       "d": "2026-10-10",
@@ -9282,6 +9933,29 @@
       "n": "Attachment 12 EX2024072333-2024074618.pdf",
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
+    },
+    "6a9782502ca9497a8ed022e6b639ac16": {
+      "c": 39274,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "500.2 Handbook, Management of Security and Privacy Incidents, as appropriate and (11) Whether credit protection services may assist record subjects in avoiding or mitigating the results of identity theft based on the sensitive personal information that may have been compromised. d. Based on the determinations of the independent risk analysis; the contractor shall be responsible for paying to the VA liquidated damages in the amount of $37.50 per affected individual to cover the cost of providing credit protection services to affected individuals consisting of the following: (1) Notification (2) One year of credit monitoring services consisting of automatic daily monitoring of at least 3 relevant credit bureau reports (3) Data breach analysis (4) Fraud resolution services, including writing dispute letters, initiating fraud alerts and credit freezes, to assist affected individuals to bring matters to resolution (5) One year of identity theft insurance with $20,000.00 coverage at $0 deductible; and (6) Necessary legal expenses the subje",
+          "finding": "VA medical physicist contract for San Francisco health system, $19 million estimated value, requires NACI background investigation for contract personnel with liquidated damages of $37.50 per individual for data breaches.",
+          "news": 4,
+          "quote": "contractor shall be responsible for paying to the VA liquidated damages in the amount of $37.50 per affected individual to cover the cost of providing credit protection services to affected individuals",
+          "verified": true
+        },
+        {
+          "finding": "VA requires medical physicist to conduct 24-hour emergency response for X-ray equipment failures at San Francisco and three outlying clinic locations with preference for local contractors.",
+          "news": 3,
+          "quote": "In an emergency, Contractor and/or contractor's employees shall perform an X-Ray test of medical and/or dental equipment within twenty-four hours (24) hours at the SFVAHCS and/or Santa Rosa CBOC and/or Eureka CBOC and/or Oakland CBOC. For emergencies services, it is highly preferable for the Contrac",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "36C26127Q0074.docx",
+      "s": "screened",
+      "sol": "36C26127Q0074"
     },
     "6a99f978a64141b3a7b3df0111e296af": {
       "c": 1739,
@@ -9494,6 +10168,14 @@
       "n": "Section J-10 Section 508 Contract Language for HSC-L.pdf",
       "s": "screened",
       "sol": "70Z02326R93280004"
+    },
+    "6c96abbf7d814ad7a32cd3ac43d2caf8": {
+      "c": 16760,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "C04m_9a Typical Road Drawings.pdf",
+      "s": "screened",
+      "sol": "12363N26R4014"
     },
     "6ca763e9aab048a4b4fa6b96fe1d6c5c": {
       "c": 210,
@@ -9893,6 +10575,22 @@
       "s": "screened",
       "sol": "N66001-27-Q-0TBD"
     },
+    "709677818ab249db8c417afcfab481cb": {
+      "c": 22584,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "VA water quality testing contract for three medical centers including Biloxi, Pensacola, and Panama City Beach facilities through October 2029.",
+          "news": 3,
+          "quote": "Routine and Surge Heterotrophic Plate Count (HPC) Testing Services. Gulf Coast Veterans Health Care System (GCVHCS)...Biloxi VA Medical Center...Pensacola VA Clinic...Panama City Beach VA Clinic...POP End: 10-31-2029",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "36C25627Q0042-Routine and Surge Heterotrophic Plate Count (HPC) Testing Services.pdf",
+      "s": "screened",
+      "sol": "36C25627Q0042"
+    },
     "70a09a2d72ed47c6a3e136336b1ead66": {
       "c": 0,
       "d": "2026-10-10",
@@ -9948,6 +10646,35 @@
       "n": "B2.03.01_DRAFT-RFP_SOW_CRMF-1.4-SW-224.docx",
       "s": "screened",
       "sol": "SLAC_DRAFT_RFP_369005_CRMF_Cleanroom_Construction"
+    },
+    "7158f2d37a334811a6e3018bd6106673": {
+      "c": 67179,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "e right to award zero, one, or more contracts for all, some or none of the solicited efforts based on the offeror\u2019s ability to perform desired work and funding fluctuations. Brief Program Summary: The Combat Refueling & Operations Networked Universal System (CRONUS) program is a technology insertion into the Next Generation Air-refueling System (NGAS) Program of Record (PoR)\u2019s Technology Maturity and Risk Reduction (TMRR) phase. NGAS is an operational concept which enables \"fueling the fight\u201d \u2013 delivering fuel to airborne assets where and when needed to support the joint force to include contested areas. To project combat power, an airborne platform, whether it be a counter-air, strike, or Intelligence, Surveillance, and Reconnaissance (ISR) platform, must be able to operate within contested or highly contested operational environments. The NGAS concept fuels the fight forward into contested areas enabled by a network of smaller, affordable, crewed and uncrewed NGAS platforms that require a combination of real-time dynamic Air Refue",
+          "finding": "Air Force seeking $30.4M in contracts for automated aerial refueling of unmanned aircraft in contested environments without GPS",
+          "news": 4,
+          "quote": "NGAS is an operational concept which enables \"fueling the fight\" \u2013 delivering fuel to airborne assets where and when needed to support the joint force to include contested areas.",
+          "verified": true
+        },
+        {
+          "finding": "Military developing fully automated boom technology for uncrewed tanker aircraft to eliminate human operator requirement",
+          "news": 4,
+          "quote": "The intent for CRONUS boom automation is to develop full boom automation technologies that would enable a future boom/receptacle (B/R) tanker to be uncrewed.",
+          "verified": false
+        },
+        {
+          "finding": "Air Force prioritizing low-probability-of-detection sensors for refueling operations in contested military zones",
+          "news": 3,
+          "quote": "Active sensors and datalinks for refueling operations are required to have Low-Probability-of-Detection (LPD) / Low-Probability-of-Intercept (LPI) characteristics",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Call For CRONUS 20 Mar 24.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
     },
     "71853dcdf65a452a815dd29715f1b954": {
       "c": 80608,
@@ -10005,6 +10732,14 @@
       "n": "36C78627Q0012_1.docx",
       "s": "screened",
       "sol": "36C78627Q0012"
+    },
+    "71c8cd3ebe884347b8f4140f56b8a304": {
+      "c": 135129,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "36C25526R0186.pdf",
+      "s": "screened",
+      "sol": "36C25526R0186"
     },
     "71cd0de6ff9543e0a28bb27aea5597cb": {
       "c": 1437,
@@ -10271,6 +11006,38 @@
       "s": "screened",
       "sol": "140R3026R0012"
     },
+    "757f311f782547b18e3ebbe256733825": {
+      "c": 67652,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "d under Federal Acquisition Regulation (FAR) Part 12, Acquisition of Commercial Products and Commercial Services and FAR Part 15 Contracting by Negotiation. NAICS: The services to be procured are classified in the North American Industry Classification System code 561210 \u2013 Facilities Support Services, with a small business size standard of $47M. IDIQ VALUE: The proposed IDIQ contracts will be for an ordering period of five years from the date of contract award with the cumulative/maximum amount of all delivery orders not to exceed $35,000,000.00. The minimum order guarantee is $5,000. SITE VISIT: OFFERORS ARE STRONGLY URGED TO PARTICIPATE IN THE SITE VISIT. FAILURE BY OFFERORS TO INSPECT THE SITE WILL NOT RELIEVE THEM OF THE RESPONSIBILITY OF PROPERLY ESTIMATING THE DIFFICULTY OR COST OF SUCCESSFULLY PERFORMING THE WORK IN ACCORDANCE WITH THE SPECIFICATIONS AND WITHIN THE ALLOWED TIME. ATTENDEES ARE TO PROVIDE AND WEAR SAFETY GLASSES, BOOTS, HARD HATS, SAFETY VESTS. An email to Colleen Samuels at colleen_samuels@ios.doi.gov and Ma",
+          "finding": "Interior contracts for five-year operation of Yuma Desalting Plant at up to $35 million, 100% set-aside for small businesses.",
+          "news": 4,
+          "quote": "IDIQ VALUE: The proposed IDIQ contracts will be for an ordering period of five years from the date of contract award with the cumulative/maximum amount of all delivery orders not to exceed $35,000,000.00.",
+          "verified": true
+        },
+        {
+          "context": "y of plant operation and the research levels of the WQIC and YDP (e.g., Year 1 \u2013 1.2.1 and 1.2.2; Year 2 \u2013 2.2.1 and 2.2.2; etc.). (2) Cost-reimbursable CLINs. CLIN X.8 (Materials and Small Chemical Purchases) and CLIN X.9 (Travel and Travel-Related Costs) are reimbursed on an actual cost basis. Fee is prohibited on these CLINs. (3) Optional CLIN. CLIN X.10 (Armed Security Guard Services) is an optional, Firm-Fixed-Price CLIN that may be ordered in any performance year at the Government's discretion. (4) Transition CLINs. CLIN X.11 (Phase-In Transition) applies to Year 1 only. CLIN X.12 (Phase-Out Transition) applies to Year 5 only. These CLINs cover the additional costs necessary to transition into and out of the contract, respectively. The CLINs are defined as follows: CLINs 1 and 2 do not include any maintenance of the YDP. However, CLINs 1 and 2 do include contractor operations personnel performing recurring walk through inspections of the YDP. As a result of these inspections, if any unsafe conditions or other situations are fo",
+          "finding": "Contract includes optional armed security guard services at Yuma facility, available for ordering at government discretion.",
+          "news": 3,
+          "quote": "CLIN X.10 (Armed Security Guard Services) is an optional, Firm-Fixed-Price CLIN that may be ordered in any performance year at the Government's discretion.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "140R3026R0012-Solicitation_0001.pdf",
+      "s": "screened",
+      "sol": "140R3026R0012"
+    },
+    "75cdd0720e7c450ab74a6cf29f9b2950": {
+      "c": 107850,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "S02 - NWI Pathology_36C26326R0063.pdf",
+      "s": "screened",
+      "sol": "36C26326R0063"
+    },
     "75d4d2981b974f269e423fd2fe82440a": {
       "c": 9384,
       "d": "2026-10-10",
@@ -10414,6 +11181,41 @@
       "s": "screened",
       "sol": "19TH2526C0002"
     },
+    "770f78a935d44fe694fb1471eef04e3e": {
+      "c": 127144,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "to access DOJ information and/or unescorted access to DOJ facilities or space, unless a waiver has been granted by the DSO, allowing access by the non-U.S. citizen. Such a waiver will be granted on a case-by-case basis where justified at the discretion of the DSO. 3. Background Investigation Requirements (a) (1) Unless otherwise stated below, all contractor personnel are subject to a Public Trust Investigation (PTI). The SPM will determine the type of investigation for each contractor employee based on the risk category (i.e., the nature of the position and degree of harm that could be caused by the individual in that position) and whether the position is long- term or short-term. The PTI risk categories are listed below. (i) High Risk Positions. The minimum background investigation required is a Tier 4 (T4) investigation, and the five-year reinvestigation required is a Tier 4R (T4R) investigation. The 2017 version of the Standard Form (SF) 85P, Questionnaire for Public Trust Positions, is required.",
+          "finding": "Federal Prison System water testing contract requires extensive security vetting including Public Trust investigations and background checks for contractor personnel.",
+          "news": 3,
+          "quote": "all contractor personnel are subject to a Public Trust Investigation (PTI)",
+          "verified": true
+        },
+        {
+          "finding": "Contract requires contractor to maintain on-site spare pumps and equipment at federal prison; mandates daily tool inventories and strict lockdown protocols for all contractor materials.",
+          "news": 4,
+          "quote": "The contractor must keep spare pumps on site. This includes chemicals for treatment... All tools will be inventoried prior to entering the Institution at the start of each workday on a daily tool inventory sheet.",
+          "verified": false
+        },
+        {
+          "finding": "Federal Bureau of Prisons solicitation for water chemical testing services at correctional facility with 3.5-year contract term through 2029.",
+          "news": 3,
+          "quote": "Federal Correctional Complex located at... Intends to make a single award to a responsible entity that will provide all necessary materials, reagents, training, and incidentals for Bureau staff and workers to conduct the Powerhouse Water Treatment Program",
+          "verified": false
+        },
+        {
+          "finding": "Extensive security clearance procedures required for all contractor personnel accessing federal prison, including NCIC checks, fingerprints, credit checks, and urinalysis.",
+          "news": 3,
+          "quote": "The following investigative procedures may be applied: (1) National Crime Information Center (NCIC) check; (2) Declaration of Federal Employment (OF-306); (3) FD-258 (fingerprint check); (4) Law Enforcement Agency checks... (11) Urinalysis if applicable",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "15BGCS26Q10600001 (Modificaiton 1) - Butner Water Chemical Testing.pdf",
+      "s": "screened",
+      "sol": "15BGCS26Q10600001"
+    },
     "772ee2df818f4a7e987d8b7148535c47": {
       "c": 9625,
       "d": "2026-10-11",
@@ -10421,6 +11223,51 @@
       "n": "S02_Attachment 0001_RFP 36C79126R0011_Price Marix_Fillable.xlsx",
       "s": "screened",
       "sol": "36C79126R0011"
+    },
+    "77348bbd9da9472fbc33cf92e08f5fc8": {
+      "c": 24728,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "nment sites at the Philadelphia Navy Yard in the Public Works Department Pennsylvania area of responsibility. Maintenance dredging of approximately 96,611 cubic yards of sediment, using a sealed environmental clamshell bucket. Dredging within the Reserve Basin is in support of the Naval Support Activity Mechanicsburg, Philadelphia Navy Yard Annex. The Reserve Basin is being used to decommission various US Naval vessels. For the river pilots to be able to safely maneuver vessels through the Schuylkill River into the Reserve Basin berths and to ensure that tidal cycles will not cause sediment accumulation around the hulls making final removal very difficult, the berths need to be dredged to a minimum depth of -30' MLLW and a maximum over-dredge depth of -32' MLLW. Materials shall be disposed of as follows: 1) Bucket Dredging at Areas RB-A, RB-C AND RB-D, as shown on plans, using a sealed environmental clamshell bucket including transportation by scow (or barge) and disposal of dredge spoils at one of the follow",
+          "finding": "Philadelphia Navy Yard dredging contract reveals Reserve Basin used to decommission US Naval vessels; dredging supports final removal of decommissioned ships.",
+          "news": 3,
+          "quote": "The Reserve Basin is being used to decommission various US Naval vessels. For the river pilots to be able to safely maneuver vessels through the Schuylkill River into the Reserve Basin berths",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "N4008526B0002.pdf",
+      "s": "screened",
+      "sol": "N4008526B0002"
+    },
+    "7743de8a983147468fb77aaffb36808d": {
+      "c": 230499,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "McAlester Army Ammunition Plant (Oklahoma) contract for repair, maintenance, demolition and minor construction work at the facility.",
+          "news": 4,
+          "quote": "This is a Firm Fixed Price (FFP) Indefinite Delivery-Indefinite Quantity (IDIQ) Job Order Contracting (JOC) contract for construction work... McAlester Army Ammunition Plant",
+          "verified": false
+        },
+        {
+          "finding": "Contract includes asbestos and lead-based paint abatement work, with contractor required to have minimum five years' verifiable experience in asbestos abatement.",
+          "news": 3,
+          "quote": "Any asbestos work requires personnel performing the task to have a minimum of five (5) years' verifiable experience in asbestos abatement.",
+          "verified": false
+        },
+        {
+          "finding": "Defense contractor must maintain cost estimating software (RSMeans Data Online specifically) and cloud-based construction project management software accessible to unlimited government users.",
+          "news": 3,
+          "quote": "The Contractor shall subscribe to, maintain, and fund this Software as a Service (SaaS) platform... RSMeans Data Online release active at the beginning of the Base Year",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 0001 - New JOC SoW_6 OCT 26.pdf",
+      "s": "screened",
+      "sol": "W519TC-26-Q-JOC1"
     },
     "77463f02aedc46e6a705c30a0e0fe62f": {
       "a": 1,
@@ -10652,6 +11499,14 @@
       "s": "screened",
       "sol": "JOFOC-REG-1"
     },
+    "78c3e8a23bcc46fe8d8eb6c34ae8e569": {
+      "c": 34223,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Attachment 16 MJU-76 CDRL List FINAL.pdf",
+      "s": "screened",
+      "sol": "FA821326RB005-Solicitation"
+    },
     "78c7353905da49fb9e3a83acaf51c5a8": {
       "c": 482,
       "d": "2026-10-10",
@@ -10659,6 +11514,43 @@
       "n": "Attachment 6 - ES7650_Oct2000 - MIL-STD-1916.docx",
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
+    },
+    "78e3d172d19c49dcb5a7b8182d1a0f77": {
+      "c": 45144,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "tion. d. The training is available via TBD, which provides materials that meet the training requirement. e. Upon completion of the training, the Contractor shall provide TBD a list of the Contractor employees\u2019 names and the date the training was completed. 10. Information Regarding Non-U.S. Citizens Assigned to this Project: a. Contractor employees requiring access to USAF bases, AFRL facilities, and/or access to U.S. Government Information Technology (IT) networks in connection with the work on this contract must be U.S. citizens. For the purpose of base and network access, possession of a permanent resident card (\u201cGreen Card\u201d) does not equate to U.S. citizenship. This requirement does not apply to foreign nationals approved by the U.S. Department of Defense or U.S. Department of State under international personnel exchange agreements with foreign governments. It also does not apply to dual citizens who possess U.S. citizenship, to include Naturalized citizens. Any",
+          "finding": "Contract restricted to U.S. citizens for AFRL facility and IT network access; non-citizens require written waivers from Contracting Officer.",
+          "news": 3,
+          "quote": "Contractor employees requiring access to USAF bases, AFRL facilities, and/or access to U.S. Government Information Technology (IT) networks in connection with the work on this contract must be U.S. citizens",
+          "verified": true
+        },
+        {
+          "finding": "Air Force soliciting autonomous drone power systems for contested/denied environments, targeting 10,000-15,000 lb Group 5 UAS for Next-Generation Air Dominance.",
+          "news": 4,
+          "quote": "ACPs are envisioned to be key elements in a family of systems supporting Next-Generation Air Dominance (NGAD)...future generations of ACP-class vehicles will need to provide operational capabilities requiring mission system suites which may utilize both power and cooling at levels not currently avai",
+          "verified": false
+        },
+        {
+          "finding": "AFRL requiring contractors to report key personnel participation in foreign talent recruitment programs within 5 business days, with potential award termination for security risks.",
+          "news": 4,
+          "quote": "If, at any time, during performance of this award, the contractor/subcontractor learns that its Senior/Key Research Personnel are or are believed to be participants in a Foreign Government Talent Program...the contractor shall notify the Contracting Officer no later than 5 business days",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Call for MSIPPT.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
+    },
+    "78e54f588a444f8884e12a03d229c514": {
+      "c": 67181,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "N3904026Q0004 Solicitation.pdf",
+      "s": "screened",
+      "sol": "N3904026Q0004"
     },
     "78e6420fe50248899fa41404c91f3488": {
       "c": 911,
@@ -10925,6 +11817,22 @@
       "s": "screened",
       "sol": "23f40a64908b490ea5fbf3ef65c48c10"
     },
+    "7b630415c98b44a1a56023857a686eb6": {
+      "c": 28915,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Joint Base Charleston dormitory retrofit faces moderate to low liquefaction risk from saturated sands; predicted vertical settlement of \u00bd to 1\u2153 inches under seismic design events.",
+          "news": 3,
+          "quote": "the saturated loose sands and silty sands between the water table and a depth to approximately 17 ft have the potential to liquefy during the design seismic events... LPIISH > 15 \u2013 severe liquefaction and foundation damage is likely. Table 3 summarizes the PGA, LPIish, risk index, and associated ver",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation Attachment - Geotechnical Report 14 April 2025.pdf",
+      "s": "screened",
+      "sol": "FA441826R0009"
+    },
     "7bbf5db2d52540799cd3b617b3a8b540": {
       "c": 271,
       "d": "2026-10-10",
@@ -10932,6 +11840,14 @@
       "n": "MSS_6110011656844HY_PR FD20302700046.pdf",
       "s": "screened",
       "sol": "FD20302700046"
+    },
+    "7bca9eb4eff04a6a9c29fc88c879f09b": {
+      "c": 55452,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "19SZ3527Q0001 solicitation for MSG cook services.pdf",
+      "s": "screened",
+      "sol": "19SZ3527Q0001"
     },
     "7bd2e4ecf2dc418d9e88a40269fa8617": {
       "c": 197,
@@ -10948,6 +11864,34 @@
       "n": "AoI W911PT26SC001-A008 Advanced Tooling Manufacturing for Vertical Turning Lathe.pdf",
       "s": "screened",
       "sol": "W911PT26SC001"
+    },
+    "7c04095f39814d4a8ccc2c466499c80a": {
+      "c": 29587,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Air Force soliciting $490M IDIQ for high-speed propulsion (scramjet, ramjet) technology development with classified CUI documents restricted to certified contractors only.",
+          "news": 5,
+          "quote": "Estimated Total Program Cost: Shared IDIQ ceiling of $490M. The objective of the HSAPS IDIQ is to conduct research and development on technologies relevant to high-speed propulsion systems that enable high-speed flight. This effort will focus on propulsion solutions such as: Scramjet, ramjet, combin",
+          "verified": false
+        },
+        {
+          "finding": "Initial task order (POETICS) budgeted $12-18.4M to design and test regeneratively fuel-cooled hypersonic engine over 37 months with multiple design review phases.",
+          "news": 4,
+          "quote": "AFRL anticipates that the cost for the POETICS Task Order should fall within a range of $12,000,000.00 - $18,400,000.00 including options. The objective of POETICS is to design, fabricate, and direct-connect test a regeneratively fuel-cooled, flight-like engine that meets defined thrust, specific im",
+          "verified": false
+        },
+        {
+          "finding": "Contract requires executive order compliance on 'Gold Standard Science' including reproducibility, transparency, and peer review; all offerors must explicitly agree to administration policies on scientific integrity.",
+          "news": 4,
+          "quote": "With regards to GSS, applications/proposals shall: include clear benchmarks for measuring success and progress towards relevant goals and a commitment to achieving GSS...By responding to this NOFO you explicitly agree to the following statement: Our institution understands the definition of Gold Sta",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "CALL for HSAPS dated 17 June 2026.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
     },
     "7c2e725ceced488bba1026b9ed4746c0": {
       "c": 3071,
@@ -11249,6 +12193,23 @@
       "s": "screened",
       "sol": "HQ0860-26-S-C008"
     },
+    "7f88c3291bde46fc8c60bbdc0dd286de": {
+      "c": 123160,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ASA CLDS missions: \u2022 Minimum age of 18 \u2022 English language proficiency which will permit an individual to reach an intermediate to high fluency prior to flight using the American Council on the Teaching of Foreign Languages (ACTFL) \u2022 Negative results of drug screen per CLDP-STD-1123 Medical Standards and Capabilities \u2022 If they are from a Designated Countries Tier II and III, NASA approval must be granted. \u2022 Background check results show: o No evidence of misconduct in prior employment/military service o No major financial issues o No evidence of Criminal, dishonest, infamous, or notoriously disgraceful conduct o No criminal driving violations o No intentional false statements or fraud o No membership in organizations or participation in activities which adversely affect the confidence of the public or reflect unfavorably on NASA 2.20.2 Crew Commander The Contractor shall ensure specific requirements as they pertain to the Commander position are followed as",
+          "finding": "NASA Commercial LEO Destination contract requires foreign crew nationality clearance: nationals from \"Designated Countries Tier II and III\" need NASA approval.",
+          "news": 4,
+          "quote": "If they are from a Designated Countries Tier II and III, NASA approval must be granted.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "80JSC027R0004 Attachment J-01_CLDC Final SOW.pdf",
+      "s": "screened",
+      "sol": "80JSC027R0004"
+    },
     "7f9257ebe1dd43d1b287efa4a19a6ef5": {
       "c": 473,
       "d": "2026-10-10",
@@ -11395,6 +12356,14 @@
       "s": "screened",
       "sol": "36C10D27Q0002"
     },
+    "80e5ae08b07942b7a0f587e0f1180d38": {
+      "c": 15352,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "CALL For SNAPP 04 Sep 24.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
+    },
     "810c444aed6f4081bff832225300dd1f": {
       "c": 14040,
       "d": "2026-10-10",
@@ -11418,6 +12387,56 @@
       "n": "Attachment 13 White Mountain Compound_Map.pdf",
       "s": "screened",
       "sol": "1240BH26Q0078"
+    },
+    "814c729027ab4476b9afd8aea2091091": {
+      "c": 133378,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "mall Business Set-Aside), and 52.219-27 (Notice of Set-Aside for SDVOSB Concerns). Will the Government confirm the single controlling set-aside type and, specifically, whether an offeror must hold BOTH HUBZone certification AND SBA SDVOSB certification to be eligible for award, or whether an offeror holding EITHER certification is eligible. Answer This acquisition is set aside for HUBZone or SDVOSB (a total small business set aside to these socioeconomic categories only). Offerors do not have to hold certification for both socioeconomic concerns. Award may be made to some or all of either socioeconomic category. 11 Question Section L, 1.4 Will the Government please confirm that the applicable joint venture requirements are 13 CFR 126.616 (HUBZone joint ventures) and/or 13 CFR 128.402 (VOSB/SDVOSB joint ventures), together with 13 CFR 125.8? Please further confirm the documents an offering joint venture must submit with its proposal (executed joint venture agreement, SBA Mentor-Protege approval letter, addenda) and whether those docume",
+          "finding": "Joint Base Charleston dormitory renovation solicitation restricted to HUBZone or SDVOSB small businesses; $20M\u2013$25M seed project with 450-day performance window.",
+          "news": 4,
+          "quote": "This acquisition is set aside for HUBZone or SDVOSB (a total small business set aside to these socioeconomic categories only).",
+          "verified": true
+        },
+        {
+          "context": ", control, energy conservation, safety, comfort, convenience, and similar purposes. Please confirm where the controlled area is and what activities are to be completed in that area? Answer A controlled area is not part of the scope of this project. 78 Question 01 14 00 Para 1.3.1.2.2 Section 1.3.1.2.2 Electronic Security Systems Equipment states Electronic Security Systems equipment such as processing control units, workstations, field panels, sensors, high security locks, card readers, cable installation, and system programming, testing and training must be performed by U.S. companies using U.S. citizens who have been subjected to a trustworthiness determination. Please confirm what poriton of the project will require this specification? is it the card readers for the doors? Answer U.S. companies using U.S. citizens must perform the system programing, testing, and training for all the electronic security systems equipment listed in the specification 01 14 00. Card readers and workstations are in the contract documents. 79 Quest",
+          "finding": "Air Force multiple-award construction contract requires blast-resistant and impact-rated windows; project includes electronic security systems with RFID locking hardware.",
+          "news": 4,
+          "quote": "Electronic Security Systems equipment such as processing control units, workstations, field panels, sensors, high security locks, card readers, cable installation, and system programming, testing and training must be performed by U.S. companies using U.S. citizens.",
+          "verified": true
+        },
+        {
+          "context": "the job site and how many parking spaces? Answer Yes, given that B464 will be vacated, intention is contractors may use the parking lot directly North of B464 for their personal vehicles. Coordinate long-term parking with Gov't rep. 129 Question 01 78 00 - 1.11.4 Contractor's Response to Construction Warranty Service. Being available 24/7/365 for First Priority Code is to evaluate a situation within four hours and start work within six hours. Second Priority Code is to evaluate a situation within eight hours and start work within twenty four hours. Third Priority Code is to evaluate and start work within 3 workdays. We have had a subcontractor that does telecommunications work tell us they are not bidding because of this first and second priority requirement. Can there be any flexibility on those ? Answer The solicitation does not offer flexibility on the priority response times. The warranty response times are standard requirements for all construction work under this contract to ensure the operational readiness of base facilities /",
+          "finding": "Dormitory renovation requires 24/7/365 warranty response: first priority code within four hours evaluation and six hours work start; second priority within eight hours evaluation and 24 hours work start.",
+          "news": 3,
+          "quote": "First Priority Code is to evaluate a situation within four hours and start work within six hours. Second Priority Code is to evaluate a situation within eight hours and start work within twenty four hours.",
+          "verified": true
+        },
+        {
+          "context": "procurement is restricted to small business concerns and requires past performance of similar scope, magnitude, and complexity, would the Government consider expanding the past performance recency period from five (5) years to eight (8) or ten (10) years to allow small business offerors to demonstrate a broader range of relevant experience? Answer The Government will not expand the past performance recency period. The recency standard remains five (5) years from the solicitation's release date. At least one day of performance must have occurred within this five-year window for a project to be considered for evaluation. 165 Question Section L and Section M Section L states that relevant contracts must have been completed within the past five (5) years; however, Section M states that past performance is recent if one day of performance occurred within five (5) years of the release of the solicitation. Please confirm that a contract will satisfy the recency requirement if at least one day of performance occurred within five years of the",
+          "finding": "Past performance projects must be from SBA Region IV (Southeast US only); government rejected requests to accept CONUS-wide or out-of-region comparable work as relevant.",
+          "news": 3,
+          "quote": "The Government will not expand the past performance boundary to CONUS-wide, nor will out-of-region projects be considered relevant. The SBA Region IV restriction is to mitigate performance risk associated with the unique environmental, climatic, soil, coastal, and logistical conditions inherent to t",
+          "verified": true
+        },
+        {
+          "finding": "JB Charleston dormitory (B464) will be completely unoccupied during 450-calendar-day renovation; adjacent occupied facility B466 must remain operational during all construction.",
+          "news": 5,
+          "quote": "B464 will be completely unoccupied for the duration of construction. The period of performance for the Seed Project is 450 calendar days from issuance of Notice to Proceed.",
+          "verified": false
+        },
+        {
+          "finding": "Air Force removed blast-engineer requirement from specification after contractor questions; facility antiterrorism training still required for all base access personnel.",
+          "news": 4,
+          "quote": "Specification has been admended. Blast Engineer is no longer a requirement. JS-US007 - Level I Antiterrorism Awareness Training is required to be completed by all contractors within 30 days of requiring access, and annually thereafter.",
+          "verified": false
+        }
+      ],
+      "m": "xlsx",
+      "n": "Attachment XT - JB Charleston Question and Answer Form (Completed).xlsx",
+      "s": "screened",
+      "sol": "FA441826R0009"
     },
     "817008f9bcf342fc88e0e1bf9f11eeb1": {
       "c": 32314,
@@ -11483,6 +12502,45 @@
       "n": "36C24926Q0334 A0002.docx",
       "s": "screened",
       "sol": "36C24926Q0334_1"
+    },
+    "826c499ab3d5470ea982d2e58df759da": {
+      "c": 27799,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "SOLICIATION 36C10X26Q0091_27 Aug 2026.pdf",
+      "s": "screened",
+      "sol": "36C10X26Q0091"
+    },
+    "8294ef59b5224d488a5e17799f44a66f": {
+      "c": 151725,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ird country national laws; (i) The Military Extraterritorial Jurisdiction Act may apply to contractor personnel if contractor personnel commit crimes outside the United States. (ii) Under the War Crimes Act, United States citizens (including contractor personnel) who commit war crimes may be subject to federal criminal jurisdiction. (iii) When Congress formally declares war, contractor personnel authorized to accompany the force may be subject to the Uniform Code of Military Justice. Treaties and international agreements; United States regulations, directives, instructions, policies, and procedures; and (4) Orders, directives, and instructions issued by the COMUSK relating to force protection, security, health, safety, or relations and interaction with local nationals. Included in this list are force protection advisories, health advisories, area (i.e. \"off-limits\"), prostitution and human trafficking and curfew restrictions. (e) Pre-deployment/departure requirements. The Contractor shall ensure that the following",
+          "finding": "Air Force contract requires contractor personnel deploy to Korean theater under war/contingency provisions; military extraterritorial jurisdiction and war crimes law apply.",
+          "news": 4,
+          "quote": "When Congress formally declares war, contractor personnel authorized to accompany the force may be subject to the Uniform Code of Military Justice.",
+          "verified": true
+        },
+        {
+          "context": "of Korea. Specific requirements for each category may be specified in the statement of work or elsewhere in the contract. All required security and background checks are complete and acceptable. (2) All contractor personnel meet the minimum medical screening requirements and have received all required immunizations. In the Republic of Korea, all contractor employees subject to this requirement shall comply with the same DoW immunization requirements applicable to Emergency Essential DoW civilians- INCLUDING ANTHRAX IMMUNIZATION. The Government will provide, at no cost to the Contractor, any Korean theater-specific immunizations and/or medications not available to the general public. (3) Contractor personnel have all necessary passports, visas, and other documents required to enter and exit a theater of operations and have a Geneva Conventions identification card from the deployment center or CONUS personnel office if applicable. (4) Country and theater clearance is obtained for contractor personnel. Clearance requirements",
+          "finding": "Contract mandates anthrax immunization for all contractor staff in Korea, matching Department of War requirements for DoD civilians.",
+          "news": 4,
+          "quote": "all contractor employees subject to this requirement shall comply with the same DoW immunization requirements applicable to Emergency Essential DoW civilians- INCLUDING ANTHRAX IMMUNIZATION.",
+          "verified": true
+        },
+        {
+          "context": "s will be allowed. The Contractor shall ensure that its personnel who are authorized to carry weapons- Are adequately trained; Are not barred from possession of a firearm by 18 U.S.C. 922; and (iii) Adhere to all guidance and orders issued by the COMUSK regarding possession, use, safety, and accountability of weapons and ammunition. The use of deadly force by persons subject to this requirement shall be made only in self-defense, except: (v) Persons subject to this requirement who primarily provide private security are authorized to use deadly force only as defined in the terms and conditions of this contract in accordance with USFK regulations and policies (especially, USFK Regulation 190-50). (vi) Liability for the use of any weapon by persons subject to this requirement is solely the responsibility of the individual person and the contractor. (3) Upon redeployment or revocation by the COMUSK of the Contractor's authorization to issue firearms, the Contractor shall ensure that all Government-issued weapons an",
+          "finding": "Contractor personnel authorized to use deadly force in self-defense under USFK regulations; private security authorized use defined by contract terms.",
+          "news": 3,
+          "quote": "The use of deadly force by persons subject to this requirement shall be made only in self-defense, except: (v) Persons subject to this requirement who primarily provide private security are authorized to use deadly force only as defined in the terms and conditions of this contract in accordance with",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "Atch 7 SOW Supplemental Requirements.docx",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
     },
     "8297e77aa8cc4afbb5d0750fd003f919": {
       "c": 0,
@@ -11873,6 +12931,29 @@
       "n": "PTAG_ RFI-27-1001_photos of career awards.pdf",
       "s": "screened",
       "sol": "RFI-27-1001"
+    },
+    "886b28a9edc641e8ad53a87249af413b": {
+      "c": 41702,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "E: Questions highlighted in YELLOW will be answered in a subsequent Solicitation Amendment. Outstanding questions will be answered as soon as possible but no later than 10-14- 2026. Q&As: 1. Question: \u201cWho is the current or previous incumbent?\u201d Answer: Hill-Rom Inc. OK=nuestionW=\u201cthat=is=the=current=or=previous=contract=number\\\u201d Answer: Current:GSA Order 36F79721D0160 - 36C24827F0012 Previous: GSA Order 36F79721D0160 - 36C24826F0138 PK=nuestionW=\u201cthat=is=the=current=or=previous=value=of=the=contract\\\u201d Answer: Current: $263,429.44 Previous: $748,323.98 4. Question: \u201cIs this a new solicitation, and if not, will you provide the name of the incumbent and the awarded contract amount? Answer: Yes, this is a new solicitation. See Answers to Questions 1 and 3. 5. Question: \u201cCan the government provide historical or estimated concurrent equipment usage, average rental duration, equipment turnover, and delivery/pickup volume for each equipment category?\u201d Answer: No, the Government canno",
+          "finding": "VA hospital bed rental contract for Tampa facility values ~$263K current; previous incumbent contract was $748K, marking significant cost reduction.",
+          "news": 4,
+          "quote": "Current: $263,429.44. Previous: $748,323.98",
+          "verified": true
+        },
+        {
+          "finding": "VA bed rental contract specifies 6,409 rental days for ICU-grade hospital beds (Progressa or equal) and 4,521 days for air-fluidized therapy beds with trapeze over 5-year period.",
+          "news": 3,
+          "quote": "CLIN 0005 ICU-Grade Hospital Bed System Rental 6,409 (Progressa OR EQUAL); CLIN 0007 Air\u2011Fluidized Therapy Bed w/ Trapeze Rental 4,521 (Envella Bed w/ Trapeze OR EQUAL)",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S02 Solicitation Amendment 36C24827Q0025 0001.pdf",
+      "s": "screened",
+      "sol": "36C24827Q0025"
     },
     "8877f35419624007b80638d9d4b0198d": {
       "c": 4092,
@@ -12436,6 +13517,44 @@
       "s": "screened",
       "sol": "1240LT26Q0106 "
     },
+    "8d3eb3eb29364d16a14aa9d3adac4059": {
+      "c": 50217,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "Page 60 of 79 Sol. Reference No. 47PH5226R0003\u200b \u200b GSA Contract No: contract holders based on agency needs and requirements 14.3 On-Ramping & Off-Ramping This contract may utilize on-ramping or off-ramping pursuant to FAR 16.504-4. ON-RAMPING \u2014 GENERAL AUTHORITY AND PRINCIPLES (a) Authority and Purpose. GSA reserves the right to add contractors to the Contract at any time during the ordering period. The purpose of on-ramping is to maintain a robust, competitive, and highly qualified awardee pool throughout the life of the contract; ensure access to sufficient construction capacity and construction disciplines; provide access to emerging and growing construction firms; and prevent staleness of the awardee pool due to business changes, dormancy, or off-ramping. (b) Pool Fluctuation. The total number of contractors may fluctuate due to novations, acquisitions, mergers, Dormant Status activations, off-ramp actions, or the exercise of on-ramp provisions. GSA reserves the right to periodically re",
+          "finding": "GSA awards $500M D.C. Metro construction IDIQ with on-ramping provisions allowing continuous contractor additions throughout contract life.",
+          "news": 4,
+          "quote": "GSA reserves the right to add contractors to the Contract at any time during the ordering period. The purpose of on-ramping is to maintain a robust, competitive, and highly qualified awardee pool throughout the life of the contract",
+          "verified": true
+        },
+        {
+          "context": "Reference No. 47PH5226R0003\u200b \u200b GSA Contract No: for construction services for the geographic area of the IDIQ contract may significantly expand due to evolving mission needs, legislative mandates, or shifts in national priorities and available resources. (b) Unilateral Right to Increase Maximum Order Limit The Government reserves the unilateral right to increase the Master Contract MOL by up to 50% of the total aggregate amount, provided the following conditions are met: 1.\u200b The additional requirements to be fulfilled under the increased ceiling are within the general scope of the services and supplies defined by the contract; 2.\u200b The Contracting Officer determines that a programmatic need exists that requires capacity beyond the current MOL; and 3.\u200b The Contracting Officer issues a formal modification to the IDIQ contract specifically citing this contract term as the authority for the MOL increase before any task orders exceeding the original MOL a",
+          "finding": "Contract allows unilateral 50% increase in maximum ordering limit if programmatic need exists, potentially raising $500M ceiling to $750M.",
+          "news": 4,
+          "quote": "The Government reserves the unilateral right to increase the Master Contract MOL by up to 50% of the total aggregate amount, provided the following conditions are met",
+          "verified": true
+        },
+        {
+          "context": "the solicitation. 14.2 Expansion of Geographic Area of Contract The initial geographic area of the contract shall be: \u25cf\u200b -All of Washington, D.C. \u25cf\u200b -Virginia: Arlington County, Fairfax County, Loudon County, Independent Cities of Alexandria, Fairfax, and Falls Church \u25cf\u200b -Maryland: Montgomery County, Prince George's County The Contracting Officer reserves the unilateral right to expand the geography of the contract by adding any additional counties within the states of Virginia and Maryland. GSA reserves the right to expand, within scope, the geographic areas covered by the awarded contracts by bilateral agreement with any or all Document: DB101-SB/MAY 2026 (The Agreement) Page 60 of 79 Sol. Reference No. 47PH5226R0003\u200b \u200b GSA Contract No: contract holders based on agency needs and requirements 14.3 On-Ramping & Off-Ramping This contract may utilize on-ramping or off-ramping pursuant to",
+          "finding": "GSA can unilaterally expand geographic scope beyond initial D.C./Northern Virginia/Maryland coverage to additional Virginia and Maryland counties.",
+          "news": 3,
+          "quote": "The Contracting Officer reserves the unilateral right to expand the geography of the contract by adding any additional counties within the states of Virginia and Maryland",
+          "verified": true
+        },
+        {
+          "context": "ister, perform, and contract all construction activities required to complete a project. Construction services include, but are not limited to office construction and/or renovations/repairs, office space renovations, MEP (Mechanical/Electrical/Plumbing) repairs/modifications/replacement, fire sprinkler systems repairs/modification/replacement, sitework, exterior construction repair and alterations (including facades and roofs), demolition (including abatement of hazardous materials), elevator modernizations, work in technically sensitive environments like laboratories, SCIF\u2019s etc., work in high-security data centers and critical infrastructure control systems, construction work in high security buildings, as well as any other general construction activities. The scope will include design-build services. The GC may be required to utilize the following delivery methods to deliver projects for the GSA: 1. Design/Bid/Build (DBB) Traditional 2. Design/Build (D/B) The primary geography will cover: \u25cf\u200b -All of Washington, D.C. \u25cf",
+          "finding": "Contract includes work on high-security facilities: SCIFs, data centers, critical infrastructure control systems, and high-security buildings requiring personnel clearances.",
+          "news": 3,
+          "quote": "work in technically sensitive environments like laboratories, SCIF's etc., work in high-security data centers and critical infrastructure control systems, construction work in high security buildings",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Agreement 47PH5226R0003.pdf",
+      "s": "screened",
+      "sol": "47PH5226R0003 "
+    },
     "8d4c9ac8604740a496094988db200f20": {
       "c": 9872,
       "d": "2026-10-10",
@@ -12502,6 +13621,23 @@
       "s": "screened",
       "sol": "W9123627Z13MA"
     },
+    "8dfc59d423194b76acfdd041e16f5618": {
+      "c": 27269,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "US Army Corps Of Engineers Tulsa District PATRIOT MISSILE STORAGE MAGAZINES McAlester Army Ammunition Plant McAlester, Oklahoma PDC: 75350 FY: 10 IFB # W912BV-10-R-2011 CONTRACT NO. W912BV-XX-C-XXXX AS BUILT 1-14-2011 USE GRAPHIC SCALE IF PRINTED BORDER IS OTHER THAN 16\" X 10\u2022\" U.S. ARMY CORPS",
+          "finding": "Army construction of Patriot missile storage magazines at McAlester Army Ammunition Plant in Oklahoma, a military munitions facility infrastructure project.",
+          "news": 4,
+          "quote": "PATRIOT MISSILE STORAGE MAGAZINES McAlester Army Ammunition Plant McAlester, Oklahoma",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 0003 - REFERENCE DRAWINGS- 50x100x18 Red Iron Storage Facility.pdf",
+      "s": "screened",
+      "sol": "W519TC-26-Q-JOC1"
+    },
     "8e09d822099945978bcdc73090408ee6": {
       "c": 22555,
       "d": "2026-10-10",
@@ -12509,6 +13645,14 @@
       "n": "Comprehensive Data Stream Draft SOW_RFI..pdf",
       "s": "screened",
       "sol": "FDA-RFI-27-1251190"
+    },
+    "8e1746181686446687acb44d5f1afbb1": {
+      "c": 98541,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Statement of Work - Attachment 2 - Architectural Compatibility Plan.pdf",
+      "s": "screened",
+      "sol": "FA441826R0009"
     },
     "8e41c4a056ef4dafb7cf6b19c781d5c3": {
       "c": 33079,
@@ -12750,6 +13894,14 @@
       "n": "36C25727Q0046.docx",
       "s": "screened",
       "sol": "36C25727Q0046"
+    },
+    "90c20e2f9d3547ed87139a4222f6cfb1": {
+      "c": 28012,
+      "d": "2026-10-12",
+      "m": "docx",
+      "n": "D.1 36C25027Q5393.docx",
+      "s": "screened",
+      "sol": "36C25027Q5393"
     },
     "90c4d84f18ab40679d0cdb83f54fc2ac": {
       "c": 11812,
@@ -13055,6 +14207,14 @@
       "s": "boilerplate_only",
       "sol": "FA821326RB005-Solicitation"
     },
+    "93ce1875c3154a949e9c88b0042738bd": {
+      "c": 212465,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Attachment B1- EHP-10069_Rev A_Final.pdf",
+      "s": "screened",
+      "sol": "80GRC026R0008 "
+    },
     "93d6f9a4be35421b874312434555f0e4": {
       "c": 371,
       "d": "2026-10-10",
@@ -13094,6 +14254,14 @@
       "n": "Attch 5 CBA IBEW 2024 12949 Appdx A redacted.pdf",
       "s": "screened",
       "sol": "FA461027R0001"
+    },
+    "93fb81b9973a49de9cb66228b0687255": {
+      "c": 110628,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "IFB 6982AF27B000006 - TX FW LGA 10(5) .pdf",
+      "s": "screened",
+      "sol": "6982AF27B000006"
     },
     "9409ce767a7e46589507188dbacf64ba": {
       "c": 163659,
@@ -13151,6 +14319,23 @@
       "n": "Attachment B2 -Topic 2-Technical Performance Measures.pdf",
       "s": "screened",
       "sol": "80GRC026R0008 "
+    },
+    "94ba904192a74fe68df75a4fdda1a22d": {
+      "c": 3074,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "PRODUCT DESCRIPTION (PD) DEPARTMENT OF VETERANS AFFAIRS Office of Information & Technology (OIT) Financial Service Center Brand Name or Equivalent \u2013 Active Navigation Discovery Center Date: September 22, 2026 VA-27-00000574 PD Version Number: 1.2 PRODUCT REQUIREMENTS The Department of Veterans Affairs (VA), Financial Service Center (FSC), has a requirement for the purchase of brand name Active Navigation (or equivalent) to provide an agentless Advanced Electronic File Analysis Solution (hereafter referred to as \u201cthe Solution\u201d) to index, categorize, and tag documents within 20 terabytes (TB) of unstructured repositories. The Solution shall discover redundant, obsolete, and trivial data and remediate information at risk of spillage. The Solution must also store electronic content holdings in VA File Shares to identify duplicated content and de-duplicate files as appropriate, remediate sensitive content such as personally identifiable information (PII), protected health information (PHI), agency confidential documents, and other",
+          "finding": "VA amended solicitation increasing document repository scope from 10TB to 20TB, suggesting expanded sensitive data handling needs.",
+          "news": 4,
+          "quote": "has a requirement for the purchase of brand name Active Navigation (or equivalent) to provide an agentless Advanced Electronic File Analysis Solution (hereafter referred to as \"the Solution\") to index, categorize, and tag documents within 20 terabytes (TB) of unstructured repositories",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C10B27R0001 Amendment 0001.docx",
+      "s": "screened",
+      "sol": "36C10B27R0001"
     },
     "94f2f42bf936426899c30dd1275023df": {
       "c": 0,
@@ -13746,6 +14931,29 @@
       "s": "screened",
       "sol": "70Z02326R93280004"
     },
+    "98d1317470ee488caccd9d9162859f70": {
+      "c": 48230,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "Page 3 1305M427Q0003 BASE Section 2 - Combined Synopsis/Solicitation INTRODUCTION Regulatory Compliance & Framework This Request for Quotes (RFQ) complies with the Revolutionary FAR Overhaul (RFO) under Executive Order 14275 (Restoring Common Sense to Federal Procurement). Interpretation of References All regulatory citations, provisions, and clauses in this solicitation, whether explicit or incorporated by reference, align with the overhauled FAR text, active agency class deviations, and recent RFO rulemaking. Any legacy FAR clauses or formatting embedded in platform-standard templates are hereby superseded. They must be interpreted in accordance with the streamlined requirements, revised thresholds, and definitions established under the RFO framework. For procedural clarifications, refer to the FAR Co",
+          "finding": "NOAA solicits study on U.S. space economy metrics under new 'Revolutionary FAR Overhaul' procurement framework tied to Executive Order 14275.",
+          "news": 4,
+          "quote": "This Request for Quotes (RFQ) complies with the Revolutionary FAR Overhaul (RFO) under Executive Order 14275 (Restoring Common Sense to Federal Procurement).",
+          "verified": true
+        },
+        {
+          "finding": "NOAA requires contractors to maintain scientific integrity and investigate research misconduct, with Commerce Department retaining right to pursue disallowance of costs and suspension/debarment.",
+          "news": 3,
+          "quote": "The Department of Commerce reserves the right to pursue such remedies and other actions as it deems appropriate under applicable laws and regulations. Such remedies and actions may include, but are not limited to, disallowance of costs, recoupment of contract payments, and suspension or debarment.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Sol_1305M427Q0003.pdf",
+      "s": "screened",
+      "sol": "1305M427Q0003"
+    },
     "98ead7db521e4dc9921cdd828a38865d": {
       "c": 9146,
       "d": "2026-10-10",
@@ -13794,6 +15002,14 @@
       "s": "screened",
       "sol": "15BRRC27R00000001"
     },
+    "99214b5a90d24001af42a89a960819b7": {
+      "c": 3721,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Attachment E -Provisions and Clauses.pdf",
+      "s": "screened",
+      "sol": "SPE60526R0217"
+    },
     "9928ce7b1c0c465b85849da6a6c62072": {
       "c": 52450,
       "d": "2026-10-10",
@@ -13801,6 +15017,14 @@
       "n": "PWS - NOAA Requirement for CIMS ePACS eVSS.pdf",
       "s": "screened",
       "sol": "REQUIREMENTS-26-3295"
+    },
+    "99398c5c5da94492af126ffc9bf2bb4a": {
+      "c": 10879,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "C04f_5a McCalla-Larson Road Plans.pdf",
+      "s": "screened",
+      "sol": "12363N26R4014"
     },
     "993c96f7b2ad446b93f44186878ac2f6": {
       "c": 806,
@@ -13882,6 +15106,14 @@
       "n": "AoI W911PT26SC001-A001 Advanced Cannon Technology.docx",
       "s": "screened",
       "sol": "W911PT26SC001"
+    },
+    "99c61035cc124c82bad48ff71a08698f": {
+      "c": 267944,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Section J-11 MIL-HDBK-61B.pdf",
+      "s": "screened",
+      "sol": "70Z02326R93280004"
     },
     "99ea9364348f43f5aae669a21bfc9c94": {
       "c": 4968,
@@ -14085,6 +15317,22 @@
       "s": "screened",
       "sol": "FA487726QA238"
     },
+    "9cdf811f6c684817a26ab3112a91b39d": {
+      "c": 15124,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Air Force SABER V IDIQ construction contract for Hill AFB and test ranges with estimated $490 million maximum and 5-year base period through 2031.",
+          "news": 4,
+          "quote": "This is an Inde\ufb01nite Deliver, Inde\ufb01nite Quantity contract for construction efforts at Hill AFB, UT...Estimated Minimum: $500 Estimated Maximum: $490,000,000...From 31 Aug 2026 to 30 Aug 2031",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation Amendment - FA820126R00200001.pdf",
+      "s": "screened",
+      "sol": "FA820126R0020"
+    },
     "9d17e0fd52654b3cab258935124588db": {
       "c": 13070,
       "d": "2026-10-10",
@@ -14252,6 +15500,14 @@
       "n": "Attachment A_127EAX26Q0102 Amendment 001_SOI.xlsx",
       "s": "screened",
       "sol": "127EAX26Q0102"
+    },
+    "9ea4ffc7e3334085aea14bd852559371": {
+      "c": 20105,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "S06_Solicitation Number 36C79126R0011_Amendment Number 0003_ETMPM-TENS Requirement_Combined Document_Issued 06OCT2026_Fillable.pdf",
+      "s": "screened",
+      "sol": "36C79126R0011"
     },
     "9eca25bfda224366beea2c1b6a97e026": {
       "c": 9859,
@@ -14486,6 +15742,36 @@
       "s": "screened",
       "sol": "W519TC-26-Q-JOC1"
     },
+    "a2512f4153554bec96ef9e1bc5b53d16": {
+      "c": 18616,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Attachment 2 - Bid Schedule Rev 1.pdf",
+      "s": "screened",
+      "sol": "FA480327Q0003"
+    },
+    "a262a33c43cd414a89460092e4822494": {
+      "c": 56607,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Interior Department soliciting $5-10M contract for Eielson Visitor Center roof replacement in Denali National Park, remote Alaska facility with living roof system failures.",
+          "news": 4,
+          "quote": "Estimated Price Range: Between 5M to 10M... Originally completed in 2005, the Eielson Visitor Center is a partially below-grade, off-grid facility with a vegetated roof system that functions as natural landscape, visitor plaza, and viewing platform. The facility has experienced ongoing water infiltr",
+          "verified": false
+        },
+        {
+          "finding": "NPS requiring work on remote 66-mile interior access road with strict vehicle restrictions, oversized vehicle prohibitions, and mandatory driver training in sensitive National Park environment.",
+          "news": 4,
+          "quote": "The project site is extremely remote, located approximately 240 miles northeast of Anchorage and approximately 66 miles west of the Denali Park entrance via the Denali Park Road... Vehicles over 22 feet long, 8 feet wide, or 12 feet high or any vehicles pulling trailers are considered over-sized. Un",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "B08_FINAL_Solicitation_updated_7_31_26.pdf",
+      "s": "screened",
+      "sol": "140P2026R0087"
+    },
     "a27d2cafdb1546daabfd3957e0923b5f": {
       "c": 3346,
       "d": "2026-10-10",
@@ -14712,6 +15998,54 @@
       "s": "screened",
       "sol": "6973GH-27-R-00013"
     },
+    "a53a2ed31db74118ae92919a8f61d98e": {
+      "c": 259238,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ificant wave height of less than one foot, at 10 knots with a ten percent (10%) fuel reserve. SPECS 000-099 000-6 DISTRIBUTION STATEMENT A - Distribution Unlimited Homeland Security Cutter \u2013 Light (HSC-L) Request for Proposal (RFP) 070.2.3.3 Endurance: The vessel will be capable of conducting unreplenished icebreaking for at least three days to include: fuel, potable water, waste water, food, and solid waste. 070.2.4 Seakeeping, Dynamic Stability and Maneuverability 070.2.4.1 At speeds and loading conditions in significant wave height of one foot, the vessel shall be able to maintain a straight course ahead. 070.2.4.2 The vessel, while using no more than 1/3 of the engine\u2019s available power, shall be capable of maneuvering astern in a straight course and perform backing turns. 070.2.4.3 The vessel will be capable of surviving in seas with a significant wave height of six feet, while",
+          "finding": "Vessel designed for extended ice operations with three-day unreplenished endurance capability including fuel, potable water, waste management, and provisions.",
+          "news": 4,
+          "quote": "The vessel will be capable of conducting unreplenished icebreaking for at least three days to include: fuel, potable water, waste water, food, and solid waste.",
+          "verified": true
+        },
+        {
+          "context": "shall not become entrapped within the vessel structure when deployed against at least a 15- degree adverse list. 583.2.3 A painter cleat shall be provided for each raft on the deck edge or railing adjacent to raft stowage, for control of the painter to a deployed raft. 583.3 [A00005] RECOVERY DAVIT 583.3.1 [A00005] The vessel shall be provided with recover davit(s) that can be used to recover able-bodied and incapacitated persons from the water and bring them to the forward embarkation ports. Recovery shall be accomplished using the rescue sling or Stoke\u2019s litter. 583.3.2 [A00005] A single winch/davit may be provided that can be stowed when not in use as long as the winch/davit can be mounted at both port and starboard the forward embarkation ports within 2 minutes by two crew members without the use of tools. The complete system shall be able to be set up and operating within 3 minutes. Any required electrical connections shall be provided with",
+          "finding": "Coast Guard procuring new light icebreaker (HSC-L) with detailed specifications for Arctic/ice operations capability, rescue davits, and specialized deck equipment.",
+          "news": 4,
+          "quote": "The vessel shall be provided with recover davit(s) that can be used to recover able-bodied and incapacitated persons from the water and bring them to the forward embarkation ports.",
+          "verified": true
+        },
+        {
+          "finding": "Coast Guard ordering new light icebreaker with 30-year service life, ice-breaking capability in 12-inch ice, capable of operating in -20\u00b0F conditions.",
+          "news": 5,
+          "quote": "The vessel shall be designed for a minimum service life of 30 years... Breaking level continuous ice of 12 inches thickness at a continuous speed of 3 knots ahead... Minimum Ambient Air Temperature of \u201320\u00b0F dry bulb",
+          "verified": false
+        },
+        {
+          "finding": "HSC-L cutter requires two CAT C18 diesel engines (670 BHP each) and dual propulsion system designed specifically for icebreaking and ATON (aids to navigation) operations.",
+          "news": 4,
+          "quote": "Two main diesel engines shall be the CAT C18, 670 BHP at 2,100 RPM, B Rating (Heavy Duty)... The vessel shall have 2 main propulsors... Propulsion system components shall be current, in-production models that have been operated by the owner of the vessel after acceptance in commercial marine, naval ",
+          "verified": false
+        },
+        {
+          "finding": "Specifications require 700 planned operating hours per year, with mission profile allocating 33% to transit, 33% anchored, and 34% to icebreaking operations.",
+          "news": 3,
+          "quote": "The vessel shall be designed to operate at a planned 700 hours per year... 33% Transit, 17% Icebreaking Full Power, 17% Icebreaking Half Power, 33% Anchored",
+          "verified": false
+        },
+        {
+          "finding": "Icebreaker specifications require Marioff MAU150 water mist fire suppression system in engine room with nitrogen-powered backup for extended Arctic operations.",
+          "news": 3,
+          "quote": "The fixed firefighting system serving the machinery space shall be a Marioff MAU150 pre-engineered water mist system, or equal... shall be powered by pressurized nitrogen cylinder(s) to provide at least ten minutes of coverage.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Section J-01 HSC-L System Specification_A00007.pdf",
+      "s": "screened",
+      "sol": "70Z02326R93280004"
+    },
     "a53db343c89b49e0b9c60a7256a2298d": {
       "c": 159,
       "d": "2026-10-10",
@@ -14850,6 +16184,58 @@
       "s": "screened",
       "sol": "R707"
     },
+    "a6955ffef6274c6c927aee605fe6f16c": {
+      "c": 124767,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "____________ Med Technologists OTContract Period: Option 4POP Begin: 04-01-2031POP End: 03-31-2032PRINCIPAL NAICS CODE: 621511 - Medical LaboratoriesPRODUCT/SERVICE CODE: Q301 - Medical - Reference Laboratory Testing GRAND TOTAL __________________ B.3 STATEMENT OF WORK (SOW)-LABORATORY STAFFING ADMINISTRATIVE: Services Required: The Lt. Col. Luke Weathers, Jr. VA Medical Center (VAMC Memphis) Pathology and Laboratory Medicine Service (P&LMS) has experienced a continuous and critical shortage in staffing of Cytotechnicians, Medical Technologists, Pathology Assistant, Phlebotomists, and Medical Transcriptionist. Currently, the staffing shortage has been caused by numerous resignations and transfers at the Memphis campus. Place of Performance: VA Medical Center Memphis, 116 N. Pauline Avenue, Memphis, TN 38105. Authority: Title 38 USC 8153, Health Care Resources Sharing Authority, to include FAR Part 12 in combination with VAAR 873. Delivery: These positions are needed for five years, April 1, 2027, through March",
+          "finding": "VA staffing crisis: 5-year, $millions contract to backfill critical lab positions at Memphis VAMC due to continuous vacancies and resignations.",
+          "news": 4,
+          "quote": "The Lt. Col. Luke Weathers, Jr. VA Medical Center (VAMC Memphis) Pathology and Laboratory Medicine Service (P&LMS) has experienced a continuous and critical shortage in staffing of Cytotechnicians, Medical Technologists, Pathology Assistant, Phlebotomists, and Medical Transcriptionist. Currently, th",
+          "verified": true
+        },
+        {
+          "context": "re not technically prohibited, and that the FAR doesn't bar it. \"Indefinite quantity\" describes how many hours the VA will order, not who performs them. The concern is that this solicitation\u2019s key personnel requirement contradicts the rest of the IDIQ contract structure and that the VA wants full staffing committed but guarantees almost nothing. \u2022Offerors must name 16 specific people, provide resumes and certifications, and show they live within 75 miles, all at proposal (E.1.1, Part III; E.8 Subfactor A). \u2022The only guaranteed purchase is 3,402 hours (B.2 and 52.216-19). That is about 1.6 FTE-years, against a 16-FTE staffing model (about 34,000 hours a year on the schedule). \u2022Offeror is required to maintain this Key personnel for 6-months before the contract even begins on 04/01/2027, then has no guarantee of work hours in a location that has a massive lab staffing shortage \u2022We again request the government remove \u201cKey Personnel\u201d from this IDIQ and change it to a Recruitment Capability section of the technical to provide candidate pa",
+          "finding": "VA lab staffing contract requires contractors to name and commit 16 specific clinical lab employees with only 3,402-hour minimum guarantee (~1.6 FTE-years) against 16-FTE staffing model.",
+          "news": 4,
+          "quote": "Offerors must name 16 specific people, provide resumes and certifications, and show they live within 75 miles, all at proposal (E.1.1, Part III; E.8 Subfactor A). The only guaranteed purchase is 3,402 hours (B.2 and 52.216-19). That is about 1.6 FTE-years, against a 16-FTE staffing model (about 34,0",
+          "verified": true
+        },
+        {
+          "context": "y allowable in a personal services contract; this is a non-personal services contract. the work is performed \"under the directions of\" the Chief, yet SOW 25 describes it as nonpersonal services under FAR 37.401. We request the government review and modify this language. See updated SOW. Labor Category Requirement Concern \u2013 Pathology Assistant. There are only 3,000 ASCP certified Pathology Assistants in the United States. The entire state of Tennessee has one Pathologists' Assistant program and in October 2025 it received an initial five-year accreditation from NAACLS The program runs 24 months, split evenly between classroom coursework and clinical experience \u2013 and then the Pathologist Assistants must sit for the exam Recent VA postings for this work on usajobs.gov were classified under the 0601 General Health Science series in the competitive service and pointed to the Office of Personnel Management's general qualification standards which requires a relevant degree, not ASCP certification The CAP's guidance lists that a PA needs",
+          "finding": "VA acknowledges only ~3,000 ASCP-certified Pathology Assistants exist nationwide; Tennessee has one training program; VA insists on certification anyway despite market scarcity.",
+          "news": 4,
+          "quote": "There are only 3,000 ASCP certified Pathology Assistants in the United States. The entire state of Tennessee has one Pathologists' Assistant program and in October 2025 it received an initial five-year accreditation from NAACLS",
+          "verified": true
+        },
+        {
+          "context": "orderdriven model\u2014not an oncall pool. SOW 2.B\u2019s statement that services are \u201cas needed\u201d with 30day notice for Medical Technologist roles aligns with IDIQ ordering principles: Task Orders determine workload, timing, staffing levels, and hours. The VA is not committing to fulltime usage of all 16 positions. The substitution rule is extremely tight. Subsitutions are allowed only for illness, death or termination. (SOW 2.c) That locks in 16 named individuals for up to 5 years with no guaranteed work. We request that the government remove/modify this language as it is unrealistic to expect an offeror to retain employees with no guaranteed work for 5 years. See updated SOW. E.1.1 Part I Admin, requires offerors submit a copy of their VetCert, which no longer exists \u2013 we request the government update this to a copy of current SBA Small Business Search Record and Sam Reps and Certs. See updated SOW. E.1.1 Part II Past Performance \u2013 Does not state the time frame for the government to determine recency, stating \u201cat least three references f",
+          "finding": "VA lab contract prohibits contractor staff substitution except for illness, death or termination, locking 16 named individuals into 5-year commitment with no guaranteed work hours.",
+          "news": 4,
+          "quote": "Subsitutions are allowed only for illness, death or termination. (SOW 2.c) That locks in 16 named individuals for up to 5 years with no guaranteed work.",
+          "verified": true
+        },
+        {
+          "context": "eterans Affairs 1.23VAMC: Veterans Affairs Medical Center 1.24VetPro: a federal web-based credentialing program for healthcare providers 1.25VHA: Veterans Health Administration 1.26ACLS: Advanced Cardiac Life Support 1.27BLS: Basic Life Support ASCP-BOR American Society of Clinical Pathology KEY PERSONNEL AND TEMPORARY EMERGENCY SUBSTITUTIONS: The contractor shall provide sixteen (16) personnel-comprised of full-time and one part-time position to the VAMC Memphis the following key personnel: One (1) -Cytopreparation Technician Two (2) -ASCP/AMT Certified Medical Technologist One (1) -Pathologists Assistant Eleven (11) -Phlebotomists, Medical Technicians One (1) -Medical Transcriptionist The contractor shall provide services on an as needed basis. The contractor will be provided with a thirty (30) day advance notice by VAMC Memphis prior to requesting the medical technologist services. Upon request for the medical technologist services, the contractor will also be provided with the term of services required. The VAMC Memphis",
+          "finding": "Contract requires 16 laboratory staff (phlebotomists, technologists, assistants, transcriptionist) for 5 years starting April 2027, structured as indefinite-quantity with 3,402-hour minimum.",
+          "news": 3,
+          "quote": "The contractor shall provide sixteen (16) personnel-comprised of full-time and one part-time position to the VAMC Memphis the following key personnel: One (1) -Cytopreparation Technician, Two (2) -ASCP/AMT Certified Medical Technologist, One (1) -Pathologists Assistant, Eleven (11) -Phlebotomists, M",
+          "verified": true
+        },
+        {
+          "context": "support consistent staffing levels. This preference is not an evaluation factor and is not a requirement for award. Experience/Past Performance: The past performance of candidates will also weigh into the overall evaluation. Three references must be submitted for each candidate that is submitted for evaluation. APPROVAL OF CONTRACTOR PERSONNEL The Department of Veterans Affairs reserves the right to refuse employment under this contract or require dismissal from contract work of any contractor employee or subcontractor employee because of unsatisfactory performance or for any other reasonable reason considered by the Chief, Pathology and Laboratory Medicine Service, the Chief, of Staff, and the Contracting Officer to be objectionable, upon written notification of unsatisfactory performance to the Contractor. ORIENTATION Orientation will consist of 4-8 hours of training including unit specific orientation. Included in the orientation will be: Infection Control Policy - Standard Precautions Laboratory Safety Blood Borne Pathog",
+          "finding": "VA reserves right to refuse or dismiss contractor employees for unsatisfactory performance or unspecified 'objectionable' reasons without detailed procedures.",
+          "news": 3,
+          "quote": "The Department of Veterans Affairs reserves the right to refuse employment under this contract or require dismissal from contract work of any contractor employee or subcontractor employee because of unsatisfactory performance or for any other reasonable reason considered by the Chief, Pathology and ",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C24926Q0334 A0001.docx",
+      "s": "screened",
+      "sol": "36C24926Q0334_1"
+    },
     "a69b12be8d864e978ee4d794c0735a3f": {
       "c": 35108,
       "d": "2026-10-10",
@@ -14952,6 +16338,14 @@
       "n": "36C26227Q0037.docx",
       "s": "screened",
       "sol": "36C26227Q0037"
+    },
+    "a7ab7bf7a9394612b6c97505140a5905": {
+      "c": 67823,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Sol_140R4025R0017.pdf",
+      "s": "screened",
+      "sol": "140R4025R0017"
     },
     "a7de07d68b4c4345887ead43e77da661": {
       "c": 24438,
@@ -15315,6 +16709,14 @@
       "s": "screened",
       "sol": "36C24W26R0055"
     },
+    "abab30d56ccb4675b22f6d9d8efcc32d": {
+      "c": 159824,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Solicitation Attachment - 1999 As-Built Drawings_20260918.pdf",
+      "s": "screened",
+      "sol": "FA441826R0009"
+    },
     "abb638c23cac456b8611aee577d4fe05": {
       "c": 0,
       "d": "2026-10-10",
@@ -15322,6 +16724,14 @@
       "n": "Attachment 2 - Wage Determination dated 12 Aug 2026.pdf",
       "s": "wage_determination",
       "sol": "FA449726Q0055"
+    },
+    "abcb1220cf5b4fbfa96913d171daedf8": {
+      "c": 207249,
+      "d": "2026-10-12",
+      "m": "zip",
+      "n": "RFP DH-377725 - Housekeeping Services.zip",
+      "s": "screened",
+      "sol": "DH-377725"
     },
     "abd53175c4b34346aa30169266cb4a4f": {
       "c": 3083,
@@ -15579,6 +16989,14 @@
       "s": "wage_determination",
       "sol": "FA441826R0009"
     },
+    "aed11c7123dd41d88b851c7b24f41e1f": {
+      "c": 78658,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "SPRDL1-27-Q-A001.pdf",
+      "s": "screened",
+      "sol": "SPRDL1-27-Q-A001"
+    },
     "af4230535c21474f81510157f291ebee": {
       "c": 12821,
       "d": "2026-10-10",
@@ -15689,6 +17107,36 @@
       "n": "Request for Information for Commissioning Agent.pdf",
       "s": "screened",
       "sol": "EMO-26-0001"
+    },
+    "afd92d7800f046639e11fe290da855d4": {
+      "c": 101615,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": ": As the threat space evolves, a clear and present need emerges for the United States\u2019 industrial base to rapidly design, affordably manufacture, and flight demonstrate meaningful long-range hypersonic warfighter capabilities. These concepts should provide the capability to hold time- sensitive targets at risk from long-range, standoff positions. This anticipated call will solicit innovative solutions for producing an operationally relevant, air- launched hypersonic weapon for less than 1/5 the cost and greater than 5x the production rate of current systems (NOTE: Specific production and cost targets for the TAWODI project, while CUI, are held in a secret-collateral document listed in Section 2.0 of the SOO and must be requested). Offerors are encouraged to consider modular, open architectures together with aggressive application of design for manufacturing and digital engineering principles. The Government intends to award baseline contracts (with a base period/option for foundational work, e.g., kickoff, conceptual development, pre",
+          "finding": "Air Force seeking hypersonic air-launched weapons at 1/5 cost and 5x production rate, 3 competitive awards expected by March 2027",
+          "news": 5,
+          "quote": "This anticipated call will solicit innovative solutions for producing an operationally relevant, air-launched hypersonic weapon for less than 1/5 the cost and greater than 5x the production rate of current systems",
+          "verified": true
+        },
+        {
+          "context": "ability, acceleration, etc.). The DS test article design and development approach may be optimized to meet an aggressive test schedule and may be ground-launched provided there is adequate traceability to the OS. For any flight testing conducted under the Capstone Testing Sprint, operation in a contested or GPS-denied environment is not required. If the contractor proposes flight testing, the contractor shall produce at least two flight test vehicles, integrate all systems, support safety/range coordination, and collect and analyze data from at least two flight test events. Similarly, with any proposed ground testing, the Contractor will be responsible for producing the test article, supporting installation in the facility, and collecting/analyzing test data. The Government will review the proposed Capstone Test Plan to determine whether the event is sufficiently complex to credibly retire/reduce key system risks. A milestone for this option is the Capstone Readiness Review (CPRR), which formally",
+          "finding": "TAWODI contractors required to produce at least two flight test vehicles and conduct at least two flight test events for capstone demonstration",
+          "news": 4,
+          "quote": "If the contractor proposes flight testing, the contractor shall produce at least two flight test vehicles, integrate all systems, support safety/range coordination, and collect and analyze data from at least two flight test events.",
+          "verified": true
+        },
+        {
+          "finding": "Tactical Air-Launched Weapon Demonstrating Industrialization (TAWODI) program includes capstone flight or ground testing with 18-month timeline from System Requirements Review",
+          "news": 4,
+          "quote": "The objective of this project is to develop an operationally relevant, air-launched hypersonic weapon for less than 1/5 the cost and greater than 5x the production rate of current systems...with the intent to select and execute capstone test events with two independent vendors 18 months from the Sys",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "CALL for TAWODI dated 9 Oct 2026.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
     },
     "afee120f6b0a4823b1a7ada85ccb93a1": {
       "c": 1038,
@@ -16010,6 +17458,34 @@
       "s": "screened",
       "sol": "FA461027R0001"
     },
+    "b3a1bd5434274239b09e98fadcc5cfa0": {
+      "c": 114989,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "USDA Forest Service soliciting 10-year stewardship contract worth estimated $350K\u2013$550K for mandatory road reconstruction plus timber harvest on 145,000-acre Montana forest to mitigate wildfire risk.",
+          "news": 4,
+          "quote": "The Bitterroot Front Project Area is approximately 145,000 gross acres and spans both the Stevensville and Darby Ranger District...The overall objective of the Bitterroot Front Project is to address the wildfire risk to the nearby communities and promote forest restoration using a wide range of tool",
+          "verified": false
+        },
+        {
+          "finding": "Contract includes controversial DEI compliance clause requiring contractors to certify they do not fund DEI programs that violate civil rights law, citing executive orders on gender ideology.",
+          "news": 3,
+          "quote": "Neither it nor any subcontractor or teaming partner operates or funds any program, policy, or initiative that promotes DEI in a manner that violates any applicable Federal anti-discrimination laws...the contractor will not do so for the duration of the contract.",
+          "verified": false
+        },
+        {
+          "finding": "Forest Service contract explicitly allows use of H-2B temporary foreign workers and requires contractors to obtain Farm Labor Contractor certification for migrant/seasonal agricultural workers.",
+          "news": 3,
+          "quote": "If workers are hired under the H-2B program, (8 CFR Section 274A provisions of the Immigration and Nationality Act (INA) for the admission of nonimmigrants to the U.S. to perform temporary labor or services) a Temporary Employment Certification issued by the Office of Foreign Labor Certification (OF",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "C04a_1. 12363N25R4013 BRF LTIRSC.pdf",
+      "s": "screened",
+      "sol": "12363N26R4014"
+    },
     "b3a6d0b240bf4fe1b839010e858f3abe": {
       "c": 23488,
       "d": "2026-10-10",
@@ -16060,6 +17536,14 @@
       "s": "screened",
       "sol": "W911PT26SC001"
     },
+    "b3eedbb4338d4cd6953131edfe664718": {
+      "c": 111676,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "DENA_332037_As_Built_Drawings_0001.pdf",
+      "s": "screened",
+      "sol": "140P2026R0087"
+    },
     "b41d0e75623a4927852a10412b24fc28": {
       "c": 27113,
       "d": "2026-10-10",
@@ -16083,6 +17567,58 @@
       "n": "36C24E26P0048_1.docx",
       "s": "screened",
       "sol": "36C24E26P0048"
+    },
+    "b4b34648b3714798a9cdeb62340e06b3": {
+      "c": 243711,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "ered at least $3,500,000 in services under this contract, the Government has satisfied the minimum guarantee. The Government does not guarantee any orders or dollar value above the $3,500,000 minimum. Page 6 of 105 36C10X27R0001 (2) Maximum Value: The maximum value for MDE-NG is $40,000,000,000 in the aggregate across all MDE-NG IDIQ contracts and all SGs for the entire contract period, including all options. The $40 billion maximum is a single shared ceiling for the MDE-NG acquisition. It is not a separate ceiling for each contractor or SG and will not be divided or multiplied by the number of contracts or SGs awarded. Consistent with RFO 16.504-1(c) and 52.216-22, the Government may issue orders under the MDE-NG IDIQ contracts only to the extent that the aggregate value of all orders does not exceed $40 billion. All orders issued under all MDE-NG IDIQ contracts and SGs count toward this s",
+          "finding": "$40 billion ceiling for Medical Disability Examinations contracts across all vendors; largest VA procurement documented.",
+          "news": 5,
+          "quote": "The maximum value for MDE-NG is $40,000,000,000 in the aggregate across all MDE-NG IDIQ contracts and all SGs for the entire contract period, including all options.",
+          "verified": true
+        },
+        {
+          "context": "and withstand appellate review. VBA Rating Veterans Service Representatives (RVSRs) and Decision Review Officers (DROs) rely on these examination results, together with other evidence of record, to determine entitlement to disability compensation and pension benefits. Claimants requiring MDEs may include Veterans and active-duty Service Members. Active-duty Service Members may participate in two joint Department of Defense (DoD)-VA disability evaluation programs. The Integrated Disability Evaluation System (IDES) evaluates Service Members' fitness for continued military service while simultaneously determining VA disability benefits, helping to streamline the transition to Veteran status. The Benefits Delivery at Discharge (BDD) program enables eligible Service Members to file disability compensation claims before separating from military service. Both CONUS and OCONUS military installations participate in the IDES and BDD programs. 2.0 OBJECTIVE VA\u2019s objective is to provide Veteran-centric, efficient MDEs using a robust network o",
+          "finding": "VA outsourcing military disability evaluations (IDES/BDD) to private contractors serving active-duty service members.",
+          "news": 4,
+          "quote": "Active-duty Service Members may participate in two joint Department of Defense (DoD)-VA disability evaluation programs. The Integrated Disability Evaluation System (IDES) evaluates Service Members' fitness for continued military service while simultaneously determining VA disability benefits",
+          "verified": true
+        },
+        {
+          "context": "mpleted. Page 4 of 105 36C10X27R0001 b. FFP Monthly (MO): All other FFP Tasks (e.g., Task 2 Scheduling, etc.) will be Monthly and paid according to the monthly unit price for the TO\u2019s performance period. (3) Multiple Awards: The Government intends two to four contracts for each Service Group. C. CONTRACT PERIOD: This contract\u2019s ordering period will be broken into a 12-month base period and four 12- month option periods, as structured below, with the option to extend. Options will be exercised at the Government\u2019s sole discretion, in accordance with the applicable contract clauses. The Government may issue orders within any active period of performance. Base Period: July 1, 2027 \u2013 June 30, 2028 Option Period 1: July 1, 2028 \u2013 June 30, 2029 Option Period 2: July 1, 2029 \u2013 June 30, 2030 Option Period 3: July 1, 2030 \u2013 June 30, 2031 Option Period 4: July 1, 2031 \u2013 June 30, 2032 D. SERVICE",
+          "finding": "Multiple awards (2-4 contracts per service group) for nationwide disability exam network; winner-take-all risk for single-contractor regions.",
+          "news": 4,
+          "quote": "The Government intends two to four contracts for each Service Group.",
+          "verified": true
+        },
+        {
+          "context": "Price (FFP) Line Items with limited Time-and-Material (T&M), Other Direct Costs (ODC) Line Items for travel and special modes of transportation 52.216-27 SINGLE OR MULTIPLE AWARDS OCT 1995 Paragraph is completed as follows: The Government estimates that it will make two to four IDIQ awards for each Service Group. 52.222-56 CERTIFICATION REGARDING TRAFFICKING IN NOV 2025 PERSONS COMPLIANCE PLAN (DEVIATION) 52.229-11 TAX ON CERTAIN FOREIGN PROCUREMENTS\u2014NOTICE JUN 2020 AND REPRESENTATION 852.209-70 ORGANIZATIONAL CONFLICTS OF INTEREST OCT 2020 852.233-70 PROTEST CONTENT/ALTERNATIVE DISPUTE OCT 2018 RESOLUTION 852.233-71 ALTERNATE PROTEST PROCEDURE OCT 2018 852.233-71 ALTERNATE PROTEST",
+          "finding": "VA plans indefinite-quantity contract for medical disability exams across six service groups; multiple simultaneous awards expected ($0 minimum guarantee).",
+          "news": 4,
+          "quote": "The Government estimates that it will make two to four IDIQ awards for each Service Group.",
+          "verified": true
+        },
+        {
+          "context": "ernational) 3.8 **Pre-Discharge Average of DBQs per ESR based on 2022-2025 only; a change to the structure of the Separation Health Assessment (SHA) in 2024 may impact / reduce the number of DBQs per ESR though this average retains an even volume of DBQs based on current available data. 3.4 CONTRACT RAMP-UP The Contractor must: A. For each awarded Service Group, complete ramp-up and be capable of accepting the full ESR workload required under applicable task orders no later than one (1) year after award. If the Contractor is selected as Immediate-Ready for a Service Group, it must be capable of accepting and performing the Government-established Continuity Workload Requirement (CWR) for that Service Group no later than 30 calendar days after contract award while meeting all applicable PWS prerequisites (see Attachment H Continuity Workload Requirement). B. Establish an Examiner network capable of supporting the ESR workload the Contractor is required to perform under applic",
+          "finding": "5-year ramp-up period allows 12 months for contractors to build examiner networks and IT systems before full workload acceptance.",
+          "news": 3,
+          "quote": "For each awarded Service Group, complete ramp-up and be capable of accepting the full ESR workload required under applicable task orders no later than one (1) year after award.",
+          "verified": true
+        },
+        {
+          "context": "independent throughout contract performance. For purposes of this section, a joint venture (JV) that receives an award is considered a single Prime Contractor. The formation and operation of a JV for purposes of competing for and performing an MDE-NG contract does not, by itself, constitute a prohibited relationship among the members of that JV. Separate Prime Contractors supporting the same service group must not: \u2022 Have a direct parent/subsidiary relationship; \u2022 Share a common parent entity; \u2022 Have an owner or shareholder in common that holds more than a 5% direct or indirect ownership interest in each Prime Contractor; \u2022 Have participated together in the same JV during the one-year period immediately preceding solicitation closing, whether or not that JV was related to MDE-NG; or \u2022 Form or participate together in a JV during contract performance. For purposes of applying these restrictions, when a Prime Contractor is a JV, the Government will consider the JV and each of its members in determining wheth",
+          "finding": "Contract bars competing prime contractors from sharing common ownership, participating in same JV, or accessing each other's IT systems; strict independence required.",
+          "news": 3,
+          "quote": "Separate Prime Contractors supporting the same service group must not: Have a direct parent/subsidiary relationship; Share a common parent entity; Have an owner or shareholder in common that holds more than a 5% direct or indirect ownership interest",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "DRAFT_MDE-NG RFP_36C10X27R0001.pdf",
+      "s": "screened",
+      "sol": "36C10X27R0001"
     },
     "b4b6a958aafc42e69857c8ac5ef5d0a9": {
       "c": 3339,
@@ -16552,6 +18088,22 @@
       "s": "screened",
       "sol": "N4523A26Q5741"
     },
+    "b8c13ce9f8e446a9a782adb365905c86": {
+      "c": 20754,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "Atch 2 Model Contract FA2391-24-C-B044.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
+    },
+    "b8d857f24b6a4a8da8ea695e1c71256c": {
+      "c": 191347,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "C05_A002_3 BRF GZ LTIRSC Appendix B.pdf",
+      "s": "screened",
+      "sol": "12363N26R4014"
+    },
     "b8db5d42164e47b696e9129b75f0f671": {
       "c": 11738,
       "d": "2026-10-10",
@@ -16809,6 +18361,41 @@
       "s": "screened",
       "sol": "FA252127QB013"
     },
+    "bc09ee1dda794069879636d7636bc1cb": {
+      "c": 179570,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "tion which indicates the individual\u2019s continued entry onto Hill AFB is not in the best interest of national security. Additionally, the violation of any deviation from established security procedures by the Contractor\u2019s employee may result in the confiscation of all access credentials and the denial of future entry onto Hill AFB. RECORDING DEVICES Cameras, PDA\u2019s, Blackberry\u2019s, Cell Phones, Smart Watches, key FOB\u2019s or any other recording devices shall not be allowed in Restricted Areas (RA\u2019s) or Sensitive Compartmented Information Facility (SCIF) areas. SPECIAL PROVISIONS FOR WORKING ON OR NEAR THE AIRFIELD OR AIRFIELD HANGARS The following provisions apply when work is required to take place on an active airfield/hangar, or within the clear zones or primary surfaces. Flight lines are present on Hill AFB. If the Contractor is required to drive on the flight line; they must receive the required license and training in accordance with AFI 13-213 Airfield Driving. All runway, taxiway or hangar closures will require the coordination with A",
+          "finding": "Hill AFB contract prohibits recording devices including cameras, cell phones, and smartwatches in restricted and SCIF areas; violation can result in loss of base access.",
+          "news": 3,
+          "quote": "Cameras, PDA's, Blackberry's, Cell Phones, Smart Watches, key FOB's or any other recording devices shall not be allowed in Restricted Areas (RA's) or Sensitive Compartmented Information Facility (SCIF) areas.",
+          "verified": true
+        },
+        {
+          "finding": "Air Force solicitation for SABER V contract at Hill AFB requires contractors to obtain security clearances and unescorted access badges; restricted areas contain priority DoD resources.",
+          "news": 4,
+          "quote": "Because priority resources are contained within the restricted area, a single security system and circulation controls are required. A Contractor must demonstrate that they will require unescorted access to a controlled/restricted area at least 3-5 times per week for at least six (6) months",
+          "verified": false
+        },
+        {
+          "finding": "Utah Test & Training Range (UTTR) restricts contractor access to U.S. citizens only and requires security clearances, non-disclosure agreements, and extensive vetting procedures.",
+          "news": 3,
+          "quote": "The individual is a United States Citizen. All visitors who require access to UTTR facilities must submit a Hill AFB Form 0-74, ten (10) working days prior to the visit (15 working days prior for groups of 15 or more)",
+          "verified": false
+        },
+        {
+          "finding": "Contractors at Hill AFB must pre-authorize all hazardous materials 45 days before work and track usage; failure to follow authorization process makes contractor liable for permit violations.",
+          "news": 3,
+          "quote": "The following information should be provided to the HMMP Program (75 CEG/CEIEA) 45 days prior to planned activities / commencement of work on site... Contractors that do not follow the above process for authorization and tracking are liable for any associated notices of violations or permit deviatio",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "Attachment_01_SABER 2027 SOW 10SEP2026.docx",
+      "s": "screened",
+      "sol": "FA820126R0020"
+    },
     "bc0db4f202494de0b8fbe26bd21166d4": {
       "c": 4277,
       "d": "2026-10-10",
@@ -16930,6 +18517,44 @@
       "n": "SOW HVAC - Danbury - Draft.pdf",
       "s": "screened",
       "sol": "15BGCS26N20300004"
+    },
+    "bd3348a8fc8b4045a480871631c42fd0": {
+      "c": 41631,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "crew arrives, performs operations, maintenance, or utilization activities, and then departs\u2014leaving the destination uncrewed between visits. 1.7.2 Continuous Crew Mission A continuously crewed mission refers to the Destination that is continuously occupied by USG Crew with no more than a 14 day lapse in USG Crew presence between crew handovers. Continuous crew capability requires regular crew rotations and resupply so that a continuous human presence is maintained in space. 1.8 Definitions of Crewmembers Table 1.82.5-1 defines the types of CLDS Crewmembers that will be selected, trained, and approved to fly in accordance with SOW Section 2.20 Crew Selection and Mission Evaluation. TABLE 1.82.5-1 CREWMEMBER DEFINITIONS Crew Any human on board the space system during the mission that has been trained to monitor, operate, and control parts of, or the whole space system; same as flight crew or crewmember. In",
+          "finding": "NASA Commercial Low Earth Orbit Destination contract specifies continuous crewed presence in space with crew rotations and resupply, marking major shift in commercial space station operations.",
+          "news": 5,
+          "quote": "Continuous crew capability requires regular crew rotations and resupply so that a continuous human presence is maintained in space.",
+          "verified": true
+        },
+        {
+          "context": "discoveries, and United States economic competitiveness and commercial participation in low-Earth before ISS decommissioning and deorbit at the end of calendar year 2030. To accomplish this strategic goal, NASA is seeking to award multiple Phase 2 FAR-based contracts to one or more U.S. Commercial LEO Destination System contractors for the design, development, manufacture, test, launch, deployment, activation and checkout, demonstration and certification of the Commercial LEO Destination System (CLDS) to purchase end-to-end services. 1.1 Background In 2019, NASA established the Commercial Low Earth Orbit (LEO) Development Program (CLDP) Office at the NASA/Johnson Space Center (JSC) to lead the U.S. commercialization of LEO and to stimulate private sector\u2019s investment in LEO by (a) offering Private Astronaut Missions (PAMs) to/from the International Space Station (ISS) and (b) pursuing multiple commercial LEO destination Phase 1 development agreements. These Phase 1 commercial LEO destination agreements range in scope from the Comme",
+          "finding": "NASA contracting for end-to-end commercial space destination services including crew and cargo transportation, marking privatization of human spaceflight operations beyond traditional ISS model.",
+          "news": 4,
+          "quote": "development, manufacture, test, launch, deployment, activation and checkout, demonstration and certification of the Commercial LEO Destination System (CLDS) to purchase end-to-end services.",
+          "verified": true
+        },
+        {
+          "context": "Mission Integration and Operations Management Plan (MIOMP). The Contractor shall receive all USG manifested hardware items for integration into launch configuration integrated assemblies (i.e. Cargo Transfer Bags (CTBs)) in accordance with the DRD CLDC-201 Mission Integration and Operations Management Plan (MIOMP). For any crew or cargo mission, the Contractor shall ensure NASA has first right of refusal of no less than 70% of the available late load and early destow volume capability. The exact volume will be documented at the CLIN 3 RFTOP award based on the Contractor proposed vehicle traffic plan. The Contractor shall receive, de-integrate and deliver all USG return manifested items to the USG in accordance with the DRD CLDC-201 Mission Integration and Operations Management Plan (MIOMP). The Contractor shall describe the capabilities and constraints of the Destination, the Crew Visiting Vehicle(s) (CVV), and the Cargo Visiting Vehicle(s) (CaVV) as they pertain to interfaces with crewmembers and cargo items in accordance with DR",
+          "finding": "NASA reserves right of first refusal on 70% of available cargo capacity on commercial destination vehicles, establishing government priority access framework.",
+          "news": 4,
+          "quote": "the Contractor shall ensure NASA has first right of refusal of , not including cargo allocated to crew or vehicle requirements,.no less than 70% of the available cargo not allocated to crew or vehicle requirements.",
+          "verified": true
+        },
+        {
+          "context": "ment of Work (SOW) PART I THE SCHEDULE The Contractor shall obtain and maintain National Security Facility Clearance Level (FCL) per Clause I.12 NFS 1852.240-75 Security Classification Requirements (SEP 2025) (DEVIATION) up to TOP SECRET and as identified in the Task Order requirements, provide SECRET/TOP SECRET security clearances for a limited number of personnel that may need to supporting functions identified by NASA as requiring this level of clearance in accordance with Attachment J-18 Contract Security Classification Specification (DD254). NASA is not requiring the Contractor to maintain a Sensitive Compartmented Information Facility (SCIF) but shall have the capability to support conversations over secure communication channels. The Government does not anticipate to need to use S/TS clearance until CLIN 3 at which time the Contractor will have to possess a current National Security Facility Clearance Level (FCL) up to TOP SECRET in order to work on CLIN 3. 2.1 Program Management",
+          "finding": "Contract requires SECRET security clearances for limited contractor personnel supporting commercial space destination operations and establishes government facility access controls.",
+          "news": 4,
+          "quote": "SECRET security clearances for a limited number of personnel that may need to supporting functions identified by NASA as requiring this level of clearance",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "80JSC027R0004 Cover Letter Enclosure 2 Attachment J-01_CLDC Final SOW_redlined.pdf",
+      "s": "screened",
+      "sol": "80JSC027R0004"
     },
     "bd6bde879f1047f59550724e373f2a79": {
       "c": 0,
@@ -17159,6 +18784,14 @@
       "n": "S02 - TMS 20939 No Access Training.pdf",
       "s": "screened",
       "sol": "36C26327Q0023"
+    },
+    "c003833633d94c47bf5e5eecfb173996": {
+      "c": 55727,
+      "d": "2026-10-12",
+      "m": "xlsx",
+      "n": "Attachment 5 - Pathology Schedule of Services_09282026.xlsx",
+      "s": "screened",
+      "sol": "36C26326R0063"
     },
     "c01b1bc8b4354f1e92043c7a00621fe9": {
       "c": 1878,
@@ -17514,6 +19147,14 @@
       "s": "screened",
       "sol": "MXDP261002  "
     },
+    "c39adc3db72a40e3aaded3739ed6bde1": {
+      "c": 8985,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "C05_A002_1 12363N25R4013 BRF LTIRSC.pdf",
+      "s": "screened",
+      "sol": "12363N26R4014"
+    },
     "c3ca0e7681c740c3923feb8de13fc6b0": {
       "c": 8487,
       "d": "2026-10-10",
@@ -17529,6 +19170,28 @@
       "n": "JA Radformation2- redacted 2.pdf",
       "s": "screened",
       "sol": "36C10B26Q0678"
+    },
+    "c444fd17391c40058cd02fb108dbb635": {
+      "c": 58274,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Air Force AFRL seeking aerospace system design research contractors; multiple-award IDIQ with anticipated awards April\u2013June 2026 for 120-month contract with 60-month ordering period.",
+          "news": 4,
+          "quote": "It is anticipated that awards under this Call will be an IDIQ type contract with Cost Plus Fixed Fee (CPFF) Task Orders and CLINs anticipated. The IDIQ structure is anticipated to be a multiple award IDIQ arrangement subject to fair opportunity. Anticipated contract award date is approximately April",
+          "verified": false
+        },
+        {
+          "finding": "AFRL imposing security vetting and export-control restrictions: contractors need DD Form 2345, SPRS score of 110, and Military Critical Technical Data Agreement to access full statement of work; foreign nationals limited to public-domain information only.",
+          "news": 3,
+          "quote": "SOOs/SOWs will be disseminated by request once a valid Military Critical Technical Data Agreement DD2345 is provided and the SPRS score of 110 is confirmed. Foreign Nationals employed by the prime will be limited to public domain information only.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "CALL for VOLARE dated 21 JULY 2025.pdf",
+      "s": "screened",
+      "sol": "FA2391-23-S-2403"
     },
     "c45515211bdc491fbacd8c9bd75ada3b": {
       "c": 78332,
@@ -18267,6 +19930,22 @@
       "s": "screened",
       "sol": "FY27-IHS-OHR-LDP"
     },
+    "cba44c01f4c64fddb1f0b1cafa1b289c": {
+      "c": 2912,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "VA facility maintenance contract at Frederick, MD extended to October 23, 2026 with new wage determinations and revised Performance Work Statement.",
+          "news": 4,
+          "quote": "HOUR & DATE for Receipt of Offers is EXTENDED to: 10-23-2026 10:00 EDT...Incorporate new Wage Determinations (Attachments D & E)...Incorporate revised Performance Work Statement",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "AMENDMENT 0001  36C10X26Q0091 dtd 2 Oct 2026.pdf",
+      "s": "screened",
+      "sol": "36C10X26Q0091"
+    },
     "cbdbd53d51ba4d588859b3cb93bbc878": {
       "c": 17730,
       "d": "2026-10-10",
@@ -18421,6 +20100,14 @@
       "s": "screened",
       "sol": "FA449726Q0055"
     },
+    "cd6417a91acf4a3ea22c39143f78173b": {
+      "c": 82316,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Attachment_05_CARMA_Business_Standards__76_pages.pdf",
+      "s": "screened",
+      "sol": "140R3026R0012"
+    },
     "cdd59b1c39064c98bf7fc62c37a7814f": {
       "c": 16832,
       "d": "2026-10-11",
@@ -18561,6 +20248,14 @@
       "s": "screened",
       "sol": "80JSC025_CLDC_TECH_LIBRARY"
     },
+    "cf3d200cee024a16b192efccee62419f": {
+      "c": 134652,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "Attachment 01 Performance Work Statement.pdf",
+      "s": "screened",
+      "sol": "N0003926R0005"
+    },
     "cf675edee1b14d5a8ee47afb7407f903": {
       "c": 471,
       "d": "2026-10-10",
@@ -18584,6 +20279,14 @@
       "n": "Fort Carson ECS Industry Day Attendees.pdf",
       "s": "screened",
       "sol": "W912QR-IndustryDay-FortCarsonECS-CMARwithOTA"
+    },
+    "cff0340d21a540e6959b8786e70b97f0": {
+      "c": 116147,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "USCA27R0009 - Jury Management Solution DRAFT RFP.pdf",
+      "s": "screened",
+      "sol": "USCA27R0009"
     },
     "cffe8cb2ffa245879e814a4b00ebf694": {
       "c": 5075,
@@ -18633,6 +20336,29 @@
       "n": "Attachment 1 - Instructions.pdf",
       "s": "screened",
       "sol": "MIRA_CAMERA"
+    },
+    "d07a64bf62824e9483c3e874b83ce16e": {
+      "c": 32674,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": ". 23. 24. ITEM NO. SCHEDULE OF SUPPLIES/SERVICES QUANTITY UNIT UNIT PRICE AMOUNT This RFP constitutes a formal invitation for Offerors to submit proposals for the Electro Therapeutic Modalities for Pain Management & Transcutaneous Electrical Nerve Stimulation requirement. The purpose of this RFP is to competitively establish FFP single award IDIQ contracts for the procurement of the commercial devices identified at the CLINs and SLINs listed in Section B. Offerors shall propose to all CLINs/SLINs they wish to be considered for award, submit product samples for all proposed CLINs/SLINs, submit unit pricing on all proposed CLINs/SLINs, submit technical documentation, and evaluation tier app",
+          "finding": "VA procuring 170,556+ TENS pain management devices for veterans over 5-year contract worth up to $500 million",
+          "news": 4,
+          "quote": "the sum of all individual contract maximums does not exceed the aggregate program ceiling of $500,000,000.00",
+          "verified": true
+        },
+        {
+          "finding": "Contract includes mandatory tiered set-aside for service-disabled veteran-owned businesses (SDVOSB) as primary competition tier",
+          "news": 3,
+          "quote": "Tier 1 \u2013 SDVOSB; b) Tier 2 \u2013 VOSB; concerns); and evaluation first.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S02_RFP Number 36C79126R0011_ETMPM-TENS Requirement_Fillable.pdf",
+      "s": "screened",
+      "sol": "36C79126R0011"
     },
     "d0a8f2a32eaa47028949dd2e15f04745": {
       "c": 0,
@@ -18760,6 +20486,36 @@
       "n": "CLASS_ACT Solicitation_Amd 0001.pdf",
       "s": "screened",
       "sol": "HQ084526SC002"
+    },
+    "d1e2bc893e8d41df94a732efb4dcb0c3": {
+      "c": 35937,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "National Park Service seeks $10M+ contractor for Bryce Canyon water system rehabilitation, including well coordination with U.S. Forest Service.",
+          "news": 4,
+          "quote": "Estimated Price Range: More Than $10,000,000...Note that the wells and a portion of the raw water line (approx. 500 linear feet) are on Dixie National Forest land managed by the US Forest Service (USFS).",
+          "verified": false
+        },
+        {
+          "finding": "Park will remain open during construction; contractor must minimize visitor impact while executing 550-day water infrastructure project in remote Utah location.",
+          "news": 3,
+          "quote": "The Park will remain open during construction thus contract activities and logistics must be structured and scheduled to minimize visitor impact. The anticipated 550 calendar day period of performance includes potential weather shutdown and winter construction may be required.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "B08_Final_Solicitation_Package-08-24-26.pdf",
+      "s": "screened",
+      "sol": "140P2026B0004"
+    },
+    "d1e89a1fccd842839577f3197ba962a7": {
+      "c": 179603,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "IFB Solicitation -  ME NP ACAD BRG(2).pdf",
+      "s": "screened",
+      "sol": "693C73-27-B-000002"
     },
     "d21bc26f7bb24fbb9c6729766f207a37": {
       "c": 17141,
@@ -19170,6 +20926,14 @@
       "s": "boilerplate_only",
       "sol": "FA461027R0001"
     },
+    "d72abed2553741999b180abb091322c6": {
+      "c": 152991,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "S02 - VHA Directive 1061 4.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0023"
+    },
     "d746332b4efd4eb38db48e8356e0beca": {
       "c": 504104,
       "d": "2026-10-10",
@@ -19407,6 +21171,14 @@
       "n": "DRFP 80KSC027R0001 Appendices.pdf",
       "s": "boilerplate_only",
       "sol": "80KSC027R0001"
+    },
+    "d8d7f27b11a744e78e09c26d4cfc4cc6": {
+      "c": 59216,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "36C24627Q0019.pdf",
+      "s": "screened",
+      "sol": "36C24627Q0019   "
     },
     "d8fd026f43a54d2788dd1b440ca8bd48": {
       "c": 6774,
@@ -19714,6 +21486,14 @@
       "s": "screened",
       "sol": "FA821326R3031"
     },
+    "dbf52884b8604866ba1aa30ba28325f9": {
+      "c": 28866,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "S02_RFP Number 36C79126R0011_Amendment 0001_ETMPM-TENS Requirement_Issued 30SEP2026_Fillable.pdf",
+      "s": "screened",
+      "sol": "36C79126R0011"
+    },
     "dc3c51c95b494e85ac343ab409af95aa": {
       "c": 10280,
       "d": "2026-10-11",
@@ -19745,6 +21525,22 @@
       "n": "36C25227C0003.docx",
       "s": "screened",
       "sol": "36C25226B0038"
+    },
+    "dcb2c0f2141440528d4d1ed8a3f3617c": {
+      "c": 139822,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "6973GH-27-R-00013.pdf",
+      "s": "screened",
+      "sol": "6973GH-27-R-00013"
+    },
+    "dcc0513a0f0b47ff8fa1930991aca2f1": {
+      "c": 17612,
+      "d": "2026-10-12",
+      "m": "docx",
+      "n": "C05b SPECS KentsLakeCG_FINAL_5.2.2026.docx",
+      "s": "screened",
+      "sol": "1240LT26Q0106 "
     },
     "dcc5ee3fba0f4a6b9441b642fe27477c": {
       "c": 3568,
@@ -20285,6 +22081,22 @@
       "s": "screened",
       "sol": "W912CH-27-R-A020"
     },
+    "e15793e2495c4202b0929de50a872ab9": {
+      "c": 143623,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "FLETC Building 262 renovation contract, Glynco GA. 425-day construction project, Jan-Mar 2028. Firm fixed price award for small business.",
+          "news": 3,
+          "quote": "Building 262 Renovation, FLETC Glynco, Georgia...Period of Performance: 01/11/2027 to 03/11/2028...425 Days After Notice to Proceed",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "70LGLY27RSSB00001 Request for Proposal Building 262 Renovation.pdf",
+      "s": "screened",
+      "sol": "70LGLY27RSSB00001"
+    },
     "e1c98ffd3fcb4564b3765de82b25df71": {
       "c": 7973,
       "d": "2026-10-10",
@@ -20421,6 +22233,22 @@
       "n": "draft - SOW.docx",
       "s": "screened",
       "sol": "36C25927Q0008"
+    },
+    "e36cfdc7af884abfbbe511a8f8610916": {
+      "c": 220266,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Interior Department water system upgrade at Bryce Canyon National Park involving 6-inch HDPE pipeline installation and abandonment of existing water lines.",
+          "news": 3,
+          "quote": "INSTALL: 6\" HDPE DR11 AND ABANDON EXISTING WATER LINE IN PLACE AFTER NEW SYSTEM IS OPERATIONAL",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "B08_Att_02_BRCA_318695_-_Stamped_CD_-_Final.pdf",
+      "s": "screened",
+      "sol": "140P2026B0004"
     },
     "e37d40d9b8d34e83b6aaa0d5dc545173": {
       "c": 4180,
@@ -20587,6 +22415,43 @@
       "n": "Attachment F - AMPS Role Guide.pdf",
       "s": "screened",
       "sol": "SPE60526R0217"
+    },
+    "e511638726594cbcbfd1f0f69fb36ba3": {
+      "c": 128870,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": ".............. 58 M Evaluation Factors for Award........................................................................................................64 15BRRC27R00000001 Page 3 of 67 Section B - Supplies or Services and Prices/Costs RRC services to be located within the Kentucky Counties of Ballard, Caldwell, Calloway, Carlisle, Crittenden, Fulton, Graves, Hickman, Livingston, Lyon, Marshall, McCracken, Paducah, & Trigg. HC Radius 150-mile not restricted by State or County lines. Firm Fixed Price SCHEDULE OF SUPPLIES/SERVICES CONTINUATION SHEET ITEM NO. SUPPLIES/SERVICES QUANTITY UNIT UNIT PRICE AMOUNT 0001 To provide Residential Reentry Center (RRC) In-House services 1 DY $________ $_________________ to b",
+          "finding": "Federal Bureau of Prisons solicitation for residential reentry center services across 14 Kentucky counties with capacity for up to 30 in-house beds and 20 home confinement placements, base year plus four one-year options.",
+          "news": 4,
+          "quote": "RRC services to be located within the Kentucky counties of Ballard, Caldwell, Calloway, Carlisle, Crittenden, Fulton, Graves, Hickman, Livingston, Lyon, Marshall, McCracken, Paducah, & Trigg. HC Radius 150-mile",
+          "verified": true
+        },
+        {
+          "context": "change must include all site information required herein. Cost reimbursements to the government will be made in accordance with Chapter 24 of the Statement of Work. (4)Any proposed change following submission of initial proposals will be considered an unsolicited proposal modification which may result in elimination from the competitive range. (g) Offerors shall submit proof that the law enforcement agency with primary jurisdiction (e.g., Chief of Police, Sheriff) and at least two levels of local government officials (e.g., City Council Member, Mayor, County Board Member, City Commissioner) have been notified of their intent to open and operate a community corrections program as identified in the solicitation. It is the intent of this requirement that offerors ensure notifications are made to law enforcement and elected officials at the local level. Offerors shall provide the Bureau with an explanation of the local government structures and the names, titles, addresses, and telephone numbers of local elected government and law enforce",
+          "finding": "Federal Bureau of Prisons soliciting residential reentry centers across 14 Kentucky counties; requires community notification and local government approval before facility opening.",
+          "news": 4,
+          "quote": "Offerors shall submit proof that the law enforcement agency with primary jurisdiction (e.g., Chief of Police, Sheriff) and at least two levels of local government officials (e.g., City Council Member, Mayor, County Board Member, City Commissioner) have been notified",
+          "verified": true
+        },
+        {
+          "context": "posed facility; the type of offender the Statement of Work indicates could be placed at the proposed facility; and the contractor's inmate accountability practices. The proof of notification and a copy of the contents of the notification material submitted to local officials shall be part of the response to the Bureau of Prisons' solicitation. (h) Offerors shall submit documentation to evidence community support or acknowledgment for the location of the proposed site (e.g., letters of affirmation from Public Officials, minutes of Community Relation Board meetings that indicate community support or acknowledgment for the proposed site, petitions of support, etc.). The documentation shall not be dated prior to the date the Request for Information (RFI) was posted on the Federal Business Opportunities (FedBizOpps) website www.fbo.gov. It is the intent of this requirement that the offeror ensures a positive and affirmative relationship is in existence prior to establishing the site. (i) The Government reserves the right to conduct discuss",
+          "finding": "BOP requiring contractors to document community support and establish Community Relations Board; significant local community engagement mandate for prison reentry programs.",
+          "news": 4,
+          "quote": "Offerors shall submit documentation to evidence community support or acknowledgment for the location of the proposed site (e.g., letters of affirmation from Public Officials, minutes of Community Relation Board meetings)",
+          "verified": true
+        },
+        {
+          "finding": "Contract requires contractors to notify local law enforcement and two levels of local government officials of facility locations, with proof of notification via certified mail before any facility changes.",
+          "news": 3,
+          "quote": "Offerors shall submit proof that the local law enforcement agency with primary justification (e.g., Chief of Police, Sheriff) and at least two levels of local government officials (e.g., City Council Member, Mayor, County Board Member) have been notified",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "RFP 15BRRC27R00000001 Paducah KY.pdf",
+      "s": "screened",
+      "sol": "15BRRC27R00000001"
     },
     "e52cbdca5def4ce8a067be0f0269988b": {
       "c": 1665,
@@ -20852,6 +22717,51 @@
       "n": "PACER White Paper Call - FC EMA Complete Package.pdf",
       "s": "screened",
       "sol": "FA2391-23-S-2403"
+    },
+    "e89f203f3ce04e668aa976c3916a710b": {
+      "c": 48193,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "GSA soliciting ~18 construction contracts for D.C. Metro area worth up to $500M over 5 years with socioeconomic reserves for small businesses.",
+          "news": 3,
+          "quote": "The Maximum Ordering Limit (MOL) for this contract vehicle is $500,000,000.00, the contract (5 Years) is not anticipated to exceed $500,000,000.00.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation 47PH5226R0003.pdf",
+      "s": "screened",
+      "sol": "47PH5226R0003 "
+    },
+    "e8a98ad68a334ad58dc9bb4c4532b7f3": {
+      "c": 194652,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "eterans Health Administration (VHA), requires a national, enterprise-wide follow-on procurement and ordering vehicle to ensure the uninterrupted availability of Food and Drug Administration (FDA)-cleared Electro-Therapeutic Modalities for Pain Management (ETMPM) and Transcutaneous Electrical Nerve Stimulation (TENS) devices and accessories. a. This requirement replaces the expiring legacy IDIQ contract 36C79122D0005 (e.g., expiration date of January 19, 2027) and supports critical non-opioid based pain-management programs across 168 VA Medical Centers, 1,053 Community Based outpatient Clinics (CBOCs), and additional VHA healthcare facilities. b. This current acquisition effort consolidates and expands the existing legacy TENS procurement program to include Interferential Current Therapy (IFC) devices, short-wave diathermy (SWD) devices (both thermal and non-thermal devices), portable neuromodulation systems for the treatment of headache disorders, electrodes, lead wires, chargers, garm",
+          "finding": "VA replacing expiring national TENS contract (36C79122D0005, ends January 2027) with expanded scope adding interferential current, shortwave diathermy, and neuromodulation devices for veteran pain management.",
+          "news": 4,
+          "quote": "This requirement replaces the expiring legacy IDIQ contract 36C79122D0005 (e.g., expiration date of January 19, 2027) and supports critical non-opioid based pain-management programs across 168 VA Medical Centers",
+          "verified": true
+        },
+        {
+          "finding": "VA procuring up to $500 million in electrotherapeutic pain-management devices over five years to replace opioid alternatives across 168 medical centers and 1,053 outpatient clinics.",
+          "news": 5,
+          "quote": "The VA intends to make multiple single-awards of between one (1) and five (5) separate Base IDIQ contracts... the VA is establishing a single unified maximum aggregate order value (\"contract maximum\") of $500,000,000.00 for the entire ETMPM-TENS procurement program",
+          "verified": false
+        },
+        {
+          "finding": "VA demands all devices be FDA-cleared, new (not refurbished), independent of subscription services or smart-device apps, and include one-year full-replacement warranty to prevent gray-market products.",
+          "news": 4,
+          "quote": "Device must have FDA 510(k) clearance for home-use indications... Device must be new and not refurbished. Device must not require a subscription service or renewal of subscription service to function. Operation and function of the device must be independent of a smart device application.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S06_Solicitation Number 36C79126R0011_Amendment Number 0002_Combined Document_ETMPM-TENS Requirement_Issued 02OCT2026.pdf",
+      "s": "screened",
+      "sol": "36C79126R0011"
     },
     "e8ac71ceac4d4158a4228d0ff1573038": {
       "c": 32089,
@@ -21231,6 +23141,22 @@
       "n": "DC-2 Questions and Responses SMS Final.pdf",
       "s": "screened",
       "sol": "M2M-MSFC-0001"
+    },
+    "ecc048580a694008ae4647f2a45fd1cb": {
+      "c": 129471,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "finding": "Coast Guard procuring Response Boat Small Third Generation with detailed weapons, surveillance, and combat systems specifications.",
+          "news": 3,
+          "quote": "COMBAT CAPABILITIES (OFFENSIVE AND DEFENSIVE), AIR WEAPONS VS AIR TARGETS, SURFACE WEAPONS VS SURFACE TARGETS, UNDERWATER WEAPONS VS SURFACE TARGETS, FIRE CONTROL SYSTEMS",
+          "verified": false
+        }
+      ],
+      "m": "zip",
+      "n": "J-3 Government Furnished Information (GFI).zip",
+      "s": "screened",
+      "sol": "70Z02326R93250001"
     },
     "eccef5b0298540ee956605741907700d": {
       "c": 26389,
@@ -21718,6 +23644,43 @@
       "n": "Attachment_21_Sample_FCU_Temperature_Status_Report.xlsx",
       "s": "screened",
       "sol": "140R3026R0012"
+    },
+    "f0ec623cbc3c49cb8a0a8449e06dc9b2": {
+      "c": 77040,
+      "d": "2026-10-12",
+      "m": "ocr+pdf",
+      "n": "TX FW LGA 10(5) Plans_Print.pdf",
+      "s": "screened",
+      "sol": "6982AF27B000006"
+    },
+    "f0f3b936ca0b4b1da2a4a62e4b9fa52f": {
+      "c": 66580,
+      "d": "2026-10-12",
+      "f": [
+        {
+          "context": "r Ave. Salisbury NC 28144 Department of Veterans Affairs Network Contracting Office 6 100 Emancipation Drive Hampton VA 23667 Department of Veterans Affairs Financial Services Center PO BOX 149971 Austin TX 78714-9971 512-460-5049 512-460-5221 X See CONTINUATION Page Salisbury VAHCS Medical Respite Transitional Housing IDIQ: Salisbury VA Medical Center, Kernersville Health Care Center Charlotte Health Care Center, and Charlotte Community Based Outpatient Clinic. Base Period of Performance (POP): 01/01/2027 - 12/31/2027 Option 1 POP: 01/01/2028 - 12/31/2028 Option 2 POP: 01/01/2029 - 12/31/2029 Option 3 POP: 01/01/2030 - 12/31/2030 Option 4 POP: 01/01/2031 - 12/31/2031 See Section B: Performance Work Statement See Section D: Attachments See Section E: Instruction to Offerors, Basis for Award. Responses due by 13:00 EST, October 27, 2026. POC: Kamilah Nye Email: kamilah.nye@va.gov See CONTINUATION Page X X Jamie Sullivan Contracting Officer Table of Contents TOC \\o &quot;1-4&quot; \\f \\h \\z",
+          "finding": "VA seeking $19M contract for medical respite housing for homeless veterans across four North Carolina facilities through 2029.",
+          "news": 4,
+          "quote": "Salisbury VA Medical Center, Kernersville Health Care Center, Charlotte Health Care Center, and Charlotte Community Based Outpatient Clinic. Base Period of Performance (POP): 01/01/2027 - 12/31/2027",
+          "verified": true
+        },
+        {
+          "finding": "Contract requires daily per-bed pricing for transitional housing with strict staffing mandates including 24/7 awake supervision and registered nurses.",
+          "news": 3,
+          "quote": "At least one staff member on duty on the premises providing awake supervision of residents and staff 24 hours per day, 7 days per week... Typically, a registered nurse or higher medical professional will be on site daily.",
+          "verified": false
+        },
+        {
+          "finding": "Program explicitly allows medication-assisted treatment (MAT) for substance use disorder and prohibits discrimination based on abstinence history or drug testing alone.",
+          "news": 3,
+          "quote": "Medication Assisted Treatment (MAT) cannot be used to rule out Veteran's participation in an HCHV Program. This includes FDA-approved, prescribed use of morphine, methadone, suboxone, or other controlled substances... drug testing alone may not be used to discharge or discipline a Veteran but may be",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "36C24627Q0019_1.docx",
+      "s": "screened",
+      "sol": "36C24627Q0019"
     },
     "f10f661ae0b34df099f46b72c1f72b9a": {
       "c": 5152,
@@ -22247,6 +24210,14 @@
       "s": "screened",
       "sol": "FA441826R0009"
     },
+    "f67c1f13781a4362a0d6307775fc0c5e": {
+      "c": 207806,
+      "d": "2026-10-12",
+      "m": "xlsx",
+      "n": "Attachment_14_Preventive_and_Predictive_Maintenance_Summary.xlsx",
+      "s": "screened",
+      "sol": "140R3026R0012"
+    },
     "f68b0852b659483ca6edf9fcef29cfbe": {
       "c": 0,
       "d": "2026-10-10",
@@ -22515,6 +24486,14 @@
       "n": "07_01_26_01_Contract_Modification_Procedures_Pg_7_Amendment_0003_0003.pdf",
       "s": "screened",
       "sol": "140P2026R0087"
+    },
+    "f98a8d88a39646738198ce5784c9a9d2": {
+      "c": 196571,
+      "d": "2026-10-12",
+      "m": "pdf",
+      "n": "EXHIBIT A - Lease No- 36C24W26L0044 - Tarrant County Lease Proposal.pdf",
+      "s": "screened",
+      "sol": "36C24W26R0055"
     },
     "f996b21bda4a41f7847626972881f36f": {
       "c": 647,
