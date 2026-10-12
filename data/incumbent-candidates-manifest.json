@@ -1199,6 +1199,14 @@
     "party": "DEM",
     "state": "HI"
   },
+  "H6HI01360": {
+    "checked": "2026-10-12",
+    "incumbent_challenge_full": "Challenger",
+    "name": "LAM, ADRIEL C",
+    "office": "H",
+    "party": "REP",
+    "state": "HI"
+  },
   "H6IA03276": {
     "checked": "2026-10-08",
     "incumbent_challenge_full": "Challenger",
@@ -1711,6 +1719,14 @@
     "party": "DEM",
     "state": "OH"
   },
+  "H6OH07184": {
+    "checked": "2026-10-12",
+    "incumbent_challenge_full": "Challenger",
+    "name": "DONEGAN, ANN MARIE",
+    "office": "H",
+    "party": "DEM",
+    "state": "OH"
+  },
   "H6OH07192": {
     "checked": "2026-09-11",
     "incumbent_challenge_full": "Unknown",
@@ -1965,6 +1981,14 @@
     "name": "LISONBEE, KARIANNE",
     "office": "H",
     "party": "REP",
+    "state": "UT"
+  },
+  "H6UT03216": {
+    "checked": "2026-10-12",
+    "incumbent_challenge_full": "Challenger",
+    "name": "SCOTT, AYDEN TATE",
+    "office": "H",
+    "party": "UN",
     "state": "UT"
   },
   "H6VA01208": {
@@ -2287,6 +2311,14 @@
     "party": "DEM",
     "state": "NM"
   },
+  "H8OH03130": {
+    "checked": "2026-10-12",
+    "incumbent_challenge_full": null,
+    "name": "FISTICK, JASON",
+    "office": "H",
+    "party": "IND",
+    "state": "OH"
+  },
   "H8OH15076": {
     "checked": "2026-09-09",
     "incumbent_challenge_full": "Incumbent",
@@ -2403,6 +2435,22 @@
     "checked": "2026-10-11",
     "incumbent_challenge_full": null,
     "name": "WHITE, EMMETT LEE MR",
+    "office": "P",
+    "party": "DEM",
+    "state": "US"
+  },
+  "P80008089": {
+    "checked": "2026-10-12",
+    "incumbent_challenge_full": null,
+    "name": "CATALANO, JOSEPH SAMUEL MR. III",
+    "office": "P",
+    "party": "IND",
+    "state": "US"
+  },
+  "P80008634": {
+    "checked": "2026-10-12",
+    "incumbent_challenge_full": null,
+    "name": "KENNEDY, A",
     "office": "P",
     "party": "DEM",
     "state": "US"
