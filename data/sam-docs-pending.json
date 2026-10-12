@@ -1,5 +1,49 @@
 {
   "files": {
+    "0216cccba65b4c589208158ce1895b61": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "B1 Enclosure E W9 2024.pdf",
+      "nids": [
+        "16d79f537e6745d9820e22cee9a3e436"
+      ],
+      "posted": "2026-10-06T18:38:43.041+00:00",
+      "queued_since": "2026-10-12",
+      "size": 140815,
+      "sols": [
+        "BSA475591"
+      ],
+      "titles": [
+        "LT-SPM"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/16d79f537e6745d9820e22cee9a3e436/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0216cccba65b4c589208158ce1895b61/download"
+    },
+    "0234bc7a10d94c5b890419fb0b04b56f": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "C04_Attachment 1 - Schedule of Items.xlsx",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-09-24T21:38:27.165+00:00",
+      "queued_since": "2026-10-12",
+      "size": 12082,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0234bc7a10d94c5b890419fb0b04b56f/download"
+    },
     "027b0d8e6a1e4d3a8e78b999c54141d4": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
       "kind": "notice",
@@ -22,6 +66,94 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/027b0d8e6a1e4d3a8e78b999c54141d4/download"
     },
+    "0399c54cf10d43298df777c8ee130ddf": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "10.8.26 Update - ACL_SR_Rack_Design.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-10-08T17:54:57.23+00:00",
+      "queued_since": "2026-10-12",
+      "size": 218380,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0399c54cf10d43298df777c8ee130ddf/download"
+    },
+    "03a8990352e84e26b0616f509c24f4f0": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "C04_Attachment 5 -  Wage Rate Heavy.pdf",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-09-22T20:52:26.922+00:00",
+      "queued_since": "2026-10-12",
+      "size": 633581,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03a8990352e84e26b0616f509c24f4f0/download"
+    },
+    "03e046eb08ce45dda52e0b73c7602d83": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Price Proposal Schedule Attachment B.xlsx",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-10-12T19:10:21.333+00:00",
+      "queued_since": "2026-10-12",
+      "size": 13513,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03e046eb08ce45dda52e0b73c7602d83/download"
+    },
+    "03ee44a935314ddfa81def915b5d7a94": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "QA RFP AA-2027-01  No. 3.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-23T23:42:03.655+00:00",
+      "queued_since": "2026-10-12",
+      "size": 85917,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03ee44a935314ddfa81def915b5d7a94/download"
+    },
     "05857cf1d27741018e2810f3aca6b628": {
       "agency": null,
       "kind": "notice",
@@ -43,6 +175,50 @@
         "https://sam.gov/opp/ff6bf3ef44234623917aaea833fbcc2d/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/05857cf1d27741018e2810f3aca6b628/download"
+    },
+    "066b89920b894e45b5b5aed2829a7ce9": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "10 LBNL  LBNL Facilities Master Specifications 260519.11_600 Volt Conductors and Cable.docx",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 22740,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/066b89920b894e45b5b5aed2829a7ce9/download"
+    },
+    "0a234cb25fb64bb5b54bb68a238804e2": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "1a Appendix A Electrical Equipment Hazard Labeling.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 190555,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0a234cb25fb64bb5b54bb68a238804e2/download"
     },
     "0c278effc3c0499abd021c0de1df9edc": {
       "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA JOHNSON SPACE CENTER",
@@ -88,6 +264,50 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0cf2082534f743d6a49a997d10528920/download"
     },
+    "0dae1ac83a1542b1b976d74bc95072c9": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Addendum No. 1 to RFP #6-B143-P-00251-00.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-28T21:21:16.738+00:00",
+      "queued_since": "2026-10-12",
+      "size": 222752,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0dae1ac83a1542b1b976d74bc95072c9/download"
+    },
+    "1028f6fbf2134018b8b4167138dfc909": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 6 - Tax Exemption Certificate.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 346353,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1028f6fbf2134018b8b4167138dfc909/download"
+    },
     "10f00861a9154ea4a41c990982aa0025": {
       "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.DSC CONTRACTING SERVICES DIVISION",
       "kind": "notice",
@@ -109,6 +329,138 @@
         "https://sam.gov/opp/30c5ff80d73446aabb65e00ef0b9f3ff/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/10f00861a9154ea4a41c990982aa0025/download"
+    },
+    "10f577b39a7946f094701d156693112d": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Sample Subcontract.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 261957,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/10f577b39a7946f094701d156693112d/download"
+    },
+    "112a04990c23474bbce3e6c87fd24152": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "12445526Q0132 - Loleta Water Systems Improvements.pdf",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-09-22T20:52:26.922+00:00",
+      "queued_since": "2026-10-12",
+      "size": 662039,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/112a04990c23474bbce3e6c87fd24152/download"
+    },
+    "116820930fba4b0ab62bdadccf3b03b8": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "3. ALS-U Supplier Quality Evaluation Survey, RFP AA-2027-01.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-20T12:27:07.292+00:00",
+      "queued_since": "2026-10-12",
+      "size": 1286464,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/116820930fba4b0ab62bdadccf3b03b8/download"
+    },
+    "11ad5286421e451faa58581731b2aeea": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "0. RFP, AA-2027-01.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-20T12:27:07.292+00:00",
+      "queued_since": "2026-10-12",
+      "size": 291213,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/11ad5286421e451faa58581731b2aeea/download"
+    },
+    "1277d7ea987a48dc83fd1525cf96257b": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "C04_Attachment 3 - Loleta Design Drawings.pdf",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-09-22T20:52:26.922+00:00",
+      "queued_since": "2026-10-12",
+      "size": 3908423,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1277d7ea987a48dc83fd1525cf96257b/download"
+    },
+    "12fcf9da30ae48ce8922cfd00d2408ee": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "2. Sample Subcontract, AA-2027-01.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-20T12:27:07.292+00:00",
+      "queued_since": "2026-10-12",
+      "size": 252045,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/12fcf9da30ae48ce8922cfd00d2408ee/download"
     },
     "1598414ab929480bb7ace31f99fa4fde": {
       "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.SLAC Natl Accel Lab -DOE Contractor",
@@ -132,6 +484,50 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1598414ab929480bb7ace31f99fa4fde/download"
     },
+    "162a860920e24b229ad6e04134d59f54": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "AL-1887-8783A SHB pulsed RF HPA SOW.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 1347977,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/162a860920e24b229ad6e04134d59f54/download"
+    },
+    "16a6ca0a53664f46a6b46e3df657e6ea": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "4 LBNL ES_H Manual (PUB-3000) Chapter 08 Electrical Safety Program.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 374534,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/16a6ca0a53664f46a6b46e3df657e6ea/download"
+    },
     "1914b7cd26d041bea06878af11324102": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
       "kind": "notice",
@@ -153,6 +549,94 @@
         "https://sam.gov/opp/fc6eefee8325431dbd05077d90c72f78/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1914b7cd26d041bea06878af11324102/download"
+    },
+    "191f469be36f41298c4347478549fa2a": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.SLAC Natl Accel Lab -DOE Contractor",
+      "kind": "notice",
+      "name": "E1_Fixed_Price_Commercial_Supplies_and_Services_Subcontract_Terms and Conditions_Supplemental Rider.pdf",
+      "nids": [
+        "4e812b677a9047298e7593dcdce9e354"
+      ],
+      "posted": "2026-10-12T15:49:41.176+00:00",
+      "queued_since": "2026-10-12",
+      "size": 804520,
+      "sols": [
+        "SLAC_368659_Supermicro_1U_Rack-mount_Server_Assemblies"
+      ],
+      "titles": [
+        "Supermicro 1U rack-mount server assemblies"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/4e812b677a9047298e7593dcdce9e354/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/191f469be36f41298c4347478549fa2a/download"
+    },
+    "199cccf293d243b99123806811f1b7e7": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2G - Appendix TBD ANL-829-MLAV.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 222616,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/199cccf293d243b99123806811f1b7e7/download"
+    },
+    "1afab8b34a204207b4d9213655da7dcf": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Past Performance Reference Information Form.docx",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 31253,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1afab8b34a204207b4d9213655da7dcf/download"
+    },
+    "1b4764f0b69740c9bcad8bcbf7d2c2b7": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.SLAC Natl Accel Lab -DOE Contractor",
+      "kind": "notice",
+      "name": "BAA_Certification_10.28.2025_(D5) (1).pdf",
+      "nids": [
+        "4e5f481e1019480fa6c4162601482c11"
+      ],
+      "posted": "2026-10-12T15:42:45.455+00:00",
+      "queued_since": "2026-10-12",
+      "size": 93329,
+      "sols": [
+        "SLAC_369006_Xray_Imaging_Detector_System"
+      ],
+      "titles": [
+        "X-ray imaging detector system"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/4e5f481e1019480fa6c4162601482c11/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1b4764f0b69740c9bcad8bcbf7d2c2b7/download"
     },
     "1bd8f6837f9c4ad88c500131ca0201a2": {
       "agency": "TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.6982AF CENTRAL FEDERAL LANDS DIVISI",
@@ -198,6 +682,116 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1ef9c335d5fb40fda31d9943e66cef47/download"
     },
+    "1fa292c2426b464db8f417edc980c74d": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "4. Standard Form Rep Cert, RFP AA-2027-01.docx",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-20T12:27:07.292+00:00",
+      "queued_since": "2026-10-12",
+      "size": 67215,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fa292c2426b464db8f417edc980c74d/download"
+    },
+    "1fe83ebae23940f08b19efb918d71953": {
+      "agency": "HOMELAND SECURITY, DEPARTMENT OF.U.S. IMMIGRATION AND CUSTOMS ENFORCEMENT.MISSION SUPPORT WASHINGTON",
+      "kind": "justification",
+      "name": "1.5.1-BNJ_Redacted.pdf",
+      "nids": [
+        "5272a059b48f4537a62d36e0102cd8a4"
+      ],
+      "posted": "2026-10-08T13:52:00.551+00:00",
+      "queued_since": "2026-10-12",
+      "size": 153171,
+      "sols": [
+        "JA-26-0292"
+      ],
+      "titles": [
+        "Social Media Management Support Services"
+      ],
+      "type": "Justification",
+      "uiLinks": [
+        "https://sam.gov/opp/5272a059b48f4537a62d36e0102cd8a4/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/1fe83ebae23940f08b19efb918d71953/download"
+    },
+    "21ef097baa414d9fa2aad145fe48d95a": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2C - Statement of Work.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 383581,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/21ef097baa414d9fa2aad145fe48d95a/download"
+    },
+    "2889a69883c54667be29eba9dd07a5b5": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "10.8.26 Update - Sample Subcontract, AA-2027-01.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-10-08T17:54:57.23+00:00",
+      "queued_since": "2026-10-12",
+      "size": 253831,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2889a69883c54667be29eba9dd07a5b5/download"
+    },
+    "2ac7ddffb42e4c899466e9c63cf80bb4": {
+      "agency": null,
+      "kind": "notice",
+      "name": "B04_04_WBR_1413_106-1_Rev_01_Determination_to_solicit_from_a_single_source_10_12_2026_1.pdf",
+      "nids": [
+        "5bf1391766b64cec84fbea012633435f"
+      ],
+      "posted": "2026-10-12T21:27:44.318+00:00",
+      "queued_since": "2026-10-12",
+      "size": 259000,
+      "sols": [
+        "DOIDSAM27R001"
+      ],
+      "titles": [
+        "Y--Friant Dam HVAC Replacement - Letter Contract"
+      ],
+      "type": "Special Notice",
+      "uiLinks": [
+        "https://sam.gov/opp/5bf1391766b64cec84fbea012633435f/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2ac7ddffb42e4c899466e9c63cf80bb4/download"
+    },
     "2be4a21a6f144f08bde463b7295b49c7": {
       "agency": null,
       "kind": "notice",
@@ -220,6 +814,72 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2be4a21a6f144f08bde463b7295b49c7/download"
     },
+    "2c5d1286d7e64d5facbb8452c1c3ed00": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2B - Appendix A ANL-71COM.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 1083216,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/2c5d1286d7e64d5facbb8452c1c3ed00/download"
+    },
+    "3220c74944674eefbc7dd582168225be": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2K - Appendix TBD Sample Lease Payment Schedule.xlsx",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 38325,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3220c74944674eefbc7dd582168225be/download"
+    },
+    "34642defea0745299ef8bd43ac7fdf74": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Rep Cert- SHB pulsed RF HPA Rev1.docx",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-10-12T19:10:21.333+00:00",
+      "queued_since": "2026-10-12",
+      "size": 67675,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/34642defea0745299ef8bd43ac7fdf74/download"
+    },
     "34779b1dfe134ec586cca65f53621c3c": {
       "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
       "kind": "notice",
@@ -241,6 +901,28 @@
         "https://sam.gov/opp/a2dac5ff95db4135a98dd95d1671eff2/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/34779b1dfe134ec586cca65f53621c3c/download"
+    },
+    "3604afd432d141b392076a05cf5c5c59": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2E - Appendix E ANL-366M.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 297823,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3604afd432d141b392076a05cf5c5c59/download"
     },
     "38306dff1695475fae7e49d50647aac8": {
       "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA JOHNSON SPACE CENTER",
@@ -286,6 +968,50 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c5827bbf4cf4e818aaf095ecbf0cc7b/download"
     },
+    "3e615dbbed0745f8a68c96e555465fb5": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "1. SOW, AL-1964-3328A.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-20T12:27:07.292+00:00",
+      "queued_since": "2026-10-12",
+      "size": 1005574,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3e615dbbed0745f8a68c96e555465fb5/download"
+    },
+    "3eeb8c6f006048938fe95a6f81d44f3b": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+      "kind": "notice",
+      "name": "36C24226Q0812 0001.docx",
+      "nids": [
+        "ee590be5e9f3422e9ffad2cbdd0b41eb"
+      ],
+      "posted": "2026-09-29T13:28:55.949+00:00",
+      "queued_since": "2026-10-12",
+      "size": 102982,
+      "sols": [
+        "36C24226Q0812"
+      ],
+      "titles": [
+        "J059--FY27 SERVICE - Motorola LMR Service and Maintenance  (Base plus 4) Canandaigua VA Medical Center,  Canandaigua, NY"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/ee590be5e9f3422e9ffad2cbdd0b41eb/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3eeb8c6f006048938fe95a6f81d44f3b/download"
+    },
     "3fcb86a6a3284710a78efffd193b823c": {
       "agency": "HOMELAND SECURITY, DEPARTMENT OF.FEDERAL LAW ENFORCEMENT TRAINING CENTER.FLETC GLYNCO PROCUREMENT OFFICE",
       "kind": "notice",
@@ -329,6 +1055,72 @@
         "https://sam.gov/opp/0cb1c9fa4fd04de6bab31e2a36f5d83d/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/40114a198b334fd5bad0fa1936a28fd3/download"
+    },
+    "40b2241f335644d6a2d44193a26fe3ff": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "1d Appendix D Rack Build Standard.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 310165,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/40b2241f335644d6a2d44193a26fe3ff/download"
+    },
+    "41641ab381e14655b32cdf3a169f3fbb": {
+      "agency": null,
+      "kind": "notice",
+      "name": "Attachment 3 - Secure-HSF Glossary and Acronyms.docx",
+      "nids": [
+        "9bd628fd86ad49399af0784b25b911c6"
+      ],
+      "posted": "2026-10-12T18:44:07.802+00:00",
+      "queued_since": "2026-10-12",
+      "size": 48536,
+      "sols": [
+        "75751MN27R00002"
+      ],
+      "titles": [
+        "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/9bd628fd86ad49399af0784b25b911c6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/41641ab381e14655b32cdf3a169f3fbb/download"
+    },
+    "4645b0b8b268420598062d242ddbf059": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "2 LBNL Electrical Safety Manual Revision 1.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 4395731,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4645b0b8b268420598062d242ddbf059/download"
     },
     "4d20157fce71425c8bb46e71c9f1a48b": {
       "agency": null,
@@ -374,6 +1166,72 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4e4e1d1d42dc4585bcc1646cdd41d5d0/download"
     },
+    "509ebf40f30349ac9f09c59020c5d084": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2F - Appendix E.1 ANL-366TCSB.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 473847,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/509ebf40f30349ac9f09c59020c5d084/download"
+    },
+    "50b43e3bfafd4424b4ca914d95f65f8b": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "1c Appendix C Ground Hook Safety.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 23758,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/50b43e3bfafd4424b4ca914d95f65f8b/download"
+    },
+    "52afb2eef62945e0ada655e3d4ee5f7d": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+      "kind": "notice",
+      "name": "36C24226Q0812 0002.pdf",
+      "nids": [
+        "ee590be5e9f3422e9ffad2cbdd0b41eb"
+      ],
+      "posted": "2026-10-06T19:41:32.232+00:00",
+      "queued_since": "2026-10-12",
+      "size": 89972,
+      "sols": [
+        "36C24226Q0812"
+      ],
+      "titles": [
+        "J059--FY27 SERVICE - Motorola LMR Service and Maintenance  (Base plus 4) Canandaigua VA Medical Center,  Canandaigua, NY"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/ee590be5e9f3422e9ffad2cbdd0b41eb/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/52afb2eef62945e0ada655e3d4ee5f7d/download"
+    },
     "532a3359d02641aa831bcc3773dcf3b3": {
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR MOBILITY COMMAND.FA4418  628 CONS PK",
       "kind": "notice",
@@ -396,6 +1254,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/532a3359d02641aa831bcc3773dcf3b3/download"
     },
+    "535f9838941f47c896f59949661005f3": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.SLAC Natl Accel Lab -DOE Contractor",
+      "kind": "notice",
+      "name": "BAA_Certification_10.28.2025_(D5) (1).pdf",
+      "nids": [
+        "4e812b677a9047298e7593dcdce9e354"
+      ],
+      "posted": "2026-10-12T15:49:41.176+00:00",
+      "queued_since": "2026-10-12",
+      "size": 93329,
+      "sols": [
+        "SLAC_368659_Supermicro_1U_Rack-mount_Server_Assemblies"
+      ],
+      "titles": [
+        "Supermicro 1U rack-mount server assemblies"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/4e812b677a9047298e7593dcdce9e354/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/535f9838941f47c896f59949661005f3/download"
+    },
     "54f425b144884bea8e5aac6064a67d95": {
       "agency": "HEALTH AND HUMAN SERVICES, DEPARTMENT OF.NATIONAL INSTITUTES OF HEALTH.NATIONAL INSTITUTES OF HEALTH NIAID",
       "kind": "notice",
@@ -417,6 +1297,138 @@
         "https://sam.gov/opp/5f75330f42ee4145990fe6a51a3dc84e/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/54f425b144884bea8e5aac6064a67d95/download"
+    },
+    "55000e7c7e1d4cbca6f5dc9a0cfe1de9": {
+      "agency": null,
+      "kind": "notice",
+      "name": "Attachment  4 - Recent_and_Relevant_Past_Performance_Narrative_Template-1.docx",
+      "nids": [
+        "9bd628fd86ad49399af0784b25b911c6"
+      ],
+      "posted": "2026-10-12T18:44:07.802+00:00",
+      "queued_since": "2026-10-12",
+      "size": 37040,
+      "sols": [
+        "75751MN27R00002"
+      ],
+      "titles": [
+        "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/9bd628fd86ad49399af0784b25b911c6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/55000e7c7e1d4cbca6f5dc9a0cfe1de9/download"
+    },
+    "553b18dd34244312a9d2b62831432489": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "13 LBNL PUB 3111 Quality Assurance Program Description.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 3192190,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/553b18dd34244312a9d2b62831432489/download"
+    },
+    "55ab3457b5a4413a93b6fefe79534b48": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "9 LBNL ES_H Manual (PUB-3000) Chapter 27 Cranes Hoists and Rigging Safety.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 460453,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/55ab3457b5a4413a93b6fefe79534b48/download"
+    },
+    "56215f78396b482992014ce8621305fb": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "1b Appendix B Electrical Equipment Fabrication.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 590557,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/56215f78396b482992014ce8621305fb/download"
+    },
+    "57c77041da7a405c8bca45f537e4c818": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "7 LBNL Lateral Force Design Criteria Resource Document (RD3.22) (version 18).pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 2486485,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57c77041da7a405c8bca45f537e4c818/download"
+    },
+    "57cc2d3992904c6fabfaa2c8d8966f61": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 4 - Evaluation Criteria.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 210824,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/57cc2d3992904c6fabfaa2c8d8966f61/download"
     },
     "586d12dca5d5493fb5e2a04df8969193": {
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE RESEARCH LABORATORY.FA2391 USAF AFMC AFRL PZL AFRL RQKP",
@@ -484,6 +1496,50 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5aa6cf3045c149dea5cb10375602fa65/download"
     },
+    "5b516f886cfc4b63a07b3b36ca8eea70": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "RFP SHB pulsed RF HPA ESD Response sheet.xlsx",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-10-12T19:10:21.333+00:00",
+      "queued_since": "2026-10-12",
+      "size": 12806,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5b516f886cfc4b63a07b3b36ca8eea70/download"
+    },
+    "5ca19a467837422799a52a9becd8717d": {
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCES IN EUROPE.FA4486  765 ABS CONF",
+      "kind": "notice",
+      "name": "Solicitation - FA448627Q0002.pdf",
+      "nids": [
+        "a82aef53035e47ada6b111e1de4f4e33"
+      ],
+      "posted": "2026-10-12T14:45:24.585+00:00",
+      "queued_since": "2026-10-12",
+      "size": 685993,
+      "sols": [
+        "FA448627Q0002"
+      ],
+      "titles": [
+        "Waste Water Treatment Plant Services"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a82aef53035e47ada6b111e1de4f4e33/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5ca19a467837422799a52a9becd8717d/download"
+    },
     "61845b2fd5ea437aa526d53d9d758c5e": {
       "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.DSC CONTRACTING SERVICES DIVISION",
       "kind": "notice",
@@ -505,6 +1561,72 @@
         "https://sam.gov/opp/30c5ff80d73446aabb65e00ef0b9f3ff/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/61845b2fd5ea437aa526d53d9d758c5e/download"
+    },
+    "622900a29e9a447ea5d055959532cd21": {
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCES IN EUROPE.FA4486  765 ABS CONF",
+      "kind": "notice",
+      "name": "Attachment 1 -  Performance Work Statement.pdf",
+      "nids": [
+        "a82aef53035e47ada6b111e1de4f4e33"
+      ],
+      "posted": "2026-10-12T14:45:24.585+00:00",
+      "queued_since": "2026-10-12",
+      "size": 307561,
+      "sols": [
+        "FA448627Q0002"
+      ],
+      "titles": [
+        "Waste Water Treatment Plant Services"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a82aef53035e47ada6b111e1de4f4e33/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/622900a29e9a447ea5d055959532cd21/download"
+    },
+    "6237b6a260794df1b9b7216445aef44d": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+      "kind": "notice",
+      "name": "36C24226Q0812_2.docx",
+      "nids": [
+        "ee590be5e9f3422e9ffad2cbdd0b41eb"
+      ],
+      "posted": "2026-09-21T12:33:02.666+00:00",
+      "queued_since": "2026-10-12",
+      "size": 103385,
+      "sols": [
+        "36C24226Q0812"
+      ],
+      "titles": [
+        "J059--FY27 SERVICE - Motorola LMR Service and Maintenance  (Base plus 4) Canandaigua VA Medical Center,  Canandaigua, NY"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/ee590be5e9f3422e9ffad2cbdd0b41eb/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6237b6a260794df1b9b7216445aef44d/download"
+    },
+    "63b184426b014d098fdda9d3d3a056fd": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "AL-1887-8780A SHB pulsed RF HPA ESD.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 2405474,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/63b184426b014d098fdda9d3d3a056fd/download"
     },
     "6686609f7fae44b182a14beee03314b6": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
@@ -528,6 +1650,72 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6686609f7fae44b182a14beee03314b6/download"
     },
+    "67518fad8e734595bf095a32de250f6b": {
+      "agency": null,
+      "kind": "notice",
+      "name": "Attachment 6 - QA_Template.xlsx",
+      "nids": [
+        "9bd628fd86ad49399af0784b25b911c6"
+      ],
+      "posted": "2026-10-12T18:44:07.802+00:00",
+      "queued_since": "2026-10-12",
+      "size": 17967,
+      "sols": [
+        "75751MN27R00002"
+      ],
+      "titles": [
+        "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/9bd628fd86ad49399af0784b25b911c6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/67518fad8e734595bf095a32de250f6b/download"
+    },
+    "6aa5e9411a03433b8f0736c0848070b5": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.SLAC Natl Accel Lab -DOE Contractor",
+      "kind": "notice",
+      "name": "Reps_and_Certs_Supplement_08.25.22 (1).pdf",
+      "nids": [
+        "4e5f481e1019480fa6c4162601482c11"
+      ],
+      "posted": "2026-10-12T15:42:45.455+00:00",
+      "queued_since": "2026-10-12",
+      "size": 67014,
+      "sols": [
+        "SLAC_369006_Xray_Imaging_Detector_System"
+      ],
+      "titles": [
+        "X-ray imaging detector system"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/4e5f481e1019480fa6c4162601482c11/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6aa5e9411a03433b8f0736c0848070b5/download"
+    },
+    "6e5e0874db1d43e8bdf5fcd234a90413": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ALLIANCE SUSTAINABLE ENRGY-DOECONTR",
+      "kind": "notice",
+      "name": "Attachment 1- SOW dated 10.08.26.pdf",
+      "nids": [
+        "1f4fdf5909e44f5ba721860b49a509b4"
+      ],
+      "posted": "2026-10-12T21:51:42.369+00:00",
+      "queued_since": "2026-10-12",
+      "size": 298617,
+      "sols": [
+        "RFP-2026-10245()"
+      ],
+      "titles": [
+        "Building America Subject Matter Expert Technical Support"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/1f4fdf5909e44f5ba721860b49a509b4/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6e5e0874db1d43e8bdf5fcd234a90413/download"
+    },
     "712a71b72ca34b1eb6d00ad4714e4f8b": {
       "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.DSC CONTRACTING SERVICES DIVISION",
       "kind": "notice",
@@ -549,6 +1737,72 @@
         "https://sam.gov/opp/ce2ba00f06064903973e576922f05a3e/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/712a71b72ca34b1eb6d00ad4714e4f8b/download"
+    },
+    "73c04f41488e4a27b2ec5f923dab495f": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.MSTS \u2013 DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "water usage table - eDCRO_111855 - eDCRO_111866 (2).pdf",
+      "nids": [
+        "c10771d65900474e9c557b2f09c1eb05"
+      ],
+      "posted": "2026-10-12T20:00:28.722+00:00",
+      "queued_since": "2026-10-12",
+      "size": 235926,
+      "sols": [
+        "RFIPP002"
+      ],
+      "titles": [
+        "EXPRESSION OF INTEREST (EOI) / REQUEST FOR INFORMATION (RFI) 24\u201d OD Drilling to 6,500\u2019 TVD (RV/DC)"
+      ],
+      "type": "Sources Sought",
+      "uiLinks": [
+        "https://sam.gov/opp/c10771d65900474e9c557b2f09c1eb05/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/73c04f41488e4a27b2ec5f923dab495f/download"
+    },
+    "741c6f46f1b84a59b03bee539042f15c": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "1 LBNL Electrical Equipment Build Standard V6.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 132499,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/741c6f46f1b84a59b03bee539042f15c/download"
+    },
+    "7472145f6cf5463d919187708f5de8d2": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ALLIANCE SUSTAINABLE ENRGY-DOECONTR",
+      "kind": "notice",
+      "name": "RFP-2026-10245-10.12.26.pdf",
+      "nids": [
+        "1f4fdf5909e44f5ba721860b49a509b4"
+      ],
+      "posted": "2026-10-12T21:51:42.369+00:00",
+      "queued_since": "2026-10-12",
+      "size": 352416,
+      "sols": [
+        "RFP-2026-10245()"
+      ],
+      "titles": [
+        "Building America Subject Matter Expert Technical Support"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/1f4fdf5909e44f5ba721860b49a509b4/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7472145f6cf5463d919187708f5de8d2/download"
     },
     "74afc04b6a5541fb9f257d8cef89d2f6": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.261-NETWORK CONTRACT OFFICE 21 (36C261)",
@@ -616,6 +1870,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/75b32eace190452ba8e7e5706d25ed25/download"
     },
+    "76a8f7994f574c7684e767c4b698c074": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Updated - SHB pulsed HPA ESD MARKUP Rev.1.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-10-12T19:10:21.333+00:00",
+      "queued_since": "2026-10-12",
+      "size": 524724,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/76a8f7994f574c7684e767c4b698c074/download"
+    },
     "77463f02aedc46e6a705c30a0e0fe62f": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.261-NETWORK CONTRACT OFFICE 21 (36C261)",
       "kind": "notice",
@@ -637,6 +1913,50 @@
         "https://sam.gov/opp/c9b4ab6f95ab43f5867df28a8d5ca20c/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/77463f02aedc46e6a705c30a0e0fe62f/download"
+    },
+    "7ca865edd32f4a838423b7ff5ce6ad7b": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "PreBid_SignIn.pdf",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-10-02T12:41:29.893+00:00",
+      "queued_since": "2026-10-12",
+      "size": 1661876,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7ca865edd32f4a838423b7ff5ce6ad7b/download"
+    },
+    "7ea15b58fcff4347b94c5fcefe0e1946": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "C04_Attachment 4 -  Wage Rate Building.pdf",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-09-22T20:52:26.922+00:00",
+      "queued_since": "2026-10-12",
+      "size": 252022,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7ea15b58fcff4347b94c5fcefe0e1946/download"
     },
     "81615533f7c1490894658c13b3b5b9a0": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.SAC FREDERICK (36C10X)",
@@ -704,6 +2024,138 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/84022192a72c48b0aac90248b4ac6a8b/download"
     },
+    "8463418c18f34f80a030392b3913dbaf": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2H - Appendix TBD ANL-830-LTOV.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 128408,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8463418c18f34f80a030392b3913dbaf/download"
+    },
+    "89ef0771bd9445119b3e2d950dfc10ad": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "PUB 3111 QAPD.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-10-12T18:34:35.043+00:00",
+      "queued_since": "2026-10-12",
+      "size": 865268,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/89ef0771bd9445119b3e2d950dfc10ad/download"
+    },
+    "8c85f55b0f5c4c338379c3c1fd9665b5": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "B1 Enclosure B AMS-FORM-050 Reps and Certs.pdf",
+      "nids": [
+        "16d79f537e6745d9820e22cee9a3e436"
+      ],
+      "posted": "2026-10-06T18:38:43.041+00:00",
+      "queued_since": "2026-10-12",
+      "size": 922844,
+      "sols": [
+        "BSA475591"
+      ],
+      "titles": [
+        "LT-SPM"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/16d79f537e6745d9820e22cee9a3e436/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8c85f55b0f5c4c338379c3c1fd9665b5/download"
+    },
+    "8da7aab507434e51a2f62844960c1836": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "QA RFP AA-2027-01  No. 4.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-25T14:27:58.643+00:00",
+      "queued_since": "2026-10-12",
+      "size": 70425,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8da7aab507434e51a2f62844960c1836/download"
+    },
+    "912bc030cbbe4aed829579f6b68be494": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "B1 Enclosure C Quotation Pricing Sheet1.docx",
+      "nids": [
+        "16d79f537e6745d9820e22cee9a3e436"
+      ],
+      "posted": "2026-10-06T18:38:43.041+00:00",
+      "queued_since": "2026-10-12",
+      "size": 28171,
+      "sols": [
+        "BSA475591"
+      ],
+      "titles": [
+        "LT-SPM"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/16d79f537e6745d9820e22cee9a3e436/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/912bc030cbbe4aed829579f6b68be494/download"
+    },
+    "9558364db7e14a9a93b238269e61b193": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 5 - ANL-70B.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 323382,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9558364db7e14a9a93b238269e61b193/download"
+    },
     "968c0c57849a4074a1e66ab66e37b166": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
       "kind": "notice",
@@ -725,6 +2177,160 @@
         "https://sam.gov/opp/fc6eefee8325431dbd05077d90c72f78/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/968c0c57849a4074a1e66ab66e37b166/download"
+    },
+    "98614a5cf4434d96a9715c73349050e2": {
+      "agency": null,
+      "kind": "notice",
+      "name": "Attachment 7 - Prime_Subcontractor_Partner_Affiliate_Responsibility_Crosswalk_Final-1.docx",
+      "nids": [
+        "9bd628fd86ad49399af0784b25b911c6"
+      ],
+      "posted": "2026-10-12T18:44:07.802+00:00",
+      "queued_since": "2026-10-12",
+      "size": 36437,
+      "sols": [
+        "75751MN27R00002"
+      ],
+      "titles": [
+        "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/9bd628fd86ad49399af0784b25b911c6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/98614a5cf4434d96a9715c73349050e2/download"
+    },
+    "9926c5492e8a43d1a261c31df1eda2ba": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+      "kind": "notice",
+      "name": "36C24226Q0812 0001 REVISED.pdf",
+      "nids": [
+        "ee590be5e9f3422e9ffad2cbdd0b41eb"
+      ],
+      "posted": "2026-09-29T13:36:04.446+00:00",
+      "queued_since": "2026-10-12",
+      "size": 3853470,
+      "sols": [
+        "36C24226Q0812"
+      ],
+      "titles": [
+        "J059--FY27 SERVICE - Motorola LMR Service and Maintenance  (Base plus 4) Canandaigua VA Medical Center,  Canandaigua, NY"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/ee590be5e9f3422e9ffad2cbdd0b41eb/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9926c5492e8a43d1a261c31df1eda2ba/download"
+    },
+    "9941c0a50fa9402a86b2560325d6a89b": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "10.8.26 Update - DRAFT SOW, AL-1964-3328B.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-10-08T17:54:57.23+00:00",
+      "queued_since": "2026-10-12",
+      "size": 267603,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9941c0a50fa9402a86b2560325d6a89b/download"
+    },
+    "9c8791dd9c8a41fab26a0e51f765515c": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "12 LBNL ES_H Manual (PUB-3000) Chapter 43 Non Ionizing Radiation.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 255749,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9c8791dd9c8a41fab26a0e51f765515c/download"
+    },
+    "a1845676c8204d7094ea535f8b47396c": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "QA RFP AA-2027-01  No. 2.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-22T16:24:26.616+00:00",
+      "queued_since": "2026-10-12",
+      "size": 61888,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a1845676c8204d7094ea535f8b47396c/download"
+    },
+    "a54f9578988748c9aa841dfc2478ebdd": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "8 LBNL RPM on Cranes Hoists and Rigging Safety.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 206619,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a54f9578988748c9aa841dfc2478ebdd/download"
+    },
+    "a5cf9dd602f54bd4afe455f747e582e5": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Addendum No. 2 to RFP #6-B143-P-00251-00.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-10-12T20:52:39.313+00:00",
+      "queued_since": "2026-10-12",
+      "size": 294604,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a5cf9dd602f54bd4afe455f747e582e5/download"
     },
     "a6d9e8b293614d6992ea9325160cfe93": {
       "agency": "INTERIOR, DEPARTMENT OF THE.NATIONAL PARK SERVICE.DSC CONTRACTING SERVICES DIVISION",
@@ -748,6 +2354,160 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a6d9e8b293614d6992ea9325160cfe93/download"
     },
+    "a7c93858ebab4d2d956f68a7135fd67b": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2A - Draft Purchase Order.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 235101,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a7c93858ebab4d2d956f68a7135fd67b/download"
+    },
+    "a7f0073a24eb4717aae361844d96a84c": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "RFP-SHB pulsed RF HPA Rev. 1.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-10-12T19:10:21.333+00:00",
+      "queued_since": "2026-10-12",
+      "size": 323850,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a7f0073a24eb4717aae361844d96a84c/download"
+    },
+    "ab137e14df0e413da55eb6d4f665790e": {
+      "agency": null,
+      "kind": "notice",
+      "name": "Attachment 2 - Secure Care (150 Beds) HSF (100 Beds) PWS 10.9.26.docx",
+      "nids": [
+        "9bd628fd86ad49399af0784b25b911c6"
+      ],
+      "posted": "2026-10-12T18:44:07.802+00:00",
+      "queued_since": "2026-10-12",
+      "size": 270153,
+      "sols": [
+        "75751MN27R00002"
+      ],
+      "titles": [
+        "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/9bd628fd86ad49399af0784b25b911c6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ab137e14df0e413da55eb6d4f665790e/download"
+    },
+    "abd4fc6eae594727b33a1cec910aa4a1": {
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.U.S. AIR FORCES IN EUROPE.FA4486  765 ABS CONF",
+      "kind": "notice",
+      "name": "Attachment 2 - Price Schedule.xlsx",
+      "nids": [
+        "a82aef53035e47ada6b111e1de4f4e33"
+      ],
+      "posted": "2026-10-12T14:45:24.585+00:00",
+      "queued_since": "2026-10-12",
+      "size": 34817,
+      "sols": [
+        "FA448627Q0002"
+      ],
+      "titles": [
+        "Waste Water Treatment Plant Services"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a82aef53035e47ada6b111e1de4f4e33/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/abd4fc6eae594727b33a1cec910aa4a1/download"
+    },
+    "b0ac932ce9e545b690d0c56d15b0472e": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+      "kind": "notice",
+      "name": "36C24226Q0812 0003.pdf",
+      "nids": [
+        "ee590be5e9f3422e9ffad2cbdd0b41eb"
+      ],
+      "posted": "2026-10-12T20:33:16.009+00:00",
+      "queued_since": "2026-10-12",
+      "size": 87711,
+      "sols": [
+        "36C24226Q0812"
+      ],
+      "titles": [
+        "J059--FY27 SERVICE - Motorola LMR Service and Maintenance  (Base plus 4) Canandaigua VA Medical Center,  Canandaigua, NY"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/ee590be5e9f3422e9ffad2cbdd0b41eb/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b0ac932ce9e545b690d0c56d15b0472e/download"
+    },
+    "b11defcbf5044d2eb9690430b5340361": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2I - Appendix TBD ANL-826-MLANV.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 214348,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b11defcbf5044d2eb9690430b5340361/download"
+    },
+    "b2628eaf83d04ff8aaac1dc17cfce5a5": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "AL-1024-3173F.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-10-12T18:34:35.043+00:00",
+      "queued_since": "2026-10-12",
+      "size": 878829,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b2628eaf83d04ff8aaac1dc17cfce5a5/download"
+    },
     "b4c6e66aac52485aa33ca113ad62b6d5": {
       "agency": null,
       "kind": "notice",
@@ -770,6 +2530,50 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b4c6e66aac52485aa33ca113ad62b6d5/download"
     },
+    "b62a9cd81ec84472a189a5171e5fcd62": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "C04_Attachment 2 - Loleta Design Specs.pdf",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-09-22T20:52:26.922+00:00",
+      "queued_since": "2026-10-12",
+      "size": 552489,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b62a9cd81ec84472a189a5171e5fcd62/download"
+    },
+    "b787fb4ba2bd4035b284a71bdd6ec597": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "6 LBNL RPM on Seismic Safety.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 214932,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b787fb4ba2bd4035b284a71bdd6ec597/download"
+    },
     "b8f1bb28168a4b1db880c1af90c84d24": {
       "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NATIONAL AERONAUTICS AND SPACE ADMINISTRATION.NASA JOHNSON SPACE CENTER",
       "kind": "notice",
@@ -791,6 +2595,28 @@
         "https://sam.gov/opp/aee4374189ab4118b3ec0dcb00ae8408/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b8f1bb28168a4b1db880c1af90c84d24/download"
+    },
+    "b964546f33c54dbc85c30abb5fbb227c": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "B1 Enclosure D ACH Authorization Form.pdf",
+      "nids": [
+        "16d79f537e6745d9820e22cee9a3e436"
+      ],
+      "posted": "2026-10-06T18:38:43.041+00:00",
+      "queued_since": "2026-10-12",
+      "size": 116597,
+      "sols": [
+        "BSA475591"
+      ],
+      "titles": [
+        "LT-SPM"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/16d79f537e6745d9820e22cee9a3e436/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b964546f33c54dbc85c30abb5fbb227c/download"
     },
     "ba4a892c223840e0bd85ab5080751f41": {
       "agency": "INTERIOR, DEPARTMENT OF THE.BUREAU OF INDIAN AFFAIRS.CENTRAL OFFICE",
@@ -858,6 +2684,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/bb261d2b827243c7b4ab80bc6c39e1a1/download"
     },
+    "be45f3dda3b44bb0bf68b4249d10b9c3": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "5 LBNL ES_H Manual (PUB-3000) Chapter 14  Electrical Equipment Safety  Program.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 382420,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/be45f3dda3b44bb0bf68b4249d10b9c3/download"
+    },
     "befb42cbe35241b5a61791ced4cb442f": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
       "kind": "notice",
@@ -902,6 +2750,72 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c1dd6cc6284043c29c1801e7f7f8d6e0/download"
     },
+    "c28e035da7634c988e4bef13d90a4d55": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 7 - SaaS Questionnaire.xlsx",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 21398,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c28e035da7634c988e4bef13d90a4d55/download"
+    },
+    "c2938da55a9743e289ac2a87c71a0391": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "B1 Enclosure A Draft Contract 475591 with attachments.pdf",
+      "nids": [
+        "16d79f537e6745d9820e22cee9a3e436"
+      ],
+      "posted": "2026-10-06T18:38:43.041+00:00",
+      "queued_since": "2026-10-12",
+      "size": 1443551,
+      "sols": [
+        "BSA475591"
+      ],
+      "titles": [
+        "LT-SPM"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/16d79f537e6745d9820e22cee9a3e436/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c2938da55a9743e289ac2a87c71a0391/download"
+    },
+    "c6f83a95a6f343359d2da938b1075713": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "B1 RFQ 475591.pdf",
+      "nids": [
+        "16d79f537e6745d9820e22cee9a3e436"
+      ],
+      "posted": "2026-10-06T18:38:43.041+00:00",
+      "queued_since": "2026-10-12",
+      "size": 339998,
+      "sols": [
+        "BSA475591"
+      ],
+      "titles": [
+        "LT-SPM"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/16d79f537e6745d9820e22cee9a3e436/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c6f83a95a6f343359d2da938b1075713/download"
+    },
     "c7bf6499aa81486a8dfe71c654ba3856": {
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.FA4610  30 CONS PK",
       "kind": "notice",
@@ -924,27 +2838,137 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c7bf6499aa81486a8dfe71c654ba3856/download"
     },
-    "d255c18c417b4cb8b853a97b0b74b7f4": {
-      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+    "ce777154d7244448bb488a6fcc93a20f": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
       "kind": "notice",
-      "name": "P07. Wage Determination 2015-4187.pdf",
+      "name": "3 LBNL RPM on Safe Electrical Installations Policy.pdf",
       "nids": [
-        "fc6eefee8325431dbd05077d90c72f78"
+        "a45067f4e36d402b89fcbae3ebd793f6"
       ],
-      "posted": "2026-09-16T19:50:58.087+00:00",
-      "queued_since": "2026-10-11",
-      "size": 2101580,
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 210509,
       "sols": [
-        "36C24226Q0994"
+        "AM202603-25"
       ],
       "titles": [
-        "R499--FY26 Lifeguard and Pool Maintenance Services (B+ OPT)"
+        "UPDATED ALS SHB pulsed RF HPA"
       ],
       "type": "Solicitation",
       "uiLinks": [
-        "https://sam.gov/opp/fc6eefee8325431dbd05077d90c72f78/view"
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
       ],
-      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d255c18c417b4cb8b853a97b0b74b7f4/download"
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ce777154d7244448bb488a6fcc93a20f/download"
+    },
+    "ce88ecd2443942cdb6533bc6340aa619": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.MSTS \u2013 DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "RVDC-1.01-026RPT UE-27a Borehole End of Well Report - eDCRO_111854 - eDCRO_111864 (1).pdf",
+      "nids": [
+        "c10771d65900474e9c557b2f09c1eb05"
+      ],
+      "posted": "2026-10-12T20:00:28.722+00:00",
+      "queued_since": "2026-10-12",
+      "size": 3886118,
+      "sols": [
+        "RFIPP002"
+      ],
+      "titles": [
+        "EXPRESSION OF INTEREST (EOI) / REQUEST FOR INFORMATION (RFI) 24\u201d OD Drilling to 6,500\u2019 TVD (RV/DC)"
+      ],
+      "type": "Sources Sought",
+      "uiLinks": [
+        "https://sam.gov/opp/c10771d65900474e9c557b2f09c1eb05/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ce88ecd2443942cdb6533bc6340aa619/download"
+    },
+    "cfbe9e937aa94f12b47b88606c067766": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.MSTS \u2013 DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "EXPRESSION OF INTEREST - GZ Borehole - eDCRO_111853 - eDCRO_111862.pdf",
+      "nids": [
+        "c10771d65900474e9c557b2f09c1eb05"
+      ],
+      "posted": "2026-10-12T20:00:28.722+00:00",
+      "queued_since": "2026-10-12",
+      "size": 395936,
+      "sols": [
+        "RFIPP002"
+      ],
+      "titles": [
+        "EXPRESSION OF INTEREST (EOI) / REQUEST FOR INFORMATION (RFI) 24\u201d OD Drilling to 6,500\u2019 TVD (RV/DC)"
+      ],
+      "type": "Sources Sought",
+      "uiLinks": [
+        "https://sam.gov/opp/c10771d65900474e9c557b2f09c1eb05/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/cfbe9e937aa94f12b47b88606c067766/download"
+    },
+    "d00fd3c22cbd4978bf35cd2f076947d4": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "11 LBNL Facilities Master Specifications 260523_Low-Voltage Electrical Power Conductors and Cables.docx",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-04-15T01:31:25.033+00:00",
+      "queued_since": "2026-10-12",
+      "size": 24589,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d00fd3c22cbd4978bf35cd2f076947d4/download"
+    },
+    "d1347a07e9524284912245d9590f0b05": {
+      "agency": null,
+      "kind": "notice",
+      "name": "HSF Beds RFP October 8  2026.docx",
+      "nids": [
+        "9bd628fd86ad49399af0784b25b911c6"
+      ],
+      "posted": "2026-10-12T18:44:07.802+00:00",
+      "queued_since": "2026-10-12",
+      "size": 322304,
+      "sols": [
+        "75751MN27R00002"
+      ],
+      "titles": [
+        "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/9bd628fd86ad49399af0784b25b911c6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d1347a07e9524284912245d9590f0b05/download"
+    },
+    "d26bf4479f3b487591f3f98794977a49": {
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
+      "kind": "notice",
+      "name": "12445526Q0132 Amendment 0001 - Extension.pdf",
+      "nids": [
+        "22826e1a29a44e2cb205896fe9881cca"
+      ],
+      "posted": "2026-10-12T16:55:56.843+00:00",
+      "queued_since": "2026-10-12",
+      "size": 99643,
+      "sols": [
+        "12445526Q0132"
+      ],
+      "titles": [
+        "Loleta Water System Upgrades"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/22826e1a29a44e2cb205896fe9881cca/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d26bf4479f3b487591f3f98794977a49/download"
     },
     "d57983b570244ffcb523225451edc4c9": {
       "agency": null,
@@ -967,6 +2991,50 @@
         "https://sam.gov/opp/ff6bf3ef44234623917aaea833fbcc2d/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d57983b570244ffcb523225451edc4c9/download"
+    },
+    "d5cf7ffc124c47bea9c7539f11436897": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "QA  RFP AA-2027-01.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-09-20T19:27:47.124+00:00",
+      "queued_since": "2026-10-12",
+      "size": 41099,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d5cf7ffc124c47bea9c7539f11436897/download"
+    },
+    "d73b3e05b87e4227867a083c04e51f56": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "QA RFP AA-2027-01 No. 5.pdf",
+      "nids": [
+        "90ad22b027af43988c27ea3e9513dbfc"
+      ],
+      "posted": "2026-10-12T18:34:35.043+00:00",
+      "queued_since": "2026-10-12",
+      "size": 41256,
+      "sols": [
+        "AA-2027-01"
+      ],
+      "titles": [
+        "SR Power Supplies Rack Detailed Design for ALS-U"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/90ad22b027af43988c27ea3e9513dbfc/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d73b3e05b87e4227867a083c04e51f56/download"
     },
     "d9a966754f024dc493fae14877ad8693": {
       "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, STEWARDSHIP CONTRACTING BRANCH",
@@ -1012,6 +3080,72 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/db2de9e7fde848a58f477a629bd392bb/download"
     },
+    "dba712ce72ea47918ef9ca86e5744b79": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BROOKHAVEN NATL LAB -DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "B1 Enclosure F_W8 Form.pdf",
+      "nids": [
+        "16d79f537e6745d9820e22cee9a3e436"
+      ],
+      "posted": "2026-10-06T18:38:43.041+00:00",
+      "queued_since": "2026-10-12",
+      "size": 314634,
+      "sols": [
+        "BSA475591"
+      ],
+      "titles": [
+        "LT-SPM"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/16d79f537e6745d9820e22cee9a3e436/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/dba712ce72ea47918ef9ca86e5744b79/download"
+    },
+    "e7b6a9600eb34fbead3809229ca99d8f": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.SLAC Natl Accel Lab -DOE Contractor",
+      "kind": "notice",
+      "name": "Reps_and_Certs_Supplement_08.25.22 (1).pdf",
+      "nids": [
+        "4e812b677a9047298e7593dcdce9e354"
+      ],
+      "posted": "2026-10-12T15:49:41.176+00:00",
+      "queued_since": "2026-10-12",
+      "size": 67014,
+      "sols": [
+        "SLAC_368659_Supermicro_1U_Rack-mount_Server_Assemblies"
+      ],
+      "titles": [
+        "Supermicro 1U rack-mount server assemblies"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/4e812b677a9047298e7593dcdce9e354/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e7b6a9600eb34fbead3809229ca99d8f/download"
+    },
+    "e996a76bdac34be291916b8a2dccfb6f": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.SLAC Natl Accel Lab -DOE Contractor",
+      "kind": "notice",
+      "name": "E1_Fixed_Price_Commercial_Supplies_and_Services_Subcontract_Terms and Conditions_Supplemental Rider.pdf",
+      "nids": [
+        "4e5f481e1019480fa6c4162601482c11"
+      ],
+      "posted": "2026-10-12T15:42:45.455+00:00",
+      "queued_since": "2026-10-12",
+      "size": 804520,
+      "sols": [
+        "SLAC_369006_Xray_Imaging_Detector_System"
+      ],
+      "titles": [
+        "X-ray imaging detector system"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/4e5f481e1019480fa6c4162601482c11/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e996a76bdac34be291916b8a2dccfb6f/download"
+    },
     "eada37d2e1434f4880f2befa1fd55ddd": {
       "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
       "kind": "notice",
@@ -1033,6 +3167,72 @@
         "https://sam.gov/opp/fc6eefee8325431dbd05077d90c72f78/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eada37d2e1434f4880f2befa1fd55ddd/download"
+    },
+    "eb80e6bfb3954002a21a46d5372ccbef": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2D - Appendix D8C.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 148219,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/eb80e6bfb3954002a21a46d5372ccbef/download"
+    },
+    "ed4afb50d0ad47f0ba605ef2c933dee5": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 2J - Appendix TBD ANL-827-LTONV.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 147475,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ed4afb50d0ad47f0ba605ef2c933dee5/download"
+    },
+    "f2eb85f7e2204eaea78ac1ead140befa": {
+      "agency": null,
+      "kind": "notice",
+      "name": "Attachment 8 - State_and_Local_Authorization_Licensure_Self_Attestation-1.docx",
+      "nids": [
+        "9bd628fd86ad49399af0784b25b911c6"
+      ],
+      "posted": "2026-10-12T18:44:07.802+00:00",
+      "queued_since": "2026-10-12",
+      "size": 37178,
+      "sols": [
+        "75751MN27R00002"
+      ],
+      "titles": [
+        "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/9bd628fd86ad49399af0784b25b911c6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f2eb85f7e2204eaea78ac1ead140befa/download"
     },
     "f43c1c85d63a4f68bb8e1c96514dc89b": {
       "agency": "AGRICULTURE, DEPARTMENT OF.FOREST SERVICE.USDA-FS, CSA EAST 13",
@@ -1078,6 +3278,116 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f75df12dbbe64c95856e05a04a24a01a/download"
     },
+    "f7f68c3a2d3345a4a0206ad40764ea2b": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 1 - RFP Cover Letter, Instructions, & Notices.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 319009,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f7f68c3a2d3345a4a0206ad40764ea2b/download"
+    },
+    "f8540a24790b4df3adc29833dd315661": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+      "kind": "notice",
+      "name": "36C24226Q0812 Solicitation.pdf",
+      "nids": [
+        "ee590be5e9f3422e9ffad2cbdd0b41eb"
+      ],
+      "posted": "2026-09-21T12:42:56.523+00:00",
+      "queued_since": "2026-10-12",
+      "size": 3759921,
+      "sols": [
+        "36C24226Q0812"
+      ],
+      "titles": [
+        "J059--FY27 SERVICE - Motorola LMR Service and Maintenance  (Base plus 4) Canandaigua VA Medical Center,  Canandaigua, NY"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/ee590be5e9f3422e9ffad2cbdd0b41eb/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f8540a24790b4df3adc29833dd315661/download"
+    },
+    "fac6365a71dd408e9552ba72fd3d0fd8": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ALLIANCE SUSTAINABLE ENRGY-DOECONTR",
+      "kind": "notice",
+      "name": "Attachment 2 - Sample Subcontract Schedule.pdf",
+      "nids": [
+        "1f4fdf5909e44f5ba721860b49a509b4"
+      ],
+      "posted": "2026-10-12T21:51:42.369+00:00",
+      "queued_since": "2026-10-12",
+      "size": 337028,
+      "sols": [
+        "RFP-2026-10245()"
+      ],
+      "titles": [
+        "Building America Subject Matter Expert Technical Support"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/1f4fdf5909e44f5ba721860b49a509b4/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fac6365a71dd408e9552ba72fd3d0fd8/download"
+    },
+    "fbcc6d05e24541a79073d424b022b648": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.242-NETWORK CONTRACT OFFICE 02 (36C242)",
+      "kind": "notice",
+      "name": "Motorola Equipment Inventory Schedule Updated 12.9.24.pdf",
+      "nids": [
+        "ee590be5e9f3422e9ffad2cbdd0b41eb"
+      ],
+      "posted": "2026-09-29T13:36:04.446+00:00",
+      "queued_since": "2026-10-12",
+      "size": 3739256,
+      "sols": [
+        "36C24226Q0812"
+      ],
+      "titles": [
+        "J059--FY27 SERVICE - Motorola LMR Service and Maintenance  (Base plus 4) Canandaigua VA Medical Center,  Canandaigua, NY"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/ee590be5e9f3422e9ffad2cbdd0b41eb/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fbcc6d05e24541a79073d424b022b648/download"
+    },
+    "fc98394934444d20b7072fcf36ace04b": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ARGONNE NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Enclosure No. 3A - Pricing Proposal Form.pdf",
+      "nids": [
+        "52131dc1015a4b2b9cfb973e7b21c548"
+      ],
+      "posted": "2026-09-18T20:25:29.963+00:00",
+      "queued_since": "2026-10-12",
+      "size": 157352,
+      "sols": [
+        "6-B143-P-00251-00"
+      ],
+      "titles": [
+        "Request for Proposal: ALCF Equinox AI System"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fc98394934444d20b7072fcf36ace04b/download"
+    },
     "fd8fcde99ba343899dd51f2c5579e90d": {
       "agency": "TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION.693C73 EASTERN FED LANDS DIVISION",
       "kind": "notice",
@@ -1099,6 +3409,28 @@
         "https://sam.gov/opp/1c6dfa82d1ad423697e599a45da784c1/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fd8fcde99ba343899dd51f2c5579e90d/download"
+    },
+    "fe408d4a8fe64e76a3ba2ba6761d978e": {
+      "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.BERKELEY NATL LAB - DOE CONTRACTOR",
+      "kind": "notice",
+      "name": "Updated SHB pulsed HPA SOW MARKUP Rev.1.pdf",
+      "nids": [
+        "a45067f4e36d402b89fcbae3ebd793f6"
+      ],
+      "posted": "2026-10-12T19:10:21.333+00:00",
+      "queued_since": "2026-10-12",
+      "size": 377940,
+      "sols": [
+        "AM202603-25"
+      ],
+      "titles": [
+        "UPDATED ALS SHB pulsed RF HPA"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a45067f4e36d402b89fcbae3ebd793f6/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fe408d4a8fe64e76a3ba2ba6761d978e/download"
     }
   }
 }
