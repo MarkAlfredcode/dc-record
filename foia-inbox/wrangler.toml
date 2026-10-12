@@ -1,0 +1,18 @@
+name = "foia-inbox"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = false
+
+# Email Worker for foia@markalfred.news (Cloudflare Email Routing rule on the
+# markalfred.news zone points that address here). Every message is forwarded
+# to Mark's Yahoo inbox first, exactly as the old plain forward did, then
+# logged to the FOIA tracker's D1 database and matched to a request. Replies
+# that need an answer are flagged for the tracker's "Replies & appeals" tab.
+
+[[d1_databases]]
+binding = "FOIA_DB"
+database_name = "foia-tracker"
+database_id = "9853f320-7a56-495c-ab09-5548c0efa955"
+
+[observability]
+enabled = true

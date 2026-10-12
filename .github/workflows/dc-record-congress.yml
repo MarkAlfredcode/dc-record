@@ -159,6 +159,15 @@ jobs:
           FOIA_INGEST_TOKEN: ${{ secrets.FOIA_INGEST_TOKEN }}
         run: python3 scripts/suggest_foias.py congress "content-${{ steps.date.outputs.today }}.json"
 
+      - name: Draft FOIA replies and appeals (private, for the /foia tracker)
+        # Agency emails flagged by the foia-inbox worker + recent denials -> drafts Mark reviews; never emails anyone.
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          FOIA_INGEST_TOKEN: ${{ secrets.FOIA_INGEST_TOKEN }}
+        run: python3 scripts/draft_foia_replies.py
+
       - name: Push ntfy notification of this run's outcome
         if: always()
         run: |
