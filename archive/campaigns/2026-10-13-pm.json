@@ -1,0 +1,36 @@
+{
+ "date": "Tuesday, October 13, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings surfaced since the last edition",
+  "dek": "One voided or negative transaction, a $25,000 refund involving LA BAMBA PAC, was the only new item.",
+  "paragraphs": [
+   "All 30 RFAI and Form 99 filings received in the window since October 10 were already reported in earlier editions, so there are no new RFAI letters, Form 99 correspondence or terminations to report today. No red-flag keyword hits turned up.",
+   "The only new item is a negative-amount transaction: <strong>La Bamba PAC</strong> reported a $25,000 contribution refund involving the <strong>DCCC</strong>, dated December 31, 2025. FEC's convention is to show refunds, reversals and voided transactions as negative amounts, and the description reads simply \"CONTRIBUTION REFUND.\" <a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202609159904208763\">Transaction record</a>."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Voided & Negative Transactions",
+   "headline": "One $25,000 refund surfaces for La Bamba PAC",
+   "paragraphs": [
+    "One new negative-amount row met the $10,000 threshold. A large negative amount is FEC's convention for a voided, reversed or refunded transaction, and this one is described as an ordinary contribution refund."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>La Bamba PAC</strong>, -$25,000.00, counterparty <strong>DCCC</strong>, dated December 31, 2025: a $25,000 contribution refund was recorded. <a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202609159904208763\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "footer": {
+  "coverage_window": "FEC RFAI (FRQ) and Form 99 filings received October 10, 2026 onward, as of the October 13, 2026 PM edition; 30 filings in the window were all reported in prior editions.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "NASA's Astronomy Picture of the Day returned HTTP 500 and was omitted. The Money Out check for Trump properties ('Trump National') failed with an FEC Schedule B HTTP 504 query timeout."
+ },
+ "beat": []
+}
