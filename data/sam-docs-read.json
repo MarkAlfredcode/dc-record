@@ -200,13 +200,11 @@
       "sol": "SPE60526R0217"
     },
     "0234bc7a10d94c5b890419fb0b04b56f": {
-      "a": 1,
       "c": 1009,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "xlsx",
       "n": "C04_Attachment 1 - Schedule of Items.xlsx",
-      "s": "retry",
+      "s": "screened",
       "sol": "12445526Q0132"
     },
     "0244cab07a5f4048b94a1046724b9b9d": {
@@ -265,13 +263,11 @@
       "sol": "SCAN-MSFC-0002"
     },
     "027b0d8e6a1e4d3a8e78b999c54141d4": {
-      "a": 1,
-      "c": 3962,
+      "c": 1805,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "docx",
       "n": "36C24226Q0994 0001.docx",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C24226Q0994"
     },
     "0293577ecedb4150ac01e15674cf6581": {
@@ -421,13 +417,11 @@
       "sol": "36C25026P1180_1"
     },
     "03e046eb08ce45dda52e0b73c7602d83": {
-      "a": 1,
       "c": 933,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "xlsx",
       "n": "Price Proposal Schedule Attachment B.xlsx",
-      "s": "retry",
+      "s": "screened",
       "sol": "AM202603-25"
     },
     "03e9c015724241298e1f8c39d4eeb596": {
@@ -576,6 +570,14 @@
       "s": "screened",
       "sol": "FA850427QB100"
     },
+    "05189e5eb89d4b4bbe92a74d330e94ec": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "19 - Katy TX Harris County Davis Bacon.pdf",
+      "s": "wage_determination",
+      "sol": "36C10F25R0024"
+    },
     "0531b2d92510460cbca43fa209e3bdff": {
       "c": 1769,
       "d": "2026-10-10",
@@ -609,13 +611,11 @@
       "sol": "W912CH-26-S-0001"
     },
     "05857cf1d27741018e2810f3aca6b628": {
-      "a": 1,
-      "c": 394749,
+      "c": 394673,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Attachment_1_Statement_of_Work_.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140R3026R0012"
     },
     "058598cee58742429f181d8b65ed8d1f": {
@@ -1167,6 +1167,14 @@
       "s": "screened",
       "sol": "1240LP27Q0004"
     },
+    "0b4dc6a7c574489b850db1038e6cbad5": {
+      "c": 132,
+      "d": "2026-10-13",
+      "m": "ocr+pdf",
+      "n": "Site Visit Sign-In Sheet.pdf",
+      "s": "screened",
+      "sol": "W912DQ26QA080"
+    },
     "0b9be03ad6f340d9b57ac2fba09652d9": {
       "c": 4474,
       "d": "2026-10-11",
@@ -1262,13 +1270,45 @@
       "sol": "36C25926Q871RFQ1837075"
     },
     "0c278effc3c0499abd021c0de1df9edc": {
-      "a": 1,
-      "c": 115928,
+      "c": 115910,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "B F CLDC-108.3 HITL Summary Report 3 CDO F CLDC-109 Human Error Analysis 2,3 CDO CLDC-109.1 HEA Plan 2 CDO B F CLDC-109.2 HEA Results and Reports 3 CDO B F CLDC-110 Acoustics Noise Control Plan 3 CDO F CLDC-111 M edical Operations Plan 1 CDO B F CLDC-112 Food and Nutrition Plan",
+          "finding": "Contractor must develop human rating and certification plan for crewed spacecraft operations, including hazard analysis, safety review boards, and crew error mitigation.",
+          "news": 4,
+          "quote": "HEA is a key component of human rating a spacecraft and is used to understand and manage potential catastrophic hazards caused by the human",
+          "verified": true
+        },
+        {
+          "context": ", workarounds/user notes, use-as-is, meets-requirement-intent, withdrawn-by-originator, etc.) c. Flight rationale, user notes, and workaround method for use as-is issues 14. Any customization or exceptions to this SMP for payloads/payload facilities (for utilization), as opposed to flight critical software 15. Identification and description of any use of Artificial/Super Intelligence throughout the CLDS lifecycle, including safety-critical classification and a detailed risk assessment with impacts to hazard analysis. Any potential use in any on-orbit or in safety critical applications will require NASA approval. Remarks: The term \u2018software development\u2019 is meant to include new development, modification, reuse, re-engineering, maintenance, and all other activities resulting in software products. The information may be provided in one document, or separate documents, provided the elements are clearly identified in terms of location, mapping to DRD requirement, and that the same",
+          "finding": "Contract requires Artificial Intelligence use declaration with safety-critical classification and risk assessment for any on-orbit or safety-critical applications.",
+          "news": 4,
+          "quote": "Identification and description of any use of Artificial/Super Intelligence throughout the CLDS lifecycle, including safety-critical classification and a detailed risk assessment",
+          "verified": true
+        },
+        {
+          "finding": "NASA soliciting commercial space station operator; contract requires detailed safety, crew certification, and operational plans for Low Earth Orbit destination.",
+          "news": 5,
+          "quote": "Commercial Low Earth Orbit (LEO) Destination Contract (CLDC) Request for Proposal (80JSC027R0004; NATIONAL AERONAUTICS AND SPACE ADMINISTRATION)",
+          "verified": false
+        },
+        {
+          "finding": "Contractor must establish crew medical certification process, behavioral assessments, and English language proficiency standards for space missions.",
+          "news": 4,
+          "quote": "Selection Criteria: Identification of additional contractor medical and behavioral assessments and/or standards",
+          "verified": false
+        },
+        {
+          "finding": "Contract mandates cybersecurity compliance including NIST SP 800-171 controls, incident reporting to NASA Security Operations Center, and annual IT security training.",
+          "news": 3,
+          "quote": "The Contractor shall submit an ITSMP for its unclassified technology information resources. This plan shall describe the data protections implemented to meet the requirements in NIST Special Publication 800 171",
+          "verified": false
+        }
+      ],
       "m": "ocr+pdf",
       "n": "80JSC027R0004 Cover Letter Enclosure 2 Attachment J-02_CLDC Final RFP DRD_redlined.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "80JSC027R0004"
     },
     "0c4fb56cbe4c46f3a57111584d4338fa": {
@@ -1294,6 +1334,14 @@
       "n": "36C10B26Q0585_2.docx",
       "s": "screened",
       "sol": "36C10B26Q0585"
+    },
+    "0c7ebe244ded4dbfb5ba1a37d1df11f2": {
+      "c": 492,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "B09_Amend_0002_Pre-Proposal_Conference_List_of_Attendees_10-08-26_YELL_338223_0002.pdf",
+      "s": "screened",
+      "sol": "140P2026R0073"
     },
     "0c80b5495a73439280a5cbca3997b14b": {
       "c": 18462,
@@ -1428,6 +1476,14 @@
       "n": "COMPANIES.pdf",
       "s": "screened",
       "sol": "693JJ3-26-SS-0018"
+    },
+    "0d77676fdae1426bb77afc1631c47e30": {
+      "c": 939,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "SATPC0042804 Tab 07 SOW PRINTED.pdf",
+      "s": "screened",
+      "sol": "80NSSC269444272Q"
     },
     "0d82dd5439254fda9a48dd4b004947d0": {
       "c": 1452,
@@ -1656,13 +1712,11 @@
       "sol": "SPECHQDAFINDUSTRYDAY "
     },
     "10f00861a9154ea4a41c990982aa0025": {
-      "a": 1,
       "c": 128746,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "1-55.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140P2026R0087"
     },
     "10fae139e6744a32ab263d8a2efc5e03": {
@@ -1843,6 +1897,14 @@
       "n": "Section J-13D ATCH 085-002 3D TDP.pdf",
       "s": "screened",
       "sol": "70Z02326R93280004"
+    },
+    "126885a4e8104708935bb3f770711992": {
+      "c": 640,
+      "d": "2026-10-13",
+      "m": "xlsx",
+      "n": "J-3-Cat-B(2023.11.03).xlsx",
+      "s": "screened",
+      "sol": "N3220526R6120"
     },
     "12822a824a0f424db6f3cfc12577ffb4": {
       "c": 27715,
@@ -2503,13 +2565,11 @@
       "sol": "FA480925P0058"
     },
     "1914b7cd26d041bea06878af11324102": {
-      "a": 1,
       "c": 7023,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "docx",
       "n": "Questions and Answers.docx",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C24226Q0994"
     },
     "1919771404394ec8a5cbf0c90883fb19": {
@@ -2658,6 +2718,14 @@
       "s": "screened",
       "sol": "70Z08527QLRE0004"
     },
+    "1af5b73c1050466a8aa14940dee49b1b": {
+      "c": 242,
+      "d": "2026-10-13",
+      "m": "xlsx",
+      "n": "4_Question Answer Template_14Sep2026.xlsx",
+      "s": "screened",
+      "sol": "H9225726RE036"
+    },
     "1afab8b34a204207b4d9213655da7dcf": {
       "a": 1,
       "c": 3017,
@@ -2751,13 +2819,20 @@
       "sol": "36C25026B0048"
     },
     "1bd8f6837f9c4ad88c500131ca0201a2": {
-      "a": 1,
       "c": 60291,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "Corrosivity Category 0 to 1,000 Severely Corrosive 1,000 to 2,000 Corrosive 2,000 to 10,000 Moderately Corrosive Greater than 10,000 Mildly Corrosive Based on the resistivity test results, the soils encountered at the site are anticipated to be severely corrosive to unprotected buried ferrous structures. A qualified corrosion engineer should review test results and determine the appropriate corrosion protection measures at the site. 5.4 PAVEMENT DESIGN A pavement section is a layered system designed to distribute concentrated loads from traffic to the subgrade. The performance of a pavement structure is directly related to the physical properties of the subgrade soils, pavement materials and thicknesses, surface drainage, and traffic loading. For pavement design, parameters were chosen in general accordance with Chapter 11 of the FH",
+          "finding": "Federal highway improvements to Steve Thompson Wildlife Drive in Texas National Wildlife Refuge involve extensive pavement reconstruction with soil conditions presenting severe corrosion hazard to buried infrastructure.",
+          "news": 4,
+          "quote": "Based on the resistivity test results, the soils encountered at the site are anticipated to be severely corrosive to unprotected buried ferrous structures.",
+          "verified": true
+        }
+      ],
       "m": "ocr+pdf",
       "n": "TX FTFW LAAT 10(3)_Geotechnical Engineering Report Laguna NWR.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "6982AF27B000006"
     },
     "1bde30cd29e441d2ad032e65c20f3dea": {
@@ -3061,13 +3136,11 @@
       "sol": "SPRTA127R2149"
     },
     "1ef9c335d5fb40fda31d9943e66cef47": {
-      "a": 1,
       "c": 453420,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "xlsx",
       "n": "Section J-13B ATCH 083-001-2 ESWBS WORKBOOK.xlsx",
-      "s": "retry",
+      "s": "screened",
       "sol": "70Z02326R93280004"
     },
     "1f1e403f42af476b8e8cc51bf315e8e4": {
@@ -3227,13 +3300,26 @@
       "sol": "36C24W26R0055"
     },
     "1fe83ebae23940f08b19efb918d71953": {
-      "a": 1,
       "c": 14532,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "luding Section 508 requirements; and x A complete audit trail of who drafted, approved, and published every item. Hootsuite is the only vendor/manufacturer capable of providing the following: x Proprietary AI capability unavailable from other sources. Carahsoft provides access to the platform\u2019s proprietary AI capability, Wisdom, which has been trained on twelve years of historical social media data. Unlike general-purpose language models, Wisdom is purpose-built to interpret social media behavior, including conversation propagation, abnormal activity against baseline trends, platform-specific sentiment patterns, and genuine inflection points. This proprietary training corpus and analytic capability are unique to the platform available through Carahsoft. x Automated message triage, routing, and accountability. The solution available through Carahsoft provides AI-driven assignment and prioritization of inbound public messages across official ICE so",
+          "finding": "ICE procuring Hootsuite social media management platform with proprietary AI trained on 12 years of social media data for monitoring public communications.",
+          "news": 4,
+          "quote": "Wisdom, which has been trained on twelve years of historical social media data. Unlike general-purpose language models, Wisdom is purpose-built to interpret social media behavior",
+          "verified": true
+        },
+        {
+          "finding": "ICE using Hootsuite's visual recognition and multilingual monitoring across 30+ social networks to identify content about immigration crimes and victims.",
+          "news": 5,
+          "quote": "increase public awareness about victims, victims' families, and survivors of crimes linked to immigration. The platform includes image and video recognition that detects logos, scenes, objects, and other visual indicators",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "1.5.1-BNJ_Redacted.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "JA-26-0292"
     },
     "200fd12f23944e35b6f76c15394ccf37": {
@@ -4305,13 +4391,55 @@
       "sol": "SPRTA127R0023"
     },
     "2be4a21a6f144f08bde463b7295b49c7": {
-      "a": 1,
-      "c": 185254,
+      "c": 178901,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "Page 20 of 148 Part I \u2013 The Schedule Section B \u2013 Supplies or Services and Prices/Costs TABLE OF CONTENTS B.1 CONTRACT TYPE B.2 CONTRACT LINE-ITEMS NUMBERS B.3 CONTRACT ORDERING PERIODS B.1 CONTRACT TYPE This contract is a Commercial Indefinite-Delivery, Indefinite-Quantity (IDIQ) contract containing a combination of Firm-Fixed-Price (FFP) and Fixed Price with Economic Price Adjustment (FP-EPA) contract line items (CLINs). RB-S III boat production line items will be FP-EPA as specified herein; other supplies, support items, and separately identified deliverables will generally be FFP unless otherwise specified. The IDIQ nature of the contract provides flexibility, enabling the Government to order an indefinite quantity of supplies during the contract period, within specified minimum and maximum limits. Individual requirements are fulfilled through the issuance of Delivery Orders, each of wh",
+          "finding": "USCG soliciting indefinite-delivery contract for Response Boat Small III (RB-S III) with 2-year base and optional 8-year extension through 2029.",
+          "news": 4,
+          "quote": "This contract is a Commercial Indefinite-Delivery, Indefinite-Quantity (IDIQ) contract containing a combination of Firm-Fixed-Price (FFP) and Fixed Price with Economic Price Adjustment (FP-EPA) contract line items (CLINs).",
+          "verified": true
+        },
+        {
+          "context": "mance information. This attachment serves as the authoritative reference for all pricing matters under the contract, ensuring transparency and consistency in the application of prices to individual Delivery Orders. The following descriptions identify the supplies and services associated with each CLIN. (a) CLIN X001 \u2013 RB-S III (BOAT AND TRAILER) This Contractor must provide the design, construction, and delivery of a complete and operational Response Boat - Small III (RB-S III). Each unit shall be delivered inclusive of its purpose-built trailer, Contractor-installed equipment, all associated outfitting and equipment as detailed in the Specification, and the initial Maintenance Requirements List (MRL) Kit as required per Statement of Work (SOW) Section 083-2.4. (b) CLIN X002 / X003 \u2013 BOAT AND TRAILER SHIPPING \u2013 CONUS / OCONUS The Contractor must provide the transportation of the RB-S III boat and trailer to designated CONUS and OCONUS locations as required by SOW Section 084-3. The Contractor is responsible for all arrangements, in",
+          "finding": "Contract includes design, construction, and delivery of complete operational response boats with extensive technical documentation and support requirements.",
+          "news": 4,
+          "quote": "This Contractor must provide the design, construction, and delivery of a complete and operational Response Boat - Small III (RB-S III). Each unit shall be delivered inclusive of its purpose-built trailer, Contractor-installed equipment, all associated outfitting and equipment as detailed in the Spec",
+          "verified": true
+        },
+        {
+          "context": "the equipment being provided for the RB-S III. (2) Structural Details, Stability, and Construction (Specification \u00a7 051, 070, 074, 079 & 100): Provide a Narrative describing the approach to meeting RB-S III structural requirements for continuity and proportionality, and stability requirements of the specification. (3) Production Capability: Provide a Narrative describing your ability to meet a production rate of upwards of 60 boats per year while ensuring quality assurance. (4) Configuration and Change Management (SOW \u00a7 041): Provide a Narrative describing your process for identifying, documenting, evaluating, approving, and implementing engineering or L-6 Page 139 of 148 Part IV \u2013 Representations and Instructions Section L \u2013 Instructions, Conditions, and Notices to Offerors",
+          "finding": "Coast Guard ordering up to 60 Response Boats annually under 10-year IDIQ contract; four suppliers initially compete, one selected for production.",
+          "news": 4,
+          "quote": "Production Capability: Provide a Narrative describing your ability to meet a production rate of upwards of 60 boats per year while ensuring quality assurance.",
+          "verified": true
+        },
+        {
+          "context": "nce under this contract shall be conducted in accordance with the requirements of this section and the applicable Delivery Orders issued under this contract. The Contractor shall furnish all required deliverables in accordance with Attachment C-4, List of Deliverables, and the applicable Delivery Order. Initial Demonstration Boat Delivery Order. Following award of an IDIQ contract, the Government intends to issue an initial Delivery Order to each IDIQ awardee for one (1) RB-S III demonstrator boat and trailer. The Contractor shall deliver the demonstrator boat within [225] calendar days after issuance of the applicable Delivery Order, unless otherwise specified in the Delivery Order. Follow-On Delivery Orders. Unless otherwise specified in the applicable Delivery Order, for follow-on Delivery Orders containing multiple RB-S III boats, the first boat shall be delivered no later than [210] calendar days after issuance of the Delivery Order. Each subsequent boat shall be delivered in accordance with the delivery schedule established i",
+          "finding": "Two-phase acquisition: Phase I awards up to four IDIQ contracts for demonstrator boats; Phase II eliminates three contractors, selecting one for remaining production orders.",
+          "news": 4,
+          "quote": "Following contract award(s), an initial Delivery Order will be issued to each awardee for one (1) boat to be used for the Phase II In-Water Demonstration, satisfying the contract's minimum order guarantee.",
+          "verified": true
+        },
+        {
+          "context": "g] Labor may include a need for technical representatives, including Original Equipment Manufacturer (OEM) support and any required travel. 081 [ORIG] OPERATIONAL TESTING (OT) SUPPORT 081-1 [Orig] General 081-1.1 [Orig] The RB-S III Operational Testing (OT) will be conducted on boats 2 to 7. 081-1.2 [Orig] The RB-S III OT period is expected to be up to six months in duration and operate out of six USCG stations: STA Seattle, STA New York, STA Galveston, STA Marblehead, STA Miami, and STA San Diego. 081-1.3 [Orig] During Operational Testing, the Contractor shall have an on-call technician to assist the boat operators in performing required maintenance, repairs, and corrective actions to minimize operational downtime. The on-call technician shall be available between 0800 EST to 1800 EST, Monday through Friday (excluding Federal Holidays). 083 [ORIG] SUPPLY SUPPORT 083-1 [Orig] Gener",
+          "finding": "Operational testing planned at six USCG stations: Seattle, New York, Galveston, Marblehead, Miami, and San Diego over up to six months with contractor on-call technician support.",
+          "news": 3,
+          "quote": "The RB-S III OT period is expected to be up to six months in duration and operate out of six USCG stations: STA Seattle, STA New York, STA Galveston, STA Marblehead, STA Miami, and STA San Diego.",
+          "verified": true
+        },
+        {
+          "context": "L-2 Page 135 of 148 Part IV \u2013 Representations and Instructions Section L \u2013 Instructions, Conditions, and Notices to Offerors (b) Factor IV: In-Water Demonstration Following acceptance, the Government will complete an In-Water Demonstration lasting up to 90 calendar days (three (3) months). Each boat, operated by Coast Guard boat crews, will demonstrate performance in multiple scenarios. Boats may be instrumented with data acquisition equipment to capture quantitative metrics (e.g. revolutions per minute (RPM), speed, dynamic trim, fuel consumption, acceleration). The In-Water Demonstration will result in an In-Water Demonstration Report documenting the boat\u2019s performance and characteristics. During the In-Water Demonstration the Government may collect crew feedback regarding Human Systems Integration (HSI) and Crew Endurance information, such as ride",
+          "finding": "RB-S III demonstrator boats undergo 90-day in-water testing with Coast Guard crews evaluating performance in multiple operational scenarios before production contractor selected.",
+          "news": 3,
+          "quote": "Following acceptance, the Government will complete an In-Water Demonstration lasting up to 90 calendar days (three (3) months). Each boat, operated by Coast Guard boat crews, will demonstrate performance in multiple scenarios.",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "RFP No. 70Z02326R93250001_Conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "70Z02326R93250001"
     },
     "2c2dba47923a44b19feb978f28fafcf8": {
@@ -5146,13 +5274,11 @@
       "sol": "36C24227Q0044"
     },
     "34779b1dfe134ec586cca65f53621c3c": {
-      "a": 1,
       "c": 32937,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Att 04_EGLE Permit_251106.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "12445527Q0001"
     },
     "3492f070b91b462fa9fd795b3c1f76cb": {
@@ -5188,6 +5314,14 @@
       "s": "screened",
       "sol": "FA820126R0020"
     },
+    "34deac3588024bdda12f24d45ba6ec9d": {
+      "c": 484,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "11. Additional (2) Questions.pdf",
+      "s": "screened",
+      "sol": "15BCTS25Q00000015"
+    },
     "34ff95c755fc4ed994e1c984f3116f6c": {
       "c": 2337,
       "d": "2026-10-10",
@@ -5211,6 +5345,14 @@
       "n": "36C26327Q0050.pdf",
       "s": "screened",
       "sol": "36C26327Q0050"
+    },
+    "3506f6409e9742a2a1db23aceb1c25c7": {
+      "c": 650,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "02 - Agency Specific Requirements _ASR_ -  Cover Page.pdf",
+      "s": "screened",
+      "sol": "36C10F25R0024"
     },
     "353a0f7320854cb3b098a4dc16a58865": {
       "c": 187,
@@ -5444,13 +5586,53 @@
       "sol": "36C26227Q0011"
     },
     "38306dff1695475fae7e49d50647aac8": {
-      "a": 1,
-      "c": 562860,
+      "c": 560959,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "RATING PAGE OF PAGES SOLICITATION, OFFER, AND AWARD 1. This Contract is a Rated Order under the Defense Priorities and Allocations System (DPAS) - Code of Federal Regulations - at 15 CFR 700. DO-C9 1 648 2. CONTRACT NUMBER 3. SOLICITATION NUMBER 4. TYPE OF SOLICITATION 5. DATE ISSUED 6. REQUISITION/PURCHASE NUMBER SEALED BID (IFB) INVITATION FOR BID 80JSC027R0004 NEGOTIATED (RFP) REQUEST FOR",
+          "finding": "NASA Commercial LEO Destination Contract (CLDC) opens competition to build U.S. commercial space stations. IDIQ with $100M minimum, $34B not-to-exceed.",
+          "news": 5,
+          "quote": "the contract guaranteed minimum amount to be ordered under this contract is $100,000,000 and the contract Not-to-Exceed (NTE) amount* which may be ordered under this contract shall not exceed $34,063,000,000.",
+          "verified": true
+        },
+        {
+          "context": "SEALED BID (IFB) INVITATION FOR BID 80JSC027R0004 NEGOTIATED (RFP) REQUEST FOR PROPOSAL 7. ISSUED BY NASA JOHNSON SPACE CENTER CODE 80JSC0 8. ADDRESS OFFER TO (If other than item 7) Ashley Chaves, Contracting Officer, 2101 NASA Parkway 2101 NASA Parkway HOUSTON, TX 77058-3696 Houston, TX 77058-3696 United States United States NOTE: In sealed bid solicitations \"offer\" and",
+          "finding": "NASA requires U.S. Commercial Provider status and domestic launch vehicles. Contractors must source transportation and destination services from U.S. companies per 2026 National Space Policy.",
+          "news": 4,
+          "quote": "NASA plans to purchase and use United States commercial space capabilities and services to meet the requirements of this Contract, and the Contractor shall do the same in the performance of this Contract. Accordingly, the Contractor shall be a United States Commercial Provider as defined by 51 Unite",
+          "verified": true
+        },
+        {
+          "context": "A has title. (End of Clause) H.4 GOVERNMENT\u2019S RIGHT TO REMOTELY-SENSED DATA (a) This clause covers the U.S. Government\u2019s (USG) right to detect and monitor the CLDS during all phases of operation including launch, while in-orbit, during any failed attempt to reach orbit, and at any time CLDS leaves orbit. (b) The Contractor consents for the USG to collect remotely-sensed data on the CLDS and any visiting vehicles to or from the destination; to use such data for USG purposes. The Contractor shall obtain consent from its transportation sub-contractors and element owner providers. The remotely-sensed data may be used, modified, reproduced, released, performed, displayed, or disclosed within the USG, including USG support contractors, under suitable protective conditions. (c) The Government may not, without written permission, of the Contractor release or disclose the data outside the Government, except as otherwise required by law, use the technical data for manufacture, or authorize the technical d",
+          "finding": "NASA retains broad surveillance rights: government can monitor and collect remotely-sensed data on commercial space stations, launches, and any on-orbit activities without contractor permission.",
+          "news": 4,
+          "quote": "The Contractor consents for the USG to collect remotely-sensed data on the CLDS and any visiting vehicles to or from the destination; to use such data for USG purposes.",
+          "verified": true
+        },
+        {
+          "context": "ilaterally in any way with China or a Chinese- owned company using funds appropriated on or after April 25, 2011. Contracts for commercial and non-developmental items are exempted from the prohibition because they constitute purchase of goods or services that would not involve participation, collaboration, or coordination between the parties. (c) This contract may use restricted funding that was appropriated on or after April 25, 2011. The contractor must not contract with China or Chinese-owned companies for any effort related to this contract except for acquisition of commercial and non-developmental items. If the contractor anticipates making an award to China or Chinese-owned companies, the contractor must contact the contracting officer to determine if funding on this contract can be used for that purpose. (d) Subcontracts - The contractor must include the substance of this clause in all subcontracts made hereunder. (End of clause) I.9 FAR 52.227-14 RIGHTS IN DATA \u2013 GENERAL, (MAY 2014)",
+          "finding": "Contract restricts Chinese involvement in NASA-funded commercial space station development except for commercial off-the-shelf items, reflecting broader tech competition policy.",
+          "news": 4,
+          "quote": "This contract may use restricted funding that was appropriated on or after April 25, 2011. The contractor must not contract with China or Chinese-owned companies for any effort related to this contract except for acquisition of commercial and non-developmental items.",
+          "verified": true
+        },
+        {
+          "finding": "Contract bars subcontracting with Russian entities through Dec 31, 2030, implementing Iran-North Korea-Syria Nonproliferation Act restrictions on U.S. space contractors.",
+          "news": 4,
+          "quote": "The Contractor shall not subcontract with Russian entities without first receiving written approval from the Contracting Officer... This clause implements the reporting requirement in section 6(i) of the Iran, North Korea, and Syria Nonproliferation Act, as amended (INKSNA).",
+          "verified": false
+        },
+        {
+          "finding": "NASA Commercial Low Earth Orbit Destination Contract establishes private commercial space station with crewed operations, docking systems, and long-term on-orbit certification framework through 2035.",
+          "news": 4,
+          "quote": "Commercial Low Earth Orbit (LEO) Destination Contract (CLDC) Request for Proposal (80JSC027R0004; NATIONAL AERONAUTICS AND SPACE ADMINISTRATION...orders may be issued from contract award through March 31, 2035.",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "80JSC027R0004 Final RFP.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "80JSC027R0004"
     },
     "38559dbe2d974262931204e772e233f3": {
@@ -5841,6 +6023,14 @@
       "s": "screened",
       "sol": "W912PB-27-R-GBOM"
     },
+    "3c481a4fb0bd4fc7b55a5ef02f56558b": {
+      "c": 3594,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "19AQMM26F1400 Redacted JA.pdf",
+      "s": "screened",
+      "sol": "19AQMM26F1400"
+    },
     "3c723b812d5a486e86546ae5fb513643": {
       "c": 17050,
       "d": "2026-10-11",
@@ -5880,6 +6070,14 @@
       "n": "1 - MR Questionnaire - FCI Danbury - VT HVAC.pdf",
       "s": "screened",
       "sol": "15BGCS26N20300004"
+    },
+    "3d6c9ae9e45640bc8c816c7f99b1277b": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "19 - Katy TX Waller County DOL Wage Determination - REV 01_03_2025.pdf",
+      "s": "wage_determination",
+      "sol": "36C10F25R0024"
     },
     "3d6e6821d5ae441b8e89cb3baced48e0": {
       "c": 3445,
@@ -6187,13 +6385,11 @@
       "sol": "36C26127Q0074"
     },
     "3fcb86a6a3284710a78efffd193b823c": {
-      "a": 1,
       "c": 123644,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "zip",
       "n": "Building 262 Drawings.zip",
-      "s": "retry",
+      "s": "screened",
       "sol": "70LGLY27RSSB00001"
     },
     "3fe43633ddb642dfb610827d95d60710": {
@@ -6238,13 +6434,11 @@
       "sol": "70Z02326R93280004"
     },
     "40114a198b334fd5bad0fa1936a28fd3": {
-      "a": 1,
       "c": 37426,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "zip",
       "n": "C04q_12 Mandatroy Subdivision Cruise Data.zip",
-      "s": "retry",
+      "s": "screened",
       "sol": "12363N26R4014"
     },
     "4033407e1c1343149fdb6bf8be8a867b": {
@@ -6356,6 +6550,23 @@
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
     },
+    "40e7ac43fd8f4dccb59224a128fc4599": {
+      "c": 2564,
+      "d": "2026-10-13",
+      "f": [
+        {
+          "context": "services to sustain the IT support services in accordance with the existing Performance Work Statement by the expiration of the current contract. As the incumbent contractor, Katmai is the only source that currently possesses the operational infrastructure, knowledge, and experience required to seamlessly continue providing the requested services. Award of this contract to any other contractor would result in unacceptable delays, including a lapse in service, and significant loss of data. This contract will be issued on a sole source basis. The North American Industry Classification System (NAICS) code for this requirement is 541519 \u2013 Other Computer Related Services. Any sources that believe they are eligible and capable of providing this product must respond in writing. Responses must be supported with clear and convincing evidence articulating the ability to provide the items outlined above. A request for documentation will not be considered an affirmative response. Information received will be considered solely for the purpose of",
+          "finding": "Army Institute of Surgical Research awarding bridge IT contract to incumbent Katmai Management Services citing operational continuity and risk of service lapse.",
+          "news": 4,
+          "quote": "Award of this contract to any other contractor would result in unacceptable delays, including a lapse in service, and significant loss of data.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "B01. Notice of Intent to Sole Source HT9426-27-NOI-LBA01.pdf",
+      "s": "screened",
+      "sol": "HT9426-27-NOI-LBA-01"
+    },
     "40fff9f294fa48d49943e390cac614a5": {
       "c": 3202,
       "d": "2026-10-10",
@@ -6420,6 +6631,14 @@
       "n": "B01 W912P626BA0290001 CSSC Site-Wide Handrailing Replacement 09.23.26 released.pdf",
       "s": "screened",
       "sol": "W912P626BA029"
+    },
+    "41d720a202f94fa19ff344d13420af1d": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "ocr+pdf",
+      "n": "19 - Katy TX Fort Bend County DOL Wage Determination - REV 05_16_2025.pdf",
+      "s": "wage_determination",
+      "sol": "36C10F25R0024"
     },
     "41e1f584b1fa436cba53c13635fa10b8": {
       "c": 5599,
@@ -6704,6 +6923,14 @@
       "s": "screened",
       "sol": "f41f9d43fc364bf588c66cbbb75355d1"
     },
+    "44c8771bcba849b78f1e22372bcde601": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "5 - Wage Determination IN20260003 05182026.pdf",
+      "s": "wage_determination",
+      "sol": "15BBNF26Q41800001"
+    },
     "44ed816ec79e4e7584a4e27c98d04c11": {
       "c": 277,
       "d": "2026-10-11",
@@ -6918,6 +7145,14 @@
       "n": "Notice of Intent to Award a Sole Source.pdf",
       "s": "screened",
       "sol": "W912EQ27PA003"
+    },
+    "474916b5e7e7400fb38a45adfee55514": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "Attachment 3- Wage Determination 2015-5693 Rev 29.pdf",
+      "s": "wage_determination",
+      "sol": "FA524027Q0001"
     },
     "47612272400e40168f7f55019a82afaa": {
       "c": 5992,
@@ -7659,13 +7894,53 @@
       "sol": "80JSC026R0021DRFP"
     },
     "4d20157fce71425c8bb46e71c9f1a48b": {
-      "a": 1,
-      "c": 261285,
+      "c": 257697,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "quisition of Commercial Products and Commercial Services, in conjunction with FAR Part 15, Contracting by Negotiation. The provision FAR 52.212-1, Instructions to Offerors\u2014Commercial Products and Commercial Services (DEVIATION AUG 2025) incorporated by reference and supplemented with the following addendum: L.1 SOLICITATION INSTRUCTIONS (a) The Government intends to utilize a two-phase advisory down-select process to evaluate proposals in accordance with the evaluation procedures described in Section M \u2013 Evaluation Factors for Award, outlined below. Phase 1 Factor 1 \u2013 Design and Production Capability Factor 2 \u2013 Past Performance Phase 2 Factor 3 \u2013 Project Approach Factor 4 \u2013 Schedule Factor 5 \u2013 Price L-1 Part IV \u2013 Representations and Instructions 70Z02326R93280004",
+          "finding": "Coast Guard soliciting bids for new Light Icebreaker vessels (HSC-L) with two-phase competitive process; lead vessel delivery required within 900 days of award.",
+          "news": 4,
+          "quote": "The Government intends to utilize a two-phase advisory down-select process to evaluate proposals in accordance with the evaluation procedures described in Section M \u2013 Evaluation Factors for Award",
+          "verified": true
+        },
+        {
+          "context": "and Attachment J-12 \u2013 HSC-L Design Placemat. In the narrative, describe the following: Shipyard facilities and infrastructure: \u2022 Existing shipyard facilities and infrastructure layout map identifying structure and areas, e.g., production facility, office areas, launch site, storage areas, weather-protected fabrication areas. \u2022 Capability for concurrent production of up to four vessels simultaneously. \u2022 Capability to launch a vessel with the characteristics of the substantially complete HSC- L. \u2022 Overhead or mobile crane accessibility to production area and capability of handling HSC-L major equipment. \u2022 Pier length to moor two vessels simultaneously with water depth of at least nine feet at mean low water. Workforce: \u2022 A statement indicating if the Offeror possesses in-house engineering staff performing the roles of design agent or if the Offeror will utilize sub-contractors to perform this role and the associated tasks associated with the design requirements. \u2022 Count of d",
+          "finding": "Solicitation requires shipyards to demonstrate capability for concurrent production of up to four icebreaker vessels simultaneously with specialized infrastructure including vessel launch capability and dual-vessel mooring.",
+          "news": 4,
+          "quote": "Capability for concurrent production of up to four vessels simultaneously. Capability to launch a vessel with the characteristics of the substantially complete HSC-L. Overhead or mobile crane accessibility to production area and capability of handling HSC-L major equipment. Pier length to moor two v",
+          "verified": true
+        },
+        {
+          "context": "RATING PAGE OF PAGES SOLICITATION, OFFER, AND AWARD 1. This Contract is a Rated Order under the Defense Priorities and Allocations System (DPAS) - Code of Federal Regulations - at 15 CFR 700. 1 175 2. CONTRACT NUMBER 3. SOLICITATION NUMBER 4. TYPE OF SOLICITATION 5. DATE ISSUED 6. REQUISITION/PURCHASE NUMBER SEALED BID (IFB) INVITATION FOR BID 70Z02326R93280004 06/30/2026",
+          "finding": "DHS prohibited from contracting with foreign-incorporated entities treated as inverted domestic corporations unless Secretary waives restriction for national security reasons.",
+          "news": 3,
+          "quote": "the Department of Homeland Security from entering into any contract with a foreign incorporated entity which is treated as an inverted domestic corporation as defined in this clause, or with any subsidiary of such an entity. The Secretary shall waive the prohibition with respect to any specific cont",
+          "verified": true
+        },
+        {
+          "context": "ract Clauses 70Z02326R93280004 Page 143 of 175 ============================pection=f=\u2013=`ontract=`lauses=Ec^oLep^oF verified according to Commandant Instruction COMDTINST 5500.18, Coast Guard Trusted Associate Sponsorship System. The initial CAC issuance requires a favorably adjudicated Tier 1 investigation (equivalent or higher) or a Tier 1 background investigation (BI) (equivalent or higher) package that has been successfully scheduled with the investigative service provider (ISP) and a FBI fingerprint check with favorable results. The TA and Sponsor or other appropriate Federal Government representative must coordinate with the unit BI Verifier (Command Security Officer /Trusted Agent Security Manager) or the U.S. Coast Guard Security (SECCEN) to confirm the appropriate investigation has been favorably adjudicated or scheduled at the ISP with favorable FBI fingerprint results. (f) The COR or Contracting Officer p",
+          "finding": "Contractor employees requiring access to Coast Guard facilities or networks must obtain Common Access Card (CAC) through Trusted Associate Sponsorship System (TASS), requiring favorably adjudicated Tier 1 background investigation and FBI fingerprint clearance.",
+          "news": 3,
+          "quote": "The initial CAC issuance requires a favorably adjudicated Tier 1 investigation (equivalent or higher) or a Tier 1 background investigation (BI) (equivalent or higher) package that has been successfully scheduled with the investigative service provider (ISP) and a FBI fingerprint check with favorable",
+          "verified": true
+        },
+        {
+          "finding": "Coast Guard ordering seven new light icebreaker vessels to replace 50-year-old fleet in Northeast, with minimum commitment of four ships and five-year indefinite delivery contract structure.",
+          "news": 4,
+          "quote": "The HSC-L program plans to acquire seven new vessels to carry on the light icebreaker mission. The current 65-ft WYTL class of light domestic icebreakers has exceeded 50 years of service.",
+          "verified": false
+        },
+        {
+          "finding": "Contract includes $8.5 million allocation for Special Studies and Events, covering engineering support for homeport-specific modifications and design activities beyond base vessel specifications.",
+          "news": 3,
+          "quote": "Special Studies and Events $8,500,000 $8,500,000... design of homeport specific brows, outfitting items not included in the Specification, and the development of various engineering products/drawings.",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "RFP_70Z02326R93280004_HSC-L_Conformed_A00008.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "70Z02326R93280004"
     },
     "4d4e9da2a9e346d1b74cc69ebae950bc": {
@@ -7758,13 +8033,11 @@
       "sol": "36C24127Q0015"
     },
     "4e4e1d1d42dc4585bcc1646cdd41d5d0": {
-      "a": 1,
       "c": 135372,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Drawings_56-99.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140P2026R0087"
     },
     "4e5796cd15a64eb3936fdd70b3fdf099": {
@@ -8180,6 +8453,14 @@
       "s": "screened",
       "sol": "70Z08526QIBCT0051"
     },
+    "53317ad856fc43c1b2735cb241d36e87": {
+      "c": 360,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "15A - Provision Addendum to GSA Template 3516_3516A - SOLICITATION PROVISIONS.pdf",
+      "s": "screened",
+      "sol": "36C10F25R0024"
+    },
     "5350b36079974b49a161a221c09ea3bf": {
       "c": 8665,
       "d": "2026-10-10",
@@ -8358,14 +8639,20 @@
       "s": "screened",
       "sol": "36C25927Q0019"
     },
+    "54f3db14014e43d7b0738fd9b3491c5f": {
+      "c": 625,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "18 - Certification of Building Energy Performance.pdf",
+      "s": "screened",
+      "sol": "36C10F25R0024"
+    },
     "54f425b144884bea8e5aac6064a67d95": {
-      "a": 1,
-      "c": 335393,
+      "c": 334921,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "HHS-NIH-NIAID-BAA2026-1 - Solicitation.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "HHS-NIH-NIAID-BAA2026-1"
     },
     "54fcfd6199514ed19e1b4f8e5c375de4": {
@@ -8425,6 +8712,14 @@
       "n": "SAM.gov-NVSBE -21Aug2026-FINAL.pdf",
       "s": "screened",
       "sol": "36U10126Q0023"
+    },
+    "55a49cc66a7046a6a004fffdaf180553": {
+      "c": 79,
+      "d": "2026-10-13",
+      "m": "pptx",
+      "n": "Drawings.pptx",
+      "s": "screened",
+      "sol": "FA465427R0001"
     },
     "55c21e830b19491e867eb1e2e2e6b3b0": {
       "c": 10169,
@@ -8690,13 +8985,11 @@
       "sol": "80GRC026R0008 "
     },
     "586d12dca5d5493fb5e2a04df8969193": {
-      "a": 1,
-      "c": 102396,
+      "c": 101114,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Call for MASTR 27 Jan 25.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
     "58aa46a2e86d45529acf01e3a4cf1c96": {
@@ -8706,6 +8999,14 @@
       "n": "36C24226R0120_1.docx",
       "s": "screened",
       "sol": "36C24226R0120"
+    },
+    "58ac358cf69e48c1b95febb85d437afe": {
+      "c": 87,
+      "d": "2026-10-13",
+      "m": "ocr-image",
+      "n": "B09_Amend_0002_Unnamed_Ck_BIR_photos_88_fire_0002.png",
+      "s": "screened",
+      "sol": "140P2026R0073"
     },
     "58cf8d713a8247f18bd0e4cba4afdf97": {
       "c": 1394,
@@ -8935,13 +9236,11 @@
       "sol": "N00173-27-Q-1301397725"
     },
     "5aa6cf3045c149dea5cb10375602fa65": {
-      "a": 1,
       "c": 204012,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "xlsx",
       "n": "Attachment_03_PPICR.xlsx",
-      "s": "retry",
+      "s": "screened",
       "sol": "140R3026R0012"
     },
     "5ab336d0572042b4b737443c1a08186e": {
@@ -9224,6 +9523,14 @@
       "s": "screened",
       "sol": "W15QKN-27-Q-A006"
     },
+    "5e7eda72b4684746a9460cdabbe2df65": {
+      "c": 1278,
+      "d": "2026-10-13",
+      "m": "docx",
+      "n": "Statement of Work for BD-service contract (1).docx",
+      "s": "screened",
+      "sol": "NOI-OLAO-CC-27-000233"
+    },
     "5eb00ea862bf4b06b62a3926ee59568e": {
       "c": 6409,
       "d": "2026-10-11",
@@ -9288,6 +9595,14 @@
       "n": "WD 2015-4459 Rev 35 Lee.pdf",
       "s": "wage_determination",
       "sol": "FA480327Q0003"
+    },
+    "5f569de596d64e5389171cc1fe2ff80d": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "ocr+pdf",
+      "n": "B08_Attach_3_WD_Park_and_Teton_WY20260044_07_30_2026.pdf",
+      "s": "wage_determination",
+      "sol": "140P2026R0073"
     },
     "5f7c163035cf47ae8a95f17f29017426": {
       "c": 0,
@@ -9415,6 +9730,14 @@
       "n": "USMMA_FY27_Industry_Day_Special_Notice_Amendment_0001_01 October 6 2026.docx",
       "s": "screened",
       "sol": "W912DS26S0043"
+    },
+    "6080269f0710440e84056b79a8716b4d": {
+      "c": 242,
+      "d": "2026-10-13",
+      "m": "docx",
+      "n": "Site Visit Sign-in Sheet.docx",
+      "s": "screened",
+      "sol": "FA465427R0001"
     },
     "609ef6648b7d47b282888bdbdc99ba18": {
       "c": 9772,
@@ -9855,6 +10178,14 @@
       "s": "screened",
       "sol": "W912CH-26-S-0001"
     },
+    "662201c44e63456fb1fa9c8622ecce29": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "Katy TX RLP Amendment No 2 and Attachment 19.pdf",
+      "s": "wage_determination",
+      "sol": "36C10F25R0024"
+    },
     "664c263a5ff94e608bf34309aef7ba84": {
       "c": 4837,
       "d": "2026-10-11",
@@ -9862,6 +10193,14 @@
       "n": "Attachment_2_-Past_Performance_Questionnaire.docx",
       "s": "screened",
       "sol": "140R4025R0017"
+    },
+    "6686609f7fae44b182a14beee03314b6": {
+      "c": 12885,
+      "d": "2026-10-13",
+      "m": "docx",
+      "n": "QASP_Lifeguard and Pool Maintenance 2.docx",
+      "s": "screened",
+      "sol": "36C24226Q0994"
     },
     "6715e23cd66e43b8aef1d8334449d2cf": {
       "c": 1080,
@@ -9913,13 +10252,19 @@
       "sol": "19C02026Q0016"
     },
     "67518fad8e734595bf095a32de250f6b": {
-      "a": 1,
       "c": 216,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "HHS soliciting beds for unaccompanied migrant children in secure care and heightened supervision facilities, indicating expanded detention capacity.",
+          "news": 5,
+          "quote": "State Licensed and Nationally Accredited Secure Care and Heightened Supervision Facility (HSF) Beds for the Administration for Children and Families (ACF), Office of Refugee Resettlement (ORR), Unaccompanied Alien Children Bureau (UACB)",
+          "verified": false
+        }
+      ],
       "m": "xlsx",
       "n": "Attachment 6 - QA_Template.xlsx",
-      "s": "retry",
+      "s": "screened",
       "sol": "75751MN27R00002"
     },
     "6775f87b665c4ef7be43289862074bbb": {
@@ -10570,6 +10915,14 @@
       "s": "screened",
       "sol": "4ID0159"
     },
+    "6cf7335217fd49dcbeec345b8c838abe": {
+      "c": 47,
+      "d": "2026-10-13",
+      "m": "pptx",
+      "n": "Water from POL to 450.pptx",
+      "s": "screened",
+      "sol": "FA465427R0001"
+    },
     "6cfb4494625a4feb8663ce267d24df61": {
       "c": 426,
       "d": "2026-10-10",
@@ -10869,6 +11222,14 @@
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
     },
+    "6f4ef44f57d94211a71c23b021239b53": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "ocr+pdf",
+      "n": "100209 Wage Determination.pdf",
+      "s": "wage_determination",
+      "sol": "FA813727R0003"
+    },
     "6f6596da252245118273f02cc8ec1e72": {
       "c": 16562,
       "d": "2026-10-10",
@@ -11009,13 +11370,11 @@
       "sol": "36C10B26Q0801"
     },
     "712a71b72ca34b1eb6d00ad4714e4f8b": {
-      "a": 1,
       "c": 121998,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "B08_Att_03_BRCA_318695_-_Engineering_Reports.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140P2026B0004"
     },
     "71309a08a3d74702a163135bc00a64bd": {
@@ -11314,14 +11673,29 @@
       "sol": "80GRC026R0008 "
     },
     "74afc04b6a5541fb9f257d8cef89d2f6": {
-      "a": 1,
       "c": 86037,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Facility Single Line Diagram.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C26127Q0067"
+    },
+    "74bf555dc89749c2b01975b018e1c72e": {
+      "c": 15769,
+      "d": "2026-10-13",
+      "f": [
+        {
+          "context": "\ufeff SUBJECT* OFFSITE SURGICAL REPROCESSING & STERILIZATION SVSC - BASE PLUS FOUR OPTION YEARS (B+4OYS) | POP: (12/31/2026 - 12/30/2031)| VA Loma Linda Healthcare System (VALLHCS) GENERAL INFORMATION CONTRACTING OFFICE\u2019S ZIP CODE* 90815 SOLICITATION NUMBER* 36C26227Q0040 RESPONSE DATE/TIME/ZONE 10-19-2026 10:00 PACIFIC TIME, LOS ANGELES, USA ARCHIVE 5 DAYS AFTER THE RESPONSE DATE RECOVERY ACT FUNDS N SET-ASIDE SBA PRODUCT SERVICE CODE* J065 NAICS CODE* 339112 CONTRACTING OFFICE ADDRESS Department of Veterans Affairs Network Contracting Office 22 4811 Airport Plaza Drive Suite 600 Long Beach CA 90815 POINT OF CONTACT* SENIOR CONTRACT SPECIALIST DR. BARRY BLAND barry.bland@va.g",
+          "finding": "VA Loma Linda Healthcare System seeking vendors for offsite surgical reprocessing and sterilization services; baseline 400 surgical trays monthly through December 2031.",
+          "news": 3,
+          "quote": "OFFSITE SURGICAL REPROCESSING & STERILIZATION SVSC - BASE PLUS FOUR OPTION YEARS (B+4OYS) | POP: (12/31/2026 - 12/30/2031)",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C26227Q0040.docx",
+      "s": "screened",
+      "sol": "36C26227Q0040"
     },
     "74c67945dc3043f3a24825f51772cb52": {
       "c": 3509,
@@ -11420,13 +11794,55 @@
       "sol": "140R3026R0012"
     },
     "75b32eace190452ba8e7e5706d25ed25": {
-      "a": 1,
-      "c": 450901,
+      "c": 450763,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "Category: baseline was issued. date (if this DRD has been revised) Technical \u2610 Administrative \u2612 S&MA \u2610 10. Description/Use: The purpose of the Commercialization Plan is to describe the approach the Contractor plans, if any, to engage with commercial entities in partnerships for the purposes of creating additional revenue streams for the completion of the Commercial Low Earth Orbit (LEO) Destination Contract (CLDC). Additionally, the plan intends to better understand the Contractor\u2019s overall financial health and business plan. The CLDC Commercialization Plan will provide details necessary to ensure the proposed plan and financial status is reasonable and is in line with the proposed mission cost and cost levied to NASA. 11. Distribution: One (1) Electronic Copy to the Commercial Destination Office (CDO) Program Au",
+          "finding": "NASA Commercial Low Earth Orbit Destination Contract solicitation reveals plans for commercial space station operations with crew accommodations, cargo services, and revenue-generating missions.",
+          "news": 5,
+          "quote": "The purpose of the Commercialization Plan is to describe the approach the Contractor plans, if any, to engage with commercial entities in partnerships for the purposes of creating additional revenue streams for the completion of the Commercial Low Earth Orbit (LEO) Destination Contract (CLDC).",
+          "verified": true
+        },
+        {
+          "context": "ess Development progress in capturing and creating growth in non-NASA markets including a status of commercial opportunities including direct sales to 3rd party operators. Status should include information on signed contracts, Letters of commitment, etc. but may omit customer identities or contract terms and conditions. 11. List of all major subcontractors, vendors, suppliers and partners, including barters and trades, performing work with a value over $100M or lower level submissions are required if scope is in the critical path, describing the scope of agreement, and status of signed contracts and agreements with each, as well as Subcontracting and Partnership forward plans. Remarks: To the extent permitted by law, NASA will protect information submitted within this DRD as confidential financial information. Access will be strictly limited to the Contracting Officer, Contracting Officer Representative and personnel with a need-to-know. For completeness, please ensure the following metr",
+          "finding": "Contract requires disclosure of all major subcontractors, vendors, and partners with value over $100M or critical-path scope, including barter and trade arrangements.",
+          "news": 4,
+          "quote": "List of all major subcontractors, vendors, suppliers and partners, including barters and trades, performing work with a value over $100M or lower level submissions are required if scope is in the critical path",
+          "verified": true
+        },
+        {
+          "context": "on, strategies, policies, processes for work planning, work prioritization, subcontractor management, supply chain management, Associate Contractor Agreements, facilities, operating locations, use of Government provided services, and any efficiencies planned. Contents: The plan shall include the following descriptions (but not limited to): 1. Identify personnel, products, key infrastructure facilities, and equipment required to build, integrate, launch, operate, maintain, and sustain a human presence and research capability in LEO. Include approach to identifying, resolving, and prioritizing conflicts between CLDC contract performance and CLD Contractor\u2019s work in support of other Government and commercial customers. 2. Provide a contract-specific organization chart, including subcontractors and teaming partner[s], as applicable, and rationale for the approach selected. Define the direct lines of control and accountability, responsibilities, functional relationships, and authority between the CLD p",
+          "finding": "NASA Commercial LEO Destination contract requires contractors to develop, test, and certify crewed space station systems with extensive on-orbit assembly and integrated operations.",
+          "news": 4,
+          "quote": "Identify personnel, products, key infrastructure facilities, and equipment required to build, integrate, launch, operate, maintain, and sustain a human presence and research capability in LEO.",
+          "verified": true
+        },
+        {
+          "context": ", workarounds/user notes, use-as-is, meets-requirement-intent, withdrawn-by-originator, etc.) c. Flight rationale, user notes, and workaround method for use as-is issues 14. Any customization or exceptions to this SMP for payloads/payload facilities (for utilization), as opposed to flight critical software 15. Identification and description of any use of Super Intelligence throughout the CLDS lifecycle, including safety-critical classification and a detailed risk assessment with impacts to hazard analysis. Any potential use in any on-orbit or safety critical applications will require NASA approval. Remarks: The term \u2018software development\u2019 is meant to include new development, modification, reuse, re-engineering, maintenance, and all other activities resulting in software products. The information may be provided in one document, or separate documents, provided the elements are clearly identified in terms of location, mapping to DRD requirement, and that the same delivery and approval",
+          "finding": "Contract includes AI/machine learning oversight: contractors must identify and assess any use of 'Super Intelligence' throughout CLDS lifecycle with detailed risk assessment for safety-critical applications requiring NASA approval.",
+          "news": 4,
+          "quote": "Identification and description of any use of Super Intelligence throughout the CLDS lifecycle, including safety-critical classification and a detailed risk assessment with impacts to hazard analysis.",
+          "verified": true
+        },
+        {
+          "context": "line was issued. date (if this DRD has been revised) Technical \u2610 Administrative \u2612 S&MA \u2610 10. Description/Use: Describes the Contractor\u2019s approach for Export Control activities that involve the transfer of commodities, software, technical data, technology, defense services, and/or technical assistance to foreign entities related to the performance of contract requirements. Export Control transactions are regulated by export control laws to protect U.S. national security interests and to further U.S. foreign policy objectivesK=qhese=are=primarily=codified=in=the=fnternational=qraffic=in=^rms=oegulations=Efq^oF=OO=`co=ptsK 120-130 and the Export Administration Regulations (EAR), 15 CFR pts. 730-774, that are administered by the Departments of State and Commerce, respectively. 11. Distribution: One (",
+          "finding": "Export control requirements mandate ITAR and EAR compliance for technical data and technology transfer related to commercial space vehicle operations.",
+          "news": 3,
+          "quote": "Describes the Contractor's approach for Export Control activities that involve the transfer of commodities, software, technical data, technology, defense services, and/or technical assistance to foreign entities",
+          "verified": true
+        },
+        {
+          "context": "ment of death with description of: i. Ground personnel qualifications to conduct pronouncement. ii. Steps to rule out confounders/mimics of death. iii. Recording of time of death. iv. Initial scene documentation. v. Communication with ground. vi. Initial containment actions. d. Processes for forensic preparation including body fluid control, removal of personal effects and clothing, body photo documentation, and hair sampling for family. e. Protocol for determining which forensic sampling to perform, supplies, and procedures. f. Processes for forensic sampling. g. Processes for post-mortem handling of the deceased including viewing by next of kin, containment of remains, preservation of forensic samples, method to ensure safety of the surviving crew to prevent additional crew loss. h. Disposition of remains including forensic, sample and body return to Earth, transport vehicle selection, dignified transfer of remains,",
+          "finding": "NASA mandates crew fatality response procedures including forensic sampling protocols, body preservation, and remains return to Earth as part of medical operations certification.",
+          "news": 3,
+          "quote": "Processes for forensic preparation including body fluid control, removal of personal effects and clothing, body photo documentation, and hair sampling for family.",
+          "verified": true
+        }
+      ],
       "m": "ocr+pdf",
       "n": "80JSC027R0004 Attachment J-02_CLDC Final RFP DRD.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "80JSC027R0004"
     },
     "75cdd0720e7c450ab74a6cf29f9b2950": {
@@ -11669,13 +12085,19 @@
       "sol": "W519TC-26-Q-JOC1"
     },
     "77463f02aedc46e6a705c30a0e0fe62f": {
-      "a": 1,
-      "c": 235683,
+      "c": 272294,
       "d": "2026-10-10",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "VA soliciting bids to replace surgical air handler unit at veterans facility; OCR-corrupted technical drawings provided to vendors.",
+          "news": 3,
+          "quote": "NOTICE: Z2DA--Construction Project 570-25-314 Replace Surgical Air Handler Unit (AHU)",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "SSN Replace FR - Surgical Air Handler Drawings.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C26127Q0085"
     },
     "774ec58ecadf443cabff38df31796afb": {
@@ -12231,6 +12653,14 @@
       "n": "Solicitation Attachment - Geotechnical Report 14 April 2025.pdf",
       "s": "screened",
       "sol": "FA441826R0009"
+    },
+    "7b7c58c54d45421198fda3fdd79d2d7e": {
+      "c": 580,
+      "d": "2026-10-13",
+      "m": "docx",
+      "n": "5. Pricing Chart.docx",
+      "s": "screened",
+      "sol": "15BCTS25Q00000015"
     },
     "7bbf5db2d52540799cd3b617b3a8b540": {
       "c": 271,
@@ -13406,6 +13836,14 @@
       "s": "screened",
       "sol": "FA441826R0009"
     },
+    "88ad6c7536884e2fad94c7d4a556e603": {
+      "c": 843,
+      "d": "2026-10-13",
+      "m": "docx",
+      "n": "Atch 8 - Sample Client Authorization_Letter (2).docx",
+      "s": "screened",
+      "sol": "86614126R00002"
+    },
     "88aed2f82954499e85538336af6624e9": {
       "c": 9112,
       "d": "2026-10-10",
@@ -13981,6 +14419,14 @@
       "n": "36C26127Q0085.docx",
       "s": "screened",
       "sol": "36C26127Q0085"
+    },
+    "8d8065846f1e413a8f93268396f07cbe": {
+      "c": 953,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "Questions and Answers 13 Oct 2026.pdf",
+      "s": "screened",
+      "sol": "FA524027Q0001"
     },
     "8d847f39841a4f1b9e4f0209cf47447e": {
       "c": 1591,
@@ -14568,6 +15014,14 @@
       "s": "screened",
       "sol": "12363N26R4014"
     },
+    "9319fc828e9c4162aa905f171db71556": {
+      "c": 676,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "J-9-DisclosureofLobbyingActivities(1997.07).pdf",
+      "s": "screened",
+      "sol": "N3220526R6120"
+    },
     "931e7e32f5244c6fa4cf2abbe655468b": {
       "c": 0,
       "d": "2026-10-10",
@@ -14962,13 +15416,19 @@
       "sol": "LTA_2026_RFI"
     },
     "968c0c57849a4074a1e66ab66e37b166": {
-      "a": 1,
       "c": 102,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "VA soliciting lifeguard and pool maintenance services at Bronx VA Medical Center; proposal deadline extended to October 20, 2026.",
+          "news": 3,
+          "quote": "FY27 LIFEGUARD AND POOL MAINTENANCE SERVICES FOR THE JAMES J. PETERS VA MEDICAL CENTER Solicitation: 36C24226Q0994",
+          "verified": false
+        }
+      ],
       "m": "docx",
       "n": "Sign in sheet site visit.docx",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C24226Q0994"
     },
     "96a46f2602974a8da540da6af3c9e5bf": {
@@ -16722,13 +17182,32 @@
       "sol": "FA480327Q0003"
     },
     "a6d9e8b293614d6992ea9325160cfe93": {
-      "a": 1,
-      "c": 634439,
+      "c": 487819,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "wer main. 4. Decommission and demolish obsolete assets including the Yovimpa Point Water System. C. Project will be constructed under a single prime contract. 1.3 WORK PHASES A. The Work shall be conducted in phases directly coordinated with NPS Facility Management to not impact park operations. Water mains cannot be shut down during the entire duration of the project, and any temporary shutdowns needed must be coordinated 5 days in advance. 1.4 WORK UNDER OTHER CONTRACTS A. General: Cooperate with separate Construction Contractors so work on those contracts may be carried out smoothly, without interfering with or delaying work under this Contract. Coordinate Work of this Contract with work performed under separate contracts. B. Preceding Work: Coordinate with Government on any preceding work performed under separate contract. 1. To be determined with NPS. C. Concurrent Work: Coordinate w",
+          "finding": "Contract requires work phases coordinated with NPS Facility Management, water mains cannot be shut down during entire project duration, and all temporary shutdowns must be coordinated 5 days in advance.",
+          "news": 3,
+          "quote": "Water mains cannot be shut down during the entire duration of the project, and any temporary shutdowns needed must be coordinated 5 days in advance.",
+          "verified": true
+        },
+        {
+          "finding": "Water system rehabilitation at Bryce Canyon National Park includes six optional contract line items worth millions, with archaeological monitoring required during all ground-disturbing work.",
+          "news": 3,
+          "quote": "Contract Line Item Number 0011 OPTION H 1. Archeological Monitoring a. Archeological Monitor will observe ground-disturbing site work, including construction of temporary facilities, at archaeologically sensitive areas",
+          "verified": false
+        },
+        {
+          "finding": "Contractor must obtain a U.S. Forest Service SF-299 Special Use Permit for temporary construction right-of-way and a Utah Pollutant Discharge Elimination System Construction General Permit.",
+          "news": 3,
+          "quote": "U.S. Forest Service SF-299 Special Use Permit for temporary construction right-of-way. ... Utah Pollutant Discharge Elimination System Construction General Permit",
+          "verified": false
+        }
+      ],
       "m": "ocr+pdf",
       "n": "B08_Att_01_BRCA_318695_-_Specification-Final.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140P2026B0004"
     },
     "a6dc062eb0a74c81b18111d9d0849827": {
@@ -17486,6 +17965,14 @@
       "s": "screened",
       "sol": "SPRDL1-27-Q-A001"
     },
+    "af420cf9d2be42b3901cb91f90475fa6": {
+      "c": 5716,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "1.20 J&A SPRMM1-26-P-KC92_JC_Redacted.pdf",
+      "s": "screened",
+      "sol": "SPRMM126PKC92"
+    },
     "af4230535c21474f81510157f291ebee": {
       "c": 12821,
       "d": "2026-10-10",
@@ -17693,6 +18180,14 @@
       "s": "retry",
       "sol": "36C24226Q0812"
     },
+    "b0b0189a2ef04ac89084432fadfceae6": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "ocr+pdf",
+      "n": "19 - Katy TX Waller County DOL Wage Determination - REV 05_16_2025.pdf",
+      "s": "wage_determination",
+      "sol": "36C10F25R0024"
+    },
     "b0ccf21b204b4f638a80d5cab352e482": {
       "c": 7008,
       "d": "2026-10-10",
@@ -17766,6 +18261,14 @@
       "n": "PWS_10_07_26_Redacted.pdf",
       "s": "screened",
       "sol": "61316550"
+    },
+    "b18cbe4f6f6e4b818bf6fd517b096f64": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "15JA0526Q00000174 Attachment 3 - WD.pdf",
+      "s": "wage_determination",
+      "sol": "15JA0526Q00000174"
     },
     "b1909b07fbd6497cbdda67da581584ec": {
       "c": 1232,
@@ -18137,13 +18640,11 @@
       "sol": "70Z08526QIBCT0051"
     },
     "b4c6e66aac52485aa33ca113ad62b6d5": {
-      "a": 1,
-      "c": 303638,
+      "c": 302694,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "Attachment 2  -SPEC HATCHET.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "70Z08527QIBCT0002"
     },
     "b4d02158872a42c7ac837f37ac6d965a": {
@@ -18605,6 +19106,14 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "b8d16195287047c49507d188fbb687bf": {
+      "c": 184,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "Att9_100209_STATEMENT_OF_WORK.pdf",
+      "s": "screened",
+      "sol": "FA813727R0003"
+    },
     "b8d857f24b6a4a8da8ea695e1c71256c": {
       "c": 191347,
       "d": "2026-10-12",
@@ -18630,13 +19139,34 @@
       "sol": "DARPA-SN-26-120"
     },
     "b8f1bb28168a4b1db880c1af90c84d24": {
-      "a": 1,
-      "c": 272350,
+      "c": 271847,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "and estimating techniques, including the basis for proposed price estimates and the following: (i) Descriptions of what is being estimated; (ii) Account for all resources necessary to complete requirements of this solicitation; (iii) Identify resources for team members, subcontractors and suppliers which Offerors anticipate having a total contract value of $10050 million or more of the work for the entire contract period; (iv) Provide traceability to the technical/management proposal(s) in Volume II, Mission Suitability; (v) The Offeror shall document any relevant assumptions that are major drivers of the price; however, Schedule B prices will not be subject to future equitable adjustment based on \u201cground rules\u201d or assumptions documented in the proposal. (2) Comply with applicable Federal Acquisition Regulation (FAR), NASA FAR Supplement (NFS), statutory requirements and include all templates required in this solicitation. (3) The Offeror\u2019s Price",
+          "finding": "NASA seeking private commercial space station operator; 8-year contract potentially worth $10+ billion to design, certify, and operate crewed low-Earth orbit destination.",
+          "news": 4,
+          "quote": "anticipate having a total contract value of $10050 million or more of the work for the entire contract period",
+          "verified": true
+        },
+        {
+          "context": "urnished Transportation Traffic ModelTheIn accordance with SOW 2.17.3 Government Furnished Transportation and Support Services (GFTSS), NASA shall provide the Contractor GFTSS in accordance with Table J-15.1 .1 Government Furnished Transportation Traffic Model. The Traffic Model is inclusive of all flights required to perform Mission Services, but NASA shall only be obligated to provide no more than one (1) crewed transportation missions per increment (no more than 2 crewed transportation vehicles per year) and no more than two (2) cargo missions per increment (no more than 2 Cargo Type 1 and 2 Cargo Type 2 cargo transportation vehicles per year). CLDC Contractor shall complete Table J 15 1 Government Furnished Transportation Traffic Model if proposing to utilize NASA Government Furnished Transportation with their proposed traffic model. The final use of Government Furnished Transportation will be negotiated at Contract award and updated as needed via update to J-15-1. In addition to service missions, the Contractor can propose NASA",
+          "finding": "Contract includes government-provided transportation for NASA crews and cargo to commercial station; NASA commits up to 2 crewed and 4 cargo missions annually through 2035.",
+          "news": 4,
+          "quote": "NASA shall only be obligated to provide no more than one (1) crewed transportation missions per increment (no more than 2 crewed transportation vehicles per year) and no more than two (2) cargo missions per increment (no more than 2 Cargo Type 1 and 2 Cargo Type 2 cargo transportation vehicles per y",
+          "verified": true
+        },
+        {
+          "context": "004 Commercial Low Earth Orbit (LEO) Destination Contract (CLDC) PART IV \u2013 REPRESENTATIONS AND INSTRUCTIONS SECTION L\u2013 INSTRUCTIONS, CONDITIONS, AND NOTICES TO OFFERORS OR RESPONDENTS In accordance with Attachment J-18, Contract Security Classification Specification (DD 254), Offerors shall obtain and maintain National Security Facility Clearance Level (FCL) up to TOP SECRET and as identified by the Government, provide SECRET/TOP SECRET security clearances for personnel supporting functions identified by NASA as requiring this level of clearance as outlined in the Task Order. The Offeror shall provide personnel that can obtain and maintain a Top Secret/Sensitive Compartmented Information (SCI) clearance as outlined in the Task Order. NASA will sponsor SCI clearances. For proposals submitted as joint ventures, the joint venture itself or the individual partner(s) to the joint venture that will perform the necessary security work must have a facility security clear",
+          "finding": "RFP requires contractor to accommodate heritage certified visiting vehicles and proposes new vehicles; contractor must obtain Top Secret security clearances for personnel.",
+          "news": 3,
+          "quote": "Offerors shall obtain and maintain National Security Facility Clearance Level (FCL) up to TOP SECRET and as identified by the Government, provide SECRET/TOP SECRET security clearances for personnel",
+          "verified": true
+        }
+      ],
       "m": "ocr+pdf",
       "n": "80JSC027R0004 Cover Letter Enclosure 2 Final RFP redline.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "80JSC027R0004"
     },
     "b8f343d95dff437994deb8984463594c": {
@@ -18746,13 +19276,34 @@
       "sol": "58927173fe23490d9801121d0e823a83"
     },
     "ba4a892c223840e0bd85ab5080751f41": {
-      "a": 1,
-      "c": 612178,
+      "c": 561608,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "emoval of Asbestos Containing & Asbestos Contaminated Materials 028213 SECTION 02 82 13 REMOVAL OF ASBESTOS CONTAINING AND ASBESTOS CONTAMINATED MATERIALS PART 1 - GENERAL 1.1 DESCRIPTION Work to be performed under this section includes the removal, handling, movement through the building, loading, transport, and disposal of asbestos containing and asbestos contaminated materials. Removal and cleaning must be sufficient to achieve a visual clearance and meet the 0.01 fiber/cc air clearance criteria. Containment will be sufficient to allow the building occupants to work in the building in non- regulated/construction areas during normal work hours without fear of exposure to airborne asbestos fiber. 1.2 SCOPE OF WORK 1.2.1 The construction demolition drawings show the work locations and piping runs. The asbestos abatement",
+          "finding": "Federal building (Rosebud Agency) contains asbestos-containing materials requiring professional removal, regulated hazardous waste disposal, and EPA notification before demolition.",
+          "news": 3,
+          "quote": "Work to be performed under this section includes the removal, handling, movement through the building, loading, transport, and disposal of asbestos containing and asbestos contaminated materials.",
+          "verified": true
+        },
+        {
+          "context": "IED ELSEWHERE 1.4.1 Installation of critical and primary barriers, and work area isolation procedures are set forth in Section 01 56 16. 1.4.2 Project decontamination and clean-up procedures after removal of barriers are specified in Section 02 82 34. 1.4.3 Waste disposal is specified in Section 02 82 33. 1.5 NOTICES Send written notification as required by USEPA National Emission Standards for Hazardous Air Pollutants (NESHAPS) Asbestos Regulations ( 40 CFR 61, Sub-part M) to the regional asbestos NESHAPS contact at least ten days prior to beginning any work on asbestos containing materials. Region 8 Rosebud Agency Boiler & HVAC Design 028213 - 1 BIA Project #140A1622F0214 100% CD Issue for Bid, 9/20/2024 NOT FOR CONSTRUCTION Removal of Asbestos Containing & Asbestos Contaminated Materials",
+          "finding": "Asbestos abatement project requires 10-day advance EPA notice and state of South Dakota notification under federal NESHAPS regulations before work begins.",
+          "news": 3,
+          "quote": "Send written notification as required by USEPA National Emission Standards for Hazardous Air Pollutants (NESHAPS) Asbestos Regulations (40 CFR 61, Sub-part M) to the regional asbestos NESHAPS contact at least ten days prior to beginning any work on asbestos containing materials.",
+          "verified": true
+        },
+        {
+          "context": "specification may be disposed of at designated EPA approved sanitary landfills. Vermiculite does not meet the definition of a Class 9 asbestos-containing material for disposal therefore alternative landfills can be used for disposal of this material with understanding by the landfill of the presence of vermiculite. DISPOSAL ON INDIAN LANDS IS NOT ALLOWED FOR THIS PROJECT. PART 2 - PRODUCTS 2.1 WETTING AGENTS 2.1.1 For wetting prior to disturbance of asbestos containing materials, use either amended water or a removal encapsulant. 2.1.2 For amended water, provide water to which a surfactant has been added. Use a mixture of surfactant and water which results in wetting of the asbestos containing material and retardation of fiber release during disturbance of the material equal to or greater than that provided by the use of one ounce of a surfactant consisting of 50% polyoxyethylene ether mixed with five gallons of water. 2.1.3 For removal encapsulant designe",
+          "finding": "Disposal of asbestos waste on Indian lands is explicitly prohibited for this federal building renovation project.",
+          "news": 3,
+          "quote": "DISPOSAL ON INDIAN LANDS IS NOT ALLOWED FOR THIS PROJECT.",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "Attachment_2_-_Specifications.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140A1626Q0086"
     },
     "ba576a912c1a4fdc9055ce6e279497dd": {
@@ -18845,13 +19396,48 @@
       "sol": "FA462027P0003"
     },
     "bb261d2b827243c7b4ab80bc6c39e1a1": {
-      "a": 1,
-      "c": 629480,
+      "c": 628078,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "ust saved and save as a new combined . pdf files. | Additional Comments: 13 (Rev-0) USCGC ALDER (WLB-225B) DRYDOCK AVAILABILITY FY2027 55500_ACC_0323_IBCT WORK ITEM 1: Fire Prevention Requirements 1. SCOPE 1.1 Intent. This work item describes the requirements for the Contractor to minimize shipboard fire risk and to clarify the Contractors\u2019 role in fire prevention and response. NOTE This work item is not separately priced. Factor fire prevention and response costs into bid of affected work items. 1.2 Government-furnished property. None. 2. REFERENCES COAST GUARD DRAWINGS None COAST GUARD PUBLICATIONS Surface Forces Logistics Center Standard Specification 0000 (SFLC Std Spec 0000), 2022, General Requirements Surface Forces Logistics Center Standard Specification 5550 (SFLC Std Spec 5550), 2022, Fire",
+          "finding": "Coast Guard drydocking work on USCGC ALDER includes major overhaul of main reduction gear and propulsion shafting, with extensive disassembly, bearing/seal renewals, and sea trials.",
+          "news": 5,
+          "quote": "This work item describes the requirements for the Contractor to renew worn or end of life internal components of the MRG (Main Reduction Gear). All seals and bearings must be renewed and thrust bearing fully inspected.",
+          "verified": true
+        },
+        {
+          "context": "Sa BA goes Logis > i Lh cy as @ 7 Y Cap. >. ' Af Ey Ve) \\s } Zn \\Z Es) DS P. 7 y ax pat \u00abky 4 (EY \\ y} \\, C SY P| PA 1.3. = Ss wf XG SF WAP a O- \u00abVA Ba fates Core SSS USCGC ALDER (WLB 216) SPECIFICATION FOR DRYDOCK REPAIRS FY2027 Developed By: KAH (Rev-0, 05 May 2026) USCGC ALDER (WLB-225B) DRYDOCK AVAILABILITY FY2027 TABLE OF CONTENTS Revisions Record ........................................................................................................................................... v Consolidated List of References ...................................................................................................................vi Consolidated List of Government-furnished Property ...........................................................................",
+          "finding": "Specification requires Philadelphia Gear Model 96DHCMG-CP main reduction gear overhaul with $184,871 service kit cost and OEM-authorized technical representative on-site supervision.",
+          "news": 4,
+          "quote": "USCG 225 MRG Service Kit 3020-01-F20-5954 1 ea. 184,871",
+          "verified": true
+        },
+        {
+          "context": "soft patch. Previous jobs revealed the mandatory need to remove the mess deck soft patch in order to stage larger items out of the engine room. Although this aspect of the work is performance based, this information is shared to help ensure the Contractor can formulate a fair and accurate cost estimate of the work required. 3.5 Clean room. 3.5.1 The contractor must construct a \"Clean Room\" over and around the reduction gear. Construct the sides and top of the room from polyethylene film at least 6 mils in thick, above and on all sides of the starboard reduction gear prior to lifting the cover. The clean room must be maintained in good repair from the time the reduction gear is first opened to the engine room atmosphere until the reduction gear is completely closed, with all piping, covers, and caps back in place and fastened. 3.5.2 The clean room must be in place for all times the housing cover has been removed and internals are exposed and vulnerable. 3.6 Bilge and overhead cleaning prior to commencing reduction gear work. 3.6.1",
+          "finding": "Extensive contamination control and physical security measures required during reduction gear work, including construction of clean room with 6-mil polyethylene film enclosure.",
+          "news": 4,
+          "quote": "The contractor must construct a \"Clean Room\" over and around the reduction gear. Construct the sides and top of the room from polyethylene film at least 6 mils in thick",
+          "verified": true
+        },
+        {
+          "context": "\uf0b7 Assist with proper repair methods, and ensure compliance with manufacturer's procedures and standards during disassembly, inspection, repair, modification, calibration, and reassembly of the equipment/system. \uf0b7 Be present for all disassembly, inspection, and reassembly of the Propeller and CPP system. 3.1.2.1 The Contractor must ensure that the Tech Rep is a certified representative of Rolls Royce, LLC. 3.1.2.2 The Contractor must submit the name of the Tech Rep to the COR at the Arrival Conference. 3.1.3 Protective measures. The Contractor must furnish and install all protective measures in accordance with SFLC Std Spec 0000, paragraph 3.3.3 (Vessel component, space, and equipment protection). 3.1.3.1 Protective measures - hydraulic system(s). The Contractor must maintain existing hydraulic system cleanliness and take all necessary precautions to prevent the introduction of contaminants into the hydraulic system. Immediately after disconnecting or removing components from the hydraulic system",
+          "finding": "Specification requires Rolls Royce, LLC certified technical representative for Controllable Pitch Propeller system disassembly, inspection, and reassembly throughout drydocking.",
+          "news": 3,
+          "quote": "The Contractor must ensure that the Tech Rep is a certified representative of Rolls Royce, LLC.",
+          "verified": true
+        },
+        {
+          "context": "LEANING, LOW-LINT , 6/30/99 MIL-PRF-9000, Rev H; Lubricating Oil, Shipboard Internal Combustion Engine, High Output Diesel, 9/16/87 Naval Ships' Technical Manual, Chapter 241, Propulsion Reduction Gears, Couplings, Clutches, and Associated Components 3. REQUIREMENTS 3.1 General. 3.1.1 CIR. None. 3.1.2 Tech Rep 1. The Contractor must provide the services of an OEM authorized/ licensed Tech Rep for the Philadelphia Gear Corporation to accomplish the following on site: \uf0b7 Provide manufacturer's proprietary system/ equipment information, software, and tools. \uf0b7 Assist with and ensure compliance with manufacturer's procedures and standards during disassembly, inspection, repair, modification, calibration, and reassembly of the equipment/system. 3.1.2.1 When required, ensure the Tech Rep is an OEM Certified Representative for the system/equipment stated above and demonstrated on their r\u00e9sum\u00e9. 3.1.2.2 Submit the name and r\u00e9sum\u00e9 of the Tech Rep to the COR at the Ar",
+          "finding": "Propulsion shafting alignment requires consulting engineer expert using strain gauge method, with baseline measurements taken afloat pre-work, drydocked pre-work, drydocked post-work, and afloat post-work.",
+          "news": 3,
+          "quote": "The Contractor must provide the services of a Consulting Engineer who is an expert in propulsion shafting alignment using strain gage alignment method",
+          "verified": true
+        }
+      ],
       "m": "ocr+pdf",
       "n": "Attatchment 1- SPEC ALDER DD FY27 R0 KAH 05MAY2026.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "70Z08526QIBCT0051"
     },
     "bb3f406c851d4c52b5ed43159938a0a2": {
@@ -19241,6 +19827,23 @@
       "n": "Atch 10 Privacy Act Statement for Covered Individuals (1).pdf",
       "s": "screened",
       "sol": "FA2391-23-S-2403"
+    },
+    "befb42cbe35241b5a61791ced4cb442f": {
+      "c": 20583,
+      "d": "2026-10-13",
+      "f": [
+        {
+          "context": "e VA Security and Investigations Center will notify the contracting officer and Contractor after adjudicating the results of the background investigations received from OPM. E. The contracting officer will ensure that the Contractor provides evidence that investigations have been completed or are in the process of being requested. 1.8 INSURANCE A. The Contractor/Subcontractor maintains current Comprehensive General Liability, covering the legal liability for bodily injuries and property damages, for a combined limit of two million dollars ($2,000,000) per occurrence, with excess liability coverage in the amount of twenty million dollars ($20,000,000) aggregate and covering at least the following hazards; (a) Contractor\u2019s Premises and Operations; (b) Contractor\u2019s Protective for its legal liability in connection with sub- Contractor\u2019s operations; and (c) Contractual. B. The total insurance coverage provided is twenty-two million dollars ($22,000,000). In the event the Contractors\u2019 coverage falls below ten million dollars ($10,000,000) c",
+          "finding": "VA awards $47M lifeguard and pool maintenance contract for medical center with unusually high insurance requirements ($22M total coverage).",
+          "news": 4,
+          "quote": "The Contractor/Subcontractor maintains current Comprehensive General Liability, covering the legal liability for bodily injuries and property damages, for a combined limit of two million dollars ($2,000,000) per occurrence, with excess liability coverage in the amount of twenty million dollars ($20,",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C24226Q0994.docx",
+      "s": "screened",
+      "sol": "36C24226Q0994"
     },
     "bf3c7dd5f8eb4adbab7b1ffabcc811c8": {
       "c": 5315,
@@ -20149,13 +20752,11 @@
       "sol": "SLAC_DRAFT_RFP_369005_CRMF_Cleanroom_Construction"
     },
     "c7bf6499aa81486a8dfe71c654ba3856": {
-      "a": 1,
       "c": 1758040,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "xlsx",
       "n": "Attch 2 Apdx I PE Inventory - draft.xlsx",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA461027R0001"
     },
     "c7e1ba43c5bb4a82a22d8f02976cc429": {
@@ -20452,6 +21053,14 @@
       "n": "FA2204_RFI_TACMOR System.pdf",
       "s": "screened",
       "sol": "FA2204_RFI_TACMOR_System"
+    },
+    "cb1eb39100da4d2da198105145bc90d5": {
+      "c": 296,
+      "d": "2026-10-13",
+      "m": "docx",
+      "n": "J-8-RFC(2022.12.28).docx",
+      "s": "screened",
+      "sol": "N3220526R6120"
     },
     "cb3eb8c846f64f35bdc84cd60a4a99ec": {
       "c": 1946,
@@ -21414,13 +22023,11 @@
       "sol": "FA822726QTBPA"
     },
     "d57983b570244ffcb523225451edc4c9": {
-      "a": 1,
       "c": 441559,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "Attachment_18_Permits__234_pages.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140R3026R0012"
     },
     "d5cf7ffc124c47bea9c7539f11436897": {
@@ -21526,6 +22133,14 @@
       "n": "Limited Sources Justification_Axon_DOJ OIG.pdf",
       "s": "screened",
       "sol": "15G1AC26P00000022"
+    },
+    "d684555de1d0454490001620ccda316e": {
+      "c": 676,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "07 - Proposal to Lease Space _GSA Form 1364_Jan 2023.pdf",
+      "s": "screened",
+      "sol": "36C10F25R0024"
     },
     "d6ff6a971bec4663b67113f8d515da37": {
       "c": 14866,
@@ -21888,13 +22503,11 @@
       "sol": "SPE60526R0218 "
     },
     "d9a966754f024dc493fae14877ad8693": {
-      "a": 1,
-      "c": 658877,
+      "c": 658726,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "zip",
       "n": "C04u_15 BRG G-Z LTIRSC Agency Supplementals.zip",
-      "s": "retry",
+      "s": "screened",
       "sol": "12363N26R4014"
     },
     "d9c77aced5cf4856b0c7fc9a282b45a2": {
@@ -22019,13 +22632,53 @@
       "sol": "120c9202b6654d699d936a5401bd7876"
     },
     "db2de9e7fde848a58f477a629bd392bb": {
-      "a": 1,
-      "c": 574241,
+      "c": 572665,
       "d": "2026-10-12",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "homologs had equivalent results, also ranging from 0.5 to 0.63 ng/L. Philadelphia Navy Yard Reserve Basin Maintenance Dredging NAVFAC-MIDLANT Evaluation of Dredged Material \u2212 Final Report August 2025 6-3 6.1.4.2 Modified Elutriates The total PCB concentrations (ND=0, sum of congeners) in the total fractions of the modified elutriates ranged from 199 to 1,378 ng/L and exceeded the Commonwealth of Pennsylvania continuous standard (14 ng/L) by factors ranging from 14 to 98 (Table 6-4). Total PCBs calculated based on the sum of homologs had comparable results, ranging from 200 to 1,400 ng/L. 6.1.5 PCB Aroclors The results of PCB Aroclors in site water and modified elutriates are presented in Table 6-5. 6.1.5.1 Site Water PCB Aroclors were not detected in the site water sample (Table 6-5). 6.1.5.2 Modified Elutriates PCB -1254) was detected in the total fraction of seven of the nine modified elutriates, and",
+          "finding": "PCB contamination in Navy dredging materials far exceeds Pennsylvania water quality standards by up to 98-fold in modified elutriate testing.",
+          "news": 4,
+          "quote": "The total PCB concentrations (ND=0, sum of congeners) in the total fractions of the modified elutriates ranged from 199 to 1,378 ng/L and exceeded the Commonwealth of Pennsylvania continuous standard (14 ng/L) by factors ranging from 14 to 98",
+          "verified": true
+        },
+        {
+          "context": "ost-loaded NAS.] c. Contractor's Monthly Estimate for Voucher and Contractors Certification (NAVFAC Form 4330) with Subcontractor and supplier payment certification. Other documents, including but not limited to, that need to be received prior to processing payment include the following submittals as required. These items are still required monthly even when a pay voucher is not submitted. d. Monthly Work-hour report. e. Updated Construction Progress Schedule and tabular reports required by the contract. f. Contractor Safety Self Evaluation Checklist. g. Updated submittal register. h. Solid Waste Disposal Report. i. Certified payrolls. j. Updated testing logs. k. Other supporting documents as requested. 1.5.2 Submission of Invoices Monthly invoices and supporting forms for work performed through the anniversary award date of the Contract must be submitted to the Contracting Officer within 5 calendar days of the date of invoic",
+          "finding": "Naval dredging project faced permitting delays of months; Navy expressed leadership concern about timeline slippage in August 2024.",
+          "news": 4,
+          "quote": "These delays in the dredging permitting process and ultimately the actual dredging is starting to raise concern among our leadership.",
+          "verified": true
+        },
+        {
+          "context": "f New Jersey non-residential soil standard (19 milligrams per kilogram [mg/kg]) in one composite for dredging Area A (A-07/08; 28 mg/kg) and in each of the three samples in dredging Area B (ranging from 22 to 49 mg/kg). Arsenic concentrations did not exceed Commonwealth of Pennsylvania non-residential soil standards. The lead concentration for one location in Area B (B-4) exceeded both Commonwealth of Pennsylvania and State of New Jersey non-residential soil standards (1,000 and 800 mg/kg, respectively), with a concentration of 5,900 mg/kg. Polycyclic Aromatic Hydrocarbons (PAHs). Each of the 18 tested PAHs were detected in the Area A and Area B sediment samples. None of the individual PAH concentrations exceeded State of New Jersey or Commonwealth of Pennsylvania non-residential soil standards. Total PAH concentrations (non-detect [ND] = reporting limit [RL]) ranged from 2.14 to 8.65 mg/kg in dredging Area A from 13.3 to 26.9 mg/kg in dredging Area B. Polychlorinated Biphenyl (PCB) Congeners and Homologs. Total PCB congeners (ND=0)",
+          "finding": "Maintenance dredging at Philadelphia Navy Yard Reserve Basin involves material with elevated lead, aluminum, and multiple legacy pollutants requiring specialized disposal procedures.",
+          "news": 3,
+          "quote": "location in Area B (B-4) exceeded both Commonwealth of Pennsylvania and State of New Jersey non-residential soil standards (1,000 and 800 mg/kg, respectively), with a concentration of 5,900 mg/kg.",
+          "verified": true
+        },
+        {
+          "context": "ted at your request for the Philadelphia Navy Yard Reserve Basin Area A sediment samples. With respect to dredged material placement, the testing data for the project indicate that material from Area A is acceptable for placement at Whites Rehandling Basin in New Jersey, with the exception of material for one composite sample in Area A (A-07/08). NAVFAC has coordinated with NJDEP to segregate the material for that one composite (A-07/08 area) (see attached drawing). NAVFAC would like to discuss acceptability/approval of the material from Area A-07/08 segregation area (approximately 23,700 cy) for placement at Biles Island. Area B is not proposed for dredging at this time. Please provide several days/times that you and Mr. Fees are available for a call to discuss during the weeks of 21 July and 28 July 2025. The timeline is becoming critical for advertising the dredging and we would like to confirm a final placement plan for the material. We appreciate your time for reviewing and discussing this project. Thank you, Peggy Derrick",
+          "finding": "Dredged material disposal at Biles Island Confined Disposal Facility contingent on Pennsylvania DEP approval; one composite sample (A-07/08) segregated due to contamination concerns.",
+          "news": 3,
+          "quote": "NAVFAC has coordinated with NJDEP to segregate the material for that one composite (A-07/08 area) (see attached drawing)... NAVFAC would like to discuss acceptability/approval of the material from Area A-07/08 segregation area (approximately 23,700 cy) for placement at Biles Island.",
+          "verified": true
+        },
+        {
+          "finding": "Navy Reserve Basin at Philadelphia Navy Yard sediment contaminated with radioactive isotopes, PCBs, and lead exceeding state standards in leachate testing.",
+          "news": 4,
+          "quote": "Gross alpha was detected in the total fraction of eight of the nine modified elutriates and...each of the eight total fraction concentrations exceeded the DRBC water quality criteria (3 pCi/L) and seven of the eight total fraction concentrations also exceeded the USEPA drinking water quality standar",
+          "verified": false
+        },
+        {
+          "finding": "Philadelphia Navy Yard dredging to remove 100,000 cubic yards of contaminated sediment with elevated arsenic, PFOS, and dioxins; material disposal split between two facilities.",
+          "news": 4,
+          "quote": "Four (4) of the seven (7) samples exceeded the limit for arsenic (As)... However, 1 sample showed a total arsenic concentration of 28 ppm... Perfluorooctanesulfonic acid (PFOS) displayed total concentrations which may exceed the PA limit.",
+          "verified": false
+        }
+      ],
       "m": "ocr+pdf",
       "n": "Attachment A - 1783178 PNY RESERVE BASIN FY26 MAINTENANCE DREDGING SPECS.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N4008526B0002"
     },
     "db335bc9d5b14931bc7e128dba6e9cf2": {
@@ -22148,6 +22801,31 @@
       "n": "C04_Attachment 4 Wage Determination.pdf",
       "s": "screened",
       "sol": "12639527Q0003"
+    },
+    "dc53c131b773412d9c7355599c734b31": {
+      "c": 3461,
+      "d": "2026-10-13",
+      "f": [
+        {
+          "context": "item or service required. 2. \u2612 EXCLUSIVE LICENSING AGREEMENTS. The item or service is only available from the Original Equipment Manufacturer (OEM), or there is only one authorized distributor or technical representative for the OEM. 1. Encore Global 2. The Washington Hilton maintains an exclusive contract with Encore Global as its sole authorized in-house audiovisual and production provider. This exclusivity covers the use of all hotel-installed A/V infrastructure, including cabling, rigging points, power sources, and projection systems. External vendors are not permitted to interface with or operate within this system without Encore oversight due to liability, safety, and operational policies established by the hotel. 3. Market research conducted included direct correspondence with the W",
+          "finding": "Marine Corps Birthday Ball at Washington Hilton uses sole-source Encore Global for audiovisual services due to exclusive hotel contract.",
+          "news": 4,
+          "quote": "The Washington Hilton maintains an exclusive contract with Encore Global as its sole authorized in-house audiovisual and production provider.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "D6 - Sole Source JnA Redacted.pdf",
+      "s": "screened",
+      "sol": "M0026426Q0173"
+    },
+    "dc56c01e2cae4bd281b126a2f5291b64": {
+      "c": 0,
+      "d": "2026-10-13",
+      "m": "ocr+pdf",
+      "n": "19 - Katy TX Harris County DOL Wage Determination - REV 05_16_2025.pdf",
+      "s": "wage_determination",
+      "sol": "36C10F25R0024"
     },
     "dc61fdc6284d4685a0ec4c4ad763f595": {
       "c": 8385,
@@ -22622,6 +23300,14 @@
       "n": "NFS P248.02 - Military Operations Chemical Water Purifiers.pdf",
       "s": "screened",
       "sol": "IWTD_Reduction_TICs_TIMs"
+    },
+    "e083e71e196f46e19ab222d0a16d1788": {
+      "c": 837,
+      "d": "2026-10-13",
+      "m": "ocr-image",
+      "n": "Atch 7 - Map of MFH Regions (1).jpg",
+      "s": "screened",
+      "sol": "86614126R00002"
     },
     "e0ebf845ba3e4c62b00fcdd0ecc1438f": {
       "c": 717,
@@ -23589,6 +24275,14 @@
       "s": "screened",
       "sol": "36C25627Q0048"
     },
+    "ea61c065f7f243a481710abc68724036": {
+      "c": 6514,
+      "d": "2026-10-13",
+      "m": "ocr+pdf",
+      "n": "1.20 J&A_SPRMM1-26-C-MA14_Redacted.pdf",
+      "s": "screened",
+      "sol": "N0010424RJB85"
+    },
     "ea992a8fbdfd4ae480436248ac06792d": {
       "c": 0,
       "d": "2026-10-10",
@@ -23662,13 +24356,11 @@
       "sol": "SaaS_SI_OCCS"
     },
     "eada37d2e1434f4880f2befa1fd55ddd": {
-      "a": 1,
       "c": 2556,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "docx",
       "n": "S04 - Site Visit Conference Agenda.docx",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C24226Q0994"
     },
     "eb16cf82f8de48f7907dd5781ed77310": {
@@ -24472,6 +25164,14 @@
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
     },
+    "f1c66dcf1fcf4bb6b6359772500409c5": {
+      "c": 82,
+      "d": "2026-10-13",
+      "m": "docx",
+      "n": "Equipment list BLDG 2991.docx",
+      "s": "screened",
+      "sol": "SPE3SE27Q0015"
+    },
     "f1f1bef12a4444189cc54525e0482f1f": {
       "c": 32462,
       "d": "2026-10-11",
@@ -24496,6 +25196,14 @@
       "n": "36C26227Q0011_2.docx",
       "s": "screened",
       "sol": "36C26227Q0011"
+    },
+    "f1fd897ceebf40ae911555b00db4b458": {
+      "c": 671,
+      "d": "2026-10-13",
+      "m": "pdf",
+      "n": "Grissom DBIDS - How to Request Base Access.pdf",
+      "s": "screened",
+      "sol": "FA465427R0001"
     },
     "f247e31df9204512b6cfc5408edfcc69": {
       "c": 0,
@@ -24739,14 +25447,20 @@
       "s": "screened",
       "sol": "80JSC027R0004"
     },
+    "f3edaffad0bb41bfa330bfed3f65e7c2": {
+      "c": 85,
+      "d": "2026-10-13",
+      "m": "xlsx",
+      "n": "4. Attachment Quotation Form.xlsx",
+      "s": "screened",
+      "sol": "15BCTS25Q00000015"
+    },
     "f43c1c85d63a4f68bb8e1c96514dc89b": {
-      "a": 1,
-      "c": 49615,
+      "c": 49565,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Att 02_Plans 11x17_250805.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "12445527Q0001"
     },
     "f443fe24895f443dbac03dfeb7e6b644": {
@@ -25050,13 +25764,11 @@
       "sol": "W912CH-26-S-0001"
     },
     "f75df12dbbe64c95856e05a04a24a01a": {
-      "a": 1,
       "c": 34963,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "C04c Attachment 3 Drawings Kents Lake 1240LT26Q0106.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "1240LT26Q0106 "
     },
     "f7b5bacc96f640e693fa3f05257c08bc": {
@@ -25559,13 +26271,11 @@
       "sol": "N4523A27RFI0801"
     },
     "fd8fcde99ba343899dd51f2c5579e90d": {
-      "a": 1,
       "c": 69790,
       "d": "2026-10-12",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Plans - NP ACAD BRG(2).pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "693C73-27-B-000002"
     },
     "fd8fdc99f4c3465ab0227f3bbb3a2e14": {

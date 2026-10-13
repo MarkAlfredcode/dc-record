@@ -209,6 +209,13 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "bd bioscience": {
+    "d": "2026-10-13",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "brainlab": {
     "d": "2026-10-10",
     "examples": [
@@ -325,6 +332,35 @@
     "has_contracts": true,
     "raw_hits": 32
   },
+  "cdw government": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Department of Commerce",
+        "amount": 561166063.35,
+        "recipient": "CDW GOVERNMENT LLC",
+        "start": "2017-06-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0139_1323_HHSN316201500011W_7529"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 340169525.67,
+        "recipient": "CDW GOVERNMENT LLC",
+        "start": "2019-03-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM19F0913_1900_NNG15SC28B_8000"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 121943032.86,
+        "recipient": "CDW GOVERNMENT LLC",
+        "start": "2016-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA16L0167_1900_SAQMMA16A0070_1900"
+      }
+    ],
+    "first": "2008-09-12",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "cepheid": {
     "d": "2026-10-10",
     "examples": [
@@ -440,6 +476,35 @@
     "has_contracts": false,
     "raw_hits": 0
   },
+  "encore group usa": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 160796.64,
+        "recipient": "ENCORE GROUP USA LLC",
+        "start": "2009-01-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA308909P0058_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 155729.1,
+        "recipient": "ENCORE GROUP USA LLC",
+        "start": "2022-04-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C10X22C0015_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 145701.48,
+        "recipient": "ENCORE GROUP USA LLC",
+        "start": "2023-09-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC106423P0087_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-04-27",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "environmental compliance product": {
     "d": "2026-10-10",
     "examples": [
@@ -524,6 +589,35 @@
       }
     ],
     "first": "2008-09-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "fm af": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 969600.0,
+        "recipient": "FM AF, LLC",
+        "start": "2023-11-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE8E924C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 774994.0,
+        "recipient": "FM AF, LLC",
+        "start": "2025-11-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRMM126PGA04_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 562460.0,
+        "recipient": "FM AF, LLC",
+        "start": "2025-04-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0010425PBS59_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2023-10-18",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -614,6 +708,35 @@
     "has_contracts": true,
     "raw_hits": 41
   },
+  "hootsuite": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Smithsonian Institution",
+        "amount": 57586.0,
+        "recipient": "HOOTSUITE MEDIA INC",
+        "start": "2015-07-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_F15PO4100000331551_3300_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Smithsonian Institution",
+        "amount": 57586.0,
+        "recipient": "HOOTSUITE MEDIA INC",
+        "start": "2014-09-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_F14PO4100000310298_3300_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Smithsonian Institution",
+        "amount": 57586.0,
+        "recipient": "HOOTSUITE MEDIA INC",
+        "start": "2013-07-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_F13PO4100000283752_3300_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-07-14",
+    "has_contracts": true,
+    "raw_hits": 18
+  },
   "immix technology": {
     "d": "2026-10-10",
     "examples": [],
@@ -676,6 +799,64 @@
       }
     ],
     "first": "2016-07-25",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "katmai management service": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 96903814.24,
+        "recipient": "KATMAI MANAGEMENT SERVICES LLC",
+        "start": "2020-12-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0003921C5000_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 15032464.69,
+        "recipient": "KATMAI MANAGEMENT SERVICES LLC",
+        "start": "2023-03-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0003923F6000_9700_N0003923D0001_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 12854186.3,
+        "recipient": "KATMAI MANAGEMENT SERVICES LLC",
+        "start": "2023-03-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_M6785423F8025_9700_M6785423D8020_9700"
+      }
+    ],
+    "first": "2019-02-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "l3harri maritime power & energy solution": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 7417842.21,
+        "recipient": "L3HARRIS MARITIME POWER & ENERGY SOLUTIONS, INC",
+        "start": "2012-09-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_L602_9700_SPRMM110G0905_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 6339746.89,
+        "recipient": "L3HARRIS MARITIME POWER & ENERGY SOLUTIONS, INC",
+        "start": "2019-09-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6339419F0035_9700_N6339417D0001_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 5948945.2,
+        "recipient": "L3HARRIS MARITIME POWER & ENERGY SOLUTIONS, INC.",
+        "start": "2019-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4215819C0003_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2005-06-07",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -857,6 +1038,35 @@
       }
     ],
     "first": "2009-02-12",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "microsoft": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 219964603.76,
+        "recipient": "MICROSOFT CORPORATION",
+        "start": "2022-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC102822F0982_9700_HC102817D0001_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 172503499.89,
+        "recipient": "MICROSOFT CORPORATION",
+        "start": "2021-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC102821F1170_9700_HC102817D0001_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 160728592.94,
+        "recipient": "MICROSOFT CORPORATION",
+        "start": "2017-09-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC102817F1569_9700_HC102817D0001_9700"
+      }
+    ],
+    "first": "2004-09-30",
     "has_contracts": true,
     "raw_hits": 50
   },
