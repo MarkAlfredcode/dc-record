@@ -148,6 +148,8 @@ jobs:
       # Everything the model used to fetch itself (FARA, LDA, House/Senate
       # disclosures with every PTR parsed, no 30-PTR cap) -- added
       # 2026-10-12. After the OGE pass so the bundle carries its summary.
+      # Also reads recent FARA filings for the President, VP and cabinet
+      # (up to DC_FARA_SCAN_SEC, default 480s, of OCR per run).
       - name: Fetch FARA, LDA and disclosures; build the model's input bundle (no LLM)
         env:
           MODE: ${{ github.event.inputs.mode || 'am' }}
@@ -196,6 +198,7 @@ jobs:
           python3 scripts/assemble.py officials "content-${{ steps.date.outputs.today }}.json"
           python3 scripts/mark_seen.py "content-${{ steps.date.outputs.today }}.json" data/officials_input.json data/pfd-ptr-seen.json || echo "mark_seen failed"
           python3 scripts/mark_seen.py "content-${{ steps.date.outputs.today }}.json" data/fara_items.json data/fara-seen.json || echo "mark_seen (FARA) failed"
+          python3 scripts/mark_seen.py "content-${{ steps.date.outputs.today }}.json" data/fara_top_items.json data/fara-top-seen.json || echo "mark_seen (FARA top officials) failed"
 
       - name: Render newsletter from content JSON
         if: hashFiles(format('content-{0}.json', steps.date.outputs.today)) != ''
@@ -304,9 +307,10 @@ jobs:
           # naturally re-find and correctly email whatever this run scraped
           # first.
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/pfd-ptr-seen.json data/fara-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json data/stock-act-ledger.json 2>/dev/null || true
+            git checkout -- data/pfd-ptr-seen.json data/fara-seen.json data/fara-top-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json data/stock-act-ledger.json 2>/dev/null || true
           fi
-          git add data/pfd-ptr-seen.json data/fara-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json \
+          git add data/pfd-ptr-seen.json data/fara-seen.json data/fara-top-seen.json data/fara-top-scanned.json \
+            data/oge-filings-seen.json data/ethics-tracker-seen.json \
             data/presidential-trades-seen.json data/ethics-agreements.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json \
             data/stock-act-ledger.json digest/ archive/
           if ! git diff --cached --quiet; then

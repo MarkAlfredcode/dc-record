@@ -10,7 +10,10 @@ dropped.
   mark_seen.py content-TODAY.json data/officials_input.json data/pfd-ptr-seen.json
 
 The candidates file lists filings under "filings" (key + pdf_url) or
-"items" (key + url).
+"items" (key + url). A row with a "ref" listed in the content's
+"dismissed_refs" (the model read it and found nothing to report, e.g. a
+filing that only mentions the President) is recorded too, so it isn't
+handed back every run.
 """
 import json
 import os
@@ -36,10 +39,14 @@ def main():
     seen = load_manifest(seen_path)
     cutoff = (date.fromisoformat(today) - timedelta(days=KEEP_DAYS)).isoformat()
     seen = {k: v for k, v in seen.items() if (v or {}).get("reported", today) >= cutoff}
+    dismissed = set(content.get("dismissed_refs") or [])
     added = missing = 0
     for r in rows:
         if surfaced.norm(r.get("pdf_url") or r.get("url")) in shown:
             seen.setdefault(r["key"], {"reported": today})
+            added += 1
+        elif r.get("ref") and r["ref"] in dismissed:
+            seen.setdefault(r["key"], {"reported": today, "dismissed": True})
             added += 1
         else:
             missing += 1

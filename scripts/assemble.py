@@ -153,6 +153,10 @@ def _key(eyebrow):
 MECHANICAL = {"officials": 0, "feds": None}
 
 
+# Model sections that stay ahead of a mechanical one inserted at the top.
+LEADS = {_key("Contacts With the President, VP & Cabinet")}
+
+
 def insert_mechanical(content, edition):
     if edition not in MECHANICAL or not os.path.exists("content-mechanical.json"):
         return
@@ -163,6 +167,8 @@ def insert_mechanical(content, edition):
         if _key(s.get("eyebrow")) in have:
             continue
         at = MECHANICAL[edition]
+        if at == 0:
+            at = next((i for i, x in enumerate(secs) if _key(x.get("eyebrow")) not in LEADS), len(secs))
         secs.insert(len(secs) if at is None else at, s)
     gaps = (mech.get("known_gaps") or "").strip()
     if gaps and gaps not in (content.get("footer") or {}).get("known_gaps", ""):

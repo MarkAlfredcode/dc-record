@@ -33,8 +33,9 @@ import time
 from datetime import date
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import top_officials  # noqa: E402
 import trades  # noqa: E402
-from dc_common import check_reachable, days_ago_la, http_get, load_manifest, pdftotext, today_la  # noqa: E402
+from dc_common import check_reachable, days_ago_la, http_get, load_manifest, pdftotext, save_manifest, today_la  # noqa: E402
 from dc_extras import load_json, run_mode  # noqa: E402
 from fetch_campaigns import extras_digest  # noqa: E402
 from fetch_deadlines import senate_href, senate_label, senate_search, senate_session  # noqa: E402
@@ -69,6 +70,24 @@ FARA_READ_TYPES = ("Exhibit AB", "Registration Statement", "Amendment")
 FARA_DOC_CHARS = 3500
 FARA_SEEN = "data/fara-seen.json"
 FARA_ITEMS = "data/fara_items.json"
+# Top-official scan (added 2026-10-12): every supplemental statement (Item 12
+# logs each text, call, email and meeting with a U.S. official), amendment,
+# agreement, registration statement and informational-materials filing stamped
+# in the last FARA_SCAN_DAYS is read once and searched for the President, the
+# Vice President and the cabinet (scripts/top_officials.py). Results are kept
+# in TOP_CACHE so no filing is OCR'd twice; filings with hits stay in the bundle
+# until an edition links them or the model dismisses them (TOP_SEEN). The
+# window is wide because DOJ's bulk files trail the stamp date by days.
+FARA_SCAN_TYPES = ("Supplemental Statement", "Amendment", "Exhibit AB", "Registration Statement",
+                   "Informational Materials")
+FARA_SCAN_DAYS = 14
+FARA_SCAN_SEC = int(os.environ.get("DC_FARA_SCAN_SEC") or 480)
+TOP_CACHE = "data/fara-top-scanned.json"
+TOP_SEEN = "data/fara-top-seen.json"
+TOP_ITEMS = "data/fara_top_items.json"
+LDA_TOP_ENTITIES = {"President of the U.S.": "the President", "Vice President of the U.S.": "the Vice President",
+                    "Office of the Vice President of the United States": "the Office of the Vice President"}
+LDA_TOP_CAP = 40
 
 
 def fara_csv(name):
@@ -86,15 +105,77 @@ def fara_date(s):
     return d.isoformat() if d else ""
 
 
-def fara_doc_text(url, tmp):
+def fara_doc_text(url, tmp, deadline=None, info=None):
+    """Text of a filing (OCR for scanned pages). info, if given, gets
+    sam_reader's page counts (unread_pages > 0: the deadline cut it short)."""
     import sam_reader
     p = os.path.join(tmp, re.sub(r"\W", "_", url[-60:]) + ".pdf")
     with open(p, "wb") as fh:
         fh.write(curl_bytes(url))
-    text = sam_reader.read_pdf(p)[0] if os.path.getsize(p) else ""
+    text, got = sam_reader.read_pdf(p, deadline) if os.path.getsize(p) else ("", {})
+    if info is not None:
+        info.update(got)
     text = re.sub(r"[ \t]+", " ", text)
     i = text.find("1. Name of Registrant")
     return text[i:] if i > 0 else text
+
+
+def fara_top(docs, texts, refs, errors, tmp):
+    """Scans recent FARA filings for the President, VP and cabinet. Returns
+    (bundle lines, number of filings with unreported hits)."""
+    today = today_la()
+    since = days_ago_la(FARA_SCAN_DAYS)
+    cache = {u: v for u, v in load_manifest(TOP_CACHE).items() if v.get("stamped", "") >= days_ago_la(FARA_SCAN_DAYS + 7)}
+    seen = load_manifest(TOP_SEEN)
+    todo = [d for d in docs if d["Document Type"] in FARA_SCAN_TYPES and fara_date(d["Date Stamped"]) >= since
+            and d["URL"] not in cache]
+    # Contact logs first, informational materials (often long brochures) last.
+    todo.sort(key=lambda d: (FARA_SCAN_TYPES.index(d["Document Type"]), fara_date(d["Date Stamped"])))
+    deadline, unread, failed = time.time() + FARA_SCAN_SEC, 0, 0
+    for d in todo:
+        url = d["URL"]
+        if time.time() > deadline:
+            unread += 1
+            continue
+        info = {}
+        try:
+            text = texts[url] if url in texts else fara_doc_text(url, tmp, deadline, info)
+        except Exception as e:  # noqa: BLE001
+            failed += 1
+            errors.append(f"FARA top-official scan, {url}: {e}")
+            continue
+        if info.get("unread_pages") and time.time() > deadline:
+            unread += 1  # cut off mid-document: read it whole next run
+            continue
+        hits, more = top_officials.summarize(top_officials.scan(text))
+        cache[url] = {"scanned": today, "stamped": fara_date(d["Date Stamped"]), "type": d["Document Type"],
+                      "registrant": d["Registrant Name"].strip(), "num": d["Registration Number"],
+                      "fp": f"{d['Foreign Principal Name']} ({d['Foreign Principal Country']})" if d["Foreign Principal Name"] else "",
+                      "hits": [{k: h[k] for k in ("who", "role", "tier", "method", "snippet")} for h in hits],
+                      "more": more}
+        if len(cache) % 10 == 0:
+            save_manifest(TOP_CACHE, cache)  # keep finished OCR if a later step dies
+    save_manifest(TOP_CACHE, cache)
+    if unread:
+        errors.append(f"FARA top-official scan: {unread} recent filings not read yet (time budget); the next run reads them")
+    pending = sorted(((u, v) for u, v in cache.items() if v["hits"] and u not in seen and v["stamped"] >= since),
+                     key=lambda x: (x[1]["stamped"], x[1]["registrant"]))
+    L, items = [], []
+    for url, v in pending:
+        ref = f"T{len(refs) + 1}"
+        refs[ref] = url
+        items.append({"key": url, "url": url, "ref": ref})
+        fp = f" | foreign principal: {v['fp']}" if v["fp"] else ""
+        L.append(f"[{ref}] FARA {v['type']}: {v['registrant']} (#{v['num']}) | stamped {v['stamped']}{fp}")
+        for h in v["hits"]:
+            L.append(f"    - {h['who']} [{h['tier']}; {h['role']}] method: {h['method'] or 'not stated'} :: {h['snippet']}")
+        if v.get("more"):
+            L.append(f"    (+{v['more']} more lines naming a top official in this filing, not shown)")
+    json.dump({"items": items}, open(TOP_ITEMS, "w"), indent=1)
+    scanned = sum(1 for v in cache.values() if v.get("scanned") == today)
+    print(f"fara_top: {len(todo) - unread - failed} read this run ({scanned} cached today), {len(pending)} with "
+          f"unreported hits, {unread} left for next run", file=sys.stderr)
+    return L, len(pending)
 
 
 def fara(since, refs, items, errors):
@@ -147,6 +228,11 @@ def fara(since, refs, items, errors):
                 texts[d["URL"]] = fara_doc_text(d["URL"], tmp)
             except Exception as e:  # noqa: BLE001
                 errors.append(f"FARA document {d['URL']}: {e}")
+        try:
+            top = fara_top(docs, texts, refs, errors, tmp)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"FARA top-official scan: {e}")
+            top = ([], 0)
     # Form questions repeat in every document: keep only lines unique to one.
     df = {}
     for t in texts.values():
@@ -170,7 +256,7 @@ def fara(since, refs, items, errors):
             L.append("    text (OCR, form questions shared with other filings removed): "
                      + (body[:FARA_DOC_CHARS] + (" [...]" if len(body) > FARA_DOC_CHARS else "") if body else "(no text)"))
     json.dump({"items": items}, open(FARA_ITEMS, "w"), indent=1)
-    return L, n
+    return L, n, top
 
 
 # ---------------- LDA ----------------
@@ -259,7 +345,7 @@ def main():
     since = days_ago_la(1)
     lookback = days_ago_la(int(os.environ.get("DC_LOOKBACK_DAYS") or 3))
     errors, gaps, refs, items = [], [], {}, []
-    n = {"fara": 0, "lda_rr": 0, "lda": 0, "lda_signal": 0, "house": 0, "senate": 0}
+    n = {"fara": 0, "lda_rr": 0, "lda": 0, "lda_signal": 0, "house": 0, "senate": 0, "top": 0, "lda_top": 0}
     hosts = ["disclosures-clerk.house.gov", "efdsearch.senate.gov", "lda.gov", "efile.fara.gov"]
     down = [h for h in hosts if not check_reachable(h)]
     if len(down) >= 2:
@@ -268,13 +354,13 @@ def main():
         open(OUT_TXT, "w").write(f"SOURCES UNREACHABLE: {', '.join(down)}\n")
         return
     errors += [f"{h} unreachable" for h in down]
-    L_fara, L_lda, L_pfd, tables = [], [], [], []
+    L_fara, L_lda, L_pfd, tables, L_top, L_lda_top = [], [], [], [], [], []
 
     # FARA
     if "efile.fara.gov" not in down:
         try:
             fitems = []
-            L_fara, n["fara"] = fara(lookback, refs, fitems, errors)
+            L_fara, n["fara"], (L_top, n["top"]) = fara(lookback, refs, fitems, errors)
         except Exception as e:  # noqa: BLE001
             errors.append(f"FARA bulk data: {e}")
 
@@ -296,6 +382,30 @@ def main():
             line, _ = lda_line(r)
             L_lda.append(f"[{ref}] {label}{line}")
 
+        # Every filing, not just the signal ones: the President or VP listed
+        # as an entity lobbied, or a top official named in what was lobbied.
+        for r in rows:
+            acts = r.get("lobbying_activities") or []
+            ents = sorted({LDA_TOP_ENTITIES[g.get("name")] for a in acts for g in a.get("government_entities") or []
+                           if g.get("name") in LDA_TOP_ENTITIES})
+            desc = " / ".join(sorted({(a.get("description") or "").strip() for a in acts} - {""}))
+            named = sorted({h["who"] for h in top_officials.scan(desc, tiers=("name",))})
+            if not (ents or named):
+                continue
+            n["lda_top"] += 1
+            if n["lda_top"] > LDA_TOP_CAP:
+                continue
+            ref = f"L{len(refs) + 1}"
+            refs[ref] = r.get("filing_document_url") or r.get("url")
+            bits = [f"{(r.get('registrant') or {}).get('name')} -> {(r.get('client') or {}).get('name')}",
+                    r.get("filing_type_display") or r.get("filing_type") or ""]
+            if ents:
+                bits.append("entities lobbied include " + ", ".join(ents))
+            if named:
+                bits.append("names " + ", ".join(named))
+            L_lda_top.append(f"[{ref}] LDA " + " | ".join(bits) + " | lobbied on: " + desc[:500])
+        if n["lda_top"] > LDA_TOP_CAP:
+            L_lda_top.append(f"(+{n['lda_top'] - LDA_TOP_CAP} more LDA filings listing the President or VP, not listed)")
         L_lda.append(f"NEW REGISTRATIONS ({len(rr)}):")
         for r in rr:
             add(r, "")
@@ -411,7 +521,7 @@ def main():
 
     oge = load_json("data/oge_candidates.json", {}) or {}
     mech = load_json("content-mechanical.json", {}) or {}
-    new_items = (n["fara"] + n["lda_rr"] + n["lda_signal"] + n["house"] + n["senate"]
+    new_items = (n["fara"] + n["top"] + n["lda_top"] + n["lda_rr"] + n["lda_signal"] + n["house"] + n["senate"]
                  + len(oge.get("flagged") or []))
 
     d = date.fromisoformat(today)
@@ -444,6 +554,14 @@ def main():
                                                               for k, v in by.items()))
     if mech.get("known_gaps"):
         L.append("OGE known gaps: " + mech["known_gaps"])
+    L += ["", f"--- TOP OFFICIALS: the President, VP or cabinet in filings ({n['top']} FARA filings stamped "
+              f"{days_ago_la(FARA_SCAN_DAYS)} onward not yet reported, {n['lda_top']} LDA filings) ---",
+          "Lines are OCR'd: contact-log columns (date | official | title | method | purpose) are often interleaved "
+          "across the ' / ' line breaks. tier name = the person is named; office = their immediate office's staff; "
+          "title = only the post (POTUS etc.). Each person's post and tenure is in brackets."]
+    L += L_top + L_lda_top
+    if not (L_top or L_lda_top):
+        L.append("(none)")
     L += ["", f"--- FARA ({n['fara']} new items: registrants, foreign principals, filed documents; "
               f"since {lookback}, minus items reported earlier) ---"] + L_fara
     L += ["", f"--- PERSONAL FINANCIAL DISCLOSURES ({n['house']} House, {n['senate']} Senate) ---",
