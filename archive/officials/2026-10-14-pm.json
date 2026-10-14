@@ -1,0 +1,461 @@
+{
+ "date": "Wednesday, October 14, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "A quiet Wednesday: no logged contacts with the President or cabinet, no new disclosures",
+  "dek": "Nothing in this window rises to a lead story.",
+  "paragraphs": [
+   "The scan of FARA filings found no communication with the President, the Vice President or a cabinet-level official. The two flagged filings from <strong>Friends of Sinn Fein, Inc.</strong> only quote public statements about President <strong>Donald Trump</strong>'s remarks on Irish unity.",
+   "No new House or Senate financial disclosures, FARA registrations or documents, or Office of Government Ethics filings turned up in the window. The lobbying feed was dominated by routine third-quarter reports, with 15 new registrations and 37 terminations (see the LDA section)."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Contacts With the President, VP & Cabinet",
+   "headline": "No logged contacts with the President, VP or cabinet; two lobbying reports name the President",
+   "paragraphs": [
+    "The two FARA informational-materials filings by <strong>Friends of Sinn Fein, Inc.</strong> (foreign principal <strong>Sinn Fein</strong>, Ireland) quote press coverage and statements from Irish-American groups about President <strong>Donald Trump</strong>'s public comments on a united Ireland. They do not log any contact with him, so they are not reported as communications.",
+    "Two third-quarter lobbying reports name the President:"
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>National Affordable Housing Management Association (NAHMA)</strong> (in-house): flagged as naming President <strong>Donald Trump</strong>. The lobbying text captured covers H.R. 8626, the Workforce Housing Tax Credit Act, and the One Big Beautiful Bill Act (Public Law 119-21). <a href=\"https://lda.gov/filings/public/filing/987a797f-7523-4074-b3bf-7e7f5972985b/print/\">Filing</a>.",
+      "<strong>Air-Conditioning, Heating, and Refrigeration Institute</strong> (in-house): lists the President among the entities lobbied. Topics include climate policy, heat pumps, PFAS and the H.R. 8016 / S. 4153 Forever Chemical Regulation and Accountability Act of 2026, refrigerants and HFCs under the AIM Act, and ENERGY STAR. <a href=\"https://lda.gov/filings/public/filing/1f216ee2-6721-4652-ab20-32a2e4024369/print/\">Filing</a>."
+     ],
+     "no_news": false
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new ethics filings this window",
+   "paragraphs": [
+    "Seven Office of Government Ethics filings were reviewed for the October 11\u201314 window. None were flagged for divestitures, terminations, or pending dispositions, and all routine filings had already been reported in prior runs."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "15 new registrations and 37 terminations, mostly routine",
+   "paragraphs": [
+    "The lobbying feed for October 13 onward lists 750 filings, but the fetch stopped after 30 pages, so the rest are not counted: 607 third-quarter reports, 78 third-quarter no-activity reports, 17 third-quarter no-activity terminations, 16 third-quarter terminations, 15 registrations, 6 third-quarter amendments, 3 second-quarter terminations, 3 second-quarter amendments, and 1 each of first-quarter amendment, fourth-quarter amendment, fourth-quarter termination amendment, second-quarter no-activity report and second-quarter report.",
+    "Standouts: <strong>Groisman LLC</strong> registered for <strong>Apollo Power America, Inc.</strong>, with the foreign entities <strong>Solarpaint Ltd.</strong> and <strong>Apollo Power Ltd.</strong> listed, to lobby on Section 232 tariff treatment of Israeli-origin polysilicon products. <strong>Cornerstone Government Affairs, Inc.</strong> registered for <strong>Welltower Inc.</strong> with <strong>Andrew Flick</strong>, a former special assistant to the President and senior adviser in the Office of the Vice President, listed as a covered position. <strong>Red Door Consulting, LLC</strong> reports covered position <strong>Scott Centorino</strong> (Special Assistant to the President for Domestic Policy) on several clients. The largest spender seen was the <strong>Securities Industry and Financial Markets Association</strong> at $1.81 million in expenses.",
+    "The table covers all registrations and terminations. The 255 activity reports with a signal are mostly left out: the remaining reports in the window are routine quarterly filings, and the notable ones are noted below the table."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "What's Being Lobbied"
+     ],
+     "rows": [
+      [
+       "<strong>B Hall Strategies, LLC</strong>",
+       "<strong>Vantive US Healthcare LLC</strong> (new registration)",
+       "Health Issues",
+       "Telehealth. Covered position: James Hall (former Staff Director, Senate Veterans Affairs Committee). <a href=\"https://lda.gov/filings/public/filing/e9845f07-49d8-486b-846a-e38c4f21112a/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Advanced Policy Consulting, LLC</strong>",
+       "<strong>Nexamp, Inc.</strong> (new registration)",
+       "Energy/Nuclear",
+       "IRS regulations on the solar industry, including the material assistance cost ratio framework. Covered position: Matthew McGinley (former chief of staff to Rep. Tom Price). <a href=\"https://lda.gov/filings/public/filing/e89c92c7-1702-41fa-a264-59e43d3d9ccc/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Lewis-Burke Associates, LLC</strong>",
+       "<strong>Advanced Professional Workforce Alliance</strong> (new registration)",
+       "Education",
+       "Graduate funding. <a href=\"https://lda.gov/filings/public/filing/5c3c8313-fff3-4b15-975c-ec05b0c4c8ac/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong>",
+       "<strong>City of West Lake Hills, Texas</strong> (new registration)",
+       "Disaster Planning/Emergencies",
+       "Federal disaster assistance and recovery funding. Covered position: Michael McSherry. <a href=\"https://lda.gov/filings/public/filing/f30e8188-ab4f-49bf-a8da-fada27956dbd/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Checkmate Government Relations</strong>",
+       "<strong>Andromeda Health Corporation</strong> (new registration)",
+       "Health Issues",
+       "Healthcare issues and meetings with policymakers. <a href=\"https://lda.gov/filings/public/filing/9075b844-8f13-439a-8720-a921e03ab1d5/print/\">Filing</a>"
+      ],
+      [
+       "<strong>DCI Group, L.L.C.</strong>",
+       "<strong>Stryker</strong> (new registration)",
+       "Health Issues, Manufacturing",
+       "Medical devices and trade. Covered position: Timothy Martin (former aide to Rep. Scott Tipton). <a href=\"https://lda.gov/filings/public/filing/71ce859b-fe0a-4567-ab20-a9a9a47ef113/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Thorn Run Partners</strong>",
+       "<strong>The Predistribution Initiative (PDI)</strong> (new registration)",
+       "Science/Technology",
+       "Artificial intelligence; H.R. 9925, the FRONTIER Act. <a href=\"https://lda.gov/filings/public/filing/f7d08bec-302d-42bd-b249-3ccc2aca1262/print/\">Filing</a>"
+      ],
+      [
+       "<strong>H.A. Cumber & Company, Inc.</strong>",
+       "<strong>Relativity Space, Inc.</strong> (new registration)",
+       "Aerospace, Science/Technology, Transportation",
+       "Commercial space launch regulation, spaceport infrastructure, Department of War procurement. Covered position: Husein Cumber (former Deputy Chief of Staff, U.S. Department of Transportation). <a href=\"https://lda.gov/filings/public/filing/347414b7-780c-4896-a74f-9d0aa4d307f7/print/\">Filing</a>"
+      ],
+      [
+       "H.A. Cumber & Company, Inc.",
+       "<strong>Ridgewood Infrastructure, LLC</strong>, on behalf of Nassau Marine Terminal (new registration)",
+       "Marine/Maritime, Transportation",
+       "Discretionary grants. Same covered position. <a href=\"https://lda.gov/filings/public/filing/033ace60-cd95-411f-adbb-59aadc3b05e8/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Groisman LLC</strong>",
+       "<strong>Apollo Power America, Inc.</strong> (new registration; foreign entities Solarpaint Ltd., Apollo Power Ltd.)",
+       "Energy/Nuclear, Tariff, Trade",
+       "Imports of polysilicon and derivatives, including treatment of Israeli-origin products under Section 232 tariffs and possible tariff relief. <a href=\"https://lda.gov/filings/public/filing/b52538fa-8210-4c66-b774-1a41e10391f1/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Innovative Federal Strategies, LLC</strong>",
+       "<strong>Klein Marine Systems</strong> (new registration)",
+       "Budget/Appropriations, Defense",
+       "Defense and civil uses of underwater sonar. Covered positions: Benjamin Jarrett, Juan Buhigas Palinkasev, Letitia White. <a href=\"https://lda.gov/filings/public/filing/790490af-2dce-4b86-96d6-b20607d91888/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Cornerstone Government Affairs, Inc.</strong>",
+       "<strong>Ochsner Clinic Foundation</strong> (new registration)",
+       "Health Issues, Medicare/Medicaid",
+       "Medicare, Medicaid and healthcare appropriations. Covered positions include Ashley Palmer (former HHS deputy assistant secretary for congressional affairs). <a href=\"https://lda.gov/filings/public/filing/c9f2b910-9863-4ba3-a1d3-ba6b57a54f52/print/\">Filing</a>"
+      ],
+      [
+       "Cornerstone Government Affairs, Inc.",
+       "<strong>Welltower Inc.</strong> (new registration)",
+       "Housing, Labor Issues/Antitrust/Workplace",
+       "Senior housing, workforce development, supportive services for older adults. Covered positions include Andrew Flick (Office of the Vice President) and Ashley Palmer. <a href=\"https://lda.gov/filings/public/filing/9b21926d-244c-4c15-85bd-6fd474ff7e44/print/\">Filing</a>"
+      ],
+      [
+       "<strong>The Madison Group</strong>",
+       "<strong>No Dangerous Intoxicating Products (NODIP)</strong> (new registration)",
+       "Budget/Appropriations, Consumer Issues, Food Industry",
+       "The federal intoxicating hemp ban. <a href=\"https://lda.gov/filings/public/filing/dedcf2b8-be57-41da-beb5-4edcd643742b/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Manatt, Phelps, and Phillips</strong>",
+       "<strong>Provider Resources LLC</strong> (new registration)",
+       "Health Issues",
+       "The No Surprises Act. Covered position: Nicholas Bath (former Health Policy Director, Senate Committee on Health, Education, Labor and Pensions). <a href=\"https://lda.gov/filings/public/filing/4679b39a-c8c6-4e60-bca0-87c90b400331/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Anzu Strategies</strong>",
+       "<strong>Blue Star NBR, LLC</strong> (termination, effective 2026-08-31; $10,000 income)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/adb5fae1-6f88-43ee-8501-6141109e8779/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Holland & Knight LLP</strong>",
+       "<strong>Osage Nation</strong> (termination, 2026-09-30)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/9978b93e-e998-42e7-bf81-0ec33d7439fd/print/\">Filing</a>"
+      ],
+      [
+       "Advanced Policy Consulting, LLC",
+       "<strong>Investment Company Institute (ICI)</strong> (termination, 2026-07-31; $10,000)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/79b9dc66-16d2-46a8-86a3-d2ca7e8e0d81/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Hogan Lovells US LLP</strong>",
+       "<strong>Alvogen, Pharma US, Inc.</strong> (termination, 2026-09-30)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/0d47fa82-1601-4ec2-9a6a-ac4ba6a5b729/print/\">Filing</a>"
+      ],
+      [
+       "Advanced Policy Consulting, LLC",
+       "<strong>Coalition for Community Solar Access</strong> (termination, 2026-08-31; $30,000)",
+       "Taxation/Internal Revenue Code",
+       "Preserving the 48E and 45X tax credits for solar; Low-Income Communities Bonus Credit. <a href=\"https://lda.gov/filings/public/filing/4179a313-e395-4bee-a81b-0779e4ea85ed/print/\">Filing</a>"
+      ],
+      [
+       "Thorn Run Partners",
+       "<strong>Vise Technologies</strong> (second-quarter termination, 2026-06-30; $10,000)",
+       "Financial Institutions/Investments/Securities",
+       "Artificial intelligence in financial services. <a href=\"https://lda.gov/filings/public/filing/6e97100b-b518-4784-89ec-4fa61934efcc/print/\">Filing</a>"
+      ],
+      [
+       "<strong>The Wessel Group Incorporated</strong>",
+       "<strong>Rio Grande Resources Corporation</strong> (termination, 2026-09-30; $20,000)",
+       "Energy/Nuclear",
+       "Sourcing policies on Russian uranium; uranium mining in the National Defense Authorization Act. <a href=\"https://lda.gov/filings/public/filing/749d52ec-3d31-4398-b2d8-bcb3315fec9f/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Kaplan Kirsch LLP</strong>",
+       "<strong>City of Phoenix</strong>, <strong>San Diego County Regional Airport Authority</strong>, <strong>City of Ontario</strong> (three terminations, 2026-09-30)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/45f54d6d-af0b-4073-8323-4485131a274b/print/\">Phoenix</a>, <a href=\"https://lda.gov/filings/public/filing/69a74051-40c3-4927-a67c-3c77ff60f5cc/print/\">San Diego</a>, <a href=\"https://lda.gov/filings/public/filing/374a1d2d-e28c-4a0e-b2e8-f121a03104d4/print/\">Ontario</a>"
+      ],
+      [
+       "<strong>Mehlman Consulting, Inc.</strong>",
+       "<strong>Axon Enterprise, Inc.</strong> (second-quarter termination, 2026-06-30; $50,000)",
+       "Aviation, Budget/Appropriations",
+       "FY 2027 appropriations; body-worn cameras, tasers, unmanned aircraft systems. <a href=\"https://lda.gov/filings/public/filing/df30c2ec-9fa4-4aaa-9100-54741814b355/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Keller Partners & Company</strong>",
+       "<strong>Mercy Medical Center</strong> (termination, 2026-08-03; $30,000)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/a426c721-cb04-4ec1-b7d4-0ca08890a268/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Thomas Marquez</strong>",
+       "<strong>Freedom Flight Works</strong> (fourth-quarter termination amendment, 2025-12-31; $12,000)",
+       "Defense",
+       "Defense. Covered positions: Ashleigh Conaway, Thomas Marquez. <a href=\"https://lda.gov/filings/public/filing/989ff326-d5b7-4986-ae14-30448237606d/print/\">Filing</a>"
+      ],
+      [
+       "<strong>DCI Group, L.L.C.</strong> (second client)",
+       "<strong>Pilatus Aircraft Ltd.</strong>, on behalf of Nelson Mullins Riley & Scarborough LLP (termination, 2026-07-01)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/17d8159b-7adf-44d1-a28e-e87a4f88e155/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Squire Patton Boggs</strong>",
+       "<strong>1 Nation Action, Inc.</strong> (termination, 2026-09-15)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/f8bfe6aa-d233-40fb-9d2c-1122d9b3f57e/print/\">Filing</a>"
+      ],
+      [
+       "<strong>GovBiz Advantage, Inc.</strong>",
+       "<strong>Fortress Wildfire Insurance Group</strong> (termination, 2026-09-30)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/846f1679-a4db-4576-ba7a-a7480269f51c/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Continental Strategy, LLC</strong>",
+       "<strong>HNTB Corporation</strong> (termination, 2026-07-31; $20,000)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/78fe56a0-ac7e-49db-b2ef-cc7a4f1b0074/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Zero Mile Strategies</strong>",
+       "<strong>Fortress Investment Group</strong> (termination, 2026-09-02)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/0cae12ee-9c80-41e6-a23c-37f2465ac47d/print/\">Filing</a>"
+      ],
+      [
+       "<strong>IQOM Strategic Advisors, LLC</strong>",
+       "<strong>Yazaki North America, Inc.</strong> (termination, 2026-07-31)",
+       "Trade",
+       "Resolution of a USMCA labor complaint. <a href=\"https://lda.gov/filings/public/filing/f3e208a7-7cc4-4c7e-b8bb-8a0017d3d2ef/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Cassidy & Associates, Inc.</strong>",
+       "<strong>Mullen</strong> (termination, 2026-07-15; $10,000)",
+       "Defense",
+       "Defense appropriations (H.R. 9495): support for the Joint Advertising Marketing Research Studies program. <a href=\"https://lda.gov/filings/public/filing/e2c40b2e-16bc-494e-9d89-cad02a587536/print/\">Filing</a>"
+      ],
+      [
+       "Cassidy & Associates, Inc.",
+       "<strong>Strike Photonics</strong> (termination, 2026-07-01)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/fb2454b7-c0b9-482a-8fe2-ee958ce1b36a/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Da Vinci Group</strong>",
+       "<strong>Recreation Access Alliance</strong> and <strong>Theranica, USA, Inc.</strong> (two terminations, 2026-07-02)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/36004128-05ef-4189-9ce2-cf3f5c32ee52/print/\">Recreation Access Alliance</a>, <a href=\"https://lda.gov/filings/public/filing/a81fb00b-ed5e-4579-82e7-50c0a56a1633/print/\">Theranica</a>"
+      ],
+      [
+       "Innovative Federal Strategies, LLC",
+       "<strong>Exail, Inc.</strong> (second-quarter termination, 2026-06-30; $20,000)",
+       "Budget/Appropriations, Defense",
+       "FY 2027 defense authorization and appropriations provisions on uncrewed platforms. <a href=\"https://lda.gov/filings/public/filing/d63eac22-9bdf-40d0-9342-4384011f2137/print/\">Filing</a>"
+      ],
+      [
+       "Cornerstone Government Affairs, Inc.",
+       "<strong>Great Plains Health</strong> (termination, 2026-08-31; $20,000)",
+       "Budget/Appropriations",
+       "Federal appropriations for the hospital. <a href=\"https://lda.gov/filings/public/filing/f440b959-75dd-4716-b3f4-f8921b876813/print/\">Filing</a>"
+      ],
+      [
+       "Cornerstone Government Affairs, Inc.",
+       "<strong>Oshkosh Corporation</strong> (termination, 2026-09-01; $20,000)",
+       "Aviation, Homeland Security, Transportation",
+       "Airport technologies, emergency response apparatus, construction equipment cybersecurity. <a href=\"https://lda.gov/filings/public/filing/64bba382-9cfd-49a5-b469-0ef131b4679c/print/\">Filing</a>"
+      ],
+      [
+       "Thorn Run Partners",
+       "<strong>American Society of Consultant Pharmacists (ASCP)</strong> (termination, 2026-07-22; $10,000)",
+       "Medicare/Medicaid",
+       "Medicare coverage of long-term care pharmacy services at home. Covered position: Catherine Finley. <a href=\"https://lda.gov/filings/public/filing/d1958362-8dde-4c73-a8ea-54f32ffe1578/print/\">Filing</a>"
+      ],
+      [
+       "<strong>Tremont Strategies Group LLC</strong>",
+       "<strong>CareQuest Institute for Oral Health</strong> (termination, 2026-07-15; $10,000)",
+       "None listed (no activity)",
+       "No activity. <a href=\"https://lda.gov/filings/public/filing/89a44db8-9dd5-4f10-b71b-e663ae09298b/print/\">Filing</a>"
+      ],
+      [
+       "Hogan Lovells US LLP",
+       "<strong>FIFA World Cup</strong> host committees for Atlanta, Boston, Dallas (two filings), Houston, Miami, Philadelphia and Seattle (eight terminations, July 31 or August 31; $10,000 each)",
+       "Budget/Appropriations, Sports/Athletics",
+       "Appropriations for security and emergency services tied to World Cup 2026. Covered positions: Charles Rathburn, Norm Coleman. <a href=\"https://lda.gov/filings/public/filing/23a19d5c-5ece-4003-acfe-dfc9ab225c03/print/\">Atlanta</a>, <a href=\"https://lda.gov/filings/public/filing/507b9fbe-ca2f-444f-8ed5-0cb4d5b6a533/print/\">Boston</a>, <a href=\"https://lda.gov/filings/public/filing/f4ead724-eb44-4e08-a731-ebdd5a97acc1/print/\">Dallas</a>, <a href=\"https://lda.gov/filings/public/filing/f16d7452-c243-4b02-a2d4-c46ef008b1f5/print/\">Houston</a>, <a href=\"https://lda.gov/filings/public/filing/9591e689-6d9e-4336-850a-e1b00550847f/print/\">Miami</a>, <a href=\"https://lda.gov/filings/public/filing/852f2748-9ba2-4e5a-b43c-d5cbba100f57/print/\">Philadelphia</a>, <a href=\"https://lda.gov/filings/public/filing/0a23b887-d554-4b41-91ca-51c28a3c2e79/print/\">Seattle</a>, <a href=\"https://lda.gov/filings/public/filing/41058db5-9e23-42ff-a253-7bb63a2d9fc5/print/\">Dallas</a>"
+      ],
+      [
+       "<strong>Mapetsi Policy Group</strong>",
+       "<strong>Confederated Tribes of Coos, Lower Umpqua, and Siuslaw Indians</strong> (termination, 2026-08-14; $20,000)",
+       "Indian/Native American Affairs",
+       "Sovereignty, land, natural resources, infrastructure, appropriations. <a href=\"https://lda.gov/filings/public/filing/95f87b18-dd40-459d-a630-7ba3bb20d9a6/print/\">Filing</a>"
+      ]
+     ],
+     "no_news": false
+    },
+    {
+     "type": "note",
+     "text": "Other filings of note, not in the table: Squire Patton Boggs reports covered position Trevor Kellogg (former chief of staff and senior adviser, International Trade Administration, U.S. Department of Commerce) on its Allison Transmission work (L96). H4 Advisors reports lobbying for Emirates Airline, a foreign carrier (L139). Smooth Stone Strategies reports lobbying on 'connections with White House and Department of War entities' for Guardian Resources/Willowstick Technologies (L309). Horizons Global Solutions lists Stephen Boyd, described as Assistant Attorney General at the Department of Justice, as a covered position on many defense and health clients. Poblete Tamargo, LLP filed several dozen reports for individuals and families with Cuba-claims matters. Most other quarterly reports in the window are routine."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Industries to Watch",
+   "headline": "Lobbying in prediction markets, crypto, AI and defense tech",
+   "paragraphs": [
+    "12 new filings in watched industries; no new clients or spending jumps."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Other new filings in watched industries"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Client",
+      "Firm",
+      "Industry",
+      "Reported",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "SECURITIES INDUSTRY AND FINANCIAL MARKETS ASSOCIATION",
+       "SECURITIES INDUSTRY AND FINANCIAL MARKETS ASSOCIATION",
+       "Crypto &amp; digital assets",
+       "$1,810,000",
+       "<a href=\"https://lda.gov/filings/public/filing/00e58446-14c9-45d8-b2ac-2d67372de126/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "AMERICAS CREDIT UNIONS, FKA CREDIT UNION NATIONAL ASSOCIATION, INC. DBA AMERICA",
+       "AMERICAS CREDIT UNIONS, FKA CREDIT UNION NATIONAL ASSOCIATION, INC. DBA AMERICAS CREDIT UNIONS",
+       "Artificial intelligence, Crypto &amp; digital assets",
+       "$1,060,000",
+       "<a href=\"https://lda.gov/filings/public/filing/b071ff3e-4f9d-4232-8d2c-9b5e2eaefa8d/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "LIVE OAK BANK",
+       "LIVE OAK BANKING COMPANY (FORMERLY KNOWN AS LIVE OAK BANK)",
+       "Crypto &amp; digital assets",
+       "$190,000",
+       "<a href=\"https://lda.gov/filings/public/filing/a635a072-c92d-4c43-9c68-e3dc3f793b8b/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "THE UNIVERSITY OF TENNESSEE",
+       "THE UNIVERSITY OF TENNESSEE",
+       "Artificial intelligence",
+       "$170,000",
+       "<a href=\"https://lda.gov/filings/public/filing/7a4d9126-4caa-422c-a641-f80949b2c451/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "AMERICAN SECURITIES ASSOCIATION",
+       "AMERICAN SECURITIES ASSOCIATION",
+       "Artificial intelligence, Crypto &amp; digital assets",
+       "$70,000",
+       "<a href=\"https://lda.gov/filings/public/filing/1cd80adc-d54f-4fda-b42a-f40ef628689b/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "BITGO, INC.",
+       "SQUIRE PATTON BOGGS",
+       "Crypto &amp; digital assets",
+       "$50,000",
+       "<a href=\"https://lda.gov/filings/public/filing/bb83f587-df81-4a75-9bfc-26cc2b08c7ea/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "CLEANSPARK, INC.",
+       "SQUIRE PATTON BOGGS",
+       "Crypto &amp; digital assets",
+       "$50,000",
+       "<a href=\"https://lda.gov/filings/public/filing/5528c803-bc3c-48ba-9e26-6132ada7118e/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "Y COMBINATOR",
+       "THE JOSEPH GROUP, LLC",
+       "Artificial intelligence",
+       "$45,000",
+       "<a href=\"https://lda.gov/filings/public/filing/752214cf-0740-4799-97ed-764c7e1182e6/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "X, INC. F/K/A TWITTER, INC.",
+       "THE JOSEPH GROUP, LLC",
+       "Artificial intelligence",
+       "$30,000",
+       "<a href=\"https://lda.gov/filings/public/filing/5603543e-1d77-4a51-ad6a-ff0f20e1b48c/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "RADNET",
+       "POTOMAC STRATEGIC CONSULTING LLC",
+       "Artificial intelligence",
+       "$30,000",
+       "<a href=\"https://lda.gov/filings/public/filing/d06223cc-296b-4295-9e3c-dd92b0cb5b81/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "DUCKDUCKGO",
+       "THE JOSEPH GROUP, LLC",
+       "Artificial intelligence",
+       "$30,000",
+       "<a href=\"https://lda.gov/filings/public/filing/d1178716-d64e-4ee1-bee9-7e2fc766463b/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "PURDUE UNIVERSITY",
+       "LEWIS-BURKE ASSOCIATES, LLC",
+       "Artificial intelligence",
+       "$25,000",
+       "<a href=\"https://lda.gov/filings/public/filing/2e938b6b-c7fc-43c7-becc-f1f270892b15/print/\">3rd Quarter - Report</a>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Industries and keywords are set in data/lda_industries.json. Amounts are the income (firm) or expenses (in-house) line on the filing."
+    }
+   ],
+   "no_news": true
+  }
+ ],
+ "dismissed_refs": [
+  "T1",
+  "T2"
+ ],
+ "footer": {
+  "coverage_window": "FARA and LDA filings posted October 13-14, 2026; House and Senate financial disclosures filed October 11-14, 2026 and not reported in earlier editions; OGE filings reviewed for October 11-14, 2026.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "FARA top-official scan: 7 recent filings were not read yet because of the time budget; the next run reads them. LDA: the fetch stopped after 30 pages (750 filings), so the remainder are not listed. No new House or Senate disclosures, FARA items or OGE filings were found in the window, and the OGE pass flagged no gaps."
+ },
+ "beat": [
+  {
+   "name": "President Donald J. Trump",
+   "why": "Personal trades (278-T)",
+   "mentions": [
+    {
+     "section": "Contacts With the President, VP & Cabinet",
+     "html": "(foreign principal Sinn Fein, Ireland) quote press coverage and statements from Irish-American groups about President Donald Trump's public comments on a united Ireland."
+    },
+    {
+     "section": "Contacts With the President, VP & Cabinet",
+     "html": "<strong>National Affordable Housing Management Association (NAHMA)</strong> (in-house): flagged as naming President <strong>Donald Trump</strong>. The lobbying text captured covers H.R. 8626, the Workforce Housing Tax Credit Act, and the One Big Beautiful Bill Act (Public Law 119-21). <a href=\"https://lda.gov/filings/public/filing/987a797f-7523-4074-b3bf-7e7f5972985b/print/\">Filing</a>."
+    }
+   ]
+  }
+ ]
+}
