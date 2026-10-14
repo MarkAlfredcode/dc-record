@@ -2802,6 +2802,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:W7LDEBHM5AA5": {
+    "d": "2026-10-13",
+    "examples": [
+      {
+        "agency": "Department of Commerce",
+        "amount": 1887270.07,
+        "recipient": "MARRIOTT HOTEL SERVICES INC",
+        "start": "2019-11-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1331L520C13160005_1301_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 705274.0,
+        "recipient": "MARRIOTT HOTEL SERVICES INC",
+        "start": "2018-02-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCSS135118SE0010_1301_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Equal Employment Opportunity Commission",
+        "amount": 579680.79,
+        "recipient": "MARRIOTT HOTEL SERVICES INC",
+        "start": "2023-07-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_45310023C0023_4500_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2014-10-07",
+    "has_contracts": true,
+    "raw_hits": 21
+  },
   "uei:WK2SKL9CMXN6": {
     "d": "2026-10-10",
     "examples": [

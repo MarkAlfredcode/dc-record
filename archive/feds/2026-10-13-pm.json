@@ -1,0 +1,429 @@
+{
+ "date": "Tuesday, October 13, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Pentagon gave Marriott a no-bid deal to house 600 attendees at a Secretary of War conference, posted after the event ended",
+  "dek": "The sole-source justification and award notice for the September 29 to October 1 Washington conference both went public on October 13.",
+  "paragraphs": [
+   "<strong>Washington Headquarters Services</strong>, part of the <strong>Department of Defense</strong>, awarded a sole-source contract to <strong>Marriott Hotel Services Inc.</strong> (spelled \"Marriot\" in the justification) for lodging and catering for 600 government attendees. They were attending a conference hosted by the <strong>Office of the Secretary of War</strong> at a single hotel in the Washington area. Check-in was September 29, 2026 and check-out October 1. The justification is dated September 21. The award notice lists $724,742, signed September 25. Both were posted October 13, after the stay was over. The justification itself redacts the dollar value and says only that it covers a three-day period of performance. It lists Marriott's address as 901 Massachusetts Avenue NW and says the contract will use Official Representation funds.",
+   "The agency's stated reason for not competing is that major Washington venues were already booked. It cites \"pre-existing citywide bookings, recurring annual international summits, and large-scale national conventions,\" and says no other property could meet scale, schedule and security at once. It describes its market research as \"cold calls\" to high-capacity hotels. According to the document, all 600 people had to be housed \"under one roof\" for \"operational security, force protection, and strict scheduling synchronization.\" The hotel also had to provide a dedicated, secure space for uniform distribution during attendee in-processing. The action was done as a simplified-procedures commercial-item sole source under the Revolutionary FAR Overhaul, citing 41 U.S.C. 1901."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Award notice",
+     "url": "https://sam.gov/opp/50da1cd10dc7450fa70f9749ee14307b/view"
+    },
+    {
+     "text": "Sole-source justification (J&A)",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a6cea8e5c177408db0ffe6891d45a9e8/download"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Sole-Source Justifications",
+   "headline": "Today's Top Story is a sole-source justification; the only other new one is a routine currency-press parts buy",
+   "paragraphs": [
+    "Two new justifications, both posted as Award Notices rather than in the Justification category. The Marriott conference lodging deal is the Top Story. Forty repeats from earlier editions were left out."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Other sole-source justifications (routine parts): <strong>Department of the Treasury, Bureau of Engraving and Printing</strong> \u2014 1 (<a href=\"https://sam.gov/opp/c916c9f020524079b6a486788aeea1bb/view\">2031ZA26P00137</a>): 90 NotaMesh 230 OV mesh screens for rotary screen presses in Fort Worth, Texas, from original manufacturer <strong>Koenig & Bauer Banknote Solutions SA</strong>, $136,758, awarded September 30. The justification says the vendor owns the patented hardware and software for the presses. It is a small-dollar buy; no responses came to the July notice of intent (<a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8750fb36f3f84fcbb59b3461721efab8/download\">J&A document</a>)."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Award Notices",
+   "headline": "Three new award notices, all routine",
+   "paragraphs": [
+    "Three new award notices, none flagged, and 295 repeats from earlier editions left out. The two award notices posted as sole-source justifications are covered in that section."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Routine: <strong>Department of the Air Force</strong> (56th Contracting Squadron) \u2014 2; <strong>General Services Administration</strong> (Public Buildings Service) \u2014 1."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Solicitations",
+   "headline": "Argonne's Equinox AI supercomputer solicitation is tied to the Genesis Mission executive order",
+   "paragraphs": [
+    "Five new solicitations and 115 repeats left out. The two cards come from documents read today on notices posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Argonne National Laboratory seeks an AI supercomputer for the Genesis Mission",
+     "meta": [
+      "Solicitation",
+      "Department of Energy (Argonne National Laboratory, operated by UChicago Argonne, LLC)"
+     ],
+     "text": "The request for proposals for the \"Equinox\" AI system asks for a rack-scale computing environment with a 16-rack base system and room to expand. According to the statement of work, \"the system will provide compute resources in support of the Genesis Mission, established through Executive Order 14363, 'Launching the Genesis Mission.'\" Argonne's cover letter says current planning is a conventional purchase \"with LTO financing used, as appropriate\" (lease-to-ownership), and Addendum 2 says non-U.S. citizens face Foreign National Access Program approval that \"may take up to forty-five (45) business days, or longer.\" Notice posted earlier; addendum and statement of work read today.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/52131dc1015a4b2b9cfb973e7b21c548/view"
+      },
+      {
+       "text": "Statement of work",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/21ef097baa414d9fa2aad145fe48d95a/download"
+      },
+      {
+       "text": "RFP cover letter",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f7f68c3a2d3345a4a0206ad40764ea2b/download"
+      },
+      {
+       "text": "Addendum No. 2",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a5cf9dd602f54bd4afe455f747e582e5/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy plans to build child development centers through an Other Transaction agreement that could lead to a no-compete production deal",
+     "meta": [
+      "Solicitation",
+      "Department of the Navy (Naval Facilities Engineering Systems Command Atlantic)"
+     ],
+     "text": "The area-of-interest notice seeks industrialized-construction vendors for Navy child development centers under Other Transaction Authority (10 U.S.C. \u00a7 2808a). The notice warns that any agreement awarded \"may result in the award of a follow-on production OT agreement or contract without the use of further competitive procedures.\" Document read today on a notice posted earlier.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/73be42a26db244d386a6f8477d6b0532/view"
+      },
+      {
+       "text": "Area-of-interest document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/27c69b02444e4dfda2169d989c48a202/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of the Navy (Naval Facilities Engineering Systems Command Mid-Atlantic)</strong> \u2014 design-build repair of the King Hall dormitory, Building 291, Naval Station Newport, Rhode Island; limited to holders of a global contingency construction multiple-award contract (<a href=\"https://sam.gov/opp/9988ce1bdf1e449182d1a698f4e04ece/view\">N4008526R0228</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Left out as repeats whose changes were only amendments: <strong>Naval Surface Warfare Center, Port Hueneme Division</strong> Vertical Launching System deck and hatch assembly (<a href=\"https://sam.gov/opp/3419f0afc3b844768dbd83caa12ac452/view\">N6339426R4002</a>) and <strong>Defense Logistics Agency Energy</strong> fuel storage at the Tampa fuel supply point (<a href=\"https://sam.gov/opp/bd3d6be1030d4bd79652163f53b5c58d/view\">SPE60326R0518</a>). Routine: <strong>Federal Highway Administration</strong> \u2014 1; <strong>Department of the Navy</strong> (Commanding General) \u2014 1."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Combined Synopsis/Solicitations",
+   "headline": "Marine special operations medical training contract drops classified-facility requirements",
+   "paragraphs": [
+    "Two new combined synopsis/solicitations and 1,507 repeats left out. The cards below come from documents read today on notices posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Marine special operations medical training contract drops its clearance requirements",
+     "meta": [
+      "Combined Synopsis/Solicitation",
+      "Department of Defense (Marine Forces Special Operations Command)"
+     ],
+     "text": "An amendment to the Special Operations Medical Training Services indefinite-delivery contract solicitation says: \"The purpose of this amendment is to remove the DD254 and FCL requirements. Section L & M have been updated accordingly.\" The DD254 is the form specifying classified-facility security needs, and FCL means facility clearance. The amendment was posted September 16.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/ccb223b31e874b3583ccd571108d366a/view"
+      },
+      {
+       "text": "Amendment (SF 30)",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/bb953f1a213a4e518076cc389c2cff5a/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of the Air Force</strong> (36th Contracting Squadron) \u2014 commercial Wi-Fi for a building on Guam, service starting October 27, 2026. Per the Q&A, the network must stay \"completely separate, both physically and logically\" from government networks (<a href=\"https://sam.gov/opp/56e798320e18431ea6014a6f25a5fbb3/view\">FA524027Q0001</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Left out as an amendment-only repeat: <strong>Department of the Navy</strong> mid-term availability for the USNS Wally Schirra (<a href=\"https://sam.gov/opp/c7598a13960e43098434cc54b512a60b/view\">N0040627R0004</a>). Routine: <strong>Naval Air Warfare Center</strong> \u2014 1."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Presolicitations",
+   "headline": "One presolicitation, a routine sole-source notice for circular connectors",
+   "paragraphs": [
+    "One new presolicitation and 57 repeats left out."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "<strong>Naval Air Warfare Center Weapons Division, China Lake</strong> intends to sole-source Hi-Rel circular connectors (part 52000Y-10E-35PA-104) to <strong>Hi-Rel Connectors, Inc.</strong> of Claremont, California, as the only responsible source listed on the drawing. Interested parties have until October 19, 2026 at 8:00 a.m. (<a href=\"https://sam.gov/opp/c333c5785eb74f4bbe26d3d951f3fc60/view\">N6893626SIMACQD550000E5500000334</a>)."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Special Notices",
+   "headline": "No new special notices, but documents read today turned up NASA space-station requirements and Navy Aegis overhaul work",
+   "paragraphs": [
+    "Zero new special notices; 44 repeats left out. The items below come from documents read today on notices posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "NASA releases technical requirements for commercial space stations",
+     "meta": [
+      "Special Notice",
+      "National Aeronautics and Space Administration (Johnson Space Center)"
+     ],
+     "text": "A technical-library data drop for the Commercial Low Earth Orbit Destination contract says NASA \"seeks to purchase end-to-end services from a commercial service provider,\" including crew and cargo transportation. It requires the systems to be \"two failure tolerant to catastrophic hazards and for a controlled Destination Deorbit.\" Another requirement says an unpiloted visiting spacecraft must autonomously abort its approach if its communications link to the station is lost. The file was posted October 9.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/6c348d84905c459bbf69adaa8c90fc1b/view"
+      },
+      {
+       "text": "Data drop",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c5827bbf4cf4e818aaf095ecbf0cc7b/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy plans overhaul of Aegis fire-control components, including equipment used for allied navies",
+     "meta": [
+      "Special Notice",
+      "Department of the Navy (Naval Surface Warfare Center Crane)"
+     ],
+     "text": "A draft statement of work covers overhaul and repair of the SPG-62 antenna and MK82 gun and guided-missile director. It says the MK99 fire control system \"is the illuminator for the Aegis Weapons System and used in support of United States Navy (USN) and Foreign Military Sales (FMS).\" It also says personnel \"will require up to a SECRET clearance.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/006ae75368064f17b20fbd1a751cea47/view"
+      },
+      {
+       "text": "Draft statement of work",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e55964879ae842928bb82a6e6684dc79/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army industry day for Winfield Locks and Dam rehabilitation cites active cracking in gate anchorages",
+     "meta": [
+      "Special Notice",
+      "Department of the Army (Huntington District)"
+     ],
+     "text": "The industry-day presentation lists a \"critical safety need\": full replacement of the post-tensioned anchorage system \"due to active Stress Corrosion Cracking.\" It says the work can be done concurrently with main lock outages.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/5099395540a14f21bc997412fc4dd91a/view"
+      },
+      {
+       "text": "Industry day slides",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/117c20ed2e084014acfc7cc5a0d838b8/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>National Oceanic and Atmospheric Administration</strong> \u2014 white-paper request for commercial multi-constellation satellite operations, using Other Transaction Authority (<a href=\"https://sam.gov/opp/9a8cb6440c9a45ceaa952de2f188880e/view\">2027-NESDIS-BB-0001</a>).",
+      "<strong>Department of Commerce, Bureau of Industry and Security</strong> \u2014 NATO request for information on a tactical voice and data gateway linking allied radios that use different encryption (<a href=\"https://sam.gov/opp/561e26e171b8449989037db1dad58b78/view\">MS-424396-ANCONTOR</a>)."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sources Sought",
+   "headline": "Energy Department asks industry to recover critical minerals from legacy nuclear weapons sites",
+   "paragraphs": [
+    "Two new sources-sought notices and 93 repeats left out. Most of the items below come from documents read today on notices posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Energy Department offers aluminum, copper, lithium hydride and uranium mill tailings for commercial recovery",
+     "meta": [
+      "Sources Sought",
+      "Department of Energy (Office of Environmental Management)"
+     ],
+     "text": "The expression-of-interest documents say about 8,000 tons of aluminum and 2,000 tons of copper sit in legacy inventories at the Paducah Gaseous Diffusion Plant site in Kentucky, and about 12,000 pounds of lithium hydride at the Oak Ridge Reservation. They also describe about 16.2 million tons of uranium mill tailings at the Moab Crescent Junction disposal cell, which \"contain multiple co-located critical minerals.\" The material was posted September 30.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/de497856e8324715b7d4b5684706d3bb/view"
+      },
+      {
+       "text": "Expression of interest",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7b47188d20a3433cb5f23292b42afb48/download"
+      },
+      {
+       "text": "Industry day slides",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/17fc62b1c80d460bbf46d92f83b81c57/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Defense Information Systems Agency plans to move electromagnetic spectrum IT onto the Maven Smart System",
+     "meta": [
+      "Sources Sought",
+      "Department of Defense (Defense Information Systems Agency)"
+     ],
+     "text": "The draft performance work statement says the effort \"will transition legacy spectrum management, situational awareness, command and control, and training capabilities into a unified, cloud-native, AI-assisted ecosystem on the Maven Smart System.\" It calls for using large language models to extract data from unstructured PDF records. To avoid conflicts of interest, support contractors \"will not perform hands-on platform coding.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/ff656b84a57e489794a8ea1fb26b1eb4/view"
+      },
+      {
+       "text": "Draft performance work statement",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/30263c4bdcdc45fbb3f979ef43c3199f/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Veterans Affairs market research on enterprise software waives the FedRAMP certification requirement",
+     "meta": [
+      "Sources Sought",
+      "Department of Veterans Affairs (Technology Acquisition Center)"
+     ],
+     "text": "The request for information covers enterprise solutions for productivity and collaboration, security and compliance, case management and low-code development. It says that under a July 28, 2026 policy memo, \"this RFI does not require respondents' alternatives to hold existing FedRAMP certification to be considered.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/51a8872b2cf143d4b8cd992febcfe63d/view"
+      },
+      {
+       "text": "Request for information",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ecdcba1706b7404eb467ad8354125998/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Federal Emergency Management Agency</strong> \u2014 sources sought for a senior executive aircraft lease; the performance work statement is attached. A screening pass flagged language asking about secure communications and airborne lidar, but that quote was not verified against the file (<a href=\"https://sam.gov/opp/c8398050ea6741aeaa1d396c0c6f1724/view\">70FB7027I00000001</a>).",
+      "<strong>Federal Emergency Management Agency</strong> \u2014 market research for a replacement for its legacy Deployment Tracking System, for incident workforce management (<a href=\"https://sam.gov/opp/cd7c8fcc972c448ebc58596c3f9f5775/view\">70FA3126I00000008</a>).",
+      "<strong>Department of Veterans Affairs</strong> (Network Contract Office 5) \u2014 hazardous waste disposal for medical centers in Washington, D.C., Maryland and West Virginia, including DEA-registered handling of controlled substances (<a href=\"https://sam.gov/opp/8f54c5df6cd14e2f9324344120291e55/view\">36C24526Q0793</a>).",
+      "<strong>Department of the Air Force</strong> \u2014 commercial coworking space near Concord, Massachusetts, as an interim step before moving to Hanscom Air Force Base (<a href=\"https://sam.gov/opp/4d40215e97ad4dce8c4b0ef4b9aac573/view\">EITAAS_CCS-RFI-001</a>).",
+      "<strong>General Services Administration</strong> \u2014 sources sought on a consolidated trailer acquisition, seeking industry input on supply constraints and pricing (<a href=\"https://sam.gov/opp/471aa5d746994aa0a19fd59ea9b3e0ad/view\">47QMCA27N0001</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Routine: <strong>Department of Veterans Affairs</strong> \u2014 1. 93 repeats from earlier editions left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "A $2.2 billion Navy award to TOTE Services, signed in July, surfaces in the Pentagon's delayed data",
+   "paragraphs": [
+    "From this morning's edition: USAspending.gov is pulled once a day.",
+    "36 new awards of $2 million or more, all of them <strong>Department of Defense</strong> awards signed July 13 and just published after the department's 90-day data hold. No large modifications this run, and 1 cut, which was routine. The 28 routine ones, cut included, are listed with links in \"USAspending: Every Other New Award\" at the end of the edition."
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "text": "<strong>TOTE Services, LLC</strong> received $2,206,000,000 obligated from the <strong>Department of the Navy</strong> for an award classified as combat ships and landing vessels, under the ship building and repair industry code. The description is only \"see the statement of work.\" It was signed July 13 and published this week; Defense Department contract data is released with a 90-day delay. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0002426C2421_9700_-NONE-_-NONE-\">award</a>)"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>BAE Systems Land &amp; Armaments L.P.</strong> received $65,000,000 from the <strong>Office of the Secretary of Defense</strong> for development of \"an improved low-cost, deep magazine, ground and air and missile defense system capability.\" Signed July 13 and published this week. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HY023326C0013_9700_-NONE-_-NONE-\">award</a>)"
+    },
+    {
+     "type": "subhead",
+     "text": "More new awards"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Crowley Energy Anchorage, LLC</strong> \u2014 $109,427,004, Defense Logistics Agency: fuel storage services, signed July 13 for Defense backlog (<a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60326C5015_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>The Boeing Company</strong> \u2014 $77,400,000, Department of the Air Force: initial spare landing gear parts for the KC-46 tanker at Tinker Air Force Base, signed July 13 for Defense backlog (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA860926FB026_9700_FA860924DB003_9700\">award</a>).",
+      "<strong>Rolls-Royce Corporation</strong> \u2014 $36,500,000, Department of the Navy: AE1107C turboshaft engines, signed July 13 for Defense backlog (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001926C0110_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Global Enterprise Solutions, Inc.</strong> \u2014 $4,609,701, Department of the Air Force: commercial satellite communications for U.S. European Command, Pacific Command and Pacific Air Forces, call order 1, signed July 13 for Defense backlog (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA254126FB074_9700_FA254126AB003_9700\">award</a>).",
+      "<strong>Carahsoft Technology Corp</strong> \u2014 $4,128,552, Department of the Navy: Splunk software licenses, signed July 13 for Defense backlog (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0016726F0024_9700_N6600120A0022_9700\">award</a>).",
+      "<strong>CCI Prime Contractors, LLC</strong> \u2014 $3,972,948, Department of the Army: Space Command warehouse construction, signed July 13 for Defense backlog (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W9124P26FA508_9700_W9124P25D0001_9700\">award</a>).",
+      "<strong>Johnson Controls Building Automation Systems, LLC</strong> \u2014 $2,472,008, Department of the Army: services for all components of the Pentagon facility control system, signed July 13 for Defense backlog (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W912DY26FA202_9700_W912DY25DA008_9700\">award</a>)."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other notable awards"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Anduril Industries, Inc.</strong> \u2014 $1,890,319, U.S. Special Operations Command: Phase II development of a dismounted ATAK graphical interface (<a href=\"https://www.usaspending.gov/award/CONT_AWD_H9240226FE033_9700_H9240222D0001_9700\">award</a>).",
+      "<strong>Ideal Innovations Incorporated</strong> \u2014 $1,638,627, Department of the Army: research on radio-frequency sensing through obscured media including soil, foliage and buildings (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W911QX26FA069_9700_W911QX26DA007_9700\">award</a>).",
+      "<strong>General Atomics Integrated Intelligence, Inc.</strong> \u2014 $1,044,390, Department of the Air Force: cyber security requirements task order for ARCHER (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA821726FB402_9700_FA821725DB009_9700\">award</a>).",
+      "<strong>Carbon 9 Defense LLC</strong> \u2014 $998,281, U.S. Cyber Command: Palo Alto infrastructure (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HB000126C0009_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Guardian Technical Contracting</strong> \u2014 $231,000, Department of the Navy: catering for the 11th Marine Expeditionary Unit in support of Operation Epic Fury (<a href=\"https://www.usaspending.gov/award/CONT_AWD_M6845026PG006_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Silverton Avalanche School</strong> \u2014 $199,190, U.S. Special Operations Command: vertical assault and mountaineer training (<a href=\"https://www.usaspending.gov/award/CONT_AWD_H9224026PE058_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Sintavia LLC</strong> \u2014 $319,107, Defense Logistics Agency: first task order of a pilot additive manufacturing parts program (<a href=\"https://www.usaspending.gov/award/CONT_AWD_SP470126F0196_9700_SP470126D0024_9700\">award</a>).",
+      "<strong>Aurelius Technologies Inc.</strong> \u2014 $109,547, Department of the Air Force: AI-driven automated link analysis for intelligence networks (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA864926P0216_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Qore Health Inc</strong> \u2014 $109,578, Department of the Air Force: trusted artificial intelligence for combat care decisions at the point of injury (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA864926P0218_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Star Catcher Industries Inc</strong> \u2014 $109,625, Department of the Air Force: power beaming and wireless receiver for indefinite-flight drones (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA864926P0219_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>OpenBCI, Inc.</strong> \u2014 $109,791, Department of the Air Force: neurocognitive operational vigilance assessment (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA864926P0366_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>AmerisourceBergen Drug Corp</strong> \u2014 $104,938, Defense Logistics Agency: Ozempic 2 mg/dose pens (<a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE2DR26F80MU_9700_SPE2DR25D1202_9700\">award</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "428 new awards under $2 million were screened (all 428 from the Defense backlog, signed July 13); 18 were flagged, 12 are listed above and 6 are not: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HR001126PE002_9700_-NONE-_-NONE-\">Parallel Works $1,467,297</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0042126F1185_9700_N0042123G0004_9700\">General Electric $1,270,000</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_W911SG26PA032_9700_-NONE-_-NONE-\">Conflict Kinetics $799,999</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA857126C0031_9700_-NONE-_-NONE-\">Open X Education $445,000</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_H9240326FE112_9700_H9240322D0005_9700\">Sig Sauer $249,236</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_W569QE26PA009_9700_-NONE-_-NONE-\">Satesh Limited $108,558</a>. No cited executive orders in the input. No White House or Executive Office of the President-tied awards this run."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending: Every Other New Award",
+   "headline": "28 routine contract actions, all linked",
+   "paragraphs": [
+    "28 more items from today's USAspending pull that the screen judged routine (spare parts, fuel, maintenance, option exercises, closeout de-obligations and the like), listed so nothing is dropped. Defense Department awards are published about 90 days after signing; those show the signing date."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of the Army</strong> \u2014 6 new awards, $47,775,297: <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912P826CA027_9700_-NONE-_-NONE-\">Manson Construction Co $13,322,000, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912P726CA019_9700_-NONE-_-NONE-\">Manson Construction Co $12,909,775, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26FA002_9700_W58RGZ26DA001_9700\">Avion Solutions, Inc. $8,235,764, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912EP26FA084_9700_W912HN24D1002_9700\">Ahtna-Arcadis 8(A) JV, LLC $6,081,864, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0370_9700_W58RGZ24D0053_9700\">General Electric Company $4,974,320, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912CH26F0333_9700_W56HZV23D0004_9700\">Ctc Enterprise Ventures Corp $2,251,575, signed 7/13/2026</a>",
+      "<strong>USTRANSCOM</strong> \u2014 3 new awards, $42,577,359: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HTC71126F7548_9700_HTC71123DC023_9700\">Federal Express Corporation $23,258,403, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HTC71126F7547_9700_HTC71123DC025_9700\">United Parcel Service Co. $13,958,025, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HTC71126F7545_9700_HTC71123DC023_9700\">Federal Express Corporation $5,360,930, signed 7/13/2026</a>",
+      "<strong>Department of the Navy</strong> \u2014 9 new awards, $31,722,176: <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6600126F8903_9700_N6600123D0004_9700\">Science Applications International Corporation $8,752,269, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0003026F2001_9700_N0003026D2043_9700\">Northrop Grumman Systems Corporation $4,174,258, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6833526C0246_9700_-NONE-_-NONE-\">Touchstone Research Laboratory, Ltd. $4,116,987, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N4008026F1179_9700_N4008021D0028_9700\">Desbuild Eg Management Services JV LLC $2,847,000, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6833526F1065_9700_N6833526D0008_9700\">D. Gillette Industrial Service'S Inc $2,838,650, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0038326FTC07_9700_N0038322GTC01_9700\">Ge Aviation Systems LLC $2,420,325, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6523626FE285_9700_NNG15SC71B_8000\">Fcn, Inc. $2,227,772, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6264926FH065_9700_N0002325D0011_9700\">Amstability, LLC $2,173,689, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N4008426F4393_9700_N4008424D0063_9700\">Aecom Technical Services, Inc. $2,171,225, signed 7/13/2026</a>",
+      "<strong>Defense Logistics Agency</strong> \u2014 8 new awards, $26,402,129: <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRTA126F0285_9700_SPE4A124G0014_9700\">General Electric Company $4,644,157, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE4A726F8697_9700_SPE4A723DC002_9700\">Essex Industries, Inc. $4,586,733, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EC26F0668_9700_SPE8EC22D0010_9700\">American Material Handling, Inc. $4,294,710, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD07C_9700_SPE60226D0476_9700\">Bp Products North America Inc. $2,879,468, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1CY7_9700_SPE8EJ21D0020_9700\">Atlantic Diving Supply, Inc. $2,799,175, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD07B_9700_SPE60226D0472_9700\">Alon USA, LP $2,590,000, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EC26F0656_9700_SPE8EC26D0012_9700\">American Material Handling, Inc. $2,366,274, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EX26FH0GC_9700_SPE8EH24D0005_9700\">Supplycore LLC $2,241,612, signed 7/13/2026</a>",
+      "<strong>Department of the Air Force</strong> \u2014 1 new award, $3,612,210: <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA852726FB033_9700_NNG15SC71B_8000\">Fcn, Inc. $3,612,210, signed 7/13/2026</a>",
+      "<strong>Defense Logistics Agency</strong> \u2014 1 cut, -$6,460,939: <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FC80J_9700_SPE60220D0504_9700\">Abu Dhabi National Oil Company for Distribution Pjsc -$6,460,939, signed 7/13/2026</a>"
+     ]
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new apportionments approved in this window",
+   "paragraphs": [
+    "No new apportionment files were approved between October 8 and October 13, and no updated spending plans were released."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 12-13, 2026 (Pacific time), PM edition. USAspending is pulled in the morning edition only and is carried over by script.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; SAM.gov contract opportunities and their attached documents.",
+  "known_gaps": "No source errors were reported. OMB Apportionments: no new apportionment files were approved between October 8 and October 13, and no updated spending plans were released. SAM.gov documents: 67 attachments on 10 notices were screened this run; 19 were not read because they were queued for a later edition. Another 286 large files across all notices are queued and will be read over the next editions, and anything they turn up will come back as late document findings. 7 links to outside portals (PIEE, the Defense Department procurement toolbox and similar sites) were not followed. Some unverified findings were treated as leads only and not stated as fact."
+ },
+ "beat": []
+}
