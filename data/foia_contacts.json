@@ -48,22 +48,6 @@
   "source": "directory"
  },
  {
-  "id": 4,
-  "agency": "Department of Energy",
-  "parent": null,
-  "email": "foia-central@hq.doe.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "directory"
- },
- {
   "id": 5,
   "agency": "Department of the Treasury",
   "parent": null,
@@ -100,22 +84,6 @@
   "agency": "Department of Veterans Affairs",
   "parent": null,
   "email": "vacofoiaservice@va.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "directory"
- },
- {
-  "id": 8,
-  "agency": "Department of Education",
-  "parent": null,
-  "email": "edfoiamanager@ed.gov",
   "level": "Federal",
   "statute": "Freedom of Information Act (5 U.S.C. § 552)",
   "rule": {
@@ -2528,70 +2496,6 @@
   "source": "foia.gov"
  },
  {
-  "id": 159,
-  "agency": "Chicago Office",
-  "parent": "Department of Energy",
-  "email": "kim.donham@science.doe.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "foia.gov"
- },
- {
-  "id": 160,
-  "agency": "Environmental Management Consolidated Business Center",
-  "parent": "Department of Energy",
-  "email": "foiaoffice@emcbc.doe.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "foia.gov"
- },
- {
-  "id": 161,
-  "agency": "Naval Reactors Laboratory Field Office",
-  "parent": "Department of Energy",
-  "email": "clifford.nunn@nrp.doe.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "foia.gov"
- },
- {
-  "id": 162,
-  "agency": "Oak Ridge Office",
-  "parent": "Department of Energy",
-  "email": "kim.donham@science.doe.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "foia.gov"
- },
- {
   "id": 163,
   "agency": "Western Area Power Administration",
   "parent": "Department of Energy",
@@ -4548,38 +4452,6 @@
   "agency": "U.S. Chemical Safety and Hazard Investigation Board (CSB)",
   "parent": "U.S. Chemical Safety and Hazard Investigation Board",
   "email": "steven.messer@csb.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "foia.gov"
- },
- {
-  "id": 286,
-  "agency": "Bureau of Consular Affairs, Passport Services",
-  "parent": "U.S. Department of State",
-  "email": "foiastatus@state.gov",
-  "level": "Federal",
-  "statute": "Freedom of Information Act (5 U.S.C. § 552)",
-  "rule": {
-   "days": 20,
-   "kind": "bd",
-   "text": "Federal FOIA: 20 business days (10 more in unusual circumstances)"
-  },
-  "unverified": false,
-  "note": null,
-  "source": "foia.gov"
- },
- {
-  "id": 287,
-  "agency": "Department of State",
-  "parent": "U.S. Department of State",
-  "email": "foiastatus@state.gov",
   "level": "Federal",
   "statute": "Freedom of Information Act (5 U.S.C. § 552)",
   "rule": {

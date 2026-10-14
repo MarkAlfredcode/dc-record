@@ -35,10 +35,32 @@ function stripHtml(html) {
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;|&rsquo;/g, "'");
 }
 
+// Agency says it won't process an emailed request at all; it has to be refiled elsewhere.
+const REJECTED = new RegExp([
+  'not accepting (foia )?requests (via|by|through) e-?mail', 'requests? (submitted|sent|received) (via|by) e-?mail (will|are|is) not',
+  'you must submit a (freedom of information act( \\(foia\\))?|foia) request', 'does not accept (foia )?requests (via|by) e-?mail'
+].join('|'), 'i');
+
+function bareSubject(s) {
+  return (s || '').toLowerCase().replace(/\[[^\]]*\]/g, ' ').replace(/^(\s*(re|fw|fwd)\s*:\s*)+/, ' ')
+    .replace(/\s+/g, ' ').trim();
+}
+
+// Several requests often go to one FOIA address. Pick the one whose title is in the reply's
+// subject, then one whose tracking number appears; with no unique hit, return null for Mark.
+function pick(rows, subject, hay) {
+  if (rows.length === 1) return rows[0].id;
+  const subj = bareSubject(subject);
+  const titled = rows.filter(function (r) { return r.summary_short && r.summary_short.length >= 12 && subj.includes(r.summary_short.toLowerCase()); });
+  if (titled.length) return titled.sort(function (a, b) { return b.summary_short.length - a.summary_short.length; })[0].id;
+  const tracked = rows.filter(function (r) { return r.tracking && String(r.tracking).length >= 4 && hay.includes(String(r.tracking).toLowerCase()); });
+  return tracked.length === 1 ? tracked[0].id : null;
+}
+
 async function matchRequest(db, from, subject, text) {
-  const byAddr = await db.prepare('SELECT id FROM requests WHERE lower(email) = ? ORDER BY sent_on DESC LIMIT 1').bind(from).first();
-  if (byAddr) return byAddr.id;
   const hay = (subject + ' ' + text.slice(0, 4000)).toLowerCase();
+  const byAddr = await db.prepare('SELECT id, summary_short, tracking FROM requests WHERE lower(email) = ? ORDER BY sent_on DESC').bind(from).all();
+  if (byAddr.results.length) return pick(byAddr.results, subject, hay);
   const tracked = await db.prepare("SELECT id, tracking FROM requests WHERE tracking IS NOT NULL AND length(tracking) >= 4").all();
   for (const r of tracked.results) {
     if (hay.includes(String(r.tracking).toLowerCase())) return r.id;
@@ -49,10 +71,9 @@ async function matchRequest(db, from, subject, text) {
     const d = parts.slice(i).join('.');
     // Stop before generic suffixes, or every .gov sender would match some request.
     if (['gov', 'com', 'org', 'net', 'edu', 'us', 'mil', 'k12.ga.us', 'state.ma.us', 'state.co.us'].includes(d)) break;
-    const rows = await db.prepare("SELECT id FROM requests WHERE lower(email) LIKE ? OR lower(email) LIKE ? ORDER BY sent_on DESC LIMIT 2")
+    const rows = await db.prepare("SELECT id, summary_short, tracking FROM requests WHERE lower(email) LIKE ? OR lower(email) LIKE ? ORDER BY sent_on DESC")
       .bind('%@' + d, '%.' + d).all();
-    if (rows.results.length === 1) return rows.results[0].id;
-    if (rows.results.length > 1) return null;  // ambiguous: leave for Mark to assign
+    if (rows.results.length) return pick(rows.results, subject, hay);  // null if ambiguous: leave for Mark to assign
   }
   return null;
 }
@@ -69,16 +90,19 @@ async function record(raw, env) {
     return h ? h.value : null;
   };
   const auto = AUTO.test(subject) || /^auto-(replied|generated)/i.test(header('auto-submitted') || '') ? 1 : 0;
-  const m = auto ? null : (subject + '\n' + text.slice(0, 6000)).match(NEEDS_REPLY);
+  const lead = snippetOf(text);  // the agency's own words, not our quoted request below them
+  const rejected = !auto && REJECTED.test(lead);
+  const noAck = auto || rejected ? 1 : 0;  // a refusal isn't an acknowledgment
+  const m = auto || rejected ? null : (subject + '\n' + text.slice(0, 6000)).match(NEEDS_REPLY);
   const requestId = await matchRequest(db, from, subject, text);
   const now = new Date().toISOString();
-  const snippet = snippetOf(text);
+  const snippet = lead;
   const attachments = (email.attachments || []).map(function (a) { return a.filename; }).filter(Boolean).join('; ');
 
   await db.prepare('INSERT INTO inbox (received_at, from_addr, from_name, to_addr, subject, message_id, in_reply_to, refs, text, snippet, attachments, request_id, auto, needs_reply, reason, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
     .bind(now, from, (email.from && email.from.name) || null, (email.to || []).map(function (t) { return t.address; }).join(', '),
       subject, email.messageId || header('message-id'), email.inReplyTo || header('in-reply-to'), email.references || header('references'),
-      text, snippet, attachments || null, requestId, auto, m ? 1 : 0, m ? m[0] : null, 'new').run();
+      text, snippet, attachments || null, requestId, auto, m ? 1 : 0, m ? m[0] : rejected ? 'Resubmit required' : null, 'new').run();
 
   if (requestId) {
     const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
@@ -86,8 +110,11 @@ async function record(raw, env) {
       db.prepare('INSERT INTO messages (request_id, direction, sent_at, from_addr, subject, snippet, source, source_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
         .bind(requestId, 'in', now.slice(0, 16).replace('T', ' '), (email.from && email.from.name) || from, subject, snippet, 'foia-inbox', email.messageId || null),
       db.prepare("UPDATE requests SET last_activity_on = ?, last_activity = ?, acknowledged = CASE WHEN ? = 0 AND acknowledged != 'Yes' THEN 'Yes' ELSE acknowledged END, ack_on = CASE WHEN ? = 0 AND ack_on IS NULL THEN ? ELSE ack_on END, status = CASE WHEN ? = 0 AND status = 'Awaiting reply' THEN 'Acknowledged' ELSE status END WHERE id = ?")
-        .bind(today, subject, auto, auto, today, auto, requestId)
-    ]);
+        .bind(today, subject, noAck, noAck, today, noAck, requestId)
+    ].concat(rejected ? [
+      db.prepare("UPDATE requests SET status = 'Resubmit required', status_detail = ? WHERE id = ?")
+        .bind('Agency would not accept the emailed request: ' + snippet.slice(0, 300), requestId)
+    ] : []));
   }
 }
 
