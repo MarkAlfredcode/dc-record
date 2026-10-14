@@ -32,6 +32,7 @@ AFFILIATION = os.environ.get("FOIA_AFFILIATION", "The Washington Sun")
 SYSTEM = ("You suggest Freedom of Information Act requests for a reporter. Follow the instructions exactly. "
           "Reply with the JSON object only: no prose before or after it, no code fences.")
 _TAG = re.compile(r"<[^>]+>")
+_FEC = re.compile(r"^https?://([a-z0-9-]+\.)*fec\.gov(/|$)", re.I)
 _HREF = re.compile(r"""href=["'](https?://[^"']+)["']""")
 
 
@@ -141,9 +142,13 @@ def main():
         print("foia: FOIA_INGEST_TOKEN not set; skipping (no model call)", file=sys.stderr)
         return
     today = dt.datetime.now(dt.timezone(dt.timedelta(hours=-7))).date()
+    if edition == "campaigns":
+        print("foia: no suggestions from the campaigns edition (FEC filings; Mark's rule 2026-10-14)", file=sys.stderr)
+        return
     with open(content_path) as f:
         content = json.load(f)
-    items = items_from(content)
+    # No FOIAs built on FEC filings, from any edition.
+    items = [it for it in items_from(content) if not any(_FEC.search(u) for u in it["links"])]
     if not items:
         print("foia: no items with links; nothing to suggest", file=sys.stderr)
         return
