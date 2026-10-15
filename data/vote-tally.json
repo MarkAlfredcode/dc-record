@@ -4429,22 +4429,6 @@
   "rolls": [
     {
       "chamber": "senate",
-      "date": "2026-09-23",
-      "nay": 47,
-      "not_voting": [
-        "S375",
-        "S376",
-        "S384"
-      ],
-      "num": 241,
-      "question": "On the Nomination",
-      "result": "Nomination Confirmed",
-      "subject": "Confirmation: Angela Veronica Colmenero, of T.X., to be U.S. District Judge for the Southern District of Texas",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00241.htm",
-      "yea": 50
-    },
-    {
-      "chamber": "senate",
       "date": "2026-09-24",
       "nay": 23,
       "not_voting": [],
