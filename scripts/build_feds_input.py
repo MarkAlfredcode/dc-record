@@ -15,7 +15,7 @@ triage_tier...). What's cut is bulk, not facts:
   finding scored 4+ (450 characters);
 - justifications get the full record for the top FULL_J by score plus any
   with a keyword hit, news >= 4, or an unusual/first-time vendor; the rest
-  one line each (they only go in the per-agency note);
+  one line each, with action and a short `what` so each gets a headline;
 - every link is a ref (#N12 notice, #D40 document, #U7 USAspending award)
   that run_pass.py expands, so URLs are never retyped.
 If a triage file is missing or its screen failed, the candidate file it
@@ -41,6 +41,7 @@ DESC_CHARS = 800          # priority / notable notices
 DESC_CHARS_MINOR = 300    # document / keyword tier: the attachment finding is the substance
 CONTEXT_CHARS = 450
 J_DESC_CHARS = 600
+J_WHAT_CHARS = 160        # one-line justifications: enough to write a headline
 EXCERPT_CHARS = 4000
 FULL_J = 15
 TYPES = [("a", "Award Notices"), ("o", "Solicitations"), ("k", "Combined Synopsis/Solicitations"),
@@ -111,7 +112,8 @@ def justification(j, n, full):
         head += f" | POSTED AS {j['source_type']} (promoted_by {j.get('promoted_by')})"
     value = (money(j.get("value_usd")) + " (verified)") if j.get("value_usd") else f"value_status {j.get('value_status')}"
     if not full:
-        return [head + f" | vendor {j.get('vendor') or '?'} | {value} | news {j.get('news')}"]
+        return [head + f" | vendor {j.get('vendor') or '?'} | {value} | action {j.get('action')} | news {j.get('news')}"
+                + f" | what: {sq(j.get('what'), J_WHAT_CHARS)}"]
     L = [head]
     fh = j.get("vendor_federal_history") or {}
     L.append(f"    vendor: {j.get('vendor') or '?'} | vendor_kind: {j.get('vendor_kind')} | first_time_vendor: "
