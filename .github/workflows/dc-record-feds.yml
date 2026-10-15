@@ -364,7 +364,14 @@ jobs:
               # the same mode doesn't repeat it (scripts/surfaced.py). Until
               # 2026-10-10 sam-seen.json was reverted whole and every PM
               # edition repeated 25-41 SAM.gov items.
-              python3 scripts/keep_mode_keys.py data/sam-seen.json "${{ github.event.inputs.mode || 'am' }}" extracts
+              # No edition produced (main pass failed or timed out): nothing was
+              # shown, so keep only the extraction cache -- on 2026-10-14 a
+              # failed PM run marked 1,366 unpublished notices as seen.
+              if compgen -G "newsletter-*.html" > /dev/null; then
+                python3 scripts/keep_mode_keys.py data/sam-seen.json "${{ github.event.inputs.mode || 'am' }}" extracts
+              else
+                python3 scripts/keep_mode_keys.py data/sam-seen.json extracts
+              fi
             fi
           fi
           # Some cache files only exist after certain code paths run; git add aborts on a missing pathspec
@@ -385,6 +392,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: newsletter-feds-${{ github.run_id }}
-          path: newsletter-*.html
+          # The raw model reply too, when run_pass.py couldn't parse it.
+          path: |
+            newsletter-*.html
+            content-*.raw.txt
           if-no-files-found: ignore
           retention-days: 30

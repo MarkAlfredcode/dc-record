@@ -39,7 +39,24 @@ def extract_json(text):
     start, end = text.find("{"), text.rfind("}")
     if start < 0 or end <= start:
         raise ValueError("no JSON object in the reply")
-    return json.loads(text[start:end + 1])
+    text = text[start:end + 1]
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        if not e.msg.startswith("Extra data"):
+            raise
+        # The 10/14 PM Feds reply (42K chars in) closed its object and kept
+        # going. Stray closing brackets are dropped; an object closed too
+        # early (', "key": ...' follows) is merged with the rest.
+        obj, pos = json.JSONDecoder().raw_decode(text)
+        rest = text[pos:].strip()
+        if not rest.strip("}] \n\t"):
+            return obj
+        if rest.startswith(",") and isinstance(obj, dict):
+            tail = extract_json("{" + rest[1:])
+            if isinstance(tail, dict) and not set(tail) & set(obj):
+                return {**obj, **tail}
+        raise
 
 
 def expand_refs(obj, refs, bad):
