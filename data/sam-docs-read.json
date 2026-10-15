@@ -1618,6 +1618,16 @@
       "s": "screened",
       "sol": "W50S8R27Q0002"
     },
+    "07357cdf4df24977a8ba680198572d9e": {
+      "a": 1,
+      "c": 75166,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "SF 1449 Solicitation.pdf",
+      "s": "retry",
+      "sol": "SPE60326R0518"
+    },
     "074d37ec503e49f4b6d031e9ce6a0646": {
       "c": 81096,
       "d": "2026-10-14",
@@ -2662,6 +2672,16 @@
       "n": "Attachment J - Fuel Sourcing Data Sheet - Updated.pdf",
       "s": "screened",
       "sol": "SPE60526R0217"
+    },
+    "0be0cf9e6e0b48759de3e5d059549e03": {
+      "a": 1,
+      "c": 18457,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "B08_Attach_1_Drawings_YELL_338223.pdf",
+      "s": "retry",
+      "sol": "140P2026R0073"
     },
     "0be546bad9db40429dbbafa632a458a3": {
       "c": 5971,
@@ -5960,8 +5980,8 @@
       "sol": "N6817127QN003"
     },
     "1b091d3b01e046d4b722ee3b76fdca36": {
-      "a": 1,
-      "c": 2880,
+      "a": 2,
+      "c": 3245,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -7646,7 +7666,7 @@
       "sol": "36C10X26Q0091"
     },
     "2272d768fb0949f0b9a5e70cb1b2a668": {
-      "a": 1,
+      "a": 2,
       "c": 18666,
       "d": "2026-10-14",
       "e": "screening call failed",
@@ -9854,8 +9874,8 @@
       "sol": "1240BH26R0013"
     },
     "2d70fec6d2a6457c81475af3fe4db6e9": {
-      "a": 1,
-      "c": 2911,
+      "a": 2,
+      "c": 3276,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -12059,8 +12079,8 @@
       "sol": "N3904026Q0004"
     },
     "384f9e22fe4d4b51a1171c3097ac8602": {
-      "a": 1,
-      "c": 42786,
+      "a": 2,
+      "c": 48520,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -12466,14 +12486,24 @@
       "sol": "80NSSC26943709Q"
     },
     "3a3fa2dab6b6453ca682f01b40be5173": {
-      "a": 1,
-      "c": 172466,
+      "a": 2,
+      "c": 172703,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
       "n": "QA for posting -Amendment 0004 - 10.06.26.pdf",
       "s": "retry",
       "sol": "FA239626RB008"
+    },
+    "3a40a0dd6cea4d38aef7b37691507d3f": {
+      "a": 1,
+      "c": 7776,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "JA for RP Bridge redacted_Redacted.pdf",
+      "s": "retry",
+      "sol": "70LGLY26CGLB00008"
     },
     "3a4c56f837e94603a841c3bccb753567": {
       "c": 263411,
@@ -16610,8 +16640,8 @@
       "sol": "70Z02326R93280004"
     },
     "4c8d9da89b8c46449df9c95d324ea6e0": {
-      "a": 1,
-      "c": 133726,
+      "a": 2,
+      "c": 134321,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -18182,6 +18212,16 @@
       "n": "ALDER DDFY27 SOLICITATION 10.8.pdf",
       "s": "screened",
       "sol": "70Z08526QIBCT0051"
+    },
+    "532a3359d02641aa831bcc3773dcf3b3": {
+      "a": 1,
+      "c": 2552617,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "Solicitation Attachment YS Seed Project Specifications.pdf",
+      "s": "retry",
+      "sol": "FA441826R0009"
     },
     "532fcaac7e404f89a26ba2af40017c9c": {
       "c": 4746,
@@ -28548,6 +28588,16 @@
       "s": "screened",
       "sol": "FA465427R0001"
     },
+    "81615533f7c1490894658c13b3b5b9a0": {
+      "a": 1,
+      "c": 1061558,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "zip",
+      "n": "DRAFT_ MDE-NG- Handbooks.zip",
+      "s": "retry",
+      "sol": "36C10X27R0001"
+    },
     "817008f9bcf342fc88e0e1bf9f11eeb1": {
       "c": 32314,
       "d": "2026-10-10",
@@ -29079,6 +29129,16 @@
       "n": "Atch 9 (FAR-based) Research and Related Senior and Key Person Profile Worksheet.pdf",
       "s": "screened",
       "sol": "FA2391-23-S-2403"
+    },
+    "83dfaea7c02e4aa196928eba683c934a": {
+      "a": 1,
+      "c": 425466,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "Solicitation Attachment YT Seed Project Drawings.pdf",
+      "s": "retry",
+      "sol": "FA441826R0009"
     },
     "83f9d525507e4ff8ac13ec71af19b2bc": {
       "c": 0,
@@ -30317,6 +30377,16 @@
       "n": "C04a Attachment 1 SOW BSC 1240BH26R0013.docx",
       "s": "screened",
       "sol": "1240BH26R0013"
+    },
+    "8a1ab1f76856400f99940e10af3157ab": {
+      "a": 1,
+      "c": 4531,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "pptx",
+      "n": "Moab_Critical Minerals_Overview_Final.pptx",
+      "s": "retry",
+      "sol": "DOECriticalMineralResource2026"
     },
     "8a1ee501e282452c8e065a89fc76a1e8": {
       "c": 342,
@@ -31607,8 +31677,8 @@
       "sol": "36C26327Q0055"
     },
     "8f56c2829da7453b81e1d6e723c52921": {
-      "a": 1,
-      "c": 2953,
+      "a": 2,
+      "c": 3318,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -32263,8 +32333,8 @@
       "sol": "1240LT26Q0187"
     },
     "923bffa7936b4ab88f5377d993c7cbba": {
-      "a": 1,
-      "c": 5110,
+      "a": 2,
+      "c": 5158,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -35024,6 +35094,16 @@
       "s": "screened",
       "sol": "N3220526R6120"
     },
+    "9d13e7976bce46ccbc41f4a82286c984": {
+      "a": 1,
+      "c": 9655,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "SPE4A726R0003_Redacted.pdf",
+      "s": "retry",
+      "sol": "SPE4A726R0003"
+    },
     "9d178a5eba1249e5b95590175831079d": {
       "c": 16550,
       "d": "2026-10-14",
@@ -36945,6 +37025,16 @@
       "s": "screened",
       "sol": "W912CH-26-S-0001"
     },
+    "a6a6a51b4c9344899bce845b960d7366": {
+      "a": 1,
+      "c": 4960,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "36C24427Q0023.docx",
+      "s": "retry",
+      "sol": "36C24427Q0023"
+    },
     "a6ae41d0f6cf499598aa6c1afe2b998a": {
       "c": 1618,
       "d": "2026-10-13",
@@ -37743,8 +37833,8 @@
       "sol": "36C10B26Q0678"
     },
     "aa018a0569df4159b46b8be13791fd35": {
-      "a": 1,
-      "c": 32497,
+      "a": 2,
+      "c": 33218,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -43129,8 +43219,8 @@
       "sol": "36C10F25R0024"
     },
     "c065a734a1d3488a8fb29987c41d7303": {
-      "a": 1,
-      "c": 80410,
+      "a": 2,
+      "c": 85707,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -43423,6 +43513,16 @@
       "n": "CALL for OPTIML and Attachments dated 27 October 2023.pdf",
       "s": "screened",
       "sol": "FA2391-23-S-2403"
+    },
+    "c1dd6cc6284043c29c1801e7f7f8d6e0": {
+      "a": 1,
+      "c": 110603,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "Solicitation Attachment YS Seed Project Specifications_Mark Up.pdf",
+      "s": "retry",
+      "sol": "FA441826R0009"
     },
     "c20e4a882bbd4108a7d87c5b160e4bdc": {
       "c": 1107,
@@ -44452,8 +44552,8 @@
       "sol": "36C24W26R0012"
     },
     "c6d0649532db490dbf51ad2cebb37448": {
-      "a": 1,
-      "c": 2928,
+      "a": 2,
+      "c": 3293,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -48713,8 +48813,8 @@
       "sol": "W912QR-ANNARBORMIFY27"
     },
     "d92c05b23a1144f8ac47083263b8bd6c": {
-      "a": 1,
-      "c": 42150,
+      "a": 2,
+      "c": 47859,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -50770,8 +50870,8 @@
       "sol": "70LGLY27RSSB00001"
     },
     "e16fda5e5e19441ba711694b94c09629": {
-      "a": 1,
-      "c": 10517,
+      "a": 2,
+      "c": 10661,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -51013,8 +51113,8 @@
       "sol": "12363N26Q4181"
     },
     "e2751186346a44a0876ef739527e4642": {
-      "a": 1,
-      "c": 187352,
+      "a": 2,
+      "c": 191292,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -52770,8 +52870,8 @@
       "sol": "W519TC-26-R-A056"
     },
     "ea7d3408de7141b5a17a3a55b1459ad0": {
-      "a": 1,
-      "c": 7029,
+      "a": 2,
+      "c": 9491,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -53659,6 +53759,16 @@
       "n": "36C10B26C0094_1.docx",
       "s": "screened",
       "sol": "36C10B26R0035"
+    },
+    "ed7ed9280e234db2b3bd5203e3d9698b": {
+      "a": 1,
+      "c": 2547,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "Intent to Sole Source .docx",
+      "s": "retry",
+      "sol": "36C26326Q0635_1"
     },
     "ed89bb57df754eedbb4e7e99a0bae06c": {
       "c": 123308,
@@ -55128,6 +55238,16 @@
       "s": "screened",
       "sol": "70Z02326R93280004"
     },
+    "f2feeccd6b5e4d4b8eea53cfe3448249": {
+      "a": 1,
+      "c": 9619,
+      "d": "2026-10-15",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "Sole Source Justification (HSIN Modernization_52.217-8)_Redacted.pdf",
+      "s": "retry",
+      "sol": "70RTAC24FR0000066_P00011"
+    },
     "f3035c34577e4eb2a8da62904d480810": {
       "c": 610,
       "d": "2026-10-13",
@@ -55800,8 +55920,8 @@
       "sol": "FA240126R0003"
     },
     "f5713b842deb484da93f080af3c751e4": {
-      "a": 1,
-      "c": 2846,
+      "a": 2,
+      "c": 3211,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",
@@ -56972,8 +57092,8 @@
       "sol": "36C26127Q0069"
     },
     "fab30c99611c441e9b6e4cf3afc97840": {
-      "a": 1,
-      "c": 2985,
+      "a": 2,
+      "c": 3350,
       "d": "2026-10-14",
       "e": "screening call failed",
       "m": "pdf",

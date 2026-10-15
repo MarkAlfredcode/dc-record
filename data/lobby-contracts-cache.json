@@ -3,6 +3,14 @@
     "checked": "2026-10-11",
     "result": null
   },
+  "architechture solutions": {
+    "checked": "2026-10-15",
+    "result": null
+  },
+  "arrow arc": {
+    "checked": "2026-10-15",
+    "result": null
+  },
   "ascellon": {
     "checked": "2026-10-11",
     "result": null
@@ -42,6 +50,23 @@
   "bozdemir construction": {
     "checked": "2026-10-09",
     "result": null
+  },
+  "bridger aerospace group": {
+    "checked": "2026-10-15",
+    "result": {
+      "client": "BRIDGER AEROSPACE GROUP, LLC",
+      "firms": [
+        "CAPITOL COUNSEL LLC",
+        "VENABLE LLP"
+      ],
+      "issues": [
+        "Aviation/Airlines/Airports"
+      ],
+      "n_filings": 5,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/20ba403b-2903-4ce9-80b1-a266e4073da1/print/",
+      "ytd": 120000.0
+    }
   },
   "censeo consulting group": {
     "checked": "2026-10-05",
@@ -230,12 +255,20 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "ohio ambulance solutions": {
+    "checked": "2026-10-15",
+    "result": null
+  },
   "optum public sector solutions": {
     "checked": "2026-10-08",
     "result": null
   },
   "peachtree lumber": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "peraton": {
+    "checked": "2026-10-15",
     "result": null
   },
   "picis clinical solutions": {
@@ -311,6 +344,10 @@
   },
   "standard communications": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "stonex financial": {
+    "checked": "2026-10-15",
     "result": null
   },
   "thundercat technology": {
