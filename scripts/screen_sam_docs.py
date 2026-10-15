@@ -29,6 +29,7 @@ import json
 import os
 import re
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 
@@ -46,6 +47,12 @@ PENDING_PATH = "data/sam-docs-pending.json"
 # and for days a major program drops a 500-page RFP package. What doesn't fit
 # goes to the pending queue and is read by the next runs.
 MAX_SCREEN_CHARS = int(os.environ.get("DC_SAM_SCREEN_MAX_CHARS") or 10_000_000)
+# Wall-clock cap on starting new screening batches (added 2026-10-14). The
+# 10M-char cap alone took 52 min on the 10/14 PM run (84 files' batches
+# failing through retries and splits) and, after the 22-min fetch, pushed
+# the Feds job past its 90-min timeout before the main pass. Batches not
+# started in time leave their files in the pending queue, like over_budget.
+SCREEN_BUDGET_SEC = int(os.environ.get("DC_SAM_SCREEN_BUDGET_SEC") or 1500)
 QUEUE_DAYS = 14
 QUEUE_META = ("name", "url", "size", "posted", "nids", "sols", "titles", "uiLinks", "agency", "kind", "type")
 MODEL = "claude-haiku-4-5-20251001"
@@ -111,7 +118,7 @@ def call_batch(batch):
     return found, env.get("total_cost_usd") or 0
 
 
-def screen_with_split(batch, depth=0):
+def screen_with_split(batch, deadline, depth=0):
     """A failed batch is split in half and retried, twice over, before its
     documents are given up on for this run. Returns (found, cost, failed_ids, errors)."""
     try:
@@ -120,8 +127,10 @@ def screen_with_split(batch, depth=0):
     except Exception as e:  # noqa: BLE001
         if len(batch) == 1 or depth >= 2:
             return {}, 0, [d for d, _, _ in batch], [f"doc screen batch of {len(batch)} failed: {e}"[:300]]
+        if time.monotonic() > deadline:
+            return {}, 0, [d for d, _, _ in batch], [f"doc screen batch of {len(batch)} failed: {e}"[:300]]
         mid = len(batch) // 2
-        out = [screen_with_split(b, depth + 1) for b in (batch[:mid], batch[mid:])]
+        out = [screen_with_split(b, deadline, depth + 1) for b in (batch[:mid], batch[mid:])]
         found = {k: v for o in out for k, v in o[0].items()}
         return (found, sum(o[1] for o in out), [d for o in out for d in o[2]], [x for o in out for x in o[3]])
 
@@ -294,19 +303,34 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         batches.append(cur)
     by_id = {c[0]: c[1] for c in chunks}
 
+    deadline = time.monotonic() + SCREEN_BUDGET_SEC
+
+    def run(b):
+        if time.monotonic() > deadline:
+            return None
+        return screen_with_split([(d, h, t) for d, _, h, t in b], deadline)
+
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        results = list(ex.map(lambda b: screen_with_split([(d, h, t) for d, _, h, t in b]), batches))
-    cost, failed, errors = 0.0, set(), []
+        results = list(ex.map(run, batches))
+    cost, failed, errors, over_time = 0.0, set(), [], set()
     found = {}
-    for fnd, c, bad, errs in results:
+    for b, res in zip(batches, results):
+        if res is None:
+            over_time.update(c[1] for c in b)
+            continue
+        fnd, c, bad, errs = res
         cost += c
         errors += errs
         failed.update(by_id[d] for d in bad)
         for d, fs in fnd.items():
             found.setdefault(by_id[d], []).extend(fs)
+    # A file whose pieces straddle the cutoff waits whole for the next run.
+    failed -= over_time
+    for rid in over_time:
+        del recs[rid]
 
     for rid in docs:
-        if rid in over_budget or recs[rid].get("s") == "boilerplate_only":
+        if rid in over_budget or rid in over_time or recs[rid].get("s") == "boilerplate_only":
             continue
         if rid in failed:
             attempts = cache.get(rid, {}).get("a", 0) + 1
@@ -333,7 +357,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
     cutoff = (date.fromisoformat(today) - timedelta(days=QUEUE_DAYS)).isoformat()
     deferred = {rid for rid, f in files.items() if f.get("screen") and f.get("deferred")}
     queue = {}
-    for rid in deferred | over_budget | {r for r, x in recs.items() if x["s"] == "retry"}:
+    for rid in deferred | over_budget | over_time | {r for r, x in recs.items() if x["s"] == "retry"}:
         f = files[rid]
         meta = {k: f.get(k) for k in QUEUE_META}
         meta["queued_since"] = (pending.get(rid) or {}).get("queued_since") or f.get("queued_since") or today
@@ -355,6 +379,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         "files_failed": sum(1 for r in recs.values() if r["s"] in ("failed", "retry")),
         "files_deferred_time_budget": len(deferred),
         "files_deferred_screen_budget": len(over_budget),
+        "files_deferred_screen_time": len(over_time),
         "files_queued_for_next_run": len(queue),
         "chars_extracted": raw_chars, "chars_screened": kept_chars, "chars_skipped_as_repeats": repeat_chars,
         "chars_skipped_seen_on_earlier_runs": memory_chars,
