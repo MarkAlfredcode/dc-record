@@ -535,6 +535,35 @@
     "has_contracts": false,
     "raw_hits": 0
   },
+  "beaver aerospace & defense": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 19095995.72,
+        "recipient": "BEAVER AEROSPACE & DEFENSE, INC.",
+        "start": "2024-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA820624C0002_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 9581810.28,
+        "recipient": "BEAVER AEROSPACE & DEFENSE, INC.",
+        "start": "2019-04-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A619C0077_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 9038100.12,
+        "recipient": "BEAVER AEROSPACE & DEFENSE, INC.",
+        "start": "2019-04-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A619C0071_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-09-20",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "boeing": {
     "d": "2026-10-13",
     "examples": [
@@ -1230,6 +1259,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "enterprise rent a car": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 736357.0,
+        "recipient": "ENTERPRISE RENT A CAR COMPANY (5446)",
+        "start": "2006-01-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912EE06P0064_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 364143.0,
+        "recipient": "ENTERPRISE RENT A CAR",
+        "start": "2006-08-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912LA06P0105_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 80400.0,
+        "recipient": "ENTERPRISE RENT A CAR COMPANY TEXAS",
+        "start": "2006-10-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912L107P5002_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2004-10-12",
+    "has_contracts": true,
+    "raw_hits": 21
+  },
   "entwistle and york precision machining and hydraulic": {
     "d": "2026-10-14",
     "examples": [
@@ -1433,6 +1491,64 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "gaston & sheehan auctioneer": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Justice",
+        "amount": 3941800.0,
+        "recipient": "GASTON & SHEEHAN AUCTIONEERS, INC",
+        "start": "2026-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15M50026FA4400038_1544_15M50022DA4400016_1544"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 3670345.91,
+        "recipient": "GASTON & SHEEHAN AUCTIONEERS, INC",
+        "start": "2024-06-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15M50025FA4400060_1544_15M50022DA4400016_1544"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 3083744.29,
+        "recipient": "GASTON & SHEEHAN AUCTIONEERS, INC",
+        "start": "2024-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15M50024FA4400018_1544_15M50022DA4400016_1544"
+      }
+    ],
+    "first": "2010-10-01",
+    "has_contracts": true,
+    "raw_hits": 33
+  },
+  "gcr dean": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 40216479.73,
+        "recipient": "GCR-DEAN LLC",
+        "start": "2021-05-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC104721F0021_9700_47QSHA19D000T_4732"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 14519311.66,
+        "recipient": "GCR-DEAN LLC",
+        "start": "2023-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70US0923F2GSA2220_7009_47QSHA19D000T_4732"
+      },
+      {
+        "agency": "Nuclear Regulatory Commission",
+        "amount": 10365073.88,
+        "recipient": "GCR-DEAN LLC",
+        "start": "2022-01-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_31310022F0004_3100_47QSHA19D000T_4732"
+      }
+    ],
+    "first": "2020-08-24",
+    "has_contracts": true,
+    "raw_hits": 13
+  },
   "ge aviation system eaton aerospace": {
     "d": "2026-10-10",
     "examples": [
@@ -1622,6 +1738,35 @@
     "has_contracts": true,
     "raw_hits": 41
   },
+  "gtp structure": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of the Treasury",
+        "amount": 117342.6,
+        "recipient": "GTP STRUCTURES I LLC",
+        "start": "2020-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_2043FY21P00021_2050_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 86871.0,
+        "recipient": "GTP STRUCTURES I LLC",
+        "start": "2015-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DJA15AHDQP0076_1560_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 52081.84,
+        "recipient": "GTP STRUCTURES II, LLC",
+        "start": "2020-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70US0921L70090051_7009_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-08-17",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "hootsuite": {
     "d": "2026-10-13",
     "examples": [
@@ -1744,6 +1889,35 @@
     "first": "2016-07-25",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "kapule": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 8035000.0,
+        "recipient": "KAPULE LLC",
+        "start": "2026-06-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4008426C6526_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1143000.0,
+        "recipient": "KAPULE LLC",
+        "start": "2025-07-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4008425C6501_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 560000.0,
+        "recipient": "KAPULE LLC",
+        "start": "2025-06-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4008425C6500_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2023-01-05",
+    "has_contracts": true,
+    "raw_hits": 10
   },
   "katmai management service": {
     "d": "2026-10-13",
@@ -2171,6 +2345,21 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "msi": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "General Services Administration",
+        "amount": 0.0,
+        "recipient": "MSI, LLC",
+        "start": "2014-04-24",
+        "url": "https://www.usaspending.gov/award/CONT_IDV_GS07F204BA_4732"
+      }
+    ],
+    "first": "2014-04-24",
+    "has_contracts": true,
+    "raw_hits": 100
   },
   "mundo system": {
     "d": "2026-10-10",
@@ -2946,6 +3135,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "sikorsky aircraft": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 11602480135.21,
+        "recipient": "SIKORSKY AIRCRAFT CORPORATION",
+        "start": "2012-06-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ12C0008_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 9971022710.49,
+        "recipient": "SIKORSKY AIRCRAFT CORPORATION",
+        "start": "2007-12-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ08C0003_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 6103285531.96,
+        "recipient": "SIKORSKY AIRCRAFT CORPORATION",
+        "start": "2006-01-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001906C0081_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1997-07-18",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "social & scientific system": {
     "d": "2026-10-15",
@@ -4763,6 +4981,35 @@
       }
     ],
     "first": "1998-09-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "vacco industrie": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 20607767.47,
+        "recipient": "VACCO INDUSTRIES",
+        "start": "2023-09-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0010423CNA36_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 7376421.0,
+        "recipient": "VACCO INDUSTRIES",
+        "start": "2022-08-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0010422CNA07_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 7083200.0,
+        "recipient": "VACCO INDUSTRIES",
+        "start": "2007-04-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0004_9700_W58RGZ05D0127_9700"
+      }
+    ],
+    "first": "2006-02-27",
     "has_contracts": true,
     "raw_hits": 50
   },

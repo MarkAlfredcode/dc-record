@@ -353,6 +353,14 @@
       "s": "screened",
       "sol": "36C26326B0020"
     },
+    "01e74ec9bd3f4d8998513bd875e7d657": {
+      "c": 289886,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "B08_Att_(13)_HAVO_326181_Final_CD_Basis_of_Design_Product_Files.pdf",
+      "s": "screened",
+      "sol": "140P2026R0091"
+    },
     "01f1991674e14e08a86eb504d672299e": {
       "c": 4616,
       "d": "2026-10-11",
@@ -4965,13 +4973,11 @@
       "sol": "SLAC_DRAFT_RFP_369005_CRMF_Cleanroom_Construction"
     },
     "15ae28418bf74beb9243bc2d75fc9f58": {
-      "a": 1,
-      "c": 26074,
+      "c": 26103,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_1 of 11.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C78626B0030"
     },
     "15d42b4b4e2b4a3a89ee24be9340b32a": {
@@ -5263,13 +5269,41 @@
       "sol": "W912GY27QA001"
     },
     "17001d99699448c3b032951d4b8bea21": {
-      "a": 1,
-      "c": 201154,
+      "c": 201348,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "Human Development Directorate (HD) Human Resources Management (HRM II) appropriate. All algorithms will be comprehensively documented, including the data dictionary and DDL code. Models will be developed on an ad hoc basis as customer demand arises. 2.4.1.19 Utilize artificial intelligence and machine learning technologies to enhance data analysis capabilities, automate routine analytical processes, and improve predictive modeling for human capital decision-making 2.4.2 Human Capital Data Engineering/Management Ensure analytic products and visualizations are accurate, models are developed using the correct data, and human capital business process owners are confident in the data used to make decisions, ensuring the accuracy of the data layer is essential. This data layer will consist of human capital data migrated from PeopleSoft and other human capital data sources to an analytic environment. The Contractor shall support the capture, storage",
+          "finding": "NGA is procuring AI/ML expertise integrated across human resources directorate operations, including machine learning for workforce planning and anomaly detection in personnel data.",
+          "news": 4,
+          "quote": "Utilize artificial intelligence and machine learning technologies to enhance data analysis capabilities, automate routine analytical processes, and improve predictive modeling for human capital decision-making",
+          "verified": true
+        },
+        {
+          "context": "Skills: \u2022 Proficiency in data management and * NGA Washington modeling \u2022 High degree of discretion and ability to handle strictly confidential salary and performance data \u2022 Analytical skills for identifying compensation discrepancies. Desired Qualifications: 2 years supervisory experience leadin",
+          "finding": "Contract requires contractor to manage sensitive personnel data including performance pay, compensation structures, and executive-level salary information with strict confidentiality protocols.",
+          "news": 4,
+          "quote": "High degree of discretion and ability to handle strictly confidential salary and performance data",
+          "verified": true
+        },
+        {
+          "context": "d in PeopleSoft, is the principal management tool for the activities described below, and it includes employees covered under the Civil Service Retirement System (CSRS), the Federal Employee Retirement System (FERS), and the CSRS Offset Retirement System. PeopleSoft is also used to capture information related to assigned military personnel and NGA Contractors. Government civilian personnel actions shall be processed in accordance with the Office of Personnel Management (OPM) and NGA guidelines. 1.3. Scope The HRM II requirements provide non-personal services to HD in support of all aspects of human capital (HC) processes and programs utilizing and maintaining hard and soft copies of all applicable regulations, Agency procedures, and forms while executing NGA\u2019s mission to achieve its vision and goals. Contractor tasks shall include the use of best practices and lessons learned, and proposing, then implementing approved innovative ideas into requisite functional areas, increasing integration between all HD offices. The current HD Off",
+          "finding": "NGA Human Resources Management contract includes mandatory polygraph testing requirement for contractor personnel accessing TS/SCI materials within 90 days.",
+          "news": 3,
+          "quote": "Contractors are subject to a Counterintelligence-Scope Polygraph examination, as requested by NGA. As a condition of employment and assignment, Contractors who have not successfully completed polygraph testing within the last five years must immediately schedule a polygraph examination and must comp",
+          "verified": true
+        },
+        {
+          "context": "the Government to demonstrate whether the Contractor is meeting the stated performance standards. This plan is primarily focused on the measures and standards against which the Contractor is expected to be evaluated. It defines how the performance standards will be applied, the frequency of surveillance, and the minimum acceptable defect rate(s). The Government reserves the right to withhold the deductions/penalties from the Contractor\u2019s monthly invoice as a consequence if the documented contract performance AQLs are not achieved in that month. The Contractor will be held accountable for missed AQLs using the following penalty formula: % Deducted = (AQL \u2013 Calculated measurement based on Contractor performance that month). For example: If the Contractor achieves an 89.5% Monthly Availability Measurement, then 99.9% - 89.5% = 10.4% shall be deducted from the associated CLIN/SLIN in the Contractor\u2019s invoice for that month of performance. Funds withheld by the Government as a consequence of underperformance in any month will not be recov",
+          "finding": "NGA contract includes monthly quality assurance penalties: up to 10.4% invoice withholding if contractor misses performance thresholds on availability and reporting metrics.",
+          "news": 3,
+          "quote": "The Government reserves the right to withhold the deductions/penalties from the Contractor's monthly invoice as a consequence if the documented contract performance AQLs are not achieved in that month. The Contractor will be held accountable for missed AQLs using the following penalty formula: % Ded",
+          "verified": true
+        }
+      ],
       "m": "ocr+pdf",
       "n": "Attachment_1_HRMII_PWS_20260810.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "HM047626R0018"
     },
     "1702871c9cea44b694d8df438c59928c": {
@@ -5499,6 +5533,14 @@
       "n": "DD Form 1423-1 CDRL_A006_15MAY2026.pdf",
       "s": "boilerplate_only",
       "sol": "W31P4Q26RA002"
+    },
+    "181e4e1a57724325a0c1e78918815f78": {
+      "c": 1969,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "NSN List.pdf",
+      "s": "screened",
+      "sol": "CM26265595"
     },
     "1832eca29975417fab47a5dabea639ac": {
       "c": 14351,
@@ -6509,6 +6551,14 @@
       "s": "wage_determination",
       "sol": "FA480327Q0003"
     },
+    "1d1d29868fe2444ba4634d649b20d707": {
+      "c": 90089,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "140R4026B0002_-_Attachment_2_1_00_00_02_-Drawings_-20261009_0002.pdf",
+      "s": "screened",
+      "sol": "140R4026B0002"
+    },
     "1d1f6451f37741dea1902eaed70c6eed": {
       "c": 4450,
       "d": "2026-10-14",
@@ -6669,6 +6719,14 @@
       "n": "C04k_8a Hart Trap Road Plans.pdf",
       "s": "screened",
       "sol": "12363N26R4014"
+    },
+    "1d8ed78166214c3fa3152d7efa43b761": {
+      "c": 72141,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment D - Drawings.pdf",
+      "s": "screened",
+      "sol": "36C77626B0020"
     },
     "1da3d3f0bd3e42318349cabade289d75": {
       "c": 40578,
@@ -7887,6 +7945,14 @@
       "n": "C04 Attachment 1 - Solicitation Powell Duplex.pdf",
       "s": "screened",
       "sol": "1240LU27Q0001"
+    },
+    "230e9cb521354098a94c25083fbd01f8": {
+      "c": 200680,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "ora-dot-crgnsa100-7_plans.pdf",
+      "s": "screened",
+      "sol": "69056726B000009"
     },
     "2316f5c39a74442bb5c039f5e3bced43": {
       "c": 10642,
@@ -9173,6 +9239,22 @@
       "n": "RFI.docx",
       "s": "screened",
       "sol": "REQT-OMAS-MS-2027-00007"
+    },
+    "29e982f08c124891b8d2d4613a1d0ee5": {
+      "c": 11939,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "State Department sole-sources $millions monitoring contract to MSI for Middle East foreign aid programs, citing need for continuity amid USAID transition to State in July 2025.",
+          "news": 4,
+          "quote": "In July 2025, active USAID programs transitioned to the State Department, substantially increasing NEA/AC's oversight responsibilities. MSI has developed unique institutional knowledge and capabilities over seven years of performance that cannot be replicated by another contractor within the require",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "JA GSA NEA-MELO -SAM announcement.pdf",
+      "s": "screened",
+      "sol": "19AQMM26F1191"
     },
     "29ed5654ef31489f9f18ff27b15d7c3c": {
       "c": 498,
@@ -11076,6 +11158,14 @@
       "s": "screened",
       "sol": "FA8538-27-R-B002"
     },
+    "31feef0b8b9a486a960836669ce8bc54": {
+      "c": 468,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Attachment 1 - List of Items - 70Z03826QJ0000206.xlsx",
+      "s": "screened",
+      "sol": "70Z03826QJ0000206"
+    },
     "32088a2c4a5c45f39ad9a3b95d714f17": {
       "c": 23296,
       "d": "2026-10-11",
@@ -11834,6 +11924,23 @@
       "n": "SOW_Packaging.pdf",
       "s": "screened",
       "sol": "FA821326R3031"
+    },
+    "364ebc946ca545beaa115ee9fd9163cb": {
+      "c": 1809,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "SOLE SOURCE NOTICE OF INTENT The Defense Information Systems Agency/Defense Information Technology Contracting Organization intends to negotiate a sole source contract with GCR-DEAN LLC for a bridge contract for the Base Operations Support (BOS) services contract. A sole source Justification & Approval document has been coordinated and a copy of it will be posted on SAM.gov to comply with the public display requirements of FAR 6.301. The proposed contract action is to support the Defense Information Systems Agency by providing recurring, preventative, and service-call maintenance of building, building components (i.e., all internal and external building systems and equipment), custodial services, refuse collection and",
+          "finding": "DISA sole-sources $millions building operations contract to GCR-DEAN LLC, a small business incumbent, through May 2027 without competition.",
+          "news": 4,
+          "quote": "The Defense Information Systems Agency/Defense Information Technology Contracting Organization intends to negotiate a sole source contract with GCR-DEAN LLC for a bridge contract for the Base Operations Support (BOS) services contract.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "NOI SAM Sole_Source_612675548.pdf",
+      "s": "screened",
+      "sol": "612675548"
     },
     "36550451028b492fb94639ff86a77f7e": {
       "a": 1,
@@ -15575,6 +15682,14 @@
       "s": "screened",
       "sol": "N00025-26-R-5246"
     },
+    "465dd4d5530c48b6bd9ae7c2498a241c": {
+      "c": 238106,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Attachment A - Specifications  - 3-11-26.pdf",
+      "s": "screened",
+      "sol": "36C77626B0020"
+    },
     "466e054aca8b494bb62905140b880fbb": {
       "c": 349,
       "d": "2026-10-13",
@@ -17996,6 +18111,14 @@
       "s": "screened",
       "sol": "80NSSC26945930"
     },
+    "50841d22cc25436dbc34652ff7ce1ac2": {
+      "c": 314127,
+      "d": "2026-10-16",
+      "m": "zip",
+      "n": "Physical Data_WA FWS LPO MULTI(1).zip",
+      "s": "screened",
+      "sol": "69056726B000007"
+    },
     "509bcb55e03f474bba4a8bf4cfca96a0": {
       "c": 9153,
       "d": "2026-10-13",
@@ -19973,6 +20096,14 @@
       "s": "screened",
       "sol": "36C10B26Q0754"
     },
+    "59b4213c83364bd8a2b2064aa79db693": {
+      "c": 6948,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "A15 Class Justification  of Antenna Sites FY2023-2028.pdf",
+      "s": "screened",
+      "sol": "D-27-BO-0019"
+    },
     "59ba9d24707248a9a13a296aeb64a826": {
       "c": 21909,
       "d": "2026-10-11",
@@ -21677,6 +21808,22 @@
       "s": "screened",
       "sol": "HT941027N0005"
     },
+    "619b6d4e6c83432bb972c124b21f196e": {
+      "c": 619905,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "Smithsonian Institution constructing Arabian Leopard Exhibit at National Zoo with detailed enclosure, habitat, and facility specifications.",
+          "news": 3,
+          "quote": "CONSTRUCT ARABIAN LEOPARD FACILITY (ALF) PROJECT TITLE 3001 Connecticut Ave NW Washington, DC 20008 USA",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "65 DD Drawings_Part 2.pdf",
+      "s": "screened",
+      "sol": "33330226RT0010015"
+    },
     "61c3dc5fb8db48dabcc20154ac0131e9": {
       "c": 0,
       "d": "2026-10-14",
@@ -22359,13 +22506,19 @@
       "sol": "B54943"
     },
     "6503313f2f8847cc9e80b3b3ad41ebfc": {
-      "a": 1,
-      "c": 3540,
+      "c": 14026,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "Defense Logistics Agency bulk fuel procurement includes Russian fossil fuel business operations prohibition under NDAA 2024, with enforcement through sanctions compliance clauses.",
+          "news": 4,
+          "quote": "DFARS 252.225-7967 PROHIBITION REGARDING RUSSIAN FOSSIL FUEL OPERATIONS...the Contractor is prohibited from entering into a subcontract or other contractual instrument for the procurement of products or services with any entity or individual that is known to be, or that knowingly has fossil fuel bus",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "RFP SPE602-26-R-0706_AMD0004_conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "SPE602-26-R-0706"
     },
     "650b89bb1fd74a359da0eda74dbb287c": {
@@ -22474,6 +22627,14 @@
       "n": "Attachment C - Bid Schedule.docx",
       "s": "screened",
       "sol": "N4008526B0002"
+    },
+    "65ad02b208f242b09d1fff350266644a": {
+      "c": 181796,
+      "d": "2026-10-16",
+      "m": "zip",
+      "n": "Attachment 4 Schematic Drawings.zip",
+      "s": "screened",
+      "sol": "36C10B27Q0040"
     },
     "65d487bc456843bda4f615d8ed33a581": {
       "c": 0,
@@ -24640,6 +24801,22 @@
       "s": "screened",
       "sol": "FD20302700348"
     },
+    "6ef3da4edd4542c3a2d446c29eb0a5ee": {
+      "c": 416287,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "VA Community Living Center renovation: 7,730 sq ft, 44-bed rehab/hospice facility (unchanged capacity) at Spokane VA Medical Center, not updated since 1985.",
+          "news": 3,
+          "quote": "THE EXISTING SPACE HAS NOT BEEN UPDATED SINCE 1985 AND DOES NOT MEET CURRENT COMMUNITY LIVING CENTER STANDARDS OF CARE. THE CLC WILL CONTINUE TO PROVIDE REHABILITATION AND HOSPICE CARE WITH NO INCREASE OR DECREASE TO THE EXISTING 44 BEDS.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 3 Drawings.pdf",
+      "s": "screened",
+      "sol": "36C26027R0020"
+    },
     "6f030ef27a984750b6efcd89dd228ddd": {
       "c": 4884,
       "d": "2026-10-14",
@@ -25289,6 +25466,28 @@
       "n": "MQR.pdf",
       "s": "screened",
       "sol": "SPRHA4-27-Q-0959"
+    },
+    "71978171d7484361abf09e2553ce9f21": {
+      "c": 500598,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "Smithsonian constructing major 36,000 sq ft Arabian Leopard habitat facility at National Zoo in Washington DC, including three animal enclosures and care building.",
+          "news": 3,
+          "quote": "APPROXIMATELY 36,000 SQUARE FEET OF REDEVELOPMENT INCLUDES REROUTING OF EXISTING UTILITIES, INTRODUCTION OF NEW UTILITY PIPING, AND THE EXPANSION OF THE EXISTING CARE BUILDING.",
+          "verified": false
+        },
+        {
+          "finding": "Project timeline shows demolition and heavy construction scheduled for February 2027, with finishing work completion targeted for October 2028.",
+          "news": 3,
+          "quote": "MOBILIZATION AND ESC INSTALLATION TO BEGIN AUGUST 2026. DEMOLITION AND HEAVY CONSTRUCTION TO OCCUR FEBRUARY 2027. FINISHING WORK AND DEMOLITION TO BE COMPLETED BY OCTOBER 2028.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "65 DD Drawings_ Part 1.pdf",
+      "s": "screened",
+      "sol": "33330226RT0010015"
     },
     "719ed6a2117f48b89aaa0602cca88f7a": {
       "c": 5870,
@@ -27884,6 +28083,29 @@
       "s": "screened",
       "sol": "N00173-27-Q-1301397722"
     },
+    "7bdc9fbc4add4d6898f2eb84988f6cdd": {
+      "c": 708878,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "Specifications for Construction of Roads and Bridges on Federal Highway Projects, FP- 14, U.S. Customary Units. Block 24 SUBMITTING INVOICES: See Subsection 109.08 of the Standard Specifications for Construction of Roads and Bridges on Federal Highway Projects FP-14, U.S. Customary Units. ESTIMATED PRICE RANGE. The price range of the project work is between $2,000,000 and $5,000,000. Continuation SF 1442 Project: WA FWS LPO MULTI(1) Little Pend Oreille NWR Culvert Improvements BID SCHEDULE Bidder/Offeror please note: Before preparing the bid, carefully read the Solicitation Provisions. Insert a unit bid price, in figures, for each pay item for which a quantity appears in the bid schedule. Unit bid prices should be quoted no more precisely than the nearest cent (2 decimal places). Unit bid prices quoted more precisely w",
+          "finding": "Little Pend Oreille culvert project estimated cost $2\u20135 million with three construction schedules and Davis-Bacon wage requirements.",
+          "news": 3,
+          "quote": "ESTIMATED PRICE RANGE. The price range of the project work is between $2,000,000 and $5,000,000.",
+          "verified": true
+        },
+        {
+          "finding": "DOT forbearing enforcement of Trump executive orders on DEI, gender ideology, and government efficiency in federal contracts.",
+          "news": 4,
+          "quote": "DOT intends to take immediate action to begin forbearing enforcement of all Federal provisions, terms, and conditions, if inconsistent with EOs and implementing guidance issued by the current administration",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "IFB_69056726B000007_WA FWS LPO MULTI(1) Little Pend Oreille NWR Culvert Improvements.pdf",
+      "s": "screened",
+      "sol": "69056726B000007"
+    },
     "7be858e906e54dc2b37a8bc1729bb00d": {
       "c": 1318,
       "d": "2026-10-14",
@@ -28140,6 +28362,14 @@
       "n": "Notice of Intent to Sole Source.docx",
       "s": "screened",
       "sol": "HT941027N0003"
+    },
+    "7cfdb2e216264b19a8c4b224883121a3": {
+      "c": 682066,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "_1_Attachment_00_00_01_NGWSP_TURNOUT_BLDGS_Specifications_20260707.pdf",
+      "s": "screened",
+      "sol": "140R4026B0002"
     },
     "7d17afa9e53149bab6412658aaf787a2": {
       "c": 556,
@@ -28411,6 +28641,14 @@
       "n": "REV 1 - Seed SOW Bldg 586.pdf",
       "s": "screened",
       "sol": "FA820126R0020"
+    },
+    "7e6ae0fc573e43f0bfc82f892632c96d": {
+      "c": 5834,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "RFP SPE602-26-R-0706_AMD0001_conformed.pdf",
+      "s": "screened",
+      "sol": "SPE602-26-R-0706"
     },
     "7e7ba81577714711841200340a28491d": {
       "c": 7197,
@@ -29420,6 +29658,14 @@
       "s": "screened",
       "sol": "33330226RT0010015"
     },
+    "83505f182db445a5ba38ef6b45a35be4": {
+      "c": 49838,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "02B - Katy TX Appendix A_1 - Project Room Contents List _PRC_12_5_2024.pdf",
+      "s": "screened",
+      "sol": "36C10F25R0024"
+    },
     "836226cb96da473ba406d1910acb67f1": {
       "c": 2347,
       "d": "2026-10-14",
@@ -30074,6 +30320,14 @@
       "s": "screened",
       "sol": "FA441826R0009"
     },
+    "86ef2eb4aaa2446fa4ad3f474a59290f": {
+      "c": 46406,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "D-1 Photos.pdf",
+      "s": "screened",
+      "sol": "6982AF25B000004"
+    },
     "86f6072be3074a23ad944f8500b4ba26": {
       "c": 905,
       "d": "2026-10-10",
@@ -30186,6 +30440,14 @@
       "n": "SF 1009 Sole Source_NotaMesh Screens_Redacted.pdf",
       "s": "screened",
       "sol": "2031ZA26P00137"
+    },
+    "876e738d517e406e9d48b51e8451c047": {
+      "c": 11937,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Attachment A - Price Schedule.xlsx",
+      "s": "screened",
+      "sol": "36C26226Q0384"
     },
     "87726802e83740fca8532c0a233ca7e6": {
       "c": 113,
@@ -30330,6 +30592,14 @@
       "n": "36C24826P0643_1.docx",
       "s": "screened",
       "sol": "36C24826Q0315"
+    },
+    "8810735906304b05b841ec3e2261b4ff": {
+      "c": 903854,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 2 Technical Specifications.pdf",
+      "s": "screened",
+      "sol": "36C26027R0020"
     },
     "8829d49e57c043d582036f72e7c32aca": {
       "c": 23660,
@@ -32411,6 +32681,14 @@
       "s": "screened",
       "sol": "HHSN273201600003I"
     },
+    "9049a5cfc03e4ced84f8447ad27bc558": {
+      "c": 4170,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "RFP SPE602-26-R-0706_AMD0002_conformed.pdf",
+      "s": "screened",
+      "sol": "SPE602-26-R-0706"
+    },
     "905d3bb9d0114528a12f01b14721da53": {
       "c": 8890,
       "d": "2026-10-10",
@@ -33194,6 +33472,14 @@
       "s": "screened",
       "sol": "FA462027P0003"
     },
+    "93d7ddd8923a472e91aeb1bfa3f93181": {
+      "c": 132135,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "B08_Att_(2)_HAVO_326181_26_0908_Final_CD_Drawing_Set.pdf",
+      "s": "screened",
+      "sol": "140P2026R0091"
+    },
     "93db81020e3e411cb6db3f88fe755596": {
       "c": 17750,
       "d": "2026-10-13",
@@ -33441,6 +33727,14 @@
       "n": "36C10B27R0001 Amendment 0001.docx",
       "s": "screened",
       "sol": "36C10B27R0001"
+    },
+    "94db69038cad4db7945b2722e77e28ec": {
+      "c": 19813,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S02_Att 5_Fort Sill NC 920CM3006 Plan Set Reduced 3 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "94f2f42bf936426899c30dd1275023df": {
       "c": 0,
@@ -34944,6 +35238,14 @@
       "s": "screened",
       "sol": "Colombia_Bottled_water"
     },
+    "99ee6434b6724e789591edfa4448995d": {
+      "c": 1513300,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "B08_Att_(1)_HAVO_326181_26-0908_Project_Specifications.pdf",
+      "s": "screened",
+      "sol": "140P2026R0091"
+    },
     "99f923504dbb4df69fdc7782fd500a6b": {
       "c": 166,
       "d": "2026-10-11",
@@ -35257,6 +35559,14 @@
       "n": "F108_Container_Spares_Industry_Day_QAs.pdf",
       "s": "screened",
       "sol": "FD20302500037"
+    },
+    "9b6ca556940c40438baec5e2a9586cf9": {
+      "c": 451310,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 0007 - Government-Furnished (GF) Property (GFP)_GF Equipment (GFE)_GF Material (GFM).pdf",
+      "s": "screened",
+      "sol": "W58RGZ-26-R-0026"
     },
     "9b82772c63a94b0ca91fbda997fe9a42": {
       "c": 11777,
@@ -35756,6 +36066,23 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "9da84f8b5fc4440cb6d68af0b0378c0f": {
+      "c": 16323,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "identified below have had a significant impact on the estimated contract costs: 1) Increase in overall inventory volume. =================================================OF=eistoric=market=valuation=surges=in=the=precious metals sector and influx of assets, such as coins, bullion, and silver. As this contract is largely predicated on jewelry, bullion, and coin assets, the shift in market conditions has significantly increased sales, resulting in high commission schedules. For example, in July 2021, gold value was trading between $1,800\u2013$1,900",
+          "finding": "DOJ Marshals increases contract ceiling by $4.5M to $16.2M for seized asset auctions as gold and luxury goods values surge; precious metals jumped 100%+ since 2021.",
+          "news": 4,
+          "quote": "precious metal markets broke though record territory trading surging over 100% in value in 2024 and 2025; trading between $2,300 to $2500 per ounce and between $3,300 to $3,500, respectively. Today, the average gold value is between $4,000 to $4,100 per ounce.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "RFO PART 6 JOFOC - JAAC Ceiling Increase 20260914 - Redacted.pdf",
+      "s": "screened",
+      "sol": "15M50022DA4400016"
+    },
     "9da91ec14f7149d79e2428e955e5f240": {
       "c": 4384,
       "d": "2026-10-11",
@@ -36021,13 +36348,11 @@
       "sol": "140P2026R0087"
     },
     "9f7748cdbb9a453e8353d9917a9730d2": {
-      "a": 1,
       "c": 8513,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "S02_Att 3_Fort Sill NC 920CM3006 Plan Set Reduced 1 of 11.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C78626B0030"
     },
     "9f8b957715304c79b71904a5b3520d08": {
@@ -36896,13 +37221,19 @@
       "sol": "1240BH26R0013"
     },
     "a453788858564babbbc93f7c2a4666cb": {
-      "a": 1,
-      "c": 22156,
+      "c": 23741,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "Air Force KC-135 Center Console Refresh program includes 16 production A-kits and up to 50 additional units in options, modernizing aging tanker fleet avionics.",
+          "news": 4,
+          "quote": "Production A-KITS This CLIN includes the cost associated with Production A-Kits, including delivery and all warranties as determined by the CCR solution IAW SOW 12.0 and all 16 Each",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "DRAFT Solicitation - FA810526RB001.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA8105_CCR_Rev2"
     },
     "a455c00055b54d408b9bb28f8ae0dd25": {
@@ -37378,6 +37709,14 @@
       "n": "Attch 3 CDRL A019 HMMP Report - Draft.pdf",
       "s": "boilerplate_only",
       "sol": "FA461027R0001"
+    },
+    "a5cb5085e54a4349bff97066413da8f1": {
+      "c": 2945,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Attachment 2 - Redacted J and A - 70Z03826QJ0000206.pdf",
+      "s": "screened",
+      "sol": "70Z03826QJ0000206"
     },
     "a5cf9dd602f54bd4afe455f747e582e5": {
       "c": 16679,
@@ -39562,6 +39901,22 @@
       "s": "screened",
       "sol": "W519TC-26-R-A056"
     },
+    "afaa852a62d745678c30171380a2f0d1": {
+      "c": 95929,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "U.S. Army Corps soliciting major Everglades restoration seepage management contract covering 97 relief wells across 48+ miles of embankment in Florida.",
+          "news": 3,
+          "quote": "COMPREHENSIVE EVERGLADES RESTORATION PLAN (CERP) INDIAN RIVER LAGOON SOUTH (IRL-S) C-44 RESERVOIR AND STORMWATER TREATMENT AREA (C-44 RSTA) SEEPAGE MANAGEMENT FEATURE - RELIEF WELLS CONTRACT A, MARTIN COUNTY, FLORIDA",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "EXEMPT_1190713ab_DRAFT_114470_C44SMF_Plans.pdf",
+      "s": "screened",
+      "sol": "W912EP26Z1CR9"
+    },
     "afb8c920312746cb8a01433c56a205bf": {
       "c": 11671,
       "d": "2026-10-10",
@@ -39718,6 +40073,30 @@
       "n": "SF30_SPE2D226R00120001.PDF",
       "s": "screened",
       "sol": "SPE2D2-26-R-0012"
+    },
+    "b07b3450bca54f0389fc15b0c403fc1b": {
+      "c": 109032,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "Special Notice: D-27-BO-0019 Subject: Site Lease Posted Date: October 16, 2026 Response Due Date: October 20, 2026 @ 10:00 AM Eastern Standard Time (EST) Place of Performance: Boston, Massachusetts The Drug Enforcement Administration (DEA) intends to award a purchase order on a sole source basis to GTP Structures, LLC. 116 Huntington Ave Boston, MA 02116, for a site lease. GTP Structures, LLC. is the owner/operator of this specific site; therefore, the ONLY source able to negotiate a contract with. This notice of intent is not a request for competitive quotations. A Request for Quotation (RFQ) is not available. The Class Justification for Other than Full and Open Competition form is attached with this notice. The Government will utilize FAR Part 12. The NAICS code is 531120 and the requirement is not a total small business set-aside. A determination by the Government not to open the re",
+          "finding": "DEA seeking sole-source lease renewal for Boston field office at 116 Huntington Ave from GTP Structures, LLC, bypassing competitive bidding.",
+          "news": 4,
+          "quote": "The Drug Enforcement Administration (DEA) intends to award a purchase order on a sole source basis to GTP Structures, LLC. 116 Huntington Ave Boston, MA 02116, for a site lease.",
+          "verified": true
+        },
+        {
+          "context": "ed Date: October 16, 2026 Response Due Date: October 20, 2026 @ 10:00 AM Eastern Standard Time (EST) Place of Performance: Boston, Massachusetts The Drug Enforcement Administration (DEA) intends to award a purchase order on a sole source basis to GTP Structures, LLC. 116 Huntington Ave Boston, MA 02116, for a site lease. GTP Structures, LLC. is the owner/operator of this specific site; therefore, the ONLY source able to negotiate a contract with. This notice of intent is not a request for competitive quotations. A Request for Quotation (RFQ) is not available. The Class Justification for Other than Full and Open Competition form is attached with this notice. The Government will utilize FAR Part 12. The NAICS code is 531120 and the requirement is not a total small business set-aside. A determination by the Government not to open the requirement to competition based on the responses to this notice is solely within the discretion of the Government. THIS SYNPOSIS IS PUBLISHED FOR INFORMATIONAL PURPOSES ONLY AND IS NOT A REQUEST FOR COM",
+          "finding": "DEA contract includes broad cybersecurity risk assessments targeting equipment from entities owned or subsidized by China.",
+          "news": 3,
+          "quote": "the U.S. Department of Justice and its component entities will assess the supply chain risk of cyber-espionage or sabotage associated with the acquisition of such equipment or software, including any risk associated with such equipment or software being produced, manufactured, or assembled by one or",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "D05 Synopsis.pdf",
+      "s": "screened",
+      "sol": "D-27-BO-0019"
     },
     "b084b01ac2a54511a3720bd09fe1b2cf": {
       "c": 0,
@@ -40074,6 +40453,23 @@
       "n": "SPE60426R0401 A0003.pdf",
       "s": "screened",
       "sol": "SPE60426R0401"
+    },
+    "b1d02aa7665a45348a1d5b0c8da7c5ed": {
+      "c": 71467,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "in accordance with MIL- STD-973, Paragraph 5.4.8.3 and Appendix E. Requests for Waivers shall be processed in accordance with MIL-STD-973, Paragraph 5.4.8.4 and Appendix E. (Original and two copies shall be submitted to Contracting Officer, NAVICP-MECH, P. O. Box 2020, Mechanicsburg Pa. 17055-0788.) N0038326QS129 Page 6 of 64 3.5 Mercury Free - The material supplied under this contract/purchase order is intended for use on submarines/surface ships and therefore shall contain no metallic mercury and shall be free from mercury contamination. Mercury contamination of the material will be cause for rejection. If the inclusion of metallic mercury is required as a functional part of the material furnished under this contract, the Contractor shall obtain written approval from the Procurement Contracting Officer before proceeding with manufacture. The contractor's request shall explain in detail the requirements for mercury, identify specifically the parts to contain mercury, and explain the method of protection against mercury escape. Suc",
+          "finding": "Navy repair contract for submarine/ship window heat control unit with 90-day turnaround requirement and mercury contamination prohibitions.",
+          "news": 3,
+          "quote": "The material supplied under this contract/purchase order is intended for use on submarines/surface ships and therefore shall contain no metallic mercury and shall be free from mercury contamination.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Solicitation_26QS129.pdf",
+      "s": "screened",
+      "sol": "N0038326QS129 "
     },
     "b1dacffe2058447899ff39fe5ae2f862": {
       "c": 4553,
@@ -40586,6 +40982,14 @@
       "n": "36C26127Q0026 0001 Replace B650 Flooring.pdf",
       "s": "screened",
       "sol": "36C26127Q00260001"
+    },
+    "b3d29a7a0bfa42b7b0314886fe2deddd": {
+      "c": 125888,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment C - Drawings.pdf",
+      "s": "screened",
+      "sol": "36C77626B0020"
     },
     "b3d6420de6a148e8a616b757a233c9e7": {
       "c": 12403,
@@ -42016,6 +42420,14 @@
       "s": "screened",
       "sol": "36C25227Q0049"
     },
+    "b9906dd82b2743dbbd4f9817daa979ec": {
+      "c": 6263,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "4.3  5445 J&A Redacted.pdf",
+      "s": "screened",
+      "sol": "SPE7L127C0011"
+    },
     "b998da881f2d4b4990d001b953633788": {
       "c": 1717,
       "d": "2026-10-10",
@@ -43144,13 +43556,11 @@
       "sol": "36C26127Q0074"
     },
     "bd754cd7a0544ca7af3242ecf7b97ebb": {
-      "a": 1,
-      "c": 4551,
+      "c": 4531,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "S02_Att 11_Fort Sill NC 920CM3006 Plan Set Reduced 9 of 11.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C78626B0030"
     },
     "bd7eb0aa3e834b7d983ae32704e773a1": {
@@ -44005,13 +44415,11 @@
       "sol": "SPE60326R0530"
     },
     "c1653d9b82c44305aaf09ffe899ffd68": {
-      "a": 1,
       "c": 38767,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "01 - Katy TX OPC - L100.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C10F25R0024"
     },
     "c16c71c211614bc9a89e9600363db5ba": {
@@ -45320,6 +45728,14 @@
       "s": "screened",
       "sol": "140R4026Q0141"
     },
+    "c73e8e2051f3490d9b58c48923379153": {
+      "c": 6440,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Attachment A - Price Schedule 0002.xlsx",
+      "s": "screened",
+      "sol": "36C26226Q0384"
+    },
     "c74999b09745418182297ba1027464ff": {
       "c": 11145,
       "d": "2026-10-13",
@@ -45778,6 +46194,14 @@
       "n": "C03 - 36C10B27P0005 PACT Act.pdf",
       "s": "screened",
       "sol": "36C10B27Q0039"
+    },
+    "c951f46aa58a40938555dce16fabb994": {
+      "c": 7508,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S02_Att 9_Fort Sill NC 920CM3006 Plan Set Reduced 7 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "c95df673b4834a4d90d33e4fe0950ff9": {
       "c": 0,
@@ -46700,6 +47124,14 @@
       "s": "screened",
       "sol": "12318726Q0224"
     },
+    "cd6e698fa7c04f31ba8a0dcc1457ffab": {
+      "c": 541925,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "EXEMPT_1190713ab_DRAFT_IRLSC44RSTASMF_Specs.pdf",
+      "s": "screened",
+      "sol": "W912EP26Z1CR9"
+    },
     "cd70ade7c2ac40db9558e7017f445eaa": {
       "c": 12112,
       "d": "2026-10-13",
@@ -47265,13 +47697,19 @@
       "sol": "SPMYM327Q1100"
     },
     "cfd12b3c022b4017a3bf0f59177ce2df": {
-      "a": 1,
-      "c": 5676,
+      "c": 6950,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "Amendment to Western Pacific bulk fuels contract adds NDAA 2024 Russian fossil fuel prohibition to subcontracting terms with specific divestment and liquidation requirements.",
+          "news": 4,
+          "quote": "Activities that are incident to liquidating, dissolving, or winding down a subsidiary or legal entity in Russia...the Contractor is prohibited from entering into a subcontract or other contractual instrument for the procurement of products or services with any entity or individual that is majority o",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "RFP SPE602-26-R-0706_AMD0007_conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "SPE602-26-R-0706"
     },
     "cfd1b087dc8b4f50ab01cd4e5f97f503": {
@@ -47617,6 +48055,14 @@
       "n": "Questions and Answer 1 COMPREHENSIVE MEDICAL SERVICES FDC Houston.pdf",
       "s": "screened",
       "sol": "15BCMS26R51700001"
+    },
+    "d1282a898837495f80a0800b7f6e7624": {
+      "c": 181979,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "C04d Attachment 4 Dwgs BSC Handrails 1240BH26R0013.pdf",
+      "s": "screened",
+      "sol": "1240BH26R0013"
     },
     "d12e21dc712f459eb7029aaa5a8e7e13": {
       "c": 863,
@@ -48346,6 +48792,14 @@
       "s": "screened",
       "sol": "SPE60526R0217"
     },
+    "d4bb26bdcc0d481c9c204c8df032d71e": {
+      "c": 120466,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "_2_Attachment_00_00_02_Drawings_Combined_34x22_20260707.pdf",
+      "s": "screened",
+      "sol": "140R4026B0002"
+    },
     "d4c0d8c0bd084f99b300f991e1fc62fb": {
       "c": 2203,
       "d": "2026-10-10",
@@ -48901,6 +49355,30 @@
       "n": "Solicitation Amendment W9115126RA0040004 SF 30.pdf",
       "s": "screened",
       "sol": "W91151-26-R-A004"
+    },
+    "d6ad8c14a16a4f34b30b2e73f75b348e": {
+      "c": 259668,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "TIMUCUAN ECOLOGICAL AND HISTORIC PRESERVE JACKSONVILLE, FLORIDA STABILIZE KINGSLEY PLANTATION SHORELINE WITH SEAWALL EXTENSION TIMU PMIS Number 335507 PROJECT SPECIFICATIONS Se PARK 4 SERVICE > Wt ar NATIONAL PARK SERVICE (NPS) DENVER SERVICE CENTER (DSC) NPS DSC Division 1 Specifications Table of Contents National Park Service (NPS) - Denver Service Center (DSC) | 3-20-25 Table of Contents (TOC) 01 11 00 Summary of Work 01 26 01 Contract Modification Procedures 01 27 00 Definition of Contract Line Items 01 31 00 Project Management and Coordination 01 32 16 Construction Schedule 01 32 33 Photographic Documentation 01 33 23 Submittal Procedures 01 35 13.22 Archeological Protection 01 35 23 Safety Requirements 01 35 91 Historic Pre",
+          "finding": "National Park Service seawall restoration project at Kingsley Plantation in Jacksonville, Florida, includes 300-foot extension and major structural repairs.",
+          "news": 3,
+          "quote": "NPS is considering stabilizing the existing seawall and extending the seawall along the eastern edge of the property by approximately 300 feet.",
+          "verified": true
+        },
+        {
+          "context": "ection includes the following: 1. Work Covered by Contract Documents 2. Work Phases 3. Construction Contractor Use of Site 4. Public Use of Site 5. Conduct of Operations 6. Work Restrictions 7. Special Construction Requirements 8. Soils Investigation Report 9. Additional Reports 1.2 WORK COVERED BY CONTRACT DOCUMENTS A. Project Location: The Timucuan Ecological and Historical Preserve, 11676 Palmetto Avenue, Jacksonville, FL 32226. B. The Work consists of: 1. Selective demolition, installation of new weatherable rigid vinyl sheet pile wall with tie rod, weatherable rigid vinyl deadman wall and other associated accessories in front of the existing PVC sheet pile wall. 2. Installation of new structural FRP composite sheet pile wall and other associated accessories for extension of the wall towar",
+          "finding": "Hurricane Ian caused significant seawall damage in 2022; existing wall now shows 7 feet of exposed face with only 4 feet of embedment remaining.",
+          "news": 3,
+          "quote": "In 2022, the Kingsley Plantation seawall was hit by Category 3 Hurricane Ian. Due to this damage in conjunction with natural erosion and scour at the base of the wall, the existing wall now has approximately 7 ft of exposed face, and it is assumed that only 4 feet of the seawall is embedded below th",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "B08_-_Attachment_01_-_TIMU_335507_Div_01_Specifications.pdf",
+      "s": "screened",
+      "sol": "140P2026R0081"
     },
     "d6af9b21c79749d68b095d10c21c47fb": {
       "c": 9170,
@@ -49551,6 +50029,22 @@
       "s": "wage_determination",
       "sol": "36C26226Q0384"
     },
+    "d9866cc26b2b4c9fa5476675187d352f": {
+      "c": 4870,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "Navy awards emergency sole-source contract to Kapule LLC for $millions landslide cleanup at Japan military base after July 2026 rainfall, citing Seabees lacked capability.",
+          "news": 4,
+          "quote": "On July 6, 2026, a severe rainfall event resulted in a major landslide at CFAS. A large boulder dislodged from the hillside and impacted [redacted]. On August 19, 2026, formally confirmed that the Seabees lacked the equipment and material handling capabilities required to execute this work.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA - Akasaki Landslide Draft_redacted_Redacted.pdf",
+      "s": "screened",
+      "sol": "N4008426C6502"
+    },
     "d99424b022784af787f878c908484887": {
       "c": 1552,
       "d": "2026-10-10",
@@ -49944,6 +50438,14 @@
       "n": "AoI 5.5 - Hot Food Grab-n-Go Merchandiser.pdf",
       "s": "screened",
       "sol": "120c9202b6654d699d936a5401bd7876"
+    },
+    "db0f31b33e054e598bce1f0c7e8eddc2": {
+      "c": 20544,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "W50S9E26BA002 Solicitation.pdf",
+      "s": "screened",
+      "sol": "W50S9E26BA002"
     },
     "db29416fd0e741b29131077209646856": {
       "c": 48715,
@@ -51259,6 +51761,22 @@
       "s": "screened",
       "sol": "N0040627R0004"
     },
+    "e0344f91aac94b3da773d534f9c18d60": {
+      "c": 50384,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Specifications - 612A4-27-018 Replace B650 3rd and 2nd Flooring REV1.pdf",
+      "s": "screened",
+      "sol": "36C26127Q00260001"
+    },
+    "e03ebc6c632d4bb79ba1e56f3ad18f9e": {
+      "c": 3073,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "XS 100 Percent_THRO 204(1).pdf",
+      "s": "screened",
+      "sol": "6982AF25B000004"
+    },
     "e043e07d17b54963be0ed0395255a1b8": {
       "c": 871,
       "d": "2026-10-14",
@@ -51857,13 +52375,19 @@
       "sol": "36C78626R501200007"
     },
     "e2c7793095d3461e90a924e54ecc044a": {
-      "a": 1,
       "c": 236061,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "VA leasing 197,219 sq ft in Katy, Texas with $54.7 million tenant improvement allowance and up to $1.5 million broker commission.",
+          "news": 4,
+          "quote": "TENANT IMPROVEMENT ALLOWANCE LUMP-SUM TOTAL $54,696,650.00... The Lease Acquisition Fee shall not exceed one million five hundred thousand dollars ($1,500,000.00).",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "L100 Amendment 3 Katy TX OPC 10.1.26.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C10F25R0024"
     },
     "e2fe689794c54392b6c3908149e16de8": {
@@ -52971,13 +53495,11 @@
       "sol": "SPE602-26-R-0706"
     },
     "e81541859a9a42cfa03a614695faac02": {
-      "a": 1,
       "c": 3084,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_7 of 11.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C78626B0030"
     },
     "e82a87011356434fa11f0e3f0f6d2bd8": {
@@ -53128,6 +53650,14 @@
       "n": "ATTACHMENT 0014 Safet yMove inventory.pdf",
       "s": "screened",
       "sol": "W91QV126RA060"
+    },
+    "e888942ce763414d9cc74f0d70ca7cb9": {
+      "c": 100045,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment B - Drawings.pdf",
+      "s": "screened",
+      "sol": "36C77626B0020"
     },
     "e88e222869ba40429fa35777efeee5b4": {
       "c": 9370,
@@ -53922,6 +54452,14 @@
       "n": "A05 Under SAT Justification Greenhouse Controllers 12444826P0011_Redacted.pdf",
       "s": "screened",
       "sol": "12444826P0011"
+    },
+    "eb588c4a07954c9fb898d96d30ba2fd4": {
+      "c": 180426,
+      "d": "2026-10-16",
+      "m": "zip",
+      "n": "Physical Data.zip",
+      "s": "screened",
+      "sol": "69056726R000019"
     },
     "eb60178f86d84fa7b799635e69b3d421": {
       "c": 2832,
@@ -55909,13 +56447,11 @@
       "sol": "1240LT27Q0010"
     },
     "f29df2f4c7c44aefbafbaf9a16bbdc88": {
-      "a": 1,
-      "c": 3665,
+      "c": 4018,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "RFP SPE602-26-R-0706_conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "SPE602-26-R-0706"
     },
     "f2b57004760c46189dcc2e50eec60c29": {
@@ -56523,6 +57059,14 @@
       "s": "screened",
       "sol": "W15P7T-26-R-A006"
     },
+    "f4c361268e5840fc9626b2f90de58cb4": {
+      "c": 37329,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "D-2 Photos.pdf",
+      "s": "screened",
+      "sol": "6982AF25B000004"
+    },
     "f4ddd0666e5c44909c82beda4ce73062": {
       "c": 376,
       "d": "2026-10-10",
@@ -56660,6 +57204,23 @@
       "n": "Provisions and Clauses_W912TF27QA001.pdf",
       "s": "screened",
       "sol": "W912TF27QA001"
+    },
+    "f55f32120ceb48acbb9cdeeaa4c792b4": {
+      "c": 13681,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "tical operational capability used by the Exploration Ground Systems (EGS) Closeout Crew. The modified Ford F-59 vehicle is specifically configured Loss of this capability would create operational risk, disrupt mission readiness activities, and potentially impact Artemis launch schedules. This action aligns with the objectives of Executive Order 14369, Ensuring American Space Superiority, which directs Federal efforts to advance United States leadership in space exploration and return American astronauts to the lunar surface no later than 2028. The Artemis campaign is NASA's primary program for achieving these national objectives. Maintaining uninterrupted EGS launch support capabilities is necessary to support Artemis mission execution and help ensure NASA remains on schedule to meet Agency commitments and national policy objectives. Accordingly, the Government has determined that acquiring the existing modified vehicle is necessary to avoid disrup",
+          "finding": "NASA sole-sources $70,000 vehicle lease from Enterprise Rent-A-Car for Artemis moon program, citing unusual urgency to support 2028 lunar landing deadline and Executive Order 14369.",
+          "news": 5,
+          "quote": "This action aligns with the objectives of Executive Order 14369, Ensuring American Space Superiority, which directs Federal efforts to advance United States leadership in space exploration and return American astronauts to the lunar surface no later than 2028.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "80KSC026P0014 JOFOC_Redacted.pdf",
+      "s": "screened",
+      "sol": "80KSC026P0014"
     },
     "f55fe2dbd7c1496e830198dcc6f59f1a": {
       "c": 484,

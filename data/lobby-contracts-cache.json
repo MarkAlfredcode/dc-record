@@ -35,6 +35,10 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "aviate enterprises": {
+    "checked": "2026-10-16",
+    "result": null
+  },
   "barque consulting": {
     "checked": "2026-10-09",
     "result": null
@@ -76,6 +80,10 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "cognosante mvh": {
+    "checked": "2026-10-16",
+    "result": null
+  },
   "crane": {
     "checked": "2026-10-09",
     "result": null
@@ -86,6 +94,10 @@
   },
   "excelsior defense": {
     "checked": "2026-10-11",
+    "result": null
+  },
+  "fidelis sustainability distribution": {
+    "checked": "2026-10-16",
     "result": null
   },
   "fruta royal": {
@@ -131,6 +143,10 @@
   },
   "insurance auto auctions": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "interim homes": {
+    "checked": "2026-10-16",
     "result": null
   },
   "island empire technology systems": {
@@ -205,6 +221,10 @@
       "ytd": 4190000.0
     }
   },
+  "madison hospitality services": {
+    "checked": "2026-10-16",
+    "result": null
+  },
   "matos grunley joint venture": {
     "checked": "2026-10-11",
     "result": null
@@ -221,8 +241,20 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "michael shannon consulting": {
+    "checked": "2026-10-16",
+    "result": null
+  },
+  "midwest radiology p a": {
+    "checked": "2026-10-16",
+    "result": null
+  },
   "mil": {
     "checked": "2026-10-05",
+    "result": null
+  },
+  "mindpoint group": {
+    "checked": "2026-10-16",
     "result": null
   },
   "nakupuna federal": {
@@ -255,6 +287,10 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "ocs construction services": {
+    "checked": "2026-10-16",
+    "result": null
+  },
   "ohio ambulance solutions": {
     "checked": "2026-10-15",
     "result": null
@@ -262,6 +298,23 @@
   "optum public sector solutions": {
     "checked": "2026-10-08",
     "result": null
+  },
+  "path": {
+    "checked": "2026-10-16",
+    "result": {
+      "client": "PATH",
+      "firms": [
+        "KYLE HOUSE GROUP"
+      ],
+      "issues": [
+        "Foreign Relations",
+        "Budget/Appropriations"
+      ],
+      "n_filings": 1,
+      "quarters": 1,
+      "url": "https://lda.gov/filings/public/filing/d3da2b97-91e1-4be7-a806-b226695605af/print/",
+      "ytd": 10000.0
+    }
   },
   "peachtree lumber": {
     "checked": "2026-10-08",
@@ -285,6 +338,10 @@
   },
   "prime physicians tri providers": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "pro care emergency medical services": {
+    "checked": "2026-10-16",
     "result": null
   },
   "raven services": {
@@ -370,6 +427,10 @@
     "checked": "2026-10-08",
     "result": null
   },
+  "trillamed": {
+    "checked": "2026-10-16",
+    "result": null
+  },
   "triwest healthcare alliance": {
     "checked": "2026-10-08",
     "result": {
@@ -385,6 +446,10 @@
       "url": "https://lda.gov/filings/public/filing/4c2c0987-356f-42b0-a848-81c5e47d57a3/print/",
       "ytd": 0
     }
+  },
+  "verathon": {
+    "checked": "2026-10-16",
+    "result": null
   },
   "vetmed group": {
     "checked": "2026-10-09",
