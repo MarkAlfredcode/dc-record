@@ -57,6 +57,35 @@
     "has_contracts": true,
     "raw_hits": 16
   },
+  "ab sciex": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 13389153.74,
+        "recipient": "AB SCIEX LLC",
+        "start": "2021-06-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75D30121C10478_7523_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 12315865.48,
+        "recipient": "AB SCIEX LLC",
+        "start": "2016-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSD200201689568C_7523_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 7686285.96,
+        "recipient": "AB SCIEX LLC",
+        "start": "2011-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSD200201138250C_7523_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2010-06-21",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "acoustical society of america": {
     "d": "2026-10-10",
     "examples": [
@@ -141,6 +170,35 @@
       }
     ],
     "first": "2006-03-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "agilent technologie": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 10727649.0,
+        "recipient": "AGILENT TECHNOLOGIES INC",
+        "start": "2026-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70T04026C7573N010_7013_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 9596159.86,
+        "recipient": "AGILENT TECHNOLOGIES INC",
+        "start": "2022-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6264522C0003_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 7889379.6,
+        "recipient": "AGILENT TECHNOLOGIES INC",
+        "start": "2021-03-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75D30121F10276_7523_GS07F0564X_4732"
+      }
+    ],
+    "first": "2005-06-06",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -354,6 +412,35 @@
     "has_contracts": true,
     "raw_hits": 6
   },
+  "autoclear": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 979243.0,
+        "recipient": "AUTOCLEAR LLC",
+        "start": "2017-09-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0016417FJ159_9700_N0016415DJQ26_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 527218.01,
+        "recipient": "AUTOCLEAR LLC",
+        "start": "2017-09-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0017417C0026_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 344250.0,
+        "recipient": "AUTOCLEAR LLC",
+        "start": "2011-08-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA251711F6034_9700_GS07F9010D_4730"
+      }
+    ],
+    "first": "2004-08-17",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "bahfed": {
     "d": "2026-10-10",
     "examples": [
@@ -503,6 +590,64 @@
       }
     ],
     "first": "2008-03-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "bridgephase": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 25507636.52,
+        "recipient": "BRIDGEPHASE LLC",
+        "start": "2026-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR26F00000203_7003_GS35F687GA_4732"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 14362360.16,
+        "recipient": "BRIDGEPHASE LLC",
+        "start": "2025-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR25F00000049_7003_GS35F687GA_4732"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 14310001.85,
+        "recipient": "BRIDGEPHASE LLC",
+        "start": "2024-07-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70RTAC24FR0000066_7001_GS35F687GA_4732"
+      }
+    ],
+    "first": "2016-01-07",
+    "has_contracts": true,
+    "raw_hits": 26
+  },
+  "building people": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 22372811.71,
+        "recipient": "THE BUILDING PEOPLE LLC",
+        "start": "2020-11-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70T01020F3NREM013_7013_47QSHA19D0010_4732"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 22054547.88,
+        "recipient": "THE BUILDING PEOPLE LLC",
+        "start": "2019-08-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911SA19F3028_9700_GS00F237GA_4732"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 16182289.59,
+        "recipient": "THE BUILDING PEOPLE LLC",
+        "start": "2026-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47PE5226F0290_4740_47PB0124A0002_4740"
+      }
+    ],
+    "first": "2017-09-29",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -695,6 +840,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "cepeda associate": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 4492000.0,
+        "recipient": "CEPEDA ASSOCIATES, INC.",
+        "start": "2025-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SP470125C0087_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4170648.0,
+        "recipient": "CEPEDA ASSOCIATES, INC.",
+        "start": "2022-09-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRMM122FSA01_9700_SPRMM122DSA01_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3897706.7,
+        "recipient": "CEPEDA ASSOCIATES, INC.",
+        "start": "2024-09-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0010424F0A40_9700_N0010424DA401_9700"
+      }
+    ],
+    "first": "2012-05-10",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "cepheid": {
     "d": "2026-10-10",
     "examples": [
@@ -721,6 +895,35 @@
       }
     ],
     "first": "2006-12-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "cfi group usa": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Education",
+        "amount": 2829665.27,
+        "recipient": "CFI GROUP USA, L.L.C.",
+        "start": "2009-09-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EDFSA09O0063_9100_GS10F0040K_4730"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 2660987.57,
+        "recipient": "CFI GROUP USA, L.L.C.",
+        "start": "2009-12-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSP35036001T_7555_HHSP350201000007I_7555"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 2500000.0,
+        "recipient": "CFI GROUP USA, L.L.C.",
+        "start": "2008-12-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSP350200900136G_7555_GS10F0040K_4730"
+      }
+    ],
+    "first": "2004-02-12",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -760,6 +963,13 @@
     "has_contracts": true,
     "raw_hits": 30
   },
+  "charter communication operating liability spectrum business": {
+    "d": "2026-10-15",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 100
+  },
   "city of minneapoli": {
     "d": "2026-10-10",
     "examples": [
@@ -795,6 +1005,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "concept plus": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 23781848.31,
+        "recipient": "CONCEPT PLUS, LLC",
+        "start": "2013-07-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HT001113C0008_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 23400990.53,
+        "recipient": "CONCEPT PLUS, LLC",
+        "start": "2018-07-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SP470918F0100_9700_SP470917D0030_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 20775489.6,
+        "recipient": "CONCEPT PLUS, LLC",
+        "start": "2019-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HT001519F0160_9700_GS35F0264Y_4732"
+      }
+    ],
+    "first": "2013-07-30",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "cort furniture outlet": {
     "d": "2026-10-10",
@@ -932,6 +1171,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "efs ebrex sarl": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 12991416.0,
+        "recipient": "EFS EBREX SARL",
+        "start": "2010-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_AN01_9700_SPM30008D3059_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2050083.85,
+        "recipient": "EFS EBREX SARL",
+        "start": "2022-09-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE30022F70QM_9700_SPE30022D4077_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2020331.7,
+        "recipient": "EFS EBREX SARL",
+        "start": "2022-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE30023F7JQH_9700_SPE30022D4077_9700"
+      }
+    ],
+    "first": "2010-10-01",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "encore group usa": {
     "d": "2026-10-13",
@@ -1193,6 +1461,21 @@
     "first": "2000-03-24",
     "has_contracts": true,
     "raw_hits": 100
+  },
+  "ge healthcare": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 5114118.02,
+        "recipient": "GE HEALTHCARE INC",
+        "start": "2015-09-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA25615C0149_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2015-09-18",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "general dynamic information technology": {
     "d": "2026-10-13",
@@ -1643,6 +1926,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "lovell government service": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 219000000.0,
+        "recipient": "LOVELL GOVERNMENT SERVICES INC.",
+        "start": "2018-10-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50119F33001_7505_75A50118D00009_7505"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 17400000.0,
+        "recipient": "LOVELL GOVERNMENT SERVICES INC.",
+        "start": "2024-09-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50324F63003_7505_75A50121A00006_7505"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 5679311.28,
+        "recipient": "LOVELL GOVERNMENT SERVICES INC.",
+        "start": "2020-08-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE2DH20C0001_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2018-10-29",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "lumeni be": {
     "d": "2026-10-10",
     "examples": [
@@ -2005,6 +2317,42 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "not named": {
+    "d": "2026-10-15",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
+  "odyssey space research": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 15759308.18,
+        "recipient": "ODYSSEY SPACE RESEARCH, L.L.C.",
+        "start": "2017-11-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC018F0019_8000_80JSC017D0001_8000"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 14662422.6,
+        "recipient": "ODYSSEY SPACE RESEARCH, L.L.C.",
+        "start": "2020-11-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC021F0021_8000_80JSC017D0001_8000"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 10252089.22,
+        "recipient": "ODYSSEY SPACE RESEARCH, L.L.C.",
+        "start": "2009-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ09HD58C_8000_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-01-18",
+    "has_contracts": true,
+    "raw_hits": 10
+  },
   "olympu america": {
     "d": "2026-10-14",
     "examples": [
@@ -2040,6 +2388,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "ops tech alliance": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 53159976.12,
+        "recipient": "OPS TECH ALLIANCE, LLC",
+        "start": "2021-03-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70LGLY21CGLB00001_7015_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 11053463.17,
+        "recipient": "OPS TECH ALLIANCE, LLC",
+        "start": "2024-09-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70RCSJ24FR0000038_7001_47QTCB22D0129_4732"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 4393502.18,
+        "recipient": "OPS TECH ALLIANCE, LLC",
+        "start": "2019-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70LGLY19CGLB00004_7015_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2016-01-07",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "panopto": {
     "d": "2026-10-10",
@@ -2273,6 +2650,35 @@
     "has_contracts": true,
     "raw_hits": 30
   },
+  "quickserie": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 892800.44,
+        "recipient": "QUICKSERIES PUBLISHING INC",
+        "start": "2007-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W9133L07F0253_9700_GS02F0276P_4730"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 779901.22,
+        "recipient": "QUICKSERIES PUBLISHING INC",
+        "start": "2009-04-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W9133L09F0072_9700_GS02F0276P_4730"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 659739.5,
+        "recipient": "QUICKSERIES PUBLISHING INC",
+        "start": "2013-08-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA119A13J0103_3600_VA345BP0004_3600"
+      }
+    ],
+    "first": "2007-09-19",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "raytheon": {
     "d": "2026-10-10",
     "examples": [
@@ -2299,6 +2705,35 @@
       }
     ],
     "first": "2000-08-07",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "rbex": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 37777193.14,
+        "recipient": "RBEX, INC.",
+        "start": "2017-01-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HSBP1017C00005_7014_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 29585151.59,
+        "recipient": "RBEX, INC.",
+        "start": "2021-12-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70B01C22C00000002_7014_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 1275535.97,
+        "recipient": "RBEX, INC.",
+        "start": "2022-12-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15M50022FA4400022_1544_15M50022DA4400025_1544"
+      }
+    ],
+    "first": "2013-02-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -2511,6 +2946,71 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "social & scientific system": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 138982753.44,
+        "recipient": "SOCIAL & SCIENTIFIC SYSTEMS, INC.",
+        "start": "2002-04-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_00263200204D263020012_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 99067397.82,
+        "recipient": "SOCIAL & SCIENTIFIC SYSTEMS, INC.",
+        "start": "2005-06-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN291200555546C_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 61994334.27,
+        "recipient": "SOCIAL & SCIENTIFIC SYSTEMS, INC.",
+        "start": "2018-08-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75N96018F00001_7529_75N96018D00005_7529"
+      }
+    ],
+    "first": "2001-09-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "sonosite": {
+    "d": "2026-10-15",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 61
+  },
+  "south national for logistic": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 33650000.0,
+        "recipient": "SOUTH NATIONAL FOR LOGISTICS",
+        "start": "2026-06-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60526FHJB6_9700_SPE60525D9504_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 33178456.11,
+        "recipient": "SOUTH NATIONAL FOR LOGISTICS",
+        "start": "2026-02-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60526FFVC0_9700_SPE60525D9504_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 30912000.0,
+        "recipient": "SOUTH NATIONAL FOR LOGISTICS",
+        "start": "2026-04-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60526FGTB7_9700_SPE60525D9504_9700"
+      }
+    ],
+    "first": "2022-07-07",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "steampunk": {
     "d": "2026-10-14",
@@ -2750,6 +3250,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 100
+  },
+  "triumph actuation system": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 18348262.97,
+        "recipient": "TRIUMPH ACTUATION SYSTEMS - CONNECTICUT, LLC",
+        "start": "2011-02-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W15QKN11C0103_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 8635770.0,
+        "recipient": "TRIUMPH ACTUATION SYSTEMS - YAKIMA, LLC",
+        "start": "2025-03-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0038325FAV02_9700_N0038324GAV01_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 5108945.4,
+        "recipient": "TRIUMPH ACTUATION SYSTEMS - CONNECTICUT, LLC",
+        "start": "2017-07-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W15QKN17C0070_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-11-05",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "uei:C92MYZJBLR97": {
     "d": "2026-10-10",
@@ -3012,6 +3541,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:HBLRJ28LNM16": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 5148186.0,
+        "recipient": "GE AVIATION SYSTEMS LLC",
+        "start": "2025-09-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0038325FAQ1G_9700_N0038325GAQ01_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 5000000.0,
+        "recipient": "GE AVIATION SYSTEMS LLC",
+        "start": "2025-12-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRPA126FEG01_9700_SPE4A125G0015_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2428195.8,
+        "recipient": "GE AVIATION SYSTEMS LLC",
+        "start": "2022-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0038322FN30B_9700_N0038318GN301_9700"
+      }
+    ],
+    "first": "2006-08-29",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:HQAJMSZDK666": {
     "d": "2026-10-13",
     "examples": [
@@ -3154,6 +3712,35 @@
       }
     ],
     "first": "2013-09-27",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:JLW7WAKPEKD4": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 76791796.2,
+        "recipient": "TELOS CORPORATION",
+        "start": "2017-08-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA489017F0025_9700_FA873214D0016_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 75718780.32,
+        "recipient": "TELOS CORPORATION",
+        "start": "2018-01-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_BA02_9700_FA873215D0050_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 66394189.0,
+        "recipient": "TELOS CORPORATION",
+        "start": "2019-12-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA872620F0027_9700_FA873215D0050_9700"
+      }
+    ],
+    "first": "2003-06-04",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -3541,6 +4128,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:QXMUHJ7XTF89": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 178194695.13,
+        "recipient": "INSITU, INC.",
+        "start": "2016-05-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001916C0054_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 163248281.72,
+        "recipient": "INSITU, INC.",
+        "start": "2011-05-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001911C0061_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 150421893.7,
+        "recipient": "INSITU, INC.",
+        "start": "2013-01-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0003_9700_N0001912D0011_9700"
+      }
+    ],
+    "first": "2008-04-14",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:RK5ZXQ77CN73": {
     "d": "2026-10-10",
     "examples": [
@@ -3656,6 +4272,35 @@
     "first": "2011-06-28",
     "has_contracts": true,
     "raw_hits": 30
+  },
+  "uei:SNJ8YY61GB95": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1551565403.77,
+        "recipient": "TEXTRON SYSTEMS CORPORATION",
+        "start": "2007-10-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ08C0023_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 685944943.93,
+        "recipient": "TEXTRON SYSTEMS CORPORATION",
+        "start": "2016-10-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911QY17C0013_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 470748151.16,
+        "recipient": "TEXTRON SYSTEMS CORPORATION",
+        "start": "2009-11-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ10C0006_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1999-08-19",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "uei:T991W7L2NHE9": {
     "d": "2026-10-14",
@@ -4179,6 +4824,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "vectru": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 340482220.66,
+        "recipient": "VECTRUS SERVICES A/S",
+        "start": "2015-02-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA252315C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 280670034.04,
+        "recipient": "VECTRUS SYSTEMS CORPORATION",
+        "start": "2008-11-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA300209C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 255108980.15,
+        "recipient": "VECTRUS FEDERAL SERVICES GMBH",
+        "start": "2001-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_F6152101C3000_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2001-01-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "vetmed group group": {
     "d": "2026-10-10",
     "examples": [
@@ -4243,6 +4917,35 @@
     "first": "2014-03-24",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "whoi": {
+    "d": "2026-10-15",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 104352.15,
+        "recipient": "WHOIS API, INC.",
+        "start": "2018-11-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75N98019P00163_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Securities and Exchange Commission",
+        "amount": 40000.0,
+        "recipient": "WHOIS API, INC.",
+        "start": "2018-03-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_50310218P0021_5000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 39175.0,
+        "recipient": "WHOIS API, INC.",
+        "start": "2017-02-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DJF171200P0003513_1549_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2014-07-25",
+    "has_contracts": true,
+    "raw_hits": 20
   },
   "wisconsin oven": {
     "d": "2026-10-14",

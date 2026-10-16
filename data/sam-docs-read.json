@@ -32,6 +32,22 @@
       "s": "screened",
       "sol": "70Z02326R93250001"
     },
+    "0014cc0cc5294a38b39b384752db4643": {
+      "c": 3628,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "DLA Energy awarded emergency fuel supply contract to Jordan military bases citing regional crisis; sole-source justified under unusual/compelling urgency.",
+          "news": 5,
+          "quote": "On March 4, 2026, DLA Energy received an urgent request from the JMU Middle East team to supply 34,300,000 U.S. Gallons (USGs) of Turbine Fuel, Aviation (USF).",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "SPE60525D9504 Redacted JA.pdf",
+      "s": "screened",
+      "sol": "SPE60525D9504"
+    },
     "002e858b53184daaa28968caf1ae3048": {
       "c": 2093,
       "d": "2026-10-10",
@@ -589,8 +605,22 @@
       "sol": "15BRRC26R0000016"
     },
     "02bb1497c5af4459814669955cbe6586": {
-      "c": 74087,
-      "d": "2026-10-14",
+      "c": 68569,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "U.S. Navy supply ship USNS Wally Schirra underwent major maintenance at Korean shipyards in late 2025, including SCBA equipment, fire suppression systems, liferafts.",
+          "news": 3,
+          "quote": "USNS WALLY SCHIRRA (T-AKE 8) FY27 MID-TERM AVAILABILITY (MTA)",
+          "verified": false
+        },
+        {
+          "finding": "Multiple fire suppression system problems found on Navy ship: 4th-stage pressure gauge malfunction requiring replacement, Bank 1 valve failure on re-filling station needing repair.",
+          "news": 3,
+          "quote": "4th-stage pressure gauge shows intermittent malfunction. Replacement is required... Bank 1 (TO / FROM) Found in poor condition. Need to renew new valve for Bank1",
+          "verified": false
+        }
+      ],
       "m": "ocr+pdf",
       "n": "2.1.3 SOL AMDNT 4 - CFRs 0095, 0096, 0097, 0098 & 0144.pdf",
       "s": "screened",
@@ -782,6 +812,30 @@
       "n": "SATPC0042920 TAB 04 4 SOW.pdf",
       "s": "screened",
       "sol": "80NSSC27945716Q"
+    },
+    "037daa56a0f846719d29a7a9ce52f7b3": {
+      "c": 204531,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "Leopard Facility (ALF) project that the offeror completed on form B.3.1. Phase 2 - Construct Arabian Leopard 33330226RT0010015 Page 9 of 139 B.4.1. This Multi-Year Funding Document shall be considered as part of the Cost Proposal. Multi-Year Funding Price Proposal Breakout Form Construct Arabian Leopard Facility (ALF) The estimated construction cost for Phase 2 \u2014 Habitats & Animal Care Building is greater than $10M. FY 2027 FUNDING INCREMENT: ($4M obligated at award, or when available) General Conditions (9 months) $ Mobilization $ Sitework $ Demolition $ Temporary Field Office $ Building Utilities $ Submittals and Shop Drawings $ Long Lead Item Purchases $ Structural concrete, substructure, foundations $ (including excavation and dewatering), steel framing Masonry $e Mechanical, Electrical and Plumbing $ Mass Notification System and Communications $ Fire Protection $e Fire Alarm $ Integrated Automation $ Specialties $ SUBTOTAL: $ Termination Cost (Cancellation Charge) $ Other - Offerors shall clearly and",
+          "finding": "Smithsonian solicitation for $10M+ Arabian Leopard Facility Phase 2 construction with 19-month timeline, 40% small business subcontracting goal.",
+          "news": 4,
+          "quote": "The estimated construction cost for Phase 2 \u2013 Habitats & Animal Care Building is greater than $10M.",
+          "verified": true
+        },
+        {
+          "context": "ion, or Repair) x NEGOTIATED (RFP) 1 139 09/14/2026 IMPORTANT -- The \"offer\" section on the reverse must be fully completed by offeror. 4. CONTRACT NO. 5. REQUISITION/PURCHASE REQUEST NO. 6. PROJECT NO. 7. ISSUED BY CODE 8. ADDRESS OFFER TO OCON SMITHSONIAN INSTITUTION Office of Contracting and Personal Property M MRC 1200 M",
+          "finding": "Smithsonian requires specialized subcontractors: animal containment/transfer systems at zoological facilities for large carnivores with 5+ years AZA experience.",
+          "news": 3,
+          "quote": "The Animal Containment / Transfer Chutes & Doors subcontractors that have five years of experience with projects at zoological facilities specifically for large carnivores and list 5 installations at 2 or more AZA accredited institutions will be given greater consideration.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "RFP 33330226RT0010015 Arabian Leopard.pdf",
+      "s": "screened",
+      "sol": "33330226RT0010015"
     },
     "038815761bc64b3e90ab2ad7aa5b392d": {
       "c": 6347,
@@ -1417,6 +1471,22 @@
       "s": "screened",
       "sol": "SP4510-26-Q-1046"
     },
+    "061c0878d35a4fc1977ab5eb11fb9cad": {
+      "c": 46257,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "National Park Service stabilizing historic Kingsley Plantation shoreline with major seawall and sheet pile wall extension project in Florida.",
+          "news": 3,
+          "quote": "STABILIZE TIMUCUAN ECOLOGICAL & HISTORICAL PRESERVE - KINGSLEY PLANTATION SHORELINE WITH SEAWALL EXTENSION",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "B08_-_Attachment_03_-_TIMU_335507_Construction_Drawings.pdf",
+      "s": "screened",
+      "sol": "140P2026R0081"
+    },
     "06528968fe254cbaa6633fd954a4fa2a": {
       "c": 372,
       "d": "2026-10-14",
@@ -1619,13 +1689,11 @@
       "sol": "W50S8R27Q0002"
     },
     "07357cdf4df24977a8ba680198572d9e": {
-      "a": 1,
-      "c": 75166,
+      "c": 75467,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "SF 1449 Solicitation.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "SPE60326R0518"
     },
     "074d37ec503e49f4b6d031e9ce6a0646": {
@@ -1732,6 +1800,22 @@
       "n": "Attachment 1 - Combined Synopsis and Solicitation - Tomah MRI.docx",
       "s": "screened",
       "sol": "36C25226Q0692"
+    },
+    "07cca13f8be0473592fcab3cf256d4f0": {
+      "c": 368786,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Air Force Global Strike Command soliciting airfield blast shield construction with extensive concrete paving and joint specifications for military runway.",
+          "news": 3,
+          "quote": "NOTICE: Airfield Blast Shield (FA466126R0008; DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE GLOBAL STRIKE COMMAND",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "FNWZ 25-0166 South Apron Blast Shields_SoW_Redacted.pdf",
+      "s": "screened",
+      "sol": "FA466126R0008"
     },
     "07d5c9a5e0a94b9a8a14140ce74e57fe": {
       "c": 39697,
@@ -1950,6 +2034,36 @@
       "s": "screened",
       "sol": "387881-DSF"
     },
+    "08f06e6737d740fda0b84d673e872763": {
+      "c": 169100,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "The starting point will be Bus Lot Entrance, National Zoological Park, 3001 Connecticut Ave, NW, Washington, DC 20008. D. Offerors shall acknowledge receipt of all amendments to this solicitation signed and dated and submit with proposal. E. THE BID DUE DATE IS FRIDAY, NOVEMBER 13, 2026, AT 3:00 PM EST. F. Except as provided herein, all other provisions, terms and conditions of the Solicitation remain unchanged. END OF AMENDMENT THREE NSN 7540-01-152-8067 OPTIONAL FORM 336 (4-86) Sponsored by GSA FAR (48 CFR) 53.110",
+          "finding": "Smithsonian Arabian Leopard Exhibit Phase 2 construction project with bid deadline November 13, 2026 and September 2028 completion, multiple RFI clarifications.",
+          "news": 3,
+          "quote": "THE BID DUE DATE IS FRIDAY, NOVEMBER 13, 2026, AT 3:00 PM EST.",
+          "verified": true
+        },
+        {
+          "context": "ect matter where feasible.) A. The Solicitation Number cited above, NZP-DC: Construct Arabian Leopard Exhibit, located in Washington, DC, is hereby amended as follows: A.1. Attached hereto and incorporated into this Amendment No. 3 are the following: 1. SI's responses to RFIs Nos. 53-224; and 2. The revised Bid Schedule dated October 9, 2026. B. The 100% final documents are currently anticipated to be issued on October 19, 2026. C. The 2nd site visit is scheduled for Friday, October 23, 2026, at 9 AM. Continued ... Except as provided herein, all terms and conditions of the document referenced in Item 9 A or 10A, as heretofore changed, remains unchanged and in full force and effect . 15A. NAME AND TITLE OF SIGNER (Type or print) 16A. NAME AND TITLE OF CONTRACTING OFFICER (Type or print) Thomas Dempsey 15B. CONTRACTOR/OFFEROR",
+          "finding": "Solicitation amended October 13, 2026 extending bid timeline due to 100% design documents delayed to October 19. Second site visit scheduled October 23.",
+          "news": 3,
+          "quote": "The 100% final documents are currently anticipated to be issued on October 19, 2026. C. The 2nd site visit is scheduled for Friday, October 23, 2026, at 9 AM.",
+          "verified": true
+        },
+        {
+          "finding": "Project funding split: $4 million FY 2027 (9 months), remainder FY 2028 (10 months), with contingency for additional FY 2027 funds if needed per COTR validation.",
+          "news": 3,
+          "quote": "Yes, additional funds will be made available in FY27, if needed and applications for payment are validated by the COTR.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "33330226RT0010015 Amendment 0003.pdf",
+      "s": "screened",
+      "sol": "33330226RT0010015"
+    },
     "091079f353904834bd805367496d28ac": {
       "c": 680,
       "d": "2026-10-11",
@@ -2045,6 +2159,14 @@
       "n": "Attachment 5 - Appendix C_LRAFB MACC Cross Reference Matrix.xlsx",
       "s": "screened",
       "sol": "LRAFB_MACC_IndustryDay"
+    },
+    "096db9c86d71418c8a62cc49ddd6f123": {
+      "c": 181570,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "140R4026B0002_-_Attachment_1_1_00_00_01__Specifications__20261009_0002.pdf",
+      "s": "screened",
+      "sol": "140R4026B0002"
     },
     "0972582811f9417cb28efd84de462226": {
       "c": 368,
@@ -2674,13 +2796,11 @@
       "sol": "SPE60526R0217"
     },
     "0be0cf9e6e0b48759de3e5d059549e03": {
-      "a": 1,
-      "c": 18457,
+      "c": 16043,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "B08_Attach_1_Drawings_YELL_338223.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140P2026R0073"
     },
     "0be546bad9db40429dbbafa632a458a3": {
@@ -3349,6 +3469,23 @@
       "s": "wage_determination",
       "sol": "FA480327Q0003"
     },
+    "0eceac7f9d944d92b82723052fb4011c": {
+      "c": 12325,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "itute of Health (NIH) Information Technology Acquisition and Assessment Center (NITAAC) Bethesda, MD 20892-7511 Phone: 301-451-0212 Contracting Officer's Representative (COR) Information. 2. Nature and/or description of the action being approved: Acquisition purpose and objectives. The CEMS Program Management Office (PMO) is seeking an immediate increase in the ceiling for materials (ODCs), allowing for the purchase of the Tool for Oracle Application Developers (TOAD) license. TOAD is a database management and development software toolset created by Quest Software. It helps database developers, administrators, and data analysts build, manage, and optimize relational and non-relational databases. TOAD is critical to the CEMS task order as it provides the Database Team with an advanced, reliable, and efficient platform for database development, administration, performance tuning, troubleshoo",
+          "finding": "Air Force increases CEMS task order ceiling with Concept Plus for TOAD database software licenses, citing legacy tool removal from Air Force Evaluated Products List and need for advanced SQL optimization.",
+          "news": 3,
+          "quote": "The legacy tool has since been removed from the EPL, restricting its operational boundary to a localized ISSM risk-acceptance approval within the Amazon Web Services (AWS) cloud environment",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "NITAAC JEFO CEMS TOAD licenses_Redacted.pdf",
+      "s": "screened",
+      "sol": "HHSN316201200156W_75N98125F00001_JEFO2"
+    },
     "0eda15a0b28e4f1e98bc70572edbfe14": {
       "c": 12861,
       "d": "2026-10-14",
@@ -3465,6 +3602,14 @@
       "n": "S06 Clarifying Information Amendment 36C26327Q0008 0004.docx",
       "s": "screened",
       "sol": "36C26327Q0008"
+    },
+    "0fa9d6f89a604049933ca83d8d09b89e": {
+      "c": 60941,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "waw-lpo-multi1_plans_IFB.pdf",
+      "s": "screened",
+      "sol": "69056726B000007"
     },
     "0fac3a8417b3418799fd249ecf8f819c": {
       "c": 3945,
@@ -3785,6 +3930,14 @@
       "n": "SATPC0042897 Tab 07 Capability Statement.pdf",
       "s": "screened",
       "sol": "80NSSC27945341Q"
+    },
+    "114b3422505f4465a064ea13078beda9": {
+      "c": 845,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "PINK5453106828  3_Redacted.pdf",
+      "s": "screened",
+      "sol": "SPRPA126FY636"
     },
     "1153245709fc466f995de21b4e7c23c9": {
       "c": 13065,
@@ -5980,13 +6133,11 @@
       "sol": "N6817127QN003"
     },
     "1b091d3b01e046d4b722ee3b76fdca36": {
-      "a": 2,
-      "c": 3245,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 3251,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "2.1.3 SOL AMDNT 2 - N0040627R00040002 Conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N0040627R0004"
     },
     "1b1732601f94485ca20b7a87853fe643": {
@@ -7666,13 +7817,11 @@
       "sol": "36C10X26Q0091"
     },
     "2272d768fb0949f0b9a5e70cb1b2a668": {
-      "a": 2,
-      "c": 18666,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 19896,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "_3_Attachment_00_00_02A_-_Geology_Drawings_04032026.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "140R4026B0002"
     },
     "2295def1463e40909cd74553184239a5": {
@@ -9154,16 +9303,8 @@
       "sol": "N6339427Q4001"
     },
     "2ab1781fcf9e4e44a5dec38e7c676be6": {
-      "c": 22902,
-      "d": "2026-10-14",
-      "f": [
-        {
-          "finding": "Air Force soliciting construction of 5 airfield jet blast deflectors at Dyess AFB Texas for $1M-$5M, small business set-aside.",
-          "news": 4,
-          "quote": "Construction of Blast Shields...Provide and install (5) Airfield Jet Blast Deflectors...Between $1,000,000.00 and $5,000,000.00",
-          "verified": false
-        }
-      ],
+      "c": 24501,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "FA466126R0008 solicitation_Redacted.pdf",
       "s": "screened",
@@ -9571,8 +9712,8 @@
       "sol": "47PH5226R0003 "
     },
     "2c7097f6e26f4890ba84b5c012d2f624": {
-      "c": 95358,
-      "d": "2026-10-14",
+      "c": 90001,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "ida-kooten8450-1_plans_RFP.pdf",
       "s": "screened",
@@ -9874,13 +10015,11 @@
       "sol": "1240BH26R0013"
     },
     "2d70fec6d2a6457c81475af3fe4db6e9": {
-      "a": 2,
-      "c": 3276,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 3282,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "2.1.3 SOL AMDNT 4 - N0040627R00040004 Conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N0040627R0004"
     },
     "2d834133afd24026a11deab2f6c1726a": {
@@ -10105,16 +10244,8 @@
       "sol": "N4008526R0138"
     },
     "2e8cde94f30f4c88bc01f22609e4158f": {
-      "c": 3884,
-      "d": "2026-10-14",
-      "f": [
-        {
-          "finding": "DOE Oak Ridge facility holds ~12,000 pounds of lithium hydride shields from Manhattan Project era, now being evaluated for 'reuse or disposal' in potential private-sector recovery; materials in nuclear research facility undergoing radioactive contamination assessment.",
-          "news": 4,
-          "quote": "OREM's inventory includes lithium hydride shields medium extractability and resource recovery potential...these materials, once used in nuclear applications, are now being evaluated for potential reuse and recovery. We have total of ten shields...exploring both DOE and private sector options for reu",
-          "verified": false
-        }
-      ],
+      "c": 3990,
+      "d": "2026-10-15",
       "m": "pptx",
       "n": "OakRidge_Critical Minerals_Overview_(Sept 28).pptx",
       "s": "screened",
@@ -10167,6 +10298,14 @@
       "n": "NASA LaRC Parcel Handouts.pdf",
       "s": "screened",
       "sol": "LARC-RFI-2026_2027"
+    },
+    "2ee13cb14de3470a91987653ecbaf221": {
+      "c": 65624,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "China Lake Request for Proposal.pdf",
+      "s": "screened",
+      "sol": "SPE60326R0530"
     },
     "2eea5951a22f4e41a6b3d822af204bfe": {
       "c": 71999,
@@ -10372,6 +10511,22 @@
       "n": "Attachment 6 - DRAFT CCR Revision 2 Data Rights Assertion Matrix.pdf",
       "s": "screened",
       "sol": "FA8105_CCR_Rev2"
+    },
+    "2fc3e819b06c4efaacc42b1f342ef544": {
+      "c": 14685,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Education Department cites DOGE-caused delays in justifying $886k sole-source mobile device order to current provider instead of competing.",
+          "news": 4,
+          "quote": "Executive Order 14158 of January 20, 2025 Establishing and Implementing the President's \"Department of Government Efficiency\" caused unforeseen circumstances beyond the control of the acquisition office causing significant delays to the acquisition process.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "ED FSS SSJ Above SAT RFO Part 8_101526.pdf",
+      "s": "screened",
+      "sol": "CAWR_8871"
     },
     "2fca1ab6e9ae4dac856ac66e86ced155": {
       "c": 1501,
@@ -11035,20 +11190,20 @@
       "sol": "W911S6-27-B-A001"
     },
     "32bcd1cf683e4e718e72a8752acb9e10": {
-      "c": 72136,
-      "d": "2026-10-14",
+      "c": 124842,
+      "d": "2026-10-15",
       "f": [
         {
-          "context": "t work assignments; and (3) in all other activities in the community. This factor evaluates the contractor\u2019s security plan that provides a safe and secure environment for both staff and offenders. This factor also evaluates the contractor's procedures and policies for resident's possession and use of smartphones. This factor will also evaluate the option for the government to require the contractor to provide smartphones to residents, which have GPS tracking and utilize biometrics (option to be exercised at time of award). 2.3 FACTOR: Programs This factor evaluates the quality, comprehensiveness, and innovativeness of the offeror\u2019s plan to assist offenders successful reentry into the community. This includes the evaluation of the offeror\u2019s programs for assisting offenders in meeting the identified elements of their Individualized Program Plan (IPP). The IPP will address all of the resident's needs 15BRRC26R00000016 Page 73 of 73 and risks",
-          "finding": "Contract includes GPS tracking smartphone option: government may require contractor to provide residents smartphones with GPS tracking and biometric capabilities.",
-          "news": 4,
-          "quote": "option for the government to require the contractor to provide smartphones to residents, which have GPS tracking and utilize biometrics (option to be exercised at time of award)",
+          "context": "QUANTITY 0001 To provide Residential Reentry Center Services located within the 12 MO $________ $_________________ City Limits of Raleigh, NC. Fixed monthly rate for the Average Daily Population (ADP) of 18 or less Federal Offenders. Guaranteed Minimum: 6,588 Inmate Days Estimated Maximum: 16,104 Inmate Days Base Period: Start Date of Performance through 12 months PSC: G004 Base Period ITEM NO. SUPPLIES/SERVICES MAX. UNIT UNIT PRICE AMOUNT QUANTITY 0002 To provide Residential Reentry Center Services located within the 0 DY $________ $_________________ City Limits of Raleigh, NC. In-house RRC inmate day rate for ADP of 19 - 27 Federal offenders. Guarante",
+          "finding": "Contract includes indefinite-delivery, indefinite-quantity structure with guaranteed minimum 6,588 inmate days annually and estimated maximum 16,104 inmate days in base year alone.",
+          "news": 3,
+          "quote": "Guaranteed Minimum: 6,588 Inmate Days Estimated Maximum: 16,104 Inmate Days Base Period: Start Date of Performance through 12 months",
           "verified": true
         },
         {
-          "finding": "Federal Bureau of Prisons soliciting Raleigh, NC residential reentry center for 44 in-house beds (34 male, 10 female) plus 55 home confinement placements.",
-          "news": 5,
-          "quote": "Contractor shall ensure total 44 beds are available for (34 male, 10 females) in-house Federal offenders or 55 home confinement placements per month",
+          "finding": "Federal Bureau of Prisons soliciting bids for residential reentry center in Raleigh, NC serving 44 in-house beds (34 male, 10 female) plus up to 55 home confinement placements within 200-mile radius.",
+          "news": 4,
+          "quote": "To provide Residential Reentry Center (RRC) In-House services for in-house RRC beds and HomeConfinement (HC) Services for Home Confinement placements. These services are provided to male andfemale Federal offenders held under the authority of various United States Statutes located within the city li",
           "verified": false
         }
       ],
@@ -11244,6 +11399,22 @@
       "n": "Industry Quarterly Conference Call Q1 FY27 V1.pdf",
       "s": "screened",
       "sol": "USCISFY27CONFERENCECALL1stQUARTER"
+    },
+    "345ed29af7d14b81b603c460083399bf": {
+      "c": 6194,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Army awarded Vectrus emergency task order for inventory of battle-damaged equipment in Kuwait under Operation Spartan Shield; rapid-response TI of combat assets.",
+          "news": 5,
+          "quote": "4015' AFSB, in support of Operation Spartan Shield (OSS), requests a cost-plus fixed fee modification with Vectrus...This time critical requirement is for the rapid-response inventory and technical inspection (TI) of assets currently staged in Kuwait.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "A02 JEFO_CENTCOM Equipment Sets_Redacted.pdf",
+      "s": "screened",
+      "sol": "W52P1J19F0400JEFO"
     },
     "346093daad484bd1ab11a88bae50fa37": {
       "c": 2318,
@@ -12079,13 +12250,11 @@
       "sol": "N3904026Q0004"
     },
     "384f9e22fe4d4b51a1171c3097ac8602": {
-      "a": 2,
-      "c": 48520,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 49140,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "W58RGZ-26-R-0070.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "W58RGZ-26-R-0070"
     },
     "38559dbe2d974262931204e772e233f3": {
@@ -12486,23 +12655,47 @@
       "sol": "80NSSC26943709Q"
     },
     "3a3fa2dab6b6453ca682f01b40be5173": {
-      "a": 2,
       "c": 172703,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Air Force Mission Support Services IDIQ contract (FA2396-26-R-B008) includes classified work, facility clearance requirements, and competitive evaluation criteria for multiple award vehicle.",
+          "news": 4,
+          "quote": "Technical Identification 1 (Government Facility Clearance) is evaluated on a pass/fail basis solely for the Prime Offeror (or the member entities comprising a Joint Venture Offeror).",
+          "verified": false
+        },
+        {
+          "finding": "Air Force contract requires documentation of 20% acceptable quality level (AQL) turnover metrics and vacancy fill requirements within 15 consecutive business days for staffing performance.",
+          "news": 3,
+          "quote": "The Government confirms that the governing standard for both contract performance and proposal evaluation is 15 consecutive business days. Section H, Paragraph 2.2 and Paragraph 2.3 are amended via Amendment [0004] to replace references to '10 business days' with '15 business days'",
+          "verified": false
+        },
+        {
+          "finding": "Solicitation amended to clarify CMMC (Cybersecurity Maturity Model Certification) requirements previously left blank; details now included in DFARS 252.204-7021 and 252.204-7025.",
+          "news": 3,
+          "quote": "DFARS 252.204-7021 and 252.204-7025 have been filled in Amendment [0004]. The JV or both entities can provide.",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "QA for posting -Amendment 0004 - 10.06.26.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA239626RB008"
     },
     "3a40a0dd6cea4d38aef7b37691507d3f": {
-      "a": 1,
-      "c": 7776,
+      "c": 6481,
       "d": "2026-10-15",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "FLETC procuring four-month bridge contract for roleplayer services at Glynco due to bid protest staying follow-on contract; continuity of law enforcement training mission.",
+          "news": 4,
+          "quote": "Services are currently covered under Contract 70LGLY21CGLB00001 with Ops Tech Alliance (OTA) that expires September 30, 2026...that follow on contract 70LGLY26CGLB00006 is currently under a statutory stay of performance due to a bid protest.",
+          "verified": false
+        }
+      ],
       "m": "ocr+pdf",
       "n": "JA for RP Bridge redacted_Redacted.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "70LGLY26CGLB00008"
     },
     "3a4c56f837e94603a841c3bccb753567": {
@@ -12751,6 +12944,23 @@
       "n": "C05 SF30 1240BH26R0013-0003.pdf",
       "s": "screened",
       "sol": "1240BH26R0013"
+    },
+    "3b570f815ee74393afd0612b6313f2ae": {
+      "c": 10829,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "n Navy submarine networks. ACOMMS TEMPALTs are in place to permit transfer of acoustic data with shipboard systems and project-unique hull-mounted sensors. Development of this technology and integration with shipboard systems and off- hull transponders/nodes started in earnest in 1994, and represents a significant DoD/DoN multi-sponsor investment. Current sponsors have invested tens of millions of dollars and eighteen years to achieve current TEMPALT and TEMPMOD certifications for Project 1319, have recently invested over to achieve full tactical TEMPALT approval for the YM-TTL&R system and its payloads, and are expected to fully invest | the BM-TTL&R system to achieve is tactical TEMPALT certification. TEMPALT/TEMPMOD TDP mechanical drawings, electrical drawings, hydrostatic and off-gas testing certifications, electromagnetic interference/controls (EMI/EMC) certifications, shipboard equipment shock certification, shipping and handling studies, AUV encapsulation designs, AUV hydrodynamic evaluations and acoustic compatibility certific",
+          "finding": "Navy justifies sole-source contract with WHOI for Fleet Modular Autonomous Undersea Vehicles (FMAUV) and submarine-based unmanned systems, citing tens of millions in prior investment and 18 years of development.",
+          "news": 4,
+          "quote": "Current sponsors have invested tens of millions of dollars and eighteen years to achieve current TEMPALT and TEMPMOD certifications for Project 1319",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Justification for EtFO_Redacted.pdf",
+      "s": "screened",
+      "sol": "N66604-26-RFPREQ-NPT-45-0136"
     },
     "3b5efca7fe844b458bb4e2bbf67d8b10": {
       "c": 66580,
@@ -13207,6 +13417,14 @@
       "s": "screened",
       "sol": "SPE60426R0401"
     },
+    "3d33bb2f727e455fb2da8f7c7690bff7": {
+      "c": 893,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "ACSI Survey - J_A  2026_Final.pdf",
+      "s": "screened",
+      "sol": "36C10G26F0018"
+    },
     "3d340907b2cc43279ed21d36d4cc3bd9": {
       "c": 521,
       "d": "2026-10-14",
@@ -13616,6 +13834,14 @@
       "s": "screened",
       "sol": "ASG-J_Cellular_00008"
     },
+    "3e8fdb3abf8a4260ad070be7eeb137a8": {
+      "c": 84509,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "Solicitation - N0038327RM059.pdf",
+      "s": "screened",
+      "sol": "N00383-27-R-M059"
+    },
     "3e96848181fc43ed999d8afe9ac255f2": {
       "c": 64694,
       "d": "2026-10-14",
@@ -13760,6 +13986,30 @@
       "n": "Evaluation Criteria 1 - Key Personnel_ATTACHMENT A.docx",
       "s": "screened",
       "sol": "36C26127Q0026"
+    },
+    "3f551cf5cc3542969d91905ae8d5019e": {
+      "c": 435443,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "f 15 calendar days prior to the desired date of interruption. f. The KTR shall identify on the construction schedule each factor which constitutes a potential interruption to Unit operations. g. The KTR shall be responsible for issuing the pre- and post-construction notifications required by the State and Federal Permits. h. The KTR shall coordinate the removal of all debris and piling within the dredge area prior to dredging work. 1.2 KTR ACCESS AND USE OF PREMISES 1.2.1 Activity Regulations Ensure that KTR personnel employed on the Activity become familiar with and obey Activity regulations including safety, fire, traffic and security regulations. Keep within the limits of the work and avenues of ingress and egress. Wear appropriate personal protective equipment (PPE) in",
+          "finding": "Coast Guard dredging project at New London City Pier requiring detailed post-construction hydrographic surveys of federal navigation channel.",
+          "news": 3,
+          "quote": "post-construction electronic surveys of the FNP covering the entire areas of the proposed work shall be performed",
+          "verified": true
+        },
+        {
+          "context": "the technical sufficiency of the alteration design nor for the construction and/or installation work. I. SPECIAL CONDITIONS: EC 1165-2-220, part 16.e allows for Districts to include any special conditions as requirements for approval of the S408 request. 17. The dredge is required to shift or move and/or interrupt dredging operations to accommodate the movement or passage of vessels and floating equipment utilizing the channel. The dredge shall comply with all requests for passage or to move or interrupt dredging for a reasonable time period from a vessel utilizing the channel. 18. In order to ensure that the existing FNP is not compromised, post-construction electronic surveys of the FNP covering the entire areas of the proposed work shall be performed. a. To ensure that the proposed",
+          "finding": "Dredging operations required to halt or shift for vessel traffic; no protection guaranteed for damage from future government operations.",
+          "news": 3,
+          "quote": "The dredge is required to shift or move and/or interrupt dredging operations to accommodate the movement or passage of vessels and floating equipment utilizing the channel",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "P23946211_SPEC_15JUL26.pdf",
+      "s": "screened",
+      "sol": "70Z0G126BSLISSW02"
     },
     "3f55533eadf6428b8a9a51db6ff39b03": {
       "c": 1550,
@@ -14120,6 +14370,22 @@
       "s": "screened",
       "sol": "36C24W26R0012"
     },
+    "407022678aec4b999d311f44a1108e09": {
+      "c": 8519,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Navy authorized emergency operational modifications to Aerosonde UAS systems across three task orders for AFRICOM and CENTCOM combat operations; MCM sensor integration.",
+          "news": 4,
+          "quote": "In response to an urgent AFRICOM requirement for UAS support...CENTCOM directed the immediate evacuation of Textron personnel from Site 11 due to deteriorating security conditions.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA 26-0354_Redacted.pdf",
+      "s": "screened",
+      "sol": "N00019-26-RFPREQ-WPM263-0281"
+    },
     "40928d7080d74994acc3c4ba67e37d71": {
       "c": 1116,
       "d": "2026-10-14",
@@ -14231,6 +14497,22 @@
       "n": "26 56 00.pdf",
       "s": "screened",
       "sol": "N4008526R0138"
+    },
+    "40f6d275c2a840a38db55128ce59001a": {
+      "c": 5866,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Navy sole-sourced X-Ray Baggage Scanner procurement for maritime force protection; system already integrated into fleet operations with shipboard space constraints and safety requirements.",
+          "news": 3,
+          "quote": "The Autoclear system is already integrated into [REDACTED]. Fielding a disparate system from an alternate vendor would create a direct technical incompatibility regarding shipboard logistics and Force Protection posture.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "13--Redacted JA for sole source N0017426F1167.pdf",
+      "s": "screened",
+      "sol": "FY26-MAY27-21"
     },
     "40fff9f294fa48d49943e390cac614a5": {
       "c": 3202,
@@ -16623,6 +16905,22 @@
       "s": "screened",
       "sol": "36C24127Q0019"
     },
+    "4c48ed45808841288f04b7a3bdff105a": {
+      "c": 6673,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "U.S. Marshals Service sole-source contract with RBEX Inc. for seized vehicle towing, storage, and disposal in Hawaii and California for $499,999.99 over six months without open competition.",
+          "news": 3,
+          "quote": "The United States Marshals Service (USMS) is seeking to solicit services from only one source that are currently existing on contract 15M50026DA4400011",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "RFO PART 6 JOFOC - CA_HI Vehicle Services - Redacted.pdf",
+      "s": "screened",
+      "sol": "15M50027DA4400-TBD-20261015"
+    },
     "4c5533f3e6e6427dbd5027648022fea3": {
       "c": 5209,
       "d": "2026-10-10",
@@ -16630,6 +16928,14 @@
       "n": "36C26026Q0902.docx",
       "s": "screened",
       "sol": "36C26026Q0902"
+    },
+    "4c746a0cea5e4cc882ff99e01e80f00d": {
+      "c": 280756,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "C05m Attachment 11 Golder 1240BH26R0013.pdf",
+      "s": "screened",
+      "sol": "1240BH26R0013"
     },
     "4c7ff6ca00a24c8687f8ff66dc342c2f": {
       "c": 4227,
@@ -16640,13 +16946,20 @@
       "sol": "70Z02326R93280004"
     },
     "4c8d9da89b8c46449df9c95d324ea6e0": {
-      "a": 2,
-      "c": 134321,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 134602,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "07 98 SBU - CONTRACTING AND ACQUISITIONS 1. General 1.1. This Purchase Order includes security provisions that are contained in the attached DD Form 254, Contract Security Classification Specification, issued by the Bureau of Diplomatic Security, DS/IS/IND. Contractor must maintain a Secret Facility Clearance issued by Defense Counterintelligence and Security Agency (DCSA) for period of performance. 1.2. Public Release of Information There shall be no press release of information or photographs, to include on company websites, concerning any aspect of the design, construction, or other services relating to this contract, or other documents resulting there from, without the written prior approval of the Contracting Officer. The contractor shall include the substance of this provision in all subcontracts hereunder. 2. Personnel Requirements 2.1. Person",
+          "finding": "State Department solicitation for preventive maintenance at U.S. Embassy Libreville requires contractors maintain SECRET security clearances and handle classified diplomatic facility information.",
+          "news": 3,
+          "quote": "Contractor must maintain a Secret Facility Clearance issued by Defense Counterintelligence and Security Agency (DCSA) for period of performance.",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "19GB5026Q0022_FY26 BAS Solicitation.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "19GB5025Q0022"
     },
     "4c8da389e57a411f8f85aa86bdab59be": {
@@ -18078,6 +18391,14 @@
       "s": "screened",
       "sol": "W912WJ26QA171"
     },
+    "528b8a14c0014e22a2411bc903318348": {
+      "c": 3675,
+      "d": "2026-10-15",
+      "m": "docx",
+      "n": "36C25927Q0010.docx",
+      "s": "screened",
+      "sol": "36C25927Q0010"
+    },
     "529405e700ca456687f0adc9cde8b495": {
       "c": 2828,
       "d": "2026-10-10",
@@ -18214,13 +18535,11 @@
       "sol": "70Z08526QIBCT0051"
     },
     "532a3359d02641aa831bcc3773dcf3b3": {
-      "a": 1,
-      "c": 2552617,
+      "c": 2575647,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "Solicitation Attachment YS Seed Project Specifications.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA441826R0009"
     },
     "532fcaac7e404f89a26ba2af40017c9c": {
@@ -18983,8 +19302,8 @@
       "sol": "PR507071"
     },
     "56dc0d3c4d6840c19c303e752a8a8f9c": {
-      "c": 83077,
-      "d": "2026-10-14",
+      "c": 75615,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "Phase 2 - as-built electrical.pdf",
       "s": "screened",
@@ -20414,6 +20733,23 @@
       "s": "screened",
       "sol": "140PP027Q0008"
     },
+    "5d8d39a1b07c4100976e43d9c60656f0": {
+      "c": 8746,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "ope & Northern Africa SSS SSS]! Page 3 | Justification for Other than Full and Open Competition Under Authority of 10 U.S.C. \u00a7 3204(a)(1) Full Foodservice Prime Vendor for Customers in Southern Europe & Northern Africa The proposed action will result in the award of a bridge contract to EFS, effective October 15, 2026, through December 14, 2027. The proposed bridge contract is necessary to ensure uninterrupted service to the customer and avoid mission failure as the follow-on contract is awarded and implemented. EFS is the only food supplier in Southern Europe and Northern Africa AOR that has fully implemented STORES electronic catalogs tailored to the DLA customers in this AOR. The proposed bridge contract is necessary to ensure uninterrupted service to the existing customers and avoid mission failure while the follow-on contract is awarded and fully implemented. The implementation of the STORES electronic catalog and for the awardee to obtain Government clearances and base access requires the entire ramp up period of 180 days. Thi",
+          "finding": "DLA awarded $70M bridge contract for foodservice prime vendor in Southern Europe/Northern Africa through December 2027; ensuring uninterrupted military supply chain.",
+          "news": 4,
+          "quote": "The proposed bridge contract is necessary to ensure uninterrupted service to the existing customers and avoid mission failure while the follow-on contract is awarded and fully implemented.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "G TAB 1 JA Southern Europe_Northern Africa_Zone 2 Bridge 1__Redacted.pdf",
+      "s": "screened",
+      "sol": "SPE30027D4112"
+    },
     "5d8f0f1923cd41d8956acf76d056bd0a": {
       "c": 9634,
       "d": "2026-10-14",
@@ -20769,8 +21105,8 @@
       "sol": "36C24426B0018"
     },
     "5f2d868bc22a487dad0afc323302e23c": {
-      "c": 75882,
-      "d": "2026-10-14",
+      "c": 86205,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "B08_Att_(4)_2025_01_02_-_Geotechnical_Report_HAVO_Rehabilitate_Water_Treatment_System.pdf",
       "s": "screened",
@@ -21374,8 +21710,8 @@
       "sol": "4WA0688"
     },
     "61d9b8a64c484abab61705cb8ac7c13e": {
-      "c": 5911,
-      "d": "2026-10-14",
+      "c": 6305,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "Attachment 1 - BLDG 650 Mather 2nd and 3rd Floor Carpet Replacement Current Flooring.pdf",
       "s": "screened",
@@ -23132,6 +23468,22 @@
       "s": "screened",
       "sol": "SPE60426R0401"
     },
+    "69b48c7143b8496f8457e157260acb5c": {
+      "c": 11832,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "NOAA awards sole-source five-year contract to Boeing for engineering anomaly support of GOES-NOP spacecraft bus, citing proprietary information and 20+ years of program experience.",
+          "news": 4,
+          "quote": "Only Boeing possesses the proprietary information for the GOES-NOP series spacecraft. Boeing does not license such proprietary information to a third-party vendor",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JOFOC GOES-NOP Spacecraft Bus_FE-Flattened_Redacted.pdf",
+      "s": "screened",
+      "sol": "ACQ-AONCA0110-26-0031"
+    },
     "69b9de368e8d47e48c4d0e86bf23e737": {
       "c": 6266,
       "d": "2026-10-14",
@@ -24491,8 +24843,8 @@
       "sol": "W911RQ-27-S-C001"
     },
     "6f721f94c41241b28d4af1a9b578326f": {
-      "c": 1802,
-      "d": "2026-10-14",
+      "c": 1959,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "Attachment 1 - BLDG 650 Mather 2nd and 3rd Floor Carpet Replacement Current Flooring.pdf",
       "s": "screened",
@@ -26768,6 +27120,22 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "7859745dc0744b8c928e5cd8df396b48": {
+      "c": 5013,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Navy justified sole-source procurement of point-of-care ultrasound systems for USNS Mercy citing mandatory Naval Operating Forces Authorized Medical Allowance List requirement and AI/voice assist features.",
+          "news": 3,
+          "quote": "Market research confirms that only one product, the point-of-care ultrasound system manufactured by [REDACTED], can meet all of the Government's minimum requirements. The key discriminator is the mandatory requirement for the system to be listed on the Naval Operating Forces' Authorized Medical Allo",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "ECAT JEFO Sonosite_FINAL_sept292026_KO_ENG_SIG_2_Redacted.pdf",
+      "s": "screened",
+      "sol": "SPE2D527F0143"
+    },
     "78599cccfc3f46188955f422d938a3c9": {
       "c": 5060,
       "d": "2026-10-14",
@@ -26861,6 +27229,23 @@
       "n": "Attachment 6 - ES7650_Oct2000 - MIL-STD-1916.docx",
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
+    },
+    "78dc034013a34a28bd7f70d5dbfd4c02": {
+      "c": 13689,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "he current contract ceiling Not-To- Exceed value (NTE) is $48 Million. Over the past several years, NASA\u2019s workload under RPOC V has grown significantly due to expanding program requirements and the addition of new RPOC support functions. This increased demand has accelerated the rate at which the contract funding is being utilized Based on current spending trends and projected workload, NASA estimates that the contract ceiling will be reached by October 2026, well before the end of the ordering period date, January 31, 2028. This earlier-than-planned exhaustion of contract capacity reflects the substantial rise in technical integration, engineering analysis, and mission support activities now required across ISS, Orion GNC, Human Landing System, Gateway, and other exploration initiatives. Because this work is both ongoing and mission\u2011critical, the current ceiling no longer provides sufficient capacity to meet NASA\u2019s needs through the remainder of the contract period. To prevent any disruption",
+          "finding": "NASA increases RPOC V contract ceiling by $50 million (from $48M to $98M) with Odyssey Space Research for human spaceflight engineering support across ISS, Orion, Moon Base, and Artemis programs.",
+          "news": 3,
+          "quote": "Based on current spending trends and projected workload, NASA estimates that the contract ceiling will be reached by October 2026, well before the end of the ordering period date, January 31, 2028",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "RPOCV Ceiling Increase JOFOC.pdf",
+      "s": "screened",
+      "sol": "80JSC023DA007"
     },
     "78e3d172d19c49dcb5a7b8182d1a0f77": {
       "c": 45144,
@@ -27018,6 +27403,14 @@
       "n": "Attachment 8 Crestview Guard Station Map.pdf",
       "s": "screened",
       "sol": "1240BH26Q0078"
+    },
+    "79aa022279404f77a6e2214106659566": {
+      "c": 12038,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "Solicitation Amendment FA239626RB0080004 SF 30.pdf",
+      "s": "screened",
+      "sol": "FA239626RB008"
     },
     "79b0a40048c645cd8a55df2430e590f0": {
       "c": 0,
@@ -28019,15 +28412,21 @@
       "s": "screened",
       "sol": "FA820126R0020"
     },
-    "7e6ae0fc573e43f0bfc82f892632c96d": {
-      "a": 1,
-      "c": 5316,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+    "7e7ba81577714711841200340a28491d": {
+      "c": 7197,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "U.S. Marshals Service increases contract ceiling for vehicle seizure and forfeiture services with RBEX Inc. from $499,999.99 to $999,999.98 across Nevada and Northern California.",
+          "news": 3,
+          "quote": "The total estimate value of the proposed modification to increase the contract ceiling is $499,999.99 which brings the total estimated value of the contract to $999,999.98",
+          "verified": false
+        }
+      ],
       "m": "pdf",
-      "n": "RFP SPE602-26-R-0706_AMD0001_conformed.pdf",
-      "s": "retry",
-      "sol": "SPE602-26-R-0706"
+      "n": "RFO PART 6 JOFOC - CA_NV Ceiling Increase - Redacted.pdf",
+      "s": "screened",
+      "sol": "15M50026DA4400010"
     },
     "7e926fdd118246d5a984d7611db37f19": {
       "c": 70352,
@@ -28239,6 +28638,14 @@
       "s": "screened",
       "sol": "36C26326Q1117"
     },
+    "7f9f092a24a34588a3ad35d688d626a0": {
+      "c": 5451,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "N3904027Q3201 Attachment 4- LSJ.pdf",
+      "s": "screened",
+      "sol": "N3904027Q3201"
+    },
     "7fc636ff0c974a51bb91653c924a1a49": {
       "c": 6655,
       "d": "2026-10-10",
@@ -28296,8 +28703,8 @@
       "sol": "36C26326Q0652"
     },
     "803108e956534d718d4359b1d0794870": {
-      "c": 103924,
-      "d": "2026-10-14",
+      "c": 95338,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "B09_Amend_0002_Att_100__Drawings_Stamped_YELL_338223_0002.pdf",
       "s": "screened",
@@ -28589,13 +28996,11 @@
       "sol": "FA465427R0001"
     },
     "81615533f7c1490894658c13b3b5b9a0": {
-      "a": 1,
-      "c": 1061558,
+      "c": 1060784,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "zip",
       "n": "DRAFT_ MDE-NG- Handbooks.zip",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C10X27R0001"
     },
     "817008f9bcf342fc88e0e1bf9f11eeb1": {
@@ -29057,6 +29462,14 @@
       "s": "screened",
       "sol": "36C26226Q1475"
     },
+    "8375674ac046464992a0a96fc60e8ef3": {
+      "c": 1797,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "JOTFOC 101526.pdf",
+      "s": "screened",
+      "sol": "2LA0292"
+    },
     "838b3270041040a6853276069119e025": {
       "c": 22851,
       "d": "2026-10-10",
@@ -29131,13 +29544,19 @@
       "sol": "FA2391-23-S-2403"
     },
     "83dfaea7c02e4aa196928eba683c934a": {
-      "a": 1,
-      "c": 425466,
+      "c": 434744,
       "d": "2026-10-15",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "Multi-story renovation project at Joint Base Charleston includes new dormitory sleeping rooms, accessible facilities, and institutional-scale kitchen and laundry infrastructure.",
+          "news": 3,
+          "quote": "464 DOMITORY...SLEEPING RM 'E', 'D', 'B', 'A', 'C'...ACCESSIBLE SLEEPING RMS...KITCHEN...LAUNDRY",
+          "verified": false
+        }
+      ],
       "m": "ocr+pdf",
       "n": "Solicitation Attachment YT Seed Project Drawings.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA441826R0009"
     },
     "83f9d525507e4ff8ac13ec71af19b2bc": {
@@ -30379,13 +30798,11 @@
       "sol": "1240BH26R0013"
     },
     "8a1ab1f76856400f99940e10af3157ab": {
-      "a": 1,
       "c": 4531,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "pptx",
       "n": "Moab_Critical Minerals_Overview_Final.pptx",
-      "s": "retry",
+      "s": "screened",
       "sol": "DOECriticalMineralResource2026"
     },
     "8a1ee501e282452c8e065a89fc76a1e8": {
@@ -30516,6 +30933,22 @@
       "n": "Solicitation - N0017327Q1900.pdf",
       "s": "screened",
       "sol": "N0017327Q1900"
+    },
+    "8a676bf4b406443eaa70195cbd0ff733": {
+      "c": 16075,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Air Force sole-source contracts Air Boss services for Dover AFB airshow with WM. David Schultz through June 2027.",
+          "news": 3,
+          "quote": "The Contractor shall provide Air Boss and Ground Support Services at Dover AFB, DE. Open House on dates specified in paragraph 5 of this PWS provided weather and site conditions permit",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "DRAFT - Dover AFB Air Boss PWS 2027.pdf",
+      "s": "screened",
+      "sol": "FA4497-27-Air_Boss_Dover"
     },
     "8a6c4f15e83940e1bbc024e26178cd32": {
       "c": 4106,
@@ -31653,8 +32086,23 @@
       "sol": "SLAC_DRAFT_RFP_369005_CRMF_Cleanroom_Construction"
     },
     "8f01576bba9e4b8c9dd2d8a6aacf9c70": {
-      "c": 63552,
-      "d": "2026-10-14",
+      "c": 65282,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "ties, ensuring timely delivery whenever orders are placed. 2. Schedule and Logistics Management: Offerors must ensure that the delivery of new X-ray machines aligns with the removal of machines from expiring task orders. Additionally, all required and ad hoc maintenance must be performed promptly and according to schedule. 3. Program Management: This contract is expected to have approximately 270 concurrent task orders, supporting around 1,000 X-ray machines. Offerors must provide a comprehensive strategy for managing these task orders which ensures uninterrupted support for the security mission, including (but not limited to): \u2022 Tracking task order performance periods \u2022 Scheduling and completing routine annual maintenance \u2022 Managing monthly invoicing for each task order \u2022 Coordinating logistics for the removal of expiring machines and the delivery/installation of new units X-ray Lease Solicitation 70RFP326REH000002 Page 71 of 79 For each risk, offer",
+          "finding": "DHS Federal Protective Service leasing 1,000+ X-ray screening machines across ~270 concurrent federal facilities nationwide for 60 months through 2032.",
+          "news": 4,
+          "quote": "This contract is expected to have approximately 270 concurrent task orders, supporting around 1,000 X-ray machines.",
+          "verified": true
+        },
+        {
+          "finding": "X-ray machines must detect explosives including ammonium nitrate, PETN, RDX, TNT, and smokeless powder; AI/machine learning required for threat detection.",
+          "news": 3,
+          "quote": "The automated threat detection capability shall minimally detect the following explosives: Ammonium nitrate (AMN03); Nitroglycerin; Pentaerythritol tetranitrate (PETN); Black and Smokeless Powder; Trinitrotoluene (TNT); Cyclotrimethylene Trinitramine (RDX)",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "Solicitation - 70RFP326REH000002.pdf",
       "s": "screened",
@@ -31677,13 +32125,11 @@
       "sol": "36C26327Q0055"
     },
     "8f56c2829da7453b81e1d6e723c52921": {
-      "a": 2,
-      "c": 3318,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 3426,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "2.1.3 SOL AMDNT 6 - N0040627R00040006 Conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N0040627R0004"
     },
     "8f88df7db1034b04adb49cd34ea0bab6": {
@@ -31917,20 +32363,22 @@
       "sol": "140D0427Q0931"
     },
     "9036e05a29264b7c9c91dd11a8e816b8": {
-      "c": 25849,
-      "d": "2026-10-14",
+      "c": 25260,
+      "d": "2026-10-15",
       "f": [
         {
-          "finding": "Army Corps of Engineers Winfield Locks and Dam major rehabilitation project includes complete replacement of gate machinery, hydraulic systems, and anchor bars for multiple lock chambers.",
+          "context": "DATE N US Army Corps of Engineers \u00ae DISTRICT / INLAND NAVIGATION DESIGN CENTER M HUNTINGTON DISTRICT L WINFIELD LOCKS AND DAM MAJOR REHABILITATION DESCRIPTION K MARK J DESIGNED",
+          "finding": "Winfield Locks and Dam on Kanawha River in West Virginia requires major rehabilitation of gate machinery, including replacement of hydraulic systems and operating equipment.",
           "news": 4,
-          "quote": "REPLACE ALL WIRE ROPE OF GATE SHEAVES. REPLACE BOTH SETS... NEW HAGGLUNDS QMX840 & QMX280 HYDRAULIC MOTORS WITH INTEGRAL BICA 250 BRAKES... INSTALL NEW 75 HP ELECTRIC MOTOR",
-          "verified": false
+          "quote": "WINFIELD LOCKS AND DAM MAJOR REHABILITATION",
+          "verified": true
         },
         {
-          "finding": "Winfield Locks infrastructure shows age and significant structural demands, with 18-27 prestressed anchor bars per location requiring detensioning, removal, and replacement to Grade 150 KSI specifications.",
+          "context": "4. SEE MY-501 FOR HYD. SCHEMATIC. INSTALL NEW HAGGLUNDS QMX840 & QMX280 HYDRAULIC MOTORS 5. SEE TECHNICAL SPECIFICATIONS FOR MORE DETAILS. WITH INTEGRAL BICA 250 BRAKES. NEW PINION SHAFT SIMILAR M TO 54/10-1 MATCHING TO HYD MOTOR",
+          "finding": "Army Corps of Engineers project replacing existing worm gear speed reducers and electric motors with new Hagglunds hydraulic motors on lock gate operating machinery.",
           "news": 3,
-          "quote": "EXISTING 18 - 1 3/8\" DIA. GRADE 150 KSI PRESTRESSED BARS... NEW 18 - 1 3/8\" DIA. GRADE 150 KSI PRESTRESSED BARS IN 1 1/2\"... ANCHOR BARS TO BE TENSIONED BY JACKING TO 189.6 KIPS PER BAR",
-          "verified": false
+          "quote": "INSTALL NEW HAGGLUNDS QMX840 & QMX280 HYDRAULIC MOTORS WITH INTEGRAL BICA 250 BRAKES",
+          "verified": true
         }
       ],
       "m": "ocr+pdf",
@@ -31946,15 +32394,22 @@
       "s": "screened",
       "sol": "SPMYM327Q1100"
     },
-    "9049a5cfc03e4ced84f8447ad27bc558": {
-      "a": 1,
-      "c": 3653,
-      "d": "2026-10-14",
-      "e": "screening call failed",
-      "m": "pdf",
-      "n": "RFP SPE602-26-R-0706_AMD0002_conformed.pdf",
-      "s": "retry",
-      "sol": "SPE602-26-R-0706"
+    "9045b2b05d714c96b054ba0d36b72ec1": {
+      "c": 23193,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "eriod and is scheduled to expire on June 29, 2026. Without approval of this action, there is a risk of interruption to ongoing studies and disruption to mission-critical research activities supported under this contract. Although planning for the recompete was underway in calendar year 2025, Executive Order 14158 of January 20, 2025 Establishing and Implementing the President\u2019s \u201cDepartment of Government Efficiency\u201d caused unforeseen circumstances beyond the control of the acquisition office causing significant delays to the acquisition process. Between 2025 and 2026, several delays occurred due to staffing changes, organizational transition and other internal realignments. The ensuing changes to the contracting office impacted the ability to continue efforts to recompete and issue a new contract award by the time that the subject contract ends. Thus, an extension of th",
+          "finding": "NIH extends epidemiology research contract $20M citing DOGE-caused staffing delays; cites 10-month transition time if new contractor selected.",
+          "news": 4,
+          "quote": "Executive Order 14158 of January 20, 2025 Establishing and Implementing the President's \"Department of Government Efficiency\" caused unforeseen circumstances beyond the control of the acquisition office causing significant delays to the acquisition process.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA_SSS_HHSN273201600003I_PDF_Final 6.9.26.pdf",
+      "s": "screened",
+      "sol": "HHSN273201600003I"
     },
     "905d3bb9d0114528a12f01b14721da53": {
       "c": 8890,
@@ -32333,13 +32788,11 @@
       "sol": "1240LT26Q0187"
     },
     "923bffa7936b4ab88f5377d993c7cbba": {
-      "a": 2,
       "c": 5158,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "19GB5026Q0022_FY26 BAS Solicitation vGSOsigned.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "19GB5025Q0022"
     },
     "9253ed7bfcdf41a9b7874fac2eb6f359": {
@@ -32519,8 +32972,8 @@
       "sol": "80NSSC26945542Q"
     },
     "92d14edc658d410096a06b6c9c89dab6": {
-      "c": 17543,
-      "d": "2026-10-14",
+      "c": 18910,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "P23946211_DWG.pdf",
       "s": "screened",
@@ -32654,6 +33107,23 @@
       "s": "screened",
       "sol": "36C77027Q0007"
     },
+    "9389a34336eb4defbaf40a99c6281e02": {
+      "c": 7827,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "perations, and Contracting and Procurement propose to solicit and issue a purchase order based on soliciting only one source. The procurement request number is PR265900A041 and the Contracting and Procurement\u2019s tracking number is JA- 2026-04-1410. This acquisition is conducted under FAR Part 12. SECTION II: Description of Action Being Approved (a) QuickSeries Publishing Inc. (QuickSeries) 5100 NW 33\" Ave, Suite 247 Fort Lauderdale, FL 33309 (b) Type of action: Firm Fixed-Price Contract (C) Amount: (d) Period of Performance: One twelve-month base period and two (2) one-year option periods. (e) QuickSeries is the provider, of the Surface Transportation Resource for Information, Directives and E-Sources (STRIDE) APP, which is a proprietary solution. QuickSeries also solely developed, maintained and supported this solution is unique to this vendor and is not available from other sources. This APP serves as the electronic platform for the Surface Counterterrorism Guides. The STRIDE App offers Transportation Security Inspectors and Surface",
+          "finding": "TSA sole-sourced counterterrorism training guides app (STRIDE) renewal to QuickSeries Publishing; proprietary platform serves Transportation Security Inspectors across multiple modes.",
+          "news": 4,
+          "quote": "QuickSeries Publishing Inc. has an established understanding of the STRIDE APP's operational requirements and user base. Transitioning to a new vendor would risk service interruptions, loss of data integrity.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Counterterrorism Guides_Single Source Justification_JA-2026-04-1410_Redacted.pdf",
+      "s": "screened",
+      "sol": "70T04026P5900N001"
+    },
     "939053475f814103874ec8e89535960f": {
       "c": 52966,
       "d": "2026-10-10",
@@ -32779,6 +33249,14 @@
       "n": "IFB 6982AF27B000006 - TX FW LGA 10(5) .pdf",
       "s": "screened",
       "sol": "6982AF27B000006"
+    },
+    "93fd2420d8bc4caf9580caec4fa8bc7a": {
+      "c": 118483,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "3.02_RFP_N0010426RFG66_26204-0075.PDF",
+      "s": "screened",
+      "sol": "N0010426RFG66"
     },
     "9409ce767a7e46589507188dbacf64ba": {
       "c": 163659,
@@ -35095,13 +35573,11 @@
       "sol": "N3220526R6120"
     },
     "9d13e7976bce46ccbc41f4a82286c984": {
-      "a": 1,
-      "c": 9655,
+      "c": 9020,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "SPE4A726R0003_Redacted.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "SPE4A726R0003"
     },
     "9d178a5eba1249e5b95590175831079d": {
@@ -35852,6 +36328,23 @@
       "s": "wage_determination",
       "sol": "15BRRC26R0000016"
     },
+    "a17bbbaeb4ec4947b27de21ff142c36b": {
+      "c": 5957,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "anagement needs. The statutory exception supporting the placement of an order exceeding the SAT on a sole source basis is: GSAR 538.7104-3(b)(1)(ii) \u00b1 Only one source is capable of providing the products, services, or solution required at the level of quality required because the products, services, or solutions are unique or highly specialized. Telos Corporation is the developer, manufacturer, and sole-source provider of the Xacta suite of products and its associated integration services to the Federal Government. Xacta is a unique cyber risk management and compliance automation solution that provides a comprehensive view of risk and compliance with applicable regulations, including National Institute of Standards and Technology (NIST) 800/37/53/53A, Federal Information Processing Standards (FIPS) 199/200, and Intelligence Community Assessment and Authorization processes. Telos Corporation is unequivocally qualified as the only company with access to the proprietary Xacta Code, Application Programming Interfaces, Integrations, and",
+          "finding": "Navy awarded $880K sole-source contract to Telos Corporation for cybersecurity and risk management software (Xacta) for Naval Intelligence with proprietary integration requirements.",
+          "news": 3,
+          "quote": "Telos Corporation is the developer, manufacturer, and sole-source provider of the Xacta suite of products and its associated integration services to the Federal Government.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "SSJ 26-208 PreSolNotice.pdf",
+      "s": "screened",
+      "sol": "N0018926FW278"
+    },
     "a1845676c8204d7094ea535f8b47396c": {
       "c": 5466,
       "d": "2026-10-12",
@@ -36168,6 +36661,23 @@
       "s": "screened",
       "sol": "FA813927Q0003"
     },
+    "a33f942fbd004f5fb114c125cfd1c434": {
+      "c": 22644,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": ".S. Secret Service (USSS), Office of Procurement, proposes to enter into a sole source contract using simplified acquisition procedures (SAP) in ===accordance=with=cederal=^cquisition=oegulation=Ec^oF=NOKOMNJNEc^o=`lass=aeviation=ORJ 21) and 41 U.S.C. 1901. 2. Nature and/or description of the action being approved. (a) Nature of action. USSS intends to award a sole-source Firm Fixed Price contract to Charter Communications Operating Limited Liability Company (LLC) doing business as (d/b/a) Spectrum Business for business internet, dedicated fiber connectivity, enterprise television service, Internet Protocol Cloud (IPCloud) hosting, static Internet Protocol (IP) addresses, network equipment, maintenance, and support for the National Computer Forensics Institute (NCFI) campus in Hoover, Alabama, and the NCFI Lab in Tulsa, Oklahoma. The services are required to support NCFI\u0092s mission to educate, train, and equip State, local, Tribal, and territorial law enforcement officers, prosecutors, and judges, as",
+          "finding": "Secret Service awards $441k sole-source internet contract to Charter/Spectrum for National Computer Forensics Institute training facilities.",
+          "news": 3,
+          "quote": "USSS intends to award a sole-source Firm Fixed Price contract to Charter Communications Operating Limited Liability Company (LLC) doing business as (d/b/a) Spectrum Business for business internet, dedicated fiber connectivity, enterprise television service",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA NCFI Internet Services.pdf",
+      "s": "screened",
+      "sol": "70US0926C70095208"
+    },
     "a3461b9ddbf341ecad936e3b9a81f7b3": {
       "c": 0,
       "d": "2026-10-10",
@@ -36352,6 +36862,14 @@
       "n": "SATPC0042947 Tab RFQ Questions and Answers.pdf",
       "s": "screened",
       "sol": "80NSSC26946154Q "
+    },
+    "a42f6bc4a8ad491baa04519703589130": {
+      "c": 7829,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "GE Healthcare_VHA_Maintenance_JEFO 09.23.26.pdf",
+      "s": "screened",
+      "sol": "VA797H17D0024-36C25727F0015"
     },
     "a4413e1e27e44e2da58b165dd9fcbe52": {
       "c": 0,
@@ -36548,6 +37066,23 @@
       "n": "Questions and Responses 10-9-2026.docx",
       "s": "screened",
       "sol": "6973GH-27-R-00013"
+    },
+    "a52f059306cb4978958f715c6f212755": {
+      "c": 5393,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "g Use of Cited Statutory Authority. The items/services being procured under this J&A are in direct support of the MTS, which has been deployed on Navy H-60 Rotary Wing, Air Force Manned & Unmanned Air Vehicles (UAVs), and Army UAVs. The MTS OEM, Raytheon Company, subcontracted design and production of the HEC components to GE Aviation Systems LLC. The Government has been purchasing the MTS systems from Raytheon for over twenty (20) years and has deployed more than five hundred systems in multiple manned and unmanned platforms. All prior requirements for HEC repairs were covered by sole source contracts/orders placed with GE and Raytheon Company, the MTS system OEM. The requirement for the HEC components comprises approximately rr repair of the MTS system. In an effort to shorten repair turnaround time, the Government seeks to procure services required for sustainment of the HEC components directly from the subcontractor, GE. Repair of the HEC components by any source other than GE is not practicable. GE Aviation Systems LLC designed,",
+          "finding": "Navy awarded five-year sole-source contract to GE Aviation for High Energy Converter repairs supporting Multi-spectral Targeting Systems on H-60, UAVs; 20+ years incumbent relationship.",
+          "news": 3,
+          "quote": "The Government has been purchasing the MTS systems from Raytheon for over twenty (20) years and has deployed more than five hundred systems in multiple manned and unmanned platforms.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "G7_J_A_Redacted.pdf",
+      "s": "screened",
+      "sol": "N0016426DLN09"
     },
     "a5356437643343a4a1fd0e24bf025023": {
       "c": 2681,
@@ -37026,13 +37561,11 @@
       "sol": "W912CH-26-S-0001"
     },
     "a6a6a51b4c9344899bce845b960d7366": {
-      "a": 1,
       "c": 4960,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "docx",
       "n": "36C24427Q0023.docx",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C24427Q0023"
     },
     "a6ae41d0f6cf499598aa6c1afe2b998a": {
@@ -37833,13 +38366,11 @@
       "sol": "36C10B26Q0678"
     },
     "aa018a0569df4159b46b8be13791fd35": {
-      "a": 2,
-      "c": 33218,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 33028,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "70Z08026QMECP0031.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "70Z08026QMECP0031"
     },
     "aa07f851be904eb881578d2935a24c6d": {
@@ -37873,6 +38404,22 @@
       "n": "SBPCD Instructions to Offerors(DRAFT).xlsx",
       "s": "screened",
       "sol": "FA8652-26-R-0006"
+    },
+    "aa6f1f9ae3204bc295af2af0d5721beb": {
+      "c": 4601,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Navy sole-sourced flight testing and environmental qualification for FLARES Scan Eagle UAS to Insitu; cites 270-day competitive cycle would create nine-month gap in fleet testing.",
+          "news": 4,
+          "quote": "The average acquisition cycle time required to competitively procure UAS testing services...is estimated at 270 days. Attempting to compete this requirement would result in a catastrophic, nine-month gap in critical fleet testing.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA 26-0355_Redacted.pdf",
+      "s": "screened",
+      "sol": "N00019-26-RFPREQ-WPM263-0283"
     },
     "aa7407e9d42346fb9297200618f69889": {
       "c": 106,
@@ -41213,6 +41760,14 @@
       "s": "screened",
       "sol": "36C25027Q5393"
     },
+    "b891988f3afc4e528a5697da068020cb": {
+      "c": 86524,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "IFB_140R4026B0002_NGWSP_Turnout_Buildings.pdf",
+      "s": "screened",
+      "sol": "140R4026B0002"
+    },
     "b8a4df1380f74baebc3c7fcb83bb72eb": {
       "c": 31807,
       "d": "2026-10-13",
@@ -42239,6 +42794,14 @@
       "s": "screened",
       "sol": "a83e297672324a0f9403cdcf4235e65e"
     },
+    "bc34ad2d1fc84b9ea8e05dbe778155cc": {
+      "c": 197677,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "RFP_69056726R000019_ID FLAP KOOTEN 8450(1).pdf",
+      "s": "screened",
+      "sol": "69056726R000019"
+    },
     "bc3b5562c7ea485bb13a0f883a163446": {
       "c": 789,
       "d": "2026-10-13",
@@ -42361,6 +42924,23 @@
       "s": "screened",
       "sol": "36C26127Q0026"
     },
+    "bcc0f888f815456384b4f2ffb348406f": {
+      "c": 12241,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "on for Other Than Full and Open Competition responsibilities for strategic deterrence and global strike. ISPAN is the United States only nuclear planning system and is comprised of two major subsystems, the Mission Planning and Analysis System (MPAS) and the Global Adaptive Planning Collaborative Information Environment (GAPCIE). MPAS is the nation's only comprehensive system for developing \u201cLevel 4\u201d nuclear plans and options for the President of the United States Nuclear Decision Handbook and Fielded Nuclear Forces in support of Operations Plan 80XX. AFNWC/NCC is the designated Program Management Office (PMO) for the ISPAN MPAS Branch and as such is responsible for all management actions associated with this contract. The Procuring Contracting Office is AFNWC/PZU, which is responsible for overall contract management. The primary users of NIDS 4 applications are USSTRATCOM J53 and J59 personnel; USSTRATCOM J56 sponsors MPAS components. The primary operating location is USSTRATCOM, Offutt Air Force",
+          "finding": "Air Force extends $8.9 million contract with Peraton for nuclear targeting systems (NIDS4), supporting Strategic Nuclear Aimpoint Planning System (SNAPS) development for U.S. Strategic Command nuclear mission planning.",
+          "news": 4,
+          "quote": "MPAS is the nation's only comprehensive system for developing Level 4 nuclear plans and options for the President of the United States",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Part 6 JA NIDS4 JA Signed all printed Redacted.pdf",
+      "s": "screened",
+      "sol": "FA873022F8506P00035"
+    },
     "bcc211a7162a40eb8adaab4fa08e9047": {
       "c": 1304,
       "d": "2026-10-13",
@@ -42385,6 +42965,23 @@
       "n": "PWS ATAMMC.docx",
       "s": "screened",
       "sol": "R707"
+    },
+    "bccda322ff344cefbdd662bc3390092b": {
+      "c": 90700,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "it #NAE-2022-0037. However, with the construction of the new museum, the USCG has identified the need for additional dredging beyond the previously authorized footprint to improve berthing access and accommodate additional vessels at all tide levels. As a result, the USCG is seeking approval to expand the dredge footprint. 1.2 Project Description The proposed dredge area is approximately 185 feet long by 123 feet wide and is located approximately 60 feet south of the City Pier. This footprint will be dredged to a depth of -17.0 feet mean lower low water (MLLW), with an allowable overdredge of 2.0 feet. The total proposed dredge volume, including overdredge, is approximately 3,700 cubic yards. Side slopes (3:1 horizontal to vertical) are proposed along the western edge of the footprint. The dredged material is proposed for upland disposal at one of the following facilities: (1) Clean Earth Dredged Material Recycling Facility (Clean Earth) in Claremont, New Jersey; (2) Green Earth Triangle, LLC (Green Earth Triangle) at the Former Tria",
+          "finding": "U.S. Coast Guard proposes dredging expansion at New London City Pier; sediment samples show elevated polycyclic aromatic hydrocarbons and heavy metals including lead (666 mg/Kg) and chromium (65.6 mg/Kg).",
+          "news": 3,
+          "quote": "The proposed dredge area is approximately 185 feet long by 123 feet wide and is located approximately 60 feet south of the City Pier. This footprint will be dredged to a depth of -17.0 feet mean lower low water (MLLW), with an allowable overdredge of 2.0 feet. The total proposed dredge volume, inclu",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Chemical analysis report 1.pdf",
+      "s": "screened",
+      "sol": "70Z0G126BSLISSW02"
     },
     "bcf0560d5f5049f0b0ce19fdb9a5dc61": {
       "c": 14694,
@@ -42953,23 +43550,8 @@
       "sol": "140P2026R0091"
     },
     "bf29e03631b44c8986dab4319562d7a1": {
-      "c": 224204,
-      "d": "2026-10-14",
-      "f": [
-        {
-          "context": "Assessment Sylamore Ranger District anw anw = : : > er Blanchard Springs Caverns Sa F z ; = 7 prings 5 = \\ LAY ae OY WG: ese i Facilities Renovation ( i { 4 n( = a SS Project Soy { T.A6N., Hy ee iE inne f Ozark-St. Francis National Forests a \\ < | \\ \u201cRUAW., 05. | | a S r Lg Set A Sylamore-St. Francis Ranger District z eee i \\ | = Pay ine os \\ eee It i Stone Gaunt Arkansas a ys: | : ae | ta f Fla\u201d : ! Ge : ea, ler BE) [|] tron enn steimsse TA6N., Wat a Nit WS ee OT i ) : hee | ER compro R.A2W..05 7 eee | (ie Blanchard Springs Miho ok SS ii} Ws Bay comparound ne ie 4 ions \u2018Campground pos cee Ff =| Fishing Site / \\ Ae LANORE aS Oe a tee J - ee - \u2014) va ey Interpretive Vistor Center ==, \u2014 = \u2014 } ( x FB revic ate 7 SS = oo Wht is SS. 4 j ey - i saad Springs Whe \u2014\u2014 Sear ae y = if 938 ) poe DayUse oe Dp ( = es. @ Trailhead ' y Sy <n Ui ees s@ = a == Roads by Operation 0 Be + ng AEF 08 Sr OPE yc Maintenance Level S > wget ee Ca SYR 22] z | Hon charance vonivos f \u00a9 93) s | _\u2014 s earth mec Eee = Buitable for Passenger Cars | | =a \u00a5 as < = . = \u00a9 |",
-          "finding": "USDA Forest Service awarded $12-24 month Blanchard Springs Caverns renovation project in Arkansas with phased implementation potentially spanning 10 years due to funding limitations.",
-          "news": 4,
-          "quote": "It is more likely that based on available funding and priority, the work would be implemented through at least three severable contracts (i.e., contracts that are composed of several separate contracts between the agency and contractor). This may result in multiple temporary closures for a tour rout",
-          "verified": true
-        },
-        {
-          "finding": "Federal visitor center undergoes major renovation due to 50-year-old infrastructure showing significant wear and safety deficiencies including mold, corroded electrical components, and unstable rock overhead in cavern tunnels.",
-          "news": 3,
-          "quote": "Current requirements for accessibility in the BSC VIC are not being met for restrooms (e.g., public and staff) or for access to the mezzanine and administrative spaces above the lobby... The existing break area currently doubles as workspace for some cavern staff as well. Staging areas for cavern to",
-          "verified": false
-        }
-      ],
+      "c": 223572,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "C04e Attachment 5 Env Assessment 1240BH26R0013.pdf",
       "s": "screened",
@@ -43155,6 +43737,14 @@
       "s": "screened",
       "sol": "120c9202b6654d699d936a5401bd7876"
     },
+    "c022f12423d94f7f8e5da7b47d1b8849": {
+      "c": 893,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "ACSI Survey - JA FAR Part 8 2026_Final.pdf",
+      "s": "screened",
+      "sol": "36C10GF0018"
+    },
     "c02e261323214dc180af774aed5f9d29": {
       "c": 660,
       "d": "2026-10-13",
@@ -43219,13 +43809,27 @@
       "sol": "36C10F25R0024"
     },
     "c065a734a1d3488a8fb29987c41d7303": {
-      "a": 2,
-      "c": 85707,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 87028,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "KE 8): NAVSUP Fleet Logistics Center Puget Sound (NAVSUP FLCPS) has a new requirement in support of the USNS WALLY SCHIRRA (T-AKE 8). The repair and maintenance package of work items are included as Work Item Specification Package Military Sealift Command (MSC) AWP N0040626R0003. 2. PERIOD OF PERFORMANCE: 25 January 2027 through 15 March 2027 3. PLACE OF PERFORMANCE: The place of performance shall be entirely Outside the Contiguous United States (OCONUS), within the U.S. 7th Fleet Area of Responsibility (AOR), with a geographical restriction strictly excluding performance in India in accordance with MSC Memorandum dated 18 September 2025. 4. SUBMISSION OF OFFERS: Offerors must provide all information required by Section L of this solicitation no later than 16 October 2026 at 09:00 AM Eastern Daylight Time. Proposals shall be submitted in accordance with the electronic submission instructions set forth in Section L. 5. WORK ITEM INFORMATION: a. Any work item priced based on an estimated quantity/scope will be balanced at the compl",
+          "finding": "Navy contracts mid-term maintenance of supply ship USNS Wally Schirra outside US, excluding India, with liquidated damages of $37,240/day for delays.",
+          "news": 4,
+          "quote": "PLACE OF PERFORMANCE: The place of performance shall be entirely Outside the Contiguous United States (OCONUS), within the U.S. 7th Fleet Area of Responsibility (AOR), with a geographical restriction strictly excluding performance in India in accordance with MSC Memorandum dated 18 September 2025.",
+          "verified": true
+        },
+        {
+          "context": "E. 9. Final Settlement & 100% Recoupment: Following redelivery and review of the final report, the KO will issue a final contract modification settling all O&A labor hours and material costs. Once settled, neither party will be entitled to an adjustment based on actual expended hours or costs (except for fraud, gross mistakes, or latent defects). Any unexpended, unobligated balance of labor hours and material funds remaining on CLIN 0002 shall be unilaterally de-obligated by the Government at 100% value. C-2 TESTING AND QUALITY CONTROL Provide and maintain an inspection system acceptable to the Government IAW the Specification Package MSC AWP - N0040626R0003 as provided herein and additional requirements contained herein. A. Nonconforming Material The Contractor shall establish and maintain a positive system for controlling material which is not in conformance with contractor requirements. The system shall identify and segregate nonconforming material. B. Subcontractor Control and Evaluation",
+          "finding": "Navy uses Over and Above contract structure for ship repairs, allowing unilateral de-obligation of 100% of unexpended funds after completion.",
+          "news": 3,
+          "quote": "Any unexpended, unobligated balance of labor hours and material funds remaining on CLIN 0002 shall be unilaterally de-obligated by the Government at 100% value.",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "2.1.1 SOL - N0040627R0004.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N0040627R0004"
     },
     "c0937376211147bea66e1b12ecbe860d": {
@@ -43515,13 +44119,11 @@
       "sol": "FA2391-23-S-2403"
     },
     "c1dd6cc6284043c29c1801e7f7f8d6e0": {
-      "a": 1,
-      "c": 110603,
+      "c": 110321,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "Solicitation Attachment YS Seed Project Specifications_Mark Up.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA441826R0009"
     },
     "c20e4a882bbd4108a7d87c5b160e4bdc": {
@@ -43761,6 +44363,14 @@
       "s": "screened",
       "sol": "BSA475591"
     },
+    "c2941f884e754e5f9ffbc2cf30a692c3": {
+      "c": 258263,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "Specifications - 612A4-27-018 Replace B650 3rd and 2nd Flooring REV1.pdf",
+      "s": "screened",
+      "sol": "36C26127Q0026"
+    },
     "c2ab3da70b3e46b2827fa00a17061bf9": {
       "c": 540,
       "d": "2026-10-10",
@@ -43918,6 +44528,14 @@
       "n": "B - Division 01 Specification Guidelines.docx",
       "s": "screened",
       "sol": "MXDP261002  "
+    },
+    "c31206a1a5514a19873d2716a77707b4": {
+      "c": 141887,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "Phase 3 and 4 as-built electrical.pdf",
+      "s": "screened",
+      "sol": "FA822226Q3345"
     },
     "c3261aad6c364594bc28349fbb6dbb89": {
       "c": 25718,
@@ -44552,13 +45170,11 @@
       "sol": "36C24W26R0012"
     },
     "c6d0649532db490dbf51ad2cebb37448": {
-      "a": 2,
-      "c": 3293,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 3299,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "2.1.3 SOL AMDNT 3 - N0040627R00040003 Conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N0040627R0004"
     },
     "c6d350a359df42b2b68c11bd0611506e": {
@@ -44785,6 +45401,14 @@
       "n": "C05a General Decision UT20260102 05182026.pdf",
       "s": "wage_determination",
       "sol": "1240LT26Q0106 "
+    },
+    "c76aa53c29194c78b4facf872f11c5fc": {
+      "c": 64737,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "N0010426RK058 T107.pdf",
+      "s": "screened",
+      "sol": "N0010426RK058"
     },
     "c7759d6f478d4b1bb6418a0b4853e35b": {
       "c": 3284,
@@ -45148,44 +45772,12 @@
       "sol": "AECommsKitsBNOJA2026"
     },
     "c9504cdbdb2a480384b7917f4e504de6": {
-      "c": 132441,
-      "d": "2026-10-14",
-      "f": [
-        {
-          "context": "MENTS If Artificial Intelligence (AI) is part of the Contractor system/solution, the Contractor shall be in compliance with E.O. 13960 and 14319, OMB Memorandums M-25-21, M-25-22, and M-26-04, and VA Directive and Handbook 6500 to support VA in trustworthy, secure, responsible, accountable, Truth Seeking, and Ideologically Neutral AI innovation. No web-based, publicly available generative AI service has been approved for use with VA-sensitive data including, but not limited to OpenAI\u2019s ChatGPT, Microsoft\u2019s Copilot, Google\u2019s Gemini, and Anthropic\u2019s Claude. No PII, protected health information (PHI), or VA-sensitive data should be entered into these unapproved services. The entire definition of VA Sensitive Data can be found at 38 U.S.C. \u00a7 5727 (23). The Contractor shall protect VA Sensitive data from unauthorized disclosure or use, and from being used to train or improve the functionality of the vendor's commercial offerings without express permission from VA. The Contractor shall deliver the services, technical data, configurations",
-          "finding": "Contract explicitly prohibits use of ChatGPT, Copilot, Gemini, and Claude for VA sensitive data, citing security concerns.",
-          "news": 4,
-          "quote": "No web-based, publicly available generative AI service has been approved for use with VA-sensitive data including, but not limited to OpenAI's ChatGPT, Microsoft's Copilot, Google's Gemini, and Anthropic's Claude.",
-          "verified": true
-        },
-        {
-          "context": "Order Number: 36C10B27P0005 SECTION B \u2013 CONTINUTATION OF SF 1449 BLOCKS B.1 Schedule of Supplies/Services 1. All products/services shall be in accordance with the Performance Work Statement, entitled \u201cWordPress VIP Platform Hosting and Support\u201d, dated August 4, 2026 as set forth in Section D of this Task Order. 2. The Period of Performance is as follows: October 17, 2026 \u2013 October 16, 2027 3. ARM: 203281 4. Inspection/Acceptance: Destination 5. Delivery Address/Point of Contact: See Performance Work Statement ITEM # SCHEDULE OF SUPPLIES/SERVICES QTY UNIT UNIT PRICE AMOUNT of ISSUE 0001 WordPress VIP Platform Hosting 1 EA $1,329,220.75 $1,329,220.75 Part Number: WPVIP-CMS-PRM-1 Period of Performance: October 17, 2026 \u2013 October 16, 2027 PSC: DA10 0002 Technical Support",
-          "finding": "VA requires contractor to comply with SHARE IT Act for custom code ownership and reuse rights, giving government unlimited rights to source code and documentation.",
-          "news": 3,
-          "quote": "The Contractor shall deliver to the Government all data first produced under this Contract/Order with unlimited rights as defined by RFO 52.227-14, to include without limitation, all custom-developed code and other key technical components of the code",
-          "verified": true
-        },
-        {
-          "finding": "VA awards $2.97M contract for WordPress VIP platform hosting, requiring compliance with new executive orders on AI including ideological neutrality and truth-seeking standards.",
-          "news": 4,
-          "quote": "E.O. 14319, \"Preventing Woke AI in the Federal Government,\" July 23, 2025... The Contractor shall ensure that LLMs and AI outputs are neutral, nonpartisan tools that do not manipulate responses in favor of ideological dogmas such as Diversity, Equity, and Inclusion (DEI).",
-          "verified": false
-        }
-      ],
+      "c": 132943,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "C03 - 36C10B27P0005 PACT Act.pdf",
       "s": "screened",
       "sol": "36C10B27Q0039"
-    },
-    "c951f46aa58a40938555dce16fabb994": {
-      "a": 1,
-      "c": 7508,
-      "d": "2026-10-14",
-      "e": "screening call failed",
-      "m": "pdf",
-      "n": "S02_Att 9_Fort Sill NC 920CM3006 Plan Set Reduced 7 of 11.pdf",
-      "s": "retry",
-      "sol": "36C78626B0030"
     },
     "c95df673b4834a4d90d33e4fe0950ff9": {
       "c": 0,
@@ -45546,6 +46138,23 @@
       "n": "Contract- HDEC02-26-D-E007 (Redacted).pdf",
       "s": "screened",
       "sol": "HDEC02-26-D-E007-AWARD"
+    },
+    "cae51eca69aa4c74b6787362bff11ab6": {
+      "c": 6970,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "nd telephone number): (End of clause) SECTION J- ATTACHMENTS ATTACHMENT I \u2013 Ft. Hood PWS (17 Jul 2025) ATTACHMENT II \u2013 DLA Energy Quality Assurance Provisions (QAPS) ATTACHMENT III \u2013 Past Performance Questionnaire (PPQ) ATTACHMENT IV \u2013Past Performance Reference List ATTACHMENT V \u2013 JV Consent Form ATTACHMENT VI \u2013 Wage Determination 2015-5237 Revision 32 8.17.26 ATTACHMENT VII \u2013Collective Bargaining Agreement 2026-475 SPE603-26-R-0519 Amendment 0001 Clauses Ft. Hood, TX Page 118 of 160 SECTION K- REPRESENTATIONS, CERTIFICATIONS AND OTHER STATEMENTS OF OFFERORS OR RESPONDENTS FAR 52.212-3 OFFEROR REPRESENTATIONS AND CERTIFICATIONS\u2014COMMERCIAL PRODUCTS AND COMMERCIAL SERVICES (DEVIATION 2025-O0003) (OCT 2025) The Offero",
+          "finding": "Amendment to Fort Hood fuel contract tightens wage determination requirements and updates collective bargaining agreement wage schedules.",
+          "news": 4,
+          "quote": "ATTACHMENT VI \u2013 Wage Determination 2015-5237 Revision 32 8.17.26\nATTACHMENT VII \u2013Collective Bargaining Agreement 2026-475",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Ft. Hood SPE60326R0519 Amendment 0001 Clauses 10.13.2026.pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0519"
     },
     "caf5b580fac3464e9233131555ea7027": {
       "c": 10062,
@@ -46122,6 +46731,14 @@
       "n": "Attachment 0003 A01 - CSO Mixer Q and A Template.xlsx",
       "s": "screened",
       "sol": "W519TC26ACSO"
+    },
+    "cd98236d9b3947c88a93bb40e1a2275b": {
+      "c": 8994,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "z5a SPE4A526R0180_Redacted.pdf",
+      "s": "screened",
+      "sol": "1560011712668"
     },
     "cdb4464fe19743c9b9b1a972238231cc": {
       "c": 11025,
@@ -46976,6 +47593,23 @@
       "s": "screened",
       "sol": "FA461027R0001"
     },
+    "d12485de6bb3443d9d2ef468ce933728": {
+      "c": 10635,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "tations to Revolutionary FAR Overhaul Part12 are citations specifically to Federal Acquisition oegulation=Ec^oF=`lass=aeviation=ORJON=oN=for=c^o=mart=NO=which=was=issued=as=part=of=the=oevolutionary=c^o Overhaul (RFO), which was implemented in response to Executive Order 14275, Restoring Common Sense to Federal Procurement, signed April 15, 2025. The Transportation Security Administration (TSA), Finance and Administration (F&A) and Contracting and Procurement (C&P) propose to solicit and issue a purchase order based on soliciting only one source. The procurement request number is PR267668E195, and the Contracting and Procurement\u2019s tracking number is JA- 2026-01-1359. This acquisition is conducted under FAR Part 12. SECTION II: Description of Action Being Approved Task Order #70T01020F3NREM013 was awarded on 9/25/2020 to The Building People, LLC to provide complete Operations and Maintenance (O&M) services for the TSA Systems Integration Facility (TSIF) and Freedom Center (FC). The contractor provides program management, mechanical",
+          "finding": "TSA awards bridge contract to The Building People for Operations and Maintenance of two mission-critical facilities (Systems Integration Facility and Freedom Center) during 30-day period while transitioning to AbilityOne program.",
+          "news": 3,
+          "quote": "The Freedom Center became operational in July 2003 and serves as the 24 hours a day/7 day a week coordination center for transportation security-related operations, incidents, or crises",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "SAP Commercial SAT to 9M Single Source Justification JAN 2026 OM Services Approved.pdf",
+      "s": "screened",
+      "sol": "JA2026011359"
+    },
     "d1259b1ee51d49589d0f46cadfaa1992": {
       "c": 1833,
       "d": "2026-10-14",
@@ -47446,6 +48080,14 @@
       "s": "screened",
       "sol": "SPRAL126R00040001"
     },
+    "d3498400d57e4370bcdd2342e2f15dc3": {
+      "c": 14543,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "Specifications - 612A4-27-018 Replace B650 3rd and 2nd Flooring REV1.pdf",
+      "s": "screened",
+      "sol": "36C26127Q0026"
+    },
     "d34eab6a8212417e8c91fc3195369539": {
       "c": 0,
       "d": "2026-10-14",
@@ -47770,6 +48412,14 @@
       "n": "SOW-FOC to Flightline and Weather Related (Wx) Equipment - Corrected Table.pdf",
       "s": "screened",
       "sol": "F3YCFA6173AC01"
+    },
+    "d4f6f919cc574d799aea802726fef040": {
+      "c": 47549,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "Att11_100209_Drawings.pdf",
+      "s": "screened",
+      "sol": "FA813727R0003"
     },
     "d4f8a00fcfc3425caa5c3035f01997e2": {
       "c": 809,
@@ -48229,8 +48879,8 @@
       "sol": "FA813926Q0030"
     },
     "d69358b2f1344dfcabb270fae27cc6c8": {
-      "c": 75805,
-      "d": "2026-10-14",
+      "c": 74262,
+      "d": "2026-10-15",
       "m": "ocr+pdf",
       "n": "Phase 2 as-built mechanical.pdf",
       "s": "screened",
@@ -48813,13 +49463,20 @@
       "sol": "W912QR-ANNARBORMIFY27"
     },
     "d92c05b23a1144f8ac47083263b8bd6c": {
-      "a": 2,
-      "c": 47859,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 48321,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": ": CCAM-ALB/(000)000-0000 Type of Contract 1: Firm Fixed Price Kind of Contract: Supply Contracts and Priced Orders *** End of Narrative A0000 *** W58RGZ-26-R-0068 A-1. This is a (3) year Firm-Fixed Price (FFP) Indefinite Delivery Indefinite Quantity (IDIQ) contract pursuant to FAR 52.216-22. A-2. This requirement is restricted to Sikorsky Aircraft Corporation CAGE Code: (78286), 6900 Main St. Stratford, CT 06614-1378, which is the only known source having access to the technical data required to meet the Governments requirements. A-3. THE ACQUISITION IS FOR THE FOLLOWING ITEM: NOUN: DOOR(L), AIRCRAFT NSN: 1560-01-582-6078 P/N: 70207-52701-042 QTY: 9 each MIN/12 each MAX A-4. This requirement is in support of the UH-60 Blackhawk weapon system. A-5. This is a FAR part 15, Contracting by Negotiation. A-6. Subject to the availability of funds, any quantities ordered will be priced at the unit price established for the ordering periods in which they are ordered. Funds shall be obligat",
+          "finding": "Army restricts UH-60 Blackhawk helicopter door procurement to single source Sikorsky Aircraft, citing exclusive access to required technical data.",
+          "news": 4,
+          "quote": "This requirement is restricted to Sikorsky Aircraft Corporation CAGE Code: (78286), 6900 Main St. Stratford, CT 06614-1378, which is the only known source having access to the technical data required to meet the Governments requirements.",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "W58RGZ-26-R-0068.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "W58RGZ-26-R-0068"
     },
     "d9389a9f17454557a315e5f9bda726c7": {
@@ -50870,13 +51527,20 @@
       "sol": "70LGLY27RSSB00001"
     },
     "e16fda5e5e19441ba711694b94c09629": {
-      "a": 2,
-      "c": 10661,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 10693,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "If a firm intends on competing for more than one region, send submittals for each region in separate emails; if a firm fails to identify a region, their proposal will be considered unrestricted. The proposal validity period shall not be less than 180 days from the date specified for receipt of offers. Regional Transition and Performance Schedule The Government anticipates phased regional awards and approximately 60 calendar days of Transition-In and 60 calendar days of Transition-Out for each region... Offerors shall address their ability to support the applicable Transition-In, performance, and Transition-Out periods in their Technical Approach and shall identify any proposed personnel or resources that will support each proposed region. Region Transition-In Performance Period Transition-Out Midwest 12/03/2026\u201301/31/2027 02/01/2027\u201301/31/2032 12/03/2031\u201301/31/2032* Southwest 05/23/2027\u201307/21/2027 07/22/2027\u201307/21/2032 05/23/2032\u201307/21/2032* Northeast 07/21/2027\u201309/18/2027 09/19/2027\u201309/18/2032 07/21/203",
+          "finding": "Amended solicitation reduces transition periods from 120 days to 60 days per region, accelerating regional contract handoffs.",
+          "news": 3,
+          "quote": "The Government anticipates phased regional awards and approximately 60 calendar days of Transition-In and 60 calendar days of Transition-Out for each region",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "Amend0001 - solicitation 86614126R00002 10-13-2026.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "86614126R00002"
     },
     "e183aea544674cd69d104310cdedd07e": {
@@ -51113,13 +51777,51 @@
       "sol": "12363N26Q4181"
     },
     "e2751186346a44a0876ef739527e4642": {
-      "a": 2,
-      "c": 191292,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 190021,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "-generated prompts and queries particularly with regard to how an AI model responds when reliable information is incomplete, contradictory, or subject to individual interpretation; iii. The type of outputs restricted via content moderation and safety filters; iv. Use of red teaming as a means of continuously assessing the AI model to protect against incidents of bias in output; v. Any AI System or model training or development that occurred outside of the United States. Provide the type of activity and the country in which the activity and/or development occurred; vi. Any modifications or configurations to the AI System or model undertaken to comply with any law or regulation from a government other than the U.S. Federal Government. P. AI model evaluation information, including: i. Results of bias evalu",
+          "finding": "HUD mandating AI bias testing, red-teaming, and continuous monitoring to detect hallucinations and ideological bias in government-used AI systems.",
+          "news": 4,
+          "quote": "Use of red teaming as a means of continuously assessing the AI model to protect against incidents of bias in output",
+          "verified": true
+        },
+        {
+          "context": "ion including disclosure of additional controls to modify an output applied by the Contractor if the Contractor is not a direct developer of the AI System (e.g., classifiers, system prompts, fine-tuning, content moderation and filters). T. Written confirmation that the Contractor will not: i. Use publicly hosted AI System(s) to process HUD data, including, but not limited to CUI, PII, FTI, or classified data. ii. Permit HUD data to be retained by third-party vendors for training. iii. Introduce unapproved AI Systems and/or tools. iv. Deploy AI Systems capable of autonomous decision-making without human validation, unless approved in writing by the Government. U. Documentation to meet the requirements outlined in the AI Technical Requirements, which can be found on the AI@HUD page on hud.gov. 3. Monitor AI System Use and Performance. The Contractor shall regularly monitor use",
+          "finding": "HUD requires contractors to prevent use of public AI services (ChatGPT, etc.) for government data and bans sharing HUD data with third-party AI vendors for training.",
+          "news": 4,
+          "quote": "Use publicly hosted AI System(s) to process HUD data, including, but not limited to CUI, PII, FTI, or classified data.",
+          "verified": true
+        },
+        {
+          "finding": "HUD solicitation for nationwide multifamily housing inspection services using AI systems with unprecedented federal transparency and control requirements.",
+          "news": 5,
+          "quote": "Contractor shall not deploy AI Systems capable of autonomous decision-making without human validation, unless approved in writing by the Government.",
+          "verified": false
+        },
+        {
+          "finding": "HUD seeking nationwide multifamily housing construction inspectors across five regions with $37M ceiling, small business set-aside, five-year term through Jan 2032.",
+          "news": 4,
+          "quote": "The Government is issuing this Request for Proposal (RFP) 86614126R00002 on SAM.gov with the intent to award a Firm-Fixed-Price Revolutionary FAR Overhaul (RFO) 12/15/ as a small business set aside.",
+          "verified": false
+        },
+        {
+          "finding": "HUD implementing government-wide vendor lock-in protections for AI systems, requiring open standards, portability, and knowledge transfer for successor contractors.",
+          "news": 4,
+          "quote": "Contractor shall ensure that all data, metadata, models, configuration files, and associated artifacts created, modified, or used under the contract are provided to the Government in a machine-readable, non-proprietary format",
+          "verified": false
+        },
+        {
+          "finding": "Contract includes conflict-of-interest restrictions preventing inspectors from working on projects they designed, built, or supervised architecturally.",
+          "news": 3,
+          "quote": "A contractor or subcontractor (including consultants) firm, or current or former employees, shall not perform any inspections or service required under this contract for any projects, except as provided in 36.209, if they participated in: Any construction work on an assigned project; Any design of t",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "Updated - solicitation 86614126R00002.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "86614126R00002"
     },
     "e2a09a7eb9cf4d0784f6339b6de7fc54": {
@@ -51438,6 +52140,36 @@
       "n": "Attachment 009 - Questions for the TRIOS II RFP.xlsx",
       "s": "screened",
       "sol": "W900KK-27-R-A0003"
+    },
+    "e4663f7dce0e4844b5d3a75759ad4ca4": {
+      "c": 28515,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "context": "rce basis to, SDVOSB concerns eligible under the SDVOSB Program; (2) Part or parts of a multiple-award contract that have been set aside for SDVOSB concerns eligible under the SDVOSB Program; and (3) Orders set aside for SDVOSB concerns eligible under the SDVOSB Program, under multiple-award contracts as described in 8.4 and 16.5. (c) General. (1) Offers are solicited only from concerns designated in SAM as SDVOSB concerns certified by SBA. Offers received from concerns that are not SDVOSB concerns certified by SBA will not be considered. (2) Any award resulting from this solicitation will be made only to a concern designated in SAM as an SDVOSB certified by SBA. (d) A joint venture may be considered an SDVOSB concern if the managing partner of the joint venture complies with the criteria defined in paragraph (a) of this clause and 13 CFR 128.402. (e) In a joint venture that complies with paragraph (d) of this clause, the SDVOSB party or parties to the joint venture shall perform at least 40 percent of the work performed by the joint",
+          "finding": "Fort Hood aircraft refueling contract contains restrictive SDVOSB-only procurement clause, requiring all offers from veteran-owned businesses certified by SBA.",
+          "news": 4,
+          "quote": "Offers are solicited only from concerns designated in SAM as SDVOSB concerns certified by SBA. Offers received from concerns that are not SDVOSB concerns certified by SBA will not be considered.",
+          "verified": true
+        },
+        {
+          "context": "inability to perform the contract but will not impact national security, a recommendation that the Contractor promptly notify the IRS to attempt to resolve the tax situation. (d) Any DoD determination under this clause is not subject to appeal under the Contract Disputes Act. (End of clause) DFARS 252.237-7010 NIST SP 800-171 PROHIBITION ON INTERROGATION OF DETAINEES BY CONTRACTOR PERSONNEL (JAN 2023) (a) Definitions. As used in this clause\u2014 \u201cDetainee\u201d means any person captured, detained, held, or otherwise under the effective control of DoD personnel (military or civilian) in connection with hostilities. This includes, but is not limited to, enemy prisoners of war, civilian internees, and retained personnel. This does not include DoD personnel or DoD contractor personnel being held for law enforcement purposes. SPE603-26-R-0519",
+          "finding": "Solicitation requires contractor training on NIST SP 800-171 cybersecurity standards and prohibits contractor interrogation of detainees at military facility.",
+          "news": 3,
+          "quote": "DFARS 252.237-7010 NIST SP 800-171 PROHIBITION ON INTERROGATION OF DETAINEES BY CONTRACTOR PERSONNEL",
+          "verified": true
+        },
+        {
+          "finding": "DoD fuel services contract explicitly prohibits work with Russian fossil fuel entities and their 50%-plus owned affiliates through FY 2024 NDAA enforcement clause.",
+          "news": 4,
+          "quote": "the Contractor is prohibited from entering into a subcontract or other contractual instrument for the procurement of products or services with any entity or individual that is known to be, or that is known to have fossil fuel business operations with an entity or individual that is, not less than 50",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "SF1449 SPE603-26-R-0519 Solicitation 9.9.2026 .pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0519"
     },
     "e469895a4d2d48bd8e0ea2f34764131b": {
       "c": 5558,
@@ -51821,6 +52553,22 @@
       "n": "Attachment 6 - Exhibits A B C and D.pdf",
       "s": "screened",
       "sol": "FA810126R0004"
+    },
+    "e59deb2539f5470985d685c32ca6d979": {
+      "c": 12508,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "NOAA awards five-year sole-source engineering support contract to L3Harris for Geostationary Operational Environmental Satellite (GOES-NOP) imager and sounder instruments citing proprietary technology and 20+ years of experience.",
+          "news": 4,
+          "quote": "L3Harris is the original manufacturer of the GOES-NOP series spacecraft Imager and Sounder instruments. The GOES-NOP series spacecraft Imager and Sounder instruments were developed utilizing L3Harris proprietary technology",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JOFOC GOES-NOP Instruments_FE-Flattened_Redacted.pdf",
+      "s": "screened",
+      "sol": "ACQ-AONCA0110-26-0032"
     },
     "e5b94768b3d14a3c8eed4faf2fe7d199": {
       "c": 10835,
@@ -52870,13 +53618,19 @@
       "sol": "W519TC-26-R-A056"
     },
     "ea7d3408de7141b5a17a3a55b1459ad0": {
-      "a": 2,
-      "c": 9491,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 16728,
+      "d": "2026-10-15",
+      "f": [
+        {
+          "finding": "Air Force awards six-year indefinite delivery contract for 711th Human Performance Wing mission support services worth up to $19.5 million.",
+          "news": 3,
+          "quote": "711th Human Performance Wing Mission Support Services...Period of Performance...From 01 Dec 2026 To 30 Nov 2032...USD 19,500,000.00",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "Solicitation - FA239626RB008.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "FA239626RB008"
     },
     "ea992a8fbdfd4ae480436248ac06792d": {
@@ -53418,6 +54172,14 @@
       "s": "screened",
       "sol": "R707"
     },
+    "ec7958bd0dd24d47ae7b3a9a97d67dc3": {
+      "c": 257588,
+      "d": "2026-10-15",
+      "m": "ocr+pdf",
+      "n": "B08_SOL_140D0426R0068_NPS_EU_H_T2_Yosemite.pdf",
+      "s": "screened",
+      "sol": "140D0426R0068"
+    },
     "ec8397a255f34a6a9b73d559b70b580e": {
       "c": 2091,
       "d": "2026-10-10",
@@ -53761,13 +54523,11 @@
       "sol": "36C10B26R0035"
     },
     "ed7ed9280e234db2b3bd5203e3d9698b": {
-      "a": 1,
       "c": 2547,
       "d": "2026-10-15",
-      "e": "screening call failed",
       "m": "docx",
       "n": "Intent to Sole Source .docx",
-      "s": "retry",
+      "s": "screened",
       "sol": "36C26326Q0635_1"
     },
     "ed89bb57df754eedbb4e7e99a0bae06c": {
@@ -55239,13 +55999,20 @@
       "sol": "70Z02326R93280004"
     },
     "f2feeccd6b5e4d4b8eea53cfe3448249": {
-      "a": 1,
-      "c": 9619,
+      "c": 8850,
       "d": "2026-10-15",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "e on the role of operations & maintenance. The estimated price for the requested 3-month extension is . 4. Authority and supporting rationale. Pursuant to 41 U.S.C. 3304(a)(1), it has been determined that BridgePhase, LLC has unique capabilities and qualifications that form the basis for this justification. Due to unforeseen delays beyond the control of both BridgePhase and the Government, a 3-month extension is necessary to complete the HSIN Modernization effort awarded under Task Order No. 70RTAC24FR0000066. The original period of performance was materially affected by delays in gathering critical requirements from key stakeholders, resulting from government shutdowns, which resulted in loss of access to critical agency networks and key personnel during this timeframe pushing all downstream modernization tasks. In addition, there were technical hurdles due to extensively customized SharePoint Communities that were initially developed 15-20 years ago. Numerous Communities",
+          "finding": "DHS extends Homeland Security Information Network (HSIN) modernization contract with BridgePhase for three months due to unforeseen data migration delays and government shutdowns.",
+          "news": 3,
+          "quote": "Due to unforeseen delays beyond the control of both BridgePhase and the Government, a 3-month extension is necessary to complete the HSIN Modernization effort",
+          "verified": true
+        }
+      ],
       "m": "ocr+pdf",
       "n": "Sole Source Justification (HSIN Modernization_52.217-8)_Redacted.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "70RTAC24FR0000066_P00011"
     },
     "f3035c34577e4eb2a8da62904d480810": {
@@ -55920,13 +56687,11 @@
       "sol": "FA240126R0003"
     },
     "f5713b842deb484da93f080af3c751e4": {
-      "a": 2,
-      "c": 3211,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 3217,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "2.1.3 SOL AMDNT 5 - N0040627R00040005 Conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N0040627R0004"
     },
     "f571a48a55634c5ba44d782fb0188724": {
@@ -57092,13 +57857,11 @@
       "sol": "36C26127Q0069"
     },
     "fab30c99611c441e9b6e4cf3afc97840": {
-      "a": 2,
-      "c": 3350,
-      "d": "2026-10-14",
-      "e": "screening call failed",
+      "c": 3356,
+      "d": "2026-10-15",
       "m": "pdf",
       "n": "2.1.3 SOL AMDNT 1 - N0040627R00040001 Conformed.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N0040627R0004"
     },
     "fac6365a71dd408e9552ba72fd3d0fd8": {
@@ -57493,6 +58256,14 @@
       "n": "Attachment H -Statement of Work Template.pdf",
       "s": "screened",
       "sol": "80GRC026R0008 "
+    },
+    "fcf7d31311694b2a9f7edafd3ef4c717": {
+      "c": 282404,
+      "d": "2026-10-15",
+      "m": "pdf",
+      "n": "B08_Attach_2_Specifications_YELL_338223.pdf",
+      "s": "screened",
+      "sol": "140P2026R0073"
     },
     "fcffdd14a2764833be2b0f7a5416a579": {
       "c": 80257,
