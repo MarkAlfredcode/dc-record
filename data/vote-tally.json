@@ -4429,46 +4429,6 @@
   "rolls": [
     {
       "chamber": "senate",
-      "date": "2026-09-24",
-      "nay": 23,
-      "not_voting": [],
-      "num": 242,
-      "question": "On the Amendment",
-      "result": "Amendment Agreed to",
-      "subject": "Amdt. No. 6776",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00242.htm",
-      "yea": 77
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-24",
-      "nay": 25,
-      "not_voting": [
-        "S384"
-      ],
-      "num": 243,
-      "question": "On the Cloture Motion",
-      "result": "Cloture Motion Agreed to",
-      "subject": "Motion to Invoke Cloture: S. 4668, as Amended",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00243.htm",
-      "yea": 74
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-24",
-      "nay": 50,
-      "not_voting": [
-        "S428"
-      ],
-      "num": 244,
-      "question": "On the Concurrent Resolution",
-      "result": "Concurrent Resolution Rejected",
-      "subject": "H. Con. Res. 89",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00244.htm",
-      "yea": 49
-    },
-    {
-      "chamber": "senate",
       "date": "2026-09-28",
       "nay": 1,
       "not_voting": [
