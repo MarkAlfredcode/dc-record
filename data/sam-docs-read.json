@@ -596,6 +596,14 @@
       "s": "screened",
       "sol": "SPRTA127R0014"
     },
+    "029f042379a94be083d46e716b2ea452": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 0005_SCA Wage Determination_Revision 0001.pdf",
+      "s": "wage_determination",
+      "sol": "W50NH9-26-R-A028"
+    },
     "02a1626101ea4111aa67b9e1f695ecf1": {
       "c": 0,
       "d": "2026-10-14",
@@ -1140,6 +1148,29 @@
       "s": "screened",
       "sol": "RFP_387931RLP"
     },
+    "0497ed073296432a8092c5c041bd2c5c": {
+      "c": 290025,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "e. Training is to be provided after the systems are in place and operational, after issues noted during commissioning have been resolved, and before final acceptance. 2. Provide second set of training sessions for automatic control systems about 6-9 months after the first sessions. 3. All Training shall be videotaped and reproduced on DVD\u2019s and given to the C.O. Provide a copy for each O&M manual produced. 4. See Individual specification sections for additional training requirements. B. ATTENDANCE 1. Training is to be provided by contractor\u2019s representatives that are familiar with the system\u2019s operation and maintenance requirements. Individual training sessions (modules) are to provided for each type or group of systems, separated roughly by trade group that will be performing maintenance on the system. C. SCHEDULE 28621 / USFS Powell Duplex 26 0010-9",
+          "finding": "Forest Service duplex improvements contract includes training requirements for HVAC, plumbing, and electrical systems, with duplicate sessions and video documentation mandated.",
+          "news": 3,
+          "quote": "All Training shall be videotaped and reproduced on DVD's and given to the C.O. Provide a copy for each O&M manual produced.",
+          "verified": true
+        },
+        {
+          "finding": "Contract specifies one-year warranty on all materials and labor with requirement to replace defective items at contractor's expense after substantial completion.",
+          "news": 3,
+          "quote": "The guarantee that all materials and labor installed are new and of first quality and that any material or labor found defective shall be replaced without cost to the Contracting Officer within one (1) year after substantial completion",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "C04 Attachment 3 - Specifications Powell Duplex.pdf",
+      "s": "screened",
+      "sol": "1240LU27Q0001"
+    },
     "04a1e90e5c2c4ad5b8faeeaed2f62aa2": {
       "c": 6627,
       "d": "2026-10-14",
@@ -1365,6 +1396,14 @@
       "n": "05__Subcontracting_Percentage_Worksheet.pdf",
       "s": "screened",
       "sol": "140P2026R0087"
+    },
+    "0599ec92e0d2429a98e39b714cedc064": {
+      "c": 9,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "4 - Exhibit C - 0PR2126 - Carolina PR - Security Requirements (FSL Level II) - 10.16.2026.pdf",
+      "s": "screened",
+      "sol": "0PR2126-1"
     },
     "05a0b63b138a449cb3555a6ce3c09d0f": {
       "c": 0,
@@ -1898,6 +1937,14 @@
       "s": "boilerplate_only",
       "sol": "FA822226Q3345"
     },
+    "081c5ae35a2c4d8093a939bef68fae71": {
+      "c": 98,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "DSTAR Industry Day QR Code for  Address.pdf",
+      "s": "screened",
+      "sol": "W912BU26TDSTR"
+    },
     "083c198a091740f0855cb4fec44e0215": {
       "c": 13453,
       "d": "2026-10-14",
@@ -2200,6 +2247,14 @@
       "n": "CGC CALHOUN CLUTCH SOW.pdf",
       "s": "screened",
       "sol": "70ZU0227N0000139"
+    },
+    "0974f685e45349bb88177771e1f43d42": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "RLP 36C24W26R0045 Exhibit G Form 1217 Lessors Annual Cost Statement.pdf",
+      "s": "boilerplate_only",
+      "sol": "RLP36C24W26R0045"
     },
     "0977fe3721a743e197dbf28bbb5453fc": {
       "c": 0,
@@ -2925,6 +2980,23 @@
       "s": "screened",
       "sol": "W91151-26-R-A004"
     },
+    "0c530385d0014092b4573e25152534cc": {
+      "c": 16023,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "the unmanageable division of accountability between multiple vendors that could compromise system and records integrity. RIMU is responsible for A-File control and accountability and for ensuring that ICE records remain available, complete, secure, and properly managed through final disposition. Under the existing task order, Procentrix performs RIMU development and records-management support and operates through ICE's Agile, System Lifecycle Management, security authorization, testing, change- management, and program-oversight processes. As the incumbent, Procentrix has direct, current knowledge of the RIMU solution architecture, configurations, repositories, data structures, backlog, user workflows, security and access controls, documentation, deployment procedures, and stakeholder dependencies that the A-File integration must modify and extend. That integrated body of system-specific knowledge and current responsibility for the affected environment is unique to the 1 FAR Class Deviation",
+          "finding": "ICE sole-sources $[redacted] modification to Procentrix for A-File integration with USCIS STACKS system, citing incumbent knowledge of records-management architecture as irreplaceable.",
+          "news": 4,
+          "quote": "Procentrix performs RIMU development and records-management support and operates through ICE's Agile, System Lifecycle Management, security authorization, testing, change-management, and program-oversight processes. As the incumbent, Procentrix has direct, current knowledge of the RIMU solution arch",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Justification for Exception to Fair Opportunity - RIMU A-File Mod Redacted.pdf",
+      "s": "screened",
+      "sol": "JA260282"
+    },
     "0c53b9ba1350477e81d783bcf75e186d": {
       "c": 1131,
       "d": "2026-10-10",
@@ -3060,6 +3132,14 @@
       "n": "RFW-DOTAC-ARMY-2026-003_ Attachment 6_Acronyms.pdf",
       "s": "screened",
       "sol": "RFW-DOTAC-ARMY-2026-003"
+    },
+    "0cd03737326b434c9b8833def6969310": {
+      "c": 65187,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment Specifications 08-17-2026.pdf",
+      "s": "screened",
+      "sol": "36C26126R0055_2"
     },
     "0cd2268d183641db91c50485012a73f8": {
       "c": 2558,
@@ -3323,6 +3403,23 @@
       "s": "screened",
       "sol": "140D0427Q0915"
     },
+    "0dcc85dd4afc4670904d8a2cf52ff720": {
+      "c": 9547,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "th Africa, and West Africa Ships 1. Agency Identification: Defense Logistics Agency (DLA) Troop Support, Subsistence Supply Chain, is the contracting activity. 2. Nature of Action being Approved: The action being approved is the ability to solicit for DLA requirements on an Other than Full and Open Competition basis. 3. Description of Supplies: The proposed acquisition will be an Indefinite-Delivery, Indefinite-Quantity (IDIQ), fixed price with Economic Price Adjustment (EPA) bridge contract, in accordance with the definition at DLAD 2.101, for Prime Vendor support for a period of 425 days. The proposed action will result in the award of a bridge contract with EFS Ebrex Sarl (EFS) effective October 15, 2026, through December 14, 2027. This performance period will afford sufficient time to award a competitive follow-on contract and provide coverage during the up to 180-day ramp-up period by the awardee. The proposed bridge contract encompasses Subsistence Prime Vendor (SPV) support to provide perishable and semi-perishable subsist",
+          "finding": "DLA awards 425-day food service bridge to EFS for European ships/Northern Africa ($33M estimated, up to $99M max); replaces contract expiring Oct 2026 amid external disruptions.",
+          "news": 4,
+          "quote": "The proposed acquisition will be an Indefinite-Delivery, Indefinite-Quantity (IDIQ), fixed price with Economic Price Adjustment (EPA) bridge contract, in accordance with the definition at DLAD 2.101, for Prime Vendor support for a period of 425 days.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Final Redacted JA Z4.pdf",
+      "s": "screened",
+      "sol": "SPE300-27-D-4111"
+    },
     "0ddad8729cc24db1afaf4e5dde19b020": {
       "c": 33444,
       "d": "2026-10-13",
@@ -3535,6 +3632,14 @@
       "s": "screened",
       "sol": "SPE60326R0530"
     },
+    "0f32b7eee4764786a2ce86add32bd6f5": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "EXHIBIT E_3517B General Clauses (April 2026).pdf",
+      "s": "boilerplate_only",
+      "sol": " 36C24W23R0031"
+    },
     "0f3879c8e453429a9e1698bab573a7e9": {
       "c": 5395,
       "d": "2026-10-14",
@@ -3550,6 +3655,14 @@
       "n": "70LGLY27RSSB00001 Amendment 0001 Request for Proposal Building 262 Renovation.pdf",
       "s": "screened",
       "sol": "70LGLY27RSSB00001"
+    },
+    "0f3dd1de32604eadbbc0d8619487e7f0": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "C04_Attachment 4_Wage Rates_1232SA27Q0004.pdf",
+      "s": "wage_determination",
+      "sol": "1232SA27Q0004"
     },
     "0f5a0da5055747d89967c7244cb06277": {
       "c": 229,
@@ -3738,6 +3851,14 @@
       "n": "PWS Contracted Meal Services SV 27.1 COL V4 Amendment 4.pdf",
       "s": "screened",
       "sol": "W912CL26QA040"
+    },
+    "104e7e3339604082a6b6729f42d50ec6": {
+      "c": 334750,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Bonneville Navigation Lock 1 Bridge Replacement_Drawings_ADVERTISE-EDITED.pdf",
+      "s": "screened",
+      "sol": "W9127N26BA024"
     },
     "106d1cd9a8c14f2f8faca6cf8a2d8655": {
       "c": 6287,
@@ -4129,6 +4250,14 @@
       "s": "screened",
       "sol": "W912CH-26-S-0001"
     },
+    "122d4cead8684b5fb2a219de0c6e4d48": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 4-ADEPT CDRLs -20260727.pdf",
+      "s": "boilerplate_only",
+      "sol": "FA2377-26-R-B011"
+    },
     "1234c2d42083417e9f354ba48c859bd2": {
       "c": 3800,
       "d": "2026-10-10",
@@ -4168,6 +4297,43 @@
       "n": "C04-Attachment 2_Mech Site Prep Drum Chopping_SOW.pdf",
       "s": "screened",
       "sol": "12444726Q0069"
+    },
+    "124c989dae96476b862fb2656869bfad": {
+      "c": 152627,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "RM-192TB 192 TB (256 TB Raw) NVR4X Premium with Microsoft Windows Server 2016 and Avigilon Control Center NVR4X-PRM-217TB 217 TB (288 TB Raw) NVR4X Premium with Microsoft Windows Server 2016 and Avigilon Control Center Avigilon Control Center licenses must be purchased separately. Avigilon Appearance Search and facial recognition requires Enterprise version of the ACC software. NVR4X-STD NVR4X-STD-16TB-S16 16 TB (24 TB Raw) NVR4X Standard with Microsoft Windows Server 2016 and Avigilon Control Center NVR4X-STD-16TB 16 TB (24 TB Raw) NVR4X Standard with Microsoft Windows 10 Enterprise Embedded and Avigilon Control Center NVR4X-STD-24TB-S16 24 TB (32 TB Raw) NVR4X Standard with Microsoft Windows Server 2016 and Avigilon Control Center NVR4X-STD-24TB 24 TB (32 TB Raw) NVR4X Standard with Microsoft Windows 10 Enterprise Embedded and Avigilo",
+          "finding": "VA upgrading external security system with facial recognition and appearance search surveillance cameras at multiple facilities",
+          "news": 4,
+          "quote": "Avigilon Appearance Search and facial recognition requires Enterprise version of the ACC software",
+          "verified": true
+        },
+        {
+          "context": "sksales@avigilon.com | avigilon.com Outline Dimensions NVR4X-PRM and NVR4X-STD [18.97] INCHES MM (NVR4X-PRM-64TB/96TB/128TB/157TB) 482.0 [3.41] 86.8 [26.89] [1.44] 682.9 34.7 [17.08] 434.0",
+          "finding": "VA purchasing high-capacity video storage and surveillance infrastructure with 64TB network video recorders and multisensor cameras covering 360 degrees",
+          "news": 4,
+          "quote": "NVR4X-PRM-64TB 64 TB (80 TB Raw) NVR4X Premium with Microsoft Windows Server 2016 and Avigilon Control Center",
+          "verified": true
+        },
+        {
+          "context": "UPGRADE EXTERIOR SECURITY SYSTEM VA PUGET SOUND HEALTH CARE SYSTEM \u2013 SEATTLE, WA PROJECT #: 663-21-100 EXECUTIVE SUMMARY Spees Design Build has been contracted to provide upgrades to the Seattle VA Security System. The Upgraded Exterior Security System will: 1. Provide an improved exterior security system in the interest of safeguarding veterans and staff. 2. Provide emergency blue light telephone stations across the South Parking Lot and Parking Lot B. 3. Provide security cameras for visual monitoring of the parking lots as identified. 4. Install four access gates in the subject parking lots to limit access to employees and contractors. Access gates are a deductive alternate. The design considers necessary work within both vertical and horizontal adjacencies (i.e. below grade), to configure the spaces for secure use including efficient traffic and access flow. This is a fully functional medical faci",
+          "finding": "VA project includes HID Card Access system with S.O.S. Emergency Vehicle Gate Opener and IP-based intercom for parking lot access control.",
+          "news": 3,
+          "quote": "The gate systems shall incorporate: HID Card Access system (specification sheet found in Appendix) S.O.S. Emergency Vehicle Gate Opener. (Siren Operated Sensor - specification sheet found in Appendix) Stentofon IP Based Intercom system (Weatherproof, Vandal proof - specification sheet found in Appen",
+          "verified": true
+        },
+        {
+          "finding": "VA Seattle facility upgrading exterior security with surveillance cameras, access gates, and 15 emergency blue light call stations across parking lots.",
+          "news": 4,
+          "quote": "The Upgraded Exterior Security System will: Provide an improved exterior security system in the interest of safeguarding veterans and staff. Provide emergency blue light telephone stations across the South Parking Lot and Parking Lot B. Provide security cameras for visual monitoring of the parking l",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Attachment 4 - 663-21-100 - Basis of Design.pdf",
+      "s": "screened",
+      "sol": "36C26026R0029"
     },
     "12528f7bc39c430ba91581b78170ca82": {
       "c": 6193,
@@ -4253,6 +4419,14 @@
       "n": "36C24227P0006_1.docx",
       "s": "screened",
       "sol": "36C24226Q1000"
+    },
+    "129fb075b87f436dbb19ac8c1131867c": {
+      "c": 23857,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_6 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "12a291bda54544fdbbd950a66b223aa9": {
       "c": 18090,
@@ -4651,6 +4825,14 @@
       "s": "screened",
       "sol": "36C24627R0005"
     },
+    "14bc71a9883c422c8690342148eb6a88": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Wage_Determination_2015-4009.pdf",
+      "s": "wage_determination",
+      "sol": "140GG027Q0009"
+    },
     "14c39aaf2dbe4513a285a14f8c2a357e": {
       "c": 1897,
       "d": "2026-10-11",
@@ -5035,6 +5217,29 @@
       "n": "Att 0004 Letter of Consent.pdf",
       "s": "screened",
       "sol": "W519TC-26-R-A056"
+    },
+    "16222deee1914ffda954fb94fdc6f98f": {
+      "c": 302365,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "Local Lodge 2003 | Page 8 M1 Support Services \u2013 Fort Novosel, Alabama - Collective Bargaining Agreement - May 2025 AGREEMENT 1 PARTIES TO THE AGREEMENT THIS AGREEMENT is made and entered into at Fort Novosel, Alabama, effective the 5th day of May, 2025, by and between M1 Support Services, LP (M1), DenMar Services, Inc., Erica Lane Enterprises, Inc., Navigator International LLC, CS Vertical Flight Solutions LLC, S&K Technologies, Inc., System Dynamics International, Inc., and Skyquest Aviation, LLC, (hereinafter referred to as the company, where the company consists of several independent employers with separate and independent rights, obligations, and responsibilities solely to its employees hereunder) and INTERNATIONAL ASSOCIATION OF MACHINISTS AND AEROSPACE WORKERS,AFL-CIO, and its Local Lodge No. 2003 (hereafter referred to as the Union) as representative for the purpose of collective bargaining for th",
+          "finding": "Army aircraft maintenance contractor at Fort Novosel covered by new IAM union contract through January 2030, including M1 Support Services and seven subcontractors.",
+          "news": 3,
+          "quote": "effective the 5th day of May, 2025, by and between M1 Support Services, LP (M1), DenMar Services, Inc., Erica Lane Enterprises, Inc., Navigator International LLC, CS Vertical Flight Solutions LLC, S&K Technologies, Inc., System Dynamics International, Inc., and Skyquest Aviation, LLC",
+          "verified": true
+        },
+        {
+          "finding": "Contract includes mandatory union membership or service fee requirement for covered employees, with discharge for failure to pay dues within 91 days.",
+          "news": 3,
+          "quote": "all employees now or hereafter employed in the classifications and work covered by this Agreement...shall as a condition of continued employment...become and remain members in good standing in the Union or pay applicable service fees within ninety-one (91) days",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Attachment 0017 - Collective Bargaining Agreement (CBA).pdf",
+      "s": "screened",
+      "sol": "W58RGZ-26-R-0026"
     },
     "1627b55d5224467fa592d99ef93ee5d5": {
       "c": 14233,
@@ -5526,6 +5731,14 @@
       "s": "screened",
       "sol": "SPRDL1-27-Q-A002"
     },
+    "180fd158fbd44228b4da0ecb845b4e60": {
+      "c": 3431,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_11 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
+    },
     "1814dc9b3b224ae18a3ad735c95a50da": {
       "c": 0,
       "d": "2026-10-13",
@@ -5696,6 +5909,14 @@
       "s": "screened",
       "sol": "N0042127Q1003"
     },
+    "18e31f98deab47e9a05f82b932be7a97": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "P7777 Sources Sought_Attachment_1.docx",
+      "s": "boilerplate_only",
+      "sol": "N6945027SP7777-AMAG"
+    },
     "18e995ce538549eb97f82bba634b5dca": {
       "c": 2862,
       "d": "2026-10-10",
@@ -5736,6 +5957,14 @@
       "n": "ACC DTA GROUND MANEUVER CSO_Amendment 16.docx",
       "s": "screened",
       "sol": "W912CH-26-S-0001"
+    },
+    "191ab63acdb94a1aa809b1ac097cf322": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B03_DBA_WD___CO20260001.pdf",
+      "s": "wage_determination",
+      "sol": "140L1726R0001"
     },
     "191c350a74b74bc996cd7c8963d317d3": {
       "c": 1911,
@@ -6182,6 +6411,14 @@
       "s": "screened",
       "sol": "N0040627R0004"
     },
+    "1b0cb6df13704caea2e32706f9ce2d64": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Atch 8 - Standard Form 424.pdf",
+      "s": "boilerplate_only",
+      "sol": "FA945326RX012"
+    },
     "1b1732601f94485ca20b7a87853fe643": {
       "c": 1873,
       "d": "2026-10-14",
@@ -6237,6 +6474,23 @@
       "n": "PWS_draft.pdf",
       "s": "screened",
       "sol": "N32253-27-106-0013"
+    },
+    "1b371ef1b82844069f5ef7ea3e423c5c": {
+      "c": 11341,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "sed under this program. A new vendor would require a substantial transition period to secure comparable housing inventory in the required locations, establish shuttle transportation routes, and coordinate move-in logistics for existing residents, none of which is feasible within the timeframe available before expiration of the current task orders. Absent continuity of housing under the incumbent vendors, affected families face the extreme risk of eviction from their current lodging with little to no notice, leaving them without a place to live while awaiting onward assignment, training completion, or resolution of the follow-on recompete. Page 3 of 11 SENSITIVE BUT UNCLASSIFIED Unlike a typical lapse in service, this is not merely an administrative inconvenience it directly threatens the housing stability and physical well-being of foreign service employees and their dependents, including children enrolled in local schools and family members with medical or other special needs, who would have no assured alternative housing option on",
+          "finding": "State Department bridges PCS lodging for 652 foreign service families in DC area; three vendors to avoid evictions during follow-on recompete; $4.6M for six months.",
+          "news": 4,
+          "quote": "Absent continuity of housing under the incumbent vendors, affected families face the extreme risk of eviction from their current lodging with little to no notice, leaving them without a place to live while awaiting onward assignment, training completion, or resolution of the follow-on recompete.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "PCS Lodging - SAM.gov 10.13.2026.pdf",
+      "s": "screened",
+      "sol": "CA-FY26-0000281"
     },
     "1b3b5a8a6d78409b94e082999418531e": {
       "c": 12975,
@@ -6334,6 +6588,14 @@
       "n": "Attach (11-1) - Specs Decon Station (CRBD).pdf",
       "s": "screened",
       "sol": "N3220526R6077"
+    },
+    "1b788c34efb341598027f31acd620538": {
+      "c": 1652,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "EXPRESS-NDAA-CERTIFICATION-4.2026.pdf",
+      "s": "screened",
+      "sol": "19VM3027Q0004"
     },
     "1b8c9fed698b4806ab320bbc6bc7ca40": {
       "c": 404,
@@ -6494,6 +6756,14 @@
       "s": "screened",
       "sol": "W912DQ26QA080"
     },
+    "1c4da2c9fb054328b4eddca617636a8f": {
+      "c": 53096,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S02 Atch B Specifications - 258 pages.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0019"
+    },
     "1c62a04986c44385819fa7c1b4b5a709": {
       "c": 5547,
       "d": "2026-10-11",
@@ -6550,6 +6820,58 @@
       "n": "WD 2015-4435 Rev 32 Horry.pdf",
       "s": "wage_determination",
       "sol": "FA480327Q0003"
+    },
+    "1d148319037047a7bd3805d57c134596": {
+      "c": 335931,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "Grand Prairie, Texas 75051 RE: Request for Proposal (RFP) 15BCMS26R50400001 Comprehensive Medical Services Dear Offeror: Accompanying this cover letter is a solicitation package prepared by the Federal Bureau of Prisons, Field Acquisition Office, for the acquisition of Comprehensive Medical Services for FPC Bryan located in Bryan, Texas. The solicitation package consists of the following: Cover Letter Solicitation Attachments In submitting proposals, offerors should consider all information provided herein. Please carefully follow all instructions located in the solicitation package concerning the content, format, and submission of the proposals. System updates may lag policy updates. The System for Award Management (SAM) may continue to require entities to complete representations based on provisions that are not included in this solicitation. Contracting officers will rely on representations from offers based on provisions in the solicitation. Entities are not required to, nor are they",
+          "finding": "Federal Bureau of Prisons soliciting comprehensive medical services for FPC Bryan, a female inmate facility in Texas, with estimated base year cost for 30 inpatient days and 625 outpatient visits.",
+          "news": 4,
+          "quote": "FPC Bryan \u2013Female Inmates, Care Level 2 Presently, the institution is identified as Care Level 2 BOP facility.",
+          "verified": true
+        },
+        {
+          "context": "al Designations: After arrival at the designated facility, the provisional care level should be reviewed at the History & Physical or Chronic Care Visit and a nonprovisional care level assigned by the BOP clinician at that time. \u2022 Refusal of Care or Non-Compliance section was updated. \u2022 Redesignations for Oncology Services: Upon diagnosis of prostate cancer and based on PSA and prostate biopsy results, a treatment plan from a urologist is required to submit a Redesignation Referral Request. Surgery should be performed locally prior to transfer for radiation, chemotherapy, or other adjuvant treatment. Patients for whom active surveillance is appropriate do not need to be transferred and may be monitored at their current institution. \u2022 Updates made to Care Levels 1-4 General Descriptions to include: \u25ba Removal of \u201cless than 70 years of age\u201d to Care Level 1 description. \u25ba Addition of the following to Care Level 1 description: Patients may need multiple medications",
+          "finding": "Federal Bureau of Prisons updating medical care guidelines for incarcerated patients, including new prostate cancer treatment protocols and oncology service redesignation procedures.",
+          "news": 4,
+          "quote": "Upon diagnosis of prostate cancer and based on PSA and prostate biopsy results, a treatment plan from a urologist is required to submit a Redesignation Referral Request. Surgery should be performed locally prior to transfer for radiation, chemotherapy, or other adjuvant treatment.",
+          "verified": true
+        },
+        {
+          "context": "that the services billed by the contractor were properly authorized and ordered by the institution, are appropriately coded in compliance with Medicare coding policies (where applicable), are properly priced in accordance with the terms and conditions of the contract, and do not represent duplicate billings for payments already made. In addition, the institution may utilize the services of a third-party medical claims adjudicator to review medical claims submitted by the contractor under this contract. When requested by the institution, the contractor shall comply with all reasonable requests for additional invoice/medical claim/medical record documentation. All invoice payments shall be made by the institution and any disagreements regarding the paid amount of any invoice shall be resolved directly with the institution. Invoice Definitions. Line Items 1a - Inpatient Facility Services, 1b - Outpatient Facility Services, 2a - Inpatient Physician Services, and 2b - Outpatient Physician Services: shall be a paper version of an invoice",
+          "finding": "Contract requires medical claims adjudication process and third-party reviewer to monitor inmate medical care spending and billing accuracy.",
+          "news": 3,
+          "quote": "the institution may utilize the services of a third-party medical claims adjudicator to review medical claims submitted by the contractor under this contract.",
+          "verified": true
+        },
+        {
+          "context": "Solicitation Attachment 2: Performance Work Statement FPC Bryan - Comprehensive Medical Services 15BCMS26R50400001 With the exception of Teletriage Services, appointments for specialty care should be available within 14 calendar days from the date of referral to the specialty provider whenever possible. This practice promotes the safety and security of the Federal prisoner, the escorting correctional staff, and the general public. The medical urgency of any referral must receive consideration in the scheduling and delivery of professional services. For prescriptions to be filled by the institution\u2019s pharmacy, contract providers shall only prescribe pharmaceutical drugs that are listed in the approved Attachment 9 - BOP Formulary. Updated BOP Formularies will be posted to bop.gov. Requests for exemptions",
+          "finding": "Telehealth services specified for 11 specialty areas including cardiology, neurology, psychiatry, with response times as short as 14 days for non-emergency referrals.",
+          "news": 3,
+          "quote": "With the exception of Teletriage Services, appointments for specialty care should be available within 14 calendar days from the date of referral to the specialty provider whenever possible.",
+          "verified": true
+        },
+        {
+          "context": "ble within 14 calendar days from the date of referral to the specialty provider whenever possible. This practice promotes the safety and security of the Federal prisoner, the escorting correctional staff, and the general public. The medical urgency of any referral must receive consideration in the scheduling and delivery of professional services. For prescriptions to be filled by the institution\u2019s pharmacy, contract providers shall only prescribe pharmaceutical drugs that are listed in the approved Attachment 9 - BOP Formulary. Updated BOP Formularies will be posted to bop.gov. Requests for exemptions shall be submitted to the Contracting Officer\u2019s Representative (COR), who shall obtain the required approvals. As part of the Discharge Instructions, the issuance of sample medication to any Federal Inmate shall be prohibited. In the event it becomes necessary for the Government to cancel a scheduled visit, the institution will provide the contract provider with 48-hour written or verbal notice prior to canceling a visit. However, cert",
+          "finding": "BOP maintains strict control over medications for inmates, requiring all prescriptions to conform to approved formulary with no sample medications allowed.",
+          "news": 3,
+          "quote": "For prescriptions to be filled by the institution's pharmacy, contract providers shall only prescribe pharmaceutical drugs that are listed in the approved Attachment 9 - BOP Formulary.",
+          "verified": true
+        },
+        {
+          "context": "se Title Fill-ins (if applicable) 2852.223-70 Unsafe Conditions Due to the Presence of Hazardous Material (NOV 2020) Clauses By Full Text BOP DOJ-05 DEVIATION BOP-05 Security of Department Information and Systems (April 2026) The vendor is required to complete Attachment 7 , Federal Bureau of Prisons Vendor Cybersecurity Attestation Form, addressing the security measures they rely upon to protect any DOJ Information and/or DOJ Information Systems for which they come into contact within the course of performing services under contract/agreement with DOJ. The vendor shall submit the Federal Bureau of Prisons Vendor Cybersecurity Attestation Form, along with supporting documentation, at the time of solicitation response, annually, and when significant changes to the provided services, operating environment, or data processed occur. DOJ-07 Prohibition On Access By Non-U.S. Citizens To DOJ IT Systems (MAR 2002)",
+          "finding": "Contract includes cybersecurity requirements for medical service vendors accessing Department of Justice information systems.",
+          "news": 3,
+          "quote": "The vendor is required to complete Attachment 7 , Federal Bureau of Prisons Vendor Cybersecurity Attestation Form, addressing the security measures they rely upon to protect any DOJ Information and/or DOJ Information Systems",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "15BCMS26R50400001 FPC Bryan Comprehensive Medical Services Solicitation.pdf",
+      "s": "screened",
+      "sol": "15BCMS26R50400001"
     },
     "1d1d29868fe2444ba4634d649b20d707": {
       "c": 90089,
@@ -7414,6 +7736,14 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "20600b7345f24aabb5c282c4200cc093": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B08 Attachment 0012 DD-254 Security Form.pdf",
+      "s": "boilerplate_only",
+      "sol": "W519TC26RA054"
+    },
     "20800d14d3dc449ea8c215086be74a8f": {
       "c": 36853,
       "d": "2026-10-11",
@@ -7486,6 +7816,14 @@
       "n": "section_L_instructions_to_offeror(DRAFT).pdf",
       "s": "screened",
       "sol": "FA8652-26-R-0006"
+    },
+    "20cb4b8eb5e54268a1ad74597753de45": {
+      "c": 43905,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Plans 438-21-403 Renovate 1st Floor Kitchen_Part3.pdf",
+      "s": "screened",
+      "sol": "36C26326B0020"
     },
     "20dca74f5ced43df8cebd23c2d451ee4": {
       "c": 729,
@@ -7930,6 +8268,15 @@
       "s": "screened",
       "sol": "36C10F25R0024"
     },
+    "22f586f931b34a7bbc14599205a5f495": {
+      "a": 1,
+      "d": "2026-10-16",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "CFOCO Financial Accounting Reporting SOW (05 Oct 2026).pdf",
+      "s": "retry",
+      "sol": "HHM402-27-X-FRAS"
+    },
     "22f7e7e2eb86413fbb47c2463086ac4c": {
       "c": 16935,
       "d": "2026-10-14",
@@ -8195,6 +8542,14 @@
       "n": "Amendement 001 1240BD27Q0004.pdf",
       "s": "screened",
       "sol": "1240BD27Q0004"
+    },
+    "24250c9bda104df499647aff76da7a93": {
+      "c": 2422,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "36C26127Q0096.docx",
+      "s": "screened",
+      "sol": "36C26127Q0096"
     },
     "242a6f34f6924ef89d6f70305218ab1f": {
       "c": 2821,
@@ -8531,6 +8886,14 @@
       "n": "36C10B26Q0585 0001.docx",
       "s": "screened",
       "sol": "36C10B26Q0585"
+    },
+    "25d7d178b24447dd8ea7ca72572decd9": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 4- Wage Determination No. 2015-4485_Rev32.pdf",
+      "s": "wage_determination",
+      "sol": "W9124M27QA004"
     },
     "25dd956c349e4b7f8ba0810ad9492902": {
       "c": 5749,
@@ -9603,6 +9966,14 @@
       "s": "screened",
       "sol": "140R3026R0012"
     },
+    "2b96da949e82485db09002e8ca627011": {
+      "c": 5541,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Brand Name  3M AC-350 B-2.pdf",
+      "s": "screened",
+      "sol": "W51AA13MSealant"
+    },
     "2b97a98bdb334bb5a447ee852c794037": {
       "c": 0,
       "d": "2026-10-13",
@@ -9760,6 +10131,14 @@
       "n": "Statement of Work - Attachment 11 - 01 33 00 - Attachment C - Form 4288-R (Submittal Register).xlsx",
       "s": "screened",
       "sol": "FA441826R0009"
+    },
+    "2c5961eeaf6542c788bd9e005f71a9c9": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Exhibit F Form 1364 Proposal to Lease Space Jan 2023.pdf",
+      "s": "boilerplate_only",
+      "sol": "36C24W25R0115"
     },
     "2c5d1286d7e64d5facbb8452c1c3ed00": {
       "c": 28929,
@@ -10119,6 +10498,14 @@
       "n": "Revision 03 Area of Interest - TIGER Hackathon.docx",
       "s": "screened",
       "sol": "W912CH-26-S-0001"
+    },
+    "2d927ef8cb9b42658557295d6ed38a4d": {
+      "c": 1,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "RFQ Enclosed Contract Clauses.pdf",
+      "s": "screened",
+      "sol": "19VM3027Q0003"
     },
     "2d93af2b6ec54fa79878bfd1658c4498": {
       "c": 0,
@@ -11066,6 +11453,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-BOSSIERCITYLAFY27"
     },
+    "31bfff016da74c95bcaacfaf5a0a7f96": {
+      "c": 160524,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "J02 iHouse Apt 01 Phase 4 BOD.pdf",
+      "s": "screened",
+      "sol": "75H70126R00026"
+    },
     "31c4bb7affdd498c882dabba8fec9cf4": {
       "c": 8350,
       "d": "2026-10-14",
@@ -11238,6 +11633,14 @@
       "n": "26QA100 Attachment IV - DRAFT 648-C Request for Access to Tobyhanna Army Depot.pdf",
       "s": "screened",
       "sol": "W51AA126QA100"
+    },
+    "328284bae8914c1f9b55ba88355dd19c": {
+      "c": 3141,
+      "d": "2026-10-16",
+      "m": "pptx",
+      "n": "SAM Registration Guidance- final version- EN.pptx",
+      "s": "screened",
+      "sol": "19VM3027Q0004"
     },
     "3288a48e29ec4a15944b9f71416b4feb": {
       "c": 0,
@@ -11416,6 +11819,14 @@
       "n": "Amendment 0001 RFI Responses.pdf",
       "s": "screened",
       "sol": "N4008526B0002"
+    },
+    "338089b42b074204a9eee1ec60f4c6f2": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "S02_Attach1_Department of Labor Wage Determination_Vermilion County Illinois_0215-5021_22Aug202.pdf",
+      "s": "wage_determination",
+      "sol": "36C25227Q0051"
     },
     "33ab872e9a574a368030338fcaef1d0c": {
       "c": 8756,
@@ -11756,6 +12167,14 @@
       "s": "screened",
       "sol": "N3220526R6120"
     },
+    "356c0026687842999c2d8f72da729f54": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment_3_WD_2015-5327_rev_30_5_13_26.pdf",
+      "s": "wage_determination",
+      "sol": "140A2326Q0243"
+    },
     "35847f5ea6644fe7a2538bfbf7c5747d": {
       "c": 1068,
       "d": "2026-10-14",
@@ -11943,13 +12362,11 @@
       "sol": "612675548"
     },
     "36550451028b492fb94639ff86a77f7e": {
-      "a": 1,
-      "c": 5474,
+      "c": 2561,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Attach (01) - PROFORMA - SPECIALTIME 2026 (A0001).pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N3220526R6077"
     },
     "3671c3bc730b464289be137100b12d88": {
@@ -12078,6 +12495,14 @@
       "n": "N0016426RWP07 Synopsis 05112026.pdf",
       "s": "screened",
       "sol": "N0016426RWP07"
+    },
+    "372aa82f0df94187bee14e9d0d2096f7": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Wage Determination_2.pdf",
+      "s": "wage_determination",
+      "sol": "36C24626B0031"
     },
     "3765b1df60ea4b3f8bf79a2ed9fbd096": {
       "c": 4983,
@@ -12592,6 +13017,14 @@
       "s": "screened",
       "sol": "36C10B27Q0025"
     },
+    "394f5d020cc0452dbcdc3c8f1424d3ab": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Att 04_Wage Rates-Ripley_260518.pdf",
+      "s": "wage_determination",
+      "sol": "12445527Q0003"
+    },
     "395f5617907e4f2aa2b498477c9a5a78": {
       "c": 80037,
       "d": "2026-10-14",
@@ -12697,6 +13130,14 @@
       "s": "screened",
       "sol": "N0040627R0004"
     },
+    "39ad59f849874cd59c833e11af0d3429": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Aviation Source Approval and Management Handbook JACG SAM HB 03-16-11.pdf",
+      "s": "boilerplate_only",
+      "sol": "SPE4A727R0057-Sources_Sought"
+    },
     "39cb928886574562b4c23ed45c39d5ad": {
       "c": 1100,
       "d": "2026-10-10",
@@ -12744,6 +13185,14 @@
       "n": "P03-Brand Name Justification 36C259-26-AP-3387 Karl Storz-623 redacted.pdf",
       "s": "screened",
       "sol": "36C25926Q871RFQ1837075"
+    },
+    "3a14188f9d804c9a82cc45da2196fe16": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B03_WD_1995-0221_Rev__74_06_29_2026.pdf",
+      "s": "wage_determination",
+      "sol": "140D0426R0114"
     },
     "3a1c34c027ef468f83a753e5be4ee13f": {
       "c": 765,
@@ -12865,6 +13314,14 @@
       "n": "Attachment 4 - Almost Home Lyrics.pdf",
       "s": "screened",
       "sol": "FA449726Q0055"
+    },
+    "3a70a0c683ed4b57812b548012a998bb": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "007200_Attch13_AF487.pdf",
+      "s": "boilerplate_only",
+      "sol": "FA813727R0002 "
     },
     "3a871c4520f842aa926f79004751e422": {
       "c": 18053,
@@ -13077,6 +13534,14 @@
       "s": "screened",
       "sol": "36C24627Q0019   "
     },
+    "3b6aa55d6ac74b6aa56c7e1181f90b22": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 7 - WD 2015-5633 Monterey Ft Hunter.pdf",
+      "s": "wage_determination",
+      "sol": "H9224026QE"
+    },
     "3b74c2b3f43544d693398acc8dabbd29": {
       "c": 3194,
       "d": "2026-10-14",
@@ -13101,6 +13566,14 @@
       "n": "LTA RFI -9.4.26.pdf",
       "s": "screened",
       "sol": "LTA_2026_RFI"
+    },
+    "3b861644324546e0ae641b5e18e96db8": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "EXHIBIT E_3517B General Clauses (April 2026).pdf",
+      "s": "boilerplate_only",
+      "sol": "36C24426R0012"
     },
     "3b914e8da3da4bd5b605a810b2f38786": {
       "c": 9936,
@@ -13186,6 +13659,14 @@
       "n": "N3904026Q0004 Attachment 1 - Diesel Maintenance Statement of Work.pdf",
       "s": "screened",
       "sol": "N3904026Q0004"
+    },
+    "3bc289b86aba4375a0867d447d55d552": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A010 - Quarterly Reporting.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
     },
     "3bc336ee3463423da3ffaef224625606": {
       "c": 1076,
@@ -13451,6 +13932,14 @@
       "s": "screened",
       "sol": "FA465926R0002"
     },
+    "3cbbd23426e54fc2b831c2560dd7d55d": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "Attachment C - Wage_Determination_NJ20260042_05.18.2026.docx",
+      "s": "wage_determination",
+      "sol": "36C24226R0097"
+    },
     "3cbec486cdbb40329016e39f920122d3": {
       "c": 2940,
       "d": "2026-10-13",
@@ -13629,13 +14118,38 @@
       "sol": "RFW-DOTAC-ARMY-2026-003"
     },
     "3d7442b33a1d4ff0ac1ddcf4f256a90d": {
-      "a": 1,
-      "c": 158856,
+      "c": 152345,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "ame of the regulation. (End of provision) W519TC26RA056 Page 118 of 130 Section M - Evaluation Factors for Award SECTION M - EVALUATION FACTORS FOR AWARD M.1 BASIS OF AWARD: M.1.1 The Government expects to award a single combination Cost Plus Fixed Fee/Firm-Fixed Price (Transition-In CLIN and PMO CLINs only) task order with 1, 12-month base period, to include a 60-day transition, 4, 1-year evaluated option periods, and 1, 6-month evaluated option period with this RFP. The Government will make an award to the responsible Offeror (IAW RFO FAR 9.1) whose proposal complies with the RFP requirements and is determined to be the lowest total evaluated (fair and reasonable) priced proposal that is determined to be Technically Acceptable with Substantial Confidence in Past Performance. The responsibility determination shall include the following: M.1.1.1 A review of the Offer",
+          "finding": "Army solicitation for Fort Stewart maintenance, supply, and transportation services with firm-fixed-price transition and PMO components; 5-year contract with base plus four 1-year options.",
+          "news": 3,
+          "quote": "The Government expects to award a single combination Cost Plus Fixed Fee/Firm-Fixed Price (Transition-In CLIN and PMO CLINs only) task order with 1, 12-month base period, to include a 60-day transition, 4, 1-year evaluated option periods, and 1, 6-month evaluated option",
+          "verified": true
+        },
+        {
+          "finding": "Army soliciting Fort Stewart logistics support recompete with incumbent Akima Facilities Operations; 5.5-year contract potential under 100% small business set-aside.",
+          "news": 4,
+          "quote": "The incumbent contractor is Akima Facilities Operations, LLC (formerly Sunik, LLC) under contract(s) W52P1J-22-F-0017, W52P1J-18-G-0030... This RFP is a small business set aside acquisition",
+          "verified": false
+        },
+        {
+          "finding": "Fort Stewart logistics contract requires cost-plus-fixed-fee structure with detailed performance management reviews and fee reductions for deficiencies, including 10% monthly critical nonconformance penalties.",
+          "news": 3,
+          "quote": "Critical Nonconformance Contractor's fee will be assessed not less than 10% of the monthly fixed fee in which the critical nonconformance occurred... Unresolved CARs Contractor's fee will be assessed not less than 5% of the daily fixed fee",
+          "verified": false
+        },
+        {
+          "finding": "RFP requires contractor surge capacity for contingency operations with full operational capability within 21 days of Notice to Proceed on surge workload; contractor must detail staffing increase and hiring plans.",
+          "news": 3,
+          "quote": "The Offeror's detailed description must include an immediate response to the NTP, its staffing increase plan, and the hiring practices proposed... full operational capability (FOC) not later than 21 days following the NTP on the surge requirement",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "B08 - Solicitation - W519TC26RA056 - FINAL.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "W519TC-26-R-A056"
     },
     "3d7e7a9e102b4af4bf86efdf3395e7fd": {
@@ -13855,6 +14369,14 @@
       "s": "boilerplate_only",
       "sol": "FA461027R0001"
     },
+    "3e537c28a14d4c7982dde091f136a268": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A004 - JWCC UCM Core Service Catalog.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
+    },
     "3e552c25c4294314b9fe219e5a2e6259": {
       "c": 8890,
       "d": "2026-10-10",
@@ -13870,6 +14392,14 @@
       "n": "1. SOW, AL-1964-3328A.pdf",
       "s": "screened",
       "sol": "AA-2027-01"
+    },
+    "3e7cceb2962744318690aa0bebae84b0": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Combo Synopsis - FA446027Q0005 .pdf",
+      "s": "wage_determination",
+      "sol": "FA446027Q0005"
     },
     "3e7e9303a5604083aa7f771d5b4c138a": {
       "c": 20013,
@@ -14053,6 +14583,14 @@
       "n": "BN1ONLB27_SPECS_AMD0004_PCO APPROVED 20260918.pdf",
       "s": "screened",
       "sol": "W9127N26BA024"
+    },
+    "3f11385189f04e2691b6fd1bac30fc74": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Solicitation - 36C24626B0031.pdf",
+      "s": "wage_determination",
+      "sol": "36C24626B0031"
     },
     "3f1e97dcc6024d07830a43d28bf1bb69": {
       "c": 6493,
@@ -14279,6 +14817,14 @@
       "n": "Building 262 Drawings.zip",
       "s": "screened",
       "sol": "70LGLY27RSSB00001"
+    },
+    "3fd90c60c5c7421c9bedb2d966e6ec81": {
+      "c": 361853,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "TE-03 Paving IDIQ Airfield Specifications.pdf",
+      "s": "screened",
+      "sol": "W911S6-27-B-A001"
     },
     "3fdef697f48a45308cdb6edc043688ca": {
       "c": 1165,
@@ -14525,6 +15071,14 @@
       "n": "MIL STD 129R and Supplement Sheet Vendor Certification.pdf",
       "s": "screened",
       "sol": "47QSSC26Q2022"
+    },
+    "40a81a174532451bb6eff40648816c5b": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Aviation Source Approval and Management Handbook JACG SAM HB 03-16-11.pdf",
+      "s": "boilerplate_only",
+      "sol": "SPE4A727R0060-Sources_Sought"
     },
     "40b2241f335644d6a2d44193a26fe3ff": {
       "c": 10242,
@@ -15230,6 +15784,14 @@
       "n": "Att 011 DHS 11000-6 Non-Disclosure Agreement - Copy.pdf",
       "s": "screened",
       "sol": "70LGLY27RSSB00001"
+    },
+    "43f363f5eb684376af81453fd44a60a1": {
+      "c": 3245,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "36C25927Q0010 0001.docx",
+      "s": "screened",
+      "sol": "36C25927Q0010"
     },
     "440fae31d3314e5d8b43b36cd159962b": {
       "c": 1448,
@@ -16008,6 +16570,14 @@
       "s": "screened",
       "sol": "HE1254-27-RE-WESTPOINT"
     },
+    "47e2cde1a89f4c6c94ca33296e1899df": {
+      "c": 7757,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "Brand Name Sources Sought 3M Sealant (2 Types).docx",
+      "s": "screened",
+      "sol": "W51AA13MSealant"
+    },
     "47f69d05567f492ca4915e7257ce3cc0": {
       "c": 4325,
       "d": "2026-10-13",
@@ -16072,6 +16642,15 @@
       "n": "Attachment 13 - HTRO Explained for First Time Users -- Aug 2026 v3.pdf",
       "s": "screened",
       "sol": "LRAFB_MACC_IndustryDay"
+    },
+    "48217c5b25474bb9a03c1015939160bb": {
+      "a": 1,
+      "d": "2026-10-16",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "List of Samples - Nutrient Analysis.xlsx",
+      "s": "retry",
+      "sol": "W911QY-26-R-NUTRIENT-ANALYSIS"
     },
     "483762f9160b4e61ac914d5b3c9c7c93": {
       "c": 2714,
@@ -16138,13 +16717,19 @@
       "sol": "69056726B000007"
     },
     "4894a3a182f942e9b94e1d2391cecc50": {
-      "a": 1,
-      "c": 231087,
+      "c": 229706,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "MSC ships asserting sovereign immunity are exempt from foreign port state pilotage requirements and jurisdiction, but comply selectively with host nation regulations.",
+          "news": 3,
+          "quote": "The public ships of the Government have the right of entering the ports and harbors of the United States without employment of pilots...This exemption extends to all ships which belong to the United States, and employed in the public service",
+          "verified": false
+        }
+      ],
       "m": "ocr+pdf",
       "n": "Attach (16) - MSC SOM.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N3220526R6077"
     },
     "48bb0c78e56849ab8d102cd1401d40db": {
@@ -16219,6 +16804,14 @@
       "n": "SATPC0042947 Tab 04 4 SOW updated.pdf",
       "s": "screened",
       "sol": "80NSSC26946154Q "
+    },
+    "496459a17a6e4a4e917209a72dd152c9": {
+      "c": 112,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "B08 Attachment 0035 Q and A Template.xlsx",
+      "s": "screened",
+      "sol": "W519TC26RA054"
     },
     "4971687943e54ed39626d0faf2ee7dd5": {
       "c": 4274,
@@ -16549,6 +17142,14 @@
       "s": "screened",
       "sol": "70Z02326Q92200038"
     },
+    "4a66a83064a2490bb0e63d29c96747db": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Wage Determination for all locations.pdf",
+      "s": "wage_determination",
+      "sol": "W912LQ27QA001"
+    },
     "4a6e950590ae427ca2cc9ec8d3abce48": {
       "c": 0,
       "d": "2026-10-14",
@@ -16651,6 +17252,14 @@
       "s": "screened",
       "sol": "USCA27R0009"
     },
+    "4aa8284f922245469859cfde121c871f": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-2 JWCC UCM Core DD254.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
+    },
     "4aa8565744ab4ad9ae5ef272673d5ed8": {
       "c": 2129,
       "d": "2026-10-10",
@@ -16732,6 +17341,14 @@
       "n": "Attachment 18 - Sample Project Proposal Price Worksheet.xlsx",
       "s": "screened",
       "sol": "FA441827R0001"
+    },
+    "4b303aa7abfe40f8b1c9c8050e901e1c": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment J-7. Service Contract Wage Determination 2015-5683 Rev. 28.pdf",
+      "s": "wage_determination",
+      "sol": "1332KP26R0041"
     },
     "4b333c4ecd984615939984f5a6b31c8a": {
       "c": 58060,
@@ -16980,6 +17597,14 @@
       "s": "screened",
       "sol": "69056726B000009"
     },
+    "4c07e9e08dbb4b1ea13e1ea2c9867fd3": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Attachment 6 - Wage Determination - Howard County TX - 1-2-26.pdf",
+      "s": "wage_determination",
+      "sol": "36C77626B0011_1"
+    },
     "4c0eb0504bfb402c966d70386a097dfa": {
       "c": 782,
       "d": "2026-10-11",
@@ -17093,6 +17718,23 @@
       "n": "Directed-Call 2 Attachment 1 SMS GRACs.pdf",
       "s": "screened",
       "sol": "M2M-MSFC-0001"
+    },
+    "4ca38397c03e4439a806a66b85dfcf76": {
+      "c": 12897,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "staff assignments configured in Vocera Connect. As a result, call notifications did not consistently route to the appropriate nursing staff. The physical console is located at the front nurses\u2019 station and cannot be heard from the rear of the unit. Therefore, staff working in the rear area may not receive timely notification of a patient call. b. June 3, 2026: At approximately 2:30 a.m., a Veteran fell in their room and disconnected the call-light cord during the fall. The system is designed to activate an alarm at the staff desks when a call-light device is unplugged; however, no alarm occurred. This created a serious life-safety concern because staff were not alerted to the disconnected device or the Veteran\u2019s need for assistance. The Dayton VAMC requires the purchase and installation of a Rauland Responder 5 Nurse Call System that integrates with the facility\u2019s existing Vocera software and Hillrom beds. The Rauland Responder 5, when combined with Vocera software, is the only solution identified that can provide the required in",
+          "finding": "VA awards sole-source $2M+ contract to GMP for nurse call system after two patient-safety incidents in 2026, citing urgency.",
+          "news": 4,
+          "quote": "June 3, 2026: At approximately 2:30 a.m., a Veteran fell in their room and disconnected the call-light cord during the fall. The system is designed to activate an alarm at the staff desks when a call-light device is unplugged; however, no alarm occurred.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Justification and Approval .pdf",
+      "s": "screened",
+      "sol": "36C250-26-AP-2534"
     },
     "4ca4f75baa734081ae10f10d786a6ac2": {
       "c": 1239,
@@ -17455,6 +18097,14 @@
       "n": "ATTACHMENT E - QASP MATRIX.xlsx",
       "s": "screened",
       "sol": "36C10X27R0002"
+    },
+    "4dbd23bf257245c38b8ef990450aca5f": {
+      "c": 3159,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "Arthrex_Statement_of_Work.docx",
+      "s": "screened",
+      "sol": "HT941027N0006"
     },
     "4dc3e5a5b68b4d8c8361cfc111c761c7": {
       "c": 353,
@@ -18443,6 +19093,14 @@
       "s": "screened",
       "sol": "HT9427RFI2027LRP"
     },
+    "52232d8e0ec34882af69a8761a2bc123": {
+      "c": 1145,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "CDRL A002 Briefing Materials Milestones.pdf",
+      "s": "screened",
+      "sol": "FA857127Q0008"
+    },
     "522c883506c143f59e31c0a4291b9e47": {
       "c": 86359,
       "d": "2026-10-11",
@@ -18505,6 +19163,14 @@
       "n": "2.1.3 SOL AMDNT 5 - J-5 RFC Answers.xlsx",
       "s": "screened",
       "sol": "N0040627R0004"
+    },
+    "5280498837574d56bd7d4fb59a0f28f1": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Atch 9 - DD 254 Draft Call 004.pdf",
+      "s": "boilerplate_only",
+      "sol": "FA945326RX012"
     },
     "5284c72b98f64f08865860bf7674dc54": {
       "c": 5099,
@@ -18738,6 +19404,14 @@
       "n": "CDRLFATR.pdf",
       "s": "screened",
       "sol": "SPRHA4-26-R-0028"
+    },
+    "5374bca2aaa6449aba5d89f30d312285": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A006 - JWCC UCM Core Exception Extension Request.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
     },
     "537f2c3c8f08436ca09cbcfd3be1b85e": {
       "c": 4724,
@@ -18995,6 +19669,14 @@
       "s": "screened",
       "sol": "36C25927Q0019"
     },
+    "54a98f6ee04045069fa7857d54f1c3ce": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Exhibit G Form 1217  Lessors Annual Cost Statement Nov 2016.pdf",
+      "s": "boilerplate_only",
+      "sol": "36C24W25R0115"
+    },
     "54bfae747ffb4a71bc22ebf4c6046680": {
       "c": 13022,
       "d": "2026-10-14",
@@ -19058,6 +19740,22 @@
       "n": "Attachment_4_Staffing_Matrix_Template.docx",
       "s": "screened",
       "sol": "HM047626R0018"
+    },
+    "55051fd8f4ca49cd94d0505b7a962156": {
+      "c": 4115,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Att IV_Schedule Pages_v2.xlsx",
+      "s": "screened",
+      "sol": "SPE604-26-R-0403_CombinedSynopisSolicitation"
+    },
+    "550ef4334dc348f5a59eea9d133ca0b2": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "TE 2 - Forms - Ground Mishap Statement.pdf",
+      "s": "boilerplate_only",
+      "sol": "W911S227QA006"
     },
     "551a361a73244539a4b7d3fb2163df61": {
       "c": 159535,
@@ -19292,6 +19990,14 @@
       "n": "Solicitation Amendment FA239626RB0080003 SF 30.pdf",
       "s": "screened",
       "sol": "FA239626RB008"
+    },
+    "561862021c6c4703ac43894ad56c63b0": {
+      "c": 142,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Attachment S.1 - Q&A Template.xlsx",
+      "s": "screened",
+      "sol": "H9224026QE"
     },
     "56215f78396b482992014ce8621305fb": {
       "c": 27591,
@@ -19627,6 +20333,14 @@
       "n": "CORHQ-26-Q-0382 JFROG.pdf",
       "s": "screened",
       "sol": "CORHQ-26-Q-0382"
+    },
+    "578f6f2deac040a8b945ba1891c488d5": {
+      "c": 5652,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_8 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "5792ecd9d760462e94ca51f3c7ca09b6": {
       "c": 28204,
@@ -20193,6 +20907,14 @@
       "s": "screened",
       "sol": "W15P7T-26-R-A006"
     },
+    "5a0afab05181480a90a1d7805d811f4d": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "EXHIBIT I_ DOL Wage Determination 2026.pdf",
+      "s": "wage_determination",
+      "sol": " 36C24W23R0031"
+    },
     "5a0ed60c5bb44661884f36bef9ac31aa": {
       "c": 4544,
       "d": "2026-10-10",
@@ -20418,6 +21140,15 @@
       "s": "screened",
       "sol": "N00250-26-B002"
     },
+    "5ac0f483348c49b1959d202f47ce3fa7": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "BIPSR_mTBI_RFI FINAL 9 Oct 2026.docx",
+      "r": "repeat of an earlier file on this notice",
+      "s": "screened",
+      "sol": "CB4_SW_mTBI_RFI"
+    },
     "5ac6a0fba9b842fda46045c3b075ee8b": {
       "c": 13782,
       "d": "2026-10-13",
@@ -20441,6 +21172,14 @@
       "n": "ATTACH_4_-_Construction_Schedule.docx",
       "s": "screened",
       "sol": "140S0326R0001"
+    },
+    "5b11a4ac57aa48b78f255253a788b090": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A008 - Ad-Hoc Reporting Information Product.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
     },
     "5b1444e8d43f4147b3fe8d9249bd77f0": {
       "c": 0,
@@ -20619,6 +21358,14 @@
       "n": "PWS-CRHC-EMT-Services.pdf",
       "s": "screened",
       "sol": "IHS1528529"
+    },
+    "5c47f8d252bb425f8dc5f2244f173433": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B08_Att_12_Solit_PSP_Vol_II_GenRefs.pdf",
+      "s": "boilerplate_only",
+      "sol": "140P2026R0101"
     },
     "5c5f2e1a39614631834765ecb5713b02": {
       "c": 2300,
@@ -21928,6 +22675,14 @@
       "s": "screened",
       "sol": "36C24226Q0812"
     },
+    "623abe454a334818882ed1c0079d3518": {
+      "c": 1068,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Brand Name  3M AC-350 B-Half.pdf",
+      "s": "screened",
+      "sol": "W51AA13MSealant"
+    },
     "6243a09c7c0f494e886b04372c422c65": {
       "c": 6629,
       "d": "2026-10-14",
@@ -22337,6 +23092,14 @@
       "s": "screened",
       "sol": "36C78627Q0012-SS"
     },
+    "63d36cbc84dc4a348eb90c46ec828d59": {
+      "c": 7,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B08_Att_07_General_References.pdf",
+      "s": "screened",
+      "sol": "140P2026R0065"
+    },
     "63e29ad696824612a2e5c8199ebf473b": {
       "c": 19596,
       "d": "2026-10-14",
@@ -22635,6 +23398,14 @@
       "n": "Attachment 4 Schematic Drawings.zip",
       "s": "screened",
       "sol": "36C10B27Q0040"
+    },
+    "65afab5556c7479a90c94f44137e8149": {
+      "c": 14495,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 9 - 668-22-106 - Contractor Rules of Behavior.pdf",
+      "s": "screened",
+      "sol": "36C26027R0014"
     },
     "65d487bc456843bda4f615d8ed33a581": {
       "c": 0,
@@ -23587,6 +24358,14 @@
       "s": "screened",
       "sol": "36C26326R0044"
     },
+    "699566a83b4140639b9e5b645012b9e8": {
+      "c": 8234,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S02_Att 6_Fort Sill NC 920CM3006 Plan Set Reduced 4 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
+    },
     "6997edb12333498eb492390e2d8b942c": {
       "c": 10936,
       "d": "2026-10-13",
@@ -23807,6 +24586,22 @@
       "s": "screened",
       "sol": "SP330027Q0007"
     },
+    "6a6ed0c15adc4b8b8247da60909fe2e1": {
+      "c": 10068,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "DLA awards sole-source three-year contract to Independent Rough Terrain Center for 37 spare-parts line items; redacted dollar value.",
+          "news": 3,
+          "quote": "The Government does not own any technical data on these OO... The contractor has other capabilities in that... This knowledge assures the Government that replacement components will be easily incorporated into the machine",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA_SPRDL1-25-R-0153_Redacted_J2 Reviewed (1).pdf",
+      "s": "screened",
+      "sol": "SPRDL1-25-R-0153"
+    },
     "6a73bafb05d64e508f342b1cb9396b34": {
       "c": 1350,
       "d": "2026-10-10",
@@ -23942,6 +24737,14 @@
       "n": "RFI LIA Amendment 1.pdf",
       "s": "screened",
       "sol": "RFI_LIA_2026"
+    },
+    "6ac7f19ff4b94addb3db4477c7e349b9": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "WD_ID20260004.pdf",
+      "s": "wage_determination",
+      "sol": "1240LT26Q0035 "
     },
     "6b02cf54d84645a58a9dbb824d70b9f9": {
       "c": 2044,
@@ -24288,6 +25091,15 @@
       "s": "screened",
       "sol": "36C26126R0055_2"
     },
+    "6c60d0e7451c439fa20325422100b0be": {
+      "a": 1,
+      "d": "2026-10-16",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "JA_ 12.102(a)_FMLT Conference Services.final_Signed 10.8.2026 CO signed.pdf",
+      "s": "retry",
+      "sol": "36C10X27Q0008"
+    },
     "6c60ed67c8454f579b6f5267fb39a631": {
       "c": 0,
       "d": "2026-10-10",
@@ -24550,6 +25362,14 @@
       "s": "wage_determination",
       "sol": "FA480327Q0003"
     },
+    "6d86b5ff11ae442b8ea2a7b58ba581a1": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B08_Attach_10_Gen_Refs_Vol_II.pdf",
+      "s": "boilerplate_only",
+      "sol": "140P2026R0106"
+    },
     "6d95c17115fb4556b90ed2ea0af6a9d1": {
       "c": 0,
       "d": "2026-10-13",
@@ -24573,6 +25393,14 @@
       "n": "ATTACHNENT 0007 Bldg_D_Furn-Combined (seating chart).pdf",
       "s": "screened",
       "sol": "W91QV126RA060"
+    },
+    "6dcd032e95694970b8afeb47b2a67df6": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A007 - Fortified Security Authorization Information.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
     },
     "6dd0587a2ccf42bbb7c871ecf47c9786": {
       "c": 13491,
@@ -24613,6 +25441,14 @@
       "n": "36C26327Q0060_1.docx",
       "s": "screened",
       "sol": "36C26327Q0060"
+    },
+    "6e1bba4a94444c709eabc4a6d88d5364": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "P7777 Sources Sought_Attachment_1.docx",
+      "s": "boilerplate_only",
+      "sol": "N69450SP7777-Metasys"
     },
     "6e2eabe5e1ee4bcda2fcbaafdb74516f": {
       "c": 10778,
@@ -24800,6 +25636,23 @@
       "n": "MSS_4710003266453NZ_PR FD20302700348.pdf",
       "s": "screened",
       "sol": "FD20302700348"
+    },
+    "6edabbd0ea7b46c1813c5b39b8bf3e14": {
+      "c": 6688,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "her sources. x Specialized Personnel and Team Synergy: The existing performer teams possess a unique and irreplaceable combination of world-leading expertise in anti-icing technologies, bioinspired polymer synthesis, cryopreservation, microbial collection/isolation, DoW operational constraints, and large-scale protein production. x Government Investment and Duplication of Cost: A significant government investment has already been made Ginkgo: $5.207M). A new contractor(s) would require an estimated 12-18 months and significant investment to replicate the specialized laboratory setups and validated testbeds. Justification for Other than Full and Open Competition for Phase III awards under the ICE program x Risks of Selecting a Different Source: Selecting a new, unproven contractor would introduce critical program risks, including an inability to scale up molecule production, severe delays jeopardizing p",
+          "finding": "DARPA sole-sources $5M ice-control research to Ginkgo Bioworks; timed for Arctic exercises (JPMRC) winter 2026-2027; delay risks DoD partner demonstrations.",
+          "news": 5,
+          "quote": "Government partners have furnished specific information and are actively planning demonstrations for the winter of 2026-2027, timed to coincide with major exercises in the Arctic (e.g., JPMRC). A delay caused by bringing a new contractor on board would jeopardize these critical, time-sensitive demon",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Justification_and_Approval_-_ICE_Program Fully executed_Ginkgo_Redacted.pdf",
+      "s": "screened",
+      "sol": "HR001124C0378"
     },
     "6ef3da4edd4542c3a2d446c29eb0a5ee": {
       "c": 416287,
@@ -25131,6 +25984,35 @@
       "s": "screened",
       "sol": "FA8105_CCR_Rev2"
     },
+    "702b824defc543e78f9f71c74f28139c": {
+      "c": 32619,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "using an \"Acceptable\" or \"Unacceptable\" rating. A rating of \"Unacceptable\" will render the entire proposal ineligible for award. The proposed contract value will be evaluated for consistency with the Price Factor. Any variance in the proposed contract value will result in an unacceptable rating. M.3.3.1. Part 1: Small Business Participation Plan: The Government will evaluate whether the Offeror's Small Business Participation Plan demonstrates a commitment to small business participation and provides sufficient detail to demonstrate the Offeror's commitment to small business utilization. M.3.3.1.1. Commitment and Strategy: The Government will evaluate whether the Offeror's proposal demonstrates a commitment to subcontract a minimum of 14% of the total proposed contract value for the base and each option year to small business concerns. The Government will verify the Offeror utilized the correct table format as required in L.3.3.1.1. W58RGZ26R00260002",
+          "finding": "Small business subcontracting requirement mandates minimum 14% of total contract value go to small business concerns.",
+          "news": 4,
+          "quote": "The Government will evaluate whether the Offeror's proposal demonstrates a commitment to subcontract a minimum of 14% of the total proposed contract value for the base and each option year to small business concerns.",
+          "verified": true
+        },
+        {
+          "finding": "Army soliciting multi-year aviation maintenance contract at Fort Rucker worth hundreds of millions for five helicopter models including AH-64E attack aircraft.",
+          "news": 5,
+          "quote": "The Contractor shall provide all maintenance and logistics support for all AH-64E Mission Design Series (MDS) Aircraft IAW Attachment 0001, PWS... CH-47F... UH-60M & HH-60M... UH-72A... MV-75 Aircraft Maintenance",
+          "verified": false
+        },
+        {
+          "finding": "Contract spans 10+ years with base period through January 2029, multiple option years extending to July 2038, and transition phases.",
+          "news": 4,
+          "quote": "Period of Performance From 16 Jan 2028 To... Option to Extend Services 16 Jan 2038 15 Jul 2038... shall not exceed 10 years and 8 months.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Conformed Solicitation and Amendment - W58RGZ26R00260002 10142026.pdf",
+      "s": "screened",
+      "sol": "W58RGZ-26-R-0026"
+    },
     "70344a418dea431180ce03b94c3c84d5": {
       "c": 4588,
       "d": "2026-10-10",
@@ -25427,6 +26309,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-MCALLENTXFY27"
     },
+    "716eb9c5456240fa86cf14248b270dce": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "52.222-90 Addressing DEI Discrimination by Federal Contractors.docx",
+      "s": "boilerplate_only",
+      "sol": "36C25925Q0740"
+    },
     "71853dcdf65a452a815dd29715f1b954": {
       "c": 80608,
       "d": "2026-10-11",
@@ -25504,6 +26394,14 @@
       "n": "PWS COG Laundry Services.pdf",
       "s": "screened",
       "sol": "36C26127Q0084"
+    },
+    "71a46bc5d79f4da0921112df7304aad9": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Att 03_Wage Rates-Dent_260518.pdf",
+      "s": "wage_determination",
+      "sol": "12445527Q0003"
     },
     "71a99367d02e49c3b48c1d9c7ae81782": {
       "c": 3473,
@@ -26018,6 +26916,14 @@
       "s": "screened",
       "sol": "SPE607-27-R-0200-0001"
     },
+    "73e9da1a1bfc475abed97ae62474b28f": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "Attachment 4 - Limitations on Subcontracting - Construction.docx",
+      "s": "boilerplate_only",
+      "sol": "36C77626B0011_1"
+    },
     "74101167343b4891a88d790cf927112f": {
       "c": 1991,
       "d": "2026-10-14",
@@ -26428,6 +27334,14 @@
       "n": "36C26326B0020.docx",
       "s": "screened",
       "sol": "36C26326B0020"
+    },
+    "75cc313c0fb34975b70b794a1b54cc8b": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B03_WD.pdf",
+      "s": "wage_determination",
+      "sol": "140FF027Q0010"
     },
     "75cdd0720e7c450ab74a6cf29f9b2950": {
       "c": 107850,
@@ -27429,6 +28343,14 @@
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
     },
+    "78d42e59fcd145d782bfaa8abf9f3270": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 2 Wage Determination 2015-5775 Rev 32.pdf",
+      "s": "wage_determination",
+      "sol": "W911S227QA006"
+    },
     "78dc034013a34a28bd7f70d5dbfd4c02": {
       "c": 13689,
       "d": "2026-10-15",
@@ -27571,6 +28493,14 @@
       "s": "screened",
       "sol": "140R3026R0012"
     },
+    "794bff84774641cc88cd7a1518f217ca": {
+      "c": 112,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "SPE60226R0708_Sect J Attachment 3 OET Guidance  2026.pdf",
+      "s": "screened",
+      "sol": "SPE60226R0708"
+    },
     "79602067968349b89ca4ac3b1f8bf919": {
       "c": 1438,
       "d": "2026-10-10",
@@ -27619,6 +28549,14 @@
       "s": "wage_determination",
       "sol": "W912TF27QA001"
     },
+    "79c2bf63663c4e5f9125d74a529a3305": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 5 - WD 2015-5607 Imperial Niland.pdf",
+      "s": "wage_determination",
+      "sol": "H9224026QE"
+    },
     "79cc6e0117ab4e1588a4720dcfe777fc": {
       "c": 0,
       "d": "2026-10-14",
@@ -27666,6 +28604,14 @@
       "n": "Sources Sought Three Generators.docx",
       "s": "screened",
       "sol": "36C25627Q0033"
+    },
+    "7a21335c642e4a1caab9f1b4e08f0f5b": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A009 - Edge System Processes and Documentation.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
     },
     "7a26553b6348449fa65de342a0f2afae": {
       "c": 2555,
@@ -28642,6 +29588,14 @@
       "s": "screened",
       "sol": "FA820126R0020"
     },
+    "7e68e2f74db0431a8ec45bcb3e8eb90e": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment J-8 SCA WD for Unions 2017-0746 Rev. 16.pdf",
+      "s": "wage_determination",
+      "sol": "1332KP26R0041"
+    },
     "7e6ae0fc573e43f0bfc82f892632c96d": {
       "c": 5834,
       "d": "2026-10-16",
@@ -29241,6 +30195,14 @@
       "s": "screened",
       "sol": "36C10X27R0001"
     },
+    "816930332d1445fb9d460cc5aee30116": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Wage Determinations.pdf",
+      "s": "wage_determination",
+      "sol": "FA813727R0001"
+    },
     "817008f9bcf342fc88e0e1bf9f11eeb1": {
       "c": 32314,
       "d": "2026-10-10",
@@ -29450,6 +30412,14 @@
       "s": "screened",
       "sol": "36C24926Q0334_1"
     },
+    "825433d4a6544dd58ca4ae409f91c657": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "RLP 36C24W26R0045 Exhibit I Seismic Forms A through F with Instructions.pdf",
+      "s": "boilerplate_only",
+      "sol": "RLP36C24W26R0045"
+    },
     "8255ad05cc3c42a8a6c8982bedceb25e": {
       "c": 8065,
       "d": "2026-10-13",
@@ -29593,6 +30563,14 @@
       "n": "S20 DRAWINGS_Redacted.pdf",
       "s": "screened",
       "sol": "36C25227Q00480001"
+    },
+    "82eb644ea63b49daaa175b0aef9a3ee1": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "9 - Exhibit G - 0PR2126 - Carolina PR - Form 1217 - Lessor_s Annual Cost Statement - 10.16.2026.pdf",
+      "s": "boilerplate_only",
+      "sol": "0PR2126-1"
     },
     "82efa444c5ed4855b39ea29182bc603b": {
       "c": 35489,
@@ -30188,6 +31166,14 @@
       "n": "Wage Determination CA20260019 dated 20260903.pdf",
       "s": "wage_determination",
       "sol": "36C26127Q0026"
+    },
+    "8631df97790e4e899e72626254852504": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "CDRL_QESA_CMM_MAINT_FY27.pdf",
+      "s": "boilerplate_only",
+      "sol": "W15QKN26RA097"
     },
     "863dbdae3bd6426b9fc92ba562b16c41": {
       "c": 414,
@@ -30828,6 +31814,14 @@
       "s": "screened",
       "sol": "SPE60526R0217"
     },
+    "88ccc76e76de427f8271d6940768c778": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Att 08- RFP DD254.pdf",
+      "s": "boilerplate_only",
+      "sol": "N0017326R0008"
+    },
     "88ce9287814345218c969e0b87f7739f": {
       "c": 139,
       "d": "2026-10-14",
@@ -31228,6 +32222,14 @@
       "s": "screened",
       "sol": "N00025-26-R-5246"
     },
+    "8a7a2151c0e34acea7c88c53bec010c5": {
+      "c": 228373,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "VA Wilmington Contract Doc Submittal - 2024 05 10 - Specifications.pdf",
+      "s": "screened",
+      "sol": "36C24426B0018"
+    },
     "8a829b13523f48f599562d361446e14d": {
       "c": 3193,
       "d": "2026-10-14",
@@ -31402,6 +32404,37 @@
       "n": "Sol_140P2026B0004_Amd_0001.pdf",
       "s": "screened",
       "sol": "140P2026B0004"
+    },
+    "8b642d0ebeef43d8a868a0bfce0332ff": {
+      "c": 632913,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "Maintain distribution system components, including hydrants and valves. 8.2.2.1.3.6. Maintain a continuous positive pressure of at least 138 kilopascals [20 pounds per square inch] in the water distribution system. 8.2.2.1.4. Establish a cross-connection control and backflow prevention program. 8.2.2.1.5. Use only lead-free pipe, pipe or plumbing fitting or fixture, solder, and flux in the installation or repair of water systems and plumbing systems for drinking water. 8.2.2.2. Documentation and Recordkeeping. Maintain all corrective actions, monitoring, and analytical records for at least 3 years, except: 8.2.2.2.1. Bacteriological records \u2013 5 years (except source water Cryptosporidium and E. coli). 8.2.2.2.2. Cryptosporidium and E. coli source water records \u2013 10 years. 8.2.2.2.3. Chemical records \u2013 10 years. 8.2.2.2.4. Cross-connection and backflow prevention testing and repair records \u2013 10 years. 8.2.2.",
+          "finding": "DoD drinking water standards in Turkey (FGS-T\u00fcrkiye) require lead-free plumbing and fluoridation protocols at U.S. military installations.",
+          "news": 3,
+          "quote": "Use only lead-free pipe, pipe or plumbing fitting or fixture, solder, and flux in the installation or repair of water systems and plumbing systems for drinking water.",
+          "verified": true
+        },
+        {
+          "context": "ect discharges of industrial pollutants, and stormwater runoff associated with industrial and construction activities. 9.2. GENERAL. Installation commanders are responsible for ensuring that wastewater discharges and stormwater management activities comply with the standards of this section, as applicable. 9.2.1. Discharge Consent. All current and new sources of pollutants directly discharging to Turkish Waters will consult with the Turkish Installation Commander to determine if a discharge consent is needed. If the discharge conditions contained within a consent require a more protective standard than prescribed in these FGS, the standard in the consent shall be the compliance standard. However, if a consent allows a less protective standard or no discharge consent was obtained, then these FGS will be the compliance standard. 9.2.2. Personnel Qualifications. 9.2.2.1. Wastewater. Installations must ensure that personnel responsible for operating or overseeing domestic wastewater treatment syst",
+          "finding": "DoD wastewater standards for Turkish installations require coordination with Turkish authorities on discharge consents and pollution control.",
+          "news": 3,
+          "quote": "All current and new sources of pollutants directly discharging to Turkish Waters will consult with the Turkish Installation Commander to determine if a discharge consent is needed.",
+          "verified": true
+        },
+        {
+          "context": "tandard. 17.6.4.2. Ensure sterilizers maintain their temperature at 121 \u00b0C [250 \u00b0F] for at least 30 minutes at 103.4 kilopascal [15 pounds per square inch]. 17.6.4.3. Check the effectiveness of sterilizers at least weekly using Bacillus stearothermophilus spore strips or an equivalent biological performance test. 17.6.4.4. Design and operate incinerators used to treat infectious medical waste to maintain a minimum temperature and retention time sufficient to destroy all infectious agents and pathogens and meet the applicable air emission standards in Chapter 4, \u201cAir Emissions\u201d. Medical wastes must be fed directly to the incinerator by automatic feed and without being mixed with other types of wastes. 17.6.4.5. Assess ash or residue from the incineration of infectious medical waste for classification as hazardous waste in accordance with Paragraph 16.3. 17.6.4.5.1. Manage ash that is determined to be hazardous waste in accordance with Chapter 16, \u201cHazardous Waste\u201d. 17.6.4.5.2. Di",
+          "finding": "DoD solicitation for hazardous waste disposal at Turkish military installation includes medical waste incineration and sterilization standards.",
+          "news": 3,
+          "quote": "Design and operate incinerators used to treat infectious medical waste to maintain a minimum temperature and retention time sufficient to destroy all infectious agents and pathogens",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Attach 5_FGS_Turkiye_Jan 2025.pdf",
+      "s": "screened",
+      "sol": "SP450026R0015"
     },
     "8b70939452074ae6a588453f8ce174fc": {
       "c": 4570,
@@ -31911,6 +32944,15 @@
       "s": "screened",
       "sol": "70Z02326R93250001"
     },
+    "8d8d41fb848f401fab76b64e73de65e6": {
+      "a": 1,
+      "d": "2026-10-16",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Audit Remediation SOW_05 Oct 2026 (Draft).pdf",
+      "s": "retry",
+      "sol": "HHM402-27-X-AUDIT"
+    },
     "8d8dea56989641b29edc96e83d796438": {
       "c": 3708,
       "d": "2026-10-10",
@@ -32001,6 +33043,42 @@
       "n": "2 3517B General Clauses (Apr. 2026).pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-FORTWORTH(HULEN)TXFY27"
+    },
+    "8def9c1df3ce40108eba8d3e26c54250": {
+      "c": 188067,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "Buck Hill Road (b) Weekend work is allowed with prior approval from CO. Submit request 2 weeks in advanced of selected dates. (c) Night work is allowed with prior approval from CO. Submit request in advanced of selected dates according to Subsection 156.08. (d) No onsite work prior to April 28th, 2027, unless weather and soil conditions are considered suitable for prosecution. The Contractor may request approval from the CO to initiate onsite work earlier with a minimum of 14 calendar days in advance of the intended start date. Perform no work except to maintain traffic control devices, erosion control devices, the roadway driving surface, and to control dust during the listed Federal holidays and surrounding days as shown in Table 108-2. E-15 ND NP THRO 204(1) Buck Hill Road",
+          "finding": "Contract restricts work to April 28, 2027 or later due to soil/weather conditions; no onsite work before that date without CO approval.",
+          "news": 3,
+          "quote": "No onsite work prior to April 28th, 2027, unless weather and soil conditions are considered suitable for prosecution.",
+          "verified": true
+        },
+        {
+          "context": "advanced of selected dates according to Subsection 156.08. (d) No onsite work prior to April 28th, 2027, unless weather and soil conditions are considered suitable for prosecution. The Contractor may request approval from the CO to initiate onsite work earlier with a minimum of 14 calendar days in advance of the intended start date. Perform no work except to maintain traffic control devices, erosion control devices, the roadway driving surface, and to control dust during the listed Federal holidays and surrounding days as shown in Table 108-2. E-15 ND NP THRO 204(1) Buck Hill Road Table 108-2 Federal Holidays and Surrounding Days Federal Time Remarks Holiday Birthday of 12:00 Noon Friday to Martin Luther -",
+          "finding": "Road project in national park prohibits work on multiple federal holidays and surrounding days, with detailed blackout periods from mid-day to early morning.",
+          "news": 3,
+          "quote": "Perform no work except to maintain traffic control devices, erosion control devices, the roadway driving surface, and to control dust during the listed Federal holidays and surrounding days",
+          "verified": true
+        },
+        {
+          "finding": "Federal highway project in Theodore Roosevelt National Park requires paleontological monitor during all ground-disturbing activities; fossil discovery halts work.",
+          "news": 4,
+          "quote": "Furnish a Paleontological Monitor in accordance with Section 623 during all ground disturbing activities...If concealed paleontological resources are encountered during construction, stop work within 100 feet",
+          "verified": false
+        },
+        {
+          "finding": "$5\u201310 million Buck Hill Road rehabilitation project in Theodore Roosevelt National Park includes roadway, parking expansion, guardrail replacement, drainage work.",
+          "news": 3,
+          "quote": "The price range of the project work is between $5,000,000 and $10,000,000...ROADWAY REHABILITATION, PARKING LOT EXPANSION, SUBEXCAVATION, GUARDRAIL REPLACEMENT, DRAINAGE IMPROVEMENTS",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "6982AF25B000004 IFB ND NP THRO 204(1) Buck Hill Road.pdf",
+      "s": "screened",
+      "sol": "6982AF25B000004"
     },
     "8df0e6602d504d4f9c2f7f3bf4f44fd4": {
       "c": 5274,
@@ -32159,6 +33237,14 @@
       "n": "TE-11 Existing Asphalt Core Sampling FY27 -FY31 Paving 12 March 2026.pdf",
       "s": "screened",
       "sol": "W911S6-27-B-A001"
+    },
+    "8e4c0a83a9c342e493e86c5ec053b6ac": {
+      "c": 310865,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "C04_Specs_1240LT26Q0176.pdf",
+      "s": "screened",
+      "sol": "1240LT26Q0176"
     },
     "8e4cc2b585e4430e830e54850937284b": {
       "c": 6310,
@@ -32466,6 +33552,22 @@
       "n": "36C26226Q0384 0001.docx",
       "s": "screened",
       "sol": "36C26226Q0384"
+    },
+    "8fb0b6db92aa426192c98d5b7079c76e": {
+      "c": 47682,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "Royal C. Johnson VA Medical Center in Sioux Falls, South Dakota is renovating first-floor kitchen and dining areas in three phased construction project affecting hospital operations.",
+          "news": 3,
+          "quote": "RENOVATE FIRST FLOOR FOR NEW KITCHEN FOR THE SIOUX FALLS VA MEDICAL CENTER BUILDING #5",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Plans 438-21-403 Renovate 1st Floor Kitchen_Part1.pdf",
+      "s": "screened",
+      "sol": "36C26326B0020"
     },
     "8fb3e112ee2d42a7a798edf4bbb8354e": {
       "c": 9139,
@@ -33178,6 +34280,14 @@
       "s": "screened",
       "sol": "SPRTA126Q0467"
     },
+    "9293311ecd6c46108ecc5a27feea9954": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "text",
+      "n": "C04d_DOL Wage Determination ID20260081_05182026_1240LT27Q0008.txt",
+      "s": "wage_determination",
+      "sol": "1240LT27Q0008"
+    },
     "92995eb6735c46b9b94b82fceffb5739": {
       "c": 7928,
       "d": "2026-10-14",
@@ -33257,6 +34367,14 @@
       "s": "screened",
       "sol": "70Z0G126BSLISSW02"
     },
+    "92e265ed71d14a549682c9e55a8bf63c": {
+      "c": 57776,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Solicitation - N0038327RS051.pdf",
+      "s": "screened",
+      "sol": "N0038327RS051"
+    },
     "92e9bed8cc964073b2ad0c406519d587": {
       "c": 6043,
       "d": "2026-10-10",
@@ -33297,6 +34415,22 @@
       "n": "J-9-DisclosureofLobbyingActivities(1997.07).pdf",
       "s": "screened",
       "sol": "N3220526R6120"
+    },
+    "931aca50c6f242cab58dcc8400627066": {
+      "c": 6705,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "DARPA sole-sources $5M ice-control research to University of Michigan; government invested $8.356M already; program targets Arctic operations by winter 2026-2027.",
+          "news": 5,
+          "quote": "A significant government investment has already been made (UM: $8.356M). A new contractor(s) would require an estimated 12-18 months and significant investment to replicate the specialized laboratory setups and validated testbeds.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Justification_and_Approval_-_ICE_Program Fully U. of Michigan_Redacted.pdf",
+      "s": "screened",
+      "sol": "HR001124C0315"
     },
     "931e7e32f5244c6fa4cf2abbe655468b": {
       "c": 0,
@@ -33488,6 +34622,14 @@
       "s": "screened",
       "sol": "19GB5025Q0022"
     },
+    "93de4a0524f243d39f59c148379f81bf": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "EXHIBIT F_ Form 1364 Proposal to Lease Space Jan. 2023.pdf",
+      "s": "boilerplate_only",
+      "sol": " 36C24W23R0031"
+    },
     "93e4a7b4b7ea4e4798605dd9c8a0592e": {
       "c": 1562,
       "d": "2026-10-13",
@@ -33594,6 +34736,23 @@
       "s": "screened",
       "sol": "47PC5226Q0134 "
     },
+    "942f94642d124d6cbb2ee31ec4922125": {
+      "c": 9447,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "iating a standard competitive procurement before the current period of performance end date would result in an unacceptable delay, as transition activities like onboarding, system familiarization, mission-specific training, and technical handoff cannot be accomplished within the limited time remaining and are not scoped under the expiring order. Any lapse or transition gap would materially impair the Government\u2019s ability to maintain intake readiness, execute emergency operations, and provide essential support services to an estimated 600 to 1,000 returning eligible U.S. citizens annually, as well as surging cohorts during active international crises. The requested period of performance extension is strictly limited to the minimum duration required to sustain continuity of operations, complete targeted site engagements, and finalize program updates informed by recent incidents, thereby mitigating risk to federal and partner operational capability. During this bridge period, OHSEPR and the Contracting Office will advance all necessary",
+          "finding": "HHS sole-sources repatriation evaluation services to Deloitte; handles 600-1,000 US citizens returning annually; 652 families in government PCS lodging at risk of eviction if contract lapses.",
+          "news": 4,
+          "quote": "Any lapse or transition gap would materially impair the Government's ability to maintain intake readiness, execute emergency operations, and provide essential support services to an estimated 600 to 1,000 returning eligible U.S. citizens annually",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "75ACF121F80033 - P00012 - SSJ - Redacted.pdf",
+      "s": "screened",
+      "sol": "75ACF121F80033"
+    },
     "9431610715614327b833dd0729bc716b": {
       "c": 0,
       "d": "2026-10-10",
@@ -33617,6 +34776,22 @@
       "n": "36C24127Q0009.docx",
       "s": "screened",
       "sol": "36C24127Q0009"
+    },
+    "94692f387879474faca5f6a6be18fa81": {
+      "c": 5059,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "Post-wildfire erosion control sole-source buy shows massive cost disparity: local vendor $60K vs. competitor $680K for same mulch volume.",
+          "news": 4,
+          "quote": "A third vendor, Wilcox Logging, a local logging company with demonstrated experience producing wood mulch for the U.S. Forest Service, submitted a quote of $60,000 for the same volume. The substantially lower cost offered by Wilcox Logging is attributable to the material being a byproduct of their o",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "A16_JOFOC_-_140DWF27Q0001_tdt_1.pdf",
+      "s": "screened",
+      "sol": "140DWF27Q0001"
     },
     "94764dbd1c004e30ad467cf0fb3d6126": {
       "c": 115598,
@@ -34565,6 +35740,14 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "97b6223e432b4e30874993bd5c4413e7": {
+      "c": 156,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Clauses - Overseas Commercial Item - Update NDAA FAR 52.pdf",
+      "s": "screened",
+      "sol": "19VM3027Q0004"
+    },
     "97bf0cec72fc4100b353e4e94786d4d4": {
       "c": 3880,
       "d": "2026-10-14",
@@ -34572,6 +35755,56 @@
       "n": "Sources Sought - Notice of Intent W91QV127RA006 ANC Soft Skills Training.docx",
       "s": "screened",
       "sol": "W91QV127RA006"
+    },
+    "97edb2abb725462fa9f3b51db46c1518": {
+      "c": 337614,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "by using Non-U.S. citizens, those requirements shall be clearly described. (End of Clause) H.01 Organizational Conflict of Interest (FAR Deviation 9.506) The objective of this solicitation is to satisfy the BOP\u2019s requirement for the provision of healthcare to the Inmates of the institution. A potential organizational conflict of interest may arise if the awardee is an entity which also holds or participates in a separate contract/agreement with the BOP as a medical claims adjudicator. A possible conflict of interest may exist if the awardee has dual responsibilities for the submission of medical claims for services rendered under the resulting contract and for the adjudication of those medical claims under a separate contract/agreement with the BOP. Offers received from any firm which holds or participates in a separate contract/agreement for BOP medical claims adjudication services must address any potential organizational conflict of interest that may arise and must provide",
+          "finding": "BOP contract requires medical claims adjudication oversight and prohibits contractors with dual medical claims processing roles to avoid conflicts of interest.",
+          "news": 4,
+          "quote": "A potential organizational conflict of interest may arise if the awardee is an entity which also holds or participates in a separate contract/agreement with the BOP as a medical claims adjudicator.",
+          "verified": true
+        },
+        {
+          "context": "esignations: After arrival at the designated facility, the provisional care level should be reviewed at the History & Physical or Chronic Care Visit and a nonprovisional care level assigned by the BOP clinician at that time. \u2022 Refusal of Care or Non-Compliance section was updated. \u2022 Redesignations for Oncology Services: Upon diagnosis of prostate cancer and based on PSA and prostate biopsy results, a treatment plan from a urologist is required to submit a Redesignation Referral Request. Surgery should be performed locally prior to transfer for radiation, chemotherapy, or other adjuvant treatment. Patients for whom active surveillance is appropriate do not need to be transferred and may be monitored at their current institution. \u2022 Updates made to Care Levels 1-4 General Descriptions to include: \u25ba Removal of \u201cless than 70 years of age\u201d to Care Level 1 description. \u25ba Addition of the following to Care Level 1 description: Patients may need multiple medic",
+          "finding": "Federal prison medical care for Houston facility includes detailed clinical guidance updated October 2025 with new protocols for oncology, prostate cancer treatment, and inmate care level classification.",
+          "news": 4,
+          "quote": "Upon diagnosis of prostate cancer and based on PSA and prostate biopsy results, a treatment plan from a urologist is required to submit a Redesignation Referral Request. Surgery should be performed locally prior to transfer for radiation, chemotherapy, or other adjuvant treatment.",
+          "verified": true
+        },
+        {
+          "context": "C): 0.8252 Step 2 Labor-related x Wage Index $ 4,069.81 Step 3 Only applicable for HI & AK Step 4 Total of Step 2 + Non-labor related $ 6,635.80 Step 5 Total of Step 4 x MS-DRG Relative Weight $ 5,475.86 Payment for MS-DRG 076 under the contract would be $ 5,475.86 plus or minus any premium or discount established as the contract rate. Solicitation Attachment 4: Medical Care Level Classification FDC Houston - Comprehensive Medical Services 15BCMS26R51700001 CARE LEVEL CLASSIFICATION FOR MEDICAL CONDITIONS OR DISABILITIES Federal Bureau of Prisons",
+          "finding": "BOP solicitation for comprehensive medical services at Federal Detention Center Houston specifies payment methods and claim submission protocols tied to Medicare Severity Diagnosis-Related Groups (MS-DRG) payment rates.",
+          "news": 3,
+          "quote": "Payment for MS-DRG 076 under the contract would be $ 5,475.86 plus or minus any premium or discount established as the contract rate.",
+          "verified": true
+        },
+        {
+          "context": "contract and shall not be divulged or made known in any manner to any persons except as may be necessary in the performance of this contract. The vendor shall neither reproduce nor release such information to any third-party at any time, including during or after performance of the contract, without prior written permission of the CO or COR. The vendor agrees to report any actual or suspected breach of DOJ Information within one hour of discovery of an actual breach, and within 24 hours of a suspected breach if vendor has not yet been able to determine whether a breach has occurred. A \u201cbreach\u201d is an incident or occurrence that involves the loss of control, compromise, unauthorized disclosure, unauthorized acquisition, or any similar occurrence where: (1) a person other than an authorized user accesses or potentially accesses DOJ Information or (2) an authorized user accesses or potentially accesses DOJ Information for an other than authorized purpose. The report of a breach must be made to the CO or COR; if neither can be",
+          "finding": "Solicitation requires contractor attestation of data security controls including HIPAA compliance, encryption standards, and breach reporting within one hour of discovery of actual breach.",
+          "news": 3,
+          "quote": "The vendor agrees to report any actual or suspected breach of DOJ Information within one hour of discovery of an actual breach, and within 24 hours of a suspected breach if vendor has not yet been able to determine whether a breach has occurred.",
+          "verified": true
+        },
+        {
+          "finding": "Federal Bureau of Prisons seeks medical services contractor for Houston detention facility housing 153,681 federal inmates across care levels 1-3.",
+          "news": 5,
+          "quote": "The Federal Bureau of Prisons (BOP) was established in 1930...Today, the BOP is responsible for the custody and care of approximately 153,681 Federal Inmates.",
+          "verified": false
+        },
+        {
+          "finding": "Contract mandates extensive security clearance requirements including fingerprint checks, law enforcement background investigations, and drug testing for all contractor staff accessing facility.",
+          "news": 4,
+          "quote": "National Crime Information Check (NCIC) check; DOJ-99 (name check); FD-258 (fingerprint check); Law Enforcement Agency checks...Urinalysis Test (for the detection of marijuana and other drug usage).",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "15BCMS26R51700001 FDC Houston COMP MEDICAL COMBINED SOLICITATION amendment 2.pdf",
+      "s": "screened",
+      "sol": "15BCMS26R51700001"
     },
     "980fb1a208494ce4a7dbe218442e768e": {
       "c": 102001,
@@ -34712,6 +35945,14 @@
       "n": "FSS SSJ Customer Sat Surv EXE.pdf",
       "s": "screened",
       "sol": "3509_5456"
+    },
+    "9850959139964d329971e40ee29f6163": {
+      "c": 8702,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_10 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "985390808a544304b5add9410bda50bb": {
       "c": 141626,
@@ -35002,13 +36243,11 @@
       "sol": "REQUIREMENTS-26-3295"
     },
     "993711e68de54131bffe082b22c2bdf0": {
-      "a": 1,
-      "c": 5523,
+      "c": 2543,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Attach (01) - PROFORMA - SPECIALTIME 2026.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N3220526R6077"
     },
     "99398c5c5da94492af126ffc9bf2bb4a": {
@@ -35682,6 +36921,22 @@
       "s": "screened",
       "sol": "70Z0G126BSLISSW02"
     },
+    "9c22a77c6fdb412197ae9948f2ace3b7": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "7 - Construction Wage Determination HI20260001 5-27-2026.pdf",
+      "s": "wage_determination",
+      "sol": "15BBNF26B60300001"
+    },
+    "9c22c97d8b694c5c8dd4a0b68d78b416": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 6 - Wage determinations id2.pdf",
+      "s": "wage_determination",
+      "sol": "1240LU26Q0130"
+    },
     "9c2dc235614c41eb9574943cf4ea03d5": {
       "c": 58267,
       "d": "2026-10-14",
@@ -35827,6 +37082,14 @@
       "n": "Sol_140D0427Q0879_Amd_0001.pdf",
       "s": "screened",
       "sol": "140D0427Q0879"
+    },
+    "9cd87b42ee0a4895aa6ddfb57cb1238e": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "RLP 36C24W26R0045 Exhibit J DOL Wage Determination NV20260002 Clark County NV.pdf",
+      "s": "wage_determination",
+      "sol": "RLP36C24W26R0045"
     },
     "9cdf811f6c684817a26ab3112a91b39d": {
       "c": 15124,
@@ -36442,6 +37705,14 @@
       "s": "screened",
       "sol": "36C25927R0005"
     },
+    "a04091fef45d4f47a14939fdc7140560": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "EXHIBIT F_ Form 1364 Proposal to Lease Space Jan. 2023.pdf",
+      "s": "boilerplate_only",
+      "sol": "36C24426R0012"
+    },
     "a061878ca6ba448197fcbbcaf312b37c": {
       "c": 264,
       "d": "2026-10-10",
@@ -36490,6 +37761,14 @@
       "s": "screened",
       "sol": "N0060426Q4106"
     },
+    "a07e7dfde42f480ba6def2b73b657d49": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Wage Determination _ 22 Aug 2026.pdf",
+      "s": "wage_determination",
+      "sol": "FA448427Q0002"
+    },
     "a0ab634ed9cd424b88dcec9bce8f5d4a": {
       "c": 23115,
       "d": "2026-10-10",
@@ -36505,6 +37784,14 @@
       "n": "SOW - IT Equipment - Draft.docx",
       "s": "screened",
       "sol": "19AQMM27NITLABFURN"
+    },
+    "a0b7768332ba4fc598246f2bf243dd9a": {
+      "c": 1143,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "CDRL A013 Status Report Post Trip.pdf",
+      "s": "screened",
+      "sol": "FA857127Q0008"
     },
     "a0dc91b5601d4dfc8dd1901596b5a8eb": {
       "c": 33531,
@@ -37114,6 +38401,14 @@
       "n": "Attachment J - Fuel Sourcing Data Sheet.pdf",
       "s": "screened",
       "sol": "SPE60526R0218 "
+    },
+    "a3ba27dbd9a74630a9d0cc7e3026f242": {
+      "c": 142122,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Att IV_Schedule Pages.xlsx",
+      "s": "screened",
+      "sol": "SPE604-26-R-0403_CombinedSynopisSolicitation"
     },
     "a3c6c8c8b81346e9875e42e063361694": {
       "c": 11553,
@@ -37831,6 +39126,14 @@
       "s": "screened",
       "sol": "75H70427Q00002"
     },
+    "a6612ea79b88492a8546def5df198963": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment - Wage Determination CA20260018 07-14-2026.pdf",
+      "s": "wage_determination",
+      "sol": "36C26127Q0029"
+    },
     "a67aebb1f26c4e038b85ac9d12f610f8": {
       "c": 37264,
       "d": "2026-10-10",
@@ -38441,6 +39744,14 @@
       "s": "screened",
       "sol": "80TECH26P0025"
     },
+    "a88ee25daabe4d32af35705901b6f607": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B03_WD_1995-0222_Rev_72_04_11_2026.pdf",
+      "s": "wage_determination",
+      "sol": "140D0426R0114"
+    },
     "a8a44dc5cc4a435eb3d82cc0c2846440": {
       "c": 7772,
       "d": "2026-10-13",
@@ -38488,6 +39799,22 @@
       "n": "D. PROC-FRM-466_Proposal Certs.pdf",
       "s": "screened",
       "sol": "387881-DSF"
+    },
+    "a8e8ffd8a983453db42a6c5c45dadd46": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr-image",
+      "n": "C04b_Attachment 1 - Post Image_1284LM27Q0005.png",
+      "s": "no_text",
+      "sol": "1284LM27Q0005"
+    },
+    "a8f9580cc094457a83b7d3aa7132c304": {
+      "c": 204541,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "A28 RFQ - 15DDHQ26R00000008.pdf",
+      "s": "screened",
+      "sol": "15DDHQ26R00000008"
     },
     "a912056a020c41efb46fbd73ec63815a": {
       "c": 2765,
@@ -38663,6 +39990,14 @@
       "n": "Watson Caring Services RFI.pdf",
       "s": "screened",
       "sol": "36C25627Q0026"
+    },
+    "a9ccdd08ea0e4b38a2190f3c361d2c84": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "CDRLFATR.pdf",
+      "s": "boilerplate_only",
+      "sol": "SPRHA1-26-Q-0984"
     },
     "a9ce297aee3944e79c905b85dac5daa3": {
       "c": 4480,
@@ -39175,13 +40510,20 @@
       "sol": "FY27_USAFA_Contrails"
     },
     "ac3c3f346e884581a4d431b50a924fb9": {
-      "a": 1,
-      "c": 12657,
+      "c": 12470,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "ference $3.7M average annually; Subcontractor Reference $740K average annually. f. M.5.5 FROM: M.5.5 Electronic Cost Reporting and Financial Tracking (eCRAFT) M.5.5.1 Offerors that do not propose the required eCRAFT related submissions, as prescribed in Section L, may be regarded as non-compliant and ineligible for award. TO: DELETED 3. The eCRAFT requirement has been removed from the Fort Stewart, GA RFP. All eCRAFT language in Sections A, C, L, and M have been removed and are no longer applicable. As a result, Section J Attachment 0030 eCRAFT_Labor Build Workbook_23JUN2026 and Attachment 0031 eCRAFT_Labor Rate Workbook_MAY2026 have been marked as NOT APPLICABLE, and Exhibit L eCRAFT DD Form 1423_June2026 and Exhibit M EC-01 -DID- eCRAFT_DI-SESS- 82518_April2026 have been removed. 4. Due to the timing of question submissions, not all questions have been incorporated into this amendment. At this time, the USG does not expect to release another Q&A round to address more questions.",
+          "finding": "eCRAFT electronic cost reporting requirement removed from Fort Stewart RFP; previously mandatory cost-tracking tool eliminated in amendment 0002.",
+          "news": 3,
+          "quote": "The eCRAFT requirement has been removed from the Fort Stewart, GA RFP. All eCRAFT language in Sections A, C, L, and M have been removed and are no longer applicable.",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "W519TC26RA056 Conformed Thru AMD 0002.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "W519TC-26-R-A056"
     },
     "ac4461ab6f8e45bb8d304331d7ca4a59": {
@@ -39359,6 +40701,14 @@
       "s": "screened",
       "sol": "030ADV26R0055"
     },
+    "ace1018cfb7b4aa992c0e2f84d3b890c": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "C04_ATTCH 4_WD2015-5677 Rev 32 8-22-26.pdf",
+      "s": "wage_determination",
+      "sol": "127EAY27Q0002"
+    },
     "ace89170498d4a0d9594ad3245b5a89c": {
       "c": 0,
       "d": "2026-10-10",
@@ -39453,6 +40803,14 @@
       "n": "Site Visit Sign In Sheet - Tinker CDC.pdf",
       "s": "screened",
       "sol": "W912BV26RA016"
+    },
+    "ad37ac11661547bd95ed33efdea426c1": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "S22 LOS Certification 852.219-75_JAN 2023 DEVIATION.docx",
+      "s": "boilerplate_only",
+      "sol": "36C25926R0082_1"
     },
     "ad4e850af3a746c693e6150be8e9c978": {
       "c": 923,
@@ -39917,6 +41275,14 @@
       "s": "screened",
       "sol": "W912EP26Z1CR9"
     },
+    "afae5efeadbe4afdb5ec930045db7e84": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "26R6006 Attach 2 - WD2019028823.pdf",
+      "s": "wage_determination",
+      "sol": "N3220526R6006"
+    },
     "afb8c920312746cb8a01433c56a205bf": {
       "c": 11671,
       "d": "2026-10-10",
@@ -40057,6 +41423,14 @@
       "n": "36C25926P0801_1.docx",
       "s": "screened",
       "sol": "36C25926Q0832"
+    },
+    "b06452ddb4584441ba12d31d2cf12887": {
+      "c": 79,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Copy of Vendor q and a format.xlsx",
+      "s": "screened",
+      "sol": "36C10D26Q0171"
     },
     "b068ddd544c44e9a897e682a1abc436a": {
       "c": 444,
@@ -41424,6 +42798,14 @@
       "s": "screened",
       "sol": "15B41427Q00000002 "
     },
+    "b5569faa12934434abb741c29c08fd59": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "WD_2019-0288 Rev. 27.pdf",
+      "s": "wage_determination",
+      "sol": "N3220527R6009"
+    },
     "b5659242f7d14b84abeed0a4fd15e2a7": {
       "c": 401,
       "d": "2026-10-13",
@@ -41675,6 +43057,14 @@
       "s": "screened",
       "sol": "36C26027R0014"
     },
+    "b67db9f102d34c3e91ac197db1b8a775": {
+      "c": 299252,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "TE-05 Materials Manual of Instruction.pdf",
+      "s": "screened",
+      "sol": "W911S6-27-B-A001"
+    },
     "b687f2a92daa48e8b0cdd9509e624919": {
       "c": 143769,
       "d": "2026-10-14",
@@ -41707,6 +43097,14 @@
       "n": "SOW.pdf",
       "s": "screened",
       "sol": "SPRHA1-27-R-0031"
+    },
+    "b6b3947cdddb4cdfab72d45d33aacb54": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "B08_Att_04_WD_UT20260017.pdf",
+      "s": "wage_determination",
+      "sol": "140P2026R0065"
     },
     "b6be5f9bb3da4e45ac5506c1519112ab": {
       "c": 1332,
@@ -41772,6 +43170,23 @@
       "n": "AoI 5.5 KMC Total Maintenance Services Update 7.pdf",
       "s": "screened",
       "sol": "120c9202b6654d699d936a5401bd7876"
+    },
+    "b6eb16251629421d9bfa6175867cd0b0": {
+      "c": 2368,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "d annual maintenance. 4. IDENTIFICATION OF STATUTORY AUTHORITY PERMITTING OTHER THAN FULL AND OPEN COMPETITION \u2013 41 U.S.C. 1901 5. DEMONSTRATION THAT THE PROPOSED CONTRACTOR\u2019S UNIQUE QUALIFICATIONS OR THE NATURE OF THE ACQUISITION REQUIRES USE OF THE AUTHORITY CITED: Johnson Controls qualified GSA contractors ready to repair the failed Chiller. Operating on a single chiller for over 1,000 inmates, including vulnerable medical cases\u2014threatens facility security. Immediate single- source approval is urgently needed to restore primary cooling and prevent liability. Emergency Conditions \u2022 Outdoor heat: Temperatures exceeding 90 degrees. \u2022 Current cooling: Only one chiller is running which can\u2019t maintain required temperatures. \u2022 Inmate population: Over 1,000 inmates and staff, including those with medical needs. \u2022 Risk: Extreme heat compromises safety, security, and health. Qualified Contractors \u2022 Johnson Controls: UEI# WE3GGES317KN9, approved GSA vendor. Chiller repairs \u2022 Fast-track single-source approval for urgent and compelling need",
+          "finding": "Federal prison in Alabama had critical cooling failure affecting 1,000+ inmates; emergency $43K sole-source repair awarded to Johnson Controls.",
+          "news": 4,
+          "quote": "Operating on a single chiller for over 1,000 inmates, including vulnerable medical cases\u2014threatens facility security. Immediate single-source approval is urgently needed to restore primary cooling and prevent liability.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Non-Compete Under SAT Memo - FCI Aliceville - URGENT CHILLER REPAIR.pdf",
+      "s": "screened",
+      "sol": "15B31827F00000018"
     },
     "b7005bcfd5b24aae8e9be4a007ba8f1c": {
       "c": 0,
@@ -42172,6 +43587,23 @@
       "s": "screened",
       "sol": "140R4026B0002"
     },
+    "b894d163c3b04197933b4ffeb5121995": {
+      "c": 9987,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "\u201d vendor for data analysis. CMS data sources reflect the broadest reach of healthcare services, includes the largest sample of births, allows linkages from baby to birth mother, and includes critical racial and ethnicity data necessary for study objectives. Mathematica is available on a GSA Schedule with predetermined fair and reasonable pricing. Mathematica has spent multiple contract periods developing and refining the specific methods used to match mother and infant health records and identify cases within this complex Medicaid dataset\u2014work that involved detailed, judgment-based decisions built up through hands-on experience with the data, not documented steps that could simply be handed to a new contractor. Bringing in a new vendor would mean starting this process over from scratch, a challenge made worse by the lengthy approval process for accessing the additional restricted data needed to do this work, which alone can take 8 to 9 months. Because regulators depend on this analysis to make timely, well-supported decisions about v",
+          "finding": "CDC sole-sources $5M vaccine-safety data analysis to Mathematica; CMS granted 'innovator status'; requires Medicaid linkage of mothers to newborns for respiratory pathogen tracking.",
+          "news": 4,
+          "quote": "Mathematica has spent multiple contract periods developing and refining the specific methods used to match mother and infant health records and identify cases within this complex Medicaid dataset\u2014work that involved detailed, judgment-based decisions built up through hands-on experience with the data",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "A11. SSJ HHS FAR 8 - Signed REDACTED FINAL.pdf",
+      "s": "screened",
+      "sol": "47QRAA18D00BQ75D30126F21594"
+    },
     "b8a4df1380f74baebc3c7fcb83bb72eb": {
       "c": 31807,
       "d": "2026-10-13",
@@ -42323,6 +43755,14 @@
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
     },
+    "b920a3138a674e2f860edab4fb3408ce": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B03_-_WD.pdf",
+      "s": "wage_determination",
+      "sol": "140FF027Q0015"
+    },
     "b93708773a2540639e727f66309eae32": {
       "c": 3110,
       "d": "2026-10-10",
@@ -42370,6 +43810,14 @@
       "n": "B08_Attachment_1_SOW_EROS_Chilled_and_Condenser_Water_Piping.pdf",
       "s": "screened",
       "sol": "140G0126Q0288"
+    },
+    "b958e408a69b47169bcaf2f8b95c6cfe": {
+      "c": 726,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "ACC DTA GROUND MANEUVER CSO_Amendment 36.docx",
+      "s": "screened",
+      "sol": "W912CH-26-S-0001"
     },
     "b95cb48f1dcc4825a304ac990054e8cc": {
       "c": 19174,
@@ -42532,6 +43980,14 @@
       "n": "Questions and Answers 2 15BRRC26R00000016.pdf",
       "s": "screened",
       "sol": "15BRRC26R0000016"
+    },
+    "ba2d32184b1345ca8c0d69e108e94a63": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "EXHIBIT H_Seismic Forms A - F with Instructions.pdf",
+      "s": "boilerplate_only",
+      "sol": "36C24426R0012"
     },
     "ba32fd666d8f4eba9f4158355d11ccc2": {
       "c": 18215,
@@ -43395,6 +44851,14 @@
       "s": "screened",
       "sol": "70Z0G126BSLISSW02"
     },
+    "bcdf4096c2c943618fa55de1946d9dcf": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "text",
+      "n": "EXHIBIT I_ PONCE PR DOL WAGE DETERMINATION.txt",
+      "s": "wage_determination",
+      "sol": "36C24426R0012"
+    },
     "bcf0560d5f5049f0b0ce19fdb9a5dc61": {
       "c": 14694,
       "d": "2026-10-10",
@@ -43723,6 +45187,14 @@
       "n": "Attachment 2 - Past Performance Questionnaire.docx",
       "s": "screened",
       "sol": "W81K00-26-R-A051"
+    },
+    "bdeb288182fa4dde95a1989c2469f0f3": {
+      "c": 54,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "12c_Amendment 0003_Attachment IFB Page 5.pdf",
+      "s": "screened",
+      "sol": "70Z0G126BSLISSW02"
     },
     "bdee0e9787b74052a4c80cf978ddfd22": {
       "c": 2512,
@@ -45009,6 +46481,14 @@
       "s": "screened",
       "sol": "36C78626B0030"
     },
+    "c3a729d0d9ef4924854c32b7b6727233": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A005 - Incident and Vulnerability Reports.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
+    },
     "c3b8fa8cf83d4124be927fba87fe1a8c": {
       "c": 10138,
       "d": "2026-10-13",
@@ -45016,6 +46496,23 @@
       "n": "Form 1364WH Proposal to Lease Space (Feb. 2026).pdf",
       "s": "screened",
       "sol": "3NV0157_1"
+    },
+    "c3bdf44286a14cc4a0cb9a519412abf2": {
+      "c": 8274,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "ervision necessary to remove deteriorated entry boots and install new manufacturer-approved repair boots. The defective boots prevented completion of the required sump integrity test. Tank Number Capacity (gallons) Contents Container Material Tank Location 6 1,000 #2 Disel Fiberglass West of Building 11 (Maintenance Garage) BACKGROUND Inspection records from the North Dakota Department of Environmental Quality identified rubber entry boots requiring replacement on UST #6, which supports emergency generator operations. Integrity testing could not be performed because the boots were faulty. SITE VISIT It is strongly suggested and expected that the offeror inspect the campus to be serviced to fully understand the nature of the work and the conditions under which the work is to be performed. In no case shall failure to inspect the campus constitute grounds for a claim after contract award. All work shall comply with Local, State, Federal, EPA, NFPA 110, Joint Commission, and UST regulations. Removal of Defective Components",
+          "finding": "VA fuel tank repair contract delayed; inspection records show deteriorated components preventing required safety testing on emergency generator fuel tank.",
+          "news": 3,
+          "quote": "Inspection records from the North Dakota Department of Environmental Quality identified rubber entry boots requiring replacement on UST #6, which supports emergency generator operations. Integrity testing could not be performed because the boots were faulty.",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C26327Q0058.docx",
+      "s": "screened",
+      "sol": "36C26327Q0058"
     },
     "c3ca0e7681c740c3923feb8de13fc6b0": {
       "c": 8487,
@@ -45164,6 +46661,53 @@
       "s": "screened",
       "sol": "F2XHE16275A001"
     },
+    "c4858d8d69af4198a3d03096b4be58ff": {
+      "c": 3695527,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "A. R Credit MR 5: Not less than 10 percent of building materials (by cost) shall be regional materials. E 2.5 CERTIFIED WOOD EF A. R Credit MR 7: Not less than 50 percent (by cost) of wood-based materials shall be produced from wood obtained from forests certified by an FSC-accredited certification body to comply with FSC STD-01-001, R \"FSC Principles and Criteria for Forest Stewardship.\" 1. FOWood-based materials include, but are not limited to, the following materials when made from wood, engineered wood products, or wood-based panel products: a. Rough carpentry. b. Miscellaneous carpentry. c. Heavy timber construction. d. Wood decking.",
+          "finding": "Smithsonian project requires at least 50% of wood materials from forests certified by FSC (Forest Stewardship Council), enforcing environmental sourcing for federal construction.",
+          "news": 3,
+          "quote": "Not less than 50 percent (by cost) of wood-based materials shall be produced from wood obtained from forests certified by an FSC-accredited certification body",
+          "verified": true
+        },
+        {
+          "finding": "National Zoo contracting for major Arabian Leopard Exhibit construction including complex irrigation, soil engineering, and habitat grading work.",
+          "news": 4,
+          "quote": "Phase 2 Construct Arabian Leopard Exhibit at the National Zoological Park (33330226RT0010015; SMITHSONIAN INSTITUTION",
+          "verified": false
+        },
+        {
+          "finding": "Smithsonian building a major new Arabian leopard habitat with LEED Gold certification, requiring extensive sustainable materials sourcing within 500 miles and recycled content standards.",
+          "news": 3,
+          "quote": "Phase 2 Construct Arabian Leopard Exhibit at the National Zoological Park...Preference shall be given to cast-in-place concrete containing raw materials harvested or extracted within 500 miles of the project site.",
+          "verified": false
+        },
+        {
+          "finding": "Federal construction project mandates minimum 50% recycled content in all steel reinforcement and metal anchors, reflecting government sustainability procurement standards.",
+          "news": 3,
+          "quote": "All reinforcing steel, steel anchors, welded wire reinforcement, and other steel items required by the work of this section shall contain a minimum of 50% (combined) pre-consumer/post-consumer recycled content.",
+          "verified": false
+        },
+        {
+          "finding": "Smithsonian Institution constructing Arabian Leopard Exhibit at National Zoo with detailed HVAC specifications including UV germicidal systems.",
+          "news": 3,
+          "quote": "NOTICE: Phase 2 Construct Arabian Leopard Exhibit at the National Zoological Park (33330226RT0010015; SMITHSONIAN INSTITUTION",
+          "verified": false
+        },
+        {
+          "finding": "Extensive soil testing and quality control protocols required, with third-party certified testing labs and multiple inspection phases before material approval.",
+          "news": 3,
+          "quote": "Employ at Contractor's expense a qualified independent testing and inspection laboratory acceptable to the Landscape Architect and Owner to perform all compaction, moisture and infiltration tests",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "65 DD Specs.pdf",
+      "s": "screened",
+      "sol": "33330226RT0010015"
+    },
     "c4a46f5239a04df385b773a032e588d6": {
       "c": 1067,
       "d": "2026-10-10",
@@ -45228,6 +46772,14 @@
       "s": "screened",
       "sol": "140R3026R0012"
     },
+    "c4d492de142c40d5a17e7423474e36d3": {
+      "c": 1675,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S02_Att 10_Fort Sill NC 920CM3006 Plan Set Reduced 8 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
+    },
     "c4ddc0295b2640fbafd482d855d65567": {
       "c": 19087,
       "d": "2026-10-14",
@@ -45284,6 +46836,23 @@
       "n": "Attachment 13 AFMC 260 FAT MJU-76 2-12-2026.pdf",
       "s": "screened",
       "sol": "FA821326RB005-Solicitation"
+    },
+    "c53180f89ca14803a2cc0cefa5334741": {
+      "c": 16670,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "Control Number: 26-0027 JUSTIFICATION REVIEW DOCUMENT RFO FAR Part 6 Justification and Approval for Other than Full and Open Competition Program/Equipment: Class approval for Cisco products for the Walla Walla District Operating projects to include Mill Creek, McNary, Ice Harbor, Lower Monumental, Little Goose, Lower Granite, Dworshak, and Lucky Peak Dams for the U.S. Army Corps of Engineers, Walla Walla District. Authority: Title 10 United States Code (U.S.C.) \u00a73204(a)(1) as implemented in Revolutionary cederal=^cquisition=oegulation=Ec^oF=lverhaul=EoclF=c^o=SKNMPJN=lnly=one responsible source and no other supplies or services will satisfy agency requirements. RFO FAR 6.103-1(",
+          "finding": "Army Corps of Engineers class-justifies five-year sole-source authority for Cisco network equipment across eight dams (McNary, Ice Harbor, Lower Granite, etc.) citing network security and standardization.",
+          "news": 3,
+          "quote": "A successful network attack or exploitation has potential for failures resulting in loss of power and/or control to critical powerhouse systems responsible for areas such as power generation, Juvenile Fish Facility operation, powerhouse unwatering pumps, crane controls, and wastewater systems.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "CISCO Justification_Final_Redacted.pdf",
+      "s": "screened",
+      "sol": "26-0027"
     },
     "c541907523414879913d8ad47bdf2359": {
       "c": 0,
@@ -45404,6 +46973,23 @@
       "s": "screened",
       "sol": "FA9422-27-D-0001"
     },
+    "c5dae583dded478f97111a78761d9db2": {
+      "c": 8059,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "3204(a)(1) Full Foodservice Prime Vendor for Customers in Western Africa locations for Western Africa, a modification was processed in December 2021 to increase the maximum dollar value from $22,000,000.00 to $97,600,000.00. Subsequently, the Niger Military led takeover in July 2023 significantly impacted supply routes. Due to the critical need to utilize airlifts for the inbound supply chain in addition to delays in the competitive follow-on acquisition, a modification was processed in December 2023 to increase the maximum from $97,600,000.00 to $307,600,000.00. The contract expired on September 15, 2025. The first (current) bridge contract for this AOR, SPE300-25-D-4005, was awarded with an effective date of September 16, 2025, and a maximum dollar value of $5,400,000.00. Western Africa AOR is currently supported under the first bridge contract, SPE300-25-D-4005, and administrative catalog SPE300-25-D-A092. The current bridge contract will expire on October 10, 2026. Justification fo",
+          "finding": "DLA awards 430-day food service bridge contract to EFS for Western Africa military operations; estimated $700K with 300% max value ($2.1M) amid supply-chain disruptions.",
+          "news": 4,
+          "quote": "Due to the critical need to utilize airlifts for the inbound supply chain in addition to delays in the competitive follow-on acquisition, a modification was processed in December 2023 to increase the maximum from $97,600,000.00 to $307,600,000.00.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "TAB 1 JA Western Africa Bridge 2 - REDACTED Final.pdf",
+      "s": "screened",
+      "sol": "SPE30027D4113"
+    },
     "c5f44065d3524f4daaf8ee7f1ac5370b": {
       "c": 19358,
       "d": "2026-10-11",
@@ -45494,6 +47080,14 @@
       "n": "36C25027Q0019.docx",
       "s": "screened",
       "sol": "36C25027Q0019"
+    },
+    "c64b017dd1294603a4130e6ed8f8402d": {
+      "c": 22533,
+      "d": "2026-10-16",
+      "m": "legacy",
+      "n": "Notice of Intent to Sole Source.docx",
+      "s": "screened",
+      "sol": "HT941027N0006"
     },
     "c656de12f52b4cef90a467d40e1d2a1e": {
       "c": 9022,
@@ -45702,14 +47296,57 @@
       "s": "screened",
       "sol": "1240LT27Q0010"
     },
+    "c70ddf717f304088a8319cc40c5d63b2": {
+      "c": 37655,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "Veterans Affairs cemetery expansion at Fort Sill, Oklahoma includes columbarium construction, gravesite modifications, and drainage infrastructure improvements.",
+          "news": 3,
+          "quote": "PROPOSED COLUMBARIUM 'G' COLUMBARIUM 'H' and gravesite expansion with pre-placed crypts installation",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_4 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
+    },
     "c71db21e8b8840399d49e1af7f906424": {
-      "a": 1,
-      "c": 207276,
+      "c": 54341,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "context": "ication requirements (can be provided upon request). Be armed with one shotgun with a minimum of 20 rounds of appropriate ammunition for use against small Unmanned Aerial Systems (UAS). ii. Meet the weapons qualifications contained OPNAVINST 3591.1 series or its equivalent. b) The team shall have a minimum of two (2) laser dazzler devices to warn away or deter manned threats, e.g. small boats, small aircraft, helicopters, etc. MSC SPECIALTIME 2026 (02-26) V-4 c) All team members must possess a current TWIC, or have successfully completed a terrorism check (Terrorism Screening Database) by the U.S. Government or commercial equivalent. (2) Contractor shall provide the security support necessary to ensure mission performance. CS shall, at a minimum, perform the following: a) Prevent any Visit, Board, Search or Seizure (VBSS) force, of as many as 15",
+          "finding": "Navy requires submarine rescue vessel equipped with laser dazzler devices to warn away or deter manned threats including small boats and aircraft.",
+          "news": 4,
+          "quote": "The team shall have a minimum of two (2) laser dazzler devices to warn away or deter manned threats, e.g. small boats, small aircraft, helicopters, etc.",
+          "verified": true
+        },
+        {
+          "context": "d the Contractor shall proceed diligently to closing which shall include, inter alia, transfer of title warranted by Contractor to be free of any claims, liens, charges, or other encumbrances of any kind or nature. Closing shall occur no later than thirty (30) calendar days following the end of the contract period in which the option is exercised. The purchase price shall be the GREATER of the contractor's offered purchase price as stated in this time charter contract or the \"fair market value\" of the vessel at the time this option is exercised. \"Fair market Value\" shall be determined by an appraiser, appointed and contracted solely by the Government, who shall provide such appraisal no earlier than ninety (90) days prior to the end of the contract period in which this option to purchase is exercised. The vessel shall be delivered to the Government at the place and time designated in the option exercise notice. If the purchase price is the \"fair market value\" of the vessel, then the vessel shall be delivered in the condition considere",
+          "finding": "Government has option to purchase chartered submarine rescue vessel at fair market value or contractor's offered price, whichever is greater, within 30 days of contract end.",
+          "news": 4,
+          "quote": "The purchase price shall be the GREATER of the contractor's offered purchase price as stated in this time charter contract or the 'fair market value' of the vessel at the time this option is exercised.",
+          "verified": true
+        },
+        {
+          "context": "n Charter Party date; or (ii) USD 50 million, whichever is greater, but in no event exceeding that amount of commercial P&I cover which was in effect for the Vessel on Charter Party date; (3) War Risk Blocking and Trapping Coverage; MSC SPECIALTIME 2026 (02-26) V-2 (4) War Risk Second Seamen's Coverage, the principal sum of which shall be USD 200,000 per Master, Officer, or crewmember (this is also loss-of-life benefit). (5) War Risk Loss-of-Hire coverage, if a commercial loss-of-hire policy was in effect on the Vessel on Charter Party date. The sum insured by this policy, including the amount of lost time that is covered, will be equivalent to the levels insured by the Vessel's commercial policy. However, the amount insured by this policy will in no event exceed the hire rate (effective under this Charter Party when the loss of time began), over a maximum duration of 90 days lost. This maximum amount will be further",
+          "finding": "Navy requires submarine rescue vessel charter to maintain war risk insurance including $200,000 per-person seamen's coverage and loss-of-life benefit under MARAD policy.",
+          "news": 3,
+          "quote": "War Risk Second Seamen's Coverage, the principal sum of which shall be USD 200,000 per Master, Officer, or crewmember (this is also loss-of-life benefit).",
+          "verified": true
+        },
+        {
+          "finding": "Navy solicits submarine rescue vessel charter starting Feb 2027 from Little Creek, VA; base 365 days plus up to 4 option years; vessel must support 419-ton rescue system in Sea State 4.",
+          "news": 4,
+          "quote": "Base Period \u2013 365 Days Option 1 \u2013 366 Days Commencing: 18 February 2027 Cancelling: 28 March 2027",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "Attach (01) - PROFORMA - SPECIALTIME 2026 (A0003).pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N3220526R6077"
     },
     "c72ddad6d2d74971834357747f7798cd": {
@@ -45961,6 +47598,14 @@
       "n": "2.05.3.2 Attachment (26) Questions and Answers Amend 3.pdf",
       "s": "screened",
       "sol": "N0060426R0003"
+    },
+    "c85327e146294946a5c0ff950c9c3600": {
+      "c": 1117,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "CDRL A005 Status Report Pre and Post Audits.pdf",
+      "s": "screened",
+      "sol": "FA857127Q0008"
     },
     "c857d5214cd14ff1823af0271747b4a5": {
       "c": 633,
@@ -46309,6 +47954,14 @@
       "s": "screened",
       "sol": "1240BF26D0009"
     },
+    "c9ca88fb507d4ed892c396f0fab82ae2": {
+      "c": 81,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "80HQTR27R0006_NPP-3 Attachment D_Small Business Subcontracting Plan.pdf",
+      "s": "screened",
+      "sol": "80HQTR27R0006"
+    },
     "c9cd20230c35444082c56d33465ff0a0": {
       "c": 607,
       "d": "2026-10-10",
@@ -46458,6 +48111,22 @@
       "n": "DRAFT SOW Linen_.docx",
       "s": "screened",
       "sol": "36C25627Q0043"
+    },
+    "ca5b0910e6c64a6b9f880794e0c4d380": {
+      "c": 65783,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "Fort Sill National Cemetery gravesite expansion includes Army, Marine Corps, Navy, Air Force, Space Force, Coast Guard bronze seals. Standard cemetery infrastructure project.",
+          "news": 3,
+          "quote": "SEALS REQUIRED: ARMY - 3, 18\" DIA. MARINE CROPS - 3, 18\" DIA. NAVY - 3, 18\" DIA. AIR FORCE - 3, 18\" DIA. SPACE FORCE - 3, 18\" DIA. COAST GUARD - 3, 18\" DIA.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S02_Att 12_Fort Sill NC 920CM3006 Plan Set Reduced 10 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "ca5db202728c40d4a17dd93bffe9d9fe": {
       "c": 98285,
@@ -46708,6 +48377,14 @@
       "s": "screened",
       "sol": "FY27-IHS-OHR-LDP"
     },
+    "cb98ec62bd0f42af8ed1a26e274264c5": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (D) - WD-CBA-2026-43 Rev 0.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
+    },
     "cba43b679a894efb9c69973b8d4806ee": {
       "c": 1483,
       "d": "2026-10-13",
@@ -46731,6 +48408,14 @@
       "n": "AMENDMENT 0001  36C10X26Q0091 dtd 2 Oct 2026.pdf",
       "s": "screened",
       "sol": "36C10X26Q0091"
+    },
+    "cbd40639241b4b2293829681837c5999": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A002 - Presentation Materials.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
     },
     "cbdbd53d51ba4d588859b3cb93bbc878": {
       "c": 17730,
@@ -46817,6 +48502,14 @@
       "n": "SPRHA127R0031.pdf",
       "s": "screened",
       "sol": "SPRHA1-27-R-0031"
+    },
+    "cc3639ebf87840668436727f47e8b0d9": {
+      "c": 615,
+      "d": "2026-10-16",
+      "m": "xlsx",
+      "n": "Attachment 1 - List of Items - 70Z03826QJ0000348.xlsx",
+      "s": "screened",
+      "sol": "70Z03826QJ0000348"
     },
     "cc399c5d52944264b3b5d27ecb929905": {
       "c": 109,
@@ -47018,6 +48711,14 @@
       "n": "RFI ERP SI 6.26.26.pdf",
       "s": "screened",
       "sol": "36C10B26Q0585"
+    },
+    "cd2a9c7d0a8944fdb0fc38b6925f866e": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "Attachment D - FAR 52.225-2 Buy America Certificate - 36C24226R0097.docx",
+      "s": "boilerplate_only",
+      "sol": "36C24226R0097"
     },
     "cd430672f6a64a4cb8d8de143688960f": {
       "c": 12594,
@@ -47313,6 +49014,14 @@
       "s": "screened",
       "sol": "36C26027R0020"
     },
+    "ce1a0b48bc2e4ebda97275411958c76c": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Sol_140FC126Q0042.pdf",
+      "s": "wage_determination",
+      "sol": "140FC126Q0042"
+    },
     "ce2df78665ac4253ba539a7bdb3f8371": {
       "c": 23477,
       "d": "2026-10-14",
@@ -47336,6 +49045,14 @@
       "n": "Attachment_01E_Service_Contracts_-_Pricing_Summary__OFFEROR_COMPLETE.xlsx",
       "s": "screened",
       "sol": "140R3026R0012"
+    },
+    "ce55fa85e3d947a39be17e7831f4bcbb": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 8 DBA TX20260209 Revision 1 Live Oak County.pdf",
+      "s": "wage_determination",
+      "sol": "15BNAS27Q00000002"
     },
     "ce5fd9fa746f44e3a9dd8681e26b244a": {
       "c": 4643,
@@ -47497,6 +49214,14 @@
       "s": "screened",
       "sol": "80NSSC27944201Q"
     },
+    "cf2f0d76ba6b4fe5b1b59e992853ecf2": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "P7777 Sources Sought_Attachment_1.docx",
+      "s": "boilerplate_only",
+      "sol": "N6945027SP7777-AMAG-ACCESS"
+    },
     "cf385108e2554ba2a217322cf6c30200": {
       "c": 0,
       "d": "2026-10-14",
@@ -47520,6 +49245,14 @@
       "n": "Attachment 01 Performance Work Statement.pdf",
       "s": "screened",
       "sol": "N0003926R0005"
+    },
+    "cf3e8020c6e14e68879bb8738488f5ec": {
+      "c": 1732,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "19VM3027Q0004 - Invitation Letter - Fuel Supplies.pdf",
+      "s": "screened",
+      "sol": "19VM3027Q0004"
     },
     "cf47f926f8b545a5aba39c9be7ffc276": {
       "c": 23524,
@@ -47553,6 +49286,14 @@
       "n": "Katy TX OPC RLP No_36C10F25R0024 _ Amendment No_1_ 7.8.2025.pdf",
       "s": "screened",
       "sol": "36C10F25R0024"
+    },
+    "cf4ec06cec0149f58e6f888e696cd2b2": {
+      "c": 2616,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Attachment 2 - Redacted J and A - 70Z03826QJ0000348.pdf",
+      "s": "screened",
+      "sol": "70Z03826QJ0000348"
     },
     "cf5a9045bf7a4b6c86788aedf532658a": {
       "c": 0,
@@ -47767,6 +49508,14 @@
       "n": "11 LBNL Facilities Master Specifications 260523_Low-Voltage Electrical Power Conductors and Cables.docx",
       "s": "screened",
       "sol": "AM202603-25"
+    },
+    "d01c2f41db734479b25d5ed198de7877": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 8 - WD 2015-5645 Orange County Seal Beach.pdf",
+      "s": "wage_determination",
+      "sol": "H9224026QE"
     },
     "d04d6a04d1484047b4957e5bb7331d8d": {
       "c": 97,
@@ -48607,6 +50356,14 @@
       "s": "screened",
       "sol": "W51AA1B6B1IndustryDay"
     },
+    "d3b0cd6b9bc6488cbc613679cf8a20f5": {
+      "c": 6505,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "W519TC26RA056 AMD 0002 SF 30.pdf",
+      "s": "screened",
+      "sol": "W519TC-26-R-A056"
+    },
     "d3b7c810d8de4cbe98c34b4370bcaf56": {
       "c": 7354,
       "d": "2026-10-10",
@@ -48759,6 +50516,14 @@
       "n": "Attachment III Clauses 70Z02326Q92200038.pdf",
       "s": "screened",
       "sol": "70Z02326Q92200038"
+    },
+    "d49ab007455342e0b5cd70902d590171": {
+      "c": 50510,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S02_Att 13_Fort Sill NC 920CM3006 Plan Set Reduced 11 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "d4a43272fcb9400d903f9a29f3c186b2": {
       "c": 2492,
@@ -51181,6 +52946,14 @@
       "s": "screened",
       "sol": "FA301027Q0001"
     },
+    "ddd061a5903745f1bbde4d83d7997616": {
+      "c": 3408,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "FALCONS AoI Questions - Government Responses 10-16-26.pdf",
+      "s": "screened",
+      "sol": "W912CH-26-S-0001"
+    },
     "ddd45e777d5b4c388080def3b1171934": {
       "c": 1069,
       "d": "2026-10-14",
@@ -51681,6 +53454,14 @@
       "s": "screened",
       "sol": "FA252127QB013"
     },
+    "dfbef9134a704293aea563162b1cb4b8": {
+      "c": 14495,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 7 - 663-21-100 - Contractor Rules of Behavior.pdf",
+      "s": "screened",
+      "sol": "36C26026R0029"
+    },
     "dfc6b6ce86684516bbb3babf39e06257": {
       "c": 831,
       "d": "2026-10-13",
@@ -51849,6 +53630,22 @@
       "n": "0NC2145-1 RLP Ex D-Solicitation Provisions.pdf",
       "s": "screened",
       "sol": "0NC2145-1"
+    },
+    "e0a1507f82914c4fb9a7e0ddca9ef08c": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A003 - Contract Monthly Progress Report.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
+    },
+    "e0bedc7a7fee4ed1b399cfb566eb641d": {
+      "c": 351621,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "C04_12363N26Q4181Attachment6_FSH_FSM_Cruise_AreaDeter.pdf",
+      "s": "screened",
+      "sol": "12363N26Q4181"
     },
     "e0d499df2d0e45019ec46dec53f15fb8": {
       "c": 2401,
@@ -52959,6 +54756,14 @@
       "s": "screened",
       "sol": "80KSC026R0023 "
     },
+    "e5439ca4f5334ce5b55ede95acbb43cc": {
+      "c": 58504,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Attachment 4 - Type B-3 - Final Infantry Drive Drawings.pdf",
+      "s": "screened",
+      "sol": "W50S9E26BA002"
+    },
     "e55964879ae842928bb82a6e6684dc79": {
       "c": 61912,
       "d": "2026-10-13",
@@ -53494,6 +55299,14 @@
       "s": "screened",
       "sol": "SPE602-26-R-0706"
     },
+    "e809430859eb428fb514b82253ca577c": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 6 - WD 2015-5613 Los Angles San Clemente.pdf",
+      "s": "wage_determination",
+      "sol": "H9224026QE"
+    },
     "e81541859a9a42cfa03a614695faac02": {
       "c": 3084,
       "d": "2026-10-14",
@@ -53601,6 +55414,14 @@
       "n": "Attch 2 Appendix K L M N - draft.xlsx",
       "s": "screened",
       "sol": "FA461027R0001"
+    },
+    "e84329c53a124415809d8b26cf1f4461": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "RLP 36C24W26R0045 Exhibit E 3517B General Clauses.pdf",
+      "s": "boilerplate_only",
+      "sol": "RLP36C24W26R0045"
     },
     "e85193849af94a4cad6ce4bafb619be7": {
       "c": 15990,
@@ -53841,6 +55662,14 @@
       "s": "screened",
       "sol": "N00421-27-NORFP-WPM262-0074"
     },
+    "e9512b8c753347b294f6a947668aae8a": {
+      "c": 9860,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_3 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
+    },
     "e9571de867214082b32698edd1aa2569": {
       "c": 31410,
       "d": "2026-10-14",
@@ -53928,6 +55757,14 @@
       "n": "Sol_140A2326Q0286.pdf",
       "s": "screened",
       "sol": "140A2326Q0286"
+    },
+    "e9697f973fee4bf485ddf1c7742458ae": {
+      "c": 9724,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "JA-SPE4A626RXD52_R.pdf",
+      "s": "screened",
+      "sol": "SPE4A6-26-R-XD52"
     },
     "e980d2b79a7e46a48c3037ca9c245cf3": {
       "c": 805,
@@ -54946,13 +56783,11 @@
       "sol": "2027-NESDIS-BB-0001"
     },
     "ed0093ff4e734bb78acb3c2bf1a5176e": {
-      "a": 1,
-      "c": 5541,
+      "c": 2494,
       "d": "2026-10-14",
-      "e": "screening call failed",
       "m": "pdf",
       "n": "Attach (01) - PROFORMA - SPECIALTIME 2026 (A0002).pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "N3220526R6077"
     },
     "ed13c0dffbae4a16a35688169ef3b644": {
@@ -55285,6 +57120,14 @@
       "n": "3 Construction Specifications.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-SANANTONIO(NLOOP1604)TXFY27"
+    },
+    "ee8296ed771a45f08806f5a5bfe68b13": {
+      "c": 86,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "overall plan 04.15.2021.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
     },
     "ee8ac18db8104d048d6b726c277526ae": {
       "c": 981,
@@ -56130,6 +57973,14 @@
       "s": "screened",
       "sol": "SPE300-26-R-0039"
     },
+    "f190b5643a844609ac6a4e74291b7161": {
+      "c": 85435,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "A01 GeoTech Report iHouse.pdf",
+      "s": "screened",
+      "sol": "75H70126R00026"
+    },
     "f19c89fbb2ba4121b895997f1f142115": {
       "c": 0,
       "d": "2026-10-14",
@@ -56421,6 +58272,22 @@
       "s": "screened",
       "sol": "36C25026Q0996"
     },
+    "f295f3641a344df6bf906f55e64dd044": {
+      "c": 54821,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "finding": "VA water system deficiency remediation contract includes asbestos abatement; pipe insulation contains 4-12% chrysotile asbestos.",
+          "news": 3,
+          "quote": "IDENTIFIED MATERIAL PERCENT ASBESTOS PIPE RUNS INSULATION 4-12% CHRYSOTILE MUDDED FITTINGS 66-70% CHRYSOTILE",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 2 - 668-22-106_Construction - Drawings.pdf",
+      "s": "screened",
+      "sol": "36C26027R0014"
+    },
     "f296bcbb8ed3491f9f5cc3a4fee9c935": {
       "c": 5926,
       "d": "2026-10-14",
@@ -56493,6 +58360,14 @@
       "n": "P. Commission Agreement (Template).pdf",
       "s": "screened",
       "sol": "36C24W25R0073"
+    },
+    "f2d09f5b12f943afa5bd7de2ddbf4324": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Service Contract Act WD No. 2015-4281.pdf",
+      "s": "wage_determination",
+      "sol": "36C24527Q0025"
     },
     "f2e3cef9f40f46589133d4ca6741a5fb": {
       "c": 32413,
@@ -56838,6 +58713,14 @@
       "n": "4. Attachment Quotation Form.xlsx",
       "s": "screened",
       "sol": "15BCTS25Q00000015"
+    },
+    "f40131781b304019adc5da234b802b02": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "Aviation Source Approval and Management Handbook JACG SAM HB 03-16-11.pdf",
+      "s": "boilerplate_only",
+      "sol": "SPE4A727R0062-Sources_Sought"
     },
     "f40bce1d6c634b66b83bd91a60adfdc3": {
       "c": 5376,
@@ -57247,6 +59130,14 @@
       "s": "screened",
       "sol": "FA240126R0003"
     },
+    "f5706b06040d4777bc33b1c452af7613": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 2-WD 2015-5253 Rev 31 dated 8-27-2026.pdf",
+      "s": "wage_determination",
+      "sol": "FA301627D0003"
+    },
     "f5713b842deb484da93f080af3c751e4": {
       "c": 3217,
       "d": "2026-10-15",
@@ -57303,6 +59194,14 @@
       "s": "screened",
       "sol": "N3220527Q7010"
     },
+    "f5b2ffbdae5245709bec1a34116b29e7": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Attachment 2 - Wage Determinations - 2015-5117 21 Aug 26.pdf",
+      "s": "wage_determination",
+      "sol": "FA446027Q0005"
+    },
     "f5bfb4fa459c4c0c816cf0609d176801": {
       "c": 16719,
       "d": "2026-10-13",
@@ -57334,6 +59233,14 @@
       "n": "HCA SSJ BAS Final Redacted_Redacted.pdf",
       "s": "screened",
       "sol": "36C24826Q0315"
+    },
+    "f5d3262f3ab44993960f88e0a6aa1a63": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "J-7 CDRL A001 - Contract Management.pdf",
+      "s": "boilerplate_only",
+      "sol": "852571198_"
     },
     "f5d841b00adc4c63b748b7a441e9e9f8": {
       "c": 3795,
@@ -57913,6 +59820,14 @@
       "n": "36C26127Q0074_1.docx",
       "s": "screened",
       "sol": "36C26127Q0074"
+    },
+    "f89d16aac842431baecc2f760a773b3c": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "B08 Attachment 0007 DOL WD 2015-5337-30.pdf",
+      "s": "wage_determination",
+      "sol": "W519TC26RA054"
     },
     "f89ee9715bc9477bbd6805a5a8adb94f": {
       "c": 3564,
@@ -58513,6 +60428,14 @@
       "s": "screened",
       "sol": "140S0326R0001"
     },
+    "fb6ed3e18a3948f78b804d9bc296d054": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "007200_Attch7a_AF3952.pdf",
+      "s": "boilerplate_only",
+      "sol": "FA813727R0002 "
+    },
     "fbaa57d2371245ffae4433e128e7366e": {
       "c": 679,
       "d": "2026-10-14",
@@ -59025,6 +60948,36 @@
       "s": "screened",
       "sol": "W15P7T-26-R-A006"
     },
+    "fdaed59e6ecc453ba9406c804431ee11": {
+      "c": 251017,
+      "d": "2026-10-16",
+      "f": [
+        {
+          "context": "aggregate quantity during that period. If additional quantities are exercised more than 90 days after a prior increase under the same CLIN/SLIN and within same ordering period, the Government shall apply the stepladder unit price only the newly added quantities, and no adjustment shall be made to unit prices for quantities previously awarded. TOTAL CONTRACT QUANTITIES Regardless of the stepladder ranges shown in Tables 1 - 5 above, the Government may not purchase more than the total following quantities under this contract in the following configurations: Configuration CLIN Total Quantity AN/SYN-1 V(x) CLIN X003, X004, X005 series 160 SIBS GEN CLIN X007, X008 series 40 For funding and administrative purposes, the Contracting Officer may unilaterally establish separately priced CLINs or subcontract line items (SLINs) at award, option exercise and when quantities increase. The final unit price will be based on the total number of hardware units purchased within that 90-d",
+          "finding": "Navy ECDIS hardware and software consolidation contract worth tens of millions across multiple years with stepladder pricing for up to 160 AN/SYN-1 units and 40 S-IBS systems for surface and submarine ships.",
+          "news": 4,
+          "quote": "TOTAL CONTRACT QUANTITIES Regardless of the stepladder ranges shown in Tables 1 - 5 above, the Government may not purchase more than the total following quantities under this contract in the following configurations: Configuration CLIN Total Quantity AN/SYN-1 V(x) CLIN X003, X004, X005 series 160 SI",
+          "verified": true
+        },
+        {
+          "context": "ation Plan (PPIP) in accordance with (CDRL A013). As part of the PPIP, the Contractor shall notify the Government of any part, information, material, or labor not provided by a Trusted Source and must obtain specific written authorization from the PCO, Contracting Officers Representative (COR), and IWS 6.0 Security Manager to proceed with its use. A Trusted Source is defined as a source that has the Government confidence in the source's ability to secure national security systems by assessing the integrity of the people and processes used to design, generate, manufacture, and distribute national security critical components. The only anticipated exception would be the Australian United Kingdom United States (AUKUS) effort. The Contractor shall flow down the Trusted Sources and export control requirement to all subcontractors. PKUKN==fnternational=qraffic=in=^rms=oegulations=Efq^oF=and=bxport=^dministration=oegulations=Eb^oF=E^pplicable=to=^ll CLINS) The Contractor shall be solely responsible for obtaining any State Department appr",
+          "finding": "Contract mandates 'Trusted Source' requirement for all components and materials; contractor must obtain written authorization from PCO, COR, and IWS 6.0 Security Manager for any non-Trusted Source parts, with AUKUS as only anticipated exception.",
+          "news": 3,
+          "quote": "A Trusted Source is defined as a source that has the Government confidence in the source's ability to secure national security systems by assessing the integrity of the people and processes used to design, generate, manufacture, and distribute national security critical components. The only anticipa",
+          "verified": true
+        },
+        {
+          "finding": "Contract requires contractor to obtain State Department ITAR approvals and maintain classified SECRET-level facility clearance with COMSEC certification; all personnel must be U.S. citizens with SECRET clearance.",
+          "news": 4,
+          "quote": "The Contractor shall be solely responsible for obtaining any State Department approvals, licenses, Technical Assistance Agreements (TAA), etc. required by the International Traffic in Arms Regulations (ITAR). All Contractor personnel accessing classified information or material associated with and/o",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Att. 00 - Solicitation - N0002426R5246 Rev. 1.pdf",
+      "s": "screened",
+      "sol": "N00025-26-R-5246"
+    },
     "fdbb3a2c3f6648c9a5c6085668a1b7ad": {
       "c": 82520,
       "d": "2026-10-14",
@@ -59317,6 +61270,14 @@
       "s": "screened",
       "sol": "36C24W25R0073"
     },
+    "ff12159ce224435584fbf06a34267fcc": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "Wage Determination No. 2015-4485_Rev32.pdf",
+      "s": "wage_determination",
+      "sol": "W9124M27QA004 "
+    },
     "ff15d0754f0e4b40a9ed95be3d332fba": {
       "c": 1881,
       "d": "2026-10-10",
@@ -59332,6 +61293,14 @@
       "n": "F. 3517B General Clauses (Apr. 2026).pdf",
       "s": "boilerplate_only",
       "sol": "36C24W25R0073"
+    },
+    "ff21264d785740a59a31c7a277afc554": {
+      "c": 2743,
+      "d": "2026-10-16",
+      "m": "pdf",
+      "n": "S02_Att 8_Fort Sill NC 920CM3006 Plan Set Reduced 6 of 11.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "ff2838cf09b942d8b70984fc46b3adbe": {
       "c": 1947,
@@ -59364,6 +61333,14 @@
       "n": "36C26026R0029 0001.pdf",
       "s": "screened",
       "sol": "36C26026R0029"
+    },
+    "ff3b64a0cf5845179e15598a6bf30051": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "docx",
+      "n": "P7777 Sources Sought_Attachment_1.docx",
+      "s": "boilerplate_only",
+      "sol": "N6945027SP7777-Accurate"
     },
     "ff4e52ca48e9407b8ea987d248e0048a": {
       "c": 1974,
@@ -59446,6 +61423,14 @@
       "n": "GFP.pdf",
       "s": "screened",
       "sol": "FD20302301677-03"
+    },
+    "ffa62f013abf4beeb71b1fc9ccc6e798": {
+      "c": 0,
+      "d": "2026-10-16",
+      "m": "ocr+pdf",
+      "n": "B08_Att_03_WD_UT20260028.pdf",
+      "s": "wage_determination",
+      "sol": "140P2026R0065"
     },
     "ffb08f58debe43f8b2632464538f3ebf": {
       "c": 1278,

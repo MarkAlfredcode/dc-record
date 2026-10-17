@@ -412,6 +412,35 @@
     "has_contracts": true,
     "raw_hits": 6
   },
+  "arthrex": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 1241000.0,
+        "recipient": "ARTHREX INC",
+        "start": "2022-07-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75H71022P01245_7527_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 757032.32,
+        "recipient": "ARTHREX INC",
+        "start": "2026-07-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24626P0753_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 622818.72,
+        "recipient": "ARTHREX INC",
+        "start": "2023-07-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24223P1310_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2010-04-29",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "autoclear": {
     "d": "2026-10-15",
     "examples": [
@@ -998,6 +1027,64 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 100
+  },
+  "cis secure computing": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of State",
+        "amount": 4471476.0,
+        "recipient": "CIS SECURE COMPUTING, INC.",
+        "start": "2025-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM25P0310_1900_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 4125571.79,
+        "recipient": "CIS SECURE COMPUTING, INC.",
+        "start": "2025-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM25P0764_1900_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 4067604.5,
+        "recipient": "CIS SECURE COMPUTING, INC.",
+        "start": "2025-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM25P0882_1900_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-11-08",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "cisco system": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 232819999.84,
+        "recipient": "CISCO SYSTEMS INC",
+        "start": "2014-09-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0003_9700_HC102814D0003_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 137037755.0,
+        "recipient": "CISCO SYSTEMS INC",
+        "start": "2016-06-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0015_9700_HC102814D0003_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 129999999.73,
+        "recipient": "CISCO SYSTEMS INC",
+        "start": "2018-06-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC108418F0015_9700_HC102814D0003_9700"
+      }
+    ],
+    "first": "2014-09-25",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "city of minneapoli": {
     "d": "2026-10-10",
@@ -1709,6 +1796,42 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "ginkgo biowork": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 77991554.11,
+        "recipient": "GINKGO BIOWORKS, INC.",
+        "start": "2025-02-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75D30125C20439_7523_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 62551726.04,
+        "recipient": "GINKGO BIOWORKS, INC.",
+        "start": "2022-08-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75D30122C14933_7523_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 10446304.0,
+        "recipient": "GINKGO BIOWORKS, INC.",
+        "start": "2017-09-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HR001117C0092_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-10-18",
+    "has_contracts": true,
+    "raw_hits": 19
+  },
+  "gmp": {
+    "d": "2026-10-16",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 76
+  },
   "greater metropolitan community blood service": {
     "d": "2026-10-10",
     "examples": [
@@ -1803,6 +1926,35 @@
     "has_contracts": false,
     "raw_hits": 100
   },
+  "independent rough terrain center kalmar rt center": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 119094771.93,
+        "recipient": "INDEPENDENT ROUGH TERRAIN CENTER LLC",
+        "start": "2007-03-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV07C0160_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 64920114.66,
+        "recipient": "INDEPENDENT ROUGH TERRAIN CENTER LLC",
+        "start": "2004-11-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0014_9700_DAAE0700DT021_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 54661749.94,
+        "recipient": "INDEPENDENT ROUGH TERRAIN CENTER LLC",
+        "start": "2012-03-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0006_9700_W56HZV11DVK03_9700"
+      }
+    ],
+    "first": "2002-02-26",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "innovatu": {
     "d": "2026-10-13",
     "examples": [
@@ -1889,6 +2041,35 @@
     "first": "2016-07-25",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "johnson control building solution": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 2409504.0,
+        "recipient": "JOHNSON CONTROLS BUILDING SOLUTIONS, LLC",
+        "start": "2024-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA460824P0123_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2295884.0,
+        "recipient": "JOHNSON CONTROLS BUILDING SOLUTIONS, LLC",
+        "start": "2022-05-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6247322C3802_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1469200.4,
+        "recipient": "JOHNSON CONTROLS BUILDING SOLUTIONS, LLC",
+        "start": "2025-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4008025C0009_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2022-05-26",
+    "has_contracts": true,
+    "raw_hits": 48
   },
   "kapule": {
     "d": "2026-10-16",
@@ -2158,6 +2339,35 @@
     "has_contracts": true,
     "raw_hits": 30
   },
+  "madison hospitality service interim home executive apartment": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of State",
+        "amount": 30490476.26,
+        "recipient": "MADISON HOSPITALITY SERVICES, LLC",
+        "start": "2024-03-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM24F0667_1900_19AQMM18D0137_1900"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 17134592.3,
+        "recipient": "MADISON HOSPITALITY SERVICES, LLC",
+        "start": "2018-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM18F4296_1900_19AQMM18D0137_1900"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 15685441.4,
+        "recipient": "MADISON HOSPITALITY SERVICES, LLC",
+        "start": "2021-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM22F2678_1900_19AQMM18D0137_1900"
+      }
+    ],
+    "first": "2007-09-14",
+    "has_contracts": true,
+    "raw_hits": 122
+  },
   "marotta control": {
     "d": "2026-10-10",
     "examples": [
@@ -2184,6 +2394,35 @@
       }
     ],
     "first": "2009-02-12",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "mathematica": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 105609322.0,
+        "recipient": "MATHEMATICA INC.",
+        "start": "2022-12-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC23F0001_7530_75FCMC19D0091_7530"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 98894731.0,
+        "recipient": "MATHEMATICA INC.",
+        "start": "2016-09-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSM500T0010_7530_HHSM500201400034I_7530"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 76413680.0,
+        "recipient": "MATHEMATICA INC.",
+        "start": "2021-02-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC21F0001_7530_75FCMC19D0091_7530"
+      }
+    ],
+    "first": "2002-09-30",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -2810,6 +3049,35 @@
     "has_contracts": true,
     "raw_hits": 43
   },
+  "procentrix": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Securities and Exchange Commission",
+        "amount": 101216413.25,
+        "recipient": "PROCENTRIX, LLC",
+        "start": "2020-08-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_50310220F0160_5000_50310219D0011_5000"
+      },
+      {
+        "agency": "Department of Energy",
+        "amount": 66432067.82,
+        "recipient": "PROCENTRIX, LLC",
+        "start": "2021-08-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_89603021F0044_8960_89603021A0003_8960"
+      },
+      {
+        "agency": "Department of the Treasury",
+        "amount": 58448958.13,
+        "recipient": "PROCENTRIX, LLC",
+        "start": "2019-12-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_2031JW20F00042_2046_TCC15HQB0020_2046"
+      }
+    ],
+    "first": "2010-09-24",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "qualtric": {
     "d": "2026-10-10",
     "examples": [
@@ -2896,6 +3164,35 @@
     "first": "2000-08-07",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "rbc bearing nhbb": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 2371168.8,
+        "recipient": "RBC BEARINGS INCORPORATED",
+        "start": "2008-07-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_W58RGZ08D0166_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2133796.36,
+        "recipient": "RBC BEARINGS INCORPORATED",
+        "start": "2025-01-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A625PA279_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1744400.0,
+        "recipient": "RBC BEARINGS INCORPORATED",
+        "start": "2013-05-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A613C0141_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-07-10",
+    "has_contracts": true,
+    "raw_hits": 51
   },
   "rbex": {
     "d": "2026-10-15",
@@ -3401,6 +3698,35 @@
       }
     ],
     "first": "2006-05-10",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "thundercat technologie": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 359034041.28,
+        "recipient": "THUNDERCAT TECHNOLOGY, LLC",
+        "start": "2025-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B26F0287_3600_NNG15SD26B_8000"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 139202660.21,
+        "recipient": "THUNDERCAT TECHNOLOGY, LLC",
+        "start": "2022-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC102822F0970_9700_NNG15SC92B_8000"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 71630057.81,
+        "recipient": "THUNDERCAT TECHNOLOGY, LLC",
+        "start": "2022-04-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15F06722F0000665_1549_NNG15SD26B_8000"
+      }
+    ],
+    "first": "2011-03-15",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -4955,6 +5281,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "university of california san francisco": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 378278130.27,
+        "recipient": "UNIVERSITY OF CALIFORNIA, SAN",
+        "start": "2001-09-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_00266200109D266015416_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 307577559.26,
+        "recipient": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+        "start": "2003-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_ARC00200309DNAS203144_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 51029037.57,
+        "recipient": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+        "start": "2010-07-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0018910CZ058_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1999-01-15",
+    "has_contracts": true,
+    "raw_hits": 150
+  },
   "university of miami": {
     "d": "2026-10-10",
     "examples": [
@@ -4983,6 +5338,13 @@
     "first": "1998-09-30",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "university of michigan": {
+    "d": "2026-10-16",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 100
   },
   "vacco industrie": {
     "d": "2026-10-16",
@@ -5193,6 +5555,35 @@
     "first": "2014-07-25",
     "has_contracts": true,
     "raw_hits": 20
+  },
+  "wilcox logging": {
+    "d": "2026-10-16",
+    "examples": [
+      {
+        "agency": "Department of the Interior",
+        "amount": 82227.93,
+        "recipient": "WILCOX LOGGING, INC.",
+        "start": "2008-01-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_INLDLP080019_1422_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of the Interior",
+        "amount": 63952.2,
+        "recipient": "WILCOX LOGGING, INC.",
+        "start": "2018-09-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_140L2618P0024_1422_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of the Interior",
+        "amount": 60336.0,
+        "recipient": "WILCOX LOGGING, INC.",
+        "start": "2022-09-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_140L2622P0093_1422_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-01-23",
+    "has_contracts": true,
+    "raw_hits": 9
   },
   "wisconsin oven": {
     "d": "2026-10-14",
