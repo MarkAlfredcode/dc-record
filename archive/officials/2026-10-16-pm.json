@@ -1,0 +1,697 @@
+{
+ "date": "Friday, October 16, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Rep. Michael T. McCaul filed his 2025 annual disclosure 62 days past his final extension",
+  "dek": "The House Clerk record shows a second McCaul filing, a periodic transaction report, posted the same day.",
+  "paragraphs": [
+   "Deadline Watch flags <strong>Rep. Michael T. McCaul</strong> (R-TX-10) for filing his calendar-year 2025 annual financial disclosure on October 14, 2026, which is 62 days after his final extension date. That is a late disclosure.",
+   "The same day, a periodic transaction report under McCaul's name was posted. The text could not be parsed into trade lines because it is a scanned image or unusual layout, so nothing is reported here about its contents.",
+   "The rest of the window was quiet. There were no new Office of Government Ethics filings and no new FARA filings, and no new presidential or vice-presidential 278-Ts. Three lobbying reports name the President or Vice President as an entity lobbied (see the first section)."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Contacts With the President, VP & Cabinet",
+   "headline": "No FARA contacts to report; three lobbying reports name the President or Vice President",
+   "paragraphs": [
+    "The FARA scan found no new filings naming the President, Vice President or a cabinet member. Three Lobbying Disclosure Act third-quarter reports list the White House as an entity lobbied. None of them describes a specific meeting, call or text."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Anchor &amp; Arrow LLC</strong> for client <strong>American Phalanx</strong>: lists the Office of the Vice President among the entities lobbied. Issues: defense acquisition policy reform, defense innovation, American technology leadership initiatives and maritime domain awareness. <a href=\"https://lda.gov/filings/public/filing/5f375dc1-2ab0-4350-9665-616014ebb495/print/\">Filing</a>.",
+      "<strong>Catholic Health Association of the United States</strong> (self-filed): lists the President among the entities lobbied. Issues include H.R. 1144, the Frederick Douglass Trafficking Victims Prevention Protection and Reauthorization Act of 2025, and H.R. 529, the Protecting Sensitive Locations Act. <a href=\"https://lda.gov/filings/public/filing/286c55a8-eace-4517-b7e0-23773ae23f2b/print/\">Filing</a>.",
+      "<strong>Shield AI</strong> (self-filed): lists the Vice President among the entities lobbied. Issues: the National Defense Authorization Act, defense appropriations, autonomy and artificial intelligence, FAA regulations and foreign military sales. <a href=\"https://lda.gov/filings/public/filing/1b0ebdda-4670-42b9-9b83-eaa009f4dd7b/print/\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new OGE ethics filings this window",
+   "paragraphs": [
+    "The Office of Government Ethics filing system had no new divestitures, ethics agreements, or other flagged filings in the period of October 13\u201317."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Personal Financial Disclosures & Stock Trades",
+   "headline": "Five House filings, including two periodic transaction reports with parsed trades",
+   "paragraphs": [
+    "Five House filings and no Senate filings came in over the window. Two periodic transaction reports have parsed trades: one from <strong>Rep. Scott H. Peters</strong> (bond-heavy) and one from <strong>Rep. David J. Taylor</strong> (small stock trades). Neither carries a late flag. <strong>Rep. Michael T. McCaul</strong> filed a periodic transaction report with no parsed trades."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Scott H. Peters</strong> (CA50), periodic transaction report filed October 15: four spouse-owned transactions, three purchases and one sale, all government-securities or bond assets. They are two California state general obligation bond purchases on September 3 ($250,001-$500,000 and $100,001-$250,000), a Charlotte-Mecklenburg hospital bond purchase on September 25 ($250,001-$500,000) and a U.S. Treasury bill sale on September 24 ($250,001-$500,000). None is marked late. <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035637.pdf\">Filing</a>.",
+      "<strong>Rep. David J. Taylor</strong> (OH02), periodic transaction report filed October 15: four stock trades, all $1,001-$15,000. He bought <strong>AT&amp;T Inc.</strong>, <strong>Fifth Third Bancorp</strong> and <strong>RPM International Inc.</strong> on October 9, and sold <strong>Procter &amp; Gamble Company</strong> on October 12. None is marked late. <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf\">Filing</a>.",
+      "<strong>Rep. Michael T. McCaul</strong> (TX10), periodic transaction report filed October 14: a scanned or unreadable filing with no trade lines parsed. <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116378.pdf\">Filing</a>.",
+      "<strong>Adam Bauman</strong> (TX16), candidate report filed October 15. <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083087.pdf\">Filing</a>.",
+      "<strong>Robert Tyler Macallister</strong> (MA09), amendment filed October 16. <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083042.pdf\">Filing</a>."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Hon. David J. Taylor (OH02) \u2014 trades (filed 2026-10-15)"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Ticker",
+      "Company",
+      "Type",
+      "Date",
+      "Amount",
+      "Late?"
+     ],
+     "rows": [
+      [
+       "T",
+       "AT&amp;T Inc.",
+       "Purchase",
+       "2026-10-09",
+       "$1,001 - $15,000",
+       ""
+      ],
+      [
+       "FITB",
+       "Fifth Third Bancorp",
+       "Purchase",
+       "2026-10-09",
+       "$1,001 - $15,000",
+       ""
+      ],
+      [
+       "PG",
+       "Procter &amp; Gamble Company",
+       "Sale",
+       "2026-10-12",
+       "$1,001 - $15,000",
+       ""
+      ],
+      [
+       "RPM",
+       "RPM International Inc.",
+       "Purchase",
+       "2026-10-09",
+       "$1,001 - $15,000",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "<a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf\">Read the filing</a>."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "25 new registrations and a heavy third-quarter reporting wave, led by defense, energy and former-staff lobbyists",
+   "paragraphs": [
+    "The listing covers 750 filings posted since October 15; the fetch stopped after 30 pages, so more exist. By type: 579 third-quarter reports, 78 third-quarter no-activity reports, 25 registrations, 21 no-activity terminations, 20 third-quarter terminations, 13 first-quarter amendments, 7 third-quarter amendments, and a handful of second-quarter and other filings.",
+    "Skyline Capitol LLC, whose lobbyists include former Rep. Chris Stewart (2013-2023), ended or reported on a long list of clients. The table covers every new registration and every termination that reported activity. Roughly 20 no-activity terminations are left out as routine. Of the 681 activity reports, the table carries only a few of the 330 flagged as having a signal; the rest are counted, not described."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "What's Being Lobbied"
+     ],
+     "rows": [
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/dec1634e-c674-4617-8d8a-cad8379e466a/print/\">Alpha Strategies, LLC</a> (registration)",
+       "Exowatt, Inc.",
+       "Budget/Appropriations, Computer Industry, Defense, Energy/Nuclear",
+       "Energy, data centers and AI policy"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/ec417b76-97e2-42ce-9067-04235a8a58e7/print/\">DLA Piper LLP (US)</a> (registration)",
+       "St. Joseph's/Candler Health System, Inc.",
+       "Medicare/Medicaid, Taxation",
+       "Tax policy, Medicare wage index rates, rural health incentives. Covered position: Melissa Gierach, former senior policy advisor to three House members."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/90bee762-e8e0-47c7-bfd4-353f901a14ef/print/\">Merchant McIntyre &amp; Associates, LLC</a> (registration)",
+       "City of Northfield, MN",
+       "Budget/Appropriations",
+       "FY28 appropriations. Covered position: Tristan Southard, former deputy chief of staff to Rep. John Katko."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/85fe190b-8b99-4fb9-9398-14f464bd17ca/print/\">Merchant McIntyre &amp; Associates, LLC</a> (registration)",
+       "Christian School Association of Greater Harrisburg",
+       "Budget/Appropriations",
+       "FY28 appropriations"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/85dc15a5-c9d5-4a04-bd3c-6789f2d3bfa1/print/\">Forbes-Tate</a> (registration)",
+       "Pano AI",
+       "Agriculture, Budget/Appropriations, Disaster Planning, Environment, Natural Resources, Science/Technology",
+       "Wildfire-related appropriations. Three covered positions: former chief of staff to Rep. Ron Kind, former legislative directors for Reps. Susan Brooks and David Valadao, and a former legislative director for Sen. Richard Shelby."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/de396387-2cdf-4212-8b72-b428a63d9d73/print/\">The McKeon Group, Inc.</a> (registration)",
+       "U.S. Armenia Action Fund",
+       "Budget/Appropriations, Defense, Energy/Nuclear, Foreign Relations, Trade",
+       "U.S.-Armenia economic trade, defense and energy relationships"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/797ceda3-a3d7-43b0-89ca-cf4f612847f8/print/\">The McKeon Group, Inc.</a> (registration)",
+       "SOS International, LLC",
+       "Budget/Appropriations, Defense, Foreign Relations, Homeland Security, Trade",
+       "NDAA FY 2026"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/e1ceee74-6c7c-4dd6-ad32-8742ac9d03ce/print/\">JK Strategies, Public Affairs, LLC</a> (registration)",
+       "Emalex",
+       "Health Issues",
+       "Awareness of Tourette Syndrome and new therapies"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/cee94b13-33b0-4313-a53e-c8c2728cbc2c/print/\">Bracewell LLP</a> (registration)",
+       "Vertex Energy, Inc.",
+       "Environment/Superfund",
+       "Environmental and regulatory issues. Covered positions: John Edwards (former EPA senior advisor for Senate affairs) and Joseph Brazauskas (former House committee counsel)."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/aad46006-146e-452e-83d9-586cefd6ce6f/print/\">Strategy Inc</a> (registration)",
+       "Strategy Inc (bitcoin treasury company)",
+       "Banking, Financial Institutions, Taxation",
+       "Digital-asset legislation and regulation, including corporate tax, securities and bank regulatory treatment"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/d4575874-6ffe-42dd-aabd-cf685d0f5812/print/\">The McKeon Group, Inc.</a> (registration)",
+       "Kyocera SLD",
+       "Budget/Appropriations, Defense, Homeland Security",
+       "Gallium nitride laser solutions for defense, aerospace and industrial use"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/a593a797-214f-4c46-8946-f5d0d9633cb1/print/\">Ballard Partners</a> (registration)",
+       "J.B. Hunt Transport Services, Inc.",
+       "Consumer Issues, Transportation",
+       "Intermodal transportation and consumer prices. Covered positions include Micah Ketchel, a 2025 State Department senior advisor and White House special assistant."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/3f94f6d6-7bd9-45da-bfb9-abd18e152f0a/print/\">Ballard Partners</a> (registration)",
+       "Servicios Petroleros del Sur C.A.",
+       "Energy/Nuclear, Fuel/Gas/Oil",
+       "Oil, gas and energy matters in Venezuela and the U.S. Foreign entities listed: Andres Palladino and Enrique Borges Gerstel."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/cbf227a3-142c-433f-b78b-efe448e7cd7f/print/\">Mehlman Consulting, Inc.</a> (registration)",
+       "Hyperion Technologies LLC (dba FedTech)",
+       "Budget/Appropriations, Defense, Government Issues",
+       "Commercialization. Six covered positions, including former Assistant Secretary of Commerce Bruce Mehlman and former staff for House Republican leaders."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/40e02b03-37f0-447f-b906-c94fa95ec460/print/\">Republic Services</a> (registration)",
+       "Republic Services (self-filed)",
+       "Taxation, Trade, Transportation, Waste",
+       "CERCLA liability, recycling and waste management"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/841de4f9-9b7d-44a3-bbb7-d078deb65765/print/\">Cavarocchi Ruscio Dennis Associates, L.L.C.</a> (registration)",
+       "The Myositis Association",
+       "Defense, Medical Research, Veterans",
+       "Myositis research funding at the National Institutes of Health and Department of Defense; presumptive-condition status at the Department of Veterans Affairs"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/35b3d1ab-bac4-4e6f-ae6e-735cd9801078/print/\">Capitol Venture LLC</a> (registration)",
+       "Serval, Inc.",
+       "Government Issues, Science/Technology",
+       "Artificial intelligence platforms. Covered positions: Jeremy Deutsch (former chief of staff to Rep. Cathy McMorris Rodgers) and Mark Gruman (former chief of staff to Sen. Kevin Cramer)."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/cfe36c06-0f26-42ef-bf2e-662a195d23c0/print/\">Anchor &amp; Arrow LLC</a> (registration)",
+       "Hestia Energy Co.",
+       "Energy/Nuclear",
+       "Nuclear energy policy and appropriations. Covered position: John Noonan, former House Armed Services Committee staff and national security advisor to Sen. Tom Cotton."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/133e2cbd-9ed8-49eb-9a3a-9967b2a736ea/print/\">Anchor &amp; Arrow LLC</a> (registration)",
+       "Subatomic Industries Corp.",
+       "Energy/Nuclear",
+       "Domestic uranium development. Covered positions: John Noonan and Tyler Jensen."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/a61e7367-92a7-4cac-aa22-5a88d4eee774/print/\">Republic Strategy Group LLC</a> (registration)",
+       "Loafer Creek LLC",
+       "Taxation",
+       "Opportunity Zone 2.0"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/d8fa450d-2119-4837-9280-5238cc4886c4/print/\">Lot Sixteen LLC</a> (registration)",
+       "Bentley Systems, Incorporated",
+       "Energy/Nuclear, Waste",
+       "Nuclear Lifecycle Innovation Campuses and nuclear waste storage. Covered positions: Ashley Nichols (McManus) and Laura Chambers."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/bf99083c-9c56-4031-b93f-cf04cae7d516/print/\">Telegraph Avenue Advisors</a> (registration)",
+       "Seaquest USA",
+       "Foreign Relations, Natural Resources",
+       "Permissions to explore shipwrecks in U.S. territorial areas. Covered position: John Sobel, former chief of staff to Rep. Paul Cook."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/072a99bb-dbbc-4601-9040-928302336258/print/\">Bracewell LLP</a> (registration)",
+       "Third Coast Super Holdings, LLC",
+       "Energy/Nuclear",
+       "Pipeline, policy and energy matters. Covered positions: John Edwards and Joseph Brazauskas."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/81768cd9-55a2-402f-a8e0-6dbe2593c750/print/\">Cassidy &amp; Associates, Inc.</a> (registration)",
+       "EDF Power Solutions Development, Inc.",
+       "Energy/Nuclear",
+       "Energy project permitting. Covered positions: John Dearborn and Peter Stahley, both former Senate Energy and Natural Resources Committee staff."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/b7880e92-8b03-4c01-bdc4-a473dc74a775/print/\">Barnes &amp; Thornburg, LLP</a> (registration)",
+       "Energy Transition Capital Management LLC",
+       "Energy/Nuclear",
+       "International energy financing, appropriations and clean energy infrastructure. Covered positions: Brandt Hershman and Charles Hinson."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/0bebfa52-bc9b-45d8-a586-7424e7e141fa/print/\">Arrow Group Consulting, LLC</a> (termination, 2026-09-30)",
+       "Roybal-Mack &amp; Cordova PC",
+       "Disaster Planning/Emergencies",
+       "Working with FEMA on Hermit's Peak/Calf Canyon claims"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/1384c4b7-c950-4992-963a-fa5a8cf0055d/print/\">Skyline Capitol LLC</a> (termination, 2026-09-30)",
+       "Bridge Consulting, PBC",
+       "Budget/Appropriations, Defense",
+       "NDAA, appropriations and national security legislation. Covered positions: former Rep. Chris Stewart, Clay White, Liam Anderson."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/707bf764-ddee-4e5c-b8a2-a6df5fa1d6bb/print/\">Skyline Capitol LLC</a> (termination, 2026-07-17)",
+       "Next Global Capital, Inc. obo Whitefox Defense Technologies, Inc.",
+       "Defense",
+       "Drone airspace security. Covered positions: Stewart, White, Anderson."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/9e454a0d-bef7-4945-b3d4-6288bb780f99/print/\">Skyline Capitol LLC</a> (termination, 2026-07-17)",
+       "Moran Global Strategies, Inc. obo Prieto Battery, Inc. ($30,000 income)",
+       "Energy/Nuclear",
+       "High-energy-density 3D batteries. Covered positions: Stewart, White, Anderson."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/9b15d16f-ede2-4b89-b7e2-61bd5ccaf8e6/print/\">Skyline Capitol LLC</a> (termination, 2026-09-30)",
+       "The Alliance for Secure AI Action ($30,000 income)",
+       "Science/Technology",
+       "AI regulatory policy, including the NDAA, the GUARD Act and the GAIN AI Act. Covered positions: Stewart, White, Anderson."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/a95ff031-e593-42fd-836c-a5567de5d890/print/\">Eagle Point Strategies LLC</a> (termination, 2026-09-30)",
+       "Object Pharma ($10,000 income)",
+       "Health Issues, Veterans",
+       "Neurotoxin treatment for PTSD and other veterans' mental health disorders. Covered position: Clay White."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/d61c281c-946f-49c9-b59f-51f0c71219cc/print/\">Tom Albert Consulting, LLC</a> (termination, 2026-07-31)",
+       "Zoological Association of America",
+       "Agriculture, Animals, Budget/Appropriations, Natural Resources",
+       "FY26 USDA and Interior appropriations, farm bill, Animal Welfare Act (H.R. 349)"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/f0aac9a3-17c0-48c4-9954-edbaa4534307/print/\">McCarthy Strategic Solutions</a> (report and termination, 2026-09-30; <a href=\"https://lda.gov/filings/public/filing/eb154c07-b09e-4f7d-b4e4-42faffcb3343/print/\">second filing</a>)",
+       "Marian Group",
+       "Medicare/Medicaid",
+       "H.R. 8662, Medicaid and assisted living. Covered position: Addison White, former staff to Rep. James Comer and Sen. Ted Cruz."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/031a0264-43ba-4fec-90a4-e800dd488b6e/print/\">Hogan Lovells US LLP</a> (termination, 2026-08-01)",
+       "Nozan Jaafar Mustafa and Sheikh Jaafar Mustafa (Kurdish citizens; $140,000 income)",
+       "Foreign Relations",
+       "Regional geopolitics. Four covered positions, including a former House Intelligence Committee staff director and a former chief of staff to Sen. Robert Menendez."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/db3b1050-9e91-424a-97a4-b55e1d44c9d3/print/\">Mehlman Consulting, Inc.</a> (termination, 2026-09-15)",
+       "Red Mountain Land Preservers ($30,000 income)",
+       "Indian/Native American Affairs",
+       "S. 1508, Shivwits Band of Paiutes Jurisdictional Clarity Act"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/97986a7e-d485-42a2-aafa-94298c88ea46/print/\">Mehlman Consulting, Inc.</a> (termination, 2026-09-30)",
+       "PurFoods, LLC ($30,000 income)",
+       "Health Issues, Medicare/Medicaid",
+       "Federal nutrition programs; Medicare coverage of home-delivered meals"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/d59a6743-4352-4276-89f7-e8416d5fbb80/print/\">Mehlman Consulting, Inc.</a> (termination, 2026-08-31)",
+       "Knox Systems, Inc. ($50,000 income)",
+       "Government Issues",
+       "FedRAMP modernization, government procurement and cybersecurity"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/0ed55ee2-2447-4089-9fb3-c168f1e38751/print/\">Cornerstone Government Affairs, Inc.</a> (termination, 2026-08-17)",
+       "NervGen Pharma Corp. ($20,000 income)",
+       "Defense, Health Issues, Veterans",
+       "Central nervous system and spinal cord injury research. Covered position: Susan Sweat."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/35d297f4-5322-43e8-8760-361cac3fea05/print/\">Neale Creek, LLC</a> (termination, 2026-09-08)",
+       "Coretsu Inc. ($100,000 income)",
+       "Government Issues",
+       "AI issues. Covered position: Andrew King, former staff to Sen. Lindsey Graham."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/d69b4211-7f05-4e19-ab05-f8a1f37111e9/print/\">Cassidy &amp; Associates, Inc.</a> (termination, 2026-08-31)",
+       "Hims &amp; Hers Health, Inc. ($40,000 income)",
+       "Health Issues",
+       "Compounding, telehealth and healthcare"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/b7171d0c-172a-4244-b1b6-61435a960363/print/\">Lot Sixteen LLC</a> (termination, 2026-05-22)",
+       "Balanced Rock Power, LLC ($50,000 income)",
+       "Energy/Nuclear",
+       "Energy project permitting. Covered position: Colin Hayes."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/e2ddeef5-f2dc-4212-a7ea-54116e1f2aa3/print/\">Lot Sixteen LLC</a> (termination, 2026-09-17)",
+       "Candela Renewables, LLC ($50,000 income)",
+       "Energy/Nuclear",
+       "Energy project permitting. Covered position: Colin Hayes."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/387d7523-6131-43d8-925e-d569618daae4/print/\">Robertson, Monagle &amp; Eastaugh LLC</a> (termination, 2026-09-30)",
+       "Southeastern Fisheries Association, Inc.",
+       "Marine/Fisheries, Trade",
+       "U.S.-Canada and U.S.-China seafood trade; opposition to S. 4938"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/93355d15-23ac-41b5-ae51-97a4bf0a15d9/print/\">Atropos Group, Inc.</a> (termination, 2026-09-30)",
+       "Atropos Group, Inc. (self-filed)",
+       "Aerospace, Defense",
+       "Autonomy for defense and commercial sectors. Covered position: Colin Carroll, former chief of staff to Deputy Defense Secretary Stephen Feinberg (January-April 2025)."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/a057c7e2-4aeb-40aa-a7dd-df9b4ed00128/print/\">Ropes &amp; Gray, LLP</a> (termination, 2026-09-25)",
+       "FEMG Holdings, LLC ($20,000 income)",
+       "Medicare/Medicaid",
+       "CMS Medicaid and Medicare payment policy"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/75e1769e-d9a1-4ac9-bb92-91d7e1c6b3ee/print/\">TSG Advocates DC, LLC</a> (termination, 2026-09-30)",
+       "Pacaso, Inc. ($60,000 income)",
+       "Government Issues, Housing",
+       "Legislation language and relationship assistance. Covered positions include Kaitlyn Roberts, former Executive Clerks Office, White House (2019-2023)."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/35b05a2e-b541-45ab-8e39-1ea8ad67df37/print/\">The Business Roundtable, Inc.</a> (1st Quarter amendment; $7,590,000 expenses)",
+       "Business Roundtable Inc (self-filed)",
+       "Budget, Energy, Trade, Taxation, Immigration and others",
+       "FY 2026 funding, OECD Pillar One and Two tax rules, antitrust and merger review"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/4dfeef49-791f-42e1-95e7-89b579af9f20/print/\">General Atomics</a> ($2,160,000 expenses)",
+       "General Atomics (self-filed)",
+       "Aerospace, Defense, Energy/Nuclear, Foreign Relations, Homeland Security",
+       "Homeland Security authorization (UAS), national security appropriations (H.R. 8595); six covered positions"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/54b20269-2926-4f4d-bf39-78464b63ee24/print/\">Palantir Technologies, Inc.</a> ($2,110,000 expenses)",
+       "Palantir Technologies Inc. (self-filed)",
+       "Defense, Government Issues",
+       "Defense appropriations, Army intelligence programs, battlefield domain awareness"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/dc649a37-b25b-4d27-8af2-f0de80b2094e/print/\">Air Transport Association of America, Inc. (Airlines for America)</a> ($1,100,700 expenses)",
+       "Self-filed",
+       "Aviation/Airlines/Airports",
+       "Appropriations, Farm to Fly Act, air traffic control training"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/42df75b4-7ba0-43d5-a34f-ebdcb88303cb/print/\">Healthsperien</a> ($90,000 income)",
+       "Connections Health Solutions",
+       "Health Issues, Medicare/Medicaid",
+       "Medicare reimbursement for facility-based crisis care (S. 1902). Covered position: Patrick Kennedy, Member of Congress 1995-2011."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/beb4936e-503d-46b0-a74e-234adcd6b0fc/print/\">The McKeon Group, Inc.</a> ($130,000 income)",
+       "UMO and National Association of Ukrainian Defense Industries",
+       "Defense, Firearms, Foreign Relations",
+       "A foreign military sale; support for Ukraine's private defense sector"
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/d8520ce9-524d-45b4-acf7-6b5fc751dbd8/print/\">Helena Agri-Enterprises, LLC</a> ($80,000 expenses)",
+       "Helena Agri-Enterprises LLC (self-filed)",
+       "Agriculture",
+       "Farm bill. Foreign entity listed: Marubeni Corporation."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/f901d7d7-e25f-4bcd-af29-ca62b93e4f7e/print/\">Putala Strategies</a> ($60,000 income)",
+       "T-Mobile US, Inc.",
+       "Telecommunications",
+       "Broadband practices, wireless services, spectrum. Foreign entity listed: Deutsche Telekom."
+      ]
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Missing, late and delayed financial disclosures",
+   "paragraphs": [
+    "1 member filed a CY2025 annual disclosure late in this window."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Late disclosures: CY2025 annual reports filed after the deadline"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Michael T. McCaul (R-TX-10)</strong> filed <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116377.pdf\">the report</a> on 10/14/2026, 62 days after the final extension date."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Industries to Watch",
+   "headline": "Lobbying in prediction markets, crypto, AI and defense tech",
+   "paragraphs": [
+    "1 new lobbying registration in watched industries.",
+    "1 client in watched industries sharply increased lobbying spending."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "New registrations"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>ROWND, INC.</strong> hired LOCKE (Defense tech). <a href=\"https://lda.gov/filings/public/filing/159786a9-a547-42f8-87d7-9f07c33ef007/print/\">Filing</a>"
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Spending jumps"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>CHAOS INDUSTRIES</strong> via BROWNSTEIN HYATT FARBER SCHRECK, LLP (Defense tech): $180,000 this quarter, up from $70,000. <a href=\"https://lda.gov/filings/public/filing/e8b00699-d63e-447d-8a01-3e327602ee8b/print/\">Filing</a>"
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other new filings in watched industries"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Client",
+      "Firm",
+      "Industry",
+      "Reported",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "SOFI TECHNOLOGIES, INC.",
+       "SOFI TECHNOLOGIES, INC.",
+       "Crypto &amp; digital assets",
+       "$340,000",
+       "<a href=\"https://lda.gov/filings/public/filing/ff3dcaae-08e9-4112-b9c6-c5da19fccd82/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "INTERSTATE NATURAL GAS ASSOCIATION OF AMERICA",
+       "INTERSTATE NATURAL GAS ASSOCIATION OF AMERICA",
+       "Defense tech",
+       "$267,000",
+       "<a href=\"https://lda.gov/filings/public/filing/3c8c5539-5ab2-427c-b426-00a05bdcb257/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "DB USA CORPORATION",
+       "DB USA CORPORATION",
+       "Crypto &amp; digital assets",
+       "$175,276",
+       "<a href=\"https://lda.gov/filings/public/filing/8db4665c-2eac-4a88-82fc-2eb69eab551e/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "CMS ENERGY CORP",
+       "CMS ENERGY CORP",
+       "Defense tech",
+       "$150,000",
+       "<a href=\"https://lda.gov/filings/public/filing/047be80f-1517-40aa-9628-b88f449efee0/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "J STREET",
+       "J STREET",
+       "Defense tech",
+       "$120,000",
+       "<a href=\"https://lda.gov/filings/public/filing/5f4a0e55-ad2b-469e-ad7d-0a5a8adafaad/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "CROWE ADVISORY LLC",
+       "CROWE ADVISORY LLC",
+       "Crypto &amp; digital assets",
+       "$60,000",
+       "<a href=\"https://lda.gov/filings/public/filing/0cd9c2c0-9885-44ce-a9d5-7a4a72a94eb5/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "MGM RESORTS",
+       "CASSIDY &amp; ASSOCIATES, INC.",
+       "Crypto &amp; digital assets",
+       "$60,000",
+       "<a href=\"https://lda.gov/filings/public/filing/afb4d911-3ff6-47a9-901d-d9cb8c5c6b21/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "ANDURIL INDUSTRIES, INC.",
+       "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+       "Defense tech",
+       "$60,000",
+       "<a href=\"https://lda.gov/filings/public/filing/ec895573-b9c8-4350-99e2-7345efa01f26/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "D-FEND SOLUTIONS, INC.",
+       "D-FEND SOLUTIONS, INC.",
+       "Defense tech",
+       "$60,000",
+       "<a href=\"https://lda.gov/filings/public/filing/4c453c5f-fac5-446d-b0df-2024e7569f06/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "KALSHI",
+       "INTERSECTION",
+       "Prediction markets",
+       "$45,000",
+       "<a href=\"https://lda.gov/filings/public/filing/91a4168c-8c24-4819-b046-714683e85bae/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "KALSHI, INC.",
+       "DOW SOLUTIONS INC.",
+       "Prediction markets",
+       "$20,000",
+       "<a href=\"https://lda.gov/filings/public/filing/af4a2535-143b-4a81-b02f-c638c28dabd4/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "SIERRA NEVADA COMPANY",
+       "THE DIONNE COMPANY",
+       "Defense tech",
+       "$10,000",
+       "<a href=\"https://lda.gov/filings/public/filing/5e1aed81-e1f6-494f-a216-5a94d880e77b/print/\">3rd Quarter - Report</a>"
+      ],
+      [
+       "BROWNSTEIN HYATT FARBER SCHRECK LLP OBO PALANTIR TECHNOLOGIES INC.",
+       "NORTHERN COMPASS GROUP LLC",
+       "Defense tech",
+       "\u2014",
+       "<a href=\"https://lda.gov/filings/public/filing/9c09472c-7b37-436e-9821-95c312a0307b/print/\">3rd Quarter - Report (No Activity)</a>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Partial run: Artificial intelligence 'Anthropic': lda.gov HTTP 503 | prior quarter 'INTERSTATE NATURAL GAS ASSOCIATION OF AMERICA': lda.gov HTTP 503 | prior quarter 'DB USA CORPORATION': lda.gov HTTP 503 | prior quarter 'CMS ENERGY CORP': lda.gov HTTP 503"
+    },
+    {
+     "type": "note",
+     "text": "Industries and keywords are set in data/lda_industries.json. Amounts are the income (firm) or expenses (in-house) line on the filing."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Pardon Lobbying",
+   "headline": "Lobbyists hired to win pardons and clemency",
+   "paragraphs": [
+    "1 new LDA filing mention pardons or clemency."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>THE RAINEY CENTER FREEDOM PROJECT</strong> via BROWNSTEIN HYATT FARBER SCHRECK, LLP (3rd Quarter - Report), $90,000 reported. Issue as filed: \u201cCongressional advocacy related to the Presidential Pardon Power and the Lobbying Disclosure Act of 1995\u201d. Lobbyists: Brian Mcguire; William Moschella; Elizabeth Maier (prior role: Leg Dir Sen Jon Kyl; Sen Policy Advisor Sen Jon Kyl; Leg Asst Sen Jon Kyl; Leg Asst Rep Jon Kyl; Prof Staff House Sel Comm on Children Youth &amp; Families); Zachary Pfister (prior role: Leg Dir Rep Larry Kissell\u037e Sen Leg Asst Rep Larry Kissell\u037e Leg Asst Rep Larry Kissell\u037e Leg Correspondent Rep Larry Kissell\u037e Leg Correspondent Rep Brad Ellsworth\u037e Staff Asst Rep Brad Ellsworth\u037e Leg Intern Sen Evan Bayh); Scott Douglas. <a href=\"https://lda.gov/filings/public/filing/9635853b-e46b-4f22-8338-0c7982f1d39d/print/\">Filing</a>"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Found by searching new Lobbying Disclosure Act filings for pardon/clemency/commutation in the specific-issue text; only short activity descriptions count (long bill summaries are ignored)."
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA and LDA filings posted October 15, 2026 onward; House and Senate financial disclosures filed October 13, 2026 onward that no earlier edition reported; OGE filings for October 13-17, 2026.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "FARA top-official scan: 6 recent filings were not read yet (time budget); the next run reads them. LDA: the fetch stopped after 30 pages (750 filings), so the rest are not listed. Industries to Watch had a partial run (lda.gov HTTP 503 on several lookups). The OGE search returned no new ethics filings for October 13-17."
+ },
+ "beat": [
+  {
+   "name": "Rep. Michael McCaul",
+   "why": "Missing annual disclosure",
+   "mentions": [
+    {
+     "section": "Personal Financial Disclosures & Stock Trades",
+     "html": "Michael T. McCaul filed a periodic transaction report with no parsed trades."
+    },
+    {
+     "section": "Personal Financial Disclosures & Stock Trades",
+     "html": "<strong>Rep. Michael T. McCaul</strong> (TX10), periodic transaction report filed October 14: a scanned or unreadable filing with no trade lines parsed. <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116378.pdf\">Filing</a>."
+    },
+    {
+     "section": "Deadline Watch",
+     "html": "<strong>Rep. Michael T. McCaul (R-TX-10)</strong> filed <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116377.pdf\">the report</a> on 10/14/2026, 62 days after the final extension date."
+    }
+   ]
+  },
+  {
+   "name": "Kalshi",
+   "why": "Prediction-market lobbying",
+   "mentions": [
+    {
+     "section": "Industries to Watch",
+     "html": "Client: KALSHI \u00b7 Firm: INTERSECTION \u00b7 Industry: Prediction markets \u00b7 Reported: $45,000 \u00b7 Filing: <a href=\"https://lda.gov/filings/public/filing/91a4168c-8c24-4819-b046-714683e85bae/print/\">3rd Quarter - Report</a>"
+    },
+    {
+     "section": "Industries to Watch",
+     "html": "Client: KALSHI, INC. \u00b7 Firm: DOW SOLUTIONS INC. \u00b7 Industry: Prediction markets \u00b7 Reported: $20,000 \u00b7 Filing: <a href=\"https://lda.gov/filings/public/filing/af4a2535-143b-4a81-b02f-c638c28dabd4/print/\">3rd Quarter - Report</a>"
+    }
+   ]
+  },
+  {
+   "name": "Sen. Ted Cruz",
+   "why": "FEC audit findings (2012, loans)",
+   "mentions": [
+    {
+     "section": "LDA Registrations & Activity",
+     "html": "Firm: <a href=\"https://lda.gov/filings/public/filing/f0aac9a3-17c0-48c4-9954-edbaa4534307/print/\">McCarthy Strategic Solutions</a> (report and termination, 2026-09-30; <a href=\"https://lda.gov/filings/public/filing/eb154c07-b09e-4f7d-b4e4-42faffcb3343/print/\">second filing</a>) \u00b7 Client: Marian Group \u00b7 Issue Area(s): Medicare/Medicaid \u00b7 What's Being Lobbied: H.R. 8662, Medicaid and assisted living. Covered position: Addison White, former staff to Rep. James Comer and Sen. Ted Cruz."
+    }
+   ]
+  }
+ ]
+}
