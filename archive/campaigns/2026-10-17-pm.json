@@ -1,0 +1,40 @@
+{
+ "date": "Saturday, October 17, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings surfaced since the last edition",
+  "dek": "All 244 RFAI and Form 99 filings received since October 14 were already reported in earlier editions.",
+  "paragraphs": [
+   "The scripts found no new requests for additional information, no new Form 99 correspondence, no voided or negative transactions of $10,000 or more, and no red-flag keyword hits in this window.",
+   "The only item from the automated extras is in Deadline Watch: the campaign of <strong>Rep. Emanuel Cleaver (D-MO-5)</strong> filed its October Quarterly (Q3) report on 10/16/2026, one day late."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Missing and late FEC reports",
+   "paragraphs": [
+    "1 sitting member' campaigns filed the October Quarterly (Q3) report late."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Filed late: October Quarterly (Q3) reports received after 10/15/2026"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Emanuel Cleaver (D-MO-5)</strong>: <a href=\"https://docquery.fec.gov/pdf/944/202610169916087944/202610169916087944.pdf\">OCTOBER QUARTERLY</a> received 10/16/2026, 1 days late."
+     ]
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "footer": {
+  "coverage_window": "FEC RFAI (FRQ) and Form 99 filings received October 14, 2026 onward, checked on Saturday, October 17, 2026 (PM edition).",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "NASA's Astronomy Picture of the Day returned HTTP 500 and was omitted."
+ },
+ "beat": []
+}
