@@ -191,6 +191,14 @@
       "s": "screened",
       "sol": "36C26126R0055_2"
     },
+    "00c27a2256f54510b295facba7b98332": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "IMG_5688-scaffolding.jpeg",
+      "s": "no_text",
+      "sol": "36C24527Q0025"
+    },
     "00cdd60854824b0496f02614a5c40855": {
       "c": 604,
       "d": "2026-10-14",
@@ -426,6 +434,14 @@
       "s": "screened",
       "sol": "FA240126F0021"
     },
+    "0215b028cc26478fbc6871dd8cf05602": {
+      "c": 596508,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "TE-02 Standard Specification Book Rev 9 June 2025.pdf",
+      "s": "screened",
+      "sol": "W911S6-27-B-A001"
+    },
     "0216cccba65b4c589208158ce1895b61": {
       "c": 37702,
       "d": "2026-10-13",
@@ -611,6 +627,14 @@
       "n": "S02 - Graham_Greenlee_Santa Cruz Wage Determination - 2015-5471.txt",
       "s": "wage_determination",
       "sol": "36C26226Q0384"
+    },
+    "02a6cf21f8cc4294a2d130bb2054e6f7": {
+      "c": 601,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24226R0097_8.docx",
+      "s": "screened",
+      "sol": "36C24226R0097"
     },
     "02a8991b93d84c9797c1cdbbcd2779da": {
       "c": 0,
@@ -1276,6 +1300,14 @@
       "s": "wage_determination",
       "sol": "36C10F25R0024"
     },
+    "0529feb4aef94426b4aed7b33ba6856f": {
+      "c": 506,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "C04e Past Performance Data Sheet 1240LT26Q0179.docx",
+      "s": "screened",
+      "sol": "1240LT26Q0179"
+    },
     "0531b2d92510460cbca43fa209e3bdff": {
       "c": 1769,
       "d": "2026-10-10",
@@ -1299,6 +1331,14 @@
       "n": "B08 Attachment 0002 - Price Matrix - Nonmicronized Pentaerythritol .xlsx",
       "s": "screened",
       "sol": "W519TC27QA010"
+    },
+    "053f34f37d4f4533a5e6ee655baafe6c": {
+      "c": 1451,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "ATTACHMENT B - FACTOR 2 - Key Personnel.docx",
+      "s": "screened",
+      "sol": "36C26127Q0029"
     },
     "054ba637ce134715aebb857479835d6f": {
       "c": 31873,
@@ -1324,6 +1364,14 @@
       "n": "Exhibit J_GSAR Representation 552.270-33 (Nov. 2024).pdf",
       "s": "screened",
       "sol": "4WA0688"
+    },
+    "056a4b41f29b4201a9a5598eebe57b0d": {
+      "c": 339,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment A_RFI_Master List of NSNs.pdf",
+      "s": "screened",
+      "sol": "FA8524-27-D-0602"
     },
     "05759d6e2a974206b46e682dbd6f28d4": {
       "c": 33574,
@@ -1452,6 +1500,14 @@
       "n": "Venom JA_Redacted.pdf",
       "s": "screened",
       "sol": "N00421-26-C-1028"
+    },
+    "05a3e5e0341446209b49da4cc841538a": {
+      "c": 189,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "SOW Att 02c_Controlled Area Training - Certificate.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
     },
     "05b367cf24284773906fc86cb621fbb0": {
       "c": 12104,
@@ -1693,14 +1749,36 @@
       "s": "screened",
       "sol": "REQCIO-26-00-095"
     },
+    "0701430abfde4ffeb35fc15d19ec5b12": {
+      "c": 3985,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Army contracting $34 million to relocate Arlington National Cemetery operations complex including shops, warehouses and office space in three-month window (Feb-Apr 2027).",
+          "news": 4,
+          "quote": "Seamless relocation (disassemble, packing, move, unpacking, reassemble) of industrial/commercial Operations Complex...while the Cemetery remains operational. The physical move is tentative schedule between 01 February 2027- 30 April 2027 for a period of 90 days.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation - W91QV126RA060 FINAL.pdf",
+      "s": "screened",
+      "sol": "W91QV126RA060"
+    },
     "070f627805714d099a7fe82922edf943": {
-      "a": 1,
-      "c": 52163,
+      "c": 48510,
       "d": "2026-10-14",
-      "e": "screening call failed",
+      "f": [
+        {
+          "finding": "Army Corps of Engineers issuing $240 million military construction MATOC set aside for small businesses across five-state region (Kentucky, Ohio, Indiana, Illinois, Michigan).",
+          "news": 4,
+          "quote": "The available capacity for this MATOC is $240,000,000.00...This project is set-aside 100% for Small Business.",
+          "verified": false
+        }
+      ],
       "m": "pdf",
       "n": "W912QR25R0018 SBSA DB 240M - Final.pdf",
-      "s": "retry",
+      "s": "screened",
       "sol": "W912QR25R0018"
     },
     "0710178daa804f8588af5f59e0857d66": {
@@ -1921,6 +1999,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-PARISTXFY27"
     },
+    "07fc676e15e145aba948ad0920b7c290": {
+      "c": 660,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment 2 - Site Visit information.pdf",
+      "s": "screened",
+      "sol": "36C24527Q0025"
+    },
     "07fceb6df64d4e31a776d0e121e881d2": {
       "c": 422,
       "d": "2026-10-13",
@@ -2135,6 +2221,14 @@
       "s": "screened",
       "sol": "140DWF27QL001"
     },
+    "09165e9ae95f46e89e7a3a0636b2f404": {
+      "c": 134,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "05 - COR Appointment Letter.pdf",
+      "s": "screened",
+      "sol": "N0017827R3103"
+    },
     "091f836a75184d8b849da23fd7ce41b4": {
       "c": 321,
       "d": "2026-10-14",
@@ -2206,6 +2300,14 @@
       "n": "Attachment C_127EAX26Q0102 Amendment 001_MapT_09.30.26.pdf",
       "s": "screened",
       "sol": "127EAX26Q0102"
+    },
+    "096a94b991ed4b8c801476c3dd92fd36": {
+      "c": 154,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "2.2.1  Attachment 4 - Question Template - Solicitation.xlsx",
+      "s": "screened",
+      "sol": "FEMA_70FB8026R00000020"
     },
     "096a966133404b93a1df89e544c3b385": {
       "c": 8345,
@@ -2882,6 +2984,14 @@
       "s": "wage_determination",
       "sol": "N4008526B0002"
     },
+    "0bf7914f009c46e29b7fb7f2aa9f7ad5": {
+      "c": 528,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "2_2_1_Attachment_J-2_Solicitiaton_Pricing_Sheet.pdf",
+      "s": "screened",
+      "sol": "9594CS27Q0001"
+    },
     "0bf7eb18f5e34079a1d31a2bceca2a25": {
       "c": 11727,
       "d": "2026-10-13",
@@ -3243,6 +3353,14 @@
       "n": "Relationship to Other NextSTEP-3 Solicitations.pdf",
       "s": "screened",
       "sol": "M2M-MSFC-0001"
+    },
+    "0d2b02a448db40c6be369e474a111d19": {
+      "c": 361,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "635-21-139 2nd Site visit Sign in sheet 08-25-2026.pdf",
+      "s": "screened",
+      "sol": "36C25926R0082_1"
     },
     "0d3c35ded0024252a5398716822b0aa1": {
       "c": 1572,
@@ -4068,6 +4186,14 @@
       "s": "screened",
       "sol": "SPRPA126FY636"
     },
+    "1152e1e376824e9aa6e08a323aacc04d": {
+      "c": 820,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Amend 0003 Attachment B.pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0529"
+    },
     "1153245709fc466f995de21b4e7c23c9": {
       "c": 13065,
       "d": "2026-10-10",
@@ -4192,6 +4318,14 @@
       "s": "screened",
       "sol": "IHS1528550 "
     },
+    "11d769375b8d469abe1a6bc23b04ad22": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "Conduit Entrance to Building2.jpg",
+      "s": "no_text",
+      "sol": "36C24527Q0025"
+    },
     "11f2d8eda40e4b049a8dfa504538ccd4": {
       "c": 21940,
       "d": "2026-10-10",
@@ -4224,6 +4358,14 @@
       "n": "Attachment 5 - Shirley Creek_Drawing_CS-02.pdf",
       "s": "screened",
       "sol": "127EAX26Q0114"
+    },
+    "1219894d84514a47ae078b2743f25f90": {
+      "c": 584,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "S04- 635-21-139 Site Visit Sign in sheet 07-29-2026.pdf",
+      "s": "screened",
+      "sol": "36C25926R0082_1"
     },
     "121b33299c53466da572c382511b2cd5": {
       "c": 276,
@@ -4507,6 +4649,14 @@
       "n": "A01 QA iHouse Apartment Construction 18Aug2026.pdf",
       "s": "screened",
       "sol": "75H70126R00026"
+    },
+    "1318642a483c46b7bbba59aa623fe20e": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Service Contract Act WD 2015-4839 REV 32 EFF 08.22.2026 WAYNE.pdf",
+      "s": "wage_determination",
+      "sol": "36C25027Q0011_0001"
     },
     "132365558616400495e5b6e990214097": {
       "c": 4965,
@@ -4841,6 +4991,14 @@
       "s": "screened",
       "sol": "36C25027Q5393"
     },
+    "14c8c249fda44bc3890e07ea709566e7": {
+      "c": 796,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C10X27R0004 0001_1.docx",
+      "s": "screened",
+      "sol": "36C10X27R0004_1"
+    },
     "14d5642c6d714256bc85db75a14239e6": {
       "c": 338,
       "d": "2026-10-10",
@@ -4925,6 +5083,22 @@
       "n": "Login.gov-Inherited-Credential_RFI-Att.1_2026-10-01.pdf",
       "s": "screened",
       "sol": "47QPCA27RFI0001"
+    },
+    "1508b9323c924880b2f2f89b712ce66f": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Service Contract Act WD 2015-5457 Rev 32 - 22 Aug 2026.pdf",
+      "s": "wage_determination",
+      "sol": "FA485526Q0078"
+    },
+    "150d855a52e84d65b06abe9f519df664": {
+      "c": 557,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "RFI_NGSC_EGI.pdf",
+      "s": "screened",
+      "sol": "FA8524-27-D-0602"
     },
     "15205175af16402494c9ff13d869216b": {
       "c": 1940,
@@ -5028,6 +5202,14 @@
       "s": "screened",
       "sol": "15BRRC25R00000029"
     },
+    "1543adae197448789a2885015496356c": {
+      "c": 1113,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SATPC0042944 Tab 04 4 SOW.pdf",
+      "s": "screened",
+      "sol": "80NSSC27946126Q"
+    },
     "155649332cb545489854b9fabb369467": {
       "c": 5448,
       "d": "2026-10-13",
@@ -5122,6 +5304,14 @@
       "s": "screened",
       "sol": "140P2026R0081"
     },
+    "1580a62575264f0db498c4b7cbef93df": {
+      "c": 347,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "dodio-2000.16v1_afi10-245-o.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "158b07a138c84e7aac418053fe08de28": {
       "c": 1089,
       "d": "2026-10-10",
@@ -5153,6 +5343,14 @@
       "n": "B2.03.02_DRAFT-RFP_IFC_Specs_SLAC_CRMF_Cleanroom.pdf",
       "s": "screened",
       "sol": "SLAC_DRAFT_RFP_369005_CRMF_Cleanroom_Construction"
+    },
+    "15a579b38779404aa4f79a46f27e2240": {
+      "c": 285,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Attachment J-3. Overtime Labor Hours Breakout Worksheet_FCDAS OM.xlsx",
+      "s": "screened",
+      "sol": "1332KP26R0041"
     },
     "15ae28418bf74beb9243bc2d75fc9f58": {
       "c": 26103,
@@ -5289,6 +5487,14 @@
       "n": "Software Supply Chain Container Price Schedule 10.14.26.xlsx",
       "s": "screened",
       "sol": "CORHQ-26-R-0394"
+    },
+    "1642d2a46c104fdd895bd2a8d1a786d5": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "Cables at Base on Antenna.jpg",
+      "s": "no_text",
+      "sol": "36C24527Q0025"
     },
     "1652ac22aee940f5b1cae7a95225e7a4": {
       "c": 175419,
@@ -6031,6 +6237,14 @@
       "s": "screened",
       "sol": "12445527Q0001"
     },
+    "196fd1e316474a2fb805f734bf699f21": {
+      "c": 642,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "B08 Attachment 0015 Subcontractor Cost Information Submission.pdf",
+      "s": "screened",
+      "sol": "W519TC26RA054"
+    },
     "197148eaacd541c7844cdb2a7242d6be": {
       "c": 81954,
       "d": "2026-10-14",
@@ -6225,6 +6439,14 @@
       "s": "screened",
       "sol": "140P2026R0087"
     },
+    "1a34f8bc4a0d41ac823d4eeb1d17bf04": {
+      "c": 394,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "SOW Att 04_Automated Casting Cell.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "1a5293781aa34e27b7c233eaafa2c7f7": {
       "c": 2791,
       "d": "2026-10-10",
@@ -6329,6 +6551,14 @@
       "n": "Questions and Answers_StrategicOffsite.pdf",
       "s": "screened",
       "sol": "FA480027Q0003"
+    },
+    "1ad90fdd43ba473396e0a4c1c8e8c002": {
+      "c": 21,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "SPE60226R0708_Sect J Attachment 5 QAPs.pdf",
+      "s": "screened",
+      "sol": "SPE60226R0708"
     },
     "1add3127e9964576aff0dd1a1771fd48": {
       "c": 14180,
@@ -6581,6 +6811,14 @@
       "s": "screened",
       "sol": "140PP027Q0008"
     },
+    "1b72c60145ac4cdf9996cc3e199b85a8": {
+      "c": 865,
+      "d": "2026-10-17",
+      "m": "pptx",
+      "n": "Part C and D Jurisdiction Maps.pptx",
+      "s": "screened",
+      "sol": "RFICMSQIC2026"
+    },
     "1b75e424f6024a6d849ac21dadee1bf6": {
       "c": 9075,
       "d": "2026-10-14",
@@ -6820,6 +7058,14 @@
       "n": "WD 2015-4435 Rev 32 Horry.pdf",
       "s": "wage_determination",
       "sol": "FA480327Q0003"
+    },
+    "1cfee7431a2d4a25bfa4aec7e18a3066": {
+      "c": 398,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SOW.pdf",
+      "s": "screened",
+      "sol": "80NSSC27945797Q"
     },
     "1d148319037047a7bd3805d57c134596": {
       "c": 335931,
@@ -7152,6 +7398,14 @@
       "n": "Amendment 01-MASTR Call-07 MAR 2025.pdf",
       "s": "screened",
       "sol": "FA2391-23-S-2403"
+    },
+    "1e127bbd45614f04b88074bb9be3ae3e": {
+      "c": 456757,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "C04 Attachment 4 - Drawings Powell Duplex.pdf",
+      "s": "screened",
+      "sol": "1240LU27Q0001"
     },
     "1e23e6b947634134a8d8433f8da127d1": {
       "c": 42577,
@@ -7850,6 +8104,14 @@
       "s": "screened",
       "sol": "W911SD-27-Q-A002"
     },
+    "20efb7cfe58448eebdf06034e2581b54": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "C04f - WD ID20260013 dtd 5-18-2026 1240LT262Q0179.pdf",
+      "s": "wage_determination",
+      "sol": "1240LT26Q0179"
+    },
     "20feba4352b746909e698dc68fef924b": {
       "c": 7573,
       "d": "2026-10-13",
@@ -8172,6 +8434,14 @@
       "s": "screened",
       "sol": "80NSSC27946561Q"
     },
+    "222df73b6706499a8a4dfe17e3695631": {
+      "c": 1017,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C78627Q0015.docx",
+      "s": "screened",
+      "sol": "36C78627Q0015"
+    },
     "22306efad1b5421fa9f63f9eb088ba88": {
       "c": 10839,
       "d": "2026-10-14",
@@ -8236,6 +8506,22 @@
       "s": "screened",
       "sol": "HM047626R0018"
     },
+    "22b276fb05314797b053bb7c5ed82c78": {
+      "c": 514,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "TE-8 PRICING.xlsx",
+      "s": "screened",
+      "sol": "W911S227QA006"
+    },
+    "22be8a49510b442fa0602191f9c0a9de": {
+      "c": 1006,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Draft Solicitation - Industry Notice.docx",
+      "s": "screened",
+      "sol": "N0017827R3103"
+    },
     "22c3d12f62f5436aa443ebd7eb017016": {
       "c": 12003,
       "d": "2026-10-10",
@@ -8269,7 +8555,7 @@
       "sol": "36C10F25R0024"
     },
     "22f586f931b34a7bbc14599205a5f495": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-16",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -8406,6 +8692,14 @@
       "s": "screened",
       "sol": "N3220527Q0006"
     },
+    "2358ca494bd44694b599de721df22168": {
+      "c": 771,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "250063_ATT 4_ODS.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "23607920601647dbb9b06f12244bb329": {
       "c": 10438,
       "d": "2026-10-11",
@@ -8479,6 +8773,14 @@
       "s": "screened",
       "sol": "36U10126Q0023"
     },
+    "23c846de2d274e51b3edb9e802864ac4": {
+      "c": 846,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Attachment 10-TE F-04_Trash and Animal Waste Station Maps.docx",
+      "s": "screened",
+      "sol": "W91WFU27RA001"
+    },
     "23d5c397291f4a5da727b0eff38388db": {
       "c": 297,
       "d": "2026-10-10",
@@ -8526,6 +8828,14 @@
       "n": "47QRAA22D000Y 36C24826F0036 P00001_1.docx",
       "s": "screened",
       "sol": "36C24825Q1002"
+    },
+    "2400d6b3847d41c9ae9101cd80c72816": {
+      "c": 426,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment A - Boundary Map_Crestview.pdf",
+      "s": "screened",
+      "sol": "N69450-27-RP-00023"
     },
     "2413e1a4b65a48e2b64369b73b760c93": {
       "c": 64511,
@@ -8871,6 +9181,22 @@
       "s": "boilerplate_only",
       "sol": "W912QR-BROWNSVILLETXFY27"
     },
+    "25c3f68589524ee09d31a30e73473871": {
+      "c": 381006,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Camp Murray Air National Guard Base parking and roadway construction project involves site improvements totaling multiple phases with specific safety, scheduling, and environmental compliance requirements.",
+          "news": 3,
+          "quote": "The work includes all scope identified in the contract documents and incidental related work. The work is located at the Camp Murray Air National Guard Base, WA, approximately as indicated.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 3 - Type B-3 Final Specifications Rev Sep 2026.pdf",
+      "s": "screened",
+      "sol": "W50S9E26BA002"
+    },
     "25cc0a40103447cf8f03185102588f31": {
       "c": 6678,
       "d": "2026-10-13",
@@ -9022,6 +9348,14 @@
       "n": "Solicitation - H9225726RE036.pdf",
       "s": "screened",
       "sol": "H9225726RE036"
+    },
+    "266b241bf0ee4ae3baaa7f253a542216": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "A2 - Wage Determination 2015-4245 Rev33.pdf",
+      "s": "wage_determination",
+      "sol": "SP330027Q0002"
     },
     "267e0cb8214d4c91a3c9c1712d3a2526": {
       "c": 0,
@@ -9176,6 +9510,14 @@
       "s": "screened",
       "sol": "SPRRA227QA003"
     },
+    "2757bf89948a4490ba81824a770eac86": {
+      "c": 994,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Room finish schedule.xlsx",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "275cb0b7ee104b9d850dd470bceba29a": {
       "c": 30592,
       "d": "2026-10-13",
@@ -9298,6 +9640,14 @@
       "n": "A04_SOW_Freezer_Repair_Reconfiguration.pdf",
       "s": "screened",
       "sol": "140FF027Q0005"
+    },
+    "27ce2df2c1bc4c20bda0db0491734dc3": {
+      "c": 1459,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Medical Statement.pdf",
+      "s": "screened",
+      "sol": "FA448427Q0002"
     },
     "27f50b3bb018479c888d15ee0b6690c4": {
       "c": 7004,
@@ -9869,6 +10219,14 @@
       "s": "screened",
       "sol": "36C25027Q0020"
     },
+    "2b35e74986c041d7876c20ef9496536e": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (B) - WD 2015-5455 Rev 30.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
+    },
     "2b3cad2aaca24c84974c05a3e9803cb4": {
       "c": 3423,
       "d": "2026-10-13",
@@ -10107,6 +10465,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-KELLERTXFY27"
     },
+    "2c2a67e8f9e04912956be1acd7bdf8e9": {
+      "c": 473617,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment 7- IFB - Specifications Vol 1.pdf",
+      "s": "screened",
+      "sol": "36C24726R0134"
+    },
     "2c2dba47923a44b19feb978f28fafcf8": {
       "c": 19085,
       "d": "2026-10-12",
@@ -10147,6 +10513,14 @@
       "n": "Enclosure No. 2B - Appendix A ANL-71COM.pdf",
       "s": "screened",
       "sol": "6-B143-P-00251-00"
+    },
+    "2c5e921541224e5fbe4362212f2b8423": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (C) - WD 2015-5473 Rev 28.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
     },
     "2c652340768a4e3f8f21c333106b45c8": {
       "c": 2759,
@@ -10398,6 +10772,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-BATONROUGE(JEFFERSON)LAFY27"
     },
+    "2d438155248c48499f35285a81035b3a": {
+      "c": 358,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Attachment_2_Pricing_Schedule.xlsx",
+      "s": "screened",
+      "sol": "140A2326Q0243"
+    },
     "2d4622cad5f14ebcb09cfcf6355498de": {
       "c": 59379,
       "d": "2026-10-10",
@@ -10515,6 +10897,14 @@
       "s": "wage_determination",
       "sol": "36C26126R0055_2"
     },
+    "2d95b5a1dbc4427ea2318b34258750cb": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Service Contract Act WD 2015-4867 REV 35 Eff 08.22.2026 Macomb Oakland lapeer St Clair.pdf",
+      "s": "wage_determination",
+      "sol": "36C25027Q0011_0001"
+    },
     "2da2d65838264f2ba552d664b013fb0b": {
       "c": 1230,
       "d": "2026-10-10",
@@ -10602,6 +10992,14 @@
       "n": "Attachment 4 - 668-22-106_PCRA_Pre-Construction Risk Assessment Checklist ver6.pdf",
       "s": "screened",
       "sol": "36C26027R0014"
+    },
+    "2de900f6a31741c8ac631a3908e27ddd": {
+      "c": 918,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment D - Energy Star above 10000.pdf",
+      "s": "screened",
+      "sol": "N69450-27-RP-00023"
     },
     "2dea1749a7a94b4e9ff1d557f27679c6": {
       "c": 1892,
@@ -10711,6 +11109,14 @@
       "n": "Attachment F - Historical Small Business Utilization.docx",
       "s": "screened",
       "sol": "N4008526R0138"
+    },
+    "2e7cde5a82104a588d0148fadf5836a2": {
+      "c": 581,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "JPL Duplicating Services RFI AT-2641-110226 Addendum 1.pdf",
+      "s": "screened",
+      "sol": "AT-2641-110226"
     },
     "2e8cde94f30f4c88bc01f22609e4158f": {
       "c": 3990,
@@ -10845,6 +11251,23 @@
       "n": "07. Exhibit E_3517B General Clauses (Apr26).pdf",
       "s": "screened",
       "sol": "36C24W26R0012"
+    },
+    "2f1a4abe8a8542d8930cc140c9214a3c": {
+      "c": 1121129,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "context": "JSRa 23-390 Phase 4 (Final CD) August 13, 2024 SECTION 012500 SUBSTITUTION PROCEDURES PART 1 - GENERAL 1.1 SUMMARY A. Section Includes: Administrative and procedural requirements for substitutions. 1.2 DEFINITIONS A. Substitutions: Changes in products, materials, equipment, and methods of construction from those required by the Contract Documents. 1. Substitutions for Cause: Changes proposed by Contractor that are required due to changed Project conditions, such as unavailability of product, regulatory changes, or unavailability of required warranty terms. 2. Substitutions for Convenience: Changes proposed by Contractor or Owner that are not required to meet other Project requirements but may off",
+          "finding": "Indian Health Service apartment construction at Crownpoint, New Mexico includes post-tensioned concrete slabs with unbonded prestressing tendons.",
+          "news": 3,
+          "quote": "A. Preinstallation Conference: Conduct conference at Crownpoint, New Mexico.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "J04 iHouse Apt 03 Phase 4 Specifications.pdf",
+      "s": "screened",
+      "sol": "75H70126R00026"
     },
     "2f1f2cf343a847e2ad2d7a7f8bc42db3": {
       "c": 6564,
@@ -11021,6 +11444,14 @@
       "s": "screened",
       "sol": "36C24127Q0019"
     },
+    "2fe54e5188b3499fb27e2d0844608ef6": {
+      "c": 1714,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Att 01_Schedule of Items_260820.docx",
+      "s": "screened",
+      "sol": "12445527Q0003"
+    },
     "30263c4bdcdc45fbb3f979ef43c3199f": {
       "c": 64353,
       "d": "2026-10-13",
@@ -11082,6 +11513,22 @@
       "s": "wage_determination",
       "sol": "1240LT26Q0187"
     },
+    "306adf9c8d3149908de16be7f9119324": {
+      "c": 1684,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Federal Prison System (Morgantown) awarded dairy contract to United Dairy for kosher milk, cottage cheese, and sour cream for inmate meals.",
+          "news": 3,
+          "quote": "Kosher Whole Milk... must be Certified Kosher Dairy... UNITED DAIRY C1MMZTC7QQK7",
+          "verified": false
+        }
+      ],
+      "m": "xlsx",
+      "n": "DAIRY 1ST QTR FY27 RESULTS.xlsx",
+      "s": "screened",
+      "sol": "15B11326Q00000013"
+    },
     "306d42dd88d543a48f5b60b065474b5b": {
       "c": 106,
       "d": "2026-10-13",
@@ -11129,6 +11576,14 @@
       "n": "140L6226Q0030_Questions_and_Answers_0001.docx",
       "s": "screened",
       "sol": "140L6226Q0030"
+    },
+    "30908e249acc4887b495a695918bab49": {
+      "c": 722,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25726Q0676 0003_1.docx",
+      "s": "screened",
+      "sol": "36C25726Q0676"
     },
     "30910d19a87f43349efde0c3eb16b203": {
       "c": 2900,
@@ -11340,6 +11795,28 @@
       "s": "screened",
       "sol": "W91QV126RA060"
     },
+    "3170e3f70772426e9ebe5f5320e79f7a": {
+      "c": 380362,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "VA medical center renovation includes specialized plumbing for optometry/ophthalmology clinics with reverse-osmosis water systems for high-purity water production.",
+          "news": 3,
+          "quote": "Renovate Wards 2K and 2B for Optometry/Ophthalmology Clinical Use... Provide complete industrial-type packaged reverse osmosis (RO) water treatment system producing high purity water",
+          "verified": false
+        },
+        {
+          "finding": "VA facility includes bariatric-rated plumbing fixtures, indicating accommodation for patients with weight capacity up to 1000 pounds minimum.",
+          "news": 3,
+          "quote": "(P-421) Bariatric Floor Mounted Pedestal Lavatory (Sensor controlled ASME A112.19.2), 14 gage type 304 stainless steel construction with white powder coating of lavatory deck... Rated for bariatric use \u2013 1000-pound minimum capacity.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Attachment 8- IFB - Specifications Vol 2.pdf",
+      "s": "screened",
+      "sol": "36C24726R0134"
+    },
     "31716ffaaa4e4e1a88010f92bbbd9cac": {
       "c": 0,
       "d": "2026-10-13",
@@ -11428,6 +11905,14 @@
       "n": "B08_SOL_Attachment_6_Limitation_on_Subcontracting_Report_Template.xlsx",
       "s": "screened",
       "sol": "140D0427Q0915"
+    },
+    "31a5b82042df46e1a119c488aa58d3b9": {
+      "c": 788,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Solicitation Amendment - W91QV126RA0600002 (1).pdf",
+      "s": "screened",
+      "sol": "W91QV126RA060"
     },
     "31ad6fb6e56b4670b949f47adb0fc4ec": {
       "c": 1818,
@@ -11713,6 +12198,14 @@
       "s": "screened",
       "sol": "36C26326R0063"
     },
+    "32e86dfd66f44a828dfa47444d99ef19": {
+      "c": 486,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "B08 Attachment 0010 Blocked File Extensions.pdf",
+      "s": "screened",
+      "sol": "W519TC26RA054"
+    },
     "32ee91e09f6b4692b2bfffcd48908abb": {
       "c": 0,
       "d": "2026-10-14",
@@ -11835,6 +12328,22 @@
       "n": "Section J Attach 02  2020 Performance Summary Table.pdf",
       "s": "screened",
       "sol": "15BRRC27R00000001"
+    },
+    "33ba73bc570d418e911c12addf47dd75": {
+      "c": 530,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "L3 Technologies awarded $1.36 million Navy contract for Near Field Range maintenance at NSWC Crane, base year $215,685.",
+          "news": 4,
+          "quote": "AWARDEE (COMPANY) NAME: - L3 TECHNOLOGIES, INC. CONTRACT AWARD DOLLAR AMOUNT: JO1- Total $1,364,261.51 Base Year $215,684.71",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "New Contract Award Announcement_N0016426FM027.docx",
+      "s": "screened",
+      "sol": "N0016426FM027"
     },
     "33c89346dfb04e3b808b02da5f38cfac": {
       "c": 3092,
@@ -12167,6 +12676,14 @@
       "s": "screened",
       "sol": "N3220526R6120"
     },
+    "355ced1d835b47a8a569f48a03bf3c0e": {
+      "c": 682,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "SAFR Site Visit Attendance Sheet - 2 Oct 2026_Redacted.pdf",
+      "s": "screened",
+      "sol": "FA485526Q0078"
+    },
     "356c0026687842999c2d8f72da729f54": {
       "c": 0,
       "d": "2026-10-16",
@@ -12238,6 +12755,14 @@
       "n": "Attachment-16 RFP_Supplemental Sec 4  Instructions Con Notices to Offeror Rev1_20260928.docx",
       "s": "screened",
       "sol": "HM047626R0018"
+    },
+    "35c4cc43f1e2462b870e767c7c2b9412": {
+      "c": 957,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "26R6006 Attach 19- Ship Operating Experience.docx",
+      "s": "screened",
+      "sol": "N3220526R6006"
     },
     "35c8cde2e7014d95a70081c7d7f2d1ab": {
       "c": 69922,
@@ -13122,6 +13647,14 @@
       "s": "screened",
       "sol": "1240LT26Q0187"
     },
+    "3997fad996ba4f20b4c97d2ae5a01f77": {
+      "c": 344,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "ATTACHMENT I_Template for Industry Questions_NX EQ Image-Guided Surgical Navigation System.xlsx",
+      "s": "screened",
+      "sol": "36C10X27R0004_1"
+    },
     "39a8be0f56224b1b8c98106941621049": {
       "c": 4966,
       "d": "2026-10-13",
@@ -13717,6 +14250,14 @@
       "s": "screened",
       "sol": "12363N26R4014"
     },
+    "3bd952d879e34766beaaff798edebc80": {
+      "c": 160,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "MAP MS.pdf",
+      "s": "screened",
+      "sol": "4MS0229"
+    },
     "3be448cc956244df9cd9969b1c3461da": {
       "c": 426,
       "d": "2026-10-10",
@@ -14005,6 +14546,14 @@
       "s": "screened",
       "sol": "0NC2145-1"
     },
+    "3d2bef59ccbb432d8abe46046be8eded": {
+      "c": 925,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "07 - Staffing Plan_13 Aug 2026.xlsx",
+      "s": "screened",
+      "sol": "N0017827R3103"
+    },
     "3d33795ac96745c9bdc0f31817c5aa6c": {
       "c": 1480,
       "d": "2026-10-14",
@@ -14289,6 +14838,14 @@
       "s": "screened",
       "sol": "SPRHA4-26-R-0028"
     },
+    "3dfeab472baa4a929e7e555cc4068b41": {
+      "c": 383369,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Specs_Vol 2_2026-08-18.pdf",
+      "s": "screened",
+      "sol": "36C26326B0020"
+    },
     "3e18c901c71544b19528ca2b15aa1a8d": {
       "c": 7320,
       "d": "2026-10-10",
@@ -14384,6 +14941,14 @@
       "n": "P09 - SOW Logicare.docx",
       "s": "screened",
       "sol": "36C25927Q0021"
+    },
+    "3e573cf863634ffca05b5e9349e59386": {
+      "c": 1134,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Amendment 1 to RFP-2026-10245 10.15.26.pdf",
+      "s": "screened",
+      "sol": "RFP-2026-10245()"
     },
     "3e615dbbed0745f8a68c96e555465fb5": {
       "c": 4223,
@@ -14558,6 +15123,14 @@
       "n": "4 Janitorial Specifications.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-ANNARBORMIFY27"
+    },
+    "3ef3d8f399f347cf8f2c1f214ac78dca": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "IMG_5688-Circled.jpeg",
+      "s": "no_text",
+      "sol": "36C24527Q0025"
     },
     "3efbadf7fc884a378cba89dbdfb9a371": {
       "c": 3815,
@@ -14818,6 +15391,22 @@
       "s": "screened",
       "sol": "70LGLY27RSSB00001"
     },
+    "3fcc41d9c95e45bdab18a6ea00a8b9e1": {
+      "c": 342,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Pre-proposal conferences for GOCO aircraft fuel services at four major Air Force bases (Cannon, Holloman, Davis-Monthan, Luke) in August 2026.",
+          "news": 3,
+          "quote": "DAVIS MONTHAN AFB, AZ GOCO PRE-PROPOSAL CONFERENCE AUGUST 27, 2026, 09:00",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Amend 0003 Attachment C.pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0529"
+    },
     "3fd90c60c5c7421c9bedb2d966e6ec81": {
       "c": 361853,
       "d": "2026-10-16",
@@ -14850,6 +15439,14 @@
       "n": "S02_Attachment 0006_RFP 36C79126R0011_Offeror Past Performance Questionnaire_Fillable.docx",
       "s": "screened",
       "sol": "36C79126R0011"
+    },
+    "3ff661d9f2dd433490506e7502329294": {
+      "c": 37,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "IMG_3672.jpeg",
+      "s": "screened",
+      "sol": "3-1-QSC-T-27-001-001"
     },
     "40039471c8f84b89ba0a6390c41dcb16": {
       "c": 52973,
@@ -15696,6 +16293,14 @@
       "s": "screened",
       "sol": "36C26227P0047"
     },
+    "438a68dc27cf4ae88747bc5fecc40801": {
+      "c": 359,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Exhibit B - Contractor Acquired Property.xlsx",
+      "s": "screened",
+      "sol": "N0017827R3103"
+    },
     "438ec334d45b4a0dbecdb36779ba7664": {
       "c": 0,
       "d": "2026-10-14",
@@ -15889,6 +16494,14 @@
       "n": "Solicitation - N0038327QS136.pdf",
       "s": "screened",
       "sol": "N00383-27-Q-S136"
+    },
+    "44747e177bf54fb6be4ea1ed496df64f": {
+      "c": 159,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Amendment 0002 - Attachment C.pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0529"
     },
     "447d1c76bd0644849f1a551b371284ee": {
       "c": 29205,
@@ -16244,6 +16857,14 @@
       "s": "screened",
       "sol": "N00025-26-R-5246"
     },
+    "465c1678e93643788091536538cccf03": {
+      "c": 575,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "JOIST SPECIAL INSPECTIONS.xlsx",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "465dd4d5530c48b6bd9ae7c2498a241c": {
       "c": 238106,
       "d": "2026-10-16",
@@ -16380,6 +17001,14 @@
       "n": "Attachment 10 - SSO AFRL SCI Addendum.pdf",
       "s": "screened",
       "sol": "FA239626RB008"
+    },
+    "4704548c74b344cd9041e9b1a81c4450": {
+      "c": 1190,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "B08 Attachment 0004 Letter of Consent.pdf",
+      "s": "screened",
+      "sol": "W519TC26RA054"
     },
     "470a96d516d346c296e2cf214529b883": {
       "c": 70759,
@@ -16644,7 +17273,7 @@
       "sol": "LRAFB_MACC_IndustryDay"
     },
     "48217c5b25474bb9a03c1015939160bb": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-16",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -16764,6 +17393,14 @@
       "n": "B08_-_Attachment_06_-_Vol_I_PastPerf.docx",
       "s": "screened",
       "sol": "140P2026R0081"
+    },
+    "48f3c00435914215a2b919c802c280fc": {
+      "c": 929,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Base_Ketchikan_Access_Pass_Request_DAS-CARPET-RQMT.pdf",
+      "s": "screened",
+      "sol": "UNITEDSTATESCOASTGUARDKETCHNEWCARPET"
     },
     "48fa99c969c64378be8e45f326044d58": {
       "c": 2534,
@@ -17190,6 +17827,14 @@
       "s": "screened",
       "sol": "PANAPG-26-P-0000-052467"
     },
+    "4a7fe357fef1423994be3c3206b132eb": {
+      "c": 387,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25925Q0740 0007_1.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
+    },
     "4a8b95d6a5bb412d972f7f33a151240f": {
       "c": 9904,
       "d": "2026-10-13",
@@ -17535,6 +18180,14 @@
       "s": "screened",
       "sol": "140D0427Q0924"
     },
+    "4bb977b1611e451eae3bc2c7112292bd": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment 4 - WD 2015-5635 rev 31.pdf",
+      "s": "wage_determination",
+      "sol": "H9224026QE"
+    },
     "4bbce685a1b1484182274cdb3b5e90fc": {
       "c": 1054,
       "d": "2026-10-10",
@@ -17676,6 +18329,14 @@
       "n": "C05m Attachment 11 Golder 1240BH26R0013.pdf",
       "s": "screened",
       "sol": "1240BH26R0013"
+    },
+    "4c7a669bd2584db2825db057c210aeec": {
+      "c": 462,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Solicitation Site Visit Information.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
     },
     "4c7ff6ca00a24c8687f8ff66dc342c2f": {
       "c": 4227,
@@ -18580,6 +19241,14 @@
       "s": "screened",
       "sol": "N0003926R0005"
     },
+    "4fa6147619f74b2b9fb6ce3f0fd8c179": {
+      "c": 904,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SATPC0042767 TAB 07 SOW PRINTED.pdf",
+      "s": "screened",
+      "sol": "80NSSC27944045Q"
+    },
     "4fa6248b7792449aba1bfe3cf7f4ac0c": {
       "c": 2265,
       "d": "2026-10-10",
@@ -19005,6 +19674,14 @@
       "s": "screened",
       "sol": "FA665626R0007"
     },
+    "51c6187039774198a45641de154d85a0": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (E) - WD 2015-5469 Rev 30.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
+    },
     "51c7be82d81a487d85e58c0d2dc796e6": {
       "c": 1065,
       "d": "2026-10-13",
@@ -19124,6 +19801,14 @@
       "s": "screened",
       "sol": "W912PF27QA003"
     },
+    "52431d23491f4f4fbc873bcd66c3c853": {
+      "c": 442,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "12 - Mission Essential Contractor Services.docx",
+      "s": "screened",
+      "sol": "N0017827R3103"
+    },
     "524ffba0a5764cfe8f5e3530b8e1d593": {
       "c": 26469,
       "d": "2026-10-14",
@@ -19204,6 +19889,14 @@
       "n": "POTFF III Industry Day_Draft Agenda.pdf",
       "s": "screened",
       "sol": "H9240026RE002"
+    },
+    "52980d4e78714d7cb741c9879db62456": {
+      "c": 1750,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment 4 - Conflict of Interest Statement.pdf",
+      "s": "screened",
+      "sol": "FA485526Q0078"
     },
     "52ac9b2f461f4b3db1fd071bf242c548": {
       "c": 183,
@@ -20219,6 +20912,14 @@
       "s": "screened",
       "sol": "80JSC027R0004"
     },
+    "572bf56ee03444ac8ee85c7458ffd88e": {
+      "c": 95717,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "B08_Attachment_3_20260317_USGS_EROS_Drawings_Bid_Documents_JLB.pdf",
+      "s": "screened",
+      "sol": "140G0126Q0288"
+    },
     "5733663e262147a3ab40025cfd5983ce": {
       "c": 5213,
       "d": "2026-10-14",
@@ -20275,6 +20976,23 @@
       "n": "Att 0010 Blocked File Extensions.pdf",
       "s": "screened",
       "sol": "W519TC-26-R-A056"
+    },
+    "57825927b83045549b7e7ffd5be1a028": {
+      "c": 57684,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "context": "NCA with an assessment report describing the current roadway conditions and provide recommended repairs methods to address the deficiencies. The assessment shall be performed by a competent person with five or more years of experience with asphalt repairs. The assessor shall be approved in writing by the NCA. C. CLIN 0003, Crypts: Purchase and delivery of Pre Placed Cryts only. 1.3 SPECIFICATIONS AND DRAWINGS FOR CONTRACTOR A. AFTER AWARD OF CONTRACT, an electronic set of specifications and drawings will be furnished. 1.4 CONSTRUCTION SECURITY REQUIREMENTS A. Security Plan: 1. The security plan defines both physical and administrative security procedures that will remain effective for the entire duration of the project. 2. The General Contractor is responsible for assuring that all sub- contractors working on the project and their employees also comply with these regulations. B. Security Procedures: 1. General Contractor\u2019s employ",
+          "finding": "Fort Sill National Cemetery expansion in Oklahoma includes crypts/burial infrastructure with specific design and fabrication requirements for precast concrete units.",
+          "news": 4,
+          "quote": "CLIN 0003, Crypts: Purchase and delivery of Pre Placed Cryts only.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "S06_Fort Sill NC_920CM3006_Combined Specifications_Rev 01.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "5789d9a03f574892bde3f0f591b918c2": {
       "c": 20113,
@@ -20341,6 +21059,14 @@
       "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_8 of 11.pdf",
       "s": "screened",
       "sol": "36C78626B0030"
+    },
+    "57912ae8feed40128438317dd6ef25f7": {
+      "c": 684,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24226R0097_5.docx",
+      "s": "screened",
+      "sol": "36C24226R0097"
     },
     "5792ecd9d760462e94ca51f3c7ca09b6": {
       "c": 28204,
@@ -20480,6 +21206,14 @@
       "s": "screened",
       "sol": "USUHS_NoticeOflntent_Panopto_LCS"
     },
+    "583aeff45b4f47bea076b56d12e4f3a9": {
+      "c": 670,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "JPL Duplicating Services RFI AT-2641-110226 Addendum 2.pdf",
+      "s": "screened",
+      "sol": "AT-2641-110226"
+    },
     "584d415894e84495a9923594afb0c172": {
       "c": 8598,
       "d": "2026-10-14",
@@ -20545,6 +21279,14 @@
       "n": "36C26127Q0077.docx",
       "s": "screened",
       "sol": "36C26127Q0077"
+    },
+    "587e810e3b2b4cfcbbb34641190a2d9e": {
+      "c": 669,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24827Q0038_1.docx",
+      "s": "screened",
+      "sol": "36C24827Q0038"
     },
     "587f3ebff1bf4e92975a4e62a1484eda": {
       "c": 2917,
@@ -20674,6 +21416,22 @@
       "s": "screened",
       "sol": "36C24W26R0012"
     },
+    "5923099d194c44c3b8b213309e41592a": {
+      "c": 537,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "VA awarded $11.1 million contract to CAPEX Construction for AHU mechanical systems upgrade at facility; SDVOSBC (service-disabled veteran) set-aside.",
+          "news": 4,
+          "quote": "AWARD AMOUNT* $11,166,791.00 SET-ASIDE SDVOSBC CAPEX CONSTRUCTION LLC",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "36C26027C0003_1.docx",
+      "s": "screened",
+      "sol": "36C26026R0044"
+    },
     "59320ff6dbf244729b018cea651619eb": {
       "c": 74873,
       "d": "2026-10-14",
@@ -20704,6 +21462,14 @@
       "n": "Attachment 1 SOW CHH P2.pdf",
       "s": "screened",
       "sol": "47PC5326R0021"
+    },
+    "59481366b2d74fe7a44c1306b6c332a2": {
+      "c": 16,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "VAAR 852.219-75 LIMITATIONS ON SUBCONTRACTING.pdf",
+      "s": "screened",
+      "sol": "36c25526R0166_1"
     },
     "59558ffd7601429fb4c16cf862e57078": {
       "c": 1358,
@@ -21748,6 +22514,14 @@
       "s": "screened",
       "sol": "N00167-26-AST"
     },
+    "5e1e0804efea491cadc30c9d3b3c842f": {
+      "c": 998,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "250063_ATT 6_OPSEC Review Memo.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "5e25cdc0befc41e68622351052122a7e": {
       "c": 1590,
       "d": "2026-10-14",
@@ -21763,6 +22537,14 @@
       "n": "Attachment I Statement of Work.pdf",
       "s": "screened",
       "sol": "N5005427Q0008"
+    },
+    "5e385addc2e549cb91032f386c3f46b5": {
+      "c": 441,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25727Q0014 0002_1.docx",
+      "s": "screened",
+      "sol": "36C25727Q0014"
     },
     "5e3eb0f0fdc94e99a9e1ba23f4142b7e": {
       "c": 6446,
@@ -21795,6 +22577,14 @@
       "n": "1 Lease.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-ELPASO(ZARAGOS)TXFY27"
+    },
+    "5e6340d527de4004a2937688d4364d65": {
+      "c": 1206,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Atch 5 - UTSI Map.pdf",
+      "s": "screened",
+      "sol": "FA9101-26-9-Velocity_Alliance"
     },
     "5e6813f87b964281a5975ed60d2ae4f1": {
       "c": 0,
@@ -22447,6 +23237,14 @@
       "n": "Attachment 10 - Industry Day Questions Form.pdf",
       "s": "screened",
       "sol": "LRAFB_MACC_IndustryDay"
+    },
+    "6125f34b51d442d39f340c89d4211c0c": {
+      "c": 1656,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "26R6006 Attach 17 - Volume III Part 1 Checklist.docx",
+      "s": "screened",
+      "sol": "N3220526R6006"
     },
     "6130539952d4474dabe96fd5326507aa": {
       "c": 829,
@@ -23148,6 +23946,22 @@
       "s": "screened",
       "sol": "80JSC025_CLDC_TECH_LIBRARY"
     },
+    "645d27e1513841b0b93a8b43d1393715": {
+      "c": 863,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "C05b_Vendor Questions_1284LM27Q0003 AMD001.docx",
+      "s": "screened",
+      "sol": "1284LM27Q0003"
+    },
+    "64694bc6cfaf4f6fa96cd0a9d4893656": {
+      "c": 842,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Cancel RFQ NAFUA1-26-Q-0015.pdf",
+      "s": "screened",
+      "sol": "NAFUA1-26-Q-0015"
+    },
     "64817478a1664dc48f7c7f18de86eed2": {
       "c": 800,
       "d": "2026-10-10",
@@ -23155,6 +23969,22 @@
       "n": "29_Amendment_Summary_0008_0008.pdf",
       "s": "screened",
       "sol": "140P2026R0087"
+    },
+    "64822754552a4386ac793cc392b3bedd": {
+      "c": 57847,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "U.S. Army Corps of Engineers soliciting major renovation/reconstruction of Trade and Cargo Academy at Federal Law Enforcement Training Centers (FLETC) in Charleston district.",
+          "news": 4,
+          "quote": "Trade and Cargo Academy (W912HP27RA002-0003; DEPT OF DEFENSE.DEPT OF THE ARMY.USACE.SAD.US ARMY ENGINEER DISTRICT CHARLESTO",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "261013 - TCA Drawings Amendment.pdf",
+      "s": "screened",
+      "sol": "W912HP27RA002-0003"
     },
     "648255f447a24509b7de89509073392b": {
       "c": 0,
@@ -23382,6 +24212,14 @@
       "n": "Supplemental Lease Requirements (May 2025).pdf",
       "s": "screened",
       "sol": "57-6395-25-006"
+    },
+    "65887d8cd15043b683055b957c909334": {
+      "c": 522,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Amend 0003 Attachment A.pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0529"
     },
     "65aa672c5a964c1eb755b84ff772f334": {
       "c": 3757,
@@ -23738,6 +24576,14 @@
       "s": "screened",
       "sol": "36C24227R0006"
     },
+    "671be6072e224436a81dd4ad5ac326ed": {
+      "c": 86015,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Plans 438-21-403 Renovate 1st Floor Kitchen_Part4.pdf",
+      "s": "screened",
+      "sol": "36C26326B0020"
+    },
     "671f95a150d24138a1c094923821bec1": {
       "c": 672,
       "d": "2026-10-14",
@@ -23825,6 +24671,14 @@
       "n": "27R6011_RFP.pdf",
       "s": "screened",
       "sol": "N3220527R6011"
+    },
+    "673d3732fb304069b5298c8964602167": {
+      "c": 29,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Solicitation Amendment_HT940626QE0600004.pdf",
+      "s": "screened",
+      "sol": "HT940626QE060"
     },
     "674e5451571349ef9064c87090e11f97": {
       "c": 0,
@@ -24318,6 +25172,22 @@
       "s": "screened",
       "sol": "RFI_Commercial_Wifi_B977_JBSA"
     },
+    "6964581409bd4da1bc92b9010e4f6049": {
+      "c": 1251545,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Federal Highway Administration solicitation for Buck Hill Road construction project involving concrete work, drainage structures, and barrier systems.",
+          "news": 3,
+          "quote": "ND NP THRO 204(1) Buck Hill Road (6982AF25B000004; TRANSPORTATION, DEPARTMENT OF.FEDERAL HIGHWAY ADMINISTRATION",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "FP-14_Eng.pdf",
+      "s": "screened",
+      "sol": "6982AF25B000004"
+    },
     "696f9757180f4c0193c629d736144930": {
       "c": 408,
       "d": "2026-10-13",
@@ -24706,6 +25576,14 @@
       "s": "screened",
       "sol": "M5Q50A03R8"
     },
+    "6ab51fd47eb04140bfa05f0b3c73c1a8": {
+      "c": 322,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Bid Scheudule-10-15-2026.xlsx",
+      "s": "screened",
+      "sol": "36C26127Q0069"
+    },
     "6ab7e16a8cdf45839868e86eac7103cf": {
       "c": 6445,
       "d": "2026-10-10",
@@ -24954,6 +25832,14 @@
       "s": "screened",
       "sol": "693195-26-BAA-0001"
     },
+    "6bb5cef8bdf540d29855cfc76b5c07fb": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (A) - WD 2015-5457 Rev 30.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
+    },
     "6bb9fe5b1f974e04b76e8ee2cfb29d26": {
       "c": 285,
       "d": "2026-10-14",
@@ -25027,6 +25913,14 @@
       "s": "screened",
       "sol": "W912CH-27-Q-A007"
     },
+    "6c11d1400a0c43859adec8cdef7779db": {
+      "c": 676,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SPE60226R0708_Sect J Attachment 6 Subcontracting Plan.pdf",
+      "s": "screened",
+      "sol": "SPE60226R0708"
+    },
     "6c29387dda784339bc7c9a1b3a904c70": {
       "c": 389,
       "d": "2026-10-10",
@@ -25092,7 +25986,7 @@
       "sol": "36C26126R0055_2"
     },
     "6c60d0e7451c439fa20325422100b0be": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-16",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -25107,6 +26001,14 @@
       "n": "WD 2015-4443 Rev 34 Georgetown Williamsburg.pdf",
       "s": "wage_determination",
       "sol": "FA480327Q0003"
+    },
+    "6c70fe036599416ab719be7eb5ddbaa2": {
+      "c": 583,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25926Q0497_1.docx",
+      "s": "screened",
+      "sol": "36C25926Q0497"
     },
     "6c72bfcc534a49189fbfc3d5963d9679": {
       "c": 8006,
@@ -25306,6 +26208,14 @@
       "s": "screened",
       "sol": "36C24527Q0030"
     },
+    "6d3a9111573d4c9593882585f4854d18": {
+      "c": 755,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Pricing Worksheet.xlsx",
+      "s": "screened",
+      "sol": "W911RX27QA002"
+    },
     "6d422a4db5d4467aa09ef59ce409cd4c": {
       "c": 32661,
       "d": "2026-10-10",
@@ -25369,6 +26279,14 @@
       "n": "B08_Attach_10_Gen_Refs_Vol_II.pdf",
       "s": "boilerplate_only",
       "sol": "140P2026R0106"
+    },
+    "6d94c16332c3462e839316dfda702132": {
+      "c": 188,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "PILE SCHEDULE.xlsx",
+      "s": "screened",
+      "sol": "FA813727R0002 "
     },
     "6d95c17115fb4556b90ed2ea0af6a9d1": {
       "c": 0,
@@ -25540,6 +26458,14 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "6e74d5e9ad8d466388dd0f669f43df5e": {
+      "c": 64,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "IMG_3671.jpeg",
+      "s": "screened",
+      "sol": "3-1-QSC-T-27-001-001"
+    },
     "6e7f42f642a846fa8324aac2179a54fe": {
       "c": 1423,
       "d": "2026-10-10",
@@ -25636,6 +26562,14 @@
       "n": "MSS_4710003266453NZ_PR FD20302700348.pdf",
       "s": "screened",
       "sol": "FD20302700348"
+    },
+    "6ec986267a5047f8952d75673f5261c5": {
+      "c": 661,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25925Q0740 0005_1.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
     },
     "6edabbd0ea7b46c1813c5b39b8bf3e14": {
       "c": 6688,
@@ -25943,6 +26877,14 @@
       "n": "36C26127P0063_1.docx",
       "s": "screened",
       "sol": "36C26127AP1196123233"
+    },
+    "6fe62e09b8934af789060d8e883f3a03": {
+      "c": 877,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Amend 0003 Attachment D.pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0529"
     },
     "6fea965cc97f42ae87b2e939d3d69c31": {
       "c": 690,
@@ -26924,6 +27866,14 @@
       "s": "boilerplate_only",
       "sol": "36C77626B0011_1"
     },
+    "73ffdb4638e147b6a2459d714761597e": {
+      "c": 1284,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "PRE-PROPOSAL RFIs 36C25526R0166.pdf",
+      "s": "screened",
+      "sol": "36c25526R0166_1"
+    },
     "74101167343b4891a88d790cf927112f": {
       "c": 1991,
       "d": "2026-10-14",
@@ -27674,6 +28624,14 @@
       "s": "screened",
       "sol": "19TH2526C0002"
     },
+    "76d63f7dc1094d508ea0e657ba6f57a2": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "IMG_5685-Circled.jpeg",
+      "s": "no_text",
+      "sol": "36C24527Q0025"
+    },
     "76e7732028fe4d94833f1b1dbe77b958": {
       "c": 2100,
       "d": "2026-10-13",
@@ -28036,6 +28994,22 @@
       "s": "screened",
       "sol": "70Z02326Q92200038"
     },
+    "77c63c25b7e24c37965937005b16d213": {
+      "c": 558,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24226R0097_4.docx",
+      "s": "screened",
+      "sol": "36C24226R0097"
+    },
+    "77c7969cba84476b92ef036ce656e031": {
+      "c": 491,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Synopsis Memo.pdf",
+      "s": "screened",
+      "sol": "SPRTA1-27-Q-0019"
+    },
     "77d96e2fb5b24a349bd32373828b42a3": {
       "c": 0,
       "d": "2026-10-10",
@@ -28265,6 +29239,14 @@
       "s": "screened",
       "sol": "36U10126Q0023"
     },
+    "7873efe126314edbabfd5e01efe3a3e1": {
+      "c": 473,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Sources Sought Table 1_SPRRA2-27-R-0800-Updated.xlsx",
+      "s": "screened",
+      "sol": "SPRRA2-27-R-0800-REV"
+    },
     "78780b310a4e45669c5324f27565d97c": {
       "c": 0,
       "d": "2026-10-13",
@@ -28429,6 +29411,14 @@
       "s": "screened",
       "sol": "FA441826R0009"
     },
+    "78e92c515d894cbabd086758aa876893": {
+      "c": 804,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36F79725D0109 36C25027F0060_1.docx",
+      "s": "screened",
+      "sol": "36C25027AP1101"
+    },
     "78f7a287f8d5451899ae6f9038ae4ce6": {
       "c": 1861,
       "d": "2026-10-14",
@@ -28444,6 +29434,14 @@
       "n": "SATPC0042796 Tab 07 Capability Statement.pdf",
       "s": "screened",
       "sol": "80NSSC27944201Q"
+    },
+    "7905778d05c944159a98751b1627f44b": {
+      "c": 51974,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment 2 - Type B-3 - Final GOV Parking and Armor Dr Draw.pdf",
+      "s": "screened",
+      "sol": "W50S9E26BA002"
     },
     "792157aeabdb453f9cc4e1edf8e67667": {
       "c": 4065,
@@ -28572,6 +29570,14 @@
       "n": "FRAME RFP_GFP List_07Oct2026.xlsx",
       "s": "screened",
       "sol": "FA461027R0001"
+    },
+    "79e2f477f02b4ff886a973e30d7b24e9": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "A2 - Wage Determination 2015-4245 Rev33.pdf",
+      "s": "wage_determination",
+      "sol": "SP330027Q0003"
     },
     "79fcb1829259456fa50cd20a229b75a1": {
       "c": 273,
@@ -28957,6 +29963,22 @@
       "s": "screened",
       "sol": "W912CH-26-S-0001"
     },
+    "7b55a40f87574624b23e010dfca78e25": {
+      "c": 561063,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "VA Veterans Affairs renovating first-floor kitchen at an unspecified location with extensive food service equipment specifications.",
+          "news": 3,
+          "quote": "Renovate First Floor Kitchen (SF) (36C26326B0020; VETERANS AFFAIRS, DEPARTMENT OF)",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Specs_Vol 1_2026-08-18.pdf",
+      "s": "screened",
+      "sol": "36C26326B0020"
+    },
     "7b5ace464ba34c1884a872d3a8dfa6c3": {
       "c": 1960,
       "d": "2026-10-10",
@@ -29181,6 +30203,14 @@
       "s": "screened",
       "sol": "W51AA1-26-Q-A097"
     },
+    "7c3e630b74ed43b2ab2d318d6628edfa": {
+      "c": 220298,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment A MHC-DS-SPEC-005-R0.pdf",
+      "s": "screened",
+      "sol": "PR507071"
+    },
     "7c4cb85778f44678929bcd13ab2bdbbb": {
       "c": 45820,
       "d": "2026-10-13",
@@ -29316,6 +30346,30 @@
       "n": "_1_Attachment_00_00_01_NGWSP_TURNOUT_BLDGS_Specifications_20260707.pdf",
       "s": "screened",
       "sol": "140R4026B0002"
+    },
+    "7d0d8b2c5ac34f9da0f51d9bdd282cd2": {
+      "c": 1245,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Amendment to Arlington National Cemetery relocation contract reiterates $34 million price and Feb-Apr 2027 timeline for moving industrial/commercial operations complex.",
+          "news": 3,
+          "quote": "Seamless relocation (disassemble, packing, move, unpacking, reassemble) of industrial/commercial Operations Complex...The physical move is tentative schedule between 01 February 2027- 30 April 2027 for a period of 90 days.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation Amendment - W91QV126RA0600001 (1).pdf",
+      "s": "screened",
+      "sol": "W91QV126RA060"
+    },
+    "7d112713203c443b86fc50daf54df246": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (A) - WD 2015-5457 Rev 32.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
     },
     "7d17afa9e53149bab6412658aaf787a2": {
       "c": 556,
@@ -29497,6 +30551,14 @@
       "n": "Solicitation FA301027Q0001.pdf",
       "s": "screened",
       "sol": "FA301027Q0001"
+    },
+    "7e0a317da2b549a9bfdd628ffb6b17f6": {
+      "c": 26,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Attachment 9-TE F-05_Leaf Removal Area Maps.docx",
+      "s": "screened",
+      "sol": "W91WFU27RA001"
     },
     "7e0f9069083043e4864dad648e180162": {
       "c": 5600,
@@ -29720,6 +30782,14 @@
       "s": "screened",
       "sol": "1240BH26Q0078"
     },
+    "7edf7fcce109448a820ee4773e7acb00": {
+      "c": 1212,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "B08_Attachment_B_Pricing_Schedule_transcriptomic_services_0001.xlsx",
+      "s": "screened",
+      "sol": "140G0226Q0145"
+    },
     "7ee4ccd4007842f393e15bc682036b25": {
       "c": 1627,
       "d": "2026-10-14",
@@ -29780,6 +30850,14 @@
       "n": "36C10B27P0005_2.docx",
       "s": "screened",
       "sol": "36C10B27Q0039"
+    },
+    "7f61f40258c24530b3c9f7913a0dbdd9": {
+      "c": 49378,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "C27 - Single-Line Schematics.pdf",
+      "s": "screened",
+      "sol": "36C26127Q0067"
     },
     "7f7c3a1170954a3985f0d50bf9c41a9a": {
       "c": 461,
@@ -29845,6 +30923,14 @@
       "n": "SATPC0042891 Tab 04 4 SOW.pdf",
       "s": "screened",
       "sol": "80NSSC26943709Q"
+    },
+    "7fcde507ef7a4428b95bbc69ddaf00db": {
+      "c": 1109,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Attachment - REQUEST FOR INFORMATION RFI FORM 36C26127Q0029.docx",
+      "s": "screened",
+      "sol": "36C26127Q0029"
     },
     "7fdb85f298f549dfbbd442e9382a8108": {
       "c": 38935,
@@ -30540,6 +31626,14 @@
       "s": "screened",
       "sol": "36C26127Q0026"
     },
+    "82c291a3d71345b285ef0678a01b717b": {
+      "c": 758,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Synopsis-Questions-Answers-N0025327Q0001.pdf",
+      "s": "screened",
+      "sol": "N0025327Q0001  "
+    },
     "82cf6e8745cf4d899fb26202a0aa62a1": {
       "c": 28828,
       "d": "2026-10-13",
@@ -30603,6 +31697,28 @@
       "n": "Attachment A4-Topic 4-Statement of Objectives.pdf",
       "s": "screened",
       "sol": "80GRC026R0008 "
+    },
+    "8300457c7e8442a5a1bb300c74e20df0": {
+      "c": 791652,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Fort Sill National Cemetery gravesite expansion project includes precast burial crypts, columbarium units, and administrative building renovations with strict coordination requirements around burial services.",
+          "news": 4,
+          "quote": "The burial activities at a National Cemetery shall take precedence over construction activities. The Contractor must cooperate and coordinate with the Cemetery Director, through the COR, in arranging construction schedule to cause the least possible interference with Cemetery activities in actual bu",
+          "verified": false
+        },
+        {
+          "finding": "Veterans Affairs National Cemetery Administration project in Elgin, Oklahoma with significant infrastructure work including water systems, HVAC, fire alarm installations, and security access control systems across multiple buildings.",
+          "news": 3,
+          "quote": "DIVISIONS covered: 03 30 53 08 11 13 (CONCRETE, MASONRY, METALS); 07 40 00 07 60 00 (ROOFING, FLASHING); 23 81 00 (HVAC); 28 13 00 28 31 00 (SECURITY, FIRE DETECTION); 32 33 00 32 90 00 (SITE FURNISHINGS, PLANTING)",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "S02_Att 2_Fort Sill NC 920CM3006 Combined Specifications.pdf",
+      "s": "screened",
+      "sol": "36C78626B0030"
     },
     "830735fa14d84845bf782b39363a07a2": {
       "c": 244,
@@ -31126,6 +32242,22 @@
       "s": "screened",
       "sol": "1240LS26Q0079"
     },
+    "85dbe23c4b994827acd76c276285eb16": {
+      "c": 1159,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Navy sourcing weapon control systems spares for both U.S. and UK submarine fire control systems in FY27.",
+          "news": 4,
+          "quote": "CLIN 0001 \u2013 FY27 US Weapon Control Systems Spares... CLIN 0002 \u2013 FY27 UK Weapon Control Systems Spares",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "Enclosure 1 FY27 Spares SOW Requirements for SSN.docx",
+      "s": "screened",
+      "sol": "P278"
+    },
     "85fe8f9b47a94f5fa6ac4f25b88d8ebd": {
       "c": 8929,
       "d": "2026-10-11",
@@ -31531,6 +32663,14 @@
       "s": "screened",
       "sol": "36C24627Q0019   "
     },
+    "87db5ec86fa84ff898f8b8224dbca652": {
+      "c": 560,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Attachment 1-USSPACECOM Project Table.docx",
+      "s": "screened",
+      "sol": "c787935b395e4b55b08842a97730610d"
+    },
     "87df134622524e3d9b312ef6337c5d5c": {
       "c": 42075,
       "d": "2026-10-11",
@@ -31846,6 +32986,14 @@
       "s": "screened",
       "sol": "SPE60326R0530"
     },
+    "890e24858c83430d936ac823f1c864b3": {
+      "c": 701,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24W25R0115 0002.docx",
+      "s": "screened",
+      "sol": "36C24W25R0115"
+    },
     "8914f7e5518a46a6a46c8b411c698e48": {
       "c": 212878,
       "d": "2026-10-10",
@@ -32150,6 +33298,14 @@
       "s": "screened",
       "sol": "W51DQV27S1CQK"
     },
+    "8a54728b6bb94d12b230625b04c4be9c": {
+      "c": 286,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "AutoCad with 1511 1514.pdf",
+      "s": "screened",
+      "sol": " FA822226Q0279KH"
+    },
     "8a575fb1c0384eac806a8580546c75b0": {
       "c": 2189,
       "d": "2026-10-14",
@@ -32444,6 +33600,14 @@
       "s": "screened",
       "sol": "36C26026R0029"
     },
+    "8b7a758dbe5b483f8a815e41b7d8b87b": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (B) - WD 2015-5455 Rev 32.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
+    },
     "8b8e5c38f99b4ea8be0e2f93babc31f2": {
       "c": 1955,
       "d": "2026-10-13",
@@ -32557,6 +33721,14 @@
       "n": "Questions and Answers for W911QX27QA002.xlsx",
       "s": "screened",
       "sol": "W911QX27QA002"
+    },
+    "8bd13e36ad56400dbe1541d074575353": {
+      "c": 505,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25227Q0051_1.docx",
+      "s": "screened",
+      "sol": "36C25227Q0051"
     },
     "8bd952e22e194c8f86c55e714b386db1": {
       "c": 0,
@@ -32945,7 +34117,7 @@
       "sol": "70Z02326R93250001"
     },
     "8d8d41fb848f401fab76b64e73de65e6": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-16",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -33577,6 +34749,28 @@
       "s": "screened",
       "sol": "RFP_387931RLP"
     },
+    "8fb6bdb8976d437285449894eea980e4": {
+      "c": 240669,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "VA upgrading external security system at Puget Sound Health Care System Seattle facility, including active vehicle barriers with motor-operated drop-arm gates at entrances.",
+          "news": 3,
+          "quote": "Active vehicle barriers at entrances. Configuration: Drop-arms Type: Permanent Mounting: As indicated on drawings Operation: Motor",
+          "verified": false
+        },
+        {
+          "finding": "Security barrier system specifies anti-ram vehicle barrier standards and DoD anti-ram barrier list compliance for VA medical facility.",
+          "news": 3,
+          "quote": "Current product listing on USACE Department of Defense Anti-Ram Vehicle Barrier List. Bollard: Full sized, complete assembly",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Attachment 2 - 663-21-100 - Specs.pdf",
+      "s": "screened",
+      "sol": "36C26026R0029"
+    },
     "8fc4d91630ac49979c4fa626c7c202d4": {
       "c": 80611,
       "d": "2026-10-14",
@@ -33660,6 +34854,14 @@
       "n": "Tab 09 Att  Fill-Ins.pdf",
       "s": "screened",
       "sol": "SPE602-26-R-0706"
+    },
+    "8fe2091ce73243e3817fc4ff238761d7": {
+      "c": 1029,
+      "d": "2026-10-17",
+      "m": "pptx",
+      "n": "Original Medicare (OM) QIC Region Maps.pptx",
+      "s": "screened",
+      "sol": "RFICMSQIC2026"
     },
     "8ff17a44dc894913a21d1ff28b907639": {
       "c": 259008,
@@ -34048,6 +35250,14 @@
       "n": "36U10126Q0023 0006.docx",
       "s": "screened",
       "sol": "36U10126Q0023"
+    },
+    "91b8b6d37bbf4c3ba9978c2a450ebeec": {
+      "c": 673,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24226R0097_3.docx",
+      "s": "screened",
+      "sol": "36C24226R0097"
     },
     "91bac8cc3691451e922624fea295804d": {
       "c": 2520,
@@ -34777,6 +35987,14 @@
       "s": "screened",
       "sol": "36C24127Q0009"
     },
+    "9457e7f66918468388baf5f28596a149": {
+      "c": 168,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Questions and Answers for RFQSSPR507952 (10.15.2026).pdf",
+      "s": "screened",
+      "sol": "RFQSSPR507952"
+    },
     "94692f387879474faca5f6a6be18fa81": {
       "c": 5059,
       "d": "2026-10-16",
@@ -34983,6 +36201,14 @@
       "n": "Attachment 0004_WD 2015-5229 Rev29_5-13-26_El Paso TX.pdf",
       "s": "wage_determination",
       "sol": "W31P4Q26RA002"
+    },
+    "956e25096dc14fd58e3594e130ec09fd": {
+      "c": 633,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25726Q0676 0002_1.docx",
+      "s": "screened",
+      "sol": "36C25726Q0676"
     },
     "957a72bbc1b8496691b226288b981d5e": {
       "c": 25365,
@@ -35700,6 +36926,14 @@
       "s": "screened",
       "sol": "TSAHorizon25_OSI-TSI_FY2027"
     },
+    "979e20876b224244b9d43390bf61f985": {
+      "c": 1015,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "250063_ Redline A-502.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "97a0e283d4a840bcb531fde28b22e410": {
       "c": 733,
       "d": "2026-10-10",
@@ -36217,6 +37451,14 @@
       "n": "Section J Attach 07  Service Contract Business Management Questionnaire.pdf",
       "s": "screened",
       "sol": "15BRRC27R00000001"
+    },
+    "991b3e348f59480f9c024437f81acd2b": {
+      "c": 532,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24226R0097_6.docx",
+      "s": "screened",
+      "sol": "36C24226R0097"
     },
     "99214b5a90d24001af42a89a960819b7": {
       "c": 3721,
@@ -36840,6 +38082,41 @@
       "s": "screened",
       "sol": "80NSSC26946154Q "
     },
+    "9ba1714e6f9148e5b534f55929072ec0": {
+      "c": 288438,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "context": "0$5,1(\u0003&2536\u0003%$6( 5(0$5.6 =======================================================================1. ASHRAE 34-2024, TABLE 4-1 = 4-2: REFRIGERANT IS CLASSIFIED AS NEITHER TOXIC OR HIGHLY TOXIC, WITH A REFRIGERANT CONCENTRATION LIMIT =RCL=, LOWER FLAMMABILITY LIMIT =LFL= PER SCHEDULED VALUES. =======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================",
+          "finding": "Marine Corps SOF facility at Camp Lejeune includes HVAC systems with specific refrigerant specifications (R-454B, R-32) and noise criteria, revealing infrastructure modernization at major military base.",
+          "news": 4,
+          "quote": "ASHRAE 34-2024, TABLE 4-1 = 4-2: REFRIGERANT IS CLASSIFIED AS NEITHER TOXIC OR HIGHLY TOXIC, WITH A REFRIGERANT CONCENTRATION LIMIT =RCL=, LOWER FLAMMABILITY LIMIT =LFL= PER SCHEDULED VALUES.",
+          "verified": true
+        },
+        {
+          "finding": "Marine Corps Special Operations Forces (SOF) Marine Raider facilities complex under construction at Camp Lejeune, NC with detailed architectural and mechanical plans for large multi-building complex.",
+          "news": 4,
+          "quote": "SOF MARINE RAIDER FACILITIES COMPLEX, MARINE CORPS BASE (MCB) CAMP LEJEUNE, NORTH CAROLINA",
+          "verified": false
+        },
+        {
+          "finding": "Design-Bid-Build solicitation for major military construction project at Marine Corps Base with 283 detailed specification sheets indicating significant facility expansion or modernization.",
+          "news": 3,
+          "quote": "NOTICE: Design-Bid-Build (DBB) SOF Marine Raider Facilities Complex, Marine Corps Base (MCB) Camp Lejeune, North Carolina (N4008526R0138; DEPT OF DEFENSE.DEPT OF THE NAVY.NAVFAC",
+          "verified": false
+        },
+        {
+          "finding": "Marine Raider Facilities Complex design-bid-build construction at Marine Corps Base Camp Lejeune, including mechanical systems for a specialized military facility.",
+          "news": 3,
+          "quote": "Design-Bid-Build (DBB) SOF Marine Raider Facilities Complex, Marine Corps Base (MCB) Camp Lejeune, North Carolina",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "1701820dwg_Revision_0001_A2-A3-Site.pdf",
+      "s": "screened",
+      "sol": "N4008526R0138"
+    },
     "9bc579488325433e9963b029257358e3": {
       "c": 447,
       "d": "2026-10-10",
@@ -36847,6 +38124,14 @@
       "n": "52000QR270000042 FAR CLAUSES.pdf",
       "s": "screened",
       "sol": "52000QR270000042"
+    },
+    "9bc9389e63ed49d5af0c84d9cfed4f43": {
+      "c": 1302,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "A3 - Questions and Answers.pdf",
+      "s": "screened",
+      "sol": "SP330027Q0002"
     },
     "9bcaaa90210c434190b90f8aae0b1714": {
       "c": 2291,
@@ -37017,6 +38302,14 @@
       "n": "36C26027P0016_2.docx",
       "s": "screened",
       "sol": "36C26027P0016"
+    },
+    "9c6d493bb60c4b93a31d043538ca2519": {
+      "c": 676,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Attachment A- Price Schedule - 36C24226R0097.docx",
+      "s": "screened",
+      "sol": "36C24226R0097"
     },
     "9c85855fdd254563a98c5e41c255aac3": {
       "c": 17299,
@@ -37258,6 +38551,14 @@
       "n": "36C24627A0002 36C24627N0180_1.docx",
       "s": "screened",
       "sol": "36C24627R0005"
+    },
+    "9d44cf824ab145cfa664293095a398ec": {
+      "c": 314,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "B08_Solicitation_Attachment_2_Drawings_Specifications_A_Project_Location_5_12_26_(1_page).pdf",
+      "s": "screened",
+      "sol": "140FC126Q0044"
     },
     "9d55e1b9984544b9929c55835d0e5e86": {
       "c": 31534,
@@ -37689,6 +38990,14 @@
       "s": "screened",
       "sol": "36C10B26Q0801"
     },
+    "9ff58a18fb5440609eefd0bd93257944": {
+      "c": 1523,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "007200_Attch7b_Monthly Hazardous Usage Report.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "a007efd8cc544b39967d6ca64784f246": {
       "c": 41800,
       "d": "2026-10-11",
@@ -37752,6 +39061,14 @@
       "n": "Solicitation_(RFP) - Fuel Transportation Services - Progreso MX.pdf",
       "s": "screened",
       "sol": "SPE608-26-R-0206"
+    },
+    "a07c45e579634328ab338592a2453d6a": {
+      "c": 989,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Attachment J3 - 030ADV27R0004 Questions Template.xlsx",
+      "s": "screened",
+      "sol": "030ADV27R0004"
     },
     "a07d74033f3b423e94f32618f9bfd025": {
       "c": 5925,
@@ -37863,6 +39180,14 @@
       "n": "Sol_140L6226Q0030.pdf",
       "s": "screened",
       "sol": "140L6226Q0030"
+    },
+    "a1338add49704dfc8064e435323504ed": {
+      "c": 719,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Sign-in Sheet.pdf",
+      "s": "screened",
+      "sol": "6982AF27B000005"
     },
     "a13cf3690ac2475d8c26d1b5f66bdf8e": {
       "c": 46388,
@@ -38547,6 +39872,14 @@
       "s": "screened",
       "sol": "N00025-26-R-5246"
     },
+    "a4660b83d40447fd908b18a2d84fe94b": {
+      "c": 465,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25925Q0740 0006_1.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
+    },
     "a46d33dc62fd44bc8bf8f266ce22be31": {
       "c": 8928,
       "d": "2026-10-10",
@@ -39052,6 +40385,14 @@
       "s": "screened",
       "sol": "36U10126Q0023"
     },
+    "a5d79c7850a649ba9d99d496114cbdd9": {
+      "c": 174,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "C04b_Attachment 1 - Schedule of Items  Image_1284LM27Q0003.pdf",
+      "s": "screened",
+      "sol": "1284LM27Q0003"
+    },
     "a5e21b9fb51d440cb2b9c9108f3006ab": {
       "c": 1928,
       "d": "2026-10-10",
@@ -39133,6 +40474,14 @@
       "n": "Attachment - Wage Determination CA20260018 07-14-2026.pdf",
       "s": "wage_determination",
       "sol": "36C26127Q0029"
+    },
+    "a66d9f21d49446a89590082355a9b07d": {
+      "c": 743,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "HOW TO FOLLOW PROJECTS ON SAM FOR EMAIL ALERTS.pdf",
+      "s": "screened",
+      "sol": "12445527Q0003"
     },
     "a67aebb1f26c4e038b85ac9d12f610f8": {
       "c": 37264,
@@ -39666,6 +41015,14 @@
       "s": "screened",
       "sol": "W91237-27-SN-0001"
     },
+    "a83b85cd62a149299bfedcaaa929d625": {
+      "c": 369,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Amendment 1_Solicitation_DHR Administrative Services FY27-30.pdf",
+      "s": "screened",
+      "sol": "W91QF027QA003"
+    },
     "a8421039a22c419cb7e9cd26d048ecb1": {
       "c": 2222,
       "d": "2026-10-10",
@@ -39823,6 +41180,14 @@
       "n": "36C24627Q0061.docx",
       "s": "screened",
       "sol": "36C24627Q0061"
+    },
+    "a913437af43247b389d792e8916f54f1": {
+      "c": 900,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "B08_Solicitation_Attachment_10_WHIPPS_Water_Control_Gates_9_3_26__2_pgs.pdf",
+      "s": "screened",
+      "sol": "140FC126Q0044"
     },
     "a91646a92ce74666abbd64bb6852d5c5": {
       "c": 6388,
@@ -40055,6 +41420,14 @@
       "s": "screened",
       "sol": "RFI-GSMO4-2027"
     },
+    "aa23c435a18a4cb884feaa22e46576c7": {
+      "c": 971,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment 3 - Offeror Information and Certification.pdf",
+      "s": "screened",
+      "sol": "FA485526Q0078"
+    },
     "aa3827f0350440408c8793a997aaa38b": {
       "c": 392,
       "d": "2026-10-13",
@@ -40078,6 +41451,14 @@
       "n": "SBPCD Instructions to Offerors(DRAFT).xlsx",
       "s": "screened",
       "sol": "FA8652-26-R-0006"
+    },
+    "aa6ab05690bd43bea5bd7e108767beb9": {
+      "c": 713,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SATPC0042437 Tab 04 4 SPECS.pdf",
+      "s": "screened",
+      "sol": "80NSSC27941759Q"
     },
     "aa6f1f9ae3204bc295af2af0d5721beb": {
       "c": 4601,
@@ -40347,6 +41728,14 @@
       "s": "boilerplate_only",
       "sol": "FA461027R0001"
     },
+    "ab464accada643c88bea934ed4ab44f4": {
+      "c": 538,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "PRE-PROPOSAL SITE VISIT SIGN IN SHEET 657-27-107.pdf",
+      "s": "screened",
+      "sol": "36c25526R0166_1"
+    },
     "ab56d3c561fd4f4b926429593db04c5d": {
       "c": 425249,
       "d": "2026-10-10",
@@ -40378,6 +41767,14 @@
       "n": "2 3517B General Clauses (Apr. 2026).pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-MCALLENTXFY27"
+    },
+    "ab9097274b5b498ba44435c3630594ef": {
+      "c": 1453,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Amendment 02 AOI N6247027R0003 - OTA CDC.pdf",
+      "s": "screened",
+      "sol": "N6247027R0003"
     },
     "ab91b19b278b48a4b70f4405712bc680": {
       "c": 2939,
@@ -41299,6 +42696,14 @@
       "s": "screened",
       "sol": "SPE608-26-R-0206"
     },
+    "afc4f79ae59c42be9f633cb689a0e31d": {
+      "c": 556,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C24827Q0038_2.docx",
+      "s": "screened",
+      "sol": "36C24827Q0038"
+    },
     "afc7a21c017140bcb40e35f2e93a6c9d": {
       "c": 15093,
       "d": "2026-10-14",
@@ -41375,6 +42780,14 @@
       "n": "N0017827R4405_Industry Day Check In_9.29.26.pdf",
       "s": "screened",
       "sol": "N0017827R4405"
+    },
+    "affaec9eba2148c1a36936d9770283ab": {
+      "c": 693,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "9750 P10893 - Bldg Maps with sf  v2 - Snow Removal 10152026.pdf",
+      "s": "screened",
+      "sol": " FA822226Q0279KH"
     },
     "b00ead3149fb456bb674128568d259a4": {
       "c": 539,
@@ -42814,6 +44227,14 @@
       "s": "screened",
       "sol": "1240BH26R0013"
     },
+    "b56a55b4a56a4f13887fa34427120121": {
+      "c": 842,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36F79725D0109 36C25027F0056_1.docx",
+      "s": "screened",
+      "sol": "36C25027AP1059"
+    },
     "b571bc60ff8449d8aa09b0b2d926b5f1": {
       "c": 7310,
       "d": "2026-10-10",
@@ -42855,6 +44276,22 @@
       "s": "wage_determination",
       "sol": "15B41427Q00000002 "
     },
+    "b5a6095a137243e9b0ae1854022d0cc4": {
+      "c": 17910,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Marine Corps Base Camp Lejeune in North Carolina receiving new Special Operations Forces Marine Raider Battalion Operations Facilities complex with extensive infrastructure including utilities, communications, fire protection, and security systems.",
+          "news": 4,
+          "quote": "P-1550 SOF MARINE RAIDER BATTALION OPERATIONS FACILITIES",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "1701820dwg01of01.pdf",
+      "s": "screened",
+      "sol": "N4008526R0138"
+    },
     "b5aa70a2ae3e4d48a27ac7ece00c4785": {
       "c": 5121,
       "d": "2026-10-11",
@@ -42878,6 +44315,14 @@
       "n": "Section J Attach 05   Client Notification Letter.pdf",
       "s": "screened",
       "sol": "15BRRC27R00000001"
+    },
+    "b5c822e63efa40e3a80de8eac1213523": {
+      "c": 465,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36F79725D0109 36C25027F0056_1.docx",
+      "s": "screened",
+      "sol": "36C25027AP1059"
     },
     "b5caf6120c9b476eac30018d4c2894ca": {
       "c": 10300,
@@ -43359,6 +44804,22 @@
       "n": "36C26327Q0045.docx",
       "s": "screened",
       "sol": "36C26327Q0045"
+    },
+    "b7dcb0f84a4f44d3bb7d72ed44bf3ac9": {
+      "c": 874,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Navy procuring munition transport equipment (MHU-191) for both U.S. and Royal Australian Air Force over five-year period.",
+          "news": 4,
+          "quote": "MHU-191 - MUNITION TRANSPORTER USN 3992AS100-1 3 USN 0-15... RAAF 3992AS100-1 0 RAAF 0-10",
+          "verified": false
+        }
+      ],
+      "m": "xlsx",
+      "n": "CLIN Structure for PMT 0545.xlsx",
+      "s": "screened",
+      "sol": "N6833526R1091"
     },
     "b7ee5cd87fda4870bb8f7b083b6e1617": {
       "c": 594,
@@ -44125,6 +45586,14 @@
       "s": "screened",
       "sol": "N32205-26-PM4-147"
     },
+    "ba9546bf2f8a4b9ca515179ab26decf3": {
+      "c": 481,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25925Q0740 0008_1.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
+    },
     "ba98f2cf67194c3cb8bc12bbd2d7647c": {
       "c": 86172,
       "d": "2026-10-14",
@@ -44560,6 +46029,14 @@
       "s": "screened",
       "sol": "PENGUIN_SS_2026"
     },
+    "bbf2f68e7a41487d994934f4a5fb0c44": {
+      "c": 25,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Attachment 11- TE F-03_Lawn Mowing Area Maps.docx",
+      "s": "screened",
+      "sol": "W91WFU27RA001"
+    },
     "bbfcf490e8be42ecbd21dbe0480af59e": {
       "c": 111,
       "d": "2026-10-13",
@@ -44661,6 +46138,14 @@
       "n": "3d OH Owensville RLP Amendment 1.pdf",
       "s": "screened",
       "sol": "a83e297672324a0f9403cdcf4235e65e"
+    },
+    "bc26f9fd968b4558afe5ab956ee7aed8": {
+      "c": 605,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Copy of Attachment J1 - Pre-Award SCRM Info.xlsx",
+      "s": "screened",
+      "sol": "CORHQ-26-Q-0388"
     },
     "bc34ad2d1fc84b9ea8e05dbe778155cc": {
       "c": 197677,
@@ -45245,6 +46730,14 @@
       "s": "screened",
       "sol": "SLAC_DRAFT_RFP_369005_CRMF_Cleanroom_Construction"
     },
+    "be25da4331ca414e98da7c9e16de32c1": {
+      "c": 1753,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Site Visit Check In - FLW BASOPS.pdf",
+      "s": "screened",
+      "sol": "W5168W26RA011"
+    },
     "be282f94df86416ea5573178ccb9efd5": {
       "c": 163,
       "d": "2026-10-14",
@@ -45439,6 +46932,14 @@
       "s": "screened",
       "sol": "1240BH26R0013"
     },
+    "bf304904626d48c084a7eeae24c05f6f": {
+      "c": 830,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SATPC0043023 TAB 07 SOW PRINTED.pdf",
+      "s": "screened",
+      "sol": "80NSSC27946002Q"
+    },
     "bf3c7dd5f8eb4adbab7b1ffabcc811c8": {
       "c": 5315,
       "d": "2026-10-11",
@@ -45514,6 +47015,14 @@
       "n": "License 202509798-WQC US Coast Guard Civil New London.pdf",
       "s": "screened",
       "sol": "70Z0G126BSLISSW02"
+    },
+    "bf7d6efe561e4b40aac365767628a6ba": {
+      "c": 691,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Hilo Vet Center Questions and Answers .pdf",
+      "s": "screened",
+      "sol": " 36C24W23R0031"
     },
     "bf9142a1afe34ab1a664a83299615ace": {
       "c": 826,
@@ -45690,6 +47199,22 @@
       "s": "screened",
       "sol": "36C10F25R0024"
     },
+    "c0629b1fbe1f4b48a8690f69ec0933be": {
+      "c": 529758,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "USGS facility renovation includes chilled water system insulation, pumps, centrifugal chillers with refrigerant 134A, cooling towers, water treatment systems.",
+          "news": 3,
+          "quote": "Provide completely factory assembled and tested water cooled centrifugal chillers as specified herein. Each chiller shall be furnished complete with compressor, evaporator, condenser, refrigerant flow control devices, starter, variable frequency drive, and control panels. Each chiller shall be shipp",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "B08_Attachment_2_2020-06-12_USGS_EROS_Specifications_Bid_Documents_Rev_1.pdf",
+      "s": "screened",
+      "sol": "140G0126Q0288"
+    },
     "c065a734a1d3488a8fb29987c41d7303": {
       "c": 87028,
       "d": "2026-10-15",
@@ -45713,6 +47238,23 @@
       "n": "2.1.1 SOL - N0040627R0004.pdf",
       "s": "screened",
       "sol": "N0040627R0004"
+    },
+    "c07f9ec224374f7984dce15d9a9d0364": {
+      "c": 808,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "context": "hase I Evaluation 17 November and 31 December 2026 Phase I Notifications / Phase II Invitations 4-Jan-27 Phase II Pitch Sessions, if Used 11-22 January 2027 Phase III Invitation / Request for Full Proposal 25-Jan-27 Phase III Proposal Development and Negotiations 25 January-26 March 2027 Anticipated Contract Award 31-Mar-27 Anticipated 60-Day Phase-In 1 April - 320 May 2027 Anticipated Base-Period Start 1-Jun-27",
+          "finding": "Air Force Space Command's major CNECTS contract procurement anticipated for $31 million award March 2026 with phase-in through June 2027.",
+          "news": 4,
+          "quote": "Anticipated Contract Award 31-Mar-27 Anticipated 60-Day Phase-In 1 April - 320 May 2027 Anticipated Base-Period Start 1-Jun-27",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Tentative Schedule_15 Oct 2026_table.pdf",
+      "s": "screened",
+      "sol": "FA251827RCNECTS"
     },
     "c0937376211147bea66e1b12ecbe860d": {
       "c": 4052,
@@ -45761,6 +47303,28 @@
       "n": "SF1449_SPE8EF27P0025.PDF",
       "s": "screened",
       "sol": "7017423091"
+    },
+    "c0d6ce3998ad4d5eb55398ff07174620": {
+      "c": 720366,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "VA medical center renovation includes optometry/ophthalmology clinical expansion at Birmingham VAMC, converting existing wards 2K and 2B.",
+          "news": 3,
+          "quote": "Renovate Wards 2K and 2B for Optometry/Ophthalmology Clinical Use (36C24726R0134; VETERANS AFFAIRS, DEPARTMENT OF",
+          "verified": false
+        },
+        {
+          "finding": "Veterans Affairs renovation project for optometry/ophthalmology clinical spaces includes detailed HVAC, plumbing, and electrical systems with VAV boxes and clean steam humidifier.",
+          "news": 3,
+          "quote": "RENOVATE WARDS 2K AND 2B FOR OPTOMETRY/OPHTHALMOLOGY CLINICAL USE",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 9- IFB - Drawings REV.pdf",
+      "s": "screened",
+      "sol": "36C24726R0134"
     },
     "c0de46a625f142229a39f8e806992b0b": {
       "c": 6431,
@@ -45836,6 +47400,22 @@
       "n": "SPE60326R0518 Amendment 0006.pdf",
       "s": "screened",
       "sol": "SPE60326R0518"
+    },
+    "c13471294d054795a2dea893b4b54f8b": {
+      "c": 790,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "26R6006 Attach 20 - Dry Docking Experience.docx",
+      "s": "screened",
+      "sol": "N3220526R6006"
+    },
+    "c13b7819e65f4d94beb8ec1df66b2522": {
+      "c": 466,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Solicitation Site Visit Information 36C25925Q0740 02.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
     },
     "c1476a1b6197449ca546ede6cc6f2377": {
       "c": 5834,
@@ -46465,6 +48045,14 @@
       "s": "screened",
       "sol": "H92239_ARSOF-TS_FY27"
     },
+    "c37e392c5db54ef491990579df5460ec": {
+      "c": 627,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Site Map for site visit 635-21-139.pdf",
+      "s": "screened",
+      "sol": "36C25926R0082_1"
+    },
     "c39adc3db72a40e3aaded3739ed6bde1": {
       "c": 8985,
       "d": "2026-10-12",
@@ -46522,6 +48110,14 @@
       "s": "screened",
       "sol": "N4215827ASWC431"
     },
+    "c3caa43c97414a2bb552732a8f8f8acf": {
+      "c": 458,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Solicitation Site Visit Information Amendment 0004.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
+    },
     "c3e0dc098690441bad3235b8221d0d18": {
       "c": 4776,
       "d": "2026-10-13",
@@ -46578,6 +48174,14 @@
       "n": "JA Radformation2- redacted 2.pdf",
       "s": "screened",
       "sol": "36C10B26Q0678"
+    },
+    "c4103a6f07584d0e89e31486e98bcc2e": {
+      "c": 1434,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SATPC0042951 TAB 10 SOW PRINTED.pdf",
+      "s": "screened",
+      "sol": "80NSSC27946179Q"
     },
     "c444fd17391c40058cd02fb108dbb635": {
       "c": 58274,
@@ -47007,6 +48611,14 @@
       "s": "screened",
       "sol": "36C24W26R0055"
     },
+    "c60315342bc4441cb5adab50532b211f": {
+      "c": 1262,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "ATTACHMENT H - CERTIFICATION OF RECALL OR SAFETY ISSUES_NX EQ Image-Guided Surgical Navigation System.docx",
+      "s": "screened",
+      "sol": "36C10X27R0004_1"
+    },
     "c621e4ac04f0489e970c9c004c11c617": {
       "c": 680,
       "d": "2026-10-11",
@@ -47202,6 +48814,14 @@
       "n": "Attachment_3_-_E4_Plaza_New_0001.pdf",
       "s": "screened",
       "sol": "140D0427Q0879"
+    },
+    "c6ef00e669f4410380e6df5ff73f0d80": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (E) - WD 2015-5469 Rev 32.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
     },
     "c6f22ff68322454895a878c92e7f137e": {
       "c": 874,
@@ -47462,6 +49082,14 @@
       "n": "N0010426RK058 T107.pdf",
       "s": "screened",
       "sol": "N0010426RK058"
+    },
+    "c76c5637dee844938eb702b2daa204a9": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "Attachment VI (C) - WD 2015-5473 Rev 30.pdf",
+      "s": "wage_determination",
+      "sol": "SPE603-26-R-0529"
     },
     "c7759d6f478d4b1bb6418a0b4853e35b": {
       "c": 3284,
@@ -48216,6 +49844,14 @@
       "s": "screened",
       "sol": "N3220526R6120"
     },
+    "cad7fbaf7cc44dab90bf916024bf4126": {
+      "c": 178980,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment 3 - 668-22-106_Construction - Specifications.pdf",
+      "s": "screened",
+      "sol": "36C26027R0014"
+    },
     "cae402a3f62f4d7ea09168e5f9f9c47d": {
       "c": 42873,
       "d": "2026-10-10",
@@ -48536,6 +50172,14 @@
       "s": "screened",
       "sol": "N62742PRKAPRN"
     },
+    "cc49f71cdd1443beb39ca19ef36c1427": {
+      "c": 133,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Attachment 1 - Schedule of Items REVISED.xlsx",
+      "s": "screened",
+      "sol": "12445526Q0132"
+    },
     "cc6b9a4e43ef4fdbbf19d0a4e2f0339e": {
       "c": 313,
       "d": "2026-10-13",
@@ -48817,6 +50461,14 @@
       "s": "screened",
       "sol": "140PP027Q0008"
     },
+    "cd66c4c8abd84631a988b0863e9a1716": {
+      "c": 423,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SATPC0042907 Tab 07 2 SPECS_Redacted.pdf",
+      "s": "screened",
+      "sol": "80NSSC27945479Q"
+    },
     "cd66ddaed0b34ef29e3067645ede652b": {
       "c": 5087,
       "d": "2026-10-14",
@@ -48956,6 +50608,14 @@
       "n": "ACC DTA GROUND MANEUVER CSO_Amendment 25.docx",
       "s": "screened",
       "sol": "W912CH-26-S-0001"
+    },
+    "cde7c56baf4c406b898c478ccb33ba97": {
+      "c": 203,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "image.png",
+      "s": "screened",
+      "sol": "FA813727R0002 "
     },
     "cdfdd93654ee4c77864c156f731dd966": {
       "c": 9334,
@@ -49373,6 +51033,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-RICHMOND(MAIN)INFY27"
     },
+    "cf98928d717e415993ee928f44b2fc3b": {
+      "c": 428,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "10 - Past Performance References.docx",
+      "s": "screened",
+      "sol": "N0017827R3103"
+    },
     "cfa2e6dbcccd40eb94d48074d017ed32": {
       "c": 3562,
       "d": "2026-10-10",
@@ -49492,6 +51160,14 @@
       "n": "USCA27R0009 - Jury Management Solution DRAFT RFP.pdf",
       "s": "screened",
       "sol": "USCA27R0009"
+    },
+    "cff8ffb3ab8349a6be8a741c23be2a2f": {
+      "c": 648,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "SATPC0043053 Tab 04 4 SOW..pdf",
+      "s": "screened",
+      "sol": "80NSSC27947229Q"
     },
     "cffe8cb2ffa245879e814a4b00ebf694": {
       "c": 5075,
@@ -50315,6 +51991,14 @@
       "n": "Attachment 4 - Tomah_Mobile_MRI_Lease_SOW.docx",
       "s": "screened",
       "sol": "36C25226Q0692"
+    },
+    "d36921eba9b546caa00ea3f6a972ceda": {
+      "c": 512,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "image (1).png",
+      "s": "screened",
+      "sol": "FA813727R0002 "
     },
     "d37695dbe8794c51afbe87764ab426bc": {
       "c": 4563,
@@ -51358,6 +53042,14 @@
       "s": "screened",
       "sol": "SOF-2026-TSERVE"
     },
+    "d7b4166d96b14b50bed970a5710a57ea": {
+      "c": 755,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "IUID Checklist.pdf",
+      "s": "screened",
+      "sol": "SPRTA127R0010"
+    },
     "d7b9ffd256aa47ae987b1365a829bb34": {
       "c": 3358,
       "d": "2026-10-14",
@@ -51930,6 +53622,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-MCHENRYILFY27"
     },
+    "d9ef405f6bb34eb6b7c452803db77c37": {
+      "c": 438,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment V - Past Performance Reference List (PPRL).pdf",
+      "s": "screened",
+      "sol": "SPE603-26-R-0529"
+    },
     "d9f1aa522ad645adae8d7fcc106c5ee7": {
       "c": 3254,
       "d": "2026-10-14",
@@ -51961,6 +53661,14 @@
       "n": "S02_Att 7_Fort Sill NC 920CM3006 Plan Set Reduced 5 of 11.pdf",
       "s": "screened",
       "sol": "36C78626B0030"
+    },
+    "da2dbcfb9e444b29b9fdf6c28dad2c0c": {
+      "c": 647,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "WWYK250063 - Site Visit Sign In Sheet.jpg",
+      "s": "screened",
+      "sol": "FA813727R0002 "
     },
     "da31f767238049b89ec0caecf013da14": {
       "c": 547,
@@ -52212,6 +53920,22 @@
       "s": "screened",
       "sol": "W50S9E26BA002"
     },
+    "db16f862f227411ebe11f01038d749c0": {
+      "c": 91670,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Veterans Affairs facility in Sioux Falls, SD undergoing first-floor kitchen renovation with structural upgrades including new steel framing and concrete work.",
+          "news": 3,
+          "quote": "RENOVATE FIRST FLOOR KITCHEN (SF) (36C26326B0020; VETERANS AFFAIRS, DEPARTMENT OF",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Plans 438-21-403 Renovate 1st Floor Kitchen_Part2.pdf",
+      "s": "screened",
+      "sol": "36C26326B0020"
+    },
     "db29416fd0e741b29131077209646856": {
       "c": 48715,
       "d": "2026-10-14",
@@ -52359,6 +54083,14 @@
       "s": "screened",
       "sol": "36C26327Q0046"
     },
+    "db8313bc88e449a5a8ec09884e39c1c3": {
+      "c": 1505,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "007200_Attch14_Information for New Boilers.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "db8b46dd233047b58c192485d68377d1": {
       "c": 8060,
       "d": "2026-10-10",
@@ -52471,6 +54203,22 @@
       "n": "DARPA-PS-26-141_APM_Attachment_B_Proposal_Summary_Slide.pptx",
       "s": "screened",
       "sol": "DARPA-PS-26-141"
+    },
+    "dbe561be260f4eb6a1ef73ab85490c19": {
+      "c": 17391,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Marine Corps Special Operations Forces (SOF) Marine Raider facilities complex under construction at Camp Lejeune, North Carolina with detailed military infrastructure design.",
+          "news": 4,
+          "quote": "SOF MARINE RAIDER BATTALION / COMPANY / TEAM FACILITIES MARINE CORPS BASE CAMP LEJEUNE, NC",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "1701820dwg_Revision_0004_A2.pdf",
+      "s": "screened",
+      "sol": "N4008526R0138"
     },
     "dbe6bdf8f2c840b5a3b090aeb989b029": {
       "c": 1527,
@@ -52648,6 +54396,14 @@
       "s": "screened",
       "sol": "36C25027Q5393"
     },
+    "dc8ec20445d54ac4970473d594b15905": {
+      "c": 186,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "B08_SOL_A3_Q_A_Template.pdf",
+      "s": "screened",
+      "sol": "140D0426Q0641"
+    },
     "dc9ea96c7a8e4c1fa621ce9988567d29": {
       "c": 1628,
       "d": "2026-10-14",
@@ -52792,6 +54548,14 @@
       "n": "Amend0001 - Atch 2 - Construction Inspection Services QASP  - 10-06-2026.docx",
       "s": "screened",
       "sol": "86614126R00002"
+    },
+    "dd2b913ca15241f9b85c4f5f0e4d2e2f": {
+      "c": 1141,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "HAZMAT Reporting at Tinker AFB FEB 2025.pdf",
+      "s": "screened",
+      "sol": "FA813727R0002 "
     },
     "dd31f76578d14e0ea4eded981255d022": {
       "c": 4131,
@@ -53655,6 +55419,14 @@
       "s": "screened",
       "sol": "SPRRA1-27-Q-A004"
     },
+    "e0de4802a0b545a5b4eebb02934569f7": {
+      "c": 201246,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "B.08_Solicitation Amendment W912EP26BA0150003 SF30.pdf",
+      "s": "screened",
+      "sol": "W912EP26BA015"
+    },
     "e0ebf845ba3e4c62b00fcdd0ecc1438f": {
       "c": 717,
       "d": "2026-10-10",
@@ -54050,6 +55822,14 @@
       "n": "Attach (05) - Government Furnished Property.xlsx",
       "s": "screened",
       "sol": "N3220526R6077"
+    },
+    "e24fd20aca2746ab9ae20002b1f875af": {
+      "c": 700,
+      "d": "2026-10-17",
+      "m": "pptx",
+      "n": "ATTACHMENT 0016 Move Routes-Access-Size.pptx",
+      "s": "screened",
+      "sol": "W91QV126RA060"
     },
     "e25de43c0e524e0bb974577cc623dc0d": {
       "c": 35652,
@@ -54687,6 +56467,14 @@
       "s": "screened",
       "sol": "FA239626RB008"
     },
+    "e5098f89f50140638eee10db4b47887d": {
+      "c": 640,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment 4 - Budget Summary 693JK326RA001.pdf",
+      "s": "screened",
+      "sol": "693JK326RA001"
+    },
     "e511638726594cbcbfd1f0f69fb36ba3": {
       "c": 128870,
       "d": "2026-10-12",
@@ -54875,6 +56663,22 @@
       "s": "screened",
       "sol": "0NC2145-1"
     },
+    "e59712300c0a49a88d81e98e4938141c": {
+      "c": 910,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Defense Intelligence Agency awarded $295,320 contract to Kern Electronics for laser engraver system at Bolling AFB via sole-source brand-name acquisition.",
+          "news": 3,
+          "quote": "Total Award Amount $295,320.73 Awardee Kern Electronics & Lasers INC... Acquisition Strategy Other Than Full & Open- Brand Name Sole Source",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Notice of Award Kern OptiFlex Laser System2.pdf",
+      "s": "screened",
+      "sol": "HHM40226NoA"
+    },
     "e5996d180ee24890a4face60da121eb3": {
       "c": 4614,
       "d": "2026-10-13",
@@ -54978,6 +56782,14 @@
       "n": "3 Construction Specifications.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-LUBBOCK(SLIDE)TXFY27"
+    },
+    "e628d5ce30274088917ec9b5d4849ace": {
+      "c": 1006,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25726Q0676 0001_1.docx",
+      "s": "screened",
+      "sol": "36C25726Q0676"
     },
     "e642f7a2ee4e4a738d1798bbd7db784b": {
       "c": 17769,
@@ -55226,6 +57038,14 @@
       "n": "EXHIBIT F - Form 1364 Proposal to Lease Space.pdf",
       "s": "screened",
       "sol": "36C24W26R0055"
+    },
+    "e76a00b763ea456185936f57f9564746": {
+      "c": 1365,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "VA Las Vegas Region_RLP Amendment No. 3_4.9.2026.pdf",
+      "s": "screened",
+      "sol": "36C24W25R0115"
     },
     "e77e2bbd9f674408bb7fbf2a303a016e": {
       "c": 11856,
@@ -55630,6 +57450,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-CANTONOHFY27"
     },
+    "e91959b27e7c4b66bc5be167978f3f19": {
+      "c": 277,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "Site Visit Meet Up Location.png",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "e929c3d4293347e1a5385a482e8cf398": {
       "c": 4237,
       "d": "2026-10-11",
@@ -56016,6 +57844,22 @@
       "s": "screened",
       "sol": "N4008526R0138"
     },
+    "eaa3d98ab9de477aafe1a141fe64db87": {
+      "c": 22609,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "Design-Bid-Build contract for SOF Marine Raider Facilities Complex at Camp Lejeune includes 262-sheet construction package with telecommunications, electrical, plumbing, and mechanical systems for battalion/company/team facilities.",
+          "news": 4,
+          "quote": "BATTALION / COMPANY / TEAM FACILITIES IN CAMP LEJEUNE, NC P-1550 SOF MARINE RAIDER COVER SHEET",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "1701820 SITE - FINAL_v2_4 Flattened 1 of 2.pdf",
+      "s": "screened",
+      "sol": "N4008526R0138"
+    },
     "eaa6f7c4d47b44b2b58508a9dffd1183": {
       "c": 1107,
       "d": "2026-10-10",
@@ -56161,6 +58005,14 @@
       "s": "screened",
       "sol": "36C25227Q00480001"
     },
+    "eb0a7f850c304dddaad56d9ea5b8ae8c": {
+      "c": 279,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "26R6006 Attach 6 - QA Request for Clarification.docx",
+      "s": "screened",
+      "sol": "N3220526R6006"
+    },
     "eb0b079c5eb4426fb15833b7942b44b9": {
       "c": 215,
       "d": "2026-10-14",
@@ -56297,6 +58149,14 @@
       "n": "Physical Data.zip",
       "s": "screened",
       "sol": "69056726R000019"
+    },
+    "eb5a36a14e3a4fcb82de2e5a9a908361": {
+      "c": 238,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "Attachment J-12 Question and Comment Template.xlsx",
+      "s": "screened",
+      "sol": "1332KP26R0041"
     },
     "eb60178f86d84fa7b799635e69b3d421": {
       "c": 2832,
@@ -57048,6 +58908,36 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "ee286ecc33b644c49fafb0ad8ac032fd": {
+      "c": 421299,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "context": "Regulation (FAR), supplemental regulations agency, and the Standard Specifications for Construction of Roads and Bridges on Federal Highway Projects, FP-24. An electronic version may be found at https://highways.dot.gov/federal-lands/specs. Audio, Video, and AI Note-Taker Restrictions. To promote partnership, trust, and transparent communication, audio/video recording and AI notetaking are not allowed to be utilized during meetings between the Government representatives and contractor staff during this construction project. See subsection 103.01. Masterworks. This project requires the Contractor to use the Government\u2019s web-based system Masterworks to prepare all \u201cInspector\u2019s Daily Record of Construction Operations\u201d (Contractors Daily Reports) and measurement notes (pay notes). Attend a training session on the use of Masterworks. The virtual training sessions will be either a video presentation or live training as determined by the CO. Train additional staff. Submit a user account form to gain access to Masterworks. See Subsection 10",
+          "finding": "Federal contracts now prohibit audio/video recording and AI note-taking at contractor-government meetings, citing transparency concerns.",
+          "news": 4,
+          "quote": "audio/video recording and the deployment of third-party AI note-taking bots shall not be utilized during meetings between the Government representatives and contractor staff during this construction project",
+          "verified": true
+        },
+        {
+          "context": "hway State Trail, Mitchell Point Dr. to Ruthton Trailhead A-6 Block 13A BID OPENING: Virtual viewing of the bid opening is available via Google Meet at https://meet.google.com/wjh-bopr-vcg or dial: (US) +1 417-355-8582 PIN: 708 663 365# Beginning on May 7, 2025, visitors attempting to enter any Department of Transportation owned/leased facility using a driver\u2019s license that is not REAL ID-compliant will need to present an alternative form of acceptable identification (See List Below). Department of Transportation employees and contractors will need to ensure that they share this requirement with their visitors/guests prior to scheduling an event or meeting to avoid potential delays or denial of entry. As an alternative to a REAL ID-compliant driver\u2019s license, visitors may use the following forms of identification for building a",
+          "finding": "REAL ID requirement waived for DOT facility access; alternative IDs now accepted including foreign passports and tribal IDs.",
+          "news": 3,
+          "quote": "Beginning on May 7, 2025, visitors attempting to enter any Department of Transportation owned/leased facility using a driver's license that is not REAL ID-compliant will need to present an alternative form of acceptable identification",
+          "verified": true
+        },
+        {
+          "finding": "DOT forbearing enforcement of DEI, equity, and environmental contract clauses per Trump executive orders; immediate effect on federal procurement.",
+          "news": 5,
+          "quote": "DOT intends to take immediate action to begin forbearing enforcement of all Federal provisions, terms, and conditions, if inconsistent with EOs and implementing guidance issued by the current administration, including but not limited to: Executive Order (EO) 14151, Ending Radical and Wasteful Govern",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "IFB_69056726B000009_OR FLAP DOT CRGNSA 100(7).pdf",
+      "s": "screened",
+      "sol": "69056726B000009"
+    },
     "ee2e1fa0d666413fa2ebdc6a1fa20630": {
       "c": 953,
       "d": "2026-10-13",
@@ -57136,6 +59026,14 @@
       "n": "36C10X27D0036.docx",
       "s": "screened",
       "sol": "36C10X26Q0168"
+    },
+    "ee96dfe6c7da4d09bc4edd62c725b539": {
+      "c": 1180,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "B08 Attachment 0031 PWS Appendix A (1st ID).pdf",
+      "s": "screened",
+      "sol": "W519TC26RA054"
     },
     "eea1b4ef00aa4f818614387d37b79e90": {
       "c": 5715,
@@ -57276,6 +59174,14 @@
       "s": "screened",
       "sol": "N62649_DPM_HHG_Kanagawa_Tokyo"
     },
+    "ef0a0a5e2797436a8b96ed2725b0776c": {
+      "c": 1451,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "J-10 Quarterly Reporting Information.xlsx",
+      "s": "screened",
+      "sol": "852571198_"
+    },
     "ef0f068ab8da4d92a7f7df46cd93c6a0": {
       "c": 4214,
       "d": "2026-10-14",
@@ -57292,6 +59198,14 @@
       "s": "screened",
       "sol": "030ADV26R0055"
     },
+    "ef40d9fe6ab24faabd2d861d8b7e8e9e": {
+      "c": 453,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C26226Q0828 0003.docx",
+      "s": "screened",
+      "sol": "36C26226Q0828"
+    },
     "ef4f63c397f14719834ad78b0bd84672": {
       "c": 39862,
       "d": "2026-10-13",
@@ -57307,6 +59221,14 @@
       "n": "Attachment 0005 SBTA Utilization Matrix - 13OCT2026.xlsx",
       "s": "screened",
       "sol": "W15P7T-26-R-A006"
+    },
+    "ef65c3fcde644bffbb045825b4076d89": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "11 - Wage Determinations.pdf",
+      "s": "wage_determination",
+      "sol": "N0017827R3103"
     },
     "ef65fd40b7124cfbbff880de210f63b0": {
       "c": 653,
@@ -57532,6 +59454,14 @@
       "n": "C04c_A002_2b. BRF Unit Vol Data.xlsx",
       "s": "screened",
       "sol": "12363N26R4014"
+    },
+    "f057f60495fe4482855baec1cbcbdc21": {
+      "c": 372,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Att 03- LOE.pdf",
+      "s": "screened",
+      "sol": "N0017326R0008"
     },
     "f06ed2b1da58435d8257ce2531f3f75d": {
       "c": 3997,
@@ -58190,6 +60120,14 @@
       "s": "wage_determination",
       "sol": "FA812626Q0061_25Sep2026"
     },
+    "f2491ad53fce43fa9cf74e70cef6737c": {
+      "c": 1347,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "Notice.docx",
+      "s": "screened",
+      "sol": "FSS270001-WEBINAR"
+    },
     "f24d5c85af414a5aabd54c619085f32d": {
       "c": 4221,
       "d": "2026-10-14",
@@ -58648,6 +60586,14 @@
       "n": "Statement of Work.pdf",
       "s": "screened",
       "sol": "15B61227Q00000001"
+    },
+    "f3af7e53429f402c80dd7fa5860e9563": {
+      "c": 1570,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "P801 PLA RFI Questionnaire.docx",
+      "s": "screened",
+      "sol": "N6945027RP801"
     },
     "f3b4c2c4252a428da3e43cd7954ec417": {
       "c": 3596,
@@ -59908,6 +61854,14 @@
       "s": "screened",
       "sol": "15BRRC26R0000016"
     },
+    "f9150e82a33344848bb39640a9426688": {
+      "c": 87726,
+      "d": "2026-10-17",
+      "m": "ocr+pdf",
+      "n": "PLANS 100 Percent_THRO 204(1).pdf",
+      "s": "screened",
+      "sol": "6982AF25B000004"
+    },
     "f9164e6b201d489c9a723c4fda5a293b": {
       "c": 14904,
       "d": "2026-10-14",
@@ -60018,6 +61972,14 @@
       "n": "MDA MILC_Attch 2_OT Requirements_FINAL.pdf",
       "s": "screened",
       "sol": "26-MDA-12366"
+    },
+    "f96ce75ede49440087723c540d78c9ec": {
+      "c": 0,
+      "d": "2026-10-17",
+      "m": "ocr-image",
+      "n": "IMG_3669.jpeg",
+      "s": "no_text",
+      "sol": "3-1-QSC-T-27-001-001"
     },
     "f972bf4a04a942288cc8f2ad2ce3dbb4": {
       "c": 126,
@@ -60644,6 +62606,14 @@
       "s": "screened",
       "sol": "6-B143-P-00251-00"
     },
+    "fc99f2e18e1e4908b39f83b360cc8b32": {
+      "c": 348,
+      "d": "2026-10-17",
+      "m": "xlsx",
+      "n": "SOW Att 05_SMS Builder Equipment List_v0 2023 0817.xlsx",
+      "s": "screened",
+      "sol": "FA813727R0002 "
+    },
     "fc9a6a73365f4954a2ad124c37315840": {
       "c": 5983,
       "d": "2026-10-14",
@@ -61190,6 +63160,22 @@
       "s": "screened",
       "sol": "80JSC026R0021DRFP"
     },
+    "fe7f2f2d72fb4e5db64b417965f0b006": {
+      "c": 456,
+      "d": "2026-10-17",
+      "f": [
+        {
+          "finding": "VA awarded $31,586.88 contract to ALOTA LLC for TrackChair PWC (motorized wheelchair) at Iowa facility.",
+          "news": 3,
+          "quote": "AWARD AMOUNT* $31,586.88 ALOTA ACTION LLC AWARDEE CITY MARSHALL AWARDEE STATE MN",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "36C26327P0031_1.docx",
+      "s": "screened",
+      "sol": "36C26327Q0062"
+    },
     "fe80ca6a71414b8da0949be7f36500ee": {
       "c": 670,
       "d": "2026-10-13",
@@ -61229,6 +63215,14 @@
       "n": "J-3  Contract Qualification Checklist - QA.pdf",
       "s": "screened",
       "sol": "N6817127QN003"
+    },
+    "fec2b511f30243d196b479c2890559c9": {
+      "c": 586,
+      "d": "2026-10-17",
+      "m": "docx",
+      "n": "36C25925Q0740 0002.docx",
+      "s": "screened",
+      "sol": "36C25925Q0740"
     },
     "fed8298fdf234010b36df85e53537e6b": {
       "c": 8059,
@@ -61455,6 +63449,14 @@
       "n": "Attachment III PPQ.pdf",
       "s": "screened",
       "sol": "SPE60326R0530"
+    },
+    "ffce25bc9e454937914e47b1d7c11d26": {
+      "c": 1010,
+      "d": "2026-10-17",
+      "m": "pdf",
+      "n": "Attachment_4_IA_-_IEE_Representation_Form.pdf",
+      "s": "screened",
+      "sol": "140A2326Q0243"
     },
     "ffd36bed879f40e7adb505682ee88a46": {
       "c": 10765,
