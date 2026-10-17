@@ -1,0 +1,62 @@
+{
+ "date": "Saturday, October 17, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Nothing major in this window; Rep. Michael T. McCaul's annual disclosure arrived 62 days late",
+  "dek": "The only notable item is a late CY2025 annual financial disclosure from Rep. Michael T. McCaul (R-TX-10).",
+  "paragraphs": [
+   "No new FARA filings, financial disclosures, stock-trade reports or top-official contacts came in for this window. The Office of Government Ethics filing system showed 15 filings in the past three days, all previously reported.",
+   "The one item of note comes from the Deadline Watch: <strong>Rep. Michael T. McCaul</strong> (R-TX-10) filed his CY2025 annual disclosure on 10/14/2026, 62 days after the final extension date. That makes it a late disclosure.",
+   "The lda.gov service returned HTTP 503 errors during this run, so no lobbying data was available. The absence of LDA items below reflects the outage, not a verified lack of filings."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new ethics filings this window",
+   "paragraphs": [
+    "The Office of Government Ethics filing system shows 15 filings in the past three days, all previously reported."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Missing, late and delayed financial disclosures",
+   "paragraphs": [
+    "1 member filed a CY2025 annual disclosure late in this window."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Late disclosures: CY2025 annual reports filed after the deadline"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Michael T. McCaul (R-TX-10)</strong> filed <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116377.pdf\">the report</a> on 10/14/2026, 62 days after the final extension date."
+     ]
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA/LDA filings posted 2026-10-16 onward; financial disclosures filed 2026-10-14 onward, minus those reported in earlier editions; Saturday, October 17, 2026 PM edition.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "LDA HTTP 503: the lda.gov API was unavailable, so LDA registrations and activity could not be checked, and the lobbying-industry trend and pardon/clemency lobbying checks (Prediction markets, Crypto & digital assets, Artificial intelligence, Defense tech; 'pardon', 'clemency', 'commutation') also failed with HTTP 503. The Office of Government Ethics section reported no new filings in this window."
+ },
+ "beat": [
+  {
+   "name": "Rep. Michael McCaul",
+   "why": "Missing annual disclosure",
+   "mentions": [
+    {
+     "section": "Deadline Watch",
+     "html": "<strong>Rep. Michael T. McCaul (R-TX-10)</strong> filed <a href=\"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116377.pdf\">the report</a> on 10/14/2026, 62 days after the final extension date."
+    }
+   ]
+  }
+ ]
+}
