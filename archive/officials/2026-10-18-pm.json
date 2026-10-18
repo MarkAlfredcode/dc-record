@@ -1,0 +1,30 @@
+{
+ "date": "Sunday, October 18, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Quiet Sunday: no new filings cleared the screens",
+  "dek": "No new FARA, financial disclosure, LDA or OGE items turned up in this window, and the LDA lookups failed.",
+  "paragraphs": [
+   "The scripts found no new FARA registrations or documents, no House or Senate financial disclosures that earlier editions hadn't already reported, and no filings naming the President, Vice President or a cabinet-level official. The OGE pass flagged no new divestitures, ethics agreements or ethics disclosures.",
+   "The lda.gov API returned HTTP 503 for the main LDA pull and for every extras query, so this edition cannot say whether any lobbying registrations or reports were posted. The LDA section and the extras that depend on it (industries to watch, pardon lobbying) are therefore incomplete, not confirmed empty."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new ethics filings flagged",
+   "paragraphs": [
+    "No divestitures, ethics agreements, or newly filed ethics disclosures were reported for federal officials in the past three days."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA and LDA filings posted 2026-10-17 onward; financial disclosures filed 2026-10-15 onward, excluding filings reported in earlier editions; OGE filings from the past three days. PM edition, Sunday, October 18, 2026.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "LDA HTTP 503: the main LDA pull failed, so no LDA registrations, terminations or activity reports could be reviewed. The same lda.gov HTTP 503 error hit the industries-to-watch queries (prediction markets: Kalshi, Polymarket, 'prediction market', 'event contracts'; crypto and digital assets: 'stablecoin', 'digital asset', Coinbase; artificial intelligence: 'artificial intelligence', OpenAI, Anthropic; defense tech: Anduril, Palantir, 'drone', 'counter-UAS') and the pardon-lobbying queries ('pardon', 'clemency', 'commutation'), so those extras' empty findings are unverified. No OGE known gaps were listed in the input."
+ },
+ "beat": []
+}
