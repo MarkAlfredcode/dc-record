@@ -1,0 +1,355 @@
+{
+ "date": "Sunday, October 18, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Immigration and Customs Enforcement asks vendors to run 12 live artificial-intelligence applications and build autonomous software agents",
+  "dek": "A request for information read in full this evening describes an enterprise artificial-intelligence platform already supporting the agency's operational and investigative missions.",
+  "paragraphs": [
+   "<strong>Immigration and Customs Enforcement</strong>, part of the <strong>Department of Homeland Security</strong>, is seeking industry input on operating, enhancing and designing its enterprise artificial-intelligence, data and technology strategy and architecture. The request for information (solicitation RFI-ICE_ADTS_Sep2026) was read in full today, so this is a document finding on a notice posted earlier. The attachment was posted to SAM.gov on September 30.",
+   "According to the document, the agency's STELLA platform includes \"a portfolio of 12 fully deployed, production-ready AI applications (low, medium, and high complexity) currently actively supporting ICE's operational and investigative missions.\" It also describes an enterprise-wide, agency-branded generative-AI chatbot, and says governed data products are consumed from a <strong>Databricks</strong> Lakehouse.",
+   "The agency also says it is building toward autonomous software. Among its current initiatives is an \"Enterprise Agentic Software Factory,\" and the request describes \"a governed agentic orchestration and runtime layer that coordinates AI and software agents, including model abstraction and routing, task planning and decomposition, tool access, context and memory, budgets, and human escalation and stop conditions.\" The document also refers to processes for managing the agency's AI use case inventory, including high-impact evaluations and impact assessments.",
+   "The notice is a request for information, so no vendor has been chosen and the input gives no dollar value."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Notice",
+     "url": "https://sam.gov/opp/c27c062b5e7441c585d156c30e0979d0/view"
+    },
+    {
+     "text": "Enterprise AI, Data and Technology Strategy request for information",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3b21be56daf2435a822925d6f325d314/download"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Sole-Source Justifications",
+   "headline": "No new sole-source justifications in this evening's pull",
+   "paragraphs": [
+    "The pipeline found 0 new sole-source justifications this edition, none posted under other notice types and none held back as repeats from earlier editions."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Count: 0 new justifications, 0 promoted from other notice types, 0 already reported."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Extensions",
+   "headline": "No new contract extensions or bridges today",
+   "paragraphs": [
+    "No new justifications were logged, so there are no extensions or bridge contracts to report."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Count: 0 new extensions."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Award Notices",
+   "headline": "Navy's UiPath award rests on a sole-source justification citing a mandate to speed up artificial-intelligence adoption",
+   "paragraphs": [
+    "No new award notices were posted in this window; one earlier notice was already reported and is left out. One document read today on an earlier award notice is worth a look: a signed sole-source justification attached to the Navy's UiPath award."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Navy awards UiPath software licenses without competition to spread automation bots across its maintenance enterprise",
+     "meta": [
+      "UiPath",
+      "No amount given in the input",
+      "Award Notice",
+      "Department of the Navy, Naval Surface Warfare Center"
+     ],
+     "text": "This comes from a document read today on a notice posted earlier. The attached justification describes a sole-source firm-fixed-price award for <strong>UiPath</strong> software licenses and related services supporting <strong>Naval Sea Systems Command</strong> and its Navy Maritime Maintenance Enterprise Solutions program. It cites FAR 8.401(b), \"item peculiar to one manufacturer,\" as the basis for limiting sources. The program says it needs \"a single, continuous, shared, DoW-wide automation platform to develop and deploy software programs that automate repetitive manual tasks,\" and it points to a June 17, 2025 memorandum from the Department of the Navy's Chief Technology Officer on accelerating artificial-intelligence adoption.",
+     "links": [
+      {
+       "text": "Award notice",
+       "url": "https://sam.gov/opp/a0d1cc763e33401f82504d305961e52a/view"
+      },
+      {
+       "text": "Justification document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d0d200f9601d4e8185f44a8c659322df/download"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Award notices: 0 new, 1 already reported and left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Solicitations",
+   "headline": "Library of Congress runs its first test of high-density optical data storage, with no incumbent and foreign subcontractors allowed",
+   "paragraphs": [
+    "One new solicitation was posted (an Air Force test-site whitepaper request that an earlier edition already listed, so only an added Statement of Objectives is new), and one other was already reported. The items below come from documents read today on solicitations posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Library of Congress seeks a vendor for novel optical data storage and says nobody holds the job today",
+     "meta": [
+      "Solicitation",
+      "No value in the input",
+      "Response deadline not given",
+      "Library of Congress"
+     ],
+     "text": "According to the answers to vendor questions posted October 15, \"This is the first time the Library of Congress (LOC or Library) is seeking these specific requirements,\" and there is no incumbent. The Library says it issued a related but different requirement in 2025, a synthetic DNA data storage contract awarded to the <strong>University of Washington</strong>. The same document says \"Foreign subcontractors may be utilized. SAM.gov registration is not a requirement for subcontractors. Subcontractor work may be performed in facilities outside of the United States.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/ad82e31a59634830b1f593904f487452/view"
+      },
+      {
+       "text": "Questions and answers",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/17b7f9bec96c416a8174a239324b83ab/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Air Force keeps building its multi-billion-dollar Velocity Alliance test-infrastructure consortium</strong>. The Q&amp;A says the alliance is \"the primary execution vehicle for a multi-billion-dollar infrastructure modernization portfolio anticipated to run through Fiscal Year 2032,\" and the amendments read today date from April to July. (<a href=\"https://sam.gov/opp/fcf0ac83d57641aeb9a13d5aece3f7e4/view\">FA9101-26-9-Velocity_Alliance</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ca451cd4e82f44c18a63a41fdf1b62a5/download\">Q&amp;A</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/14579f08f31a4264a20f2fa5200bdd7b/download\">Amendment 3</a>)",
+      "<strong>Army seeks Apache helicopter sensor field representatives at forward bases from Alaska to Iraq</strong>. The quality assurance plan lists hubs at Fort Wainwright, Camp Humphreys in Korea, Illesheim in Germany and Al Asad and Erbil in Iraq. (<a href=\"https://sam.gov/opp/d7c8f6b881a74c85a521a41533ad3ef9/view\">W58RGZ26R0017</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3205a817cf6846b89860168e88531c42/download\">plan</a>)",
+      "<strong>Navy plans to buy High Lift Adapters and munitions loaders for F/A-18E/F and EA-18G aircraft, for itself and the Royal Australian Air Force</strong>. The statement of work covers production and delivery for both customers. (<a href=\"https://sam.gov/opp/a07193b6b92f4373940661db93377f64/view\">N6833526R1091</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/01a2c5154acb4904ac6b2f6763676bf3/download\">statement of work</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Solicitations: 1 new, 1 already reported. The one new notice, the Air Force's Test Site 2 whitepaper request (FA9101269TS2), was listed in an earlier edition and is left out (<a href=\"https://sam.gov/opp/3f84c5d350b345acb0f07728ee25502e/view\">notice</a>). Its two attached files are queued for a later edition."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Combined Synopsis/Solicitations",
+   "headline": "232 new combined synopses, nearly all Defense Logistics Agency parts orders",
+   "paragraphs": [
+    "Of 232 new notices, 231 are routine; the only flagged one is a Marine Corps request for portable toilets, handwashing stations, floodlights and dumpsters at Fort Stewart, Georgia, October 28 to November 24, for the 26 MEU Rural Urban Training Exercise (<a href=\"https://sam.gov/opp/38312d584ecb407eb47f967a74a20f82/view\">M2710027QSD01</a>). No value is given in the input. One more notice was already reported and is left out."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Routine notices by agency: Defense Logistics Agency, Land and Maritime, 163; Defense Logistics Agency, Aviation, 55; Defense Logistics Agency, Troop Support, 12; Defense Logistics Agency, Aviation at Cherry Point, 1. 231 of these point to the DIBBS portal, which was not followed. The attachments on the Fort Stewart notice (4 files) are queued for a later edition. 1 repeat left out."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Presolicitations",
+   "headline": "Nothing notable: one new presolicitation, from Veterans Affairs",
+   "paragraphs": [
+    "One new presolicitation was posted by the <strong>Department of Veterans Affairs</strong> and judged routine; two more were already reported and are left out."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Presolicitations: 1 new (Department of Veterans Affairs, 1), 2 already reported."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Special Notices",
+   "headline": "Air Force intelligence asks industry for artificial-intelligence tools that predict adversary moves",
+   "paragraphs": [
+    "One new special notice was posted, the Army's market research for backup generators at Red River Army Depot. The cards and list below mostly come from documents read today on special notices posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force intelligence seeks commercial tools to shift from reacting to predicting adversary action, plus a Space Force space-awareness call",
+     "meta": [
+      "Special Notice",
+      "Value not stated in the findings",
+      "Response deadline not given",
+      "Department of the Air Force"
+     ],
+     "text": "The <strong>Air Force</strong> Air Combat Command intelligence directorate's Commercial Solutions Opening (FA7037-26-S-C001) says it \"seeks solutions that leverage Super Intelligence and Machine Learning (SI/ML) to move from a reactive to a predictive intelligence posture.\" A separate call under the same notice, for the <strong>U.S. Space Force</strong>, seeks \"an innovative commercial solution to establish, operate, and sustain the elements of the JCO commercial SDA enterprise,\" with license terms that \"permit release to the United States Government and, when specified, to the North Atlantic Treaty Organization (NATO) and JCO Partner Nations.\" It also asks for equivalent services in designated classified environments.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/04b6eadd3e50467d84da64459c17830e/view"
+      },
+      {
+       "text": "Final call document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b2067a2e1411467988299215a2ca13ac/download"
+      },
+      {
+       "text": "Space Force call 0005",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/661b3db7be84441ebb2b3c747db9537c/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army wants an autonomous missile launcher prototype and expects contractors to pay part of the bill",
+     "meta": [
+      "Special Notice",
+      "No value in the input",
+      "Response deadline not given",
+      "Department of the Army"
+     ],
+     "text": "The Rapid Capabilities and Critical Technologies Office at Fort Belvoir is seeking a prototype of the Common Autonomous Multi-Domain Launcher, called CAML-Lite, which the statement of objectives describes as \"a mobile, autonomous launcher capability within the CAML family, intended to support worldwide deployment and cross-domain fires.\" The document says \"The Government has limited funding for the Phase 1 demonstration and does not intend to fund its full cost. Performer investment is required for the demonstration effort.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/3ef41b766b7d4bc2b138017c1836a40f/view"
+      },
+      {
+       "text": "Statement of objectives",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e72eeca8256d4617bcabd634919f7ed0/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Air Force Cryptologic Office opens a Commercial Solutions Opening that could fund projects from $50,000 to $50 million</strong>. The document says contracts are expected in that range, with periods of performance of one to five years. (<a href=\"https://sam.gov/opp/eadb6eb731744f148f92d841f12f3a4c/view\">FA7037-21-S-C001</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5be934ed6b2c48909d1c81fd178cf339/download\">document</a>)",
+      "<strong>Navy plans to fold Littoral Combat Ship maintenance contracts into the San Diego surface-ship multiple-award contract</strong>. A consolidation determination says combining them will cut the roughly 12-month lead time each contract needs to reach award. (<a href=\"https://sam.gov/opp/c8e0bf371e8c439a90b2e64c44e6dc49/view\">N6117727R5000-43182</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/597cd552ec9c4f2dbfa0de0b2ca499ae/download\">determination</a>)",
+      "<strong>Army Corps of Engineers Fort Worth district seeks sources for standby generators at Red River Army Depot in Texas</strong>. The market research covers a 1300-kilowatt generator and two 500-kilowatt generators to back up the rubber operations building. (<a href=\"https://sam.gov/opp/116bdcbfd8454937b5af8f4df00a805b/view\">Notice</a>; no solicitation number posted)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Special notices: 1 new, 0 already reported. The Red River notice's 2 attachments are queued for a later edition."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sources Sought",
+   "headline": "Air Force plans a multi-award agreement to bypass the usual contracting rules for aircraft spare parts",
+   "paragraphs": [
+    "Five new sources-sought notices were posted: two Army Corps of Engineers labor-agreement notices flagged as notable and three routine. The Immigration and Customs Enforcement artificial-intelligence request is today's Top Story and is not repeated here. The cards below come from documents read today on notices posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force plans a multi-award agreement for aircraft parts that could lead straight into production without re-bidding",
+     "meta": [
+      "Sources Sought",
+      "No value in the input",
+      "Response deadline not given",
+      "Department of the Air Force"
+     ],
+     "text": "The <strong>Air Force Life Cycle Management Center</strong> says it \"intends to establish an agile, direct multi-award Other Transaction Agreement (OTA) under 10 U.S.C. \u00a7 4022 immediately and 10 U.S.C. \u00a7 4023 forthcoming\" to fix spare-part shortages. The synopsis says successful completion of a competed prototype project is a \"direct, statutory legal mechanism\" to move into production. It also lists large-envelope metal 3D printing for flight-critical parts, for example \"up to 7 feet long by 5 feet wide by 1 foot thick.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/c6a271c3773444e8870a0b65eb2ea8d4/view"
+      },
+      {
+       "text": "Sources sought synopsis",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7d70da76d6924b9fa4a1bcb2a75e0e11/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Defense Intelligence Agency seeks internal-control and risk contractors who hold Top Secret clearances and have passed a polygraph",
+     "meta": [
+      "Sources Sought",
+      "No value in the input",
+      "Response deadline not given",
+      "Defense Intelligence Agency"
+     ],
+     "text": "The draft blanket purchase agreement requires that staff \"possess and maintain a Top Secret clearance with Sensitive Compartmented Information (SCI) access (TS/SCI) and a Counterintelligence (CI) Polygraph completed prior to beginning performance.\" The work covers internal control testing across financial reporting, financial systems and payment integrity, and the draft says \"ServiceNow IRM is the chosen tool for DIA's ERM/RMIC program.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/d28c3789685947b5bbfdd84809ea9d8c/view"
+      },
+      {
+       "text": "Draft performance work statement",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/6fa9305566f5454f9d1359b7cae29c75/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Eielson Air Force Base in Alaska is over capacity as the F-35 arrives, and the Army Corps is polling builders",
+     "meta": [
+      "Sources Sought",
+      "No value in the input",
+      "Response deadline not given",
+      "Department of the Army, Corps of Engineers Alaska District"
+     ],
+     "text": "A market-intelligence questionnaire for two projects, EIE483 and EIE484, says \"Eielson's current unaccompanied housing is at 129% utilization rate (795 airmen and 615 beds) with more personnel still arriving in support of the F-35 bed down and other missions.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/9229dbd820324f9397bc72c24b84dfd2/view"
+      },
+      {
+       "text": "Questionnaire",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/32358cf496cf42d9aaefcd02f45a5620/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Defense Health Agency looks for a cognitive screening tool it can roll out to the entire military force</strong>. The requirements say the tool must be \"currently fielded, 'battle-tested'\" and support at least 35,000 simultaneous sessions. (<a href=\"https://sam.gov/opp/e674d52f01d64aa1af3d64c8054f169d/view\">HT001527RFI1015</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/640b9e3540c04a17a990afdde3f4742e/download\">requirements</a>)",
+      "<strong>General Services Administration seeks trailers for the Navy's expeditionary engineers and bars Chinese components</strong>. The purchase description says no components \"originating from prohibited foreign entities or non-TAA compliant countries (including the People's Republic of China)\" may go into the trailers. (<a href=\"https://sam.gov/opp/09e88b47540f4530a1af0d7e3fe16485/view\">47QMCA27N0001</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/556d54e1a4124007a7488fcff6444d8f/download\">40-ton trailer</a>)",
+      "<strong>Army Corps of Engineers asks builders about a labor agreement for a $35 million-plus New Jersey beach replenishment project</strong>. It covers dredging for Cape May, Absecon Island and Long Beach Island. (<a href=\"https://sam.gov/opp/13c920f7980e484f82f03324fb1df3f8/view\">W912PM27BA004</a>)",
+      "<strong>Army Corps of Engineers makes the same labor-agreement inquiry for a $35 million-plus Delaware beachfill project</strong>. It covers Bethany Beach, Fenwick Island, Rehoboth Beach and Dewey Beach. (<a href=\"https://sam.gov/opp/80b6827b0d7c414d97a0b49c729212d5/view\">W912PM27BA005</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Sources sought: 5 new, 0 already reported. 2 flagged and written up above. Routine: Department of Veterans Affairs, 2; Department of the Army, Fort Worth district, 1."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "Two Defense Department modifications, $219 million for Lockheed Martin rocket launchers and $149 million for Electric Boat, are just now public",
+   "paragraphs": [
+    "From this morning's edition: USAspending.gov is pulled once a day.",
+    "There were 0 new awards of $2M+ (0 of them Defense Department awards just published after the 90-day hold), 2 large modifications and 0 cuts. Both modifications are Defense Department actions signed in July and only now published. Defense contract data is released with a 90-day delay. No routine items were screened out, so the end-of-edition list of other new awards is empty."
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "text": "<strong>Lockheed Martin Corporation</strong> received a $219,222,018 modification from the <strong>Department of Defense</strong> (<strong>Department of the Army</strong>), signed July 17 and published this week. Modification PZ0005 is a definitized letter contract: an earlier letter contract that let work start before the price was settled now has final terms. The description says it covers fiscal 2025 M270A2 launchers (guided-missile launchers) and international spares. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W31P4Q25C0007_9700_-NONE-_-NONE-\">award</a>)"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Electric Boat Corporation</strong> received a $149,028,497 modification from the <strong>Department of Defense</strong> (<strong>Department of the Navy</strong>), signed July 16 and published this week. Modification P00204 is a funding-only action, and its description says only \"FUNDING ACTION.\" The classification codes point to shipbuilding work, but the record does not say which program. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0002420C2120_9700_-NONE-_-NONE-\">award</a>)"
+    },
+    {
+     "type": "note",
+     "text": "Under $2 million: 0 new awards screened, 0 flagged and none left unlisted."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new apportionment files in this window",
+   "paragraphs": [
+    "The Office of Management and Budget did not approve or modify any apportionment files during the Oct. 13\u201318 period. Spending authority remains under the previously approved apportionments tracked across federal agencies."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 18, 2026, PM edition (Pacific time). SAM.gov notices posted since the prior edition, plus documents read this run on earlier notices. USAspending is pulled in the morning edition only and is carried over by script.",
+  "sources": "SAM.gov contract opportunities and their attached documents; OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API (morning edition only).",
+  "known_gaps": "No source errors were reported for the fetch. The Office of Management and Budget apportionment pass found no new files in the October 13 to 18 window. The lobbying cross-check of 9 large awardees hit lda.gov HTTP 503 errors for three of them (miscellaneous foreign awardees, Capex Construction LLC, Hamilton Pacific Chamberlain LLC). Document coverage: this run screened 505 files and produced the late findings above, but all 12 files attached to the notices in this edition (on 4 notices) are queued to be read in a later edition, and 1,350 files overall are queued for later editions. 235 links to outside portals (231 DIBBS, 4 other Defense portals) were not followed."
+ },
+ "beat": []
+}
