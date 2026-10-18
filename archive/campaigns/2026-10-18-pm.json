@@ -1,0 +1,29 @@
+{
+ "date": "Sunday, October 18, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings surfaced since the last edition",
+  "dek": "All 151 RFAI and Form 99 filings in the three-day window were already reported in earlier editions.",
+  "paragraphs": [
+   "The scripts found 151 FEC RFAI and Form 99 filings received since October 15, 2026, but every one was already covered in a prior edition, so there are no new RFAI letters, Form 99 correspondence, terminations or voided and negative transactions to report in this edition.",
+   "The only item from the deterministic checks is a late October Quarterly report: <strong>Rep. Emanuel Cleaver (D-MO-5)</strong>'s campaign filed on 10/16/2026, one day late. It appears in the Deadline Watch section below."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Nothing new in Deadline Watch after removing items already reported",
+   "paragraphs": [
+    "1 sitting member' campaigns filed the October Quarterly (Q3) report late."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "FEC RFAI (FRQ) and Form 99 filings received October 15, 2026 onward, checked as of the PM edition on Sunday, October 18, 2026.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "APOD HTTP 500 (omitted)."
+ },
+ "beat": []
+}
