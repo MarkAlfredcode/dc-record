@@ -1,0 +1,115 @@
+{
+ "date": "Sunday, October 18, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Rep. Dan Crenshaw still has no 2025 annual financial disclosure on file, 66 days past his final extension",
+  "dek": "The Deadline Watch check flags the Texas Republican as the one sitting member with no CY2025 annual report after every extension has run out.",
+  "paragraphs": [
+   "<strong>Rep. Dan Crenshaw</strong> (R-TX-2) filed for an extension on 6/4/2026. His final extension date was 8/13/2026, and no calendar-year 2025 annual report was on file as of this edition, 66 days later. He is the only sitting member the check found in that position.",
+   "The check compares every sitting member against the Clerk of the House index and Senate eFD. A filing under an unexpected spelling of a name can read as missing, so the finding rests on that index match.",
+   "Elsewhere the day is quiet. The OGE summary reports no new divestitures, terminations or ethics agreements. The scripts found no new FARA filings, House or Senate disclosures, or presidential and vice-presidential 278-Ts. The lda.gov API returned HTTP 503 during the run, so the lobbying checks are incomplete."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new ethics filings this period",
+   "paragraphs": [
+    "OGE filings received during the past three days contain no new divestitures, terminations, or ethics agreements. All filings in the window were previously reported."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "Lobbying data was unavailable this run",
+   "paragraphs": [
+    "The lda.gov API returned HTTP 503, so the day's registrations, terminations and activity reports could not be reviewed and nothing is reported here. The watched-industry and pardon-lobbying checks failed with the same error. LDA third-quarter LD-2 activity reports are due 10/20/2026, in 2 days."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Missing, late and delayed financial disclosures",
+   "paragraphs": [
+    "1 sitting member still has no CY2025 annual financial disclosure on file, past every extension."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Still missing: no CY2025 annual report on file"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Dan Crenshaw (R-TX-2)</strong>: extension filed 6/4/2026; 66 days past the 8/13/2026 final extension date."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Checked against every sitting member's filings in the Clerk of the House index and Senate eFD. Members sworn in after Nov. 1 of the report year owe no annual report and are excluded. Spot-check a name before publishing: a filing under an unexpected name spelling can read as missing."
+    },
+    {
+     "type": "subhead",
+     "text": "Coming due"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>10/20/2026</strong> (2 days): LDA third-quarter LD-2 activity reports due"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Ethics Agreement Tracker",
+   "headline": "Ethics agreements still awaiting compliance certification",
+   "paragraphs": [
+    "7 confirmed officials have no posted certification of ethics-agreement compliance, more than 30 days past deadline."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "No compliance certification posted, past deadline"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Michelle White Bowman</strong> (Governor &amp; Vice Chairman for Supervision, Federal Reserve System Board of Governors): confirmed 6/4/2025, certification due 9/2/2025, 411 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/98C6B54F7E9EBF2A85258C66002C8D51/$FILE/Bowman%2C%20Michelle%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Andrea R Lucas</strong> (Commissioner 2, Equal Employment Opportunity Commission): confirmed 7/31/2025, certification due 10/29/2025, 354 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/524880C156A84DF585258C95002C9275/$FILE/Lucas%2C%20Andrea%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Jonathan Morrison</strong> (Administrator, National Highway Traffic Safety Administration, Department of Transportation): confirmed 9/18/2025, certification due 12/17/2025, 305 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2F004F967FAB12C085258C8B002C8C43/$FILE/Morrison%2C%20Jonathan%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Sean O'Keefe</strong> (Deputy Under Secretary for Personnel &amp; Readiness, Department of Defense/Office of The Secretary): confirmed 9/18/2025, certification due 12/17/2025, 305 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4DF22552ED9952C385258C62002C8C4D/$FILE/O%27Keefe%2C%20Sean%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Joseph Popolo</strong> (Ambassador to Netherlands (Kingdom of), Department of State): confirmed 10/7/2025, certification due 1/5/2026, 286 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/939374EC5534231985258C75002C92A5/$FILE/Popolo%2C%20Joseph.%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Ronald A Parsons</strong> (U.S. Attorney South Dakota 2, Department of Justice): confirmed 10/7/2025, certification due 1/5/2026, 286 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E09EB39F48B37AD985258CCC002C992A/$FILE/Parsons%2C%20Jr.%2C%20Ronald%20A.%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Marc Berkowitz</strong> (Assistant Secretary for Space Policy, Department of Defense/Office of The Secretary): confirmed 12/18/2025, certification due 3/18/2026, 214 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BF37B1F1ED801E4B85258D04002C201E/$FILE/Berkowitz%2C%20Marc%20%20finalEA.pdf\">Ethics agreement</a>"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Tracking 483 Senate-confirmed officials with ethics agreements since Jan. 20, 2025. Deadlines are counted from the confirmation date on congress.gov plus the agreement's stated window (usually 90 days) -- OGE can grant extensions that aren't public, so treat each flag as a lead to confirm, not a finding. OGE posts certifications with a lag, so nothing inside 30 days of a deadline is flagged. A certification filed but not yet posted by OGE will read as missing: confirm with the agency before publishing."
+    }
+   ],
+   "no_news": true
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA and LDA filings posted 2026-10-17 onward; House and Senate disclosures filed 2026-10-15 onward and not reported in earlier editions; OGE filings from the past three days.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "LDA HTTP 503: the day's lobbying filings could not be fetched. The watched-industry lobbying checks (prediction markets, crypto and digital assets, artificial intelligence, defense tech) and the pardon, clemency and commutation lobbying checks also failed with lda.gov HTTP 503, so their 'no new filings' results are unverified. The OGE summary listed no known gaps."
+ },
+ "beat": [
+  {
+   "name": "Rep. Dan Crenshaw",
+   "why": "Missing annual disclosure",
+   "mentions": [
+    {
+     "section": "Deadline Watch",
+     "html": "<strong>Rep. Dan Crenshaw (R-TX-2)</strong>: extension filed 6/4/2026; 66 days past the 8/13/2026 final extension date."
+    }
+   ]
+  }
+ ]
+}
