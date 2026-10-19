@@ -354,6 +354,28 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "anthropic": {
+    "d": "2026-10-19",
+    "examples": [
+      {
+        "agency": "Smithsonian Institution",
+        "amount": 114000.0,
+        "recipient": "ANTHROPIC, PBC",
+        "start": "2026-10-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_33330227CF0010440_3300_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 18960.0,
+        "recipient": "ANTHROPIC, PBC",
+        "start": "2026-02-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19PCRD26K4661_1900_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2026-02-11",
+    "has_contracts": true,
+    "raw_hits": 2
+  },
   "applied biosystem": {
     "d": "2026-10-10",
     "examples": [
@@ -597,6 +619,35 @@
       }
     ],
     "first": "2007-09-20",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "beckman coulter": {
+    "d": "2026-10-19",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 36655675.0,
+        "recipient": "BECKMAN COULTER, INC",
+        "start": "2022-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50122C00070_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 11877755.58,
+        "recipient": "BECKMAN COULTER, INC",
+        "start": "2018-05-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25718N1596_3600_V797D70260_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 11663380.51,
+        "recipient": "BECKMAN COULTER, INC",
+        "start": "2018-07-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25718N1762_3600_V797D70260_3600"
+      }
+    ],
+    "first": "2007-09-05",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -1034,6 +1085,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 100
+  },
+  "circor aerospace": {
+    "d": "2026-10-19",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 5462755.21,
+        "recipient": "CIRCOR AEROSPACE, INC.",
+        "start": "2012-07-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ12C0124_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4855782.0,
+        "recipient": "CIRCOR AEROSPACE, INC.",
+        "start": "2007-12-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0004_9700_W58RGZ04D0075_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3897600.0,
+        "recipient": "CIRCOR AEROSPACE, INC.",
+        "start": "2009-09-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRHA109C0027_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2004-12-17",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "cis secure computing": {
     "d": "2026-10-16",
@@ -1498,6 +1578,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "expo group": {
+    "d": "2026-10-19",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 145701.53,
+        "recipient": "THE EXPO GROUP, LLC",
+        "start": "2024-11-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6134025P0004_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 112467.17,
+        "recipient": "THE EXPO GROUP, LLC",
+        "start": "2023-11-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6134024P0003_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 90884.0,
+        "recipient": "THE EXPO GROUP, LLC",
+        "start": "2022-11-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6134023P0013_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2009-10-19",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "fisher scientific": {
     "d": "2026-10-10",
     "examples": [
@@ -1524,6 +1633,35 @@
       }
     ],
     "first": "2008-09-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "flow science": {
+    "d": "2026-10-19",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1323241.0,
+        "recipient": "FLOW SCIENCES, INC",
+        "start": "2025-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911S625PA022_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 320138.0,
+        "recipient": "FLOW SCIENCES, INC",
+        "start": "2021-01-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911S621P0003_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of the Interior",
+        "amount": 250000.0,
+        "recipient": "FLOW SCIENCE INCORPORATED",
+        "start": "2008-02-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_INPP8360080021_1443_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-02-28",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -4676,6 +4814,35 @@
       }
     ],
     "first": "2003-10-28",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:QLNMVC12KWY3": {
+    "d": "2026-10-19",
+    "examples": [
+      {
+        "agency": "General Services Administration",
+        "amount": 1151643464.2,
+        "recipient": "LEIDOS, INC.",
+        "start": "2021-02-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA21C0002_4732_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Transportation",
+        "amount": 685079600.02,
+        "recipient": "LEIDOS, INC.",
+        "start": "2001-06-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DTFA0101CA0065CALL0001_6920_DTFA0101CA0065_6920"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 255292517.35,
+        "recipient": "LEIDOS, INC.",
+        "start": "2015-04-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HT001115C0015_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2001-06-18",
     "has_contracts": true,
     "raw_hits": 50
   },
