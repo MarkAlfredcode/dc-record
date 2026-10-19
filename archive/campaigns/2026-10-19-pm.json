@@ -1,0 +1,35 @@
+{
+ "date": "Monday, October 19, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings surfaced since the last edition",
+  "dek": "All 96 RFAI and Form 99 filings received since October 16 were already reported in earlier editions.",
+  "paragraphs": [
+   "Scripts found no new FEC requests for additional information (RFAIs), no new Form 99 correspondence, no new termination filings and no new voided or negative transactions to report in this edition. No red-flag keyword hits were recorded.",
+   "The one item from the deterministic extras is a late report: Rep. Emanuel Cleaver (D-MO-5) filed his October Quarterly (Q3) report on 10/16/2026, one day late. The Deadline Watch section below has the details."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Nothing new in Deadline Watch after removing items already reported",
+   "paragraphs": [
+    "1 sitting member' campaigns filed the October Quarterly (Q3) report late."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "FEC RFAI (FRQ) and Form 99 filings received October 16, 2026 onward, as of the Monday, October 19, 2026 PM edition. 96 filings were in the window, and all 96 were already reported in a prior edition.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "No tasks were skipped"
+ },
+ "apod": {
+  "title": "NASA Science",
+  "image_url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+  "caption": "What is Treble Clef? This unusual radio structure extends over 2 million light-years and resembles a common musical symbol -- but has its visible light hidden by our own Milky Way Galaxy.",
+  "credit": "apod.nasa.gov"
+ },
+ "beat": []
+}
