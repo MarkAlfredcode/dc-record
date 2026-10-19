@@ -222,18 +222,46 @@ def incumbents(cand_ids, keys, today, errors):
     return man
 
 
+def _apod_page(errors):
+    """NASA moved APOD to science.nasa.gov/apod in 2026 and api.nasa.gov's
+    planetary/apod now returns the NASA logo as the image (and often a 500),
+    so read the page itself: title, hero image, explanation, credit."""
+    status, body = http_get("https://science.nasa.gov/apod/", timeout=25)
+    if status >= 400:
+        errors.append(f"APOD page HTTP {status}")
+        return None
+    page = body.decode("utf-8", "replace") if isinstance(body, bytes) else body
+    img = re.search(r"https://assets\.science\.nasa\.gov/dynamicimage/assets/science/cds/apod/apod/[^\"'?\s]+\.(?:jpe?g|png)", page)
+    title = re.search(r'<h2 class="display-48[^>]*>([^<]+)</h2>', page)
+    expl = re.search(r"<strong>Explanation:</strong>(.*?)(?:<br\s*/?>\s*<br|</p>)", page, re.S)
+    credit = re.search(r"Credit:</th>\s*<td[^>]*>(.*?)</td>", page, re.S)
+    if not (img and title and expl):
+        errors.append("APOD page layout changed (image/title/explanation not found)")
+        return None
+    plain = lambda h: " ".join(html.unescape(re.sub(r"<[^>]+>", "", h)).split())
+    text = re.sub(r"^Explanation\s*:\s*", "", plain(expl.group(1)))
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    return {"title": html.unescape(title.group(1)).strip(), "image_url": img.group(0) + "?w=1024",
+            "caption": html.escape(" ".join(sentences[:2]), quote=False),
+            "credit": (plain(credit.group(1)) + " / " if credit else "") + "science.nasa.gov/apod"}
+
+
 def apod(errors):
+    pic = _apod_page(errors)
+    if pic:
+        return pic
     status, body = http_get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY", timeout=20)
     if status >= 400:
         errors.append(f"APOD HTTP {status} (omitted)")
         return None
     d = json.loads(body)
-    if d.get("media_type") != "image":
+    url = d.get("url") or d.get("hdurl") or ""
+    if d.get("media_type") != "image" or "nasa-logo" in url:  # the API's broken-scraper placeholder
         return None
     sentences = re.split(r"(?<=[.!?])\s+", " ".join((d.get("explanation") or "").split()))
     caption = html.escape(" ".join(sentences[:2]), quote=False)
     credit = " ".join((d.get("copyright") or "").split())
-    return {"title": d.get("title"), "image_url": d.get("url") or d.get("hdurl"), "caption": caption,
+    return {"title": d.get("title"), "image_url": url, "caption": caption,
             "credit": (credit + " / " if credit else "") + "apod.nasa.gov"}
 
 
