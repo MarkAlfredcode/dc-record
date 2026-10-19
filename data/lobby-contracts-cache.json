@@ -43,6 +43,10 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "battle s transportation": {
+    "checked": "2026-10-19",
+    "result": null
+  },
   "birmingham industrial construction": {
     "checked": "2026-10-09",
     "result": null
@@ -72,6 +76,28 @@
       "ytd": 120000.0
     }
   },
+  "capex construction": {
+    "checked": "2026-10-19",
+    "result": null
+  },
+  "carahsoft technology": {
+    "checked": "2026-10-19",
+    "result": {
+      "client": "CARAHSOFT TECHNOLOGY CORPORATION",
+      "firms": [
+        "HETTINGER STRATEGY GROUP LLC",
+        "J.A. GREEN AND COMPANY"
+      ],
+      "issues": [
+        "Government Issues",
+        "Defense"
+      ],
+      "n_filings": 3,
+      "quarters": 1,
+      "url": "https://lda.gov/filings/public/filing/bd779b37-ff14-412b-8816-e01f8a0b9532/print/",
+      "ytd": 20000.0
+    }
+  },
   "censeo consulting group": {
     "checked": "2026-10-05",
     "result": null
@@ -84,8 +110,16 @@
     "checked": "2026-10-16",
     "result": null
   },
+  "coho consulting group": {
+    "checked": "2026-10-19",
+    "result": null
+  },
   "crane": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "deployahp": {
+    "checked": "2026-10-19",
     "result": null
   },
   "direct energy business": {
@@ -106,6 +140,10 @@
   },
   "guidehouse": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "hamilton pacific chamberlain": {
+    "checked": "2026-10-19",
     "result": null
   },
   "hamline construction": {
@@ -149,6 +187,29 @@
     "checked": "2026-10-16",
     "result": null
   },
+  "international automated systems": {
+    "checked": "2026-10-19",
+    "result": null
+  },
+  "international business machines": {
+    "checked": "2026-10-19",
+    "result": {
+      "client": "INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM)",
+      "firms": [
+        "INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM)"
+      ],
+      "issues": [
+        "Budget/Appropriations",
+        "Taxation/Internal Revenue Code",
+        "Trade (domestic/foreign)",
+        "Copyright/Patent/Trademark"
+      ],
+      "n_filings": 2,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/30d7b332-c6f8-47d9-8efa-897d46c5996a/print/",
+      "ytd": 1440000.0
+    }
+  },
   "island empire technology systems": {
     "checked": "2026-10-08",
     "result": null
@@ -181,6 +242,26 @@
   },
   "jones lang lasalle americas": {
     "checked": "2026-10-10",
+    "result": null
+  },
+  "kearney p c": {
+    "checked": "2026-10-19",
+    "result": {
+      "client": "KEARNEY & COMPANY, P.C.",
+      "firms": [
+        "HOGAN LOVELLS US LLP"
+      ],
+      "issues": [
+        "Accounting"
+      ],
+      "n_filings": 3,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/f6a3ec80-e708-4f28-be0a-c4505b1be2c7/print/",
+      "ytd": 150000.0
+    }
+  },
+  "lc fluharty construction": {
+    "checked": "2026-10-19",
     "result": null
   },
   "leadsonline": {
@@ -255,6 +336,10 @@
   },
   "mindpoint group": {
     "checked": "2026-10-16",
+    "result": null
+  },
+  "miscellaneous foreign awardees": {
+    "checked": "2026-10-19",
     "result": null
   },
   "nakupuna federal": {
@@ -427,6 +512,10 @@
     "checked": "2026-10-08",
     "result": null
   },
+  "transox": {
+    "checked": "2026-10-19",
+    "result": null
+  },
   "trillamed": {
     "checked": "2026-10-16",
     "result": null
@@ -453,6 +542,10 @@
   },
   "vetmed group": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "watanabe enterprises": {
+    "checked": "2026-10-19",
     "result": null
   },
   "wieland rolled products north america": {
