@@ -803,6 +803,35 @@
     "has_contracts": true,
     "raw_hits": 85
   },
+  "better direct": {
+    "d": "2026-10-20",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 5191868.02,
+        "recipient": "BETTER DIRECT, LLC",
+        "start": "2015-09-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_H9222215F0241_9700_NNG15SD10B_8000"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4998381.11,
+        "recipient": "BETTER DIRECT, LLC",
+        "start": "2015-08-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC102815F0393_9700_NNG15SD10B_8000"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4290900.4,
+        "recipient": "BETTER DIRECT, LLC",
+        "start": "2014-01-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_M6785414C7803_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2014-01-27",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "boeing": {
     "d": "2026-10-13",
     "examples": [
@@ -1498,6 +1527,35 @@
     "has_contracts": false,
     "raw_hits": 0
   },
+  "cybernamic": {
+    "d": "2026-10-20",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 24186858.49,
+        "recipient": "CYBERNAMIC LLC",
+        "start": "2022-09-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR22F00000242_7003_47QTCB21D0381_4732"
+      },
+      {
+        "agency": "Department of Energy",
+        "amount": 6769133.95,
+        "recipient": "CYBERNAMIC LLC",
+        "start": "2025-01-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_89233125FNA400675_8900_47QTCB21D0381_4732"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 3168805.66,
+        "recipient": "CYBERNAMIC LLC",
+        "start": "2023-01-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15F06723F0001273_1549_47QTCB21D0381_4732"
+      }
+    ],
+    "first": "2022-09-21",
+    "has_contracts": true,
+    "raw_hits": 4
+  },
   "dawson solution": {
     "d": "2026-10-19",
     "examples": [
@@ -1553,6 +1611,35 @@
       }
     ],
     "first": "2007-06-26",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "design alaska": {
+    "d": "2026-10-20",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 6940788.0,
+        "recipient": "DESIGN ALASKA, INC.",
+        "start": "2026-04-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911KB26FA044_9700_W911KB23D0010_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4242928.0,
+        "recipient": "DESIGN ALASKA, INC.",
+        "start": "2025-09-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA500425C0034_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1477839.0,
+        "recipient": "DESIGN ALASKA, INC.",
+        "start": "2021-05-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911KB21F0059_9700_W911KB17D0008_9700"
+      }
+    ],
+    "first": "2005-09-26",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -2606,6 +2693,35 @@
     "first": "2022-05-26",
     "has_contracts": true,
     "raw_hits": 48
+  },
+  "johnson control fire protection": {
+    "d": "2026-10-20",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 11692180.54,
+        "recipient": "JOHNSON CONTROLS FIRE PROTECTION LP",
+        "start": "2011-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN292201100194U_7529_GS06F0054N_4730"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 8264979.0,
+        "recipient": "JOHNSON CONTROLS FIRE PROTECTION LP",
+        "start": "2010-09-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNK10CA67C_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 5918731.33,
+        "recipient": "JOHNSON CONTROLS FIRE PROTECTION LP",
+        "start": "2004-02-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912CZ04F0078_9700_GS06F0054N_4730"
+      }
+    ],
+    "first": "2003-06-19",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "kapule": {
     "d": "2026-10-16",
@@ -4172,6 +4288,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "soderberg manufacturing": {
+    "d": "2026-10-20",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 630875.0,
+        "recipient": "SODERBERG MANUFACTURING COMPANY, INC.",
+        "start": "2010-06-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPM4A610C0283_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 409780.0,
+        "recipient": "SODERBERG MANUFACTURING COMPANY, INC.",
+        "start": "2007-07-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA850407C0009_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 395760.0,
+        "recipient": "SODERBERG MANUFACTURING COMPANY, INC.",
+        "start": "2010-12-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPM4A711C0162_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-07-19",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "sonosite": {
     "d": "2026-10-15",
     "examples": [],
@@ -5002,6 +5147,35 @@
       }
     ],
     "first": "2016-06-29",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:J4TDZHLCUGW3": {
+    "d": "2026-10-20",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 389497831.12,
+        "recipient": "METGREEN SOLUTIONS INC",
+        "start": "2023-09-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B23F0319_3600_NNG15SD37B_8000"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 116219871.83,
+        "recipient": "METGREEN SOLUTIONS INC",
+        "start": "2020-09-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B20F0403_3600_NNG15SD37B_8000"
+      },
+      {
+        "agency": "Department of the Treasury",
+        "amount": 49302709.89,
+        "recipient": "METGREEN SOLUTIONS INC",
+        "start": "2023-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_2032H524F00012_2050_NNG15SD87B_8000"
+      }
+    ],
+    "first": "2019-01-24",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -6359,6 +6533,35 @@
     "first": "2014-03-24",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "vts aviation": {
+    "d": "2026-10-20",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 5256424.89,
+        "recipient": "VTS AVIATION LLC",
+        "start": "2021-01-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_M6739921P0016_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1461242.4,
+        "recipient": "VTS AVIATION LLC",
+        "start": "2024-05-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_M6739924P0016_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 367900.0,
+        "recipient": "VTS AVIATION LLC",
+        "start": "2020-10-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA486121F0014_9700_FA486120A0010_9700"
+      }
+    ],
+    "first": "2018-03-06",
+    "has_contracts": true,
+    "raw_hits": 17
   },
   "whoi": {
     "d": "2026-10-15",
