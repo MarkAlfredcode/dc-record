@@ -27,6 +27,8 @@ import tempfile
 import time
 import zipfile
 
+import doc_metadata
+
 OCR_MIN_WORDS = 40
 OCR_MAX_PAGES = 150     # per document; the rest are reported as unread pages
 ZIP_MAX_BYTES = 400_000_000
@@ -75,6 +77,12 @@ def _ocr_page(pdf, page, d):
 
 
 def read_pdf(path, deadline=None):
+    text, info = _read_pdf_text(path, deadline)
+    doc_metadata.attach(path, text, info)
+    return text, info
+
+
+def _read_pdf_text(path, deadline=None):
     r = _run(["pdftotext", "-layout", path, "-"], timeout=300)
     pages = r.stdout.decode("utf-8", "replace").split("\f")
     if pages and not pages[-1].strip():
@@ -214,7 +222,7 @@ def read_zip(z, deadline=None, depth=0):
     infos = [i for i in z.infolist() if not i.is_dir()]
     if sum(i.file_size for i in infos) > ZIP_MAX_BYTES:
         return "", {"error": f"zip expands to over {ZIP_MAX_BYTES // 1_000_000} MB"}
-    parts, members = [], []
+    parts, members, md_flags = [], [], []
     with tempfile.TemporaryDirectory() as d:
         for k, i in enumerate(infos):
             p = os.path.join(d, f"m{k}")
@@ -223,13 +231,24 @@ def read_zip(z, deadline=None, depth=0):
             t, m, inf = read_file(p, i.filename, deadline, depth + 1)
             members.append({"name": i.filename, "method": m, "chars": len(t),
                             **({"error": inf["error"]} if inf.get("error") else {})})
+            md_flags += [{**f, "finding": f"{f['finding']} (in {i.filename})"} for f in inf.get("md_flags") or []]
             if t.strip():
                 parts.append(f"[{i.filename}]\n{t}")
             os.remove(p)
-    return "\n\n".join(parts), {"members": members}
+    return "\n\n".join(parts), {"members": members, **({"md_flags": md_flags} if md_flags else {})}
 
 
 def read_file(path, name="", deadline=None, depth=0):
+    """_read_file() plus doc_metadata.attach(): `info` also carries `meta`
+    (document properties) and `md_flags` (AI-tool fingerprints, tracking
+    parameters, tracked changes... see doc_metadata.py)."""
+    text, method, info = _read_file(path, name, deadline, depth)
+    if method not in ("error",):
+        doc_metadata.attach(path, text, info, method)
+    return text, method, info
+
+
+def _read_file(path, name="", deadline=None, depth=0):
     """Returns (text, method, info). method is one of pdf, ocr+pdf, docx,
     xlsx, pptx, zip, legacy, rtf, ocr-image, text, unsupported, error. info
     may carry pages / ocr_pages / unread_pages / truncated_rows / members /

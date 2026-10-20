@@ -79,6 +79,8 @@ def findings(fs, indent="    "):
     out = []
     for f in fs or []:
         bits = [f"news {f.get('news')}", "VERIFIED" if f.get("verified") else "unverified (lead only)"]
+        if f.get("kind") in ("metadata", "provenance"):
+            bits.append("FILE METADATA/LINKS, not body text")
         if f.get("already_read_on_earlier_notice"):
             bits.append("already_read_on_earlier_notice")
         line = (f"{indent}- finding [{', '.join(bits)}]: {sq(f.get('finding'))} | quote: \"{sq(f.get('quote'))}\" | "

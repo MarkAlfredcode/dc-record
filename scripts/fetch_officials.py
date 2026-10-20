@@ -105,6 +105,9 @@ def fara_date(s):
     return d.isoformat() if d else ""
 
 
+FARA_MD = {}   # url -> doc_metadata findings (news >= 4: AI-tool fingerprints, tracked changes, comments)
+
+
 def fara_doc_text(url, tmp, deadline=None, info=None):
     """Text of a filing (OCR for scanned pages). info, if given, gets
     sam_reader's page counts (unread_pages > 0: the deadline cut it short)."""
@@ -115,6 +118,7 @@ def fara_doc_text(url, tmp, deadline=None, info=None):
     text, got = sam_reader.read_pdf(p, deadline) if os.path.getsize(p) else ("", {})
     if info is not None:
         info.update(got)
+    FARA_MD[url] = [{k: f[k] for k in ("news", "finding", "quote")} for f in got.get("md_flags") or [] if f["news"] >= 4]
     text = re.sub(r"[ \t]+", " ", text)
     i = text.find("1. Name of Registrant")
     return text[i:] if i > 0 else text
@@ -152,13 +156,13 @@ def fara_top(docs, texts, refs, errors, tmp):
                       "registrant": d["Registrant Name"].strip(), "num": d["Registration Number"],
                       "fp": f"{d['Foreign Principal Name']} ({d['Foreign Principal Country']})" if d["Foreign Principal Name"] else "",
                       "hits": [{k: h[k] for k in ("who", "role", "tier", "method", "snippet")} for h in hits],
-                      "more": more}
+                      "more": more, "md": FARA_MD.get(url) or []}
         if len(cache) % 10 == 0:
             save_manifest(TOP_CACHE, cache)  # keep finished OCR if a later step dies
     save_manifest(TOP_CACHE, cache)
     if unread:
         errors.append(f"FARA top-official scan: {unread} recent filings not read yet (time budget); the next run reads them")
-    pending = sorted(((u, v) for u, v in cache.items() if v["hits"] and u not in seen and v["stamped"] >= since),
+    pending = sorted(((u, v) for u, v in cache.items() if (v["hits"] or v.get("md")) and u not in seen and v["stamped"] >= since),
                      key=lambda x: (x[1]["stamped"], x[1]["registrant"]))
     L, items = [], []
     for url, v in pending:
@@ -171,6 +175,8 @@ def fara_top(docs, texts, refs, errors, tmp):
             L.append(f"    - {h['who']} [{h['tier']}; {h['role']}] method: {h['method'] or 'not stated'} :: {h['snippet']}")
         if v.get("more"):
             L.append(f"    (+{v['more']} more lines naming a top official in this filing, not shown)")
+        for m in v.get("md") or []:
+            L.append(f"    - FILE METADATA/LINKS (not body text; no official needs to be named) [news {m['news']}]: {m['finding']} :: \"{m['quote']}\"")
     json.dump({"items": items}, open(TOP_ITEMS, "w"), indent=1)
     scanned = sum(1 for v in cache.values() if v.get("scanned") == today)
     print(f"fara_top: {len(todo) - unread - failed} read this run ({scanned} cached today), {len(pending)} with "

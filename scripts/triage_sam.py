@@ -266,14 +266,14 @@ def doc_view(notice, cache, read_now, previously_listed, queue=()):
 
 def doc_bonus(findings):
     best = max(((DOC_BONUS[f["news"]] if f["verified"] else DOC_BONUS[f["news"]] // 2)
-                for f in findings if f["fresh"] and f["news"] in DOC_BONUS), default=0)
+                for f in findings if f["fresh"] and f["news"] in DOC_BONUS and f.get("kind") != "provenance"), default=0)
     return best
 
 
 def slim_findings(findings, n=4, context=True):
     out = []
     for f in findings[:n]:
-        d = {k: f[k] for k in ("news", "finding", "quote", "verified", "file", "file_posted", "url") if f.get(k) is not None}
+        d = {k: f[k] for k in ("news", "finding", "quote", "verified", "file", "file_posted", "url", "kind") if f.get(k) is not None}
         if context and f.get("context"):
             d["context"] = f["context"]
         if not f["fresh"]:
@@ -456,7 +456,7 @@ def main():
         docs[i] = doc_view(s, doc_cache, read_now, bool(prev), queue)
         if i in flagged or i in unscreened:
             continue
-        fresh = [f for f in docs[i][0] if f["fresh"]]
+        fresh = [f for f in docs[i][0] if f["fresh"] and f.get("kind") != "provenance"]
         if fresh:
             flagged[i] = {"i": i, "tier": "document",
                           "why": f"attachment: {short(fresh[0]['finding'], 160)} (title screen called it routine)"}
@@ -512,7 +512,8 @@ def main():
     late = []
     for rid, rec in read_now.items():
         f = run_files.get(rid) or {}
-        if not rec.get("f") or set(f.get("nids") or []) & edition_nids:
+        rec_f = [x for x in rec.get("f") or [] if x.get("kind") != "provenance"]
+        if not rec_f or set(f.get("nids") or []) & edition_nids:
             continue
         late.append({
             "noticeTypeLabel": "Justification" if f.get("kind") == "justification" else f.get("type"),
@@ -523,7 +524,7 @@ def main():
             "file": f.get("name"),
             "document_findings": slim_findings([{**x, "file": f.get("name"), "url": f.get("url"),
                                                  "file_posted": (f.get("posted") or "")[:10] or None, "fresh": True}
-                                                for x in rec["f"]]),
+                                                for x in rec_f]),
         })
     late.sort(key=lambda x: -max(d["news"] + d["verified"] for d in x["document_findings"]))
 

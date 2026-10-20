@@ -34,9 +34,11 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import doc_metadata  # noqa: E402
 import sam_boilerplate  # noqa: E402
 from dc_common import load_manifest, save_manifest  # noqa: E402
 from extract_ja import parse_array, run_claude  # noqa: E402
+from sam_docs import JA_FILE_NAME  # noqa: E402
 
 FILES_PATH = "data/sam_files.json"
 CACHE_PATH = "data/sam-docs-read.json"
@@ -342,6 +344,24 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         if fs:
             recs[rid]["f"] = sorted(fs, key=lambda x: (-x["verified"], -x["news"]))[:6]
 
+    # Document metadata (doc_metadata.py, run at extraction time, no LLM):
+    # AI-tool fingerprints like utm_source=chatgpt.com, tracking parameters,
+    # tracked changes, leaked paths -- reported as verified findings next to
+    # Haiku's. A J&A also gets who its properties say wrote it.
+    md_found = 0
+    for rid, f in todo.items():
+        if rid not in recs or recs[rid]["s"] == "retry":
+            continue
+        info = f.get("info") or {}
+        mdf = [{**x, "verified": True} for x in info.get("md_flags") or []]
+        if JA_FILE_NAME.search(f.get("name") or "") and info.get("meta"):
+            prov = doc_metadata.provenance_finding(info["meta"])
+            if prov:
+                mdf.append(prov)
+        if mdf:
+            md_found += len(mdf)
+            recs[rid]["f"] = sorted(mdf + (recs[rid].get("f") or []), key=lambda x: (-x["verified"], -x["news"]))[:10]
+
     cache.update(recs)
     for rid, (sol, lines) in file_lines.items():
         if recs.get(rid, {}).get("s") == "screened" and lines:
@@ -383,6 +403,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         "files_queued_for_next_run": len(queue),
         "chars_extracted": raw_chars, "chars_screened": kept_chars, "chars_skipped_as_repeats": repeat_chars,
         "chars_skipped_seen_on_earlier_runs": memory_chars,
+        "metadata_findings": md_found,
         "batches": len(batches), "findings": sum(len(r.get("f") or []) for r in recs.values()),
         "cost_usd": round(cost, 3),
     }
