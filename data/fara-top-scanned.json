@@ -29,16 +29,6 @@
     "stamped": "2026-10-09",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/1850-Supplemental-Statement-20260928-46.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "1850",
-    "registrant": "JETRO, Chicago",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Supplemental Statement"
-  },
   "https://efile.fara.gov/docs/2003-Amendment-20260929-1.pdf": {
     "fp": "",
     "hits": [],
@@ -137,16 +127,6 @@
     "registrant": "Manufactured Imports and Investment Promotion Organization (MIPRO)",
     "scanned": "2026-10-16",
     "stamped": "2026-10-14",
-    "type": "Supplemental Statement"
-  },
-  "https://efile.fara.gov/docs/3327-Supplemental-Statement-0-0.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "3327",
-    "registrant": "Korea Economic Institute",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
     "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/3492-Amendment-20261016-5.pdf": {
@@ -625,16 +605,6 @@
     "stamped": "2026-09-30",
     "type": "Exhibit AB"
   },
-  "https://efile.fara.gov/docs/5451-Supplemental-Statement-20260928-43.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "5451",
-    "registrant": "Hecht, Latham, Spencer & Associates, Inc.",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Supplemental Statement"
-  },
   "https://efile.fara.gov/docs/5483-Informational-Materials--6.pdf": {
     "fp": "The Kingdom of Morocco (MOROCCO)",
     "hits": [],
@@ -653,24 +623,6 @@
     "registrant": "QORVIS LLC",
     "scanned": "2026-10-12",
     "stamped": "2026-09-30",
-    "type": "Informational Materials"
-  },
-  "https://efile.fara.gov/docs/5666-Informational-Materials-20260928-21.pdf": {
-    "fp": "Ministry of Foreign Affairs, Republic of Somaliland (SOMALILAND)",
-    "hits": [
-      {
-        "method": "meeting",
-        "role": "Secretary of the Treasury, 2025-",
-        "snippet": "Somaliland\u2019s access to the international financial system. During the visit, Treasury Secretary / Scott Bessent committed to reviewing the legislation and exploring with Congress ways to / address Somaliland\u2019s economic isolation.",
-        "tier": "name",
-        "who": "Scott Bessent"
-      }
-    ],
-    "more": 0,
-    "num": "5666",
-    "registrant": "FGS Global (US) LLC (FKA FGH Holdings LLC)",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
     "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/5801-Informational-Materials-20261002-3.pdf": {
@@ -796,6 +748,58 @@
     "scanned": "2026-10-17",
     "stamped": "2026-10-13",
     "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/6200-Amendment-20261016-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6200",
+    "registrant": "Dickens & Madson Canada Inc.",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-16",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6200-Exhibit-AB-20261016-1.pdf": {
+    "fp": "Dr. Abdulelah Bin Khaled Allam (SAUDI ARABIA)",
+    "hits": [
+      {
+        "method": "",
+        "role": "President, 2025-",
+        "snippet": "capacity as candidate for the Head of the Governing Council of / Gaza with President Donald Trump and President Abdel / Fattah al- Sisi of the Arab Republic of Egypt in Cairo this month",
+        "tier": "name",
+        "who": "Donald Trump"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "6200",
+    "registrant": "Dickens & Madson Canada Inc.",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-16",
+    "type": "Exhibit AB"
+  },
+  "https://efile.fara.gov/docs/6210-Amendment-20261016-5.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6210",
+    "registrant": "LB International Solutions, LLC",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-16",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6210-Exhibit-AB-20261016-4.pdf": {
+    "fp": "Turkish Republic of Northern Cyprus (TRNC) Washington DC Office (CYPRUS)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6210",
+    "registrant": "LB International Solutions, LLC",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-16",
+    "type": "Exhibit AB"
   },
   "https://efile.fara.gov/docs/6212-Amendment-20260930-10.pdf": {
     "fp": "",
@@ -1015,16 +1019,6 @@
     "stamped": "2026-09-30",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/6522-Supplemental-Statement-20260928-17.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "6522",
-    "registrant": "Forbes Tate Partners LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Supplemental Statement"
-  },
   "https://efile.fara.gov/docs/6582-Supplemental-Statement-20260929-16.pdf": {
     "fp": "",
     "hits": [],
@@ -1035,31 +1029,6 @@
     "stamped": "2026-09-29",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/6633-Informational-Materials-20260928-10.pdf": {
-    "fp": "CCTV (CHINA)",
-    "hits": [
-      {
-        "method": "",
-        "role": "President, 2025-",
-        "snippet": "Peng Liyuan, wife of Chinese President Xi Jinping, and Melania Trump, wife of US President / Donald Trump, visited the National Museum of Asian Art in Washington, D.C., on Thursday, / September 24.",
-        "tier": "name",
-        "who": "Donald Trump"
-      },
-      {
-        "method": "",
-        "role": "President, 2025-",
-        "snippet": "Peng Liyuan, wife of Chinese President Xi Jinping, and Melania Trump, wife of US President / Donald Trump, visited the National Museum of Asian Art in Washington, D.C., on Thursday, / September 24.",
-        "tier": "name",
-        "who": "Donald Trump"
-      }
-    ],
-    "more": 0,
-    "num": "6633",
-    "registrant": "MediaLinks TV, LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Informational Materials"
-  },
   "https://efile.fara.gov/docs/6633-Informational-Materials-20261013-11.pdf": {
     "fp": "CCTV (CHINA)",
     "hits": [],
@@ -1069,16 +1038,6 @@
     "scanned": "2026-10-17",
     "stamped": "2026-10-13",
     "type": "Informational Materials"
-  },
-  "https://efile.fara.gov/docs/6633-Supplemental-Statement-20260928-15.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "6633",
-    "registrant": "MediaLinks TV, LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/6645-Supplemental-Statement-20261008-17.pdf": {
     "fp": "",
@@ -1663,16 +1622,6 @@
     "stamped": "2026-10-08",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/7252-Informational-Materials-20260928-67.pdf": {
-    "fp": "The Public Investment Fund (SAUDI ARABIA)",
-    "hits": [],
-    "more": 0,
-    "num": "7252",
-    "registrant": "USSA International LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Informational Materials"
-  },
   "https://efile.fara.gov/docs/7252-Informational-Materials-20261001-68.pdf": {
     "fp": "The Public Investment Fund (SAUDI ARABIA)",
     "hits": [],
@@ -1732,16 +1681,6 @@
     "scanned": "2026-10-12",
     "stamped": "2026-09-30",
     "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7369-Informational-Materials-20260928-3.pdf": {
-    "fp": "The Public Investment Fund (SAUDI ARABIA)",
-    "hits": [],
-    "more": 0,
-    "num": "7369",
-    "registrant": "Rational 360, Inc.",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7369-Supplemental-Statement-20260930-5.pdf": {
     "fp": "",
@@ -1927,6 +1866,17 @@
     "registrant": "Neiweem, Christopher John",
     "scanned": "2026-10-12",
     "stamped": "2026-10-05",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/7522-Supplemental-Statement-20261016-4.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7522",
+    "registrant": "Neiweem, Christopher John",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-16",
     "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7528-Informational-Materials-20260929-1.pdf": {
@@ -2237,16 +2187,6 @@
     "stamped": "2026-10-06",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/7640-Supplemental-Statement-20260928-3.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7640",
-    "registrant": "AN Consulting & Security LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Supplemental Statement"
-  },
   "https://efile.fara.gov/docs/7649-Amendment-20261005-1.pdf": {
     "fp": "",
     "hits": [],
@@ -2266,16 +2206,6 @@
     "scanned": "2026-10-12",
     "stamped": "2026-10-05",
     "type": "Exhibit AB"
-  },
-  "https://efile.fara.gov/docs/7649-Informational-Materials-20260928-26.pdf": {
-    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
-    "hits": [],
-    "more": 0,
-    "num": "7649",
-    "registrant": "Clock Tower X LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
-    "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7649-Informational-Materials-20260930-27.pdf": {
     "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
@@ -2535,6 +2465,17 @@
     "stamped": "2026-10-02",
     "type": "Supplemental Statement"
   },
+  "https://efile.fara.gov/docs/7732-Amendment-20261019-3.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7732",
+    "registrant": "Piro, Inc.",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-19",
+    "type": "Amendment"
+  },
   "https://efile.fara.gov/docs/7732-Informational-Materials-20260929-69.pdf": {
     "fp": "Havas Media Germany GmbH on behalf of the Israel Government Advertising Agency (LaPam) (ISRAEL)",
     "hits": [],
@@ -2561,16 +2502,6 @@
     "registrant": "Piro, Inc.",
     "scanned": "2026-10-12",
     "stamped": "2026-09-29",
-    "type": "Informational Materials"
-  },
-  "https://efile.fara.gov/docs/7770-Informational-Materials-20260928-2.pdf": {
-    "fp": "Republic of Yemen (YEMEN)",
-    "hits": [],
-    "more": 0,
-    "num": "7770",
-    "registrant": "Geopolitical Solutions LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-09-28",
     "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7770-Informational-Materials-20260929-3.pdf": {
@@ -2751,6 +2682,50 @@
     "registrant": "Rubenstein Public Relations, Inc.",
     "scanned": "2026-10-14",
     "stamped": "2026-10-12",
+    "type": "Registration Statement"
+  },
+  "https://efile.fara.gov/docs/7779-Exhibit-AB-20261016-1.pdf": {
+    "fp": "Kamituga Mining SA (CONGO, DEMOCRATIC REPUBLIC OF THE)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7779",
+    "registrant": "Greentech Minerals Holdings Inc.",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-16",
+    "type": "Exhibit AB"
+  },
+  "https://efile.fara.gov/docs/7779-Registration-Statement-20261016-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7779",
+    "registrant": "Greentech Minerals Holdings Inc.",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-16",
+    "type": "Registration Statement"
+  },
+  "https://efile.fara.gov/docs/7781-Exhibit-AB-20261018-5.pdf": {
+    "fp": "Detente Corporation (BARBADOS)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7781",
+    "registrant": "Wiss & Partners LLP",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-18",
+    "type": "Exhibit AB"
+  },
+  "https://efile.fara.gov/docs/7781-Registration-Statement-20261018-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7781",
+    "registrant": "Wiss & Partners LLP",
+    "scanned": "2026-10-20",
+    "stamped": "2026-10-18",
     "type": "Registration Statement"
   }
 }
