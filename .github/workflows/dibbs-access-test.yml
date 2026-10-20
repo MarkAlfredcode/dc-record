@@ -1,0 +1,46 @@
+name: DIBBS access test
+
+# One-off check (2026-10-19): can a GitHub-hosted runner reach DLA's DIBBS?
+# .mil sites often block cloud IP ranges. Manual dispatch only: no schedule,
+# no secrets, read-only, never commits. Delete once the answer is known.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Runner egress IP
+        run: curl -sS -m 20 https://api.ipify.org; echo
+
+      - name: Accept DoD consent banners (both hosts)
+        run: python3 scripts/dibbs_consent.py "$RUNNER_TEMP/jar.txt"
+
+      - name: Recent-RFQ listing and a day's index file
+        run: |
+          J="$RUNNER_TEMP/jar.txt"
+          curl -sS -m 60 -b "$J" -c "$J" -o "$RUNNER_TEMP/recent.html" \
+            -w "recent page: %{http_code} %{size_download} bytes\n" \
+            "https://www.dibbs.bsm.dla.mil/Rfq/RfqDates.aspx?category=recent"
+          grep -o 'in[0-9]\{6\}\.txt' "$RUNNER_TEMP/recent.html" | head -1 | tee "$RUNNER_TEMP/latest.txt"
+          F=$(cat "$RUNNER_TEMP/latest.txt")
+          curl -sS -m 60 -b "$J" -c "$J" -o "$RUNNER_TEMP/$F" \
+            -w "index file $F: %{http_code} %{content_type} %{size_download} bytes\n" \
+            "https://dibbs2.bsm.dla.mil/Downloads/RFQ/Archive/$F"
+          wc -l "$RUNNER_TEMP/$F"
+
+      - name: Solicitation zip, 15-second sample (server ignores Range)
+        run: |
+          J="$RUNNER_TEMP/jar.txt"
+          Z=$(sed 's/^in/ca/; s/\.txt$/.zip/' "$RUNNER_TEMP/latest.txt")
+          # a timeout (exit 28) is expected; we only need to see that bytes flow
+          curl -sS -m 15 -b "$J" -c "$J" -o "$RUNNER_TEMP/part.zip" \
+            -w "zip $Z: %{http_code} %{content_type} %{size_download} bytes in %{time_total}s\n" \
+            "https://dibbs2.bsm.dla.mil/Downloads/RFQ/Archive/$Z" || true
+          head -c 4 "$RUNNER_TEMP/part.zip" | xxd | head -1
