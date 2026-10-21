@@ -3,6 +3,10 @@
     "checked": "2026-10-11",
     "result": null
   },
+  "aml american made logistics": {
+    "checked": "2026-10-21",
+    "result": null
+  },
   "architechture solutions": {
     "checked": "2026-10-15",
     "result": null
@@ -76,6 +80,24 @@
       "ytd": 120000.0
     }
   },
+  "california institute technology": {
+    "checked": "2026-10-21",
+    "result": {
+      "client": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+      "firms": [
+        "FEDERAL SCIENCE PARTNERS LLC",
+        "LEWIS-BURKE ASSOCIATES, LLC"
+      ],
+      "issues": [
+        "Budget/Appropriations",
+        "Science/Technology"
+      ],
+      "n_filings": 6,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/24f7df0c-6c21-47ba-b400-d24a735843b0/print/",
+      "ytd": 210000.0
+    }
+  },
   "capex construction": {
     "checked": "2026-10-19",
     "result": null
@@ -126,6 +148,10 @@
     "checked": "2026-10-08",
     "result": null
   },
+  "ega associates": {
+    "checked": "2026-10-21",
+    "result": null
+  },
   "excelsior defense": {
     "checked": "2026-10-11",
     "result": null
@@ -148,6 +174,10 @@
   },
   "hamline construction": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "hsg park joint venture 3": {
+    "checked": "2026-10-21",
     "result": null
   },
   "id me": {
@@ -334,6 +364,10 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "millburn harbor": {
+    "checked": "2026-10-21",
+    "result": null
+  },
   "mindpoint group": {
     "checked": "2026-10-16",
     "result": null
@@ -364,6 +398,10 @@
     "checked": "2026-10-11",
     "result": null
   },
+  "neogenomics laboratories": {
+    "checked": "2026-10-21",
+    "result": null
+  },
   "nextera energy services rhode island": {
     "checked": "2026-10-08",
     "result": null
@@ -380,8 +418,16 @@
     "checked": "2026-10-15",
     "result": null
   },
+  "one stop recruiting": {
+    "checked": "2026-10-21",
+    "result": null
+  },
   "optum public sector solutions": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "paramount construction group": {
+    "checked": "2026-10-21",
     "result": null
   },
   "path": {
@@ -428,6 +474,26 @@
   "pro care emergency medical services": {
     "checked": "2026-10-16",
     "result": null
+  },
+  "quest diagnostics": {
+    "checked": "2026-10-21",
+    "result": {
+      "client": "QUEST DIAGNOSTICS INCORPORATED",
+      "firms": [
+        "FEDERAL STREET STRATEGIES, LLC",
+        "QUEST DIAGNOSTICS INCORPORATED",
+        "RED+BLUE STRATEGIES"
+      ],
+      "issues": [
+        "Health Issues",
+        "Medicare/Medicaid",
+        "Budget/Appropriations"
+      ],
+      "n_filings": 9,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/f5b60623-0bb5-49f9-8407-6cb2d687473d/print/",
+      "ytd": 1460000.0
+    }
   },
   "raven services": {
     "checked": "2026-10-05",
@@ -535,6 +601,10 @@
       "url": "https://lda.gov/filings/public/filing/4c2c0987-356f-42b0-a848-81c5e47d57a3/print/",
       "ytd": 0
     }
+  },
+  "valor healthcare": {
+    "checked": "2026-10-21",
+    "result": null
   },
   "verathon": {
     "checked": "2026-10-16",
