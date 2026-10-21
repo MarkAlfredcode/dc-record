@@ -4429,35 +4429,6 @@
   "rolls": [
     {
       "chamber": "senate",
-      "date": "2026-09-29",
-      "nay": 51,
-      "not_voting": [
-        "S383"
-      ],
-      "num": 251,
-      "question": "On the Motion to Proceed",
-      "result": "Motion to Proceed Rejected",
-      "subject": "Motion to Proceed to S.J. Res. 197",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00251.htm",
-      "yea": 48
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-29",
-      "nay": 51,
-      "not_voting": [
-        "S373",
-        "S383"
-      ],
-      "num": 252,
-      "question": "On the Motion to Discharge",
-      "result": "Motion to Discharge Rejected",
-      "subject": "Motion to Discharge S. Res. 852",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00252.htm",
-      "yea": 47
-    },
-    {
-      "chamber": "senate",
       "date": "2026-09-30",
       "nay": 47,
       "not_voting": [],
