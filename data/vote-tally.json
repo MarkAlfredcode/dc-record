@@ -4426,69 +4426,7 @@
       "Z000018"
     ]
   },
-  "rolls": [
-    {
-      "chamber": "senate",
-      "date": "2026-09-30",
-      "nay": 47,
-      "not_voting": [],
-      "num": 253,
-      "question": "On Cloture on the Motion to Proceed",
-      "result": "Cloture on the Motion to Proceed Rejected",
-      "subject": "Motion to Invoke Cloture on the Motion to Proceed: H.R. 7008",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm",
-      "yea": 53
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-30",
-      "nay": 43,
-      "not_voting": [],
-      "num": 254,
-      "question": "On Cloture on the Motion to Proceed",
-      "result": "Cloture on the Motion to Proceed Rejected",
-      "subject": "Motion to Invoke Cloture on the Motion to Proceed to H.R. 9340",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00254.htm",
-      "yea": 57
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-30",
-      "nay": 47,
-      "not_voting": [],
-      "num": 255,
-      "question": "On the Cloture Motion",
-      "result": "Cloture Motion Agreed to",
-      "subject": "Motion to Invoke Cloture: Keith Sonderling to be Secretary of Labor",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00255.htm",
-      "yea": 53
-    },
-    {
-      "chamber": "senate",
-      "date": "2026-09-30",
-      "nay": 41,
-      "not_voting": [
-        "S396",
-        "S341",
-        "S287",
-        "S253",
-        "S376",
-        "S331",
-        "S174",
-        "S347",
-        "S394",
-        "S384",
-        "S327",
-        "S316"
-      ],
-      "num": 256,
-      "question": "On the Nomination",
-      "result": "Nomination Confirmed",
-      "subject": "Confirmation: Keith Sonderling, of F.L., to be Secretary of Labor",
-      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00256.htm",
-      "yea": 47
-    }
-  ],
+  "rolls": [],
   "senate": {
     "last_roll": 256,
     "members": {
