@@ -241,6 +241,16 @@
       "s": "screened",
       "sol": "70FBR927Q00000001"
     },
+    "0098871a588c4b33bdf395eecb68cc11": {
+      "a": 1,
+      "c": 2080,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "RFQ 7571TE27Q00019 (CVENT - NIAID).pdf",
+      "s": "retry",
+      "sol": "7571TE27Q00019"
+    },
     "009ac7ec68db442d80c0d72e421bff7a": {
       "c": 1215,
       "d": "2026-10-21",
@@ -531,7 +541,7 @@
       "sol": "EAD_TL_DATA_FY27_SSN"
     },
     "01a57f20a07d40c5bd360345f7c8f493": {
-      "a": 1,
+      "a": 2,
       "c": 1642,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -563,6 +573,16 @@
       "n": "C04d Attachment 4 General Decision WY20260044 07302026.pdf",
       "s": "wage_determination",
       "sol": "1240LT26Q0109 "
+    },
+    "01c5727389244d429328b14d1acbba03": {
+      "a": 1,
+      "c": 759,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "ACC DTA GROUND MANEUVER CSO_Amendment 40.docx",
+      "s": "retry",
+      "sol": "W912CH-26-S-0001"
     },
     "01cbbd3cfef84be8abf0dba612ef4dce": {
       "c": 36830,
@@ -773,7 +793,7 @@
       "sol": "BSA475591"
     },
     "0224451b0bc34e6f93f1ba561170f5cc": {
-      "a": 1,
+      "a": 2,
       "c": 29704,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -1902,7 +1922,7 @@
       "sol": "W912D027QA001"
     },
     "04d6a2ff1129413d8801c629d24f52d6": {
-      "a": 1,
+      "a": 2,
       "c": 3927,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -2484,13 +2504,13 @@
       "sol": "HQC0102714"
     },
     "06a9914c79b34aeeb4501e47f7cd89fd": {
-      "a": 2,
+      "a": 3,
       "c": 2130,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "pdf",
       "n": "PTOEA_ Intent to SS_ INT-27-0182_ RE Support_Final.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "INT-27-0182"
     },
     "06ba797e04e74b4ab6e7b51befa7e8a9": {
@@ -3003,6 +3023,16 @@
       "n": "Attachment 1 - Justification  Approval Redacted R2.pdf",
       "s": "screened",
       "sol": "36C79119D0005P00148"
+    },
+    "080eb70dca5047b49bf5fdd41c6298f3": {
+      "a": 1,
+      "c": 865,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "36C10B27Q0024 0001.docx",
+      "s": "retry",
+      "sol": "36C10B27Q0024"
     },
     "0813134cfe554429b87ddeb5c4f2622b": {
       "c": 1615,
@@ -3716,7 +3746,7 @@
       "sol": "HM047626R0018"
     },
     "0a3e1a905e4d4ffa9247e1b0a7f4712a": {
-      "a": 1,
+      "a": 2,
       "c": 34025,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -3870,13 +3900,13 @@
       "sol": "36C26127Q0082"
     },
     "0a948def36b84270852f966b33eed5fa": {
-      "a": 2,
-      "c": 26595,
+      "a": 3,
+      "c": 26251,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "docx",
       "n": "36C26126Q1261_2.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C26126Q1261"
     },
     "0a99dca68b044013b7c2a562e7f4bcda": {
@@ -4175,7 +4205,7 @@
       "sol": "70Z08026QMECP0031"
     },
     "0b7c392c35fa43e2b637de865f8471d4": {
-      "a": 1,
+      "a": 2,
       "c": 2577,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -5371,7 +5401,7 @@
       "sol": "FA446027Q0003"
     },
     "0ede04f8459d4e0490449433abdd2b94": {
-      "a": 1,
+      "a": 2,
       "c": 5615,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -5397,6 +5427,16 @@
       "n": "Attachment G Exhibit 7 - Consolidated QASP and Broker Evaluation Sheet - Template.docx",
       "s": "screened",
       "sol": "36C10F26R0045"
+    },
+    "0ef4638072a44002814efbac9e06e4a4": {
+      "a": 1,
+      "c": 1859,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "ACC DTA GROUND MANEUVER CSO_Amendment 39.docx",
+      "s": "retry",
+      "sol": "W912CH-26-S-0001"
     },
     "0f0059dd4597439b9c3910e628fd7d00": {
       "c": 551,
@@ -8861,6 +8901,16 @@
       "s": "screened",
       "sol": "12363N26R4014"
     },
+    "18d3b9ecec8942279eb8529db4460d82": {
+      "a": 1,
+      "c": 6147,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "Redacted BNJ 26-0410.pdf",
+      "s": "retry",
+      "sol": "JA260410"
+    },
     "18db2164be2d401c82ab6dc9b31068ad": {
       "c": 4968,
       "d": "2026-10-14",
@@ -8976,8 +9026,8 @@
       "sol": "DOCKSIDE-REPAIRS-Quarter-3-FY27-CGC-KIMBALL"
     },
     "1927d4e0d59647c2bd0459e75f9a4a53": {
-      "a": 1,
-      "c": 6390,
+      "a": 2,
+      "c": 6308,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "docx",
@@ -10225,7 +10275,7 @@
       "sol": "W911SD-27-Q-A002"
     },
     "1c99a988a1364cd1a88a2474ac17bd17": {
-      "a": 1,
+      "a": 2,
       "c": 14036,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -10268,6 +10318,15 @@
       "n": "Attachment 8 - DRAFT TM-86-01R Air Force Technical Manual Contract Requirements (TMCR)_REV2_7 July 2025.pdf",
       "s": "screened",
       "sol": "FA8105_CCR_Rev2"
+    },
+    "1cc31af9996a488787cd1ccff93c162e": {
+      "a": 1,
+      "d": "2026-10-22",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Attachment 006 - Sections M (Amendment 1).pdf",
+      "s": "retry",
+      "sol": "W900KK-27-R-A0003"
     },
     "1ccad657cb8847b1ac5c88e83b0929ea": {
       "c": 8508,
@@ -11514,7 +11573,7 @@
       "sol": "N4008526R0138"
     },
     "2019c1dbfc534a56856be9a9f4457520": {
-      "a": 1,
+      "a": 2,
       "c": 6792,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -11733,7 +11792,7 @@
       "sol": "1240LT26Q0179"
     },
     "20c97de5ac004387abea175fdb96b5c1": {
-      "a": 1,
+      "a": 2,
       "c": 100702,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -12792,13 +12851,13 @@
       "sol": "N69450-27-RP-00023"
     },
     "24087a845ab24e858b482ffdf55148fa": {
-      "a": 2,
+      "a": 3,
       "c": 50010,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "xlsx",
       "n": "Part number listing for consumables.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "75Q65"
     },
     "2413e1a4b65a48e2b64369b73b760c93": {
@@ -12883,7 +12942,7 @@
       "sol": "SPE608-26-R-0206"
     },
     "2449d9efe71c4afeb630728caa460a0d": {
-      "a": 1,
+      "a": 2,
       "c": 2726,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -13573,6 +13632,16 @@
       "n": "12. Exhibit J_DB wage 260518_Thurston County_VA-Oly.pdf",
       "s": "wage_determination",
       "sol": "36C24W26R0012"
+    },
+    "267fb6872464452495f701206636120b": {
+      "a": 1,
+      "c": 10074,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "JA Redacted.pdf",
+      "s": "retry",
+      "sol": "FA821327C0001"
     },
     "2680ec03304a41259b1d117f1bc8850b": {
       "c": 2025,
@@ -14576,8 +14645,8 @@
       "sol": "SP8000-27-Q-0002"
     },
     "2a4e356bbb7f4174bb8be3b6aa074355": {
-      "a": 1,
-      "c": 100354,
+      "a": 2,
+      "c": 100427,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "ocr+pdf",
@@ -16478,12 +16547,12 @@
       "sol": "FA8105_CCR_Rev2"
     },
     "2fc280a5f2fb4f26831426ad95a0aa56": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-21",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "NAWCAD FY26 QTR4 LRAF.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "NAWCAD-LRAF-FY26-PAX"
     },
     "2fc3e819b06c4efaacc42b1f342ef544": {
@@ -17828,8 +17897,8 @@
       "sol": "SPE602-26-R-0706"
     },
     "3335c456cca74da2b4e3d6b388f693a2": {
-      "a": 1,
-      "c": 10299,
+      "a": 2,
+      "c": 10392,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -18368,6 +18437,16 @@
       "n": "11. Additional (2) Questions.pdf",
       "s": "screened",
       "sol": "15BCTS25Q00000015"
+    },
+    "34eb9060a3594cbd89f6b05deb9a5372": {
+      "a": 1,
+      "c": 1231,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "Fiber To Desk NOCA - 22 Oct 26.pdf",
+      "s": "retry",
+      "sol": "PZI_2026_F2D"
     },
     "34eba54da0c14370a3d35785fdb1718a": {
       "c": 89346,
@@ -19299,8 +19378,8 @@
       "sol": "36C26227Q0011"
     },
     "381d073446e4461fa067ee715a21fdda": {
-      "a": 1,
-      "c": 20703,
+      "a": 2,
+      "c": 20862,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -20741,6 +20820,16 @@
       "n": "A02 SOW JBMHH Gate Heaters and Fans Supply Rentals.pdf",
       "s": "screened",
       "sol": "W91QV127QRENT"
+    },
+    "3b947bcdaa0143f19da2b75bb8fbe9cf": {
+      "a": 1,
+      "c": 3324,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "SPRTA124R0223_Redacted.pdf",
+      "s": "retry",
+      "sol": "JA-SPRTA126F2230"
     },
     "3b9bc0184d9d45af9d27512dbac313eb": {
       "c": 156512,
@@ -22567,8 +22656,8 @@
       "sol": "RLP36C24W26R0045"
     },
     "3ff4eccf9a3646c587a732a2a310d054": {
-      "a": 1,
-      "c": 39468,
+      "a": 2,
+      "c": 39262,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "docx",
@@ -23521,8 +23610,8 @@
       "sol": "36C25927R0005"
     },
     "42a4596c876542c38e4f6a5fca224045": {
-      "a": 1,
-      "c": 4876,
+      "a": 2,
+      "c": 4886,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -23801,6 +23890,16 @@
       "n": "36C26227P0047_1.docx",
       "s": "screened",
       "sol": "36C26227P0047"
+    },
+    "4384583f3a9745f6af86966362111783": {
+      "a": 1,
+      "c": 4354,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "Redacted Urgent Justification-KO SIGNED.pdf",
+      "s": "retry",
+      "sol": "N0018927PL006"
     },
     "438a68dc27cf4ae88747bc5fecc40801": {
       "c": 359,
@@ -24419,6 +24518,16 @@
       "s": "screened",
       "sol": "W15QN-27-Q-A010"
     },
+    "459c96e84bf14ec3b06ca177954707f8": {
+      "a": 1,
+      "c": 7934,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "P03 - JEFO - Albany_Redacted.pdf",
+      "s": "retry",
+      "sol": "36L79727F0002"
+    },
     "45a251ca638c4405a1170b260f60712f": {
       "c": 0,
       "d": "2026-10-20",
@@ -25029,7 +25138,7 @@
       "sol": "FA524027Q0001"
     },
     "4759a63baca64f4f9d87ac9b13193d33": {
-      "a": 1,
+      "a": 2,
       "c": 234,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -25776,7 +25885,7 @@
       "sol": "W912CH-26-S-0001"
     },
     "49db93aa0a4f4862ae28bf833fe01b1d": {
-      "a": 1,
+      "a": 2,
       "c": 2116,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -26263,13 +26372,13 @@
       "sol": "693JK326RA001"
     },
     "4afefca2c95b4fd5be27fd36877497d3": {
-      "a": 2,
+      "a": 3,
       "c": 6247,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "pdf",
       "n": "Attachment 4 - Drawings.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "1240LT26Q0035 "
     },
     "4b00daa1542e420e9cd8ff3753b402cd": {
@@ -27135,7 +27244,7 @@
       "sol": "36C24W25R0073"
     },
     "4cdbceca25f945649dd21925f3063618": {
-      "a": 1,
+      "a": 2,
       "c": 3394,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -27733,7 +27842,7 @@
       "sol": "12445527Q0001"
     },
     "4e829e0563de4e01935047a3d48eefc0": {
-      "a": 1,
+      "a": 2,
       "c": 4412,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -28447,8 +28556,8 @@
       "sol": "6982AF27B000002"
     },
     "5095f5201eca440ba99a7fce66d7a5ab": {
-      "a": 1,
-      "c": 2276,
+      "a": 2,
+      "c": 2315,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -29794,6 +29903,15 @@
       "s": "screened",
       "sol": "36C26027R0014"
     },
+    "5457b4aae34f483ebdcf1738cf5ef90b": {
+      "a": 1,
+      "d": "2026-10-22",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Attachment 005 - Sections L (Amendment 1).pdf",
+      "s": "retry",
+      "sol": "W900KK-27-R-A0003"
+    },
     "545d6363efbd4f13910a7dbaae0ae403": {
       "c": 7406,
       "d": "2026-10-18",
@@ -30311,6 +30429,16 @@
       "n": "EM_385-1-1.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "5601306077d24e05acb9e02b764d5a6b": {
+      "a": 1,
+      "c": 4635,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "68HERD21F0106  - Public Notice_.docx",
+      "s": "retry",
+      "sol": "Sole_Source_Justification_to_Systalex_Corporation"
     },
     "5604cc72a6754e56b16bda5117e0b0f4": {
       "c": 589,
@@ -31538,13 +31666,13 @@
       "sol": "36C10B26Q0754"
     },
     "59b28689c8fb40b7bf230d7f827395a4": {
-      "a": 2,
-      "c": 3692,
+      "a": 3,
+      "c": 3026,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "Justification and Approval for Other than Full and Open Competition SANOFI 09112026 _Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "19AQMM26F1490 "
     },
     "59b4213c83364bd8a2b2064aa79db693": {
@@ -32103,13 +32231,13 @@
       "sol": "140P2026R0106"
     },
     "5b5de4e7b1b342e5b0afb037a6e7fae9": {
-      "a": 2,
-      "c": 13646,
+      "a": 3,
+      "c": 14269,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "docx",
       "n": "Market Research LTC Questionnaire.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "75Q65"
     },
     "5b658512b2c640ce9056e674e3949a16": {
@@ -32121,7 +32249,7 @@
       "sol": "83310127Q0005"
     },
     "5b78f6f0667f472aae7e7556a34763cd": {
-      "a": 1,
+      "a": 2,
       "c": 762,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -32444,8 +32572,8 @@
       "sol": "1240LT26Q0035 "
     },
     "5cc96477834c40b79ca6c4b61e85e3e2": {
-      "a": 1,
-      "c": 9390,
+      "a": 2,
+      "c": 9400,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -32798,7 +32926,7 @@
       "sol": "140P2026R0081"
     },
     "5df2c1fa8a9c46a0ab22ba8a69b5dda5": {
-      "a": 1,
+      "a": 2,
       "c": 6553,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -32977,7 +33105,7 @@
       "sol": "W912QR-ELPASO(ZARAGOS)TXFY27"
     },
     "5e524b9466ef42ad82074b39d19ed8e4": {
-      "a": 1,
+      "a": 2,
       "c": 28594,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -33293,13 +33421,13 @@
       "sol": "FA480327Q0003"
     },
     "5f56322aa6ba416693c0431e1862f0e1": {
-      "a": 2,
+      "a": 3,
       "c": 3810,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "N0038324X2239_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "SPRPA1-26-F-E60J"
     },
     "5f569de596d64e5389171cc1fe2ff80d": {
@@ -34721,8 +34849,8 @@
       "sol": "(SPRRA1-24-R-0007)"
     },
     "636bf2e9efee422d8e4906a834f5291f": {
-      "a": 1,
-      "c": 7970,
+      "a": 2,
+      "c": 7751,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "ocr+pdf",
@@ -34987,7 +35115,7 @@
       "sol": "80JSC025_CLDC_TECH_LIBRARY"
     },
     "6446b73ed8174d799fd1bd5c96a6e36f": {
-      "a": 1,
+      "a": 2,
       "c": 23677,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -35152,13 +35280,13 @@
       "sol": "W911WN26BA011"
     },
     "64b731ba80cb425b8b9b2a399a7c251b": {
-      "a": 2,
-      "c": 5679,
+      "a": 3,
+      "c": 5497,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "pdf",
       "n": "5DC0642 - Redacted Justification.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "5DC0642"
     },
     "64c7be3fd80f48bdb11ecaf1515b3ade": {
@@ -35494,7 +35622,7 @@
       "sol": "N3220526R6077"
     },
     "65d857e7245c42d39bcc8e21ad847b55": {
-      "a": 1,
+      "a": 2,
       "c": 6589,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -38818,13 +38946,23 @@
       "sol": "12363N26R4014"
     },
     "6ebba46112a349a6aaf8c7ed2b4c6619": {
-      "a": 2,
-      "c": 9968,
+      "a": 3,
+      "c": 9885,
       "d": "2026-10-21",
       "e": "screening call failed",
+      "f": [
+        {
+          "context": "Author: VHAFAVWATTSL",
+          "finding": "Justification file properties (who wrote or last saved it): Author: VHAFAVWATTSL",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: VHAFAVWATTSL",
+          "verified": true
+        }
+      ],
       "m": "pdf",
       "n": "P03 final Justification and approval.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C25627AP0229"
     },
     "6ebf040e61e7472fa2712e8d7e5e178e": {
@@ -39727,7 +39865,7 @@
       "sol": "W912TF27QA001"
     },
     "710c4d2f671c4ea785fe47868357a3d1": {
-      "a": 1,
+      "a": 2,
       "c": 8716,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -40095,13 +40233,23 @@
       "sol": "W912QR-FORTBLISSTXFY27"
     },
     "721121d838364331a25203df8b519fc2": {
-      "a": 2,
-      "c": 6110,
+      "a": 3,
+      "c": 5915,
       "d": "2026-10-21",
       "e": "screening call failed",
+      "f": [
+        {
+          "context": "Author: Groncki, Elizabeth CIV USN NAVSURFWARCEN COR CA (USA)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Groncki, Elizabeth CIV USN NAVSURFWARCEN COR CA (USA)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Groncki, Elizabeth CIV USN NAVSURFWARCEN COR CA (USA)",
+          "verified": true
+        }
+      ],
       "m": "ocr+pdf",
       "n": "5_CISCO JA REDACTED.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N6426726F4197"
     },
     "72138030f67445618f9ab2a3dbccd8b4": {
@@ -40339,6 +40487,15 @@
       "n": "S02 - Gila Wage Determination - 2015-5471.txt",
       "s": "wage_determination",
       "sol": "36C26226Q0384"
+    },
+    "731b64e248694175a8e500266b4d5ca3": {
+      "a": 1,
+      "d": "2026-10-22",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "S02 White City Boiler Inspections Solicitation 36C26026Q0977  FINAL.pdf",
+      "s": "retry",
+      "sol": "36C26026Q0977 "
     },
     "73263da8fb324bfc901746df3dc1d55e": {
       "c": 26303,
@@ -41036,7 +41193,7 @@
       "sol": "36C26226Q0384"
     },
     "75404f09e27d4899957b70bad4f03286": {
-      "a": 1,
+      "a": 2,
       "c": 2308,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -41750,7 +41907,7 @@
       "sol": "70Z03827IH0000003"
     },
     "77009628880e40e8b1d84763b758b259": {
-      "a": 1,
+      "a": 2,
       "c": 1385,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -41991,7 +42148,7 @@
       "sol": "W90VN827RA001"
     },
     "7774767c074e43c191d01c84b57ff253": {
-      "a": 1,
+      "a": 2,
       "c": 276,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -42132,13 +42289,13 @@
       "sol": "W912L527RFIL002"
     },
     "77e52e30c543417da4e4d8143515ab77": {
-      "a": 2,
+      "a": 3,
       "c": 10952,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "xlsx",
       "n": "Weapon Systems Designator Codes.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "75Q65"
     },
     "77e7005c81404beab0e0095b2c4ee379": {
@@ -42521,7 +42678,7 @@
       "sol": "140FC126Q0044"
     },
     "78d843cb331348719b84aa76d4ed0553": {
-      "a": 1,
+      "a": 2,
       "c": 14977,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -43997,6 +44154,16 @@
       "s": "screened",
       "sol": "RFICMSQIC2026"
     },
+    "7c911c9e8cee4445af72e98f6017b148": {
+      "a": 1,
+      "c": 1553,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "xlsx",
+      "n": "Attachment 1 - Required Domestic Tools.xlsx",
+      "s": "retry",
+      "sol": "W912CH-26-S-0001"
+    },
     "7c91ff3fc110484aa4c0b6effb2204d9": {
       "c": 2949,
       "d": "2026-10-10",
@@ -45157,7 +45324,7 @@
       "sol": "36C26326Q0652"
     },
     "802be0de04604ff6bdd7cebed1ee2b18": {
-      "a": 1,
+      "a": 2,
       "c": 8953,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -47671,13 +47838,13 @@
       "sol": "36C24426B0018"
     },
     "87f10554b57241bc98df60eb65cb1c4d": {
-      "a": 2,
+      "a": 3,
       "c": 3042,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "N0038325X1772_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "SPRPA1-26-F-E60M"
     },
     "87fa003cbe8a46f2a5c2e6ba237dfc43": {
@@ -48186,7 +48353,7 @@
       "sol": "W519TC26RA054"
     },
     "89358f054f19419b929a0252cecabb2b": {
-      "a": 1,
+      "a": 2,
       "c": 1113,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -48895,6 +49062,16 @@
       "n": "15BRRC26R00000016 Subcontracting Plan 07-2026.pdf",
       "s": "screened",
       "sol": "15BRRC26R0000016"
+    },
+    "8b37a71e62274f2e8c6b4b757b246949": {
+      "a": 1,
+      "c": 1524,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "VA797H17D0022 36C26027F0035_1.docx",
+      "s": "retry",
+      "sol": "36C26027F0035"
     },
     "8b42e188a98849cca74a179b621ed611": {
       "c": 6847,
@@ -50156,13 +50333,13 @@
       "sol": "RFQSSPR507952"
     },
     "8dfb684486b64a83b5718c0bf2a51fca": {
-      "a": 2,
+      "a": 3,
       "c": 5228,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "JA.6.302-1-21F2015 - Bridge J&A_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N0017321F2015"
     },
     "8dfc59d423194b76acfdd041e16f5618": {
@@ -50205,6 +50382,16 @@
       "n": "Comprehensive Data Stream Draft SOW_RFI..pdf",
       "s": "screened",
       "sol": "FDA-RFI-27-1251190"
+    },
+    "8e0cf7cee00b469f9205209df4b58566": {
+      "a": 1,
+      "c": 3954,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "JA 22268_T-ARC(X) Requirements Feasibility Studies_10.22.26_Redacted.pdf",
+      "s": "retry",
+      "sol": "N00024-26-C-2220"
     },
     "8e10bdda863e4eba905a3df50882b6fb": {
       "c": 12811,
@@ -52685,6 +52872,16 @@
       "s": "screened",
       "sol": "36C10B27R0001"
     },
+    "94d00daae156488ab1a81b25094e88f5": {
+      "a": 1,
+      "c": 2020,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "AoI Domestic Hand  Measuring Tools.docx",
+      "s": "retry",
+      "sol": "W912CH-26-S-0001"
+    },
     "94db69038cad4db7945b2722e77e28ec": {
       "c": 19813,
       "d": "2026-10-16",
@@ -52767,13 +52964,13 @@
       "sol": "N0038327QS141"
     },
     "9545e55f30fe4c72b35ede5490f4825e": {
-      "a": 2,
-      "c": 3727,
+      "a": 3,
+      "c": 3074,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "GSK Sole Source Justification Under Federal Supply Schedule.pdf_signed_Redacted SAM.gov_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "19AQMM26F1521 "
     },
     "9546455ae7794b9bb662041250366442": {
@@ -53282,7 +53479,7 @@
       "sol": "36C24226Q0994"
     },
     "96a3e924893c47e08ff2b3ad80e2ed29": {
-      "a": 1,
+      "a": 2,
       "c": 504,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -54139,7 +54336,7 @@
       "sol": "6973GH-27-R-00013"
     },
     "98a59e8350f54afcbbce013fe3fafc15": {
-      "a": 1,
+      "a": 2,
       "c": 2019,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -54609,8 +54806,8 @@
       "sol": "70Z02326R93280004"
     },
     "99ccc23e683d48e786717a8128259794": {
-      "a": 1,
-      "c": 37839,
+      "a": 2,
+      "c": 41309,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -54741,7 +54938,7 @@
       "sol": "36C24W26R0012"
     },
     "9a4a41cf61c04e0fbd2b822b09ab1368": {
-      "a": 1,
+      "a": 2,
       "c": 23230,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -56618,7 +56815,7 @@
       "sol": "80GRC026R0008 "
     },
     "9fc8443cbcad47c18b8383ad2315672a": {
-      "a": 1,
+      "a": 2,
       "c": 4836,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -57404,13 +57601,13 @@
       "sol": "47PB5126R0018"
     },
     "a23c8aa50eec483c8ab4c9b47b3e1948": {
-      "a": 2,
-      "c": 4843,
+      "a": 3,
+      "c": 4749,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "4.0 7216 JA_6.302-1_Limited Source_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "SPE7L127C0015"
     },
     "a2512f4153554bec96ef9e1bc5b53d16": {
@@ -58795,6 +58992,16 @@
       "s": "screened",
       "sol": "W912LQ27QA001"
     },
+    "a60d0a39353b4971860a0347873b7c7c": {
+      "a": 1,
+      "c": 11780,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "S03 JA Sonatype_Final CO Signed-REDACTED_Redacted.pdf",
+      "s": "retry",
+      "sol": "36C10B26F0308"
+    },
     "a613c4ab07fa44c7a1378dee5b2590c6": {
       "c": 2990,
       "d": "2026-10-14",
@@ -59025,6 +59232,16 @@
       "n": "Amendment 0004 FE SF30.pdf",
       "s": "screened",
       "sol": "SPE60326R0530"
+    },
+    "a6b9a357de654e85850a2fe2e8b48070": {
+      "a": 1,
+      "c": 8745,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "Sole Source Justification - Litigation Suport REDACTED v2.pdf",
+      "s": "retry",
+      "sol": "19AQMM26F7119"
     },
     "a6cea8e5c177408db0ffe6891d45a9e8": {
       "c": 5558,
@@ -59803,13 +60020,13 @@
       "sol": "W912BU26QA035"
     },
     "a8b40df2a5ea47f68bca564ff302162d": {
-      "a": 2,
-      "c": 3349,
+      "a": 3,
+      "c": 3212,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "SPE4A626R0279_Redacted JA.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "SPE4A6-27C0004"
     },
     "a8be40543eb04b4788591328c8fa05fa": {
@@ -59846,7 +60063,7 @@
       "sol": "N6426726F4213"
     },
     "a8c716a8acfe442b83804dccfc9f8e50": {
-      "a": 1,
+      "a": 2,
       "c": 877,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -60225,8 +60442,8 @@
       "sol": "36C25627Q0026"
     },
     "a9bfbb5e74d24b08a8296acabeff9b8c": {
-      "a": 1,
-      "c": 5346,
+      "a": 2,
+      "c": 5402,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "docx",
@@ -60606,7 +60823,7 @@
       "sol": "SPE608-26-R-0206"
     },
     "ab09f9e6698c4e8ba98a904df64121a8": {
-      "a": 1,
+      "a": 2,
       "c": 23667,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -61312,8 +61529,8 @@
       "sol": "W519TC26RA054"
     },
     "accfaf6f6a1f49a1a4ca276c600c4d3e": {
-      "a": 1,
-      "c": 155459,
+      "a": 2,
+      "c": 155877,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -61553,8 +61770,8 @@
       "sol": "PANMCC26P0000050124"
     },
     "ad602ab358d840be9d03ef154173a941": {
-      "a": 1,
-      "c": 9870,
+      "a": 2,
+      "c": 9943,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -61878,6 +62095,16 @@
       "s": "screened",
       "sol": "SPRDL1-27-Q-A001"
     },
+    "aedfa6065be34b92993ce3412dbbe819": {
+      "a": 1,
+      "c": 3324,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "SPRTA124R0223_Redacted.pdf",
+      "s": "retry",
+      "sol": "SPRTA126F22300"
+    },
     "aef4565c9ba44e27b9b8233440654905": {
       "c": 408,
       "d": "2026-10-13",
@@ -62158,13 +62385,13 @@
       "sol": "N3220526R6006"
     },
     "afb53e7c81c44c4987c4e977db0c30a4": {
-      "a": 2,
-      "c": 2657,
+      "a": 3,
+      "c": 1723,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "SPE4A726R0693_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "SPE4A726R0693"
     },
     "afb75f3257f548369689c3d254acc3f7": {
@@ -63746,7 +63973,7 @@
       "sol": "W5168W-27-R-A002"
     },
     "b42ca71fe2964c8b91388ff940a757c8": {
-      "a": 1,
+      "a": 2,
       "c": 9799,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -64029,7 +64256,7 @@
       "sol": "36C24227Q0032"
     },
     "b4db42647e3a470c9e67f9febc4d49e6": {
-      "a": 1,
+      "a": 2,
       "c": 1797,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -64120,33 +64347,33 @@
       "sol": "FA810126R0004"
     },
     "b50ada1d9d0644fba6f7bc91bf0723a8": {
-      "a": 2,
+      "a": 3,
       "c": 38797,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "xlsx",
       "n": "Market Basket Items.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "75Q65"
     },
     "b50d07642f1841c6b8fcef49d1fd8c08": {
-      "a": 2,
+      "a": 3,
       "c": 433,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "pdf",
       "n": "36C25026Q0951_1.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C25026Q0951"
     },
     "b5132a53b828495fbf3de75c96a20132": {
-      "a": 2,
+      "a": 3,
       "c": 3244,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "JA 7017287750 9.9.2026 (002)_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "7017287750"
     },
     "b5141834bb6c4704a8f531532ae8b057": {
@@ -64733,13 +64960,13 @@
       "sol": "W91151-26-R-A004"
     },
     "b69282b119b44cfda50549b4402c1018": {
-      "a": 2,
-      "c": 8459,
+      "a": 3,
+      "c": 8601,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "pdf",
       "n": "SPE8EF27P0039 SIGNED 10-21-26revised.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "7017287750"
     },
     "b697c5590058401caef2e31863f35b32": {
@@ -65094,7 +65321,7 @@
       "sol": "36C10D26Q0171"
     },
     "b7948f37efcf48999a817bd1bcd12cd1": {
-      "a": 1,
+      "a": 2,
       "c": 4056,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -65110,6 +65337,15 @@
       "n": "Attachment_4_-_NM20260025_Mod_1.pdf",
       "s": "wage_determination",
       "sol": "140R4026Q0151"
+    },
+    "b79826413b644d6d8eeecae3eba5b1d9": {
+      "a": 1,
+      "d": "2026-10-22",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Attachment 009 -Answers to the TRIOSS RFP.xlsx",
+      "s": "retry",
+      "sol": "W900KK-27-R-A0003"
     },
     "b7a4a5c73f8c4e93ac2b61b8ae43f24a": {
       "c": 67,
@@ -65759,7 +65995,7 @@
       "sol": "FA821326RB005-Solicitation"
     },
     "b911d30e0fdb4be4bdfa8b0b8afc175f": {
-      "a": 1,
+      "a": 2,
       "c": 1598,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -66021,7 +66257,7 @@
       "sol": "FD20302301677-03"
     },
     "b9cbbd7e60184ab396855fd1dc0c38bb": {
-      "a": 1,
+      "a": 2,
       "c": 853,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -67469,7 +67705,7 @@
       "sol": "N0040627R0004"
     },
     "bd429bf6c5a14dfa9e839fd852fb5a6c": {
-      "a": 1,
+      "a": 2,
       "c": 2691,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -67917,6 +68153,16 @@
       "s": "screened",
       "sol": "FA813727R0002 "
     },
+    "be3f2670a8bc4ecaa23b55841fa3c9a7": {
+      "a": 1,
+      "c": 9618,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "Redacted JA260393.pdf",
+      "s": "retry",
+      "sol": "JA260393"
+    },
     "be45f3dda3b44bb0bf68b4249d10b9c3": {
       "c": 48639,
       "d": "2026-10-14",
@@ -68201,6 +68447,16 @@
       "s": "screened",
       "sol": "FA8125-27-Q-0002"
     },
+    "bf3d25d020b047bc990cdae1cdbf64ab": {
+      "a": 1,
+      "c": 4265,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "Notice of Intent - CVENT Licenses (NIAID).pdf",
+      "s": "retry",
+      "sol": "7571TE27Q00019"
+    },
     "bf410bdefd544ff799ace30e2926f7f4": {
       "c": 95628,
       "d": "2026-10-10",
@@ -68470,7 +68726,7 @@
       "sol": "140P2026R0073"
     },
     "c030a81be5184f8e915abd80e08694ad": {
-      "a": 1,
+      "a": 2,
       "c": 4043,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -68681,7 +68937,7 @@
       "sol": "SPMYM327Q1100"
     },
     "c0ba76426b144fa48e7fcd720681e5bc": {
-      "a": 1,
+      "a": 2,
       "c": 29057,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -70340,7 +70596,7 @@
       "sol": "W912QR-RICHMOND(MAIN)INFY27"
     },
     "c542fa93dca84e6ca6eac6380f0d2ac3": {
-      "a": 1,
+      "a": 2,
       "c": 5393,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -70724,8 +70980,8 @@
       "sol": "W51DQV27S1CQK"
     },
     "c6592cf77a3941ee85303dd4d0495478": {
-      "a": 1,
-      "c": 154765,
+      "a": 2,
+      "c": 295771,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "ocr+pdf",
@@ -72995,7 +73251,7 @@
       "sol": "140D0426Q0641"
     },
     "cc5861b3c3594f8db86b82acbb985a20": {
-      "a": 1,
+      "a": 2,
       "c": 2863,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -73480,8 +73736,8 @@
       "sol": "FA466126R0008"
     },
     "cdc2b2d56c964b8289720295ce51993a": {
-      "a": 1,
-      "c": 16866,
+      "a": 2,
+      "c": 16950,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "ocr+pdf",
@@ -74754,13 +75010,13 @@
       "sol": "W91QV126RA060"
     },
     "d0d84792b648451cb7399909c774bf8d": {
-      "a": 2,
+      "a": 3,
       "c": 693,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "docx",
       "n": "47PA0425D0027 36C25627F0037_1.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C25627AP0229"
     },
     "d0e9f1c2cb1146d78357483e6bc0dce9": {
@@ -74845,7 +75101,7 @@
       "sol": "15BCMS26R51700001"
     },
     "d127c09da3784b67a90370ea65cdb594": {
-      "a": 1,
+      "a": 2,
       "c": 4637,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -75149,13 +75405,13 @@
       "sol": "693C73-27-B-000002"
     },
     "d1ede776824d4d8089738eb98e5d601f": {
-      "a": 2,
+      "a": 3,
       "c": 3130,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "JA - Complete_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "SPRPA1-26-F-EV08"
     },
     "d20583abeb7d484fa01a711361dad60e": {
@@ -75223,7 +75479,7 @@
       "sol": "W912TF27QA001"
     },
     "d2614e9aefab4b2281cb1c55229a317e": {
-      "a": 1,
+      "a": 2,
       "c": 1098,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -75370,13 +75626,13 @@
       "sol": "1232SA27Q0004"
     },
     "d2ee5d58afb14c3b834f07e507e0d6e7": {
-      "a": 2,
+      "a": 3,
       "c": 26103,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "pdf",
       "n": "Solicitation - N6278926Q1004revi.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N6278926Q1004"
     },
     "d30aefbf880448adaa64c09f08db3181": {
@@ -76070,13 +76326,13 @@
       "sol": "SP330027Q0007"
     },
     "d52ded608f8b43479bf2c0fd56236e21": {
-      "a": 2,
+      "a": 3,
       "c": 467,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "pdf",
       "n": "36C25026Q0879_1.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C25026Q0879"
     },
     "d536bfe35b544eadac20353a6ee55681": {
@@ -76519,13 +76775,13 @@
       "sol": "HQC00426QE025"
     },
     "d65c3c81021e4050a23859e0bf17dcc3": {
-      "a": 2,
+      "a": 3,
       "c": 9924,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "ocr+pdf",
       "n": "4.01e Att4 J&A.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N0060426Q4111"
     },
     "d65d894ae0b54141a6b477223f3d4706": {
@@ -77872,6 +78128,16 @@
       "s": "screened",
       "sol": "70Z08526QIBCT0051"
     },
+    "da35876649f4403ab080ba4a164054e3": {
+      "a": 1,
+      "c": 4237,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "docx",
+      "n": "A21_MISC_-_NOI_to_Sole_Source__1.docx",
+      "s": "retry",
+      "sol": "140D0427Q0941"
+    },
     "da36e2c0033a44d48a7af3afd710c4b5": {
       "c": 40854,
       "d": "2026-10-13",
@@ -79069,7 +79335,7 @@
       "sol": "36C77626B0011_1"
     },
     "dd2789a5eb994fccbdb42a5b761e6f54": {
-      "a": 1,
+      "a": 2,
       "c": 80497,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -79112,7 +79378,7 @@
       "sol": "LRAFB_MACC_IndustryDay"
     },
     "dd4340af07f74a5db1ab4d44da954e1e": {
-      "a": 1,
+      "a": 2,
       "c": 3381,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -79425,7 +79691,7 @@
       "sol": "75H70127R00001"
     },
     "de492d71728346f9bd1353456d0cbd2c": {
-      "a": 1,
+      "a": 2,
       "c": 2775,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -79515,6 +79781,15 @@
       "n": "36C24827P0023_1.docx",
       "s": "screened",
       "sol": "36C24827Q0056"
+    },
+    "de71ee46bb634234b5a4140f308fe0ca": {
+      "a": 1,
+      "d": "2026-10-22",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Solicitation - W900KK27RA003 (Amendment 01).pdf",
+      "s": "retry",
+      "sol": "W900KK-27-R-A0003"
     },
     "de7631d263f241fa8be5734136daa226": {
       "c": 740,
@@ -81799,7 +82074,7 @@
       "sol": "FA524027Q0001"
     },
     "e4a46f0484074d93b36412eed95cd77c": {
-      "a": 1,
+      "a": 2,
       "c": 4825,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -81940,6 +82215,16 @@
       "n": "Sol_140A2326Q0243_Amd_0002.pdf",
       "s": "screened",
       "sol": "140A2326Q0243"
+    },
+    "e4d8d33a350942b2bf792c327c42a9d5": {
+      "a": 1,
+      "c": 9350,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "ocr+pdf",
+      "n": "JA - Final - Regional Cranes N4008026R1003_Redacted.pdf",
+      "s": "retry",
+      "sol": "N40080"
     },
     "e4dcf7a316334a5fa1cef38dd42760ce": {
       "c": 8766,
@@ -82845,13 +83130,13 @@
       "sol": "W519TC-26-R-A056"
     },
     "e739875ced5644f08213504b13124d1c": {
-      "a": 2,
+      "a": 3,
       "c": 2095,
       "d": "2026-10-21",
       "e": "screening call failed",
       "m": "xlsx",
       "n": "Estimated Buy Quantities.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "75Q65"
     },
     "e73f7d51cb37433e9f5ed3b9a4b738e9": {
@@ -83668,8 +83953,8 @@
       "sol": "SPE4A6-26-R-XD52"
     },
     "e976686b7fad490099b380304c0b73f0": {
-      "a": 1,
-      "c": 37283,
+      "a": 2,
+      "c": 37330,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -84643,6 +84928,16 @@
       "s": "screened",
       "sol": "RFI-195000-26-00181"
     },
+    "ebee90211843476085ab7ce08bda0e44": {
+      "a": 1,
+      "c": 25482,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "LSJ W9124J-26-Q-ENTR Approved 7 OCT 26.pdf",
+      "s": "retry",
+      "sol": "W9124J-27-F-A001 "
+    },
     "ebf19cda4a1c4f268dcd112dfc011d2e": {
       "c": 1425,
       "d": "2026-10-13",
@@ -84660,7 +84955,7 @@
       "sol": "RA027"
     },
     "ec09343ded824a82b8641dc137609acd": {
-      "a": 1,
+      "a": 2,
       "c": 268,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -85943,6 +86238,16 @@
       "s": "screened",
       "sol": "36C78626R501200006"
     },
+    "ef76b5db97114a34b3af9032f98ab0eb": {
+      "a": 1,
+      "c": 3942,
+      "d": "2026-10-22",
+      "e": "screening call failed",
+      "m": "pdf",
+      "n": "Notice_of_Intent_to_Sole_Source_1.pdf",
+      "s": "retry",
+      "sol": "140RR027Q0012"
+    },
     "ef7bd6214e7c472b9aef56be64aa491b": {
       "c": 1585,
       "d": "2026-10-10",
@@ -86208,6 +86513,15 @@
       "n": "Winning bids Subsistence FY27 1ST QTR.xlsx",
       "s": "screened",
       "sol": "15B21826Q00000022"
+    },
+    "f02b72797a454a0aaade62c82b60926e": {
+      "a": 1,
+      "d": "2026-10-22",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Attachment 001 PWS TRIOSS II (Amendment 1).pdf",
+      "s": "retry",
+      "sol": "W900KK-27-R-A0003"
     },
     "f03c593432634cee99fa16e5c6ed6d31": {
       "c": 2701,
@@ -89302,8 +89616,8 @@
       "sol": "140G0126Q0288"
     },
     "f84d51fe0dc645c49b5ab4cc6dc256ce": {
-      "a": 1,
-      "c": 49767,
+      "a": 2,
+      "c": 49969,
       "d": "2026-10-22",
       "e": "screening call failed",
       "m": "pdf",
@@ -89688,7 +90002,7 @@
       "sol": "FA239626RB008"
     },
     "f95de384361f4e969aa8db6f9efffa0e": {
-      "a": 1,
+      "a": 2,
       "c": 8794,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -90283,7 +90597,7 @@
       "sol": "140D0426Q0641"
     },
     "fb15fac47b104b01bafdd578193bb94b": {
-      "a": 1,
+      "a": 2,
       "c": 4811,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -90373,7 +90687,7 @@
       "sol": "RFQ511741"
     },
     "fb6970b737904cfd8dccb617b739a234": {
-      "a": 1,
+      "a": 2,
       "c": 6620,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -90577,7 +90891,7 @@
       "sol": "W90VN827RA001"
     },
     "fc1bf3230825435d88f5098634d488aa": {
-      "a": 1,
+      "a": 2,
       "c": 18245,
       "d": "2026-10-22",
       "e": "screening call failed",
@@ -90709,7 +91023,7 @@
       "sol": "120c9202b6654d699d936a5401bd7876"
     },
     "fc89005bae1a495e8ab0a5822a1046b6": {
-      "a": 1,
+      "a": 2,
       "c": 27796,
       "d": "2026-10-22",
       "e": "screening call failed",
