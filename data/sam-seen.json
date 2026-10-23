@@ -2413,6 +2413,32 @@
       "what": "Foreign adversary rotary-wing and UAS threat replication for WTI 1-27 aviation training course",
       "why_no_competition": "GAO protest of prior competitive award caused 49-day delay; mandatory planning conference already completed by selected vendor only"
     },
+    "07b1e5bf3416421f80dbb45b5d9ca69a": {
+      "action": "renewal",
+      "authority": "brand_name",
+      "authority_quote": "NIAID intends to procure the required event management and registration services from Cvent, Inc. to maintain continuity with the existing Cvent environment and established OWS/ISSB event management processes. NIAID has utilized Cvent since approximately March 2020",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "Continued use of Cvent will preserve the existing environment, integrations, user access, and established business processes",
+        "incumbent_lock_in": "NIAID has utilized Cvent since approximately March 2020, and the platform currently supports ongoing event registration"
+      },
+      "i": 24,
+      "news": 2,
+      "news_why": "Routine sole-source renewal for incumbent event-management vendor to ensure continuity",
+      "red_flags": [
+        "incumbent_lock_in",
+        "cites_prior_agency_work"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "CVENT, Inc",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Cvent Enterprise event management platform license and registration services for NIAID",
+      "why_no_competition": "Incumbent vendor; continuity with existing platform and integrations; avoiding disruption to ongoing operations"
+    },
     "085682f126fe48469dc67e2031a3f08a": {
       "action": "extension",
       "authority": "urgency",
@@ -2436,6 +2462,31 @@
       "vendor_kind": "government contractor",
       "what": "Healthcare services network (CCN Region 1) for 15 states, one year",
       "why_no_competition": "Incumbent has established infrastructure; delay in replacement competition (protests, 1,600 questions) creates service gap"
+    },
+    "0878d9a539a949cc8e66ef5f714f3a6d": {
+      "action": "new_award",
+      "authority": "only_one_source",
+      "authority_quote": "10 U.S.C. \u00a7 3204(a)(1), only one responsible source and no other supplies or services will satisfy agency requirements.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "incumbent_lock_in": "Retaining Vard Marine as the lead design agent would reduce technical and schedule risk, enabling the Navy to proceed efficiently towards fielding a solution"
+      },
+      "i": 12,
+      "news": 3,
+      "news_why": "Incumbent lead designer retained for cable ship feasibility study after extensive prior Navy work; competitive industry day in 2020 with follow-on study awards",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "incumbent_lock_in"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "VARD Marine, Inc.",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "T-ARC(X) Requirements Feasibility Study for Navy cable-laying and repair ship design",
+      "why_no_competition": "VARD Marine already completed preliminary design work; alternatives would require duplicating technical work and establishing design maturity; market research since 2018 identified only VARD as qualified"
     },
     "0c3e9dce43d24a65b1f1e264cc996966": {
       "action": "new_award",
@@ -2553,6 +2604,30 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Office space lease extension in Oxford, Mississippi",
       "why_no_competition": "Agency encountered delays in planning relocation to other federally controlled space due to organizational, financial, or other uncertainties"
+    },
+    "118bf997c57f49bf95493d1e2dbd4fb3": {
+      "action": "new_award",
+      "authority": "brand_name",
+      "authority_quote": "This supply requires that all parts be genuine OEM Caterpillar. Discussions with the requiring office have determined that only an authorized Caterpillar facility has the capability to supply the parts and perform the troubleshooting required.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "no_market_research": "There is no reason to believe or justify that any further advertisement will provide different results or that any other small business vendors will provide quotes."
+      },
+      "i": 31,
+      "news": 1,
+      "news_why": "Routine equipment repair sole-source with limited market search.",
+      "red_flags": [
+        "no_market_research"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Goldman Equipment Company",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "John Deere 7210 tractor transmission rebuild and back glass replacement for Army Corps of Engineers.",
+      "why_no_competition": "Scope specifies Caterpillar OEM parts; Goldman Equipment only authorized Caterpillar repair center in area; equipment already at facility for diagnostics."
     },
     "138c4db5cf3448e19dbeb2a38bb48df8": {
       "action": "new_award",
@@ -2782,6 +2857,48 @@
       "what": "Legal recovery services for EXIM Bank defaulted loan collections in Argentina (5-year contract)",
       "why_no_competition": "Local Argentine counsel with specialized experience in asset recovery, litigation, and EXIM Bank procedures; key to minimizing delays and duplication costs"
     },
+    "23d0f9ec368a423488ecedeabf313104": {
+      "action": "order",
+      "authority": "fair_opportunity_exception",
+      "authority_quote": "Commercial Solutions Opening (CSO) is...the premier rapid-acquisition gateway for commercial innovators...By leveraging streamlined, merit-based evaluation procedures, the ACC-DTA CSO offers industry partners the fastest, most collaborative, and most flexible pathway",
+      "authority_verified": false,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 26,
+      "news": 1,
+      "news_why": "Standard Army CSO competitive solicitation mechanism; no sole-source element",
+      "red_flags": [],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": null,
+      "vendor_kind": "government contractor",
+      "what": "Open competitive CSO solicitation for ground vehicle systems, engine components, tools, and modernization capabilities for Army",
+      "why_no_competition": "Broad multi-vendor CSO; competitive process with merit-based phases; no single-source element"
+    },
+    "243e929106e149718c3937aede14c370": {
+      "action": "renewal",
+      "authority": "only_one_source",
+      "authority_quote": "In accordance with FAR13.106-1(b)(1), only one source is reasonably available to satisfy the Government's requirements. The vendor confirmed that there are no authorized resellers. Accordingly, only Bentley Systems, Incorporated, can meet the Government's minimum requirements",
+      "authority_verified": false,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 25,
+      "news": 1,
+      "news_why": "Routine sole-source maintenance renewal for proprietary engineering software",
+      "red_flags": [
+        "incumbent_lock_in"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Bentley Systems, Incorporated",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Annual maintenance and support for Bentley software (FlowMaster, Hammer, WaterCAD, WaterGEMS, SewerGEMS, STAAD.Pro) for Bureau of Reclamation",
+      "why_no_competition": "Sole manufacturer; no authorized resellers; continuity with existing software licenses and technical support"
+    },
     "249dfb318fab4536a8286b5e82a226cc": {
       "action": "extension",
       "authority": "only_one_source",
@@ -2806,6 +2923,56 @@
       "vendor_kind": "government contractor",
       "what": "Operations and maintenance of EPA Research Triangle Park campus facilities, six-month extension",
       "why_no_competition": "FAR 52.217-8 unevaluated option; only incumbent can maintain continuity of critical lab facility services during follow-on procurement"
+    },
+    "284042b34eb44552b49f448c4eed556c": {
+      "action": "new_award",
+      "authority": "limited_sources",
+      "authority_quote": "10 USC 3204(A) (1), only one or a limited number of responsible sources will satisfy agency requirements",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "Existing unique design capability, engineering skills, and manufacturing/repair knowledge by the qualified source(s) require acquisition/repair of the part from the approved source(s)"
+      },
+      "i": 7,
+      "news": 1,
+      "news_why": "Routine critical safety item spare parts procured from approved sources; standard technical data retention rationale",
+      "red_flags": [
+        "cites_prior_agency_work"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "The Entwistle Company LLC and York Precision Machining and Hydraulics, LLC",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Buffer cylinder assembly spare parts (NSN 1720-014657848, qty 23) for Navy aircraft; final delivery Nov 2030",
+      "why_no_competition": "Critical Safety Item with only two approved manufacturing sources; data rights retained by manufacturers; alternate sources must qualify per design control authority procedures"
+    },
+    "284be0f25fd34e849f71cc0844a20c82": {
+      "action": "new_award",
+      "authority": "only_one_source",
+      "authority_quote": "RFO 16.507-6(b)(2) \u2014 Only one capable awardee can provide the supplies or services required at the level of quality required because the supplies or services ordered are unique or highly specialized.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "As the Original Equipment Manufacturer (OEM) and software publisher of the existing Enterprise Imaging PACS platform, AGFA Healthcare Corporation possesses proprietary technical knowledge, software access, and established validation and support processes",
+        "incumbent_lock_in": "Standardization on AGFA Healthcare Corporation-validated diagnostic workstation configurations is necessary to preserve the integrity, reliability, and long-term supportability of the Government's existing Enterprise Imaging PACS system."
+      },
+      "i": 11,
+      "news": 2,
+      "news_why": "OEM replacement parts for existing medical system; vendor lock-in typical for proprietary healthcare equipment",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "incumbent_lock_in"
+      ],
+      "value_quote": "The total value is $370,798.80.",
+      "value_status": "stated",
+      "value_usd": 370798.8,
+      "value_verified": true,
+      "vendor": "AGFA Healthcare Corporation",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Replacement end-of-life PACS diagnostic workstations and implementation services for Albany VA Medical Center",
+      "why_no_competition": "AGFA is the OEM and software publisher of existing Enterprise Imaging PACS; proprietary software and hardware compatibility required"
     },
     "311baecfc7994ab383c4d2f960ed6361": {
       "action": "new_award",
@@ -2832,6 +2999,29 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Commercial air travel booking services for eligible Veterans requiring medical transportation.",
       "why_no_competition": "Urgent need to prevent service interruption; only Duluth has VA-specific workflows and nationwide readiness."
+    },
+    "3229d3fa0e9d485f85719bcb659b6d91": {
+      "action": "new_award",
+      "authority": "brand_name",
+      "authority_quote": "Section 41 U.S.C. 4106(c)(2) as implemented by RFO VA Deviation 16.507-6(b)(2), entitled 'Only one awardee is capable of providing the supplies or services required at the level of quality required because the supplies or services ordered are unique or highly specialized.'",
+      "authority_verified": false,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 15,
+      "news": 3,
+      "news_why": "Large-value software license; government locked into vendor through prior adoption of open-source version.",
+      "red_flags": [
+        "incumbent_lock_in",
+        "cites_prior_agency_work"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Sonatype",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Sonatype Nexus Repository Pro annual subscription licenses (2060 licenses) with support for VA Benefits Integration Platform",
+      "why_no_competition": "Existing deployment of open-source Nexus; paid version features incompatible/interoperable only with Sonatype; switching would require extensive reengineering"
     },
     "3280f97fd5a045459cf5e0e31ea1415d": {
       "action": "extension",
@@ -2919,6 +3109,68 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "MH-60T helicopter replacement parts (angle fitting, hoist fitting) via Basic Ordering Agreement",
       "why_no_competition": "OEM holds exclusive rights to technical data, specifications, drawings; items approved only by USCG Aircraft Configuration Control Board"
+    },
+    "3b616c08d94b47babbd918e0cbec197f": {
+      "action": "new_award",
+      "authority": "urgency",
+      "authority_quote": "This justification is provided to support the processing of reference (a) on an urgent basis (i.e., more quickly than the routine cycle timeframes of 20 days for requirements less than $25,000",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 16,
+      "news": 2,
+      "news_why": "Routine waste-disposal service; urgency suggests poor advance planning for ship maintenance.",
+      "red_flags": [
+        "urgency_from_poor_planning"
+      ],
+      "value_quote": null,
+      "value_status": "unverified",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Waste Management of Virginia, Inc.",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Mattress and dumpster disposal service for USS IWO JIMA (LHD-7) before shipyard maintenance availability",
+      "why_no_competition": "Urgent offloading required before shipyard work begins; delays would disrupt maintenance availability schedule and mission readiness timeline"
+    },
+    "3c48b6766e90475fa4b4e7cce1607e0b": {
+      "action": "order",
+      "authority": "brand_name",
+      "authority_quote": "As the Original Equipment Manufacturer (OEM) of these items, Sikorsky Aircraft Corporation owns all rights to the technical data, specifications, and drawings required for their manufacture.",
+      "authority_verified": false,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 29,
+      "news": 1,
+      "news_why": "Routine OEM aircraft parts replacement.",
+      "red_flags": [],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Sikorsky Aircraft Corporation",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "MH-60T helicopter replacement parts (angle and hoist fitting) for Coast Guard routine maintenance.",
+      "why_no_competition": "OEM owns all technical data and drawings; items only approved by USCG Aircraft Configuration Control Board for use on this helicopter; uneconomical to purchase elsewhere."
+    },
+    "3cc26ef2f400474abd814ee697a0282b": {
+      "action": "new_award",
+      "authority": "brand_name",
+      "authority_quote": "Brand Name - Items peculiar to one manufacturer: The particular brand name, product, or feature is essential to the Government's requirements",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 33,
+      "news": 1,
+      "news_why": "Routine OEM spare parts for military helicopter maintenance",
+      "red_flags": [],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Sikorsky Aircraft Corporation",
+      "vendor_kind": "government contractor",
+      "what": "Latch assembly replacement parts for MH-60T helicopter routine maintenance",
+      "why_no_competition": "OEM owns all technical data and rights; uneconomical to purchase data; only approved item by USCG Aircraft Configuration Control Board"
     },
     "40c7fe234982477e95877a01a6c695a5": {
       "action": "ceiling_increase",
@@ -3128,6 +3380,30 @@
       "what": "SIAM journal subscription (multiple titles) for ERDC.",
       "why_no_competition": "SIAM is exclusive owner and sole provider of SIAM Journal content."
     },
+    "591a8e5726f94335b606d7787424974c": {
+      "action": "order",
+      "authority": "brand_name",
+      "authority_quote": "The specific exception for providing for brand-name awards under multiple award contracts is RFO FAR Subpart 16.507-7(a). An item peculiar to one manufacturer can be a particular brand-name, product, or a feature of a product peculiar to one manufacturer.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "no_market_research": "Market Research was conducted during the period of 7/2/26 \u2013 7/9/26. (1) Quote was received from small a business. The quotes were reviewed and it was determined that specifically, no other companies were able to provide the level of support"
+      },
+      "i": 10,
+      "news": 1,
+      "news_why": "Routine brand-name specification for proprietary network equipment optimization services; vendor heavily redacted",
+      "red_flags": [
+        "no_market_research"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": null,
+      "vendor_kind": null,
+      "what": "Brand-name network optimization services for ICE's proprietary appliance infrastructure",
+      "why_no_competition": "Services are specific to currently owned proprietary appliances; no competing services available for this particular brand's optimization"
+    },
     "5927b3b796aa4aca8e2a935826ef965d": {
       "action": "ceiling_increase",
       "authority": "urgency",
@@ -3307,6 +3583,58 @@
       "what": "Post-delivery software and systems engineering for space ground system transition to full operational capability.",
       "why_no_competition": "Original developer holds unique technical expertise; 6-month deadline prohibits competitive process."
     },
+    "6370d30d6bf54fc3b0668120edb19965": {
+      "action": "new_award",
+      "authority": "brand_name",
+      "authority_quote": "Brand-name specifications must not be used unless the particular brand-name, product, or feature is essential to the Government's requirements",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "The XXXXXX software tools are used extensively throughout DHS and ICE with great benefits to ICE across Homeland Security Investigations (HSI) and Enforcement and Removal Operations (ERO)",
+        "incumbent_lock_in": "Procuring an alternate product other than XXXXXXXX software will require complete infrastructure replacement with a significant increase in cost"
+      },
+      "i": 5,
+      "news": 2,
+      "news_why": "Routine brand-name sole-source for standard video conferencing; value redacted prevents higher assessment",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "incumbent_lock_in"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "redacted",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "WebEx and Expressway software licenses for ICE video conferencing and EOIR court appearances",
+      "why_no_competition": "Only product meeting all ICE infrastructure requirements for EOIR/DOJ interconnection; competitors lack hybrid licensing, built-in MRA, and FedRamp-secured compatibility"
+    },
+    "6b565ce76c1a4363b1fbeb7f3afa1944": {
+      "action": "bridge",
+      "authority": "fair_opportunity_exception",
+      "authority_quote": "41 U.S.C. 253; 41 U.S.C. 1901(e)",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "incumbent_lock_in": "incumbent contractor continues to provide the necessary medical services through their established network of local medical facilities and physicians",
+        "repeated_extension": "This interim acquisition is necessary pending competitive award of a CMS contract"
+      },
+      "i": 1,
+      "news": 2,
+      "news_why": "Standard bridge contract for prison healthcare; incumbent retains work during competitive recompete",
+      "red_flags": [
+        "repeated_extension",
+        "incumbent_lock_in"
+      ],
+      "value_quote": "Estimated value of requirement is $170,000.00.",
+      "value_status": "stated",
+      "value_usd": 170000,
+      "value_verified": true,
+      "vendor": "American Correctional Healthcare, Inc",
+      "vendor_kind": "government contractor",
+      "what": "Interim comprehensive medical services for inmate population at FCI Cumberland prison",
+      "why_no_competition": "Incumbent contractor ensures continuity of care while new multi-year agreement negotiated; no lapse in service"
+    },
     "6d98ae77919a4fa38a4f0a66777172ff": {
       "action": "new_award",
       "authority": "brand_name",
@@ -3328,6 +3656,50 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Dell server equipment technology refresh for WISS v5 control systems at Naval Surface Warfare Center Corona",
       "why_no_competition": "Dell brand required for interoperability with existing infrastructure and to avoid creating new network authorities under DoN consolidation directive"
+    },
+    "6f3750d5a5b1429cb2b483ac1d8e4bf0": {
+      "action": "new_award",
+      "authority": "brand_name",
+      "authority_quote": "The particular brand name, product, or feature is essential to the Government's requirements",
+      "authority_verified": false,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "incumbent_lock_in": "existing brand name NetApp Storage systems deployed across the VA enterprise"
+      },
+      "i": 32,
+      "news": 2,
+      "news_why": "Routine sole-source maintenance for existing commercial storage systems",
+      "red_flags": [
+        "incumbent_lock_in"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "NetApp (authorized reseller/partner)",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "NetApp hardware and software maintenance support for VA enterprise storage systems",
+      "why_no_competition": "Brand name NetApp systems already deployed across VA; maintenance requires OEM authorization and genuine parts"
+    },
+    "7406dcedf212463da1182b63a4b3c7ce": {
+      "action": "order",
+      "authority": "only_one_source",
+      "authority_quote": "FAR 6.302-1 - Only one responsible source (except brand name)",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 4,
+      "news": 1,
+      "news_why": "Routine medical equipment replacement part from OEM manufacturer",
+      "red_flags": [],
+      "value_quote": "AWARD AMOUNT* $36,123.20",
+      "value_status": "stated",
+      "value_usd": 36123.2,
+      "value_verified": true,
+      "vendor": "Philips North America LLC",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Replacement CT Cabinet Compressor for Veterans Affairs Puget Sound Health Care System Seattle",
+      "why_no_competition": "Proprietary equipment requires OEM manufacturer for replacement part"
     },
     "744e6ad90f284d1dac05ab703418670e": {
       "action": "new_award",
@@ -3352,6 +3724,35 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Strainer Assembly (NSN 2915-010576294) parts for 2-year indefinite-quantity contract.",
       "why_no_competition": "Source-controlled item; technical data not available to permit competition; part requires manufacturing source specified on source control drawing."
+    },
+    "7473f82d08934c09af84ff45f0744467": {
+      "action": "order",
+      "authority": "urgency",
+      "authority_quote": "RFO FAR 16.507-6(b)(1): The agency need for the supplies or services is so urgent that providing a fair opportunity would result in unacceptable delays",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "a vendor with existing knowledge, infrastructure, and proven performance in supporting requirements would be best positioned to ensure a continuation of services",
+        "incumbent_lock_in": "necessary to procure services from the incumbent Noblis, Inc via a sole source contract",
+        "urgency_from_poor_planning": "The need for this exception to fair opportunity and associated justification derives from the need to support continuation of services resulting from statutorily mandated DHS component re-organizations"
+      },
+      "i": 2,
+      "news": 4,
+      "news_why": "Biosurveillance for White House/NSC relies on sole-source contractor due to organizational reorganization; urgency self-inflicted by DHS planning delays",
+      "red_flags": [
+        "urgency_from_poor_planning",
+        "incumbent_lock_in",
+        "cites_prior_agency_work",
+        "cites_executive_order"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Noblis, Inc.",
+      "vendor_kind": "government contractor",
+      "what": "Advisory and Assistance Services for DHS National Biosurveillance Information Center",
+      "why_no_competition": "Urgent need to avoid gap in biosurveillance service; insufficient time for competitive award before task order expires"
     },
     "7697a526152f4ccfb19951bebb913dab": {
       "action": "new_award",
@@ -3402,6 +3803,30 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "HyperWorks technical support and software maintenance renewal for naval engineering programs",
       "why_no_competition": "Siemens HyperWorks provides proprietary meshing, multi-physics solver integration, and air-gapped deployment unavailable from competitors"
+    },
+    "79b4b94aa23c424bb18ee41a3b32de91": {
+      "action": "order",
+      "authority": "only_one_source",
+      "authority_quote": "Fischer Custom Communications, Inc. is the sole identified source possessing the proprietary technical drawings, test fixtures, and domain engineering expertise required to interface with and refurbish this custom hardware",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "Fischer Custom Communications, Inc. is the sole identified source possessing the proprietary technical drawings, test fixtures, and domain engineering expertise required to interface with and refurbish this custom hardware"
+      },
+      "i": 18,
+      "news": 2,
+      "news_why": "Specialized B-2 aircraft test equipment repair; sole source due to custom design and defunct OEM.",
+      "red_flags": [
+        "cites_prior_agency_work"
+      ],
+      "value_quote": "The estimated cost is $75,000.",
+      "value_status": "stated",
+      "value_usd": 75000,
+      "value_verified": true,
+      "vendor": "Fischer Custom Communications, Inc.",
+      "vendor_kind": "government contractor",
+      "what": "Test, Teardown, and Evaluation of inoperable RF M880 amplifier for B-2 aircraft EMP/EMF nuclear hardness tester",
+      "why_no_competition": "Custom hardware with proprietary technical drawings; original manufacturer (Maxwell) defunct; only source with test fixtures and domain expertise"
     },
     "82fb5525f0384728aa6c3408d483728d": {
       "action": "new_award",
@@ -3516,6 +3941,61 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Two flight-qualified spacecraft autonomy modules with optical GPS-independent navigation and autonomous object detection for DoD APFIT program",
       "why_no_competition": "EraDrive is only vendor with GPS-independent optical positioning and autonomy module demonstrated on-orbit since July 2023; no other source could develop equivalent within mission window."
+    },
+    "8725a4d190244a94ad72dbf3bdd52a6a": {
+      "action": "new_award",
+      "authority": "only_one_source",
+      "authority_quote": "Article 10 of the U.S.C., Section 3204(a)(1), as implemented at Federal Acquisition Regulations (FAR) Subsection 6.302-1, One Responsible Source and No Other Supplies or Services Will Satisfy Agency Requirements.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "Services are currently being performed by CRANEWORKS Inc. under Contract No. N40080-22-D-0015, which was awarded as a sole source contract.",
+        "incumbent_lock_in": "The Government's position is the required services and parts under should be provided exclusively by Craneworks, Inc.to ensure operational readiness of equipment for full commissioning and eliminate any Navy Certification issues by introducing a new contractor.",
+        "no_market_research": "Sources Sought Notice (SSN) was published on SAM.gov on June 3, 2025. In response, four (4) submissions were received; however, three (3) of the responses did not include capability statements."
+      },
+      "i": 8,
+      "news": 2,
+      "news_why": "Routine sole-source renewal with incumbent contractor for specialized equipment maintenance",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "incumbent_lock_in",
+        "no_market_research"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "CraneWorks, Inc.",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Crane maintenance, repair, load testing, and certification for Navy installations in D.C. region",
+      "why_no_competition": "Equipment highly specialized; contractor must be located in D.C. area for timely service; market research found no other qualified sources"
+    },
+    "8b125a8efbb248e9a9416e0fb52e535e": {
+      "action": "new_award",
+      "authority": "limited_sources",
+      "authority_quote": "Title 41 U.S.C. 4106(c)(2) as implemented by GSA Manual 538.7104-3(b)(1)(ii) \u2013Only once source is capable",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "incumbent_lock_in": "Akima has executed a formalized workforce retention plan guaranteeing that 100% of the active, Secret-cleared technicians performing on-site duties will be transitioned on Day 1",
+        "urgency_from_poor_planning": "Award must be in place immediately to prevent contract lapse on 12 October 2026. Competing the requirement would guarantee an unmitigated 90-day break in service during the critical 31 October MAPS cutover"
+      },
+      "i": 6,
+      "news": 4,
+      "news_why": "Seven-figure enterprise IT award to incumbent with tightly timed urgent cutover; workforce lock-in and prior work cited as sole justification",
+      "red_flags": [
+        "urgency_from_poor_planning",
+        "incumbent_lock_in",
+        "cites_prior_agency_work"
+      ],
+      "value_quote": "$7.5 million, 3-year (base and two one-year options)",
+      "value_status": "stated",
+      "value_usd": 7470962,
+      "value_verified": true,
+      "vendor": "Akima Data Management, LLC",
+      "vendor_kind": "government contractor",
+      "what": "Enterprise IT support services for Army Medical Command across CONUS/OCONUS; network, systems administration, help desk",
+      "why_no_competition": "Akima holds unique active domain controller scripts, NEC administrative tokens, AUDS/MAPS migration expertise; transition to competitor during Oct 31 MAPS cutover would lock out users"
     },
     "8e48609ed8a44639ba4269a9475ba57c": {
       "action": "new_award",
@@ -3634,6 +4114,32 @@
       "what": "WMATA SmartBenefits commuter benefits system access for employee transit subsidies",
       "why_no_competition": "WMATA is sole operator of Metrorail/Metrobus and only provides fee-free SmartBenefits system access in region"
     },
+    "a3ebfbed9a8543bebdc44b5002ab3fc5": {
+      "action": "order",
+      "authority": "urgency",
+      "authority_quote": "The need is of such unusual urgency that following the procedures would result in unacceptable delays in fulfilling that need",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "urgency_from_poor_planning": "To transfer millions of documents to another vendors database would be disruptive and would require a redundant use of resources to reload and reprocess documents that Deloitte has already processed, reviewed, and organized"
+      },
+      "i": 9,
+      "news": 3,
+      "news_why": "Hundreds of millions in claims justified sole-source award; vendor lock-in on litigation support data, planned future competition",
+      "red_flags": [
+        "incumbent_lock_in",
+        "urgency_from_poor_planning",
+        "cites_prior_agency_work"
+      ],
+      "value_quote": "estimated value for the entire period of performance is J USD",
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Deloitte Services LP",
+      "vendor_kind": "government contractor",
+      "what": "Litigation support services for State Department Office of Legal Adviser covering discovery, document management, case research",
+      "why_no_competition": "Deloitte currently supporting 12 active cases with millions of documents stored in their repository; transition to new vendor would be disruptive and risk losing hundreds of millions in claims"
+    },
     "a63893dde8d245d5a3033ff4e89a8d0a": {
       "action": "bridge",
       "authority": "urgency",
@@ -3658,6 +4164,52 @@
       "vendor_kind": "government contractor",
       "what": "Area Studies course instruction and administration for State Department foreign affairs training.",
       "why_no_competition": "Incumbent institutional knowledge; mid-cycle training cohorts cannot be severed; new vendor onboarding cannot complete before expiration of current vehicle."
+    },
+    "a6f0f7de539940d8b4ef421459d0dd10": {
+      "action": "modification",
+      "authority": "only_one_source",
+      "authority_quote": "10 U.S.C. 3204(a)(1), Only one responsible source and no other supplies or services will satisfy agency requirements",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 3,
+      "news": 3,
+      "news_why": "Multi-million military construction; incumbent leverages completed design work and site control to block competition",
+      "red_flags": [
+        "incumbent_lock_in",
+        "cites_prior_agency_work"
+      ],
+      "value_quote": "The Government estimate for this project is $2.45M",
+      "value_status": "stated",
+      "value_usd": 2450000,
+      "value_verified": true,
+      "vendor": "KVG, LLC",
+      "vendor_kind": "government contractor",
+      "what": "Design-build helipad parking apron at Mari Naval Base Cyprus",
+      "why_no_competition": "Site integration and safety risks prohibit second contractor; incumbent already mobilized with permits and base access"
+    },
+    "a81024fd09674af59739ac43b1a600a6": {
+      "action": "new_award",
+      "authority": "limited_sources",
+      "authority_quote": "only one responsible source and no other supplies or services will satisfy agency requirements",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 30,
+      "news": 3,
+      "news_why": "Three-quarter-million hotel contract for ceremonial event; poor market research and last-minute booking during holidays.",
+      "red_flags": [
+        "urgency_from_poor_planning",
+        "no_market_research"
+      ],
+      "value_quote": "TOTAL $754,920",
+      "value_status": "stated",
+      "value_usd": 754920,
+      "value_verified": true,
+      "vendor": "Westin Times Square",
+      "vendor_kind": "unusual for government: hospitality venue",
+      "what": "Hotel lodging for 180 Marines and civilians during 2026 Army-Navy Week, December 7-13.",
+      "why_no_competition": "Only hotel identified that can provide all 180 rooms in one facility, near MetLife Stadium, GSA fire-safe certified, and accommodate officer/enlisted separation."
     },
     "a8132b158a0b4da494372dd26f71e764": {
       "action": "order",
@@ -3760,6 +4312,28 @@
       "what": "Helicopter shaft assembly (NSN 3040-01-294-4866), 14 units for H-60 Seahawk",
       "why_no_competition": "OEM refuses data rights sale; reverse engineering cost-prohibited"
     },
+    "aebca3de78ef4fc8a78d5077e71a00b4": {
+      "action": "new_award",
+      "authority": "urgency",
+      "authority_quote": "This procurement is an emergency acquisition driven by Joint Commission survey findings issued during the June 2026 survey cycle, which identified HIGH Widespread infection control deficiencies",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 20,
+      "news": 3,
+      "news_why": "VA facility health/safety emergency; equipment failure caused major Joint Commission violations at inpatient care location.",
+      "red_flags": [
+        "urgency_from_poor_planning"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": null,
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Kitchen pot and pan washing equipment procurement and installation for DC VA Medical Center",
+      "why_no_competition": "Emergency procurement required to remediate Joint Commission infection control findings and restore compliance"
+    },
     "aec0b46dc3cb4ad3ad60cbf629f91d9c": {
       "action": "extension",
       "authority": "urgency",
@@ -3860,6 +4434,54 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Convention ancillary services (carpeting, electrical, labor) for Army recruiting at AAMC annual meeting in Anaheim",
       "why_no_competition": "AAMC selected sole provider; exception deadline passed before Army contract award"
+    },
+    "b3be388d90974852921ef6597693e5d1": {
+      "action": "new_award",
+      "authority": "only_one_source",
+      "authority_quote": "6.302-1 \u2013 10 USC 3204(a)(1), Only One Responsible Source - No Other Supplies or Services Will Satisfy Agency Requirements",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "NDS was the developer, and is the exclusive owner of the technical data required for manufacturing rotary actuators."
+      },
+      "i": 17,
+      "news": 2,
+      "news_why": "Specialized aircraft safety component; sole source due to proprietary technical data ownership.",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "no_market_research"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Nammo Defense Systems Inc.",
+      "vendor_kind": "government contractor",
+      "what": "Explosive rotary actuators for T-37, T-38, F-5 aircraft egress systems (3 NSNs); 24-month delivery",
+      "why_no_competition": "Proprietary explosive filler and firing mechanism; sole owner of technical data; reverse-engineering would require 4-6 years and unacceptable costs"
+    },
+    "b3c2020750d3440e8f11b64f30ee8943": {
+      "action": "new_award",
+      "authority": "only_one_source",
+      "authority_quote": "41 U.S.C. 3304(a)(l) / FAR 6.302-1 (\"Only One Responsible Source\")",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 0,
+      "news": 2,
+      "news_why": "Routine medical equipment maintenance; only competitive factor is vendor's monopoly on proprietary parts",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "incumbent_lock_in"
+      ],
+      "value_quote": "Total Award Value: $798,435.00 (Base Year+ Four 12-Month Option Years)",
+      "value_status": "stated",
+      "value_usd": 798435,
+      "value_verified": true,
+      "vendor": "Karl Storz Endoscopy-America, Inc.",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Software support services for Karl Storz Integrated OR System at Fort Bliss Army Medical Center",
+      "why_no_competition": "Only company manufactures parts and provides software patches for existing equipment; maintains strict control of distribution"
     },
     "b80269b9ffb045cd9c257a42e714b082": {
       "action": "order",
@@ -4021,6 +4643,56 @@
       "what": "748 aircraft rotor/compressor parts (NSN 2840-01-630-9064) for Defense Logistics Agency",
       "why_no_competition": "Part coded AMSC 'V' (high-reliability, critical); reverse engineering infeasible; data rights unavailable; no alternative source identified"
     },
+    "c12d1d17b9b3469d94fc9883db902b1c": {
+      "action": "order",
+      "authority": "limited_sources",
+      "authority_quote": "10 U.S.C. 3204(a)(1) \u2014 Available from only one or limited number of sources.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "This item was previously synopsized in 2024.",
+        "no_market_research": "This item is not a commercial-off-the-shelf item with known stock levels but rather a sole-source item which is only manufactured for approved requirements upon demand."
+      },
+      "i": 14,
+      "news": 1,
+      "news_why": "Duplicate of Document 13; routine aircraft engine part.",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "no_market_research"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "General Electronic (GE) Company",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Case and Vane Assembly (NSN 2840.01.687.604) for F110 military engines, qty 42",
+      "why_no_competition": "Government does not own technical data rights; sole manufacturer; proprietary design data not available"
+    },
+    "c47346acb982400cb9dcdedc7e742876": {
+      "action": "new_award",
+      "authority": "only_one_source",
+      "authority_quote": "Only One Source and No Other Supplies or Services Will Satisfy Agency Requirements",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "DPAA SA requires software that is compliant with equipment currently in operation in DPAA facilities at JBPHH"
+      },
+      "i": 21,
+      "news": 2,
+      "news_why": "Specialized scientific software for military graves recovery; narrow technical requirement with single capable vendor.",
+      "red_flags": [
+        "cites_prior_agency_work"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Chesapeake Technology, Inc.",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "SonarWiz Office Suite software for DPAA underwater archaeological recovery operations at Pearl Harbor",
+      "why_no_competition": "Software required is compliant with equipment currently in operation; only vendor can provide this specific capability"
+    },
     "c4bad86f34314b579a52144c1c0d2fa0": {
       "action": "extension",
       "authority": "urgency",
@@ -4139,6 +4811,32 @@
       "vendor_kind": "government contractor",
       "what": "OEM-certified maintenance and repair for 190 Karl Storz endoscopy devices at VA medical center.",
       "why_no_competition": "Karl Storz OEM requires exclusive service through Karl Storz or their sole authorized SDVOSB partner, L1 Enterprises."
+    },
+    "caec44cd08174ec99e55f1ab2f15103f": {
+      "action": "modification",
+      "authority": "only_one_source",
+      "authority_quote": "As the incumbent on contract FA2835-24-P-0014, the contractor is actively mobilized on-site with required security access and conduit familiarity. Competing this requirement would result in unacceptable delays to facility activation",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "incumbent_lock_in": "As the incumbent on contract FA2835-24-P-0014, the contractor is actively mobilized on-site with required security access and conduit familiarity",
+        "urgency_from_poor_planning": "Competing this requirement would result in unacceptable delays to facility activation"
+      },
+      "i": 27,
+      "news": 2,
+      "news_why": "Sole-source modification to incumbent contractor for partially finished cabling work; urgency driven by sequencing",
+      "red_flags": [
+        "incumbent_lock_in",
+        "urgency_from_poor_planning"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Northern Electric Inc",
+      "vendor_kind": "government contractor",
+      "what": "Complete Fiber-to-Desk cabling, server rack installations, and printer drops for Building 1614 Phase 2 at Hanscom AFB",
+      "why_no_competition": "Incumbent contractor on active contract with on-site mobilization, security access, and technical familiarity; re-competing would delay facility activation"
     },
     "d2f546186bca4ccaa2def8a05fcb10a2": {
       "action": "modification",
@@ -4422,6 +5120,31 @@
       "what": "Aircraft cockpit light (NSN 6220-003499294), 1,185 units for DLA Aviation",
       "why_no_competition": "Technical data unavailable; reverse engineering cost-prohibitive"
     },
+    "e7acb570b82c41889c4f9d3da2706aea": {
+      "action": "order",
+      "authority": "limited_sources",
+      "authority_quote": "10 U.S.C. 3204(a)(1) \u2014 Available from only one or limited number of sources.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "This item was previously synopsized in 2024."
+      },
+      "i": 13,
+      "news": 1,
+      "news_why": "Routine aircraft engine part, sole source due to OEM data rights.",
+      "red_flags": [
+        "cites_prior_agency_work",
+        "no_market_research"
+      ],
+      "value_quote": null,
+      "value_status": "redacted",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "General Electronic (GE) Company",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Case and Vane Assembly (NSN 2840.01.687.604) for F110 military engines, qty 42",
+      "why_no_competition": "Government does not own technical data rights; sole manufacturer; proprietary design data not available"
+    },
     "e94281e007c44fd88347516312007e84": {
       "action": "new_award",
       "authority": "only_one_source",
@@ -4447,6 +5170,32 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Pump unit repair and overhaul parts (centrifugal), NSN 4320-013622973, 5-year contract with varying quantities",
       "why_no_competition": "Only source capable of repair; Government does not own design data or rights; no authorized substitutes; only McNally maintains design and manufacturing standards"
+    },
+    "f11bf94c713f41d58bbe02f904aded9b": {
+      "action": "extension",
+      "authority": "limited_sources",
+      "authority_quote": "Only one source is capable of providing the requirement at the level of quality required because the products, services, or solutions are unique or highly specialized",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {
+        "cites_prior_agency_work": "Each system relies on niche technical knowledge, custom configurations, and historical context that Systalex's subject-matter experts have developed for EPA over multiple years of direct involvement in these Agency specific systems.",
+        "incumbent_lock_in": "The current contractor is fully embedded in ongoing development activities and workflows that are critical to supporting the national drinking water program."
+      },
+      "i": 28,
+      "news": 2,
+      "news_why": "Routine sole-source extension of embedded IT contractor due to switching costs.",
+      "red_flags": [
+        "incumbent_lock_in",
+        "cites_prior_agency_work"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Systalex Corporation",
+      "vendor_kind": "government contractor",
+      "what": "One-year bridge extension of EPA drinking water IT systems support and maintenance.",
+      "why_no_competition": "Current contractor fully embedded in ongoing development; loss of historical knowledge of 28 specialized IT systems would create operational risks and missed statutory deadlines for drinking water regulation implementation."
     },
     "f276ee9684e447dfb175747512c6f568": {
       "action": "order",
@@ -4501,6 +5250,26 @@
       "vendor_kind": "government contractor",
       "what": "Extension of classified systems security, communications, assessment and compliance support for DHS/USCIS through March 2027",
       "why_no_competition": "Incumbent has TS/SCI clearances, system access, specialized knowledge; 60-90 day transition requirement makes new contractor infeasible during protest window"
+    },
+    "f80aea9e27824aba8242a91645f298c8": {
+      "action": "new_award",
+      "authority": "brand_name",
+      "authority_quote": "KBA Proprietary spare parts...This requirement is being procured on a sole-source basis pursuant to FAR 13.106-1(b), soliciting from a Single Source",
+      "authority_verified": false,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 23,
+      "news": 1,
+      "news_why": "Routine OEM spare parts for government printing equipment; standard sole-source procurement.",
+      "red_flags": [],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Koenig & Bauer Banknote Solutions SA",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Spare parts for BEP printing equipment including ink knife, blades, and shaft components",
+      "why_no_competition": "Proprietary KBA spare parts required for existing printing equipment; only available from OEM"
     },
     "f8df501bee584f608571e4708f85f535": {
       "action": "extension",
@@ -4595,6 +5364,48 @@
       "vendor_kind": "commercial OEM/supplier",
       "what": "Hootsuite Enterprise social media management platform licenses and services for ICE Office of Public Affairs (3-year contract)",
       "why_no_competition": "Proprietary AI (Wisdom), integrated visual recognition, licensed data access, two years of accumulated ICE-specific configuration; no other platform offers equivalent capabilities"
+    },
+    "fe898acf31264976ab43e573c46e6240": {
+      "action": "new_award",
+      "authority": "limited_sources",
+      "authority_quote": "This action is being processed in accordance with RFO 12.102 - Restricting competition.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 22,
+      "news": 1,
+      "news_why": "Routine real estate appraisal services; no vendor or competition details provided.",
+      "red_flags": [],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "CBRE",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Land appraisal services for ~487 acres in Missouri River floodplain, St. Louis Missouri",
+      "why_no_competition": "Sole source appraisal services; justification not fully detailed in notice"
+    },
+    "fecdefa71c294448b7f34e616e6aae53": {
+      "action": "new_award",
+      "authority": "limited_sources",
+      "authority_quote": "EXCLUSIVE LICENSING AGREEMENTS. The item or service is only available from the Original Equipment Manufacturer (OEM), or there is only one authorized distributor or technical representative for the OEM.",
+      "authority_verified": true,
+      "d": "2026-10-23",
+      "flag_evidence": {},
+      "i": 19,
+      "news": 2,
+      "news_why": "Routine venue-exclusive event services; no competition possible due to facility contract terms.",
+      "red_flags": [
+        "incumbent_lock_in"
+      ],
+      "value_quote": null,
+      "value_status": "not_stated",
+      "value_usd": null,
+      "value_verified": false,
+      "vendor": "Dupont Hotel Project Owner, LLC",
+      "vendor_kind": "commercial OEM/supplier",
+      "what": "Audio/visual services for Marine Corps Birthday Ball at Washington Hilton",
+      "why_no_competition": "Hotel's exclusive contract with Encore Global as sole in-house A/V provider; external vendors cannot interface with hotel infrastructure"
     }
   },
   "flagged_sols": {

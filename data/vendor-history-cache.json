@@ -513,6 +513,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "american correctional healthcare": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Justice",
+        "amount": 2136270.41,
+        "recipient": "AMERICAN CORRECTIONAL HEALTHCARE, INC.",
+        "start": "2023-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15B51423F00000046_1540_15B51421D00000057_1540"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 1701507.51,
+        "recipient": "AMERICAN CORRECTIONAL HEALTHCARE, INC.",
+        "start": "2024-12-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15B51425F00000015_1540_15B51421D00000057_1540"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 1355404.32,
+        "recipient": "AMERICAN CORRECTIONAL HEALTHCARE, INC.",
+        "start": "2026-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15B40626F00000145_1540_15BFA022D00000016_1540"
+      }
+    ],
+    "first": "2013-03-04",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "american national red cross": {
     "d": "2026-10-10",
     "examples": [
@@ -1694,6 +1723,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "chesapeake technology": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "General Services Administration",
+        "amount": 96002699.86,
+        "recipient": "CHESAPEAKE TECHNOLOGY INTERNATIONAL, CORP.",
+        "start": "2020-05-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA20C0021_4732_-NONE-_-NONE-"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 89238633.0,
+        "recipient": "CHESAPEAKE TECHNOLOGY INTERNATIONAL, CORP.",
+        "start": "2021-08-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA21C0021_4732_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 8005571.06,
+        "recipient": "CHESAPEAKE TECHNOLOGY INTERNATIONAL, CORP.",
+        "start": "2018-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911NF18C0066_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-10-23",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "circor aerospace": {
     "d": "2026-10-19",
     "examples": [
@@ -2272,6 +2330,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "dupont hotel project owner": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Commerce",
+        "amount": 2559988.24,
+        "recipient": "DUPONT HOTEL PROJECT OWNER, LLC",
+        "start": "2015-06-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCSB135115SE0167_1341_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 1282625.0,
+        "recipient": "DUPONT HOTEL PROJECT OWNER, LLC",
+        "start": "2025-01-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1331L525C0002_1301_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Export-Import Bank of the United States",
+        "amount": 1137153.02,
+        "recipient": "DUPONT HOTEL PROJECT OWNER, LLC",
+        "start": "2023-04-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_83310123C0002_8300_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2015-06-26",
+    "has_contracts": true,
+    "raw_hits": 23
   },
   "efs ebrex sarl": {
     "d": "2026-10-15",
@@ -3592,6 +3679,35 @@
     "has_contracts": true,
     "raw_hits": 10
   },
+  "karl storz endoscopy america": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 10084476.07,
+        "recipient": "KARL STORZ ENDOSCOPY-AMERICA INC",
+        "start": "2026-06-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE2D126F0213_9700_SPE2D120D0015_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 9768334.42,
+        "recipient": "KARL STORZ ENDOSCOPY-AMERICA INC",
+        "start": "2026-02-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE2D126F0092_9700_SPE2D120D0015_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 9109428.49,
+        "recipient": "KARL STORZ ENDOSCOPY-AMERICA INC",
+        "start": "2023-02-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE2D123F0063_9700_SPE2D120D0015_9700"
+      }
+    ],
+    "first": "2009-12-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "katmai management service": {
     "d": "2026-10-13",
     "examples": [
@@ -3647,6 +3763,35 @@
       }
     ],
     "first": "2008-04-24",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "kvg": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 113052115.78,
+        "recipient": "KVG LLC",
+        "start": "2026-03-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70CDCR26FR0000035_7012_N0002325D0048_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 25737198.68,
+        "recipient": "KVG LLC",
+        "start": "2026-06-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002326F0014_9700_N0002325D0048_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 7450000.0,
+        "recipient": "KVG LLC",
+        "start": "2026-04-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002326F0009_9700_N0002325D0048_9700"
+      }
+    ],
+    "first": "2018-03-29",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -4437,6 +4582,35 @@
       }
     ],
     "first": "2017-05-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "nobli": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Transportation",
+        "amount": 303239110.1,
+        "recipient": "NOBLIS, INC.",
+        "start": "2017-03-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0005_6920_DTFAWA17D00014_6920"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 237137707.81,
+        "recipient": "NOBLIS, INC.",
+        "start": "2021-05-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HDTRA121F0033_9700_GS00Q14OADU143_4732"
+      },
+      {
+        "agency": "Department of Transportation",
+        "amount": 147437925.53,
+        "recipient": "NOBLIS, INC.",
+        "start": "2017-03-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0004_6920_DTFAWA17D00014_6920"
+      }
+    ],
+    "first": "2007-08-02",
     "has_contracts": true,
     "raw_hits": 50
   },
