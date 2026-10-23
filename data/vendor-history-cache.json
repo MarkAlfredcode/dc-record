@@ -6215,6 +6215,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "thompson machinery commerce": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1358132.25,
+        "recipient": "THOMPSON MACHINERY COMMERCE CORPORATION",
+        "start": "2022-02-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24922P0059_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 800000.0,
+        "recipient": "THOMPSON MACHINERY COMMERCE CORPORATION",
+        "start": "2016-12-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA24917C0025_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 431401.38,
+        "recipient": "THOMPSON MACHINERY COMMERCE CORPORATION",
+        "start": "2009-09-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W9127809C0073_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2004-10-25",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "thundercat technologie": {
     "d": "2026-10-16",
     "examples": [
@@ -8150,6 +8179,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:VTEWM5QSE598": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 3381835581.16,
+        "recipient": "RAYTHEON COMPANY",
+        "start": "2025-07-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA865925CB003_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3306674950.0,
+        "recipient": "RAYTHEON COMPANY",
+        "start": "2024-07-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HQ085124C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3145330978.0,
+        "recipient": "RAYTHEON COMPANY",
+        "start": "2024-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001924C0032_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2003-08-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:W7LDEBHM5AA5": {
     "d": "2026-10-13",
     "examples": [
@@ -8321,6 +8379,35 @@
       }
     ],
     "first": "1996-11-04",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:YQXBZHMXEVE5": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 15150122.0,
+        "recipient": "THE MATHWORKS, INC.",
+        "start": "2023-06-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0042123F0505_9700_N0042120D0113_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 10708953.0,
+        "recipient": "THE MATHWORKS, INC.",
+        "start": "2020-06-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0042120F0612_9700_N0042120D0113_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 6583182.0,
+        "recipient": "THE MATHWORKS, INC.",
+        "start": "2022-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0017322F2024_9700_N0042120D0113_9700"
+      }
+    ],
+    "first": "2013-07-01",
     "has_contracts": true,
     "raw_hits": 50
   },
