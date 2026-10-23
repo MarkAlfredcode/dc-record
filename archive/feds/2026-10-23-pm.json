@@ -1,0 +1,716 @@
+{
+ "date": "Friday, October 23, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Air Force gives Raytheon a $20.7 billion sole-source award for AMRAAM missile lots 41 through 47, citing a 2017 justification that stops at Lot 43",
+  "dek": "The award notice lists $20,699,334,581 for production, spares and sustainment, and the attached justification names <strong>Raytheon Company</strong> as the only possible source.",
+  "paragraphs": [
+   "The <strong>Department of the Air Force</strong> posted an award notice today for AMRAAM (Advanced Medium Range Air-to-Air Missile) Production Lots 41 through 47 under solicitation FA8556-26-C-B001. The awardee is <strong>Raytheon Company</strong>, the award is dated September 25, 2026, and the amount is $20,699,334,581. The notice says the work covers missile production, variants, spares and sustainment support through Lot 47 to June 2033. It was awarded sole-source under the \"only one responsible source\" authority.",
+   "The reason in the attached justification is a 1997 merger. It says Raytheon Company and Hughes Missile Systems Company merged into Raytheon Missile Systems before the government recouped its investment in a second source, leaving Raytheon as the one contractor able to develop, produce and sustain the missile. It also says the cost of qualifying another source would not be recovered through competition. The dollar estimate for qualifying a second source is redacted in the posted copy.",
+   "The justification is a class approval signed September 13, 2017, and it does not obviously cover the award. It supports follow-on sole-source actions \"for up to ten years--Lot 34 (FY2020) to Lot 43 (FY2029)\" and says it does not go beyond Lot 43. Today's notice describes Lots 41 through 47. The posted documents do not explain how the 2017 approval reaches the later lots. The justification also says the program office expected U.S. missile production to finish at Lot 39 in fiscal 2025, and that the extra lots were approved to give the Air Force and Navy flexibility to buy more."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Award notice (Lots 41-47)",
+     "url": "https://sam.gov/opp/2bfa8c071d9043b094e08feca58012bd/view"
+    },
+    {
+     "text": "Notice with the justification",
+     "url": "https://sam.gov/opp/77d26ecf955849cfaf47a06d099987f5/view"
+    },
+    {
+     "text": "AMRAAM justification (2017)",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f34ca6747e443809968af6e26991033/download"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Sole-Source Justifications",
+   "headline": "Marine Corps books 180 Westin Times Square rooms for Army-Navy Week without competition, a $754,920 hotel buy",
+   "paragraphs": [
+    "There are 51 new sole-source justifications, 31 of them posted under other notice types such as Special Notice and Award Notice. No repeats from earlier editions were left out. Two (the Raytheon AMRAAM pair) are in the Top Story and six continuing-service items are in Extensions. The rest are below, and the first four are worth reading in full."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Must read"
+    },
+    {
+     "type": "card",
+     "title": "Marine Corps books 180 Westin Times Square rooms for Army-Navy Week without competition",
+     "meta": [
+      "Westin Times Square",
+      "$754,920",
+      "Only one responsible source",
+      "Department of the Navy (Marine Corps)"
+     ],
+     "text": "The <strong>Marine Corps</strong> will lodge Marines and civilians supporting the 2026 Army-Navy Week in New York, December 7-13, at the Westin Times Square. The price table lists 67 single rooms and 108 double rooms for six nights at $699 a night, plus five junior-suite upgrades, for a total of $754,920. The justification says a request for information found that most respondents would book rooms through third parties. It says only the Westin was on the federal fire-safe hotel list and also met the distance to MetLife Stadium, the room count and the security requirements. It was posted as a Special Notice. USAspending shows no federal contract on record under this name.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/a81024fd09674af59739ac43b1a600a6/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fb6970b737904cfd8dccb617b739a234/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army Medical Command gives incumbent Akima a $7.5 million sole-source IT task order, citing an October 31 system cutover",
+     "meta": [
+      "Akima Data Management, LLC",
+      "$7.5 million",
+      "Only one company can do it",
+      "Department of the Army (Mission and Installation Contracting Command)"
+     ],
+     "text": "The justification covers enterprise IT support for the Army Surgeon General and <strong>Army Medical Command</strong>. It is a three-year task order (base plus two option years) on a General Services Administration schedule contract. It says award had to be in place to prevent a contract lapse on October 12, and that competing would cause a 90-day break during the October 31 move from the old Defense Enterprise Provisioning Online system to the new Modern Army Provisioning System. The document says a mid-stream vendor change would \"risk complete revocation of the command's ATO\" (authority to operate). It was signed October 7 and posted October 22.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/8b125a8efbb248e9a9416e0fb52e535e/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ebee90211843476085ab7ce08bda0e44/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "State Department keeps Deloitte on litigation support for embassy-construction claims without competition",
+     "meta": [
+      "Deloitte Services LP",
+      "value redacted",
+      "Urgent need, no time to compete",
+      "Department of State"
+     ],
+     "text": "The <strong>Department of State</strong> will place a new call order with <strong>Deloitte Services LP</strong> under an existing blanket purchase agreement: one base year plus two option years. The two current call orders expire November 30, 2026. Deloitte supports the Office of the Legal Adviser in twelve active cases before the Civilian Board of Contract Appeals, the Court of Federal Claims and the Federal Circuit, plus certified claims on embassy and consulate construction expected to be appealed. The justification says losing Deloitte's knowledge and its hosted document repository would compromise the department's ability to defend against \"hundreds of millions of dollars worth of claims from contractors.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/a3ebfbed9a8543bebdc44b5002ab3fc5/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a6b9a357de654e85850a2fe2e8b48070/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Veterans Affairs orders emergency kitchen equipment for its Washington, D.C. hospital after Joint Commission infection-control findings",
+     "meta": [
+      "Vendor not named",
+      "no value given",
+      "Urgent need, no time to compete",
+      "Department of Veterans Affairs (Network Contract Office 5)"
+     ],
+     "text": "The statement of work says a June 2026 Joint Commission survey of the <strong>Washington DC VA Medical Center</strong> found \"HIGH Widespread\" infection-control deficiencies in the nutrition kitchen, including food on the floor and insect debris, and that dishwasher drains were backing up. The agency wants a new pot-and-pan washing room, specified by Aerowerks and T&S Brass models \"or equal.\" The notice title says sole source, so the \"or equal\" wording is worth noting. It was posted as a Special Notice.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/aebca3de78ef4fc8a78d5077e71a00b4/view"
+      },
+      {
+       "text": "Statement of work",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7eb16d9eae12465185afe7af48174e25/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy modifies KVG's helipad parking apron contract at Mari Naval Base Cyprus without competition</strong>. The government estimate is $2.45 million, and the justification says competing would add about 11 months and risk schedules \"accelerated due to Operation Epic Fury.\" (<a href=\"https://sam.gov/opp/a6f0f7de539940d8b4ef421459d0dd10/view\">N3319125C6015</a>)",
+      "<strong>Immigration and Customs Enforcement buys WebEx and Expressway video-conferencing licenses without competition</strong>. The justification ties them to ICE support of immigration court appearances. Vendor and value are redacted. (<a href=\"https://sam.gov/opp/6370d30d6bf54fc3b0668120edb19965/view\">JA260393</a>)",
+      "<strong>Navy keeps VARD Marine as lead designer for its T-ARC(X) cable-laying and repair ship feasibility study without competition</strong>. The justification says VARD already completed preliminary design work. No value is given. (<a href=\"https://sam.gov/opp/0878d9a539a949cc8e66ef5f714f3a6d/view\">N00024-26-C-2220</a>)",
+      "<strong>Indian Health Service plans to hire Johns Hopkins University without competition to tailor its peer-to-peer immunization training</strong>. The notice says the university previously developed the program. It is a 12-month contract with no value stated, posted as a Special Notice. (<a href=\"https://sam.gov/opp/5128a7bcad8045db944b4eaa578ca9ae/view\">IHS1531896</a>)",
+      "<strong>Marine Corps plans to hire the Washington Hilton's owner, Dupont Hotel Project Owner, for audio-visual services without competition</strong>. The notice is for the Marine Corps Birthday Ball. No value is stated, and it was posted as a Special Notice. (<a href=\"https://sam.gov/opp/fecdefa71c294448b7f34e616e6aae53/view\">M0026427Q0013</a>)",
+      "<strong>Education Department orders managed printing for Federal Student Aid from AlphaSix without competition</strong>. The estimated value is $237,405, and the justification says the old devices left a Department-wide contract September 30 with no gap allowed. (<a href=\"https://sam.gov/opp/ae2f01c91fbb4f04b8b0273669191aa2/view\">91003126F0071</a>)",
+      "<strong>Veterans Affairs buys 2,060 Sonatype Nexus Repository Pro licenses for its Benefits Integration Platform without competition</strong>. The award notice lists V3GATE, LLC at $2,480,684, and the justification value is redacted. (<a href=\"https://sam.gov/opp/3229d3fa0e9d485f85719bcb659b6d91/view\">36C10B26F0308</a>)",
+      "<strong>Immigration and Customs Enforcement buys brand-name network optimization services without competition</strong>. The justification cites a large increase in personnel and sites. Vendor, brand and value are redacted. (<a href=\"https://sam.gov/opp/591a8e5726f94335b606d7787424974c/view\">JA260410</a>)",
+      "<strong>Bureau of Engraving and Printing plans to buy printing-equipment spare parts from Koenig & Bauer Banknote Solutions without competition</strong>. The notice names an ink knife, blades and shaft components. (<a href=\"https://sam.gov/opp/f80aea9e27824aba8242a91645f298c8/view\">2031ZA27N00004</a>)"
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Every other justification"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Air Force plans to modify Northern Electric's fiber-to-desk cabling job for Building 1614 at Hanscom without competition (<a href=\"https://sam.gov/opp/caec44cd08174ec99e55f1ab2f15103f/view\">PZI_2026_F2D</a>)",
+      "Air Force buys explosive rotary actuators for T-37, T-38 and F-5 aircraft from Nammo Defense Systems without competition (<a href=\"https://sam.gov/opp/b3be388d90974852921ef6597693e5d1/view\">FA821327C0001</a>)",
+      "Air Force pays Fischer Custom Communications $75,000 without competition to evaluate a broken amplifier in its Tinker Pin Tester (<a href=\"https://sam.gov/opp/79b4b94aa23c424bb18ee41a3b32de91/view\">FA813927P0002</a>)",
+      "Air Force Institute of Technology plans to buy a wavemeter from Toptica Photonics without competition (<a href=\"https://sam.gov/opp/3beb11362d974f6e8dd79d7647b74007/view\">FA860127Q0014</a>)",
+      "Army Corps of Engineers Vicksburg District plans a John Deere 7210 transmission rebuild by Goldman Equipment Company without competition (<a href=\"https://sam.gov/opp/118bf997c57f49bf95493d1e2dbd4fb3/view\">W912EE26S0003</a>)",
+      "Army posts a commercial solutions opening for ground-vehicle technology that reads as open competition despite its sole-source flag (<a href=\"https://sam.gov/opp/23d0f9ec368a423488ecedeabf313104/view\">W912CH-26-S-0001</a>)",
+      "Bureau of Reclamation renews Bentley Systems engineering software support without competition (<a href=\"https://sam.gov/opp/243e929106e149718c3937aede14c370/view\">140RR027Q0012</a>)",
+      "Coast Guard buys MH-60T helicopter parts from Sikorsky Aircraft without competition, 3 orders (<a href=\"https://sam.gov/opp/14dffb4c9b61470b961d1ea5a1cc97fa/view\">70Z03826QJ0000348</a>, <a href=\"https://sam.gov/opp/3c48b6766e90475fa4b4e7cce1607e0b/view\">70Z03826QJ0000325</a>, <a href=\"https://sam.gov/opp/3cc26ef2f400474abd814ee697a0282b/view\">70Z03827QJ0000010</a>)",
+      "Defense Health Agency buys $798,435 of Karl Storz operating-room software support at Fort Bliss without competition (<a href=\"https://sam.gov/opp/b3c2020750d3440e8f11b64f30ee8943/view\">HT940826PE032</a>)",
+      "Defense Logistics Agency buys buffer cylinder assemblies for Navy aircraft from The Entwistle Company and York Precision without competition (<a href=\"https://sam.gov/opp/284042b34eb44552b49f448c4eed556c/view\">SPRPA126CYA17</a>)",
+      "Defense Logistics Agency buys F110 engine case and vane assemblies from General Electric without competition, 2 notices (<a href=\"https://sam.gov/opp/e7acb570b82c41889c4f9d3da2706aea/view\">JA-SPRTA126F2230</a>, <a href=\"https://sam.gov/opp/c12d1d17b9b3469d94fc9883db902b1c/view\">SPRTA126F22300</a>)",
+      "Environmental Protection Agency Region 3 plans to buy $41,000 of Apex Instruments air-monitoring supplies without competition (<a href=\"https://sam.gov/opp/12c8b3e2e07f4b9694a0c9eb89929256/view\">Notice</a>)",
+      "Interior Business Center plans a CBRE land appraisal of about 487 acres in the Missouri River floodplain without competition (<a href=\"https://sam.gov/opp/fe898acf31264976ab43e573c46e6240/view\">140D0427Q0941</a>)",
+      "National Institute of Allergy and Infectious Diseases plans to renew its Cvent event platform license without competition (<a href=\"https://sam.gov/opp/07b1e5bf3416421f80dbb45b5d9ca69a/view\">7571TE27Q00019</a>)",
+      "Navy pays Waste Management of Virginia $22,280 without competition to haul mattresses off USS Iwo Jima before shipyard work (<a href=\"https://sam.gov/opp/3b616c08d94b47babbd918e0cbec197f/view\">N0018927PL006</a>)",
+      "Navy plans to hire CraneWorks for Washington-area crane maintenance and certification without competition (<a href=\"https://sam.gov/opp/8725a4d190244a94ad72dbf3bdd52a6a/view\">N40080</a>)",
+      "Navy plans to buy ship signal equipment mast parts from Concurrent Technologies Corporation without competition (<a href=\"https://sam.gov/opp/7f8e5f04f5a84afa9d2d7cde63b526b2/view\">N66001-27-Q-6003</a>)",
+      "Office of Naval Intelligence pays The MathWorks $168,000 for seven months of MATLAB and Simulink support without competition (<a href=\"https://sam.gov/opp/64aae547f5234997bae956d1e072cf1f/view\">PR13610</a>)",
+      "Veterans Affairs buys $370,799 of replacement diagnostic imaging workstations for the Albany medical center from AGFA Healthcare without competition (<a href=\"https://sam.gov/opp/284be0f25fd34e849f71cc0844a20c82/view\">36L79727F0002</a>)",
+      "Veterans Affairs buys $35,945 of red-cell blood testing lab services from Versiti Blood Health without competition (<a href=\"https://sam.gov/opp/d7e23896c88c44db9308eef41f193b61/view\">36C25627Q0016</a>)",
+      "Veterans Affairs buys pneumatic tube system controls for its Washington, D.C. medical center from TransLogic without competition (<a href=\"https://sam.gov/opp/66934d4fb18b48dd90d3b3af6954b114/view\">36C24527Q0044</a>)",
+      "Veterans Affairs gives Blue One Solutions $150,770 for a brand-name Active Navigation discovery center, a small-business set-aside (<a href=\"https://sam.gov/opp/2e488379812d48c396fdbdd4276b5d0f/view\">36C10B27R0001</a>)",
+      "Veterans Affairs pays Agile 4 Vets $683,093 without competition for 30 days of scheduling pilot support (<a href=\"https://sam.gov/opp/f773e54f72bf4e149b4302f91ff7cc39/view\">JEFO-36C10X25D0017_36C10X26N0172</a>)",
+      "Veterans Affairs pays Philips $36,123 for an emergency CT compressor in Seattle without competition (<a href=\"https://sam.gov/opp/7406dcedf212463da1182b63a4b3c7ce/view\">36C26027F0035</a>)",
+      "Veterans Affairs plans five-year Caterpillar generator maintenance by Thompson Machinery Commerce Corporation without competition (<a href=\"https://sam.gov/opp/b4d24e2d235a413d9c4a7c6a41a8f334/view\">36C24927Q0025</a>)",
+      "Veterans Affairs plans NetApp storage maintenance through an authorized reseller without competition (<a href=\"https://sam.gov/opp/6f3750d5a5b1429cb2b483ac1d8e4bf0/view\">36C10B27Q0024</a>)",
+      "Washington Headquarters Services plans to buy SonarWiz software from Chesapeake Technology for the Defense POW/MIA Accounting Agency's Pearl Harbor underwater recovery work without competition (<a href=\"https://sam.gov/opp/c47346acb982400cb9dcdedc7e742876/view\">HQ0034-27-NI-0001</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Extensions",
+   "headline": "Homeland Security continues Noblis's biosurveillance support for the White House and National Security Council without competition after a reorganization",
+   "paragraphs": [
+    "There are 6 new extensions or continuations of an incumbent's work today, one card and five one-liners."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Homeland Security continues Noblis's biosurveillance support for the White House and National Security Council without competition",
+     "meta": [
+      "Noblis, Inc.",
+      "value redacted",
+      "Urgent need, no time to compete",
+      "Department of Homeland Security"
+     ],
+     "text": "The task order supports the <strong>National Biosurveillance Information Center</strong>. The justification says the need comes from a \"statutorily mandated DHS component re-organization\" and that the incumbent is needed to avoid a service gap. The base period runs September 25, 2026 to September 24, 2027. Without it, the document says, \"biosurveillance reporting would not be provided to the White House, National Security Counsil, and FSLTT partners.\" An October 1 addendum corrected the estimated value and changed the cited authority from unusual and compelling urgency to the fair-opportunity urgency exception.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/7473f82d08934c09af84ff45f0744467/view"
+      },
+      {
+       "text": "Addendum",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/f15e75a60f794943a2347efd861fa5df/download"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9adcbb6dfcc6445d8f5445c7834c852f/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Environmental Protection Agency extends Systalex Corporation's drinking water IT systems support for one more year without competition</strong>. It was posted as a Special Notice. (<a href=\"https://sam.gov/opp/f11bf94c713f41d58bbe02f904aded9b/view\">Sole_Source_Justification_to_Systalex_Corporation</a>)",
+      "<strong>Defense Threat Reduction Agency plans to bridge Noblis's advisory and assistance work for its Cooperative Threat Reduction program without competition</strong>. It was posted as a Special Notice with no solicitation number. (<a href=\"https://sam.gov/opp/c7ff0794d79b468480287f3df85bd8f0/view\">Notice</a>)",
+      "<strong>Bureau of Prisons bridges American Correctional Healthcare's medical services at FCI Cumberland for $170,000 without competition</strong>. (<a href=\"https://sam.gov/opp/6b565ce76c1a4363b1fbeb7f3afa1944/view\">15B10727P00000009</a>)",
+      "<strong>General Services Administration extends the Manteca, California office lease for the Social Security Administration by 60 months without competition</strong>. The value is redacted. (<a href=\"https://sam.gov/opp/c3bd2b34494a44148754df95a6fb7589/view\">3CA1609</a>)",
+      "<strong>General Services Administration extends the Richmond, Indiana office lease for the Social Security Administration by 60 months without competition</strong>. The value is redacted. (<a href=\"https://sam.gov/opp/b6f158ad4caf4c11a7e9b0312f1c862d/view\">6IN0189</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Award Notices",
+   "headline": "Space Force contracting office gives Metrea Special Aerospace $80 million for manned reconnaissance flights supporting border security",
+   "paragraphs": [
+    "There are 487 new award notices (none repeated from earlier editions), and 30 were flagged. The other 457 are routine, mostly Defense Logistics Agency parts buys: DLA Land and Maritime 324, DLA Aviation 58 and DLA Troop Support 30."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force gives Metrea Special Aerospace $80 million for contractor-flown surveillance flights over the border",
+     "meta": [
+      "Metrea Special Aerospace, ISR Inc.",
+      "$80,000,000",
+      "Award Notice",
+      "Department of the Air Force (Space Force contracting office)"
+     ],
+     "text": "The CONDOR contract (FA251827CA001), awarded October 15, covers contractor-owned, contractor-operated manned airborne intelligence, surveillance and reconnaissance services. Under military Air Tasking Orders the aircraft deliver real-time data feeds \"for border security operations.\" An earlier edition listed the solicitation, and this notice names the winner.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/4934c3f7e2774960a47dc381fd6bef8b/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Naval Research Laboratory gives Intelsat General Communications $31.3 million sole-source to run its space research antennas",
+     "meta": [
+      "Intelsat General Communications LLC",
+      "$31,300,079",
+      "Award Notice",
+      "Department of the Navy (Naval Research Laboratory)"
+     ],
+     "text": "Contract N00173-27-C-0001, awarded October 19, is cost-plus-fixed-fee and covers engineering support for the design, maintenance and sustainment of the lab's antenna systems, October 15, 2026 to October 14, 2031. The notice says it was sole-source under the only-one-responsible-source authority and that one offer was received. A commercial satellite communications firm is an unusual choice for this work. The one attached file is queued to be read in a later edition.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/a8c1c4efb23045ddacf51a270032ebe6/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Bureau of Prisons gives Dentrust Dental International $8.99 million for nationwide pre-employment screening",
+     "meta": [
+      "Dentrust Dental International, Inc.",
+      "$8,985,450",
+      "Award Notice",
+      "Department of Justice (Federal Bureau of Prisons)"
+     ],
+     "text": "The contract (15B0AT27D70000001), awarded October 21, covers basic medical screening, urinalysis drug testing and fingerprint collection at community-based facilities. The awardee's name suggests a dental company, which is an unusual match for drug testing and biometrics.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/24172bfee7fa4a45815090d511871c45/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "Navy's Military Sealift Command gives <strong>Vigor Marine</strong> $45.8 million for the FY27 regular overhaul and drydocking of USNS Henry J. Kaiser (<a href=\"https://sam.gov/opp/d2e6cbf9113444d78e1ee2745a2db497/view\">N3220527C0002</a>)",
+      "General Services Administration signs a 15-year Washington, D.C. office lease with <strong>Portals Owner, LLC</strong> for $17.1 million, with a Metrorail station required within 2,640 walkable feet (<a href=\"https://sam.gov/opp/1c695a555eaf4569a111eaffff7083f6/view\">1DC2380</a>)",
+      "Bureau of Prisons gives <strong>University of Massachusetts Medical School</strong> $105.9 million for comprehensive medical services at the Devens federal medical center (<a href=\"https://sam.gov/opp/d45a5cd61fba42acb5bd2b99c1feb653/view\">15BCMS27D20500001</a>)",
+      "Defense Logistics Agency gives <strong>Cepheid</strong> a $49 million competitive five-year laboratory equipment contract, listed twice (<a href=\"https://sam.gov/opp/aa07de42f5ae4a78bb7bb10bf40dadc2/view\">SPE2DF27D0001</a>, <a href=\"https://sam.gov/opp/932d77e7a4ce417d92094e5ad825e179/view\">SPE2DE22R00060013</a>)",
+      "Bureau of Prisons pays <strong>Nelson Enterprise Technology Services</strong> $338,822 for temporary physician services at FCI Marion, an IT-named firm for medical staffing (<a href=\"https://sam.gov/opp/cf7ef86135a2464dbb3a8dfd3705b56b/view\">15BGCS27D40900001</a>)",
+      "Bureau of Prisons cancels RGP LLC's liquid propane order at its Guaynabo, Puerto Rico detention center and awards Liquilux Gas $107,730 under the same solicitation; the cancellation text is cut off before the reason (<a href=\"https://sam.gov/opp/34229e0bcbaf47b983e8c287a5884013/view\">cancellation</a>, <a href=\"https://sam.gov/opp/b635e920073c4522addc888f2d313852/view\">Liquilux award</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Flagged but not written up: <a href=\"https://sam.gov/opp/3705c85c95cb4a9e850f4fcbba92bf29/view\">Bliss Pharmacy Services $7.4M VISN 7 virtual pharmacy</a>, <a href=\"https://sam.gov/opp/fd973644266c4245a761ab768d3e3015/view\">Articus Solutions $6M Air Force managed print</a>, <a href=\"https://sam.gov/opp/32a80df94a22407d85737dc0221e4a0d/view\">Spectro Scientific $6.8M fluid analysis</a>, <a href=\"https://sam.gov/opp/021e8ad31e67464ab01bb2f041d8211e/view\">Jett's Specialty Contracting $4.9M VA air handlers</a> and 14 smaller awards."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Solicitations",
+   "headline": "Secret Service plans a full-scale White House replica at its Laurel, Maryland training center, a document read today shows",
+   "paragraphs": [
+    "There are 382 new solicitations. Notices listed in earlier editions are left out unless the change is news; many posted only an amendment today. Two documents read today on older notices are the most notable items."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Secret Service solicits a full-scale White House replica for its training center in Laurel, Maryland",
+     "meta": [
+      "Solicitation",
+      "General Services Administration, Public Buildings Service"
+     ],
+     "text": "The solicitation (47PB5126R0007) is for a Specialized Mission Training Facility in Laurel. It says \"the USSS intends to construct a full-scale site and building representation of the White House, perimeter buildings, and grounds.\" Offerors must sign a non-disclosure agreement before receiving Phase 2 documents, which \"will NOT be posted\" to the governmentwide point of entry. Offerors must also submit paired proposals with and without a project labor agreement. GSA says it \"may use artificial intelligence tools to assist in its review of proposals.\" This comes from a file posted July 8 and read today on a notice covered earlier.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/ad73798681d7488ea561cf44c4a84cd3/view"
+      },
+      {
+       "text": "Solicitation document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/5bef8da503bc408d8cdc142c2565b15c/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy seeks a 90-day tanker charter with armed guards to defend against pirates and drones",
+     "meta": [
+      "Solicitation",
+      "Department of the Navy (Military Sealift Command, Norfolk)"
+     ],
+     "text": "The charter terms (N3220527R6013) let the Navy use the ship worldwide to carry or preposition petroleum and for military readiness. The security requirement says guards must defend against pirates or terrorists in up to 20 small boats armed with \"automatic weapons and rocket propelled grenades\" and carry a shotgun with at least 20 rounds against small drones. The Navy may also order crew to stay aboard during port calls. The file was posted October 19 and read today.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/a87d8ca5674a466b877a1f4537c2abb8/view"
+      },
+      {
+       "text": "Charter terms",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/357c9125058049da8b0ad14f41180f02/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Army Corps of Engineers seeks a design-build contractor for a new bed tower, clinical expansion and parking garage at the John Cochran VA hospital in St. Louis</strong>. Amendment 0006 posted today answers bidder questions. (<a href=\"https://sam.gov/opp/4713e683256c4196ac027bf3a15d6195/view\">W912DQ26RA060</a>)",
+      "<strong>Senate Sergeant at Arms seeks a contractor to host a staff wellbeing application</strong>. It would be a portal for wellbeing programs, resources and events. (<a href=\"https://sam.gov/opp/f28de4a9e5b949fdb8142557bd2f2527/view\">2027-R-007</a>)",
+      "<strong>Navy seeks builder for a $3.9 million Monterey golf driving range paid from non-appropriated funds</strong>. The solicitation says total funds available are $3,941,943.22 and that it is not funded by appropriated money. (<a href=\"https://sam.gov/opp/a0e168eb2b2d48ddaa54a96393adacb4/view\">NAVMWR-27-R-0001</a>)",
+      "<strong>Federal Law Enforcement Training Center seeks a contractor to renovate Building 262 at Glynco, Georgia</strong>. Bidders must sign a non-disclosure agreement to see controlled documents. (<a href=\"https://sam.gov/opp/65f66615f3ec4ae3924ac43a67abe1b6/view\">70LGLY27RSSB00001</a>)",
+      "<strong>Army Watervliet Arsenal solicits 77 breechblock forgings for 105mm M20 cannon from U.S. and Canadian firms only</strong>. The document bars release of cannon production technology outside the firm or the United States. (<a href=\"https://sam.gov/opp/8cdb47bc2dd84e3f839dc90cb06cf403/view\">W911PT27QA009</a>)",
+      "<strong>General Services Administration's Orlando lease solicitation for the Small Business Administration names Kastle Systems as the preferred security contractor</strong>. The document says SBA would \"like to utilize Kastle System as our preferred contractor.\" (<a href=\"https://sam.gov/opp/15ae62905bf54f348e2c28513d07e463/view\">6FL0658</a>)",
+      "<strong>Navy seeks voyage repair of USS Mount Whitney</strong>. The work specification says the ship has \"a considerable amount of asbestos\" and its coatings \"may\" contain lead. (<a href=\"https://sam.gov/opp/b466d7b69a744a06866bc9272023939f/view\">N6817127QN004</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Also flagged: <a href=\"https://sam.gov/opp/c09d24eb78fa40a295b89ce83ed66133/view\">Navy DDG-51 fleet maintenance contracts at Norfolk</a>, <a href=\"https://sam.gov/opp/826773c08a7341e3946b20fa111734d8/view\">VA Big Spring nursing home construction ($10-20M)</a>, <a href=\"https://sam.gov/opp/3988657d552b4f09a7166cf05c9952dd/view\">NASA Glenn Aerospace Power Systems Laboratory</a> and more. The rest are routine, led by Navy supply buys (NAVSUP Weapon Systems Support 84) and Defense Logistics Agency Aviation (48)."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Combined Synopsis/Solicitations",
+   "headline": "Presidential airlift office issues a sole-source solicitation for galley inserts to Transtar Aircraft Interiors",
+   "paragraphs": [
+    "There are 730 new combined synopsis/solicitations; most were repeat postings of earlier items or routine Defense Logistics Agency parts buys (DLA Land and Maritime 342, DLA Aviation 143)."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force Presidential and Executive Airlift office plans a sole-source buy of galley inserts from Transtar Aircraft Interiors",
+     "meta": [
+      "Combined Synopsis/Solicitation",
+      "Department of the Air Force (Presidential and Executive Airlift)"
+     ],
+     "text": "Solicitation FA8641-27-R-B001 is a request for proposal directed to <strong>Transtar Aircraft Interiors LLC</strong> of Arlington, Texas. It is not a small-business set-aside. The posted text does not say which aircraft the inserts are for or give a value.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/9a2179b222b94aff8016412a1e67bf15/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy plans a sole-source parts buy from Rolls-Royce Solutions America for USS Cincinnati's post-shakedown maintenance</strong>. (<a href=\"https://sam.gov/opp/3d2b5817eba24db8b4ec52f8457819b4/view\">N5523627Q0002</a>)",
+      "<strong>Air Force cancels its sole-source C-130J navigational database solicitation</strong>. The notice says no award will be made under it. (<a href=\"https://sam.gov/opp/ed76a610a68c40da896f4b7214500f2b/view\">FA850426QB001</a>)",
+      "<strong>FDA recompetes its records facility contract from incumbent PN-HEITECH and bars downtime in the transition</strong>. The question-and-answer file says FDA will not accept operational downtime. (<a href=\"https://sam.gov/opp/f2c55c70105c45adb0c56948996e9a5f/view\">75F40126R00009</a>)",
+      "<strong>Bureau of Prisons seeks a contractor to replace FCI Bastrop's 750-kilowatt generator with a 2,000-kilowatt unit</strong>. (<a href=\"https://sam.gov/opp/4050e6eff13e474fbafda0642129140e/view\">15BBNF27Q50100001</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Flagged but not written up: <a href=\"https://sam.gov/opp/8af1bd6ea6ed4d7ca46f4a9778c705fa/view\">Bahrain port cargo services</a>, <a href=\"https://sam.gov/opp/da73fce9bb2245b897d3c7961c1156c5/view\">NOAA Fairbanks station operations</a> and five DISA Washington, D.C. telecom re-awards (<a href=\"https://sam.gov/opp/88a5d0e1d83844e3a612317b17f57146/view\">N237</a>)."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Presolicitations",
+   "headline": "Navy plans a sole-source delivery order to DRS Systems to stand up in-house software for its infrared aircraft countermeasure",
+   "paragraphs": [
+    "There are 109 new presolicitations, 11 flagged; 98 are routine, mostly Navy supply buys. Several flagged notices repeat earlier items."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Navy plans to buy software-development training and support equipment from DRS Systems without competition for its AN/AAQ-45 infrared countermeasure",
+     "meta": [
+      "Presolicitation",
+      "Department of the Navy (Naval Air Systems Command)"
+     ],
+     "text": "The notice announces a sole-source delivery order to <strong>DRS Systems, Inc.</strong> under a basic ordering agreement. It covers support equipment, system documentation, software development training and facility support to stand up the Navy's own software activity for the Distributed Aperture Infrared Countermeasure. It also covers completing flight program and user data file development. No value is given.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/65c938ed595b4d3280089198f758c412/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy asks industry about a modular software-defined radio for its and the Marine Corps's aircraft</strong>. The Next Generation Tactical Radio would replace current radios. (<a href=\"https://sam.gov/opp/03560d4ce9e24a158052bcc185241140/view\">N00421-27-RFPREQ-TPM209-0199</a>)",
+      "<strong>Marine Corps plans a small-business competition for multispectral camouflage overgarments</strong>. The technical data is controlled information. (<a href=\"https://sam.gov/opp/60533b63b198463397fd3bd5667f7675/view\">M6785426R5407</a>)",
+      "<strong>Defense Logistics Agency plans a solicitation around November 6 for 23 transducers for Virginia-class submarines</strong>. (<a href=\"https://sam.gov/opp/b86dc92151764337b3c529e214b00d3f/view\">SPE4A527R0015</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Special Notices",
+   "headline": "NASA signals a Kennedy Space Center Visitor Complex agreement extension that adds a new Astronaut Training Experience",
+   "paragraphs": [
+    "There are 76 new special notices, 23 flagged and 53 routine."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "NASA plans to extend its Kennedy Space Center Visitor Complex agreement and add a new Astronaut Training Experience",
+     "meta": [
+      "Special Notice",
+      "National Aeronautics and Space Administration (Kennedy Space Center)"
+     ],
+     "text": "The notice describes continued operation and expansion of the public visitor program, including a new Astronaut Training Experience facility. It says the complex reaches more than 1.6 million visitors a year and that demand for the current attraction \"greatly outnumbers\" capacity. The posted text does not name the operator or give a value.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/1b2a22c246e044b7801547a4ede6fbb3/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Army Corps of Engineers previews a progressive design-build competition for the 91st Cyber Operations Center</strong>. It would use Other Transaction construction authority. (<a href=\"https://sam.gov/opp/1148dfc0da394fe1ab24abd07b270bc7/view\">Notice</a>)",
+      "<strong>Army holds an October 27 industry day for Maneuver-Short Range Air Defense Increment 4</strong>. It is a palletized system for defending maneuver forces against small drones. (<a href=\"https://sam.gov/opp/727a8023abb8408ca5a1a40fa17bfd8d/view\">W31P4Q-27-RFI-0001</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sources Sought",
+   "headline": "Naval Research Laboratory seeks industry help on femtosecond-level timing for its TETHER program",
+   "paragraphs": [
+    "There are 173 new sources-sought notices, 39 flagged and 134 routine."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Naval Research Laboratory asks industry about TETHER, a femtosecond-accuracy timing effort",
+     "meta": [
+      "Sources Sought",
+      "Department of the Navy (Naval Research Laboratory)"
+     ],
+     "text": "The request for information (N00173-27-RFI-EN01) describes a follow-on to the Target Accuracy Precision Emitters program under Contract N00173-23-D-6000. The goal is femtosecond-level timing and frequency accuracy using large apertures and clock ensembles. A draft statement of work is attached and is queued to be read in a later edition.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/e881badfebab4f67ab7692a0a34f2344/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Air Force sets a November 9 industry day for its Automated Classification Management Environment</strong>. The location in the National Capital Region is not yet set. (<a href=\"https://sam.gov/opp/bbc82a1e7586483088759d18ad6adf47/view\">ACME-RFI-00101</a>)",
+      "<strong>Navy seeks sources for a contractor-run civilian human resources contact center</strong>. It would advise on federal health, life insurance and Thrift Savings Plan benefits. (<a href=\"https://sam.gov/opp/f714c6cd48c04c5e93f11c644b7740d9/view\">N69199HRBCCFY272</a>)",
+      "<strong>State Department seeks vendors for digital forensics equipment</strong>. (<a href=\"https://sam.gov/opp/07186dc5b3294d839bc2468dad747cf9/view\">19AQMM26N0006</a>)",
+      "<strong>Patent and Trademark Office seeks a contractor for executive recruitment services</strong>. The response window was reopened to October 27. (<a href=\"https://sam.gov/opp/76bbe46f0c904a32ae28de043f970d7c/view\">ACQ-27-0147</a>)",
+      "<strong>Army seeks sources for maintaining 14 security gates at Aberdeen Test Center</strong>. Responses are due November 2. (<a href=\"https://sam.gov/opp/5856f5b16fc74a97b80701719e94d1bd/view\">W91CRB27QA001</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "Social Security Administration terminates two IT Concepts call orders, de-obligating $29.8 million; Pentagon backlog adds $632.6 million for a nuclear missile program",
+   "paragraphs": [
+    "From this morning's edition: USAspending.gov is pulled once a day.",
+    "265 new awards of $2M+ (226 of them Defense Department awards just published after the 90-day hold), 18 large modifications and 12 cuts. The 246 routine ones are listed, each linked, in \"USAspending: Every Other New Award\" at the end of the edition.",
+    "Defense items below carry signing dates from July 21 to 23, 2026."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Social Security Administration terminates two IT Concepts call orders"
+    },
+    {
+     "type": "paragraph",
+     "text": "The <strong>Social Security Administration</strong> terminated two call orders with <strong>IT Concepts, Inc.</strong> for the government's convenience on October 19. One (modification P00011) was for agency-wide non-systems technical support and removed $20,922,096; the other (modification P00008) was for cybersecurity support for the Office of Information Security and removed $8,843,485. Both modifications also finalized settlements (<a href=\"https://www.usaspending.gov/award/CONT_AWD_28321322FA0010338_2800_28321320A00040024_2800\">technical support</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_28321322FA0010255_2800_28321320A00040024_2800\">cybersecurity</a>)."
+    },
+    {
+     "type": "subhead",
+     "text": "Notable awards and modifications"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Northrop Grumman Systems Corp</strong> got $632,600,000 more (modification P00065, a funding-only action) for Ground-Based Strategic Deterrent engineering and manufacturing development and early production, signed July 21 by the <strong>Department of the Air Force</strong> and just made public; Defense Department contract data is released with a 90-day delay (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA821920C0006_9700_-NONE-_-NONE-\">award</a>)."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Fluor Marine Propulsion, LLC</strong> received a $372,532,962 modification from the <strong>Department of Energy</strong> on October 21 on a government-owned, contractor-operated research facility. The description raises the contract's funding by $469,414,150.04, from $5,844,462,672.01 to $6,313,876,822.05, for the option term. USAspending records the action at $372.5 million (<a href=\"https://www.usaspending.gov/award/CONT_AWD_89233018CNR000004_8900_-NONE-_-NONE-\">award</a>)."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Northrop Grumman Systems Corporation</strong> won $583,394,000 so far for three E-2D Advanced Hawkeye aircraft from the <strong>Department of the Navy</strong>, signed July 22 and just made public (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001926C1017_9700_-NONE-_-NONE-\">award</a>)."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Atlas Air, Inc.</strong> won $2,709,577 from <strong>U.S. Transportation Command</strong> for \"Operation Epic Fury Civil Reserve Air Fleet\" passenger air charter, signed July 21 and just made public. The record says nothing more about the operation (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HTC71126F2592_9700_HTC71125DCC04_9700\">award</a>)."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Amazon Web Services, Inc.</strong> won $4,539,503 from the <strong>Defense Information Systems Agency</strong> for a \"Space-Based Interceptors (SBI) Cloud,\" signed July 22 and just made public. The description is only that label (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HC105026F0026_9700_HC105023D0005_9700\">award</a>)."
+    },
+    {
+     "type": "subhead",
+     "text": "More new awards"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Lockheed Martin Corporation</strong> \u2014 $23,082,803, Department of the Navy: defense research described only as \"Korea MLI, Swiss DMAP, and Finland DMAP,\" signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001926F2197_9700_N0001924G0010_9700\">award</a>).",
+      "<strong>Amentum Services, Inc.</strong> \u2014 $6,476,191, Defense Threat Reduction Agency: biological security, infrastructure and laboratory development (BIOSHIELD), signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HDTRA126FE062_9700_HDTRA125DE001_9700\">award</a>).",
+      "<strong>Rocket Lab USA Inc</strong> \u2014 $112,000,000, Department of the Air Force: space launch project \"WILD IRIS,\" signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA881826CB003_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>AM General LLC</strong> \u2014 $98,682,341, Department of the Army: 400 Humvees for the Army, Army National Guard and Navy, signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W912CH26F0389_9700_W56HZV17D0071_9700\">award</a>).",
+      "<strong>BL Harbert International LLC</strong> \u2014 $94,777,777, Department of the Navy: a Weapons Generation Facility dormitory at Barksdale Air Force Base, Louisiana, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N6945026F0392_9700_N6945025D0024_9700\">award</a>).",
+      "<strong>Siemens Government Technologies Inc</strong> \u2014 $79,988,134, Department of the Army: advanced manufacturing capability at an Army depot facility listed as \"ANAD B104,\" signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W911RQ26CA016_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Veterans Development Corporation, Inc.</strong> \u2014 $63,117,508, Department of Veterans Affairs: replace four deteriorated air handling units at a hospital (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24827C0008_3600_-NONE-_-NONE-\">award</a>).",
+      "<strong>Mistral Inc</strong> \u2014 $52,905,096, Department of the Army: Hero-120 munition systems, fire control units and spares, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W91CRB26FA260_9700_W91CRB25DA009_9700\">award</a>).",
+      "<strong>Nordic PCL Construction, Inc</strong> \u2014 $43,200,000, Department of the Army: repair barracks building 2081 at Schofield Barracks, Hawaii, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W9128A26FA037_9700_W9128A25D0037_9700\">award</a>).",
+      "<strong>Ducks Unlimited, Inc.</strong> \u2014 $41,000,000, Department of the Army: wetland mitigation credits in the Yazoo Basin for habitat lost to a water management project, signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W912EE26FA065_9700_W912EE25DA013_9700\">award</a>).",
+      "<strong>Motor Oil (Hellas) Corinth Refineries and S-Oil Corporation</strong> \u2014 $38.8 million, $27.2 million and $25.9 million, Defense Logistics Agency: aviation turbine fuel and naval distillate, signed July 21-23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10Z_9700_SPE60226D0479_9700\">Motor Oil</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09J_9700_SPE60226D0457_9700\">S-Oil $27.2M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09K_9700_SPE60226D0457_9700\">S-Oil $25.9M</a>).",
+      "<strong>Welch Allyn, Inc.</strong> \u2014 $30,065,119, Department of Veterans Affairs: an \"express report\" of September medical instrument orders (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10X27K0044_3600_36C10G23D0031_3600\">award</a>).",
+      "<strong>California Institute of Technology</strong> \u2014 $10,000,000, National Aeronautics and Space Administration: support for the Human Spaceflight Mission Directorate's development of \"the PROMISE\" (<a href=\"https://www.usaspending.gov/award/CONT_AWD_80NM0027F7001_8000_80NM0018D0004_8000\">award</a>).",
+      "<strong>TCOM, L.P.</strong> \u2014 $10,000,000, Department of the Army: operations and sustainment for tethered persistent surveillance systems, signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W56KGY26FA002_9700_W56KGY25D0008_9700\">award</a>).",
+      "<strong>Parry Labs LLC</strong> \u2014 $8,541,354, Department of the Army: Phase III Small Business Innovation Research \"Legion\" mission autonomy work, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W5170126CA190_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>HSG Park Joint Venture 3, LLC</strong> \u2014 $7,529,000, Department of the Interior: bank stabilization at Knife River Indian Villages National Historic Site (<a href=\"https://www.usaspending.gov/award/CONT_AWD_140PP027C0002_1406_-NONE-_-NONE-\">award</a>).",
+      "<strong>Deloitte Consulting LLP</strong> \u2014 $6,052,677, Department of the Air Force: cyber training for defenders of Defense Department systems, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA701426F0209_9700_FA701425D0007_9700\">award</a>).",
+      "<strong>Sigmatech Inc</strong> \u2014 $4,619,185, Department of the Air Force: spaceport advisory services at Cape Canaveral and Peterson Space Force Base under a $95 million ceiling, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA252126F0273_9700_GS00F060CA_4732\">award</a>).",
+      "<strong>United Security Inc</strong> \u2014 $3,799,360, Bureau of Prisons: armed guards at local hospitals for Metropolitan Detention Center Brooklyn inmates; the description cites Executive Order 14398 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15BBR027F00000016_1540_15BFA023A00000059_1540\">award</a>).",
+      "<strong>Connected Alliances LLC</strong> \u2014 $3,454,186, Department of the Air Force: a composite manufacturing plant design and plan, signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA701426F0215_9700_FA701425D0008_9700\">award</a>).",
+      "<strong>One Stop Recruiting LLC</strong> \u2014 $3,418,850, Department of Veterans Affairs: locum phlebotomy services, option year 1; the description cites \"EO 1439\" (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25727N0075_3600_36C25726A0002_3600\">award</a>).",
+      "<strong>Lockheed Martin Corporation</strong> \u2014 $3,297,380, U.S. Special Operations Command: support for the Identity Intelligence and Exploitation program, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_H9225426FE108_9700_H9225417D0001_9700\">award</a>).",
+      "<strong>Cardinal Point Captains, Inc.</strong> \u2014 $3,200,949, Department of the Navy: 20 STRIDENT units and spares, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N6133126F0121_9700_N6133123D0006_9700\">award</a>).",
+      "<strong>Oscilla Power Inc</strong> \u2014 $2,716,245, Department of the Navy: wave-powered, self-recharging unmanned underwater vehicles, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001426C2212_9700_-NONE-_-NONE-\">award</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Also featured: <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA862026FB004_9700_FA862026GB002_9700\">L3Harris $45.3M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0351_9700_W58RGZ18D0001_9700\">Defense Systems and Solutions $37.9M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0343_9700_W58RGZ18D0001_9700\">Defense Systems and Solutions $34.1M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0010426FCL0K_9700_N0010424GCL01_9700\">Raytheon $37.3M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DME_9700_SPE8EJ21D1020_9700\">Atlantic Diving Supply $32.2M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0003926FA024_9700_N0003923D1003_9700\">Scientific Research Corporation $2.5M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0018926FD118_9700_NNG15SD71B_8000\">CMA Technology $2.1M</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA877126C0009_9700_-NONE-_-NONE-\">TrustGrid Technologies $2M</a>."
+    },
+    {
+     "type": "subhead",
+     "text": "Modifications and cuts"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Relyant Global LLC</strong> \u2014 \u2212$8,718,467, Department of the Army: terminated for convenience; settlement and de-obligation of remaining funds on an administrative facilities construction contract, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W9128F23F0049_9700_W9128F21D0021_9700\">award</a>).",
+      "<strong>Rigid Constructors LLC</strong> \u2014 \u2212$13,240,808, Department of the Army: remaining funds taken out in anticipation of a termination-for-convenience settlement on canal construction, signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W912HY21C0011_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>BP Oil International Limited</strong> \u2014 \u2212$48,155,728, Defense Logistics Agency: administrative action on a fuel contract; the description gives only a contract number, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226P0456_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>RTX Corporation</strong> \u2014 +$451,342,455, Department of the Navy: definitized change order for fiscal 2026-28 annual engine sustainment, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001926C0112_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Northrop Grumman Systems Corporation</strong> \u2014 +$82,759,472, Department of the Air Force: funding-only action for Deep Space Advanced Radar Capability Site 2 production, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA882024CB001_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Electric Boat Corporation</strong> \u2014 +$63,525,000, Department of the Navy: change order for internal communications systems on combat ships, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_N0002424C2124_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Hadrian Automation, Inc.</strong> \u2014 +$40,236,000, Department of the Army: definitized change order for advanced manufacturing at Red River Army Depot, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W911RQ26CA011_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>American International Contractors (Special Projects) Inc.</strong> \u2014 +$28,626,807, Department of the Army: change order adding a CLIN to maintenance building construction, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W912ER24C0008_9700_-NONE-_-NONE-\">award</a>)."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other notable awards"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Stantec Consulting Services Inc</strong> \u2014 $1,876,861, Department of the Army: design-bid-build infrastructure for the Department of State's Foreign Missions Center at the former Walter Reed Army Medical Center in Washington, D.C., signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W912DR26FA191_9700_W912DR20D0005_9700\">award</a>).",
+      "<strong>W S Darley & Co and AeroVironment, Inc</strong> \u2014 $808,200 and $449,848, Department of the Army: drone buys citing Executive Order 14307 on drone dominance, signed July 22-23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0391_9700_W58RGZ26G0002_9700\">Darley</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0326_9700_W58RGZ26G0062_9700\">AeroVironment</a>).",
+      "<strong>Seneca Strategic Partners, LLC</strong> \u2014 $686,610, Washington Headquarters Services: two semi-secure modular systems meeting ICD 705 requirements with TEMPEST mitigation, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ003426FE368_9700_HQ003424D0005_9700\">award</a>).",
+      "<strong>Lompoc Valley Community Healthcare Organization, Inc.</strong> \u2014 $500,000 twice, Bureau of Prisons: outside medical services for Federal Correctional Complex Lompoc, both citing Executive Order 14398 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15B61727F00000004_1540_15BFA025D00000024_1540\">Nov.</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_15B61727F00000002_1540_15BFA025D00000024_1540\">Oct.</a>).",
+      "<strong>Rhombus Power Inc</strong> \u2014 $1,963,855, Department of the Air Force: \"Rhombus Power Concierge - Philippines,\" signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA880726CB003_9700_-NONE-_-NONE-\">award</a>).",
+      "<strong>Action Facilities Management Inc</strong> \u2014 $1,676,733, General Services Administration: demolish and replace the wedge barrier system at 26 Federal Plaza (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PC5527F0011_4740_47PC0625A0002_4740\">award</a>).",
+      "<strong>Amstar Inc</strong> \u2014 $1,296,772, General Services Administration: security upgrades at the U.S. Citizenship and Immigration Services Texas Service Center in Irving (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PD5227F0001_4740_47PH0824D0008_4740\">award</a>).",
+      "<strong>Ask Sage, Inc.</strong> \u2014 $950,000, Department of the Army: artificial intelligence platform tokens for mission functions, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W519TC26FA443_9700_W9128Z25DA001_9700\">award</a>).",
+      "<strong>SOS International LLC and Quiet Professionals, LLC</strong> \u2014 $546,943 and $494,453, Department of the Army: the same program bridging Defense Department, intelligence community and international partners, signed July 21 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_W91QEX26FA059_9700_W91QEX26DA004_9700\">SOS</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_W91QEX26FA058_9700_W91QEX26DA006_9700\">Quiet Professionals</a>).",
+      "<strong>Skopenow Inc.</strong> \u2014 $518,000, Department of the Air Force: renewal of an investigative platform agreement, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA701426F0212_9700_FA701423A0010_9700\">award</a>).",
+      "<strong>Washington Metropolitan Area Transit Authority</strong> \u2014 $488,997, Defense Information Systems Agency: fiscal 2026 transit voucher program, signed July 23 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HC104726F0041_9700_HC104726A0001_9700\">award</a>).",
+      "<strong>Citadel Development LLC</strong> \u2014 $463,043, General Services Administration: additional work at the U.S. Secret Service building (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PJ5227C0001_4740_-NONE-_-NONE-\">award</a>).",
+      "<strong>Glimmer Technologies Inc. and Paydesk Limited</strong> \u2014 $350,000 and $250,000, U.S. Agency for Global Media: journalist stringers producing news stories and programming (<a href=\"https://www.usaspending.gov/award/CONT_AWD_95170027K0003_9568_95170022A0352_9568\">Glimmer</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_95170027K0004_9568_95170022A0349_9568\">Paydesk</a>).",
+      "<strong>Barbaricum LLC</strong> \u2014 $309,312, Department of the Air Force: \"Morning Report Services,\" signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA701426F0203_9700_FA701422D0017_9700\">award</a>).",
+      "<strong>Regan Technologies Corp</strong> \u2014 $284,406, Washington Headquarters Services: Apple MacBook Pro laptops, signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ003426FE361_9700_NNG15SD39B_8000\">award</a>).",
+      "<strong>Analysis Group Inc and ABZ Inc</strong> \u2014 $250,000 and $249,144, Department of Justice: expert witness services, one citing Executive Order 14398 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15JC1V27P00000013_1501_-NONE-_-NONE-\">Analysis Group</a>, <a href=\"https://www.usaspending.gov/award/CONT_AWD_15JC1V27P00000022_1501_-NONE-_-NONE-\">ABZ</a>).",
+      "<strong>Vana Solutions LLC</strong> \u2014 $200,000, Department of the Air Force: software work described only as \"GONKULATOR,\" signed July 22 (<a href=\"https://www.usaspending.gov/award/CONT_AWD_FA480326F0040_9700_FA800322D0003_9700\">award</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "1,643 new awards under $2 million were screened (1,340 from the Defense Department backlog). 82 were flagged (5 priority, 74 notable, 3 keyword), plus 22 overflow flags; the 22 awards listed above are the ones written up. 27 awards worth $7.5 million cite Executive Order 14398 in their descriptions, and two worth $1.3 million cite Executive Order 14307 (drone dominance)."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Lobbying \u00d7 Contracts",
+   "headline": "Companies that lobby Washington and just won federal money",
+   "paragraphs": [
+    "3 of 29 large new awardees checked are also registered federal lobbying clients, collectively landing $16,400,696 or more in new awards."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>California Institute Of Technology</strong>: $210,000 in lobbying reported so far in 2026 (3 quarters); issues: Budget/Appropriations, Science/Technology; firms: FEDERAL SCIENCE PARTNERS LLC, LEWIS-BURKE ASSOCIATES, LLC. <a href=\"https://lda.gov/filings/public/filing/24f7df0c-6c21-47ba-b400-d24a735843b0/print/\">latest filing</a>. New awards: $10,000,000 from National Aeronautics and Space Administration (10/19/2026, Support of the nasa human spaceflight mission directorate (hsmd) development of the promise) <a href=\"https://www.usaspending.gov/award/CONT_AWD_80NM0027F7001_8000_80NM0018D0004_8000\">award</a>.",
+      "<strong>Thundercat Technology, Llc</strong>: a registered lobbying client in 2026, no quarterly spend reported yet; issues: Computer Industry; firms: BALLARD PARTNERS. <a href=\"https://lda.gov/filings/public/filing/3c1944ac-d871-438f-a1f0-a295c0c9cfb5/print/\">latest filing</a>. New awards: $3,652,011 from Office of the Chief Financial Officer (10/1/2026, Akamai app software renewal for the united states department of agriculture (usda), office of the chief information officer (ocio), digital ) <a href=\"https://www.usaspending.gov/award/CONT_AWD_12314427F0001_1205_NNG15SD26B_8000\">award</a>.",
+      "<strong>Quest Diagnostics Incorporated</strong>: $1,460,000 in lobbying reported so far in 2026 (3 quarters); issues: Health Issues, Medicare/Medicaid, Budget/Appropriations; firms: FEDERAL STREET STRATEGIES, LLC, QUEST DIAGNOSTICS INCORPORATED, RED+BLUE STRATEGIES. <a href=\"https://lda.gov/filings/public/filing/f5b60623-0bb5-49f9-8407-6cb2d687473d/print/\">latest filing</a>. New awards: $2,748,684 from Department of Veterans Affairs (10/19/2026, Reference lab tests) <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24827N0103_3600_36C24823D0012_3600\">award</a>."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Awards of $1M+ from this edition's USAspending pull, matched by company name to Lobbying Disclosure Act clients for the current year. Spend is the largest report per quarter (a client with several firms may have spent more). Contractors lobbying under a parent or subsidiary name will not match."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending: Every Other New Award",
+   "headline": "246 routine contract actions, all linked",
+   "paragraphs": [
+    "246 more items from today's USAspending pull that the screen judged routine (spare parts, fuel, maintenance, option exercises, closeout de-obligations and the like), listed so nothing is dropped. Defense Department awards are published about 90 days after signing; those show the signing date."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Defense Logistics Agency</strong> \u2014 74 new awards, $389,061,569: <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE2DP26F7931_9700_SPE2DP26D0001_9700\">Meridian Medical Technologies, LLC $20,058,500, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10L_9700_SPE60226D0476_9700\">Bp Products North America Inc. $18,606,416, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09L_9700_SPE60226D0463_9700\">Vetjet Fuels LLC $17,144,976, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09G_9700_SPE60225D0489_9700\">Chevron USA Inc. $14,960,295, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FJ5VU_9700_SPE8EJ21D1025_9700\">W S Darley &amp; Co $12,641,259, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09W_9700_SPE60226D0469_9700\">Petromax Refining Company LLC $12,542,481, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRTA126F0339_9700_SPE4AX25D9420_9700\">Rtx Corporation $12,117,351, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRRA226F0102_9700_SPRRA225D0016_9700\">Raytheon Company $10,855,500, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DNM_9700_SPE8EJ21D1020_9700\">Atlantic Diving Supply, Inc. $10,122,638, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10Q_9700_SPE60225D0491_9700\">Valero Marketing and Supply Co $9,553,530, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10N_9700_SPE60225D0480_9700\">Marathon Petroleum Company LP $8,965,008, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FJ5VK_9700_SPE8EJ21D1025_9700\">W S Darley &amp; Co $8,555,790, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE1C126F5307_9700_SPE1C124DN018_9700\">Readyone Industries Inc $8,124,480, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE1C126F5302_9700_SPE1C124DN019_9700\">Goodwill Industries of South Florida Inc $8,124,480, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRPA126FST00_9700_N0038322GST01_9700\">Argon St, Inc. $7,904,418, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09U_9700_SPE60226D0468_9700\">Placid Refining Company LLC $7,461,804, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10R_9700_SPE60226D0468_9700\">Placid Refining Company LLC $7,406,994, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60526FHSL8_9700_SPE60525D9504_9700\">South National for Logistics $7,171,200, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE4A826P0041_9700_-NONE-_-NONE-\">Engineering and Software System Solutions, Inc. $6,174,611, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FH26N_9700_SPE8EJ21D1023_9700\">Supplycore LLC $6,126,959, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09T_9700_SPE60225D0491_9700\">Valero Marketing and Supply Co $5,720,652, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09Q_9700_SPE60225D0489_9700\">Chevron USA Inc. $5,507,796, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09N_9700_SPE60225D0489_9700\">Chevron USA Inc. $5,507,796, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE1C126F5377_9700_SPE1C125D0086_9700\">Aurora Industries LLC $5,079,614, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DN3_9700_SPE8EJ21D1020_9700\">Atlantic Diving Supply, Inc. $5,002,309, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EX26F11B0_9700_SPE8EH24D0001_9700\">Atlantic Diving Supply, Inc. $4,902,067, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EM26F10BT_9700_SPE8EJ21D0026_9700\">Atlantic Diving Supply, Inc. $4,901,040, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FJ5YC_9700_SPE8EJ21D1025_9700\">W S Darley &amp; Co $4,728,836, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SP470126C0080_9700_-NONE-_-NONE-\">Amaero Advanced Materials &amp; Manufacturing Inc $4,498,530, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE2D826F2S89_9700_SPE2DX22D0089_9700\">Amerisourcebergen Drug Corp $4,326,861, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE2D826F23Q1_9700_SPE2DX22D0069_9700\">Amerisourcebergen Drug Corp $4,253,262, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FJ5X2_9700_SPE8EJ21D0025_9700\">W S Darley &amp; Co $4,237,972, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FH272_9700_SPE8EJ21D0023_9700\">Supplycore LLC $3,756,934, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10M_9700_SPE60225D0480_9700\">Marathon Petroleum Company LP $3,747,404, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EC26F0699_9700_SPE8EC23D0020_9700\">Caterpillar Inc $3,673,230, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09R_9700_SPE60226D0476_9700\">Bp Products North America Inc. $3,659,574, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09V_9700_SPE60226D0476_9700\">Bp Products North America Inc. $3,657,770, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10P_9700_SPE60226D0476_9700\">Bp Products North America Inc. $3,654,972, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DN4_9700_SPE8EJ21D0020_9700\">Atlantic Diving Supply, Inc. $3,518,416, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DMW_9700_SPE8EJ21D0020_9700\">Atlantic Diving Supply, Inc. $3,477,651, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DV6_9700_SPE8EJ21D1020_9700\">Atlantic Diving Supply, Inc. $3,402,506, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRHA426C0017_9700_-NONE-_-NONE-\">Elbitamerica, Inc. $3,338,666, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE1C126F5278_9700_SPE1C123D0017_9700\">Federal Prison Industries, Inc - Ctg $3,236,587, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRMM126FE632_9700_SPRMM125DMD01_9700\">Fairwinds Technologies LLC $3,220,511, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD11V_9700_SPE60225D0487_9700\">Petro Star Inc. $3,119,075, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE2D826FB0DU_9700_SPE2DX22D0049_9700\">Amerisourcebergen Drug Corp $2,986,475, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09S_9700_SPE60226D0466_9700\">Husky Marketing and Supply Company $2,975,734, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRHA126F0125_9700_SPE4AX18D9416_9700\">Goodrich Corporation $2,969,464, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRHA126F0122_9700_SPRHA123D0002_9700\">Aar Supply Chain, Inc $2,936,692, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60826FA628_9700_SPE60822D0352_9700\">Clipper Oil, Inc. $2,932,514, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE2D826F0JNP_9700_SPE2DX22D0129_9700\">Amerisourcebergen Drug Corp $2,866,150, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE1C126F5352_9700_SPE1C123D0048_9700\">M M Manufacturing LLC $2,865,242, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRPA126FEV06_9700_SPE4A124G0010_9700\">Woodward Hrt Inc $2,832,500, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DQ0_9700_SPE8EJ21D0020_9700\">Atlantic Diving Supply, Inc. $2,696,541, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FJ5WX_9700_SPE8EJ21D1025_9700\">W S Darley &amp; Co $2,641,863, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DQY_9700_SPE8EJ21D0020_9700\">Atlantic Diving Supply, Inc. $2,513,689, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRMM126FE635_9700_SPRMM125DMD01_9700\">Fairwinds Technologies LLC $2,414,170, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRMM126FR90M_9700_SPE4A122G0010_9700\">General Electric Company $2,377,600, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09P_9700_SPE60225D0489_9700\">Chevron USA Inc. $2,360,484, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD09M_9700_SPE60225D0489_9700\">Chevron USA Inc. $2,360,484, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRHA126F0127_9700_SPE4AX18D9412_9700\">Goodrich Corporation $2,320,588, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRMM126FE81M_9700_SPRMM125DMF01_9700\">Supplycore LLC $2,237,440, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRDL126C0127_9700_-NONE-_-NONE-\">Kearfott Corp $2,190,967, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26FJ5WW_9700_SPE8EJ21D1025_9700\">W S Darley &amp; Co $2,118,289, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10H_9700_SPE60225D0480_9700\">Marathon Petroleum Company LP $2,118,098, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FD10G_9700_SPE60225D0480_9700\">Marathon Petroleum Company LP $2,118,098, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SP470126F0177_9700_SP470126D1225_9700\">Cgi Federal Inc. $2,113,274, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EM26FH028_9700_SPE8EJ21D0029_9700\">Supplycore LLC $2,103,970, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRTA126F0337_9700_SPE4AX25D9420_9700\">Rtx Corporation $2,103,557, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EL26F1DU3_9700_SPE8EJ21D0020_9700\">Atlantic Diving Supply, Inc. $2,076,973, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EM26F10BS_9700_SPE8EJ21D0026_9700\">Atlantic Diving Supply, Inc. $2,030,442, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE4A726C0102_9700_-NONE-_-NONE-\">Linmarr Associates, Inc. $2,025,000, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE8EM26F10BV_9700_SPE8EJ21D0026_9700\">Atlantic Diving Supply, Inc. $2,020,151, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPRTA126F0328_9700_SPE4A124G0014_9700\">General Electric Company $2,006,400, signed 7/22/2026</a>",
+      "<strong>Department of the Navy</strong> \u2014 41 new awards, $222,194,814: <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0002426F6261_9700_N0002425D6211_9700\">Lockheed Martin Corporation $22,320,420, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N3220526C1247_9700_-NONE-_-NONE-\">Waterman Transport Inc $21,449,252, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N5523626F8064_9700_N0002425D4212_9700\">Austal USA, LLC $10,815,844, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0038326FYY1N_9700_N0038322GYY01_9700\">The Boeing Company $9,211,096, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6274226F0347_9700_N6274221D0001_9700\">Wsm Pacific Siop, a Joint Venture $8,492,932, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6278626F1002_9700_N0002425G2305_9700\">Bath Iron Works Corporation $8,275,191, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6523626FE288_9700_N6523618D8014_9700\">Science Applications International Corporation $8,030,775, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6247326F0542_9700_N6247323D1408_9700\">Reyes Construction, Inc. $7,876,300, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6523626FE321_9700_NNG15SC94B_8000\">Vae, Inc. $6,900,000, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0010426PZB07_9700_-NONE-_-NONE-\">Exlar Corporation $6,081,768, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0018926FD120_9700_N0017819D7361_9700\">Coastal Management Solutions Inc. $6,032,061, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6449826F0038_9700_N6449824G4002_9700\">Scot Forge Company $5,961,303, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N4008426F4419_9700_N4008421D0069_9700\">Kyunan Co., Ltd. $5,576,121, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N4008426F4425_9700_N4008422D0073_9700\">Nihon Meccs Co.,Ltd. $5,277,799, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6523626FE313_9700_NNG15SD71B_8000\">Cma Technology Inc $4,897,750, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N4425526F0195_9700_N4425523D1600_9700\">Port Madison Construction Corporation $4,701,191, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0060426P4023_9700_-NONE-_-NONE-\">Asrc Communications, Ltd. $4,604,910, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0025326C7002_9700_-NONE-_-NONE-\">Saalex Corp $4,521,664, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0018926FL322_9700_NNG15SD66B_8000\">Cykor LLC $4,456,175, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001426C1305_9700_-NONE-_-NONE-\">University of South Carolina $4,363,428, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6600126F9059_9700_N6600123D0022_9700\">Rohde &amp; Schwarz USA, Inc. $4,346,677, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0042126F1239_9700_N0042126D0005_9700\">Cheroenhaka Nottoway Enterprises, LLC $4,071,596, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_M6785426F2066_9700_M6785423D2060_9700\">Lite Coms LLC $3,897,798, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N4008426F4417_9700_N4008421D0070_9700\">American Engineering Corporation $3,635,965, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6833526F1183_9700_NNG15SC55B_8000\">World Wide Technology LLC $3,629,550, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0002426F4446_9700_N0002426D4403_9700\">Allied Systems Company $3,249,477, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0042126C1009_9700_-NONE-_-NONE-\">Custom Biometric Wearables Inc $3,194,880, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0010426CNA15_9700_-NONE-_-NONE-\">Vacco Industries $3,114,719, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001926F0122_9700_N0001923G0002_9700\">Lockheed Martin Corporation $3,062,018, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_M6785426F1054_9700_M6785425D1014_9700\">Envision Technology, LLC $3,036,859, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0042126F1266_9700_N0042123D0001_9700\">Rockwell Collins, Inc. $2,825,468, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6660426FB603_9700_N6660426DB600_9700\">General Dynamics Mission Systems, Inc. $2,787,639, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0010426PZB02_9700_-NONE-_-NONE-\">Exlar Corporation $2,619,598, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0010426CUA08_9700_-NONE-_-NONE-\">Sechan Electronics Inc $2,606,135, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0010426CYA26_9700_-NONE-_-NONE-\">Westland Technologies, Inc. $2,480,950, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_M6700426F0013_9700_M6700424D0003_9700\">Cherokee Nation Government Solutions, L.L.C. $2,444,936, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0002426F8077_9700_N0002422D6404_9700\">The Johns Hopkins University Applied Physics Laboratory LLC $2,429,000, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6945026F0381_9700_N6247023D0002_9700\">USA Environmental, Inc. $2,299,993, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N3319126F0153_9700_N3319121D4018_9700\">Environmental Chemical Corporation Italy S.R.L. $2,271,536, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6449826FHB02_9700_N6449821D4033_9700\">Delphinus Engineering LLC $2,200,018, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6600126P6172_9700_-NONE-_-NONE-\">L3Harris Technologies, Inc. $2,144,022, signed 7/23/2026</a>",
+      "<strong>Department of the Army</strong> \u2014 40 new awards, $200,054,231: <a href=\"https://www.usaspending.gov/award/CONT_AWD_W15P7T26CA003_9700_-NONE-_-NONE-\">Cae USA Inc. $20,814,272, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0372_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $16,717,611, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W519TC26CA060_9700_-NONE-_-NONE-\">Lmi Consulting, LLC $11,402,533, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912P726FA015_9700_W912P726DA001_9700\">Montezuma Wetlands LLC $11,177,050, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0377_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $10,873,506, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912HY26CA024_9700_-NONE-_-NONE-\">Muddy Water Dredging LP $10,216,720, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0376_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $6,920,009, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0374_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $5,613,470, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0384_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $5,446,556, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0380_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $4,564,888, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912CH26FA130_9700_W912CH24D0009_9700\">Teledyne Flir Unmanned Ground Systems, Inc $4,537,394, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W519TC26CA055_9700_-NONE-_-NONE-\">Vista Innovative Solutions, LLC $4,450,906, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W911QY26CA039_9700_-NONE-_-NONE-\">Earthly Dynamics, LLC $4,445,811, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W91QVN26FA556_9700_W91QVN24D0100_9700\">Sunglim Engineering &amp; Construction Co., Ltd $4,444,747, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W900KK26FA132_9700_W900KK23D0015_9700\">Kratos Unmanned Aerial Systems, Inc $4,355,142, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0383_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $4,294,499, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W519TC26FA429_9700_W52P1J22D0005_9700\">General Dynamics Ordnance and Tactical Systems, Inc. $4,228,491, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W911S226FA181_9700_W911S225DA025_9700\">Armitage Sai JV $3,578,588, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0371_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $3,420,919, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W90VN926FA174_9700_W91QVN24D0110_9700\">Yeajin E&amp;C Co.,Ltd. $3,414,603, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W519TC26FA404_9700_W519TC26DA025_9700\">Tunista Operations Support Services LLC $3,410,465, signed 7/13/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W911SA26FA160_9700_47QRAA21D005B_4732\">Xotech L.L.C. $3,332,795, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W9124B26FA042_9700_W5168W25DA011_9700\">Defender Contracting &amp; Construction 2, LLC $3,289,255, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0379_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $3,260,904, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W911RQ26CA019_9700_-NONE-_-NONE-\">Gil-Mar Defense LLC $3,149,520, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0373_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $3,127,211, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W91QVN26FA527_9700_W91QVN24D0109_9700\">Yeajin E&amp;C Co.,Ltd. $2,897,041, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912GB26FA104_9700_W912GB25D0008_9700\">Aecom International Inc. $2,841,814, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0385_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $2,768,681, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W9124P26FA551_9700_W9124P25D0001_9700\">Cci Prime Contractors, LLC $2,724,102, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W90VN926FA167_9700_W91QVN24D0056_9700\">Yibon Construction Co., Ltd. $2,710,710, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W31P4Q26F0121_9700_W31P4Q24D0022_9700\">Raytheon Company $2,668,274, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0381_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $2,522,905, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912DY26FA237_9700_47QSCA19D000F_4732\">Dickson Furniture Manufacturers LLC $2,468,794, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W91WFU26FA016_9700_W91WFU24A0001_9700\">The Mission Essential Group, LLC $2,440,789, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0378_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $2,399,632, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W91QVN26FA551_9700_W91QVN24D0109_9700\">Yeajin E&amp;C Co.,Ltd. $2,366,243, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0375_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $2,272,517, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W911SF26FA073_9700_W911SF23D0002_9700\">Columbus Barricades, Inc $2,249,202, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0382_9700_W58RGZ26D0052_9700\">Lockheed Martin Corporation $2,235,662, signed 7/22/2026</a>",
+      "<strong>Department of the Air Force</strong> \u2014 22 new awards, $129,902,610: <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA869126CB010_9700_-NONE-_-NONE-\">Lockheed Martin Corporation $11,710,478, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA852326FB027_9700_FA852322D0001_9700\">Northrop Grumman Systems Corporation $11,281,785, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA930226F0060_9700_FA930226D0002_9700\">Emc Corporation $9,899,845, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA852326FB028_9700_FA852319D0006_9700\">Georgia Tech Applied Research Corp $9,656,542, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA500426F0045_9700_GS00P16BSD1184_4740\">Golden Valley Electric Association Inc $9,400,000, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA863526F0015_9700_FA862125DB001_9700\">Serco Inc $7,629,223, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA460026F0050_9700_47QRCA24DV225_4732\">Spiral Solutions &amp; Technologies, Inc $7,407,400, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA821326C0212_9700_-NONE-_-NONE-\">Rockwell Collins Inc $7,346,376, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA560626F0032_9700_FA561325D0009_9700\">Porr Government Services Gmbh $7,039,529, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA852526FB008_9700_FA852526DB001_9700\">Honeywell International Inc. $6,550,000, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA822826F0011_9700_FA822223DB001_9700\">Engineering and Software System Solutions, Inc. $6,032,948, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA500426C0033_9700_-NONE-_-NONE-\">Design Alaska, Inc. $5,345,739, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA823226FB230_9700_FA823222D0006_9700\">Bae Systems Controls Inc. $4,919,628, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA239626FB144_9700_47QTCA21A001Z_4732\">Paragon Micro Inc $4,226,000, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA857726FB003_9700_FA857726D0001_9700\">Raytheon Company $3,116,460, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA890326F0138_9700_FA805523D3001_9700\">Motorola Solutions, Inc. $3,101,124, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA252326F0010_9700_FA252323D0001_9700\">Inussuk A/S $2,958,535, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA702226F0074_9700_NNG15SC71B_8000\">Fcn, Inc. $2,926,570, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA862026CB013_9700_-NONE-_-NONE-\">Caci, Inc. - Federal $2,714,232, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA488726F0088_9700_FA488721D0003_9700\">Diversified Maintenance Systems Inc $2,358,340, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA825226C0002_9700_-NONE-_-NONE-\">Honeywell International Inc. $2,165,933, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA882326FB019_9700_FA882319D0001_9700\">Lockheed Martin Services, LLC $2,115,924, signed 7/21/2026</a>",
+      "<strong>Department of Veterans Affairs</strong> \u2014 15 new awards, $92,971,011: <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24927C0003_3600_-NONE-_-NONE-\">Valiant Construction LLC $22,288,546</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24827C0007_3600_-NONE-_-NONE-\">Pointer Construction Group LLC $17,278,188</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24127N0057_3600_36C24124D0110_3600\">Kmk Construction, Inc $10,340,307</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24727F0023_3600_NNG15SD24B_8000\">Techanax LLC $7,588,521</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C10X27K0071_3600_36C10G25D0013_3600\">Sdv Office Systems LLC $5,811,881</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24627C0002_3600_-NONE-_-NONE-\">Jett'S Specialty Contracting, LLC $4,894,564</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25627C0008_3600_-NONE-_-NONE-\">Paramount Construction Group, LLC $4,875,579</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25727C0006_3600_-NONE-_-NONE-\">Aml-American Made Logistics $3,120,508</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25727N0090_3600_36C25723D0011_3600\">Neogenomics Laboratories, Inc. $2,787,350</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24827N0103_3600_36C24823D0012_3600\">Quest Diagnostics Incorporated $2,748,684</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C26227N0081_3600_36C26223D0086_3600\">Millburn Harbor Inc $2,569,500</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24227C0006_3600_-NONE-_-NONE-\">F &amp; C Group JV LLC $2,339,706</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24927N0059_3600_36C24923D0039_3600\">Ega Associates, LLC $2,172,421</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25727N0049_3600_36C25722D0063_3600\">Valor Healthcare Inc $2,140,830</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24127K0007_3600_36C24124D0075_3600\">Chelsea Jewish Green House, Inc. $2,014,426</a>",
+      "<strong>Department of the Treasury</strong> \u2014 11 new awards, $52,738,043: <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51629_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,243,647</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51628_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,243,420</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51627_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,243,193</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51626_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,242,967</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51625_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,242,677</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51630_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,120,206</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51634_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,056,222</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51632_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,050,170</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51631_2044_2031JG20D00010_2044\">Stonex Financial Ltd $5,049,450</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51633_2044_2031JG20D00010_2044\">Stonex Financial Ltd $3,146,282</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_2031JG27F51635_2044_2031JG20D00010_2044\">Stonex Financial Ltd $3,099,808</a>",
+      "<strong>U.S. Special Operations Command</strong> \u2014 5 new awards, $27,343,065: <a href=\"https://www.usaspending.gov/award/CONT_AWD_H9240326FE108_9700_N6600124A0048_9700\">Carahsoft Technology Corp $15,645,102, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_H9240326FE124_9700_H9240325DE004_9700\">Med-Eng, LLC $3,593,647, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_H9224026FE386_9700_H9224025D0012_9700\">Ascendancy One LLC $2,937,340, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_H9240126FE092_9700_H9240124D0001_9700\">L3Harris Technologies, Inc. $2,692,860, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_H9224126FE034_9700_H9224123D0001_9700\">Tek Fusion Global Inc. $2,474,117, signed 7/21/2026</a>",
+      "<strong>National Aeronautics and Space Administration</strong> \u2014 1 new award, $22,900,737: <a href=\"https://www.usaspending.gov/award/CONT_AWD_80JSC027F0004_8000_80JSC026D0012_8000\">Hitt Contracting, Inc. $22,900,737</a>",
+      "<strong>Department of Agriculture</strong> \u2014 4 new awards, $15,872,045: <a href=\"https://www.usaspending.gov/award/CONT_AWD_123J1427F0008_12K2_123J1426D0006_12K2\">Associated Milk Producers Inc $6,060,718</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_12314427F0001_1205_NNG15SD26B_8000\">Thundercat Technology, LLC $3,652,011</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_123J1427F0006_12K2_123J1426D0008_12K2\">Bongards Creameries $3,444,050</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_1232SA27F0002_12H2_47QTCA25D00DU_4732\">Dsfederal, Inc $2,715,265</a>",
+      "<strong>Defense Information Systems Agency</strong> \u2014 4 new awards, $13,616,387: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HC108426F3028_9700_HC108425A0002_9700\">Carahsoft Technology Corp $5,001,229, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HC102826F0752_9700_NNG15SC71B_8000\">Fcn, Inc. $3,178,173, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HC101326C0003_9700_-NONE-_-NONE-\">Appian Corporation $2,738,402, signed 7/10/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HC105026F0028_9700_HC105023D0003_9700\">Microsoft Corporation $2,698,583, signed 7/23/2026</a>",
+      "<strong>Defense Finance and Accounting Service</strong> \u2014 1 new award, $12,088,734: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ042326FE051_9700_GS35F0269W_4730\">Feditc, LLC $12,088,734, signed 7/22/2026</a>",
+      "<strong>Defense Health Agency</strong> \u2014 2 new awards, $10,300,242: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HT001526FE036_9700_HT001526DE001_9700\">Aix Tech LLC $7,154,150, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HT940626FE066_9700_W81K0424D0012_9700\">Aims-Usgp JV LLC $3,146,092, signed 7/23/2026</a>",
+      "<strong>USTRANSCOM</strong> \u2014 1 new award, $7,779,726: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HTC71126F2627_9700_HTC71125DCC04_9700\">Atlas Air, Inc. $7,779,726, signed 7/21/2026</a>",
+      "<strong>Washington Headquarters Services</strong> \u2014 2 new awards, $7,499,195: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ003426FE328_9700_HQ003426AE011_9700\">Chinook Systems Inc $4,116,611, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ003426PE077_9700_-NONE-_-NONE-\">The Masy Group LLC $3,382,584, signed 7/22/2026</a>",
+      "<strong>Department of Justice</strong> \u2014 2 new awards, $7,107,043: <a href=\"https://www.usaspending.gov/award/CONT_AWD_15M10526FD1227CSO_1544_15M10523DA4700068_1544\">Metropolitan Security Services, Inc. $3,998,463</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_15BRRC27F00000015_1540_15BRRC27D00000010_1540\">Northwest Regional Re-Entry Center (Nwrrc) $3,108,580</a>",
+      "<strong>Defense Counterintelligence and Security Agency</strong> \u2014 1 new award, $6,020,418: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HS002126FE040_9700_HS002126AE002_9700\">Iworks Corp $6,020,418, signed 7/21/2026</a>",
+      "<strong>Missile Defense Agency</strong> \u2014 1 new award, $4,543,283: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ085126FE041_9700_HQ085125DE001_9700\">Lockheed Martin Corporation $4,543,283, signed 7/21/2026</a>",
+      "<strong>Department of Defense Education Activity</strong> \u2014 1 new award, $3,364,168: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HE125426FE536_9700_HE125424DE018_9700\">Ncs Pearson Inc $3,364,168, signed 7/21/2026</a>",
+      "<strong>Department of the Navy</strong> \u2014 4 modifications, $158,783,926: <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6339423C0006_9700_-NONE-_-NONE-\">Laurel Technologies Partnership $59,691,399, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0002425F8707_9700_N0002421D6400_9700\">University of Washington $41,552,387, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_N0001925C0010_9700_-NONE-_-NONE-\">Northrop Grumman Systems Corporation $30,000,000, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_M9549418C0016_9700_-NONE-_-NONE-\">Sodexo Management Inc. $27,540,140, signed 7/22/2026</a>",
+      "<strong>Department of the Army</strong> \u2014 2 modifications, $62,366,364: <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912DY22F0105_9700_47QTCK18D0053_4732\">Bae Systems Technology Solutions &amp; Services Inc. $32,846,552, signed 7/22/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_W58RGZ26F0026_9700_W58RGZ18D0001_9700\">Defense Systems and Solutions $29,519,812, signed 7/22/2026</a>",
+      "<strong>Missile Defense Agency</strong> \u2014 2 modifications, $58,864,120: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ014714C0001_9700_-NONE-_-NONE-\">Aerojet Rocketdyne Coleman Aerospace Inc $33,386,120, signed 7/23/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_HQ085224F0005_9700_HQ085224D0003_9700\">Lockheed Martin Corporation $25,478,000, signed 7/23/2026</a>",
+      "<strong>Defense Contract Management Agency</strong> \u2014 1 modification, $51,028,988: <a href=\"https://www.usaspending.gov/award/CONT_AWD_N6852022F7005_9700_N6134019D1010_9700\">V2X Aerospace LLC $51,028,988, signed 7/23/2026</a>",
+      "<strong>Defense Health Agency</strong> \u2014 1 modification, $42,802,030: <a href=\"https://www.usaspending.gov/award/CONT_AWD_HT001524F0070_9700_HT001523A0002_9700\">Peraton Enterprise Solutions LLC $42,802,030, signed 7/22/2026</a>",
+      "<strong>Department of the Air Force</strong> \u2014 1 modification, $25,083,500: <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA807522F0017_9700_FA807518D0011_9700\">Mantech Tsg-2 Joint Venture $25,083,500, signed 7/23/2026</a>",
+      "<strong>Department of the Air Force</strong> \u2014 3 cuts, -$29,907,336: <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA810626FB005_9700_FA810625DB002_9700\">V2X Aerospace LLC -$16,012,822, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA805122F0013_9700_FA805120D0008_9700\">V2X Systems LLC -$8,604,127, signed 7/21/2026</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_FA220425FB004_9700_47QTCK18D0004_4732\">Booz Allen Hamilton Inc -$5,290,387, signed 7/23/2026</a>",
+      "<strong>Department of State</strong> \u2014 1 cut, -$18,359,665: <a href=\"https://www.usaspending.gov/award/CONT_AWD_72066821C00001_7200_-NONE-_-NONE-\">Intrahealth International, Inc. -$18,359,665</a>",
+      "<strong>Defense Logistics Agency</strong> \u2014 1 cut, -$6,783,531: <a href=\"https://www.usaspending.gov/award/CONT_AWD_SPE60226FC64A_9700_SPE60225D0471_9700\">Phillips 66 Company -$6,783,531, signed 7/23/2026</a>",
+      "<strong>Department of Veterans Affairs</strong> \u2014 1 cut, -$6,357,837: <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C78627N0047_3600_36C78622D0001_3600\">Matthews International Corporation -$6,357,837</a>",
+      "<strong>Department of the Army</strong> \u2014 1 cut, -$6,027,126: <a href=\"https://www.usaspending.gov/award/CONT_AWD_W912HV24C0002_9700_-NONE-_-NONE-\">Tokyu Construction Co., Ltd. -$6,027,126, signed 7/22/2026</a>"
+     ]
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new apportionment files were approved in this window",
+   "paragraphs": [
+    "No apportionment notices were issued from the Office of Management and Budget between October 18 and October 23, 2026. Spend plan filings were stable across the 145 accounts monitored."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 22-23, 2026 (Pacific time), SAM.gov notices posted in that window.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API; SAM.gov contract opportunities and their attached documents.",
+  "known_gaps": "No source errors were reported. The OMB Apportionments pass found no new apportionment files between October 18 and 23. Of 3,340 attachments on 682 SAM.gov notices, 184 are access-restricted on SAM.gov, 1 could not be downloaded or read, and 2,124 are queued for later editions; 4,143 files in total are queued, and anything they turn up will come back as a late finding. About 1,650 links to outside portals (DIBBS, NECO, PIEE and others) were not followed. Several justification files were redacted, and some values and vendors could not be stated."
+ },
+ "beat": []
+}

@@ -216,6 +216,13 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "agile 4 vets": {
+    "d": "2026-10-23",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "agilent technologie": {
     "d": "2026-10-15",
     "examples": [
@@ -401,6 +408,35 @@
       }
     ],
     "first": "2011-03-17",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "alphasix": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 107642755.36,
+        "recipient": "ALPHASIX, LLC.",
+        "start": "2020-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75D30120F09435_7523_GS35F307AA_4732"
+      },
+      {
+        "agency": "Department of the Treasury",
+        "amount": 22476486.53,
+        "recipient": "ALPHASIX, LLC.",
+        "start": "2021-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_2032H521F00754_2050_NNG15SD28B_8000"
+      },
+      {
+        "agency": "Department of the Treasury",
+        "amount": 19743247.05,
+        "recipient": "ALPHASIX, LLC.",
+        "start": "2021-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_2032H521F00732_2050_NNG15SD28B_8000"
+      }
+    ],
+    "first": "2015-08-26",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -679,6 +715,35 @@
     "first": "2026-02-11",
     "has_contracts": true,
     "raw_hits": 2
+  },
+  "apex instrument": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 166045.5,
+        "recipient": "APEX INSTRUMENTS, INCORPORATED",
+        "start": "2024-07-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_68HE0324P0032_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 126695.76,
+        "recipient": "APEX INSTRUMENTS, INCORPORATED",
+        "start": "2025-06-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_68HE0325P0034_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 97272.5,
+        "recipient": "APEX INSTRUMENTS, INCORPORATED",
+        "start": "2019-09-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_68HE0B19P0268_6800_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-03-12",
+    "has_contracts": true,
+    "raw_hits": 15
   },
   "applied biosystem": {
     "d": "2026-10-10",
@@ -1930,6 +1995,35 @@
       }
     ],
     "first": "2013-07-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "concurrent technologie": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 193690153.95,
+        "recipient": "CONCURRENT TECHNOLOGIES CORP",
+        "start": "2008-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FC01_9700_N0017805D4255_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 154666480.54,
+        "recipient": "CONCURRENT TECHNOLOGIES CORP",
+        "start": "1998-04-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DAAE3098C1050_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 94029601.0,
+        "recipient": "CONCURRENT TECHNOLOGIES CORP",
+        "start": "2000-08-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001400C0544_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1996-10-29",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -3556,6 +3650,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "john hopkin university": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 1414827399.0,
+        "recipient": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "start": "2022-03-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80MSFC22F0048_8000_80MSFC20D0004_8000"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 1102140609.74,
+        "recipient": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "start": "1997-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_GSFC0199711DNAS597271_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 894500235.0,
+        "recipient": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "start": "2010-05-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNN10AA08T_8000_NNN06AA01C_8000"
+      }
+    ],
+    "first": "1997-06-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "john hopkin university applied physic laboratory": {
     "d": "2026-10-19",
     "examples": [
@@ -3917,6 +4040,64 @@
     "first": "2004-09-28",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "landlord lessor 500 n a st richmond in": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 225457.0,
+        "recipient": "LESSORS, INC",
+        "start": "2016-04-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EPC16005_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 60973.0,
+        "recipient": "LESSORS, INC",
+        "start": "2016-04-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EP16C000089_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 51098.22,
+        "recipient": "LESSORS, INC",
+        "start": "2021-02-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_68HE0M21P0028_6800_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-04-07",
+    "has_contracts": true,
+    "raw_hits": 200
+  },
+  "landlord lessor commerce building 510 commerce court manteca ca": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 225457.0,
+        "recipient": "LESSORS, INC",
+        "start": "2016-04-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EPC16005_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 60973.0,
+        "recipient": "LESSORS, INC",
+        "start": "2016-04-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EP16C000089_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 51098.22,
+        "recipient": "LESSORS, INC",
+        "start": "2021-02-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_68HE0M21P0028_6800_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-04-07",
+    "has_contracts": true,
+    "raw_hits": 170
   },
   "leased housing developer": {
     "d": "2026-10-19",
@@ -6331,6 +6512,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "toptica photonic": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 2411521.0,
+        "recipient": "TOPTICA PHOTONICS INC",
+        "start": "2012-11-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA940113C0005_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 849950.0,
+        "recipient": "TOPTICA PHOTONICS INC",
+        "start": "2019-04-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0017319P2011_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 782000.0,
+        "recipient": "TOPTICA PHOTONICS INC",
+        "start": "2015-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911QX15P0447_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-07-29",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "trac regulator": {
     "d": "2026-10-19",
     "examples": [
@@ -6357,6 +6567,35 @@
       }
     ],
     "first": "2008-08-06",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "translogic": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 2888720.0,
+        "recipient": "TRANSLOGIC CORP.",
+        "start": "2014-08-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA25614C0177_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 2547684.87,
+        "recipient": "TRANSLOGIC CORP.",
+        "start": "2024-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QSMA24P0001_4732_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 2474604.0,
+        "recipient": "TRANSLOGIC CORP.",
+        "start": "2017-09-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA24917J5577_3600_V797D50470_3600"
+      }
+    ],
+    "first": "2007-06-18",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -7183,6 +7422,35 @@
       }
     ],
     "first": "2003-06-04",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:JZDRNT166LE4": {
+    "d": "2026-10-23",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 14721678.0,
+        "recipient": "VERSITI BLOOD HEALTH, INC.",
+        "start": "2005-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN266200500032C_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 6485297.0,
+        "recipient": "VERSITI BLOOD HEALTH, INC.",
+        "start": "2023-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HT942523C0095_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 3884978.41,
+        "recipient": "VERSITI BLOOD HEALTH, INC.",
+        "start": "2013-03-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN26800002_7529_HHSN268201100003I_7529"
+      }
+    ],
+    "first": "2004-09-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -8091,6 +8359,13 @@
     "first": "2002-02-01",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "uei:TQJLCS4XA5J8": {
+    "d": "2026-10-23",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
   },
   "uei:TZMJLBMBBPR4": {
     "d": "2026-10-22",
