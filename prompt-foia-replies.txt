@@ -38,6 +38,7 @@ OUTPUT: one JSON object, nothing else:
   {"queue": "reply" | "appeal", "ref": <inbox id for replies, request id for appeals>,
    "kind": "reply" | "appeal" | "resend", "skip": false,
    "subject": "<email subject; for replies keep the agency's subject with RE:>",
+   "to": "<for kind appeal only: the email address the appeal must go to when it is not the sender of the agency's mail (e.g. DOE appeals go to OHA.filings@hq.doe.gov); otherwise empty>",
    "body": "<the email text, plain, no signature>",
    "note": "<what Mark should check before sending, or empty>",
    "deadline": "<YYYY-MM-DD last day to file, for appeals when known, else empty>"},

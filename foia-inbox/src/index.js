@@ -9,7 +9,7 @@
 //    tracker's "Replies & appeals" tab and the dc-record drafting pass pick them up.
 
 import PostalMime from 'postal-mime';
-import { readAll } from './attachments.js';
+import { readAll, toBase64 } from './attachments.js';
 import { matchMessage, extractTracking, newsworthy } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
@@ -136,8 +136,8 @@ async function record(raw, env) {
   const inboxId = ins.meta && ins.meta.last_row_id;
   if (inboxId && atts.length) {
     await db.batch(atts.map(function (a) {
-      return db.prepare('INSERT INTO inbox_attachments (inbox_id, filename, mime, size, status, note, text) VALUES (?, ?, ?, ?, ?, ?, ?)')
-        .bind(inboxId, a.filename, a.mime, a.size, a.status, a.note || null, a.text || null);
+      return db.prepare('INSERT INTO inbox_attachments (inbox_id, filename, mime, size, status, note, text, data) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+        .bind(inboxId, a.filename, a.mime, a.size, a.status, a.note || null, a.text || null, a.bytes ? toBase64(a.bytes) : null);
     }));
   }
 

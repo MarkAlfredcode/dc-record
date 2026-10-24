@@ -8,6 +8,8 @@ import { extractText, getDocumentProxy } from 'unpdf';
 
 const MAX_TEXT = 60000;       // characters kept per attachment
 const MAX_BYTES = 15 * 1024 * 1024;
+const KEEP_BYTES = 1000 * 1000;           // originals up to this size are kept (base64 in D1) so an emailed appeal can re-attach them
+const KEEP_EXT = ['pdf', 'docx', 'txt', 'htm', 'html', 'csv'];
 const MAX_ZIP_MEMBERS = 40;
 const MAX_MEMBER_BYTES = 25 * 1024 * 1024;   // uncompressed, per ZIP member (zip-bomb guard)
 const MAX_TOTAL_BYTES = 60 * 1024 * 1024;    // uncompressed, per archive
@@ -42,6 +44,7 @@ export async function readAttachment(filename, mime, content, depth) {
   const name = filename || 'unnamed';
   const bytes = content instanceof Uint8Array ? content : new Uint8Array(content || []);
   const base = { filename: name, mime: mime || null, size: bytes.length, text: '' };
+  if (bytes.length <= KEEP_BYTES && KEEP_EXT.indexOf(ext(name)) >= 0) base.bytes = bytes;
   if (!bytes.length) return [Object.assign(base, { status: 'skipped', note: 'empty' })];
   if (bytes.length > MAX_BYTES) return [Object.assign(base, { status: 'skipped', note: 'over 15 MB' })];
   const e = ext(name);
@@ -94,4 +97,11 @@ export async function readAll(attachments) {
     for (const r of rs) out.push(r);
   }
   return out;
+}
+
+// Base64 for D1 (btoa on chunks; spreading a large array into fromCharCode overflows the stack).
+export function toBase64(bytes) {
+  let out = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) out += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  return btoa(out);
 }

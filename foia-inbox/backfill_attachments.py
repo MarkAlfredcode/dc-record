@@ -8,6 +8,7 @@ denial check so newly readable determinations show up in the drafting queue.
 
   YAHOO_APP_PASSWORD=...  python3 backfill_attachments.py --days 14
   python3 backfill_attachments.py --eml DIR            # same thing from saved .eml files (no IMAP)
+  python3 backfill_attachments.py --days 150 --bytes   # also keep the original files (<= 1 MB) for mail already read, so appeals can re-attach them
 
 Yahoo needs an app password (Account Security > Generate app password); the normal password won't work.
 D1 writes use wrangler's OAuth token (run `npx wrangler whoami` first if it has expired).
@@ -19,6 +20,11 @@ ACCOUNT = "201dc660171a81b28b70ae1d0f95f69e"
 DB = "9853f320-7a56-495c-ab09-5548c0efa955"
 DENIED = re.compile(r"neither confirm nor deny|expedited (processing|treatment)[^.]{0,80}(denied|not granted)|(deny|denying|denied|denial of) (your )?(request for )?expedit|your request (is|has been) (hereby )?(denied|closed)|adverse determination|no (responsive )?records (were|was) (found|located)", re.I)
 MAXT = 60000
+KEEP_BYTES = 1000 * 1000
+KEEP_EXT = ("pdf", "docx", "txt", "htm", "html", "csv")
+
+
+BYTES_ONLY = False
 
 
 def d1(sql, params=None):
@@ -77,6 +83,31 @@ def read_bytes(name, data, depth=0):
         return [(name, "error", str(e)[:200], "")]
 
 
+def keep(name, data, depth=0):
+    """-> [(display name, bytes)] for the originals worth keeping (same names read_bytes uses, ZIP members as 'zip > member')."""
+    ext = name.lower().rsplit(".", 1)[-1] if "." in name else ""
+    if ext == "zip" and depth == 0:
+        try:
+            z = zipfile.ZipFile(io.BytesIO(data))
+            return [x for n in z.namelist() if not n.endswith("/") and not n.startswith("__MACOSX")
+                    for x in keep(name + " > " + n.split("/")[-1], z.read(n), 1)]
+        except Exception:  # noqa: BLE001
+            return []
+    return [(name, data)] if ext in KEEP_EXT and 0 < len(data) <= KEEP_BYTES else []
+
+
+def store_bytes(inbox_id, msg):
+    import base64
+    n = 0
+    for part in msg.walk():
+        fn = part.get_filename()
+        if fn and not part.is_multipart():
+            for name, data in keep(fn, part.get_payload(decode=True) or b""):
+                d1("UPDATE inbox_attachments SET data = ? WHERE inbox_id = ? AND filename = ? AND data IS NULL", [base64.b64encode(data).decode(), inbox_id, name])
+                n += 1
+    return n
+
+
 def handle(msg):
     mid = (msg["Message-ID"] or "").strip()
     if not mid:
@@ -86,6 +117,8 @@ def handle(msg):
         return
     inbox_id, old_text = rows[0]
     if d1("SELECT 1 FROM inbox_attachments WHERE inbox_id = ? LIMIT 1", [inbox_id]):
+        if BYTES_ONLY and store_bytes(inbox_id, msg):
+            print(f"inbox {inbox_id}: kept original file(s) from {msg['Subject']!r}")
         return
     got = []
     for part in msg.walk():
@@ -96,6 +129,7 @@ def handle(msg):
         return
     for name, st, note, txt in got:
         d1("INSERT INTO inbox_attachments (inbox_id, filename, status, note, text) VALUES (?, ?, ?, ?, ?)", [inbox_id, name, st, note, txt])
+    store_bytes(inbox_id, msg)
     att = "\n\n".join(t for _, s, _, t in got if s == "read" and t)
     if att:
         d1("UPDATE inbox SET text = ? WHERE id = ?", [((old_text or "") + "\n\n[ATTACHMENT TEXT]\n" + att)[:MAXT], inbox_id])
@@ -109,7 +143,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=14)
     ap.add_argument("--eml")
+    ap.add_argument("--bytes", action="store_true", help="also store the original files for messages whose text was already read")
     a = ap.parse_args()
+    global BYTES_ONLY
+    BYTES_ONLY = a.bytes
     if a.eml:
         for f in sorted(os.listdir(a.eml)):
             if f.endswith(".eml"):
