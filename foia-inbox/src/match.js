@@ -128,3 +128,15 @@ export function newsworthy(text, ownText) {
   }
   return null;
 }
+
+// What a flagged reply does to the request's status. Denying *expedited processing* leaves the request open;
+// only a refusal of the request itself moves it. -> 'Denied' | 'No records' | 'Closed' | null
+export function outcomeOf(reason) {
+  const r = String(reason || '').replace(/^Denial:\s*/i, '');
+  if (!r || /expedit/i.test(r)) return null;
+  if (/no (?:responsive )?records|did not locate/i.test(r)) return 'No records';
+  if (/(?:is|has been) (?:hereby )?closed/i.test(r) && !/den(?:y|ied|ial)/i.test(r)) return 'Closed';
+  if (/administratively closed/i.test(r)) return null;
+  if (/neither confirm nor deny|withh|den(?:y|ying|ied|ial)|adverse|unable to grant|(?:is|has been) (?:hereby )?(?:denied|closed)/i.test(r)) return 'Denied';
+  return null;
+}

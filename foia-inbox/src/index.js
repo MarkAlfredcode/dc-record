@@ -10,7 +10,7 @@
 
 import PostalMime from 'postal-mime';
 import { readAll, toBase64 } from './attachments.js';
-import { matchMessage, extractTracking, newsworthy } from './match.js';
+import { matchMessage, extractTracking, newsworthy, outcomeOf } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
 const SELF = /@markalfred\.news$/i;
@@ -157,6 +157,9 @@ async function record(raw, env) {
 
   if (requestId) {
     // First mail carrying the agency's own number: remember it so follow-ups match by tracking number.
+    // A refusal of the request itself (Glomar, withheld in full, no records) moves the status; an expedite denial doesn't.
+    const outcome = den ? outcomeOf(den[0]) : null;
+    if (outcome) await db.prepare("UPDATE requests SET status = ?, status_detail = ? WHERE id = ? AND status IN ('Awaiting reply', 'Acknowledged', 'In progress', 'Extended', 'Needs clarification')").bind(outcome, snippet.slice(0, 300), requestId).run();
     const trk = extractTracking(subject + ' ' + filenames.join(' '));
     if (trk) await db.prepare("UPDATE requests SET tracking = ? WHERE id = ? AND (tracking IS NULL OR tracking = '')").bind(trk, requestId).run();
     const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
