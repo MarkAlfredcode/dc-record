@@ -1,0 +1,230 @@
+{
+ "date": "Saturday, October 24, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Quiet Saturday: no disclosures or foreign-agent contacts, but a Binance lobbying contract ends",
+  "dek": "No new OGE, FARA or House and Senate financial disclosure filings came in, so the day's news sits in the lobbying database.",
+  "paragraphs": [
+   "No filings turned up in the OGE, FARA or House and Senate disclosure searches for this window, and none of the deterministic checks (presidential trades, pardon lobbying, ethics agreements, stopped traders) found anything. The Senate eFD check failed on a parse error, so the Senate side could not be verified.",
+   "The most notable lobbying item is the termination of <strong>Perspective Strategies</strong>'s work for <strong>Nest Services Limited</strong>, the <strong>Binance</strong> entity, which reported $30,000 in income on digital-asset policy. The filing lists two covered positions: <strong>Ryan Taylor</strong>, a former Senate HELP Committee deputy communications director, and <strong>Stephen Aaron</strong>, a former Senate Environment and Public Works Committee research analyst. The registration ended September 30, 2026. <a href=\"https://lda.gov/filings/public/filing/dd723b6e-0e69-4a3e-8743-2091e547c3b5/print/\">Termination filing</a>.",
+   "Another notable item: <strong>Liberty Government Affairs</strong> reported $40,000 in third-quarter income from <strong>WuXi AppTec Sales LLC</strong>. A separate filing shows <strong>TSG Advocates DC, LLC</strong> terminated its registration for the same client, filed through Liberty, on October 23."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Perspective Strategies termination for Nest Services (Binance)",
+     "url": "https://lda.gov/filings/public/filing/dd723b6e-0e69-4a3e-8743-2091e547c3b5/print/"
+    },
+    {
+     "text": "Liberty Government Affairs for WuXi AppTec",
+     "url": "https://lda.gov/filings/public/filing/2ebd5199-c270-417a-925e-5701f6cd9c8d/print/"
+    },
+    {
+     "text": "TSG Advocates DC termination",
+     "url": "https://lda.gov/filings/public/filing/9d7d63bd-e18b-452e-bbb9-f3e14ea8dc39/print/"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Contacts With the President, VP & Cabinet",
+   "headline": "One LDA filing lists the President and Vice President as lobbied; no FARA contacts",
+   "paragraphs": [
+    "No FARA filings were in the top-officials block. One LDA filing names the White House as a lobbying target."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Military Officers Association of America</strong> (self-filed, third-quarter report): entities lobbied include the <strong>Office of the Vice President</strong>, the President and the Vice President. Issues include the Love Lives On Act of 2025, the National Defense Authorization Act for Fiscal Year 2026, a TRICARE Select pregnancy pilot program, the Health Care Fairness for Military Families Act of 2025 and the HOMEFRONT Act of 2025. <a href=\"https://lda.gov/filings/public/filing/bcfc28e6-6d2a-4a16-bab4-392e2045928e/print/\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new OGE ethics filings to report",
+   "paragraphs": [
+    "No new ethics filings were received during the reporting window. OGE filings include public financial disclosures, ethics agreements, and certification of divestiture documents."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "10 new registrations, 6 terminations and a mostly routine batch of quarterly reports",
+   "paragraphs": [
+    "126 filings were posted since October 23: 83 third-quarter reports, 10 registrations, 6 third-quarter no-activity reports, 5 fourth-quarter amendments, 5 second-quarter reports, 4 third-quarter terminations, 3 third-quarter amendments, 3 first-quarter reports, 2 fourth-quarter reports, and 8 other amendments, terminations and reports. The table lists every new registration and termination plus the activity reports with notable signals. Of 110 activity reports, 52 were flagged for a signal; the remaining 58 were counted only, and many of the flagged ones are listed in a note below."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "What's Being Lobbied"
+     ],
+     "rows": [
+      [
+       "<strong>Bekaert Corporation</strong> (new; foreign entity: NV Bekaert SA)",
+       "<strong>Bekaert Corporation</strong> <a href=\"https://lda.gov/filings/public/filing/01bea2d0-b7c9-45aa-9b4f-44ed266fecaf/print/\">Filing</a>",
+       "Agriculture, Automotive, Manufacturing, Tariffs, Telecommunications, Utilities and others",
+       "Manufacturing, trade and tariffs, customs enforcement, domestic-content requirements, supply-chain resilience"
+      ],
+      [
+       "<strong>Tremont Strategies Group LLC</strong> (new)",
+       "<strong>Zirkelbach Strategies</strong> on behalf of <strong>Skyborne Technologies USA, LLC</strong> <a href=\"https://lda.gov/filings/public/filing/c1c09353-abe2-4096-8ef2-fbb10ad3e153/print/\">Filing</a>",
+       "Defense",
+       "Defense technology education, NDAA, defense appropriations"
+      ],
+      [
+       "<strong>FGS Global (US) LLC</strong> (new; covered position: Ethan Holmes, former USDA and U.S. Trade Representative official)",
+       "<strong>Clean Fuels Alliance America</strong> <a href=\"https://lda.gov/filings/public/filing/7bd31cb8-e69b-45b0-9164-9e978f10b94a/print/\">Filing</a>",
+       "Trade",
+       "Trade in biofuels"
+      ],
+      [
+       "<strong>FGS Global (US) LLC</strong> (new; four covered positions incl. Asaf Nagler, formerly Department of Energy and White House counsel's office)",
+       "<strong>Design-Build Institute of America</strong> <a href=\"https://lda.gov/filings/public/filing/214bb0d0-986d-4d1d-a119-bc7505fe29a4/print/\">Filing</a>",
+       "Environment/Superfund",
+       "Progressive design-build authorities"
+      ],
+      [
+       "<strong>The Madison Group</strong> (new)",
+       "<strong>Iron Shield Systems Inc</strong> <a href=\"https://lda.gov/filings/public/filing/3d6e0038-9653-4a9d-9103-1919cbbc3d32/print/\">Filing</a>",
+       "Defense",
+       "Drone defense capabilities"
+      ],
+      [
+       "<strong>Connector Inc.</strong> (new; covered positions: Morgan Muchnick, Robert Burgess)",
+       "<strong>Womack &amp; Sons Construction Group, LLC</strong> <a href=\"https://lda.gov/filings/public/filing/d69900a2-bba4-428b-97ae-07b2aa08a589/print/\">Filing</a>",
+       "Real Estate/Land Use",
+       "Construction contracts"
+      ],
+      [
+       "<strong>Connector Inc.</strong> (new; same covered positions)",
+       "<strong>Americans for Pharma Reform</strong> <a href=\"https://lda.gov/filings/public/filing/c8c0f8f9-0210-4d0d-a94b-c4e75801cd64/print/\">Filing</a>",
+       "Pharmacy, Trade",
+       "Most-Favored-Nation drug pricing"
+      ],
+      [
+       "<strong>Carpi &amp; Clay, Inc</strong> (new)",
+       "<strong>Mendocino County Inland Water and Power Commission</strong> <a href=\"https://lda.gov/filings/public/filing/15ab5fb0-cf1e-485f-ab30-d89dfb5966a6/print/\">Filing</a>",
+       "Budget/Appropriations, Natural Resources",
+       "Budget and natural resources issues"
+      ],
+      [
+       "<strong>Grassroots Political Consulting LLC</strong> (new)",
+       "<strong>Modulate.ai</strong> <a href=\"https://lda.gov/filings/public/filing/9c29a5a3-d9e7-41d7-92a6-c4b7278796f8/print/\">Filing</a>",
+       "Computer Industry, Homeland Security, Telecommunications",
+       "Fraud and AI-agent/deepfake detection regulation and funding"
+      ],
+      [
+       "<strong>Horizons Global Solutions LLC</strong> (new; foreign entity: Scandinavian Manufacturing SCAMA AB; covered positions: Julie Lasseter, Stephen Boyd, a former Assistant Attorney General)",
+       "<strong>Atech Inc</strong> <a href=\"https://lda.gov/filings/public/filing/5927849b-31f6-492c-ae81-d1e6a4dcd6f3/print/\">Filing</a>",
+       "Defense",
+       "Defense procurement and sustainment"
+      ],
+      [
+       "<strong>Todd Strategy Group</strong> (termination, effective June 30, 2026; $80,000 income)",
+       "<strong>Guardant Health, Inc.</strong> <a href=\"https://lda.gov/filings/public/filing/e4c631d7-702e-47ea-a0cc-571c7d12fcdd/print/\">Filing</a>",
+       "Health",
+       "Cancer screening access, precision diagnostics"
+      ],
+      [
+       "<strong>TSG Advocates DC, LLC</strong> (termination Oct. 23, no activity)",
+       "<strong>Liberty Government Affairs</strong> on behalf of <strong>WuXi AppTec Sales LLC</strong> <a href=\"https://lda.gov/filings/public/filing/9d7d63bd-e18b-452e-bbb9-f3e14ea8dc39/print/\">Filing</a>",
+       "Not listed",
+       "Not listed"
+      ],
+      [
+       "<strong>Babbage Cofounder</strong> (termination Sept. 30)",
+       "<strong>Accelerating Appalachia</strong> <a href=\"https://lda.gov/filings/public/filing/e830dd0f-2a64-4a2d-8b8e-f0a12365f3fa/print/\">Filing</a>",
+       "Agriculture",
+       "Federal grant support"
+      ],
+      [
+       "<strong>Perspective Strategies</strong> (termination Sept. 30; $30,000 income)",
+       "<strong>Nest Services Limited</strong> (Binance) <a href=\"https://lda.gov/filings/public/filing/dd723b6e-0e69-4a3e-8743-2091e547c3b5/print/\">Filing</a>",
+       "Financial Institutions/Securities",
+       "Digital asset policy"
+      ],
+      [
+       "<strong>Alpha Strategies, LLC</strong> (termination Aug. 15)",
+       "<strong>LWRC International, LLC</strong> <a href=\"https://lda.gov/filings/public/filing/24ae93ab-c695-474e-b83f-eecd99069ab1/print/\">Filing</a>",
+       "Trade",
+       "Foreign military sales"
+      ],
+      [
+       "<strong>Navitus Health Solutions</strong> (self-filed termination Sept. 30; $30,000 expenses)",
+       "<strong>Navitus Health Solutions</strong> <a href=\"https://lda.gov/filings/public/filing/b23a654e-5aec-4ceb-be4a-d03636e0c8d2/print/\">Filing</a>",
+       "Health, Insurance, Labor, Pharmacy",
+       "ERISA, pharmacy benefit manager reform, Patients Before Monopolies Act"
+      ],
+      [
+       "<strong>Liberty Government Affairs</strong> (Q3; $40,000 income; covered position: Brian Darling, former Sen. Rand Paul aide)",
+       "<strong>WuXi AppTec Sales LLC</strong> <a href=\"https://lda.gov/filings/public/filing/2ebd5199-c270-417a-925e-5701f6cd9c8d/print/\">Filing</a>",
+       "Health",
+       "Biotechnology issues"
+      ],
+      [
+       "<strong>Liberty Government Affairs</strong> (Q3; $27,500 income)",
+       "<strong>DJI Technology, Inc.</strong> <a href=\"https://lda.gov/filings/public/filing/9a7fb30b-fab9-43a5-8919-fbe71329c997/print/\">Filing</a>",
+       "Aviation, Communications",
+       "Federal Communications Commission authority, FY2027 NDAA"
+      ],
+      [
+       "<strong>Liberty Government Affairs</strong> (Q3; $7,500 income)",
+       "<strong>Navigators Global LLC</strong> on behalf of <strong>The GEO Group, Inc.</strong> <a href=\"https://lda.gov/filings/public/filing/4d7a7a68-4d83-4d3a-8ce4-aa182bbe1c9a/print/\">Filing</a>",
+       "Homeland Security",
+       "Alternatives to detention within ICE, appropriations"
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (Q2 and Q3; $30,000 income each; covered position: Cheri Bustos, former House member)",
+       "<strong>World Dog Alliance</strong> <a href=\"https://lda.gov/filings/public/filing/4a99df86-7710-4217-81f8-70fcd2bb1031/print/\">Q3 filing</a>, <a href=\"https://lda.gov/filings/public/filing/7aaf5a3a-92df-4ee6-aef0-6b16ffee41f3/print/\">Q2 filing</a>",
+       "Animals, Food, Foreign Relations",
+       "Resolution to ban dog meat consumption in Asian countries"
+      ],
+      [
+       "<strong>Winston Taylor LLP</strong> (formerly Winston &amp; Strawn LLP) (Q3; $210,000 income)",
+       "<strong>Government of the U.S. Virgin Islands</strong> <a href=\"https://lda.gov/filings/public/filing/bd52c253-cbdd-416d-a784-9061ceccd84e/print/\">Filing</a>",
+       "Budget, Health, Immigration, Taxation",
+       "H-2B visa extensions, visa waiver program, tax incentives, federal assistance"
+      ],
+      [
+       "<strong>Winston Taylor LLP</strong> (Q3; $270,000 income)",
+       "<strong>Liberty Maritime Corporation</strong> <a href=\"https://lda.gov/filings/public/filing/8ed0e3c6-f79c-4157-bd94-34fa854ef664/print/\">Filing</a>",
+       "Marine/Maritime",
+       "Cargo preference, sealift, Section 232 and 301 tariffs, Maritime Action Plan"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Largest self-filed spenders this batch: the American Property Casualty Insurance Association reported $1,410,000 in expenses on an amendment (L18) and the Military Officers Association of America $1,070,863 (L19). Other flagged reports include the National Education Association at $670,000 (L20) and the Business Software Alliance at $430,000 (L21). Several filings are repeat reports from the same firm for the same client across quarters, including Furrow Strategies for the American Trade Association for Cannabis and Hemp and The Ferguson Group for the Cape Fear Public Utility Authority. The rest of the 52 flagged and 58 unflagged activity reports are omitted as routine."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Personal Financial Disclosures & Stock Trades",
+   "headline": "No new House or Senate disclosures",
+   "paragraphs": [
+    "The input held no House or Senate disclosure filings for this window. The Senate eFD fetch returned a parse error, so Senate filings could not be checked."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA and LDA postings from October 23, 2026; House and Senate disclosures filed October 21, 2026 onward, excluding those reported earlier. Saturday PM edition.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "Senate eFD fetch failed (Expecting value: line 1 column 1 (char 0)); the Senate annual-report deadline check and Senate extensions check failed with the same error. OGE reported no new filings in the window."
+ },
+ "beat": []
+}
