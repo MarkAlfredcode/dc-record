@@ -399,6 +399,14 @@
       "s": "screened",
       "sol": "W31P4Q26RA002"
     },
+    "00db8d87e80c4bb4a36b3876d9ffe772": {
+      "c": 766,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Continuation Sheet - Servers.pdf",
+      "s": "screened",
+      "sol": "N0017326Q5534"
+    },
     "00e70adb3dfb48b1a0c26d6da78e564e": {
       "c": 1079,
       "d": "2026-10-23",
@@ -1200,6 +1208,14 @@
       "s": "screened",
       "sol": "140P2026R0101"
     },
+    "028fe3d8b6674e79b0e967f11f961dfb": {
+      "c": 1257,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "36C10B27Q0049_1.docx",
+      "s": "screened",
+      "sol": "36C10B27Q0049_1"
+    },
     "0293577ecedb4150ac01e15674cf6581": {
       "c": 9387,
       "d": "2026-10-10",
@@ -1264,6 +1280,14 @@
       "n": "00 70 00.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "029e156bad9048e4821ccb40245ea1b5": {
+      "c": 1257,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "36C10B27Q0049_1.docx",
+      "s": "screened",
+      "sol": "36C10B27Q0049"
     },
     "029f042379a94be083d46e716b2ea452": {
       "c": 0,
@@ -1913,6 +1937,14 @@
       "n": "Sensu duo square - factsheet - inch.pdf",
       "s": "screened",
       "sol": "15F067270002"
+    },
+    "03fed4d4173c463f8de51db11a3f37a4": {
+      "c": 2651,
+      "d": "2026-10-24",
+      "m": "xlsx",
+      "n": "Attch. 01A SOM SUBMITTAL REGISTER SBIWTP O&M 2026.xlsx",
+      "s": "screened",
+      "sol": "191BWC26R0009"
     },
     "040218f4680b423ca53adcd9783323c2": {
       "c": 3912,
@@ -3177,6 +3209,14 @@
       "s": "screened",
       "sol": "N0003926R0005"
     },
+    "0713bf05911c491cb35cfb024b257d3d": {
+      "c": 702,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "BREAD  1ST QTR FY27-starting 1 Nov 2026.pdf",
+      "s": "screened",
+      "sol": "15B50927Q00000001 "
+    },
     "07196779626043d49343ac4ea3171c08": {
       "c": 542,
       "d": "2026-10-13",
@@ -3641,12 +3681,12 @@
       "sol": "36C10B26Q0610"
     },
     "0838790356dc40d984af78a042fd26b4": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "SATPC0043031 Tab 10 Open Market Questions (Answered) updated.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "80NSSC26947036Q"
     },
     "083bdcf56ea8461aa6ed9564739a7ccd": {
@@ -4266,6 +4306,14 @@
       "n": "F. FL-55 Small Business Subcontracting Plan.pdf",
       "s": "screened",
       "sol": "387881-DSF"
+    },
+    "09cd063952714468a0bb9ed8d1b43166": {
+      "c": 2080,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Combined Synopsis.pdf",
+      "s": "screened",
+      "sol": "102026"
     },
     "09e680d8262c41b5b58c0a3479078820": {
       "c": 2990,
@@ -5123,6 +5171,23 @@
       "s": "screened",
       "sol": "36C24726R0134"
     },
+    "0bfbe0565d2e4d9fb1bbf5642352655b": {
+      "c": 1874,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "context": "STATEMENT OF WORK (SOW) Defensive Tactics Training Facility 1. Training Room/Gym \u2013 Background: ICE ERO maintains quarterly requirements for all officers to participate in defensive tactics training. This training is mandatory by agency policy and is essential to mission readiness. The San Antonio Training Unit (SNATU) must secure a safe and secure training facility to complete agency training requirements. 2. Requirements: Facility - Training facility must provide a private area free from the public view with controlled access. The training area must provide adequate space for 25+ officers. The training area must maintain safe and appropriate overhead clearance consistent with commercial martial arts facilities. Facility must be well ventilated, or climate controlled to meet federal",
+          "finding": "ICE seeking dedicated defensive tactics training facility for officers in San Antonio, Texas with capacity for 25+ personnel and quarterly mandatory training schedules.",
+          "news": 5,
+          "quote": "ICE ERO maintains quarterly requirements for all officers to participate in defensive tactics training. This training is mandatory by agency policy and is essential to mission readiness.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "2.4.1-A0002-STATEMENT OF WORK - SNA DT Facility.pdf",
+      "s": "screened",
+      "sol": "70CDCR26Q00000010"
+    },
     "0bfef694a79e428897af24818e27cb98": {
       "c": 0,
       "d": "2026-10-20",
@@ -5138,6 +5203,14 @@
       "n": "36C24226R0097.docx",
       "s": "screened",
       "sol": "36C24226R0097"
+    },
+    "0c0069f781344d76a47961cc3a345f71": {
+      "c": 229,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Appendix D Lots and Roads.pdf",
+      "s": "screened",
+      "sol": "36C24127Q0004"
     },
     "0c1c358f2dae4aa29e50b5b286dfb20e": {
       "c": 126367,
@@ -5247,12 +5320,12 @@
       "sol": "140D0427Q0915"
     },
     "0c40dd10770142e58eba697c59aadd50": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attach_2_MCBH Pest Control and Grounds Maintenance Svs_Questionnaire.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "N6247827R2440"
     },
     "0c4a72ad28a74b7c9028b51e9425ca49": {
@@ -5737,6 +5810,14 @@
       "n": "S02. RFQ 36C26226Q1039_1 ADEQ Compliance Underground Fuel Storage UPDATED.pdf",
       "s": "screened",
       "sol": "36C26226Q1039_1"
+    },
+    "0d65cc3d92484431964fd2d167486fbe": {
+      "c": 0,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment F - Addendum to FAR Clause 52-212-4.pdf",
+      "s": "boilerplate_only",
+      "sol": "47QMCA27Q0002"
     },
     "0d6731de46fe4d06bfa770d1212e2ad9": {
       "c": 190,
@@ -7539,6 +7620,14 @@
       "s": "boilerplate_only",
       "sol": "FA2377-26-R-B011"
     },
+    "1231a7954b834be8938732d0063aea2e": {
+      "c": 2200,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "27Q0004_Encl4_CPARS.pdf",
+      "s": "screened",
+      "sol": "HE125427Q0004"
+    },
     "1234c2d42083417e9f354ba48c859bd2": {
       "c": 3800,
       "d": "2026-10-10",
@@ -7878,6 +7967,14 @@
       "s": "screened",
       "sol": "IFB-33-6032"
     },
+    "12e30c9e349d4717a265927c68360868": {
+      "c": 238225,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "UPDATED- Final Construction Drawings-2_01.pdf",
+      "s": "screened",
+      "sol": "36C24226B0065"
+    },
     "12e858afed44459eb347b911755f3193": {
       "c": 116751,
       "d": "2026-10-22",
@@ -8117,6 +8214,14 @@
       "n": "Rev 1_Final_Request_for_Information_(RFI)__DeCA_eCommerce Services - 10.15.26.pdf",
       "s": "screened",
       "sol": "eCommerce_Support_Services"
+    },
+    "13bbc872fc79434fa44b39c575841960": {
+      "c": 524,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "NSN 1560-01-462-2040 Item Description.pdf",
+      "s": "screened",
+      "sol": "FD20202700027"
     },
     "13c914ee14be49fc8af25a289bea6a4a": {
       "c": 25095,
@@ -9830,21 +9935,21 @@
       "sol": "36C24827Q0070"
     },
     "174c9d27b48b449fbfbd88ba3b7e9b53": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "A2. 1-161_Lodging PWS_DEC_FY27.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FY27-0012503534 "
     },
     "174dc2dd4c984ef8b5d3fe91dcc5024f": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 10 _ APS Pricing Workbook_20261008.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "W900KK-26-R-A023"
     },
     "17500ba5550a49d1bb885e07c5b1e7b6": {
@@ -10042,6 +10147,14 @@
       "n": "Appendix A - CCW Rice.xlsx",
       "s": "screened",
       "sol": "47PF5327Q0001"
+    },
+    "17f78da85c9b475bb4a360e12f310e88": {
+      "c": 892,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "J12_PWS_Attachment_11_DA_FORM_3479-6_JUN2003.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "17f89462ec9f4e72a9893c88af5ecd58": {
       "c": 0,
@@ -10568,7 +10681,7 @@
       "sol": "W519TC26RA054"
     },
     "19710b0396ee4d13857030c7916e9802": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -11165,6 +11278,14 @@
       "n": "Performance_Work_Statement.pdf",
       "s": "screened",
       "sol": "FD20302500506-3"
+    },
+    "1ac20f408fcb4ab9ab6f7f923a00545b": {
+      "c": 641,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "NSN 1560-01-497-5959 Item Description.pdf",
+      "s": "screened",
+      "sol": "FD20202700027"
     },
     "1ac3080d45a8461e8f8ff2101ff60891": {
       "c": 939,
@@ -12022,6 +12143,14 @@
       "s": "wage_determination",
       "sol": "FA480327Q0003"
     },
+    "1cedab89f1d04bfe83e9aa9288413f61": {
+      "c": 140134,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment B - 1845266-X-132_DWGS.pdf",
+      "s": "screened",
+      "sol": "N4008526R0272"
+    },
     "1cf0806628994f97ae82d340909233c5": {
       "c": 3162,
       "d": "2026-10-20",
@@ -12429,6 +12558,14 @@
       "n": "PR487805 RFP.pdf",
       "s": "screened",
       "sol": "PR487805"
+    },
+    "1ddfc97c32a24f07b756cc3fc3145664": {
+      "c": 1876,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "4_ES7034.docx",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
     },
     "1de12892eb384dfaa373def54ba3e9d2": {
       "c": 2193,
@@ -13883,12 +14020,12 @@
       "sol": "70CMSD27Q00000001"
     },
     "216bed61ffeb44cebe9c9fd93c9e5e98": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 3- Clauses and Provisions.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA461027Q0152"
     },
     "216f132e7e8d407cba3a2924869608a9": {
@@ -14331,6 +14468,22 @@
       "n": "_3_Attachment_00_00_02A_-_Geology_Drawings_04032026.pdf",
       "s": "screened",
       "sol": "140R4026B0002"
+    },
+    "2278b13fa1d14dc9aeebf051806f03ee": {
+      "c": 1260,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "finding": "VA seeking 20,250 square feet for new Community Based Outreach Clinic construction in Twin Falls, Idaho with real property lease requirements.",
+          "news": 4,
+          "quote": "VHA seeking 20,250 RSF for a Community Based Outreach Clinic in Twin Falls, ID",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Exhibit 10. RLP - New Construction (May 2026).pdf",
+      "s": "screened",
+      "sol": "36C24W26R0017"
     },
     "22916806a8ed451097686de53b28c1c8": {
       "c": 36793,
@@ -15935,12 +16088,12 @@
       "sol": "70ZH1527QCGA00008"
     },
     "26c402aab8b6461199e4eb790116a264": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "C04b Performance Work Statement 1284LM27Q0002.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "1284LM27Q0002"
     },
     "26c4eb8ec44f437c9a793d645eca501c": {
@@ -16208,6 +16361,14 @@
       "n": "TOS_RFI Survey DTS 2.0_Finalized.xlsx",
       "s": "screened",
       "sol": "70FA3126I00000008"
+    },
+    "276925b7e00e493180cf16c8618c8ac6": {
+      "c": 122709,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "RTA_30_As-Built_Contract_2_Part-1.pdf",
+      "s": "screened",
+      "sol": "W912DS26RA032"
     },
     "276b86ce24684936b6340f231b26e584": {
       "c": 16222,
@@ -19721,12 +19882,12 @@
       "sol": "W519TC26RA054"
     },
     "308741a5ab41450995940a6c3742f568": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Combo S-S.EDG Rental.FINAL.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N4215827QS001"
     },
     "308cea855ad04e84b35c000507b8dbff": {
@@ -20168,6 +20329,14 @@
       "n": "QASP 115th PreMob Lodging and Meals.docx",
       "s": "screened",
       "sol": "W912L727Q0507"
+    },
+    "318b2968b0464bc2a06b402f612728eb": {
+      "c": 188,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Appendix C Grass and Mowing.pdf",
+      "s": "screened",
+      "sol": "36C24127Q0004"
     },
     "3191943f860b4931981e91d3e0419e20": {
       "c": 56382,
@@ -20660,6 +20829,14 @@
       "n": "SAM Registration Guidance- final version- EN.pptx",
       "s": "screened",
       "sol": "19VM3027Q0004"
+    },
+    "32846e96aadb4537bb25debfa7092d1d": {
+      "c": 2697,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "DAFI36-2903 BOOTS.pdf",
+      "s": "screened",
+      "sol": " FA489727Q0002"
     },
     "3288a48e29ec4a15944b9f71416b4feb": {
       "c": 0,
@@ -22609,13 +22786,21 @@
       "s": "screened",
       "sol": "36C26224Q1533"
     },
+    "37d4be45782f4bea8e97c21c39c20aa1": {
+      "c": 1797,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Engineering Data Requirements.pdf",
+      "s": "screened",
+      "sol": "FD20202700027"
+    },
     "37d8d6fcd7a844db8a139a3bd02e7f48": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 2 _ 52.212-1 Instructions to Offerors\u2014Commercial Products and Commercial Services_20261008.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "W900KK-26-R-A023"
     },
     "37d9d5063f7843ee84f4e179d4fac358": {
@@ -23908,6 +24093,22 @@
       "s": "screened",
       "sol": "36C25527Q0015"
     },
+    "3a8bbe454d9e49ed8596be45e7864b39": {
+      "c": 2107,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "finding": "DoD bridge extension contract for ManTech professional support services under Office of Undersecretary of War for Research and Engineering, one-month extension through December 2026.",
+          "news": 3,
+          "quote": "intends to extend the bridge contract for one month to PM2 Strategies, LLC...The anticipated period of performance for this extension is from November 6, 2026 through December 5, 2026.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "SAM Notice of Intent -Final.pdf",
+      "s": "screened",
+      "sol": "LJ102020260001"
+    },
     "3a8cfd9a0d564e2097812df268d3231a": {
       "c": 2182,
       "d": "2026-10-23",
@@ -24636,7 +24837,7 @@
       "sol": "1240BF27Q0002"
     },
     "3be124eb4d73414ba4f8f86cbaa6ea53": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -25425,6 +25626,14 @@
       "n": "B08 - Solicitation - W519TC26RA056 - FINAL.pdf",
       "s": "screened",
       "sol": "W519TC-26-R-A056"
+    },
+    "3d792b143f194f8a9cd6bd72d4e76049": {
+      "c": 606,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "NSN 1560-01-497-6599 Item Description.pdf",
+      "s": "screened",
+      "sol": "FD20202700027"
     },
     "3d7e7a9e102b4af4bf86efdf3395e7fd": {
       "c": 651,
@@ -27330,6 +27539,14 @@
       "n": "Attachment 4 - Statement of Work.pdf",
       "s": "screened",
       "sol": "12760426Q0199"
+    },
+    "41c28e6d1a094ebab5c8ca0228520128": {
+      "c": 161681,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "RTA_30_As-built_Contract_5_Part 2.pdf",
+      "s": "screened",
+      "sol": "W912DS26RA032"
     },
     "41c5efb16d4044fc8fcbc9f6c06d252c": {
       "c": 22683,
@@ -29818,12 +30035,12 @@
       "sol": "ASGJOCS0007"
     },
     "47f9720ea7254562965a2448aafce90f": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "W911KF-22-C002 AoI0014 AOI-Equipment Rental and Facility Support.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "W911KF-25-S-C002-AoI014"
     },
     "480a04f9419a47b4bab44fb73dcff981": {
@@ -29908,6 +30125,14 @@
       "n": "Amendment 0006 Attachment A.pdf",
       "s": "screened",
       "sol": "SPE603-26-R-0527"
+    },
+    "483458df76ac4813a5cab8ef7154b4d0": {
+      "c": 1534,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "J04_PWS_Attachment_3_Equipment_Listing_23JUL2026.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "483762f9160b4e61ac914d5b3c9c7c93": {
       "c": 2714,
@@ -30470,6 +30695,14 @@
       "s": "screened",
       "sol": "140P2026R0101"
     },
+    "4a206a5c67574c0e8ac0ce0c3e25caa5": {
+      "c": 2247,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "Sign-in sheet.pdf",
+      "s": "screened",
+      "sol": "333302-26RF-0010008"
+    },
     "4a29093f964b4fd0b5d584eeb1a45d33": {
       "c": 6328,
       "d": "2026-10-11",
@@ -30809,6 +31042,14 @@
       "n": "SF30 SPE60426R0401 A0001.pdf",
       "s": "screened",
       "sol": "SPE60426R0401"
+    },
+    "4a95391bbb6b4110bbe6ec1fa06a220f": {
+      "c": 1164,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "16_IHC.pdf",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
     },
     "4aa45e99988f4cd68b6bb0dcb0cd58d6": {
       "c": 56669,
@@ -31151,6 +31392,14 @@
       "n": "Average Monthly Demand 166 Critical and Single Source Components.pdf",
       "s": "screened",
       "sol": "W912CH-26-S-0001"
+    },
+    "4b4a8c135d26412684da96c4d86333ee": {
+      "c": 1293,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "693JJ3-27-BAA-0001_Attachment 1 - Proposal Summary Template.pdf",
+      "s": "screened",
+      "sol": "693JJ3-27-BAA-0001"
     },
     "4b4ac1455fb94d3ca5c5dcc547f73926": {
       "c": 138,
@@ -31704,6 +31953,14 @@
       "n": "Attachment_8_-_ASI_001_0006.pdf",
       "s": "screened",
       "sol": "140A1626Q0086"
+    },
+    "4c867767322d47c4be4562ddeb37c27e": {
+      "c": 2555,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Questions and Answers 1.pdf",
+      "s": "screened",
+      "sol": "W911KF-25-S-C002-AoI014"
     },
     "4c8b8df6f5644969b3127be6f8e46caa": {
       "c": 50681,
@@ -34949,12 +35206,12 @@
       "sol": "FA441827R0001"
     },
     "540882160ec54fd2b06a2f263a5faff7": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "S01 Sources Sought Expression of Interest Davenport CRRC.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C26326R0069_2"
     },
     "540be707eda048d5a3bb5d9eb75d989b": {
@@ -35529,6 +35786,14 @@
       "n": "Drawings.pptx",
       "s": "screened",
       "sol": "FA465427R0001"
+    },
+    "55a679bbcbef4ea9b1db18228d4ea2ff": {
+      "c": 1326,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "DRAFT_B2_08.7_Final_Inspection_Report.pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
     },
     "55ab3457b5a4413a93b6fefe79534b48": {
       "c": 49993,
@@ -36427,6 +36692,14 @@
       "s": "screened",
       "sol": "70Z08526QIBCT0036"
     },
+    "57fcb6b29a1f44329f117d35b53e1714": {
+      "c": 1100,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "Attachment F1 - FRAL Dining Facility Location Map.pdf",
+      "s": "screened",
+      "sol": "W5168W27RA014"
+    },
     "57ff26cf52c04202b376baa5153c0474": {
       "c": 2276,
       "d": "2026-10-23",
@@ -36837,6 +37110,14 @@
       "n": "Sol_140L1726R0001_Amd_0001.pdf",
       "s": "screened",
       "sol": "140L1726R0001"
+    },
+    "5927cd703ce84143a8a4000ae481f661": {
+      "c": 1845,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "DAFI36-2903 USAF AND NAME TAPES.pdf",
+      "s": "screened",
+      "sol": " FA489727Q0002"
     },
     "592b360c52874456b82d4551ae712a16": {
       "c": 6969,
@@ -37832,6 +38113,14 @@
       "n": "J-7 CDRL A008 - Ad-Hoc Reporting Information Product.pdf",
       "s": "boilerplate_only",
       "sol": "852571198_"
+    },
+    "5b1397dc130d47dd9bc5efcfc5d5c0c6": {
+      "c": 2581,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "L02_Specific_Relevant_Contract_Reference_Sheet.docx",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "5b1444e8d43f4147b3fe8d9249bd77f0": {
       "c": 0,
@@ -43604,6 +43893,14 @@
       "s": "screened",
       "sol": "12639527Q0009"
     },
+    "69f5b634559c4e81847775e6f356e733": {
+      "c": 2030,
+      "d": "2026-10-24",
+      "m": "xlsx",
+      "n": "CLIN Structure Lifeguards Rev2.xlsx",
+      "s": "screened",
+      "sol": "FA252127QB013"
+    },
     "69fa46ba1cc8469381057d2f137dc667": {
       "c": 6792,
       "d": "2026-10-13",
@@ -46015,12 +46312,12 @@
       "sol": "FA821326RB005-Solicitation"
     },
     "6f42ad9eb7cc40e6bd1510a2c8c9d176": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation - W91CRB26BA006 10.20.26.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "W91CRB-26-B-A006"
     },
     "6f43145308094487af24ea406148c0d4": {
@@ -46569,12 +46866,12 @@
       "sol": "0PR2126-1"
     },
     "70ad575d21cb429bb3ac2608ff1d40e1": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "15853 - Vandenberg Crane Replacement Combo.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8227-27-Q-1000"
     },
     "70b874d8ff0b49be89d073c79733b0de": {
@@ -48268,6 +48565,14 @@
       "s": "screened",
       "sol": "80JSC026R0021DRFP"
     },
+    "74c95208d4124ee8874d9519d3c64366": {
+      "c": 993,
+      "d": "2026-10-24",
+      "m": "xlsx",
+      "n": "Attachment_0004_GEN VI PLS Self Scoring Matrix.xlsx",
+      "s": "screened",
+      "sol": "W519TC-26-R-AHRS"
+    },
     "74d53714bb0e4e32b8932edaf6449137": {
       "c": 5148,
       "d": "2026-10-13",
@@ -48323,6 +48628,14 @@
       "n": "36C24427R0001_2.docx",
       "s": "screened",
       "sol": "36C24427R0001"
+    },
+    "74e59f93e0714d8bbf48764bf3f3588f": {
+      "c": 2318,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "DAFI36-2903 APEX JACKET.pdf",
+      "s": "screened",
+      "sol": " FA489727Q0002"
     },
     "74eec2dfe7b1437eaea1687b0002b55b": {
       "c": 3462,
@@ -48711,6 +49024,14 @@
       "s": "screened",
       "sol": "W912DS25RA002 "
     },
+    "75da934e27954c01a4322ed051f234a1": {
+      "c": 1793,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "27R2435 Notice No. 3 Pre-Proposal Conference.pdf",
+      "s": "screened",
+      "sol": "N6247827R2435"
+    },
     "75dc2e5b21434fc18c3bde7df3118d70": {
       "c": 0,
       "d": "2026-10-21",
@@ -48726,6 +49047,22 @@
       "n": "Attachment H_ PCS OET Vendor Guide.pdf",
       "s": "screened",
       "sol": "SPE60526R0218 "
+    },
+    "75e605d8786a4bbd97e31f50a9414d84": {
+      "c": 1909,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "finding": "Coast Guard sole-source procurement of specialized rubber-coated material for MH-65 helicopter maintenance parts from Aero Rubber Co. due to safety concerns.",
+          "news": 4,
+          "quote": "The spare parts to be procured under this acquisition are highly specialized parts, designed and manufactured by a non-Government activity and the technical data required for acquisition by other than the OEM is not available...procurement of any parts from other than the OEM...will compromise the s",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Redacted J and A - 70Z03827QB0000007.pdf",
+      "s": "screened",
+      "sol": "70Z03827QB0000007"
     },
     "75e830ce2c0842f3b4cac794b8eba472": {
       "c": 18042,
@@ -49769,6 +50106,14 @@
       "s": "screened",
       "sol": "140A1626Q0086"
     },
+    "77f268c801734fbc904933e90cc9dd1d": {
+      "c": 1091,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment V - RFI Form - 36C25027R0012.pdf",
+      "s": "screened",
+      "sol": "36C25027R0012"
+    },
     "77f341ca5d8341428ad0989fba05a2be": {
       "c": 369,
       "d": "2026-10-14",
@@ -50303,6 +50648,14 @@
       "n": "P530 AIMF_DRAFT DRAWING SHEET_A-701.pdf",
       "s": "screened",
       "sol": "W912HV27Z0007"
+    },
+    "790d6d256c5b44cab0f8fe450aa45166": {
+      "c": 2133,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "DRAFT_B2_03.00_RFP_Section_C_(Specifications_SOW).pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
     },
     "790f4fd17229435bbdd4dcacb5f1f578": {
       "c": 9501,
@@ -51454,6 +51807,23 @@
       "n": "S02 -  VA F550 Used Retro Model.pdf",
       "s": "screened",
       "sol": "36C24826Q1032"
+    },
+    "7bbb409268114362b263b76dab35dff7": {
+      "c": 1221,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "context": "SPECIAL NOTICE: VENDORS MUST REFERENCE THE NOTICE ID WHEN SUBMITTING A CAPABILITY STATEMENT. NASA/NSSC has a requirement for Atlas Devices Support Services. NASA/NSSC intends to issue a sole source contract to ATLAS DEVICES, LLC under the authority of FAR 12.102(a). It has been determined that ATLAS DEVICES, LLC is the sole provider of Atlas Devices Support Services NASA/NSSC will be the procuring center for this effort. Performance will be located at NASA/ Johnson Space Center (JSC). The Government intends to acquire Commercial items or services using the provisions, clauses and procedures prescribed in FAR Part 12 for Commercial The NAICS Code for this procurement is 332999. Interested organizations may submit their capabilities and qualifications to perform the effort in writing to the identified point of contact not later than 1:00 p.m.",
+          "finding": "NASA awarding sole-source contract to Atlas Devices LLC for Atlas Devices Support Services at Johnson Space Center, finding only one provider available.",
+          "news": 4,
+          "quote": "NASA/NSSC intends to issue a sole source contract to ATLAS DEVICES, LLC under the authority of FAR 12.102(a). It has been determined that ATLAS DEVICES, LLC is the sole provider of Atlas Devices Support Services",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "SATPC0043065 Tab 07 Capability Statement.pdf",
+      "s": "screened",
+      "sol": "80NSSC27947433Q"
     },
     "7bbf5db2d52540799cd3b617b3a8b540": {
       "c": 271,
@@ -53735,6 +54105,14 @@
       "s": "screened",
       "sol": "W912CH-26-S-0001"
     },
+    "81765708bde44c94b6aa7b6e87b1bd79": {
+      "c": 2541,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attch. 30.b. FSP ANNEX D MONTHLY SBIWTP (2026).pdf",
+      "s": "screened",
+      "sol": "191BWC26R0009"
+    },
     "817a553017fb49bf9062ccb309d2722b": {
       "c": 10566,
       "d": "2026-10-13",
@@ -55932,6 +56310,23 @@
       "s": "screened",
       "sol": "47QTCB22R0001"
     },
+    "8767151f5d094df7a5340e803b5f6b8a": {
+      "c": 2070,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "context": "--- sheet: Bid --- Title SERC Solar Arrays for Agrivoltaic Research Facility SERC Project Number 2482101 Solctition Number 333302-26RF-001008 Total Estimated cost range is between $5,000,000 and $10,000,000. Base Bid BASE BID: All work associated with the design and construction of a 2.0 MW agrivoltaics solar array system as described in Solicitation No. 333302-26RF-001008, including all amendments, excluding perimeter fencing. Description Material Labor Equipment Total Div. 0 Design Cost 0 0 0 0 Div. 1 General Conditions 0 0 0 0 Div. 2 Existing Conditions 0 0 0 0 Div. 3 Concrete 0 0 0 0 Div. 4 Masonry 0 0 0 0 Div. 5 Metals 0 0 0 0 Div. 6 Wood, Plastics and Composites 0 0 0 0 Div. 7 Thermal and Moisture Prot. 0 0 0 0 Div. 8 Openings 0 0 0 0 Div. 9 Finishes 0 0 0 0 Div. 10 Specialties 0 0 0 0 Div. 11. Equipment 0 0 0 0 Div. 12 Furnishings 0 0 0 0 Div. 13 Special Construction 0 0 0 0 Div. 14 Conveying Systems 0 0 0",
+          "finding": "Smithsonian Institution design-build solicitation for 2.0 MW agrivoltaic solar array system with operations and maintenance options at research facility.",
+          "news": 4,
+          "quote": "All work associated with the design and construction of a 2.0 MW agrivoltaics solar array system as described in Solicitation No. 333302-26RF-001008",
+          "verified": true
+        }
+      ],
+      "m": "xlsx",
+      "n": "Attachment 5R. SERC Solar Agrivoltaic Bid Schedule_NEW.xlsx",
+      "s": "screened",
+      "sol": "333302-26RF-0010008"
+    },
     "876d2df8fd1c45458476005db4ca3174": {
       "c": 428,
       "d": "2026-10-18",
@@ -56270,12 +56665,12 @@
       "sol": "385634-DSF"
     },
     "88173757322c44129b0cf5b5b721856e": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "DARPARA2701_Administrative_FAQs_10-19-2026.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "DARPARA2701"
     },
     "8829d49e57c043d582036f72e7c32aca": {
@@ -56375,6 +56770,14 @@
       "n": "B09_Amendment_01_GRCA257282_Access_Road_100P_Final_CD_DRAWINGS_01.pdf",
       "s": "screened",
       "sol": "140P2026R0101"
+    },
+    "885538b50b794c31bcc800b90dbb8c3e": {
+      "c": 2312,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment B  Statement Of Work.pdf",
+      "s": "screened",
+      "sol": "12444527Q0003"
     },
     "886073253a59405dbbc3dd62cdfcdbfe": {
       "c": 0,
@@ -56609,6 +57012,14 @@
       "s": "screened",
       "sol": "36C24W26R0046"
     },
+    "88f703f27cb04372ac305d473ec101e0": {
+      "c": 1636,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "A06_-_140L1726R0010_-_Map.pdf",
+      "s": "screened",
+      "sol": "140L1726R0010"
+    },
     "88ff2f3ecdc4483fa9a254c0dbc0b5b9": {
       "c": 1363,
       "d": "2026-10-23",
@@ -56703,6 +57114,14 @@
       "n": "36C25927Q0021.docx",
       "s": "screened",
       "sol": "36C25927Q0021"
+    },
+    "892f2f07420f4f3693864000f6115aba": {
+      "c": 510,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment 2- Outer Buildings Window Listing - Marion.pdf",
+      "s": "screened",
+      "sol": "36C25027Q0016"
     },
     "892f301ac12c4d5193137b413eeea686": {
       "c": 8619,
@@ -57587,6 +58006,14 @@
       "n": "15BRRC26R00000016 Subcontracting Plan 07-2026.pdf",
       "s": "screened",
       "sol": "15BRRC26R0000016"
+    },
+    "8b34d6c137e24e3cbe14591d78012215": {
+      "c": 743,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "36C24227Q0042 0001.docx",
+      "s": "screened",
+      "sol": "36C24227Q0042"
     },
     "8b37a71e62274f2e8c6b4b757b246949": {
       "c": 1541,
@@ -58475,6 +58902,14 @@
       "s": "boilerplate_only",
       "sol": "W31P4Q26RA002"
     },
+    "8d088927e3b842598fb96d0a3f374fc7": {
+      "c": 1481,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "36C24627Q0086_1.docx",
+      "s": "screened",
+      "sol": "36C24627Q0086"
+    },
     "8d118d1b3c0e445c9294114657e38026": {
       "c": 4083,
       "d": "2026-10-10",
@@ -58491,6 +58926,14 @@
       "n": "JA_36C255-27-AP-0098_WOUNDSCOUT CO_BF_Redacted.pdf",
       "s": "screened",
       "sol": "36C25527Q0020"
+    },
+    "8d161a9c44b348f9ab80f2a7c4c8d6c1": {
+      "c": 1108,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "HQC0102713 Call for Solution- UK Refrigeration Contract.pdf",
+      "s": "screened",
+      "sol": "HQC0102713"
     },
     "8d1f263d218648cd88a1bbe0f6d9e212": {
       "c": 1615,
@@ -60325,12 +60768,12 @@
       "sol": "W912HV26BA009"
     },
     "90d4679d3db8427cb191a8fb5dde9f52": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "15B50227Q00000012 - Hamburger and Hot Dog Buns.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "15B50227Q00000012"
     },
     "90d9b864648e4a839b59f948891e6e71": {
@@ -61175,6 +61618,14 @@
       "s": "screened",
       "sol": "36C24827Q0040"
     },
+    "92e95f72df224106a014bc5ec381f84a": {
+      "c": 1639,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "DID_DI_NDTI_81307A_Test Plan.pdf",
+      "s": "screened",
+      "sol": "SPRTA1-26-R-0108"
+    },
     "92e9bed8cc964073b2ad0c406519d587": {
       "c": 6043,
       "d": "2026-10-10",
@@ -61191,6 +61642,14 @@
       "n": "DARPA-SN-26-120.pdf",
       "s": "screened",
       "sol": "DARPA-SN-26-120"
+    },
+    "92f4b947375d4fd0831c1e1b06c88256": {
+      "c": 1943,
+      "d": "2026-10-24",
+      "m": "xlsx",
+      "n": "Attachment_0004_GEN VI HRS RMAS_Self-Scoring_Matrix.xlsx",
+      "s": "screened",
+      "sol": "W519TC-26-R-AHRS"
     },
     "92f781420d4446dea0b77bf60a8cdaaf": {
       "c": 1004,
@@ -61488,12 +61947,12 @@
       "sol": "70Z02326R93280004"
     },
     "93af99fe45a14fee94dd4a20dd8f1d31": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Q_and_A-12445527Q0001.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "12445527Q0001"
     },
     "93b99f18a0bd4c4b85ab2d3d58326e27": {
@@ -61815,6 +62274,14 @@
       "n": "B8  N4523A27Q5703  SAM Q and A.pdf",
       "s": "screened",
       "sol": "Navy"
+    },
+    "9497b426ef4a487289acbbe07fbf3b7a": {
+      "c": 223,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Appendix E Storm Drains West Haven.pdf",
+      "s": "screened",
+      "sol": "36C24127Q0004"
     },
     "949a6deaeeda44a9be755c67ea081df5": {
       "c": 2523,
@@ -63272,12 +63739,12 @@
       "sol": "HE125427R0001"
     },
     "97da6907153c4ab3be905695c855f8f3": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "SOW_USCGC MANTA_87 FUEL TANK CLEANING AND INSP.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "52000QR270000177"
     },
     "97edb2abb725462fa9f3b51db46c1518": {
@@ -66306,7 +66773,7 @@
       "sol": "36C25926R0082_1"
     },
     "9e89700595d3461bbeae071dfbf5be47": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -66547,12 +67014,12 @@
       "sol": "MoS10626"
     },
     "9f627f77f61648ecac17cefd11f31367": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "TWV Industry Engagement Interest and Security Registration Form.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "W912CH-26-I-TWV1"
     },
     "9f62cace45a44675922d190c56dba75a": {
@@ -67208,6 +67675,14 @@
       "n": "SF30_SPE60826R02060001.PDF",
       "s": "screened",
       "sol": "SPE608-26-R-0206"
+    },
+    "a1078b8d86b04979942c0716948d0019": {
+      "c": 2117,
+      "d": "2026-10-24",
+      "m": "xlsx",
+      "n": "Attachment 1- SOI - revised.xlsx",
+      "s": "screened",
+      "sol": "SPE30026R0049"
     },
     "a10ceed1be284443a83f3f37a357586b": {
       "c": 1177,
@@ -68294,6 +68769,14 @@
       "s": "screened",
       "sol": "36C24126Q0851"
     },
+    "a3ea17cb23eb4f31975b8538f6a93939": {
+      "c": 1164,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment 2 Government Bid Schedule.pdf",
+      "s": "screened",
+      "sol": "2027-PZI-1710"
+    },
     "a3ea5bf8e7d34d6bb03e57df6882ed1b": {
       "c": 147178,
       "d": "2026-10-19",
@@ -69208,6 +69691,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-CLARKSVILLEINFY27"
     },
+    "a5c2ea5f86f541e79cb996fcfb10278b": {
+      "c": 1560,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "27Q0004_ATTACH 4_ RepsCerts_101926.pdf",
+      "s": "screened",
+      "sol": "HE125427Q0004"
+    },
     "a5c305b2cd654386b4469fb568d2c8ff": {
       "c": 0,
       "d": "2026-10-10",
@@ -69907,6 +70398,23 @@
       "n": "Att. J-01 DD Form 254 for N00024-26-R-5246 - Signed..pdf",
       "s": "screened",
       "sol": "N00025-26-R-5246"
+    },
+    "a75970526b7648b195185d46420b0e66": {
+      "c": 1103,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "context": "URL DESCRIPTION AGENCY CONTACT\u2019S EMAIL ADDRESS EMAIL DESCRIPTION ricky.bond@va.gov DESCRIPTION See attached document: S02 36C25227R0001 for 550 MATOC-RB. DESCRIPTION The VA Illiana Health Care System (VIHCS), Danville IL, 1900 E Main St. Danville, IL 61832, has a need for a Multiple Award Task Order Contract (MATOC) for construction. The VA intends to award a MATOC for maintenance, repair, alteration, and new construction services with task orders ranging in value from $2,000 to $3,000,000. The maximum net value of all task orders and modifications issued under this MATOC shall not exceed $21 Million. The net aggregate value for all task orders and modifications issued against the MATOC shall not exceed $21 Million. The MATOC will include a five (5) year ordering period from date of award. The facilities covered by the resultant contracts are located at the VIHCS, Danville IL \ufeff Page PAGE \\* MERGEFORMAT 1 of NUMPAGES \\* MERGEFORMAT \ufeff Amendment to a Previous Combined Solicitation Page PAGE \\* MERGEFORMAT",
+          "finding": "VA Multiple Award Task Order Contract for Danville, Illinois health facility with maximum net value of $21 million over 5 years for construction and maintenance work.",
+          "news": 4,
+          "quote": "The VA intends to award a MATOC for maintenance, repair, alteration, and new construction services with task orders ranging in value from $2,000 to $3,000,000. The maximum net value of all task orders and modifications issued under this MATOC shall not exceed $21 Million.",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C25227R0001 0001_1.docx",
+      "s": "screened",
+      "sol": "36C25227R0001"
     },
     "a75b55cc5532408ba6b28e1bd97abff9": {
       "c": 4396,
@@ -70694,6 +71202,14 @@
       "s": "screened",
       "sol": "RFQSSPR508961"
     },
+    "a918dd92b3e44a658ec939fedebc0f72": {
+      "c": 1236,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment 0002 - QASP - Granite Surface Plates.pdf",
+      "s": "screened",
+      "sol": "W519TC27QA007"
+    },
     "a91a7e60cf25460eac0e3581d4391a56": {
       "c": 3139,
       "d": "2026-10-10",
@@ -71077,6 +71593,14 @@
       "n": "MAPS Solicitation Questions and Answers  05 MAY 2026.xlsx",
       "s": "screened",
       "sol": "W15P7T-26-R-A006"
+    },
+    "aa1efa0ad24f4499b32f2b871a956077": {
+      "c": 904,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "QA_10-05-2026.pdf",
+      "s": "screened",
+      "sol": "69056726R000020  "
     },
     "aa23c435a18a4cb884feaa22e46576c7": {
       "c": 971,
@@ -72025,6 +72549,14 @@
       "s": "screened",
       "sol": "W911KF-25-S-C002-AoI014"
     },
+    "ac5460e380f24abc856534ca98ee00ad": {
+      "c": 2207,
+      "d": "2026-10-24",
+      "m": "zip",
+      "n": "AV_Images_0002.zip",
+      "s": "screened",
+      "sol": "140L4326Q0126"
+    },
     "ac556da9301a47f6800e7352c4834e06": {
       "c": 1496,
       "d": "2026-10-14",
@@ -72233,12 +72765,12 @@
       "sol": "W519TC26RA054"
     },
     "acc231b8952b4cb88ed2f563f8f925f5": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 2- Pricing Sheet.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA461027Q0152"
     },
     "accfaf6f6a1f49a1a4ca276c600c4d3e": {
@@ -72464,12 +72996,12 @@
       "sol": "36C25926R0082_1"
     },
     "ad38e20c0c9b47789cb116c15af47cf7": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "FY26 Fall Industry Day Notice.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "PQFAIndustryDay"
     },
     "ad4e850af3a746c693e6150be8e9c978": {
@@ -74710,6 +75242,23 @@
       "s": "no_text",
       "sol": " 697DCK-27-R-00031"
     },
+    "b352a3d978d64c778896d3566537a324": {
+      "c": 1508,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "context": "NASA Agency-wide Acquisition of Gaseous and Liquid Helium Questions and Responses to RFP January 31, 2025 Question Requirement/ RFP Area Page # Question Government Response # Paragraph # 1 Attachment 1 - SOW CLIN 8 12 Is NASA supplying the 2\u201d x 4\u201d flex Yes. Statement of (E)(1) hose that connects to the container? Work 2 Attachment 1 - SOW CLIN 8 12 Is a 4 outlet bayonet adaptor as N/A. See Government\u2019s response to Statement",
+          "finding": "NASA agency-wide acquisition solicitation for gaseous and liquid helium supply serving Kennedy Space Center and other facilities with multiple delivery options.",
+          "news": 3,
+          "quote": "NASA Agency-wide Acquisition of Gaseous and Liquid Helium",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "80KSC024R0010 Questions and Responses to RFP January 31 2025.pdf",
+      "s": "screened",
+      "sol": "80KSC024R0010"
+    },
     "b35a6ed1acc240659e1244e4a6c5e641": {
       "c": 464,
       "d": "2026-10-13",
@@ -74972,6 +75521,14 @@
       "s": "screened",
       "sol": "36C10F25R0024"
     },
+    "b3e63c0e561146db9f39fd770f75bd25": {
+      "c": 1315,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "Attch. 10 Monthly Chemical Dosage 2025 to 2026.pdf",
+      "s": "screened",
+      "sol": "191BWC26R0009"
+    },
     "b3ed1fc6d0a74c4285ea92ef29ac9b2c": {
       "c": 5743,
       "d": "2026-10-18",
@@ -75221,6 +75778,14 @@
       "n": "Sol_140D0427Q0920.pdf",
       "s": "screened",
       "sol": "140D0427Q0920"
+    },
+    "b48229459c15477382f03279c72b99bd": {
+      "c": 1320,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "J07_PWS_Attachment_6_SUAS_Incursion_Checklist_29APR2026.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "b4840292826f4a778e6aff7fa7239a32": {
       "c": 106,
@@ -75972,12 +76537,12 @@
       "sol": "27-30029_RFI"
     },
     "b5fac89a2e6e4dc6ba9750342cc01972": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 3 _ 52.212-2 Evaluation\u2014Commercial Products and Commercial Services_20261008.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "W900KK-26-R-A023"
     },
     "b604bc0386c2468194cecea33dabfc56": {
@@ -76481,12 +77046,12 @@
       "sol": "36C26327Q0067"
     },
     "b70ddfef4c1442da8263342df67dbe1c": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation - N6134027Q1003.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N6134027Q1003"
     },
     "b72646f0c6a4463ea5eb6b9f06c90a6f": {
@@ -77507,6 +78072,14 @@
       "s": "screened",
       "sol": "140G0126Q0288"
     },
+    "b954c3cb03e44ae79888a07bfbe45801": {
+      "c": 490,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "NSN 1560-01-462-4551 Item Description.pdf",
+      "s": "screened",
+      "sol": "FD20202700027"
+    },
     "b958e408a69b47169bcaf2f8b95c6cfe": {
       "c": 726,
       "d": "2026-10-16",
@@ -77725,7 +78298,7 @@
       "sol": "36C10B26Q0695"
     },
     "ba038e784cd44dcfa99a0259096f3803": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -78047,12 +78620,12 @@
       "sol": "70Z02326R93250001"
     },
     "ba9df98c6e594f6e890b06dfa692359e": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "LSJ_Redacted.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N6852027Q1004"
     },
     "bab02d281d404cb58821a7d0330eed99": {
@@ -78855,6 +79428,14 @@
       "n": "Sol_140R4026B0002_Amd_0003.pdf",
       "s": "screened",
       "sol": "140R4026B0002"
+    },
+    "bc4c905584104077a4ced721ff3b5479": {
+      "c": 517,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "NSN 1560-01-497-5078 Item Description.pdf",
+      "s": "screened",
+      "sol": "FD20202700027"
     },
     "bc4f6845cb6147b680a90acc314d99a0": {
       "c": 676,
@@ -82418,6 +82999,14 @@
       "s": "screened",
       "sol": "36C25626R0108"
     },
+    "c4b85a07f5be4a8785c07678bf9ed05f": {
+      "c": 1399,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "27R2435 Notice No. 1 General Info.pdf",
+      "s": "screened",
+      "sol": "N6247827R2435"
+    },
     "c4bfbf652ad04990ae600e2f69b737b2": {
       "c": 1868,
       "d": "2026-10-13",
@@ -83148,6 +83737,14 @@
       "n": "SI PWS SLA Attachment.pdf",
       "s": "screened",
       "sol": "36C10B26Q0585"
+    },
+    "c67adbb6f5d04867a926df60cdff8051": {
+      "c": 485,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "NSN 1560-01-497-5956 Item Description.pdf",
+      "s": "screened",
+      "sol": "FD20202700027"
     },
     "c68345964509451998d863120a6d5077": {
       "c": 2907,
@@ -84451,6 +85048,14 @@
       "s": "screened",
       "sol": "FA441826R0009"
     },
+    "c9d8e2bbffb147fc98ec90b20be70b3b": {
+      "c": 370,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "QA_10-20-2026.pdf",
+      "s": "screened",
+      "sol": "69056726R000020  "
+    },
     "c9ddecd5e50444009ebccf48b37d4439": {
       "c": 2957,
       "d": "2026-10-20",
@@ -84530,12 +85135,12 @@
       "sol": "FA2391-23-S-2403"
     },
     "c9f2b316ad564f1c82984a239bf5d758": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "W519TC26RA05_Conformed thru Amd 0003.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "W519TC26RA054"
     },
     "c9f888d11bc2436ea3a95d141046b00c": {
@@ -85602,6 +86207,14 @@
       "n": "LASER_CDRL_A003_Software Deliverables.pdf",
       "s": "screened",
       "sol": "HM047627XXXX"
+    },
+    "cc602533248643f58c20acc0b76e252a": {
+      "c": 1033,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "D.5_Appendix D_Competency Assessment_Proper Cleaning and Disinfection Procedures of LAFWs .pdf",
+      "s": "screened",
+      "sol": "36C25727Q0032"
     },
     "cc6b9a4e43ef4fdbbf19d0a4e2f0339e": {
       "c": 313,
@@ -87685,6 +88298,14 @@
       "s": "screened",
       "sol": "36C26326R0063"
     },
+    "d10e55ce9ad44c0aa30518fbcd8605a4": {
+      "c": 42,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Exhibit 09. Seismic Offer Forms.pdf",
+      "s": "screened",
+      "sol": "36C24W26R0017"
+    },
     "d1154a11992649f8abf822750fb6064d": {
       "c": 511,
       "d": "2026-10-23",
@@ -88781,6 +89402,14 @@
       "s": "screened",
       "sol": "W51AA1-26-Q-A097"
     },
+    "d3ec3201c356412ca10cd07448f05374": {
+      "c": 2271,
+      "d": "2026-10-24",
+      "m": "xlsx",
+      "n": "19AQMR26Q0469 A0001 Attachment 2.1 -TORP1 Pricing Spreadsheet.xlsx",
+      "s": "screened",
+      "sol": "19AQMM26Q0469"
+    },
     "d402a0b9156d40948de805c7a41ab730": {
       "c": 534,
       "d": "2026-10-13",
@@ -89402,7 +90031,7 @@
       "sol": " 697DCK-27-R-00031"
     },
     "d59ec34a78074cf5b93f8debbaf3ad7a": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -89570,6 +90199,14 @@
       "s": "screened",
       "sol": "70T04026QPL7672BLS001"
     },
+    "d604bcb2b94f4c90aab273da7fedda87": {
+      "c": 578136,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "UPDATED-528-19-102-BuffaloUrology Combined Specifications 05-18-2026.pdf",
+      "s": "screened",
+      "sol": "36C24226B0065"
+    },
     "d609a09d29ea40babeb079084949a89e": {
       "c": 7337,
       "d": "2026-10-14",
@@ -89594,6 +90231,14 @@
       "n": "4 Janitorial Specifications.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-KELLERTXFY27"
+    },
+    "d614790ea545418c92ab719bc43666af": {
+      "c": 1494,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "MVN Industry Day Agenda 2026 - SAM.pdf",
+      "s": "screened",
+      "sol": "68c20408d6db49589fde180d05acc255"
     },
     "d6193843d483479eb03858e8a8adf533": {
       "c": 335,
@@ -90160,12 +90805,12 @@
       "sol": "FA2377-26-R-B011"
     },
     "d722149e3a184d95a23d5d64b961c386": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 1 -  C05 Schedule of Items.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "1240LT27Q0019"
     },
     "d724d206cc5e4d02add41715aecbe45f": {
@@ -90892,6 +91537,14 @@
       "n": "11.  PCRA 612A4-27-020 Replace Flooring in McCellan.pdf",
       "s": "screened",
       "sol": "36C26127Q0047"
+    },
+    "d8a57778357d405cbf5e1fb3beeb6a12": {
+      "c": 1342,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Attachment 07.pdf",
+      "s": "screened",
+      "sol": "W50S8G27Q0001"
     },
     "d8a5e543af4c422b962d20d8109c06e1": {
       "c": 47294,
@@ -92028,7 +92681,7 @@
       "sol": "75H70126R00026"
     },
     "db4f6ccf8c2846d1a22ca72b73e37de1": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -93146,6 +93799,14 @@
       "s": "screened",
       "sol": "W91151-26-R-A004"
     },
+    "ddd4fd740dec42cea6532870a0fac347": {
+      "c": 2641,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "PCA-NIAAA-11737  Statement of Work SOW ION Chef Sequencers (ION S5 XL and ION S5 Prime).docx",
+      "s": "screened",
+      "sol": "NIAAA-11737"
+    },
     "ddd55606fe884f3b813e90a0162cfcce": {
       "c": 4873,
       "d": "2026-10-11",
@@ -93993,6 +94654,14 @@
       "n": "Questions and Answers 2.xlsx",
       "s": "screened",
       "sol": "W51AA1-26-Q-A097"
+    },
+    "df9e23359ea74611b41b9188959ffbff": {
+      "c": 1176,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "Form_158_AMD_03.pdf",
+      "s": "screened",
+      "sol": "SPRTA1-26-R-0108"
     },
     "dfa6f0680f8a4fa182b92586392948ac": {
       "c": 7806,
@@ -94873,6 +95542,14 @@
       "n": "Attachment 4_Past_Performance_Questionnaire.docx",
       "s": "screened",
       "sol": "HT940827RE003"
+    },
+    "e2002818194f4ae6891ac8fffd6bdf6d": {
+      "c": 203,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "Appendix B Emergency Equipment.pdf",
+      "s": "screened",
+      "sol": "36C24127Q0004"
     },
     "e20efcfa4c2444f9901b981f694040cd": {
       "c": 13493,
@@ -96742,6 +97419,14 @@
       "s": "screened",
       "sol": "140D0426Q0802"
     },
+    "e5ef608779b84707bb08574f813f90d5": {
+      "c": 407,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "B08_-_Attachment_05_-_Vol_I_Exp_Updated_0002.docx",
+      "s": "screened",
+      "sol": "140P2026R0081"
+    },
     "e5f16720824a4e7e95a7734630bc7978": {
       "c": 180,
       "d": "2026-10-14",
@@ -96813,6 +97498,14 @@
       "n": "1.21_WD_2015-4531 rev 35.pdf",
       "s": "wage_determination",
       "sol": "N6883627Q0004_A0002"
+    },
+    "e6173225a5d444a083bf8a7c0e317532": {
+      "c": 1488,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "Key Personnel Evaluation.docx",
+      "s": "screened",
+      "sol": "36C26126Q1297"
     },
     "e618ce2161fb4f1db8d9796083a6eb67": {
       "c": 183,
@@ -98154,6 +98847,14 @@
       "n": "S06_Fort Sill NC_920CM3006_Plan Set_Reduced_Amend 01_3 of 11.pdf",
       "s": "screened",
       "sol": "36C78626B0030"
+    },
+    "e9551c1b74f842c3aae2dcd234165422": {
+      "c": 2386,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "PrA-PreSolicitation SAM Notice 19KV4227Q0001.pdf",
+      "s": "screened",
+      "sol": "19KV4227Q0001"
     },
     "e955d98c0a76422f8eef05fb05bfba96": {
       "c": 943,
@@ -101276,6 +101977,14 @@
       "s": "failed",
       "sol": "W900KK-27-R-A0003"
     },
+    "f0323344b6f44a95a9343276de7e111f": {
+      "c": 2318,
+      "d": "2026-10-24",
+      "m": "docx",
+      "n": "L03_Performance_Assessment_Questionnaire_Cover_Letter.docx",
+      "s": "screened",
+      "sol": "W911S826RA015"
+    },
     "f03c593432634cee99fa16e5c6ed6d31": {
       "c": 2701,
       "d": "2026-10-14",
@@ -101750,6 +102459,23 @@
       "s": "screened",
       "sol": "36C24627Q0019"
     },
+    "f1021d96e72646cfad91f02c4d416ccf": {
+      "c": 1666,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "context": "8210 CONTRACTING OFFICE ADDRESS Department of Veterans Affairs Network Contracting Office (NCO) 21 POINT OF CONTACT* Angela Gerlitzki angela.gerlitzki1@va.gov ADDITIONAL INFORMATION AGENCY\u2019S URL URL DESCRIPTION AGENCY CONTACT\u2019S EMAIL ADDRESS EMAIL DESCRIPTION DESCRIPTION The Department of Veterans Affairs, NCO 21, intends to award a sole source firm fixed price contract to Low Voltage Specialty Inc., for a base year plus four option years, because we believe they are the only authorized company in Northern California to provide Fire Alarm Maintenance and Testing services on the Secutron Fire Alarm Systems. We believe there are no authorized third parties that can provide these Fire Alarm Maintenance and Testing services that can satisfy this requirement. A draft Performance Work Statement (PWS) is attached. If you believe that your company is capable and authorized to perform these services in accordance with the draft PWS, please provide your information and capability along with an authorization let",
+          "finding": "VA intending sole-source contract to Low Voltage Specialty Inc. for fire alarm maintenance on Secutron systems at Northern California Health Care System, claiming only authorized provider.",
+          "news": 4,
+          "quote": "intends to award a sole source firm fixed price contract to Low Voltage Specialty Inc., for a base year plus four option years, because we believe they are the only authorized company in Northern California to provide Fire Alarm Maintenance and Testing services",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C26127Q0075_2.docx",
+      "s": "screened",
+      "sol": "36C26127Q0075"
+    },
     "f107a708a1ed4b5f9bb6666f3ad4f3eb": {
       "c": 36256,
       "d": "2026-10-14",
@@ -102146,12 +102872,12 @@
       "sol": "FA461027R0001"
     },
     "f1bd9cf347f44722ace1a11f9216b852": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "APS _ Combined Synopsis Solicitation _ 20261020.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "W900KK-26-R-A023"
     },
     "f1c4754b7df946f88f61bc29bf628263": {
@@ -103707,6 +104433,14 @@
       "s": "screened",
       "sol": "PR504779"
     },
+    "f53b67e9bf34483e9ea58b85391b2a18": {
+      "c": 13,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "S02 - Drawing.pdf",
+      "s": "screened",
+      "sol": "36C25226B0030"
+    },
     "f5407331b7da45c991707be6db331dd3": {
       "c": 10107,
       "d": "2026-10-11",
@@ -104724,6 +105458,14 @@
       "s": "screened",
       "sol": "36C24W25R0115"
     },
+    "f7d64e228c524a82bbd026a362edae98": {
+      "c": 1112874,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "Attachment A - 1845266-X-132-SPECS.pdf",
+      "s": "screened",
+      "sol": "N4008526R0272"
+    },
     "f7d8b9c267fd4917b40e510b2db96df1": {
       "c": 2476,
       "d": "2026-10-14",
@@ -104779,6 +105521,14 @@
       "n": "Enclosure No. 1 - RFP Cover Letter, Instructions, & Notices.pdf",
       "s": "screened",
       "sol": "6-B143-P-00251-00"
+    },
+    "f7f94f4c270c4528915bb6178d0f68bc": {
+      "c": 702,
+      "d": "2026-10-24",
+      "m": "pdf",
+      "n": "DRAFT_B2_08.0_RFP_Section_J_(List of Attachments).pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
     },
     "f7f96b71ef4b4c8ea2c2463ac4ccacc5": {
       "c": 3739,
@@ -107872,6 +108622,34 @@
       "s": "screened",
       "sol": "36C26026R0029"
     },
+    "ff3b34790f604263a063530ae84181ad": {
+      "c": 538393,
+      "d": "2026-10-24",
+      "f": [
+        {
+          "finding": "VA medical center replacing two boilers at occupied facility with 12-month construction period requiring extensive infection control, fire safety, and phased work coordination during patient operations.",
+          "news": 4,
+          "quote": "Building 112 will be occupied during performance of work. Refer to specification 01 35 26 for infection control and construction barrier requirements. The Contractor shall take all dust and debris, so that boiler operations are not hindered.",
+          "verified": false
+        },
+        {
+          "finding": "Contract requires all construction workers to undergo fingerprinting, background checks, and VA badging; badges valid 90 days and must be extended for continued access.",
+          "news": 3,
+          "quote": "All contractors working at Milwaukee VAMC shall be fingerprinted prior to being allowed to work on campus. Assuming background check allows, then within 3 to 10 business days, VA should send to Contractor/Requestor notice that they may now obtain their Physical Access Control (PAC) badge.",
+          "verified": false
+        },
+        {
+          "finding": "VA reserves right to suspend or revoke construction site access for badge violations; contractor work hours restricted to 7am-4pm with utility outages required after 5pm.",
+          "news": 3,
+          "quote": "Badges allow keyless entry into restricted areas. Names, dates, and times of access are recorded by VA Police. Badges will be valid for 90 days...Badge wearer must get badge issues taken care of. Violations may result in suspension or revocation of construction access.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "S02 - ATT C - Specifications.pdf",
+      "s": "screened",
+      "sol": "36C25227B0001"
+    },
     "ff3b64a0cf5845179e15598a6bf30051": {
       "c": 0,
       "d": "2026-10-16",
@@ -107961,6 +108739,14 @@
       "n": "Attachment I (C) - PWS - Davis Monthan AFB.pdf",
       "s": "screened",
       "sol": "SPE603-26-R-0529"
+    },
+    "ff737ddd2f7449bdb8e0240cbf044b60": {
+      "c": 22,
+      "d": "2026-10-24",
+      "m": "ocr+pdf",
+      "n": "OEM Specifications Attachment.pdf",
+      "s": "screened",
+      "sol": "70Z03827QB0000007"
     },
     "ff78ae0d4cbf4cc6b5661c83de070455": {
       "c": 502,
