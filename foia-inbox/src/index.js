@@ -125,6 +125,13 @@ async function record(raw, env) {
       if (hit && hit.sure) requestId = hit.id;
     } catch (e) { console.error('foia-inbox: content match failed', e && e.message); }
   }
+  // Our appeal of an expedited-processing denial was itself denied: that's the end of it. Don't queue another appeal.
+  let expediteFinal = false;
+  if (requestId && den && /expedit/i.test(den[0])) {
+    try {
+      expediteFinal = !!(await db.prepare("SELECT 1 FROM messages WHERE request_id = ? AND direction = 'out' AND subject LIKE '%ppeal%' AND subject LIKE '%xpedit%' LIMIT 1").bind(requestId).first());
+    } catch (e) { console.error('foia-inbox: expedite check failed', e && e.message); }
+  }
   const now = new Date().toISOString();
   const snippet = lead || snippetOf(attText);
   const attachments = (email.attachments || []).map(function (a) { return a.filename; }).filter(Boolean).join('; ');
@@ -132,7 +139,7 @@ async function record(raw, env) {
   const ins = await db.prepare('INSERT INTO inbox (received_at, from_addr, from_name, to_addr, subject, message_id, in_reply_to, refs, text, snippet, attachments, request_id, auto, needs_reply, reason, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
     .bind(now, from, (email.from && email.from.name) || null, (email.to || []).map(function (t) { return t.address; }).join(', '),
       subject, email.messageId || header('message-id'), email.inReplyTo || header('in-reply-to'), email.references || header('references'),
-      text, snippet, attachments || null, requestId, auto, m || den ? 1 : 0, den ? 'Denial: ' + den[0] : m ? m[0] : rejected ? 'Resubmit required' : null, 'new').run();
+      text, snippet, attachments || null, requestId, auto, expediteFinal ? 0 : m || den ? 1 : 0, expediteFinal ? 'Expedite appeal denied: nothing further' : den ? 'Denial: ' + den[0] : m ? m[0] : rejected ? 'Resubmit required' : null, expediteFinal ? 'handled' : 'new').run();
   const inboxId = ins.meta && ins.meta.last_row_id;
   if (inboxId && atts.length) {
     await db.batch(atts.map(function (a) {
