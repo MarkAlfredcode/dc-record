@@ -160,6 +160,9 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           MODE: ${{ github.event.inputs.mode || 'am' }}
+          # Cap Haiku attachment reading at 3M chars/run (was the 10M default,
+          # ~$3.3/run); the rest stays in data/sam-docs-pending.json.
+          DC_SAM_SCREEN_MAX_CHARS: "3000000"
         run: |
           # Haiku reads every attachment not read by an earlier run
           # (scripts/screen_sam_docs.py), all ~700 solicitation titles/
