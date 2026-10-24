@@ -7425,6 +7425,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:JMTCXL4HEN23": {
+    "d": "2026-10-24",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1098045.0,
+        "recipient": "ANCA, INC",
+        "start": "2021-06-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A821P0081_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 368970.0,
+        "recipient": "ANCA, INC",
+        "start": "2012-01-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPM4A812C0009_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 188845.0,
+        "recipient": "ANCA, INC",
+        "start": "2014-07-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPM4A814M0084_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-09-26",
+    "has_contracts": true,
+    "raw_hits": 16
+  },
   "uei:JZDRNT166LE4": {
     "d": "2026-10-23",
     "examples": [

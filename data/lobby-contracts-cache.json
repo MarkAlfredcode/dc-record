@@ -1,4 +1,8 @@
 {
+  "aaecon general contracting": {
+    "checked": "2026-10-24",
+    "result": null
+  },
   "after action medical dental supply": {
     "checked": "2026-10-11",
     "result": null
@@ -69,6 +73,10 @@
   },
   "bozdemir construction": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "brican": {
+    "checked": "2026-10-24",
     "result": null
   },
   "bridger aerospace group": {
@@ -380,6 +388,26 @@
     "checked": "2026-10-08",
     "result": null
   },
+  "mckesson": {
+    "checked": "2026-10-24",
+    "result": {
+      "client": "MCKESSON CORPORATION",
+      "firms": [
+        "KOUNTOUPES DENHAM CARR & REID, LLC",
+        "MONUMENT ADVOCACY",
+        "TODD STRATEGY GROUP"
+      ],
+      "issues": [
+        "Health Issues",
+        "Pharmacy",
+        "Medicare/Medicaid"
+      ],
+      "n_filings": 10,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/0351e743-f9d4-4f98-a74c-4c101812b4d8/print/",
+      "ytd": 180000.0
+    }
+  },
   "messer construction": {
     "checked": "2026-10-05",
     "result": null
@@ -505,6 +533,10 @@
   },
   "pointer construction group": {
     "checked": "2026-10-23",
+    "result": null
+  },
+  "post consumer brands": {
+    "checked": "2026-10-24",
     "result": null
   },
   "potomac electric power": {
@@ -654,6 +686,10 @@
       "ytd": 0
     }
   },
+  "u s vet general contracting": {
+    "checked": "2026-10-24",
+    "result": null
+  },
   "united security": {
     "checked": "2026-10-22",
     "result": null
@@ -666,6 +702,10 @@
     "checked": "2026-10-21",
     "result": null
   },
+  "varian medical systems": {
+    "checked": "2026-10-24",
+    "result": null
+  },
   "verathon": {
     "checked": "2026-10-16",
     "result": null
@@ -676,6 +716,10 @@
   },
   "vetmed group": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "vivsoft technologies": {
+    "checked": "2026-10-24",
     "result": null
   },
   "watanabe enterprises": {
