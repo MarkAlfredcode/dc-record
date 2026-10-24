@@ -50,10 +50,13 @@ def main():
     parts = ["\n=== REPLIES ==="]
     for it in replies:
         m, r = it["inbox"], it["request"] or {}
+        atts = "\n".join(f"  ATTACHMENT {x['filename']} [{x['status']}{': ' + x['note'] if x.get('note') else ''}]\n{(x.get('text') or '')[:3500]}"
+                         for x in it.get("attachments") or [])
         parts.append(f"\n[inbox {m['id']}] Request {r.get('id')}: {r.get('agency')} ({r.get('statute') or ''}), sent {r.get('sent_on')}, "
                      f"tracking {r.get('tracking') or 'none'}, status {r.get('status')}\nRequest: {(r.get('summary') or '')[:600]}\n"
+                     f"FLAG: {m.get('reason') or ''}\n"
                      f"Thread:\n{thread_text(it['thread'])}\nTHE EMAIL TO ANSWER (from {m['from_addr']}, {m['received_at'][:10]}): "
-                     f"{m.get('subject')}\n{(m.get('text') or '')[:5000]}")
+                     f"{m.get('subject')}\n{(m.get('text') or '')[:5000]}\n{atts}")
     parts.append("\n=== APPEALS ===")
     for it in appeals:
         r = it["request"]
@@ -91,7 +94,7 @@ def main():
             else:
                 raise ValueError("unknown ref")
             kind = d.get("kind") if d.get("kind") in ("reply", "appeal", "resend") else ("reply" if d["queue"] == "reply" else "appeal")
-            item.update(kind=kind, subject=d["subject"].strip(), body=d["body"].strip() + "\n\nMark Alfred\nfoia@markalfred.news\n858-829-6011",
+            item.update(kind=kind, subject=d["subject"].strip(), body=d["body"].strip() + "\n\nMark Alfred\nfoia@markalfred.news",
                         note=(d.get("note") or "").strip() or None, deadline=(d.get("deadline") or "").strip() or None)
             out.append(item)
         except (KeyError, ValueError, TypeError) as e:

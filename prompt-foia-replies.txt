@@ -20,6 +20,12 @@ REPLIES
 - Portal-only replies ("submit through our portal"): skip unless email is offered as an alternative; say so in "skip_reason".
 - If it doesn't actually need a reply (a receipt, an automatic notice), skip it.
 
+DENIALS IN THE REPLIES QUEUE
+- A reply item whose FLAG starts with "Denial:" is a denial, a refusal, or a denial of expedited processing. Write an APPEAL (kind "appeal"), not a courtesy reply, unless the denial is plainly sound (then skip with a reason). Read the ATTACHMENT text: the determination letter is often only in the attachment.
+- Expedited-processing denials: argue 5 U.S.C. 552(a)(6)(E)(v)(II) and Al-Fayed v. CIA, 254 F.3d 300, 310 (D.C. Cir. 2001); the statute has no "breaking news" requirement. Use only facts that appear in the request or the agency's own letter; never invent news hooks or events. Always include this sentence: "I certify that the statements in this expedited processing request are true and correct to the best of my knowledge and belief. 5 U.S.C. 552(a)(6)(E)(vi)." (DHS and its components also require it under 6 C.F.R. 5.5(e)(3).)
+- Portal-only agencies (DHS and its components, State, Energy, Education main office, Interior): say in "note" that this must be filed through the portal and not emailed.
+- Write plainly, like a reporter: short sentences, no filler, no "moreover" or "furthermore".
+
 APPEALS
 - Use the law of the agency's jurisdiction (statute in the request). Cite the right appeal route and deadline only if you are confident; otherwise say in "note" what Mark must verify.
 - Federal FOIA: appeal to the agency's appeals office within 90 days of the decision.

@@ -110,7 +110,7 @@ Pursuant to the Freedom of Information Act, 5 U.S.C. § 552, I request the follo
 {s['records'].strip()}
 
 Expedited processing requested
-I am employed as a full-time reporter. As a member of the news media engaged primarily in the dissemination of information, I request expedited processing on the grounds that these records are urgently needed to inform the public about {s['topic'].strip().rstrip('.')}. Courts consider three factors in determining whether there is an "urgency" to inform: (1) the request concerns a matter of current exigency to the American public; (2) the consequences of delaying a response would compromise a significant recognized interest; and (3) the request concerns federal government activity. Al-Fayed v. C.I.A., 254 F.3d 300, 310 (D.C. Cir. 2001).
+I am employed as a full-time reporter. As a member of the news media engaged primarily in the dissemination of information, I request expedited processing on the grounds that these records are urgently needed to inform the public about {s['topic'].strip().rstrip('.')}. Courts consider three factors in determining whether there is an "urgency" to inform: (1) the request concerns a matter of current exigency to the American public; (2) the consequences of delaying a response would compromise a significant recognized interest; and (3) the request concerns federal government activity. Al-Fayed v. C.I.A., 254 F.3d 300, 310 (D.C. Cir. 2001). I certify that the statements in this expedited processing request are true and correct to the best of my knowledge and belief.
 
 Fees
 As a representative of the news media, I ask to be placed in the news media fee category and request a waiver of all fees, because disclosure is in the public interest and likely to contribute significantly to public understanding of government operations. If fees are not waived, please contact me before incurring any above $50.
@@ -132,7 +132,6 @@ Sincerely,
 Mark Alfred
 {AFFILIATION}
 foia@markalfred.news
-858-829-6011
 """
 
 

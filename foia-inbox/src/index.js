@@ -2,15 +2,19 @@
 //
 // 1. Forward to Mark's Yahoo inbox first, so mail keeps arriving even if logging fails.
 // 2. Parse the message and store it in D1 table `inbox` (FOIA tracker database).
-// 3. Match it to a request (sender address, then a tracking number, then sender domain),
+// 3. Match it to a request (sender address, then a tracking number, then sender domain, then what the
+//    message and its attachments say: foia.gov confirmation #, tracking #, the request's own title),
 //    log it in `messages`, bump the request's last activity / acknowledgment.
 // 4. Flag messages that ask for an answer (still interested? clarify? certify?) so the
 //    tracker's "Replies & appeals" tab and the dc-record drafting pass pick them up.
 
 import PostalMime from 'postal-mime';
+import { readAll } from './attachments.js';
+import { matchMessage, extractTracking, newsworthy } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
 const SELF = /@markalfred\.news$/i;
+const TRACKER = 'https://markalfred.news/foia';
 
 const AUTO = /(automatic reply|auto(-|matic)?\s?reply|out of (the )?office|autoreply)/i;
 const NEEDS_REPLY = new RegExp([
@@ -34,6 +38,15 @@ function stripHtml(html) {
     .replace(/<br\s*\/?>|<\/p>|<\/div>/gi, '\n').replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#39;|&rsquo;/g, "'");
 }
+
+// Agency has refused, denied or closed something (including an expedited-processing denial). These go to the
+// drafting pass as appeal candidates even when the letter can't be tied to a tracker request.
+const DENIED = new RegExp([
+  'neither confirm nor deny', 'expedited (processing|treatment)[^.]{0,80}(is |are |has been |have been |is hereby )?(denied|not granted)',
+  '(deny|denying|denied|denial of) (your )?(request for )?expedit', 'your request (is|has been) (hereby )?(denied|closed)',
+  'we (are )?(den(y|ying)|unable to grant)', 'no (responsive )?records (were|was) (found|located)', 'did not locate any (responsive )?records',
+  'adverse determination', 'withh(old|eld|olding) (the records )?in full', '(request|it) (is|has been) administratively closed'
+].join('|'), 'i');
 
 // Agency says it won't process an emailed request at all; it has to be refiled elsewhere.
 const REJECTED = new RegExp([
@@ -84,27 +97,68 @@ async function record(raw, env) {
   const from = ((email.from && email.from.address) || '').toLowerCase();
   if (!from || SELF.test(from)) return;
   const subject = (email.subject || '').slice(0, 500);
-  const text = (email.text || stripHtml(email.html) || '').slice(0, 30000);
+  const bodyText = (email.text || stripHtml(email.html) || '').slice(0, 30000);
+  // Read the attachments too: PDFs, Word files and ZIPs hold the agency's actual determination.
+  const atts = await readAll(email.attachments).catch(function (e) { console.error('foia-inbox: attachments failed', e && e.message); return []; });
+  const attText = atts.filter(function (a) { return a.status === 'read' && a.text; }).map(function (a) { return a.text; }).join('\n\n');
+  const text = (bodyText + (attText ? '\n\n[ATTACHMENT TEXT]\n' + attText : '')).slice(0, 60000);
   const header = function (name) {
     const h = (email.headers || []).find(function (x) { return x.key === name; });
     return h ? h.value : null;
   };
   const auto = AUTO.test(subject) || /^auto-(replied|generated)/i.test(header('auto-submitted') || '') ? 1 : 0;
-  const lead = snippetOf(text);  // the agency's own words, not our quoted request below them
+  const lead = snippetOf(bodyText);  // the agency's own words, not our quoted request below them
   const rejected = !auto && REJECTED.test(lead);
   const noAck = auto || rejected ? 1 : 0;  // a refusal isn't an acknowledgment
-  const m = auto || rejected ? null : (subject + '\n' + text.slice(0, 6000)).match(NEEDS_REPLY);
-  const requestId = await matchRequest(db, from, subject, text);
+  const m = auto || rejected ? null : (subject + '\n' + bodyText.slice(0, 6000) + '\n' + attText.slice(0, 6000)).match(NEEDS_REPLY);
+  const den = auto || rejected ? null : (subject + '\n' + bodyText.slice(0, 8000) + '\n' + attText.slice(0, 8000)).match(DENIED);
+  const filenames = (email.attachments || []).map(function (a) { return a.filename; }).filter(Boolean);
+  let requestId = await matchRequest(db, from, subject, text + '\n' + filenames.join(' '));
+  if (!requestId) {
+    // Sender alone didn't settle it (FAA staff, SecureRelease, State's ack desk). Read what the letter says.
+    // Never let this step stop the message being logged.
+    try {
+      const reqs = (await db.prepare("SELECT id, agency, email, tracking, summary, summary_short FROM requests WHERE send_status = 'Sent'").all()).results;
+      const confs = {};
+      (await db.prepare("SELECT source_id, request_id FROM messages WHERE source = 'foia.gov' AND source_id IS NOT NULL").all()).results.forEach(function (c) { confs[c.source_id] = c.request_id; });
+      const hit = matchMessage({ from: from, subject: subject, filenames: filenames, text: text }, reqs, confs);
+      if (hit && hit.sure) requestId = hit.id;
+    } catch (e) { console.error('foia-inbox: content match failed', e && e.message); }
+  }
   const now = new Date().toISOString();
-  const snippet = lead;
+  const snippet = lead || snippetOf(attText);
   const attachments = (email.attachments || []).map(function (a) { return a.filename; }).filter(Boolean).join('; ');
 
-  await db.prepare('INSERT INTO inbox (received_at, from_addr, from_name, to_addr, subject, message_id, in_reply_to, refs, text, snippet, attachments, request_id, auto, needs_reply, reason, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+  const ins = await db.prepare('INSERT INTO inbox (received_at, from_addr, from_name, to_addr, subject, message_id, in_reply_to, refs, text, snippet, attachments, request_id, auto, needs_reply, reason, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
     .bind(now, from, (email.from && email.from.name) || null, (email.to || []).map(function (t) { return t.address; }).join(', '),
       subject, email.messageId || header('message-id'), email.inReplyTo || header('in-reply-to'), email.references || header('references'),
-      text, snippet, attachments || null, requestId, auto, m ? 1 : 0, m ? m[0] : rejected ? 'Resubmit required' : null, 'new').run();
+      text, snippet, attachments || null, requestId, auto, m || den ? 1 : 0, den ? 'Denial: ' + den[0] : m ? m[0] : rejected ? 'Resubmit required' : null, 'new').run();
+  const inboxId = ins.meta && ins.meta.last_row_id;
+  if (inboxId && atts.length) {
+    await db.batch(atts.map(function (a) {
+      return db.prepare('INSERT INTO inbox_attachments (inbox_id, filename, mime, size, status, note, text) VALUES (?, ?, ?, ?, ?, ?, ?)')
+        .bind(inboxId, a.filename, a.mime, a.size, a.status, a.note || null, a.text || null);
+    }));
+  }
+
+  // A reply that is itself news: push an alert (agency + why only, never the letter) and let the tracker banner it.
+  try {
+   if (!auto && !rejected && env.NTFY_TOPIC) {
+    const own = requestId ? await db.prepare('SELECT agency, summary FROM requests WHERE id = ?').bind(requestId).first() : null;
+    const nw = newsworthy(bodyText.slice(0, 8000) + '\n' + attText.slice(0, 20000), own && own.summary);
+    if (nw) {
+      await fetch('https://ntfy.sh/' + env.NTFY_TOPIC, {
+        method: 'POST', headers: { Title: 'Newsworthy FOIA reply', Tags: 'rotating_light', Priority: '4', Click: TRACKER },
+        body: ((own && own.agency) || (email.from && email.from.name) || from) + ' cites ' + nw.label + '.'
+      }).catch(function (e) { console.error('foia-inbox: ntfy failed', e && e.message); });
+    }
+   }
+  } catch (e) { console.error('foia-inbox: alert failed', e && e.message); }
 
   if (requestId) {
+    // First mail carrying the agency's own number: remember it so follow-ups match by tracking number.
+    const trk = extractTracking(subject + ' ' + filenames.join(' '));
+    if (trk) await db.prepare("UPDATE requests SET tracking = ? WHERE id = ? AND (tracking IS NULL OR tracking = '')").bind(trk, requestId).run();
     const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
     await db.batch([
       db.prepare('INSERT INTO messages (request_id, direction, sent_at, from_addr, subject, snippet, source, source_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
