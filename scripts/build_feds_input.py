@@ -18,6 +18,9 @@ triage_tier...). What's cut is bulk, not facts:
   one line each, with action and a short `what` so each gets a headline;
 - every link is a ref (#N12 notice, #D40 document, #U7 USAspending award)
   that run_pass.py expands, so URLs are never retyped.
+- White House and D.C. items (scripts/topics.py regex tags) are pulled out of
+  their type-by-type sections into two buckets of their own, one per section
+  the main pass writes (added 2026-10-24); every record keeps its full format.
 If a triage file is missing or its screen failed, the candidate file it
 came from is summarized instead and the bundle says so (the prompt's
 fallback rules).
@@ -34,6 +37,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dc_common import today_la  # noqa: E402
 from dc_extras import load_json, run_mode  # noqa: E402
 from fetch_campaigns import extras_digest  # noqa: E402
+from topics import award_topic, notice_topic  # noqa: E402
 
 OUT_TXT = "data/feds_input.txt"
 OUT_JSON = "data/feds_input.json"
@@ -172,6 +176,31 @@ def notice(x, n):
     return L
 
 
+def split_sam(t):
+    """(t without the White House / D.C. items, {"white_house": [...], "dc": [...]}),
+    each bucket entry (kind, record, hit). Doesn't touch the triage file."""
+    buckets = {"white_house": [], "dc": []}
+    moved = {}
+
+    def keep(x, kind):
+        topic, hit = notice_topic(x)
+        if topic:
+            buckets[topic].append((kind, x, hit))
+            moved[kind] = moved.get(kind, 0) + 1
+        return not topic
+
+    t2 = dict(t)
+    t2["justifications"] = [j for j in t.get("justifications") or [] if keep(j, "J")]
+    nb = {}
+    for ty, v in (t.get("notices_by_type") or {}).items():
+        v2 = dict(v)
+        v2["flagged"] = [x for x in v.get("flagged") or [] if keep(x, ty)]
+        nb[ty] = v2
+    t2["notices_by_type"] = nb
+    t2["_moved"] = moved
+    return t2, buckets
+
+
 def sam_section(t):
     L = []
     c = t.get("counts") or {}
@@ -190,15 +219,18 @@ def sam_section(t):
         if j.get("keyword_hit") or (j.get("news") or 0) >= 4 or j.get("first_time_vendor") \
                 or str(j.get("vendor_kind") or "").startswith("unusual"):
             full.add(i)
-    L += ["", f"=== SAM: SOLE-SOURCE JUSTIFICATIONS ({len(js)} new; full record for {len(full)}, one line for the rest) ==="]
+    mvj = (t.get("_moved") or {}).get("J")
+    L += ["", f"=== SAM: SOLE-SOURCE JUSTIFICATIONS ({len(js)} new" + (f" here, {mvj} more are in the White House / D.C. parts above" if mvj else "")
+          + f"; full record for {len(full)}, one line for the rest) ==="]
     for i, j in enumerate(js):
         L += justification(j, i + 1, i in full)
     nb = t.get("notices_by_type") or {}
     for ty, label in TYPES:
         v = nb.get(ty) or {}
         fl = v.get("flagged") or []
+        mv = (t.get("_moved") or {}).get(ty)
         L += ["", f"=== SAM: {label.upper()} (new {v.get('new', 0)}, already_reported {v.get('already_reported', 0)}, "
-                  f"flagged {len(fl)}) ==="]
+                  f"flagged {len(fl)}" + (f", {mv} more flagged ones are in the White House / D.C. parts above" if mv else "") + ") ==="]
         for k, x in enumerate(fl):
             L += notice(x, f"{ty.upper()}{k + 1}")
         rc = v.get("routine_counts_by_agency") or {}
@@ -245,7 +277,18 @@ def award_line(a, label):
     return " | ".join(str(b) for b in bits if b)
 
 
-def usaspending():
+def usaspending(buckets):
+    """Lines for the USAspending part; awards tagged White House / D.C. go to
+    `buckets` (kind "A", record, hit) instead and are counted, not printed."""
+    moved = {"white_house": 0, "dc": 0}
+
+    def keep(a):
+        topic, hit = award_topic(a)
+        if topic:
+            buckets[topic].append(("A", a, hit))
+            moved[topic] += 1
+        return not topic
+
     cands = load_json("data/usaspending_candidates.json", {}) or {}
     if cands.get("skipped") == "pm":
         return ["PM EDITION: USAspending is pulled in the AM edition only; write NO USAspending Contracts section "
@@ -259,7 +302,7 @@ def usaspending():
         n = 0
         for key in ("new_awards", "modifications", "cuts"):
             L.append(f"-- {key} --")
-            for a in cands.get(key) or []:
+            for a in [a for a in cands.get(key) or [] if keep(a)]:
                 n += 1
                 L.append(award_line(a, f"A{n}"))
     else:
@@ -268,8 +311,9 @@ def usaspending():
             L.append("errors: " + "; ".join(sq(e, 200) for e in t["errors"]))
         n = 0
         for key in ("featured_awards", "featured_modifications", "featured_cuts"):
-            L.append(f"-- {key} ({len(t.get(key) or [])}) --")
-            for a in t.get(key) or []:
+            rows = [a for a in t.get(key) or [] if keep(a)]
+            L.append(f"-- {key} ({len(rows)}) --")
+            for a in rows:
                 n += 1
                 L.append(award_line(a, f"A{n}"))
         rc = t.get("routine_counts_by_agency") or {}
@@ -286,13 +330,48 @@ def usaspending():
     else:
         L.append(f"counts: {json.dumps(sc, separators=(',', ':'))} | floor_usd {s.get('floor_usd')} | "
                  f"flagged_overflow {s.get('flagged_overflow')}")
-        for k, a in enumerate(s.get("flagged") or []):
+        for k, a in enumerate([a for a in s.get("flagged") or [] if keep(a)]):
             L.append(award_line(a, f"SMALL{k + 1}"))
         if s.get("executive_order_citations"):
             L.append(f"executive_order_citations: {json.dumps(s['executive_order_citations'])}")
         rc = s.get("routine_counts_by_agency") or {}
         if rc:
             L.append("routine_counts_by_agency: " + "; ".join(f"{k}: {v}" for k, v in rc.items()))
+    if moved["white_house"] or moved["dc"]:
+        L.insert(1, f"NOTE: {moved['white_house']} awards/modifications/cuts tied to the White House and {moved['dc']} tied to "
+                    "Washington, D.C. were moved to the White House and D.C. parts of this input; they are not listed here, "
+                    "but they ARE counted in `counts` below.")
+    return L
+
+
+BUCKETS = [("white_house", "WHITE HOUSE & EXECUTIVE OFFICE OF THE PRESIDENT", "W"),
+           ("dc", "WASHINGTON, D.C.", "D")]
+
+
+def bucket_section(title, tag, rows):
+    """One topic part of the input: every tagged item in its normal record
+    format, grouped by what it came from, each labelled with its home section
+    and the text that tagged it (`topic_hit`)."""
+    L = [f"=== {title} ({len(rows)} items tagged by a keyword/agency match; judge each, see TASK) ==="]
+    if not rows:
+        return L + ["(none today)"]
+    groups = [("J", "SOLE-SOURCE JUSTIFICATIONS", "Sole-Source Justifications / Extensions")] + \
+             [(ty, label.upper(), label) for ty, label in TYPES] + [("A", "USASPENDING AWARDS, MODIFICATIONS AND CUTS", "USAspending Contracts")]
+    for kind, head, home in groups:
+        sub = [(x, hit) for k, x, hit in rows if k == kind]
+        if not sub:
+            continue
+        L += ["", f"-- {head} (home section: {home}) --"]
+        for i, (x, hit) in enumerate(sub, 1):
+            label = f"{tag}{kind}{i}"
+            if kind == "J":
+                rec = justification(x, f"{tag}{i}", True)
+            elif kind == "A":
+                rec = [award_line(x, label)]
+            else:
+                rec = notice(x, label)
+            rec[0] += f" | topic_hit: \"{sq(hit, 160)}\""
+            L += rec
     return L
 
 
@@ -320,13 +399,21 @@ def main():
     if mech.get("known_gaps"):
         L.append("OMB known gaps: " + mech["known_gaps"])
 
+    buckets = {"white_house": [], "dc": []}
     t = load_json("data/sam_triage.json", None)
     if t and (t.get("batches", 0) == 0 or t.get("screened_ok", 0) > 0):
-        L += [""] + sam_section(t)
+        t, sam_buckets = split_sam(t)
+        for k in buckets:
+            buckets[k] += sam_buckets[k]
+        sam_lines = sam_section(t)
     else:
-        L += [""] + sam_fallback(load_json("data/sam_candidates.json", {}) or {})
+        sam_lines = sam_fallback(load_json("data/sam_candidates.json", {}) or {})
+    us_lines = usaspending(buckets)
 
-    L += ["", "=== USASPENDING CONTRACTS ==="] + usaspending()
+    for key, title, tag in BUCKETS:
+        L += [""] + bucket_section(title, tag, buckets[key])
+    L += [""] + sam_lines
+    L += ["", "=== USASPENDING CONTRACTS ==="] + us_lines
     L += ["", "=== DETERMINISTIC EXTRAS (assemble.py appends these sections after you; do not copy them) ==="]
     L += extras_digest("feds")
     with open(OUT_TXT, "w") as f:

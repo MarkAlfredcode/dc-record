@@ -143,6 +143,49 @@ def carry_over_usaspending(content):
     print(f"carried over {len(carried)} USAspending section(s) from this morning's edition", file=sys.stderr)
 
 
+TOPIC_SECTIONS = {  # eyebrow -> what the PM headline calls it when only the carried awards are left
+    "white house & executive office of the president": "White House",
+    "washington, d.c.": "D.C.",
+}
+USASPENDING_SUBHEAD = "usaspending awards and modifications"
+
+
+def carry_over_topic_awards(content):
+    """The White House and D.C. sections hold USAspending awards too, under a
+    subhead titled "USAspending awards and modifications" (the prompt requires
+    that exact title). The PM edition has no USAspending data, so that subhead
+    and the blocks under it are copied from this morning's archived section
+    into the PM section of the same name (made if the PM pass wrote none)."""
+    am = load_json(os.path.join("archive", "feds", f"{today_la()}-am.json"), {}) or {}
+    secs = content.setdefault("sections", [])
+    for am_sec in am.get("sections", []):
+        label = TOPIC_SECTIONS.get(_key(am_sec.get("eyebrow")))
+        if not label:
+            continue
+        blocks, grab = [], False
+        for b in am_sec.get("blocks") or []:
+            if b.get("type") == "subhead":
+                grab = _key(b.get("text")) == USASPENDING_SUBHEAD
+            if grab:
+                blocks.append(b)
+        if not blocks:
+            continue
+        pm = next((x for x in secs if _key(x.get("eyebrow")) == _key(am_sec.get("eyebrow"))), None)
+        note = {"type": "note", "text": "The USAspending.gov awards below are from this morning's edition: USAspending is pulled once a day."}
+        if pm is None:
+            pm = {"eyebrow": am_sec["eyebrow"], "headline": "", "paragraphs": [], "blocks": [], "no_news": True}
+            secs.insert(sum(1 for x in secs if _key(x.get("eyebrow")) in TOPIC_SECTIONS), pm)
+        if pm.get("no_news"):
+            pm["headline"] = f"No new {label}-related SAM.gov activity this afternoon; this morning's USAspending awards are below"
+            pm["no_news"] = False
+        pm.setdefault("blocks", []).extend([blocks[0], note] + blocks[1:])
+        print(f"carried over {label} USAspending awards from this morning's edition", file=sys.stderr)
+    # White House first, D.C. second, ahead of everything else
+    topic = sorted((x for x in secs if _key(x.get("eyebrow")) in TOPIC_SECTIONS),
+                   key=lambda x: list(TOPIC_SECTIONS).index(_key(x.get("eyebrow"))))
+    secs[:] = topic + [x for x in secs if x not in topic]
+
+
 def _key(eyebrow):
     return " ".join(html.unescape(eyebrow or "").lower().split())
 
@@ -260,6 +303,7 @@ def main():
                 content.setdefault("sections", []).append(s)
     if edition == "feds" and run_mode() == "pm":
         carry_over_usaspending(content)
+        carry_over_topic_awards(content)
     if edition == "campaigns" and not content.get("apod"):
         # Fetched by fetch_campaigns.py; the model never writes it.
         pic = load_json("data/apod.json", {}) or {}
