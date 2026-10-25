@@ -7,6 +7,14 @@
     "checked": "2026-10-11",
     "result": null
   },
+  "alpine companies": {
+    "checked": "2026-10-25",
+    "result": null
+  },
+  "alvarez": {
+    "checked": "2026-10-25",
+    "result": null
+  },
   "aml american made logistics": {
     "checked": "2026-10-21",
     "result": null
@@ -136,6 +144,10 @@
       "ytd": 20000.0
     }
   },
+  "cci facility contractors": {
+    "checked": "2026-10-25",
+    "result": null
+  },
   "censeo consulting group": {
     "checked": "2026-10-05",
     "result": null
@@ -186,6 +198,10 @@
   },
   "fidelis sustainability distribution": {
     "checked": "2026-10-16",
+    "result": null
+  },
+  "first nations community health source": {
+    "checked": "2026-10-25",
     "result": null
   },
   "fruta royal": {
@@ -245,6 +261,10 @@
     "checked": "2026-10-08",
     "result": null
   },
+  "integrated maintenance bus services": {
+    "checked": "2026-10-25",
+    "result": null
+  },
   "interim homes": {
     "checked": "2026-10-16",
     "result": null
@@ -284,8 +304,31 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "jacobs engineering group": {
+    "checked": "2026-10-25",
+    "result": {
+      "client": "JACOBS ENGINEERING GROUP INC.",
+      "firms": [
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+      ],
+      "issues": [
+        "Transportation",
+        "Defense",
+        "Agriculture",
+        "Energy/Nuclear"
+      ],
+      "n_filings": 3,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/f1a245ee-5d6d-46cd-bc14-09dac8f50f5d/print/",
+      "ytd": 180000.0
+    }
+  },
   "jett s specialty contracting": {
     "checked": "2026-10-23",
+    "result": null
+  },
+  "jimenez engineering solutions": {
+    "checked": "2026-10-25",
     "result": null
   },
   "johns hopkins university applied physics laboratory": {
@@ -407,6 +450,10 @@
       "url": "https://lda.gov/filings/public/filing/0351e743-f9d4-4f98-a74c-4c101812b4d8/print/",
       "ytd": 180000.0
     }
+  },
+  "medical records maryland": {
+    "checked": "2026-10-25",
+    "result": null
   },
   "messer construction": {
     "checked": "2026-10-05",
@@ -700,6 +747,10 @@
   },
   "valor healthcare": {
     "checked": "2026-10-21",
+    "result": null
+  },
+  "vantor services": {
+    "checked": "2026-10-25",
     "result": null
   },
   "varian medical systems": {
