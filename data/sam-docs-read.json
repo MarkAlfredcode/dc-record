@@ -1682,6 +1682,55 @@
       "s": "screened",
       "sol": "12639527Q0007"
     },
+    "0395b661a6a14fdf893ce3afe5b18e77": {
+      "c": 1342688,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "40 00 Page 2 Department of Veterans Affairs Solicitation #W912WJ26RA008/VA #VAWH-689-040 West Haven VA Medical Center Phase A2-Chilled Water Plant Replacement from the building envelope, but is not to exceed the pressure / impulse pairs specified below (as an equivalent right-triangular load): Ground Level & Level 01 Exterior Walls: 13.5 psi / 51 psi-msec Level 02 Exterior Walls: 9.0 psi / 37 psi-msec Parapet Walls (above Roof Level): 5.0 psi / 11.25 psi-msec (2) Design framing systems to withstand design loads without deflections greater than the following: (a) Exterior Load-Bearing Walls: Lateral deflection of 1/360 of the wall height. (b) Interior Load-Bearing Walls: Lateral deflection of 1/240 of the wall height. (c) Exterior Non-load-Bearing Curtain wall: Lateral deflection of 1/360 of the wall height. (3) Design all exterior cold-formed metal framing to meet the",
+          "finding": "VA Medical Center West Haven, CT construction includes blast-resistant design for exterior walls with 13.5 psi/51 psi-msec pressure/impulse at ground level",
+          "news": 5,
+          "quote": "Ground Level & Level 01 Exterior Walls: 13.5 psi / 51 psi-msec",
+          "verified": true
+        },
+        {
+          "context": "Lateral deflection of 1/240 of the wall height. (c) Exterior Non-load-Bearing Curtain wall: Lateral deflection of 1/360 of the wall height. (3) Design all exterior cold-formed metal framing to meet the considerations for Critical Facilities per Section 6.2 of the VA PSRDM. (a) Cold-formed metal framing must be designed to resist the specified blast loads applied over the tributary area of the member while limiting deflections that result in ductility ratios less than or equal to: 1.75 for studs continuous across a support or connected at top and bottom, and 0.8 for slip track connections. Refer to the response limits for Moderate Damage per ASCE/SEI 59 for all other conditions. (b) Connections of metal framing to their supports must be designed for a minimum static capacity equal to the equivalent static reactions (based on the ultimate flexural capacity of the ele",
+          "finding": "Contract specifies cold-formed metal framing designed to resist blast loads with ductility limits per VA PSRDM, indicating hardened facility construction standards",
+          "news": 4,
+          "quote": "Cold-formed metal framing must be designed to resist the specified blast loads applied over the tributary area of the member while limiting deflections that result in ductility ratios less than or equal to: 1.75",
+          "verified": true
+        },
+        {
+          "context": "ion CIM Model; G SD-07 Certificates Contractor Quality Control Certification; G SD-11 Closeout Submittals VA Facility Management Data; G Final Construction BIM Model; G Final Construction CIM Model; G Final Construction CAD Drawings; G 1.4 DELIVERABLE FILES SOFTWARE VERSIONS Deliver Construction, As-Built FM BIM models in Autodesk Revit (RVT) software format, Construction CIM model files in Autodesk Civil 3D file format (DWG), and Construction CAD drawing files in Autodesk AutoCAD File accuracy (DWG). Interactive 3d model file to be delivered in Navisworks (NWD, NWC). For additional deliverable requirements see 3.9 in VA BIM STANDARD V2.2. Confirm with the Medical Center Chief Engineer for any variance in software versions of delivery. 1.5 QUALITY CONTROL Implement quality control measures for the models and files, including but not limited to, the following activities: SECTION 01 33 21 Page 6 Department of Veterans",
+          "finding": "VA Medical Center chilled water plant and utility upgrades contract requires Building Information Modeling (BIM) with specific data standards and facility management requirements.",
+          "news": 3,
+          "quote": "Deliver Construction, As-Built FM BIM models in Autodesk Revit (RVT) software format, Construction CIM model files in Autodesk Civil 3D file format (DWG), and Construction CAD drawing files in Autodesk AutoCAD File accuracy (DWG).",
+          "verified": true
+        },
+        {
+          "finding": "Contract requires independent Fire Protection Quality Control Specialist licensed as Professional Engineer with minimum 5 years fire protection engineering experience, must have no business relationship with contractor.",
+          "news": 3,
+          "quote": "Be a registered Professional Engineer (P.E.) licensed by a Licensing Board in the United States, the District of Columbia, Guam or Puerto Rico, and have passed the National Council of Examiners for Engineering and Surveying (NCEES) examination specifically in the discipline of Fire Protection Engine",
+          "verified": false
+        },
+        {
+          "finding": "Quality Control Manager must possess Bachelor's degree in engineering, architecture, or construction management with minimum 10 years construction experience and must complete Construction Quality Management training course.",
+          "news": 3,
+          "quote": "The QC Manager must possess at least a Bachelor's degree in engineering, architecture, or construction management, with a minimum of 10 years construction experience as a Project Superintendent, QC Manager, Project Manager, or Design Professional.",
+          "verified": false
+        },
+        {
+          "finding": "VA Medical Center in West Haven, CT requesting chilled water plant and site utility upgrades via Army Corps of Engineers solicitation.",
+          "news": 3,
+          "quote": "Construction of Chilled Water Plant and Site Utility Upgrades at VA Medical Center in West Haven, CT",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Specifications - Volume I.pdf",
+      "s": "screened",
+      "sol": "W912WJ26RA008"
+    },
     "039657a3b5c24372abf8b85045820db5": {
       "c": 69129,
       "d": "2026-10-19",
@@ -4025,6 +4074,14 @@
       "s": "screened",
       "sol": "N0018927QL008"
     },
+    "090d6b0fc7084e108b68d95d5da0f82f": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr-image",
+      "n": "IMG_0027.jpg",
+      "s": "no_text",
+      "sol": "2-1-QSC-T-27-007"
+    },
     "091079f353904834bd805367496d28ac": {
       "c": 680,
       "d": "2026-10-11",
@@ -4823,6 +4880,14 @@
       "n": "Attachment 2 - HT940626QE060 Questions and Answers.pdf",
       "s": "screened",
       "sol": "HT940626QE060"
+    },
+    "0af539398df34169952a27ef76d1b9a0": {
+      "c": 3156,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "D.8_Appendix G_Competency Assessment_Daily Cleaning and Disinfection .pdf",
+      "s": "screened",
+      "sol": "36C25727Q0032"
     },
     "0afdc9b3128740b3b94398675f2145e8": {
       "c": 5370,
@@ -5859,6 +5924,14 @@
       "s": "screened",
       "sol": "80NSSC269444272Q"
     },
+    "0d794df3ffe04ff78f981ca189765bdd": {
+      "c": 3317,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Prelim Letter_WY NP YELL 10(24).pdf",
+      "s": "screened",
+      "sol": "69056726R000020  "
+    },
     "0d7f5cb232fc40cb8fd45a36867f6ba2": {
       "c": 46670,
       "d": "2026-10-14",
@@ -5898,6 +5971,14 @@
       "n": "Attachment 12- 668-22-106 Wage Determination.pdf",
       "s": "wage_determination",
       "sol": "36C26027R0014"
+    },
+    "0daa56e56f874e41baa48b0ceedf8837": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "text",
+      "n": "Wage Determination.txt",
+      "s": "wage_determination",
+      "sol": "36C25626R0117"
     },
     "0dad1e535dd543aab4d2693add5eb535": {
       "c": 77839,
@@ -6626,6 +6707,14 @@
       "n": "Solicitation - H9225727QE001.pdf",
       "s": "screened",
       "sol": "H9225727QE001"
+    },
+    "0f879553851f4c55b0afdc6399dd02c9": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "zip",
+      "n": "Solicitation Exhibit 10_2026 Wage Determinations.zip",
+      "s": "wage_determination",
+      "sol": "47PC0225R0015"
     },
     "0f8acdcc1f6447759525d176364721b6": {
       "c": 0,
@@ -9301,6 +9390,14 @@
       "s": "screened",
       "sol": "36C24527Q0029"
     },
+    "16039fa87675415cb5f4820c802d93de": {
+      "c": 1791,
+      "d": "2026-10-25",
+      "m": "xlsx",
+      "n": "Pricing Table - Multiple Years - Digicert TLM.xlsx",
+      "s": "screened",
+      "sol": "2027-R-008"
+    },
     "1609fc19f8fd4dac8d929a6b58597434": {
       "c": 0,
       "d": "2026-10-14",
@@ -9675,6 +9772,15 @@
       "n": "E1-Fixed Price_ CSS_Subcontract_Aug2023 and _Supplemental_Rider_Aug2026_Rev1.pdf",
       "s": "screened",
       "sol": "Req-369233"
+    },
+    "16b1a06347384ca8919297d829cbea92": {
+      "a": 1,
+      "d": "2026-10-25",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "W913FT27QA001 PWS (f).pdf",
+      "s": "retry",
+      "sol": "W913FT27QA001"
     },
     "16b320ac12c645099d8ddaf3bf8194e6": {
       "c": 779,
@@ -12036,6 +12142,14 @@
       "s": "screened",
       "sol": "W912DQ26QA080"
     },
+    "1c4cf236a24b4824ac23432d45ec0bb9": {
+      "c": 1278,
+      "d": "2026-10-25",
+      "m": "legacy",
+      "n": "SOURCES SOUGHT (Unrestricted).doc",
+      "s": "screened",
+      "sol": "SPE4A727R0072"
+    },
     "1c4da2c9fb054328b4eddca617636a8f": {
       "c": 53096,
       "d": "2026-10-16",
@@ -13899,6 +14013,23 @@
       "n": "Plans 438-21-403 Renovate 1st Floor Kitchen_Part3.pdf",
       "s": "screened",
       "sol": "36C26326B0020"
+    },
+    "20d4ef6b003e4669b26d2eaa241c18a9": {
+      "c": 3742,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "exclusive access on the scheduled days. 7. Expected Training Days / Utilization Does ICE anticipate using the facility every calendar/business day during each 120-day performance period, or will actual use occur on scheduled training dates within those periods? If available, please identify the anticipated number or frequency of training days. Use will occur on scheduled training days. Anticipate 30-40 days of use within each 120-day period. 8. Required Hours of Operation What minimum daily hours of facility availability are required? Please clarify whether evening, night, weekend, or low-light training access is mandatory. Minimum available hours should be Monday \u2013 Friday 0800 \u2013 1600. 9. Range Requirements Please clarify the minimum number and type of firearms ranges required, including any minimum distance, firing-point capacity, simultaneous-use, or live-fire requirements. This is not a requirement 10. Shoot House / Scenario Training Is a live-fire shoot house mandatory, or will a scenario shoot house capable of law-en",
+          "finding": "ICE seeking tactical training facility in San Antonio with 30-40 training days per 120-day period; facility can be shared with other law enforcement.",
+          "news": 4,
+          "quote": "Use will occur on scheduled training days. Anticipate 30-40 days of use within each 120-day period.",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "2.4.1-A0002-70CDCR26Q00000010_QA (004).docx",
+      "s": "screened",
+      "sol": "70CDCR26Q00000010"
     },
     "20da0ae8676147348c4c0e5a12684d9d": {
       "c": 4888,
@@ -15886,6 +16017,14 @@
       "s": "screened",
       "sol": "693C73-27-B-000001"
     },
+    "2601d91312394839a72ea8019fd51d35": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "C04 Attachment 5 - DBA WD UT20260105 Cache Co 051826.pdf",
+      "s": "wage_determination",
+      "sol": "1240BH27Q0002"
+    },
     "260eef04ac754d9d8d052e6d6b7da520": {
       "c": 39065,
       "d": "2026-10-19",
@@ -16284,6 +16423,14 @@
       "n": "Sources Sought Questionnaire 2026 10 15.docx",
       "s": "screened",
       "sol": "47PG5427R0001"
+    },
+    "26f0d1ec2b52469a8ca8527c78adf8eb": {
+      "c": 1529445,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "FP-24 Standard Specifications for Construction FHWA Federal Hwy Projects.pdf",
+      "s": "screened",
+      "sol": "6982AF27B000004"
     },
     "26f0dfcadfd64b0fa4147453aafc2faf": {
       "c": 2471,
@@ -19337,6 +19484,14 @@
       "s": "screened",
       "sol": "SPE3SE27Q0015"
     },
+    "2ec287c2b86a42c39f5006aa9fbe6a93": {
+      "c": 1956,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Attachment_1_Schedule_of_Supplies_W51JZK61479001.pdf",
+      "s": "screened",
+      "sol": "W51JZK61479001"
+    },
     "2ed33e9be1b24dc58f9b835e9ee30c47": {
       "c": 30835,
       "d": "2026-10-10",
@@ -19691,6 +19846,31 @@
       "n": "CJA25-0151 UMCS Block 1 Follow-On 19 Mar 2026 Redacted.pdf",
       "s": "screened",
       "sol": "N00019"
+    },
+    "2fb480d0fa1f41ed993dd3bf8970e58b": {
+      "c": 3794,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "Author: Guidry, Cody D. (NSSC-NSSC)[COLSA CORPORATION]",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Guidry, Cody D. (NSSC-NSSC)[COLSA CORPORATION]",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Guidry, Cody D. (NSSC-NSSC)[COLSA CORPORATION]",
+          "verified": true
+        },
+        {
+          "context": "llowing reasons (please answer the questions below): NK=that=are=the=reasons=for=soliciting=only=the=suggested=sourceLsuggested=brand=name\\=mlease=provide the unique characteristics of the items or services along with the supporting rationale and the market research performed to substantiate your reason for the suggested source/brand name. This specific unit is required as it is intended to mirror a matching system that already exists and will be used for upcoming NASA mission needs. The Reddy 128-channel, portable surface eddy current array (ECA) instrument with multiple probes provides a unique combination of high-channel-count surface inspection, portability, integrated data acquisition and analysis, and rugged field operation required for the intended inspection activities. The system provides 128 channels, a large multi-touch display, two batteries, a power supply, a rugged carrying case, and embedded software for data acquisition and analysis. The high- channel-count architecture enables efficient, high-resolution inspec",
+          "finding": "NASA sole-sourcing $330K portable eddy current array instrument from Eddyfi Technologies; specified for mission redundancy on upcoming NASA missions.",
+          "news": 3,
+          "quote": "This specific unit is required as it is intended to mirror a matching system that already exists and will be used for upcoming NASA mission needs.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "SATPC0042737 TAB 10 BNJ PRINTED.pdf",
+      "s": "screened",
+      "sol": "80NSSC27943761Q"
     },
     "2fbfed4e88dd498abb8e146efc889ac2": {
       "c": 13663,
@@ -22381,6 +22561,14 @@
       "s": "screened",
       "sol": "36C24W26R0055"
     },
+    "35eae47db3b94f1eaf514d085101b95a": {
+      "c": 2297,
+      "d": "2026-10-25",
+      "m": "xlsx",
+      "n": "27Q0004_ATTACH 3_Price Sheet_101326.xlsx",
+      "s": "screened",
+      "sol": "HE125427Q0004"
+    },
     "35f1d5c8644e47fe9d1f368da6c24b79": {
       "c": 2535,
       "d": "2026-10-14",
@@ -24101,6 +24289,14 @@
       "s": "screened",
       "sol": "15BNAS27Q00000002"
     },
+    "3a29eb445032457ca08176c6a1c7a66a": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "Attachment 4- Wage Determinatation.pdf",
+      "s": "wage_determination",
+      "sol": "FA461027Q0152"
+    },
     "3a2a0ff6680c40518074d624ae73038d": {
       "c": 4377,
       "d": "2026-10-18",
@@ -25803,6 +25999,23 @@
       "s": "screened",
       "sol": "RFW-DOTAC-ARMY-2026-003"
     },
+    "3d6e96d0460c40a48bbbc49894f30582": {
+      "c": 3328,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "techniques to minimize visual anomalies in XR flight trainers. The headset and software will also be used to support future R&D efforts where the GT525 lab supports ongoing R&D in XR technology for flight simulation. 5. UNIQUE CHARACTERISTICS THAT LIMIT AVAILABILITY TO ONLY ONE SOURCE, WITH THE REASON NO OTHER SUPPLIES OR ISERVICES CAN BE USED: The Varjo XR-4 Secure Focal Edition headset and support software are design to deploy in secure or restricted environments like in the GT525 visual lab. The XR-4 Secure Editions is compliant with the Trade Agreements Act (TAA) and is assembled in Finland, a NATO member country. The Varjo Base software has tools to integrate chroma key and rotoscoping techniques which will enable the completion of the NISE Cross-cockpit Viewing Solutions for XR Trainers without additional purchase of software and can operate in an off-line environment. The Varjo XR-4 has high density pixels of 51 pixels per degree (PPD) which satisfies resolution requirements of high fidelity flight simulation. The Varjo XR-4",
+          "finding": "Navy procuring secure XR headsets for flight training at $15,000\u2013$350,000 sole-source justification citing NATO manufacturing and security requirements.",
+          "news": 4,
+          "quote": "The Varjo XR-4 Secure Focal Edition headset and support software are design to deploy in secure or restricted environments like in the GT525 visual lab. The XR-4 Secure Editions is compliant with the Trade Agreements Act (TAA) and is assembled in Finland, a NATO member country.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "4200_6 - Simplified-Acquisition Procedures (SAP) (Rev 10_01_2025)_Redacted.pdf",
+      "s": "screened",
+      "sol": "N6134027Q1003"
+    },
     "3d73a67881294d2ab70fb70cdd659894": {
       "c": 5197,
       "d": "2026-10-23",
@@ -26259,6 +26472,15 @@
       "n": "Amendment 1 to RFP-2026-10245 10.15.26.pdf",
       "s": "screened",
       "sol": "RFP-2026-10245()"
+    },
+    "3e594d9b9cf547c09160b230eda1f0ed": {
+      "a": 1,
+      "d": "2026-10-25",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "N0025327Q0002 Solicitation.pdf",
+      "s": "retry",
+      "sol": "N0025327Q0002"
     },
     "3e5986145e154adc913d113326be607a": {
       "c": 6904,
@@ -27124,6 +27346,14 @@
       "n": "Attachment C - Prime-Flowdown-Clauses-BSD-CS-2258-09.30.2026.pdf",
       "s": "boilerplate_only",
       "sol": "RFQ509170"
+    },
+    "4006ad6c0d4649ff882a3cdb402471a0": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "PROC-FRM-466 Proposal Certifications.pdf",
+      "s": "boilerplate_only",
+      "sol": "387869swk"
     },
     "4007192e142b452eb0ae1be431ffda15": {
       "c": 1379,
@@ -29502,6 +29732,14 @@
       "n": "Attachment D2 - FDA Form 1571 Instructions (REFERENCE ONLY).pdf",
       "s": "screened",
       "sol": "HT9427-26-R-E020"
+    },
+    "4617dd3acd4c49feb1935c4a18c9b667": {
+      "c": 1972,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "11_SPI_015918912.pdf",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
     },
     "462ac092ad6844c382ba21899a9561c6": {
       "c": 20748,
@@ -32742,6 +32980,14 @@
       "s": "screened",
       "sol": "36C10B26Q0801"
     },
+    "4d73c3a6822b4f7493551bcd95cd9451": {
+      "c": 3763,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "Sources Sought FUDS SATOC.docx",
+      "s": "screened",
+      "sol": "W912HN-27-S-1001 "
+    },
     "4d76d096fc8e458ebd2db76b979e0fd5": {
       "c": 3459,
       "d": "2026-10-13",
@@ -33554,6 +33800,14 @@
       "s": "screened",
       "sol": "W15P7T-26-R-A006"
     },
+    "4f5af4b9e9104acbb7242a8609aa63c8": {
+      "c": 3384,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Attachment 4. Smithsonian Agrivoltaics Guidelines.pdf",
+      "s": "screened",
+      "sol": "333302-26RF-0010008"
+    },
     "4f5f3909b16a4a11b63e59c482bbca75": {
       "c": 11615,
       "d": "2026-10-13",
@@ -34090,6 +34344,14 @@
       "s": "screened",
       "sol": "270536 "
     },
+    "50d02d64f15e4ee8bdf565a4a36fc05d": {
+      "c": 699,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Amendment 0006 - W912QR-62373550 Soo Lock Fire Alarm.pdf",
+      "s": "screened",
+      "sol": "W912QR-62373550"
+    },
     "50d04384035b494caa50c354d78c3be2": {
       "c": 15413,
       "d": "2026-10-18",
@@ -34201,6 +34463,14 @@
       "n": "SATPC0042796 Tab 06 RDSS..pdf",
       "s": "screened",
       "sol": "80NSSC27944201Q"
+    },
+    "50e7bcd4438444959d1edf0f63b2ba85": {
+      "c": 3257,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "C04_Attachment 2. Statement of Work_1240LU26Q0132.pdf",
+      "s": "screened",
+      "sol": "1240LU26Q0132"
     },
     "50e8d2a17f704d5983f6a42078c48778": {
       "c": 103552,
@@ -34770,7 +35040,7 @@
       "sol": "36C26127Q0069"
     },
     "525313a1ecf14d3385f0e09dbc6ffe54": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-25",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -35243,6 +35513,15 @@
       "n": "BAA_Certification_10.28.2025_(D5) (1).pdf",
       "s": "screened",
       "sol": "SLAC_368659_Supermicro_1U_Rack-mount_Server_Assemblies"
+    },
+    "5368a39a209e4aaab1e4dd1c4a781fbb": {
+      "a": 1,
+      "d": "2026-10-25",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Draft_ePMO Support Services_ PWS_(10.21.26).pdf",
+      "s": "retry",
+      "sol": "W9128Z27A012"
     },
     "5369a1af2c644a5aac6dc52ff37e122f": {
       "c": 7410,
@@ -37759,6 +38038,14 @@
       "s": "screened",
       "sol": "D-27-BO-0019"
     },
+    "59b5a42303fe49678043304e1311288e": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "15JA0527Q00000001 Attachment 3 - Wage Determinations.pdf",
+      "s": "wage_determination",
+      "sol": "15JA0527Q00000001"
+    },
     "59ba9d24707248a9a13a296aeb64a826": {
       "c": 21909,
       "d": "2026-10-11",
@@ -39717,12 +40004,12 @@
       "sol": "1240BH26Q0078"
     },
     "5e76f25211c349f899f87e7fef0d3fde": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-23",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Questions to post in SAM 21 Oct 2026  .pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA945326XA001"
     },
     "5e7a4f022a9a4b948dcef86029ebcfb0": {
@@ -40421,6 +40708,23 @@
       "s": "screened",
       "sol": "36C25726Q0676"
     },
+    "60704bc967174f1f875b99db0d09f72d": {
+      "c": 3667,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "for the instruments that are built to original manufacturing standards. Because ThermoFisher does not sell parts, only ThermoFisher FSE\u2019s can get the part needed to fix the equipment. The sequencers and Chef that are part of this requisition are used heavily in the laboratory and must be maintained in peak condition to keep the research going. ThermoFisher Scientific is the sole manufacturer of the instruments listed above (S5XL, S5Prime and an IonChef). ThermoFisher has not issued a letter of assurance nor provided a manufacturer\u2019s training certification to any third party for the servicing of its manufactured instruments. The ThermoFisher engineers (FSE\u2019s) are trained through a multi-step factory certification program to work on their instrumentation and software supporting it. The certification is renewed every two years to ensure the appropriate standard of excellence is maintained. The FSE\u2019s have full and exclusive access to the latest technical developments, repair processes, software application updates and planned mai",
+          "finding": "NIH sole-sourcing ThermoFisher Scientific equipment maintenance for critical research sequencers due to manufacturer lock-in and lack of third-party service certification.",
+          "news": 3,
+          "quote": "ThermoFisher Scientific is the sole manufacturer of the instruments listed above (S5XL, S5Prime and an IonChef). ThermoFisher has not issued a letter of assurance nor provided a manufacturer's training certification to any third party for the servicing of its manufactured instruments.",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "PCA-NIAAA-11737 NOI.docx",
+      "s": "screened",
+      "sol": "NIAAA-11737"
+    },
     "607612511e814f319f8912d0c93fae7f": {
       "c": 5734,
       "d": "2026-10-13",
@@ -40768,6 +41072,15 @@
       "n": "J08 Release of Claims iHouse.docx",
       "s": "screened",
       "sol": "75H70126R00026"
+    },
+    "61476acc2609430cbc71aef13fbb5ec1": {
+      "a": 1,
+      "d": "2026-10-25",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "15JA0527Q00000001 Attachment 2 - Pricing Schedule.pdf",
+      "s": "retry",
+      "sol": "15JA0527Q00000001"
     },
     "614ed783f7884430be7230577835cb92": {
       "c": 785,
@@ -44254,6 +44567,14 @@
       "s": "screened",
       "sol": "SPE602-26-R-0706"
     },
+    "69c553fa1b1a43e5ae8da085da4a2beb": {
+      "c": 3532,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "Attach_A_Executive_Summary.docx",
+      "s": "screened",
+      "sol": "DARPARA2701"
+    },
     "69cd98e06ee446a39414adaadb4916b0": {
       "c": 6103,
       "d": "2026-10-10",
@@ -44597,6 +44918,14 @@
       "n": "Exhibit G - Form 1364 Proposal to Lease Space (Jan. 2023).pdf",
       "s": "boilerplate_only",
       "sol": "36C24W270006"
+    },
+    "6a8e32d9fa134436bcd2ee136bab14f4": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "B. AMS 50 Reps and Certs - For information only.pdf",
+      "s": "boilerplate_only",
+      "sol": "IO484659"
     },
     "6a91b255e4ed41beb94239472ad5c913": {
       "c": 1293,
@@ -47603,6 +47932,14 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "7161e0b7d78541b6b168eb904f0d820b": {
+      "c": 564,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Attachment D Map.pdf",
+      "s": "screened",
+      "sol": "12444527Q0003"
+    },
     "716421c957c148748ed01638c4538024": {
       "c": 78208,
       "d": "2026-10-24",
@@ -48874,6 +49211,14 @@
       "n": "JA FAR 12.102(a) Wartsila.pdf",
       "s": "screened",
       "sol": "70Z08526QIBCT0036"
+    },
+    "746e8e4898d14c5e8e2015099efe62c6": {
+      "c": 1264,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Attachment 2 Capability Form 80KSC024R0010.pdf",
+      "s": "screened",
+      "sol": "80KSC024R0010"
     },
     "7472145f6cf5463d919187708f5de8d2": {
       "c": 22404,
@@ -50847,6 +51192,23 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "7895f8cb86de429ca06887117802f552": {
+      "c": 4228,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "g that data shared through HSIN-related capabilities is available only to authorized users, organizations, and communities. Describe how your platform supports: Role-based access control; Least-privilege access; User lifecycle management; Multi-factor authentication; Single sign-on or identity federation; Audit logging; and Periodic access review. Describe your approach to preventing unauthorized data sharing, cross-tenant access, cross-community access, bulk exports, or use of Government data for unauthorized commercial or artificial-intelligence purposes. Identify any existing Federal security authorizations, independent security assessments, or relevant compliance artifacts that could support an HSIN-related integration. Describe the documentation, testing, and security evidence your organization would provide before implementation of an HSIN integration. Describe your operational support model for HSIN-related interfaces, including monitoring, incident response, escalation, maintenance windows, and change management. Describe how",
+          "finding": "DHS CBP seeking secure SaaS data platform with HSIN integration for communications; RFI asks about preventing unauthorized data use for AI purposes.",
+          "news": 4,
+          "quote": "Describe your approach to preventing unauthorized data sharing, cross-tenant access, cross-community access, bulk exports, or use of Government data for unauthorized commercial or artificial-intelligence purposes.",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "2026-10-19 RFI - CIC Software_as_Service Platform Services ATTACHMENT A.docx",
+      "s": "screened",
+      "sol": "RFI_CIC_SaaS_CBP_FY2027"
+    },
     "78b12c9030ad48c387825a0225b7c840": {
       "c": 40743,
       "d": "2026-10-23",
@@ -50932,6 +51294,14 @@
       "n": "10 14 00.20.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "78d1c126d08e4203be01604c071e454b": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "Wage Rates for Ark Lakes OM.pdf",
+      "s": "wage_determination",
+      "sol": "W912EE26RA015"
     },
     "78d42e59fcd145d782bfaa8abf9f3270": {
       "c": 0,
@@ -51295,6 +51665,14 @@
       "n": "Attachment 8 Crestview Guard Station Map.pdf",
       "s": "screened",
       "sol": "1240BH26Q0078"
+    },
+    "79a52a36a99748cea6ee6d5e5b2c5815": {
+      "c": 2400,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Oct FY26 Salient Charateristics Form Corneal Marco Analyzer.pdf",
+      "s": "screened",
+      "sol": "36C24W27Q0010"
     },
     "79a5ff61f7e94f9a8035ec41d29ba2dd": {
       "a": 3,
@@ -53757,6 +54135,14 @@
       "s": "screened",
       "sol": "N0018927QL008"
     },
+    "7f46dc84eafe429cb9d3234391556863": {
+      "c": 3620,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "Attachment 4 - NON DISCLOSURE AGREEMENT.docx",
+      "s": "screened",
+      "sol": "N3220527Q7018"
+    },
     "7f4978fe5fd142fd8f7438e5039b445f": {
       "c": 0,
       "d": "2026-10-20",
@@ -54060,6 +54446,14 @@
       "s": "screened",
       "sol": "SPE602-26-R-0706"
     },
+    "8021863565344236820f84082c627438": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "Attachment 5 - Wage Determination Arizona - 70Z03826QJ0000220.pdf",
+      "s": "wage_determination",
+      "sol": "70Z03826QJ0000220"
+    },
     "80233ea2d58b4de6af8ae3af5cd77457": {
       "c": 56,
       "d": "2026-10-23",
@@ -54332,6 +54726,14 @@
       "n": "Appendix B - Past Performance Form.pdf",
       "s": "screened",
       "sol": "47PF5327Q0001"
+    },
+    "80c7ad5cc8624c56adaa946a149dc2fe": {
+      "c": 3545,
+      "d": "2026-10-25",
+      "m": "xlsx",
+      "n": "Attachment_9_-_Price_Schedule.xlsx",
+      "s": "screened",
+      "sol": "140R4026R0025"
     },
     "80cec19aa9604984b08fd6b5f7b50964": {
       "c": 2826,
@@ -55554,6 +55956,14 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "83db4e6a56e9468a9c4a5e42326a974d": {
+      "c": 3550,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "Yoko Elevator Repair Sources Sought Notice.docx",
+      "s": "screened",
+      "sol": "N00250-26-B003"
+    },
     "83dfaea7c02e4aa196928eba683c934a": {
       "c": 434744,
       "d": "2026-10-15",
@@ -56536,6 +56946,14 @@
       "s": "screened",
       "sol": "SLAC_368560_Fabrication"
     },
+    "86bfb7f84484407185b59c88c54e534b": {
+      "c": 2575,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "RFQ - PR512301.pdf",
+      "s": "screened",
+      "sol": "PR512301"
+    },
     "86c11b6390674480afed0762b1d5e4c8": {
       "c": 1060,
       "d": "2026-10-17",
@@ -57009,6 +57427,15 @@
       "n": "Past Performance Questionnaire.docx",
       "s": "screened",
       "sol": "HT001427QE001"
+    },
+    "87e7cb90a16843d28ca4219b99d9d2de": {
+      "a": 1,
+      "d": "2026-10-25",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Solicitation_27QB028.pdf",
+      "s": "retry",
+      "sol": "FA252127QB028"
     },
     "87ecef2e91be4ac1aab948384fdbc733": {
       "c": 6592,
@@ -58732,6 +59159,14 @@
       "s": "screened",
       "sol": "36C25926D0053"
     },
+    "8b9c960a87f041d5a2a2a8d965cc93ca": {
+      "c": 1234,
+      "d": "2026-10-25",
+      "m": "xlsx",
+      "n": "Attachment E - FRAL Sample Materials List.xlsx",
+      "s": "screened",
+      "sol": "W5168W27RA014"
+    },
     "8b9cb9a78bba47858f062b0e9090e13e": {
       "c": 283,
       "d": "2026-10-10",
@@ -59193,6 +59628,14 @@
       "n": "S02 36C26227Q0011-.pdf",
       "s": "screened",
       "sol": "36C26227Q0011"
+    },
+    "8c8f478e7521474d98e49b9cdc1ddd9e": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "B.1b_482829 - Enclosure B. AMS-Form-050.pdf",
+      "s": "boilerplate_only",
+      "sol": "482829"
     },
     "8c929b0ed8034ab18638671e06876927": {
       "c": 66049,
@@ -61250,6 +61693,14 @@
       "s": "screened",
       "sol": "W912DS25RA002 "
     },
+    "909d9b74f3494f5091b77bc75f9f523e": {
+      "c": 2930,
+      "d": "2026-10-25",
+      "m": "xlsx",
+      "n": "Attachment A - Evaluation Criteria 2- Prior Experience.xlsx",
+      "s": "screened",
+      "sol": "36C26127Q0082"
+    },
     "90b359df6c8c4511a433d260038baf24": {
       "c": 242,
       "d": "2026-10-20",
@@ -61746,6 +62197,14 @@
       "n": "Attachment 13 - USAF Carpet Ordering Guide.pdf",
       "s": "screened",
       "sol": "FA441827R0001"
+    },
+    "9229109134c747208ee8c612788e86da": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "PROC-FRM-466 - Proposal Certifications.pdf",
+      "s": "boilerplate_only",
+      "sol": "388000kmb"
     },
     "922be33ff7a64d9b8ca5cb978986c14e": {
       "c": 2143,
@@ -63187,6 +63646,23 @@
       "s": "screened",
       "sol": "36C25726Q0676"
     },
+    "95791f1e73764f648bdcdce654bf2ed5": {
+      "c": 2399,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "urnished by the Government of the Contractor? A6: Government Q7: Confirm intended placement and connection routing if boiler placement is on the south end but connections are at the north end? A7: East side of the plant (end near Boiler 1 \u2013 near Building 24 hazmat storage area) Q8: What is the required installation and ready for service date? A8: Installation 11/1/2026. Ready for service 12/1/2026. Q9. Is a rental unit rated at about 30ppm NOx on natural gas acceptable for the temporary heating period, given that it is a temporary rental operating under the facility\u2019s existing permit? A9. Yes Q10. If 9 ppm NOx is mandatory, will the Government accept a unit fitted with flue gas recirculation (FGR) or selective catalytic reduction (SCR) to meet it, and will any additional time be allowed for delivery? A10. The most important factor is that the vendor make the delivery date, so the 9-ppm cis is not a deal breaker. Q11. The requirement lists a 95 PSIG operating pressure but also references 35,000 lb./hr. at 212\u00b0 F and a 15 PSIG cod",
+          "finding": "VA urgent boiler rental at Montrose medical center requires installation by November 2026 and service by December 2026, with 120,000 lb/hr steam load and complex emissions requirements.",
+          "news": 4,
+          "quote": "Installation 11/1/2026. Ready for service 12/1/2026.",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C24227Q0042 0002.docx",
+      "s": "screened",
+      "sol": "36C24227Q0042"
+    },
     "957a72bbc1b8496691b226288b981d5e": {
       "c": 25365,
       "d": "2026-10-11",
@@ -63282,6 +63758,14 @@
       "n": "Terms-Conditions-Purchase-Order-Commercial-Products-Services-BSD-CS-2154-09.30.2026.pdf",
       "s": "boilerplate_only",
       "sol": "RFPPR499870"
+    },
+    "95d7903e8b974128aa5e5608b81ecc9c": {
+      "c": 1353,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "DRAFT_B2_08.3_SF1413.pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
     },
     "95db66decb0a449a90412839ce299373": {
       "c": 476,
@@ -63415,6 +63899,14 @@
       "n": "Appendix A-76 AMXG X-Ray Film Processor (Feb 2026) 06-16-2026.pdf",
       "s": "screened",
       "sol": "FA813226Q0062"
+    },
+    "961a7394d7804582b9bf568bac85b72a": {
+      "c": 3695,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "GS-35F-389DA 36C10B26F0081 P00001_1.docx",
+      "s": "screened",
+      "sol": "36C10B26F0081"
     },
     "961bc998aad84b249f959e513e61a806": {
       "c": 756,
@@ -64457,6 +64949,14 @@
       "s": "screened",
       "sol": "36C25727Q0022"
     },
+    "9816e5661b1744a39dae71c1a71f9a2f": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "P07 - Dane County WD 2015-4897 Rev-31 dated 05132026.pdf",
+      "s": "wage_determination",
+      "sol": "36C25227Q0041"
+    },
     "9826b6d691af44028a8665641f1f47ef": {
       "c": 917,
       "d": "2026-10-13",
@@ -64464,6 +64964,14 @@
       "n": "B08_-_Attachment_07_-_Vol_II_-_GenRefs_doc.pdf",
       "s": "screened",
       "sol": "140P2026R0081"
+    },
+    "982e09b285284fd8b6223c31f5fa3c44": {
+      "c": 3726,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "D.4_Appendix C_Competency Assessment_Hazardous Drug Manipulation Technique.pdf",
+      "s": "screened",
+      "sol": "36C25727Q0032"
     },
     "983b9a1c69004f31a42fff446aa79c39": {
       "c": 103821,
@@ -66031,6 +66539,14 @@
       "s": "screened",
       "sol": "W91CRB-27-R-A002"
     },
+    "9b962d1342234fe9b2af6b46ea6bd5ef": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "C04c Wage Determination 1284LM27Q0002.pdf",
+      "s": "wage_determination",
+      "sol": "1284LM27Q0002"
+    },
     "9ba1714e6f9148e5b534f55929072ec0": {
       "c": 288438,
       "d": "2026-10-17",
@@ -66592,6 +67108,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-ANNARBORMIFY27"
     },
+    "9cfd976041114c39b89f734019464479": {
+      "c": 4321,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "N6833526Q1220_SOW_updated_07OCT2026.docx",
+      "s": "screened",
+      "sol": "N6833526Q1220"
+    },
     "9d028e6a446d4dcaa3166b7cd8000594": {
       "c": 19773,
       "d": "2026-10-14",
@@ -67084,6 +67608,14 @@
       "s": "screened",
       "sol": "12363N26Q4181"
     },
+    "9dc601bd5ee949a4ab9cc062f592217a": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "Attachment 26 CBA - Centerra - CBA-2025-181 5-1-2025.pdf",
+      "s": "wage_determination",
+      "sol": "692M15-25-R-00012"
+    },
     "9dd0833c5aea49aea4ca207357e76818": {
       "c": 25014,
       "d": "2026-10-14",
@@ -67131,6 +67663,14 @@
       "n": "Attachment L - TXDOT Spec.pdf",
       "s": "screened",
       "sol": "W911SG27BA002"
+    },
+    "9df918b07d054ad385852aa9902e9c92": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "D.4 WAGE DETERMINATIONS.pdf",
+      "s": "wage_determination",
+      "sol": "36C24226Q0118"
     },
     "9dfb5f912bae4708a2d8685cacefd7c2": {
       "c": 3056,
@@ -67963,6 +68503,15 @@
       "n": "Sol_Clauses_Q4.pdf",
       "s": "screened",
       "sol": "140FF027Q0015"
+    },
+    "a076c11c282241afbdd53856709d30e6": {
+      "a": 1,
+      "d": "2026-10-25",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "SOW TAMLOC Office Setup.pdf",
+      "s": "retry",
+      "sol": "19AQMM26N0212"
     },
     "a0776a7ec68c4a84a80d64a7ab1c55d4": {
       "c": 30571,
@@ -69005,6 +69554,14 @@
       "n": "SPE602-26-R-0706_AMD 0006.pdf",
       "s": "screened",
       "sol": "SPE602-26-R-0706"
+    },
+    "a2ec15068a5e475eaa5cc952f6b167b1": {
+      "c": 697,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "27Q0004_0002_SF30_102026.pdf",
+      "s": "screened",
+      "sol": "HE125427Q0004"
     },
     "a2ed3da2b9714fc1947ea2ae494f4c42": {
       "c": 679475,
@@ -71020,6 +71577,23 @@
       "s": "screened",
       "sol": "12363N26Q4181"
     },
+    "a75bd73419c840b89430d0c37d4e5313": {
+      "c": 3330,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "sUAS KINETICS STATEMENT OF OBJECTIVES (SOO) 1.0 Objective: The Air Force Life Cycle Management Center (AFLCMC) is seeking to identify sources for domestically produced innovative kinetic solutions utilizing Small Uncrewed Aerial Systems (sUAS) to enhance operational capabilities across a range of mission sets. The objective is to identify and procure production-ready Group 1 (up to 20 lbs), Group 2 (20-55 lbs), and Group 3 (55-1,320 lbs) sUAS platforms within 6 months of contract award. These systems must provide a secure, sustainable, and adaptable kinetic capability, meeting stringent performance and operational requirements. All drones and critical drone components for this effort must be compliant with section 848 of the National Defense Authori",
+          "finding": "Air Force seeking production-ready kinetic drone systems (weaponized small unmanned aircraft) in three weight categories within 6 months, requiring domestic manufacture under NDAA compliance.",
+          "news": 5,
+          "quote": "The Air Force Life Cycle Management Center (AFLCMC) is seeking to identify sources for domestically produced innovative kinetic solutions utilizing Small Uncrewed Aerial Systems (sUAS) to enhance operational capabilities across a range of mission sets.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Att 7 - SOO - RPRD Kinetics.pdf",
+      "s": "screened",
+      "sol": "sUAS_RPRD_2026"
+    },
     "a75d0cf316974a48a80884313d4fec9d": {
       "c": 84697,
       "d": "2026-10-14",
@@ -71683,6 +72257,14 @@
       "n": "RFI 36C10B26Q0837 - QandA - Part 2.xlsx",
       "s": "screened",
       "sol": "36C10B26Q0837"
+    },
+    "a8d62ebd64e04daf83e8fc46edcb98a2": {
+      "c": 2232,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Attch. 30.a. FSP ANNEX A SBIWTP (2026).pdf",
+      "s": "screened",
+      "sol": "191BWC26R0009"
     },
     "a8df83c76aa74f589633a281b84e292d": {
       "c": 1278,
@@ -72407,6 +72989,14 @@
       "n": "3 Construction Specifications.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-SANANTONIO(SELOOP410)TXFY27"
+    },
+    "aa9b6ac12bec4fd7b8ca682b08a27647": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "P07 - Dane County WD 2015-4897 Rev-31 dated 05132026.pdf",
+      "s": "wage_determination",
+      "sol": "36C25227Q0041"
     },
     "aa9cfc2f5a7b4dc2a942d2ba91018589": {
       "c": 10419,
@@ -73847,6 +74437,23 @@
       "s": "screened",
       "sol": "36C77627Q0017"
     },
+    "adfa775cc56647659c22c535b84ec4c4": {
+      "c": 3170,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "rtunity to bid or propose on any task order. The NAICS code for this procurement is 236220 with a size standard of $45.0 Million Dollars. The construction range for the seed project is between $1,000,000 and $1,500,000. Contractors will be required under the contract to have a minimum bonding capacity of $2,000,000 for the life of the contract. This acquisition shall be 100% set-aside for Service-Disabled Veteran-Owned Small Business (SBVOSB) concerns per the authority of 38 U.S.C. 8127 (Public Law 109-461). In accordance with VAAR 819.7003(b), at the time of submission of proposal, the offeror must represent that is a SDVOSB concern, a small business concern under the NAICS code assigned to the acquisition, and has a SBA SDVOSB Certification HYPERLINK \"https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fveterans.certify.sba.gov%2F&data=05%7C02%7C%7Cbaaf0c53d12344d98b7d08dc7b2d4fd8%7Ce95f1b23abaf45ee821db7ab251ab3bf%7C0%7C0%7C638520681778755215%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1h",
+          "finding": "VA Danville health care facility seeking construction MATOC up to $21 million with 100% set-aside for service-disabled veteran-owned small businesses.",
+          "news": 3,
+          "quote": "This acquisition shall be 100% set-aside for Service-Disabled Veteran-Owned Small Business (SBVOSB) concerns per the authority of 38 U.S.C. 8127 (Public Law 109-461).",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "36C25227R0001.docx",
+      "s": "screened",
+      "sol": "36C25227R0001"
+    },
     "adfacb9b4183460ca01e23249aa97080": {
       "c": 4511,
       "d": "2026-10-20",
@@ -74970,6 +75577,14 @@
       "n": "Enclosure No. 2I - Appendix TBD ANL-826-MLANV.pdf",
       "s": "screened",
       "sol": "6-B143-P-00251-00"
+    },
+    "b121a6c0bc204f53bc77552662ad11c7": {
+      "c": 1290,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "SF-1413_Statement_and_Acknowledgement_Form_(Subcontracting).pdf",
+      "s": "screened",
+      "sol": "140A2327Q0297"
     },
     "b12f2cef971842f880193181af1529d1": {
       "c": 24251,
@@ -76934,6 +77549,15 @@
       "s": "screened",
       "sol": "W912CM-25-GTEADACE27-02"
     },
+    "b5830f6a2ef74daf883c05b775f4635e": {
+      "a": 1,
+      "d": "2026-10-25",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Solicitation Amendment - N0018927QL0080001.pdf",
+      "s": "retry",
+      "sol": "N0018927QL008"
+    },
     "b5847fb875a941fb98b1e7b483af5a86": {
       "c": 12228,
       "d": "2026-10-11",
@@ -77230,6 +77854,14 @@
       "n": "Amendment 0001_Attachment A - Industry Questions and Answers.pdf",
       "s": "screened",
       "sol": "W50NH9-26-R-A028"
+    },
+    "b613a5a99b9f4cb3bbb767906d134f3a": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr-image",
+      "n": "1240BE26Q0119 -Picture 004.jpg",
+      "s": "boilerplate_only",
+      "sol": "1240BE26Q0119 "
     },
     "b614a8acce7c4d6d82a1469ababed773": {
       "c": 564,
@@ -79288,6 +79920,14 @@
       "s": "screened",
       "sol": "697DCK-27-R-00001"
     },
+    "bab348c3968045e0aa1cf7a117cb3be1": {
+      "c": 3230,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "DAFI36-2903 GLOVES SCARF.pdf",
+      "s": "screened",
+      "sol": " FA489727Q0002"
+    },
     "bab3c1fd6ae24f4187bd9c4e50a9e1f6": {
       "c": 6079,
       "d": "2026-10-11",
@@ -80359,6 +80999,14 @@
       "n": "SATPC0042732 TAB 07 SOW PRINTED.pdf",
       "s": "screened",
       "sol": "80NSSC26943585Q"
+    },
+    "bcffaf37904e4d3caa802d7520bad436": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "Wage Determination - Mpls.pdf",
+      "s": "wage_determination",
+      "sol": "36C26327Q0053"
     },
     "bd0287d6e5d54b44acdb8ade5c45f0d4": {
       "c": 97,
@@ -81451,6 +82099,14 @@
       "s": "boilerplate_only",
       "sol": "PR512301"
     },
+    "bf621b53e54b497c96040b97c059173c": {
+      "c": 1834,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "J11_PWS_Attachment_10_DA_FORM_3479-1R_JUN2003.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
+    },
     "bf6ec437db354cd48f5cd0ff6e009d03": {
       "c": 28066,
       "d": "2026-10-13",
@@ -81955,6 +82611,14 @@
       "n": "80NSSC26940581Q2 - RFQ.pdf",
       "s": "screened",
       "sol": "80NSSC26940581Q2"
+    },
+    "c0d59275ea604b369e594dc6f2f91369": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr-image",
+      "n": "IMG_0028.jpg",
+      "s": "no_text",
+      "sol": "2-1-QSC-T-27-007"
     },
     "c0d6ce3998ad4d5eb55398ff07174620": {
       "c": 720366,
@@ -83182,6 +83846,14 @@
       "s": "screened",
       "sol": "36C26026R0029"
     },
+    "c366c7401aad4d6e983559802a903f7b": {
+      "c": 2939,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "5_REPSHIP.pdf",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
+    },
     "c367832071874790be2fa3816cb88404": {
       "c": 813,
       "d": "2026-10-14",
@@ -83409,6 +84081,14 @@
       "s": "screened",
       "sol": "36C24727Q0036_0001"
     },
+    "c43dadc8babb4a18b42c84ca9e81709b": {
+      "c": 3240,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "DRAFT_B2_08.2_Injury_Illness_Prevention_Plan_Acknowledgement_Form_IIPP.pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
+    },
     "c440bc7e3f2242d385e052cce34ee893": {
       "c": 4525,
       "d": "2026-10-23",
@@ -83515,6 +84195,14 @@
       "n": "Sol_140R4026Q0151_Amd_0002.pdf",
       "s": "screened",
       "sol": "140R4026Q0151"
+    },
+    "c4605da180264625a5974b343d364332": {
+      "c": 3754,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "Attachment P - Past Performance Reference Sheet.docx",
+      "s": "screened",
+      "sol": "W5168W27RA014"
     },
     "c46e9db3afd84bc5b38cef7d0e1d1569": {
       "c": 1086,
@@ -83934,6 +84622,14 @@
       "s": "screened",
       "sol": "36C24426B0015"
     },
+    "c56a276e0ec8425f8ae15b985d79bb63": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "C04-2 Wage Rates Ransom RIchland Counties.pdf",
+      "s": "wage_determination",
+      "sol": "1240BE27Q0011"
+    },
     "c56a3908298f41f9b2544c45811a8da6": {
       "c": 40454,
       "d": "2026-10-11",
@@ -84116,6 +84812,14 @@
       "n": "Attachment 8 - FY26 Basic Agreement Template - FINAL 08122026.docx",
       "s": "screened",
       "sol": "693JK326RA001"
+    },
+    "c5e51b62785f4dc1b2fc6db23fc3060f": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr-image",
+      "n": "Low Pressure Switch - Micron Filter.jpg",
+      "s": "no_text",
+      "sol": "36C26327Q0053"
     },
     "c5eaa850b242473898af798e7b2c83a4": {
       "c": 2259,
@@ -85400,6 +86104,23 @@
       "n": "Attachment 6 - VA NOTICE OF LIMITATIONS ON SUBCONTRACTING CERTIFICATION.pdf",
       "s": "screened",
       "sol": "36C24827Q0013_1"
+    },
+    "c910a02db4ee459bb42e8838ffd6125a": {
+      "c": 1778,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": ", Rehab Hollister and Goats October In progress Pumps, Odor Control, and $11M Pump Station 2026 electrical systems Total = $45,944,795",
+          "finding": "International Boundary and Water Commission emergency repairs at sewage treatment plant totaling $45.9 million; urgent work addressing damage from tropical storms and infrastructure deterioration.",
+          "news": 3,
+          "quote": "Total = $45,944,795",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Attch. 09 SBIWTP Capital Project List as of September 2025.pdf",
+      "s": "screened",
+      "sol": "191BWC26R0009"
     },
     "c91b32995cc346ea8bce71eaa959f8d3": {
       "c": 7418,
@@ -87990,6 +88711,14 @@
       "s": "screened",
       "sol": "FA254927R0002"
     },
+    "cf0557db33d74711ba69d0421c9a7c64": {
+      "c": 13,
+      "d": "2026-10-25",
+      "m": "ocr-image",
+      "n": "1240BE26Q0119 -Picture 001.jpg",
+      "s": "screened",
+      "sol": "1240BE26Q0119 "
+    },
     "cf18d9c3b016483cb3da667d7e31e5f9": {
       "c": 4584,
       "d": "2026-10-18",
@@ -88424,6 +89153,14 @@
       "n": "Polaris SB Pool RFP 47QTCB22R0001 Amend0005.pdf",
       "s": "screened",
       "sol": "47QTCB22R0001"
+    },
+    "cfed086b491248b095c5df2b4a81f4fa": {
+      "c": 4027,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "Micetro Statement of Need.docx",
+      "s": "screened",
+      "sol": "7571TE27Q00018"
     },
     "cfedb52a42ed44cda0b5096f2e4d6ed3": {
       "c": 8320,
@@ -90876,6 +91613,14 @@
       "n": "Attachment_0005_PLS_Labor_Category_Descriptions.xlsx",
       "s": "screened",
       "sol": "W519TC-26-R-AHRS"
+    },
+    "d5ffdcb61f0d4d1fb220528ff4b766b1": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "ocr+pdf",
+      "n": "FA875126Q0013 Attachment 7 Wage Determination NY20260013 dated 18 May 2026.pdf",
+      "s": "wage_determination",
+      "sol": "FA875126Q0013"
     },
     "d6013344ab7d4e6a940452677b582569": {
       "c": 936,
@@ -95776,7 +96521,7 @@
       "sol": "SPE300-26-R-0039"
     },
     "e0bb5fb2d4ed41cfaca1b89149764691": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-25",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -97110,6 +97855,14 @@
       "s": "screened",
       "sol": "70CDCR26C00000002_P00005"
     },
+    "e3adde65698d476f98450eef3b7fe822": {
+      "c": 2540,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "36C24227Q0066.docx",
+      "s": "screened",
+      "sol": "36C24227Q0066"
+    },
     "e3b9763ac02a48d0b58ab006efb14e59": {
       "c": 0,
       "d": "2026-10-14",
@@ -97904,6 +98657,23 @@
       "n": "temp gas.jpg",
       "s": "no_text",
       "sol": "36C24227Q0042"
+    },
+    "e545b3fef93a4bb2bb4420dbd2f7f5bd": {
+      "c": 2355,
+      "d": "2026-10-25",
+      "f": [
+        {
+          "context": "DATE: 30 JUN 2025 In accordance with AFMCI 23-102, paragraph 14.2.1, the chief engineer has determined source inspection is required for air munitions procurements. The following statements, submitted by the chief engineer in accordance with FAR 46.402(f), provide further support for source inspection of munitions items: Quality assurance inspection of explosives and munitions items must be completed at the source to reduce the risk of defective or improperly marked explosives reaching the end-user. The safety consequences of a single defective explosive or improperly marked explosive reaching the end-user are very severe. Customers of typical industrial commodities may be able to tolerate a percent defective of 1% - 3%. In the case of explosives procurement, this percent defective may result in the maiming or death of personnel involved in the handling and use of the items. Air munitions contracts are primarily for delivery of explosive components used in ammunition, precision guided weapons and the ejectio",
+          "finding": "Air Force procuring Enhanced Drogue Rocket Motors (EDRM) for ejection seats; source inspection required for explosives; safety criticality cited for flight personnel survival.",
+          "news": 4,
+          "quote": "Quality assurance inspection of explosives and munitions items must be completed at the source to reduce the risk of defective or improperly marked explosives reaching the end-user. The safety consequences of a single defective explosive or improperly marked explosive reaching the end-user are very ",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "12_ItemDescription_1377015918912.pdf",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
     },
     "e55964879ae842928bb82a6e6684dc79": {
       "c": 61912,
@@ -100263,6 +101033,14 @@
       "s": "screened",
       "sol": "SPE3S1-26-R-XXXX"
     },
+    "eab27264714c42338c62322ed332ceba": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Attachment 25 CBA - Hana - CBA-2025-180 5-1-2025.pdf",
+      "s": "wage_determination",
+      "sol": "692M15-25-R-00012"
+    },
     "eab6a8f0919f42f38177c1708b272025": {
       "c": 27991,
       "d": "2026-10-13",
@@ -100294,6 +101072,14 @@
       "n": "JOFOC - Brainlab -signed.pdf",
       "s": "screened",
       "sol": "36C24227Q0004"
+    },
+    "eabe81c984ca46aa8456fb6e0d6638f7": {
+      "c": 90,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "10_SOWPackaging.pdf",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
     },
     "eac2836ff28943b0a916929af798e5a0": {
       "c": 6942,
@@ -102086,6 +102872,14 @@
       "n": "A3_wage_det.pdf",
       "s": "wage_determination",
       "sol": "N6278926Q1004"
+    },
+    "eeadd5f52d2840549782af2b492544a4": {
+      "c": 1507,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "TRNSPDATA_REPORT.pdf",
+      "s": "screened",
+      "sol": "SPRTA126Q0442"
     },
     "eeb3e32bb2c24d0493cac2b03f2405aa": {
       "c": 438,
@@ -105885,6 +106679,14 @@
       "s": "screened",
       "sol": "SPRMM1-26-Q-GC63"
     },
+    "f6f045d4a6d74b88ae8d658d95388440": {
+      "c": 3490,
+      "d": "2026-10-25",
+      "m": "docx",
+      "n": "RFI_Draft PWS Feedback.docx",
+      "s": "screened",
+      "sol": "N6600127R3505_0001"
+    },
     "f6f4df0c87b64ee4923c9de72d64ad7a": {
       "c": 551,
       "d": "2026-10-23",
@@ -106894,6 +107696,14 @@
       "n": "C05 SF30 1240LT26Q0109-0001.pdf",
       "s": "screened",
       "sol": "1240LT26Q0109 "
+    },
+    "f96ec70976fe44c9a6c8f6b0f7f7b984": {
+      "c": 0,
+      "d": "2026-10-25",
+      "m": "pdf",
+      "n": "Enclosure B - AMS Form 050 Reps and Certs.pdf",
+      "s": "boilerplate_only",
+      "sol": "MB483335"
     },
     "f972bf4a04a942288cc8f2ad2ce3dbb4": {
       "c": 126,

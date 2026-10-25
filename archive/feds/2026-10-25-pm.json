@@ -1,0 +1,308 @@
+{
+ "date": "Sunday, October 25, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Quiet Sunday in contracting: the Air Force asks for weaponized small drones and plans a navigation-warfare lab",
+  "dek": "No sole-source justifications, nothing tied to the White House or Washington, D.C., and no new apportionments.",
+  "paragraphs": [
+   "The most notable item in today's contracting data is an Air Force Life Cycle Management Center request for information on domestically produced small uncrewed aircraft carrying kinetic (weaponized) payloads. According to the statement of objectives, the Air Force wants production-ready systems in three weight classes: Group 1 (up to 20 pounds), Group 2 (20 to 55 pounds) and Group 3 (55 to 1,320 pounds). The file was posted October 20 and was read today.",
+   "Separately, the Air Force Test Center at Arnold Air Force Base asked industry for whitepapers on an Advanced Navigation Simulation Environment Laboratory, an effort to modernize simulation of position, navigation and timing and navigation warfare, using other transaction authority rather than a standard contract."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Drone request for information",
+     "url": "https://sam.gov/opp/55449ffa8e8847fda941b1ece4195c8b/view"
+    },
+    {
+     "text": "Kinetics statement of objectives",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/a75bd73419c840b89430d0c37d4e5313/download"
+    },
+    {
+     "text": "Navigation laboratory whitepaper request",
+     "url": "https://sam.gov/opp/431a272c86e248a69e537c82d7cbbfcb/view"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "White House & Executive Office of the President",
+   "headline": "Nothing tied to the White House in today's contracting data",
+   "paragraphs": [
+    "No items were tagged as White House or Executive Office of the President matters."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Washington, D.C.",
+   "headline": "No new D.C.-related SAM.gov activity this afternoon; this morning's USAspending awards are below",
+   "paragraphs": [
+    "No items were tagged as Washington, D.C. matters."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "USAspending awards and modifications"
+    },
+    {
+     "type": "note",
+     "text": "The USAspending.gov awards below are from this morning's edition: USAspending is pulled once a day."
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Chimes District of Columbia Inc</strong> received $301,507 from the <strong>Bureau of Prisons</strong> (Department of Justice) on October 23 for janitorial services at the HOLC Building in Washington, D.C. The award description cites Executive Order 14398. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15BNAS27F00000016_1540_15BNAS24D00000032_1540\">award</a>)"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Integrated Maintenance and Bus Services LLC</strong> \u2014 $2,825,023, Department of Veterans Affairs: wheelchair van transportation at the Washington, D.C. VA Medical Center (<a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24527N0078_3600_36C24527D0002_3600\">award</a>)."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sole-Source Justifications",
+   "headline": "No new sole-source justifications today",
+   "paragraphs": [
+    "Zero new justifications were posted, and none were left out as repeats."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Extensions",
+   "headline": "No new contract extensions or bridges today",
+   "paragraphs": [
+    "No justifications were posted, so there are no extensions to report."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Award Notices",
+   "headline": "Two routine award notices, both from the Defense Logistics Agency",
+   "paragraphs": [
+    "Two new award notices were posted, both from <strong>Defense Logistics Agency</strong> aviation supply in Philadelphia; one earlier-listed notice was left out."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Other notices: Defense Logistics Agency, DLA Aviation at Philadelphia, 2. One repeat from an earlier edition omitted."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Solicitations",
+   "headline": "Air Force seeks industry whitepapers for a navigation-warfare simulation laboratory at Arnold Air Force Base",
+   "paragraphs": [
+    "Two new solicitations were posted; two repeats from earlier editions were left out. Both new ones are written up below."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force Test Center asks industry for whitepapers on a navigation-warfare simulation laboratory",
+     "meta": [
+      "Solicitation",
+      "Other transaction authority",
+      "Request for whitepapers",
+      "Department of the Air Force"
+     ],
+     "text": "The <strong>Air Force Test Center</strong> at Arnold Air Force Base seeks engineering, technical and integration support to modernize its position, navigation and timing and navigation warfare simulation capability. The request goes to members of the AEDC Velocity Alliance Consortium and other industry partners and uses 10 U.S.C. \u00a7 4022 other transaction authority, which sits outside standard contracting rules. No value is given, and the one attached file has not been read yet.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/431a272c86e248a69e537c82d7cbbfcb/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "FEMA seeks armed guards for its Florida long-term recovery offices",
+     "meta": [
+      "Solicitation",
+      "Proposals due November 4, 2026",
+      "Department of Homeland Security"
+     ],
+     "text": "The <strong>Federal Emergency Management Agency</strong> Region 4 is soliciting Level II armed guard security services, on a labor-hour basis, for its Long Term Recovery Office sites in Lake Mary and Fort Myers, Florida, supporting disaster DR4834. Questions are due October 29. The notice is an amendment adding omitted evaluation-factor documents. Its 11 attached files are queued for reading.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/c099286f63b24e92819fff92d9bafb9e/view"
+      }
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Combined Synopsis/Solicitations",
+   "headline": "368 new combined synopses, nearly all routine Defense Logistics Agency parts buys",
+   "paragraphs": [
+    "368 new notices were posted; none were repeats. The only flagged one is an Oak Ridge National Laboratory equipment purchase."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Oak Ridge National Laboratory's operator, UT-Battelle, seeks a Kardex Megamat storage system and installation for its enrichment science division</strong>. The request also accepts an equivalent product, and its six attachments are queued for reading. (<a href=\"https://sam.gov/opp/c714c6130b9d40d0991dbbe1815c37f3/view\">511976</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Other notices: Defense Logistics Agency, DLA Land and Maritime, 252; DLA Aviation, 100; DLA Troop Support, 14; Department of the Army, Pennsylvania Air National Guard U.S. Property and Fiscal Office, 1."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Presolicitations",
+   "headline": "17 routine presolicitations from Defense Logistics Agency and Navy supply offices",
+   "paragraphs": [
+    "17 new presolicitations were posted; five repeats were left out. Nothing notable."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Other notices: Defense Logistics Agency, DLA Aviation at Philadelphia, 11; Department of the Navy, Naval Supply Systems Command Weapon Systems Support, 6. Five repeats omitted."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Special Notices",
+   "headline": "Veterans Affairs plans a sole-source software-as-a-service buy in North Carolina",
+   "paragraphs": [
+    "Three new special notices were posted; one repeat was left out."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Veterans Affairs plans to award MediaLab Solutions a sole-source contract for the document control service at its Fayetteville, North Carolina medical center</strong>. The agency says the service is already in use and MediaLab is the sole distributor and provider. (<a href=\"https://sam.gov/opp/24386cf78f9949809bf2915cd00acfec/view\">36C24627Q0094</a>)",
+      "<strong>Commerce's Bureau of Industry and Security relays a NATO notice seeking U.S. contractors for audio-visual lifecycle services at Camp Casteau</strong>. Bidders need a Secret facility clearance and a Commerce Declaration of Eligibility. (<a href=\"https://sam.gov/opp/cd7f83c41a334cd9a770a58a3331548d/view\">CO-424399-AVLS</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Other notices: Department of Veterans Affairs, 1. One repeat omitted."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sources Sought",
+   "headline": "No new sources-sought notices today",
+   "paragraphs": [
+    "No new notices were posted; two repeats from earlier editions were left out."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "Immigration and Customs Enforcement exercises a $29.4 million option on its medical claims processing contract",
+   "paragraphs": [
+    "From this morning's edition: USAspending.gov is pulled once a day.",
+    "13 new awards of $2 million or more (none from the Defense Department's 90-day backlog), 1 large modification and 1 cut. Two of the awards, tied to Washington, D.C., are in that section. The 11 routine ones are listed, each linked, in \"USAspending: Every Other New Award\" at the end of the edition."
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "text": "<strong>Acentra Health LLC</strong> received a $29,393,066 modification from <strong>U.S. Immigration and Customs Enforcement</strong> on October 23. It exercises option period 1 (modification P00006) on a contract to provide the Immigration and Customs Enforcement Health Service Corps with medical claims processing support. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70CDCR26C00000002_7012_-NONE-_-NONE-\">award</a>)"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Jimenez Engineering Solutions, LLC</strong> won $3,185,000 from the <strong>General Services Administration</strong>'s Public Buildings Service for design and construction at the Border Patrol Big Bend District Station on West Madrid Street in Marfa, Texas. The project covers two new modular buildings and the demolition of another. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_47PB5327F0001_4740_47PH0825D0017_4740\">award</a>)"
+    },
+    {
+     "type": "paragraph",
+     "text": "<strong>Vantor Services Inc.</strong> received $4,398,855 from the <strong>Department of the Interior</strong>'s Departmental Offices to expand the use of artificial intelligence and machine learning for forensic analysis of historic and new data, aimed at identifying \"extremely low frequency suspect activities not currently known to be occurring.\" The description does not say what activity is meant. (<a href=\"https://www.usaspending.gov/award/CONT_AWD_140D0427C0152_1406_-NONE-_-NONE-\">award</a>)"
+    },
+    {
+     "type": "subhead",
+     "text": "Other notable awards"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Labels & Lists Inc</strong> \u2014 $950,000, Department of Commerce (U.S. Census Bureau): commercial voter registration data; the description gives no further detail on its use (<a href=\"https://www.usaspending.gov/award/CONT_AWD_13PDRD27C0001_1323_-NONE-_-NONE-\">award</a>).",
+      "<strong>TIMS 8A JV LLC</strong> \u2014 $354,151, Department of Homeland Security (U.S. Customs and Border Protection): tactical infrastructure maintenance in the El Paso and Big Bend North areas (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70B01C27C00000001_7014_-NONE-_-NONE-\">award</a>).",
+      "<strong>CoreCivic, Inc.</strong> \u2014 $929,066, Department of Justice (Bureau of Prisons): residential reentry center services in Newport News, Virginia, and home confinement services in the Eastern District of Virginia, an option year (<a href=\"https://www.usaspending.gov/award/CONT_AWD_15BRRC27F00000017_1540_15BRRC22D00000334_1540\">award</a>).",
+      "<strong>Mustansir Barma</strong> \u2014 $332,510, United States Trade and Development Agency: a personal services contract for a regional manager for Africa, based in Johannesburg, South Africa (<a href=\"https://www.usaspending.gov/award/CONT_AWD_1131PL27C0001_1153_-NONE-_-NONE-\">award</a>).",
+      "<strong>TM3 Solutions, Inc.</strong> \u2014 $166,130, Department of Homeland Security (Federal Emergency Management Agency): aerial imagery and geospatial labor for the Guam tropical cyclone disaster response (<a href=\"https://www.usaspending.gov/award/CONT_AWD_70FB7027F00000002_7022_70FB7025A00000001_7022\">award</a>).",
+      "<strong>Artemis Creek, LLC</strong> \u2014 $143,277, Department of State: information technology support for a G20 conference (<a href=\"https://www.usaspending.gov/award/CONT_AWD_19AQMM27P0057_1900_-NONE-_-NONE-\">award</a>)."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "85 new awards under $2 million were screened (none from the Defense backlog). The screen flagged seven; six are listed above. 11 awards worth $2.1 million cite Executive Order 14398 in their descriptions."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Lobbying \u00d7 Contracts",
+   "headline": "Companies that lobby Washington and just won federal money",
+   "paragraphs": [
+    "2 of 11 large new awardees checked are also registered federal lobbying clients, collectively landing $8,070,927 or more in new awards."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Jacobs Engineering Group Inc.</strong>: $180,000 in lobbying reported so far in 2026 (3 quarters); issues: Transportation, Defense, Agriculture, Energy/Nuclear; firms: BROWNSTEIN HYATT FARBER SCHRECK, LLP. <a href=\"https://lda.gov/filings/public/filing/f1a245ee-5d6d-46cd-bc14-09dac8f50f5d/print/\">latest filing</a>. New awards: $4,402,031 from Federal Highway Administration (10/23/2026, A/e design for wy np yell 12(4), northeast entrance road, phase 1) <a href=\"https://www.usaspending.gov/award/CONT_AWD_69056727F00003N_6925_6982AF22D000003_6925\">award</a>.",
+      "<strong>Thundercat Technology, Llc</strong>: a registered lobbying client in 2026, no quarterly spend reported yet; issues: Computer Industry; firms: BALLARD PARTNERS. <a href=\"https://lda.gov/filings/public/filing/3c1944ac-d871-438f-a1f0-a295c0c9cfb5/print/\">latest filing</a>. New awards: $3,668,896 from National Aeronautics and Space Administration (10/23/2026, This requirement is for the fy27 sentinel one license renewal) <a href=\"https://www.usaspending.gov/award/CONT_AWD_80TECH27FA012_8000_NNG15SD26B_8000\">award</a>."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Awards of $1M+ from this edition's USAspending pull, matched by company name to Lobbying Disclosure Act clients for the current year. Spend is the largest report per quarter (a client with several firms may have spent more). Contractors lobbying under a parent or subsidiary name will not match."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending: Every Other New Award",
+   "headline": "11 routine contract actions, all linked",
+   "paragraphs": [
+    "11 more items from today's USAspending pull that the screen judged routine (spare parts, fuel, maintenance, option exercises, closeout de-obligations and the like), listed so nothing is dropped. Defense Department awards are published about 90 days after signing; those show the signing date."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Department of Housing and Urban Development</strong> \u2014 2 new awards, $10,893,610: <a href=\"https://www.usaspending.gov/award/CONT_AWD_86614527F00001_8600_86614526D00007_8600\">Alpine Companies, Inc. $8,010,038</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_86614527F00002_8600_86614526D00008_8600\">Alpine Companies, Inc. $2,883,572</a>",
+      "<strong>General Services Administration</strong> \u2014 1 new award, $8,650,312: <a href=\"https://www.usaspending.gov/award/CONT_AWD_47PB5127C0001_4740_-NONE-_-NONE-\">Cci Facility Contractors, LLC $8,650,312</a>",
+      "<strong>Department of Health and Human Services</strong> \u2014 2 new awards, $6,582,771: <a href=\"https://www.usaspending.gov/award/CONT_AWD_75H70727F05018_7527_75H70723D00003_7527\">First Nations Community Health Source Inc $3,559,639</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_75N98027C00002_7529_-NONE-_-NONE-\">Medical Records Corp. of Maryland $3,023,132</a>",
+      "<strong>Department of Veterans Affairs</strong> \u2014 2 new awards, $5,410,081: <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C25027N0013_3600_36C25026D0034_3600\">Integrated Maintenance and Bus Services LLC $3,243,415</a>; <a href=\"https://www.usaspending.gov/award/CONT_AWD_36C24227C0018_3600_-NONE-_-NONE-\">F &amp; C Group JV LLC $2,166,666</a>",
+      "<strong>Department of Transportation</strong> \u2014 1 new award, $4,402,031: <a href=\"https://www.usaspending.gov/award/CONT_AWD_69056727F00003N_6925_6982AF22D000003_6925\">Jacobs Engineering Group Inc. $4,402,031</a>",
+      "<strong>National Aeronautics and Space Administration</strong> \u2014 1 new award, $3,668,896: <a href=\"https://www.usaspending.gov/award/CONT_AWD_80TECH27FA012_8000_NNG15SD26B_8000\">Thundercat Technology, LLC $3,668,896</a>",
+      "<strong>Department of Justice</strong> \u2014 1 new award, $2,785,559: <a href=\"https://www.usaspending.gov/award/CONT_AWD_15JPSS26F00001832_1501_NNG15SD19B_8000\">Alvarez LLC $2,785,559</a>",
+      "<strong>Department of Agriculture</strong> \u2014 1 cut, -$7,392,498: <a href=\"https://www.usaspending.gov/award/CONT_AWD_12314424C0021_1205_-NONE-_-NONE-\">Peckham Vocational Industries, Inc. -$7,392,498</a>"
+     ]
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new apportionment files approved in this window",
+   "paragraphs": [
+    "The <strong>Office of Management and Budget</strong> released no new apportionments between October 20\u201325, 2026. Data sources for both OpenOMB and the Apportionment Public System were available and fully scanned."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 24-25, 2026 (Pacific time), SAM.gov notices and attached documents.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; SAM.gov contract opportunities and their attached documents. USAspending is pulled in the morning edition only.",
+  "known_gaps": "No source errors were reported. The Office of Management and Budget apportionment scan found no new files between October 20 and 25. Of 21 attachments on 6 notices, none were read this run: all 21 are queued for a later edition, and 3,765 files in total are queued. Notices link to 385 outside portals (DIBBS and NECO), which were not followed."
+ },
+ "beat": []
+}
