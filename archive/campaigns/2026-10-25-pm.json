@@ -1,0 +1,19 @@
+{
+ "date": "Sunday, October 25, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings surfaced since the last edition",
+  "dek": "All 145 RFAI and Form 99 filings in the three-day window were already reported in earlier editions.",
+  "paragraphs": [
+   "The window covers filings received October 22 onward. It held 145 RFAI (FRQ) and Form 99 filings, and every one was reported in a prior edition, so nothing new is listed today.",
+   "No red-flag keyword hits and no voided or negative transactions of $10,000 or more turned up in new data. The deterministic extras (Deadline Watch, Money Out, outside money and megadonors) also found nothing new to report. One data pull, the Schedule A query for large negative amounts, timed out at the FEC (HTTP 504), so voided and negative transaction coverage may be incomplete."
+  ]
+ },
+ "sections": [],
+ "footer": {
+  "coverage_window": "FEC FRQ (RFAI) and Form 99 filings received October 22, 2026 onward, checked on the Sunday, October 25, 2026 PM edition.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "NASA's Astronomy Picture of the Day page layout changed (image, title and explanation not found) and the page returned HTTP 500, so it is omitted. The FEC Schedule A request for negative contributions of $10,000 or more (loaded since October 22, 2026) failed with HTTP 504 (query timed out), so voided and negative transaction coverage may be incomplete."
+ },
+ "beat": []
+}
