@@ -1,0 +1,117 @@
+{
+ "date": "Sunday, October 25, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "A quiet Sunday: no new contacts, FARA filings or financial disclosures",
+  "dek": "The only new material today is a batch of third-quarter lobbying reports and two terminations.",
+  "paragraphs": [
+   "No filing in today's window shows a communication with the President, the Vice President or a cabinet-level official, and no new FARA documents or House or Senate financial disclosures came in. The Office of Government Ethics reported no new flagged filings.",
+   "The lobbying filings posted since October 24 are 17 third-quarter reports and terminations. The most notable is the <strong>National Education Association</strong> report, which lists $670,000 in expenses. It is routine and carries no covered-position or foreign-client signal.",
+   "The Senate electronic financial disclosure system returned an error during this run, so Senate filings could not be checked today."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "National Education Association Q3 report",
+     "url": "https://lda.gov/filings/public/filing/78cc9692-dbe4-4465-9848-7c94ddc1d439/print/"
+    },
+    {
+     "text": "Stryker Corporation Q3 report",
+     "url": "https://lda.gov/filings/public/filing/b1b7888b-1281-4ddc-a7f7-6ebb5e810211/print/"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new OGE ethics filings this reporting window",
+   "paragraphs": [
+    "The Office of Government Ethics filing system shows 56 total filings during the October 22\u201325 window, but none constitute new flagged actions (Certificates of Divestiture, Terminations, or ethics agreements with direct-link PDFs) or routine disclosures meeting publication criteria."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "Third-quarter reports and two terminations, nothing unusual",
+   "paragraphs": [
+    "Since October 24, 17 filings were posted: 15 third-quarter reports and 2 third-quarter terminations, with no new registrations. Six of the reports carry a signal, most of them former congressional staff listed as covered positions; the other nine are routine and left out."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "What's Being Lobbied"
+     ],
+     "rows": [
+      [
+       "<strong>Alpha Strategies, LLC</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/24ae93ab-c695-474e-b83f-eecd99069ab1/print/\">filing</a>)",
+       "<strong>LWRC International, LLC</strong> (firearms manufacturer)",
+       "Trade (domestic/foreign)",
+       "Foreign Military Sales; terminated August 15, 2026"
+      ],
+      [
+       "<strong>Navitus Health Solutions</strong> (termination, <a href=\"https://lda.gov/filings/public/filing/b23a654e-5aec-4ceb-be4a-d03636e0c8d2/print/\">filing</a>)",
+       "<strong>Navitus Health Solutions</strong> (pharmacy benefit manager and specialty pharmacy)",
+       "Health Issues, Insurance, Labor Issues/Antitrust/Workplace, Pharmacy",
+       "Pharmacy benefit manager reform, the Patients Before Monopolies Act, drug supply chain transparency, senior access to drugs; $30,000 in expenses; terminated September 30, 2026"
+      ],
+      [
+       "<strong>National Education Association</strong> (<a href=\"https://lda.gov/filings/public/filing/78cc9692-dbe4-4465-9848-7c94ddc1d439/print/\">report</a>)",
+       "<strong>National Education Association</strong>",
+       "Agriculture, Budget/Appropriations, Civil Rights/Civil Liberties, Defense, Education, Government Issues, Health Issues, Labor Issues/Antitrust/Workplace, Retirement, Taxation/Internal Revenue Code",
+       "Department of Education interagency agreements, Graduated Corporate Tax Act, Keep Public Funds in Public Schools Act, Back-to-School Supplies Affordability Act; $670,000 in expenses"
+      ],
+      [
+       "<strong>Stryker Corporation</strong> (<a href=\"https://lda.gov/filings/public/filing/b1b7888b-1281-4ddc-a7f7-6ebb5e810211/print/\">report</a>)",
+       "<strong>Stryker Corporation</strong>",
+       "Health Issues, Medicare/Medicaid, Trade (domestic/foreign)",
+       "Global supply chains, reprocessing, digital health, medical device reimbursement, Medicare extenders for EMS; covered positions include Elizabeth Burke (former Senate and House communications director), Nathaniel Tipton (former House legislative director) and Page Kranbuhl (former Senate HELP subcommittee staff); $290,000 in expenses"
+      ],
+      [
+       "<strong>Elevate Government Affairs, LLC</strong> (<a href=\"https://lda.gov/filings/public/filing/96076431-672c-4a97-9989-7fd2e19aa778/print/\">report</a>)",
+       "<strong>Wolf Global Air, LLC</strong> (aviation and logistics services)",
+       "Aerospace, Defense",
+       "Air-to-air refueling services and air-to-air pilot training; covered positions include Bret Manley (former chief of staff to Rep. Rodney Davis and Rep. Jeff Denham) and Michelle Richardson (former staff for Rep. Roger Wicker and the House Appropriations Committee); $20,000 in income"
+      ],
+      [
+       "<strong>Elevate Government Affairs, LLC</strong> (<a href=\"https://lda.gov/filings/public/filing/663ac476-864b-4cf8-8de2-3745f2da246e/print/\">report</a>)",
+       "<strong>American Superconductor Corporation</strong> (energy technology development)",
+       "Budget/Appropriations, Defense",
+       "Department of Defense funding and shipbuilding; covered position: David Marten (former legislative director to Sen. Maria Cantwell); $10,000 in income"
+      ],
+      [
+       "<strong>Elevate Government Affairs, LLC</strong> (<a href=\"https://lda.gov/filings/public/filing/b689ba28-52eb-4302-a419-000beb7b7bae/print/\">report</a>)",
+       "<strong>Pentagon Memorial Fund Inc.</strong> (9/11 visitor education center)",
+       "Defense",
+       "FY27 Department of Defense appropriations (H.R. 9495) and Senate; covered positions include Chris Leuchten (former aide to Sen. Mark Begich) and Michelle Richardson"
+      ],
+      [
+       "<strong>Elevate Government Affairs, LLC</strong> (<a href=\"https://lda.gov/filings/public/filing/16d1886e-384a-4d8f-be1e-0d164ced9e7e/print/\">report</a>)",
+       "<strong>Zeno Power Systems, Inc.</strong> (radioisotope power system developer)",
+       "Defense, Energy/Nuclear",
+       "Small-scale nuclear batteries; covered positions: David Marten and Michelle Richardson"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Nine activity reports with no signal were left out and are counted only in the totals above."
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA and LDA filings posted October 24, 2026 onward; financial disclosures filed October 22, 2026 onward, excluding filings reported in earlier editions; OGE filings October 22 to 25, 2026.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "The Senate eFD fetch failed (Expecting value: line 1 column 1 (char 0)), so Senate disclosures, Senate annual-report checks and Senate extension checks could not be completed, and the absence of Senate filings today is not confirmed. The OGE section reported no gaps. No Contacts, FARA or House disclosure items were in the input. No gaps; OGE system is reachable and shows no new flagged filings or routine disclosure documents in the reporting window."
+ },
+ "beat": []
+}
