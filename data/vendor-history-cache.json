@@ -187,6 +187,21 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "additive manufacturing technologie": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 17757.5,
+        "recipient": "ADDITIVE MANUFACTURING TECHNOLOGIES INC",
+        "start": "2025-03-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0017825P6689_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2025-03-13",
+    "has_contracts": true,
+    "raw_hits": 2
+  },
   "advantor system": {
     "d": "2026-10-14",
     "examples": [
@@ -1998,6 +2013,35 @@
     "has_contracts": false,
     "raw_hits": 0
   },
+  "comcast cable communication": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 839228.19,
+        "recipient": "COMCAST CABLE COMMUNICATIONS, LLC",
+        "start": "2021-10-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA448422P0004_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 801379.09,
+        "recipient": "COMCAST CABLE COMMUNICATIONS, LLC",
+        "start": "2023-03-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75D30123C16007_7523_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 700616.86,
+        "recipient": "COMCAST CABLE COMMUNICATIONS, LLC",
+        "start": "2019-03-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75D30119C04287_7523_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2001-03-05",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "concept plus": {
     "d": "2026-10-15",
     "examples": [
@@ -3527,6 +3571,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "humanetic innovative solution": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 6536826.0,
+        "recipient": "HUMANETICS INNOVATIVE SOLUTIONS, INC",
+        "start": "2024-09-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA860624CB002_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Transportation",
+        "amount": 5023901.0,
+        "recipient": "HUMANETICS INNOVATIVE SOLUTIONS, INC",
+        "start": "2016-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0069_6940_DTNH2213D00301_6940"
+      },
+      {
+        "agency": "Department of Transportation",
+        "amount": 4000000.0,
+        "recipient": "HUMANETICS INNOVATIVE SOLUTIONS, INC",
+        "start": "2025-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ925F00110N_6940_693JJ920D000002_6940"
+      }
+    ],
+    "first": "2009-01-29",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "immix technology": {
     "d": "2026-10-10",
     "examples": [],
@@ -3650,6 +3723,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "jay em aerospace": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1797957.5,
+        "recipient": "JAY-EM AEROSPACE CORPORATION",
+        "start": "2025-04-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRHA125C0009_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1639002.56,
+        "recipient": "JAY-EM AEROSPACE CORPORATION",
+        "start": "2025-04-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A725C0093_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1125429.48,
+        "recipient": "JAY-EM AEROSPACE CORPORATION",
+        "start": "2022-09-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRHA122C0013_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-09-27",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "john fabick tractor": {
     "d": "2026-10-10",
     "examples": [
@@ -3736,6 +3838,35 @@
     "first": "1997-06-15",
     "has_contracts": true,
     "raw_hits": 150
+  },
+  "johnson control": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 175790112.71,
+        "recipient": "JOHNSON CONTROLS GOVERNMENT SYSTEMS, LLC",
+        "start": "2001-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EJP3_9700_DACA8797D0069_9700"
+      },
+      {
+        "agency": "Department of Energy",
+        "amount": 130475726.14,
+        "recipient": "JOHNSON CONTROLS GOVERNMENT SYSTEMS, LLC",
+        "start": "1999-12-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DEAC0697RL13184_8900_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 116776184.65,
+        "recipient": "JOHNSON CONTROLS FEDERAL SYSTEMS/VERSAR, LLC",
+        "start": "2014-07-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_TG03_9700_FA300208D0024_9700"
+      }
+    ],
+    "first": "1999-12-15",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "johnson control building solution": {
     "d": "2026-10-16",
@@ -4301,6 +4432,35 @@
     "first": "2007-09-14",
     "has_contracts": true,
     "raw_hits": 122
+  },
+  "magnetic seal": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1448224.56,
+        "recipient": "MAGNETIC SEAL LLC",
+        "start": "2025-03-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE7L125P4264_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 889061.16,
+        "recipient": "MAGNETIC SEAL LLC",
+        "start": "2026-07-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE7L126C0115_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 793934.4,
+        "recipient": "MAGNETIC SEAL LLC",
+        "start": "2025-08-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A725PE731_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-04-06",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "marotta control": {
     "d": "2026-10-10",
@@ -5041,6 +5201,13 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "pacific pilotage association of canada": {
+    "d": "2026-10-26",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "panopto": {
     "d": "2026-10-10",
     "examples": [
@@ -5676,6 +5843,35 @@
       }
     ],
     "first": "1986-12-18",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "safran landing system": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 74319795.0,
+        "recipient": "SAFRAN LANDING SYSTEMS",
+        "start": "2003-11-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_F4263003C0028_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 15335550.0,
+        "recipient": "SAFRAN LANDING SYSTEMS",
+        "start": "2025-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA820325F0006_9700_FA820319D0001_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 13782161.54,
+        "recipient": "SAFRAN LANDING SYSTEMS CANADA INC",
+        "start": "2011-01-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRPA111C001Y_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2003-11-04",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -6787,6 +6983,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:CLH8D5KDN9D6": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 53365288.0,
+        "recipient": "HYDRAULICS INTERNATIONAL, INC.",
+        "start": "1999-04-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6833599C0167_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 20692266.0,
+        "recipient": "HYDRAULICS INTERNATIONAL, INC.",
+        "start": "2022-04-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA853222F0076_9700_FA853221D0001_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 20202191.45,
+        "recipient": "HYDRAULICS INTERNATIONAL, INC.",
+        "start": "2017-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA853217F0260_9700_FA853311D0001_9700"
+      }
+    ],
+    "first": "1999-04-15",
+    "has_contracts": true,
+    "raw_hits": 96
+  },
   "uei:CWLNZ4TJCLE4": {
     "d": "2026-10-22",
     "examples": [
@@ -7451,6 +7676,35 @@
       }
     ],
     "first": "2019-01-24",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:JC8KASZL6W95": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 11569218.04,
+        "recipient": "POWERHOUSE RESOURCES INTERNATIONAL LLC",
+        "start": "2022-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA822422F0088_9700_FA822419D0010_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 10300488.01,
+        "recipient": "POWERHOUSE RESOURCES INTERNATIONAL LLC",
+        "start": "2021-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA822421F0092_9700_FA822419D0010_9700"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 8917453.44,
+        "recipient": "VETPRIDE SERVICES, INC.",
+        "start": "2019-10-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25720C0008_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2010-01-25",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -8932,6 +9186,42 @@
     "first": "2004-12-02",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "united rental": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 3048343.51,
+        "recipient": "UNITED RENTALS, INC.",
+        "start": "2023-08-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N3904023C0022_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2814923.62,
+        "recipient": "UNITED RENTALS, INC.",
+        "start": "2008-07-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912GY08P0150_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2707229.44,
+        "recipient": "UNITED RENTALS, INC.",
+        "start": "2022-04-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N3904022C0004_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-04-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "university for atmospheric research": {
+    "d": "2026-10-26",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
   },
   "university of california san francisco": {
     "d": "2026-10-16",
