@@ -1,0 +1,218 @@
+{
+ "date": "Monday, October 26, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Rep. Dan Crenshaw still has no 2025 annual financial disclosure on file, 74 days past his final extension",
+  "dek": "The Deadline Watch check flags the Texas Republican as the one sitting member with no CY2025 annual report on file after every extension has run out.",
+  "paragraphs": [
+   "<strong>Rep. Dan Crenshaw</strong> (R-TX-2) filed an extension on 6/4/2026. His final extension date was 8/13/2026, and as of today no CY2025 annual financial disclosure appears under his name, 74 days later. He is the only sitting member the check found in that position.",
+   "The check compares every sitting member against the Clerk of the House index and Senate eFD. It is partial today: the Senate annual-report and Senate extension checks both failed with a parsing error, so the Senate side is unverified. A filing under an unexpected spelling of a name can also read as missing, so the result is a flag, not a confirmed non-filing.",
+   "Among the other deterministic extras, seven confirmed officials still have no posted certification of ethics-agreement compliance more than 30 days past deadline. The longest-running is <strong>Michelle White Bowman</strong>, Vice Chair for Supervision at the <strong>Federal Reserve System Board of Governors</strong>, whose certification was due 9/2/2025, 419 days ago. Today's OGE summary reported no new divestitures or terminations."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "No new ethics divestitures or terminations reported",
+   "paragraphs": [
+    "Routine OGE ethics filings continue as scheduled; no new ethics-related divestitures, termination certifications, or flagged agreements are available today."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Personal Financial Disclosures & Stock Trades",
+   "headline": "No new House or Senate disclosures in today's input; Senate eFD fetch failed",
+   "paragraphs": [
+    "The input contained no new House or Senate financial disclosures filed since 2026-10-23 that earlier editions had not already reported, and no periodic transaction reports to parse. The Senate eFD fetch returned an error, so the Senate count reflects a failed check, not a confirmed absence of filings."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "0 House and 0 Senate filings in the input. Senate eFD fetch error: Expecting value: line 1 column 1 (char 0)."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "No new registrations or terminations; third-quarter reports dominate",
+   "paragraphs": [
+    "Of 14 LDA filings posted since 2026-10-25, 12 are 3rd Quarter reports, 1 is a 2nd Quarter amendment and 1 is a 3rd Quarter amendment. There are no new registrations and no terminations. Seven reports carried a signal and are listed below; the other seven had none and are only counted here."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "What's Being Lobbied"
+     ],
+     "rows": [
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/b24ec893-4a2a-479c-aad6-82965e30a162/print/\"><strong>Swisher International, Inc.</strong>, f/k/a SI Group Client Services</a> (in-house, $300,000 expenses)",
+       "<strong>Swisher International, Inc.</strong>",
+       "Tobacco; Trade (domestic/foreign)",
+       "Tariffs and trade; tobacco products including modern oral tobacco; FDA reforms. Covered position: Patrick Rooney, former chief of staff, deputy chief of staff and legislative director to Rep. Dan Meuser and legislative director to Rep. John Faso."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/b1b7888b-1281-4ddc-a7f7-6ebb5e810211/print/\"><strong>Stryker Corporation</strong></a> (in-house, $290,000 expenses)",
+       "<strong>Stryker Corporation</strong>",
+       "Health Issues; Medicare/Medicaid; Trade (domestic/foreign)",
+       "Global supply chains for medical devices, reprocessing, digital health, med tech reimbursement, Medicare extenders for EMS, payment models and coverage decisions. Covered positions: Elizabeth Burke (former Senate and House communications director), Nathaniel Tipton (former House legislative director), Page Kranbuhl (former Senate HELP Subcommittee staff)."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/f16f5ad5-b316-476a-bd13-3ccae15b9391/print/\"><strong>CLS Strategies</strong> (formerly Chlopak, Leonard, Schechter and Associates, Inc.)</a> ($170,000 income)",
+       "<strong>DJI Technology, Inc.</strong> (manufacturer of commercial and recreational unmanned aircraft systems)",
+       "Aviation/Airlines/Airports; Defense; Natural Resources",
+       "Issues and policies pertaining to unmanned aircraft systems."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/9943243b-c864-4d2f-80fd-bd6dfca51163/print/\"><strong>C.H. Robinson Worldwide, Inc.</strong></a> (in-house, $100,000 expenses)",
+       "<strong>C.H. Robinson Worldwide, Inc.</strong> (third-party logistics)",
+       "Transportation",
+       "Clarifying information published by the Federal Motor Carrier Safety Administration in interstate commerce (HR 5337); supports HR 5688 (Dalilah's Law) and HR 7539 (SAFE Act)."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/6a990609-5fd9-461e-bee7-c652332ee331/print/\"><strong>Strogen LLC</strong></a>",
+       "<strong>OMC Thermochemistry</strong> (f/k/a OMC Hydrogen)",
+       "Chemicals/Chemical Industry; Defense; Energy/Nuclear; Science/Technology",
+       "Federal investment in research, development and demonstration of the client's thermochemical process for hydrogen and syngas; briefings of Department of Defense officials and congressional defense committees on operational energy and fuel supply vulnerabilities. Covered position: Bret Strogen, former special assistant for energy and sustainability in the Office of the Assistant Secretary of the Army for Installations, Energy and Environment."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/5ea838d6-1922-4d4d-9109-5f70a11d76d1/print/\"><strong>Strogen LLC</strong></a>",
+       "<strong>Ingenium Technologies Corp</strong>",
+       "Defense",
+       "FY27 defense appropriations and NDAA report language for a next-generation onboard oxygen generation system (OBOGS) under development in an Air Force RDT&amp;E program. Covered position: Bret Strogen, former special assistant for energy in the Office of the Assistant Secretary of the Army for Installations, Energy and Environment."
+      ],
+      [
+       "<a href=\"https://lda.gov/filings/public/filing/cbb82161-8820-450b-8a17-f552bf6aaadb/print/\"><strong>The National Grange of the Order of Patrons of Husbandry</strong></a> (in-house)",
+       "<strong>The National Grange of the Order of Patrons of Husbandry</strong>",
+       "Agriculture; Food Industry; Health Issues; Medical/Disease Research/Clinical Labs; Railroads; Taxation/Internal Revenue Code; Telecommunications",
+       "2026 Farm Bill, agriculture appropriations, agricultural workforce, 340B and pharmacy benefit manager issues, expiring tax cuts and Big Beautiful Bill Act regulations, food labeling and New World Screwworm. Covered position: Burton Eller, listed as legislative director."
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Seven activity reports with no signal were left out and are counted only in the totals above. Separately, one new filing in a watched industry appears in the Industries to Watch extra."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Missing, late and delayed financial disclosures",
+   "paragraphs": [
+    "1 sitting member still has no CY2025 annual financial disclosure on file, past every extension."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Still missing: no CY2025 annual report on file"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Dan Crenshaw (R-TX-2)</strong>: extension filed 6/4/2026; 74 days past the 8/13/2026 final extension date."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Checked against every sitting member's filings in the Clerk of the House index and Senate eFD. Members sworn in after Nov. 1 of the report year owe no annual report and are excluded. Spot-check a name before publishing: a filing under an unexpected name spelling can read as missing."
+    },
+    {
+     "type": "note",
+     "text": "Partial check: Senate annual-report check failed: Expecting value: line 1 column 1 (char 0) | Senate extensions: Expecting value: line 1 column 1 (char 0)"
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Ethics Agreement Tracker",
+   "headline": "Ethics agreements still awaiting compliance certification",
+   "paragraphs": [
+    "7 confirmed officials have no posted certification of ethics-agreement compliance, more than 30 days past deadline."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "No compliance certification posted, past deadline"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Michelle White Bowman</strong> (Governor &amp; Vice Chairman for Supervision, Federal Reserve System Board of Governors): confirmed 6/4/2025, certification due 9/2/2025, 419 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/98C6B54F7E9EBF2A85258C66002C8D51/$FILE/Bowman%2C%20Michelle%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Andrea R Lucas</strong> (Commissioner 2, Equal Employment Opportunity Commission): confirmed 7/31/2025, certification due 10/29/2025, 362 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/524880C156A84DF585258C95002C9275/$FILE/Lucas%2C%20Andrea%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Jonathan Morrison</strong> (Administrator, National Highway Traffic Safety Administration, Department of Transportation): confirmed 9/18/2025, certification due 12/17/2025, 313 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2F004F967FAB12C085258C8B002C8C43/$FILE/Morrison%2C%20Jonathan%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Sean O'Keefe</strong> (Deputy Under Secretary for Personnel &amp; Readiness, Department of Defense/Office of The Secretary): confirmed 9/18/2025, certification due 12/17/2025, 313 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4DF22552ED9952C385258C62002C8C4D/$FILE/O%27Keefe%2C%20Sean%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Joseph Popolo</strong> (Ambassador to Netherlands (Kingdom of), Department of State): confirmed 10/7/2025, certification due 1/5/2026, 294 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/939374EC5534231985258C75002C92A5/$FILE/Popolo%2C%20Joseph.%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Ronald A Parsons</strong> (U.S. Attorney South Dakota 2, Department of Justice): confirmed 10/7/2025, certification due 1/5/2026, 294 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E09EB39F48B37AD985258CCC002C992A/$FILE/Parsons%2C%20Jr.%2C%20Ronald%20A.%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Marc Berkowitz</strong> (Assistant Secretary for Space Policy, Department of Defense/Office of The Secretary): confirmed 12/18/2025, certification due 3/18/2026, 222 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BF37B1F1ED801E4B85258D04002C201E/$FILE/Berkowitz%2C%20Marc%20%20finalEA.pdf\">Ethics agreement</a>"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Tracking 483 Senate-confirmed officials with ethics agreements since Jan. 20, 2025. Deadlines are counted from the confirmation date on congress.gov plus the agreement's stated window (usually 90 days) -- OGE can grant extensions that aren't public, so treat each flag as a lead to confirm, not a finding. OGE posts certifications with a lag, so nothing inside 30 days of a deadline is flagged. A certification filed but not yet posted by OGE will read as missing: confirm with the agency before publishing."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Industries to Watch",
+   "headline": "Lobbying in prediction markets, crypto, AI and defense tech",
+   "paragraphs": [
+    "1 new filing in watched industries; no new clients or spending jumps."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Other new filings in watched industries"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Client",
+      "Firm",
+      "Industry",
+      "Reported",
+      "Filing"
+     ],
+     "rows": [
+      [
+       "STM",
+       "WEINREICH STRATEGIC GROUP, INC.",
+       "Artificial intelligence",
+       "$20,000",
+       "<a href=\"https://lda.gov/filings/public/filing/42c2208d-4794-440c-ab48-2202fa3e6313/print/\">3rd Quarter - Report</a>"
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Industries and keywords are set in data/lda_industries.json. Amounts are the income (firm) or expenses (in-house) line on the filing."
+    }
+   ],
+   "no_news": true
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA and LDA filings posted 2026-10-25 onward; House and Senate financial disclosures filed 2026-10-23 onward, minus filings reported in earlier editions. Times Pacific.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "Senate eFD fetch failed (Expecting value: line 1 column 1 (char 0)), so no Senate disclosures were checked. The Deadline Watch Senate annual-report check and Senate extension check also failed with the same error, so its result covers the House only. The OGE summary listed no gaps. No FARA filings or Top Officials items were in the input."
+ },
+ "beat": [
+  {
+   "name": "Rep. Dan Crenshaw",
+   "why": "Missing annual disclosure",
+   "mentions": [
+    {
+     "section": "Deadline Watch",
+     "html": "<strong>Rep. Dan Crenshaw (R-TX-2)</strong>: extension filed 6/4/2026; 74 days past the 8/13/2026 final extension date."
+    }
+   ]
+  }
+ ]
+}
