@@ -1,0 +1,477 @@
+{
+ "date": "Monday, October 26, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Immigration and Customs Enforcement asks industry for AI that monitors detainee calls, builds voice profiles and counts detainees on camera",
+  "dek": "A request for information describes a single system that would correlate phone, messaging, tablet, video and movement data across detention facilities.",
+  "paragraphs": [
+   "<strong>U.S. Immigration and Customs Enforcement</strong> posted a request for information on October 26 for an \"Integrated SI-Powered Detention Communications and Video Intelligence Suite.\" The notice covers software licenses, implementation, integration, testing, training, cybersecurity support and operations and maintenance. It is market research, not a solicitation, and no contract will be awarded from it. The attached salient-characteristics document was posted to SAM.gov on October 9.",
+   "According to that document, the agency says detention facilities \"generate authorized telephone, messaging, tablet, video-visitation, detainee-management, movement, incident, and camera data at volumes that cannot be reviewed and correlated manually in a timely manner.\" It says the suite \"shall create and improve voice profiles from authorized existing recordings without requiring a separate enrollment session, subject cooperation, or new recording hardware.\"",
+   "The document also asks for video analytics that \"detect and alert on Government-approved safety, security, and operational events, including fights or aggression, crowd formation or coordinated group movement, person-down events, falls, prolonged immobility.\" It further asks for automated detainee headcounts that compare observed counts \"with authoritative roster, housing, and movement information.\" The notice does not name a vendor or give a value."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Request for information",
+     "url": "https://sam.gov/opp/e1c94df6501a41a2b7b240c464b28f41/view"
+    },
+    {
+     "text": "Salient characteristics document",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3b9bc0184d9d45af9d27512dbac313eb/download"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "White House & Executive Office of the President",
+   "headline": "Nothing tied to the White House in today's contracting data",
+   "paragraphs": [
+    "No justification, SAM.gov notice or USAspending award was tagged to the White House or the Executive Office of the President today."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Washington, D.C.",
+   "headline": "Nothing tied to Washington, D.C. in today's contracting data",
+   "paragraphs": [
+    "Two items were tagged by keyword, and neither is really about the District. The <strong>Department of the Navy</strong> Yokosuka yard-tug notice is work in Japan, and it now sits in Solicitations. The <strong>Department of Health and Human Services</strong> security-systems notice mentions the National Capital Region only as one of many nationwide locations. It was already listed on October 23, so it is not repeated."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Sole-Source Justifications",
+   "headline": "Defense Logistics Agency posted its urgent Western Pacific fuel buy from BP nearly six months after award",
+   "paragraphs": [
+    "Four new justifications came in today. Two were posted under the Award Notice type, and two are covered in Extensions. No repeats from earlier editions were left out. The two below are the ones that stand out."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Must read"
+    },
+    {
+     "type": "card",
+     "title": "Defense Logistics Agency buys urgent Western Pacific jet and ship fuel from BP with no competition, then publishes the justification nearly six months after award",
+     "meta": [
+      "BP Products North America Inc.",
+      "value redacted",
+      "urgent need, no time to compete",
+      "Defense Logistics Agency (DLA Energy)"
+     ],
+     "text": "Three spot-buy purchase orders (SPE60226P0470, P0471 and P0472) for JP-5 and F-76 fuel in the Western Pacific went to <strong>BP Products North America Inc.</strong>, which the justification says was the only offeror that could meet the delivery window, from its Cherry Point refinery. The document says it \"has been approved and publicized after award\" and that preparing it first \"would have unreasonably delayed the acquisition.\" It states the contracts were awarded May 1, 2026, and it was posted October 26, well past the roughly 30-day window for posting urgent sole-source awards. That makes it a late disclosure. The fuel quantities and dollar values are redacted.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/9b38c9a7ae364ba8bb30dbef79738c4b/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0278569dfc2e4d56a7e5498d170a2350/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Veterans Affairs keeps a mobile lab trailer running at its Amarillo hospital with an urgent no-bid rental after a construction contract ended in default",
+     "meta": [
+      "Lab-Pro, Inc.",
+      "$350,850 estimated, including options",
+      "urgent need, no time to compete",
+      "Department of Veterans Affairs"
+     ],
+     "text": "The Amarillo VA Healthcare System lab needs a two-module cleanroom trailer rented while its laboratory is under construction. <strong>Lab-Pro, Inc.</strong> had supplied it as a subcontractor under construction contract 36C25722C0093, which the justification says \"was terminated for default in May 2026.\" Competing the job would mean disconnecting the trailer's electrical, fire-suppression and water connections and stopping patient lab testing, according to the document. The J&A estimates $350,850.20 with options and a performance period starting September 1, 2026. The award notice lists $374,879 awarded October 15. The notice was posted as an Award Notice.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/d214f5b24db449858684ad65ef9a3c7f/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d0176e29e3c24029bcdc13a476b7a72d/download"
+      }
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Extensions",
+   "headline": "Bureau of Prisons keeps NaphCare as the medical provider at its Petersburg complex without competition while a new contract is pending",
+   "paragraphs": [
+    "Two new extensions or renewals today, both for incumbents."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Bureau of Prisons extends NaphCare's medical services at the Petersburg, Virginia prison complex without competition",
+     "meta": [
+      "NaphCare Inc.",
+      "$555,000 estimated",
+      "only one company can do it",
+      "Department of Justice, Federal Bureau of Prisons"
+     ],
+     "text": "The justification covers October 1 through October 31, 2026, through monthly purchase orders at \"prior Medicare benchmark rates\" until a new comprehensive medical services contract can be competitively awarded. It was posted October 26, after the period had begun. The document says <strong>NaphCare Inc.</strong> has served the institution for over five years and is \"the only provider uniquely qualified to ensure seamless service delivery without any lapse in performance.\" The Field Acquisition Office is pursuing an indefinite delivery contract, and the document does not say how many earlier extensions NaphCare has had.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/3855fc7490d64bd28b02c2a632ddca7e/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/aeeb11a878eb40e1b74f038234d8a98a/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Veterans Affairs renews Handicare USA's maintenance of 50-plus ceiling patient lifts at the Tuscaloosa medical center for a base year plus four without competition</strong>. The justification says only the manufacturer's authorized provider can service the Waverly Glen lifts. The value is redacted, and an award notice lists $465,347 to Handicare USA LLC on September 8. It was posted as an Award Notice. (<a href=\"https://sam.gov/opp/2dc1ded5f4a2467c92e455e035aece06/view\">36C24726P0797</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Award Notices",
+   "headline": "Navy gives Boeing an $80 million sole-source contract for MQ-25 drone software",
+   "paragraphs": [
+    "Twelve new award notices today, and two repeats were left out. Two sole-source awards from the Navy stand out."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Navy awards Boeing an $80 million sole-source contract for MQ-25 software",
+     "meta": [
+      "The Boeing Company",
+      "$80,000,000",
+      "Award Notice",
+      "Department of the Navy, Naval Air Systems Command"
+     ],
+     "text": "The Naval Air Systems Command says it awarded sole-source contract N0001927D1006 to <strong>The Boeing Company</strong> on October 16. The contract is an indefinite delivery, indefinite quantity vehicle for MQ-25 software. The notice gives no rationale beyond the sole-source basis, and the one attached file has not been read yet.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/1606e29c27364b86956d88aab68b9104/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy awards Northrop Grumman $43.9 million without competition to build missile-ingredient production facilities in Utah",
+     "meta": [
+      "Northrop Grumman Systems Corporation",
+      "$43,856,500",
+      "Award Notice",
+      "Department of the Navy, Strategic Systems Programs"
+     ],
+     "text": "Contract N0003027C2002, awarded October 23, covers design, construction and commissioning of \"highly specialized facilities for the production of a strategic systems ingredient\" at the Magna, Utah installation. The notice says the facility supports the TRIDENT II (D5) Missile Program under an approved justification. <strong>Northrop Grumman Systems Corporation</strong> was chosen because it has custody of the property where the work will be done.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/98fcc119413345389c3b0295addb62df/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Army gives Plating International $225,822 for a single 155mm ERCA anode for the Watervliet Arsenal without competing it</strong>. The notice says more tooling is needed to keep pace with production amid military support efforts, and it will be competed once another manufacturer proves its quality. (<a href=\"https://sam.gov/opp/f17d518431e943aabbf4de7fd956a3ed/view\">W911PT27PA015</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Also flagged: the Army awarded Lupp Facility Management GmbH $1,309,861 to maintain emergency warning systems at U.S. Army Garrison Ansbach, Germany (<a href=\"https://sam.gov/opp/4b92e4e9d52546feb3ba71e6240feb92/view\">W912PB27DA001</a>). The other eight were routine: Federal Prison Industries 2, Defense Information Systems Agency 2, General Services Administration 1, Army 1, Forest Service 1, Air Force 1. Two repeats from earlier editions were left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Solicitations",
+   "headline": "Veterans Affairs asked for quotes on AI-powered vending coolers for a veteran self-employment plan, then cancelled the solicitation a week later",
+   "paragraphs": [
+    "Sixty-three new solicitations today, none repeated from earlier editions. Most of the rest are routine Navy and Defense Logistics Agency parts buys."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Veterans Affairs seeks AI-powered vending coolers for a Sioux Falls veteran's self-employment plan, then cancels the request",
+     "meta": [
+      "Solicitation (cancelled)",
+      "",
+      "",
+      "Department of Veterans Affairs"
+     ],
+     "text": "The October 19 request for quotation was issued for the Sioux Falls Regional Office's Veteran Readiness and Employment division and covers a Veteran Self-Employment Rehabilitation Plan \"covering artificially intelligent vending machines.\" The price schedule appears to list a compact single-door AI smart cooler and a high-capacity AI smart cooler with freezer capability. The October 26 notice cancels solicitation 36C10D27Q0007 \"in its entirety.\" The part of the notice shown here gives no reason.",
+     "links": [
+      {
+       "text": "Cancellation notice",
+       "url": "https://sam.gov/opp/7f082355686e4f4cb2536b3df67b5c64/view"
+      },
+      {
+       "text": "RFQ document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ffeac79c692741508f8e96028e75d488/download"
+      },
+      {
+       "text": "Price schedule",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4d7eea5d987c43c38f8652b40f9ed17a/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy seeks Caterpillar-certified labor in Japan to inspect the engines of two yard tugs and overhaul a heat exchanger, as a sole-source requirement posted for information only</strong>. It is restricted to firms authorized to do business in Japan. (<a href=\"https://sam.gov/opp/d1186972a7594c4e8cec641a20d9d0a7/view\">N6264927QB003</a>)",
+      "<strong>NASA wants a portable eddy current array instrument by brand name from Eddyfi Technologies</strong>. The justification says it \"is intended to mirror a matching system that already exists\" for upcoming missions. (<a href=\"https://sam.gov/opp/7513f9c8a91c474eaf0d46b55f8294d5/view\">80NSSC27943761Q</a>)",
+      "<strong>Army pushes the deadline for a seven-year West Point dress-uniform contract to November 16</strong>. The solicitation covers India White coats, trousers and dresses, with ordering from November 1, 2026 through October 31, 2033. (<a href=\"https://sam.gov/opp/99bae0b7ca844373837c6827f1c8e586/view\">W911SD-26-Q-A114</a>)",
+      "<strong>Army extends to November 4 the deadline to bid on anti-ram vehicle barriers and control systems at two gates of Osan Air Base in South Korea</strong>. (<a href=\"https://sam.gov/opp/3583bacf4c6c4bcabab69154c69b3639/view\">W90VN626QA017</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Also flagged and not written up: Navy circuit breaker safety device (<a href=\"https://sam.gov/opp/5e6a14101d8f4bd4bc8cd7ad7d48ab9c/view\">N0010426QBL25</a>) and an inertial measurement unit part (<a href=\"https://sam.gov/opp/d20812139e054751bdd6e506b49d6434/view\">SPRMM127QGA27</a>). Three earlier-listed notices, USS Makin Island docking availability, the Air Force navigation simulation lab whitepapers and FEMA armed guards in Florida, had only amendments and were left out. Routine solicitations are mostly Naval Supply Systems Command and Defense Logistics Agency parts."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Combined Synopsis/Solicitations",
+   "headline": "Navy plans to buy V-22 Osprey flight-control retrofit kits from BAE Systems Controls without competition",
+   "paragraphs": [
+    "Four hundred three new combined synopsis/solicitations, about 369 of them routine Defense Logistics Agency parts quotes (252 Land and Maritime, 104 Aviation, 13 Troop Support)."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Navy plans a sole-source order to BAE Systems Controls for V-22 Osprey flight-control retrofit kits and spares",
+     "meta": [
+      "Combined Synopsis/Solicitation",
+      "",
+      "",
+      "Department of the Navy, Naval Air Systems Command"
+     ],
+     "text": "The V-22 Joint Program Office intends to issue a delivery order under Basic Ordering Agreement N00019-26-G-0001 to <strong>BAE Systems Controls, Inc.</strong> of Endicott, New York, for flight-control-system redesign retrofit kits and spares. It cites only one responsible source, saying BAE \"is the only known source that possesses the requisite knowledge and expertise.\" No value is given, and the one attached file is queued for a later edition.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/c391af42a33547d39e3d238db0b45476/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Naval Surface Warfare Center Crane plans to buy radome paint-application training from General Dynamics Mission Systems with no competition</strong>. The notice cites items peculiar to one manufacturer and closes November 2. (<a href=\"https://sam.gov/opp/afdf3a71007c41d997dc56f4ffcf14ac/view\">N00164-27-Q-0007</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Also flagged and not written up: Coast Guard MH-65 helicopter spare parts (<a href=\"https://sam.gov/opp/7d117edb98564c77b9f1cd4b0fc4a0a1/view\">70Z03827QB0000010</a>), Space Force Space Domain Awareness solicitation update (<a href=\"https://sam.gov/opp/1414fc3a5070490c8c53d15644386249/view\">FA2518-25-S-C001</a>), a Veterans Affairs Las Vegas warehouse lease (<a href=\"https://sam.gov/opp/48c6d6b517884d29b512ab36154dd504/view\">RLP36C24W26R0045</a>), a USS Kearsarge fan part (<a href=\"https://sam.gov/opp/389bd327c1a644de8e2346c00e82263e/view\">SPE8E727T0243</a>) and Puerto Rico Air National Guard HVAC replacement (<a href=\"https://sam.gov/opp/1cd37679e66643afbc569465e8fdf4e2/view\">W50S9327QA001</a>). Four earlier-listed notices, the Fort Bragg wet blade hours contract, the ultrasonic scanner, Army Agile Professional Services and the Coast Guard cutter fuel tank cleaning, had only amendments and were left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Presolicitations",
+   "headline": "Air Force plans a five-year sole-source radar transmitter repair contract with Applied System Engineering",
+   "paragraphs": [
+    "Twenty new presolicitations, with 17 repeats from earlier editions left out. The lead item comes from a document read today on a notice posted earlier."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force plans a five-year sole-source contract with Applied System Engineering for radar transmitter repairs",
+     "meta": [
+      "Presolicitation",
+      "",
+      "",
+      "Department of the Air Force"
+     ],
+     "text": "A file read today, posted October 20 on notice FA825027PSTIDIQ, says the Air Force \"publicizes its intent to solicit, negotiate and award a sole-source, Five (5) Year Indefinite Delivery, Indefinite Quantity (IDIQ), Firm-Fixed-Price (FFP) contract to Applied System Engineering, Inc.\" The authority cited is only one responsible source, with an approved justification attached.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/874695f01bac4e4d840b9796eaae243f/view"
+      },
+      {
+       "text": "Pre-solicitation document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/9d217b1b45074cc499cf477362c2213d/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Military Sealift Command plans to deactivate the oiler USNS John Lenthall at an East or Gulf Coast shipyard in mid-2027",
+     "meta": [
+      "Presolicitation",
+      "",
+      "",
+      "Department of the Navy, Military Sealift Command"
+     ],
+     "text": "The deactivation of the USNS John Lenthall (T-AO 189) is planned for July 1 to September 30, 2027, at the contractor's facility. Major work items include cleaning and gas-freeing tanks, voids and cofferdams, hazardous waste disposal and equipment removal. The Statement of work is queued unread.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/9a7ee5b1a76a4465a2a6ab2d6e7dd19c/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy plans a sole-source order to Collins Aerospace for CH-53K flight-control software loading equipment</strong>. It covers licenses, nine RS-232 cables and six field software tool harness kits. (<a href=\"https://sam.gov/opp/946c374fc29f456693964c8113f2dc1b/view\">N00019-25-RFPREQ-APM261-0788</a>)",
+      "<strong>National Institutes of Health plans maintenance on cell-therapy manufacturing equipment from Cytiva, Thermo Fisher Scientific and Miltenyi Biotec</strong>. The three notices cover Sepax C-PRO separators, 36 CO2 incubators and CliniMACS Plus instruments for FDA-regulated manufacturing. (<a href=\"https://sam.gov/opp/1f5d559f7bdc4fc485f6c63937c6d873/view\">27-000245</a>, <a href=\"https://sam.gov/opp/a0ee142d19fd4cd1912911b110198d14/view\">27-000282</a>, <a href=\"https://sam.gov/opp/cff896238b724d7b81883993be5a239d/view\">27-000190</a>)",
+      "<strong>NASA moves its Unified Network and Navigation Operations procurement to a single award</strong>. A revised industry update, read today on a notice posted earlier, says NASA is \"transitioning from the previously contemplated two-category procurement model to a single-award model.\" (<a href=\"https://sam.gov/opp/552b52d7487940208cc43e5704a94137/view\">SCAN-MSFC-0002</a>)",
+      "<strong>Air Force asks industry for small drones deliverable within six months</strong>. Attached objectives read today, in text the pipeline could not verify word for word, ask for autonomous swarming and exportability. (<a href=\"https://sam.gov/opp/55449ffa8e8847fda941b1ece4195c8b/view\">sUAS_RPRD_2026</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Also flagged and not written up: USS Hampton submarine emergency diesel generator alignment and retest (<a href=\"https://sam.gov/opp/b9fd45b56dd54fea97ccf4cfa4398abc/view\">PD-42-0313</a>), USNS Salvor voyage repair in the Philippines (<a href=\"https://sam.gov/opp/45c48ea8b15944cdb24622400eb3ba33/view\">N6264927RLXXX</a>), Coast Guard lead-glazed bathtub replacement in San Juan (<a href=\"https://sam.gov/opp/f7a64593c05c440bac1cc8ce1ae062d3/view\">PN24658602</a>), Punta Borinquen lighthouse repair (<a href=\"https://sam.gov/opp/c4d9393834764ea78e03555722327101/view\">2993811</a>) and an F110 engine exhaust duct (<a href=\"https://sam.gov/opp/c9d79cc05293412fa1d9c6d344a2be2f/view\">SPRTA127R0092</a>). The rest of the 20 are routine Defense Logistics Agency and Naval Supply Systems Command parts."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Special Notices",
+   "headline": "Air Force announces an industry day on its fighter-engine re-competition",
+   "paragraphs": [
+    "Twelve new special notices today, none repeated from earlier editions."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force Advanced Propulsion Division announces an industry day tied to its fighter-engine re-competition",
+     "meta": [
+      "Special Notice",
+      "",
+      "",
+      "Department of the Air Force"
+     ],
+     "text": "The notice is aimed at defense propulsion industry partners and references the related sources-sought request for information on the Fighter Engine Re-competition. Its two attachments have not been read yet, and the notice text gives no date or value.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/07e48ce4e1d44b1b88cadbd5254dd5dd/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Defense Health Agency starts market research on an enterprise endoscopy video imaging system</strong>. The special notice is for planning only and promises no quote request. (<a href=\"https://sam.gov/opp/28782a480dbd43408f2f6331dc837c2c/view\">EEVIS</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Two flagged notices were already listed, so they are not repeated: the Fort Bragg Joint Deployment Warfighting Complex market intelligence notice (<a href=\"https://sam.gov/opp/3b6a541b994440bab6bb3bd405568443/view\">W912HN27SA001</a>) and the Navy software defined radio industry day (<a href=\"https://sam.gov/opp/5f5d430f4c284d1d9dfff1c7f7e7267e/view\">N6523627R0001_INDUSTRY_DAY</a>). The other eight were routine: Department of Veterans Affairs 5, Army 2, Commerce Bureau of Industry and Security 1."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sources Sought",
+   "headline": "Navy seeks a cloud-based successor to its Freedom of Information Act case-management system",
+   "paragraphs": [
+    "Twenty new sources-sought notices today. The Top Story, Immigration and Customs Enforcement's detention communications request for information, also comes from this section."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Navy seeks a contractor to host and run a cloud-based Freedom of Information Act case-management system",
+     "meta": [
+      "Sources Sought",
+      "",
+      "",
+      "Department of the Navy, Naval Supply Systems Command"
+     ],
+     "text": "Solicitation N31975FIOACMFY27 seeks contact center personnel, program management and technical support to host, operate and maintain an enterprise-wide FOIA case-management system. It would replace the department's \"legacy FOIA processing platform.\" The notice calls for a self-managed, financially sustainable system. The two attachments have not been read yet.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/0449387aca1647a2b0cb5b1d7556a520/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Army seeks multiple contractors for combined construction and cleaning between tenants at German garrisons</strong>. An attached request for information, in text the pipeline could not verify word for word, puts the combined ceiling at $249 million over a ten-year level of effort starting around April 2027. (<a href=\"https://sam.gov/opp/2b97f7f1c6a4478ea3ade27e18efa461/view\">W912PB-27-R-GBOM</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Several flagged notices were left out as repeats from earlier editions: Leavenworth redundant radio core, Immigration and Customs Enforcement's investigative database subscription and two Federal Emergency Management Agency generator maintenance requests, plus the Department of Health and Human Services nationwide electronic security systems notice (<a href=\"https://sam.gov/opp/ec126f689d7540e98d996d6bc030b4a9/view\">7571MN27R00005</a>), whose D.C. tag was a false positive. Also flagged and not written up: Army Corps of Engineers temporary emergency power survey (<a href=\"https://sam.gov/opp/17651af99098478c858479c97c53305d/view\">ACI-TEP-Survey</a>), Fort Hunter-Liggett water system (<a href=\"https://sam.gov/opp/a0eaf34784a742eea4712f941a0a7085/view\">W912QR-PDB-FHLWATER</a>) and a Veterans Affairs White River Junction cleaning contract (<a href=\"https://sam.gov/opp/3fd74aecc7684d2c9e82bb752d574eaa/view\">36C24127Q0021</a>). Nine others were routine."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "No featured USAspending contract actions today",
+   "paragraphs": [
+    "The data showed no new awards of $2 million or more, no large modifications and no cuts."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Under $2 million: one new award was screened, from the Defense Department backlog, and none was flagged."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new apportionments flagged; six routine FY2027 distributions approved",
+   "paragraphs": [
+    "No apportionments triggered keyword flags in this window. Six routine fiscal year 2027 distributions were approved across three agencies from October 21\u201326, 2026."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Department of Homeland Security"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Analysis and Operations</strong> \u2014 Operations and Support, $18,049,937 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Homeland%20Security/JSON/FY2027_Agency%3DDHS_Bureau%3DA%26O_TAFS%3D070-2026-2027-0115_Iteration%3D1_2026-10-23-09.50.json\">Notice</a>.",
+      "<strong>U.S. Immigration and Customs Enforcement</strong> \u2014 Student and Exchange Visitor Program, $548,973,166 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20Homeland%20Security/JSON/FY2027_Agency%3DDHS_Bureau%3DICE_TAFS%3D070-X-5378_Iteration%3D2_2026-10-23-09.50.json\">Notice</a>."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Department of the Treasury"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Internal Revenue Service</strong> \u2014 Taxpayer Services, $170,865,000 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20the%20Treasury/JSON/FY2027_Agency%3DTREASURY_Bureau%3DIRS_2026-10-23-11.27.json\">Notice</a>.",
+      "<strong>Internal Revenue Service</strong> \u2014 IRS Miscellaneous Retained Fees, $1,286,813,648 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20the%20Treasury/JSON/FY2027_Agency%3DTREASURY_Bureau%3DIRS_2026-10-23-11.27.json\">Notice</a>.",
+      "<strong>Internal Revenue Service</strong> \u2014 Operations Support, $4,971,288,732 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20the%20Treasury/JSON/FY2027_Agency%3DTREASURY_Bureau%3DIRS_TAFS%3D020-2022-2031-0919_Iteration%3D2_2026-10-23-11.27.json\">Notice</a>.",
+      "<strong>Internal Revenue Service</strong> \u2014 Business Systems Modernization, $1,612,858,288 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/Department%20of%20the%20Treasury/JSON/FY2027_Agency%3DTREASURY_Bureau%3DIRS_TAFS%3D020-2022-2031-0921_Iteration%3D2_2026-10-23-11.27.json\">Notice</a>."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "International Assistance Programs"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>International Security Assistance</strong> \u2014 National Security Investment Programs, $6,483,420,719 (FY2027). <a href=\"https://apportionment-public.max.gov/Fiscal%20Year%202027/International%20Assistance%20Programs/JSON/FY2027_Agency%3DIAP_Bureau%3DISA_TAFS%3D019-2026-2027-1122_Iteration%3D2_2026-10-23-09.49.json\">Notice</a>."
+     ]
+    }
+   ],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 26, 2026 (Pacific time), with the USAspending trailing sweep and the Defense Department's 90-day-delayed releases.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; USAspending.gov API; SAM.gov contract opportunities and their attached documents.",
+  "known_gaps": "No source errors were reported, and the apportionments pass listed no gaps of its own. Of 335 attachments on 90 notices, 99 were read. The other 236 were not: 186 are queued for later editions, 49 are access-restricted on SAM.gov and 1 could not be downloaded or read. In all, 3,852 files are queued for later editions, and notices link to about 470 outside-portal documents that were not followed. The USAspending section had nothing to report."
+ },
+ "beat": []
+}

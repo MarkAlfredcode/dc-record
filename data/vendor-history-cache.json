@@ -1288,6 +1288,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "bp product north america": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1129627552.14,
+        "recipient": "BP PRODUCTS NORTH AMERICA INC.",
+        "start": "2008-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_B001_9700_SP060008D0508_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 580318778.02,
+        "recipient": "BP PRODUCTS NORTH AMERICA INC.",
+        "start": "2006-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_B001_9700_SP060006D0502_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 462802718.83,
+        "recipient": "BP PRODUCTS NORTH AMERICA INC.",
+        "start": "2012-09-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_B001_9700_SP060012D0503_9700"
+      }
+    ],
+    "first": "2006-09-19",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "brainlab": {
     "d": "2026-10-10",
     "examples": [
@@ -4592,6 +4621,35 @@
     "has_contracts": true,
     "raw_hits": 7
   },
+  "naphcare": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Justice",
+        "amount": 60629494.91,
+        "recipient": "NAPHCARE LLC",
+        "start": "2025-12-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15BRRC26F00000001_1540_15BRRC25D00000010_1540"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 56644230.13,
+        "recipient": "NAPHCARE LLC",
+        "start": "2024-12-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15BRRC25F00000130_1540_15BRRC25D00000010_1540"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 49084632.26,
+        "recipient": "NAPHCARE LLC",
+        "start": "2022-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15BRRC23F00000001_1540_15BRRC23D00000004_1540"
+      }
+    ],
+    "first": "2008-01-17",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "national consulting partner": {
     "d": "2026-10-20",
     "examples": [
@@ -6961,6 +7019,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:EYPQJDKAKXC6": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 2163220.68,
+        "recipient": "HANDICARE USA LLC",
+        "start": "2023-09-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24523C0174_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 2007486.3,
+        "recipient": "HANDICARE USA LLC",
+        "start": "2024-04-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24724C0044_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1575149.16,
+        "recipient": "HANDICARE USA LLC",
+        "start": "2025-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24525F0438_3600_36F79720D0109_3600"
+      }
+    ],
+    "first": "2008-06-25",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:FCZCE76234L4": {
     "d": "2026-10-10",
     "examples": [
@@ -7482,6 +7569,21 @@
     "first": "2004-09-01",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "uei:KM6GD1PRMJB3": {
+    "d": "2026-10-26",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 239771.16,
+        "recipient": "LAB-PRO, INC.",
+        "start": "2026-10-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25727C0002_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2026-10-15",
+    "has_contracts": true,
+    "raw_hits": 1
   },
   "uei:KMEVRAKJVBD3": {
     "d": "2026-10-14",
