@@ -82,7 +82,10 @@ def main():
     for r in relink:
         m = by_id[r["id"]]
         d1("UPDATE inbox SET request_id = ? WHERE id = ?", [r["now"], r["id"]]); n += 1
-        if m["message_id"] and (m["message_id"], r["was"]) in have and r["was"]:
+        if not r["now"]:  # unlinked: messages.request_id can't be null, so drop the wrong log entry (the mail stays in inbox)
+            if m["message_id"] and r["was"]:
+                d1("DELETE FROM messages WHERE source = 'foia-inbox' AND source_id = ? AND request_id = ?", [m["message_id"], r["was"]])
+        elif m["message_id"] and (m["message_id"], r["was"]) in have and r["was"]:
             d1("UPDATE messages SET request_id = ? WHERE source = 'foia-inbox' AND source_id = ? AND request_id = ?", [r["now"], m["message_id"], r["was"]])
         elif r["now"] and not (m["message_id"] and any(h[0] == m["message_id"] and h[1] == r["now"] for h in have)):
             d1("INSERT INTO messages (request_id, direction, sent_at, from_addr, subject, snippet, source, source_id) VALUES (?, 'in', ?, ?, ?, ?, 'foia-inbox', ?)",
