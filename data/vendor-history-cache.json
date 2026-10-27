@@ -1796,6 +1796,13 @@
     "has_contracts": true,
     "raw_hits": 30
   },
+  "chart up": {
+    "d": "2026-10-27",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "charter communication operating liability spectrum business": {
     "d": "2026-10-15",
     "examples": [],
@@ -2527,6 +2534,35 @@
     "has_contracts": true,
     "raw_hits": 23
   },
+  "eaton aeroquip lockheed martin": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 3391146.0,
+        "recipient": "EATON AEROQUIP LLC",
+        "start": "2014-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA852614C0003_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1812670.26,
+        "recipient": "EATON AEROQUIP LLC",
+        "start": "2016-09-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0129_9700_SPE4AX13D9414_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1594641.36,
+        "recipient": "EATON AEROQUIP LLC",
+        "start": "2009-08-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6833509C0346_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1984-04-30",
+    "has_contracts": true,
+    "raw_hits": 100
+  },
   "efs ebrex sarl": {
     "d": "2026-10-15",
     "examples": [
@@ -2874,6 +2910,21 @@
     "first": "2022-03-18",
     "has_contracts": true,
     "raw_hits": 3
+  },
+  "fish & wildlife research institute": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of the Interior",
+        "amount": 75000.0,
+        "recipient": "WILDLIFE RESEARCH INSTITUTE",
+        "start": "2007-08-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_INL07PX00562_1422_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-08-20",
+    "has_contracts": true,
+    "raw_hits": 101
   },
   "fisher scientific": {
     "d": "2026-10-10",
@@ -3476,6 +3527,13 @@
     "first": "2011-08-17",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "gup interforum": {
+    "d": "2026-10-27",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
   },
   "honeywell int": {
     "d": "2026-10-22",
@@ -4135,6 +4193,21 @@
     "first": "1996-09-15",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "label & list": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Commerce",
+        "amount": 950000.0,
+        "recipient": "LABELS & LISTS INC",
+        "start": "2026-10-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_13PDRD27C0001_1323_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2026-10-23",
+    "has_contracts": true,
+    "raw_hits": 1
   },
   "laboratory for atmosphere and space physic": {
     "d": "2026-10-10",
@@ -5353,6 +5426,13 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "peoria hospital mobile medical service": {
+    "d": "2026-10-27",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "peraton": {
     "d": "2026-10-13",
     "examples": [
@@ -6475,6 +6555,28 @@
     "first": "2011-09-26",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "tacoma hydraulic": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 86048.9,
+        "recipient": "TACOMA HYDRAULICS, INC.",
+        "start": "2025-07-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4523A25P5803_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 23276.25,
+        "recipient": "TACOMA HYDRAULICS, INC.",
+        "start": "2020-09-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4523A20P5716_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2020-09-11",
+    "has_contracts": true,
+    "raw_hits": 2
   },
   "teamwork": {
     "d": "2026-10-22",
@@ -9338,6 +9440,13 @@
     "first": "2009-06-10",
     "has_contracts": true,
     "raw_hits": 2
+  },
+  "uzviptransservice": {
+    "d": "2026-10-27",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
   },
   "vacco industrie": {
     "d": "2026-10-16",
