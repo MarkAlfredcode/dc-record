@@ -4,7 +4,7 @@ Your job: find the few items where a records request would get documents that mo
 
 WHAT MAKES A GOOD SUGGESTION
 - The records would add something the edition's own links don't already show: the justification behind a sole-source award, the market research or source-selection decision, contract modifications' narratives, an ethics waiver or recusal, a named official's calendar or travel, correspondence between a named office and a named company, inspection or audit reports, a cancelled program's termination memo.
-- The agency that holds the records is in the contact list. Pick the most specific component that would hold them (the Navy, not the Defense Department; FinCEN, not Treasury) when it is listed. Use only an id from the list. If the right office isn't listed, skip the item.
+- The agency that holds the records is in the contact list. Pick the most specific component that would hold them (the Navy, not the Defense Department; FinCEN, not Treasury) when it is listed. Use only an id from the list. If the right office isn't listed, skip the item. ICE, DHS, State and the main offices of Interior, Energy and Education are NOT on the list (they refuse email): skip their contracts and records unless the specific component that holds them is listed. Never send one department's contract or records to a different department (an Interior or ICE contract does not go to the Justice Department; an Army Corps contract does not go to the Navy). A request is dropped automatically when the office you pick isn't the "holder" you name.
 - Never base a request on FEC filings or campaign finance (contributions, expenditures, RFAIs, Form 99s, super PACs). Mark doesn't want FOIAs from that beat; skip those items.
 - Federal executive agencies only. Congress, the courts and the White House Office are not subject to FOIA; OMB and other EOP components that are listed are.
 
@@ -16,14 +16,28 @@ WRITE NARROW REQUESTS (broad ones get denied as "overbroad")
 - Never ask for "all records" or "all communications" without custodians and a date range.
 - No internal deliberations: ask for the records themselves.
 
+EXPLAIN IT IN PLAIN ENGLISH ("story", "why", "gets")
+Mark reads these on a card and decides in seconds whether to file. Write them for a smart reader who has never seen a contracting database or a FOIA log.
+- Short sentences. Everyday words. Say who did what, to whom, for how much.
+- No jargon or insider shorthand. Never write OCR, bulk entry, bulk index, PIID, J&A, D&F, SF-30, IDIQ, BPA, NAICS, FARA Unit, "the filing", "the notice", "the record" without saying what it is. Spell out an acronym the first time ("the Justice Department's foreign-agent registration office", "a no-bid justification").
+- Never describe how DC Record found the item (scans, OCR, feeds, the bulk file, the index, the edition). Describe the facts themselves: "Her registration doesn't say what she's doing for Bavaria", not "The OCR of the registration shows no activities".
+- "why" answers: what's missing or looks wrong, what the records could show, and why a reader would care. Make the case for filing; don't just restate the request.
+- Example, for a foreign-agent registration:
+  story: "A Las Vegas consultant registered as a foreign agent for the Bavarian government's economics ministry."
+  why: "Her registration doesn't say what work she's doing for Bavaria or what she's paid, and the Justice Department's own list doesn't even name Bavaria as her client. Her contract and the department's letters to her would show what a German state is paying her to do in the U.S., and whether the department had to chase her to register or fix an incomplete filing."
+  gets: "Her contract with the Bavarian ministry, and any letters between her and the Justice Department office that enforces the foreign-agent law."
+
 OUTPUT: one JSON object, nothing else:
 {"suggestions": [
   {"item": <item number>,
-   "source_link": "<the [L#] of the link that best documents the item, e.g. L3>",
-   "contact_id": <id from the contact list>,
+   "source_link": "<the [L#] of the link that best documents the story, e.g. L3>",
+   "story": "<one plain sentence: the specific story this request comes from (an item can hold several stories; name this one)>",
+   "holder": "<the agency that made the award or holds the records, as the story names it, e.g. Department of the Interior>",
+   "contact_id": <id from the contact list; must be the holder or its component>,
    "subject": "<short request title, under 80 characters, e.g. Navy sole-source Standard Missile awards N00024-26-C-5401>",
    "records": "<the request itself: 1-4 sentences, or a short list with lines starting '- '. It follows the words 'I request the following records:'>",
    "topic": "<a phrase finishing 'urgently needed to inform the public about ...'>",
-   "why": "<1-2 sentences for the reporter: what these records could show and why it matters for the story>"}
+   "why": "<2-3 plain sentences: why this is worth filing (see above)>",
+   "gets": "<one plain sentence: what Mark would get back, in everyday words>"}
 ]}
 Return {"suggestions": []} when nothing qualifies.

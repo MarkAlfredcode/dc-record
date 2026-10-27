@@ -93,6 +93,45 @@ def run_model(prompt):
     return json.loads(text[text.find("{"): text.rfind("}") + 1])
 
 
+# Is the office the model picked the one that holds the records? The model's own words (the holder it names, the
+# subject, the records, the why) have to name it, its department or a common short form. Added 2026-10-27 after
+# suggestions sent an Interior and an ICE contract to the Justice Department and an Army Corps order to the Navy.
+_GENERIC = set("department departmental dept office offices agency administration bureau service services federal national united states u.s us "
+               "the of and for on in at a an inspector general command center region district field headquarters hq central secretary".split())
+_ALIASES = {"justice": ["doj", "fara", "foreign agent", "attorney general", "fbi", "bureau of prisons", "pardon attorney"],
+            "war": ["defense", "pentagon", "dod", "joint staff", "hegseth", "washington headquarters services"],
+            "defense": ["dod", "pentagon", "department of war"], "navy": ["naval", "marine corps", "marine barracks"],
+            "air": ["afb", "usaf", "air logistics"], "agriculture": ["usda"], "homeland": ["dhs"], "treasury": ["irs", "ofac", "fincen", "bessent"],
+            "state": ["state department", "embassy", "ambassador", "rubio", "secretary landau", "deputy secretary landau", "counselor"],
+            "health": ["hhs", "cdc", "fda", "nih", "cms", "kennedy"], "commerce": ["noaa", "bis", "census", "lutnick"],
+            "veterans": ["vha", " va "], "management": ["oira", "vought"], "education": ["federal student aid"],
+            "ethics": ["oge"], "personnel": ["opm"]}
+
+
+def _initials(name):
+    ws = [w for w in re.findall(r"[A-Za-z]+", name) if (w[0].isupper() or w.lower() == "of") and w not in ("U", "S")]
+    out = set(re.findall(r"\b[A-Z]{2,6}\b", name))
+    for keep_of in (False, True):  # Bureau of Prisons -> BP and BOP
+        letters = "".join(w[0].upper() for w in ws if w.lower() not in ("of", "the", "and", "for") or (keep_of and w.lower() == "of"))
+        out.update(letters[i:] for i in range(len(letters) - 2))  # U.S. International Development Finance Corporation -> DFC
+        core = "".join(w[0].upper() for w in ws if w.lower() not in ("of", "the", "and", "for") and w != "Department")
+        out.update(a for a in ("D" + core, "DO" + core) if len(a) >= 3)  # Department of Energy -> DOE
+    return out
+
+
+def agency_named(name, hay):
+    h = " " + re.sub(r"[^a-z0-9.& ]+", " ", hay.lower()) + " "
+    for part in re.split(r",\s*|\s*[()]\s*|\s+[—-]\s+", name or ""):
+        ws = [w for w in re.findall(r"[a-z]+", part.lower()) if w not in _GENERIC and len(w) > 2]
+        if ws and all(" " + w in h for w in ws):
+            return True
+        if any(re.search(r"\b" + re.escape(a) + r"\b", hay) for a in _initials(part)):
+            return True
+        if any(x in h for w in ws for x in _ALIASES.get(w, [])):
+            return True
+    return False
+
+
 def letter(contact, s, today):
     office = contact["agency"] + (f", {contact['parent']}" if contact.get("parent") else "")
     return f"""{today:%B} {today.day}, {today.year}
@@ -177,8 +216,15 @@ def main():
         except (KeyError, ValueError, IndexError, TypeError) as e:
             print(f"foia: dropped a malformed suggestion ({e}): {str(s)[:200]}", file=sys.stderr)
             continue
+        hay = " ".join(str(s.get(k) or "") for k in ("holder", "subject", "records", "why"))
+        office = contact["agency"] + (f" ({contact['parent']})" if contact.get("parent") else "")
+        if not agency_named(office, hay):
+            print(f"foia: dropped, {office} doesn't hold these records (holder: {s.get('holder')!r}): {s['subject'][:100]}", file=sys.stderr)
+            continue
         out.append({
-            "edition": edition, "run_date": today.isoformat(), "item_title": item["title"], "source_url": url,
+            "edition": edition, "run_date": today.isoformat(), "source_url": url,
+            # "Based on" on the card: the story the model used, not the section headline (a section holds many stories).
+            "item_title": str(s.get("story") or "").strip() or item["title"], "gets": str(s.get("gets") or "").strip(),
             "agency": contact["agency"] + (f" ({contact['parent']})" if contact.get("parent") else ""),
             "email": contact["email"], "level": contact["level"], "statute": contact["statute"],
             "rule_days": contact["rule"]["days"], "rule_kind": contact["rule"]["kind"], "rule_text": contact["rule"]["text"],

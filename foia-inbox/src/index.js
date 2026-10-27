@@ -10,10 +10,12 @@
 // 4. Flag messages that ask for an answer (still interested? clarify? certify?) so the tracker's
 //    "Replies & appeals" tab and the dc-record drafting pass pick them up. Only real asks count: not the agency
 //    describing its own deadline, not our own request quoted back (see asksForReply in match.js).
+// 5. Read what the agency said into plain English (explainReply in match.js) and store it with the message for the
+//    tracker. (No phone alert for it: only newsworthy replies push to ntfy, agency + reason only.)
 
 import PostalMime from 'postal-mime';
 import { readAll, toBase64 } from './attachments.js';
-import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply } from './match.js';
+import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
 const SELF = /@markalfred\.news$/i;
@@ -105,14 +107,16 @@ async function record(raw, env) {
     } catch (e) { console.error('foia-inbox: expedite check failed', e && e.message); }
   }
   const now = new Date().toISOString();
+  let plain = null;
+  try { plain = auto ? null : explainReply(subject, theirs.slice(0, 12000) + '\n' + attText.slice(0, 20000), mine, now); } catch (e) { console.error('foia-inbox: explain failed', e && e.message); }
   const snippet = lead || snippetOf(attText);
   const attachments = (email.attachments || []).map(function (a) { return a.filename; }).filter(Boolean).join('; ');
 
-  const ins = await db.prepare('INSERT INTO inbox (received_at, from_addr, from_name, to_addr, subject, message_id, in_reply_to, refs, text, snippet, attachments, request_id, auto, needs_reply, reason, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+  const ins = await db.prepare('INSERT INTO inbox (received_at, from_addr, from_name, to_addr, subject, message_id, in_reply_to, refs, text, snippet, attachments, request_id, auto, needs_reply, reason, status, plain) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
     .bind(now, from, (email.from && email.from.name) || null, (email.to || []).map(function (t) { return t.address; }).join(', '),
       subject, email.messageId || header('message-id'), email.inReplyTo || header('in-reply-to'), email.references || header('references'),
       text, snippet, attachments || null, requestId, auto, expediteFinal ? 0 : ask || den ? 1 : 0, expediteFinal ? 'Expedite appeal denied: nothing further' : den ? 'Denial: ' + den[0] : ask ? ask.phrase : rejected ? 'Resubmit required' : null,
-      expediteFinal || (!requestId && !ask && !den && PORTAL_NOISE.test(subject)) ? 'handled' : 'new').run();
+      expediteFinal || (!requestId && !ask && !den && (PORTAL_NOISE.test(subject) || (plain && plain.kind === 'account'))) ? 'handled' : 'new', plain ? JSON.stringify(plain) : null).run();
   const inboxId = ins.meta && ins.meta.last_row_id;
   if (inboxId && atts.length) {
     await db.batch(atts.map(function (a) {

@@ -23,6 +23,7 @@ REPLIES
 DENIALS IN THE REPLIES QUEUE
 - A reply item whose FLAG starts with "Denial:" is a denial, a refusal, or a denial of expedited processing. Write an APPEAL (kind "appeal"), not a courtesy reply, unless the denial is plainly sound (then skip with a reason). Read the ATTACHMENT text: the determination letter is often only in the attachment.
 - Expedited-processing denials: argue 5 U.S.C. 552(a)(6)(E)(v)(II) and Al-Fayed v. CIA, 254 F.3d 300, 310 (D.C. Cir. 2001); the statute has no "breaking news" requirement. Use only facts that appear in the request or the agency's own letter; never invent news hooks or events. Always include this sentence: "I certify that the statements in this expedited processing request are true and correct to the best of my knowledge and belief. 5 U.S.C. 552(a)(6)(E)(vi)." (DHS and its components also require it under 6 C.F.R. 5.5(e)(3).)
+- Every appeal body must say plainly what is attached ("I attach your letter of <date> and my original request"): the tracker attaches the agency's letter and the original request to every appeal.
 - If the mail answers OUR OWN earlier appeal of an expedited-processing denial (our appeal is in the THREAD as SENT) and denies it, skip with skip_reason "expedite appeal denied: leave it". Mark does not pursue it further: no second appeal, no escalation letter.
 - Portal-only agencies (DHS and its components, Education main office, Interior): say in "note" that this must be filed through the portal and not emailed. The exception is an agency whose own determination letter names an appeals email address (State: FOIAAppeals@state.gov; DOE: OHA.filings@hq.doe.gov): then email it there, put that address in "to", and do not call it portal-only.
 - Write plainly, like a reporter: short sentences, no filler, no "moreover" or "furthermore".
@@ -41,7 +42,8 @@ OUTPUT: one JSON object, nothing else:
    "subject": "<email subject; for replies keep the agency's subject with RE:>",
    "to": "<for kind appeal only: the email address the appeal must go to when it is not the sender of the agency's mail (e.g. DOE appeals go to OHA.filings@hq.doe.gov); otherwise empty>",
    "body": "<the email text, plain, no signature>",
-   "note": "<what Mark should check before sending, or empty>",
+   "said": "<1-3 short sentences in everyday words: what the agency told Mark and what it wants from him, e.g. 'ICE says your request is too broad. It wants exact start and end dates and a named property for each detention center, and says GSA, not ICE, holds the deeds and purchase papers.' No legal citations, no jargon.>",
+   "note": "<what Mark should check before sending, in plain words, or empty>",
    "deadline": "<YYYY-MM-DD last day to file, for appeals when known, else empty>"},
   {"queue": "...", "ref": ..., "skip": true, "skip_reason": "<why>"}
 ]}

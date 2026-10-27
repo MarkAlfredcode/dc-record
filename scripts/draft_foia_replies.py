@@ -96,6 +96,8 @@ def main():
             kind = d.get("kind") if d.get("kind") in ("reply", "appeal", "resend") else ("reply" if d["queue"] == "reply" else "appeal")
             if kind == "appeal" and re.fullmatch(r"[^\s@<>,]+@[^\s@<>,]+\.[a-z]{2,}", (d.get("to") or "").strip(), re.I):
                 item["to_addr"] = d["to"].strip()
+            if (d.get("said") or "").strip():  # "They wrote" on the card, in plain words
+                item["context"] = d["said"].strip()
             item.update(kind=kind, subject=d["subject"].strip(), body=d["body"].strip() + "\n\nMark Alfred\nfoia@markalfred.news",
                         note=(d.get("note") or "").strip() or None, deadline=(d.get("deadline") or "").strip() or None)
             out.append(item)

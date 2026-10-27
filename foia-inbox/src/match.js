@@ -225,7 +225,7 @@ const BOILERPLATE = /-{2,}\s*please respond above this line\s*-{2,}|this (?:emai
 
 // Sentences, one per element. Splits on sentence punctuation, colons and line breaks.
 function sentencesOf(text) {
-  return decode(text).replace(/\r/g, '').replace(BOILERPLATE, ' ').split(/(?<=[.!?:;])\s+|\s*\n\s*/).map(function (x) { return x.replace(/\s+/g, ' ').trim(); }).filter(Boolean);
+  return decode(text).replace(/\r/g, '').replace(BOILERPLATE, ' ').split(/(?<=[.!?:;])(?<!\b(?:No|Nos|Mr|Ms|Mrs|Dr|St|Inc|Co|Corp|Jr|Sr|vs?|U\.S|Jan|Feb|Aug|Sept?|Oct|Nov|Dec)\.)\s+|\s*\n\s*/).map(function (x) { return x.replace(/\s+/g, ' ').trim(); }).filter(Boolean);
 }
 
 // ownTexts: our own request text(s) (the matched request's, or all of them when the message isn't matched yet).
@@ -366,4 +366,199 @@ export function resolveRequest(msg, ctx) {
     if (sid && senderTrusted(sid, msg.from, trk, hit, ctx.reqs)) requestId = sid;
   }
   return { requestId: requestId, hit: hit, trk: trk };
+}
+
+// ---- What the agency said, in plain English ---------------------------------------------------------------------
+//
+// explainReply() reads an agency's own words (our request quoted back is stripped first) and says what it decided, in
+// everyday language: got it, case number, which processing line and how long that line takes, fees, fast-track,
+// records released or withheld (each exemption spelled out), passed to another office, what they need from Mark, how
+// long he has to appeal. Rules, not a model, so it never says anything the letter doesn't. The tracker shows it on
+// every reply and the Email Worker sends it as the phone alert.
+
+const EXEMPTIONS = {
+  '1': 'classified national-security information', '2': 'internal personnel rules', '3': 'another law bars release',
+  '4': 'company trade secrets or confidential business information', '5': 'internal deliberations or legal advice',
+  '6': 'personal privacy', '7': 'law-enforcement records', '7A': 'it could interfere with an investigation or case',
+  '7B': 'it could deny someone a fair trial', '7C': 'personal privacy in law-enforcement files', '7D': 'it could reveal a confidential source',
+  '7E': 'law-enforcement techniques', '7F': "it could endanger someone's safety", '8': 'bank-regulation reports', '9': 'oil and gas well data'
+};
+const AP_MONTHS = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+const DATE_RE = /\b((?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.? \d{1,2},? \d{4}|\d{1,2}\/\d{1,2}\/\d{4})\b/;
+function apDay(d) { return AP_MONTHS[d.getUTCMonth()] + ' ' + d.getUTCDate() + ', ' + d.getUTCFullYear(); }
+function parseDay(s) {
+  const d = new Date(String(s).replace(/\./g, '').replace(/^Sept/, 'Sep') + ' 12:00 UTC');
+  return isNaN(d) ? null : d;
+}
+const NUM = { thirty: 30, sixty: 60, ninety: 90, ten: 10, twenty: 20, forty: 40, 'forty-five': 45 };
+function count(s) { return NUM[String(s).toLowerCase()] || parseInt(s, 10); }
+function clip(s, n) { s = String(s).replace(/\s+/g, ' ').trim(); return s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : s; }
+
+// [key, pattern, optional check(sentence)]. Every pattern is the agency speaking ("has been denied", "we located"),
+// so the same words in our own request ("I request expedited processing") never count.
+const SAYS = [
+  ['glomar', /neither confirm nor deny|cannot confirm or deny/i],
+  ['withheld', /withh(?:eld|old(?:ing)?) (?:the (?:responsive )?records |them |these records |the documents |all (?:responsive )?records )?in (?:their )?(?:full|entirety)|denied in (?:full|its entirety)|den(?:y|ying) your request in (?:full|its entirety)/i],
+  ['norecords', /no (?:responsive )?records (?:were|was) (?:found|located|identified)|(?:did not|could not|were unable to|was unable to) (?:locate|find|identify) any (?:responsive )?records|does not (?:maintain|have|possess) any (?:responsive )?(?:government )?records|(?:located|found) no (?:responsive )?records|no records responsive|there (?:are|were) no (?:responsive )?records|did not identify any (?:responsive )?records/i],
+  ['partial', /(?:released?|releasing|granted?|withheld|withholding|denied) in part|partial(?:ly)? (?:release|grant|denial|denied|granted)|(?:information|portions?|material|names?|pages?) (?:has|have|was|were|is|are) (?:been )?(?:redacted|withheld)|(?:with|contains?|containing) redactions/i],
+  ['released', /(?:enclosed|attached|provided|available|releas\w*|produc\w*)\b[^.]{0,80}\b\d[\d,]* (?:pages?|records|documents)|(?:we are|we have|I am|this office is|the department is) (?:enclos|releas|produc|provid)\w*[^.]{0,60}\b(?:records|documents|pages)|(?:interim|final) (?:release|production)|documents? released|records? (?:have|has) been released/i,
+    function (s) { return !/copy of your (?:request|letter|appeal)|fee schedule|narrowing options|request (?:is )?(?:enclosed|attached)/i.test(s); }],
+  ['appealDecided', /(?:affirm|uphold|upheld|sustain)\w* (?:the |our |its |this office's )?(?:initial |original )?(?:determination|decision|response|denial)|appeal (?:is|has been) (?:hereby )?(?:denied|granted|remanded|closed)|remand\w* (?:your request|the request|this matter)/i],
+  ['appealAck', /(?:received|receipt of|acknowledg\w*)[^.]{0,80}\bappeal|appeal has been (?:assigned|logged|docketed|received)/i,
+    function (s) { return !/(?:may|can|right to|if you)[^.]{0,40}appeal/i.test(s); }],
+  ['transfer', /\b(?:transferr\w*|referr\w*|forward\w*|transfer|referral)\b(?: of)?[^.]{0,60}?\b(?:request|records|it|documents|case)\b[^.]{0,80}?\bto (?:the )?((?:[A-Z][\w&.'-]*)(?:\s+(?:[A-Z][\w&.'-]*|of|and|for|the|on))*)/,
+    function (s) { return !/referred to as|(?:may|might|will|could) (?:be )?(?:need to )?(?:transfer|refer)/i.test(s); }],
+  ['rejected', /not accept\w* (?:foia )?requests? (?:via|by|through) e-?mail|requests? (?:submitted|sent|received) (?:via|by) e-?mail (?:will|are|is) not|you must submit a (?:new )?(?:freedom of information act )?(?:\(foia\) |foia )?request|submit (?:your|the|a) (?:new )?(?:foia )?requests? online|requests? can be submitted online|to file a (?:foia )?request[^.]{0,80}\buses? (?:the |its )?[\w-]+ (?:request )?(?:processing )?system|resubmit (?:your|the) request|(?:need|have) to (?:visit|use) (?:our|the) (?:online )?portal|must be (?:sent|submitted) via a method/i],
+  ['spam', /quarantined|missing one of your|caught in (?:our|a|the) (?:spam|junk)/i],
+  ['closed', /(?:your |the |this )?request(?: #?[\w-]*\d[\w-]*)? (?:is|has been|was) (?:hereby )?(?:administratively )?closed|(?:we are|we have|I am) (?:now )?clos(?:ed|ing) (?:your|this|the) (?:request|case|file)/i,
+    function (s) { return !/\b(?:unless|if|absent|without a response|fail\w*)\b/i.test(s); }],
+  ['expediteDenied', /expedit\w*(?: processing| treatment)?[^.]{0,80}\b(?:is|has been|are|was|were) (?:hereby )?(?:denied|not granted|not warranted)|den(?:y|ied|ying|ial of) (?:your )?(?:request for )?expedit|does not (?:meet|qualify for|warrant) expedit|(?:not|in)eligible (?:for )?expedit/i],
+  ['expediteGranted', /expedit\w*(?: processing| treatment)?[^.]{0,80}\b(?:is|has been|was) (?:hereby )?granted|grant(?:ed|ing) (?:your )?(?:request for )?expedit/i],
+  ['feeDenied', /fee waiver[^.]{0,80}\b(?:is|has been|was) (?:hereby )?(?:denied|not granted)|den(?:y|ied|ying) your (?:request for a )?fee waiver/i],
+  ['feeWaived', /fee waiver[^.]{0,80}\b(?:is|has been|was) (?:hereby )?granted|grant(?:ed|ing) your (?:request for a )?fee waiver|no fees? (?:will|shall) be (?:assessed|charged)|(?:fees?|costs?) (?:will be|shall be|are|is|have been|has been) waived|determined that no fees/i,
+    function (s) { return !/waived (?:where|if|when|unless)|\$\s?25(?:\.00)? or less/i.test(s); }],
+  ['feePending', /fee waiver[^.]{0,60}\b(?:is |remains )?(?:under (?:consideration|review)|pending)|(?:will|shall) (?:decide|address|rule on|make a determination (?:on|regarding)) (?:your )?(?:request for a )?fee waiver/i],
+  ['media', /(?:categori[sz]ed|placed|classified|treated|qualif\w*) (?:you )?(?:as|in) (?:an? |the )?[“"]?(?:representative of the )?news[- ]media/i],
+  ['feeEstimate', /(?:estimat\w*|anticipat\w*|expect\w*)[^.]{0,80}\$\s?[\d,]+(?:\.\d\d)?|\$\s?[\d,]+(?:\.\d\d)?[^.]{0,60}\b(?:estimat\w*|in fees)/i,
+    function (s) { return !/\$\s?(?:25|50)(?:\.00)?\b[^.]{0,30}(?:or less|threshold|minimum)|government cost estimate|waive (?:the first )?\$|^if\b|\bif the (?:cost|fee)/i.test(s); }],
+  ['track', /\b(complex|simple|expedited|fast|standard|normal) (?:processing )?(?:track|queue)\b/i],
+  ['extension', /unusual circumstances|needs? additional time|(?:need|require)s? more time|(?:extend|extension of|invok\w*)[^.]{0,60}\b(?:time limit|deadline|response time|(?:10|ten) (?:additional )?(?:business |working )?days?)/i,
+    function (s) { return !/\b(?:may|might|if)\b[^.]{0,60}(?:extend|invok|unusual)/i.test(s); }],
+  ['eta', /estimated (?:date of )?completion(?: date)?|expect\w* (?:to )?(?:complete|respond|provide|issue|finish)\w*|anticipat\w* (?:complet|respon|provid)\w*/i,
+    function (s) { return DATE_RE.test(s) && !/visiting|check the status/i.test(s); }],
+  ['ack', /acknowledg\w*(?: the)? receipt|receipt of your|(?:have|has) received your|(?:we|this office|the department|the agency|OIA|our office) received your|request (?:has been|was|is) (?:logged|received|assigned)|assigned (?:it |your request )?(?:the )?(?:above|following|tracking|case|request|control|reference)[- ](?:referenced )?(?:number|no\.?)|(?:tracking|case|request|reference|control) (?:number|no\.?) (?:is|has been assigned)|this (?:email|letter) (?:is to )?(?:acknowledg|confirm)\w*|has been assigned (?:to|the)|^\W*acknowledge?ment\b|\backnowledge?ment (?:letter|of (?:your )?(?:foia )?request)|(?:request|it)\b[^.]{0,60}\b(?:was|has been|have been) received|received (?:a|your)\b[^.]{0,80}\brequest|is being processed|(?:writ\w+|this is) to acknowledge/i],
+  ['duplicate', /\bduplicate\b/i]
+];
+// Portal account mail (sign-in links, codes, surveys), judged by the subject: nothing to read, nothing to alert.
+const ACCOUNT = /recovery link|account is ready|(?:reset|create|set) (?:a |your )?(?:new )?password|verification code|confirmation code|authentication method|confirm your email|welcome to the|tell us how we did|survey/i;
+// Agency case numbers extractTracking() leaves alone (DOC-IOS-2027-000122, OST-2027-0027, FOIA-2027-00191) or that only a label names ("the OMB FOIA number is 2027-054").
+const CASE_NO = /\b([A-Z]{2,5}(?:-[A-Z]{2,5})?-\d{4}-\d{3,6}(?:-[A-Z]{1,2})?|\d{4}-[A-Z]{2,6}-\d{3,6}-[A-Z]{1,2})\b/;
+const CASE_LABEL = /(?:foia|tracking|case|request|reference|control)\s*(?:number|no\.?|#)\s*(?:is|:)?\s*([A-Z0-9]*\d[A-Z0-9]*-[A-Z0-9-]*\d)/i;
+
+// subject: the mail's subject. text: what the agency wrote (its fresh reply plus attachment text, not the thread below).
+// ownTexts: our request text(s). received: ISO date the mail arrived (for appeal deadlines).
+// -> { kind, headline, tone: bad|action|good|info, priority: 2-4 for the phone alert, points: [...], quote } or null
+export function explainReply(subject, text, ownTexts, received) {
+  if (ACCOUNT.test(subject || '')) return { kind: 'account', headline: 'Portal account email: nothing to do', tone: 'info', priority: 1, points: [], quote: null };
+  const body = stripOwn(String(subject || '') + '\n' + String(text || ''), ownTexts || []);
+  const sents = body.split('\n').filter(function (s) { return s.length > 3; });
+  if (!sents.length) return null;
+  const hit = {};
+  for (const s of sents) {
+    if (/^\W{0,3}[\u2610\u25a1]|(?:^|\s)o\s[\u2610\u25a1]|[\u2610\u25a1]\s*(?:is|are|was|the|request)\b/i.test(s)) continue;  // an unchecked box on a form (Hawaii's notice to requester) is an option, not a decision
+    for (const d of SAYS) {
+      if (hit[d[0]]) continue;
+      const m = d[1].exec(s);
+      if (m && (!d[2] || d[2](s))) hit[d[0]] = { s: s, m: m };
+    }
+  }
+  const all = sents.join(' ');
+  const ask = asksForReply(sents.join('\n'), ownTexts || []);
+  const pts = [];
+  const add = function (t) { if (t && pts.indexOf(t) < 0) pts.push(t); };
+
+  // The case numbers: theirs for the request, and an appeal's own number when this is about an appeal.
+  const trk = extractTrackingDeep(subject, [], text) || (CASE_NO.exec(String(subject || '')) || CASE_LABEL.exec(String(text || '').slice(0, 6000)) || CASE_NO.exec(String(text || '').slice(0, 3000)) || [])[1] || null;
+  const appealNo = (/appeal[^.]{0,80}?\bassigned (?:the )?(?:appeal |tracking |reference )*(?:number|no\.?)\s*([A-Z0-9]+-[A-Z0-9-]*\d)/i.exec(all) || /\b((?:A|FIA|APP|AP)-\d{2,4}-\d{3,6})\b/.exec(all) || [])[1];
+
+  if (hit.glomar) add('They won’t say whether any records exist (a “Glomar” response). Agencies use it to protect secrets like an investigation or a source; it can be appealed.');
+  if (hit.withheld) add('They’re keeping all of the records from you.');
+  if (hit.norecords) add('They say they searched and found nothing.');
+  if (hit.released) {
+    const pages = /(\d[\d,]*) (?:pages?|records|documents)/i.exec(hit.released.s);
+    add('They sent records' + (pages ? ': ' + pages[1] + ' ' + (/page/i.test(pages[0]) ? 'pages' : 'records') : '') + '.');
+  }
+  if (hit.partial) add('Some of it is blacked out or held back.');
+  const ex = [];
+  (all.match(/\(b\)\s?\((\d)\)(?:\s?\(([A-F])\))?|\bExemptions? (\d)(?:\s?\(([A-F])\))?/gi) || []).forEach(function (x) {
+    const m = /(\d)\)?(?:\s?\(([A-F])\))?$/i.exec(x.replace(/\s+/g, ''));
+    const k = m ? m[1] + (m[2] ? m[2].toUpperCase() : '') : null;
+    if (k && EXEMPTIONS[k] && ex.indexOf(k) < 0) ex.push(k);
+  });
+  if (ex.length && (hit.withheld || hit.partial || hit.released || hit.glomar || hit.appealDecided))
+    add('Their reasons: ' + ex.map(function (k) { return '(b)(' + k[0] + ')' + (k[1] ? '(' + k[1] + ')' : '') + ' ' + EXEMPTIONS[k]; }).join('; ') + '.');
+  if (hit.appealDecided) add('They ruled on your appeal: “' + clip(hit.appealDecided.s, 200) + '”');
+  if (hit.appealAck) add('They got your appeal' + (appealNo ? ' (appeal number ' + appealNo + ')' : '') + '.');
+  if (ask) {  // every distinct thing they ask for, up to three (ICE's clarification letters ask for dates, places and offices at once)
+    const asks = [];
+    sents.forEach(function (s) { const a = asks.length < 3 && asksForReply(s, ownTexts || []); if (a && asks.indexOf(a.excerpt) < 0) asks.push(a.excerpt); });
+    if (!asks.length) asks.push(ask.excerpt);
+    add('They need something from you: ' + asks.map(function (x) { return '“' + clip(x, 220) + '”'; }).join(' '));
+  }
+  if (ask) {
+    const close = /(?:clos\w*|withdrawn|administratively)[^.]{0,120}?\b(\d+|ten|twenty|thirty) (?:business |working |calendar )?days|\b(\d+|ten|twenty|thirty) (?:business |working |calendar )?days[^.]{0,120}?(?:clos\w*|withdrawn)/i.exec(all);
+    if (close) add('If you don’t answer within ' + count(close[1] || close[2]) + ' days, they’ll close the request.');
+  }
+  if (hit.rejected) add('They don’t take requests by email. It has to be filed again on their website.');
+  if (hit.spam) add('They think one of your emails may have been caught in their spam filter and want to make sure nothing was lost.');
+  if (hit.transfer) {
+    const tm = SAYS.find(function (d) { return d[0] === 'transfer'; })[1].exec(all.slice(Math.max(0, all.indexOf(hit.transfer.s.slice(0, 40)))));
+    const dest = ((tm || hit.transfer.m)[1]).replace(/\s+(?:of|and|for|the|on)$/i, '');
+    add('They passed ' + (/portion|part of/i.test(hit.transfer.s) ? 'part of it' : 'it') + ' to ' + dest + ', which will answer you directly.');
+  }
+  if (hit.duplicate) add('They say this repeats another request of yours, so they’re handling it under that one.');
+  if (hit.closed && !hit.norecords && !hit.withheld && !hit.duplicate) add('They closed the request.');
+  if (hit.feeEstimate) add('They estimate the fees at ' + /\$\s?[\d,]+(?:\.\d\d)?/.exec(hit.feeEstimate.s)[0].replace(/\s/g, '') + '.');
+  if (hit.feeDenied) add('Fee waiver denied: you may be charged.');
+  else if (hit.feeWaived) add('No fees.');
+  else if (hit.feePending) add('They haven’t decided on your fee waiver yet.');
+  if (hit.media && !hit.feeWaived) add('They put you in the news-media fee group, the cheapest one.');
+  if (hit.expediteDenied) add('Your request to jump the line (expedited processing) was denied.');
+  if (hit.expediteGranted) add('Your request to jump the line (expedited processing) was granted.');
+  if (hit.track) {
+    const line = hit.track.m[1].toLowerCase();
+    const avg = /average processing time[^.]{0,60}?\b(\d+) (?:business |working )?days for simple[^.]{0,60}?\b(\d+) (?:business |working )?days for complex/i.exec(all);
+    if (line === 'complex') add('It’s in the slow line for big requests' + (avg ? '; that line averaged ' + avg[2] + ' days last year' : '') + '.');
+    else if (line === 'simple') add('It’s in the faster line for small requests' + (avg ? '; that line averaged ' + avg[1] + ' days last year' : '') + '.');
+  }
+  if (hit.extension) add('They’re taking extra time, which the law allows for big or multi-office searches.');
+  if (hit.eta) { const d = parseDay(DATE_RE.exec(hit.eta.s)[1]); if (d) add('They expect to finish by ' + apDay(d) + '.'); }
+  if (!ask && (hit.track || hit.extension) && /narrow(?:ing)? (?:options|the scope|your request)/i.test(all)) add('They’d move it faster if you narrowed it.');
+
+  // How long to appeal, when there's something to appeal.
+  const adverse = hit.glomar || hit.withheld || hit.norecords || hit.partial || hit.expediteDenied || hit.feeDenied || hit.closed ||
+    (hit.appealDecided && /den|affirm|uphe|sustain/i.test(hit.appealDecided.m[0]));
+  if (adverse) {
+    const ap = /appeal[^]{0,260}?\b(?:within|no later than) (\d+|thirty|sixty|ninety|forty-five) (calendar[- ]|business |working )?days/i.exec(all);
+    const to = /(?<![\w.+-])([\w.+-]*appeal[\w.+-]*@[\w-]+(?:\.[\w-]+)+)/i.exec(all) || /appeal[^.]{0,160}?(?<![\w.+-])([\w.+-]+@[\w-]+(?:\.[\w-]+)+)/i.exec(all);
+    if (ap) {
+      const n = count(ap[1]), biz = /business|working/i.test(ap[2] || '');
+      const start = received ? new Date(String(received).slice(0, 10) + 'T12:00:00Z') : null;
+      const by = start && !isNaN(start) ? new Date(start.getTime() + (biz ? Math.ceil(n * 7 / 5) : n) * 86400000) : null;
+      add('You have ' + n + (biz ? ' business' : '') + ' days to appeal' + (by ? ' (by ' + (biz ? 'about ' : '') + apDay(by) + ')' : '') + (to ? ', by email to ' + to[1].replace(/\.$/, '') : '') + '.');
+    }
+  }
+  if (trk && !hit.appealAck && !hit.appealDecided) add('Their case number: ' + trk + '.');
+
+  // The headline and how loudly to ring the phone: the most consequential thing the letter says.
+  let kind, headline, tone, priority = 3;
+  if (hit.glomar) { kind = 'glomar'; headline = 'Won’t confirm or deny the records exist'; tone = 'bad'; priority = 4; }
+  else if (hit.withheld) { kind = 'withheld'; headline = 'Records withheld in full'; tone = 'bad'; priority = 4; }
+  else if (hit.norecords) { kind = 'norecords'; headline = 'No records found'; tone = 'bad'; priority = 4; }
+  else if (hit.released) { kind = 'released'; headline = hit.partial ? 'Records released, some withheld' : 'Records released'; tone = 'good'; priority = 4; }
+  else if (hit.appealDecided) { const den = /den|affirm|uphe|sustain/i.test(hit.appealDecided.m[0]); kind = 'appealDecided'; headline = den ? 'Appeal denied' : /remand/i.test(hit.appealDecided.m[0]) ? 'Appeal won: sent back for a new search' : 'Appeal decided'; tone = den ? 'bad' : 'good'; priority = 4; }
+  else if (ask) { kind = 'ask'; headline = 'They need an answer from you'; tone = 'action'; priority = 4; }
+  else if (hit.rejected) { kind = 'rejected'; headline = 'Won’t take it by email: refile online'; tone = 'action'; priority = 4; }
+  else if (hit.feeEstimate) { kind = 'fees'; headline = 'Fee estimate'; tone = 'action'; priority = 4; }
+  else if (hit.spam) { kind = 'spam'; headline = 'An email of yours may be lost'; tone = 'action'; priority = 4; }
+  else if (hit.duplicate) { kind = 'duplicate'; headline = 'Closed as a duplicate'; tone = 'info'; }
+  else if (hit.closed) { kind = 'closed'; headline = 'Request closed'; tone = 'bad'; priority = 4; }
+  else if (hit.transfer) { kind = 'transfer'; headline = 'Passed to another office'; tone = 'info'; }
+  else if (hit.appealAck) { kind = 'appealAck'; headline = 'Appeal received'; tone = 'info'; }
+  else if (hit.ack) {
+    kind = 'ack'; tone = 'info'; priority = 2;
+    headline = 'Request received' + (hit.expediteGranted ? '; fast-track granted' : hit.expediteDenied ? '; fast-track denied' : '') + (hit.feeDenied ? '; fee waiver denied' : '');
+    if (hit.expediteGranted || hit.feeDenied) priority = 3;
+  }
+  else if (hit.expediteDenied || hit.expediteGranted || hit.feeDenied || hit.feeWaived || hit.extension || hit.eta || hit.track) { kind = 'update'; headline = 'Status update'; tone = hit.expediteDenied || hit.feeDenied ? 'bad' : 'info'; priority = 2; }
+  else { kind = 'other'; headline = 'Message from the agency'; tone = 'info'; priority = 3; }
+
+  // In their own words: the sentence behind the headline, for anything beyond a routine acknowledgment.
+  const lead = { glomar: hit.glomar, withheld: hit.withheld, norecords: hit.norecords, released: hit.released, appealDecided: hit.appealDecided,
+    rejected: hit.rejected, fees: hit.feeEstimate, spam: hit.spam, closed: hit.closed, transfer: hit.transfer, duplicate: hit.duplicate }[kind];
+  // The whole sentence from the running text, so one broken across lines in a PDF reads whole.
+  const whole = function (s) { const i = all.indexOf(s); if (i < 0) return s; const m = /^[\s\S]*?[.!?](?=\s|$)/.exec(all.slice(i, i + 400)); return m && m[0].length >= s.length ? m[0] : s; };
+  let quote = lead ? whole(lead.s) : null;
+  if (kind === 'other') quote = sents.find(function (s) { return s.length >= 40 && /[a-z]{3,}.*[a-z]{3,}/i.test(s) && !/[*_=]{4}/.test(s) && String(subject || '').indexOf(s) < 0 && !/[<>{}#]|https?:|^(?:dear|hello|hi|good (?:morning|afternoon|evening)|re:|subject:)/i.test(s); }) || null;
+  return { kind: kind, headline: headline, tone: tone, priority: priority, points: pts.slice(0, 8), quote: quote ? clip(quote, 300) : null };
 }
