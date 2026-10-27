@@ -231,6 +231,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "aecom": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Energy",
+        "amount": 271068026.84,
+        "recipient": "AECOM ENERGY & CONSTRUCTION, INC.",
+        "start": "2000-07-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DEAC0299CH10903_8900_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 229651455.66,
+        "recipient": "AECOM TECHNICAL SERVICES, INC.",
+        "start": "2022-07-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N4008522F5863_9700_N6247019D8022_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 142026999.91,
+        "recipient": "AECOM GOVERNMENT SERVICES, INC.",
+        "start": "2012-03-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0020_9700_FA810809D0001_9700"
+      }
+    ],
+    "first": "2000-07-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "agile 4 vets": {
     "d": "2026-10-23",
     "examples": [],
@@ -1151,6 +1180,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "becton dickinson and": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 76219560.0,
+        "recipient": "BECTON, DICKINSON AND COMPANY",
+        "start": "2020-08-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE2D120F0431_9700_SPE2DE20D0023_9700"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 74942246.21,
+        "recipient": "BECTON, DICKINSON AND COMPANY",
+        "start": "2022-02-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C10X22C0007_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 33792366.52,
+        "recipient": "BECTON, DICKINSON AND COMPANY",
+        "start": "2021-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50121C00025_7505_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-12-08",
+    "has_contracts": true,
+    "raw_hits": 250
+  },
   "bentley system": {
     "d": "2026-10-22",
     "examples": [
@@ -1983,6 +2041,35 @@
     "first": "2004-11-30",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "coinbase": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Justice",
+        "amount": 8128125.0,
+        "recipient": "COINBASE INC",
+        "start": "2026-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15M50026FA4400070_1544_15M50026DA4400052_1544"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 4416680.0,
+        "recipient": "COINBASE INC",
+        "start": "2026-06-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15M50026FA4400036_1544_15M50024DA4400010_1544"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 910000.0,
+        "recipient": "COINBASE INC",
+        "start": "2021-09-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD21P00000141_7012_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2020-05-11",
+    "has_contracts": true,
+    "raw_hits": 7
   },
   "colossal contracting": {
     "d": "2026-10-20",
@@ -3723,6 +3810,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "integrated medical service": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 31840277.58,
+        "recipient": "INTEGRATED MEDICAL SYSTEMS, IN",
+        "start": "2002-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DAMD1702C0116_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 6833233.0,
+        "recipient": "INTEGRATED MEDICAL SYSTEMS, INC.",
+        "start": "2008-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W81XWH09C0020_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 2239401.57,
+        "recipient": "INTEGRATED MEDICAL SOLUTIONS, LLC",
+        "start": "2023-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15B61023P00000045_1540_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2002-09-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "intercomp": {
     "d": "2026-10-10",
     "examples": [
@@ -5209,6 +5325,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "omnicell": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 9825614.45,
+        "recipient": "OMNICELL, INC.",
+        "start": "2013-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA25813J1709_3600_V797D30111_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 9606433.09,
+        "recipient": "OMNICELL, INC.",
+        "start": "2019-09-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24619F0452_3600_V797D30111_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 6378420.28,
+        "recipient": "OMNICELL, INC.",
+        "start": "2020-04-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25820N0196_3600_V797D30111_3600"
+      }
+    ],
+    "first": "2013-01-23",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "open mobility foundation": {
     "d": "2026-10-10",
     "examples": [],
@@ -5459,6 +5604,35 @@
       }
     ],
     "first": "1999-10-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "philip healthcare": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 9276950.0,
+        "recipient": "PHILIPS HEALTHCARE INFORMATICS INC.",
+        "start": "2012-12-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0004_9700_SPM2D111D8305_9700"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 8208863.52,
+        "recipient": "PHILIPS HEALTHCARE INFORMATICS INC.",
+        "start": "2011-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA612C19189_3600_GS35F0134X_4732"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 7441154.43,
+        "recipient": "PHILIPS HEALTHCARE INFORMATICS INC.",
+        "start": "2016-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA26116F3044_3600_GS35F0134X_4732"
+      }
+    ],
+    "first": "2011-05-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -6389,6 +6563,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "space vector": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 5175742.0,
+        "recipient": "SPACE VECTOR, LLC",
+        "start": "2019-11-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA881820F0013_9700_FA881819D0001_9700"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 2099295.0,
+        "recipient": "SPACE VECTOR, LLC",
+        "start": "2015-09-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNM15AA16C_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1788630.0,
+        "recipient": "SPACE VECTOR, LLC",
+        "start": "2020-12-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA881821F0004_9700_FA881819D0001_9700"
+      }
+    ],
+    "first": "2008-03-19",
+    "has_contracts": true,
+    "raw_hits": 17
+  },
   "steampunk": {
     "d": "2026-10-14",
     "examples": [
@@ -7114,6 +7317,35 @@
     "has_contracts": true,
     "raw_hits": 96
   },
+  "uei:CMZHMVNAALR1": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 9744757.04,
+        "recipient": "VASCULAR SOLUTIONS LLC",
+        "start": "2020-09-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W81XWH20C0088_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1718656.87,
+        "recipient": "VASCULAR SOLUTIONS LLC",
+        "start": "2020-09-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W81XWH20C0099_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 75852.0,
+        "recipient": "VASCULAR SOLUTIONS LLC",
+        "start": "2010-03-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0025910P0631_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-12-27",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:CWLNZ4TJCLE4": {
     "d": "2026-10-22",
     "examples": [
@@ -7665,6 +7897,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:HYBLSJAMM2F4": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 1057078261.39,
+        "recipient": "KBR WYLE SERVICES, LLC",
+        "start": "2018-01-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC017C0006_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 728477896.88,
+        "recipient": "KBR WYLE SERVICES, LLC",
+        "start": "2007-05-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG07CA21C_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 681573350.45,
+        "recipient": "KBR WYLE SERVICES, LLC",
+        "start": "2022-06-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80GSFC22CA020_8000_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2003-02-28",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:HYGLK2BNFKB3": {
     "d": "2026-10-10",
     "examples": [
@@ -8054,6 +8315,35 @@
       }
     ],
     "first": "2006-06-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:LUUBKNAN8TK6": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 29811467.26,
+        "recipient": "PALL AEROPOWER CORPORATION",
+        "start": "2005-02-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ05C0122_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 13661450.0,
+        "recipient": "PALL AEROPOWER CORPORATION",
+        "start": "2011-04-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRRA111C0042_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 8446410.0,
+        "recipient": "PALL AEROPOWER CORPORATION",
+        "start": "2013-10-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_SPRRA114D0003_9700"
+      }
+    ],
+    "first": "2005-02-23",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -9593,6 +9883,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "verina pars jv": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1177052.93,
+        "recipient": "VERINA-PARS JV",
+        "start": "2023-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912BU23C0054_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 533828.96,
+        "recipient": "VERINA-PARS JV",
+        "start": "2023-09-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912BU23F0063_9700_W912BU22D0003_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 533828.96,
+        "recipient": "VERINA-PARS JV",
+        "start": "2023-10-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912BU24F0001_9700_W912BU22D0003_9700"
+      }
+    ],
+    "first": "2022-01-19",
+    "has_contracts": true,
+    "raw_hits": 13
+  },
   "vetmed group group": {
     "d": "2026-10-10",
     "examples": [
@@ -9651,12 +9970,70 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "vigor marine": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 443725248.51,
+        "recipient": "VIGOR MARINE LLC",
+        "start": "2019-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002419C4447_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 275862726.0,
+        "recipient": "VIGOR MARINE LLC",
+        "start": "2024-10-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002425C4402_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 252871467.0,
+        "recipient": "VIGOR MARINE LLC",
+        "start": "2026-04-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002426C4411_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-11-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "virginia community college system": {
     "d": "2026-10-11",
     "examples": [],
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "vocera communication": {
+    "d": "2026-10-27",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 336696.0,
+        "recipient": "VOCERA COMMUNICATIONS, INC.",
+        "start": "2007-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912CM07P0603_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 122333.7,
+        "recipient": "VOCERA COMMUNICATIONS, INC.",
+        "start": "2015-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA69D16C0014_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 120000.0,
+        "recipient": "VOCERA COMMUNICATIONS, INC.",
+        "start": "2012-02-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0018312P0633_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-09-30",
+    "has_contracts": true,
+    "raw_hits": 43
   },
   "vrc metal system": {
     "d": "2026-10-10",

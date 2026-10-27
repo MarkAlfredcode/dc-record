@@ -1,0 +1,707 @@
+{
+ "date": "Tuesday, October 27, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Marshals Service gives Coinbase an $8.1 million no-bid cryptocurrency custody deal after a theft at its previous contractor",
+  "dek": "The sole-source justification says the Coinbase award is urgent because the incumbent was ordered to stop work after an employee allegedly stole seized cryptocurrency.",
+  "paragraphs": [
+   "The <strong>U.S. Marshals Service</strong> plans an 18-month, firm-fixed-price contract with <strong>Coinbase Inc.</strong> for custody, management and disposal of seized cryptocurrency in its Class 2-4 inventory. The justification puts the estimated value at $8,128,125 and invokes the urgent-need exception, \"unusual and compelling urgency.\" The file name carries a September 14 date; the notice was posted today (<a href=\"https://sam.gov/opp/059c27ac0d2b4e9b8556833c27a55d2d/view\">notice</a>, <a href=\"https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d1bbba8a8a704ac086618d2e53c096cd/download\">justification</a>).",
+   "According to the justification, the prior Class 2-4 contract went to <strong>Command Services and Support Inc.</strong>, and an unsuccessful bidder protested that award at the agency level and at the Government Accountability Office without success. The document says a stop-work notice was issued on January 23, 2026, after an employee of that contractor allegedly stole seized cryptocurrency, with a loss of \"at least $46 million.\" The screening pass could not match that passage word for word, so the $46 million figure is a lead, not a verified fact.",
+   "The Marshals Service says Coinbase is \"the only company with a current Authorization to Use (ATU) designation\" that could perform without substantial interruption. The justification adds that such a designation typically takes six months or longer to obtain, per the screening pass, which could not verify that passage verbatim. USAspending shows Coinbase's first federal contract on record in May 2020."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Notice",
+     "url": "https://sam.gov/opp/059c27ac0d2b4e9b8556833c27a55d2d/view"
+    },
+    {
+     "text": "Justification document",
+     "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/d1bbba8a8a704ac086618d2e53c096cd/download"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "White House & Executive Office of the President",
+   "headline": "Nothing tied to the White House in today's contracting data",
+   "paragraphs": [
+    "No sole-source justification, SAM.gov notice or award was tagged to the White House or the Executive Office of the President in this edition's data."
+   ],
+   "blocks": [],
+   "no_news": true
+  },
+  {
+   "eyebrow": "Washington, D.C.",
+   "headline": "Homeland Security charters shuttles to its St. Elizabeths campus without competition after an event moved",
+   "paragraphs": [
+    "Of 12 items tagged to Washington, D.C., three really belong here: one sole-source justification and two sources-sought notices. Four were moved to their home sections because the capital was only an office address, and five were left out as repeats of notices already listed in earlier editions."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Homeland Security charters shuttles to its St. Elizabeths campus without competition after an event venue changed",
+     "meta": [
+      "Sole-Source Justification",
+      "Chart Up, LLC",
+      "no value given",
+      "only one company can do it",
+      "Department of Homeland Security"
+     ],
+     "text": "The <strong>Department of Homeland Security</strong> is buying round-trip chartered transportation for its personnel from the Washington, D.C. area to the St. Elizabeths campus for October 27-29, 2026 from <strong>Chart Up, LLC</strong>. The notice was posted October 27, the first day of service. The justification says the three-day event was originally to be held at a location that did not require transportation, but \"due to unforeseen circumstances the event had to be relocated.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/c17c14255f804114961bdb444b560c26/view"
+      },
+      {
+       "text": "Justification document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c32bc704179f4065b604f673ca7e68ce/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Army Corps of Engineers asks industry about a controls and instrumentation purchase agreement for the Washington Aqueduct</strong>. The sources-sought notice describes the aqueduct as two treatment plants in the District of Columbia. (<a href=\"https://sam.gov/opp/ba2b76cef402413cb5f103e9ada96378/view\">W912DR27XC1S4</a>)",
+      "<strong>Interior Department looks for on-site physical wellness providers for its headquarters at the Stewart L. Udall Building</strong>. The industry day and request for information covers 1849 C Street NW. (<a href=\"https://sam.gov/opp/107f655396b14729ba1610ff9154040a/view\">DOIDSAM270004</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sole-Source Justifications",
+   "headline": "NASA buys Artemis avionics from Space Vector without competition, citing a race with China",
+   "paragraphs": [
+    "There are 29 new sole-source justifications here, plus one in the Washington, D.C. section, and 25 repeats from earlier editions were left out. Thirteen of the day's justifications were posted under other notice types such as award notices, special notices and sources-sought notices. Six of the new ones are extensions or bridges and sit in the Extensions section. The biggest story, the Marshals Service's Coinbase contract, is today's Top Story."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Must read"
+    },
+    {
+     "type": "card",
+     "title": "NASA buys Artemis secondary-payload avionics from Space Vector without competition, citing urgency and a race with China",
+     "meta": [
+      "Space Vector LLC",
+      "value redacted",
+      "urgent need, no time to compete",
+      "National Aeronautics and Space Administration"
+     ],
+     "text": "The <strong>National Aeronautics and Space Administration</strong>'s Marshall Space Flight Center is buying Secondary Payload Avionics Units and engineering support for the Artemis IV and V missions, including a spare, from <strong>Space Vector LLC</strong>. The units control deployment of secondary payloads from the Space Launch System. The justification says Space Vector designed and built the units that flew on Artemis I and II and that any new supplier would add months, and it cites Executive Order 14369 on returning astronauts to the Moon by 2028. It states: \"It is critical to the national interests of the United States... that the Artemis program return American astronauts to the Moon before China reaches this milestone.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/d4404f77681642b78226ba8d69b5a961/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/07e191d22baf42f0af197c21753e894c/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Census Bureau sole-sources $950,000 of current and historical voter registration data from Labels & Lists",
+     "meta": [
+      "Labels & Lists Inc.",
+      "$950,000 estimated",
+      "only one company can do it",
+      "Department of Commerce"
+     ],
+     "text": "The <strong>U.S. Census Bureau</strong> wants current and historical raw and enhanced voter registration data for all 50 states and the District of Columbia from <strong>Labels & Lists Inc.</strong> (\"L2\") for 12 months, to support administrative-records research for the 2027 Census Test and the 2030 Census. The justification says \"L2 is the only source capable of providing the specific data set\" and that the bureau has historically used L2's enhanced data. USAspending shows the company's earliest federal contract under this name dated October 23, 2026, four days ago.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/469a664df24c44d98210de0976ec77fe/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/71e925d3fc4f4321afb9955eb5a435f4/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Air Force gives KBR Wyle a follow-on contract to run Wright-Patterson's centrifuge and altitude chambers without competition",
+     "meta": [
+      "KBR Wyle Services, LLC",
+      "value redacted in the justification; award notice lists $15,000,000",
+      "only one company can do it",
+      "Department of the Air Force"
+     ],
+     "text": "The <strong>Air Force Research Laboratory</strong> plans a 60-month indefinite-quantity contract with <strong>KBR Wyle Services, LLC</strong> to operate and maintain the centrifuge and research altitude chambers at Wright-Patterson Air Force Base. The justification calls the incumbent the only contractor able to do the work without unacceptable risk and says the facility must be running by October 1, 2026. It estimates a competitor's learning curve at $2.1 million to $3.2 million and 12 to 18 months, per the screening pass, which could not verify that quote verbatim. It was posted as an award notice, which lists the award date as September 25.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/2fb0be303291496b923fd112fdacefd3/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/0a8a6229b09a4a6bb45ab62535e3d95f/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy gives Vigor Marine more USS Emory S. Land overhaul work without competition, saying delay costs $221,529 a day</strong>. The justification says competing the work would take 381 or more days. The value is redacted. (<a href=\"https://sam.gov/opp/6e9e38fd5158450b8fdb000b283d25bb/view\">N3220526C1223</a>)",
+      "<strong>Defense Health Agency picks Vascular Solutions, a Teleflex subsidiary, to develop freeze-dried plasma for battlefield use without competition</strong>. It was posted as an award notice listing $2,775,271; the justification's value is redacted. (<a href=\"https://sam.gov/opp/b7086a2980654cb39648f38483a73395/view\">HT942726CE047</a>)",
+      "<strong>Transportation Department gives MITRE Corporation $2.5 million over two years for its Digital Corridors Initiative without competition</strong>. The justification relies on MITRE's status as a federally funded research center. (<a href=\"https://sam.gov/opp/cc4c6fe4da62454b9b2a6bec72341440/view\">OR2026R43K011</a>)",
+      "<strong>Defense Department pays Pall Aeropower $40,000 for Executive Champion Orientation training in the Danaher Business System for the Office of the Secretary of War</strong>. The justification says only Pall Aeropower, a Danaher subsidiary, can teach it. It was posted as an award notice. (<a href=\"https://sam.gov/opp/e1766451dd674d82a5042b4d352802e7/view\">HQ003426CE057</a>)",
+      "<strong>State Department sole-sources event venue, catering and interpretation for a senior-level visit to Samarkand, Uzbekistan, to GUP InterForum</strong>. The total is 3,487,503,140 Uzbek som, and the justification says InterForum is the only company with a venue able to host high-level visits. (<a href=\"https://sam.gov/opp/b5ec08f637324122a91f4877867471d6/view\">19UZ8026P1043</a>)",
+      "<strong>State Department sole-sources $25,000 of VIP transportation for the same Samarkand visit to UZVIPTRANSSERVICE</strong>. The justification says security concerns prevented enough advance notice to compete. (<a href=\"https://sam.gov/opp/38e6688e6db5462b9d6b71b664289b00/view\">19UZ8026P1033</a>)"
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Every other justification"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Agriculture buys manual snow-survey services at Idaho mountain sites from a redacted vendor without competition, posted as a sources-sought notice (<a href=\"https://sam.gov/opp/78e241ab9cc14d39a9a212a17cf59563/view\">West-JA27-001</a>)",
+      "Defense Logistics Agency buys 436 grooved clamp couplings from Eaton Aeroquip and Lockheed Martin without competition (<a href=\"https://sam.gov/opp/0cdb98b8472d48fb8d82f8a902a4b405/view\">SPE4A726R0147</a>)",
+      "Defense Logistics Agency researches buying Parker Hannifin parts without competition, posted as a sources-sought notice (<a href=\"https://sam.gov/opp/510cc3eb39f042f8876dcf1e739c3743/view\">ParkerSoleSourceParts</a>)",
+      "Army Corps of Engineers plans to keep Verina-PARS JV monitoring groundwater at the former Nike launch area in Oxford, Ohio, without competition (<a href=\"https://sam.gov/opp/4aad796a61c14cf68f8078a9c09aef68/view\">W912QR27MNAMONITORING</a>)",
+      "Army Corps of Engineers plans to buy St. Johns River fish and invertebrate monitoring from the Fish & Wildlife Research Institute without competition (<a href=\"https://sam.gov/opp/49b441458e614fc08cd424937160c275/view\">W912EP-27-Q-1CTH</a>)",
+      "Navy plans to have Tacoma Hydraulics refurbish two forklift lift cylinders at Puget Sound Naval Shipyard without competition (<a href=\"https://sam.gov/opp/a1621f92f4094bdcadb989b121aae68e/view\">N4523A27Q5705</a>)",
+      "Homeland Security buys two helicopter pylon stabilizer parts from Sikorsky Aircraft without competition (<a href=\"https://sam.gov/opp/a26317386fd743bcb0295f935d5e1027/view\">70Z03827QJ0000016</a>)",
+      "Federal Bureau of Prisons buys ambulance services for FCI Pekin from Peoria Hospital Mobile Medical Services for $236,991 (<a href=\"https://sam.gov/opp/be4a3f6a991a45108dad40253c576596/view\">15B41127P00000001</a>)",
+      "NASA buys $750,000 of water piping replacement engineering for Ames Research Center from AECOM without competition (<a href=\"https://sam.gov/opp/1870e0f5b40e4d3f9ff148c5892f2941/view\">80ARC026F0032</a>)",
+      "Veterans Affairs plans to keep Becton Dickinson maintaining Alaris infusion pumps at its Butler facility without competition (<a href=\"https://sam.gov/opp/db7138244f5a4b8e909d2610c7802aaf/view\">36C24427Q0040</a>)",
+      "Veterans Affairs buys Omnicell medication dispensing maintenance for South Texas medical centers without competition (<a href=\"https://sam.gov/opp/65dfdb187603454eb6718a66decd15aa/view\">36C25727Q0068</a>)",
+      "Veterans Affairs buys a Philips ultrasound probe transducer upgrade without competition (<a href=\"https://sam.gov/opp/70284673ddcb455e9b8bca3392133366/view\">36C24227Q0092</a>)",
+      "Veterans Affairs buys Vocera communication system licenses and support for Mid-Atlantic medical centers without competition (<a href=\"https://sam.gov/opp/00bbf9a173c44bd48a8f84064e88ce19/view\">36C10B27Q0079</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Extensions",
+   "headline": "Air Force extends RC-135 aircrew training contract six months without competition, blaming the shutdown and DOGE-driven changes",
+   "paragraphs": [
+    "Six new extensions or bridges, none of them repeats. Two Federal Bureau of Prisons medical bridges, an Air Force training extension, a General Services Administration lease and two Transportation Security Administration airport screening extensions."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Air Force extends its RC-135 aircrew training contract six months without competition after the recompete slipped",
+     "meta": [
+      "Vendor redacted",
+      "value redacted",
+      "only one company can do it",
+      "Department of the Air Force"
+     ],
+     "text": "The <strong>Air Force</strong>'s Air Combat Command extends contract FA4890-21-C-0001 for RC-135 aircrew training and courseware at Offutt Air Force Base, Nebraska, from November 1, 2026 to April 30, 2027. The Air Force had already used a six-month services extension on April 1, 2026, which runs through October 31. The justification blames the October-November 2025 government shutdown and \"requirement changes due to DOGE feedback\" for delaying the recompete, now expected to be awarded February 1, 2027. It says current work cannot be competed in the time left.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/153ded56b08d4c60af52ed62af153cd2/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e622cbec91a34c768a96604e76d65022/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Federal Bureau of Prisons keeps Naphcare running Brooklyn jail medical care without competition while a protest holds up a new contract",
+     "meta": [
+      "Naphcare",
+      "$889,018 estimated for October 2026",
+      "only one company can do it",
+      "Department of Justice"
+     ],
+     "text": "The <strong>Federal Bureau of Prisons</strong> will buy a month of comprehensive medical services for the Metropolitan Detention Center in Brooklyn from the incumbent <strong>Naphcare</strong>, for an estimated $889,017.86 covering October 1 through 31, 2026, though the notice was posted October 27. The justification says \"Award of a CMS contract is pending the resolution of a protest.\" It says the incumbent has served the institution for over five years and that a new provider would need 30 or more days to credential staff and 60 days for security clearances. The pipeline logged an earlier Naphcare justification for $555,000 at the Petersburg prison complex.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/daa82fead5204dba89f98df99743a591/view"
+      },
+      {
+       "text": "J&A document",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/58dc90580a424e47adb297d457643732/download"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Other extensions"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Federal Bureau of Prisons keeps Integrated Medical Services providing medical care at FCI Sheridan, Oregon, through December without competition</strong>. The estimated cost is $810,410. (<a href=\"https://sam.gov/opp/256f6a160da2400daf463d5dc72556de/view\">15B61226P00000144</a>)",
+      "<strong>General Services Administration extends a Minneapolis office lease for 60 months without competition</strong>. The lessor and value are redacted; the space is about 35,905 rentable square feet. (<a href=\"https://sam.gov/opp/3625e04d23334d91a325ba2995c39fa2/view\">6MN0208</a>)",
+      "<strong>Transportation Security Administration extends airport security screening at Sioux Falls Regional Airport without competition</strong>. No value is given. (<a href=\"https://sam.gov/opp/41b8b969207145febcb9d2c7c2f90347/view\">JA-2026-05-1310</a>)",
+      "<strong>Transportation Security Administration extends airport security screening at Rochester's Frederick Douglass Greater Rochester International Airport without competition</strong>. No value is given. (<a href=\"https://sam.gov/opp/4b9ff301b9964a25bc5a0d784bdc5658/view\">JA-2026-05-1400</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Award Notices",
+   "headline": "Defense Logistics Agency awards six medical-surgical prime vendor contracts with a combined ceiling near $22 billion",
+   "paragraphs": [
+    "Of 434 new award notices, 50 repeats were left out and one flagged notice sits in the Washington, D.C. parts. The prime vendor awards below dominate the day; most others are Defense Logistics Agency parts buys."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Defense Logistics Agency picks Cardinal Health, McKesson and Concordance for ten-year medical supply contracts",
+     "meta": [
+      "Award Notice",
+      "about $22.0 billion combined maximum",
+      "Defense Logistics Agency"
+     ],
+     "text": "The <strong>Defense Logistics Agency</strong> awarded fixed-price, indefinite-quantity Medical Surgical Prime Vendor contracts to <strong>Cardinal Health 200, LLC</strong>, <strong>McKesson Medical-Surgical Government Solutions LLC</strong> and <strong>Concordance Healthcare Solutions LLC</strong>. Each has a 30-month base and three 30-month options, ending June 6, 2037. The notices name the Army, Navy, Air Force, Marine Corps, <strong>Defense Health Agency</strong>, <strong>Department of Veterans Affairs</strong> and <strong>Department of Health and Human Services</strong> as customers. The amounts are maximum values:",
+     "links": [
+      {
+       "text": "North primary notice",
+       "url": "https://sam.gov/opp/c293771d7782499ba0f9b401111df4a5/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "North primary: Cardinal Health 200, LLC, $8,840,378,196 (<a href=\"https://sam.gov/opp/c293771d7782499ba0f9b401111df4a5/view\">SPE2DV27D0001</a>)",
+      "North back-up: Concordance Healthcare Solutions LLC, $982,264,244 (<a href=\"https://sam.gov/opp/6a52a0043e1a4c75be37e8c9150b8987/view\">SPE2DV27D0002</a>)",
+      "South primary: McKesson Medical-Surgical Government Solutions LLC, $4,368,779,534 (<a href=\"https://sam.gov/opp/21f6d0d8d41946c8996c22dbd508e92d/view\">SPE2DV27D0003</a>)",
+      "South backup: Cardinal Health 200, LLC, $485,419,948 (<a href=\"https://sam.gov/opp/d7995f3be5544d08b48a8da0e06720e1/view\">SPE2DV27D0004</a>)",
+      "West primary: Cardinal Health 200, LLC, $6,573,132,798 (<a href=\"https://sam.gov/opp/87410d6e2a674104a09a309d28f26029/view\">SPE2DV27D0005</a>)",
+      "West backup: Concordance Healthcare Solutions LLC, $730,348,089 (<a href=\"https://sam.gov/opp/408ca071e6864f45b9aea793c0fd01d1/view\">SPE2DV27D0006</a>)"
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Navy awards BAE Systems Jacksonville $66.5 million to overhaul the littoral combat ship USS St. Louis",
+     "meta": [
+      "BAE Systems Maritime Solutions Jacksonville LLC",
+      "$66,526,423; $80,693,639 with options",
+      "Award Notice",
+      "Department of the Navy"
+     ],
+     "text": "<strong>Naval Sea Systems Command</strong> awarded <strong>BAE Systems Maritime Solutions Jacksonville LLC</strong> a firm-fixed-price contract for maintenance, modernization and repair of USS St. Louis (LCS 19) in a fiscal 2027 Docking Selected Restricted Availability. The notice says it was competed with full and open competition. Options would bring the cumulative value to $80,693,639. It was tagged to Washington, D.C. only because the contracting activity is listed there.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/90d1c01438e548d7973ff617c54a0438/view"
+      }
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Also worth a look"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy gives Soliel LLC $44,999,004 for cybersecurity and information assurance support at its Philadelphia warfare center</strong>. It is a cost-plus task order under the SeaPort contract vehicle. (<a href=\"https://sam.gov/opp/bf0cc659208a4fe59ff56b55dbda53e0/view\">N6449825R3072</a>)",
+      "<strong>Defense Logistics Agency gives Maness Veteran Medical LLC $41 million for hospital supplies</strong>. (<a href=\"https://sam.gov/opp/4c5bd75d79714a2fb5bf2f4512c22753/view\">SPE2DH21R00020008</a>)",
+      "<strong>Navy orders $32.6 million of CH-53K helicopter upgrade work from Sikorsky without full competition</strong>. The notice says Sikorsky is the sole designer and integrator of the airframe. (<a href=\"https://sam.gov/opp/5168ea3da7584f64acd35a73bb1a17b1/view\">ARC210MSC2853KAW</a>)",
+      "<strong>Defense Logistics Agency pays the Tarrant County Association for the Blind $24.6 million for energy-dissipating aerial delivery pads</strong>. (<a href=\"https://sam.gov/opp/abbedec6910c45c196f298203a65853d/view\">SPE4A724R05590002</a>)",
+      "<strong>Navy gives AT&T Enterprises $7.5 million for internet phone service</strong>. The notice names AT&T as awardee but its text says \"Sole Source award to Verizon.\" (<a href=\"https://sam.gov/opp/2c4a150870d94724946961ef6cd2e598/view\">N0018926RL029</a>)",
+      "<strong>CCI Facility Contractors wins $8.65 million to build the Alburg Springs land port of entry in Vermont</strong>. The notice lists no agency. (<a href=\"https://sam.gov/opp/110a7f1f6c74443482b81293e4d3dc5d/view\">47PB5126R0008</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Flagged notices not written up include a $537,732 sole-source Virginia-class submarine scrubber repair at Pearl Harbor. Routine awards by agency: Defense Logistics Agency Land and Maritime, 160; Defense Logistics Agency Aviation, 130; Defense Logistics Agency Troop Support, 49; seven with no agency listed; the rest scattered one to three per office. 50 repeats were left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Solicitations",
+   "headline": "Army Corps of Engineers seeks bids for a Puerto Rico flood control project estimated at $250 million to $350 million",
+   "paragraphs": [
+    "Of 244 new solicitations, 139 repeats were left out and three flagged ones are in the Washington, D.C. parts."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Army Corps of Engineers seeks a builder for the Rio de la Plata flood control project in Dorado and Toa Baja, Puerto Rico",
+     "meta": [
+      "Solicitation",
+      "$250 million to $350 million per the notice",
+      "Department of the Army"
+     ],
+     "text": "The <strong>U.S. Army Corps of Engineers</strong> will award one firm-fixed-price design-bid-build construction contract. The notice says the estimated magnitude is between $250,000,000 and $350,000,000, while a June site-visit presentation lists $300,000,000 to $400,000,000. The notice warns that \"all real estate rights have not yet been obtained\" for access to the full site.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/bae29f1493a9476291fa00758bc7fc2e/view"
+      },
+      {
+       "text": "Site visit presentation",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/708a18802a2a4c9491998124a77c9ea7/download"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Federal Bureau of Prisons seeks secure juvenile detention beds in Garza County, Texas",
+     "meta": [
+      "Solicitation",
+      "Department of Justice"
+     ],
+     "text": "The <strong>Federal Bureau of Prisons</strong> wants a contractor for secure in-house juvenile services for male and female federal juvenile offenders, with a guaranteed minimum of 13 beds and an estimated maximum of 20. It is an indefinite-quantity contract with fixed unit prices, a one-year base and four one-year options. All 18 attached files are queued for reading.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/a8ec5cdec8094a11bd6241dfeeb76d69/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Grand Canyon South Rim wastewater plant replacement is advertised as an unfunded requirement",
+     "meta": [
+      "Solicitation",
+      "Department of the Interior"
+     ],
+     "text": "The <strong>National Park Service</strong> solicitation for replacing the wastewater plant at South Rim Village says it is \"currently an unfunded requirement with a high expectation that funds will be available,\" and that a contract will be awarded \"when and if funds become available.\" An answers-to-questions amendment says the contractor must operate the new treatment facilities for 12 months. A specification amendment loosens the maximum water content of washed grit from 10 percent to 40 percent.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/69471257ad774dfaad9608f92a666ad9/view"
+      },
+      {
+       "text": "Solicitation",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/066c87774b104eeda671c11e468ee728/download"
+      },
+      {
+       "text": "Answers to questions",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/fcc55130fb414feb95179c091bfd9a2d/download"
+      },
+      {
+       "text": "Specification amendment",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/234ab0227a8e426da23bdd3616ec3a70/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Navy posts the formal request for proposals for E-6B Mercury depot overhaul work</strong>. It plans one indefinite-quantity contract with a five-year ordering period and a five-year option, and calls it single-source even as it cites full and open competition. (<a href=\"https://sam.gov/opp/4e82b79c2ad04fdb816559864b2e9b33/view\">N0001927R1025</a>)",
+      "<strong>Defense Logistics Agency plans spares for the Army's VAMPIRE weapon system from L3Harris ForceX without competition</strong>. (<a href=\"https://sam.gov/opp/50e37db47c624b7eac841a7c3408fee1/view\">SPRRA2-27-R-SP05</a>)",
+      "<strong>Federal Highway Administration seeks bids for gravel road work on the Minuteman missile access roads in six North Dakota counties</strong>. (<a href=\"https://sam.gov/opp/06d117033c644f769d02eef6e2dfccfe/view\">6982AF27B000011</a>)",
+      "<strong>Army Corps of Engineers invites small businesses to design and build a parachute repair shop at Yuma Proving Ground</strong>. (<a href=\"https://sam.gov/opp/b008a0332dd94b96a6e816686bb43369/view\">W912PL26RA046</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Routine solicitations by agency: Navy Supply Systems Command Weapon Systems Support Mechanicsburg, 41; Navy Weapon Systems Support, 14; Defense Logistics Agency Aviation in Philadelphia, 13; eleven with no agency listed, and a long tail of one to five per office. 139 repeats and amendments, including the State Department worldwide architect-engineer notice, were left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Combined Synopsis/Solicitations",
+   "headline": "Immigration agency seeks packaged meals three times a day for its Atlanta detention intake unit",
+   "paragraphs": [
+    "Of 427 new combined notices, 107 repeats were left out and one flagged notice is in the Washington, D.C. parts."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Immigration and Customs Enforcement seeks individually packaged meals for its Atlanta detention intake unit",
+     "meta": [
+      "Combined Synopsis/Solicitation",
+      "Department of Homeland Security"
+     ],
+     "text": "<strong>U.S. Immigration and Customs Enforcement</strong> wants a small-business vendor to deliver individually packaged breakfast, lunch and dinner seven days a week to the Atlanta Field Office's Detention Intake Processing Unit. The notice cites a statement of work; its five attached files are queued for reading.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/82745117f8b44f34ac3b784fbe08d10c/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Border Patrol seeks 15 detection canines and 3 patrol canines for its El Paso K9 Center",
+     "meta": [
+      "Combined Synopsis/Solicitation",
+      "Department of Homeland Security"
+     ],
+     "text": "<strong>U.S. Customs and Border Protection</strong> posted three requests for quotes for its Border Patrol K9 Center in El Paso: two for 15 untrained detection canines each and one for three dual-purpose patrol canines. It can buy more if funds are available.",
+     "links": [
+      {
+       "text": "Detection canines 20151893",
+       "url": "https://sam.gov/opp/c679e27c0b4d4628a9a22b23858cc6fa/view"
+      },
+      {
+       "text": "Detection canines 20161894",
+       "url": "https://sam.gov/opp/82252403360a428fb6fc0ee946067f8f/view"
+      },
+      {
+       "text": "Patrol canines 20161895",
+       "url": "https://sam.gov/opp/264bbaa05cec42dcb7b4ddcbebbc60fd/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Agriculture seeks foot and mouth disease vaccine antigen concentrate",
+     "meta": [
+      "Combined Synopsis/Solicitation",
+      "Department of Agriculture"
+     ],
+     "text": "The <strong>Animal and Plant Health Inspection Service</strong> wants to buy and store foot and mouth disease vaccine antigen concentrate, convert government-owned concentrate into usable vaccine and buy finished vaccine. It is unrestricted. All five attachments are queued.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/5f99ba22dd384963826104e13f46fa8a/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Military Sealift Command plans a sole-source mariner training program with Cutwater Maritime Educational Services</strong>, moving unlicensed engine mariners to licensed third assistant engineers. (<a href=\"https://sam.gov/opp/0a4d9943b7ea48d294b4f1e73becbd6e/view\">N3220527R6005</a>)",
+      "<strong>Federal Protective Service seeks armed security officers for federal buildings across the Los Angeles area</strong>, with a base year and four option years. (<a href=\"https://sam.gov/opp/576c356b59d3424882e08dac2df4f2e5/view\">70RFPW26RW9000001</a>)",
+      "<strong>Transportation Department seeks to replace 27 hydraulic bollards at the loading dock of its headquarters</strong>, limited to holders of an East Coast Corridor contract. (<a href=\"https://sam.gov/opp/b5f26a3349d14cecaa04e82838484afc/view\">47PE5326R0063</a>)",
+      "<strong>Forest Service cancels its Kents Lake campground reconstruction solicitation in Utah's Fishlake National Forest</strong>. (<a href=\"https://sam.gov/opp/69a0b83981ac4d3f88949afd81a5d54c/view\">1240LT26Q0106</a>)",
+      "<strong>Immigration and Customs Enforcement posts a passenger transport solicitation in Dallas</strong>. A file read today says only that the contractor provides \"passenger transport services in accordance with statement of work.\" (<a href=\"https://sam.gov/opp/e8c4e9084da145378228350b52c8269f/view\">70CMSD27Q00000001</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Routine combined notices by agency: Defense Logistics Agency Land and Maritime, 205; Defense Logistics Agency Aviation, 58; Defense Logistics Agency Troop Support, 27; seven with no agency listed; the rest scattered. 107 repeats were left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Presolicitations",
+   "headline": "Space Force plans a sole-source satellite sustainment contract with Boeing worth up to about $945.9 million",
+   "paragraphs": [
+    "Of 100 new presolicitations, 56 repeats were left out. Three stand out; most of the rest are Navy and Defense Logistics Agency parts."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Space Force plans a sole-source satellite sustainment contract with Boeing worth up to about $945.9 million",
+     "meta": [
+      "Presolicitation",
+      "ceiling about $945.9 million",
+      "Department of the Air Force"
+     ],
+     "text": "The <strong>U.S. Space Force</strong>'s Space Systems Command intends a sole-source indefinite-quantity contract with <strong>The Boeing Company</strong> for Wideband and Narrowband Global SATCOM Sustainment. The ceiling is about $945.9 million: $480.6 million for a five-year base ordering period and $465.3 million for a ten-year option. It covers engineering, sustainment, cybersecurity and modernization across several military satellite communications constellations.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/056ad9c020c74faeb89ec3eb16bb3309/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Defense Information Systems Agency plans to keep By Light running its fiber network without competition while the competed follow-on is set up",
+     "meta": [
+      "Presolicitation",
+      "Department of Defense"
+     ],
+     "text": "The <strong>Defense Information Systems Agency</strong> intends to award a sole-source contract to the current contractor, <strong>By Light Professional IT Services LLC</strong>, by November 30, 2026, for operation and maintenance of dark fiber. The notice says this prevents a lapse \"while transition to the follow-on contract, which was competitively awarded, is completed.\"",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/a94f7d65019e472fb45168031074f535/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army plans a sole-source Motorola Solutions radio buy of more than 37,000 units",
+     "meta": [
+      "Presolicitation",
+      "Department of the Army"
+     ],
+     "text": "<strong>Army Contracting Command-Aberdeen Proving Ground</strong> intends a sole-source firm-fixed-price contract with <strong>Motorola Solutions, Inc.</strong> for 34,950 portable VHF radios, 2,100 portable UHF radios and a mobile VHF quantity that the notice prints both as \"six hundred ninety\" and as 10,690. It supports the Communications-Electronics Command's security assistance work.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/d640ffd7909840108fe45a63faac25a1/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Army Corps of Engineers plans a vehicle maintenance facility for the Border Patrol's Brown Field station in San Diego County</strong>. (<a href=\"https://sam.gov/opp/27c575bd41154587a87dfbdbc12d5345/view\">W912PL26RA015</a>)",
+      "<strong>Navy plans a sole-source Rolls-Royce Marine contract for gas turbine engines used across the fleet</strong>, with a 60-month ordering period. (<a href=\"https://sam.gov/opp/f0213f666f9a4870b86cdcb6fcbc14ad/view\">N64498-26-RFPREQ-PD-42-0030_1</a>)",
+      "<strong>Navy plans a sole-source Sikorsky order for CH-53K test article installations in fiscal 2027</strong>. (<a href=\"https://sam.gov/opp/6b503cc19f8542fca69442fd4eed0912/view\">N00019-26-RFPREQ-APM261-0497</a>)",
+      "<strong>NASA says its final request for proposals for Space Power and Reactor Capabilities will post around November 20</strong>. (<a href=\"https://sam.gov/opp/b25506bd9bf44be1b657a93f35880012/view\">80GRC026R0009_PS</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Routine presolicitations by agency: Navy Supply Systems Command Weapon Systems Support Mechanicsburg, 23; Defense Logistics Agency Aviation, 11; Navy Weapon Systems Support, 10; the rest scattered. 56 repeats were left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Special Notices",
+   "headline": "Missile Defense Agency awards Raytheon a $745 million noncompetitive deal for Standard Missile-3 rounds",
+   "paragraphs": [
+    "Of 52 new special notices, 36 repeats were left out and one flagged notice is in the Washington, D.C. parts."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Missile Defense Agency awards Raytheon a noncompetitive $745 million contract for Standard Missile-3 Block IIA rounds",
+     "meta": [
+      "Special Notice",
+      "$745,387,095.42 base value",
+      "Department of Defense"
+     ],
+     "text": "The <strong>Missile Defense Agency</strong> is awarding <strong>Raytheon</strong> in Tucson an undefinitized contract action to build Standard Missile-3 Block IIA all-up rounds for the U.S. and Japan's Ministry of Defense. Funds obligated at award are $275,613,909 in fiscal 2026 procurement money and $277,688,036.35 from Japan; work runs to February 28, 2031. The text is headed \"07 August Contract Announcement,\" though the notice posted October 27.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/618ab624309f474f8ac3531a059ca854/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Army Corps of Engineers previews a design-build competition for the 91st Cyber Operations Center",
+     "meta": [
+      "Special Notice",
+      "Department of the Army"
+     ],
+     "text": "The <strong>U.S. Army Corps of Engineers</strong> Fort Worth District announced a competition for the 91st Cyber Operations Center using progressive design-build under other-transaction authority for construction, 10 U.S.C. 2808a. It is a qualifications-based, two-phase approach. The six attached files are queued.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/57cb3540d0d647a989054edec5c7e5d6/view"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>FBI plans a one-time sole-source purchase of a FALIT TRIO laser system from Control Laser Corp</strong>. (<a href=\"https://sam.gov/opp/dc781449380241b88bb2adee8a5b7554/view\">SHOP-PR-27-000055</a>)",
+      "<strong>Commerce Department plans a sole-source contract for the Bureau of Industry and Security annual conference</strong>. The vendor's name is cut off in the data. (<a href=\"https://sam.gov/opp/bf8e89a7bf994981a848de1827d89c80/view\">134440-26-0001</a>)",
+      "<strong>Army Corps of Engineers announces an industry day for a progressive design-build high-speed test track at Holloman Air Force Base</strong>. (<a href=\"https://sam.gov/opp/da501ee233bb45dcbc8324055ad4f35e/view\">W912PP27Z1CUU</a>)",
+      "<strong>Army Corps of Engineers announces a virtual industry day for the VA Canandaigua Phase III design-build project</strong>. (<a href=\"https://sam.gov/opp/3c0c831eaa054249b4405f6182de1467/view\">W912P4</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Routine special notices by agency: NASA, 4; Bureau of Industry and Security, 3; Department of Energy contractors, 2; Transportation Security Administration, 2; Naval Research Laboratory, 2; the rest one each. 36 repeats were left out."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Sources Sought",
+   "headline": "Secret Service asks industry how it would run transportation for National Special Security Events",
+   "paragraphs": [
+    "Of 124 new sources-sought notices, 71 repeats were left out and five flagged ones are in the Washington, D.C. parts."
+   ],
+   "blocks": [
+    {
+     "type": "card",
+     "title": "Secret Service seeks industry input on event transportation logistics for National Special Security Events",
+     "meta": [
+      "Sources Sought",
+      "responses due November 20, 2026",
+      "Department of Homeland Security"
+     ],
+     "text": "The <strong>U.S. Secret Service</strong> is asking industry about capabilities to provide event transportation logistics coordination for National Special Security Events. Amendment 1 posted answers to industry questions. It is a request for information only.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/30c28eb7cc0c4cafad7a033e8f2fcdfa/view"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Transportation Department's Volpe Center asks about refurbished boxcars for ammunition and explosives",
+     "meta": [
+      "Sources Sought",
+      "responses due November 13, 2026",
+      "Department of Transportation"
+     ],
+     "text": "The <strong>Volpe National Transportation Systems Center</strong> is researching refurbished and used boxcars, which its request says are \"needed to safely transport ammunition and explosives in compliance with strict military safety regulations.\" Cars would be delivered to a continental U.S. Army rail base, \"location TBD.\" The deadline was extended from October 21.",
+     "links": [
+      {
+       "text": "Notice",
+       "url": "https://sam.gov/opp/cd585e95439c419989af04a60f73611f/view"
+      },
+      {
+       "text": "Request for information",
+       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ac5f3fdd35e645518ba552a1ec595483/download"
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Army Corps of Engineers sounds out industry on Providence River dredging and a disposal cell, estimated at $80 million to $100 million</strong>. (<a href=\"https://sam.gov/opp/a426eaa48dd345d08ade07b924e9c4a4/view\">W912WJ27X1CUP</a>)",
+      "<strong>Air Force asks for a contractor with a Top Secret facility clearance for environmental modeling support to its nuclear detection center</strong>. (<a href=\"https://sam.gov/opp/dd87915ae2744ce78decc87a841da342/view\">FA7022-27-Q-EMSS</a>)",
+      "<strong>Army Corps of Engineers sounds out industry on a major rehabilitation of Thomas J. O'Brien Lock and Dam in Chicago</strong>. (<a href=\"https://sam.gov/opp/06f5c17bf598488189c38470d5386767/view\">PANGLR26P0000029409</a>)",
+      "<strong>Coast Guard seeks drydock repairs for the cutter Henry Blake, planned for July to September 2027</strong>. (<a href=\"https://sam.gov/opp/a2adf157134a4b039c1afef539bd9129/view\">CGC-HENRY-BLAKE-DRYDOCK-REPAIRS</a>)",
+      "<strong>State Department's narcotics bureau does market research for contractor staffing it calls urgent and compelling</strong>, including a program office in the Washington, D.C. area. (<a href=\"https://sam.gov/opp/45c54b10472643ddb871b3bb67db1ab6/view\">PR16359550</a>)"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Routine sources-sought notices by agency: eight with no agency listed; Army Aberdeen Proving Ground contracting, 5; Military Sealift Command Norfolk, 4; Defense Logistics Agency Aviation Huntsville, 3; the rest one or two per office. 71 repeats were left out, including the Immigration and Customs Enforcement video intelligence request."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "USAspending Contracts",
+   "headline": "No new USAspending contract actions cleared the featured thresholds today",
+   "paragraphs": [
+    "From this morning's edition: USAspending.gov is pulled once a day.",
+    "No new awards of $2 million or more, large modifications or cuts were featured, and none were moved to the White House or D.C. sections."
+   ],
+   "blocks": [
+    {
+     "type": "note",
+     "text": "Under $2 million: 5 new awards screened, 1 from the Defense backlog, none flagged (Veterans Affairs 2, General Services Administration 2, Defense Department 1)."
+    }
+   ],
+   "no_news": true
+  },
+  {
+   "eyebrow": "OMB Apportionments",
+   "headline": "No new apportionment files or spend-plan changes in this window",
+   "paragraphs": [
+    "The Treasury Department did not release any new apportionment files between October 22 and October 27. No federal agencies filed updates to their spending plans or submitted modifications that match the tracking keywords monitored for this section."
+   ],
+   "blocks": [],
+   "no_news": true
+  }
+ ],
+ "footer": {
+  "coverage_window": "October 26-27, 2026 (Pacific time), SAM.gov notices and justifications posted since the morning edition.",
+  "sources": "OMB apportionment data via openomb.org and apportionment-public.max.gov; SAM.gov contract opportunities and their attached documents. USAspending was not pulled in this PM edition by design; the morning's section is carried in.",
+  "known_gaps": "No source errors were reported. The OMB Apportionments pass found no new apportionment files or spend-plan changes. Document coverage: 2,283 files on 464 notices were in scope; 139 are access-restricted on SAM.gov, 1 could not be downloaded or read, and 1,372 are queued for a later edition (5,391 files overall are queued), while 13 failed during this run's reading. About 1,150 links to outside portals, mostly DIBBS, NECO and PIEE, were not followed. Findings marked unverified are leads, not confirmed facts."
+ },
+ "beat": []
+}

@@ -2044,6 +2044,31 @@
       "s": "screened",
       "sol": "191BWC26R0009"
     },
+    "03ff8ce7291a453eb9a6877c7cb71a85": {
+      "c": 9073,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "on for other than full and open competition.\u201d Agency: Department of Justice Contracting Activity: Federal Bureau of Prisons FCI Sheridan 27072 Ballston Road Sheridan, OR 97378 This document is a Justification for Other Than Full and Open Competition (JOFOC). 2. FAR DEVIATION 6.104-1(a)(2): Nature and/or description of the action being approved. This action seeks approval for the continuation of community and institution based comprehensive medical services with the Integrated Medical Services (IMS). As the incumbent contractor, IMS has agreed to continue providing CMS at its prior Medicare benchmark rates through monthly firm-fixed-unit-price purchase orders until a new CMS contract can be competitively awarded. This interim acquisition is essential to maintain uninterrupted medical services for the inmate population pending award of a new CMS contract. The Field Acquisition Office (FAO) is actively pursuing award of a CMS contract. The FAO is currently preparing a solicitation, with an anticipated indefinite delivery/requirements",
+          "finding": "Federal Bureau of Prisons extends medical services contract with Integrated Medical Services at FCI Sheridan (Oregon) for $810,410 through December 2026 without competition pending new contract award.",
+          "news": 4,
+          "quote": "This action seeks approval for the continuation of community and institution based comprehensive medical services with the Integrated Medical Services (IMS). As the incumbent contractor, IMS has agreed to continue providing CMS at its prior Medicare benchmark rates through monthly firm-fixed-unit-pr",
+          "verified": true
+        },
+        {
+          "context": "Author: Hammond, Richard",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Hammond, Richard",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Hammond, Richard",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "SHE JOFOC Comprehensive Medical Services (Oct 2026 - Dec 2026).pdf",
+      "s": "screened",
+      "sol": "15B61226P00000144"
+    },
     "040218f4680b423ca53adcd9783323c2": {
       "c": 3912,
       "d": "2026-10-11",
@@ -3341,6 +3366,14 @@
       "s": "screened",
       "sol": "W91QV126RA060"
     },
+    "070d37e51dc241eb82fe84a42cd6d5e1": {
+      "c": 1861,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "FA821326R3036 0002.pdf",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
+    },
     "070f627805714d099a7fe82922edf943": {
       "c": 48510,
       "d": "2026-10-14",
@@ -3690,6 +3723,23 @@
       "n": "APFIT-FYXX-X-LoA-Template_Project-Name_YYYYMMDD.pdf",
       "s": "screened",
       "sol": "F3J6AF-27-SS001"
+    },
+    "07e191d22baf42f0af197c21753e894c": {
+      "c": 14100,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "he United States for space exploration. China\u2019s recent progress also includes significant developments in the country\u2019s crewed lunar program, including successful liftoff and landing tests of a crewed lander. These developments place China on target to meet their current goal of landing two astronauts on the lunar surface before 2030. It is critical to the national interests of the United States, and therefore to NASA\u2019s mission, that the Artemis program return American astronauts to the Moon before China reaches this milestone and seizes the initiative and global leadership role in human space exploration. NASA plans to launch its first mission to return humans to the Moon (currently titled \u201cArtemis IV\u201d) by 2028. This launch schedule is critical to NASA\u2019s mission and the national interests it supports. b. Spacecraft Payload Integration and Evolution (SPIE) Element of the SLS Program Background The SPIE Element oversees and manages the acquisition and integration of the Interim Cryogenic Propul",
+          "finding": "NASA awards sole-source contract to Space Vector LLC for Artemis lunar mission Secondary Payload Avionics Units, citing competition would add five months delay incompatible with 2028 lunar landing target to beat China.",
+          "news": 5,
+          "quote": "It is critical to the national interests of the United States, and therefore to NASA's mission, that the Artemis program return American astronauts to the Moon before China reaches this milestone and seizes the initiative and global leadership role in human space exploration.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "022. Justification for Other than Full and Open Competition (JOFOC)-Unusual_and_Compelling_Urgency_Avionics Unit_Post.pdf",
+      "s": "screened",
+      "sol": "MSFC_26-142"
     },
     "07e3fbe95da74cb1bc47229d459ede16": {
       "c": 4357,
@@ -4688,6 +4738,14 @@
       "s": "screened",
       "sol": "FA238426SB007"
     },
+    "0a45055665c84b91b8c6d45708ac20c5": {
+      "c": 52526,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "FY27 LV5 Vocera Service DRAFT PD for RFI.docx",
+      "s": "screened",
+      "sol": "36C10B27Q0079"
+    },
     "0a455b0d75274456a3876ef01ccf9bd0": {
       "c": 145811,
       "d": "2026-10-10",
@@ -4839,6 +4897,28 @@
       "n": "CUI_DRAFT_ARCTICS II PWS_30SEP26.pdf",
       "s": "screened",
       "sol": "ARCTICSIIVI"
+    },
+    "0a8a6229b09a4a6bb45ab62535e3d95f": {
+      "c": 18752,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "finding": "Air Force sole-source contract to KBR for centrifuge operations worth estimated $2.1M-$3.2M transition cost alone; incumbent has monopoly on specialized aerospace physiology expertise.",
+          "news": 5,
+          "quote": "KBR is the only contractor with the demonstrated capability to meet the government's requirements without unacceptable risk or delay...learning curve is estimated to cost between $2.1M and $3.2M and require a 12 to 18 month timeframe.",
+          "verified": false
+        },
+        {
+          "finding": "60-month IDIQ contract for Wright-Patterson Air Force Base's only known centrifuge and altitude chamber facilities critical to fighter pilot training; must be operational by October 1, 2026.",
+          "news": 4,
+          "quote": "The contract must be awarded and fully operational by the start of Fiscal Year 2027 (1 October 2026) to prevent any disruption to C/RAC operations...WPAEB has the only known centrifuge and RAC single-site facilities with the capabilities to meet the 711th HPW's research and training mission requirem",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA_Final - Redacted 20260811.pdf",
+      "s": "screened",
+      "sol": "FA2396-26-D-B004"
     },
     "0a8ef72d159a4d0f85d6e7f758651cdf": {
       "c": 0,
@@ -5734,6 +5814,14 @@
       "s": "screened",
       "sol": "FA527027R0008"
     },
+    "0cc677fcfd444c6e8063b5dd89c82b55": {
+      "c": 11543,
+      "d": "2026-10-27",
+      "m": "ocr+pdf",
+      "n": "DARPA-SN-27-08.pdf",
+      "s": "screened",
+      "sol": "DARPA-SN-27-08"
+    },
     "0cc69e7a046c4f04888f99f4ccedf5a2": {
       "c": 1602,
       "d": "2026-10-17",
@@ -6275,6 +6363,14 @@
       "s": "screened",
       "sol": "140A2327Q0297"
     },
+    "0def22fb5dfd4a56bfcaf0ccea88531c": {
+      "c": 74,
+      "d": "2026-10-27",
+      "m": "ocr-image",
+      "n": "IMG_0026.jpg",
+      "s": "screened",
+      "sol": "2-1-QSC-T-27-007"
+    },
     "0def7620031140d9814cf325e0a5ba3e": {
       "c": 0,
       "d": "2026-10-20",
@@ -6411,6 +6507,14 @@
       "n": "EXHIBIT B1 - Agency Specific Requirements - Document Hyperlinks.pdf",
       "s": "screened",
       "sol": "36C24W26R0055"
+    },
+    "0e3e1ec8c43c4769b8d8212bf266e015": {
+      "c": 10414,
+      "d": "2026-10-27",
+      "m": "ocr+pdf",
+      "n": "Carahsoft - SSJ - redacted.pdf",
+      "s": "screened",
+      "sol": "70RTAC26A00000011"
     },
     "0e3fe606f34f47a8a0ee89f9e816199b": {
       "c": 9518,
@@ -12389,6 +12493,23 @@
       "s": "screened",
       "sol": "80NSSC27946126Q"
     },
+    "1c0e7cb8ce404a1885983f16c48fa521": {
+      "c": 8293,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "R Overhaul (RFO) FAR 6.103-1 1. AGENCY AND CONTRACTING ACTIVITY: The Contracting Activity is the Department of War (DoW), Washington Headquarters Services (WHS), Acquisition Directorate (AD), Enterprise Services and Innovation Division (ESID). Requiring Agency is the Chief of Staff, Office of the Secretary of War (OSW). 2. DESCRIPTION OF ACTION: This action seeks approval to issue a sole source, firm-fixed-priced (FFP) contract to Pall Aeropower Corporation to provide Executive Champion Orientation (ECO) Training in support of the Office of the Secretary of War (OSW). This requirement calls for proprietary Danaher Business Systems (DBS)-based training and experienced practitioners capable of delivering the ECO curriculum, associated instructional materials, and management-system methodology required to support the Government\u2019s continuous-improvement objectives. Due to the urgency of improving execution discipline, scalability, and program delivery across the U.S. defense industrial base, timely award is required to prevent delays i",
+          "finding": "DoD contracts with Pall Aeropower for $40,000 Executive Champion Orientation training based on proprietary Danaher Business System methodology for the Office of the Secretary of War.",
+          "news": 5,
+          "quote": "This action seeks approval to issue a sole source, firm-fixed-priced (FFP) contract to Pall Aeropower Corporation to provide Executive Champion Orientation (ECO) Training in support of the Office of the Secretary of War (OSW).",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "B05 JA ECO Training_Final_Redacted.pdf",
+      "s": "screened",
+      "sol": "HQ003426CE057"
+    },
     "1c10248312e243b987cf32bc72d6b65a": {
       "c": 1791,
       "d": "2026-10-23",
@@ -13415,6 +13536,23 @@
       "n": "Questions and Answers.pdf",
       "s": "screened",
       "sol": "N0017326R0008"
+    },
+    "1ed6731adb104b34a4b965ecb28a594d": {
+      "c": 14838,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "ystem. The upgrade is intended to maximize operational reliability, improve energy efficiency through modern drive technology, and ensure the safety of staff and inmates within the correctional environment. All work shall be performed in accordance with the detailed Technical Specifications outlined in this solicitation. VII._GENERAL SUMMARY: A. The Contractor shall provide a comprehensive modernization that replaces the existing TKE TAC-20 controller with a modern, non-proprietary, microprocessor control and Variable Frequency Drive (VFD) system. The completed system shall be optimized for high-reliability performance and peak energy efficiency, meeting or exceeding all original manufacturer specifications. B. Contractor shall field-verify and perform assessment of hoist way/cab/door dimensions, machine type (geared/gearless), roping/belting arrangement, counterweight location, governor and tension sheave arrangement, and existing power/disconnects. Provide a written survey report and updated shop drawings for submittal to the CO",
+          "finding": "Federal prison modernizing elevator control systems at FCC Yazoo City, including backup battery power, firefighter service, and ADA compliance features.",
+          "news": 5,
+          "quote": "The Contractor shall provide a comprehensive modernization that replaces the existing TKE TAC-20 controller with a modern, non-proprietary, microprocessor control and Variable Frequency Drive (VFD) system.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Update Elevator SOW.pdf",
+      "s": "screened",
+      "sol": "102026"
     },
     "1ee2970023b547b1b8d1150315de0022": {
       "c": 679,
@@ -16345,6 +16483,14 @@
       "n": "36C10B26Q0585 0001.docx",
       "s": "screened",
       "sol": "36C10B26Q0585"
+    },
+    "25d5a28c3a2646a494cdedb30c028a3a": {
+      "c": 6027,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "SOW STX SCM Omnicell Service  Maintenance Contract 2027 updated.docx",
+      "s": "screened",
+      "sol": "36C25727Q0068"
     },
     "25d7d178b24447dd8ea7ca72572decd9": {
       "c": 0,
@@ -23151,6 +23297,14 @@
       "s": "screened",
       "sol": "FA857127Q0008"
     },
+    "35b990ae30ec44eaaf6ee0a3d93b491d": {
+      "c": 7926,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Enclosure A - Draft Contract with incorporated Terms and Conditions.pdf",
+      "s": "screened",
+      "sol": "MB483335"
+    },
     "35c4cc43f1e2462b870e767c7c2b9412": {
       "c": 957,
       "d": "2026-10-17",
@@ -29001,6 +29155,15 @@
       "s": "screened",
       "sol": "W912LQ27QA001"
     },
+    "422d0c56d4f147a6878ab3755df4dba8": {
+      "a": 1,
+      "d": "2026-10-27",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "PWS B750-751-768 R-410A LEAK DETECTORS.pdf",
+      "s": "retry",
+      "sol": "FA446027Q0006 "
+    },
     "4233de6de17244619550f4caaae7d809": {
       "c": 8158,
       "d": "2026-10-11",
@@ -29405,12 +29568,12 @@
       "sol": "0000963801"
     },
     "4354ac1de4a4490bbd6218a09a718212": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-26",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Combined synopsis_solicitation.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "N6660426Q0430"
     },
     "4355bd3ce60145db86bcf84c4b23a023": {
@@ -29670,6 +29833,14 @@
       "n": "Attach (06) - Basic Pricing Data.xlsx",
       "s": "screened",
       "sol": "N3220526R6077"
+    },
+    "43d1f2690efb49478af87b1f4a6f92ba": {
+      "c": 8088,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "DRAFT_B2_09.1_Reps_and_Certs_Supplement.pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
     },
     "43d46e3cd5e348aa98f516733a614e4e": {
       "c": 3827,
@@ -31636,6 +31807,23 @@
       "n": "B08_-_Attachment_06_-_Vol_I_PastPerf.docx",
       "s": "screened",
       "sol": "140P2026R0081"
+    },
+    "48c6d535b76e4379854f47a4fd0c3ad5": {
+      "c": 3138,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "ity: Department of the Navy, Military Sealift Command (MSC) Norfolk 2. Description of the Action Being Approved: Award modifications under contract N3220526C1223, for the Regular Overhaul / Dry-Docking of the USS EMORY S. LAND (AS39), to Vigor Marine, LLC (Vigor), incorporating work items needed to comply with regulatory requirements. The contract was awarded for $73,424,356.37 on the basis of adequate market research. 3. Description of Supply Services: To accomplish the work items detailed in the enclosure, which are needed to comply with regulatory requirements of the U.S. Navy, U.S. Coast Guard, and American Bureau of Shipping. The total estimated dollar value for all such work items is which will be funded utilizing fiscal year 2026 Operations and Maintenance, Navy (O&M,N) funds. The authority to act under this Class J&A expires one year after the date on which it is approved by the Competition Advocate. 4. Statutory Authority Permitting Other Than Full and Open Competition",
+          "finding": "Navy awards USS EMORY S. LAND overhaul modifications to Vigor Marine for regulatory compliance work with vessel per diem cost of $221,529/day justifying urgent sole-source award.",
+          "news": 4,
+          "quote": "The vessel's per diem rate is $221,529.00 per day, which is the estimated losses to the Government for each day of delay.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "N10426C1223P00006_Redacted.pdf",
+      "s": "screened",
+      "sol": "N3220526C1223"
     },
     "48f3c00435914215a2b919c802c280fc": {
       "c": 929,
@@ -33624,6 +33812,31 @@
       "s": "screened",
       "sol": "FA945326RX012"
     },
+    "4d01e74f34bd4c1e9d05d3bf413cca23": {
+      "c": 12221,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "Funded Research and Development Center, precludes competitive solicitation under the authority provided in RFO 6.103-3, ensuring full compliance with federal acquisition regulations and Small Business Administration (SBA) protocols regarding non-competitive awards. (2) Nature and/or Description of the Action Being Approved The U.S. Department of Transportation (DOT), Office of the Assistant Secretary for Research and Technology Office (OSTR), proposes to issue a contract titled \"Technical Support for Advancing the Digital Corridors Initiative (DCI)\" with the MITRE Corporation, a Federal Funded Research and Development Center (FFRDC), for two-years with period of performance starting 10/30/2026 to 10/29/2028 for $2,500,000.00. Under the authority of RFO Subpart 6.103-3, it has been determined that competition will be limited to the MITRE Corporation due to the industrial mobilization; engineering, developmental, or research capability; and expert services for the",
+          "finding": "Transportation Department awards $2.5 million two-year contract to MITRE Corporation (Federal Funded Research Center) for Digital Corridors Initiative coordinating state transportation data exchange systems.",
+          "news": 4,
+          "quote": "The U.S. Department of Transportation (DOT), Office of the Assistant Secretary for Research and Technology Office (OSTR), proposes to issue a contract titled 'Technical Support for Advancing the Digital Corridors Initiative (DCI)' with the MITRE Corporation, a Federal Funded Research and Development",
+          "verified": true
+        },
+        {
+          "context": "Author: Bush, Jason (OST)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Bush, Jason (OST)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Bush, Jason (OST)",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "JOFOC- DCI.pdf",
+      "s": "screened",
+      "sol": "OR2026R43K011"
+    },
     "4d05d7059b554a2d8dbcd6672b688c3a": {
       "c": 40055,
       "d": "2026-10-11",
@@ -34032,6 +34245,15 @@
       "n": "Question-Answers 29 Sep.docx",
       "s": "screened",
       "sol": "FA665626R0007"
+    },
+    "4dd8cbf28da84946aed8781f0db7356a": {
+      "a": 1,
+      "d": "2026-10-27",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "SATPC0042994 Tab 10 Open Market Questions and Answers.pdf",
+      "s": "retry",
+      "sol": "80NSSC26946481Q "
     },
     "4dd978b6f95a41e293a303e193266ed1": {
       "c": 1396,
@@ -34891,6 +35113,22 @@
       "n": "Updated 14 Oct - Mortuary Services Price List.pdf",
       "s": "screened",
       "sol": "FA446027Q0003"
+    },
+    "4fc807abe3834d09b88a8851ef4da2a7": {
+      "c": 14413,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "finding": "Navy leasing 100kW diesel generator for 12 months at Puget Sound Naval Shipyard; government provides fuel, cables, and 24/7 technical support required from contractor.",
+          "news": 4,
+          "quote": "The Government will provide cables, final electrical connect/disconnect and ongoing fuel. No periodic load test will be required during this rental. Yes, 24/7 technical support is requested.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "C9 26Q5741 Amendment 0001 Questions and Answers.pdf",
+      "s": "screened",
+      "sol": "N4523A26Q5741"
     },
     "4fcc4d6ad53248ddb422d8e63af86986": {
       "c": 22115,
@@ -36648,6 +36886,14 @@
       "s": "screened",
       "sol": "36C79126R0011"
     },
+    "53d45cbc2a5440979e82184ea869a5c5": {
+      "c": 4496,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "SF-25_Performance_Bond_Form.pdf",
+      "s": "screened",
+      "sol": "140A2327Q0297"
+    },
     "53d5b9c80613485b9a7e7cfce8de9677": {
       "c": 2768,
       "d": "2026-10-17",
@@ -36776,6 +37022,14 @@
       "n": "660-803 Sources Sought- Pharmacy Expansion.pdf",
       "s": "screened",
       "sol": "36C77627Q0026"
+    },
+    "541e54126bff42fd97b51017a049fce1": {
+      "c": 12772,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "26Q0012_0_RFQ_25 SEP 26.docx",
+      "s": "screened",
+      "sol": "FA800326Q0012"
     },
     "54234bf78a0b44ea921210762ab1ac2a": {
       "c": 6898,
@@ -37952,6 +38206,24 @@
       "n": "Attachment B - Contract Data Requirements List (CDRL).pdf",
       "s": "boilerplate_only",
       "sol": "HT9427-26-R-E020"
+    },
+    "571420b377424d809cc5d088ba0d7420": {
+      "c": 520,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "Author: Finke, Damian W CIV USN COMSC NORFOLK VA (USA); LastModifiedBy: Edick, Colin J CIV USN COMSC NORFOLK VA (USA)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Finke, Damian W CIV USN COMSC NORFOLK VA (USA); LastModifiedBy: Edick, Colin J CIV USN COMSC NORFOLK VA (USA)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Finke, Damian W CIV USN COMSC NORFOLK VA (USA); LastModifiedBy: Edick, Colin J CIV USN COMSC NORFOLK VA (USA)",
+          "verified": true
+        }
+      ],
+      "m": "xlsx",
+      "n": "JA New Work Enclosure P00015.xlsx",
+      "s": "screened",
+      "sol": "N3220526C1223"
     },
     "571de588cf66434087fc19a08c329b2a": {
       "c": 7759,
@@ -39264,6 +39536,14 @@
       "n": "Questions and Answers W912D027QA001 -.pdf",
       "s": "screened",
       "sol": "W912D027QA001"
+    },
+    "5a07890f717d4a3296c415ff9283c83d": {
+      "c": 10425,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "SF1443_Progress_Payment_Request.pdf",
+      "s": "screened",
+      "sol": "140A2327Q0297"
     },
     "5a0afab05181480a90a1d7805d811f4d": {
       "c": 0,
@@ -41101,6 +41381,23 @@
       "s": "screened",
       "sol": "HM047627XXXX"
     },
+    "5e5a67cd9bcf41f296b22d4ffcb832a0": {
+      "c": 5009,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "(LINE ITEMS 0013 THROUGH 0017) $291,000.00 $314,880.80 $176,800.00 $229,500.00 $395,000.00 $139,400.00 TOTAL BID (LINE ITEMS 0001 THROUGH 0017) $8,035,500.00 $7,757,933.96 $9,492,000.00 $4,497,900.00 $9,267,400.00 $4,137,320.00",
+          "finding": "Fort Pierce Harbor dredging contract bids ranged from $3.8M to $9.5M total; small businesses Seahawk Maritime and Cavache competed against larger firms.",
+          "news": 4,
+          "quote": "TOTAL BID (LINE ITEMS 0001 THROUGH 0017) $8,035,500.00 $7,757,933.96 $9,492,000.00 $4,497,900.00 $9,267,400.00 $4,137,320.00",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "C.04.01_Bid_Abstract_ W912EP26BA015_Ft Pierce Harbor OM.pdf",
+      "s": "screened",
+      "sol": "W912EP26BA015"
+    },
     "5e6340d527de4004a2937688d4364d65": {
       "c": 1206,
       "d": "2026-10-17",
@@ -42391,6 +42688,14 @@
       "n": "65 DD Drawings_Part 2.pdf",
       "s": "screened",
       "sol": "33330226RT0010015"
+    },
+    "619cacf8612948508f9eb334f86f7624": {
+      "c": 988,
+      "d": "2026-10-27",
+      "m": "ocr+pdf",
+      "n": "Attachment 1 - Redacted J and A - 70Z03827QJ0000016.pdf",
+      "s": "screened",
+      "sol": "70Z03827QJ0000016"
     },
     "61a620c066ff45aca5bcf5c6050ff364": {
       "c": 0,
@@ -44001,6 +44306,31 @@
       "s": "screened",
       "sol": "SPE603-26-R-0529"
     },
+    "659f27a7498d4f33b827de3f7ee69ddd": {
+      "c": 6737,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": ". Their involvement provides continuity of design intent and reduces the risk of errors, delays, and rework during construction. AECOM did the design package with the CA PE stamp on drawings and submitted the final deliverables which including permitted design drawings, project specification and in house Cathodic corrosion protection calculation. Use of an alternate contractor would cost government 75 % more funds because it would require additional time for other contractors to become familiar with the process and would need increased coordination effort, and greater risk of misinterpretation of the design documents. Contractors are unwilling to assume responsibility for interpreting or modifying another firm\u2019s design without support from the original designer. Utilizing AECOM under the existing contract to provide engineering and construction support services will reduce technical, schedule, and operational risks to the Government. Based on these considerations, use of the Fair Opportunity Exception is justified.",
+          "finding": "NASA awards AECOM $750,000 contract for Ames Research Center domestic water infrastructure replacement without competition, stating alternate contractor would cost 75% more.",
+          "news": 4,
+          "quote": "Use of an alternate contractor would cost government 75 % more funds because it would require additional time for other contractors to become familiar with the process and would need increased coordination effort, and greater risk of misinterpretation of the design documents.",
+          "verified": true
+        },
+        {
+          "context": "Author: Butlebw",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Butlebw",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Butlebw",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JEFO SIGNED.pdf",
+      "s": "screened",
+      "sol": "80ARC026F0032"
+    },
     "65a4805d4e1e4a94b3eb41297c86aa63": {
       "c": 2961,
       "d": "2026-10-21",
@@ -44499,6 +44829,24 @@
       "s": "screened",
       "sol": "N0017326R0008"
     },
+    "66df66e295744e27b1811225406eddb4": {
+      "c": 2271,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "Author: Smith, Samuel",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Smith, Samuel",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Smith, Samuel",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Intent to Sole Source.pdf",
+      "s": "screened",
+      "sol": "36C25727Q0068"
+    },
     "66edc0c77b5147fa8bfcaf213fa70618": {
       "c": 47607,
       "d": "2026-10-19",
@@ -44737,12 +45085,12 @@
       "sol": "140D0426Q0413"
     },
     "6747736091de475781469d520984ca60": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-26",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "2031ZA27Q00004 Questions and Answers.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "2031ZA27Q00004"
     },
     "674962ac44ef487e87ae8d5f708dfc57": {
@@ -47584,12 +47932,12 @@
       "sol": "36C24527Q0044"
     },
     "6d90e36dc64746789a64bbbe2ddafb11": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-26",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "70ZU0127QPBPL0001_0_US.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "70ZU0127QPBPL0001"
     },
     "6d94c16332c3462e839316dfda702132": {
@@ -50670,6 +51018,22 @@
       "n": "B09_Amendment_05_GRCA_Final_Individual_Specs_0005.zip",
       "s": "screened",
       "sol": "140P2026R0101"
+    },
+    "745dd4371daf4527be51d290fa0780d4": {
+      "c": 13460,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "finding": "Pentagon awards sole-source contract to Vascular Solutions LLC (Teleflex subsidiary) for freeze-dried plasma product development with estimated value exceeding $5 million and 42-month timeline.",
+          "news": 5,
+          "quote": "The purpose of this contract, for which sole-source authorization is sought, is for PLM activities necessary to sustain the commercial viability of a FDP product. Bleeding is the leading cause of death on the battlefield.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Justification-and-Approval_HT942726RE014_FDP-PLM-v5_signed(2)_redacted_final.pdf",
+      "s": "screened",
+      "sol": "HT942726CE047"
     },
     "745e7089771347f38d982fde0aeb41a8": {
       "c": 5083,
@@ -56432,6 +56796,14 @@
       "s": "screened",
       "sol": "70Z08526QIBCT0036"
     },
+    "80c5908b34e2498ca64791f72cf9f3fe": {
+      "c": 2429,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "36C24227Q0092.docx",
+      "s": "screened",
+      "sol": "36C24227Q0092"
+    },
     "80c635e3f40b49cb9bbf7317f3d05fa1": {
       "c": 1164,
       "d": "2026-10-23",
@@ -58067,6 +58439,14 @@
       "s": "screened",
       "sol": "FA813727R0002 "
     },
+    "84b5b4bf1c754747a1650da523394d81": {
+      "c": 1463,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "CDRL A004- Accident Incident Report.pdf",
+      "s": "screened",
+      "sol": "FA857127Q0006"
+    },
     "84b746d4cb4f493fa4d5a7ce23042d12": {
       "c": 71677,
       "d": "2026-10-14",
@@ -59564,6 +59944,14 @@
       "n": "B.04 Wage Determination 2015-5541 REV 22Aug26 - 24 August 26.pdf",
       "s": "wage_determination",
       "sol": "W912DW27QA001"
+    },
+    "886b1a6141c24a8d8ec5ac9058d1381e": {
+      "c": 5943,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "80KSC024R0010 Questions and Responses to RFP.pdf",
+      "s": "screened",
+      "sol": "80KSC024R0010"
     },
     "886b28a9edc641e8ad53a87249af413b": {
       "c": 41702,
@@ -62608,6 +62996,24 @@
       "s": "screened",
       "sol": "36C24627R0007"
     },
+    "8e8354c1fd414b91bb8ce1b384e6f6a3": {
+      "c": 1648,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "Author: Finke, Damian W CIV USN COMSC NORFOLK VA (USA); LastModifiedBy: Edick, Colin J CIV USN COMSC NORFOLK VA (USA)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Finke, Damian W CIV USN COMSC NORFOLK VA (USA); LastModifiedBy: Edick, Colin J CIV USN COMSC NORFOLK VA (USA)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Finke, Damian W CIV USN COMSC NORFOLK VA (USA); LastModifiedBy: Edick, Colin J CIV USN COMSC NORFOLK VA (USA)",
+          "verified": true
+        }
+      ],
+      "m": "xlsx",
+      "n": "JA New Work Enclosure.xlsx",
+      "s": "screened",
+      "sol": "N3220526C1223"
+    },
     "8e83eca8b8d9481da8bf870df67910bf": {
       "c": 92332,
       "d": "2026-10-19",
@@ -63603,6 +64009,14 @@
       "s": "screened",
       "sol": "36C26127Q0082"
     },
+    "90aff9705d284e31b3ccc1b6bfe991d4": {
+      "c": 11103,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "3B.F(2026.10.20)Security Requirements (FSL Level I) (Aug. 2022)-2KS0137.pdf",
+      "s": "screened",
+      "sol": "2KS0137"
+    },
     "90b359df6c8c4511a433d260038baf24": {
       "c": 242,
       "d": "2026-10-20",
@@ -63841,6 +64255,14 @@
       "n": "Vet Center Print Order Sept2026 SF1_VA_07-00101_CN261549.xlsx",
       "s": "screened",
       "sol": "VetCenterOutreachMaterial5002068"
+    },
+    "915e4fa0f4fd478dae6b4df7c1058689": {
+      "c": 6596,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "36C24427Q0040.docx",
+      "s": "screened",
+      "sol": "36C24427Q0040"
     },
     "915e592abdf54a2fbeb0a0ecd9391e14": {
       "c": 725,
@@ -64225,6 +64647,14 @@
       "s": "screened",
       "sol": "FA480027Q0003"
     },
+    "92463d7a7d6a4663b6d72a2ad1160afe": {
+      "c": 7398,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "JOFOC Ext Data (6MN0208)_Redacted.pdf",
+      "s": "screened",
+      "sol": "6MN0208"
+    },
     "9253e27cb1564aba8c2adba5ba4c9ad2": {
       "c": 2373,
       "d": "2026-10-23",
@@ -64304,6 +64734,14 @@
       "n": "Atch 1 Supplemental Instructions for Assistance Instruments.docx",
       "s": "screened",
       "sol": "FA2391-23-S-2403"
+    },
+    "9271a3122bdc4bdbbe563c25eb66b38e": {
+      "c": 10725,
+      "d": "2026-10-27",
+      "m": "ocr+pdf",
+      "n": "7_CADPADItemMarkingInstruction.pdf",
+      "s": "screened",
+      "sol": "FA8213-26-R-3036"
     },
     "9275d5c5d60a42059df7fa327fda3396": {
       "c": 15730,
@@ -65050,6 +65488,14 @@
       "s": "screened",
       "sol": "W9128F26QA099"
     },
+    "9414185263e0441fb35af5e5ad341d8e": {
+      "c": 12588,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "B03_-_140L1726R0010_-_Wage_Rate.pdf",
+      "s": "screened",
+      "sol": "140L1726R0010"
+    },
     "942c8667c0844ed1a2527c3051dc4623": {
       "c": 32096,
       "d": "2026-10-18",
@@ -65147,6 +65593,22 @@
       "n": "A16_JOFOC_-_140DWF27Q0001_tdt_1.pdf",
       "s": "screened",
       "sol": "140DWF27Q0001"
+    },
+    "946992c34e6d49ce916f8f85182debdf": {
+      "c": 3723,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "finding": "VA building new 20,250-square-foot Community Based Outreach Clinic in Twin Falls, Idaho to replace leased space.",
+          "news": 4,
+          "quote": "REPLACE TWIN FALLS CBOC LEASE...Bldg Totals: Room Qty: 73 Net Area: 9,750 Sum of Dept Gross Area: 14,625 Gross Area: 19,744",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Exhibit 02a. Program for Design PFD.pdf",
+      "s": "screened",
+      "sol": "36C24W26R0017"
     },
     "946acda2640f4955a64154cb76450673": {
       "c": 2068,
@@ -66202,6 +66664,14 @@
       "s": "screened",
       "sol": "86614126R00002"
     },
+    "96e712aa781d4f23926d880654d15dbf": {
+      "c": 11347,
+      "d": "2026-10-27",
+      "m": "xlsx",
+      "n": "Attachment B - FRAL Workload Data Capabilities.xlsx",
+      "s": "screened",
+      "sol": "W5168W27RA014"
+    },
     "96ece08cf1634044981155ecf1ee09d0": {
       "c": 14484,
       "d": "2026-10-21",
@@ -67122,12 +67592,12 @@
       "sol": "6973GH-27-R-00013"
     },
     "989c28fb45e0404697967e309ce61c52": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-26",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 1 - PWS Buses.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA252126QB110"
     },
     "98a59e8350f54afcbbce013fe3fafc15": {
@@ -68295,6 +68765,14 @@
       "n": "ICT PWS Reacquisition 29 Sep 26.pdf",
       "s": "screened",
       "sol": "FA2543_FY27"
+    },
+    "9b50397210de46b38069721e593e6392": {
+      "c": 624,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "36C25727Q0068.docx",
+      "s": "screened",
+      "sol": "36C25727Q0068"
     },
     "9b51f6d36653464ca1b3582e47857ba1": {
       "c": 13775,
@@ -70360,6 +70838,14 @@
       "s": "screened",
       "sol": "SPRHA127Q0800"
     },
+    "9fd9ce8985914a0d89da54ac1918376c": {
+      "c": 4107,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Attachment 4 SF24 Bid Bond.pdf",
+      "s": "screened",
+      "sol": "6973GH-27-R-00005"
+    },
     "9fde0825ff5141258c10013403ace747": {
       "c": 12283,
       "d": "2026-10-14",
@@ -70697,7 +71183,7 @@
       "sol": "W519TC-26-R-AHRS"
     },
     "a0a8dbb13bd44faf97bc2a5ca12dbf57": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-27",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -71336,6 +71822,54 @@
       "s": "screened",
       "sol": "FA821326R3031"
     },
+    "a20940a9b2fa4cd8baded5ccc37c51f5": {
+      "c": 1885024,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "ILDING 606, GENERAL INSTRUCTION BUILDING W912DS19C0034 USMA, WEST POINT, NY PN 94078 SECTION 01 11 00 SUMMARY OF WORK 08/15, CHG 2: 08/21 PART 1 GENERAL 1.1 REFERENCES The publications listed below form a part of this section to the extent referenced. The publications are referred to within the text by the basic designation only. U.S. ARMY CORPS OF ENGINEERS (USACE) EM 385-1-1 (2014) Safety and Health Requirements Manual 1.2 SUBMITTALS Government approval is required for submittals with a \"G\" or \"S\" classification. Submittals not having a \"G\" or \"S\" classification are for information only. When used, a code following the \"G\" classification identifies the office that will review the submittal for the Government. Submit the following in accordance with Section 01 33 00",
+          "finding": "Building contains asbestos and lead-based paint requiring hazardous materials abatement during renovation.",
+          "news": 3,
+          "quote": "The building does contain asbestos and lead based paint as described in the hazardous materials report.",
+          "verified": true
+        },
+        {
+          "context": "yers and is available in all 50 states. E-Verify provides an automated link to federal databases to help employers determine employment eligibility of new hires and the validity of their Social Security numbers. E-Verify are the best means for determining employment eligibility of new hires and the validity of their Social Security numbers. Contractors must use E-Verify on all employees that will be working on this installation, under this contract. This must be done prior to the employee starting work on the installation. For E-Verify information: https://www.e-verify.gov/ or call 1-888-464-4218 SECTION 01 14 00 Page 7 REPAIR BUILDING 606, GENERAL INSTRUCTION BUILDING W912DS19C0034 USMA, WEST POINT, NY PN 94078 The United States Government has adopted a zero tolerance policy regarding trafficking in persons. Additional information about trafficking in persons may be found at the website for the Department of Sta",
+          "finding": "Contractor required to use E-Verify for all employees and comply with zero-tolerance trafficking in persons policy.",
+          "news": 3,
+          "quote": "Contractors must use E-Verify on all employees that will be working on this installation, under this contract.",
+          "verified": true
+        },
+        {
+          "finding": "West Point Building 606 renovation estimated between $100-250 million, first full gut renovation since 1979 of five-story 125,804 SF facility.",
+          "news": 4,
+          "quote": "This project is estimated between $100,000,000 and $250,000,000... This will be the first full gut and renovation project since 1979.",
+          "verified": false
+        },
+        {
+          "finding": "Strict security and antiterrorism requirements including background checks, CAC cards, Level 1 AT awareness training for all contractor personnel.",
+          "news": 3,
+          "quote": "Pursuant to Department of Defense Instruction Number 2000.16, each contractor employee requiring access to a Federally-controlled installation must complete Level I AT Awareness Training on an annual basis.",
+          "verified": false
+        },
+        {
+          "finding": "Sole-source cellular DAS system contract for C-Squared and wireless access point infrastructure as options in project scope.",
+          "news": 3,
+          "quote": "Option #10: Cellular Distributed Antenna System (DAS) - Provide a complete C-Squared DAS system... This work is sole sourced to C -Squared",
+          "verified": false
+        },
+        {
+          "finding": "Army Corps of Engineers repairing Building 606 at West Point Military Academy, a general instruction building for Math and System Engineering Center.",
+          "news": 3,
+          "quote": "Repair Bldg. 606, General Instruction Building, Math and System Engineering Center (MSEC) USMA at West Point, NY",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "W912DS19C0034 PN 94078 Repair building 606 REV.RTA Specification Manual Volume 1.pdf",
+      "s": "screened",
+      "sol": "W912DS25RA002 "
+    },
     "a2100a4ad7b84f00a76e7dddf74071f0": {
       "c": 8631,
       "d": "2026-10-11",
@@ -71833,6 +72367,14 @@
       "n": "RFI_Data Stream.pdf",
       "s": "screened",
       "sol": "FDA-RFI-27-1251190"
+    },
+    "a37241fefc9443f0a8f56208faddcba5": {
+      "c": 3852,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "140R4026R0025_Attachment_6_-_Past_Performance_Questionnaire.pdf",
+      "s": "screened",
+      "sol": "140R4026R0025"
     },
     "a3863f292e58449ba55aeadbe68b4557": {
       "c": 15476,
@@ -74933,6 +75475,14 @@
       "s": "screened",
       "sol": "FA485526Q0078"
     },
+    "aa275a79de97445ebb258c2e1790a5fc": {
+      "c": 658,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "PRICE AND COST SCHEDULE_RFI_REHAB DRIVING SERVICES_PDF.pdf",
+      "s": "screened",
+      "sol": "36C24527Q0036_1"
+    },
     "aa2cbaaae40947c49619d40c2a7d7b91": {
       "c": 6286,
       "d": "2026-10-20",
@@ -76516,6 +77066,14 @@
       "s": "screened",
       "sol": "W91QV126RA060"
     },
+    "adb38c4179a7423bbfc59c653ffb39fb": {
+      "c": 4216,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "36C10B27Q0079 v2.0.docx",
+      "s": "screened",
+      "sol": "36C10B27Q0079"
+    },
     "adbf4c4c87c4489cb28cf89c1c53625e": {
       "c": 6541,
       "d": "2026-10-23",
@@ -76985,6 +77543,14 @@
       "n": "SPE603-26-R-0527 Amendment 0002.pdf",
       "s": "screened",
       "sol": "SPE603-26-R-0527"
+    },
+    "af2460d3d00b439e96a5f9a22e260695": {
+      "c": 2080,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Sol_140R4026R0025.pdf",
+      "s": "screened",
+      "sol": "140R4026R0025"
     },
     "af2e3a94e2b54b2f9d0dcb257b0980f9": {
       "c": 17463,
@@ -77715,6 +78281,23 @@
       "n": "Attachment Assignment 44 - BOD Conceptual Design for Carports.pdf",
       "s": "screened",
       "sol": "36C26126R0055_2"
+    },
+    "b0dab66231fe4169ace8b33c5d1b388d": {
+      "c": 10776,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "sification System (NAICS) code for this acquisition is 485999- All Other Transit and Ground Passenger Transportation Services. The Product Service Code (PSC) for this acquisition is V212 Transportation/Travel/Relocation- Motor Passenger. (v) The Contract Line-Item Numbers for the proposed purchase order are as follows: CLIN 0001-Base Period: The performer shall provide passenger transport services in accordance with statement of work. CLIN 1001-Option Period One: The performer shall provide passenger transport services in accordance with statement of work. CLIN 2001-Option Period Two: The performer shall provide passenger transport services in accordance with statement of work. CLIN 3001-Option Period Three: The performer shall provide passenger transport services in accordance with statement of work. CLIN 4001-Option Period Four: The performer shall provide passenger transport services in accordance with statement of work. Con",
+          "finding": "ICE seeking passenger transport services contractor for 5 years; scope and client base undefined in solicitation.",
+          "news": 5,
+          "quote": "CLIN 0001-Base Period: The performer shall provide passenger transport services in accordance with statement of work.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "2.2.1-70CMSD27Q00000001.pdf",
+      "s": "screened",
+      "sol": "70CMSD27Q00000001"
     },
     "b0de267dd0b14ebd98b50bdb884efc7f": {
       "a": 3,
@@ -78721,6 +79304,30 @@
       "s": "screened",
       "sol": "80KSC024R0010"
     },
+    "b355d0a7000e4025a62c1d601ddd4a25": {
+      "c": 549,
+      "d": "2026-10-27",
+      "m": "docx",
+      "n": "26Q0012_0_RFQ_AMENDMENT 2_08 OCT 26.docx",
+      "s": "screened",
+      "sol": "FA800326Q0012"
+    },
+    "b35a1133c67941b9abeca5a4b08b1e86": {
+      "c": 14156,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "finding": "Navy sources Jones Act tanker for extended-term East Coast/Gulf Coast charter; detailed fueling-at-sea technical specifications for probe and ROBB/NATO coupling systems.",
+          "news": 3,
+          "quote": "US EAST COAST/GULF COAST JONES ACT TANKER (EXTENDED TERM CHARTER) SS-27-005",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Attachment (3) - CONSOL Drawings.pdf",
+      "s": "screened",
+      "sol": "SS-27-005"
+    },
     "b35a6ed1acc240659e1244e4a6c5e641": {
       "c": 464,
       "d": "2026-10-13",
@@ -79023,6 +79630,24 @@
       "n": "PWS Elevator inspection contract 2027.docx",
       "s": "screened",
       "sol": "36C26127Q0094"
+    },
+    "b40d44c0d3164f789d56d257601368b6": {
+      "c": 12952,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "C:\\Users\\vacojohnsr1\\AppData\\Local\\Temp\\1\\Temp1_Specs%20Issued%2016.01.26%20Final.zip\\Spec%20Word%20Files\\www3.epa.gov\\epawaste\\conserve\\tools\\cpg\\products\\construction.htm",
+          "finding": "Leaked local path or file server in the file (user vacojohnsr1)",
+          "kind": "metadata",
+          "news": 3,
+          "quote": "C:\\Users\\vacojohnsr1\\AppData\\Local\\Temp\\1\\Temp1_Specs%20Issued%2016.01.26%20Final.zip\\Spec%20Word%20Files\\www3.epa.gov\\epawaste\\conserve\\tools\\cpg\\products\\construction.htm",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "Metal Decking Spec 460-26-004.docx",
+      "s": "screened",
+      "sol": "36C24426B0015"
     },
     "b4138387b9d74b65a858dde4a6a53fcf": {
       "c": 30580,
@@ -81404,6 +82029,14 @@
       "n": "Vendor Information.pdf",
       "s": "screened",
       "sol": "15BBR027Q00000002 "
+    },
+    "b8e56e9395f54315804d091d9bf34d60": {
+      "c": 9048,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "DRAFT_B2_08.5_SubcontractorFormSQF.pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
     },
     "b8f18928d427457c9340bfbe80126531": {
       "c": 515,
@@ -83852,6 +84485,14 @@
       "s": "screened",
       "sol": "W81K00-26-R-A051"
     },
+    "bdd99b6925cc432e96a196cc5ec06028": {
+      "c": 10948,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "SOW Roof Replacement 3D PT Roof 10 Roof 11 updated 01.pdf",
+      "s": "screened",
+      "sol": "36C24426B0015"
+    },
     "bdda4068e2374eab8d30c0c6d3e402dc": {
       "c": 77441,
       "d": "2026-10-19",
@@ -84356,6 +84997,14 @@
       "s": "wage_determination",
       "sol": "75F40126R00009"
     },
+    "bf3560cda02e46f08f0a2abd83f23e08": {
+      "c": 52,
+      "d": "2026-10-27",
+      "m": "ocr-image",
+      "n": "1240BE26Q0119 -Picture 002.jpg",
+      "s": "screened",
+      "sol": "1240BE26Q0119 "
+    },
     "bf3c7dd5f8eb4adbab7b1ffabcc811c8": {
       "c": 5315,
       "d": "2026-10-11",
@@ -84664,6 +85313,14 @@
       "s": "screened",
       "sol": "120c9202b6654d699d936a5401bd7876"
     },
+    "c01f42f941f743cda9049875026ac1bf": {
+      "c": 1391,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "CDRL A002- Status Report_EnMS Training.pdf",
+      "s": "screened",
+      "sol": "FA857127Q0006"
+    },
     "c022f12423d94f7f8e5da7b47d1b8849": {
       "c": 893,
       "d": "2026-10-15",
@@ -84742,6 +85399,14 @@
       "n": "B09_SA_Amend_001_140D0426Q0396_NPS_EU_H_T3_Mesa_Verde_0001.pdf",
       "s": "screened",
       "sol": "140D0426Q0396"
+    },
+    "c040b99aa0cb42f0ba335dd69e850b14": {
+      "c": 6417,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "33330226RF0010008 Amendment 3.pdf",
+      "s": "screened",
+      "sol": "333302-26RF-0010008"
     },
     "c043825780e4427e98c0cd2c04eda653": {
       "c": 6138,
@@ -84841,12 +85506,12 @@
       "sol": "FA251827RCNECTS"
     },
     "c08837e3fb91479faf615e2cd7eaff96": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-26",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 1 - PWS Fencing.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA252126QB112"
     },
     "c08b14cd0ef345f5becb0374f3b7481f": {
@@ -85319,12 +85984,12 @@
       "sol": "SPE7LX26R0049"
     },
     "c194014410cc4beca17ac3e89ec8c564": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-26",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 1 - PWS v2.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "2031ZA27Q00004"
     },
     "c197856632d94343a031ccdd68087bf5": {
@@ -86627,6 +87292,15 @@
       "s": "screened",
       "sol": "fb5e4caa974540f796153fd5f5c39763"
     },
+    "c45a418b901b4f91a24d579fa5989b67": {
+      "a": 1,
+      "d": "2026-10-27",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "RFO Combo - Supply UNDER SAT Videoscope.pdf",
+      "s": "retry",
+      "sol": "FA812527Q0004"
+    },
     "c45e3fa0735c4d829a5d3def22596e7a": {
       "c": 269,
       "d": "2026-10-23",
@@ -87426,12 +88100,12 @@
       "sol": "Navy"
     },
     "c63ade02047f4e588eddf03ff4445501": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-26",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 1 - PWS AV.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA252126QB111"
     },
     "c63b45f8b4fb4a0e9cced7a01c320122": {
@@ -87648,6 +88322,14 @@
       "s": "screened",
       "sol": "15B41826Q00000005"
     },
+    "c69bc47d156d4b8a91edb82e1843826f": {
+      "c": 1714,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Solicitation Amendment W912DS26RA0320004 SF 30.pdf",
+      "s": "screened",
+      "sol": "W912DS26RA032"
+    },
     "c6a068895b6640c1a29e1d98aff3282e": {
       "c": 136722,
       "d": "2026-10-21",
@@ -87735,6 +88417,14 @@
       "n": "C05d-UPDATE.1.Question.Answer.1240LP27Q0004.pdf",
       "s": "screened",
       "sol": "1240LP27Q0004"
+    },
+    "c6d398419fd44f5a84729a6c15b9ef0a": {
+      "c": 9176,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Solicitation Amendment N6449826Q52480004 SF 30.pdf",
+      "s": "screened",
+      "sol": "N6449826Q52480004"
     },
     "c6d4294df48e4563b8d21d8ab34cbf56": {
       "c": 3172,
@@ -89173,6 +89863,22 @@
       "n": "C04-Attachment 1-12444726Q0069 SOI.xlsx",
       "s": "screened",
       "sol": "12444726Q0069"
+    },
+    "ca2d6891effa425f8657659495873e35": {
+      "c": 4525,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "finding": "NIH awarding sole-source contract to Purdue University for sickle cell disease drug development; year-one synthesis and scale-up of SYK inhibitors worth undisclosed amount through 11/05/2027.",
+          "news": 4,
+          "quote": "Purdue University, Purdue Institute for Drug Discovery (DRUG)... for the synthesis, scale-up, and characterization of lead Spleen Tyrosine Kinase (SYK) inhibitors in support of the NIH Bench-to-Bedside study",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Sol_75N98027Q00017.pdf",
+      "s": "screened",
+      "sol": "75N98027Q00017"
     },
     "ca3062496848468aa180a37729684721": {
       "c": 2804,
@@ -92673,6 +93379,43 @@
       "s": "screened",
       "sol": "36C10X27Q0003"
     },
+    "d1bbba8a8a704ac086618d2e53c096cd": {
+      "c": 19712,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "in the case of CMDSS, will have significant repercussions not only at the individual performer level but potentially at the larger operating environment level. Finally, with Cryptocurrency Class 2-4 levels at inventory levels encompassing assets which exceed in value, the impending risk for additional theft or losses, AFD\u2019s inability to carry out pending court-ordered liquidations, and the absence of alternate solutions make it critically urgent to award an operable sustainment contract to Coinbase. To initiate and complete a full acquisition process to an entity other than",
+          "finding": "Justice asset forfeiture cryptocurrency portfolio exceeded value thresholds described as redacted in justification; class 2-4 inventory levels undisclosed but noted as 'exceed in value' creating urgent security risk.",
+          "news": 4,
+          "quote": "with Cryptocurrency Class 2-4 levels at inventory levels encompassing assets which exceed in value, the impending risk for additional theft or losses, AFD's inability to carry out pending court-ordered liquidations, and the absence of alternate solutions make it critically urgent to award an operabl",
+          "verified": true
+        },
+        {
+          "context": "Author: COttie",
+          "finding": "Justification file properties (who wrote or last saved it): Author: COttie",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: COttie",
+          "verified": true
+        },
+        {
+          "finding": "Justice Department awards $8.1M sole-source cryptocurrency custody contract to Coinbase following $46 million theft of seized assets by contractor employee at rival firm.",
+          "news": 5,
+          "quote": "due to a recent event, a Stop Work notice was issued on January 23, 2026, after it was discovered that an employee of CMDSS allegedly stole the USMS seized cryptocurrency in their custody. Details of this theft, which led to the loss of at least $46 million in cryptocurrency, are further described i",
+          "verified": false
+        },
+        {
+          "finding": "Coinbase is only cryptocurrency vendor with mandatory Authorization to Use (ATU) designation for federal data; process normally takes 6+ months; competitor could not obtain it within 12-month re-competition timeline.",
+          "news": 4,
+          "quote": "Coinbase is the only company with a current Authorization to Use (ATU) designation, required by the USMS who could perform work without substantial interruption and/or delays...This process typically takes six months or longer to obtain but can be delayed depending on the quality of the artifacts pr",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "RFO PART 6 JOFOC -Cryptocurrency Managed Services 20260914_Redacted.pdf",
+      "s": "screened",
+      "sol": "M-26-A44-R-000122"
+    },
     "d1c00d24003541069f341db979b0401e": {
       "c": 2441,
       "d": "2026-10-27",
@@ -93757,6 +94500,14 @@
       "n": "Past Performance Questionnaire - conversion to digital signal.pdf",
       "s": "screened",
       "sol": "36C24527Q0029"
+    },
+    "d4c8e8fbe200494f828de275fd963414": {
+      "c": 1172,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "CDRL A003- Contractors Safety Plan 15 Oct 2026 final.pdf",
+      "s": "screened",
+      "sol": "FA857127Q0006"
     },
     "d4cbd860827f4cb0a04069c763412f66": {
       "c": 42239,
@@ -96101,6 +96852,14 @@
       "s": "screened",
       "sol": "47PB5126R0007"
     },
+    "d9be40e2001e48859a4817ee714a1930": {
+      "c": 11663,
+      "d": "2026-10-27",
+      "m": "ocr+pdf",
+      "n": "Attch. 17 SBIWTP Map.pdf",
+      "s": "screened",
+      "sol": "191BWC26R0009"
+    },
     "d9c77aced5cf4856b0c7fc9a282b45a2": {
       "c": 0,
       "d": "2026-10-10",
@@ -97258,6 +98017,14 @@
       "n": "Polaris SB Pool RFP 47QTCB22R0001 Amend0004.pdf",
       "s": "screened",
       "sol": "47QTCB22R0001"
+    },
+    "dc0a4e1c2b4e45debe9b9949636e8e26": {
+      "c": 1012,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "CDRL A001- Status Report_EMS Training.pdf",
+      "s": "screened",
+      "sol": "FA857127Q0006"
     },
     "dc1103096db5493ebeb099e29d7e77b6": {
       "c": 840,
@@ -100053,6 +100820,15 @@
       "s": "screened",
       "sol": "36C24427R0001"
     },
+    "e265f6b6ad434511b1fb35152e3dc457": {
+      "a": 1,
+      "d": "2026-10-27",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Solicitation Amendment FA820126R00200005 SF 30.pdf",
+      "s": "retry",
+      "sol": "FA820126R0020"
+    },
     "e26a9a5d78454b2bb224d8a45010574f": {
       "c": 0,
       "d": "2026-10-14",
@@ -101931,6 +102707,23 @@
       "s": "boilerplate_only",
       "sol": "W912QR-LUBBOCK(SLIDE)TXFY27"
     },
+    "e622cbec91a34c768a96604e76d65022": {
+      "c": 10138,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "context": "lection. Government estimates it takes, conservatively, 6-12 months to complete a competitive bridge action. Based on this estimate, Government does not believe a competitive acquisition, in the time remaining under the current six-month extension, is practical. Several factors drive the need for a bridge action to provide RC-135 CAT/CWD services: October - November 2025 Government shutdown and requirement changes due to DOGE feedback. Due to the reasons discussed below, the re-compete was delayed and now is anticipated to conclude and award made 1 February 2027. May 2026 Page 2 of 5 cul Department of the Air Force: Justification for Other Than Full and Open Competition During the October - November Government shutdown (43 days), the current RC-135 program was listed as an \"excepted\" program. The Government program office (Training Support Squadron (TRSS)) excepted one person to manage the TRSS entire portfolio during these 43 days. Government did not \"except\" the CO for the RC-135 re-compete. During this shutdown, no RC-135 re-com",
+          "finding": "Air Force extends RC-135 aircrew training contract for six months ($21.2M redacted) with single contractor due to 43-day October-November 2025 government shutdown delaying follow-on competition.",
+          "news": 4,
+          "quote": "October - November 2025 Government shutdown and requirement changes due to DOGE feedback. Due to the reasons discussed below, the re-compete was delayed and now is anticipated to conclude and award made 1 February 2027.",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "RC-135 Extension JA.pdf",
+      "s": "screened",
+      "sol": "FA4890-21-C-0001"
+    },
     "e628d5ce30274088917ec9b5d4849ace": {
       "c": 1006,
       "d": "2026-10-17",
@@ -102911,6 +103704,14 @@
       "n": "Attachment B - Drawings.pdf",
       "s": "screened",
       "sol": "36C77626B0020"
+    },
+    "e88ca682d2684fd99a419e21cc2f996b": {
+      "c": 1581,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "2026 Menlo Park Map ltr_ID908_5-26v2.pdf",
+      "s": "screened",
+      "sol": "36C26127Q0082"
     },
     "e88e222869ba40429fa35777efeee5b4": {
       "c": 9370,
@@ -104037,6 +104838,14 @@
       "s": "screened",
       "sol": "FA8213-26-R-3036"
     },
+    "eac190c7bd94427296d2975bb2a68dbd": {
+      "c": 228,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "A05 1178492 SS JA Snow Survey Svcs Mud Lake ID_Redacted.pdf",
+      "s": "screened",
+      "sol": "West-JA27-001"
+    },
     "eac2836ff28943b0a916929af798e5a0": {
       "c": 6942,
       "d": "2026-10-14",
@@ -104336,6 +105145,14 @@
       "s": "screened",
       "sol": "FA466126R0008"
     },
+    "eb4e820b3fcf415a96470526e8495609": {
+      "c": 12473,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Attch. 27 SD.I.10031-M-2 Background Investigation Procedures for SBIWTP Contractor Personnel.pdf",
+      "s": "screened",
+      "sol": "191BWC26R0009"
+    },
     "eb55281daad944dc92f18e1c388a9ac8": {
       "c": 5165,
       "d": "2026-10-26",
@@ -104557,6 +105374,15 @@
       "n": "15JA0526Q00000174 Attachment 1 - AIs Sample Docs.pdf",
       "s": "screened",
       "sol": "15JA0526Q00000174"
+    },
+    "ebbf70bb19b946ef9235f71e40d829c4": {
+      "a": 1,
+      "d": "2026-10-27",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "2026 Worldwide AE Support Services IDIQs QA_102126.pdf",
+      "s": "retry",
+      "sol": "19AQMM26R0258"
     },
     "ebc17b3444aa44d993eff129883ec8b1": {
       "c": 29,
@@ -105845,6 +106671,14 @@
       "n": "3 Construction Specifications.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-SANANTONIO(NLOOP1604)TXFY27"
+    },
+    "ee74d7cab8154350a48824c60554d685": {
+      "c": 3839,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Attachment 2 SF25 Performance Bond.pdf",
+      "s": "screened",
+      "sol": "6973GH-27-R-00005"
     },
     "ee7b051d99ac4e1087f1d2dcf13961f6": {
       "c": 4927,
@@ -112136,6 +112970,22 @@
       "s": "screened",
       "sol": "36C24127Q0019"
     },
+    "fc4e196ff11a4506a9158dfa71c4d6a9": {
+      "c": 624633,
+      "d": "2026-10-27",
+      "f": [
+        {
+          "finding": "U.S. Military Academy at West Point undertaking major renovation of Building 606 (General Instruction Building/Math and System Engineering Center), including modernization of multiple classrooms, labs, and facilities.",
+          "news": 3,
+          "quote": "REPAIR BLDG 606, GENERAL INSTRUCTION BUILDING, MATH AND SYSTEM ENGINEERING CENTER (MSEC) USMA AT WEST POINT, NY",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "W912DS19C0034 PN 94078 Repair Building 606 Revised RTA Drawings - Volume 2.pdf",
+      "s": "screened",
+      "sol": "W912DS25RA002 "
+    },
     "fc4f82a54ec84c929a51e8e7d4829c32": {
       "c": 11203,
       "d": "2026-10-18",
@@ -112587,6 +113437,14 @@
       "n": "6N Replace Toilets - 9 - Example PCU Cutsheet.pdf",
       "s": "screened",
       "sol": "36C25626R0108"
+    },
+    "fd2afdf714e5417c8321383466e237a5": {
+      "c": 6349,
+      "d": "2026-10-27",
+      "m": "pdf",
+      "n": "Draft RFP Questions and Responses.pdf",
+      "s": "screened",
+      "sol": "80KSC024R0010"
     },
     "fd2be472cec74b3cbc9ab9b7b7c70463": {
       "c": 1639,
