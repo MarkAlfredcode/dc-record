@@ -215,6 +215,14 @@
     "party": "DEM",
     "state": "PA"
   },
+  "H0TX11230": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "PFLUGER, AUGUST LEE II",
+    "office": "H",
+    "party": "REP",
+    "state": "TX"
+  },
   "H0TX30073": {
     "checked": "2026-09-30",
     "incumbent_challenge_full": "Open seat",
@@ -275,6 +283,14 @@
     "checked": "2026-10-09",
     "incumbent_challenge_full": "Incumbent",
     "name": "SWALWELL, ERIC MICHAEL",
+    "office": "H",
+    "party": "DEM",
+    "state": "CA"
+  },
+  "H2CA30143": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "BECERRA, XAVIER",
     "office": "H",
     "party": "DEM",
     "state": "CA"
@@ -775,10 +791,26 @@
     "party": "DEM",
     "state": "FL"
   },
+  "H4FL20080": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "PIPER, MARK",
+    "office": "H",
+    "party": "DEM",
+    "state": "FL"
+  },
   "H4FL20098": {
     "checked": "2026-09-11",
     "incumbent_challenge_full": "Challenger",
     "name": "CAMPBELL, LUTHER MR.",
+    "office": "H",
+    "party": "DEM",
+    "state": "FL"
+  },
+  "H4FL23134": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "PIPER, MARK",
     "office": "H",
     "party": "DEM",
     "state": "FL"
@@ -1261,6 +1293,14 @@
     "name": "BENNETT, CHRISTOPHER JERMAN",
     "office": "H",
     "party": "DEM",
+    "state": "CA"
+  },
+  "H6CA07191": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "WOODEN, ZACHARIAH",
+    "office": "H",
+    "party": "REP",
     "state": "CA"
   },
   "H6CA10187": {
@@ -1755,6 +1795,14 @@
     "checked": "2026-09-19",
     "incumbent_challenge_full": "Challenger",
     "name": "RANCE, HOWARD STEVEN",
+    "office": "H",
+    "party": "REP",
+    "state": "FL"
+  },
+  "H6FL11282": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Open seat",
+    "name": "WILKINS, TIM",
     "office": "H",
     "party": "REP",
     "state": "FL"
@@ -2799,6 +2847,14 @@
     "party": "REP",
     "state": "NC"
   },
+  "H6NC14036": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "CALDWELL, BRENT",
+    "office": "H",
+    "party": "DEM",
+    "state": "NC"
+  },
   "H6NC14069": {
     "checked": "2026-10-22",
     "incumbent_challenge_full": "Challenger",
@@ -2847,6 +2903,14 @@
     "party": "REP",
     "state": "NH"
   },
+  "H6NH02261": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "BEAUCHEMIN, PAIGE",
+    "office": "H",
+    "party": "DEM",
+    "state": "NH"
+  },
   "H6NH02287": {
     "checked": "2026-10-22",
     "incumbent_challenge_full": "Challenger",
@@ -2891,6 +2955,14 @@
     "checked": "2026-10-09",
     "incumbent_challenge_full": "Incumbent",
     "name": "GOTTHEIMER, JOSH",
+    "office": "H",
+    "party": "DEM",
+    "state": "NJ"
+  },
+  "H6NJ07235": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "ROTH, MICHAEL",
     "office": "H",
     "party": "DEM",
     "state": "NJ"
@@ -3583,6 +3655,14 @@
     "party": "REP",
     "state": "TX"
   },
+  "H6TX02251": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "FINNIE, SHAUN",
+    "office": "H",
+    "party": "DEM",
+    "state": "TX"
+  },
   "H6TX05205": {
     "checked": "2026-10-11",
     "incumbent_challenge_full": "Challenger",
@@ -3797,6 +3877,14 @@
     "name": "HUNTER, MARVALETTE",
     "office": "H",
     "party": "DEM",
+    "state": "TX"
+  },
+  "H6TX38065": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Open seat",
+    "name": "DEZEVALLOS, SHELLY",
+    "office": "H",
+    "party": "REP",
     "state": "TX"
   },
   "H6TX38099": {
@@ -4247,6 +4335,14 @@
     "party": "REP",
     "state": "WY"
   },
+  "H6WY01140": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Open seat",
+    "name": "CHRISTENSEN, KEVIN",
+    "office": "H",
+    "party": "REP",
+    "state": "WY"
+  },
   "H6WY01207": {
     "checked": "2026-10-07",
     "incumbent_challenge_full": "Open seat",
@@ -4623,6 +4719,14 @@
     "party": "IND",
     "state": "US"
   },
+  "P40016073": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "JOHNSON, CONSTANCE L",
+    "office": "P",
+    "party": "DEM",
+    "state": "US"
+  },
   "P40016412": {
     "checked": "2026-10-22",
     "incumbent_challenge_full": "Challenger",
@@ -4869,6 +4973,14 @@
     "name": "WILKERSON, KENDRA ELIZABETH",
     "office": "P",
     "party": "DEM",
+    "state": "US"
+  },
+  "P80010242": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": null,
+    "name": "WOOTEN, LAQUITA YVONNE",
+    "office": "P",
+    "party": "REP",
     "state": "US"
   },
   "P80010309": {
@@ -5440,6 +5552,14 @@
     "party": "DFL",
     "state": "MN"
   },
+  "S6MN00556": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Open seat",
+    "name": "TAFOYA, MICHELE",
+    "office": "S",
+    "party": "REP",
+    "state": "MN"
+  },
   "S6MN00564": {
     "checked": "2026-10-13",
     "incumbent_challenge_full": "Open seat",
@@ -5616,6 +5736,14 @@
     "party": "LBL",
     "state": "TX"
   },
+  "S6VA00143": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Challenger",
+    "name": "FARINGTON, KIM",
+    "office": "S",
+    "party": "REP",
+    "state": "VA"
+  },
   "S6WV00162": {
     "checked": "2026-10-14",
     "incumbent_challenge_full": "Challenger",
@@ -5623,6 +5751,14 @@
     "office": "S",
     "party": "REP",
     "state": "WV"
+  },
+  "S6WY00191": {
+    "checked": "2026-10-27",
+    "incumbent_challenge_full": "Open seat",
+    "name": "SKOVGARD, JIMMY MR",
+    "office": "S",
+    "party": "REP",
+    "state": "WY"
   },
   "S6WY00209": {
     "checked": "2026-10-19",
