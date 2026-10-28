@@ -1,4 +1,34 @@
 {
+  "https://efile.fara.gov/docs/1699-Amendment-20261023-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "1699",
+    "registrant": "Office of Tibet",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-23",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/1699-Supplemental-Statement-20261023-47.pdf": {
+    "fp": "",
+    "hits": [
+      {
+        "method": "call",
+        "role": "U.S. Ambassador to the United Nations from September 2025 (national security advisor January-May 2025), 2025-",
+        "snippet": "Ted Budd on the Tibetan community. / Dalai Lama 08/24/2026 Michale Waltz, US Teams Briefed Ambassador Waltz and / Ambassor to the the UN team on the ongoing",
+        "tier": "name",
+        "who": "Mike Waltz"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "1699",
+    "registrant": "Office of Tibet",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-23",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/1793-Supplemental-Statement-20261009-86.pdf": {
     "fp": "",
     "hits": [],
@@ -9,26 +39,6 @@
     "stamped": "2026-10-09",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/2165-Amendment-20261006-3.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "2165",
-    "registrant": "Squire Patton Boggs, LLP",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/2165-Exhibit-AB-20261006-3.pdf": {
-    "fp": "The Government of the Republic of Benin (BENIN)",
-    "hits": [],
-    "more": 0,
-    "num": "2165",
-    "registrant": "Squire Patton Boggs, LLP",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Exhibit AB"
-  },
   "https://efile.fara.gov/docs/2619-Informational-Materials-20261012-3.pdf": {
     "fp": "Turkish Republic of Northern Cyprus, H.E. Mr. Tufan Erhiirman' (CYPRUS)",
     "hits": [],
@@ -37,6 +47,50 @@
     "registrant": "Representative of the Turkish Republic of Northern Cyprus",
     "scanned": "2026-10-16",
     "stamped": "2026-10-12",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/2619-Informational-Materials-20261023-7.pdf": {
+    "fp": "Turkish Republic of Northern Cyprus, H.E. Mr. Tufan Erhiirman' (CYPRUS)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "2619",
+    "registrant": "Representative of the Turkish Republic of Northern Cyprus",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/2619-Informational-Materials-20261026-6.pdf": {
+    "fp": "Turkish Republic of Northern Cyprus, H.E. Mr. Tufan Erhiirman' (CYPRUS)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "2619",
+    "registrant": "Representative of the Turkish Republic of Northern Cyprus",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-26",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/2619-Informational-Materials-20261027-4.pdf": {
+    "fp": "Turkish Republic of Northern Cyprus, H.E. Mr. Tufan Erhiirman' (CYPRUS)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "2619",
+    "registrant": "Representative of the Turkish Republic of Northern Cyprus",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-27",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/2619-Informational-Materials-20261027-5.pdf": {
+    "fp": "Turkish Republic of Northern Cyprus, H.E. Mr. Tufan Erhiirman' (CYPRUS)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "2619",
+    "registrant": "Representative of the Turkish Republic of Northern Cyprus",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-27",
     "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/3196-Supplemental-Statement-20261014-43.pdf": {
@@ -393,16 +447,6 @@
     "stamped": "2026-10-07",
     "type": "Informational Materials"
   },
-  "https://efile.fara.gov/docs/6170-Amendment-20261006-15.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "6170",
-    "registrant": "Mercury Public Affairs, LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Amendment"
-  },
   "https://efile.fara.gov/docs/6170-Amendment-20261020-16.pdf": {
     "fp": "",
     "hits": [],
@@ -413,16 +457,6 @@
     "scanned": "2026-10-22",
     "stamped": "2026-10-20",
     "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/6170-Exhibit-AB-20261006-6.pdf": {
-    "fp": "Gecamines SA (CONGO, DEMOCRATIC REPUBLIC OF THE)",
-    "hits": [],
-    "more": 0,
-    "num": "6170",
-    "registrant": "Mercury Public Affairs, LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Exhibit AB"
   },
   "https://efile.fara.gov/docs/6170-Exhibit-AB-20261020-7.pdf": {
     "fp": "Okinawa Prefecture (JAPAN)",
@@ -557,66 +591,6 @@
     "stamped": "2026-10-08",
     "type": "Amendment"
   },
-  "https://efile.fara.gov/docs/6278-Informational-Materials-20261006-67.pdf": {
-    "fp": "Republic of Nigeria through Aster Legal (NIGERIA)",
-    "hits": [
-      {
-        "method": "",
-        "role": "Secretary of State (also national security advisor from May 2025), 2025-",
-        "snippet": "To: / Subject: Secretary Rubio Highlights U.S.-Nigeria Partnership on the 66th Anniversary of Nigerian / Independence",
-        "tier": "name",
-        "who": "Marco Rubio"
-      },
-      {
-        "method": "",
-        "role": "Secretary of State (also national security advisor from May 2025), 2025-",
-        "snippet": "a\u00bb / Secretary Rubio Highlights U. S.-Nigeria / Partnership on the 66th Anniversary of",
-        "tier": "name",
-        "who": "Marco Rubio"
-      },
-      {
-        "method": "",
-        "role": "Secretary of State (also national security advisor from May 2025), 2025-",
-        "snippet": "oy wr a a j / U. S. Secretary of State Marco Rubio greets Nigerian National Security Adviser Nuhu Ribadu / at the White House in May 2026.",
-        "tier": "name",
-        "who": "Marco Rubio"
-      },
-      {
-        "method": "",
-        "role": "Secretary of State (also national security advisor from May 2025), 2025-",
-        "snippet": "at the White House in May 2026. / Last week, Secretary of State Marco Rubio congratulated the people of Nigeria on / the 66th anniversary of Nigerian independence and celebrated a growing U. S.-",
-        "tier": "name",
-        "who": "Marco Rubio"
-      },
-      {
-        "method": "",
-        "role": "Secretary of State (also national security advisor from May 2025), 2025-",
-        "snippet": "and national security for both countries. / In the statement, Secretary Rubio detailed the two nations\u2019 shared values and strong / partnership, saying: \u201cThe United States places great value on this strong bilateral",
-        "tier": "name",
-        "who": "Marco Rubio"
-      },
-      {
-        "method": "",
-        "role": "President, 2025-",
-        "snippet": "commitment to fostering peace and security.\u201d / Under President Trump and President Tinubu, this partnership is delivering historic / progress across West Africa, and it is only getting stronger.",
-        "tier": "name",
-        "who": "Donald Trump"
-      },
-      {
-        "method": "",
-        "role": "President, 2025-",
-        "snippet": "network, killing its No. 2 leader and more than 200 fighters. / These gains reflect the steadfast support of President Trump and the U. S. military, / which has provided training, intelligence, and critical weapons to help Nigeria\u2019s",
-        "tier": "name",
-        "who": "Donald Trump"
-      }
-    ],
-    "more": 0,
-    "num": "6278",
-    "registrant": "DCI Group AZ, LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Informational Materials"
-  },
   "https://efile.fara.gov/docs/6278-Informational-Materials-20261008-69.pdf": {
     "fp": "Republic of Srpska (BOSNIA & HERZEGOVINA)",
     "hits": [],
@@ -698,6 +672,39 @@
     "stamped": "2026-10-26",
     "type": "Informational Materials"
   },
+  "https://efile.fara.gov/docs/6278-Informational-Materials-20261027-74.pdf": {
+    "fp": "Republic of Srpska (BOSNIA & HERZEGOVINA)",
+    "hits": [
+      {
+        "method": "",
+        "role": "President, 2025-",
+        "snippet": "Bosnian Serb Member President Cvijanovic summarized it best: / \u201cGlobalist media are trying to settle scores with President Donald Trump through the Republic / of Srpska, while Sarajevo media are settling scores with the Republic of Srpska through",
+        "tier": "name",
+        "who": "Donald Trump"
+      },
+      {
+        "method": "",
+        "role": "President, 2025-",
+        "snippet": "of Srpska, while Sarajevo media are settling scores with the Republic of Srpska through / President Trump, whom theyopenly hate. The Republic ofSrpska respects the policy and / approach of the current U.S. administration, and because of that, we are exposed to attacks",
+        "tier": "name",
+        "who": "Donald Trump"
+      },
+      {
+        "method": "",
+        "role": "President, 2025-",
+        "snippet": "from its opponents in Washington and Sarajevo. Globalist elites have been destabilizing BiH / for thirty years, and now they want to threaten the stability achieved thanks to President / Trump's administration once again.\u201d",
+        "tier": "name",
+        "who": "Donald Trump"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "6278",
+    "registrant": "DCI Group AZ, LLC",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-27",
+    "type": "Informational Materials"
+  },
   "https://efile.fara.gov/docs/6399-Amendment-20261008-1.pdf": {
     "fp": "",
     "hits": [],
@@ -758,25 +765,16 @@
     "stamped": "2026-10-14",
     "type": "Exhibit AB"
   },
-  "https://efile.fara.gov/docs/6672-Informational-Materials-20261006-72.pdf": {
-    "fp": "Republika Srpska (BOSNIA & HERZEGOVINA)",
+  "https://efile.fara.gov/docs/6652-Supplemental-Statement-20261027-23.pdf": {
+    "fp": "",
     "hits": [],
+    "md": [],
     "more": 0,
-    "num": "6672",
-    "registrant": "McGinnis Lochridge",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Informational Materials"
-  },
-  "https://efile.fara.gov/docs/6672-Informational-Materials-20261006-73.pdf": {
-    "fp": "Republika Srpska (BOSNIA & HERZEGOVINA)",
-    "hits": [],
-    "more": 0,
-    "num": "6672",
-    "registrant": "McGinnis Lochridge",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Informational Materials"
+    "num": "6652",
+    "registrant": "Zeno Group, Inc.",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-27",
+    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/6672-Informational-Materials-20261013-74.pdf": {
     "fp": "Republika Srpska (BOSNIA & HERZEGOVINA)",
@@ -841,16 +839,6 @@
     "scanned": "2026-10-17",
     "stamped": "2026-10-15",
     "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/6723-Supplemental-Statement-0-0.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "6723",
-    "registrant": "Neale Creek, LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7002-Informational-Materials-20261007-61.pdf": {
     "fp": "DIHK DEinternational GmbH (GERMANY)",
@@ -917,36 +905,6 @@
     "stamped": "2026-10-22",
     "type": "Informational Materials"
   },
-  "https://efile.fara.gov/docs/7009-Amendment--1.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7009",
-    "registrant": "Friedlander Consulting Group LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7009-Exhibit-AB-20261006-2.pdf": {
-    "fp": "Foreign Ministry of Azerbaijan (AZERBAIJAN)",
-    "hits": [],
-    "more": 0,
-    "num": "7009",
-    "registrant": "Friedlander Consulting Group LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Exhibit AB"
-  },
-  "https://efile.fara.gov/docs/7009-Exhibit-AB-20261006-3.pdf": {
-    "fp": "Ministry of Justice of the Republic of Azebraijan (AZERBAIJAN)",
-    "hits": [],
-    "more": 0,
-    "num": "7009",
-    "registrant": "Friedlander Consulting Group LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Exhibit AB"
-  },
   "https://efile.fara.gov/docs/7012-Supplemental-Statement-20261022-11.pdf": {
     "fp": "",
     "hits": [],
@@ -967,6 +925,17 @@
     "scanned": "2026-10-14",
     "stamped": "2026-10-09",
     "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/7093-Supplemental-Statement-20261023-9.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7093",
+    "registrant": "KMT Representative Office in the United States",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-23",
+    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7120-Amendment-20261021-3.pdf": {
     "fp": "",
@@ -1022,16 +991,6 @@
     "stamped": "2026-10-20",
     "type": "Informational Materials"
   },
-  "https://efile.fara.gov/docs/7259-Supplemental-Statement-20261006-6.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7259",
-    "registrant": "Svensson, Bengt Allan",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Supplemental Statement"
-  },
   "https://efile.fara.gov/docs/7318-Amendment-20261013-9.pdf": {
     "fp": "",
     "hits": [],
@@ -1041,6 +1000,17 @@
     "scanned": "2026-10-14",
     "stamped": "2026-10-13",
     "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/7338-Supplemental-Statement-20261026-6.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7338",
+    "registrant": "Vermillion Advisors LLC",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-26",
+    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7382-Amendment-20261021-8.pdf": {
     "fp": "",
@@ -1094,6 +1064,17 @@
     "registrant": "Capital K, LLC",
     "scanned": "2026-10-27",
     "stamped": "2026-10-25",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/7465-Supplemental-Statement-20261026-5.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7465",
+    "registrant": "Laws, Frank Adrien",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-26",
     "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7522-Supplemental-Statement-20261016-4.pdf": {
@@ -1243,16 +1224,6 @@
     "stamped": "2026-10-20",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/7627-Informational-Materials-20261006-20.pdf": {
-    "fp": "The National Assembly of the Republic of Korea (KOREA, SOUTH)",
-    "hits": [],
-    "more": 0,
-    "num": "7627",
-    "registrant": "Korea Inter-Parliamentary Exchange Center",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Informational Materials"
-  },
   "https://efile.fara.gov/docs/7627-Informational-Materials-20261012-21.pdf": {
     "fp": "The National Assembly of the Republic of Korea (KOREA, SOUTH)",
     "hits": [],
@@ -1273,16 +1244,6 @@
     "scanned": "2026-10-21",
     "stamped": "2026-10-15",
     "type": "Informational Materials"
-  },
-  "https://efile.fara.gov/docs/7630-Supplemental-Statement-20261006-2.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7630",
-    "registrant": "GS2 Law PLLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7649-Amendment-20261021-2.pdf": {
     "fp": "",
@@ -1364,6 +1325,17 @@
     "stamped": "2026-10-21",
     "type": "Informational Materials"
   },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261022-36.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-22",
+    "type": "Informational Materials"
+  },
   "https://efile.fara.gov/docs/7652-Supplemental-Statement-20261019-2.pdf": {
     "fp": "",
     "hits": [],
@@ -1404,6 +1376,17 @@
     "stamped": "2026-10-19",
     "type": "Informational Materials"
   },
+  "https://efile.fara.gov/docs/7722-Supplemental-Statement-20261027-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7722",
+    "registrant": "Mintz, Levin, Cohn, Ferris, Glovsky and Popeo, P.C.",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-27",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/7732-Amendment-20261019-3.pdf": {
     "fp": "",
     "hits": [],
@@ -1414,36 +1397,6 @@
     "scanned": "2026-10-20",
     "stamped": "2026-10-19",
     "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7773-Amendment--2.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7773",
-    "registrant": "Saunders Global Diplomacy LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7773-Amendment-20261006-1.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7773",
-    "registrant": "Saunders Global Diplomacy LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7773-Exhibit-AB-20261006-1.pdf": {
-    "fp": "Afghanistan Freedom Movement (AFGHANISTAN)",
-    "hits": [],
-    "more": 0,
-    "num": "7773",
-    "registrant": "Saunders Global Diplomacy LLC",
-    "scanned": "2026-10-12",
-    "stamped": "2026-10-06",
-    "type": "Exhibit AB"
   },
   "https://efile.fara.gov/docs/7776-Exhibit-AB-20261007-2.pdf": {
     "fp": "Cristina Fernandez de Kirchner (ARGENTINA)",
@@ -1634,6 +1587,17 @@
     "scanned": "2026-10-25",
     "stamped": "2026-10-22",
     "type": "Registration Statement"
+  },
+  "https://efile.fara.gov/docs/7785-Exhibit-AB-20261024-2.pdf": {
+    "fp": "Bavarian State Ministry of Economic Affairs, Regional Development and Energy (GERMANY)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7785",
+    "registrant": "Kiel, Margot",
+    "scanned": "2026-10-28",
+    "stamped": "2026-10-24",
+    "type": "Exhibit AB"
   },
   "https://efile.fara.gov/docs/7785-Registration-Statement-20261024-1.pdf": {
     "fp": "",
