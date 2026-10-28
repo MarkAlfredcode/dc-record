@@ -1,10 +1,26 @@
 {
+  "H0CA03078": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Incumbent",
+    "name": "BERA, AMERISH",
+    "office": "H",
+    "party": "DEM",
+    "state": "CA"
+  },
   "H0CA06170": {
     "checked": "2026-10-09",
     "incumbent_challenge_full": "Challenger",
     "name": "BISH, CHRISTINE S",
     "office": "H",
     "party": "REP",
+    "state": "CA"
+  },
+  "H0CA15213": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Open seat",
+    "name": "WAHAB, AISHA",
+    "office": "H",
+    "party": "DEM",
     "state": "CA"
   },
   "H0CA31137": {
@@ -775,6 +791,14 @@
     "party": "REP",
     "state": "FL"
   },
+  "H4FL11089": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Open seat",
+    "name": "GROVES, RALPH",
+    "office": "H",
+    "party": "LIB",
+    "state": "FL"
+  },
   "H4FL13234": {
     "checked": "2026-10-22",
     "incumbent_challenge_full": "Challenger",
@@ -1054,6 +1078,14 @@
     "office": "H",
     "party": "DEM",
     "state": "NY"
+  },
+  "H4OK00026": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Challenger",
+    "name": "BONDAR, PAUL L",
+    "office": "H",
+    "party": "REP",
+    "state": "OK"
   },
   "H4OK02196": {
     "checked": "2026-10-24",
@@ -1775,6 +1807,14 @@
     "party": "DEM",
     "state": "FL"
   },
+  "H6FL09252": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Challenger",
+    "name": "STORY, JUSTIN",
+    "office": "H",
+    "party": "REP",
+    "state": "FL"
+  },
   "H6FL09286": {
     "checked": "2026-10-15",
     "incumbent_challenge_full": "Challenger",
@@ -2415,6 +2455,14 @@
     "party": "DEM",
     "state": "KY"
   },
+  "H6KY06192": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Open seat",
+    "name": "ALVARADO, RALPH A",
+    "office": "H",
+    "party": "REP",
+    "state": "KY"
+  },
   "H6KY06226": {
     "checked": "2026-09-10",
     "incumbent_challenge_full": "Open seat",
@@ -2823,6 +2871,14 @@
     "party": "IND",
     "state": "NC"
   },
+  "H6NC03229": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Challenger",
+    "name": "SMITH, RAYMOND EDWARD DR. JR.",
+    "office": "H",
+    "party": "DEM",
+    "state": "NC"
+  },
   "H6NC08210": {
     "checked": "2026-10-04",
     "incumbent_challenge_full": "Challenger",
@@ -3003,6 +3059,14 @@
     "checked": "2026-10-20",
     "incumbent_challenge_full": "Open seat",
     "name": "VAINGANKAR, JAY",
+    "office": "H",
+    "party": "DEM",
+    "state": "NJ"
+  },
+  "H6NJ12326": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Open seat",
+    "name": "MAPP, ADRIAN O MR",
     "office": "H",
     "party": "DEM",
     "state": "NJ"
@@ -3671,6 +3735,14 @@
     "party": "IND",
     "state": "TX"
   },
+  "H6TX07151": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Challenger",
+    "name": "HALE, ALEXANDER",
+    "office": "H",
+    "party": "REP",
+    "state": "TX"
+  },
   "H6TX08175": {
     "checked": "2026-10-14",
     "incumbent_challenge_full": "Challenger",
@@ -3815,6 +3887,14 @@
     "party": "IND",
     "state": "TX"
   },
+  "H6TX28124": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Challenger",
+    "name": "TIJERINA, TANO",
+    "office": "H",
+    "party": "REP",
+    "state": "TX"
+  },
   "H6TX28157": {
     "checked": "2026-10-20",
     "incumbent_challenge_full": "Challenger",
@@ -3851,6 +3931,14 @@
     "checked": "2026-10-17",
     "incumbent_challenge_full": "Challenger",
     "name": "VAZIRI, ABTEEN",
+    "office": "H",
+    "party": "REP",
+    "state": "TX"
+  },
+  "H6TX34080": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Challenger",
+    "name": "FLORES, ERIC",
     "office": "H",
     "party": "REP",
     "state": "TX"
@@ -4331,6 +4419,14 @@
     "checked": "2026-10-14",
     "incumbent_challenge_full": "Open seat",
     "name": "GIRALT, DAVID",
+    "office": "H",
+    "party": "REP",
+    "state": "WY"
+  },
+  "H6WY00241": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Open seat",
+    "name": "BITEMAN, DENNIS BO DEAN II",
     "office": "H",
     "party": "REP",
     "state": "WY"
@@ -5583,6 +5679,14 @@
     "office": "S",
     "party": "REP",
     "state": "MT"
+  },
+  "S6NC00407": {
+    "checked": "2026-10-28",
+    "incumbent_challenge_full": "Open seat",
+    "name": "COOPER, ROY",
+    "office": "S",
+    "party": "DEM",
+    "state": "NC"
   },
   "S6NC00415": {
     "checked": "2026-09-25",
