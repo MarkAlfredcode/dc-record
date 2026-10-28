@@ -168,6 +168,16 @@ jobs:
           FOIA_INGEST_TOKEN: ${{ secrets.FOIA_INGEST_TOKEN }}
         run: python3 scripts/draft_foia_replies.py
 
+      - name: Draft the FOIAs Mark asked for (private, for the /foia tracker)
+        # "Ask for a FOIA" box in the tracker -> drafted requests in Suggested; no model call when nothing is waiting; never emails anyone.
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          FOIA_INGEST_TOKEN: ${{ secrets.FOIA_INGEST_TOKEN }}
+        run: python3 scripts/draft_asked_foias.py
+
       - name: Push ntfy notification of this run's outcome
         if: always()
         run: |
