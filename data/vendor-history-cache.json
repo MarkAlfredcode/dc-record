@@ -1267,6 +1267,13 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "berkeley nucleonic": {
+    "d": "2026-10-28",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "bertone santiago": {
     "d": "2026-10-19",
     "examples": [
@@ -1322,6 +1329,35 @@
       }
     ],
     "first": "2014-01-27",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "bloomberg finance": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Securities and Exchange Commission",
+        "amount": 13818860.0,
+        "recipient": "BLOOMBERG FINANCE LP",
+        "start": "2023-06-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_50310223C0055_5000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Securities and Exchange Commission",
+        "amount": 12728383.14,
+        "recipient": "BLOOMBERG FINANCE LP",
+        "start": "2018-06-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_50310218C0044_5000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 8820567.67,
+        "recipient": "BLOOMBERG FINANCE LP",
+        "start": "2021-09-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HS002121C0009_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-04-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -3651,6 +3687,35 @@
     "has_contracts": false,
     "raw_hits": 0
   },
+  "hamilton medical": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 184293092.93,
+        "recipient": "HAMILTON MEDICAL, INC",
+        "start": "2020-03-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50120C00054_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 19587138.12,
+        "recipient": "HAMILTON MEDICAL, INC",
+        "start": "2020-03-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE2D120FZ003_9700_SPE2D119D0021_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 8243745.0,
+        "recipient": "HAMILTON MEDICAL, INC",
+        "start": "2020-09-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE2D120F0458_9700_SPE2D119D0021_9700"
+      }
+    ],
+    "first": "2012-03-22",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "honeywell int": {
     "d": "2026-10-22",
     "examples": [],
@@ -3774,6 +3839,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "ies downstream": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 172206114.24,
+        "recipient": "IES DOWNSTREAM LLC",
+        "start": "2022-10-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60323C5000_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2948924.32,
+        "recipient": "IES DOWNSTREAM LLC",
+        "start": "2023-07-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60223P0451_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2307088.6,
+        "recipient": "IES DOWNSTREAM LLC",
+        "start": "2023-06-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE60223P0450_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2017-08-17",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "immix technology": {
     "d": "2026-10-10",
     "examples": [],
@@ -3894,6 +3988,35 @@
       }
     ],
     "first": "2007-11-22",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "jamaica bearing": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 7089336.0,
+        "recipient": "JAMAICA BEARINGS CO., INC.",
+        "start": "2017-06-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRDL117C0193_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 6964200.0,
+        "recipient": "JAMAICA BEARINGS CO., INC.",
+        "start": "2026-02-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A626PF151_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 5996694.0,
+        "recipient": "JAMAICA BEARINGS CO., INC.",
+        "start": "2020-06-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRDL120C0034_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-10-14",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -7745,6 +7868,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:F7J7W3UNZJ76": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1919636.87,
+        "recipient": "GLOBAL STRATEGIC ENERGY LLC",
+        "start": "2021-04-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA857121P0087_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1612456.76,
+        "recipient": "GLOBAL STRATEGIC ENERGY LLC",
+        "start": "2019-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA822419FA275_9700_GS21F155AA_4732"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1085686.99,
+        "recipient": "GLOBAL STRATEGIC ENERGY LLC",
+        "start": "2025-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA822725F0002_9700_GS21F155AA_4732"
+      }
+    ],
+    "first": "2013-12-09",
+    "has_contracts": true,
+    "raw_hits": 5
+  },
   "uei:FCZCE76234L4": {
     "d": "2026-10-10",
     "examples": [
@@ -8369,6 +8521,35 @@
     "has_contracts": true,
     "raw_hits": 18
   },
+  "uei:KNLGMBCHK347": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 25393750.0,
+        "recipient": "HILL-ROM, INC.",
+        "start": "2020-03-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50120C00053_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 8572707.52,
+        "recipient": "HILL-ROM, INC.",
+        "start": "2020-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24821P0023_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 8475294.75,
+        "recipient": "HILL-ROM, INC.",
+        "start": "2020-03-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36E77620C0042_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-04-17",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:KV19ND1TM3Z9": {
     "d": "2026-10-22",
     "examples": [
@@ -8426,6 +8607,21 @@
     "first": "2021-04-29",
     "has_contracts": true,
     "raw_hits": 15
+  },
+  "uei:L6V9KH1R29R1": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 470831.88,
+        "recipient": "CENTER, L.L.C., THE",
+        "start": "2021-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C26321C0058_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2021-05-01",
+    "has_contracts": true,
+    "raw_hits": 1
   },
   "uei:LB5KVANFKPY7": {
     "d": "2026-10-10",
@@ -8630,6 +8826,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:MYHLFX1CNM34": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 393989.7,
+        "recipient": "ENVIRONMENTAL QUALITY LABORATORIES INC",
+        "start": "2018-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912C318C0002_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 259955.8,
+        "recipient": "ENVIRONMENTAL QUALITY LABORATORIES INC",
+        "start": "2023-10-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912C324C0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 208820.0,
+        "recipient": "ENVIRONMENTAL QUALITY LABORATORIES INC",
+        "start": "2005-02-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W912C305P0014_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2005-02-17",
+    "has_contracts": true,
+    "raw_hits": 23
+  },
   "uei:N9LFJALEM6K7": {
     "d": "2026-10-10",
     "examples": [
@@ -8723,6 +8948,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "uei:P2S7GZFBCSJ1": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of State",
+        "amount": 97049551.6,
+        "recipient": "ATT MOBILITY LLC",
+        "start": "2017-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA17L1141_1900_GS00Q13NSA3000_4732"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 60421765.26,
+        "recipient": "ATT MOBILITY LLC",
+        "start": "2023-12-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM24F0158_1900_47QTCA19D00MV_4732"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 40074337.71,
+        "recipient": "ATT MOBILITY LLC",
+        "start": "2020-11-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15F06720F0001964_1549_47QTCA19D00MV_4732"
+      }
+    ],
+    "first": "2006-09-29",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "uei:PFDZJZ15N3R1": {
     "d": "2026-10-10",
@@ -8868,6 +9122,35 @@
     "first": "2009-07-06",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "uei:QFTTRMNRK5Z8": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 233907.1,
+        "recipient": "KEYSIGHT TECHNOLOGIES INC",
+        "start": "2010-02-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W91GY010W1002_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 68079.84,
+        "recipient": "KEYSIGHT TECHNOLOGIES INC",
+        "start": "2015-05-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HQ072715P1518_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 11899.01,
+        "recipient": "KEYSIGHT TECHNOLOGIES INC",
+        "start": "2016-08-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNJ16HC22P_8000_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2010-02-17",
+    "has_contracts": true,
+    "raw_hits": 8
   },
   "uei:QJFJBF8ZBUM8": {
     "d": "2026-10-10",
@@ -9630,6 +9913,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:Z5LLHNEXM9L8": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 7764505.43,
+        "recipient": "CARTRIDGE TECHNOLOGIES, LLC",
+        "start": "2013-04-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EPG13H00561_6800_GS03F0151X_4732"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 5854377.57,
+        "recipient": "CARTRIDGE TECHNOLOGIES, LLC",
+        "start": "2017-10-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EPG18H01444_6800_GS03F0151X_4732"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4235717.11,
+        "recipient": "CARTRIDGE TECHNOLOGIES, LLC",
+        "start": "2020-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SP700020F0070_9700_GS31Q16BUA0006_4732"
+      }
+    ],
+    "first": "2008-02-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:ZBPQEJVECCT4": {
     "d": "2026-10-10",
     "examples": [
@@ -10050,6 +10362,35 @@
     "has_contracts": true,
     "raw_hits": 13
   },
+  "veteran first supply": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 327041.23,
+        "recipient": "VETERANS FIRST SUPPLY INC.",
+        "start": "2020-04-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C26220C0122_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 272636.75,
+        "recipient": "VETERANS FIRST SUPPLY INC.",
+        "start": "2018-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25019C0020_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 264312.49,
+        "recipient": "VETERANS FIRST SUPPLY INC.",
+        "start": "2017-01-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA26117C0033_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2015-11-06",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "vetmed group group": {
     "d": "2026-10-10",
     "examples": [
@@ -10172,6 +10513,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "virtual computing technology": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 42685830.79,
+        "recipient": "VIRTUAL COMPUTING TECHNOLOGY INC",
+        "start": "2021-07-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0024421F3017_9700_N0017819D8808_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 12992033.05,
+        "recipient": "VIRTUAL COMPUTING TECHNOLOGY INC",
+        "start": "2025-10-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0024426CS003_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 5918109.77,
+        "recipient": "VIRTUAL COMPUTING TECHNOLOGY INC",
+        "start": "2025-05-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0024425F3004_9700_N0017819D8808_9700"
+      }
+    ],
+    "first": "2015-07-30",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "vocera communication": {
     "d": "2026-10-27",
