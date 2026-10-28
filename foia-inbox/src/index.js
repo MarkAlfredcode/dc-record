@@ -11,11 +11,14 @@
 //    "Replies & appeals" tab and the dc-record drafting pass pick them up. Only real asks count: not the agency
 //    describing its own deadline, not our own request quoted back (see asksForReply in match.js).
 // 5. Read what the agency said into plain English (explainReply in match.js) and store it with the message for the
-//    tracker. (No phone alert for it: only newsworthy replies push to ntfy, agency + reason only.)
+//    tracker. Two kinds of reply ring Mark's phone (ntfy): newsworthy ones (agency + reason only), and ones that
+//    produce records (kind 'released': agency, case number, page count if stated). No other reply alerts.
+// 6. Learn where requests should go (learnRoute): "use our portal", "this belongs with X", "we passed it to X" become a
+//    row in D1 `routes` for the address we wrote to, which the tracker applies to the next request for that office.
 
 import PostalMime from 'postal-mime';
 import { readAll, toBase64 } from './attachments.js';
-import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply } from './match.js';
+import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply, learnRoute, regDomain } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
 const SELF = /@markalfred\.news$/i;
@@ -139,11 +142,39 @@ async function record(raw, env) {
    }
   } catch (e) { console.error('foia-inbox: alert failed', e && e.message); }
 
+  // Learn where this office wants requests: a portal, another office, or (a transfer) a hint. The newest letter wins,
+  // except that a hint never overwrites a portal or office rule.
+  try {
+    const route = auto ? null : learnRoute(plain, theirs.slice(0, 12000) + '\n' + attText.slice(0, 20000), from);
+    if (route) {
+      const own = requestId ? ctx.byId[requestId] : null;
+      const addr = String((own && own.email) || from).toLowerCase().trim();
+      await db.prepare("INSERT INTO routes (addr, domain, agency, kind, portal, office, office_email, quote, inbox_id, request_id, learned_at, active) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1) " +
+        "ON CONFLICT(addr) DO UPDATE SET kind = excluded.kind, portal = COALESCE(excluded.portal, routes.portal), office = excluded.office, office_email = excluded.office_email, quote = excluded.quote, inbox_id = excluded.inbox_id, request_id = excluded.request_id, learned_at = excluded.learned_at, active = 1 " +
+        "WHERE excluded.kind != 'hint' OR routes.kind = 'hint'")
+        .bind(addr, regDomain(addr), (own && own.agency) || (email.from && email.from.name) || null, route.kind, route.portal, route.office, route.office_email, route.quote, inboxId || null, requestId || null, now).run();
+    }
+  } catch (e) { console.error('foia-inbox: route step failed', e && e.message); }
+
+  // Records produced: always ring the phone, and open the tracker's Records tab.
+  if (plain && plain.kind === 'released' && env.NTFY_TOPIC) {
+    const own = requestId ? ctx.byId[requestId] : null;
+    const caseNo = own && own.tracking ? own.tracking : ((plain.points || []).map(function (p) { return /^Their case number: (.+)\.$/.exec(p); }).filter(Boolean)[0] || [])[1];
+    const sent = (plain.points || []).filter(function (p) { return /^They sent records/.test(p); })[0];
+    await fetch('https://ntfy.sh/' + env.NTFY_TOPIC, {
+      method: 'POST', headers: { Title: plain.headline, Tags: 'page_facing_up', Priority: '4', Click: TRACKER + '#records' },
+      body: ((own && own.agency) || (email.from && email.from.name) || from) + (caseNo ? ' (' + caseNo + ')' : '') + ': ' +
+        (sent ? sent.replace(/^They sent records:?\s*/, '').replace(/\.$/, '') || 'records' : 'records') + ' produced' +
+        (own ? '' : '. Not matched to a request yet') + '.'
+    }).catch(function (e) { console.error('foia-inbox: records ntfy failed', e && e.message); });
+  }
+
   if (requestId) {
     // First mail carrying the agency's own number: remember it so follow-ups match by tracking number.
     // A refusal of the request itself (Glomar, withheld in full, no records) moves the status; an expedite denial doesn't.
     const outcome = den ? outcomeOf(den[0]) : null;
     if (outcome) await db.prepare("UPDATE requests SET status = ?, status_detail = ? WHERE id = ? AND status IN ('Awaiting reply', 'Acknowledged', 'In progress', 'Extended', 'Needs clarification')").bind(outcome, snippet.slice(0, 300), requestId).run();
+    else if (plain && plain.kind === 'released') await db.prepare("UPDATE requests SET status = 'Records released', status_detail = ? WHERE id = ? AND status IN ('Awaiting reply', 'Acknowledged', 'In progress', 'Extended', 'Needs clarification', 'Fee estimate')").bind(plain.headline + ': ' + snippet.slice(0, 280), requestId).run();
     const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
     await db.batch([
       db.prepare('INSERT INTO messages (request_id, direction, sent_at, from_addr, subject, snippet, source, source_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')

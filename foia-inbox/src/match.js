@@ -374,7 +374,7 @@ export function resolveRequest(msg, ctx) {
 // everyday language: got it, case number, which processing line and how long that line takes, fees, fast-track,
 // records released or withheld (each exemption spelled out), passed to another office, what they need from Mark, how
 // long he has to appeal. Rules, not a model, so it never says anything the letter doesn't. The tracker shows it on
-// every reply and the Email Worker sends it as the phone alert.
+// every reply; kind 'released' (records produced) also rings Mark's phone and fills the tracker's Records tab.
 
 const EXEMPTIONS = {
   '1': 'classified national-security information', '2': 'internal personnel rules', '3': 'another law bars release',
@@ -401,14 +401,16 @@ const SAYS = [
   ['withheld', /withh(?:eld|old(?:ing)?) (?:the (?:responsive )?records |them |these records |the documents |all (?:responsive )?records )?in (?:their )?(?:full|entirety)|denied in (?:full|its entirety)|den(?:y|ying) your request in (?:full|its entirety)/i],
   ['norecords', /no (?:responsive )?records (?:were|was) (?:found|located|identified)|(?:did not|could not|were unable to|was unable to) (?:locate|find|identify) any (?:responsive )?records|does not (?:maintain|have|possess) any (?:responsive )?(?:government )?records|(?:located|found) no (?:responsive )?records|no records responsive|there (?:are|were) no (?:responsive )?records|did not identify any (?:responsive )?records/i],
   ['partial', /(?:released?|releasing|granted?|withheld|withholding|denied) in part|partial(?:ly)? (?:release|grant|denial|denied|granted)|(?:information|portions?|material|names?|pages?) (?:has|have|was|were|is|are) (?:been )?(?:redacted|withheld)|(?:with|contains?|containing) redactions/i],
-  ['released', /(?:enclosed|attached|provided|available|releas\w*|produc\w*)\b[^.]{0,80}\b\d[\d,]* (?:pages?|records|documents)|(?:we are|we have|I am|this office is|the department is) (?:enclos|releas|produc|provid)\w*[^.]{0,60}\b(?:records|documents|pages)|(?:interim|final) (?:release|production)|documents? released|records? (?:have|has) been released/i,
-    function (s) { return !/copy of your (?:request|letter|appeal)|fee schedule|narrowing options|request (?:is )?(?:enclosed|attached)/i.test(s); }],
+  ['released', /(?:enclosed|attached|provided|available|releas\w*|produc\w*)\b[^.]{0,80}\b\d[\d,]* (?:pages?|records|documents)|(?:we are|we have|I am|this office is|the department is) (?:enclos|releas|produc|provid)\w*[^.]{0,60}\b(?:records|documents|pages)|(?:interim|final) (?:release|production)|documents? released|(?:records?|documents?) (?:have|has) been (?:released|produced)|(?:responsive|requested) (?:records|documents) (?:are|is) (?:attached|enclosed|available)|records? responsive to your request (?:are|is) (?:attached|enclosed)|please (?:find|see) (?:the )?(?:attached|enclosed)[^.]{0,40}\b(?:responsive )?(?:records|documents|production)\b|(?:attached|enclosed) (?:are|is|please find) (?:the |copies of the )?(?:responsive )?(?:records|documents)\b/i,
+    function (s) { return !/copy of your (?:request|letter|appeal)|fee schedule|narrowing options|request (?:is )?(?:enclosed|attached)|(?:attached|enclosed) (?:copy of )?(?:your |my |the )?(?:original )?(?:public )?(?:records? |foia |information |open records )?request\b/i.test(s); }],
   ['appealDecided', /(?:affirm|uphold|upheld|sustain)\w* (?:the |our |its |this office's )?(?:initial |original )?(?:determination|decision|response|denial)|appeal (?:is|has been) (?:hereby )?(?:denied|granted|remanded|closed)|remand\w* (?:your request|the request|this matter)/i],
   ['appealAck', /(?:received|receipt of|acknowledg\w*)[^.]{0,80}\bappeal|appeal has been (?:assigned|logged|docketed|received)/i,
     function (s) { return !/(?:may|can|right to|if you)[^.]{0,40}appeal/i.test(s); }],
   ['transfer', /\b(?:transferr\w*|referr\w*|forward\w*|transfer|referral)\b(?: of)?[^.]{0,60}?\b(?:request|records|it|documents|case)\b[^.]{0,80}?\bto (?:the )?((?:[A-Z][\w&.'-]*)(?:\s+(?:[A-Z][\w&.'-]*|of|and|for|the|on))*)/,
     function (s) { return !/referred to as|(?:may|might|will|could) (?:be )?(?:need to )?(?:transfer|refer)/i.test(s); }],
   ['rejected', /not accept\w* (?:foia )?requests? (?:via|by|through) e-?mail|requests? (?:submitted|sent|received) (?:via|by) e-?mail (?:will|are|is) not|you must submit a (?:new )?(?:freedom of information act )?(?:\(foia\) |foia )?request|submit (?:your|the|a) (?:new )?(?:foia )?requests? online|requests? can be submitted online|to file a (?:foia )?request[^.]{0,80}\buses? (?:the |its )?[\w-]+ (?:request )?(?:processing )?system|resubmit (?:your|the) request|(?:need|have) to (?:visit|use) (?:our|the) (?:online )?portal|must be (?:sent|submitted) via a method/i],
+  ['redirect', /(?:[Pp]lease|[Yy]ou (?:should|must|may|will need to|would need to)|[Ww]e (?:suggest|recommend)(?: that)? you|[Kk]indly|[Ii]t should be|should be) (?:re-?)?(?:submit\w*|send|sent|direct\w*|forward\w*|file|filed|address\w*) (?:(?:your|the|this|a|that) (?:records |foia |public records |open records )?requests? )?(?:directly )?to (?:the )?((?:[A-Z][\w&.'-]*)(?:\s+(?:[A-Z][\w&.'-]*|of|and|for|the|on))*)|(?:is|are) not the (?:appropriate|correct|right|proper) (?:office|agency|component|custodian|public body)/,
+    function (s) { return !/(?:to (?:the |our )?)(?:online|web|portal|website|link|form|e-?mail)\b|\bif you\b|appeal/i.test(s); }],
   ['spam', /quarantined|missing one of your|caught in (?:our|a|the) (?:spam|junk)/i],
   ['closed', /(?:your |the |this )?request(?: #?[\w-]*\d[\w-]*)? (?:is|has been|was) (?:hereby )?(?:administratively )?closed|(?:we are|we have|I am) (?:now )?clos(?:ed|ing) (?:your|this|the) (?:request|case|file)/i,
     function (s) { return !/\b(?:unless|if|absent|without a response|fail\w*)\b/i.test(s); }],
@@ -453,6 +455,13 @@ export function explainReply(subject, text, ownTexts, received) {
     }
   }
   const all = sents.join(' ');
+  // Portals (NextRequest) announce every file as "a document has been released", including their own extension and
+  // acknowledgment letters: that's not records. A partial release ("released in part") is.
+  if (hit.released && /documents? (?:has been |have been )?released/i.test(hit.released.m[0]) && /\b(?:extension|acknowledg\w*|clarification|fee estimate|invoice|cost estimate)(?: letter| notice|\.pdf)/i.test(all)) {
+    if (/extension/i.test(all) && !hit.extension) hit.extension = { s: hit.released.s, m: hit.released.m };
+    delete hit.released;
+  }
+  if (!hit.released && hit.partial && /releas|grant|redact/i.test(hit.partial.m[0])) hit.released = hit.partial;
   const ask = asksForReply(sents.join('\n'), ownTexts || []);
   const pts = [];
   const add = function (t) { if (t && pts.indexOf(t) < 0) pts.push(t); };
@@ -490,6 +499,7 @@ export function explainReply(subject, text, ownTexts, received) {
     if (close) add('If you don’t answer within ' + count(close[1] || close[2]) + ' days, they’ll close the request.');
   }
   if (hit.rejected) add('They don’t take requests by email. It has to be filed again on their website.');
+  if (hit.redirect) add(hit.redirect.m[1] ? 'They say this belongs with ' + hit.redirect.m[1].replace(/\s+(?:of|and|for|the|on)$/i, '') + ': it has to be sent there instead.' : 'They say they’re the wrong office for this request.');
   if (hit.spam) add('They think one of your emails may have been caught in their spam filter and want to make sure nothing was lost.');
   if (hit.transfer) {
     const tm = SAYS.find(function (d) { return d[0] === 'transfer'; })[1].exec(all.slice(Math.max(0, all.indexOf(hit.transfer.s.slice(0, 40)))));
@@ -538,6 +548,7 @@ export function explainReply(subject, text, ownTexts, received) {
   else if (hit.released) { kind = 'released'; headline = hit.partial ? 'Records released, some withheld' : 'Records released'; tone = 'good'; priority = 4; }
   else if (hit.appealDecided) { const den = /den|affirm|uphe|sustain/i.test(hit.appealDecided.m[0]); kind = 'appealDecided'; headline = den ? 'Appeal denied' : /remand/i.test(hit.appealDecided.m[0]) ? 'Appeal won: sent back for a new search' : 'Appeal decided'; tone = den ? 'bad' : 'good'; priority = 4; }
   else if (ask) { kind = 'ask'; headline = 'They need an answer from you'; tone = 'action'; priority = 4; }
+  else if (hit.redirect && !hit.transfer) { kind = 'redirect'; headline = 'Wrong office' + (hit.redirect.m[1] ? ': send it to ' + hit.redirect.m[1].replace(/\s+(?:of|and|for|the|on)$/i, '') : ''); tone = 'action'; priority = 4; }
   else if (hit.rejected) { kind = 'rejected'; headline = 'Won’t take it by email: refile online'; tone = 'action'; priority = 4; }
   else if (hit.feeEstimate) { kind = 'fees'; headline = 'Fee estimate'; tone = 'action'; priority = 4; }
   else if (hit.spam) { kind = 'spam'; headline = 'An email of yours may be lost'; tone = 'action'; priority = 4; }
@@ -555,10 +566,63 @@ export function explainReply(subject, text, ownTexts, received) {
 
   // In their own words: the sentence behind the headline, for anything beyond a routine acknowledgment.
   const lead = { glomar: hit.glomar, withheld: hit.withheld, norecords: hit.norecords, released: hit.released, appealDecided: hit.appealDecided,
-    rejected: hit.rejected, fees: hit.feeEstimate, spam: hit.spam, closed: hit.closed, transfer: hit.transfer, duplicate: hit.duplicate }[kind];
+    rejected: hit.rejected, redirect: hit.redirect, fees: hit.feeEstimate, spam: hit.spam, closed: hit.closed, transfer: hit.transfer, duplicate: hit.duplicate }[kind];
   // The whole sentence from the running text, so one broken across lines in a PDF reads whole.
   const whole = function (s) { const i = all.indexOf(s); if (i < 0) return s; const m = /^[\s\S]*?[.!?](?=\s|$)/.exec(all.slice(i, i + 400)); return m && m[0].length >= s.length ? m[0] : s; };
   let quote = lead ? whole(lead.s) : null;
+  // Portal notices (NextRequest) wrap the agency's words in a banner: "...along with the following message: <their words>".
+  const wrapped = /along with the following message:\s*([^*]{20,600}?)(?=\s*\*\s|\s*Document links|$)/i.exec(all);
+  if (wrapped && (!quote || /\*{4,}|^\[/.test(quote))) quote = wrapped[1];
   if (kind === 'other') quote = sents.find(function (s) { return s.length >= 40 && /[a-z]{3,}.*[a-z]{3,}/i.test(s) && !/[*_=]{4}/.test(s) && String(subject || '').indexOf(s) < 0 && !/[<>{}#]|https?:|^(?:dear|hello|hi|good (?:morning|afternoon|evening)|re:|subject:)/i.test(s); }) || null;
   return { kind: kind, headline: headline, tone: tone, priority: priority, points: pts.slice(0, 8), quote: quote ? clip(quote, 300) : null };
+}
+
+
+// ---- Where requests should go, learned from replies ----------------------------------------------------------------
+//
+// learnRoute() turns an agency's "we don't take email, use our portal", "this belongs with X" or "we passed it to X"
+// into a routing rule for the address we wrote to. kind 'portal' (file at portal), 'office' (send to another office:
+// office name, plus office_email when the letter gives one), 'hint' (a transfer: the request was passed on, so
+// another request on the same subject may belong there too; shown, never applied on its own).
+// plain: explainReply()'s reading. fromAddr: the sender. -> { kind, portal, office, office_email, quote } or null
+
+const NOT_PORTAL = /aka\.ms|safelinks|sam\.gov|efile\.fara\.gov|usaspending|fpds|federalregister|congress\.gov|twitter|facebook|linkedin|instagram|youtube|civicplus\.help|\/help\b|kb_article|unsubscribe|settings\?/i;
+export function regDomain(addr) {
+  const host = String(addr || '').toLowerCase().replace(/^.*@/, '').replace(/^https?:\/\//, '').split(/[/?#:]/)[0];
+  const parts = host.split('.').filter(Boolean);
+  return parts.slice(parts[parts.length - 1] === 'us' ? -3 : -2).join('.');
+}
+function bestPortal(text, fromAddr) {
+  const dom = regDomain(fromAddr);
+  const urls = (String(text || '').match(/https?:\/\/[^\s<>()\]"'|]+/g) || []).map(function (u) { return u.replace(/[.,;:)\]]+$/, ''); });
+  let best = null, top = 0;
+  urls.forEach(function (u) {
+    if (NOT_PORTAL.test(u)) return;
+    let sc = 0;
+    if (/submit|request|portal|nextrequest|govqa|justfoia|foiaxpress|\bpal\.|mycusthelp|securerelease|foiaonline|records-?request|make-?request|open-?records|\/foia/i.test(u)) sc += 3;
+    if (dom && regDomain(u) === dom) sc += 2;
+    if (/(?:^|\/\/)(?:www\.)?foia\.gov\/?$/i.test(u)) sc += 1;
+    if (/policy|\/aps\/|overview|faq|privacy/i.test(u)) sc -= 2;
+    if (sc > top || (sc === top && best && u.length > best.length && sc > 0)) { top = sc; best = u; }
+  });
+  return top > 0 ? best : null;
+}
+export function learnRoute(plain, text, fromAddr) {
+  if (!plain) return null;
+  const t = String(text || '');
+  if (plain.kind === 'rejected') return { kind: 'portal', portal: bestPortal(t, fromAddr), office: null, office_email: null, quote: plain.quote };
+  if (plain.kind === 'redirect') {
+    const m = /^Wrong office: send it to (.+)$/.exec(plain.headline) ||
+      /(?:[Pp]lease|[Yy]ou (?:should|must|may|will need to)|[Kk]indly) (?:re-?)?(?:submit|send|direct|forward|file|address) (?:your |the |this )?(?:records |foia )?request (?:directly )?to (?:the )?((?:[A-Z][\w&.'-]*)(?:\s+(?:[A-Z][\w&.'-]*|of|and|for|the|on))*)/.exec(t);
+    const own = /@markalfred\.news$|@yahoo\.com$|^image\d+|\.(?:png|jpe?g|gif)@/i;
+    const near = plain.quote ? t.slice(Math.max(0, t.indexOf(plain.quote.slice(0, 40))), Math.max(0, t.indexOf(plain.quote.slice(0, 40))) + 600) : '';
+    const em = (near.match(/[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g) || []).map(function (x) { return x.replace(/\.$/, ''); })
+      .filter(function (x) { return !own.test(x) && x.toLowerCase() !== String(fromAddr || '').toLowerCase(); })[0] || null;
+    return { kind: 'office', portal: bestPortal(near, fromAddr), office: m ? m[1].replace(/\s+(?:of|and|for|the|on)$/i, '') : null, office_email: em, quote: plain.quote };
+  }
+  if (plain.kind === 'transfer') {
+    const p = (plain.points || []).map(function (x) { return /^They passed (?:part of it|it) to (.+), which will answer you directly\.$/.exec(x); }).filter(Boolean)[0];
+    return p ? { kind: 'hint', portal: null, office: p[1], office_email: null, quote: plain.quote } : null;
+  }
+  return null;
 }
