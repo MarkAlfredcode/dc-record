@@ -4593,6 +4593,14 @@
       "s": "screened",
       "sol": "36C77623C0089"
     },
+    "09f015f78b1c41b48e82a6689edde7ed": {
+      "c": 2424,
+      "d": "2026-10-28",
+      "m": "docx",
+      "n": "36C25027Q0074.docx",
+      "s": "screened",
+      "sol": "36C25027Q0074"
+    },
     "09f42122f7c34d3e9671cdf98ceccfb6": {
       "c": 28923,
       "d": "2026-10-11",
@@ -4690,6 +4698,14 @@
       "n": "SS DRAFT - Attachment 8 - Resource Only - Current Organization 2026_Rev20260929_positions.pdf",
       "s": "screened",
       "sol": "REQUIREMENTS-25-1463-27"
+    },
+    "0a33db08fd944863bd69b72c21f282ba": {
+      "c": 5926,
+      "d": "2026-10-28",
+      "m": "ocr+pdf",
+      "n": "Part 1 of 7 Salem Stormwater Drawings_Addendum A.pdf",
+      "s": "screened",
+      "sol": "36C24626B0031"
     },
     "0a3d39d9dd674fa89df5e815c86de755": {
       "c": 6542,
@@ -6191,6 +6207,14 @@
       "s": "wage_determination",
       "sol": "36C25626R0117"
     },
+    "0dac1838633c453b8a7bc5d7d4671028": {
+      "c": 7107,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "Provisions-Instructions.pdf",
+      "s": "screened",
+      "sol": "140R3026Q0143"
+    },
     "0dad1e535dd543aab4d2693add5eb535": {
       "c": 77839,
       "d": "2026-10-10",
@@ -6531,6 +6555,22 @@
       "n": "Solicitation Amendment - W50S9E26BA0020002.pdf",
       "s": "screened",
       "sol": "W50S9E26BA002"
+    },
+    "0e432c123f9546f2a7bb7d64d3967e6e": {
+      "c": 10187,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "Coast Guard vessel HAMMER drydock repairs contract includes detailed change request process and wide-ranging ship maintenance; insurance requirements include $500,000 liability per occurrence.",
+          "news": 4,
+          "quote": "Ship Repairer's Liability - $500,000 per occurrence. Comprehensive General Liability - $500,000 per occurrence",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 3 - SOW Addendum.pdf",
+      "s": "screened",
+      "sol": "70ZU0127QPBPL0001"
     },
     "0e44c9d3a8fb4438acc07e6c35a9219b": {
       "c": 965,
@@ -7041,6 +7081,29 @@
       "s": "screened",
       "sol": "N4008526R0272"
     },
+    "0fcbee5124e442158ea4264306dadc38": {
+      "c": 15047,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "context": "urbishment. Because the xEVAS contract is a service contract, an approved JOFOC is required to add a supply CLIN to the Axiom contract on a sole-source basis. This action enables timely procurement of hardware to maintain mission schedule resilience and continuity during the remaining Period of Performance (PoP), through May 30, 2032. This action supports schedule resilience for Artemis consistent with national policy milestones set forth in Executive Order 14369, \u201cEnsuring American Space Superiority\u201d (return to the Moon by 2028 and initial lunar outpost elements by 2030). Consistent with those milestones, market research emphasizes sources\u2019 ability to meet compatibility and 1 schedule requirements under the existing architecture; the EO is cited to document the schedule context only. 3. FAR 6.104-1(a)(3) \u2013 A description of the supplies or services required, to meet the Agency\u2019s needs (including the estimated value): NASA requires the addition of a",
+          "finding": "NASA justifies sole-source spacesuit hardware contract citing Executive Order 14369 targeting Moon return by 2028 and lunar outpost by 2030.",
+          "news": 5,
+          "quote": "This action supports schedule resilience for Artemis consistent with national policy milestones set forth in Executive Order 14369, 'Ensuring American Space Superiority' (return to the Moon by 2028 and initial lunar outpost elements by 2030).",
+          "verified": true
+        },
+        {
+          "finding": "NASA adds $3.1 billion hardware delivery contract to Axiom Space's existing spacesuit deal without competing other xEVAS contractor Collins Aerospace, citing schedule urgency for Artemis lunar missions.",
+          "news": 5,
+          "quote": "Collins has not expressed an interest in this requirement for CLIN 5 hardware items...The period of performance for the CLIN 5 requirements will start...throughout the duration of the Axiom xEVAS contract ordering period end date of May 30, 2032.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "80JSC022DA022_xEVAS_CLIN5_Hardware_Production_and_Delivery_JOFOC_Public_Release.pdf",
+      "s": "screened",
+      "sol": "80JSC022DA022-CLIN5-JOFOC"
+    },
     "0fcc866546e24bc0be681c1bcda1d6f9": {
       "c": 3266,
       "d": "2026-10-13",
@@ -7160,6 +7223,23 @@
       "n": "27-Q-A005 - Source Sought Notice.pdf",
       "s": "screened",
       "sol": "W15QKN-27-Q-A005"
+    },
+    "1047850cc3c5490589778de776233298": {
+      "c": 4689,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "context": "nt Requirement: The system requires an active digital display (e.g., an LCD monitor) to act as a source grid. This does not meet the government's specific requirement for a system that uses a passive retroreflective surface, which is necessary due to space and logistical constraints in the test facilities. Fails to Meet Environmental Requirement: The system is not specified or marketed as having inherent vibration resistance. This is a critical requirement for maintaining image stability and data integrity during wind tunnel operations. As a result of this evaluation, MetroLaser, Inc. was eliminated as a viable source. This market research effort demonstrates that despite actively seeking competition, only one vendor was found to supply a product with the unique technical features necessary to meet the government's needs. 5. Determination: Based on the findings above, the proposed sole source or brand name action is justified under the applicable regulation. 6. Signatory Authority: (Contracting Officer Instruction: In accordance",
+          "finding": "Air Force sole-source justification eliminates MetroLaser as competitor, claiming it fails technical requirements for vibration resistance and retroreflective surface compatibility.",
+          "news": 4,
+          "quote": "The system is not specified or marketed as having inherent vibration resistance. This is a critical requirement for maintaining image stability and data integrity during wind tunnel operations.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 2 - SSJ Redacted.pdf",
+      "s": "screened",
+      "sol": "FA860127Q0017"
     },
     "10482e984573418bb7a03278767c3c54": {
       "c": 3759,
@@ -8772,6 +8852,23 @@
       "n": "Statement of Work - Attachment 1 - JB Charleston Statement of Work for (A_E).pdf",
       "s": "screened",
       "sol": "FA441826R0009"
+    },
+    "143bfebd0d7a4ff696a7e6f5dd9877be": {
+      "c": 277,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "context": "copies to the issuing office. 14. DESCRIPTION OF AMENDMENT/MODIFICATION (Organized by UCF section headings, including solicitation/contract subject matter where feasible.) DESIGN-BID-BUILD (DBB) P-1550 SOF MARINE RAIDER BATTALION COMPANY & TEAM FACILITIES The purpose of this amendment is to extend the submission deadline. The revised proposal due date is extended to 27 October 2026 NLT 1400. Except as provided herein, all terms and conditions of the document referenced in Item 9A or 10A, as heretofore changed, remains unchanged and in full force and effect. 15A. NAME AND TITLE OF SIGNER (Type or print) 16A. NAME AND TITLE OF CONTRACTING OFFICER (Type or print) 15B. CONTRACTOR/OFFEROR 15C. DATE SIGNED 16B. UNITED STATES OF AMERICA 16C. DATE SIGNED (Signature of person authorized to sign) (Signature of Con",
+          "finding": "Marine Raider Facilities Complex at Camp Lejeune delayed; proposal due date extended from October 20 to October 27, 2026.",
+          "news": 3,
+          "quote": "The revised proposal due date is extended to 27 October 2026 NLT 1400",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "AMENDMENT 0011 - N4008526R0138.pdf",
+      "s": "screened",
+      "sol": "N4008526R0138"
     },
     "1449ffc87ada4d62b6572ac146d1e51c": {
       "c": 6821,
@@ -19060,6 +19157,14 @@
       "s": "screened",
       "sol": "36C24527Q0020"
     },
+    "2c7a1ce15cd145d18e2c52f6490aa2d4": {
+      "c": 9596,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "Attachment 6 - NOTIONAL UNNO FACILITIES LIST.pdf",
+      "s": "screened",
+      "sol": "SCAN-MSFC-0002"
+    },
     "2c811f9030f143a497be6b854f294afe": {
       "c": 12404,
       "d": "2026-10-10",
@@ -21868,6 +21973,40 @@
       "s": "screened",
       "sol": "15B41826Q00000005"
     },
+    "325fbc6a72ac452381947261fc654183": {
+      "c": 1476058,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "VA Medical Center in West Haven, CT getting major chilled water plant and site utility upgrades project worth scope to be determined",
+          "news": 3,
+          "quote": "Construction of Chilled Water Plant and Site Utility Upgrades at VA Medical Center in West Haven, CT (W912WJ26RA008",
+          "verified": false
+        },
+        {
+          "finding": "Project includes new electric-driven fire pump system rated 1500 gpm at 100 psi with 480V three-phase power and seismic bracing requirements",
+          "news": 3,
+          "quote": "The fire pump shall be electric motor driven. The pump shall have a capacity of 1500 gpm with a rated net pressure of 100 psi. The fire pump shall be 480 Volts, 3 phase at 60 Hertz.",
+          "verified": false
+        },
+        {
+          "finding": "Specifications require 133 horsepower motor and automatic transfer switch for fire pump with backup jockey pump system and extensive monitoring/alarm capabilities",
+          "news": 3,
+          "quote": "The electric motor driver shall be rated 133 horsepower and 1750 rpm. Automatic transfer switch shall be factory assembled and packaged as a unit with the fire pump controller.",
+          "verified": false
+        },
+        {
+          "finding": "Project includes elevated steel water storage tank with multiple system integrations including building automation system controls and remote monitoring capabilities",
+          "news": 3,
+          "quote": "Provide tank heating to protect the tank from freezing. Provide control panel capable of integrating with campus building automation system (BAS). Integration to allow the BAS to have the capability for tank heater on/off control, setpoint adjustment, monitoring, and alarms.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Specifications - Volume II.pdf",
+      "s": "screened",
+      "sol": "W912WJ26RA008"
+    },
     "3261ffd1b6694578ace5d1f8aeaede4a": {
       "c": 3168,
       "d": "2026-10-20",
@@ -22962,6 +23101,22 @@
       "n": "36C24927C0007_1.docx",
       "s": "screened",
       "sol": "36C24926Q0380"
+    },
+    "352b116711034f1a945e2cf4a948f685": {
+      "c": 21923,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "GSA awards $92.6 million bridge contract to current Marine Corps logistics contractor for 6 months while re-competition stalls, citing protest risks and Japan SOFA delays.",
+          "news": 4,
+          "quote": "The SOFA process for each host nation...can be timely from start to finish...specifically for the USMC SOFA process in one of the OCONUS host nations (Japan), the process can be timely...GSA...requires approximately 120 days from the time of award to allow for SOFA certification in Japan.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "47QSCC27A0001_Sole Source Justification_USMC Bridge_2026-10-20_Redacted.pdf",
+      "s": "screened",
+      "sol": "47QSCC27A0001-2-3"
     },
     "353527ab9d9d476eb23d83e27152336b": {
       "c": 1430,
@@ -26421,6 +26576,14 @@
       "s": "screened",
       "sol": "36C10B26Q0131"
     },
+    "3cadf3871d2646e1854a003e10a5f588": {
+      "c": 6789,
+      "d": "2026-10-28",
+      "m": "docx",
+      "n": "36C24527Q0048.docx",
+      "s": "screened",
+      "sol": "36C24527Q0048"
+    },
     "3cae8a9c3a424f6bb9e24aa441c9c839": {
       "c": 9151,
       "d": "2026-10-23",
@@ -27307,7 +27470,7 @@
       "sol": "RFP-2026-10245()"
     },
     "3e594d9b9cf547c09160b230eda1f0ed": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-25",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -29156,7 +29319,7 @@
       "sol": "W912LQ27QA001"
     },
     "422d0c56d4f147a6878ab3755df4dba8": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-27",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -34247,7 +34410,7 @@
       "sol": "FA665626R0007"
     },
     "4dd8cbf28da84946aed8781f0db7356a": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-27",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -34295,6 +34458,22 @@
       "n": "afman48-148.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "4dee02517cb54d2e887eb0c6934eac4e": {
+      "c": 11104,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "Coast Guard HAMMER drydock availability spans 69 days with family separation allowances totaling $1,949.22 for crew with dependents.",
+          "news": 3,
+          "quote": "Family Separation Allowance: A. Number of Personnel entitled to Family Separation Allowance: 6, B. Number of Days: 39, C=1949.22",
+          "verified": false
+        }
+      ],
+      "m": "legacy",
+      "n": "Attachment 1_ScheduleOfServices_HAMMER_DD_FY27.xls",
+      "s": "screened",
+      "sol": "70ZU0127QPBPL0001"
     },
     "4df5b04c8339438ea3ebe438504160f8": {
       "c": 1101,
@@ -38044,6 +38223,14 @@
       "n": "B08_Att_03_GRCA257282_100P_FinalCD_Addendum_1.pdf",
       "s": "screened",
       "sol": "140P2026R0101"
+    },
+    "56a76d6e27df4c1a952952ec0335a040": {
+      "c": 9095,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "DRAFT_B2_08.4_Small_Business_Subcontracting_Plan_Form.pdf",
+      "s": "screened",
+      "sol": "SLAC_RFP_368509"
     },
     "56aaa6d96cff4de3ad035abdfa1f6436": {
       "c": 490,
@@ -43617,6 +43804,14 @@
       "s": "screened",
       "sol": "M0026427Q0003"
     },
+    "63bfaa7e151741beb9b4538fd91c201a": {
+      "c": 1878,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "ADA-619590_RFQ.pdf",
+      "s": "screened",
+      "sol": "47QSSC27Q0025"
+    },
     "63c02a0d96484c3081c5fb0ad3438523": {
       "c": 43830,
       "d": "2026-10-19",
@@ -49107,6 +49302,14 @@
       "s": "screened",
       "sol": "W911S227QA006"
     },
+    "6ff910a8c7e64ffaa6d10a10ad06e48f": {
+      "c": 16108,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "Sources Sought Number BARDA FY27 10192026.pdf",
+      "s": "screened",
+      "sol": "BARDA-FY27-10192026"
+    },
     "7003cb9948074dbc92c92f30d93c325b": {
       "c": 313,
       "d": "2026-10-26",
@@ -51354,6 +51557,14 @@
       "s": "screened",
       "sol": " FA489727Q0002"
     },
+    "74e59fa1e3b34f5dae0df26c9a30cca0": {
+      "c": 1921,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "7571TE27Q00018 - Micetro IP Management Renewal.pdf",
+      "s": "screened",
+      "sol": "7571TE27Q00018"
+    },
     "74eec2dfe7b1437eaea1687b0002b55b": {
       "c": 3462,
       "d": "2026-10-23",
@@ -53290,6 +53501,14 @@
       "n": "B08_Solicitation_Attachment_7_Bid_Sheet__8_17_26_(1_pg).pdf",
       "s": "screened",
       "sol": "140FC126Q0044"
+    },
+    "78d78015e2a04af2b5e0954a8e815672": {
+      "c": 12098,
+      "d": "2026-10-28",
+      "m": "ocr+pdf",
+      "n": "Attach 4 - C05 SOW Stove Prairie CG Replacement.pdf",
+      "s": "screened",
+      "sol": "117346"
     },
     "78d843cb331348719b84aa76d4ed0553": {
       "c": 14977,
@@ -58941,6 +59160,22 @@
       "s": "boilerplate_only",
       "sol": "W15QKN26RA097"
     },
+    "86350c839c7b42da936772ef93d9fcf8": {
+      "c": 10070,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "VA fire alarm contract requires contractor to stock $100,000 annually for unscheduled emergency repairs with 4-hour response guarantee.",
+          "news": 3,
+          "quote": "This repair CLIN should be valued at $100,000 per annual contact period... Contractor shall provide prompt emergency call back service within four (4) hours",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "Draft PWS Fire Alarm Testing and Maintenance - Rev 10-13-2026.docx",
+      "s": "screened",
+      "sol": "36C26127Q0075"
+    },
     "863dbdae3bd6426b9fc92ba562b16c41": {
       "c": 414,
       "d": "2026-10-14",
@@ -62278,6 +62513,22 @@
       "s": "screened",
       "sol": "36C26026Q1017"
     },
+    "8d482efecbb24df6aeb0bbd6cf8b3830": {
+      "c": 13130,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "VA Salem facility stormwater drainage project with multi-phase erosion control plan; contractor required to manage materials staging within work area.",
+          "news": 3,
+          "quote": "Correct Stormwater Drainage; CONTRACTOR SHALL STAGE ALL MATERIALS AND STOCKPILES INVENTORY OF THE WORKAREA",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Part 2 of 7 Final Design Salem Stormwater Drawings_Addendum A.pdf",
+      "s": "screened",
+      "sol": "36C24626B0031"
+    },
     "8d4a46395a3144d8856c4b4a7c2eab3a": {
       "c": 1989,
       "d": "2026-10-18",
@@ -65031,6 +65282,22 @@
       "s": "screened",
       "sol": "36C10F25R0024"
     },
+    "92f78656719e4d858827285fe64a2945": {
+      "c": 14460,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "NASA leasing Kennedy Space Center land with known PFAS groundwater contamination above EPA limits; potential health/environmental risk.",
+          "news": 4,
+          "quote": "PFOS, PFOA, and PFOHXS were detected in groundwater above the current (November 2024) U.S. Environmental Protection Agency Regional Screening Level (RSL) for Tap Water.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "QA for Posting.pdf",
+      "s": "screened",
+      "sol": "AFP-KSC-ExParkParcels3and4-2026"
+    },
     "92ffee980e524e9fae50a5734190699f": {
       "c": 9029,
       "d": "2026-10-11",
@@ -67054,6 +67321,14 @@
       "n": "250063_ Redline A-502.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "979fa969cfbd43b4a47f309e04e8f7ca": {
+      "c": 79,
+      "d": "2026-10-28",
+      "m": "ocr+pdf",
+      "n": "C05c_Attachment 2 - CAD USFS Aluminum boundary Post Image_1284LM27Q0005 AMD 0001.pdf",
+      "s": "screened",
+      "sol": "1284LM27Q0005"
     },
     "97a0d284dcb04327a07ea7253fd0184c": {
       "c": 396,
@@ -70830,6 +71105,14 @@
       "s": "screened",
       "sol": "FA238426SB007"
     },
+    "9fc9b0c957d3407db9a15d30cb7b9e2d": {
+      "c": 13152,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "140R4026R0025_Attachment_3_-_WD_CO20260003_Heavy_-_Montrose_County__CO.pdf",
+      "s": "screened",
+      "sol": "140R4026R0025"
+    },
     "9fd66c2b670042d9bc7d06ee7d904bf2": {
       "c": 541,
       "d": "2026-10-23",
@@ -71183,12 +71466,12 @@
       "sol": "W519TC-26-R-AHRS"
     },
     "a0a8dbb13bd44faf97bc2a5ca12dbf57": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-27",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "RFI for FD20602800023.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "28-00023"
     },
     "a0ab634ed9cd424b88dcec9bce8f5d4a": {
@@ -74378,6 +74661,23 @@
       "s": "screened",
       "sol": "140R4025R0017"
     },
+    "a7ac4118242d49799c4fdfc6687edc3e": {
+      "c": 15721,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "context": "ssued for recurring failures (e.g., sprint commitment delivery falls below proposed quarterly average, or tasker processing errors exceed threshold). The contractor must submit a formal Root Cause Analysis (RCA) and Corrective Action Plan (CAP) within 5 business days. Level 3 (Critical Mission/Security Failure): Issued for critical failures (e.g., any unstaffed security shift at the SCIF, loss of property accountability, or critical security violation). This triggers immediate escalation to the KO for potential default proceedings or severe payment deductions. 6.2 Proposed Payment/Billing Adjustments The Government intends to utilize a task-based capacity payment structure. If the contractor fails to deliver the promised capacity or velocity, payments will be adjusted. [OFFEROR TO PROPOSE] Offeror Proposed Billing Adjustment Formula:The Offeror shall propose a fair, standard mathematical formula or methodology for adjusting monthly capacity billings if they fail to meet the proposed Sprint Commitment Delivery AQL or if un-tracked/uns",
+          "finding": "Army Agile Professional Services contract ties all monthly billing to Jira ticket IDs; unbilled or untracked labor will be rejected or withheld.",
+          "news": 4,
+          "quote": "any billed hours or story points that cannot be traced back to an approved, completed Jira ticket will be flagged for rejection or payment withholding.",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "Attachment 6 _ Quality_Assurance_Surveillance_Plan_(QASP)_Proposal_Template_-_APS_20260903.docx",
+      "s": "screened",
+      "sol": "W900KK-26-R-A023"
+    },
     "a7b39f160a944fbea0ca366a0db18a49": {
       "c": 3096,
       "d": "2026-10-18",
@@ -77463,6 +77763,14 @@
       "n": "10 PEX CMS JOFOC DEV OCT FY27.pdf",
       "s": "screened",
       "sol": "15B11427P00000004"
+    },
+    "aef2e70e0fc44c6894dc2ad1894cd200": {
+      "c": 4922,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "SS-OFR-27-003.pdf",
+      "s": "screened",
+      "sol": "SS-OFR-27-003"
     },
     "aef4565c9ba44e27b9b8233440654905": {
       "c": 408,
@@ -87024,6 +87332,14 @@
       "s": "screened",
       "sol": "36C24626B0031"
     },
+    "c3c73ca113e44cbba16616528e326aae": {
+      "c": 1885,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "ADA-350835_RFQ.pdf",
+      "s": "screened",
+      "sol": "47QSSC27Q0024"
+    },
     "c3c7e16a3d5b4103a74f1231cb18a754": {
       "c": 67489,
       "d": "2026-10-22",
@@ -87293,7 +87609,7 @@
       "sol": "fb5e4caa974540f796153fd5f5c39763"
     },
     "c45a418b901b4f91a24d579fa5989b67": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-27",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -92021,6 +92337,14 @@
       "s": "screened",
       "sol": "1240BE26Q0119 "
     },
+    "cf0aee7b02624c02be7dc641dcc96f77": {
+      "c": 3468,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "SATPC0042737 TAB 10 OPEN MARKET RFQ.pdf",
+      "s": "screened",
+      "sol": "80NSSC27943761Q"
+    },
     "cf18d9c3b016483cb3da667d7e31e5f9": {
       "c": 4584,
       "d": "2026-10-18",
@@ -94052,6 +94376,14 @@
       "n": "0.015 Thick Foil_MITR.pdf",
       "s": "screened",
       "sol": "0000963801"
+    },
+    "d36340e855ce425b88a31160ab828496": {
+      "c": 9859,
+      "d": "2026-10-28",
+      "m": "ocr+pdf",
+      "n": "B_08_03__ProjNet_Questions_and_Answers_101926.pdf",
+      "s": "screened",
+      "sol": "W912DQ26RA065"
     },
     "d367b79384e0438cb94badb67895510f": {
       "c": 18937,
@@ -100821,7 +101153,7 @@
       "sol": "36C24427R0001"
     },
     "e265f6b6ad434511b1fb35152e3dc457": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-27",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -101677,6 +102009,23 @@
       "n": "B2.03.04_DRAFT-RFP_Acceptance_Criteria_List_CRMF-1.4-PP-319.docx",
       "s": "screened",
       "sol": "SLAC_DRAFT_RFP_369005_CRMF_Cleanroom_Construction"
+    },
+    "e433e3a8792a45cc98d694b9ecdef8bd": {
+      "c": 6002,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "context": "UESTS FOR THIS DOCUMENT SHALL BE REFERRED TO U.S. ARMY CAPABILITY PROGRAM EXECUTIVE SIMULATION, TRAINING, TEST & THREAT (CPE-ST3).3. BLOCK 12: THE CONTRACTOR SHALL SUBMIT THE AGILE DASHBOARD IN A LIVE DASHBOARD WITHIN 30 DAYS AFTER CONTRACT AWARD.4. THE GOVERNMENT WILL HAVE 7 CALENDAR DAYS FOR REVIEW, ACCEPTANCE OR REJECTION OF THE SUBMISSION. THE CONTRACTOR SHALL PROVIDE THE GOVERNMENT WITH UNFETTERED ACCESS TO THE DATA AND TOOLS.5. THE CONTRACTOR SHALL HAVE 7 CALENDAR DAYS TO INCORPORATE GOVERNMENT COMMENTS INTO THE AGILE DASHBOARD. AT SPRINT PLANNING MEETINGS, THE CONTRACTOR SHALL PROVIDE REAL TIME ACCESS TO THE TOOL. THE CONTRACTOR SHALL ALSO PROVIDE THE GOVERNMENT ACCESS AT ANY TIME AND/OR AS REQUESTED TO THE TOOLS,DASHBOARD, AND DATA.6. BLOCK 14: ALL DATA SHALL BE AVAILABLE VIA THE DASHBOARD.7. THE DASHBOARD SHALL: [CONTRACTOR FILLS IN] 15. TOTAL 0 0 0 G. PREPARED BY H. DATE 01-SEP-2026 I. APPROVED BY J. DATE DD FORM 1423-1, FEB 2001 PREVIOUS EDITION MAY BE USED. Page 3 of 4 Pages CONTRACT DATA REQUIREMENTS LIST (",
+          "finding": "Army Agile Professional Services contract requires government unfettered access to contractor tools, dashboards, and real-time JIRA ticket tracking for billing substantiation.",
+          "news": 3,
+          "quote": "CONTRACTOR SHALL PROVIDE THE GOVERNMENT WITH UNFETTERED ACCESS TO THE DATA AND TOOLS",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "Attachment 8 _ CDRLs_1423-1_APS_20260910.docx",
+      "s": "screened",
+      "sol": "W900KK-26-R-A023"
     },
     "e43afee304984ecc9a64abd09d623fbf": {
       "c": 2829,
@@ -105376,7 +105725,7 @@
       "sol": "15JA0526Q00000174"
     },
     "ebbf70bb19b946ef9235f71e40d829c4": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-27",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -108696,6 +109045,23 @@
       "n": "Attachment A - Schedule of Supplies.pdf",
       "s": "screened",
       "sol": "SPE60526R0217"
+    },
+    "f28aa762cc1d43dd9b613a4d74291f33": {
+      "c": 4374,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "context": "ATTACHMENT A \u2022 Ice Machine Equipment Inventory (2024 baseline, subject to joint reconciliation under Section 4.0) \u2022 VA North Texas Health Care System \u2013 2024 baseline; subject to joint reconciliation under PWS Section 4.0 # Site Building Location / Room EE Tag Manufacturer Status / Notes 1 Dallas VAMC 1 309 EE-161546 Follett \u2014 2 Dallas VAMC 1 366 EE-121080 Scotsman \u2014 3 Dallas VAMC 1 464D EE-180245 Follett",
+          "finding": "VA contracting for preventive maintenance on ice machines across North Texas Health Care System including Dallas VAMC and multiple clinics.",
+          "news": 3,
+          "quote": "Ice Machine Equipment Inventory (2024 baseline, subject to joint reconciliation under Section 4.0)",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment A_Preventive and Corrective Maintenance for Ice Machines.pdf",
+      "s": "screened",
+      "sol": "36C25727Q0009"
     },
     "f29482444a6947709bddcfd703fbad0d": {
       "c": 526,
@@ -112181,6 +112547,22 @@
       "s": "screened",
       "sol": "36U10126Q0023"
     },
+    "fa46f3786c264a47837a89df5a01b50e": {
+      "c": 2940,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "Air Force pursuing sole-source contract for specialized focusing schlieren system from RH Technologies, citing NASA patent license as sole capability.",
+          "news": 4,
+          "quote": "RH Technologies is the only source capable of fulfilling the government's minimum requirements...based on a proprietary method licensed from NASA (U.S. Patent 11,650,151)",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment 1 - SOW.pdf",
+      "s": "screened",
+      "sol": "FA860127Q0017"
+    },
     "fa5190dcac9b4e1ea1b7c0236ee4618a": {
       "c": 0,
       "d": "2026-10-20",
@@ -113010,6 +113392,14 @@
       "n": "36C24127Q0019.docx",
       "s": "screened",
       "sol": "36C24127Q0019"
+    },
+    "fc651aebf50649a1a520412505466655": {
+      "c": 13409,
+      "d": "2026-10-28",
+      "m": "pdf",
+      "n": "Attachment 1 Statement of Work v2 Project 2027.pdf",
+      "s": "screened",
+      "sol": "2027-PZI-1710"
     },
     "fc664d45fadc4e0aae5ab509b9bcacc8": {
       "c": 14861,
@@ -114678,6 +115068,28 @@
       "n": "W911SD-27-Q-A002 Purchase Description PHOTOS Saber Sowrds.pdf",
       "s": "screened",
       "sol": "W911SD-27-Q-A002"
+    },
+    "fff9b6092ce14413955ab18ce4c5d11a": {
+      "c": 1274276,
+      "d": "2026-10-28",
+      "f": [
+        {
+          "finding": "Department of Veterans Affairs investing in chilled water plant replacement and site utility upgrades at West Haven VA Medical Center, a major clinical infrastructure modernization.",
+          "news": 3,
+          "quote": "WEST HAVEN VAMC, 950 CAMPBELL AVENUE, WEST HAVEN, CT 06516-2770, CHILLED WATER PLANT 689-040, IMPROVEMENTS PHASE A2",
+          "verified": false
+        },
+        {
+          "finding": "VA Medical Center in West Haven, CT receiving major chilled water plant and site utility upgrades worth pursuing for construction oversight.",
+          "news": 3,
+          "quote": "Construction of Chilled Water Plant and Site Utility Upgrades at VA Medical Center in West Haven, CT",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Drawings.pdf",
+      "s": "screened",
+      "sol": "W912WJ26RA008"
     },
     "fffd9b5ff8f441cdaeb5970ab1bd5fb4": {
       "c": 3899,

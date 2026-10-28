@@ -999,6 +999,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "axiom space": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 414539931.6,
+        "recipient": "AXIOM SPACE INC",
+        "start": "2022-09-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC022FA103_8000_80JSC022DA022_8000"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 131014257.0,
+        "recipient": "AXIOM SPACE INC",
+        "start": "2023-06-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC023FA154_8000_80JSC022DA022_8000"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 40071193.0,
+        "recipient": "AXIOM SPACE INC",
+        "start": "2024-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC024FA196_8000_80JSC022DA022_8000"
+      }
+    ],
+    "first": "2018-08-20",
+    "has_contracts": true,
+    "raw_hits": 13
+  },
   "bae system": {
     "d": "2026-10-19",
     "examples": [
@@ -4506,6 +4535,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "london stock exchange group": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Securities and Exchange Commission",
+        "amount": 116794.59,
+        "recipient": "LONDON STOCK EXCHANGE GROUP PLC",
+        "start": "2014-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SECHQ114P0181_5000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Securities and Exchange Commission",
+        "amount": 109043.37,
+        "recipient": "LONDON STOCK EXCHANGE GROUP PLC",
+        "start": "2021-01-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_50310221P0002_5000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of State",
+        "amount": 86880.0,
+        "recipient": "LONDON STOCK EXCHANGE GROUP PLC",
+        "start": "2026-04-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM26P0404_1900_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2014-10-01",
+    "has_contracts": true,
+    "raw_hits": 43
+  },
   "lovell government service": {
     "d": "2026-10-15",
     "examples": [
@@ -4925,6 +4983,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "msc industrial direct l c industrie and osc solution": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Justice",
+        "amount": 13000000.0,
+        "recipient": "MSC INDUSTRIAL DIRECT CO., INC.",
+        "start": "2018-05-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15UC0C18C00001405_1542_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3000000.0,
+        "recipient": "MSC INDUSTRIAL DIRECT CO., INC.",
+        "start": "2025-10-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA822726F0007_9700_FA822722A0004_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2247276.2,
+        "recipient": "MSC INDUSTRIAL DIRECT CO., INC.",
+        "start": "2025-10-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA822726F0002_9700_FA822722A0004_9700"
+      }
+    ],
+    "first": "2002-05-15",
+    "has_contracts": true,
+    "raw_hits": 100
   },
   "msi": {
     "d": "2026-10-16",
@@ -6042,6 +6129,28 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "rh technologie": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 224607.0,
+        "recipient": "RH TECHNOLOGIES LLC",
+        "start": "2026-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0318_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 224031.0,
+        "recipient": "RH TECHNOLOGIES LLC",
+        "start": "2026-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0319_8000_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2026-09-30",
+    "has_contracts": true,
+    "raw_hits": 2
+  },
   "riva solution": {
     "d": "2026-10-14",
     "examples": [
@@ -6068,6 +6177,35 @@
       }
     ],
     "first": "2015-06-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "roche diagnostic": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 569500000.0,
+        "recipient": "ROCHE DIAGNOSTICS CORPORATION",
+        "start": "2022-01-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58P0522C0010_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 90622720.0,
+        "recipient": "ROCHE DIAGNOSTICS CORPORATION",
+        "start": "2022-12-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50223C00008_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 17385522.8,
+        "recipient": "ROCHE DIAGNOSTICS CORPORATION",
+        "start": "2023-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24824F0003_3600_V797P7347A_3600"
+      }
+    ],
+    "first": "2007-02-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -9969,6 +10107,35 @@
     "first": "2003-03-04",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "vicinity energy baltimore": {
+    "d": "2026-10-28",
+    "examples": [
+      {
+        "agency": "General Services Administration",
+        "amount": 18221902.59,
+        "recipient": "VICINITY ENERGY BALTIMORE COOLING LLP",
+        "start": "2008-12-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_GS03P09DXC0005_4740_-NONE-_-NONE-"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 3621662.98,
+        "recipient": "VICINITY ENERGY BALTIMORE COOLING LLP",
+        "start": "2006-04-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_GS03P96DWC0069_4740_-NONE-_-NONE-"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 3253514.32,
+        "recipient": "VICINITY ENERGY BALTIMORE CORPORATION",
+        "start": "2009-01-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_GSP0309QA0010_4740_GS00P08BSD0585_4740"
+      }
+    ],
+    "first": "2006-04-14",
+    "has_contracts": true,
+    "raw_hits": 22
   },
   "vigor marine": {
     "d": "2026-10-27",
