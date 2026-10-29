@@ -2476,6 +2476,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "deloitte": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "General Services Administration",
+        "amount": 617218752.0,
+        "recipient": "DELOITTE CONSULTING LLP",
+        "start": "2024-07-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA24C0003_4732_-NONE-_-NONE-"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 486965498.54,
+        "recipient": "DELOITTE CONSULTING LLP",
+        "start": "2024-02-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QFMA24F0013_4732_47QTCK18D0029_4732"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 465552113.42,
+        "recipient": "DELOITTE CONSULTING LLP",
+        "start": "2014-01-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN31600002_7529_HHSN316201200018W_7529"
+      }
+    ],
+    "first": "2006-10-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "deloitte consulting": {
     "d": "2026-10-14",
     "examples": [
@@ -3716,6 +3745,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "hid global and axiad": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 18620000.0,
+        "recipient": "HID GLOBAL CORP",
+        "start": "2024-04-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR24F00000076_7003_70SBUR21D00000002_7003"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 17642863.68,
+        "recipient": "HID GLOBAL CORP",
+        "start": "2016-03-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HSSCCG16C00006_7003_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 15620000.0,
+        "recipient": "HID GLOBAL CORP",
+        "start": "2025-04-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70SBUR25F00000063_7003_70SBUR21D00000002_7003"
+      }
+    ],
+    "first": "2012-12-28",
+    "has_contracts": true,
+    "raw_hits": 52
+  },
   "honeywell int": {
     "d": "2026-10-22",
     "examples": [],
@@ -3874,6 +3932,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 100
+  },
+  "immixtechnology": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Commerce",
+        "amount": 148402490.47,
+        "recipient": "IMMIXTECHNOLOGY INC",
+        "start": "2017-06-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOCYA132317NC0131_1323_GS35F0265X_4732"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 40637734.31,
+        "recipient": "IMMIXTECHNOLOGY INC",
+        "start": "2011-09-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_ZW02_9700_DABL0103A1006_9700"
+      },
+      {
+        "agency": "Department of the Treasury",
+        "amount": 35178116.9,
+        "recipient": "IMMIXTECHNOLOGY INC",
+        "start": "2010-12-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_TFMSHQ11K0019_2036_NNG07DA64B_8000"
+      }
+    ],
+    "first": "2006-04-21",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "independent rough terrain center kalmar rt center": {
     "d": "2026-10-16",
@@ -4484,6 +4571,35 @@
     "has_contracts": false,
     "raw_hits": 0
   },
+  "laboratory testing assured testing service": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Commerce",
+        "amount": 775900.0,
+        "recipient": "LABORATORY TESTING, LLC",
+        "start": "2026-04-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND26FNB640041_1341_1333ND22DNB640002_1341"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 725325.0,
+        "recipient": "LABORATORY TESTING, LLC",
+        "start": "2025-02-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND25FNB640034_1341_1333ND22DNB640002_1341"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 715148.75,
+        "recipient": "LABORATORY TESTING, LLC",
+        "start": "2024-03-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1333ND24FNB640042_1341_1333ND22DNB640002_1341"
+      }
+    ],
+    "first": "2007-01-26",
+    "has_contracts": true,
+    "raw_hits": 52
+  },
   "laerdal medical": {
     "d": "2026-10-10",
     "examples": [
@@ -4657,6 +4773,13 @@
     "first": "2019-07-10",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "lockheed martin advanced technology center": {
+    "d": "2026-10-29",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
   },
   "london stock exchange group": {
     "d": "2026-10-28",
@@ -5817,6 +5940,13 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "petroleum analyzer l p cage 02bz8": {
+    "d": "2026-10-29",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "philip healthcare": {
     "d": "2026-10-27",
     "examples": [
@@ -5843,6 +5973,35 @@
       }
     ],
     "first": "2011-05-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "pitney bowe global financial service": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Social Security Administration",
+        "amount": 6607398.35,
+        "recipient": "PITNEY BOWES GLOBAL FINANCIAL SERVICES LLC",
+        "start": "2016-09-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SS001630749_2800_SS001360015_2800"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 3526007.16,
+        "recipient": "PITNEY BOWES GLOBAL FINANCIAL SERVICES LLC",
+        "start": "2022-04-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75P00122C00012_7570_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2559644.1,
+        "recipient": "PITNEY BOWES GLOBAL FINANCIAL SERVICES LLC",
+        "start": "2011-09-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_M0026411C0032_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-09-28",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -7129,6 +7288,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "telonic": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of the Interior",
+        "amount": 412680.8,
+        "recipient": "TELONICS INC",
+        "start": "2010-03-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_ING10PX01022_1434_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of the Interior",
+        "amount": 376420.0,
+        "recipient": "TELONICS INC",
+        "start": "2011-04-06",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_ING11PX00568_1434_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of the Interior",
+        "amount": 324920.0,
+        "recipient": "TELONICS INC",
+        "start": "2012-01-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_ING12PD00200_1434_ING12PC00004_1434"
+      }
+    ],
+    "first": "2002-08-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "tennessee department of health": {
     "d": "2026-10-20",
     "examples": [
@@ -7839,6 +8027,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:ENMFLGV87MS4": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 542172679.04,
+        "recipient": "L3HARRIS TECHNOLOGIES, INC.",
+        "start": "2017-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001917C0090_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 190819908.44,
+        "recipient": "L3HARRIS TECHNOLOGIES, INC.",
+        "start": "2015-07-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001915C0104_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 181589541.0,
+        "recipient": "L3HARRIS TECHNOLOGIES, INC.",
+        "start": "2020-07-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001920C0002_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2002-08-12",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:EYPQJDKAKXC6": {
     "d": "2026-10-26",
     "examples": [
@@ -7925,6 +8142,35 @@
     "first": "2014-08-04",
     "has_contracts": true,
     "raw_hits": 24
+  },
+  "uei:FL6GV84CKN57": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 18148102.24,
+        "recipient": "YALE UNIV",
+        "start": "2002-09-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_00268200209D268028186_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 12765000.39,
+        "recipient": "YALE UNIV",
+        "start": "2005-09-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN266200500031C_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 8118838.92,
+        "recipient": "YALE UNIV",
+        "start": "2019-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24119C0081_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2002-09-15",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "uei:FP5KKM4NJFE3": {
     "d": "2026-10-22",

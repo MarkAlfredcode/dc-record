@@ -3,6 +3,27 @@
     "checked": "2026-10-24",
     "result": null
   },
+  "accenture federal services": {
+    "checked": "2026-10-29",
+    "result": {
+      "client": "ACCENTURE FEDERAL SERVICES LLC",
+      "firms": [
+        "ACCENTURE FEDERAL SERVICES LLC",
+        "ALSTON & BIRD LLP",
+        "AMERICAN DEFENSE INTERNATIONAL"
+      ],
+      "issues": [
+        "Budget/Appropriations",
+        "Government Issues",
+        "Health Issues",
+        "Defense"
+      ],
+      "n_filings": 24,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/39b57bb8-8846-455a-9421-e2160d6855e0/print/",
+      "ytd": 770000.0
+    }
+  },
   "after action medical dental supply": {
     "checked": "2026-10-11",
     "result": null
@@ -15,9 +36,38 @@
     "checked": "2026-10-25",
     "result": null
   },
+  "amerifen solutions": {
+    "checked": "2026-10-29",
+    "result": null
+  },
   "aml american made logistics": {
     "checked": "2026-10-21",
     "result": null
+  },
+  "andrew morgan": {
+    "checked": "2026-10-29",
+    "result": null
+  },
+  "anthropic pbc": {
+    "checked": "2026-10-29",
+    "result": {
+      "client": "ANTHROPIC, PBC",
+      "firms": [
+        "AQUIA GROUP, LLC",
+        "AVENUE SOLUTIONS",
+        "BALLARD PARTNERS"
+      ],
+      "issues": [
+        "Science/Technology",
+        "Computer Industry",
+        "Defense",
+        "Budget/Appropriations"
+      ],
+      "n_filings": 22,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/c252e4d1-6aa3-42e5-b21d-b4e6caf9c393/print/",
+      "ytd": 910000.0
+    }
   },
   "architechture solutions": {
     "checked": "2026-10-15",
@@ -58,6 +108,26 @@
   "aviate enterprises": {
     "checked": "2026-10-16",
     "result": null
+  },
+  "axiom space": {
+    "checked": "2026-10-29",
+    "result": {
+      "client": "AXIOM SPACE, INC.",
+      "firms": [
+        "AXIOM SPACE, INC.",
+        "THE ARTEMIS GROUP, LLC (OKLAHOMA)"
+      ],
+      "issues": [
+        "Aerospace",
+        "Budget/Appropriations",
+        "Science/Technology",
+        "Defense"
+      ],
+      "n_filings": 6,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/1d81daac-026a-4acd-b648-5513c007cd6c/print/",
+      "ytd": 610000.0
+    }
   },
   "barque consulting": {
     "checked": "2026-10-09",
@@ -172,6 +242,10 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "dap construction management": {
+    "checked": "2026-10-29",
+    "result": null
+  },
   "deployahp": {
     "checked": "2026-10-19",
     "result": null
@@ -186,6 +260,14 @@
   },
   "ega associates": {
     "checked": "2026-10-21",
+    "result": null
+  },
+  "environmental restoration": {
+    "checked": "2026-10-29",
+    "result": null
+  },
+  "excelsior ambulance service": {
+    "checked": "2026-10-29",
     "result": null
   },
   "excelsior defense": {
@@ -206,6 +288,10 @@
   },
   "fruta royal": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "gideon contracting limited liability": {
+    "checked": "2026-10-29",
     "result": null
   },
   "guidehouse": {
@@ -323,6 +409,10 @@
       "ytd": 180000.0
     }
   },
+  "jay brant general contractors": {
+    "checked": "2026-10-29",
+    "result": null
+  },
   "jett s specialty contracting": {
     "checked": "2026-10-23",
     "result": null
@@ -422,6 +512,26 @@
   "matos grunley joint venture": {
     "checked": "2026-10-11",
     "result": null
+  },
+  "mayo clinic": {
+    "checked": "2026-10-29",
+    "result": {
+      "client": "MAYO CLINIC",
+      "firms": [
+        "MAYO CLINIC",
+        "MCDERMOTT WILL & SCHULTE LLP",
+        "MEHLMAN CONSULTING, INC."
+      ],
+      "issues": [
+        "Medicare/Medicaid",
+        "Health Issues",
+        "Taxation/Internal Revenue Code"
+      ],
+      "n_filings": 12,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/07e8b330-7811-4ea1-9aa8-881335be9fe7/print/",
+      "ytd": 870000.0
+    }
   },
   "mayvin": {
     "checked": "2026-10-05",
@@ -622,6 +732,10 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "ridgway valley enterprises": {
+    "checked": "2026-10-29",
+    "result": null
+  },
   "roche diagnostics": {
     "checked": "2026-10-10",
     "result": null
@@ -673,6 +787,25 @@
       "ytd": 20000.0
     }
   },
+  "skookum educational programs": {
+    "checked": "2026-10-29",
+    "result": {
+      "client": "SKOOKUM EDUCATIONAL PROGRAMS",
+      "firms": [
+        "SKOOKUM EDUCATIONAL PROGRAMS (FKA TESSERA)"
+      ],
+      "issues": [
+        "Defense",
+        "Government Issues",
+        "Labor Issues/Antitrust/Workplace",
+        "Small Business"
+      ],
+      "n_filings": 4,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/74c1ebb6-664a-4068-bc3a-a687f9885a2a/print/",
+      "ytd": 31000.0
+    }
+  },
   "southwest valley constructors": {
     "checked": "2026-10-11",
     "result": null
@@ -683,6 +816,10 @@
   },
   "stonex financial": {
     "checked": "2026-10-15",
+    "result": null
+  },
+  "structural engineering group": {
+    "checked": "2026-10-29",
     "result": null
   },
   "techanax": {
@@ -740,6 +877,26 @@
   "united security": {
     "checked": "2026-10-22",
     "result": null
+  },
+  "university kentucky": {
+    "checked": "2026-10-29",
+    "result": {
+      "client": "UNIVERSITY OF KENTUCKY",
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "UNIVERSITY OF KENTUCKY"
+      ],
+      "issues": [
+        "Budget/Appropriations",
+        "Education",
+        "Agriculture",
+        "Medical/Disease Research/Clinical Labs"
+      ],
+      "n_filings": 6,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/abd538a9-651a-49a0-af1d-b74bf2b1efa0/print/",
+      "ytd": 235000.0
+    }
   },
   "valiant construction": {
     "checked": "2026-10-22",
