@@ -1,0 +1,26 @@
+{
+ "date": "Thursday, October 29, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings surfaced since the last edition",
+  "dek": "All 107 RFAI and Form 99 filings received since October 26 were already reported in earlier editions.",
+  "paragraphs": [
+   "No new Requests for Additional Information (RFAIs) or Form 99 filings appeared in this window, and no red-flag keyword hits were recorded.",
+   "The voided and negative transactions query returned no new rows. The Schedule A lookup for negative amounts of $10,000 or more timed out at the FEC API (HTTP 504), so that check is incomplete for this edition."
+  ],
+  "callout": null
+ },
+ "sections": [],
+ "footer": {
+  "coverage_window": "FEC RFAI (FRQ) and Form 99 filings received October 26, 2026 onward, checked on Thursday, October 29, 2026 (PM edition). 107 filings were in the window and all had been reported in prior editions.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "The Schedule A fetch for negative transactions of $10,000 or more failed with HTTP 504 (query timed out), so voided and negative contribution rows may be missing from this edition."
+ },
+ "apod": {
+  "title": "The Horns of Venus",
+  "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/october/venus_20261024a.jpg?w=1024",
+  "caption": "That's no moon. But you could be forgiven for thinking it was a crescent Moon in the sky.",
+  "credit": "science.nasa.gov/apod"
+ },
+ "beat": []
+}
