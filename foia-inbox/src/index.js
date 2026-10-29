@@ -14,11 +14,13 @@
 //    tracker. Two kinds of reply ring Mark's phone (ntfy): newsworthy ones (agency + reason only), and ones that
 //    produce records (kind 'released': agency, case number, page count if stated). No other reply alerts.
 // 6. Learn where requests should go (learnRoute): "use our portal", "this belongs with X", "we passed it to X" become a
-//    row in D1 `routes` for the address we wrote to, which the tracker applies to the next request for that office.
+//    row in D1 `routes` for the address we wrote to, which the tracker applies to the next request for that office, along
+//    with anything the office says a request must include (`requires`, e.g. DLA's fee statement). A request refused by
+//    email gets a refile draft (kind 'resend') queued for the portal.
 
 import PostalMime from 'postal-mime';
 import { readAll, toBase64 } from './attachments.js';
-import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply, learnRoute, regDomain } from './match.js';
+import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply, learnRoute, regDomain, withRequirement, requirementLine } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
 const SELF = /@markalfred\.news$/i;
@@ -55,7 +57,7 @@ const REJECTED = new RegExp([
 // letters behind them (the tracker's summary is often a one-line paraphrase of what the agency quotes back),
 // letters that never became a request (they only help tell boilerplate from the request itself) and foia.gov confirmation numbers.
 async function loadContext(db) {
-  const reqs = (await db.prepare("SELECT id, agency, email, tracking, summary, summary_short FROM requests WHERE send_status = 'Sent' ORDER BY sent_on DESC").all()).results;
+  const reqs = (await db.prepare("SELECT id, agency, email, tracking, summary, summary_short, sent_on FROM requests WHERE send_status = 'Sent' ORDER BY sent_on DESC").all()).results;
   const byId = {};
   reqs.forEach(function (r) { r.letters = []; byId[r.id] = r; });
   const extra = [];
@@ -87,8 +89,6 @@ async function record(raw, env) {
   };
   const auto = AUTO.test(subject) || /^auto-(replied|generated)/i.test(header('auto-submitted') || '') ? 1 : 0;
   const lead = snippetOf(bodyText);  // the agency's own words, not our quoted request below them
-  const rejected = !auto && REJECTED.test(lead);
-  const noAck = auto || rejected ? 1 : 0;  // a refusal isn't an acknowledgment
   const filenames = (email.attachments || []).map(function (a) { return a.filename; }).filter(Boolean);
 
   // Which request is this? The letter first (it names the request), the sender address second.
@@ -100,6 +100,13 @@ async function record(raw, env) {
   const mine = requestId ? [ctx.byId[requestId].summary].concat(ctx.byId[requestId].letters) : ctx.reqs.map(function (r) { return r.summary; }).concat(ctx.extra);
   const fresh = bodyText.split(/\n(?:From: |-{2,} ?Original Message|On .{5,80} wrote:|________________)/)[0];
   const theirs = fresh.length >= 40 ? fresh : bodyText;
+  const now = new Date().toISOString();
+  let plain = null;
+  try { plain = auto ? null : explainReply(subject, theirs.slice(0, 12000) + '\n' + attText.slice(0, 20000), mine, now); } catch (e) { console.error('foia-inbox: explain failed', e && e.message); }
+  // A refusal to take the emailed request: REJECTED's phrasings, or anything the plain reading calls one (DLA: "Use
+  // https://pal.whs.mil/ to submit a FOIA request"). It isn't an acknowledgment, and it gets a refile draft below.
+  const rejected = !auto && (REJECTED.test(lead) || !!(plain && plain.kind === 'rejected'));
+  const noAck = auto || rejected ? 1 : 0;
   const ask = auto || rejected ? null : asksForReply(subject + '\n' + theirs.slice(0, 6000) + '\n' + attText.slice(0, 6000), mine);
   const den = auto || rejected ? null : (subject + '\n' + stripOwn(theirs.slice(0, 8000), mine) + '\n' + stripOwn(attText.slice(0, 8000), mine)).match(DENIED);
   // Our appeal of an expedited-processing denial was itself denied: that's the end of it. Don't queue another appeal.
@@ -109,9 +116,6 @@ async function record(raw, env) {
       expediteFinal = !!(await db.prepare("SELECT 1 FROM messages WHERE request_id = ? AND direction = 'out' AND subject LIKE '%ppeal%' AND subject LIKE '%xpedit%' LIMIT 1").bind(requestId).first());
     } catch (e) { console.error('foia-inbox: expedite check failed', e && e.message); }
   }
-  const now = new Date().toISOString();
-  let plain = null;
-  try { plain = auto ? null : explainReply(subject, theirs.slice(0, 12000) + '\n' + attText.slice(0, 20000), mine, now); } catch (e) { console.error('foia-inbox: explain failed', e && e.message); }
   const snippet = lead || snippetOf(attText);
   const attachments = (email.attachments || []).map(function (a) { return a.filename; }).filter(Boolean).join('; ');
 
@@ -144,17 +148,23 @@ async function record(raw, env) {
 
   // Learn where this office wants requests: a portal, another office, or (a transfer) a hint. The newest letter wins,
   // except that a hint never overwrites a portal or office rule.
+  let route = null;
   try {
-    const route = auto ? null : learnRoute(plain, theirs.slice(0, 12000) + '\n' + attText.slice(0, 20000), from);
+    route = auto ? null : learnRoute(plain, theirs.slice(0, 12000) + '\n' + attText.slice(0, 20000), from);
     if (route) {
       const own = requestId ? ctx.byId[requestId] : null;
       const addr = String((own && own.email) || from).toLowerCase().trim();
-      await db.prepare("INSERT INTO routes (addr, domain, agency, kind, portal, office, office_email, quote, inbox_id, request_id, learned_at, active) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1) " +
-        "ON CONFLICT(addr) DO UPDATE SET kind = excluded.kind, portal = COALESCE(excluded.portal, routes.portal), office = excluded.office, office_email = excluded.office_email, quote = excluded.quote, inbox_id = excluded.inbox_id, request_id = excluded.request_id, learned_at = excluded.learned_at, active = 1 " +
+      await db.prepare("INSERT INTO routes (addr, domain, agency, kind, portal, office, office_email, quote, requires, inbox_id, request_id, learned_at, active) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1) " +
+        "ON CONFLICT(addr) DO UPDATE SET kind = excluded.kind, portal = COALESCE(excluded.portal, routes.portal), office = excluded.office, office_email = excluded.office_email, quote = excluded.quote, requires = COALESCE(excluded.requires, routes.requires), inbox_id = excluded.inbox_id, request_id = excluded.request_id, learned_at = excluded.learned_at, active = 1 " +
         "WHERE excluded.kind != 'hint' OR routes.kind = 'hint'")
-        .bind(addr, regDomain(addr), (own && own.agency) || (email.from && email.from.name) || null, route.kind, route.portal, route.office, route.office_email, route.quote, inboxId || null, requestId || null, now).run();
+        .bind(addr, regDomain(addr), (own && own.agency) || (email.from && email.from.name) || null, route.kind, route.portal, route.office, route.office_email, route.quote, route.requires || null, inboxId || null, requestId || null, now).run();
     }
   } catch (e) { console.error('foia-inbox: route step failed', e && e.message); }
+
+  // Refused by email: queue the refile, so it waits in the tracker (Replies, Online half: open portal, copy, I filed it).
+  if (rejected && requestId) {
+    try { await queueRefile(db, ctx.byId[requestId], inboxId, plain, route, from, now); } catch (e) { console.error('foia-inbox: refile step failed', e && e.message); }
+  }
 
   // Records produced: always ring the phone, and open the tracker's Records tab.
   if (plain && plain.kind === 'released' && env.NTFY_TOPIC) {
@@ -187,6 +197,30 @@ async function record(raw, env) {
     ] : []));
     try { await learnTracking(db, requestId, trk, ctx, inboxId); } catch (e) { console.error('foia-inbox: tracking step failed', e && e.message); }
   }
+}
+
+// A refile of a request the office wouldn't take by email: the letter we sent, dated today, saying where it went first, with any
+// line the office requires (a fee statement). One per request; nothing is filed until Mark does it on their portal.
+export async function queueRefile(db, req, inboxId, plain, route, from, now) {
+  if (!req) return;
+  if (await db.prepare("SELECT 1 FROM drafts WHERE request_id = ? AND kind = 'resend' AND status != 'dismissed' LIMIT 1").bind(req.id).first()) return;
+  const s = await db.prepare("SELECT subject, letter FROM suggestions WHERE request_id = ? ORDER BY id DESC LIMIT 1").bind(req.id).first();
+  if (!s || !s.letter) return;
+  const addr = String(req.email || from).toLowerCase().trim();
+  const rule = await db.prepare('SELECT portal, requires FROM routes WHERE addr = ? AND active = 1').bind(addr).first();
+  const portal = (route && route.portal) || (rule && rule.portal) || null, requires = (route && route.requires) || (rule && rule.requires) || null;
+  const today = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(now));
+  const first = req.sent_on ? new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(req.sent_on + 'T12:00:00Z')) : null;
+  const note = 'I first sent this request by email to ' + addr + (first ? ' on ' + first : '') + '; your office asked me to file it ' + (portal ? 'through ' + portal.replace(/^https?:\/\//, '').replace(/\/$/, '') : 'online') + '.';
+  let body = String(s.letter).replace(/^\s*[A-Z][a-z]+ \d{1,2}, \d{4}(?=[ \t]*\n)/, today);
+  body = /(My name is [^\n]*?\.(?: [^\n]*?\.)?)\s*\n/.test(body) ? body.replace(/(My name is [^\n]*?\.(?: [^\n]*?\.)?)(\s*\n)/, '$1 ' + note + '$2') : note + '\n\n' + body;
+  body = withRequirement(body, requires);
+  const line = requirementLine(requires);
+  await db.prepare("INSERT INTO drafts (created_at, kind, request_id, inbox_id, to_addr, subject, body, context, note, source, status) VALUES (?, 'resend', ?, ?, ?, ?, ?, ?, ?, 'foia-inbox', 'new')")
+    .bind(now, req.id, inboxId || null, addr, String(s.subject || req.summary_short || 'FOIA request').replace(/^FOIA Request:\s*/i, ''), body,
+      (plain && plain.quote) || 'They won’t take this request by email.',
+      'They won’t take it by email' + (portal ? ': file it at ' + portal : '') + '. This is the letter you sent, dated today, with a line saying where it went first.' +
+        (requires ? ' They also said: “' + requires + '”' + (line ? ' The letter now says so in its fee section.' : ' Add that before filing.') : '')).run();
 }
 
 // The agency's own number, first seen on a letter we could match by its text. Remember it so later mail matches by

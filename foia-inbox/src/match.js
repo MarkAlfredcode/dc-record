@@ -56,7 +56,8 @@ export function extractTracking(s) {
   const t = String(s || '');
   const L = '(?<![A-Za-z0-9-])', R = '(?![A-Za-z0-9-])';
   const pats = [new RegExp(L + '(\\d{4}-[A-Z]{2,6}-\\d{3,6})' + R), new RegExp(L + '(F-\\d{4}-\\d{4,6})' + R), new RegExp(L + '([A-Z]{2}-\\d{4}-\\d{4,6}-F)' + R),
-    new RegExp(L + '(\\d{2}-\\d{4,6}-F(?:-[A-Z]+)?)' + R), new RegExp(L + '(\\d{4}-\\d{4,6})' + R)];
+    new RegExp(L + '(\\d{2}-\\d{4,6}-F(?:-[A-Z]+)?)' + R), new RegExp(L + '([A-Z]{2,6}(?:-[A-Z]{2,6})?-\\d{4}-\\d{3,6})' + R),  // DOC-IOS-2027-000119, OST-2027-0027
+    new RegExp(L + '(\\d{4}-\\d{4,6})' + R)];
   for (const p of pats) { const m = p.exec(t); if (m) return m[1]; }
   return null;
 }
@@ -79,6 +80,7 @@ function requestTexts(r) { return [r.summary].concat(r.letters || []).filter(Boo
 // universities) decide nothing, so they end up as 0. Word runs, not character slices, so the same paragraph lines up
 // in every letter no matter where it falls.  extraTexts: other letters (dismissed or unsent suggestions) that only sharpen that comparison.
 const SHINGLE = 8;
+const SHARED_MAX = 100;  // a run shared by more requests than this is our boilerplate, not a template letter sent to a set of agencies
 
 function hash(str) {  // cyrb53: a 53-bit hash is a safe Map key and makes accidental collisions negligible
   let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
@@ -98,11 +100,18 @@ function shingles(text, limit) {
 export function sliceIndex(reqs, extraTexts) {
   const idx = new Map();
   idx.words = {};  // id -> word count of that request's longest text, to judge how much of it a message quotes
+  idx.shared = new Map();  // for runs set to 0: the ids that share them (null once more than SHARED_MAX do)
   const add = function (id, txt) {
     if (id > 0) idx.words[id] = Math.max(idx.words[id] || 0, norm(decode(txt)).split(' ').length);
     new Set(shingles(txt)).forEach(function (k) {
       const cur = idx.get(k);
-      idx.set(k, cur === undefined || cur === id ? id : 0);
+      if (cur === undefined || cur === id) { idx.set(k, id); return; }
+      idx.set(k, 0);
+      let s = idx.shared.get(k);
+      if (s === null) return;
+      if (!s) { s = new Set([cur]); idx.shared.set(k, s); }
+      s.add(id);
+      if (s.size > SHARED_MAX) idx.shared.set(k, null);
     });
   };
   reqs.forEach(function (r) { requestTexts(r).forEach(function (t) { add(r.id, t); }); });
@@ -151,6 +160,25 @@ export function matchMessage(msg, reqs, confirmations, slices) {
     if (quoted[0].n >= 5 || covered >= 0.5) return { id: quoted[0].id, sure: true, why: 'the message quotes the request text', n: quoted[0].n };
   }
 
+  // A letter we sent to several agencies at once (the congressional-correspondence-log request went to 12 departments) is
+  // shared text, so the check above can't use it. Among the requests that went to the sender's own agency, though, the
+  // quote can belong to only one: Commerce quoting that letter means the Commerce copy.
+  const dom = rootDomain(msg.from);
+  const peers = dom && idx.shared ? new Set(reqs.filter(function (r) { return rootDomain(r.email) === dom; }).map(function (r) { return r.id; })) : null;
+  if (peers && peers.size) {
+    const pc = {};
+    for (let i = 0; i < ks.length; i++) {
+      const own = idx.get(ks[i]), group = own === 0 ? idx.shared.get(ks[i]) : null;
+      const ids = (own > 0 ? [own] : group ? Array.from(group) : []).filter(function (id) { return peers.has(id); });
+      if (ids.length === 1) { pc[ids[0]] = (pc[ids[0]] || 0) + 1; i += SHINGLE - 1; }
+    }
+    const pq = Object.keys(pc).map(function (id) { return { id: +id, n: pc[id] }; }).sort(function (a, b) { return b.n - a.n; });
+    if (pq[0] && pq[0].n >= 2 && (!pq[1] || pq[0].n >= pq[1].n * 2)) {
+      const covered = pq[0].n * SHINGLE / Math.max(idx.words[pq[0].id] || 1, 1);
+      if (pq[0].n >= 5 || covered >= 0.5) return { id: pq[0].id, sure: true, why: 'the message quotes the request text (a letter sent to several agencies; this is the one that went to ' + dom + ')', n: pq[0].n };
+    }
+  }
+
   // Weighted word overlap: rare words (FAA, Zipline) count, common ones (department) barely.
   const docs = reqs.map(function (r) {
     const base = [r.agency, r.summary_short, r.summary].join(' ');
@@ -159,7 +187,6 @@ export function matchMessage(msg, reqs, confirmations, slices) {
   const df = {};
   docs.forEach(function (d) { d.set.forEach(function (t) { df[t] = (df[t] || 0) + 1; }); });
   const mset = new Set(words(msg.subject + ' ' + msg.text).concat(acronyms(msg.subject + '\n' + msg.text)));
-  const dom = rootDomain(msg.from);
   const scored = docs.map(function (d) {
     let s = 0, hits = [], agencyHit = false;
     d.set.forEach(function (t) { if (mset.has(t)) { const w = Math.log((reqs.length + 1) / (df[t] + 1)); if (d.agency.has(t) && w >= 2.5) agencyHit = true; /* generic words (office, department) don't name an agency */ s += d.agency.has(t) ? w * 2 : w; hits.push(t); } });
@@ -584,7 +611,7 @@ export function explainReply(subject, text, ownTexts, received) {
 // into a routing rule for the address we wrote to. kind 'portal' (file at portal), 'office' (send to another office:
 // office name, plus office_email when the letter gives one), 'hint' (a transfer: the request was passed on, so
 // another request on the same subject may belong there too; shown, never applied on its own).
-// plain: explainReply()'s reading. fromAddr: the sender. -> { kind, portal, office, office_email, quote } or null
+// plain: explainReply()'s reading. fromAddr: the sender. -> { kind, portal, office, office_email, quote, requires } or null
 
 const NOT_PORTAL = /aka\.ms|safelinks|sam\.gov|efile\.fara\.gov|usaspending|fpds|federalregister|congress\.gov|twitter|facebook|linkedin|instagram|youtube|civicplus\.help|\/help\b|kb_article|unsubscribe|settings\?/i;
 export function regDomain(addr) {
@@ -607,10 +634,30 @@ function bestPortal(text, fromAddr) {
   });
   return top > 0 ? best : null;
 }
+// What an office says every request must carry ("In your request, you must include a statement that you are willing to pay
+// for professional fees for search and review"), from the same letter that sends us to its portal or another office.
+const REQUIRES = /\b(?:you must|requests? must|you will need to|you need to|(?:please )?be sure to) include (?:a |an |the |your )?[^.]{5,220}\./i;
+function requirementOf(text) { const m = REQUIRES.exec(String(text || '').replace(/\s+/g, ' ')); return m ? clip(m[0].replace(/^./, function (c) { return c.toUpperCase(); }), 300) : null; }
+
+// The line a letter gets for a learned requirement, or null when there's no standard wording for it (the tracker still shows
+// the requirement). A fee statement agrees to the fees of our category, so it doesn't give up news-media status.
+const FEE_LINE = 'I am willing to pay fees for search, review and duplication to the extent they apply to my fee category. As a representative of the news media, I understand that only duplication beyond the first 100 pages is chargeable.';
+export function requirementLine(requires) { return /\b(?:pay|fees?)\b/i.test(requires || '') ? FEE_LINE : null; }
+
+// letter with the requirement's line added after its fee paragraph (else before the signature), once.
+export function withRequirement(letter, requires) {
+  const line = requirementLine(requires), l = String(letter || '');
+  if (!line || /willing to pay fees for search/i.test(l)) return l;
+  const fee = /(please contact me before incurring any (?:fees )?above \$\d+\.)/i;
+  if (fee.test(l)) return l.replace(fee, '$1 ' + line);
+  const sig = /\n\s*(?:Sincerely|Thank you|Respectfully|Best),?\s*\n/i.exec(l);
+  return sig ? l.slice(0, sig.index) + '\n\n' + line + l.slice(sig.index) : l + '\n\n' + line;
+}
+
 export function learnRoute(plain, text, fromAddr) {
   if (!plain) return null;
   const t = String(text || '');
-  if (plain.kind === 'rejected') return { kind: 'portal', portal: bestPortal(t, fromAddr), office: null, office_email: null, quote: plain.quote };
+  if (plain.kind === 'rejected') return { kind: 'portal', portal: bestPortal(t, fromAddr), office: null, office_email: null, quote: plain.quote, requires: requirementOf(t) };
   if (plain.kind === 'redirect') {
     const m = /^Wrong office: send it to (.+)$/.exec(plain.headline) ||
       /(?:[Pp]lease|[Yy]ou (?:should|must|may|will need to)|[Kk]indly) (?:re-?)?(?:submit|send|direct|forward|file|address) (?:your |the |this )?(?:records |foia )?request (?:directly )?to (?:the )?((?:[A-Z][\w&.'-]*)(?:\s+(?:[A-Z][\w&.'-]*|of|and|for|the|on))*)/.exec(t);
@@ -618,7 +665,7 @@ export function learnRoute(plain, text, fromAddr) {
     const near = plain.quote ? t.slice(Math.max(0, t.indexOf(plain.quote.slice(0, 40))), Math.max(0, t.indexOf(plain.quote.slice(0, 40))) + 600) : '';
     const em = (near.match(/[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g) || []).map(function (x) { return x.replace(/\.$/, ''); })
       .filter(function (x) { return !own.test(x) && x.toLowerCase() !== String(fromAddr || '').toLowerCase(); })[0] || null;
-    return { kind: 'office', portal: bestPortal(near, fromAddr), office: m ? m[1].replace(/\s+(?:of|and|for|the|on)$/i, '') : null, office_email: em, quote: plain.quote };
+    return { kind: 'office', portal: bestPortal(near, fromAddr), office: m ? m[1].replace(/\s+(?:of|and|for|the|on)$/i, '') : null, office_email: em, quote: plain.quote, requires: requirementOf(t) };
   }
   if (plain.kind === 'transfer') {
     const p = (plain.points || []).map(function (x) { return /^They passed (?:part of it|it) to (.+), which will answer you directly\.$/.exec(x); }).filter(Boolean)[0];
