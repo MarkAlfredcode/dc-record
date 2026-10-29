@@ -593,6 +593,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "american chemical society": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Commerce",
+        "amount": 192980575.9,
+        "recipient": "AMERICAN CHEMICAL SOCIETY",
+        "start": "2015-04-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOC50PAPT1500018_1344_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 64387425.7,
+        "recipient": "AMERICAN CHEMICAL SOCIETY",
+        "start": "2010-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOC50PAPT1100002_1344_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 36844545.21,
+        "recipient": "AMERICAN CHEMICAL SOCIETY",
+        "start": "2007-12-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DOC50PAPT0701077_1344_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2000-09-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "american correctional healthcare": {
     "d": "2026-10-23",
     "examples": [
@@ -2353,12 +2382,48 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "culligan": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 123785.0,
+        "recipient": "CULLIGAN SOFT WATER SERVICE COMPANY",
+        "start": "2008-05-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA263C0363_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 112994.99,
+        "recipient": "CULLIGAN ULTRAPURE, INC.",
+        "start": "2021-11-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25522P0068_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 109297.69,
+        "recipient": "CULLIGAN SOFT WATER SERVICE COMPANY",
+        "start": "2007-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA263P0090_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2006-02-28",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "cummin onan": {
     "d": "2026-10-10",
     "examples": [],
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "current contractor": {
+    "d": "2026-10-29",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 1
   },
   "cvent": {
     "d": "2026-10-22",
@@ -2417,6 +2482,35 @@
     "first": "2022-09-21",
     "has_contracts": true,
     "raw_hits": 4
+  },
+  "dakota fire extinguisher": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 10000.0,
+        "recipient": "DAKOTA FIRE EXTINGUISHERS INC",
+        "start": "2018-09-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA465918P0035_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 8619.36,
+        "recipient": "DAKOTA FIRE EXTINGUISHERS INC",
+        "start": "2017-08-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA465917P0021_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 6756.0,
+        "recipient": "DAKOTA FIRE EXTINGUISHERS INC",
+        "start": "2011-06-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W9128F11MT007_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-06-14",
+    "has_contracts": true,
+    "raw_hits": 3
   },
   "data axle": {
     "d": "2026-10-20",
@@ -3060,6 +3154,35 @@
       }
     ],
     "first": "2021-09-22",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "faro technologie": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1415802.0,
+        "recipient": "FARO TECHNOLOGIES INC",
+        "start": "2014-06-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA226314M0010_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 741671.21,
+        "recipient": "FARO TECHNOLOGIES INC",
+        "start": "2018-08-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15F06718P0006861_1549_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 622010.12,
+        "recipient": "FARO TECHNOLOGIES INC",
+        "start": "2015-08-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0018915FZ209_9700_GS24F0044M_4730"
+      }
+    ],
+    "first": "2006-05-24",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -4955,6 +5078,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "management concept": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Executive Office of the President",
+        "amount": 72000.0,
+        "recipient": "MANAGEMENT CONCEPTS, INC",
+        "start": "2011-09-13",
+        "url": "https://www.usaspending.gov/award/CONT_IDV_OASEXEA08010008_1100"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 8363.0,
+        "recipient": "MANAGEMENT CONCEPTS, INC",
+        "start": "2016-09-21",
+        "url": "https://www.usaspending.gov/award/CONT_IDV_HHSP233201650109A_7570"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 1000.0,
+        "recipient": "MANAGEMENT CONCEPTS, INC",
+        "start": "2013-12-23",
+        "url": "https://www.usaspending.gov/award/CONT_IDV_GS00H14AAC0070_4705"
+      }
+    ],
+    "first": "2003-05-15",
+    "has_contracts": true,
+    "raw_hits": 100
+  },
   "marotta control": {
     "d": "2026-10-10",
     "examples": [
@@ -5071,6 +5223,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "mediso usa": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 1636580.0,
+        "recipient": "MEDISO USA, LLC",
+        "start": "2016-08-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN272201601187P_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 1604727.0,
+        "recipient": "MEDISO USA, LLC",
+        "start": "2021-05-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75N95021P00218_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 1570210.0,
+        "recipient": "MEDISO USA, LLC",
+        "start": "2018-03-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSN272201800516P_7529_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2015-05-01",
+    "has_contracts": true,
+    "raw_hits": 41
+  },
   "mgc diagnostic": {
     "d": "2026-10-14",
     "examples": [],
@@ -5136,6 +5317,13 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "milspray military technologie": {
+    "d": "2026-10-29",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
+  },
   "mission system wimborne": {
     "d": "2026-10-14",
     "examples": [
@@ -5162,6 +5350,35 @@
       }
     ],
     "first": "2004-04-13",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "mississippi power": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 21107977.7,
+        "recipient": "MISSISSIPPI POWER CO",
+        "start": "1996-08-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6246788F1862_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 13552665.29,
+        "recipient": "MISSISSIPPI POWER CO",
+        "start": "2026-04-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_80SSC026F0008_8000_47PA0425D0027_4740"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 12200000.0,
+        "recipient": "MISSISSIPPI POWER CO",
+        "start": "2008-03-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNS08AA30T_8000_GS00P06BSD0474_4740"
+      }
+    ],
+    "first": "1996-08-26",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -5571,6 +5788,35 @@
     "has_contracts": false,
     "raw_hits": 0
   },
+  "novarti pharmaceutical": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 16334774.81,
+        "recipient": "NOVARTIS PHARMACEUTICALS CORPORATION",
+        "start": "2017-09-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSO100201700026C_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 4732607.88,
+        "recipient": "NOVARTIS PHARMACEUTICALS CORPORATION",
+        "start": "2026-02-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24826F0082_3600_36F79720D0180_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 4299446.99,
+        "recipient": "NOVARTIS PHARMACEUTICALS CORPORATION",
+        "start": "2025-11-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C26226N0112_3600_36F79720D0180_3600"
+      }
+    ],
+    "first": "2017-09-14",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "odyssey space research": {
     "d": "2026-10-15",
     "examples": [
@@ -5752,12 +5998,70 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "oshkosh defense cummin": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 6104220991.02,
+        "recipient": "OSHKOSH DEFENSE LLC",
+        "start": "2015-08-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15C0095_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3452976200.05,
+        "recipient": "OSHKOSH DEFENSE LLC",
+        "start": "2009-06-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0002_9700_W56HZV09D0111_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2065705348.31,
+        "recipient": "OSHKOSH DEFENSE LLC",
+        "start": "2020-03-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV20C0050_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-08-17",
+    "has_contracts": true,
+    "raw_hits": 100
+  },
   "pacific pilotage association of canada": {
     "d": "2026-10-26",
     "examples": [],
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "pacific propeller": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 17373732.39,
+        "recipient": "PACIFIC PROPELLER INTERNATIONAL LLC",
+        "start": "2010-12-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001911C0021_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 10117734.66,
+        "recipient": "PACIFIC PROPELLER INTERNATIONAL LLC",
+        "start": "2013-07-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA855313C0002_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4787000.34,
+        "recipient": "PACIFIC PROPELLER INTERNATIONAL LLC",
+        "start": "2017-09-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRPA117CZ086_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2010-01-28",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "panopto": {
     "d": "2026-10-10",
@@ -5901,6 +6205,35 @@
       }
     ],
     "first": "2004-12-21",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "pennsylvania state university": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 115835032.0,
+        "recipient": "THE PENNSYLVANIA STATE UNIVERSITY",
+        "start": "2018-09-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002418F8410_9700_N0002418D6401_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 107546325.0,
+        "recipient": "THE PENNSYLVANIA STATE UNIVERSITY",
+        "start": "2023-09-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002423F8401_9700_N0002418D6401_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 88397417.0,
+        "recipient": "THE PENNSYLVANIA STATE UNIVERSITY",
+        "start": "2011-01-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0736_9700_N0002402D6604_9700"
+      }
+    ],
+    "first": "2000-04-15",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -6120,6 +6453,35 @@
     "first": "2010-09-24",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "property owner lessor": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 225457.0,
+        "recipient": "LESSORS, INC",
+        "start": "2016-04-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EPC16005_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 60973.0,
+        "recipient": "LESSORS, INC",
+        "start": "2016-04-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EP16C000089_6800_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 51098.22,
+        "recipient": "LESSORS, INC",
+        "start": "2021-02-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_68HE0M21P0028_6800_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-04-07",
+    "has_contracts": true,
+    "raw_hits": 122
   },
   "qualtric": {
     "d": "2026-10-10",
@@ -6730,6 +7092,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "sierra nevada": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 3419616376.72,
+        "recipient": "SIERRA NEVADA COMPANY, LLC",
+        "start": "2024-04-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA283424CB002_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 655269890.71,
+        "recipient": "SIERRA NEVADA COMPANY, LLC",
+        "start": "2013-02-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_FA863713D6003_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 546266856.96,
+        "recipient": "SIERRA NEVADA COMPANY, LLC",
+        "start": "2020-07-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_H9240820C0004_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-10-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "signet technologie convergint federal": {
     "d": "2026-10-14",
     "examples": [],
@@ -6911,6 +7302,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "sofar ocean": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 3144070.0,
+        "recipient": "SOFAR OCEAN TECHNOLOGIES, INC.",
+        "start": "2025-03-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001425C2201_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 336307.0,
+        "recipient": "SOFAR OCEAN TECHNOLOGIES, INC.",
+        "start": "2025-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0018925P0579_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 250000.0,
+        "recipient": "SOFAR OCEAN TECHNOLOGIES, INC.",
+        "start": "2023-11-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001424P2201_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2018-07-19",
+    "has_contracts": true,
+    "raw_hits": 22
+  },
   "solve intelligence": {
     "d": "2026-10-22",
     "examples": [],
@@ -7076,6 +7496,35 @@
     "first": "2021-08-28",
     "has_contracts": true,
     "raw_hits": 5
+  },
+  "supreme integrated technology": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 230185.0,
+        "recipient": "SUPREME INTEGRATED TECHNOLOGY, INC.",
+        "start": "2025-11-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0040626P0004_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 228979.5,
+        "recipient": "SUPREME INTEGRATED TECHNOLOGY, INC.",
+        "start": "2022-06-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70Z08522P30068B00_7008_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 186051.0,
+        "recipient": "SUPREME INTEGRATED TECHNOLOGY, INC.",
+        "start": "2023-05-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70Z08523P39001B00_7008_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-01-14",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "swift powder coat": {
     "d": "2026-10-22",
@@ -7642,6 +8091,21 @@
     "first": "2007-11-05",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "tularosa communication": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of the Interior",
+        "amount": 25044.02,
+        "recipient": "TULAROSA COMMUNICATIONS INC",
+        "start": "2026-06-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_140R4026P0055_1425_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2026-06-15",
+    "has_contracts": true,
+    "raw_hits": 1
   },
   "tutor perini nan a joint venture": {
     "d": "2026-10-22",
@@ -8578,6 +9042,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:J87KQLAPDSB3": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 460510.95,
+        "recipient": "CN BIO INNOVATIONS LIMITED",
+        "start": "2025-07-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HT942525P0071_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 212610.0,
+        "recipient": "CN BIO INNOVATIONS LIMITED",
+        "start": "2024-08-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HT942524P0124_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 89934.4,
+        "recipient": "CN BIO INNOVATIONS LIMITED",
+        "start": "2020-09-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75F40120P00532_7524_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2020-09-03",
+    "has_contracts": true,
+    "raw_hits": 4
+  },
   "uei:JC8KASZL6W95": {
     "d": "2026-10-26",
     "examples": [
@@ -9127,6 +9620,35 @@
       }
     ],
     "first": "2012-07-11",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:NG61ZA8TADW3": {
+    "d": "2026-10-29",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 16334774.81,
+        "recipient": "NOVARTIS PHARMACEUTICALS CORPORATION",
+        "start": "2017-09-14",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HHSO100201700026C_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 4732607.88,
+        "recipient": "NOVARTIS PHARMACEUTICALS CORPORATION",
+        "start": "2026-02-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24826F0082_3600_36F79720D0180_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 4299446.99,
+        "recipient": "NOVARTIS PHARMACEUTICALS CORPORATION",
+        "start": "2025-11-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C26226N0112_3600_36F79720D0180_3600"
+      }
+    ],
+    "first": "2017-09-14",
     "has_contracts": true,
     "raw_hits": 50
   },
