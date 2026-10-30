@@ -8,7 +8,9 @@ extraction, SAM and USAspending triage) here, falling back to Claude Haiku
 when every Gemini model fails. gemini_mechanical.py uses it for the OMB/OGE
 mechanical passes. The four main passes stay on Claude: a 2026-10-30
 Gemini-only dry run of all editions worked, but its main passes added facts
-that weren't in the input and called FEC questions "improper".
+that weren't in the input and called FEC questions "improper". run_pass.py
+uses MAIN_MODELS only as a backup when the Claude pass fails (usage limit),
+and the edition then carries a disclaimer banner.
 
 Free-tier limits (probed 2026-10-30): Pro models have no free quota (429);
 gemini-3.6-flash allows only 20 requests/day; gemini-3.5-flash-lite took
@@ -25,6 +27,8 @@ import urllib.request
 
 API = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
 BATCH_MODELS = os.environ.get("DC_GEMINI_BATCH_MODELS", "gemini-3.5-flash-lite,gemini-3.6-flash").split(",")
+# Best free model first; gemini-3.8-flash can queue for minutes.
+MAIN_MODELS = os.environ.get("DC_GEMINI_MODELS", "gemini-3.8-flash,gemini-3.6-flash,gemini-3.5-flash-lite").split(",")
 # Per-minute limits aren't published per key, so pace request starts
 # process-wide and let a 429's retryDelay handle the rest.
 RPM = float(os.environ.get("DC_GEMINI_RPM", "10"))
@@ -49,9 +53,11 @@ def _retry_delay(body):
     return min(float(m.group(1)), 90) if m else 30
 
 
-def generate(prompt, system, models=BATCH_MODELS, timeout=600, json_mode=True):
+def generate(prompt, system, models=BATCH_MODELS, timeout=600, json_mode=True, budget=None):
     """Returns (text, usageMetadata, model). Raises RuntimeError with the
-    last few errors if every model fails."""
+    last few errors if every model fails. `budget` caps the total seconds
+    across all retries and models (each request's timeout shrinks to fit)."""
+    stop = time.time() + budget if budget else None
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise RuntimeError("GEMINI_API_KEY is unset")
@@ -68,12 +74,15 @@ def generate(prompt, system, models=BATCH_MODELS, timeout=600, json_mode=True):
         if model in _dead:
             continue
         for wait in RETRY_WAITS:
+            if stop and time.time() + wait + 30 > stop:
+                errs.append("time budget spent")
+                raise RuntimeError("; ".join(errs[-4:]))
             time.sleep(wait)
             _pace()
             req = urllib.request.Request(API.format(model), data=body,
                                          headers={"x-goog-api-key": key, "Content-Type": "application/json"})
             try:
-                with urllib.request.urlopen(req, timeout=timeout) as r:
+                with urllib.request.urlopen(req, timeout=min(timeout, stop - time.time()) if stop else timeout) as r:
                     d = json.load(r)
             except urllib.error.HTTPError as e:
                 raw = e.read().decode("utf-8", "replace")
@@ -88,8 +97,10 @@ def generate(prompt, system, models=BATCH_MODELS, timeout=600, json_mode=True):
                 if e.code in (500, 502, 503, 504):
                     continue
                 break  # 400/403/404: this model won't work, try the next
-            except (TimeoutError, OSError) as e:
+            except OSError as e:
                 errs.append(f"{model} {type(e).__name__}: {e}"[:200])
+                if isinstance(e, TimeoutError) or isinstance(getattr(e, "reason", None), TimeoutError):
+                    break  # a model this slow now won't be faster on retry: try the next
                 continue
             cand = (d.get("candidates") or [{}])[0]
             parts = (cand.get("content") or {}).get("parts") or []
@@ -105,10 +116,10 @@ def generate(prompt, system, models=BATCH_MODELS, timeout=600, json_mode=True):
     raise RuntimeError("; ".join(errs[-4:]) or "no Gemini model available")
 
 
-def envelope(prompt, system, models=BATCH_MODELS, timeout=600, json_mode=True):
+def envelope(prompt, system, models=BATCH_MODELS, timeout=600, json_mode=True, budget=None):
     """`claude -p --output-format json` lookalike for extract_ja.run_claude's callers."""
     t = time.time()
-    text, u, model = generate(prompt, system, models, timeout, json_mode)
+    text, u, model = generate(prompt, system, models, timeout, json_mode, budget)
     return {
         "type": "result", "is_error": False, "result": text, "total_cost_usd": 0,
         "model": model, "num_turns": 1, "duration_ms": int((time.time() - t) * 1000),

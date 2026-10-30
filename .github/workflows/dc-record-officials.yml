@@ -166,6 +166,9 @@ jobs:
         id: run_edition
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Backup if Claude hits its usage limit: run_pass.py writes the
+          # edition with Gemini and adds a disclaimer banner (2026-10-30).
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
           TODAY="${{ steps.date.outputs.today }}"

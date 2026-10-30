@@ -5,6 +5,10 @@
 - "Leads": up to 3 leads Claude writes into content["leads"], each with the
   angle and the next document to pull.
 
+- Model notice (2026-10-30): when run_pass.py had to write the edition with
+  Gemini because Claude hit its usage limit, content["model_notice"] is a
+  disclaimer shown as a banner above everything else.
+
 Email editions (campaigns/officials/feds) use table rows; the web-only
 Congress edition uses plain divs.
 """
@@ -26,8 +30,15 @@ def _lead_html(lead, link_color):
 
 
 def email_boxes(content, accent, ink, body_ink, pad="18px"):
-    """<tr> rows for the Your Beat + Leads boxes, or '' if neither has content."""
+    """<tr> rows for the model notice + Your Beat + Leads boxes, or '' if none has content."""
     out = []
+    if content.get("model_notice"):
+        out.append(
+            f'<tr><td class="px" style="padding:16px {pad} 0 {pad};">'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff4d6; border:1px solid #d9a400;">'
+            f'<tr><td style="padding:12px 14px; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:1.5; color:#3d2f00;">'
+            f'<strong>Backup edition.</strong> {_esc(content["model_notice"])}'
+            f'</td></tr></table></td></tr>')
     beat = content.get("beat") or []
     if beat:
         items = []
@@ -57,6 +68,9 @@ def _email_box(label, items_html, accent, ink, body_ink, pad):
 
 def web_boxes(content, accent):
     out = []
+    if content.get("model_notice"):
+        out.append('  <div style="background:#fff4d6; border:1px solid #d9a400; color:#3d2f00; padding:12px 14px; '
+                   f'margin:16px 0; font-size:14px;"><strong>Backup edition.</strong> {_esc(content["model_notice"])}</div>')
     beat = content.get("beat") or []
     if beat:
         lis = "".join(
