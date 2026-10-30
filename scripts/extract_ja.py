@@ -171,7 +171,15 @@ def run_claude(prompt, system, timeout=600, model=MODEL, env=None):
     failed batch means its items go unread. Returns the JSON envelope.
     `env` adds environment variables, e.g. DISABLE_PROMPT_CACHING for
     one-off prompts that would only ever be written to the cache (at 2x the
-    input price), never read back."""
+    input price), never read back.
+    DC_BATCH_LLM=gemini tries Gemini's free tier first (scripts/gemini.py)
+    and falls back to this Claude call if every Gemini model fails."""
+    if os.environ.get("DC_BATCH_LLM") == "gemini":
+        import gemini
+        try:
+            return gemini.envelope(prompt, system, timeout=timeout)
+        except RuntimeError as e:
+            print(f"gemini failed, falling back to claude: {e}", file=sys.stderr)
     err = None
     for wait in (0,) + RETRY_WAITS:
         time.sleep(wait)

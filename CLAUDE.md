@@ -23,7 +23,7 @@ Four editions, each `.github/workflows/dc-record-<edition>.yml` + `prompt-<editi
 
 **Document metadata** (`scripts/doc_metadata.py`, called from `sam_reader.read_file`/`read_pdf`, so every SAM attachment, ZIP member and FARA filing gets it, no LLM): PDF/Office properties, PDF link annotations, Office hyperlink rels, Word tracked changes/comments, hidden sheets and the extracted text are scanned for AI-chatbot fingerprints (`utm_source=chatgpt.com`/`openai`, `oaicite`, `citeturn`, an AI tool as Creator/Producer), other tracking params, leaked paths, and J&A author/company. Hits become `kind: "metadata"` findings (verified, quoted) merged into the per-file findings in `screen_sam_docs.py`; FARA hits (news >= 4 only) show up as `FILE METADATA/LINKS` lines in the TOP OFFICIALS block. OGE/House PTR/ethics-agreement PDFs read via `dc_common.pdftotext` are not covered. To add a signal, edit the regexes at the top of `doc_metadata.py`; `python3 scripts/doc_metadata.py <file>` prints what it finds.
 
-`prompt-*-mechanical.txt` are cheap Haiku passes. `dc-record-events.yml` refreshes `data/events.json` from Wikipedia on the 1st/11th/21st. `dc-record.yml`, `dc-record-watchdog.yml`, `dc-record-window-ping.yml` are retired (manual dispatch only). `dc-record-status-alert.yml` checks the editions ran.
+`prompt-*-mechanical.txt` are cheap-model passes (Gemini first via `scripts/gemini_mechanical.py`, the Claude Haiku step only if it fails). `dc-record-events.yml` refreshes `data/events.json` from Wikipedia on the 1st/11th/21st. `dc-record.yml`, `dc-record-watchdog.yml`, `dc-record-window-ping.yml` are retired (manual dispatch only). `dc-record-status-alert.yml` checks the editions ran.
 
 ## FOIA
 
@@ -44,8 +44,9 @@ The hourly usage-window ping lives in the public repo `MarkAlfredcode/cron-utils
 
 ## Pipeline (per run)
 
-all fetching in Python, no LLM (`fetch_campaigns.py`, `fetch_congress.py`, `fetch_officials.py`, `build_feds_input.py`, plus `fetch_*.py` extras) → `gate.py` skips the model if nothing is new → Haiku screens/triage (`screen_sam_docs.py`, `triage_*.py`, `extract_ja.py`; SAM line memory kept in the Actions cache) → `run_pass.py`, a one-turn `claude -p` pass (no tools, prompt caching off, effort medium) that writes content JSON → `mark_seen.py` → `scripts/assemble.py` (extras, Your Beat box from `data/watchlist.json`, archive, repeat removal via `data/surfaced-links.json`) → `scripts/render_<edition>.py` → `send_email.py` (Resend) → ntfy → commit manifests + `digest/<edition>.html` via `scripts/push_with_retry.sh`.
+all fetching in Python, no LLM (`fetch_campaigns.py`, `fetch_congress.py`, `fetch_officials.py`, `build_feds_input.py`, plus `fetch_*.py` extras) → `gate.py` skips the model if nothing is new → cheap-model screens/triage (`screen_sam_docs.py`, `triage_*.py`, `extract_ja.py`; SAM line memory kept in the Actions cache) → `run_pass.py`, a one-turn `claude -p` pass (no tools, prompt caching off, effort medium) that writes content JSON → `mark_seen.py` → `scripts/assemble.py` (extras, Your Beat box from `data/watchlist.json`, archive, repeat removal via `data/surfaced-links.json`) → `scripts/render_<edition>.py` → `send_email.py` (Resend) → ntfy → commit manifests + `digest/<edition>.html` via `scripts/push_with_retry.sh`.
 
+- **Gemini for the cheap-model calls (2026-10-30):** with `DC_BATCH_LLM=gemini` (Feds triage steps), `extract_ja.run_claude` sends every screen/triage/extraction call to Gemini's free tier (`scripts/gemini.py`: `gemini-3.5-flash-lite`, then `gemini-3.6-flash`) and falls back to Claude Haiku only if Gemini fails; the OMB/OGE mechanical passes do the same. This keeps the high-volume work off the Claude subscription. Free-tier limits are small: Pro models have no free quota and `gemini-3.6-flash` allows 20 requests/day. The main passes stay on Claude: a Gemini-only dry run of all four editions that day worked, but its main passes added facts not in the input and called FEC questions "improper".
 - AM editions email subscribers. PM editions are mostly website-only; Feds PM has never emailed.
 - USAspending runs AM only; `assemble.py` carries AM sections into PM.
 - DoD awards reach USAspending ~90 days late, hence the Defense backlog sweep in `usaspending_common.py`.
@@ -54,7 +55,7 @@ all fetching in Python, no LLM (`fetch_campaigns.py`, `fetch_congress.py`, `fetc
 
 ## Secrets (GitHub Actions)
 
-`CLAUDE_CODE_OAUTH_TOKEN` (bills the Claude account that generated it, shared with interactive use), `RESEND_API_KEY`, `FEC_KEYS` (api.data.gov pool), `DC_RECORD_RECIPIENTS_TOKEN` (shared with the site's `functions/dc-record-recipients.js` subscriber list), `SAM_API_KEY` (unused; SAM fetch is keyless). Values live in Mark's Claude memory, never in this repo.
+`CLAUDE_CODE_OAUTH_TOKEN` (bills the Claude account that generated it, shared with interactive use), `GEMINI_API_KEY` (Google AI Studio free tier, cheap-model calls), `RESEND_API_KEY`, `FEC_KEYS` (api.data.gov pool), `DC_RECORD_RECIPIENTS_TOKEN` (shared with the site's `functions/dc-record-recipients.js` subscriber list), `SAM_API_KEY` (unused; SAM fetch is keyless). Values live in Mark's Claude memory, never in this repo.
 
 ## History and memory
 

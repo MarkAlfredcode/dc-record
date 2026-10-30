@@ -159,6 +159,10 @@ jobs:
         if: steps.reachability.outputs.down_count < 2
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Cheap-model calls go to Gemini's free tier first, Claude Haiku
+          # only if Gemini fails (scripts/gemini.py, 2026-10-30).
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DC_BATCH_LLM: gemini
           MODE: ${{ github.event.inputs.mode || 'am' }}
           # Cap Haiku attachment reading at 3M chars/run (was the 10M default,
           # ~$3.3/run); the rest stays in data/sam-docs-pending.json.
@@ -182,6 +186,8 @@ jobs:
         if: steps.reachability.outputs.down_count < 2
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DC_BATCH_LLM: gemini
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
           # AM only (both write a skipped stub in PM; assemble.py carries the
@@ -199,7 +205,13 @@ jobs:
         if: steps.reachability.outputs.down_count < 2
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
+          # Gemini free tier first (scripts/gemini_mechanical.py, 2026-10-30);
+          # the Claude Haiku pass below runs only if it fails.
+          if python3 scripts/gemini_mechanical.py prompt-feds-mechanical.txt data/omb_candidates.json; then
+            exit 0
+          fi
           set +e
           cat prompt-feds-mechanical.txt | \
             claude -p \
