@@ -1755,6 +1755,14 @@
       "s": "screened",
       "sol": "12639527Q0007"
     },
+    "0393e955ecec46f1a1e405f8e2078446": {
+      "c": 95,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Attachment J.1 - OCI.pdf",
+      "s": "screened",
+      "sol": "80GSFC27R0015"
+    },
     "0395b661a6a14fdf893ce3afe5b18e77": {
       "c": 1342688,
       "d": "2026-10-25",
@@ -3220,6 +3228,14 @@
       "n": "PC_Pilot_card_v1_1.pdf",
       "s": "screened",
       "sol": "1333MK27Q0003"
+    },
+    "0677864cabb040d88f4c8b77ab1096bc": {
+      "c": 597,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "N00104-26-Q-FD65 .PDF",
+      "s": "screened",
+      "sol": "N00104-26-Q-FD65"
     },
     "067e7a50ce744a80bf129a6d8cf561c0": {
       "c": 7879,
@@ -5461,6 +5477,14 @@
       "s": "screened",
       "sol": "HQ072727QMH01"
     },
+    "0b81f84860b6402182ef710d4d741961": {
+      "c": 10069,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "Migrant and Seasonal Worker Supplement.pdf",
+      "s": "screened",
+      "sol": "12363N27Q4005"
+    },
     "0b935fb6b4124b5fa122537ca1189d00": {
       "c": 382,
       "d": "2026-10-24",
@@ -5693,6 +5717,14 @@
       "n": "Appendix D Lots and Roads.pdf",
       "s": "screened",
       "sol": "36C24127Q0004"
+    },
+    "0c0ab1c307dc437b863a07fdbdc39658": {
+      "c": 260,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "JHSN Field Map.pdf",
+      "s": "screened",
+      "sol": "12363N27Q4005"
     },
     "0c1c358f2dae4aa29e50b5b286dfb20e": {
       "c": 126367,
@@ -6584,6 +6616,15 @@
       "s": "screened",
       "sol": "19VM3027Q0005"
     },
+    "0dbc42e89b6a4881a2e49afd7be49fda": {
+      "a": 1,
+      "d": "2026-10-30",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "DRAFT_Nellis_F47_MACH1_AOI_21OCT26_V5.docx",
+      "s": "retry",
+      "sol": "FA8903-27-OT006"
+    },
     "0dcae62b939b4a25ac9f1aacde0dee8c": {
       "c": 28225,
       "d": "2026-10-13",
@@ -6958,6 +6999,29 @@
       "n": "J-3 JWCC UCM Core Catalog and Discounts.xlsx",
       "s": "screened",
       "sol": "852571198_"
+    },
+    "0e742d666c5941c48df23592d63f2123": {
+      "c": 70068,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "e March 23, 2024 Collective Bargaining Agreement (\"CBA\") through March 22, 2028, except as modified by this Memorandum of Understanding. Section 2. Article 16 -APPENDIX Il, WAGES, HOURS AND COMPENSATION: Section 1. Effective August 1, 2026, and August 1, 2027, the base hourly wage rates shall increase by 3.5%. Hourly rates shall be as shown below. ATC Specialist- August 1, 2026, $50.99 an hour ATC in training- August 1, 2026, $47.60 an hour ATC Specialist - August 1, 2027, $52.78 an hour ATC in training- August 1, 2027, $49.27 an hour RR FRR RR RIK RR RR ROR RR aK ek AIC Specialist - August 1, 2026, $40.42 an hour, AIC in training- August 1, 2026, $37.02 an hour AIC Specialist - August 1, 2027, $41.83 an hour AIC in training- August 1, 2027, $38.31 an hour Section 3. Article 17 Appendix IV, Health and Welfare Benefits (H&W) Effective August 1, 2026, the Health and Welfare (H&W) rates shall increase by five percent (5%) to $6.75 an hour. Effective August 1, 2027, H&W rates shall increase by five percent (5%) to $7.09 an hour. Section",
+          "finding": "Fort Bliss air traffic control tower unionized under PATCO; wage increases to $50.99/hour for controllers by August 2026.",
+          "news": 4,
+          "quote": "ATC Specialist- August 1, 2026, $50.99 an hour",
+          "verified": true
+        },
+        {
+          "finding": "TechWise contractor at Fort Bliss agreed to employer 401(k) match of 100% up to 4% effective October 2026.",
+          "news": 3,
+          "quote": "Effective 10/1/2026, the Employer shall provide an employer matching contribution equal to one hundred percent (100%) of the employee's eligible elective deferrals, up to four percent (4%) of the employee's eligible compensation.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "J16_CBA_PATCO-Techwise_23MAR2024.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "0e784a6e1aaf47ab8a47f4a8f08bf1c3": {
       "c": 64173,
@@ -7810,7 +7874,7 @@
       "sol": "36C24827Q0032"
     },
     "10ed6ab8f26c457b88035593ee070dbc": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -8885,7 +8949,7 @@
       "sol": "36C77626Q0138"
     },
     "12dd016a77354ac0a1a4ac305a33da5b": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -9166,7 +9230,7 @@
       "sol": "FD20202700027"
     },
     "13c561859ebf445981606f8594b9da87": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -16414,7 +16478,7 @@
       "sol": "FEMA_70FB8026R00000020"
     },
     "234e037e176b482199bb736874d531fb": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -16542,6 +16606,14 @@
       "n": "Attachment_4__IA_-_IEE_Representation_Form.pdf",
       "s": "boilerplate_only",
       "sol": "140A2327Q0298"
+    },
+    "2390c87b3cf74fc9b5e2cf1bb03b58f6": {
+      "c": 15253,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "RFP Questions and Answers.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "2395786b6f2f4a9b9b4fa9c9aea9fbd2": {
       "c": 1421,
@@ -17591,6 +17663,28 @@
       "s": "screened",
       "sol": "140P2026R0081"
     },
+    "2653aace92d043228e52c37b8f633a99": {
+      "c": 60410,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "finding": "USGS petroleum assessment contract requires GIS support for oil and gas resource evaluations across U.S. and international provinces, part of congressionally mandated assessments.",
+          "news": 4,
+          "quote": "The National and Global Petroleum Assessment Project (NAGA) of the Department of the Interior (DOI), U.S. Geological Survey (USGS)...conducts research on the occurrence and assessment of petroleum resources in priority basins of the United States and the World.",
+          "verified": false
+        },
+        {
+          "finding": "5.5-year GIS support contract through May 2032 for petroleum resource mapping and graphics; 8(a) small-business set-aside with firm-fixed-price competitive award.",
+          "news": 3,
+          "quote": "Period of Performance: 11/17/2026 to 05/16/2032...This is a competitive 8(a) combined synopsis/solicitation for services as defined herein.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Sol_140GG027R0001.pdf",
+      "s": "screened",
+      "sol": "140GG027R0001"
+    },
     "265812090240473ca4a082a66515831a": {
       "c": 2084,
       "d": "2026-10-20",
@@ -18530,7 +18624,7 @@
       "sol": "AA-2027-01"
     },
     "28988f9574e84356a63518f22946aa61": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -19395,6 +19489,14 @@
       "s": "screened",
       "sol": "FA238426SB007"
     },
+    "2ac7b2ba82654c53bee32f1821c1cc40": {
+      "c": 2060420,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Attachment_1_-_Specifications_-_1262.pdf",
+      "s": "screened",
+      "sol": "140PS126B0010"
+    },
     "2ac7ddffb42e4c899466e9c63cf80bb4": {
       "c": 5456,
       "d": "2026-10-12",
@@ -19912,6 +20014,14 @@
       "n": "SFS Appendix - Contractor Security Appendix - BDP 4 Jun 26.pdf",
       "s": "screened",
       "sol": "FA448427Q0002"
+    },
+    "2c1c10aa1c954b9ca5e4deac2c8810c7": {
+      "c": 10862,
+      "d": "2026-10-30",
+      "m": "zip",
+      "n": "SurveyUnitsLomaxTask7_Shapefiles.zip",
+      "s": "screened",
+      "sol": "12363N27Q4003"
     },
     "2c1c1cba1ec3492c8d9903d834c7a565": {
       "c": 4000,
@@ -21112,6 +21222,14 @@
       "s": "screened",
       "sol": "FA240126R0003"
     },
+    "2e548af3e0924214ac72b9d989bf84e9": {
+      "c": 0,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "RFP 230040.pdf",
+      "s": "wage_determination",
+      "sol": "N4008527R9000"
+    },
     "2e58263c1e8d46eaaa3c09921a17d9db": {
       "c": 1361,
       "d": "2026-10-10",
@@ -21919,6 +22037,14 @@
       "n": "B08_Att_08_Key_Personnel.pdf",
       "s": "screened",
       "sol": "140P2026R0065"
+    },
+    "304b679b123047c3ae3255e08b474a12": {
+      "c": 41,
+      "d": "2026-10-30",
+      "m": "docx",
+      "n": "Project Information Form.docx",
+      "s": "screened",
+      "sol": "N4008527R0016"
     },
     "3054ca204c164324ad525b810c332602": {
       "c": 3066,
@@ -26201,6 +26327,23 @@
       "s": "screened",
       "sol": "36C10X27R0001"
     },
+    "3984a185d507468e9f215dbf96474f13": {
+      "c": 86459,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "t drawing, specification or publications used to determine material compliance or suitability for use in this contract. (d) All transportation and/or shipping costs associated with the performance of FAT and/or production lot testing/acceptance inspection. (e) All inspections and tests performed by Government or commercial test laboratories. 3. Testing that cannot be performed by a commercial testing laboratory because it involves actual chemical agents or simulant, and/or unique equipment, may be contracted with the Combat Capabilities Development Command (CCDC) Chemical Biological Center (CBC) Test Laboratories, Aberdeen Proving Grounds, MD. A Test Service Agreement (TSA) will be established with the responsible laboratory for this testing. It is the responsibility of the Contractor to contact the CCDC-CBC Testing Laboratories for a cost estimate of the testing, which will be included in the Contractor's proposed unit price. 4. Contacts for obtaining cost estimates and the TSA for agent or simulant and physical testing or chemic",
+          "finding": "DoD soliciting 7 gas detectors from Honeywell or Rae Systems for chemical/biological agent testing at Aberdeen Proving Grounds.",
+          "news": 4,
+          "quote": "Testing that cannot be performed by a commercial testing laboratory because it involves actual chemical agents or simulant, and/or unique equipment, may be contracted with the Combat Capabilities Development Command (CCDC) Chemical Biological Center (CBC) Test Laboratories, Aberdeen Proving Grounds,",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation - SPRDL126QA005.pdf",
+      "s": "screened",
+      "sol": "SPRDL126QA005"
+    },
     "398655461a2b4a959447dc275580fd8b": {
       "c": 585,
       "d": "2026-10-14",
@@ -28229,7 +28372,7 @@
       "sol": "RFI-195000-26-00181"
     },
     "3d4b8af000ec4b4b8d55db7dc53829f5": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -30930,6 +31073,14 @@
       "s": "screened",
       "sol": "HT001427QE001"
     },
+    "426e520af6094f8b9a5e01642b621cbc": {
+      "c": 28872,
+      "d": "2026-10-30",
+      "m": "xlsx",
+      "n": "Questions_and_Answers_Oct_7_0002.xlsx",
+      "s": "screened",
+      "sol": "140L4326Q0126"
+    },
     "426ecd8e949b474981ac9b3bbca80482": {
       "c": 317,
       "d": "2026-10-13",
@@ -31110,6 +31261,14 @@
       "n": "Sources_Sought_Notice.docx",
       "s": "screened",
       "sol": "IHS1528550 "
+    },
+    "430ed86cdbd8468693a1d35ddee60819": {
+      "c": 0,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "WD_2015-5899 Rev. 6 8.22.2026.pdf",
+      "s": "wage_determination",
+      "sol": "12363N27Q4003"
     },
     "4311c21c0a3a45119959a934528b9c99": {
       "c": 825,
@@ -31564,7 +31723,7 @@
       "sol": "BSA475591"
     },
     "440207d8fb10487a8b3919a85d914805": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -33287,6 +33446,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-ELPASO(ZARAGOS)TXFY27"
     },
+    "480bea584acb433d8f3e316509681f0d": {
+      "c": 35118,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Sol_140L4326Q0126.pdf",
+      "s": "screened",
+      "sol": "140L4326Q0126"
+    },
     "480c82314fbf4b68adafaa53cf9230d9": {
       "c": 127331,
       "d": "2026-10-19",
@@ -33579,6 +33746,14 @@
       "n": "Attachment 1 VA VHA BAA Template -for Awareness.pdf",
       "s": "screened",
       "sol": "36C10B27Q0040"
+    },
+    "48bed8fe527e4ff2ae257bb52069c089": {
+      "c": 2859,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Sol_140L4326Q0126_Amd_0002.pdf",
+      "s": "screened",
+      "sol": "140L4326Q0126"
     },
     "48c27c36c347437795f9d59834add080": {
       "c": 4162,
@@ -36644,12 +36819,12 @@
       "sol": "140PP027Q0007"
     },
     "4edb96caad284cceb3ff113a16386eb5": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 1 RFI 1 Upgrade Substation 642-22-104.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C24426R0088"
     },
     "4ee48d73578041f285e5262a2be45d98": {
@@ -37009,7 +37184,7 @@
       "sol": "N0042127Q1011"
     },
     "4f940d73eb4940728fd5d5bc6963be9b": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -37996,6 +38171,14 @@
       "n": "Questions-Answers 30 Sep.docx",
       "s": "screened",
       "sol": "FA665626R0007"
+    },
+    "51c1ad2e297b4b34be13b323de7751b5": {
+      "c": 52085,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "3_Statement of Work_Lomax_Task7_106_Oct2026.pdf",
+      "s": "screened",
+      "sol": "12363N27Q4003"
     },
     "51c3c6e66d69475c9d2b68862722826c": {
       "c": 225634,
@@ -39267,7 +39450,7 @@
       "sol": " F2X3B26289A001"
     },
     "5487df0a22074f2e914bc5dd5b67a815": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -39539,6 +39722,14 @@
       "n": "13 LBNL PUB 3111 Quality Assurance Program Description.pdf",
       "s": "screened",
       "sol": "AM202603-25"
+    },
+    "553b5b04d4f44a7ab1fc5347a8e9e2f3": {
+      "c": 63,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Site Visit sign in sheet.pdf",
+      "s": "screened",
+      "sol": "FA875126Q0013"
     },
     "55408aa7b22b4ae38e42f96ef0532464": {
       "c": 271,
@@ -39995,7 +40186,7 @@
       "sol": "140FF027Q0016"
     },
     "562a3f5779e74ee1a6ecae628c928676": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -42883,6 +43074,14 @@
       "s": "screened",
       "sol": "36C10B27Q0054"
     },
+    "5c70041b9fa3497a968d598f7b847205": {
+      "c": 64,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Attachment_3_-_2nd_Existing_Floor_Plan.pdf",
+      "s": "screened",
+      "sol": "140RR027Q0011"
+    },
     "5c713f798f7049109371cbebbd12a450": {
       "c": 57283,
       "d": "2026-10-11",
@@ -43323,7 +43522,7 @@
       "sol": "69056726B000010"
     },
     "5d42e435679f47098b53faa0974280b6": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -43443,6 +43642,22 @@
       "n": "Wage Determination No._ 2015-4377 Revision No_ 33.pdf",
       "s": "screened",
       "sol": "W91247-27-Q-A004"
+    },
+    "5d9c5a22480f430499b6adc5881b692d": {
+      "c": 11644,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "finding": "Earlier version of same contract extended phase-in period from 21 days to 60 days and allowed restricted non-control duties during medical clearance process.",
+          "news": 3,
+          "quote": "The phase-in period is scheduled to be sixty (60) calendar days in duration...the new-hire may perform restricted, non-control duties (such as simulator training or Flight Data coordination) subject to coordination",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "J01_PWS_11SEP2026.docx",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "5d9e7119f2184396aa3bdfe5782b3975": {
       "c": 1688,
@@ -45933,6 +46148,30 @@
       "s": "screened",
       "sol": "W519TC26QA023"
     },
+    "634204deb49d43e3ac58222f3baca469": {
+      "c": 37019,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "sonnel, operational controllers, and quality-control staff. (PWS C.1.15.7, C.1.15.12.1.1, C. 1.15.13, C.1.15.14.1 and C.1.15.15.) L.6.3.1.3 Required Staffing and Shift-Manning Plan: Provide a comprehensive shift-manning matrix demonstrating the ability to maintain continuous ATC and AIC operations 24/7/365, including weekends and Federal holidays. The matrix must show proposed staffing levels aligned across the three daily shifts--Day Shift (0800-1600), Second Shift (1600-2400), and Third Shift (0000-0800)--and guarantee a minimum of two (2) qualified personnel per operational shift at the ATC Tower and two (2) at the AIC. (PWS C.1.9 through C.1.9.2, C.1.15.9, and C.1.15.16.) L.6.1.3.4 Continuity, Relief, and Surge Staffing: Describe the contingency and relief staffing methodology to seamlessly maintain required shift-manning levels during planned/unplanned leave, illness, training, vacancies, attrition, and military obligations without degrading ATC services. Describe the mobilization capability to support sudden surge requirements,",
+          "finding": "Fort Bliss Air Traffic Control Services contract extended to March 2028 with increased month duration for main CLINs and shift requirements now mandate minimum two controllers per shift at tower and AIC facility 24/7/365",
+          "news": 4,
+          "quote": "The matrix must show proposed staffing levels aligned across the three daily shifts--Day Shift (0800-1600), Second Shift (1600-2400), and Third Shift (0000-0800)--and guarantee a minimum of two (2) qualified personnel per operational shift at the ATC Tower and two (2) at the AIC",
+          "verified": true
+        },
+        {
+          "context": "CHANGES Block 14 (Description of Amendment/Modification): NOTICE TO OFFERORS: A known system processing error within the contract writing database has automatically updated the \"ProductServicesOrdered/ItemUID Required\" field from \"No\" to \"Yes\" across all CLINs. This administrative update is incorrect and does not reflect a change in requirements. Offerors should disregard this field change. No Item Unique Identification (IUID) will be required for the resulting award. The purpose of this amendment is for the following: 1. Provide responses to questions received. See PDF document titled \"RFP Questions & Responses\". 2. Revised the quantity for CLINs 0001 through 0004 and 0006, from 10 Months to 11 Months. 3. Revised the quantity for CLIN 0007 from 60 Days to 21 Days. 4. Revised the Period of Performance Dates for CLINs 0001 through 0007 to reflect the following: - For CLINs 0001 through 0006: Changed from 18 April 2027 - 17 Feb 2028 to 18 April 2027 - 17 March 2028. - For CLIN 0007: Changed from 18 February 2026 - 17 April 2026 to 28 M",
+          "finding": "Army Fort Bliss ATC contract requires CMMC Level 2 cybersecurity certification from all contractors and subcontractors",
+          "news": 3,
+          "quote": "Offeror shall provide documentation showing it has completed the CMMC Level 2 Self-Assessment and results were entered into the Supplier Performance Risk System (SPRS)",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "W911S826RA015 Amend 0001.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
+    },
     "634a3016afed401785c3dfdd9380e541": {
       "c": 143957,
       "d": "2026-10-14",
@@ -46253,7 +46492,7 @@
       "sol": "36C24226Q0979"
     },
     "640f88f92e664568a4926ecd74c53c96": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -48855,7 +49094,7 @@
       "sol": "SPE602-26-R-0706"
     },
     "69c26e93a6554aa6b345088a272df2af": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -49749,6 +49988,14 @@
       "s": "boilerplate_only",
       "sol": "W912QR-INDIANAPOLIS(CENTER)INFY27"
     },
+    "6b8551b7b6d24d2aaaa41501d06ed3ee": {
+      "c": 87,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Attachment D - Safety and Health Plan.pdf",
+      "s": "screened",
+      "sol": "80GSFC27R0015"
+    },
     "6b8856b148224717878780a8ca67df68": {
       "c": 5574,
       "d": "2026-10-13",
@@ -50146,6 +50393,22 @@
       "s": "screened",
       "sol": "140R4026R0025"
     },
+    "6c7053149f02472890109fc2dd9fad7a": {
+      "c": 13113,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "finding": "DoD awards sole-source bridge contract to SAIC for classified defense budget analytics platform during peak budget review cycle.",
+          "news": 4,
+          "quote": "The proposed action is to award a sole-source, Firm-Fixed-Price (FFP) task order to Science Applications International Corporation (SAIC) under its General Services Administration (GSA) Multiple Award Schedule (MAS) contract...interim sustainment, operations, data engineering, and system enhancement",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "RES Bridge JA _Redacted.pdf",
+      "s": "screened",
+      "sol": "HQ003426FE651"
+    },
     "6c70fe036599416ab719be7eb5ddbaa2": {
       "c": 583,
       "d": "2026-10-17",
@@ -50324,6 +50587,14 @@
       "n": "36U10126Q0023 0013.docx",
       "s": "screened",
       "sol": "36U10126Q0023"
+    },
+    "6cd662fce7c6475697c6782eb03c202b": {
+      "c": 55743,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "J08_PWS_Attachment_7_BAAF_SOP_11DEC2023.pdf",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "6cf0602242e04e7a94d0938a878940b8": {
       "c": 2154,
@@ -50564,7 +50835,7 @@
       "sol": "W911S227QA006"
     },
     "6d44ac98f6254e62aa7a4eb607561491": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -52103,7 +52374,7 @@
       "sol": "12444726Q0053"
     },
     "70a1391fa3274c13bdff86698ec0be60": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -54274,6 +54545,22 @@
       "s": "screened",
       "sol": "36C26226Q0384"
     },
+    "752bd700c9814bfe90bf83fb6e2613dd": {
+      "c": 8885,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "finding": "Navy awards $19.6M emergency sole-source contract to Tutor Perini for Guam breakwater repairs after back-to-back typhoons.",
+          "news": 5,
+          "quote": "Award a contract modification on a sole-source basis to Tutor Perini Corporation Nan Inc. A Joint Venture (TPC-NAN JV)...for critical emergency waterfront stabilization repairs at Apra Harbor for damage caused by Typhoon Sinlaku using $19,624,552.00 fiscal year 2026 (FY26) funding.",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA Typhoon Sinlaku Additional Stone_Redacted.pdf",
+      "s": "screened",
+      "sol": "N40192-26-JARS-009"
+    },
     "75404f09e27d4899957b70bad4f03286": {
       "c": 2308,
       "d": "2026-10-22",
@@ -56078,7 +56365,7 @@
       "sol": "36U10126Q0023"
     },
     "78651306be7b498e83b4927ec6ba6003": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -56657,6 +56944,14 @@
       "n": "D.2 WD 2015-4719 Rev 34 Cincinnati VAMC.docx",
       "s": "wage_determination",
       "sol": "36C25027Q5393"
+    },
+    "799908269d9a46bf9370ca337e7a0035": {
+      "c": 17950,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "B03_Wage_Determination_0002.pdf",
+      "s": "screened",
+      "sol": "140L4326Q0126"
     },
     "79a089d46a3548c2b40067104ee47621": {
       "c": 214664,
@@ -57586,6 +57881,14 @@
       "n": "Compiled EOI and Appendices_V3.pdf",
       "s": "screened",
       "sol": "DOECriticalMineralResource2026"
+    },
+    "7b4f74357a874c079bdb0f4c21d255fc": {
+      "c": 28587,
+      "d": "2026-10-30",
+      "m": "docx",
+      "n": "36C25526Q0678 0003.docx",
+      "s": "screened",
+      "sol": "36C25526Q0678"
     },
     "7b559fa3029b4950bab7ae6012153293": {
       "c": 19818,
@@ -59461,6 +59764,14 @@
       "n": "C27 - Single-Line Schematics.pdf",
       "s": "screened",
       "sol": "36C26127Q0067"
+    },
+    "7f7836a38f4a4db6b4a715c72a2e1577": {
+      "c": 28937,
+      "d": "2026-10-30",
+      "m": "legacy",
+      "n": "J04_PWS_Attachment_3_Equipment_Listing_23JUL2026.docx",
+      "s": "screened",
+      "sol": "W911S826RA015"
     },
     "7f7c3a1170954a3985f0d50bf9c41a9a": {
       "c": 461,
@@ -64761,7 +65072,7 @@
       "sol": "140P2026B0004"
     },
     "8b5a7dc913474619a31647d38d96c0ef": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -65311,12 +65622,12 @@
       "sol": "DISA-OTA-27-R-UAM"
     },
     "8c6331d27b83405fb068cd28a1222b97": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "36C24227Q0076.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C24227Q0076"
     },
     "8c638e196b394cc0951b63b87277905c": {
@@ -67358,6 +67669,14 @@
       "s": "screened",
       "sol": "3e173a44fc734a3d9fb27d0ec9c1cbe0"
     },
+    "8ff97d77ec3449368b003d23f3f25e3b": {
+      "c": 6365,
+      "d": "2026-10-30",
+      "m": "docx",
+      "n": "36C25526Q0678_1.docx",
+      "s": "screened",
+      "sol": "36C25526Q0678"
+    },
     "90001c0a3cce46fe9c7f6a8387905b41": {
       "c": 22235,
       "d": "2026-10-19",
@@ -67710,6 +68029,14 @@
       "s": "screened",
       "sol": "36C77626B0011_1"
     },
+    "90b9624eb20249279d3d8819fa7f410b": {
+      "c": 116,
+      "d": "2026-10-30",
+      "m": "xlsx",
+      "n": "Contract_47PA0826D0025_Sep 22 2026 Award Results_Tiger Natural Gas Inc.xlsx",
+      "s": "screened",
+      "sol": "47PA0826D0025"
+    },
     "90bb7f08c179471c8d6cdab2b12fc372": {
       "c": 11032,
       "d": "2026-10-14",
@@ -67793,7 +68120,7 @@
       "sol": "1240LP27Q0004"
     },
     "90e64e5775cc4fbaa7a926eff00a4793": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -68106,12 +68433,12 @@
       "sol": "19UZ8026P1033"
     },
     "91915fae597c449084ce1257f3b6cfb4": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "36C24426R0088 0003.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C24426R0088"
     },
     "919d8c377d1d4b5a92bad9d349527840": {
@@ -69007,6 +69334,14 @@
       "n": "Industry Day Notice.pdf",
       "s": "screened",
       "sol": "FA8678-26-AFSAT-R0001"
+    },
+    "9386bf179ab44ee398a1ab6eaf90b83f": {
+      "c": 9,
+      "d": "2026-10-30",
+      "m": "legacy",
+      "n": "UNITED STATES COAST GUARD KETCHIKAN CARPET REQUIRMENT ADDED INFORMATION AS OF 22 OCTOBER 2026.docx",
+      "s": "screened",
+      "sol": "UNITEDSTATESCOASTGUARDKETCHNEWCARPET"
     },
     "9386dd51e4e44af6aa653f473c8020de": {
       "c": 45392,
@@ -70639,7 +70974,7 @@
       "sol": "RFICMSQIC2026"
     },
     "96eebcec85b94baabd5f74e78a9123a5": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -74708,7 +75043,7 @@
       "sol": "36C25626R0108"
     },
     "9f4c31ffb3f3440bb4ad89d55af5db9c": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -75022,6 +75357,14 @@
       "n": "MSEC- Building 606 - Amendment 7 - RFIs -  21 Oct 25.pdf",
       "s": "screened",
       "sol": "W912DS25RA002 "
+    },
+    "a026d655696c4c2ba163f659541eed71": {
+      "c": 18,
+      "d": "2026-10-30",
+      "m": "ocr-image",
+      "n": "4-Aerial BrownJ.jpg",
+      "s": "screened",
+      "sol": "75H70126Q00036"
     },
     "a031f505b8874862b7fe95bca3f3fa27": {
       "c": 674,
@@ -76565,6 +76908,14 @@
       "s": "screened",
       "sol": "140R4026R0025"
     },
+    "a3741bb384c9451ba27ff0e943497621": {
+      "c": 59415,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "FY27-LiftPackPerformWorkStmt(PWS)QualAssurPlan_Final.pdf",
+      "s": "screened",
+      "sol": "12363N27Q4005"
+    },
     "a37755e4de6c43ccb6300fa058060411": {
       "c": 63677,
       "d": "2026-10-29",
@@ -76642,7 +76993,7 @@
       "sol": "N4008526B0002"
     },
     "a39ea65510f04f2d83fd786cb1605ff1": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -78614,6 +78965,14 @@
       "s": "screened",
       "sol": "70US0926R70093666"
     },
+    "a777dac91d12491eb4e9ac8603960dd9": {
+      "c": 123,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Attachment_2_-_Basement_Existing_Floor_Plan_1.pdf",
+      "s": "screened",
+      "sol": "140RR027Q0018"
+    },
     "a7787043dbe54936ab12815d7fad1cbd": {
       "c": 732,
       "d": "2026-10-14",
@@ -80084,6 +80443,14 @@
       "n": "1 Lease.pdf",
       "s": "boilerplate_only",
       "sol": "W912QR-CLARKSVILLEINFY27"
+    },
+    "aab9a60b9482491ab2d666e9effd1c0b": {
+      "c": 92,
+      "d": "2026-10-30",
+      "m": "xlsx",
+      "n": "Contract_47PA0826D0022_Sep 22 2026 Award Results_Gas South LLC.xlsx",
+      "s": "screened",
+      "sol": "47PA0826D0022"
     },
     "aabc726ed1004a1aa79f20b8300cb137": {
       "c": 26954,
@@ -81749,12 +82116,12 @@
       "sol": "1240BE26Q0119 "
     },
     "ae82b2e345854784b5d034cded3a196d": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 1 - List of Items - 70Z03827QJ0000008.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "70Z03827QJ0000008"
     },
     "ae836c18bd1043439407628c86b5b448": {
@@ -81783,7 +82150,7 @@
       "sol": "N6833526Q1183"
     },
     "ae8dfd4226204fae8470ee6262206fc5": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -82025,6 +82392,14 @@
       "n": "AMETEK BPA PLACE CALLS LIST 7May2026.pdf",
       "s": "screened",
       "sol": "FA857927Q0001"
+    },
+    "af3413282cbe48868c4f69023ee94d86": {
+      "c": 64,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Attachment_3_-_2nd_Existing_Floor_Plan_1.pdf",
+      "s": "screened",
+      "sol": "140RR027Q0018"
     },
     "af3d2cc3625e4241a0139e43ca5908b2": {
       "c": 19868,
@@ -84839,7 +85214,7 @@
       "sol": "SPE60526R0217"
     },
     "b53f5fa617ab47d3a725a4bfa90a2e3f": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -85056,12 +85431,12 @@
       "sol": "RFI-AFLCMC-KSWISS-2026"
     },
     "b5b4edd1afec4e27bd1eea377a4466ff": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "HT003826SC005-AOI00002_SOO_EIDS_DxP_v2 19OCT26.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "HT003826SC005-AOI0002"
     },
     "b5ba472a891e427ba3672be5fd8ecbd0": {
@@ -87605,7 +87980,7 @@
       "sol": "W911SG27BA002"
     },
     "bae8ad9f61604e28b2825b483e16ba37": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -87964,6 +88339,30 @@
       "n": "Attachment 2 - LRAFB MACC HTRO Evaluation Package Rev1.xlsx",
       "s": "screened",
       "sol": "LRAFB_MACC_IndustryDay"
+    },
+    "bb677aed406641389b8d23f7bc7476e1": {
+      "c": 23060,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "20. See CONTINUATION Page 21. 22. 23. 24. ITEM NO. SCHEDULE OF SUPPLIES/SERVICES QUANTITY UNIT UNIT PRICE AMOUNT The Contractor shall provide comprehensive substance use disorder (SUD) treatment and rehabilitative services to the beneficiaries of the Southern Arizona VA Health Care System. Substance Use Disorders Treatment Program (SUDTP Services are in accordance with the Performance Work Statement (PWS). Prospective Offerors are encouraged to submit a quote in accordance with Section E - Instructions to Offerors and General Instructions for Quote Submission, during the solicitation period. (Use Reverse and/or Attach Additi",
+          "finding": "VA contracting for methadone dosing services for veterans; indefinite delivery contract through 2031 with $1,000 guaranteed minimum.",
+          "news": 4,
+          "quote": "The goal of the VA Community Opiate Substitution Treatment Program (COSTP) is to provide community-based, opiate substitution services to veterans with sufficient supportive services to meet the needs of those veterans.",
+          "verified": true
+        },
+        {
+          "context": "VA Social Worker to conduct required group sessions with VA patients. Contractor shall further provide furniture sufficient to seat 16 peopleand white board to enhance the group session experience. 4.6 Contractor shall ensure that the Administration of the Opiate Substitution Treatment program follows Arizona Administrative Code R9-20-1002. 4.7 Contractor shall hold and maintain the following licenses and certifications to be eligible for this contract: i. DEA License for Opiate Substitution. ii. Arizona State License far Methadone Treatment. iii. Accreditation from either the Joint Commission (JCAHO) or the Commission on Accreditation of Rehabilitation Facilities (CARF). 4.8 The Contractor's medical staff will be responsible for determining the dose level for new VA patients and will provide frequent evaluations according to national \u201cBest Practice\u201d guidelines to adjust methadone for each veteran. 4.9 The Contractor in conjunction with the Director of SUDTP will address any unanticipated issues that may have",
+          "finding": "VA requires contractor to maintain DEA license, Arizona state methadone license, and accreditation from Joint Commission or CARF for program operation.",
+          "news": 3,
+          "quote": "Contractor shall hold and maintain the following licenses and certifications to be eligible for this contract: i. DEA License for Opiate Substitution. ii. Arizona State License far Methadone Treatment. iii. Accreditation from either the Joint Commission (JCAHO) or the Commission on Accreditation of ",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "36C26227R0005 RFP_rev.pdf",
+      "s": "screened",
+      "sol": "36C26227R0005"
     },
     "bb687e2907ec4a0ea0d6819f961cd63e": {
       "c": 0,
@@ -89257,6 +89656,41 @@
       "s": "screened",
       "sol": "70Z0G126BSLISSW02"
     },
+    "bdec3b78c4a04c26b80cc44555087296": {
+      "c": 106225,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "ing certificates of completion for all contractor employees to the COR, within five (5) calendar days of actual completion for each affected Contractor employee or hiring of new employees. (Deliverable A008) C.1.13 Security of Classified/Unclassified Information. Classified Information: The Contractor may have access to classified information, as ATC controllers will regularly access classified data, to include but not limited to real-time troop movements, unit designations, theater-level operational deployments, and Presidential flight schedules. A controller cannot legally log into or operate military ATC consoles, radios, or systems unless they have at least an Interim Tier 3 (Secret) approval. Unclassified Information (CUI): if the contractor is provided with CUI, or generates CUI, then dissemination controls and protective measures will be developed by the contractor to safeguard this information. C.1.14 Safety. The Contractor shall safeguard and maintain all Government and Contractor property, as well as provide for the saf",
+          "finding": "Fort Bliss air traffic control contract requires contractors to control access to classified presidential flight schedules and real-time troop movements.",
+          "news": 4,
+          "quote": "ATC controllers will regularly access classified data, to include but not limited to real-time troop movements, unit designations, theater-level operational deployments, and Presidential flight schedules.",
+          "verified": true
+        },
+        {
+          "finding": "Contract requires ATC contractors to detect, identify and respond to unauthorized unmanned aircraft systems and report incidents to base security within 5 days.",
+          "news": 4,
+          "quote": "Contractor shall...detect, identify, and track both authorized and unauthorized UAS...Contractor shall promptly report and coordinate real-time responses to unauthorized, unidentified, or non-compliant UAS activity with designated base security and ATC agencies.",
+          "verified": false
+        },
+        {
+          "finding": "Contract requires all ATC personnel to maintain SECRET security clearances and complete counterintelligence and antiterrorism training within 30 days of hire.",
+          "news": 3,
+          "quote": "All ATC contractor personnel shall possess and maintain an active SECRET (Tier 3) security clearance for the life of the contract...contractor employees must receive annual CIAR training...within thirty (30) calendar days after contract start date",
+          "verified": false
+        },
+        {
+          "finding": "New 21-day phase-in period reduced from 60 days in prior version, contractors must have all personnel facility-rated and operational by Day 21 with no transition assistance allowed.",
+          "news": 3,
+          "quote": "The Contractor shall ensure that all proposed personnel are position qualified in their designated operating positions and demonstrate capability of operational assigned positions without assistance by the conclusion of Day 21.",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "J01_ATC_PWS_FINAL_15OCT2026.docx",
+      "s": "screened",
+      "sol": "W911S826RA015"
+    },
     "bdee0e9787b74052a4c80cf978ddfd22": {
       "c": 2512,
       "d": "2026-10-10",
@@ -89492,6 +89926,14 @@
       "n": "2.4.1-A0001_SNA Tactical Training Solicitation_Red-Line.pdf",
       "s": "screened",
       "sol": "70CDCR26Q00000010"
+    },
+    "be7c8429124c425bb1ec3b070b279eae": {
+      "c": 0,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "WD_2015-4381 Rev. 33 8.22.2026.pdf",
+      "s": "wage_determination",
+      "sol": "12363N27Q4003"
     },
     "be87adf4658b4360966ae9f7010f3ecb": {
       "c": 2908,
@@ -91744,6 +92186,14 @@
       "s": "failed",
       "sol": "W91247-27-Q-A004"
     },
+    "c34cb8a7f2d24ffeaece39e832a7e176": {
+      "c": 210,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "B03_Wage_Determination.pdf",
+      "s": "screened",
+      "sol": "140L4326Q0126"
+    },
     "c356eebb24994d37b0c99b2580972b4e": {
       "c": 241,
       "d": "2026-10-14",
@@ -92478,6 +92928,30 @@
       "s": "screened",
       "sol": "N0010427RF050"
     },
+    "c4f487bd5c0b494996b84b70addc211c": {
+      "c": 2452,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "Author: USAF User; LastModifiedBy: DANGERFIELD, JA'QUAN M DO-02 USAF AFMC AFRL/PZLET; Company: United States Air Force",
+          "finding": "Justification file properties (who wrote or last saved it): Author: USAF User; LastModifiedBy: DANGERFIELD, JA'QUAN M DO-02 USAF AFMC AFRL/PZLET; Company: United States Air Force",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: USAF User; LastModifiedBy: DANGERFIELD, JA'QUAN M DO-02 USAF AFMC AFRL/PZLET; Company: United States Air Force",
+          "verified": true
+        },
+        {
+          "finding": "Air Force renews TransMagic software license (3 seats) for sensors research lab on sole-source basis.",
+          "news": 3,
+          "quote": "The United States Air Force (the Government) intends to issue a Firm-Fixed-Price order to a single source Synopsys, on or about 05 November 2026...TransMagic Expert + MagicHeal + MagicCheck Annual Maintenance Renewal (AMR)...Number of Licenses: 3",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "Intent to Award Sole Source.docx",
+      "s": "screened",
+      "sol": "e077622fae1d449999377a6cb27138f3"
+    },
     "c501d10119774a4a913a7ba315460aa8": {
       "c": 2797,
       "d": "2026-10-20",
@@ -92922,6 +93396,23 @@
       "n": "Revised_Attachment_2_Price_Schedule_0002.pdf",
       "s": "screened",
       "sol": "140R3026Q0143"
+    },
+    "c60eb06f2d264a7fb4ad4a6d06eccd32": {
+      "c": 14127,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "17a and Block 30a-c Complete Section B.1a CONTRACT ADMINISTRATION DATA Complete Section B.3 PRICE/COST SCHEDULE Complete VAAR CLAUSE 852.219-75, pages 23-24 *EMAIL completed RFQ (all pages) to veronica.dillard@va.gov by due date in Block 8. Contractor shall be responsible for the correct title classification of workers and compliance with all applicable wage and hour laws. (Use Reverse and/or Attach Additional Sheets as Necessary) 25. ACCOUNTING AND APPROPRIATION DATA See CONTINUATION Page 26. TOTAL AWARD AMOUNT (For Govt. Use Only) x 27a. SOLICITATION INCORPORATES BY REFERENCE FAR 52.212-1, 52.212-4. FAR 52.212-3 AND 52.212-5 ARE ATTACHED. ADDENDA ARE x ARE NOT ATTACHED. 27b. CONTRACT/PURCHASE ORDER INCORPORATES BY REFERENCE FAR 52.212-4. F",
+          "finding": "VA seeking snow/ice removal contractor for Beckley Medical Center, WV with 24/7 continuous coverage requirement through April 2027",
+          "news": 3,
+          "quote": "Contractor shall furnish all management, labor, supervision, equipment, vehicles, fuel, materials, deicing/anti-icing agents, and incidentals necessary to perform on-call snow and ice management services on a continuous, around the clock basis",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "36C24527Q0041.pdf",
+      "s": "screened",
+      "sol": "36C24527Q0041"
     },
     "c61aee8f7fec4ca98b53e36bfed3c55d": {
       "c": 2265,
@@ -93466,7 +93957,7 @@
       "sol": "W15QKN-27-Q-A007"
     },
     "c703d6897553483aa7a1046cfdec725b": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -94556,7 +95047,7 @@
       "sol": "W912EP26BA015"
     },
     "c986cfd8f1814688903e40a55d196e5e": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -95113,6 +95604,14 @@
       "s": "boilerplate_only",
       "sol": "W31P4Q26RA002"
     },
+    "cab22dc9aec443d2b9849c30c246b2d4": {
+      "c": 2131,
+      "d": "2026-10-30",
+      "m": "zip",
+      "n": "Maps.zip",
+      "s": "screened",
+      "sol": "12363N27Q4003"
+    },
     "cab4dabf7d3f4365aa584257a0e816d5": {
       "c": 74,
       "d": "2026-10-23",
@@ -95235,7 +95734,7 @@
       "sol": "FA2204_RFI_TACMOR_System"
     },
     "caf7002a544e444bb437a6d812c8d051": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -96437,7 +96936,7 @@
       "sol": "1560011712668"
     },
     "cda5a2be2abf401abac325d06cf9da56": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -98221,6 +98720,14 @@
       "s": "screened",
       "sol": "6982AF27B000004"
     },
+    "d116a457d9f4491e9b64f1af8c98dbb6": {
+      "c": 237,
+      "d": "2026-10-30",
+      "m": "xlsx",
+      "n": "Sources Sought Table 2_SPRRA2-27-R-0800-REV3.xlsx",
+      "s": "screened",
+      "sol": "SPRRA2-27-R-0800_REV3"
+    },
     "d11ee766c03e4939bfe664c46afa3e23": {
       "c": 43502,
       "d": "2026-10-10",
@@ -99048,6 +99555,14 @@
       "s": "failed",
       "sol": "N6278926Q1004"
     },
+    "d2f19ab9213e408699f58c1a24194a96": {
+      "c": 6,
+      "d": "2026-10-30",
+      "m": "ocr-image",
+      "n": "8.jpeg",
+      "s": "screened",
+      "sol": "19GT5027Q0004"
+    },
     "d2fb925105b3444fb95fbaa96c35ec13": {
       "c": 8042,
       "d": "2026-10-27",
@@ -99420,6 +99935,50 @@
       "s": "boilerplate_only",
       "sol": "W519TC-26-R-AHRS"
     },
+    "d3c55f32b1da42afa4e0d64e1a8b5e41": {
+      "c": 70095,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "Technology (IT) services, including mobile device and connectivity solutions, to VA Medical Centers (VAMCs), Community Based Outpatient Clinics (CBOCs), field and program offices, and other remote users that are geographically dispersed throughout the United States of America (USA), Guam, Saipan, American Samoa, the Philippines, and Puerto Rico. The VA is seeking commercially available Low Earth Orbit (LEO) satellite internet hardware, subscription, connectivity, monitoring, warranty, logistics, and technical support services. The requirement includes fixed and mobile LEO solutions to support primary or backup connectivity, continued operations in degraded environments, disaster response scenarios, and mobile command use. On-site implementation labor, site surveys, construction, cabling, mounting, facility modification, and site restoration are outside the scope of this PWS. In addition, operational responsibility for existing LEO 1.0 service accounts and supported systems will transition to this effort. The VA\u2019s goal is to acquire",
+          "finding": "VA seeking low-earth orbit satellite internet for remote operations, disaster response, and contingency scenarios across veteran healthcare facilities.",
+          "news": 4,
+          "quote": "The VA is seeking commercially available Low Earth Orbit (LEO) satellite internet hardware, subscription, connectivity, monitoring, warranty, logistics, and technical support services. The requirement includes fixed and mobile LEO solutions to support primary or backup connectivity, continued operat",
+          "verified": true
+        },
+        {
+          "context": "pplicable stakeholders to ensure continuity of operations and minimize disruption to existing services. To the maximum extent practicable, transition activities that may affect operational services shall be performed during approved maintenance windows, non-operational periods, or after normal business hours. PERFORMANCE DETAILS PERFORMANCE PERIOD The Period of Performance (PoP) shall be 12 months from date of award, with four 12-month option periods and one optional task. The overall PoP shall not exceed 60 months. Service activation, service changes, maintenance support, and service disconnection shall be coordinated during normal business hours when Government participation is required, unless otherwise directed by the Contracting Officer (CO). Contractor-provided network monitoring and technical Help Desk support shall be available as specified elsewhere in this PWS. There are 11 Federal holidays set by law (USC Title 5 Section 6103) that VA follows: Under current definitions, five are set by date: New Year's DayJanuary 1 June",
+          "finding": "Contract spans 60 months (5 years) with significant infrastructure modernization for federal healthcare system resilience.",
+          "news": 4,
+          "quote": "The Period of Performance (PoP) shall be 12 months from date of award, with four 12-month option periods and one optional task. The overall PoP shall not exceed 60 months.",
+          "verified": true
+        },
+        {
+          "context": "monetize, release, share, reuse, transfer, or misuse any VA data, to include any models, training data, testing data, patterns, documentation, implementation artifacts, runtime artifacts, or any other digital artifacts, partially or as a whole, derived from AI or machine learning (ML) without the express written consent and approval from the CO. The Contractor is prohibited from using non-public VA data, including Veteran data, and outputted results to train publicly or commercially available AI algorithms, fine-tune, or otherwise develop AI or ML models for reuse, transfer, or commercial purposes, without the express written authorization from the CO specifying VA data that may be used along with the acceptable scope of such usage. Contractor agrees that any AI models, weights, or derivative artifacts trained, or fine-tuned, on VA non-public data, if authorized by VA, may not be commercialized or used for the benefit of any third party without prior written approval by the CO and must be conducted within a VA authorized environment",
+          "finding": "VA retains ownership of all data generated under contract and prohibits contractor from using veteran data to train commercial AI models.",
+          "news": 3,
+          "quote": "The Contractor is prohibited from using non-public VA data, including Veteran data, and outputted results to train publicly or commercially available AI algorithms, fine-tune, or otherwise develop AI or ML models for reuse, transfer, or commercial purposes, without the express written authorization ",
+          "verified": true
+        },
+        {
+          "context": "ain a minimum inventory level sufficient to support simultaneous emergency equipment orders for multiple VA locations, as defined by the Government. The Contractor shall propose inventory levels to be reviewed and approved by the Mobility National COR Team and adjusted as mission requirements evolve. ACTIVATION AND DEPLOYMENT OF STANDBY EQUIPMENT Upon notification by the Government, the Contractor shall initiate shipment of standby LEO equipment within 12 hours and deliver equipment to the designated VA destination within 24\u201348 hours, depending on location and operational conditions. The Contractor shall provide logistics, transportation, pre-configuration where commercially supported, remote service activation, and remote technical support for standby equipment. The Contractor shall maintain an inventory management and tracking system and provide the Mobility National COR Team with monthly reports detailing inventory levels, locations, readiness status, shipment history, and service status. Physical mounting, cabling, facility modif",
+          "finding": "Contractor must maintain pre-positioned emergency LEO equipment inventory across VA locations and deploy within 12-48 hours for contingencies.",
+          "news": 3,
+          "quote": "Upon notification by the Government, the Contractor shall initiate shipment of standby LEO equipment within 12 hours and deliver equipment to the designated VA destination within 24\u201348 hours, depending on location and operational conditions.",
+          "verified": true
+        },
+        {
+          "finding": "VA imposing strict AI governance requirements on contractor, including annual attestation that AI systems comply with VA's trustworthy AI framework before use.",
+          "news": 3,
+          "quote": "AI shall not be used in performance of the contract without the written approval and authorization of the CO... All AI for delivery and/or use in performance of the contract shall adhere to the VA Trustworthy AI Framework.",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "P01 - LEO_2.0_DRAFT PWS_ RFI.docx",
+      "s": "screened",
+      "sol": "36C10B27Q0059"
+    },
     "d3d230f45f424850942d6f78e437a106": {
       "c": 18532,
       "d": "2026-10-11",
@@ -99654,7 +100213,7 @@
       "sol": "70Z02326Q92200038"
     },
     "d496fb4cebe14e31a96b5457547d4590": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -104052,6 +104611,14 @@
       "s": "screened",
       "sol": "SP060426C8000"
     },
+    "dd747b07ac3d4b129decc56530095a68": {
+      "c": 27744,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "12363N27Q4003.pdf",
+      "s": "screened",
+      "sol": "12363N27Q4003"
+    },
     "dd81590b36894b9ebf74bdf6896e3218": {
       "c": 47672,
       "d": "2026-10-19",
@@ -104511,6 +105078,14 @@
       "n": "36C77626B0011 0001.docx",
       "s": "screened",
       "sol": "36C77626B0011_1"
+    },
+    "de799f2adcd844fa8ed1c5e4c01b0fcd": {
+      "c": 12841,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "12363N27Q4005.pdf",
+      "s": "screened",
+      "sol": "12363N27Q4005"
     },
     "de7a4bdaa1234f049b5f25369d0d3b4d": {
       "c": 93,
@@ -105977,6 +106552,14 @@
       "s": "screened",
       "sol": "86614126R00002"
     },
+    "e176cafc883f497ba08a939a82a6ffa7": {
+      "c": 123,
+      "d": "2026-10-30",
+      "m": "ocr+pdf",
+      "n": "Attachment_2_-_Basement_Existing_Floor_Plan.pdf",
+      "s": "screened",
+      "sol": "140RR027Q0011"
+    },
     "e17b7385ffda42d0be9e49432da21622": {
       "c": 19492,
       "d": "2026-10-20",
@@ -106114,6 +106697,14 @@
       "n": "Wheat Flour and Bakery Flour Products CRD October 2026.pdf",
       "s": "screened",
       "sol": "12-3J14-Notice-26-022"
+    },
+    "e1d6165e5ba245978a13b5c953cfcb06": {
+      "c": 185,
+      "d": "2026-10-30",
+      "m": "xlsx",
+      "n": "D.11 KEY PERSONNEL.xlsx",
+      "s": "screened",
+      "sol": "36C24226Q0118"
     },
     "e1ddc6c77a4741a389cd7cfad39701a5": {
       "c": 2861,
@@ -106382,6 +106973,14 @@
       "n": "ATTACHMENT 0016 Move Routes-Access-Size.pptx",
       "s": "screened",
       "sol": "W91QV126RA060"
+    },
+    "e25b3a7f85b943b4b17d2be179284ead": {
+      "c": 0,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "WD_1977-0079 Rev. 83 8.13.2026.pdf",
+      "s": "wage_determination",
+      "sol": "12363N27Q4005"
     },
     "e25de43c0e524e0bb974577cc623dc0d": {
       "c": 35652,
@@ -106662,7 +107261,7 @@
       "sol": "36C24726R0123"
     },
     "e2d8f349bc684990923c8d521ce4fc65": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -109037,7 +109636,7 @@
       "sol": "36C24W26R0055"
     },
     "e766f1a7e24f4e09ba2e6b15ca0f6784": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -110457,6 +111056,14 @@
       "s": "screened",
       "sol": "W912CH-26-S-0001"
     },
+    "ea3d632f2b114ef2a4a47c6324805175": {
+      "c": 0,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "WD_2015-4399 Rev. 32 8.27.2026.pdf",
+      "s": "wage_determination",
+      "sol": "12363N27Q4003"
+    },
     "ea3d67044cd24b53b26fb06cf446ab06": {
       "c": 3783,
       "d": "2026-10-10",
@@ -110749,12 +111356,12 @@
       "sol": "FA810126R0004"
     },
     "eabc1b3e1c75474b8d1c5c12f8b072a9": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Wage Determination.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "12445127B0004"
     },
     "eabd22dbec274e6bb6f9a464993cdd8c": {
@@ -111874,6 +112481,14 @@
       "n": "Appendix 1 - Security Program Questionnaire.docx",
       "s": "screened",
       "sol": "FA238426SB007"
+    },
+    "ecc973e5aca24cd1bd1ce0693502a1e8": {
+      "c": 18933,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "Sol_140P2026R0081_Amd_0002.pdf",
+      "s": "screened",
+      "sol": "140P2026R0081"
     },
     "ecc97638ad8b48ceb07a4e4a1a485518": {
       "c": 6140,
@@ -115111,12 +115726,12 @@
       "sol": "FA8227-27-Q-1000"
     },
     "f31d3262a68b46e0ab5776882bcdead3": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "SPMYM327Q2002 RFQ.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "SPMYM327Q2002"
     },
     "f3205ec2cc434cfd9b9b090aeff26852": {
@@ -115878,7 +116493,7 @@
       "sol": "W15P7T-26-R-A006"
     },
     "f4beb40a5e01462b98b0b603cad9c152": {
-      "a": 1,
+      "a": 2,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -116546,6 +117161,24 @@
       "n": "RMAS_EXHIBIT_D_CDRL_D001_Status_Report.pdf",
       "s": "screened",
       "sol": "W519TC-26-R-AHRS"
+    },
+    "f62d60ed51a448f280669dcd280b00c9": {
+      "c": 2169,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "context": "C:\\Users\\VHABECBucklS\\OneDrive",
+          "finding": "Leaked local path or file server in the file (user VHABECBucklS)",
+          "kind": "metadata",
+          "news": 3,
+          "quote": "C:\\Users\\VHABECBucklS\\OneDrive",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Attachment - Snow Site Plan.pdf",
+      "s": "screened",
+      "sol": "36C24527Q0041"
     },
     "f63f19ade2894234a9497cd00028f27d": {
       "c": 2938,
@@ -117392,12 +118025,12 @@
       "sol": "140G0126Q0288"
     },
     "f843c4c7d6f34db2aadc1da6bf9825e1": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "SF-1449-1240LS26Q0044.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "1240LS26Q0044"
     },
     "f84d51fe0dc645c49b5ab4cc6dc256ce": {
@@ -119850,6 +120483,22 @@
       "s": "screened",
       "sol": "GEO-27-HK-001"
     },
+    "fd6594b49bd64843b0b8d706dcfbfeeb": {
+      "c": 13381,
+      "d": "2026-10-30",
+      "f": [
+        {
+          "finding": "Army soliciting 10 mandrel assemblies for 155mm artillery ammunition production at Watervliet Arsenal with Jan 11 2027 delivery deadline.",
+          "news": 4,
+          "quote": "MANDREL 155MM ASSY ROTARY FORGE... Delivery Date 11 Jan 2027",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "W911PT26QA139.pdf",
+      "s": "screened",
+      "sol": "W911PT26QA139"
+    },
     "fd6d5e02f42e4729ae50e3a0694bcb56": {
       "c": 3405,
       "d": "2026-10-10",
@@ -120779,6 +121428,14 @@
       "n": "P7777 Sources Sought_Attachment_1.docx",
       "s": "boilerplate_only",
       "sol": "N6945027SP7777-Accurate"
+    },
+    "ff3ba69022244b599c23035c8d8d9a81": {
+      "c": 4308,
+      "d": "2026-10-30",
+      "m": "pdf",
+      "n": "Relative Experience (Past Performance) Questionnaire_LomaxTask7.pdf",
+      "s": "screened",
+      "sol": "12363N27Q4003"
     },
     "ff477586570442c998bc902d28f43191": {
       "c": 1040,

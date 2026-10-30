@@ -7541,6 +7541,35 @@
     "has_contracts": true,
     "raw_hits": 1
   },
+  "synopsy transmagic": {
+    "d": "2026-10-30",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 786050.43,
+        "recipient": "SYNOPSYS, INC.",
+        "start": "2006-09-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6833506C0386_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 748865.5,
+        "recipient": "SYNOPSYS, INC.",
+        "start": "2005-04-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA955005C0047_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 699175.0,
+        "recipient": "SYNOPSYS, INC.",
+        "start": "2007-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG07EL01C_8000_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2005-04-15",
+    "has_contracts": true,
+    "raw_hits": 66
+  },
   "sysmex america": {
     "d": "2026-10-13",
     "examples": [
@@ -9535,6 +9564,35 @@
     "first": "2012-02-01",
     "has_contracts": true,
     "raw_hits": 13
+  },
+  "uei:MMLKPW9JLX64": {
+    "d": "2026-10-30",
+    "examples": [
+      {
+        "agency": "Department of State",
+        "amount": 2087211597.56,
+        "recipient": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "start": "2011-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SAQMMA11F0233_1900_GS00Q09BGD0048_4735"
+      },
+      {
+        "agency": "General Services Administration",
+        "amount": 1426694597.2,
+        "recipient": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "start": "2020-05-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_47QFSA20F0057_4732_GS00Q14OADU428_4732"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 1408527082.88,
+        "recipient": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "start": "2004-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNM04AA02C_8000_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2004-01-01",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "uei:MVBQJL4JQ6G1": {
     "d": "2026-10-10",

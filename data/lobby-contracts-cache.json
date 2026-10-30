@@ -36,6 +36,10 @@
     "checked": "2026-10-25",
     "result": null
   },
+  "amentum services": {
+    "checked": "2026-10-30",
+    "result": null
+  },
   "amerifen solutions": {
     "checked": "2026-10-29",
     "result": null
@@ -67,6 +71,22 @@
       "quarters": 3,
       "url": "https://lda.gov/filings/public/filing/c252e4d1-6aa3-42e5-b21d-b4e6caf9c393/print/",
       "ytd": 910000.0
+    }
+  },
+  "archer daniels midland": {
+    "checked": "2026-10-30",
+    "result": {
+      "client": "ARCHER-DANIELS-MIDLAND COMPANY",
+      "firms": [
+        "MILLER STRATEGIES, LLC"
+      ],
+      "issues": [
+        "Labor Issues/Antitrust/Workplace"
+      ],
+      "n_filings": 3,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/054307ab-f92b-4897-b9b2-e60ae68e9e39/print/",
+      "ytd": 350000.0
     }
   },
   "architechture solutions": {
@@ -238,6 +258,10 @@
     "checked": "2026-10-19",
     "result": null
   },
+  "concordance healthcare solutions": {
+    "checked": "2026-10-30",
+    "result": null
+  },
   "crane": {
     "checked": "2026-10-09",
     "result": null
@@ -250,8 +274,16 @@
     "checked": "2026-10-19",
     "result": null
   },
+  "diamond west construction": {
+    "checked": "2026-10-30",
+    "result": null
+  },
   "direct energy business": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "dmyles": {
+    "checked": "2026-10-30",
     "result": null
   },
   "dsfederal": {
@@ -565,6 +597,22 @@
     "checked": "2026-10-25",
     "result": null
   },
+  "medline industries": {
+    "checked": "2026-10-30",
+    "result": {
+      "client": "MEDLINE INDUSTRIES, LP",
+      "firms": [
+        "STEPTOE LLP"
+      ],
+      "issues": [
+        "Trade (domestic/foreign)"
+      ],
+      "n_filings": 3,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/5d3688fd-bc5b-4476-9fd0-b82988c85a68/print/",
+      "ytd": 240000.0
+    }
+  },
   "messer construction": {
     "checked": "2026-10-05",
     "result": null
@@ -595,6 +643,10 @@
   },
   "miscellaneous foreign awardees": {
     "checked": "2026-10-19",
+    "result": null
+  },
+  "mystic ventures group": {
+    "checked": "2026-10-30",
     "result": null
   },
   "nakupuna federal": {
@@ -769,6 +821,10 @@
       "ytd": 1560000.0
     }
   },
+  "signature choice iii": {
+    "checked": "2026-10-30",
+    "result": null
+  },
   "signature science": {
     "checked": "2026-10-11",
     "result": {
@@ -898,6 +954,10 @@
       "ytd": 235000.0
     }
   },
+  "v3gate": {
+    "checked": "2026-10-30",
+    "result": null
+  },
   "valiant construction": {
     "checked": "2026-10-22",
     "result": null
@@ -916,6 +976,10 @@
   },
   "verathon": {
     "checked": "2026-10-16",
+    "result": null
+  },
+  "veterans contracting": {
+    "checked": "2026-10-30",
     "result": null
   },
   "veterans development": {
