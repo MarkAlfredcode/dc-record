@@ -5476,6 +5476,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "midcontinent communication": {
+    "d": "2026-10-31",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1039711.32,
+        "recipient": "MIDCONTINENT COMMUNICATIONS",
+        "start": "2014-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC101315M6101_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 731724.0,
+        "recipient": "MIDCONTINENT COMMUNICATIONS",
+        "start": "2011-04-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC101311M2248_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 609000.0,
+        "recipient": "MIDCONTINENT COMMUNICATIONS",
+        "start": "2011-04-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HC101311M2249_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2006-10-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "millerknoll": {
     "d": "2026-10-10",
     "examples": [

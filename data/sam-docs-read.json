@@ -2053,6 +2053,14 @@
       "s": "screened",
       "sol": "AM202603-25"
     },
+    "03e6ef989ab14cc1a1edae48768ffd02": {
+      "c": 1026,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "Steam Sterilizer Header and Unit Test Port Details.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0053"
+    },
     "03e75be17c404edeb14e80555ae12d7a": {
       "c": 0,
       "d": "2026-10-20",
@@ -5221,6 +5229,14 @@
       "s": "screened",
       "sol": "SPE60526R0218 "
     },
+    "0aabf2fe11994d6f8faa9da08c8eeb4e": {
+      "c": 777,
+      "d": "2026-10-31",
+      "m": "xlsx",
+      "n": "APPENDIX C.4_Milestone Payment Schedule Model.xlsx",
+      "s": "screened",
+      "sol": "ARPA-H-SOL-26-160 "
+    },
     "0aacdc38693a4ec8acc632006606ce75": {
       "c": 14658,
       "d": "2026-10-23",
@@ -6477,6 +6493,14 @@
       "s": "screened",
       "sol": "36C77626Q0277"
     },
+    "0d58a4a680a04463879331273637d32f": {
+      "c": 688,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Attachment 3 - Question Form for RFQ.pdf",
+      "s": "screened",
+      "sol": "FA527027QB003"
+    },
     "0d58ac19e0f3446d9ab22427f9e32d17": {
       "c": 373,
       "d": "2026-10-13",
@@ -6696,12 +6720,12 @@
       "sol": "19VM3027Q0005"
     },
     "0dbc42e89b6a4881a2e49afd7be49fda": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-30",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "DRAFT_Nellis_F47_MACH1_AOI_21OCT26_V5.docx",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8903-27-OT006"
     },
     "0dcae62b939b4a25ac9f1aacde0dee8c": {
@@ -10460,6 +10484,14 @@
       "n": "Attachment J-3. Overtime Labor Hours Breakout Worksheet_FCDAS OM.xlsx",
       "s": "screened",
       "sol": "1332KP26R0041"
+    },
+    "15a591df443e4a72b71aed5f19251a6c": {
+      "c": 14782,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Instructions to Offerors Three Rivers Generators.pdf",
+      "s": "screened",
+      "sol": "15BNAS27Q00000002"
     },
     "15ab5f0a7b554b00aea2f8205a801c0a": {
       "c": 3379,
@@ -15335,6 +15367,14 @@
       "s": "wage_determination",
       "sol": "FA301626R0035"
     },
+    "202b4d99e9e94a6aab7f6a5a82381733": {
+      "c": 0,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "Wage Determination Pierce County.pdf",
+      "s": "wage_determination",
+      "sol": "36C26026Q0827"
+    },
     "2030c247df79431780a60ba1bf9c7d17": {
       "c": 15109,
       "d": "2026-10-11",
@@ -15889,6 +15929,14 @@
       "s": "screened",
       "sol": "W81K00-26-R-A051"
     },
+    "21924727090d4284b2f94ed03c134f04": {
+      "c": 160956,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "Attachment 2_SOW_HAMMER_DD_FY27.pdf",
+      "s": "screened",
+      "sol": "70ZU0127QPBPL0001"
+    },
     "219290ec3e8b42dca93c5b8c53c1c1e6": {
       "c": 1733,
       "d": "2026-10-10",
@@ -16224,6 +16272,14 @@
       "n": "Attachment 1 - Solicitation - FA468627QS002.pdf",
       "s": "screened",
       "sol": " FA468627QS002"
+    },
+    "22380be6b01d4fd394c01c1e2cb20cc7": {
+      "c": 686,
+      "d": "2026-10-31",
+      "m": "docx",
+      "n": "6. Past Performance Reference Information Form, Attachment B, AA-2027-02.docx",
+      "s": "screened",
+      "sol": "AA-2027-02"
     },
     "225303464a004c998aa085e79cddce5a": {
       "c": 3863,
@@ -18981,6 +19037,15 @@
       "s": "wage_determination",
       "sol": "2031ZA27Q00004"
     },
+    "28b383a28a714147a20d63baeed3af83": {
+      "a": 1,
+      "d": "2026-10-31",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "RFP No. 70Z02326R93250001_A00004_Conformed.pdf",
+      "s": "retry",
+      "sol": "70Z02326R93250001"
+    },
     "28c01a6b01824264a54259f329299d8b": {
       "c": 12931,
       "d": "2026-10-11",
@@ -19700,6 +19765,14 @@
       "n": "Peru Vendor Questions and Government Response.pdf",
       "s": "screened",
       "sol": "83310127Q0005"
+    },
+    "2aae9b1a075a4e57adacb410496acd47": {
+      "c": 0,
+      "d": "2026-10-31",
+      "m": "ocr-image",
+      "n": "Picture2.png",
+      "s": "no_text",
+      "sol": "FA663327QA001"
     },
     "2ab1781fcf9e4e44a5dec38e7c676be6": {
       "c": 24501,
@@ -23775,6 +23848,14 @@
       "s": "screened",
       "sol": "15BBNF26B60300001"
     },
+    "32e4b641dbcc44b8bf7f75e7cfd89149": {
+      "c": 492,
+      "d": "2026-10-31",
+      "m": "docx",
+      "n": "DA for CLEVELAND v3.docx",
+      "s": "screened",
+      "sol": " 6OH0326"
+    },
     "32e86dfd66f44a828dfa47444d99ef19": {
       "c": 486,
       "d": "2026-10-17",
@@ -24939,6 +25020,23 @@
       "s": "screened",
       "sol": "140FC126Q0044"
     },
+    "35728fa122264d9a873f879015e590b6": {
+      "c": 1699,
+      "d": "2026-10-31",
+      "f": [
+        {
+          "context": "ds,. RFO 12.102(a) (Commercial Products and Services): Only one source is available,. RFO 13.101(b) (Noncommercial Products and Services): Only one source is reasonably available (e.g., urgency, exclusive licensing agreements, brand-name, or industrial mobilization),. 4. Findings: Cable TV services at Minot AFB are provided by Midcontinent Communications under a Franchise Agreement pursuant to the Cable Communications Policy Act of 1984. Midcontinent Communications is the sole provider of CATV services in the Minot AFB area. 5. Determination: Based on the findings above, the proposed sole source or brand name action is justified under the applicable regulation. 6. Signatory Authority: (Contracting Officer Instruction: In accordance with DAF Approval Authorities Matrix PM 26-C-11 Matrix Item 51 for RFO 13.101(b) actions and GSAR 538.7104-3(a) for FSS orders, the Contracting Officer is the approval authority for these determinations).",
+          "finding": "Midcontinent Communications is designated as the sole provider of cable TV services at Minot Air Force Base under a franchise agreement.",
+          "news": 3,
+          "quote": "Midcontinent Communications is the sole provider of CATV services in the Minot AFB area.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Midco Single Source Determination.pdf",
+      "s": "screened",
+      "sol": "FA452827P00006"
+    },
     "357c9125058049da8b0ad14f41180f02": {
       "c": 178374,
       "d": "2026-10-23",
@@ -25282,6 +25380,14 @@
       "s": "screened",
       "sol": "W912WJ26RA008"
     },
+    "360f5e23165a4386bfd7a17be0f94a20": {
+      "c": 153,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "RO Test Ports to Add.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0053"
+    },
     "361543296ed54878bd40e4103e2a3c03": {
       "c": 7302,
       "d": "2026-10-11",
@@ -25493,6 +25599,14 @@
       "n": "Attachment B Exhibit 2 - Approved Training Course Providers.xlsx",
       "s": "screened",
       "sol": "36C10F26R0045"
+    },
+    "36c99a0756db46a088916df2047ec464": {
+      "c": 43645,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Exhibit 02a4. VA CBOC IT Systems Specifications_v05.23.pdf",
+      "s": "screened",
+      "sol": "36C24W26R0017"
     },
     "36cd721651eb4fe0a9725b02f7551c39": {
       "c": 1829,
@@ -25737,6 +25851,14 @@
       "n": "Solicitation - SPMYM427Q3013.pdf",
       "s": "screened",
       "sol": "SPMYM427Q3013"
+    },
+    "37a1f12c34b041329cdd246515426a00": {
+      "c": 0,
+      "d": "2026-10-31",
+      "m": "ocr-image",
+      "n": "Picture4.jpg",
+      "s": "no_text",
+      "sol": "FA663327QA001"
     },
     "37a85ee09a4d4b65ae37609bf933b98d": {
       "c": 1646,
@@ -34296,6 +34418,14 @@
       "s": "screened",
       "sol": "140F0S26Q0047"
     },
+    "49198a9089f4444cace21136e225117d": {
+      "c": 136191,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "Attachment F2 - FRAL Building Plans.pdf",
+      "s": "screened",
+      "sol": "W5168W27RA014"
+    },
     "4919f5559e144453a0be17e7d16df390": {
       "c": 2110,
       "d": "2026-10-10",
@@ -34319,6 +34449,14 @@
       "n": "D.2 Organizational Conflict.pdf",
       "s": "screened",
       "sol": "36C25926Q0497"
+    },
+    "492906473665486fa5f0a431775218a9": {
+      "c": 172723,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "658-23-108 Specifications-Addendum A.pdf",
+      "s": "screened",
+      "sol": "36C24626B0031"
     },
     "492e752ce3644182a67d85ab539cb1cf": {
       "c": 0,
@@ -36761,6 +36899,14 @@
       "s": "screened",
       "sol": "0NV2119-2"
     },
+    "4dc713562fbe415aa2ea4a206fc9eb58": {
+      "c": 586732,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "BN NL Bridge_As Builts_Combined drawings_AMD0007.pdf",
+      "s": "screened",
+      "sol": "W9127N26BA024"
+    },
     "4dcb73b93cdb48a88dd9a9a20487b59c": {
       "c": 1107,
       "d": "2026-10-13",
@@ -37954,6 +38100,14 @@
       "n": "ATTACHMENT A - PRICE COST SCHEDULE_NX EQ Image-Guided Surgical Navigation System.xlsx",
       "s": "screened",
       "sol": "36C10X27R0004_1"
+    },
+    "50554ee8f12141c9a6813df5e4163875": {
+      "c": 0,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "S02 - Wage Determinations IL20260009 05182026.pdf",
+      "s": "wage_determination",
+      "sol": "36C25226B0011-1"
     },
     "505ed40a4ec44fd1bd4681335e807b79": {
       "c": 324,
@@ -40481,6 +40635,14 @@
       "s": "screened",
       "sol": "N0018927QL008"
     },
+    "55e880927084411cb94c4da5ba49950f": {
+      "c": 29890,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Drawing - Arch.pdf",
+      "s": "screened",
+      "sol": "FA446027Q0006 "
+    },
     "55ebd7c33fcc4dcd8a3acbc23a465085": {
       "c": 2592,
       "d": "2026-10-14",
@@ -41507,6 +41669,23 @@
       "s": "screened",
       "sol": "6MS0165"
     },
+    "5816d5dddf4240fa992958579535fc80": {
+      "c": 283209,
+      "d": "2026-10-31",
+      "f": [
+        {
+          "context": "001391 ACTUATOR, VALVE, CONTROL, FLOW, 18\", PEB 00625-BMCV1-A SIT-0011 Installed EIMVALVE R5L4-3 Municipal Wastewater Treatment Plant Sedimentation Effluent Bypass System E-00001407 ACTUATOR, VALVE, CONTROL, FLOW, 48\", PEB 00626-BMCV2-A SIT-0011 Installed EIMVALVE Municipal Wastewater Treatment Plant Sedimentation Effluent Bypass System E-00001419 CONNECTION, VALVE, EMERGENCY 00911-EMER-CONN (to City of San Diego Point Loma Tr SIT-0011 Installed Municipal Wastewater Treatment Plant Sedimentation Effluent Bypass System E-00001398 GATE 1, SKIMMING, STRUCTURE, PEB 00623-G-SLIDE-PESSG1 SIT-0011 Installed GOLDEN Municipal Wastewater Treatment Plant Sedimentation Effluent Bypass System E-00001402 GATE, KNIFE, INLET, 24\", PEB 00625-G-KNIFE-IN SIT-0011 Installed GOLDEN Municipal Wastewater Treatment Plant Sedimentation Effluent Bypass System E-00001408 GATE, KNIFE, INLET, 48\", PEB 00626-G-KNIFE-IN SIT-0011 Installed GOLDEN Municipal Wastewater Treatment Plant Sedimentation Effluent Bypass System E-00001403 GATE, KNIFE, OUTLET, 24\", PEB 00625-",
+          "finding": "The International Boundary and Water Commission lists asset inventory details for the South Bay International Wastewater Treatment Plant, including emergency connections to San Diego's Point Loma facility.",
+          "news": 3,
+          "quote": "CONNECTION, VALVE, EMERGENCY 00911-EMER-CONN (to City of San Diego Point Loma Tr SIT-0011 Installed",
+          "verified": true
+        }
+      ],
+      "m": "xlsx",
+      "n": "Attch. 06 IBWC SBIWTP Asset Registry 2024.xlsx",
+      "s": "screened",
+      "sol": "191BWC26R0009"
+    },
     "5821fc65f31b4fd5be95ed625f8300d9": {
       "c": 3398,
       "d": "2026-10-11",
@@ -42295,6 +42474,14 @@
       "n": "RFI-42630696-NICC.pdf",
       "s": "screened",
       "sol": "RFI-42630696-NICC"
+    },
+    "59d109da121a4020b3e38a73f2c479fa": {
+      "c": 656,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Att J.2-8 - OCI Assertions Related to ASTO.pdf",
+      "s": "screened",
+      "sol": "80GRC026R0009"
     },
     "59da6988177540aab54eeec9052a03cc": {
       "c": 4331,
@@ -43446,6 +43633,14 @@
       "n": "4.  Daher Kodiak Flight Training BPA PWS.pdf",
       "s": "screened",
       "sol": "A068521"
+    },
+    "5c0cee9010174d31948bd3165d74086c": {
+      "c": 304714,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Specifications REV2 - 640A0-27-104 Replace Roof At BLDG 347 Menlo Park.pdf",
+      "s": "screened",
+      "sol": "36C26127Q0082"
     },
     "5c103e706fa64a2895087f6045b6de5e": {
       "c": 5901,
@@ -48289,6 +48484,14 @@
       "s": "screened",
       "sol": "832673670"
     },
+    "66d804b653d245d9b69e426658af37f3": {
+      "c": 690,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Attachment 3 - Question Form for RFQ Grounds FA527027QB004.pdf",
+      "s": "screened",
+      "sol": "FA527027QB004"
+    },
     "66dae1d4e24e4348a8ea63c2d1604030": {
       "c": 1169,
       "d": "2026-10-18",
@@ -49050,6 +49253,14 @@
       "n": "A14_MR_RFI_OC_Leadplane_1.pdf",
       "s": "screened",
       "sol": "140D0427Q0880"
+    },
+    "685452104f9b49df9d1e891dd7cc5226": {
+      "c": 875,
+      "d": "2026-10-31",
+      "m": "xlsx",
+      "n": "Attachment B - Specifications_Box Trucks_2026-10-21.xlsx",
+      "s": "screened",
+      "sol": "47QMCA27Q0002"
     },
     "685bc07b37254abeb1483ee005483f24": {
       "a": 1,
@@ -52588,6 +52799,14 @@
       "n": "Attachment 1 - Government Furnished Property.pdf",
       "s": "screened",
       "sol": "FA8538-27-R-B002"
+    },
+    "6f89f505a02f499faf6fe7ed892ca83a": {
+      "c": 1001,
+      "d": "2026-10-31",
+      "m": "xlsx",
+      "n": "SOW Attachment I  Quote Request Form (CONUS and OCONUS) Template.xlsx",
+      "s": "screened",
+      "sol": "697DCK-25-R-00368"
     },
     "6fa040caec234862966ce7e79de64321": {
       "c": 50986,
@@ -60631,6 +60850,15 @@
       "s": "wage_determination",
       "sol": "W900KK-26-R-A023"
     },
+    "7fc5c132b5204c49975ce0e9d346e175": {
+      "a": 1,
+      "d": "2026-10-31",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Solicitation Amendment - N0018927QL0080002.pdf",
+      "s": "retry",
+      "sol": "N0018927QL008"
+    },
     "7fc636ff0c974a51bb91653c924a1a49": {
       "c": 6655,
       "d": "2026-10-10",
@@ -65070,6 +65298,14 @@
       "n": "26Q0010_Attch 6_DOL WD.pdf",
       "s": "wage_determination",
       "sol": "FA800326Q0012"
+    },
+    "8986714fb7fc4124a2d9936883625af4": {
+      "c": 0,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "27QA010 Attachment II - Service Wage Determination 2015-5797 Revision Number 33 on 8-12-26.pdf",
+      "s": "wage_determination",
+      "sol": "W51AA127QA010"
     },
     "8990619b127847f889757b1c75542e80": {
       "c": 6073,
@@ -76753,6 +76989,24 @@
       "s": "screened",
       "sol": "12444726Q0069"
     },
+    "a12fc98c843c45b5962d5a4b007efde4": {
+      "c": 24,
+      "d": "2026-10-31",
+      "f": [
+        {
+          "context": "C:\\Users\\brandon.d.leblanc1\\Documents\\Drawing1",
+          "finding": "Leaked local path or file server in the file (user brandon.d.leblanc1)",
+          "kind": "metadata",
+          "news": 3,
+          "quote": "C:\\Users\\brandon.d.leblanc1\\Documents\\Drawing1",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Angled Section of Curtain.pdf",
+      "s": "screened",
+      "sol": "SPMYM327Q6001"
+    },
     "a132a44d30e5440fbbb6ed171b2b5fcc": {
       "c": 31906,
       "d": "2026-10-14",
@@ -77332,6 +77586,14 @@
       "s": "screened",
       "sol": "191BWC26R0009"
     },
+    "a24af68b98e2467cb7cd6ef6d826a8c6": {
+      "c": 755,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "S02 - SOW - Photos.pdf",
+      "s": "screened",
+      "sol": "36C25226B0030"
+    },
     "a24bdc9913b242aa9a7a6f3535651767": {
       "c": 3022,
       "d": "2026-10-29",
@@ -77714,6 +77976,23 @@
       "n": "MQR_Transparencies.pdf",
       "s": "screened",
       "sol": "FD20202700027"
+    },
+    "a33857f2c51c402c9c61288650c6e108": {
+      "c": 40981,
+      "d": "2026-10-31",
+      "f": [
+        {
+          "context": "model trained on vast, diverse datasets that enable the model to generate natural-language responses to user prompts. 2. \u201cRestricted Intellectual Property\u201d means computer code (whether machine readable or written in a programming language) and model weighting information. (b) Compliance with Unbiased AI Principles. Any LLM provided under this contract, including an LLM integrated into another software product or service, must adhere to the Unbiased AI Principles, truth-seeking and ideological neutrality, as set forth in Executive Order 14319, Preventing Woke AI in the Federal Government (July 23, 2025). (c) End-User Feedback. LLMs provided under this contract must provide a meaningful option for an end-user to submit feedback and provide notice on outputs, including those that violate the Unbiased AI Principles (such as a general inbox, specific product point of contact, or similar mechanism). (d) Disclosure Obligations. The Offeror (or, in the event of an existing contract, the Contractor) must clea",
+          "finding": "MDC Brooklyn issued a solicitation requiring any Large Language Models provided under the contract to comply with Executive Order 14319 regarding 'Unbiased AI Principles' and ideological neutrality.",
+          "news": 4,
+          "quote": "Any LLM provided under this contract, including an LLM integrated into another software product or service, must adhere to the Unbiased AI Principles, truth-seeking and ideological neutrality, as set forth in Executive Order 14319, Preventing Woke AI in the Federal Government (July 23, 2025).",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "SF-1442 QUOTE.pdf",
+      "s": "screened",
+      "sol": "15BBR027Q00000003"
     },
     "a33c023e4e3d4c8b8bff46ea291fced4": {
       "c": 1633,
@@ -78218,6 +78497,14 @@
       "n": "GE Healthcare_VHA_Maintenance_JEFO 09.23.26.pdf",
       "s": "screened",
       "sol": "VA797H17D0024-36C25727F0015"
+    },
+    "a430c26ee5e24c019bcf9f4f04893638": {
+      "c": 21145,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "Sol_140FF027Q0020.pdf",
+      "s": "screened",
+      "sol": "140FF027Q0020"
     },
     "a432d8dc9bbc4aab98ce23c6eb98f8bc": {
       "c": 15354,
@@ -83288,6 +83575,14 @@
       "s": "screened",
       "sol": "36C26027R0020"
     },
+    "af123548a8da4da6b3b736d72964faf3": {
+      "c": 799,
+      "d": "2026-10-31",
+      "m": "pdf",
+      "n": "27Q0142_ADDED DATA.pdf",
+      "s": "screened",
+      "sol": "SPMYM227Q0142"
+    },
     "af19162c538a40ba99b698c3c102d9cf": {
       "c": 5101,
       "d": "2026-10-13",
@@ -85408,6 +85703,14 @@
       "s": "wage_determination",
       "sol": "70Z08527QLRE0004"
     },
+    "b3b9d60daaac4ce588cbeb30b345a1b9": {
+      "c": 196033,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "yell10-24_Preliminary Plans.pdf",
+      "s": "screened",
+      "sol": "69056726R000020  "
+    },
     "b3bc5c30b6e24d308dfdd3cf903936d4": {
       "c": 158,
       "d": "2026-10-11",
@@ -85675,6 +85978,14 @@
       "n": "Atch 4 - Nondisclosure-Agreement-between-HUD-and-Contractor-Employee (2).docx",
       "s": "screened",
       "sol": "86614126R00002"
+    },
+    "b466936411fa44c585cae48af9f3bab3": {
+      "c": 239,
+      "d": "2026-10-31",
+      "m": "docx",
+      "n": "Contractor Information Form.docx",
+      "s": "screened",
+      "sol": "N4008527R0016"
     },
     "b46b818718ac4855a8961bdec7029903": {
       "c": 2625,
@@ -87039,6 +87350,23 @@
       "n": "10 44 16.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "b6d4e46306c74722b0a7e9b668373936": {
+      "c": 94369,
+      "d": "2026-10-31",
+      "f": [
+        {
+          "context": "a good faith estimate of the cost of iron or steel components excluding COTS fasteners. Steel means an alloy that includes at least 50 percent iron, between 0.02 and 2 percent carbon, and may include other elements. \"United States\" means the 50 States, the District of Columbia, and outlying areas. (b) Domestic preference. (1) This clause implements 41 U.S.C. chapter 83, Buy American, by providing a preference for domestic construction material. In accordance with 41 U.S.C. 1907, the domestic content test of the Buy American statute is waived for construction material that is a COTS item, except that for construction material that consists wholly or predominantly of iron or steel or a combination of both, the domestic content test is applied only to the iron and steel content of the construction materials, excluding COTS fasteners. (See FAR 12.505(a)(2)). The Contractor shall use only domestic construction material in performing this contract, except as p",
+          "finding": "Fermilab is procuring two conduction cooled superconducting radiofrequency cavities to support an Energy Research and Development Council (ERDC) project designing an industrial SRF accelerator for pavement treatment.",
+          "news": 4,
+          "quote": "This procurement supports the ERDC project, in which FNAL is designing an industrial SRF accelerator for pavement treatment.",
+          "verified": true
+        }
+      ],
+      "m": "zip",
+      "n": "RFP 384239.zip",
+      "s": "screened",
+      "sol": "RFP384239"
     },
     "b6dcdea5fe64440c873934a517adde29": {
       "c": 687,
@@ -94296,6 +94624,14 @@
       "s": "screened",
       "sol": "36C10B27Q0024"
     },
+    "c5b24842d64b45adb1fd1a95d14cd29a": {
+      "c": 0,
+      "d": "2026-10-31",
+      "m": "ocr-image",
+      "n": "Picture1.jpg",
+      "s": "no_text",
+      "sol": "FA663327QA001"
+    },
     "c5b8bc5bd9844bb0a8221b7e1550a4bd": {
       "c": 7278,
       "d": "2026-10-10",
@@ -98549,6 +98885,14 @@
       "s": "screened",
       "sol": "RFIPP002"
     },
+    "ce8ffa177fd244c2a3d8524eb48cb0cb": {
+      "c": 176274,
+      "d": "2026-10-31",
+      "m": "zip",
+      "n": "2PR0171-1 FEMA Bayamon PR - Request for Lease Proposals (09.08.26).zip",
+      "s": "screened",
+      "sol": "2PR0171-1"
+    },
     "ce905b4275504d4ca05cc06800319e65": {
       "c": 855,
       "d": "2026-10-10",
@@ -98726,12 +99070,12 @@
       "sol": "FA254927R0002"
     },
     "cef7d5b313f744358ee05423e6a70a0a": {
-      "a": 2,
+      "a": 3,
       "d": "2026-10-29",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "SON Tahoma National Cemetery Furniture Request 10.22.2026.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "36C78627Q0020"
     },
     "cf0557db33d74711ba69d0421c9a7c64": {
@@ -101274,6 +101618,15 @@
       "n": "0NC2145-1 RLP Ex A-Lease (issued 2026.05.29).pdf",
       "s": "screened",
       "sol": "0NC2145-1"
+    },
+    "d4415bfdf99b4927bc9314ef869ce6d4": {
+      "a": 1,
+      "d": "2026-10-31",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "C2 61881350 SAM Combined Synopsis - N4523A27Q5701.pdf",
+      "s": "retry",
+      "sol": "N4523A27Q5701"
     },
     "d4440d93ec0d4fd0a8fa4e1859d4ae58": {
       "c": 1709,
@@ -104287,6 +104640,24 @@
       "s": "screened",
       "sol": "W519TC-26-R-A056"
     },
+    "da898a0396494950ace746762541d57f": {
+      "c": 409880,
+      "d": "2026-10-31",
+      "f": [
+        {
+          "context": "hidden sheet: RefData",
+          "finding": "Excel workbook has 1 hidden sheet(s): RefData",
+          "kind": "metadata",
+          "news": 3,
+          "quote": "hidden sheet: RefData",
+          "verified": true
+        }
+      ],
+      "m": "xlsx",
+      "n": "36C26027Q0069 LineItems Back Up.xlsx",
+      "s": "screened",
+      "sol": "36C26027Q0096_0001"
+    },
     "da8a545a25cb4d2f9d6bb00a917ec64e": {
       "c": 957,
       "d": "2026-10-10",
@@ -105343,6 +105714,14 @@
       "n": "BIGST_TOPIC_07_LASER_QandA_10202026.pdf",
       "s": "screened",
       "sol": "HM047627XXXX"
+    },
+    "dc7077d1a4034513b7505b106dbedf80": {
+      "c": 659,
+      "d": "2026-10-31",
+      "m": "xlsx",
+      "n": "B08 Attachment 0001-Price Matrix Pull Strap IDIQ.xlsx",
+      "s": "screened",
+      "sol": "W519TC27"
     },
     "dc71297dee9f4ffa9a3ddbf48390a2ab": {
       "c": 13091,
@@ -106705,6 +107084,14 @@
       "n": "Questions and Answers.pdf",
       "s": "screened",
       "sol": "15BRRC26N00000014"
+    },
+    "df261b2c0e4942899345507fb1ff778c": {
+      "c": 0,
+      "d": "2026-10-31",
+      "m": "ocr-image",
+      "n": "Picture5.jpg",
+      "s": "no_text",
+      "sol": "FA663327QA001"
     },
     "df2740d45ecf4213a0158b6b5b8dd0ad": {
       "c": 20406,
@@ -112302,6 +112689,15 @@
       "n": "AIR_SPEC.pdf",
       "s": "screened",
       "sol": "FA821326R3031"
+    },
+    "ea30cedcb3d848e7989d58ccf656af0c": {
+      "a": 1,
+      "d": "2026-10-31",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Updated RFP 70SBUR27R00000001.pdf",
+      "s": "retry",
+      "sol": "70SBUR27R00000001"
     },
     "ea3cca62ae7643cfa01738d409092fe9": {
       "c": 141,
@@ -119368,6 +119764,14 @@
       "s": "screened",
       "sol": "140G0126Q0288"
     },
+    "f8434a5215c74362bbf8b0b99d566538": {
+      "c": 640,
+      "d": "2026-10-31",
+      "m": "xlsx",
+      "n": "C04 Attachment 1  Schedule of Items.xlsx",
+      "s": "screened",
+      "sol": "127EAX27Q0009"
+    },
     "f843c4c7d6f34db2aadc1da6bf9825e1": {
       "a": 3,
       "d": "2026-10-29",
@@ -122147,6 +122551,23 @@
       "s": "screened",
       "sol": "W9128A279A001"
     },
+    "fde01bc570a44bb2a8065072083b77f8": {
+      "c": 691,
+      "d": "2026-10-31",
+      "f": [
+        {
+          "context": "SYNOPSIS OF AWARD Stevedoring and Related Terminal Services Rotterdam, Netherlands HTC711-26-R-E121 On 20 October 2026, C. Steinweg-Handesveem B.V. was awarded a $40,933,818.75 Indefinite Delivery, Indefinite Quantity, fixed-priced contract for Stevedoring and Related Terminal Services at Rotterdam, Netherlands in response to Solicitation HTC711-26-R-E121. Work will be performed at the Port of Rotterdam during the 5 year period with an expected completion date of 31 October 2031. This contract was a competitive acquisition. The U.S. Transportation Command, Directorate of Acquisition, 508 Scott Drive, Scott AFB, IL is the contracting activity. The contract number is HTC711-27-D-E113.",
+          "finding": "C. Steinweg-Handesveem B.V. won a $40.9 million contract for stevedoring and terminal services at the Port of Rotterdam.",
+          "news": 4,
+          "quote": "On 20 October 2026, C. Steinweg-Handesveem B.V. was awarded a $40,933,818.75 Indefinite Delivery, Indefinite Quantity, fixed-priced contract for Stevedoring and Related Terminal Services at Rotterdam, Netherlands",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Synopsis of Award - Rotterdam.pdf",
+      "s": "screened",
+      "sol": "HTC71126RE121"
+    },
     "fde4c013723b44339773fd46d9a6e599": {
       "c": 7862,
       "d": "2026-10-18",
@@ -122728,6 +123149,14 @@
       "n": "S02_Att 8_Fort Sill NC 920CM3006 Plan Set Reduced 6 of 11.pdf",
       "s": "screened",
       "sol": "36C78626B0030"
+    },
+    "ff24ac755a9d46218ebf10dde6c5e330": {
+      "c": 315920,
+      "d": "2026-10-31",
+      "m": "ocr+pdf",
+      "n": "DACA095270087900 RLP - Package.pdf",
+      "s": "screened",
+      "sol": "DACA095270087900"
     },
     "ff2838cf09b942d8b70984fc46b3adbe": {
       "c": 1947,

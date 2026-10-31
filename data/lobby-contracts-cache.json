@@ -1,4 +1,8 @@
 {
+  "76dev": {
+    "checked": "2026-10-31",
+    "result": null
+  },
   "aaecon general contracting": {
     "checked": "2026-10-24",
     "result": null
@@ -161,6 +165,10 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "bixal solutions": {
+    "checked": "2026-10-31",
+    "result": null
+  },
   "blue cord design construction": {
     "checked": "2026-10-11",
     "result": null
@@ -258,9 +266,38 @@
     "checked": "2026-10-19",
     "result": null
   },
+  "complete care at lehigh": {
+    "checked": "2026-10-31",
+    "result": null
+  },
   "concordance healthcare solutions": {
     "checked": "2026-10-30",
     "result": null
+  },
+  "continuum care": {
+    "checked": "2026-10-31",
+    "result": null
+  },
+  "corecivic": {
+    "checked": "2026-10-31",
+    "result": {
+      "client": "CORECIVIC INC",
+      "firms": [
+        "AKIN GUMP STRAUSS HAUER & FELD",
+        "CORECIVIC, INC.",
+        "MILLER STRATEGIES, LLC"
+      ],
+      "issues": [
+        "Government Issues",
+        "Law Enforcement/Crime/Criminal Justice",
+        "Medicare/Medicaid",
+        "Budget/Appropriations"
+      ],
+      "n_filings": 9,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/9fab1e80-9569-4c10-bb2a-def54b1f3e00/print/",
+      "ytd": 1470000.0
+    }
   },
   "crane": {
     "checked": "2026-10-09",
@@ -294,8 +331,16 @@
     "checked": "2026-10-21",
     "result": null
   },
+  "environmental quality management": {
+    "checked": "2026-10-31",
+    "result": null
+  },
   "environmental restoration": {
     "checked": "2026-10-29",
+    "result": null
+  },
+  "excell construction": {
+    "checked": "2026-10-31",
     "result": null
   },
   "excelsior ambulance service": {
@@ -322,8 +367,41 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "g4s secure solutions usa": {
+    "checked": "2026-10-31",
+    "result": null
+  },
+  "geo group": {
+    "checked": "2026-10-31",
+    "result": {
+      "client": "THE GEO GROUP, INC.",
+      "firms": [
+        "CHECKMATE GOVERNMENT RELATIONS",
+        "DA VINCI GROUP",
+        "LIONEL \"LEO\" AGUIRRE"
+      ],
+      "issues": [
+        "Law Enforcement/Crime/Criminal Justice",
+        "Homeland Security",
+        "Immigration",
+        "Banking"
+      ],
+      "n_filings": 18,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/3698e9e9-d763-40bc-932f-d4b4a1870d9e/print/",
+      "ytd": 1030000.0
+    }
+  },
   "gideon contracting limited liability": {
     "checked": "2026-10-29",
+    "result": null
+  },
+  "gilbane federal": {
+    "checked": "2026-10-31",
+    "result": null
+  },
+  "govplace": {
+    "checked": "2026-10-31",
     "result": null
   },
   "guidehouse": {
@@ -336,6 +414,10 @@
   },
   "hamline construction": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "hammer lgc": {
+    "checked": "2026-10-31",
     "result": null
   },
   "hitt contracting": {
@@ -491,6 +573,10 @@
       "ytd": 150000.0
     }
   },
+  "king general contractors": {
+    "checked": "2026-10-31",
+    "result": null
+  },
   "kmk construction": {
     "checked": "2026-10-23",
     "result": null
@@ -593,6 +679,10 @@
       "ytd": 180000.0
     }
   },
+  "mdm kp jv": {
+    "checked": "2026-10-31",
+    "result": null
+  },
   "medical records maryland": {
     "checked": "2026-10-25",
     "result": null
@@ -627,6 +717,10 @@
   },
   "midwest radiology p a": {
     "checked": "2026-10-16",
+    "result": null
+  },
+  "midwestern construction services": {
+    "checked": "2026-10-31",
     "result": null
   },
   "mil": {
@@ -788,9 +882,33 @@
     "checked": "2026-10-29",
     "result": null
   },
+  "river street center opco": {
+    "checked": "2026-10-31",
+    "result": null
+  },
   "roche diagnostics": {
     "checked": "2026-10-10",
     "result": null
+  },
+  "rocket lab usa": {
+    "checked": "2026-10-31",
+    "result": {
+      "client": "ROCKET LAB USA, INC.",
+      "firms": [
+        "DLA PIPER LLP (US)",
+        "ROCKET LAB USA, INC.",
+        "VENTURE GOVERNMENT STRATEGIES, LLC (FKA HOBART HALLAWAY & QUAYLE VENTURES, LLC)"
+      ],
+      "issues": [
+        "Aerospace",
+        "Budget/Appropriations",
+        "Defense"
+      ],
+      "n_filings": 9,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/b8c1c0d5-5bd3-4613-bc5d-278f5b4c774a/print/",
+      "ytd": 860000.0
+    }
   },
   "sdv office systems": {
     "checked": "2026-10-22",
@@ -862,6 +980,26 @@
       "ytd": 31000.0
     }
   },
+  "southwest research institute": {
+    "checked": "2026-10-31",
+    "result": {
+      "client": "SOUTHWEST RESEARCH INSTITUTE",
+      "firms": [
+        "ACTUM I, LLC",
+        "AKIN GUMP STRAUSS HAUER & FELD"
+      ],
+      "issues": [
+        "Budget/Appropriations",
+        "Science/Technology",
+        "Aerospace",
+        "Defense"
+      ],
+      "n_filings": 6,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/e3b22b8f-f1b2-4bdd-b4c1-cb5a03355cdd/print/",
+      "ytd": 240000.0
+    }
+  },
   "southwest valley constructors": {
     "checked": "2026-10-11",
     "result": null
@@ -928,6 +1066,10 @@
   },
   "u s vet general contracting": {
     "checked": "2026-10-24",
+    "result": null
+  },
+  "unique cleaning service": {
+    "checked": "2026-10-31",
     "result": null
   },
   "united security": {
