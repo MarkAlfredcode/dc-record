@@ -28,6 +28,14 @@
       "ytd": 770000.0
     }
   },
+  "access interpreting": {
+    "checked": "2026-11-01",
+    "result": null
+  },
+  "adams associates": {
+    "checked": "2026-11-01",
+    "result": null
+  },
   "after action medical dental supply": {
     "checked": "2026-10-11",
     "result": null
@@ -105,6 +113,10 @@
     "checked": "2026-10-11",
     "result": null
   },
+  "ask sage": {
+    "checked": "2026-11-01",
+    "result": null
+  },
   "associated milk producers": {
     "checked": "2026-10-22",
     "result": null
@@ -152,6 +164,10 @@
       "url": "https://lda.gov/filings/public/filing/1d81daac-026a-4acd-b648-5513c007cd6c/print/",
       "ytd": 610000.0
     }
+  },
+  "axle informatics": {
+    "checked": "2026-11-01",
+    "result": null
   },
   "barque consulting": {
     "checked": "2026-10-09",
@@ -303,6 +319,10 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "daniels building": {
+    "checked": "2026-11-01",
+    "result": null
+  },
   "dap construction management": {
     "checked": "2026-10-29",
     "result": null
@@ -355,6 +375,10 @@
     "checked": "2026-10-23",
     "result": null
   },
+  "fayzamerica": {
+    "checked": "2026-11-01",
+    "result": null
+  },
   "fidelis sustainability distribution": {
     "checked": "2026-10-16",
     "result": null
@@ -369,6 +393,10 @@
   },
   "g4s secure solutions usa": {
     "checked": "2026-10-31",
+    "result": null
+  },
+  "gc joint venture": {
+    "checked": "2026-11-01",
     "result": null
   },
   "geo group": {
@@ -878,6 +906,10 @@
     "checked": "2026-10-05",
     "result": null
   },
+  "richard group": {
+    "checked": "2026-11-01",
+    "result": null
+  },
   "ridgway valley enterprises": {
     "checked": "2026-10-29",
     "result": null
@@ -908,6 +940,20 @@
       "quarters": 3,
       "url": "https://lda.gov/filings/public/filing/b8c1c0d5-5bd3-4613-bc5d-278f5b4c774a/print/",
       "ytd": 860000.0
+    }
+  },
+  "salvation army": {
+    "checked": "2026-11-01",
+    "result": {
+      "client": "THE SALVATION ARMY",
+      "firms": [
+        "MASIELLO MARTUCCI HUGHES KULPA(FKA MASIELLO, MARTUCCI & ASSOCIATES"
+      ],
+      "issues": [],
+      "n_filings": 2,
+      "quarters": 2,
+      "url": "https://lda.gov/filings/public/filing/7ab82ce5-e331-4307-a0f1-951be7d9f582/print/",
+      "ytd": 12000.0
     }
   },
   "sdv office systems": {
@@ -1008,12 +1054,24 @@
     "checked": "2026-10-08",
     "result": null
   },
+  "stg international": {
+    "checked": "2026-11-01",
+    "result": null
+  },
   "stonex financial": {
     "checked": "2026-10-15",
     "result": null
   },
   "structural engineering group": {
     "checked": "2026-10-29",
+    "result": null
+  },
+  "swingtech consulting": {
+    "checked": "2026-11-01",
+    "result": null
+  },
+  "teamgov": {
+    "checked": "2026-11-01",
     "result": null
   },
   "techanax": {
@@ -1096,6 +1154,10 @@
       "ytd": 235000.0
     }
   },
+  "university texas southwestern medical center": {
+    "checked": "2026-11-01",
+    "result": null
+  },
   "v3gate": {
     "checked": "2026-10-30",
     "result": null
@@ -1106,6 +1168,10 @@
   },
   "valor healthcare": {
     "checked": "2026-10-21",
+    "result": null
+  },
+  "vanguard inspection services": {
+    "checked": "2026-11-01",
     "result": null
   },
   "vantor services": {
@@ -1146,6 +1212,10 @@
   },
   "wieland rolled products north america": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "wsp usa services": {
+    "checked": "2026-11-01",
     "result": null
   }
 }
