@@ -2146,6 +2146,93 @@
    "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q4)",
    "timeline_text": "President Trump announces an energy ceasefire deal has been reached between Russia and Ukraine.",
    "added_by": "every-10-days refresh"
+  },
+  {
+   "label": "DOE emergency order: 13 states to use backup generation for grid",
+   "date": "2026-10-13",
+   "sectors": [
+    "insurers_utilities"
+   ],
+   "window_before_days": 7,
+   "window_after_days": 3,
+   "source": "https://virginiabusiness.com/doe-emergency-order-power-grid-backup-13-states/",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q4)",
+   "timeline_text": "The Department of Energy issues an emergency order directing thirteen states to use backup generation capabilities if necessary to maintain the power grid incase of widespread blackouts for a week period.",
+   "added_by": "every-10-days refresh"
+  },
+  {
+   "label": "$8B USDA farmer aid package for diesel and fertilizer costs",
+   "date": "2026-10-19",
+   "sectors": [
+    "agriculture"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.cnn.com/2026/10/20/economy/trump-farm-relief-fuel-prices",
+   "timeline": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q4)",
+   "timeline_text": "President Trump announces that Department of Agriculture is offering an $8 billion aid package for farmers to help cover high costs of diesel and fertilizer during a rally in Kansas. This would be the second package in 11 months.",
+   "added_by": "every-10-days refresh"
+  },
+  {
+   "label": "Binance hacked, ~$6.3B stolen",
+   "date": "2026-10-28",
+   "sectors": [
+    "crypto"
+   ],
+   "window_before_days": 7,
+   "window_after_days": 3,
+   "source": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+   "timeline": "https://en.wikipedia.org/wiki/2026",
+   "timeline_text": "Binance, the world's largest cryptocurrency exchange, is hacked and approximately 6.3 billion USD is stolen in the largest heist of its kind in history.",
+   "added_by": "every-10-days refresh",
+   "keywords": [
+    "binance",
+    "coinbase"
+   ],
+   "tickers": [
+    "COIN"
+   ]
+  },
+  {
+   "label": "QatarEnergy signs long-term LNG supply deal with U.S. through 2054",
+   "date": "2026-10-29",
+   "sectors": [
+    "oil_gas"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.reuters.com/business/energy/qatarenergy-buys-us-other-lng-hedge-future-hormuz-disruptions-2026-10-29/",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "QatarEnergy announces a long-term liquefied natural gas procurement agreement with the United States until 2054.",
+   "added_by": "every-10-days refresh",
+   "keywords": [
+    "cheniere",
+    "lng"
+   ],
+   "tickers": [
+    "LNG"
+   ]
+  },
+  {
+   "label": "U.S. authorizes sale of 500 Patriot missiles to Ukraine",
+   "date": "2026-10-30",
+   "sectors": [
+    "defense"
+   ],
+   "window_before_days": 14,
+   "window_after_days": 3,
+   "source": "https://www.thetimes.com/us/news-today/article/us-approves-sale-of-500-patriot-missiles-to-ukraine-r6ccb2jhw?eafs_enabled=false",
+   "timeline": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+   "timeline_text": "The Trump administration authorizes the sale of 500 Patriot missiles to Ukraine.",
+   "added_by": "every-10-days refresh",
+   "keywords": [
+    "raytheon",
+    "lockheed"
+   ],
+   "tickers": [
+    "RTX",
+    "LMT"
+   ]
   }
  ]
 }
