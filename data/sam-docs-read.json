@@ -116269,6 +116269,23 @@
       "s": "screened",
       "sol": "36C24726R0134"
     },
+    "ecd9fd89d0ac4b24b82e9285152e4baa": {
+      "c": 4755676,
+      "d": "2026-11-01",
+      "f": [
+        {
+          "context": "f refrigerant flow when the fan motor is de-energized for any cause. Centrifugal air conditioning plant control air piping - A dehydrator with upstream and downstream filters shall be installed in the control air piping. An audible and visual alarm shall be installed to warn of loss of control air pressure. Refrigerant detection system - Halocarbon monitors with audible and visual alarms shall be installed to eliminate risk to personnel should a major refrigerant leak occur. Halocarbon monitors shall be installed in all compartments with air conditioning and refrigeration plants except for the following: (a) main and auxiliary machinery rooms; (b) those compartments that have a ventilation rate of change of 2 minutes or less and are served by ventilation systems that have a damage control classification of either W or circle W; (c) Those compartments that have self-contained stand-alone refrigerant charged equipment (e.g., galley equipment, ice makers, self-contained air conditioning units, drinking water coolers, etc.) with",
+          "finding": "Navy ship overhaul specifications detail mandatory design and safety requirements for magazine sprinkling systems, firemain systems, and halocarbon refrigerant detection monitors.",
+          "news": 4,
+          "quote": "Halocarbon monitors with audible and visual alarms shall be installed to eliminate risk to personnel should a major refrigerant leak occur.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "S9AA0-AB-GOS-010_12_- General Specifications for Overhaul of Surface Ships.pdf",
+      "s": "screened",
+      "sol": "N0018927QL008"
+    },
     "ecda8bdd61854b549790bb210e595bdc": {
       "c": 0,
       "d": "2026-10-26",

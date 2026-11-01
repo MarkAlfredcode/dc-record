@@ -2667,7 +2667,7 @@
       "kind": "notice",
       "name": "Amendment 0003 .docx",
       "nids": [
-        "95cb0f67a9424efeaa4b24cc8ead73c3"
+        "a280243707b84d0f994c0f980ec50b25"
       ],
       "posted": "2026-10-22T19:14:33.735+00:00",
       "queued_since": "2026-10-22",
@@ -2680,7 +2680,7 @@
       ],
       "type": "Solicitation",
       "uiLinks": [
-        "https://sam.gov/opp/95cb0f67a9424efeaa4b24cc8ead73c3/view"
+        "https://sam.gov/opp/a280243707b84d0f994c0f980ec50b25/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03b5faf12ea54b6eadc61da15ab6c404/download"
     },
@@ -2903,6 +2903,28 @@
         "https://sam.gov/opp/f9e829f696f842bf9e0f029e5c67ac84/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03f4ec86e53e41bb9507a661e5b33ee0/download"
+    },
+    "03fc88f93185472abc792221e6220b12": {
+      "agency": "DEPT OF DEFENSE.USTRANSCOM.USTRANSCOM-AQ",
+      "kind": "notice",
+      "name": "TRANSCOM27C001 (RFI).docx",
+      "nids": [
+        "c2c29cf28973437882e72cd9cb6f7bf1"
+      ],
+      "posted": "2026-11-01T18:06:29.938+00:00",
+      "queued_since": "2026-11-01",
+      "size": 59302,
+      "sols": [
+        "TRANSCOM27C001SUB"
+      ],
+      "titles": [
+        "Commercial Passenger Airlift Service (121/135)"
+      ],
+      "type": "Sources Sought",
+      "uiLinks": [
+        "https://sam.gov/opp/c2c29cf28973437882e72cd9cb6f7bf1/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/03fc88f93185472abc792221e6220b12/download"
     },
     "03ffc26e72cf48699ae4fb085b4776ea": {
       "agency": "ENERGY, DEPARTMENT OF.ENERGY, DEPARTMENT OF.ORNL UT-BATTELLE LLC-DOE CONTRACTOR",
@@ -41778,6 +41800,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3aea4e927d42445f8bbef5f9557a083c/download"
     },
+    "3aeb5caffc63481da6e381bfcc2dd4e5": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
+      "kind": "notice",
+      "name": "1449 Solicitation for Boiler Inspections  36C26026Q0977 White City VA  FINAL.pdf",
+      "nids": [
+        "a280243707b84d0f994c0f980ec50b25"
+      ],
+      "posted": "2026-11-01T21:58:10.838+00:00",
+      "queued_since": "2026-11-01",
+      "size": 486741,
+      "sols": [
+        "36C26026Q0977 "
+      ],
+      "titles": [
+        "White City, Oregon, Boiler Inspection Services Solicitation Base Year + Four Option Years (offers are now due on 11/13/2026)"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a280243707b84d0f994c0f980ec50b25/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3aeb5caffc63481da6e381bfcc2dd4e5/download"
+    },
     "3aee89d8875b40a6a4b54f68cb08ee58": {
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE SUSTAINMENT CENTER.FA8252  AFSC PZAAB",
       "kind": "notice",
@@ -42481,6 +42525,28 @@
         "https://sam.gov/opp/b9980157aa8e4b2b93cae859fe7d068f/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c0529a69df041c996368f3fdbe2005e/download"
+    },
+    "3c0b61249c544a1caacc52fd5b52e27f": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.256-NETWORK CONTRACT OFFICE 16 (36C256)",
+      "kind": "notice",
+      "name": "36C25627Q0074.docx",
+      "nids": [
+        "306c1c0f89a84d7ab6a37455d3b1f416"
+      ],
+      "posted": "2026-11-01T22:42:34.595+00:00",
+      "queued_since": "2026-11-01",
+      "size": 133660,
+      "sols": [
+        "36C25627Q0074"
+      ],
+      "titles": [
+        "6550--Copy of 629-27-1-042-0024 Roche Ventana Reagents  36C256-27-AP-0548  36C25625D0002 (Current IDIQ- ends  10/15/2026) PND CHANGED TO 11/16/2026"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/306c1c0f89a84d7ab6a37455d3b1f416/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/3c0b61249c544a1caacc52fd5b52e27f/download"
     },
     "3c0c6b4bff354d11bcd178d25a142f46": {
       "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC RSA.W6QK ACC-RSA",
@@ -52294,6 +52360,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4a37e2dbe52147089edc00d6ed294ebc/download"
     },
+    "4a40a0d85a394e79bfa347b2b1af477f": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
+      "kind": "notice",
+      "name": "PWS White City Boiler Inspection Services  With Boiler Plant Operator FINAL.doc",
+      "nids": [
+        "a280243707b84d0f994c0f980ec50b25"
+      ],
+      "posted": "2026-11-01T20:05:45.355+00:00",
+      "queued_since": "2026-11-01",
+      "size": 71680,
+      "sols": [
+        "36C26026Q0977 "
+      ],
+      "titles": [
+        "White City, Oregon, Boiler Inspection Services Solicitation Base Year + Four Option Years (offers are now due on 11/13/2026)"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a280243707b84d0f994c0f980ec50b25/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4a40a0d85a394e79bfa347b2b1af477f/download"
+    },
     "4a441846bc4b420b8845ecd6ea6e44ba": {
       "agency": "JUSTICE, DEPARTMENT OF.OFFICES, BOARDS AND DIVISIONS.EOUSA-ACQUISITIONS STAFF",
       "kind": "notice",
@@ -53135,7 +53223,7 @@
       "kind": "notice",
       "name": "FINAL_Nellis_F47_MACH1_AOI_30OCT26_V1.docx",
       "nids": [
-        "d0690db5516449e297e6aa39a9a8cee8"
+        "658688de13cd41a5876a0d76a18071a3"
       ],
       "posted": "2026-10-30T20:35:15.657+00:00",
       "queued_since": "2026-10-30",
@@ -53148,7 +53236,7 @@
       ],
       "type": "Presolicitation",
       "uiLinks": [
-        "https://sam.gov/opp/d0690db5516449e297e6aa39a9a8cee8/view"
+        "https://sam.gov/opp/658688de13cd41a5876a0d76a18071a3/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/4b66f24cc8db476d8774c4ed59b48ebf/download"
     },
@@ -57689,7 +57777,7 @@
       "kind": "notice",
       "name": "Grease Trap Cleaning Scope of Work - Updated.pdf",
       "nids": [
-        "9bd2994bcbb54dbb91ef20306beb4651"
+        "00d900eac4244ecea9af4b420d924524"
       ],
       "posted": "2026-10-06T20:00:40.504+00:00",
       "queued_since": "2026-10-28",
@@ -57702,7 +57790,7 @@
       ],
       "type": "Combined Synopsis/Solicitation",
       "uiLinks": [
-        "https://sam.gov/opp/9bd2994bcbb54dbb91ef20306beb4651/view"
+        "https://sam.gov/opp/00d900eac4244ecea9af4b420d924524/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/51e9442ee73242229e849785111e8a3c/download"
     },
@@ -68359,7 +68447,7 @@
       "kind": "notice",
       "name": "Grease Trap Cleaning Scope of Work.pdf",
       "nids": [
-        "9bd2994bcbb54dbb91ef20306beb4651"
+        "00d900eac4244ecea9af4b420d924524"
       ],
       "posted": "2026-09-30T14:24:17.078+00:00",
       "queued_since": "2026-10-28",
@@ -68372,7 +68460,7 @@
       ],
       "type": "Combined Synopsis/Solicitation",
       "uiLinks": [
-        "https://sam.gov/opp/9bd2994bcbb54dbb91ef20306beb4651/view"
+        "https://sam.gov/opp/00d900eac4244ecea9af4b420d924524/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/61003b6882d14e5886e8dcb0970579eb/download"
     },
@@ -85382,6 +85470,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/79471eae42d74bee81ace08636e98081/download"
     },
+    "79480993725d4da2b548aa3958fac293": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NATIONAL CEMETERY ADMIN (36C786)",
+      "kind": "notice",
+      "name": "36C78626R50120_0009.pdf",
+      "nids": [
+        "891c6a449c26485c8e47b6d605cb2468"
+      ],
+      "posted": "2026-11-01T20:57:46.745+00:00",
+      "queued_since": "2026-11-01",
+      "size": 40768,
+      "sols": [
+        "36C78626R501200009"
+      ],
+      "titles": [
+        "Grounds maintenance services for Riverside National Cemetery. -- S208"
+      ],
+      "type": "Special Notice",
+      "uiLinks": [
+        "https://sam.gov/opp/891c6a449c26485c8e47b6d605cb2468/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/79480993725d4da2b548aa3958fac293/download"
+    },
     "794b080a48a647eeb1cd351638e92519": {
       "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA ENERGY.DLA ENERGY",
       "kind": "notice",
@@ -89435,7 +89545,7 @@
       "kind": "notice",
       "name": "MACH1 Q_A_Comments Draft AOI Comments_28OCT26.xlsx",
       "nids": [
-        "d0690db5516449e297e6aa39a9a8cee8"
+        "658688de13cd41a5876a0d76a18071a3"
       ],
       "posted": "2026-10-30T20:35:15.657+00:00",
       "queued_since": "2026-10-30",
@@ -89448,7 +89558,7 @@
       ],
       "type": "Presolicitation",
       "uiLinks": [
-        "https://sam.gov/opp/d0690db5516449e297e6aa39a9a8cee8/view"
+        "https://sam.gov/opp/658688de13cd41a5876a0d76a18071a3/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/7f671ce070a3416fbe2c43f13770eb23/download"
     },
@@ -95480,6 +95590,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/883ebb05275c4fdeb275464a3a3bc1f1/download"
     },
+    "8858ecbfe364419fa890fca5567eba94": {
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AF INSTALLATION & MISSION SUPPORT CENTER.FA8903  772 ESS PK",
+      "kind": "notice",
+      "name": "Nellis_F47_MACH1_AOI_Attachment_F_Commercial_Pricing_V1.docx",
+      "nids": [
+        "658688de13cd41a5876a0d76a18071a3"
+      ],
+      "posted": "2026-11-01T21:51:18.525+00:00",
+      "queued_since": "2026-11-01",
+      "size": 48460,
+      "sols": [
+        "FA890327M1006"
+      ],
+      "titles": [
+        "MACH1_AOI_FA890327M1006_F-47 Future Campus at Nellis AFB"
+      ],
+      "type": "Presolicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/658688de13cd41a5876a0d76a18071a3/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8858ecbfe364419fa890fca5567eba94/download"
+    },
     "886a7cf2179742c0af1d4ef9bfe6cf9a": {
       "agency": "JUSTICE, DEPARTMENT OF.FEDERAL PRISON SYSTEM / BUREAU OF PRISONS.RESIDENTIAL REENTRY - CO",
       "kind": "notice",
@@ -97679,6 +97811,28 @@
         "https://sam.gov/opp/2820d0e268c742a6bf377e105c106142/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8b7e4f03f2404dd0bb68efa48cf331a3/download"
+    },
+    "8b84eb200cec4ae18441f8d3e96e0eab": {
+      "agency": "DEPT OF DEFENSE.USTRANSCOM.USTRANSCOM-AQ",
+      "kind": "notice",
+      "name": "TRANSCOM27C001 (RFI).docx",
+      "nids": [
+        "3a8c1a8aa4514f0e9d37212c416fbcb7"
+      ],
+      "posted": "2026-11-01T18:00:44.906+00:00",
+      "queued_since": "2026-11-01",
+      "size": 59302,
+      "sols": [
+        "TRANSCOM27C001"
+      ],
+      "titles": [
+        "Commercial Passenger Airlift Service (121/135)"
+      ],
+      "type": "Sources Sought",
+      "uiLinks": [
+        "https://sam.gov/opp/3a8c1a8aa4514f0e9d37212c416fbcb7/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/8b84eb200cec4ae18441f8d3e96e0eab/download"
     },
     "8b89bcb07c8b4171a72632c91aef1304": {
       "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.MSC.MSC HQS.MSC NORFOLK",
@@ -118316,6 +118470,28 @@
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/aa970e0c2e08494e8d7c0e504ac6483a/download"
     },
+    "aa972f2f87bd4f50b7286be5d0c9792a": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.260-NETWORK CONTRACT OFFICE 20 (36C260)",
+      "kind": "notice",
+      "name": "amendment 0004 questions.docx",
+      "nids": [
+        "a280243707b84d0f994c0f980ec50b25"
+      ],
+      "posted": "2026-11-01T20:05:45.355+00:00",
+      "queued_since": "2026-11-01",
+      "size": 14876,
+      "sols": [
+        "36C26026Q0977 "
+      ],
+      "titles": [
+        "White City, Oregon, Boiler Inspection Services Solicitation Base Year + Four Option Years (offers are now due on 11/13/2026)"
+      ],
+      "type": "Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/a280243707b84d0f994c0f980ec50b25/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/aa972f2f87bd4f50b7286be5d0c9792a/download"
+    },
     "aa9c4a6733534413a32fe6c3053e52d6": {
       "agency": "GENERAL SERVICES ADMINISTRATION.PUBLIC BUILDINGS SERVICE.PBS R00 OFFICE OF LEASING",
       "kind": "notice",
@@ -123815,6 +123991,28 @@
         "https://sam.gov/opp/a8ec5cdec8094a11bd6241dfeeb76d69/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b232b42a6f424c81bb68ce6375ae41ac/download"
+    },
+    "b23d3a992fac4be9b0734211a450cba3": {
+      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE TEST CENTER.FA9101  AEDC PKP   PROCRMNT BR",
+      "kind": "notice",
+      "name": "RWP_ICD 705 Tailers.pdf",
+      "nids": [
+        "36ccbc3c60f145adb58f1b4495248307"
+      ],
+      "posted": "2026-11-01T19:18:56.118+00:00",
+      "queued_since": "2026-11-01",
+      "size": 334578,
+      "sols": [
+        "FA9101279ICD705"
+      ],
+      "titles": [
+        "Request for White Paper - ICD 705 Compliant Trailers"
+      ],
+      "type": "Special Notice",
+      "uiLinks": [
+        "https://sam.gov/opp/36ccbc3c60f145adb58f1b4495248307/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b23d3a992fac4be9b0734211a450cba3/download"
     },
     "b23d5b2c4878438cb353d3fcf2e800d9": {
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR FORCE MATERIEL COMMAND.AIR FORCE TEST CENTER.FA2823  AFTC PZIO",
@@ -134903,6 +135101,28 @@
         "https://sam.gov/opp/51a60db88b2d47049f050b7aba7120df/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c2293aeed67d41ceac25a80063648be1/download"
+    },
+    "c240c4217b9749809449f23b621f34b7": {
+      "agency": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.256-NETWORK CONTRACT OFFICE 16 (36C256)",
+      "kind": "notice",
+      "name": "Roche Reagents Price List 2026-2031.xlsx",
+      "nids": [
+        "306c1c0f89a84d7ab6a37455d3b1f416"
+      ],
+      "posted": "2026-11-01T22:42:34.595+00:00",
+      "queued_since": "2026-11-01",
+      "size": 90506,
+      "sols": [
+        "36C25627Q0074"
+      ],
+      "titles": [
+        "6550--Copy of 629-27-1-042-0024 Roche Ventana Reagents  36C256-27-AP-0548  36C25625D0002 (Current IDIQ- ends  10/15/2026) PND CHANGED TO 11/16/2026"
+      ],
+      "type": "Combined Synopsis/Solicitation",
+      "uiLinks": [
+        "https://sam.gov/opp/306c1c0f89a84d7ab6a37455d3b1f416/view"
+      ],
+      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c240c4217b9749809449f23b621f34b7/download"
     },
     "c2459babf4a54050acb386278a4dcc55": {
       "agency": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY.DLA AVIATION.DLA AVIATION OKLAHOMA CITY.DLA AVIATION AT OKLAHOMA CITY, OK",
@@ -163899,28 +164119,6 @@
         "https://sam.gov/opp/1479442e64d740b59cc92c717bd329bc/view"
       ],
       "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ecd822e91b68411b9b1d827362b9c54a/download"
-    },
-    "ecd9fd89d0ac4b24b82e9285152e4baa": {
-      "agency": "DEPT OF DEFENSE.DEPT OF THE NAVY.NAVSUP.NAVSUP GLOBAL LOGISTICS SUPPORT.NAVSUP FLC NORFOLK.NAVSUP FLT LOG CTR NORFOLK",
-      "kind": "notice",
-      "name": "S9AA0-AB-GOS-010_12_- General Specifications for Overhaul of Surface Ships.pdf",
-      "nids": [
-        "0787109896184c1eb23a7144247705ec"
-      ],
-      "posted": "2026-10-19T13:32:37.141+00:00",
-      "queued_since": "2026-10-19",
-      "size": 20273248,
-      "sols": [
-        "N0018927QL008"
-      ],
-      "titles": [
-        "TSV4 NARR MESSING AND MODERNIZATION"
-      ],
-      "type": "Solicitation",
-      "uiLinks": [
-        "https://sam.gov/opp/0787109896184c1eb23a7144247705ec/view"
-      ],
-      "url": "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/ecd9fd89d0ac4b24b82e9285152e4baa/download"
     },
     "ecdbc5aacccf458f8219902824aec36a": {
       "agency": "TRANSPORTATION, DEPARTMENT OF.MARITIME ADMINISTRATION.6923G2 DOT  MARITIME ADMINISTRATION",
