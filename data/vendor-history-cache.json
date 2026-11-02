@@ -100,6 +100,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "accenture federal service": {
+    "d": "2026-11-02",
+    "examples": [
+      {
+        "agency": "Department of Education",
+        "amount": 1505648979.22,
+        "recipient": "ACCENTURE FEDERAL SERVICES LLC",
+        "start": "2015-03-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EDFSA15C0006_9100_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Education",
+        "amount": 943157459.01,
+        "recipient": "ACCENTURE FEDERAL SERVICES LLC",
+        "start": "2019-02-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_91003119F0003_9100_HHSN316201200002W_7529"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 896468884.44,
+        "recipient": "ACCENTURE FEDERAL SERVICES LLC",
+        "start": "2019-12-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J20C0005_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1999-09-02",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "acentra health": {
     "d": "2026-10-20",
     "examples": [
@@ -3373,6 +3402,35 @@
     "first": "2022-03-18",
     "has_contracts": true,
     "raw_hits": 3
+  },
+  "financial time": {
+    "d": "2026-11-02",
+    "examples": [
+      {
+        "agency": "Department of State",
+        "amount": 1308521.0,
+        "recipient": "FINANCIAL TIMES LIMITED(THE)",
+        "start": "2021-11-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM22C0029_1900_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 925186.0,
+        "recipient": "FINANCIAL TIMES LIMITED(THE)",
+        "start": "2022-09-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1331L522P13OS0078_1301_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 756000.0,
+        "recipient": "FINANCIAL TIMES LIMITED(THE)",
+        "start": "2020-02-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1331L520P13500029_1301_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-09-01",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "fish & wildlife research institute": {
     "d": "2026-10-27",
@@ -11556,6 +11614,35 @@
     "first": "2022-01-19",
     "has_contracts": true,
     "raw_hits": 13
+  },
+  "veritium ingenuity": {
+    "d": "2026-11-02",
+    "examples": [
+      {
+        "agency": "Department of Transportation",
+        "amount": 27373421.04,
+        "recipient": "VERITIUM INGENUITY, LLC",
+        "start": "2023-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ323F00167N_6925_693JK420D500001_6901"
+      },
+      {
+        "agency": "Department of Transportation",
+        "amount": 19531924.65,
+        "recipient": "VERITIUM INGENUITY, LLC",
+        "start": "2020-04-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ320F000166_6925_693JK420D500001_6901"
+      },
+      {
+        "agency": "Department of Transportation",
+        "amount": 198604.0,
+        "recipient": "VERITIUM INGENUITY, LLC",
+        "start": "2023-04-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_693JJ323F00084N_6925_693JK420D500001_6901"
+      }
+    ],
+    "first": "2020-04-30",
+    "has_contracts": true,
+    "raw_hits": 4
   },
   "veteran first supply": {
     "d": "2026-10-28",

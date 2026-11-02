@@ -319,6 +319,24 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "csi aviation": {
+    "checked": "2026-11-02",
+    "result": {
+      "client": "CSI AVIATION INC.",
+      "firms": [
+        "NAVIGATORS GLOBAL LLC (FORMERLY DC NAVIGATORS, LLC)"
+      ],
+      "issues": [
+        "Homeland Security",
+        "Transportation",
+        "Budget/Appropriations"
+      ],
+      "n_filings": 3,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/0a1aed23-114c-4662-ac6c-a6c65e767f58/print/",
+      "ytd": 270000.0
+    }
+  },
   "daniels building": {
     "checked": "2026-11-01",
     "result": null
