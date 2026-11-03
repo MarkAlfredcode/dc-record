@@ -29,6 +29,17 @@
     "stamped": "2026-10-23",
     "type": "Supplemental Statement"
   },
+  "https://efile.fara.gov/docs/1813-Supplemental-Statement-20261030-51.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "1813",
+    "registrant": "JETRO, San Francisco",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/2244-Informational-Materials-20261030-1.pdf": {
     "fp": "Royal Embassy of Saudi Arabia, Washington, D.C. (SAUDI ARABIA)",
     "hits": [],
@@ -61,16 +72,6 @@
     "scanned": "2026-10-31",
     "stamped": "2026-10-28",
     "type": "Supplemental Statement"
-  },
-  "https://efile.fara.gov/docs/2619-Informational-Materials-20261012-3.pdf": {
-    "fp": "Turkish Republic of Northern Cyprus, H.E. Mr. Tufan Erhiirman' (CYPRUS)",
-    "hits": [],
-    "more": 0,
-    "num": "2619",
-    "registrant": "Representative of the Turkish Republic of Northern Cyprus",
-    "scanned": "2026-10-16",
-    "stamped": "2026-10-12",
-    "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/2619-Informational-Materials-20261023-7.pdf": {
     "fp": "Turkish Republic of Northern Cyprus, H.E. Mr. Tufan Erhiirman' (CYPRUS)",
@@ -387,6 +388,72 @@
     "stamped": "2026-10-16",
     "type": "Exhibit AB"
   },
+  "https://efile.fara.gov/docs/6212-Amendment-20261030-12.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6212",
+    "registrant": "Finn Partners, Inc.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6212-Amendment-20261030-13.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6212",
+    "registrant": "Finn Partners, Inc.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6212-Amendment-20261030-14.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6212",
+    "registrant": "Finn Partners, Inc.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6212-Amendment-20261030-15.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6212",
+    "registrant": "Finn Partners, Inc.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6212-Exhibit-AB-20261030-4.pdf": {
+    "fp": "Travel Alberta (CANADA)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6212",
+    "registrant": "Finn Partners, Inc.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Exhibit AB"
+  },
+  "https://efile.fara.gov/docs/6212-Exhibit-AB-20261030-5.pdf": {
+    "fp": "Travel Alberta (CANADA)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6212",
+    "registrant": "Finn Partners, Inc.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Exhibit AB"
+  },
   "https://efile.fara.gov/docs/6212-Supplemental-Statement-20261028-27.pdf": {
     "fp": "",
     "hits": [],
@@ -502,6 +569,36 @@
     "stamped": "2026-10-27",
     "type": "Informational Materials"
   },
+  "https://efile.fara.gov/docs/6278-Supplemental-Statement-20261031-24.pdf": {
+    "fp": "",
+    "hits": [
+      {
+        "method": "",
+        "role": "Secretary of State (also national security advisor from May 2025), 2025-",
+        "snippet": "through Aster Legal Vance, Secretary of partnership to confront / State Marco Rubio, terrorism in West Africa. / Nigeria's National",
+        "tier": "name",
+        "who": "Marco Rubio"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "6278",
+    "registrant": "DCI Group AZ, LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-31",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/6280-Supplemental-Statement-20261030-23.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6280",
+    "registrant": "DB3, LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/6317-Supplemental-Statement-20261029-22.pdf": {
     "fp": "",
     "hits": [],
@@ -523,6 +620,28 @@
     "scanned": "2026-10-31",
     "stamped": "2026-10-29",
     "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6595-Supplemental-Statement-20261030-16.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6595",
+    "registrant": "Bayaziddi, Salah",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/6596-Supplemental-Statement-20261029-17.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6596",
+    "registrant": "TRG Advisory Services, LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-29",
+    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/6633-Informational-Materials-20261013-11.pdf": {
     "fp": "CCTV (CHINA)",
@@ -717,6 +836,182 @@
     "stamped": "2026-10-15",
     "type": "Amendment"
   },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-10.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-11.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-12.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-13.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-14.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-15.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-4.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-5.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-6.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-7.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-8.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6698-Amendment-20261030-9.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6698",
+    "registrant": "Teneo Strategy LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/6727-Supplemental-Statement-20261030-14.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6727",
+    "registrant": "Mukasey, Michael B.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/6798-Supplemental-Statement-20261029-14.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6798",
+    "registrant": "Somaliland Mission USA, LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-29",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/6806-Supplemental-Statement-20261030-15.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6806",
+    "registrant": "Terakeet LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/6815-Supplemental-Statement-20261030-12.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "6815",
+    "registrant": "Patrick Griffin",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/7002-Informational-Materials-20261019-62.pdf": {
     "fp": "DIHK DEinternational GmbH (GERMANY)",
     "hits": [],
@@ -838,6 +1133,17 @@
     "stamped": "2026-10-21",
     "type": "Exhibit AB"
   },
+  "https://efile.fara.gov/docs/7172-Supplemental-Statement-20261030-9.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7172",
+    "registrant": "Walker-Huntington, Dahlia Ann",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/7252-Informational-Materials-20261022-69.pdf": {
     "fp": "The Public Investment Fund (SAUDI ARABIA)",
     "hits": [],
@@ -860,6 +1166,17 @@
     "stamped": "2026-10-29",
     "type": "Informational Materials"
   },
+  "https://efile.fara.gov/docs/7252-Supplemental-Statement-20261029-7.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7252",
+    "registrant": "USSA International LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-29",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/7255-Informational-Materials-20261020-1.pdf": {
     "fp": "Dr. Joel Gbenga Olawepo-Hashim (NIGERIA)",
     "hits": [],
@@ -870,6 +1187,17 @@
     "scanned": "2026-10-22",
     "stamped": "2026-10-20",
     "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7264-Supplemental-Statement-20261031-11.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7264",
+    "registrant": "Peterson, Charles Hayes",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-31",
+    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7318-Amendment-20261013-9.pdf": {
     "fp": "",
@@ -903,6 +1231,17 @@
     "stamped": "2026-10-28",
     "type": "Exhibit AB"
   },
+  "https://efile.fara.gov/docs/7321-Supplemental-Statement-20261030-6.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7321",
+    "registrant": "DGA Group LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/7338-Supplemental-Statement-20261026-6.pdf": {
     "fp": "",
     "hits": [],
@@ -924,6 +1263,17 @@
     "scanned": "2026-10-31",
     "stamped": "2026-10-28",
     "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/7379-Supplemental-Statement-20261101-4.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7379",
+    "registrant": "Luxcore, Ltd.",
+    "scanned": "2026-11-03",
+    "stamped": "2026-11-01",
+    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7382-Amendment-20261021-8.pdf": {
     "fp": "",
@@ -947,6 +1297,17 @@
     "stamped": "2026-10-21",
     "type": "Exhibit AB"
   },
+  "https://efile.fara.gov/docs/7382-Supplemental-Statement-20261027-5.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7382",
+    "registrant": "Miles Partnership, LLLP",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-27",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/7407-Amendment-20261021-1.pdf": {
     "fp": "",
     "hits": [],
@@ -957,16 +1318,6 @@
     "scanned": "2026-10-23",
     "stamped": "2026-10-21",
     "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7435-Informational-Materials-20261012-17.pdf": {
-    "fp": "The Public Investment Fund (SAUDI ARABIA)",
-    "hits": [],
-    "more": 0,
-    "num": "7435",
-    "registrant": "Prosek LLC d/b/a Prosek Partners",
-    "scanned": "2026-10-16",
-    "stamped": "2026-10-12",
-    "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7454-Supplemental-Statement-20261029-4.pdf": {
     "fp": "",
@@ -1056,6 +1407,17 @@
     "stamped": "2026-10-27",
     "type": "Amendment"
   },
+  "https://efile.fara.gov/docs/7554-Supplemental-Statement-20261030-2.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7554",
+    "registrant": "Rathmell Short LLP",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
   "https://efile.fara.gov/docs/7557-Informational-Materials-20261022-1.pdf": {
     "fp": "Embassy of the Principality of Monaco (MONACO)",
     "hits": [],
@@ -1140,34 +1502,15 @@
     "stamped": "2026-10-21",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/7563-Amendment-20261012-1.pdf": {
+  "https://efile.fara.gov/docs/7562-Supplemental-Statement-20261030-4.pdf": {
     "fp": "",
     "hits": [],
+    "md": [],
     "more": 0,
-    "num": "7563",
-    "registrant": "Bosnian American Alliance Inc.",
-    "scanned": "2026-10-14",
-    "stamped": "2026-10-12",
-    "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7563-Amendment-20261012-2.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7563",
-    "registrant": "Bosnian American Alliance Inc.",
-    "scanned": "2026-10-14",
-    "stamped": "2026-10-12",
-    "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7563-Supplemental-Statement-20261012-2.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7563",
-    "registrant": "Bosnian American Alliance Inc.",
-    "scanned": "2026-10-14",
-    "stamped": "2026-10-12",
+    "num": "7562",
+    "registrant": "RRB Strategies LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
     "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7611-Supplemental-Statement-20261020-1.pdf": {
@@ -1191,16 +1534,6 @@
     "scanned": "2026-10-22",
     "stamped": "2026-10-20",
     "type": "Supplemental Statement"
-  },
-  "https://efile.fara.gov/docs/7627-Informational-Materials-20261012-21.pdf": {
-    "fp": "The National Assembly of the Republic of Korea (KOREA, SOUTH)",
-    "hits": [],
-    "more": 0,
-    "num": "7627",
-    "registrant": "Korea Inter-Parliamentary Exchange Center",
-    "scanned": "2026-10-16",
-    "stamped": "2026-10-12",
-    "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7627-Informational-Materials-20261015-22.pdf": {
     "fp": "The National Assembly of the Republic of Korea (KOREA, SOUTH)",
@@ -1293,6 +1626,28 @@
     "registrant": "Bridges Partners LLC",
     "scanned": "2026-10-22",
     "stamped": "2026-10-19",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/7653-Supplemental-Statement-20261030-2.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7653",
+    "registrant": "Show Faith by Works, LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Supplemental Statement"
+  },
+  "https://efile.fara.gov/docs/7655-Supplemental-Statement-20261030-2.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7655",
+    "registrant": "Craft Media Digital",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
     "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7684-Informational-Materials-20261019-9.pdf": {
@@ -1489,14 +1844,26 @@
     "stamped": "2026-10-27",
     "type": "Exhibit AB"
   },
-  "https://efile.fara.gov/docs/7778-Exhibit-AB-20261012-2.pdf": {
-    "fp": "Olara Otunnu (UGANDA)",
+  "https://efile.fara.gov/docs/7749-Amendment-20261030-1.pdf": {
+    "fp": "",
     "hits": [],
+    "md": [],
     "more": 0,
-    "num": "7778",
-    "registrant": "Rubenstein Public Relations, Inc.",
-    "scanned": "2026-10-14",
-    "stamped": "2026-10-12",
+    "num": "7749",
+    "registrant": "Guidepost Strategies",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
+    "type": "Amendment"
+  },
+  "https://efile.fara.gov/docs/7749-Exhibit-AB-20261030-1.pdf": {
+    "fp": "Embassy of the United Arab Emirates (through Akin (UNITED ARAB EMIRATES)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7749",
+    "registrant": "Guidepost Strategies",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-30",
     "type": "Exhibit AB"
   },
   "https://efile.fara.gov/docs/7778-Informational-Materials-20261015-1.pdf": {
@@ -1530,16 +1897,6 @@
     "scanned": "2026-10-30",
     "stamped": "2026-10-27",
     "type": "Informational Materials"
-  },
-  "https://efile.fara.gov/docs/7778-Registration-Statement-20261012-1.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "7778",
-    "registrant": "Rubenstein Public Relations, Inc.",
-    "scanned": "2026-10-14",
-    "stamped": "2026-10-12",
-    "type": "Registration Statement"
   },
   "https://efile.fara.gov/docs/7779-Exhibit-AB-20261016-1.pdf": {
     "fp": "Kamituga Mining SA (CONGO, DEMOCRATIC REPUBLIC OF THE)",
@@ -1792,6 +2149,61 @@
     "registrant": "Olympic Media LLC - DBA Starboard LLC",
     "scanned": "2026-10-31",
     "stamped": "2026-10-28",
+    "type": "Registration Statement"
+  },
+  "https://efile.fara.gov/docs/7789-Exhibit-AB-20261028-2.pdf": {
+    "fp": "International Federation for Rights and Development (IFRD) (BELGIUM)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7789",
+    "registrant": "The Truth and Conciliation Commission",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-28",
+    "type": "Exhibit AB"
+  },
+  "https://efile.fara.gov/docs/7789-Registration-Statement-20261028-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7789",
+    "registrant": "The Truth and Conciliation Commission",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-28",
+    "type": "Registration Statement"
+  },
+  "https://efile.fara.gov/docs/7790-Exhibit-AB-20261028-1.pdf": {
+    "fp": "The Equitable Party (TEP) (KENYA)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7790",
+    "registrant": "Shanga, Gilbert",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-28",
+    "type": "Exhibit AB"
+  },
+  "https://efile.fara.gov/docs/7790-Registration-Statement-20261028-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7790",
+    "registrant": "Shanga, Gilbert",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-28",
+    "type": "Registration Statement"
+  },
+  "https://efile.fara.gov/docs/7791-Registration-Statement-20261029-1.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7791",
+    "registrant": "Javelin Advisors LLC",
+    "scanned": "2026-11-03",
+    "stamped": "2026-10-29",
     "type": "Registration Statement"
   }
 }

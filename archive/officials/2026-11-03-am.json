@@ -1,0 +1,377 @@
+{
+ "date": "Tuesday, November 3, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Rep. Dan Crenshaw still has no 2025 annual financial disclosure on file, 82 days past his final extension",
+  "dek": "The Clerk of the House index shows only an extension, filed June 4, 2026, for the Texas Republican.",
+  "paragraphs": [
+   "<strong>Rep. Dan Crenshaw</strong> (R-TX-2) is the only sitting member the Deadline Watch check found with no calendar-year 2025 annual disclosure on file after every extension. He filed for an extension on June 4, 2026. His final extended deadline was August 13, 2026, which is 82 days ago.",
+   "The check covers the Clerk of the House index and Senate eFD, but the Senate half failed in this run (a data error on both the annual-report check and the extensions lookup). The finding therefore rests on the House data. A filing under an unexpected spelling of a name can read as missing, so the result is not independently confirmed.",
+   "Separately, the Ethics Agreement Tracker lists seven confirmed officials with no posted certification of ethics-agreement compliance, more than 30 days past deadline. The longest overdue is <strong>Michelle White Bowman</strong>, Federal Reserve Governor and Vice Chairman for Supervision, at 427 days."
+  ]
+ },
+ "sections": [
+  {
+   "eyebrow": "Contacts With the President, VP & Cabinet",
+   "headline": "One DCI Group filing names Secretary of State Marco Rubio next to a West Africa terrorism entry",
+   "paragraphs": [
+    "Of the one FARA filing in the top-officials scan, one has lines that appear to come from a contact log. The OCR interleaves the columns, so the date, method and foreign principal could not be read. No LDA filing named the President or Vice President. The scan is incomplete: 27 recent FARA filings were not read and will be handled in the next run."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Secretary of State Marco Rubio</strong> (also national security advisor since May 2025): the OCR'd lines of a supplemental statement from <strong>DCI Group AZ, LLC</strong> (registrant #6278, stamped October 31, 2026) show his name beside the words \"partnership to confront terrorism in West Africa\" and \"Nigeria's National\". The method of contact is not stated in the lines, and the foreign principal and date could not be read from them. <a href=\"https://efile.fara.gov/docs/6278-Supplemental-Statement-20261031-24.pdf\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "OGE Ethics Filings",
+   "headline": "Department of State official files ethics agreement compliance certification",
+   "paragraphs": [
+    "The <strong>United States Office of Government Ethics</strong> published one flagged ethics compliance filing during the monitoring window. The filing consists of a routine certification document rather than a divestiture or termination notice."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Department of State"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Brendan Hanrahan</strong> \u2014 <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/CFFD299F4A11FD0A85258EA40032EE73/$FILE/Hanrahan%2C%20Brendan%20-%20Final%20EA%20Certification.pdf\">Certification of Ethics Agreement Compliance</a>, <strong>Department of State</strong>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "FARA Registrants",
+   "headline": "No new registrants shown; nine filed documents, including two for Saudi Arabia's Public Investment Fund",
+   "paragraphs": [
+    "The input lists no new registrants, terminations or changes in foreign principals, only filed documents. No OCR text came with these, so nothing is reported here about what any agreement or material covers."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Geopolitical Solutions LLC</strong> (#7770), foreign principal <strong>Republic of Yemen</strong> (Yemen): two informational-materials filings stamped November 2, 2026. <a href=\"https://efile.fara.gov/docs/7770-Informational-Materials-20261102-6.pdf\">Filing one</a>, <a href=\"https://efile.fara.gov/docs/7770-Informational-Materials-20261102-7.pdf\">filing two</a>.",
+      "<strong>USSA International LLC</strong> (#7252), foreign principal <strong>The Public Investment Fund</strong> (Saudi Arabia): two informational-materials filings stamped November 2, 2026. <a href=\"https://efile.fara.gov/docs/7252-Informational-Materials-20261102-71.pdf\">Filing one</a>, <a href=\"https://efile.fara.gov/docs/7252-Informational-Materials-20261102-72.pdf\">filing two</a>.",
+      "<strong>MediaLinks TV, LLC</strong> (#6633), foreign principal <strong>CCTV</strong> (China): informational materials stamped November 2, 2026. <a href=\"https://efile.fara.gov/docs/6633-Informational-Materials-20261102-12.pdf\">Filing</a>.",
+      "<strong>Ballard Partners</strong> (#7070): short-form registration for <strong>Gladden John Pappin</strong>, stamped November 1, 2026. <a href=\"https://efile.fara.gov/docs/7070-Short-Form-20261101-22.pdf\">Filing</a>.",
+      "<strong>Luxcore, Ltd.</strong> (#7379): supplemental statement stamped November 1, 2026. <a href=\"https://efile.fara.gov/docs/7379-Supplemental-Statement-20261101-4.pdf\">Filing</a>.",
+      "<strong>DCI Group AZ, LLC</strong> (#6278): supplemental statement stamped October 31, 2026 (see the Contacts section). <a href=\"https://efile.fara.gov/docs/6278-Supplemental-Statement-20261031-24.pdf\">Filing</a>.",
+      "<strong>Charles Hayes Peterson</strong> (#7264): supplemental statement stamped October 31, 2026. <a href=\"https://efile.fara.gov/docs/7264-Supplemental-Statement-20261031-11.pdf\">Filing</a>."
+     ]
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Personal Financial Disclosures & Stock Trades",
+   "headline": "Two House periodic transaction reports, both on time; no Senate data this run",
+   "paragraphs": [
+    "Two House stock-trade reports came in, neither with a trade flagged late. The Senate eFD fetch failed in this run, so the zero Senate filings reflects the error, not an absence of filings."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Donald Sternoff Beyer Jr.</strong> (D-VA-08), periodic transaction report filed November 1, 2026: one trade, a joint-account purchase on October 7 of a California community variable-rate government security due 11/01/54, in the $15,001 - $50,000 range. <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035743.pdf\">Filing</a>.",
+      "<strong>Rep. John J. McGuire III</strong> (R-VA-05), periodic transaction report filed November 1, 2026: four spouse-owned trades, all $1,001 - $15,000. They include a partial sale of <strong>Broadcom Inc.</strong> on September 24 and three purchases of <strong>Micron Technology, Inc.</strong> on September 24, September 25 and October 1. <a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035484.pdf\">Filing</a>."
+     ]
+    },
+    {
+     "type": "subhead",
+     "text": "Hon. John J Mr McGuire III (VA05) \u2014 trades (filed 2026-11-01)"
+    },
+    {
+     "type": "table",
+     "headers": [
+      "Ticker",
+      "Company",
+      "Type",
+      "Date",
+      "Amount",
+      "Late?"
+     ],
+     "rows": [
+      [
+       "AVGO",
+       "Broadcom Inc.",
+       "Sale (partial)",
+       "2026-09-24",
+       "$1,001 - $15,000",
+       ""
+      ],
+      [
+       "MU",
+       "Micron Technology, Inc.",
+       "Purchase",
+       "2026-09-24",
+       "$1,001 - $15,000",
+       ""
+      ],
+      [
+       "MU",
+       "Micron Technology, Inc.",
+       "Purchase",
+       "2026-09-25",
+       "$1,001 - $15,000",
+       ""
+      ],
+      [
+       "MU",
+       "Micron Technology, Inc.",
+       "Purchase",
+       "2026-10-01",
+       "$1,001 - $15,000",
+       ""
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "<a href=\"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035484.pdf\">Read the filing</a>."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "LDA Registrations & Activity",
+   "headline": "Five new registrations, and seven Mercury Public Affairs terminations dated June 30 posted this week",
+   "paragraphs": [
+    "The 55 filings posted since November 2 break down as 19 third-quarter reports, 14 third-quarter no-activity reports, 7 second-quarter terminations, 5 third-quarter amendments, 5 registrations, 1 fourth-quarter termination, 1 fourth-quarter termination (no activity), 1 fourth-quarter no-activity report, 1 second-quarter amendment and 1 second-quarter report.",
+    "All seven second-quarter terminations are for clients of <strong>Mercury Public Affairs, LLC</strong>, each showing a June 30, 2026 termination date and posted in this window. Of the 41 activity reports, 8 are in the table and 7 more from one firm are in the note below. The other 26 were left out as routine or without a signal."
+   ],
+   "blocks": [
+    {
+     "type": "table",
+     "headers": [
+      "Firm",
+      "Client",
+      "Issue Area(s)",
+      "What's Being Lobbied"
+     ],
+     "rows": [
+      [
+       "<strong>Holland &amp; Knight LLP</strong> (new registration) <a href=\"https://lda.gov/filings/public/filing/887353b4-3a46-42d9-a0eb-0d369a3f683a/print/\">Filing</a>",
+       "<strong>RSM US LLP</strong>",
+       "Government Issues, Health Issues, Telecommunications",
+       "Legislative prospects and policy changes in administration and federal program spending. Covered positions: Christopher Jaarda, Ed Perlmutter, Joshua Odintz, Yasmin Nelson."
+      ],
+      [
+       "<strong>Holland &amp; Knight LLP</strong> (new registration) <a href=\"https://lda.gov/filings/public/filing/388d053d-21db-4c5b-9b0f-df7b5bdbfd7a/print/\">Filing</a>",
+       "<strong>LGNDX Inc.</strong>",
+       "Defense",
+       "National defense and appropriations issues. Covered positions: Aria Austin, Marissa Serafino, Mike Wakefield, Sean McGlynn."
+      ],
+      [
+       "<strong>Steptoe LLP</strong> (new registration) <a href=\"https://lda.gov/filings/public/filing/f950fb88-8ffe-43e1-ac6e-3c4bba60f727/print/\">Filing</a>",
+       "<strong>Deterrence Defense, Inc.</strong>",
+       "Manufacturing",
+       "Domestic manufacturing. Covered position: Matthew Flynn, a former Deputy Assistant to the President and Acting White House Cabinet Secretary."
+      ],
+      [
+       "<strong>Akin Gump Strauss Hauer &amp; Feld</strong> (new registration) <a href=\"https://lda.gov/filings/public/filing/d0298c34-80a0-4d5b-9c60-ac330bca511a/print/\">Filing</a>",
+       "<strong>Inox Solar Americas, LLC</strong>; foreign entities listed: Amura Renewables Private Limited, Inox Clean Energy Limited, Devansh Jain and Avarna Jain",
+       "Trade (domestic/foreign)",
+       "Section 232 polysilicon proclamation onshoring plans. Covered position: Cara Morrow, formerly of the Commerce Department's International Trade Administration and the U.S. Trade Representative."
+      ],
+      [
+       "<strong>The Roosevelt Group</strong> (new registration) <a href=\"https://lda.gov/filings/public/filing/31617c8a-e6e0-49a2-bd99-bc509978a9db/print/\">Filing</a>",
+       "<strong>Nebraska Strategic Defense Authority</strong>",
+       "Defense",
+       "Congressional and Department of War engagement on military missions and installations in Nebraska."
+      ],
+      [
+       "<strong>Marshall Brachman</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/26e450e1-1fe3-4a8f-a20f-c53e2e5a22f6/print/\">Filing</a>",
+       "<strong>Lockheed Martin Aeronautic Sector</strong>",
+       "Not listed",
+       "Fourth-quarter termination, no activity; $11,645 income; terminated October 31, 2026."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/a6712977-6950-42e4-a908-f5a56a9992fd/print/\">Filing</a>",
+       "<strong>Better Schools for a Better Future</strong>",
+       "Education",
+       "Charter school education and tax credits; $70,000 income. Covered position: David Vitter, U.S. Senator 2005-2017."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/5445798a-d4b9-4d27-8cb5-c27c31b622cc/print/\">Filing</a>",
+       "<strong>CADA Energy, Inc</strong>",
+       "Energy/Nuclear",
+       "Construction issues; $40,000 income."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/fe0e0de5-7c41-4dfa-afd9-9888df4b5112/print/\">Filing</a>",
+       "<strong>Elanco US Inc.</strong>",
+       "Animals",
+       "Animal health and pharmaceuticals; $60,000 income."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/f238861a-779f-4c9a-99be-57ddf200dd11/print/\">Filing</a>",
+       "<strong>Grup Immobiliari Cierco</strong>",
+       "Banking",
+       "Banking and finance; $100,000 income."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/874b86bc-de7d-4b27-aa62-8ba2b199fa33/print/\">Filing</a>",
+       "<strong>Jeffer Mangels Butler &amp; Mitchell LLP</strong> on behalf of Dateline Resources Limited",
+       "Natural Resources",
+       "Rare earth elements; $40,000 income. Covered position: Patrick Costello, staff to Congressman Jon Porter 2005-2008."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/2cca5acb-801c-4de6-81c7-686c043f418b/print/\">Filing</a>",
+       "<strong>Keystone Strategic Advisors</strong> on behalf of Batric Radunovic",
+       "Financial Institutions/Investments/Securities",
+       "A global finance platform; $120,000 income."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/b0a2f0d2-64af-409c-b3a9-12f869d2c98a/print/\">Filing</a>",
+       "<strong>SEMI Global</strong>",
+       "Science/Technology",
+       "Semiconductor industry; $30,000 income."
+      ],
+      [
+       "<strong>IKYR LLC</strong> (termination) <a href=\"https://lda.gov/filings/public/filing/209d65dd-ac0a-4955-8d08-4474629f7302/print/\">Filing</a>",
+       "<strong>Aerospace Colorado</strong>",
+       "Aerospace",
+       "Aerospace workforce; fourth-quarter termination dated November 2, 2026."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (third-quarter amendment) <a href=\"https://lda.gov/filings/public/filing/07ea8454-668d-4151-b62d-675eb362e68a/print/\">Filing</a>",
+       "<strong>Solana Policy Institute</strong>",
+       "Financial Institutions/Investments/Securities",
+       "A decentralized financial platform; $110,000 income. Covered positions: former Rep. Cheri Bustos and her former chief of staff Jonathan Pyatt."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (third-quarter amendment) <a href=\"https://lda.gov/filings/public/filing/62cac228-b504-4184-94fd-bffbb3e0cb0e/print/\">Filing</a>",
+       "<strong>OpenAI</strong>",
+       "Science/Technology",
+       "Artificial intelligence policy; $50,000 income. Covered positions: Cheri Bustos and Jonathan Pyatt."
+      ],
+      [
+       "<strong>Mercury Public Affairs, LLC</strong> (third-quarter amendment) <a href=\"https://lda.gov/filings/public/filing/6cec1052-6c4d-4b1b-8006-809d7c124229/print/\">Filing</a>",
+       "<strong>Oracle America Inc.</strong>",
+       "Telecommunications",
+       "Technology and raising awareness of key products; $60,000 income. Covered position: Cheri Bustos."
+      ],
+      [
+       "<strong>John T. Doolittle, LLC</strong> (third-quarter amendment) <a href=\"https://lda.gov/filings/public/filing/a1563e8d-dd53-4063-ba36-a2a80d0789fa/print/\">Filing</a>",
+       "<strong>NWS Infrastructure Inc.</strong>",
+       "Natural Resources",
+       "A multi-state water infrastructure and flood control initiative. Covered position: John Doolittle, former U.S. Representative."
+      ],
+      [
+       "<strong>The Majority Group, LLC</strong> (third-quarter report) <a href=\"https://lda.gov/filings/public/filing/5664a936-68db-46a0-8498-5d49496dbf1d/print/\">Filing</a>",
+       "<strong>Connected Commerce Council</strong>",
+       "Small Business",
+       "Small business and technology; $225,000 income. Covered positions: Bradford Cheney, Robert Ellsworth."
+      ],
+      [
+       "<strong>The Majority Group, LLC</strong> (third-quarter report) <a href=\"https://lda.gov/filings/public/filing/20882fdd-adcf-4e4d-a132-9ed4a3971a53/print/\">Filing</a>",
+       "<strong>CBC National Bank Mortgage</strong>",
+       "Banking, Housing",
+       "Housing and banking programs; $150,000 income. Covered positions: Anne Canfield, Bradford Cheney, Robert Ellsworth."
+      ],
+      [
+       "<strong>The Majority Group, LLC</strong> (third-quarter report) <a href=\"https://lda.gov/filings/public/filing/6b32f3a7-3704-4591-8e97-2f885ff581f6/print/\">Filing</a>",
+       "<strong>The Amherst Group, LLC</strong>",
+       "Housing",
+       "Single-family rental housing and institutional investment, including Executive Order 14376 and the ROAD to Housing Act (S. 2651); $60,000 income."
+      ],
+      [
+       "<strong>Winning Strategies Washington</strong> (third-quarter report) <a href=\"https://lda.gov/filings/public/filing/c046ad13-de03-44d9-bae8-7155260b14a8/print/\">Filing</a>",
+       "<strong>WorldBusiness Capital, Inc.</strong>",
+       "Trade (domestic/foreign)",
+       "A loan guaranty facility agreement for U.S. and U.S.-aligned businesses in Western Hemisphere supply chains; $10,000 income. Covered positions: Bryan Ricker, Chelsey Penrod Hickman."
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Seven other third-quarter reports from The Majority Group, LLC list the same former congressional staffers as covered positions: Developers Alliance (<a href=\"https://lda.gov/filings/public/filing/8718c91b-3aee-4537-9fae-60cff2007eae/print/\">filing</a>), T-Mobile USA Inc (<a href=\"https://lda.gov/filings/public/filing/1ca18e5b-d940-4272-9852-d6c6df71b7d4/print/\">filing</a>), Nationstar Mortgage (<a href=\"https://lda.gov/filings/public/filing/02b971b2-cea9-4e32-b59b-2314efd25290/print/\">filing</a>), United Fidelity Funding Corporation (<a href=\"https://lda.gov/filings/public/filing/81106f46-5c9f-4508-900d-4d23acb704ce/print/\">filing</a>), AI Salon (<a href=\"https://lda.gov/filings/public/filing/e0248a84-a511-49cf-96fa-6bb5a389b27d/print/\">filing</a>), Click N' Close (<a href=\"https://lda.gov/filings/public/filing/eebdb45f-2234-456d-87bf-5480043121f0/print/\">filing</a>) and Nestidd (<a href=\"https://lda.gov/filings/public/filing/cd59b5df-e278-4926-8aca-ec1091ece6ef/print/\">filing</a>)."
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Deadline Watch",
+   "headline": "Missing, late and delayed financial disclosures",
+   "paragraphs": [
+    "1 sitting member still has no CY2025 annual financial disclosure on file, past every extension."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "Still missing: no CY2025 annual report on file"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Rep. Dan Crenshaw (R-TX-2)</strong>: extension filed 6/4/2026; 82 days past the 8/13/2026 final extension date."
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Checked against every sitting member's filings in the Clerk of the House index and Senate eFD. Members sworn in after Nov. 1 of the report year owe no annual report and are excluded. Spot-check a name before publishing: a filing under an unexpected name spelling can read as missing."
+    },
+    {
+     "type": "note",
+     "text": "Partial check: Senate annual-report check failed: Expecting value: line 1 column 1 (char 0) | Senate extensions: Expecting value: line 1 column 1 (char 0)"
+    }
+   ],
+   "no_news": false
+  },
+  {
+   "eyebrow": "Ethics Agreement Tracker",
+   "headline": "Ethics agreements still awaiting compliance certification",
+   "paragraphs": [
+    "7 confirmed officials have no posted certification of ethics-agreement compliance, more than 30 days past deadline."
+   ],
+   "blocks": [
+    {
+     "type": "subhead",
+     "text": "No compliance certification posted, past deadline"
+    },
+    {
+     "type": "list",
+     "items": [
+      "<strong>Michelle White Bowman</strong> (Governor &amp; Vice Chairman for Supervision, Federal Reserve System Board of Governors): confirmed 6/4/2025, certification due 9/2/2025, 427 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/98C6B54F7E9EBF2A85258C66002C8D51/$FILE/Bowman%2C%20Michelle%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Andrea R Lucas</strong> (Commissioner 2, Equal Employment Opportunity Commission): confirmed 7/31/2025, certification due 10/29/2025, 370 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/524880C156A84DF585258C95002C9275/$FILE/Lucas%2C%20Andrea%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Jonathan Morrison</strong> (Administrator, National Highway Traffic Safety Administration, Department of Transportation): confirmed 9/18/2025, certification due 12/17/2025, 321 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2F004F967FAB12C085258C8B002C8C43/$FILE/Morrison%2C%20Jonathan%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Sean O'Keefe</strong> (Deputy Under Secretary for Personnel &amp; Readiness, Department of Defense/Office of The Secretary): confirmed 9/18/2025, certification due 12/17/2025, 321 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4DF22552ED9952C385258C62002C8C4D/$FILE/O%27Keefe%2C%20Sean%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Joseph Popolo</strong> (Ambassador to Netherlands (Kingdom of), Department of State): confirmed 10/7/2025, certification due 1/5/2026, 302 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/939374EC5534231985258C75002C92A5/$FILE/Popolo%2C%20Joseph.%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Ronald A Parsons</strong> (U.S. Attorney South Dakota 2, Department of Justice): confirmed 10/7/2025, certification due 1/5/2026, 302 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E09EB39F48B37AD985258CCC002C992A/$FILE/Parsons%2C%20Jr.%2C%20Ronald%20A.%20%20finalEA.pdf\">Ethics agreement</a>",
+      "<strong>Marc Berkowitz</strong> (Assistant Secretary for Space Policy, Department of Defense/Office of The Secretary): confirmed 12/18/2025, certification due 3/18/2026, 230 days ago. <a href=\"https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BF37B1F1ED801E4B85258D04002C201E/$FILE/Berkowitz%2C%20Marc%20%20finalEA.pdf\">Ethics agreement</a>"
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Tracking 483 Senate-confirmed officials with ethics agreements since Jan. 20, 2025. Deadlines are counted from the confirmation date on congress.gov plus the agreement's stated window (usually 90 days) -- OGE can grant extensions that aren't public, so treat each flag as a lead to confirm, not a finding. OGE posts certifications with a lag, so nothing inside 30 days of a deadline is flagged. A certification filed but not yet posted by OGE will read as missing: confirm with the agency before publishing."
+    }
+   ],
+   "no_news": true
+  }
+ ],
+ "dismissed_refs": [],
+ "footer": {
+  "coverage_window": "FARA and LDA filings posted November 2, 2026 onward; FARA bulk-file items stamped October 31, 2026 onward; top-official FARA scan of filings stamped October 20, 2026 onward; House and Senate disclosures filed October 31, 2026 onward, minus those reported in earlier editions.",
+  "sources": "OGE ethics-filing search; DOJ FARA e-file system; LDA API (lda.gov); Clerk of the House financial disclosures; Senate eFD.",
+  "known_gaps": "The FARA top-official scan did not read 27 recent filings (time budget); the next run reads them. Senate eFD failed (Expecting value: line 1 column 1 (char 0)), so no Senate disclosures were checked. The Deadline Watch Senate annual-report check and Senate extensions lookup failed for the same reason, so that check covers the House only. The OGE summary reported one flagged filing, a routine ethics-agreement compliance certification from a Department of State official, and listed no other gaps."
+ },
+ "beat": [
+  {
+   "name": "Rep. Dan Crenshaw",
+   "why": "Missing annual disclosure",
+   "mentions": [
+    {
+     "section": "Deadline Watch",
+     "html": "<strong>Rep. Dan Crenshaw (R-TX-2)</strong>: extension filed 6/4/2026; 82 days past the 8/13/2026 final extension date."
+    }
+   ]
+  }
+ ]
+}
