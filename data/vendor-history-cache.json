@@ -1441,6 +1441,35 @@
     "has_contracts": true,
     "raw_hits": 250
   },
+  "bei precision system & space": {
+    "d": "2026-11-03",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 2806980.0,
+        "recipient": "BEI PRECISION SYSTEMS & SPACE COMPANY, INC",
+        "start": "2025-11-13",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPE4A626F2122_9700_SPE4A626DC017_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2363136.0,
+        "recipient": "BEI PRECISION SYSTEMS & SPACE COMPANY, INC",
+        "start": "2010-10-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPM4A611C0002_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Commerce",
+        "amount": 2322540.0,
+        "recipient": "BEI PRECISION SYSTEMS & SPACE COMPANY, INC",
+        "start": "2023-09-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1305M223CNWWG0030_1330_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2005-09-22",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "bentley system": {
     "d": "2026-10-22",
     "examples": [
@@ -1960,6 +1989,35 @@
       }
     ],
     "first": "2010-09-22",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "cartridge technologie": {
+    "d": "2026-11-03",
+    "examples": [
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 7764505.43,
+        "recipient": "CARTRIDGE TECHNOLOGIES, LLC",
+        "start": "2013-04-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EPG13H00561_6800_GS03F0151X_4732"
+      },
+      {
+        "agency": "Environmental Protection Agency",
+        "amount": 5854377.57,
+        "recipient": "CARTRIDGE TECHNOLOGIES, LLC",
+        "start": "2017-10-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_EPG18H01444_6800_GS03F0151X_4732"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4235717.11,
+        "recipient": "CARTRIDGE TECHNOLOGIES, LLC",
+        "start": "2020-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SP700020F0070_9700_GS31Q16BUA0006_4732"
+      }
+    ],
+    "first": "2008-02-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -8243,6 +8301,35 @@
     "has_contracts": true,
     "raw_hits": 17
   },
+  "sparksoft": {
+    "d": "2026-11-03",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 135732249.0,
+        "recipient": "SPARKSOFT CORPORATION",
+        "start": "2019-12-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC20F0001_7530_HHSM500201700047I_7530"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 75400870.0,
+        "recipient": "SPARKSOFT CORPORATION",
+        "start": "2024-06-28",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC24F0116_7530_47QTCB21D0247_4732"
+      },
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 64378417.24,
+        "recipient": "SPARKSOFT CORPORATION",
+        "start": "2019-01-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75FCMC19F0001_7530_HHSM500201700047I_7530"
+      }
+    ],
+    "first": "2016-06-30",
+    "has_contracts": true,
+    "raw_hits": 27
+  },
   "steampunk": {
     "d": "2026-10-14",
     "examples": [
@@ -11405,6 +11492,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:VHFAKAL63VC3": {
+    "d": "2026-11-03",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 1067593.41,
+        "recipient": "CAMERAFORENSICS LTD",
+        "start": "2022-08-09",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD22P00000072_7012_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 508734.12,
+        "recipient": "CAMERAFORENSICS LTD",
+        "start": "2017-07-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HSCEMD17P00050_7012_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 419800.0,
+        "recipient": "CAMERAFORENSICS LTD",
+        "start": "2019-11-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70CMSD20P00000002_7012_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2015-09-16",
+    "has_contracts": true,
+    "raw_hits": 9
+  },
   "uei:VQAANUUCGBP9": {
     "d": "2026-10-14",
     "examples": [
@@ -11866,6 +11982,35 @@
       }
     ],
     "first": "2007-04-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "united state marine": {
+    "d": "2026-11-03",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 77276506.74,
+        "recipient": "UNITED STATES MARINE INC",
+        "start": "2009-05-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002409C2252_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 28095280.08,
+        "recipient": "UNITED STATES MARINE INC",
+        "start": "2026-05-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_H9240526FE008_9700_H9240525DE001_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 24466238.7,
+        "recipient": "UNITED STATES MARINE INC",
+        "start": "2009-07-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0002409F2253_9700_GS07F0202N_4730"
+      }
+    ],
+    "first": "2003-11-01",
     "has_contracts": true,
     "raw_hits": 50
   },
