@@ -774,12 +774,12 @@
       "sol": "EAD_TL_DATA_FY27_SSN"
     },
     "01a4d04db3aa49c5916f81ec17af1640": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation Amendment FA813726R00400004 SF 30.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8137-26-R-0040"
     },
     "01a57f20a07d40c5bd360345f7c8f493": {
@@ -845,6 +845,14 @@
       "n": "ACC DTA GROUND MANEUVER CSO_Amendment 40.docx",
       "s": "screened",
       "sol": "W912CH-26-S-0001"
+    },
+    "01c91ee3ec38427493949fde42a67fbb": {
+      "c": 0,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "B08_Attachment_3_DOL-WD-Hvy-Hwy_IA20260028.pdf",
+      "s": "wage_determination",
+      "sol": "140PP027R0001"
     },
     "01cbbd3cfef84be8abf0dba612ef4dce": {
       "c": 36830,
@@ -3503,6 +3511,15 @@
       "s": "screened",
       "sol": "AM202603-25"
     },
+    "066b9f965f7c4186ab448d8309f0a358": {
+      "a": 1,
+      "d": "2026-11-04",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Attachment 2 - Schedule of Rates (SOR)_Bahrain.xlsx",
+      "s": "retry",
+      "sol": "HTC71126QE170"
+    },
     "066bdd56e5a9491ab4b6d9f86a26740f": {
       "c": 2204,
       "d": "2026-10-13",
@@ -3631,6 +3648,14 @@
       "n": "Commercial Solutions Opportunity - Defense Commissary Agency (DeCA) OCONUS.pdf",
       "s": "boilerplate_only",
       "sol": "HQC0102714"
+    },
+    "06a65602eda74169a1ad709affa7c1eb": {
+      "c": 3621,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "DRAFT SOW.docx",
+      "s": "screened",
+      "sol": "36C25627Q0113"
     },
     "06a9914c79b34aeeb4501e47f7cd89fd": {
       "a": 3,
@@ -6024,6 +6049,14 @@
       "s": "screened",
       "sol": "W912DQ26QA080"
     },
+    "0b6318288b184d68ad75a9dcc9a1d5ad": {
+      "c": 384,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "DRAFT SOW.docx",
+      "s": "screened",
+      "sol": "36C25627Q0113"
+    },
     "0b6aa5e3a67c4af3a06ddf5e8d24413f": {
       "c": 4025,
       "d": "2026-10-14",
@@ -7741,6 +7774,14 @@
       "n": "Attachment 2 - USDASecurityContractLanguage.pdf",
       "s": "screened",
       "sol": "12760426Q0199"
+    },
+    "0e8f5500ee104f4298770b2edafdc5f0": {
+      "c": 563,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C25027P0017_1.docx",
+      "s": "screened",
+      "sol": "36C25026Q1004"
     },
     "0e901eb2894b4b5e801cf5f81a3826f0": {
       "c": 2338,
@@ -10276,6 +10317,14 @@
       "s": "screened",
       "sol": "140RR027Q0018"
     },
+    "13f5e7e4dc3044ef975413ccf1956abe": {
+      "c": 702,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C26227Q0044 0001.docx",
+      "s": "screened",
+      "sol": "36C26227Q0044"
+    },
     "14003baec9c44e5e9c4b93a2c85d5c16": {
       "c": 0,
       "d": "2026-10-10",
@@ -11336,6 +11385,14 @@
       "n": "dodio-2000.16v1_afi10-245-o.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "15843d93bb874aceb4729b2b0348063a": {
+      "c": 6370,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "Determination that Only One Source is Reasonably Available Redacted.pdf",
+      "s": "screened",
+      "sol": "M0026427QJE04"
     },
     "15868186ac104124bc8eb53d2ac1f4cc": {
       "c": 36780,
@@ -12535,6 +12592,14 @@
       "s": "screened",
       "sol": "140P2026B0004"
     },
+    "17932019784b4256a229c08246292e1f": {
+      "c": 2231,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "Notice of Intent to Award a Sole Source.pdf",
+      "s": "screened",
+      "sol": "36C25627Q0113"
+    },
     "1796f20e7500409caed2e8925e079ed4": {
       "c": 248,
       "d": "2026-10-10",
@@ -13040,7 +13105,7 @@
       "sol": "FD20302301677-03"
     },
     "189d4c4f48684f54824e854af98838aa": {
-      "a": 1,
+      "a": 2,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -13250,6 +13315,24 @@
       "n": "Atch 3 - Reps and Certs.pdf",
       "s": "screened",
       "sol": "FA945326RX012"
+    },
+    "190ae00eaade4988b4c461d01c5a447a": {
+      "c": 1688,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Department of Veterans Affairs",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Department of Veterans Affairs",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Department of Veterans Affairs",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "P03 - SSJ Terumo Cardiovascular Sytem PMI_Co Signed.pdf",
+      "s": "screened",
+      "sol": "36C26227C0032"
     },
     "1914b7cd26d041bea06878af11324102": {
       "c": 7023,
@@ -16262,6 +16345,14 @@
       "n": "80GRC026R0008 SF30 Amendment 2.pdf",
       "s": "screened",
       "sol": "80GRC026R0008 "
+    },
+    "1f2bbf3385d1480d8a7ebfd4423ca930": {
+      "c": 82,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C25627Q0113.docx",
+      "s": "screened",
+      "sol": "36C25627Q0113"
     },
     "1f2cd8cfc4b84ba6ad7a8ae4bed2443b": {
       "c": 876,
@@ -19453,6 +19544,22 @@
       "s": "screened",
       "sol": "SPRTA127Q0012"
     },
+    "256f9937e2274e83a3bb0cd8cda122d0": {
+      "c": 1184,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "finding": "The U.S. Marine Corps Band is procuring a Fox Model 750 bassoon (Serial #74991) manufactured in the U.S.A.",
+          "news": 3,
+          "quote": "Notice of Intent to Sole Source (1) Fox 750 Bassoon Serial Number #74991 for the United States Marine Corps Band",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "A1.  Salient Characteristics.pdf",
+      "s": "screened",
+      "sol": "M0026427QJE04"
+    },
     "257085b9716546e28d7d99e7a39f8a47": {
       "c": 80,
       "d": "2026-10-18",
@@ -19670,6 +19777,14 @@
       "n": "TE-H - Hazardous_Material_Authorization.pdf",
       "s": "screened",
       "sol": "W91151-26-R-A004"
+    },
+    "25eeb0af462b4a4a9ec42fd93cf75268": {
+      "c": 271931,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "FA875126Q0013 Attachment 2 Suite H8 Spec Book Vol 1_.pdf",
+      "s": "screened",
+      "sol": "FA875126Q0013"
     },
     "25f9b558af064374ab0dbe4b1ee35956": {
       "c": 58076,
@@ -21425,6 +21540,14 @@
       "n": "36C25726Q0431 0005.docx",
       "s": "screened",
       "sol": "36C25726Q0431"
+    },
+    "2a0aa5ed251c48eab8e960350ecba433": {
+      "c": 352,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C26227Q0034_2.docx",
+      "s": "screened",
+      "sol": "36C26227Q0034"
     },
     "2a14da02c3e54f5098b400fbcbcf69b1": {
       "c": 767,
@@ -23236,6 +23359,14 @@
       "s": "screened",
       "sol": "70Z08026C13002B00"
     },
+    "2d5d3263965649c2b2056144c8966af8": {
+      "c": 489343,
+      "d": "2026-11-04",
+      "m": "xlsx",
+      "n": "Attachment 3 - Ohio Customer List.xlsx",
+      "s": "screened",
+      "sol": "SPE30027R0003"
+    },
     "2d6c3ca1fdea49a0809d0a1094bf13fe": {
       "c": 596,
       "d": "2026-10-13",
@@ -24990,6 +25121,14 @@
       "n": "Attachment V (C) WD McConnell 2015-5341.pdf",
       "s": "wage_determination",
       "sol": "SPE603-26-R-0527"
+    },
+    "30a461a3175d49acb825368d2ae348c1": {
+      "c": 7920,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C25927Q0047.docx",
+      "s": "screened",
+      "sol": "36C25927Q0047"
     },
     "30a6166e7f4f4572bc3f55b7e1f427d8": {
       "c": 251,
@@ -29681,6 +29820,14 @@
       "s": "screened",
       "sol": "W9128F27QA003"
     },
+    "39ce3dc2899d45af8ff255e8c613f627": {
+      "c": 1018,
+      "d": "2026-11-04",
+      "m": "xlsx",
+      "n": "A06_Bid_Schedule_L3926Q0031.xlsx",
+      "s": "screened",
+      "sol": "140L3926Q0031"
+    },
     "39d251bc70184048b8590b5d3d46f78f": {
       "c": 79698,
       "d": "2026-10-21",
@@ -30058,6 +30205,24 @@
       "s": "screened",
       "sol": "FA449726Q0055"
     },
+    "3a6ea942b7b64cf6aad445f4ca95b4ae": {
+      "c": 122,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "finding": "Justification file properties (who wrote or last saved it): Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "A10 Notice of Intent to Sole Source_DSEI 2027.docx",
+      "s": "screened",
+      "sol": "5af6078cece54837a12ea7733d301e5f"
+    },
     "3a70a0c683ed4b57812b548012a998bb": {
       "c": 0,
       "d": "2026-10-16",
@@ -30328,6 +30493,14 @@
       "n": "Special Packaging Instructions_SPI-F01-279-4740.pdf",
       "s": "screened",
       "sol": "SPRHA1-26-R-0251"
+    },
+    "3af3ae0e49054dbaacd99c4c0ea4bf6f": {
+      "c": 737,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "Attachment_2_-_Price_Schedule_.pdf",
+      "s": "screened",
+      "sol": "140FF027Q0026"
     },
     "3af7fc928f264b91aa9cd64aba7f2149": {
       "c": 9340,
@@ -30975,6 +31148,24 @@
       "n": "Updated QUALITY ASSURANCE SURVEILLANCE PLAN.pdf",
       "s": "screened",
       "sol": "36C26126Q1224"
+    },
+    "3bec387fb39e4ebf8e8acd5fca0345d0": {
+      "c": 2470,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Jennette, Aleta; LastModifiedBy: Jennette, Aleta; Company: Veteran Affairs",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Jennette, Aleta; LastModifiedBy: Jennette, Aleta; Company: Veteran Affairs",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Jennette, Aleta; LastModifiedBy: Jennette, Aleta; Company: Veteran Affairs",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "NOTICE OF INTENT TO AWARD SOLE SOURCE new.docx",
+      "s": "screened",
+      "sol": "36C24227Q0118"
     },
     "3bf78c4db77e47ae80a92816fa816610": {
       "c": 984,
@@ -34224,6 +34415,14 @@
       "s": "screened",
       "sol": "75751MN27R00002"
     },
+    "416602118c0640488ac811ab2e589251": {
+      "c": 466,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "ATTACHMENT C LIST OF PAST PERF REF.docx",
+      "s": "screened",
+      "sol": "36C25627Q0028"
+    },
     "4167612cab844f1e8c5a4312bca45b6c": {
       "c": 99814,
       "d": "2026-10-10",
@@ -37350,6 +37549,14 @@
       "s": "screened",
       "sol": "W51AA13MSealant"
     },
+    "47edb7c884234edba773913d45d038e6": {
+      "c": 644,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C26327C0008_1.docx",
+      "s": "screened",
+      "sol": "36C26327Q0064"
+    },
     "47f0d348aa9a472c8bc39381efa76620": {
       "c": 29097,
       "d": "2026-10-23",
@@ -37795,6 +38002,22 @@
       "n": "Attachment 1 VA VHA BAA Template -for Awareness.pdf",
       "s": "screened",
       "sol": "36C10B27Q0040"
+    },
+    "48bdcb8ab35d4c92846a6fadc38b27f4": {
+      "c": 60525,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "finding": "L3Harris Technologies won a $1,010,420 USMC contract for Enterprise Land Mobile Radio infrastructure support and cybersecurity across multiple bases.",
+          "news": 4,
+          "quote": "L3HARRIS TECHNOLOGIES, INC. ... USD 1,010,420.00",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Contract - M6700127P0003.pdf",
+      "s": "screened",
+      "sol": "M6700127P0003"
     },
     "48bed8fe527e4ff2ae257bb52069c089": {
       "c": 2859,
@@ -39174,6 +39397,14 @@
       "s": "screened",
       "sol": "140RR027Q0011"
     },
+    "4b3d55ea2e76479c9da634ac3b94eb19": {
+      "c": 0,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "WD 2015-5593 REV 33 08.27.26.pdf",
+      "s": "wage_determination",
+      "sol": "36C26127Q0089"
+    },
     "4b40e891f7bd4011b743dc2af888e869": {
       "c": 2117,
       "d": "2026-10-20",
@@ -39744,6 +39975,14 @@
       "n": "Past Performance Worksheet.xlsx",
       "s": "screened",
       "sol": "36C24127Q0019"
+    },
+    "4c395295214f4042947279d667100faf": {
+      "c": 6,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "Notice of Intent to Award a Sole Source.pdf",
+      "s": "screened",
+      "sol": "36C25627Q0113"
     },
     "4c45d7800f9d41bdbcf291e455ff420f": {
       "c": 609,
@@ -43608,12 +43847,12 @@
       "sol": "70ZU0327S51401B00"
     },
     "5366064257cc419faecb34935203d3ae": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation Amendment FA813726R00400006 SF 30.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8137-26-R-0040"
     },
     "5368a39a209e4aaab1e4dd1c4a781fbb": {
@@ -44552,12 +44791,12 @@
       "sol": "36C77627Q0002"
     },
     "5579a79fd29a4b4c96cf6531e77e49fc": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation Amendment - FA813726R00400004.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8137-26-R-0040"
     },
     "557d89fa31424bc3b856b47fc905f81f": {
@@ -46020,6 +46259,14 @@
       "n": "B08_Solicitation_Attach_5_Constructability_Checklist.xlsx",
       "s": "screened",
       "sol": "140PP027B0002"
+    },
+    "586a72b5d8e544f281e61f0e7bd75a1a": {
+      "c": 5909,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C25727Q0063_3.docx",
+      "s": "screened",
+      "sol": "36C25727Q0063"
     },
     "586d12dca5d5493fb5e2a04df8969193": {
       "c": 101114,
@@ -47786,6 +48033,14 @@
       "s": "screened",
       "sol": "IHS1528688"
     },
+    "5ba04e25d5d84821a688ccb575ad2526": {
+      "c": 36,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "P03 Attachment 1 Single Source Justification MPT to SAT Signed Redacted.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0064"
+    },
     "5ba128aca7414f41916f2cf86efa0f7b": {
       "c": 130,
       "d": "2026-10-23",
@@ -47866,6 +48121,15 @@
       "n": "Attachment - Quote Pricing Breakdown RFQ No. 36C26127Q0072.docx",
       "s": "screened",
       "sol": "36C26127Q0072"
+    },
+    "5bcdc95473244eda84d2fe7bbfa58ab0": {
+      "a": 1,
+      "d": "2026-11-04",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "FA8601-27-Q-0015 - Solicitation.pdf",
+      "s": "retry",
+      "sol": "FA860127Q0015"
     },
     "5bd21632dcc34d0aa532f73d8995ff0a": {
       "c": 18082,
@@ -50973,6 +51237,14 @@
       "s": "screened",
       "sol": "FD20302401595"
     },
+    "6224f1a032c945eaaed09555be2bcdea": {
+      "c": 1005,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C25627Q0113.docx",
+      "s": "screened",
+      "sol": "36C25627Q0113"
+    },
     "6228bfac85844b329e27c2ed5e79c95f": {
       "c": 34059,
       "d": "2026-10-19",
@@ -53534,6 +53806,14 @@
       "s": "screened",
       "sol": "36C24227R0006"
     },
+    "671b48e153824fed8b0dcb3c95ff1f42": {
+      "c": 580,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C24227C0025_1.docx",
+      "s": "screened",
+      "sol": "36C24226B0055"
+    },
     "671be6072e224436a81dd4ad5ac326ed": {
       "c": 86015,
       "d": "2026-10-17",
@@ -54137,6 +54417,24 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "683040ddbe024f1a9df137209a585ac6": {
+      "c": 6565,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Welcome C",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Welcome C",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Welcome C",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Justification for Other.pdf",
+      "s": "screened",
+      "sol": "6Ok0149"
+    },
     "68324da2d34c49cb9277b8c6739ba566": {
       "c": 3687,
       "d": "2026-11-02",
@@ -54643,6 +54941,22 @@
       "s": "screened",
       "sol": "6982AF27B000004"
     },
+    "6943dbf95a51481bb6d5a496987b9f48": {
+      "c": 131723,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "finding": "Space Systems Commission issued a special notice for an aircraft recovery system SOW restricted to the DoD community via encrypted rights labeling.",
+          "news": 3,
+          "quote": "NOTICE: Aircraft Recovery System (FA252127QB039; DEPT OF DEFENSE.DEPT OF THE AIR FORCE.SPACE SYSTEMS COMMAND.FA2521 45 CONS LGC; Special Notice)",
+          "verified": false
+        }
+      ],
+      "m": "legacy",
+      "n": "27QB039 SOW - Aircraft Recovery System 22Oct26.docx",
+      "s": "screened",
+      "sol": "FA252127QB039"
+    },
     "6949f92ecf6a4532bf143228d11a667d": {
       "c": 10825,
       "d": "2026-10-13",
@@ -54763,6 +55077,31 @@
       "n": "Attachment B - WD - Forsyth - 2015-4399 Rev. 32.pdf",
       "s": "screened",
       "sol": "36C24627Q0019   "
+    },
+    "69753ae20147401680328c1359d968c1": {
+      "c": 2672,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "rmy Institute of Research, Europe-Middle East (WRAIR-E-ME) Notice ID \u2013 HT9426-27-NOI-046239 Related Notice: N/A Product Service Code (PSC): R430 \u2013 Support \u2013 Professional: Physical Security and Badging North American Industry Classification System (NAICS) Code: 561612 \u2013 Security Guards and Patrol Services Small Business Size Standard: $29.0 M The Walter Reed Army Institute of Research (WRAIR), Europe Middle East (E-ME) has a continued cost share obligation for security services with the L. Sakvarelidze National Center for Disease Control and Public Health (NCDC) at the Richard G. Lugar Center for Public Health Research in the Republic of Georgia. The purpose of this contract is to provide cost share reimbursement for security support services throughout the Lugar Center. fn=accordance=with=the=fmplementing=^greement=between=the=to^fo=and=k`a`I=dated=NR aecember=OMNRI=maragraph=RI=oesponsibilitiesI=subparagraph=EaFESF=state=that=the=to^fo=will contract with NCDC to pay 50% of the Lugar Center\u2019s cost that can be directly attribute",
+          "finding": "The Walter Reed Army Institute of Research is issuing a sole-source contract to the Republic of Georgia's National Center for Disease Control to co-fund security at the Richard G. Lugar Center for Public Health Research.",
+          "news": 4,
+          "quote": "The Walter Reed Army Institute of Research (WRAIR), Europe Middle East (E-ME) has a continued cost share obligation for security services with the L. Sakvarelidze National Center for Disease Control and Public Health (NCDC) at the Richard G. Lugar Center for Public Health Research in the Republic of",
+          "verified": true
+        },
+        {
+          "context": "Author: Bartlett, Moriah S CIV USARMY MEDCOM USAMRAA",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Bartlett, Moriah S CIV USARMY MEDCOM USAMRAA",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Bartlett, Moriah S CIV USARMY MEDCOM USAMRAA",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Notice of Intent to Sole Source - Security Support Services.pdf",
+      "s": "screened",
+      "sol": "PANDHA-26-P-0000_046239"
     },
     "6977d655299a49d4a574deab771339d9": {
       "c": 29217,
@@ -57394,6 +57733,24 @@
       "s": "screened",
       "sol": "FA2391-23-S-2403"
     },
+    "6e71fca9584241d4a61af4b97c784803": {
+      "c": 4389,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Belleau, Leah (BOP)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Belleau, Leah (BOP)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Belleau, Leah (BOP)",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "FCI LEWISBURG FY27 LANDFILL JOFOC SIGNED.pdf",
+      "s": "screened",
+      "sol": "15B20727PR000078"
+    },
     "6e74d5e9ad8d466388dd0f669f43df5e": {
       "c": 64,
       "d": "2026-10-17",
@@ -59334,6 +59691,14 @@
       "n": "P03 JA Minburn updated.pdf",
       "s": "screened",
       "sol": "36C24527P0017"
+    },
+    "71de38cecc59412193827e08e943ec1f": {
+      "c": 1234,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "Attachment 2 (Past Perf. Summary Sheet).docx",
+      "s": "screened",
+      "sol": "W81K0026QA240"
     },
     "71e6a59d9852432086ee16601fbc92e2": {
       "c": 131720,
@@ -62431,12 +62796,12 @@
       "sol": "W911KF25SC002-AoI0016"
     },
     "774e461ae5f34cfca498c4dd62a0ee5e": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Combined Synopsis-Solicitation_Anatomic Pathology Equipment Preventive Maintenance.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "PANDHA-26-P-0000047516"
     },
     "774ec58ecadf443cabff38df31796afb": {
@@ -66169,12 +66534,12 @@
       "sol": "70Z03827QB0000008"
     },
     "7de05d51b3ad449fbee1fac52c03ced8": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 3 _ 52.212-2 Evaluation_APS_20261023.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "W900KK-26-R-A023"
     },
     "7decb9d7e9b44eca998b8e99a2543f9f": {
@@ -68476,6 +68841,24 @@
       "s": "screened",
       "sol": "SPE603-26-R-0527"
     },
+    "8246ee5c53f04863b1a26699b1fe2626": {
+      "c": 2456,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Niemi, Melissa E",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Niemi, Melissa E",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Niemi, Melissa E",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "A16_Sole_Source_Justification_NOI_1.pdf",
+      "s": "screened",
+      "sol": "DOIDSAM27F002"
+    },
     "824f9a44b4e84b028f5edecc883fb719": {
       "c": 507,
       "d": "2026-10-28",
@@ -68635,6 +69018,14 @@
       "n": "C04-Attachment 5-WD-1974-1311-Rev78-13Aug26.pdf",
       "s": "wage_determination",
       "sol": "12444726Q0070"
+    },
+    "829b66ca6eec46d681ca44dbc4af94b9": {
+      "c": 1366,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "Questions for Vendors Responding to RFI - Barcode Scanners.docx",
+      "s": "screened",
+      "sol": "2027-LGD-0087"
     },
     "829ba9bbf2f74d65af022fed6952c59d": {
       "c": 4680,
@@ -69257,6 +69648,24 @@
       "n": "AMENDMENT 0001 - 26R0138.pdf",
       "s": "screened",
       "sol": "N4008526R0138"
+    },
+    "83b18af3c9814a4d92b2f745670a85bd": {
+      "c": 121,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "finding": "Justification file properties (who wrote or last saved it): Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "A10 Notice of Intent to Sole Source_DAS 2027.docx",
+      "s": "screened",
+      "sol": "601300f57b5f4c9e9ec3e5ad4053dd5e"
     },
     "83b1f4882c674283afaeb33f836848b5": {
       "c": 8494,
@@ -70000,6 +70409,14 @@
       "s": "screened",
       "sol": "12639527Q0003"
     },
+    "856e730316e249df9c439302cf62d97e": {
+      "c": 520,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "C40 - Award Notice 36C26227C0032_1.pdf",
+      "s": "screened",
+      "sol": "36C26227C0032"
+    },
     "856fcd4bc14b446596613801521d3d9a": {
       "c": 4780,
       "d": "2026-10-14",
@@ -70444,6 +70861,31 @@
       "n": "RFQ Letter Installation of Commercial Gate 2026 08 26.pdf",
       "s": "screened",
       "sol": "47PC5226Q0134 "
+    },
+    "864cf20695e240c2be48e7838859f9ed": {
+      "c": 1289,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Notification of Intent to Sole Source Announcement of intent to sole source for the use of approximately 55 acres of under-utilized land at the National Aeronautics and Space Administration (NASA) Kennedy Space Center (KSC). NASA announces its intent to execute an Enhanced Use Lease (EUL) for the under-utilized acreage, located south of Schwartz Road on the Kennedy Space Center. NASA has received strong interest from a long-standing commercial partner and tenant to occupy the currently under-utilized land to support NASA\u2019s mission by advancing the commercial space economy. The proposed EUL is a reasonable expansion to a current tenant to support operational testing of second stage and payload engine capabilities. Responses recei",
+          "finding": "NASA intends to execute an Enhanced Use Lease for approximately 55 acres at Kennedy Space Center with a long-standing commercial partner for second stage and payload engine testing.",
+          "news": 4,
+          "quote": "Announcement of intent to sole source for the use of approximately 55 acres of under-utilized land at the National Aeronautics and Space Administration (NASA) Kennedy Space Center (KSC).",
+          "verified": true
+        },
+        {
+          "context": "Author: Smith, Cari E. (HQ-LD062)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Smith, Cari E. (HQ-LD062)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Smith, Cari E. (HQ-LD062)",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Static Fire Test Stand EUL - Sole Source - KSC.pdf",
+      "s": "screened",
+      "sol": "NOI_NASA_KSC_2026_0003"
     },
     "86509b84c39d43ae8c1e76aa4fe7b533": {
       "c": 238,
@@ -71261,6 +71703,14 @@
       "n": "Attachment B - WD - Forsyth - 2015-4399 Rev. 32.pdf",
       "s": "screened",
       "sol": "36C24627Q0019"
+    },
+    "87e25c0993a0499298fbd638ec62e92b": {
+      "c": 1039,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C25927Q0047.docx",
+      "s": "screened",
+      "sol": "36C25927Q0047"
     },
     "87e55325b8d84f43aa878e3b84ee8cad": {
       "c": 6999,
@@ -76002,7 +76452,7 @@
       "sol": "FA945326XA001"
     },
     "900e7889dd0c4b8a9d1cacc12f9c5a69": {
-      "a": 1,
+      "a": 2,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -79306,6 +79756,31 @@
       "s": "screened",
       "sol": "LRAFB_MACC_IndustryDay"
     },
+    "96342050132a461a8ebdd57fae7a08b4": {
+      "c": 3687,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Quinones, Patricia L CIV USMC MCI-EAST (USA)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Quinones, Patricia L CIV USMC MCI-EAST (USA)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Quinones, Patricia L CIV USMC MCI-EAST (USA)",
+          "verified": true
+        },
+        {
+          "context": "JUSTIFICATION AND APPROVAL FOR USE OF OTHER THAN FULL AND OPEN COMPETITION 1. Contracting Activity. Regional Contracting Office-East, Marine Corps Installation East-Marine Corps Base, Camp Lejeune, North Carolina. 2. Description of the Action Being Approved. Award of a commercial firm-fixed price contract on a sole source basis to L3Harris Technologies, Inc for infrastructure and cybersecurity support services for the Enterprise Land Mobile Radio (ELMR) system. 3. Description of Supplies/Services. This justification authorizes and approves the award of a firm-fixed price contract, using FAR part 12 procedures, for the purchase of warranty, sustainment, cybersecurity, and maintenance for the ELMR system. Services will support infrastructure which provides radio frequency (RF) wireless communications equipment required to support the Concept of Operations for Emergency Manage",
+          "finding": "The Marine Corps awarded a $5.3 million sole-source contract to L3Harris for Enterprise Land Mobile Radio infrastructure and cybersecurity support.",
+          "news": 3,
+          "quote": "Award of a commercial firm-fixed price contract on a sole source basis to L3Harris Technologies, Inc for infrastructure and cybersecurity support services for the Enterprise Land Mobile Radio (ELMR) system.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "M6700127P0003 JA.pdf",
+      "s": "screened",
+      "sol": "M6700127P0003"
+    },
     "9645248f61b442c984a31a269d27d0cd": {
       "c": 104489,
       "d": "2026-10-21",
@@ -80575,6 +81050,14 @@
       "s": "screened",
       "sol": "75751MN27R00002"
     },
+    "98657238d49f49e7b934bd35788de087": {
+      "c": 3476,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "IASS_CINDAS _.docx",
+      "s": "screened",
+      "sol": "3d9d5943898e4b83a2aec03e098276f7"
+    },
     "9869fdbf8ee54efeb2099317a04ad688": {
       "c": 2436,
       "d": "2026-10-10",
@@ -80783,6 +81266,23 @@
       "n": "RFI 36C10B26Q0837 - QandA.xlsx",
       "s": "screened",
       "sol": "36C10B26Q0837"
+    },
+    "98e351825c8b4d62954716e2bd49445c": {
+      "c": 7563,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "ransitioned prior to the current task order expiration GCR is the only source that can fulfill this requirement without risk of a substantial break in service/support to DISA. In accordance with FAR 6.301-1, a sole-source action is necessary to ensure continued performance until the award of the follow-on contract. This is a critical requirement. The DISA HQ buildings at Fort Meade are a high-tech, multi- story, 1.07-million-square-foot facility housing vital national security assets\u2014including a Network Operations Center, IT laboratories, and extensive SCIF space\u2014failing to fund this follow-on contract would have severe, cascading impacts on national security, mission readiness, and life safety. BOS Services is the fundamental backbone that allows a facility of this scale and sensitivity to function and the following areas would be impacted without this bridge contract: Operational Consequences of No Funding, Systemic IT Shutdown: These high-tech spaces rely on mission-critical Uninterruptible Power Supplies (UPS), backup generators",
+          "finding": "DISA issued a sole-source bridge contract to GCR-Dean for building operations at its 1.07-million-square-foot Fort Meade headquarters, citing risks to national security assets, SCIFs, and network operations.",
+          "news": 4,
+          "quote": "The DISA HQ buildings at Fort Meade are a high-tech, multi-story, 1.07-million-square-foot facility housing vital national security assets\u2014including a Network Operations Center, IT laboratories, and extensive SCIF space",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "JA27-05 HC104727C0021_BOS Bridge_JA.pdf",
+      "s": "screened",
+      "sol": "JA27-05"
     },
     "98ead7db521e4dc9921cdd828a38865d": {
       "c": 9146,
@@ -82187,6 +82687,14 @@
       "s": "screened",
       "sol": "M6700127P0004"
     },
+    "9bb243a88d5d4eea80b229ae71b9ab12": {
+      "c": 418114,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "3b. UHHZ160138  Drainage - Storm Drain Facility 8700 - Specifications.pdf",
+      "s": "screened",
+      "sol": "FA8501-27-RAPID-PAVE-OTA"
+    },
     "9bb8cfafae494d41aa1b01538cee5e85": {
       "c": 2783,
       "d": "2026-10-18",
@@ -82305,6 +82813,14 @@
       "n": "36C25726Q0885 0002_1.docx",
       "s": "screened",
       "sol": "36C25726Q0885"
+    },
+    "9bf6191777c044d282a62ee99345cfbc": {
+      "c": 552,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C24927P0047_1.docx",
+      "s": "screened",
+      "sol": "36C24927P0047"
     },
     "9bfbe46a284f4aa39bb2dcba32f8f3ed": {
       "c": 0,
@@ -85363,6 +85879,22 @@
       "s": "screened",
       "sol": "W900KK-27-R-A0003"
     },
+    "a1dddd8e68f4483786c8cf1c971d3401": {
+      "c": 11530,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "finding": "ICE is awarding a $137M sole-source contract to CoreCivic for 1,955 detention beds at Cibola and Torrance in New Mexico, evading a state ban on immigrant detention.",
+          "news": 5,
+          "quote": "On February 3, 2026, the New Mexico Senate passed the Immigrant Safety Act, House Bill 9. The legislation prohibits state and local governments from entering into agreements to detain individuals for civil immigration violations... By May 20th, 2026, all current IGSAs in New Mexico will be required ",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "1.5.1-ICE JOFOC Final_redacted v3.pdf",
+      "s": "screened",
+      "sol": "70CDCR26D00000029"
+    },
     "a1df62aff0f248d5b9163fee3635a972": {
       "c": 6311,
       "d": "2026-10-19",
@@ -86047,6 +86579,14 @@
       "s": "screened",
       "sol": "W912PM27RA006"
     },
+    "a2ffa6cbfbdf4ab3a9a239fd9af76040": {
+      "c": 5814,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "4.2 J&A UPDATED Redacted.pdf",
+      "s": "screened",
+      "sol": "SPE7L126R00680001"
+    },
     "a30a60bc31b44a499df5e48627371a48": {
       "c": 16260,
       "d": "2026-11-02",
@@ -86695,6 +87235,24 @@
       "n": "MSS_2840015595990PR_PR FD20302700427.pdf",
       "s": "screened",
       "sol": "FD20302700427"
+    },
+    "a44b581cdea246b2ab8b7dd66695e737": {
+      "c": 122,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "finding": "Justification file properties (who wrote or last saved it): Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: HOPPERBI; LastModifiedBy: Taitt, Courtney S CIV WHS AD (USA); Company: Pentagon Renovation Program Office",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "A10 Notice of Intent to Sole Source_Farnborough 2028.docx",
+      "s": "screened",
+      "sol": "d937833ad8e84cc9a5e023fc54061c3e"
     },
     "a44be4b03fc84e1cbd6e4e39b279d2ac": {
       "c": 882,
@@ -87930,6 +88488,14 @@
       "s": "screened",
       "sol": "N00016427Q0006"
     },
+    "a69fc5a91ab6400290c5973626d21241": {
+      "c": 5159,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "4.0 6985 JnA_Flat_Redacted.pdf",
+      "s": "screened",
+      "sol": "SPE7L127C0021"
+    },
     "a6a1135c23524f0cad063d959ccf95c2": {
       "c": 0,
       "d": "2026-10-20",
@@ -88598,12 +89164,12 @@
       "sol": "36C24827Q0036"
     },
     "a7bdaa72083d4c77a843cddd8a32b169": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation Amendment FA813726R00400005 SF 30.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8137-26-R-0040"
     },
     "a7be9188a75f4ffa88de60f350d58de5": {
@@ -90669,6 +91235,14 @@
       "n": "Solicitation Amendment - W91QV126RA0600002.pdf",
       "s": "failed",
       "sol": "W91QV126RA060"
+    },
+    "abc21925a73d49608381e6c5643cbf29": {
+      "c": 1338,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "26-SIMACQ-D20-0005_Solicitation QA_09302026.pdf",
+      "s": "screened",
+      "sol": "N6339426Q4060"
     },
     "abc4a3fb137046719454697ed04e2038": {
       "c": 3144,
@@ -94115,6 +94689,14 @@
       "s": "screened",
       "sol": "FA813727R0002 "
     },
+    "b29c8a784bb94e25a441e26c2114ee0c": {
+      "c": 394,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C26327C0008_1.docx",
+      "s": "screened",
+      "sol": "36C26327Q0064"
+    },
     "b2ad511a5d484e01bbb9c5d3a80dd1f5": {
       "c": 4695,
       "d": "2026-10-26",
@@ -94690,6 +95272,14 @@
       "s": "screened",
       "sol": "36C26127Q00260001"
     },
+    "b3c3e366cdcf4d12918198e200cefcea": {
+      "c": 2640,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "JA - ECHELON_REDACTED.pdf",
+      "s": "screened",
+      "sol": "SPE8ED26Q0568"
+    },
     "b3d29a7a0bfa42b7b0314886fe2deddd": {
       "c": 125888,
       "d": "2026-10-16",
@@ -95140,6 +95730,24 @@
       "s": "screened",
       "sol": "36C78626Q50257"
     },
+    "b4929aa4e5c849fa99cadc34cd91c7cd": {
+      "c": 1518,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: browntl; LastModifiedBy: WHITTAKER, CYNTHIA E CIV USSF SSC 45 CONS/PKB; Company: ft",
+          "finding": "Justification file properties (who wrote or last saved it): Author: browntl; LastModifiedBy: WHITTAKER, CYNTHIA E CIV USSF SSC 45 CONS/PKB; Company: ft",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: browntl; LastModifiedBy: WHITTAKER, CYNTHIA E CIV USSF SSC 45 CONS/PKB; Company: ft",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "Sole Source Synopsis.docx",
+      "s": "screened",
+      "sol": "FA252127QB039"
+    },
     "b499cc20d0f742a0af46f905c93575ab": {
       "c": 36020,
       "d": "2026-10-20",
@@ -95419,6 +96027,14 @@
       "n": "36C24727P0041_1.docx",
       "s": "screened",
       "sol": "36C24727Q0032"
+    },
+    "b4e330d97136439d8f7ef47829d59531": {
+      "c": 634,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "Attach 2_Customer List.pdf",
+      "s": "screened",
+      "sol": "SPE302-27-SS-0001"
     },
     "b4ea0138c3a744f189747e4cafc7af6a": {
       "c": 0,
@@ -99670,6 +100286,14 @@
       "s": "screened",
       "sol": "SPE4A524R0158"
     },
+    "bc8e77e2bfda4d5695440b5084e1ed99": {
+      "c": 283,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "FY26_FRA_BAA_Announcement_693JJ626R000001_Amendment_2.pdf",
+      "s": "screened",
+      "sol": "693JJ626R000001"
+    },
     "bc8ee71631b441328cca860811ea0d16": {
       "c": 198646,
       "d": "2026-10-19",
@@ -100107,6 +100731,14 @@
       "n": "FY27_DCA_3DHP-C_-_Request_for_Planning_Project_Estimate_1.pdf",
       "s": "screened",
       "sol": "DOIDSAM27G002"
+    },
+    "bd5a33e36e7c4ca485530a7bc39d5481": {
+      "c": 588,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "Pickering Appendix A LIST OF PARTS.docx",
+      "s": "screened",
+      "sol": "Robins_AFB_Pickering_Repair"
     },
     "bd5b0de765454155954aaf79bf6c29b0": {
       "c": 1819,
@@ -101844,6 +102476,15 @@
       "s": "screened",
       "sol": "W81K0425PATBD01"
     },
+    "c0a28a199ef2426898a1c398b93ed936": {
+      "a": 1,
+      "d": "2026-11-04",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "GFP DWA U4-6 Bulkhead Refurb W912EF26QA096.xlsx",
+      "s": "retry",
+      "sol": "W912EF27QA0020001"
+    },
     "c0b177921ac0454dafdb72297579442f": {
       "c": 1565,
       "d": "2026-10-14",
@@ -103199,6 +103840,22 @@
       "s": "screened",
       "sol": "W519TC26RA054"
     },
+    "c2e757280d074dedb4b18b0222c5c582": {
+      "c": 9495,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "finding": "DLA Energy issued a bridge contract to TK & K Services for bulk fuel storage and aircraft refueling at MCAS Camp Pendleton after exhausting all contract options and extensions.",
+          "news": 3,
+          "quote": "This justification and approval (J&A) document is for the award of a bridge action by contract modification under the authority found at the Federal Acquisition Regulation (FAR) 6.103-1, on contract SPE600-17C-5010 for bulk storage and fuels management services at MCAS Camp Pendleton, California (CA",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "JA_Pendleton_26OCT26_legal_Redacted.pdf",
+      "s": "screened",
+      "sol": "SPE600-17-C-5010"
+    },
     "c2f0a8f23f464f8aa62535d55ffafdfa": {
       "c": 8192,
       "d": "2026-10-18",
@@ -103670,12 +104327,12 @@
       "sol": "70Z03827QJ0000018"
     },
     "c41ff0fa931944348f5fe013e9d20c55": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 2 _ 52.212-1 Instructions to Offerors_APS_20261023.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "W900KK-26-R-A023"
     },
     "c425256b20d04a9184a56c0e0911779e": {
@@ -108358,6 +109015,15 @@
       "s": "screened",
       "sol": "15BCMS26R51700001"
     },
+    "cd5a6d399f0f4e8386d599b65cfc8bad": {
+      "a": 1,
+      "d": "2026-11-04",
+      "e": "download failed: HTTP Error 400: Bad Request",
+      "m": null,
+      "n": "Solicitation_27QB028_Amendment2.pdf",
+      "s": "retry",
+      "sol": "FA252127QB028"
+    },
     "cd5b3281e5dd44e28c9c1cc7d87784a2": {
       "c": 11145,
       "d": "2026-10-13",
@@ -112238,6 +112904,24 @@
       "s": "screened",
       "sol": "36C78626B0030"
     },
+    "d49d766fc4fb4bfd81ec947705aecfa4": {
+      "c": 1141,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Department of Veterans Affairs",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Department of Veterans Affairs",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Department of Veterans Affairs",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "P03 SSJ MEM AHU4 Coil Replacement signed.pdf",
+      "s": "screened",
+      "sol": "36C24927P0047"
+    },
     "d4a00466f24348fe974ceec7220cbfd1": {
       "c": 96372,
       "d": "2026-10-21",
@@ -113528,6 +114212,14 @@
       "s": "screened",
       "sol": "36C24527Q0025"
     },
+    "d6d29c5751c94a8caf0e623a7817a9a9": {
+      "c": 0,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "B03_UPDATED_Davis-Bacon_Act_WD___NNV20260060_dated_7_30_2026_0001.pdf",
+      "s": "wage_determination",
+      "sol": "140L3926Q0049"
+    },
     "d6df1b92aa5942ca8de2d3956cfdff2b": {
       "c": 1261,
       "d": "2026-10-14",
@@ -113813,6 +114505,14 @@
       "n": "36C25227Q0041_1.docx",
       "s": "screened",
       "sol": "36C25227Q0041"
+    },
+    "d75edc8707c546c58efcb4a99ff933fd": {
+      "c": 3845,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "Single Source Justification form FA252127QB039.pdf",
+      "s": "screened",
+      "sol": "FA252127QB039"
     },
     "d76554ca8148480a99644a5659fe74f7": {
       "c": 6803,
@@ -115400,6 +116100,24 @@
       "s": "screened",
       "sol": "5NY0727"
     },
+    "da6acc309f6144e7a7365946f113cab2": {
+      "c": 12590,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Kustra, Douglas C. (GRC-PI00)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Kustra, Douglas C. (GRC-PI00)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Kustra, Douglas C. (GRC-PI00)",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "TFOME II - JOFOC - Redacted.pdf",
+      "s": "screened",
+      "sol": "NNC15BA02B"
+    },
     "da7071a2eec24edeaa3228c1770d24ee": {
       "c": 1514,
       "d": "2026-10-13",
@@ -115594,6 +116312,14 @@
       "s": "screened",
       "sol": "6982AF27B000005"
     },
+    "daa6bd193e224b5d9b2533a3a3180f1f": {
+      "c": 8267,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "P02. - Streamlined MR Report Terumo Cardiovascular System_Co Signed.pdf",
+      "s": "screened",
+      "sol": "36C26227C0032"
+    },
     "daaf6e5b78aa4c939bce77e8ccb6f65a": {
       "c": 1331,
       "d": "2026-10-11",
@@ -115633,6 +116359,14 @@
       "n": "Attachment_-_Questions_and_Responses_0002.pdf",
       "s": "screened",
       "sol": "140R3026R0012"
+    },
+    "dabf41199bff42a0ae9d1a1d4759b854": {
+      "c": 296191,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "FA875126Q0013 Attachment 3 Suite H8 Spec Book Vol 2.pdf",
+      "s": "screened",
+      "sol": "FA875126Q0013"
     },
     "dabf4c64f86f4d7e8538a529c55b5d67": {
       "c": 4670,
@@ -117947,6 +118681,14 @@
       "s": "boilerplate_only",
       "sol": "SPRTA1-27-Q-0087"
     },
+    "decd032d6990429a9f1bc5ff667b8f2a": {
+      "c": 173336,
+      "d": "2026-11-04",
+      "m": "pdf",
+      "n": "S02 - Specifications.pdf",
+      "s": "screened",
+      "sol": "36C25226B0030"
+    },
     "ded19d350634422caa1182245703e655": {
       "c": 6650,
       "d": "2026-10-11",
@@ -118317,6 +119059,30 @@
       "n": "Appendix A - OTS Classroom Reference Photos.pdf",
       "s": "screened",
       "sol": "FY27OTSMODFACCMPSRV"
+    },
+    "df4c9ada28f14ac18bd1c8b61a31307f": {
+      "c": 15050,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Minnifield, Tyrone CIV",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Minnifield, Tyrone CIV",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Minnifield, Tyrone CIV",
+          "verified": true
+        },
+        {
+          "finding": "US Coast Guard Fast Response Cutters stationed in Bahrain were evacuated following hostile enemy fire during 'Operation Epic Fury' and relocated to Singapore.",
+          "news": 5,
+          "quote": "All six FRCs stationed in Bahrain were assigned under U.S. CENTCOM to support the Navy 5th Fleet and were evacuated from the region... following hostile enemy fire during Operation Epic Fury.",
+          "verified": false
+        }
+      ],
+      "m": "pdf",
+      "n": "Justification and Approval FAR 12.102(b) ECS Singapore 22 OCT- 21  Nov 2026_signed.pdf",
+      "s": "screened",
+      "sol": "70ZL9327PACAR0001"
     },
     "df5062bcd53947bb92eac78681fc4c1b": {
       "c": 401,
@@ -119472,12 +120238,12 @@
       "sol": "140S0326R0001"
     },
     "e174bee647e44181aac7634cc58d08a8": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation Amendment - FA813726R00400005.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8137-26-R-0040"
     },
     "e176cafc883f497ba08a939a82a6ffa7": {
@@ -120723,6 +121489,23 @@
       "n": "B01_Synopsis_of_Proposed_Contract_Action_10_6_26_1.docx",
       "s": "screened",
       "sol": "140A1627B0003"
+    },
+    "e3c0c017930147f881b8565b8ed0982a": {
+      "c": 436043,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "ghtedges with handles for operation on the pavement. 2.11.10 Work Bridge Provide a self-propelled working bridge capable of spanning the required paving lane width where workmen can efficiently and adequately reach the pavement surface. 2.12 SPECIFIED CONCRETE STRENGTH AND OTHER PROPERTIES 2.12.1 Specified Flexural Strength Specified flexural strength, R, for concrete is 650 psi at 90 days, as determined by equivalent flexural strength, as specified in paragraph MIXTURE PROPORTIONING FOR FLEXURAL STRENGTH below: 2.12.2 Water-Cementitious Materials Ratio Maximum allowable water-cementitious material ratio is 0.45. The water-cementitious material ratio is the equivalent water-cement ratio as determined by conversion from the weight ratio of water to cement plus SCM by the mass equivalency method described in ACI 211.1. 2.12.3 Air Content Page 38 Provide concrete that is air-entrained with a total air content of 6.0 plus or minus 1.5",
+          "finding": "Air Force solicitation specifies strict technical requirements for airfield concrete paving, including a 650 psi flexural strength requirement at 90 days and lithium nitrate admixture usage.",
+          "news": 3,
+          "quote": "Specified flexural strength, R, for concrete is 650 psi at 90 days, as determined by equivalent flexural strength, as specified in paragraph MIXTURE PROPORTIONING FOR FLEXURAL STRENGTH below",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "3c. UHHZ210404-UHHZ150412 ONLY UFGS 03 30 00 -Div 1- aphalt and concrete paving.pdf",
+      "s": "screened",
+      "sol": "FA8501-27-RAPID-PAVE-OTA"
     },
     "e3c1ba82bfc24c4db90769b360b123ce": {
       "c": 2714,
@@ -122799,12 +123582,12 @@
       "sol": "75Q65"
     },
     "e739b8cbccd3455bbb6b04293db34010": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Service Maintenance for Anatomic Pathology Equipmen Statement of Work.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "PANDHA-26-P-0000047516"
     },
     "e73f7d51cb37433e9f5ed3b9a4b738e9": {
@@ -123092,6 +123875,14 @@
       "n": "Solicitation Amendment - N0018926QL3760001.pdf",
       "s": "screened",
       "sol": "N0018926QL3760001"
+    },
+    "e7e3ead4895c477cafa5298ad316726f": {
+      "c": 529,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C24827Q0038_3.docx",
+      "s": "screened",
+      "sol": "36C24827Q0038"
     },
     "e7f0ef92bfee4250ae5f1f38b57ebb4f": {
       "c": 4408,
@@ -124837,12 +125628,12 @@
       "sol": "W912QR-BATONROUGE(JEFFERSON)LAFY27"
     },
     "ead65eca0fd34435b2d466ab12f96b2c": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Solicitation Amendment - FA813726R00400006.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "FA8137-26-R-0040"
     },
     "ead6915b7fb5437b8a664d41688ecb8c": {
@@ -125639,6 +126430,14 @@
       "s": "boilerplate_only",
       "sol": "FA461027R0001"
     },
+    "ec5256be03ed45c684b84424cba5a9be": {
+      "c": 383,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C24227Q0118_1.docx",
+      "s": "screened",
+      "sol": "36C24227Q0118"
+    },
     "ec564518857c4178946b4b6c46180224": {
       "c": 62377,
       "d": "2026-10-10",
@@ -126146,6 +126945,14 @@
       "s": "screened",
       "sol": "RFI-CBPILDDEAN2027"
     },
+    "ed11edaf49d346548dd067df6cae9728": {
+      "c": 450,
+      "d": "2026-11-04",
+      "m": "docx",
+      "n": "36C25927R0001_1.docx",
+      "s": "screened",
+      "sol": "36C25927R0001"
+    },
     "ed13c0dffbae4a16a35688169ef3b644": {
       "c": 16638,
       "d": "2026-10-14",
@@ -126260,12 +127067,12 @@
       "sol": "6-B143-P-00251-00"
     },
     "ed53afac60144bc2b09230e355a20b0c": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "Attachment 10 _ APS Pricing Workbook_10.23.2026.xlsx",
-      "s": "retry",
+      "s": "failed",
       "sol": "W900KK-26-R-A023"
     },
     "ed5ba3f1bd8d41a8a8ad7ef594ff2de0": {
@@ -126616,6 +127423,14 @@
       "n": "Attachment 0003 - S280C Technical PUBS SOW.pdf",
       "s": "screened",
       "sol": "W912CH-26-R-A096"
+    },
+    "edf930fe10684b6ba1c4b9d81db65a5c": {
+      "c": 8579,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "JA6.3021SPE7MX25R0021.pdf",
+      "s": "screened",
+      "sol": "SPE7MX25R0021"
     },
     "edfb9eddb6fa411485968d10ec84526d": {
       "c": 1275,
@@ -129190,6 +130005,14 @@
       "s": "screened",
       "sol": "36C25727Q0009"
     },
+    "f28cdb74cd8d47eeb05d6b6e930f74f7": {
+      "c": 880,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "P03 Attachment 1 Single Source Justification MPT to SAT Signed Redacted.pdf",
+      "s": "screened",
+      "sol": "36C26327Q0064"
+    },
     "f29482444a6947709bddcfd703fbad0d": {
       "c": 526,
       "d": "2026-10-10",
@@ -129278,6 +130101,14 @@
       "n": "Performance Work Statement  10-15-2026.docx",
       "s": "screened",
       "sol": "36C26127Q0069"
+    },
+    "f2b36d837423451d845d5cd0759feaea": {
+      "c": 12762,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "A02 - JA - PEGA_21 September_24SEP2026 Final_Final Redacted for SAM.gov.pdf",
+      "s": "screened",
+      "sol": "W519TC-27-D-A019"
     },
     "f2b3bf5e840b4edc969962e8bea1e2c7": {
       "c": 33701,
@@ -134081,6 +134912,24 @@
       "s": "screened",
       "sol": "W912CH-26-S-0001"
     },
+    "fbfe0c11e8ff4fd2b4a0043aec0a78a5": {
+      "c": 4389,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Belleau, Leah (BOP)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Belleau, Leah (BOP)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Belleau, Leah (BOP)",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "FCI LEWISBURG FY27 LANDFILL JOFOC SIGNED.pdf",
+      "s": "screened",
+      "sol": "15B20726p00000050"
+    },
     "fc0220aa2e134e02aa8f02b451007727": {
       "c": 10954,
       "d": "2026-10-19",
@@ -134177,6 +135026,14 @@
       "n": "Attach 4b_FAR Provision Fill-ins.docx",
       "s": "screened",
       "sol": "SP450026R0015"
+    },
+    "fc3a060207784126958858c1f74d0280": {
+      "c": 0,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "Wage Determination TX20260285 Modification 1.pdf",
+      "s": "wage_determination",
+      "sol": "15BBNF27Q50100001"
     },
     "fc3c23160161431197fd1d1ac193c7de": {
       "c": 991,
@@ -135645,6 +136502,24 @@
       "s": "screened",
       "sol": "N4008527R0016"
     },
+    "fec1813f0e0d47fda5c6ef685fcfce44": {
+      "c": 10571,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "Author: Jones, Erica D (MSFC-PS12)",
+          "finding": "Justification file properties (who wrote or last saved it): Author: Jones, Erica D (MSFC-PS12)",
+          "kind": "provenance",
+          "news": 3,
+          "quote": "Author: Jones, Erica D (MSFC-PS12)",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "REDACTED GMACC-2 Justification for Other than Full and Open Competition (JOFOC).pdf",
+      "s": "screened",
+      "sol": "80GRC020D0009"
+    },
     "fec2b511f30243d196b479c2890559c9": {
       "c": 586,
       "d": "2026-10-17",
@@ -135652,6 +136527,14 @@
       "n": "36C25925Q0740 0002.docx",
       "s": "screened",
       "sol": "36C25925Q0740"
+    },
+    "fecc68e590f24096abf516cf2838e234": {
+      "c": 519150,
+      "d": "2026-11-04",
+      "m": "ocr+pdf",
+      "n": "Attachment J-1 AOC Design Standards 2-26-2018 (160 Pages).pdf",
+      "s": "screened",
+      "sol": "030ADV27R0010"
     },
     "fecd035eaf8d414fb94486b611b0d30f": {
       "c": 14660,
@@ -136256,6 +137139,23 @@
       "n": "W911SD-27-Q-A002 Purchase Description PHOTOS Saber Sowrds.pdf",
       "s": "screened",
       "sol": "W911SD-27-Q-A002"
+    },
+    "fff1b2ec9baa4239b7839012280067ea": {
+      "c": 9672,
+      "d": "2026-11-04",
+      "f": [
+        {
+          "context": "petitor to the United States for space exploration. China\u2019s recent progress also includes significant developments in the country\u2019s crewed lunar program, including successful liftoff and landing tests of a crewed lander. These developments place China on target to meet their current goal of landing two astronauts on the lunar surface before 2030. It is critical to the national interests of the United States, and therefore to NASA\u2019s mission, that the Artemis program return American astronauts to the Moon before China reaches this milestone and seizes the initiative and global leadership role in human space exploration. NASA plans to launch its first mission to return humans to the Moon (currently titled \u201cArtemis IV\u201d) by 2028. This launch schedule is critical to NASA\u2019s mission and the national interests it supports. b. Spaceport Command and Control System (SCCS) Program Background The Spaceport Command and Control System (SCCS) was developed by NASA\u2019s Exploration Ground Systems to operate, monitor and coordinate the ground equipment",
+          "finding": "NASA invoked unusual and compelling urgency to sole-source Cinedeck video recorders for Artemis III, citing the geopolitical imperative to land astronauts on the moon before China by 2028.",
+          "news": 5,
+          "quote": "It is critical to the national interests of the United States, and therefore to NASA\u2019s mission, that the Artemis program return American astronauts to the Moon before China reaches this milestone and seizes the initiative and global leadership role in human space exploration.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "JOFOC Unusual and Compelling Urgency_Cinedeck_Redacted.pdf",
+      "s": "screened",
+      "sol": "80TECH27QA011"
     },
     "fff9b6092ce14413955ab18ce4c5d11a": {
       "c": 1274276,
