@@ -345,6 +345,10 @@
     "checked": "2026-10-29",
     "result": null
   },
+  "dell federal systems l p": {
+    "checked": "2026-11-04",
+    "result": null
+  },
   "deployahp": {
     "checked": "2026-10-19",
     "result": null
@@ -464,6 +468,10 @@
   },
   "hammer lgc": {
     "checked": "2026-10-31",
+    "result": null
+  },
+  "highrise consulting": {
+    "checked": "2026-11-04",
     "result": null
   },
   "hitt contracting": {
@@ -785,6 +793,10 @@
     "checked": "2026-10-19",
     "result": null
   },
+  "monument construction services": {
+    "checked": "2026-11-04",
+    "result": null
+  },
   "mystic ventures group": {
     "checked": "2026-10-30",
     "result": null
@@ -870,6 +882,10 @@
   },
   "peraton": {
     "checked": "2026-10-15",
+    "result": null
+  },
+  "phoenix aviation limited": {
+    "checked": "2026-11-04",
     "result": null
   },
   "picis clinical solutions": {
@@ -981,6 +997,25 @@
   "sea pac engineering": {
     "checked": "2026-10-09",
     "result": null
+  },
+  "shield ai": {
+    "checked": "2026-11-04",
+    "result": {
+      "client": "SHIELD AI, INC.",
+      "firms": [
+        "ATLAS CROSSING LLC",
+        "CROSSROADS STRATEGIES, LLC",
+        "LIZ WILLIAMS AND COMPANY"
+      ],
+      "issues": [
+        "Defense",
+        "Budget/Appropriations"
+      ],
+      "n_filings": 9,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/ac45a202-6ce5-47bf-8f30-067ad482fe31/print/",
+      "ytd": 180000.0
+    }
   },
   "siemens medical solutions usa": {
     "checked": "2026-10-08",

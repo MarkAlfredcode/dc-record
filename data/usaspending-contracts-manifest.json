@@ -250,6 +250,9 @@
   "CONT_AWD_1605JW27F00001_1605_1605JE22D0011_1605": {
     "action_date": "2026-10-30"
   },
+  "CONT_AWD_19AQMM27C0070_1900_-NONE-_-NONE-": {
+    "action_date": "2026-10-31"
+  },
   "CONT_AWD_2031JG27F51620_2044_2031JG20D00010_2044": {
     "action_date": "2026-10-15"
   },
@@ -312,6 +315,9 @@
   },
   "CONT_AWD_2031JG27F71130_2044_2031JG23D00002_2044": {
     "action_date": "2026-10-06"
+  },
+  "CONT_AWD_2031JG27F71131_2044_2031JG23D00002_2044": {
+    "action_date": "2026-11-02"
   },
   "CONT_AWD_2031JW27F00004_2046_2032L226A00007_2001": {
     "action_date": "2026-10-16"
@@ -399,6 +405,12 @@
   },
   "CONT_AWD_36C24127N0080_3600_36C24127D0001_3600": {
     "action_date": "2026-10-29"
+  },
+  "CONT_AWD_36C24127N0082_3600_36C24124D0114_3600": {
+    "action_date": "2026-11-02"
+  },
+  "CONT_AWD_36C24127N0106_3600_36C24124D0111_3600": {
+    "action_date": "2026-11-02"
   },
   "CONT_AWD_36C24227C0006_3600_-NONE-_-NONE-": {
     "action_date": "2026-10-21"
@@ -691,6 +703,9 @@
   "CONT_AWD_70SBUR27F00000004_7003_70SBUR23A00000003_7003": {
     "action_date": "2026-10-29"
   },
+  "CONT_AWD_70ZA0127F93130001_7008_70Z02324D93130001_7008": {
+    "action_date": "2026-11-02"
+  },
   "CONT_AWD_70ZH0127F80000001_7008_70Z02325A80000001_7008": {
     "action_date": "2026-10-15"
   },
@@ -712,6 +727,9 @@
   "CONT_AWD_7571TE27F80010_7571_47QTCA24A0002_4732": {
     "action_date": "2026-10-27"
   },
+  "CONT_AWD_7571TE27F80020_7571_47QTCA22A0004_4732": {
+    "action_date": "2026-11-02"
+  },
   "CONT_AWD_75FCMC27F0003_7530_GS35F0149Y_4732": {
     "action_date": "2026-10-30"
   },
@@ -726,6 +744,9 @@
   },
   "CONT_AWD_75N98027F00001_7529_75N98026D00016_7529": {
     "action_date": "2026-10-30"
+  },
+  "CONT_AWD_75N98027F00001_7529_75N98120D00149_7529": {
+    "action_date": "2026-10-28"
   },
   "CONT_AWD_75N98027F00002_7529_47QTCA25D00D4_4732": {
     "action_date": "2026-10-15"
@@ -818,10 +839,6 @@
   },
   "CONT_AWD_FA460026F0050_9700_47QRCA24DV225_4732": {
     "action_date": "2026-07-22",
-    "dod": true
-  },
-  "CONT_AWD_FA470426F0022_9700_N0002325D0048_9700": {
-    "action_date": "2026-07-18",
     "dod": true
   },
   "CONT_AWD_FA488726F0088_9700_FA488721D0003_9700": {
@@ -1098,6 +1115,10 @@
   },
   "CONT_AWD_N0002426F8149_9700_N0002422D6404_9700": {
     "action_date": "2026-07-20",
+    "dod": true
+  },
+  "CONT_AWD_N0003026C0100_9700_-NONE-_-NONE-": {
+    "action_date": "2026-07-24",
     "dod": true
   },
   "CONT_AWD_N0003926FA024_9700_N0003923D1003_9700": {
@@ -1580,8 +1601,16 @@
     "action_date": "2026-07-22",
     "dod": true
   },
+  "CONT_AWD_SPRDL126C0113_9700_-NONE-_-NONE-": {
+    "action_date": "2026-08-05",
+    "dod": true
+  },
   "CONT_AWD_SPRDL126C0127_9700_-NONE-_-NONE-": {
     "action_date": "2026-07-23",
+    "dod": true
+  },
+  "CONT_AWD_SPRDL126F0148_9700_SPRDL126D0037_9700": {
+    "action_date": "2026-07-28",
     "dod": true
   },
   "CONT_AWD_SPRHA126F0122_9700_SPRHA123D0002_9700": {
@@ -1636,6 +1665,14 @@
     "action_date": "2026-07-21",
     "dod": true
   },
+  "CONT_AWD_SPRRA226F0118_9700_SPRRA224D0005_9700": {
+    "action_date": "2026-07-31",
+    "dod": true
+  },
+  "CONT_AWD_SPRRA226F0119_9700_SPRRA223D0020_9700": {
+    "action_date": "2026-07-31",
+    "dod": true
+  },
   "CONT_AWD_SPRTA126F0328_9700_SPE4A124G0014_9700": {
     "action_date": "2026-07-22",
     "dod": true
@@ -1656,8 +1693,40 @@
     "action_date": "2026-07-20",
     "dod": true
   },
+  "CONT_AWD_W31P4Q26F0046_9700_W31P4Q24D0001_9700": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
+  "CONT_AWD_W31P4Q26F0058_9700_W31P4Q20D0039_9700": {
+    "action_date": "2026-07-30",
+    "dod": true
+  },
+  "CONT_AWD_W31P4Q26F0080_9700_W31P4Q20D0032_9700": {
+    "action_date": "2026-07-23",
+    "dod": true
+  },
   "CONT_AWD_W31P4Q26F0121_9700_W31P4Q24D0022_9700": {
     "action_date": "2026-07-22",
+    "dod": true
+  },
+  "CONT_AWD_W31P4Q26F0138_9700_W31P4Q24D0001_9700": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
+  "CONT_AWD_W31P4Q26F0144_9700_W31P4Q22D0025_9700": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
+  "CONT_AWD_W31P4Q26F0177_9700_W31P4Q24D0001_9700": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
+  "CONT_AWD_W31P4Q26F0178_9700_W31P4Q24D0001_9700": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
+  "CONT_AWD_W31P4Q26F0179_9700_W31P4Q25D0013_9700": {
+    "action_date": "2026-07-31",
     "dod": true
   },
   "CONT_AWD_W5170126CA190_9700_-NONE-_-NONE-": {
@@ -1676,12 +1745,28 @@
     "action_date": "2026-07-22",
     "dod": true
   },
+  "CONT_AWD_W56KGY26F0042_9700_W56KGY23D0005_9700": {
+    "action_date": "2026-07-24",
+    "dod": true
+  },
   "CONT_AWD_W56KGY26FA002_9700_W56KGY25D0008_9700": {
     "action_date": "2026-07-21",
     "dod": true
   },
+  "CONT_AWD_W58P0526F0025_9700_W58P0524D0005_9700": {
+    "action_date": "2026-07-30",
+    "dod": true
+  },
+  "CONT_AWD_W58RGZ26F0129_9700_W58RGZ25D0022_9700": {
+    "action_date": "2026-07-28",
+    "dod": true
+  },
   "CONT_AWD_W58RGZ26F0256_9700_W58RGZ18D0001_9700": {
     "action_date": "2026-07-20",
+    "dod": true
+  },
+  "CONT_AWD_W58RGZ26F0258_9700_W58RGZ18D0001_9700": {
+    "action_date": "2026-08-03",
     "dod": true
   },
   "CONT_AWD_W58RGZ26F0343_9700_W58RGZ18D0001_9700": {
@@ -1694,6 +1779,10 @@
   },
   "CONT_AWD_W58RGZ26F0352_9700_W58RGZ18D0001_9700": {
     "action_date": "2026-07-20",
+    "dod": true
+  },
+  "CONT_AWD_W58RGZ26F0365_9700_W58RGZ26G0046_9700": {
+    "action_date": "2026-07-27",
     "dod": true
   },
   "CONT_AWD_W58RGZ26F0371_9700_W58RGZ26D0052_9700": {
@@ -1760,12 +1849,20 @@
     "action_date": "2026-07-21",
     "dod": true
   },
+  "CONT_AWD_W909MY26F0038_9700_W909MY24D0002_9700": {
+    "action_date": "2026-07-28",
+    "dod": true
+  },
   "CONT_AWD_W90VN926FA167_9700_W91QVN24D0056_9700": {
     "action_date": "2026-07-21",
     "dod": true
   },
   "CONT_AWD_W90VN926FA174_9700_W91QVN24D0110_9700": {
     "action_date": "2026-07-22",
+    "dod": true
+  },
+  "CONT_AWD_W9115126FA183_9700_W9115126DA013_9700": {
+    "action_date": "2026-07-31",
     "dod": true
   },
   "CONT_AWD_W911QY26CA039_9700_-NONE-_-NONE-": {
@@ -1824,6 +1921,22 @@
     "action_date": "2026-07-27",
     "dod": true
   },
+  "CONT_AWD_W912CH26F0303_9700_W56HZV18D0010_9700": {
+    "action_date": "2026-07-27",
+    "dod": true
+  },
+  "CONT_AWD_W912CH26F0343_9700_W912CH25D0079_9700": {
+    "action_date": "2026-07-30",
+    "dod": true
+  },
+  "CONT_AWD_W912CH26F0359_9700_W56HZV22D0007_9700": {
+    "action_date": "2026-08-04",
+    "dod": true
+  },
+  "CONT_AWD_W912CH26F0380_9700_W56HZV17D0071_9700": {
+    "action_date": "2026-07-28",
+    "dod": true
+  },
   "CONT_AWD_W912CH26F0389_9700_W56HZV17D0071_9700": {
     "action_date": "2026-07-21",
     "dod": true
@@ -1852,6 +1965,10 @@
     "action_date": "2026-07-23",
     "dod": true
   },
+  "CONT_AWD_W912HP26CA008_9700_-NONE-_-NONE-": {
+    "action_date": "2026-08-03",
+    "dod": true
+  },
   "CONT_AWD_W912HY26CA024_9700_-NONE-_-NONE-": {
     "action_date": "2026-07-21",
     "dod": true
@@ -1874,6 +1991,10 @@
   },
   "CONT_AWD_W91CRB26CA030_9700_-NONE-_-NONE-": {
     "action_date": "2026-07-20",
+    "dod": true
+  },
+  "CONT_AWD_W91CRB26F5087_9700_W91CRB21D5003_9700": {
+    "action_date": "2026-07-30",
     "dod": true
   },
   "CONT_AWD_W91CRB26FA260_9700_W91CRB25DA009_9700": {
@@ -1939,6 +2060,9 @@
   },
   "tx:291395503": {
     "action_date": "2026-10-21"
+  },
+  "tx:291495348": {
+    "action_date": "2026-11-02"
   },
   "tx:291508168": {
     "action_date": "2026-10-28"
@@ -2106,8 +2230,16 @@
   "tx:311432673": {
     "action_date": "2026-10-29"
   },
+  "tx:349011166": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
   "tx:349715831": {
     "action_date": "2026-07-22",
+    "dod": true
+  },
+  "tx:349753607": {
+    "action_date": "2026-08-03",
     "dod": true
   },
   "tx:349841568": {
@@ -2179,14 +2311,26 @@
     "action_date": "2026-07-23",
     "dod": true
   },
+  "tx:360242402": {
+    "action_date": "2026-07-28",
+    "dod": true
+  },
   "tx:360815920": {
     "action_date": "2026-10-26"
   },
   "tx:361185309": {
     "action_date": "2026-10-28"
   },
+  "tx:361852158": {
+    "action_date": "2026-07-30",
+    "dod": true
+  },
   "tx:361853197": {
     "action_date": "2026-07-22",
+    "dod": true
+  },
+  "tx:361854074": {
+    "action_date": "2026-08-04",
     "dod": true
   },
   "tx:362042336": {

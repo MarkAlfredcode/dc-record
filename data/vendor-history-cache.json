@@ -4150,6 +4150,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "forest biometric research institute": {
+    "d": "2026-11-04",
+    "examples": [
+      {
+        "agency": "Department of the Interior",
+        "amount": 188000.0,
+        "recipient": "FOREST BIOMETRICS RESEARCH INSTITUTE",
+        "start": "2021-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_140A1221P0028_1450_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Agriculture",
+        "amount": 130000.0,
+        "recipient": "FOREST BIOMETRICS RESEARCH INSTITUTE",
+        "start": "2014-09-22",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_AG0116P140014_12C2_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Agriculture",
+        "amount": 130000.0,
+        "recipient": "FOREST BIOMETRICS RESEARCH INSTITUTE",
+        "start": "2019-04-19",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_12010919P0013_12C2_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2014-09-22",
+    "has_contracts": true,
+    "raw_hits": 9
+  },
   "frontgrade technologie": {
     "d": "2026-10-10",
     "examples": [
@@ -4314,6 +4343,35 @@
       }
     ],
     "first": "2015-09-18",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "general atomic aeronautical system": {
+    "d": "2026-11-04",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 3792314138.22,
+        "recipient": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
+        "start": "2019-04-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ19C0027_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 2201639847.5,
+        "recipient": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
+        "start": "2012-05-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ12C0075_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 1873757793.98,
+        "recipient": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
+        "start": "2016-10-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W58RGZ17C0018_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2003-05-16",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -5859,6 +5917,35 @@
     "first": "2007-09-21",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "life technologie": {
+    "d": "2026-11-04",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 139111087.5,
+        "recipient": "LIFE TECHNOLOGIES CORPORATION",
+        "start": "2020-05-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75A50120C00107_7505_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 26000000.0,
+        "recipient": "LIFE TECHNOLOGIES CORPORATION",
+        "start": "2025-01-30",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15F06725F0000228_1549_15F06722D0000839_1549"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 21465980.24,
+        "recipient": "LIFE TECHNOLOGIES CORPORATION",
+        "start": "2025-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15F06725F0001161_1549_15F06722D0000839_1549"
+      }
+    ],
+    "first": "2012-02-13",
+    "has_contracts": true,
+    "raw_hits": 37
   },
   "lindahl reed": {
     "d": "2026-10-10",
@@ -7489,6 +7576,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "phillip": {
+    "d": "2026-11-04",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 329534142.22,
+        "recipient": "PHILLIPS 66 COMPANY",
+        "start": "2012-11-02",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_B001_9700_SP060013D0450_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 140295507.43,
+        "recipient": "PHILLIPS AND JORDAN, INCORPORATED",
+        "start": "2006-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0046_9700_W912P805D0022_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 117224263.3,
+        "recipient": "PHILLIPS AND JORDAN, INCORPORATED",
+        "start": "2005-10-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0005_9700_W912P805D0022_9700"
+      }
+    ],
+    "first": "2005-10-10",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "phillip 66": {
     "d": "2026-11-03",
     "examples": [
@@ -8775,6 +8891,35 @@
       }
     ],
     "first": "2022-07-07",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "southwest research institute": {
+    "d": "2026-11-04",
+    "examples": [
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 389447559.39,
+        "recipient": "SOUTHWEST RESEARCH INSTITUTE",
+        "start": "2004-04-21",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNG04EB99C_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 188102935.0,
+        "recipient": "SOUTHWEST RESEARCH INSTITUTE",
+        "start": "2006-02-23",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA75C_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 168112735.0,
+        "recipient": "SOUTHWEST RESEARCH INSTITUTE",
+        "start": "2002-03-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_HQTR0200204DNASW02008_8000_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1999-12-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -13431,6 +13576,13 @@
     "first": "2002-12-31",
     "has_contracts": true,
     "raw_hits": 50
+  },
+  "x cell laboratorie of western new york": {
+    "d": "2026-11-04",
+    "examples": [],
+    "first": null,
+    "has_contracts": false,
+    "raw_hits": 0
   },
   "yamyam uk": {
     "d": "2026-11-03",
