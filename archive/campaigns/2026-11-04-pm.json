@@ -1,0 +1,65 @@
+{
+ "date": "Wednesday, November 4, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "Seven large negative transactions surface, including $51,652.89 charged back to Emmer Majority Builders",
+  "dek": "No new RFAIs or Form 99 filings appeared in this edition's window, so voided and negative transactions are the only new FEC items.",
+  "paragraphs": [
+   "The largest is a $51,652.89 negative Schedule A entry for <strong>Emmer Majority Builders</strong> tied to <strong>Edward E. Martin Jr.</strong>, dated 07/07/2026 and described as a 2026 aggregate earmarked by WinRed that was charged back. A large negative amount is FEC's convention for a voided, reversed or refunded transaction, and it is often mundane.",
+   "The <strong>Texas Democratic Party</strong> shows three negative entries labeled excessive contribution transfers: $27,500 for <strong>Stacy Schusterman</strong>, $27,500 for <strong>Lynn Schusterman</strong> and $15,000 for <strong>Susan C. Young</strong>, all dated 09/02 to 09/03/2026. <strong>Trump 47 Committee, Inc.</strong> shows two $22,500 negative earmarked contributions for <strong>Lewis S. Pemberton</strong> and <strong>Tricia Pemberton</strong> on 09/25/2026."
+  ],
+  "callout": {
+   "label": "Read the filings",
+   "links": [
+    {
+     "text": "Emmer Majority Builders chargeback",
+     "url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159909553882"
+    },
+    {
+     "text": "Texas Democratic Party, Stacy Schusterman",
+     "url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209921422568"
+    },
+    {
+     "text": "Trump 47 Committee, Lewis Pemberton",
+     "url": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159914690847"
+    }
+   ]
+  }
+ },
+ "sections": [
+  {
+   "eyebrow": "Voided & Negative Transactions",
+   "headline": "Seven negative entries of $10,000 or more, from a chargeback to excessive-contribution transfers",
+   "paragraphs": [
+    "Seven new rows carry large negative amounts, which by FEC convention mark a voided, reversed or refunded transaction. Most look routine, such as excessive-contribution corrections and earmark reversals."
+   ],
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      "<strong>Emmer Majority Builders had a $51,652.89 contribution from Edward E. Martin Jr. charged back</strong>. The 07/07/2026 entry is described as a 2026 aggregate earmarked by WinRed. (<a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610159909553882\">Filing</a>)",
+      "<strong>Texas Democratic Party reversed a $27,500 contribution from Stacy Schusterman as an excessive contribution transfer</strong>. The entry is dated 09/02/2026. (<a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610209921422568\">Filing</a>)",
+      "<strong>Texas Democratic Party reversed a $27,500 contribution from Lynn Schusterman as an excessive contribution transfer</strong>. The entry is dated 09/03/2026. (<a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610209921422567\">Filing</a>)",
+      "<strong>Texas Democratic Party reversed a $15,000 contribution from Susan C. Young as an excessive contribution transfer</strong>. The entry is dated 09/03/2026. (<a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610209921422639\">Filing</a>)",
+      "<strong>Kentucky State Democratic Central Executive Committee shows a $10,000 contribution from William P. Butler reversed</strong>. The entry is dated 09/14/2026. (<a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610209921420512\">Filing</a>)",
+      "<strong>Trump 47 Committee, Inc. reversed a $22,500 earmarked contribution from Lewis S. Pemberton</strong>. The entry is dated 09/25/2026. (<a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610159914690847\">Filing</a>)",
+      "<strong>Trump 47 Committee, Inc. reversed a $22,500 earmarked contribution from Tricia Pemberton</strong>. The entry is dated 09/25/2026. (<a href=\"https://docquery.fec.gov/cgi-bin/fecimg/?202610159914690848\">Filing</a>)"
+     ]
+    }
+   ],
+   "no_news": false
+  }
+ ],
+ "footer": {
+  "coverage_window": "FEC filings received 2026-11-01 through 2026-11-04 (PM edition). 74 filings in the window were all reported in prior editions.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "No tasks were skipped."
+ },
+ "apod": {
+  "title": "The Not-So-Hidden Galaxy, IC 342",
+  "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/ic342.png?w=1024",
+  "caption": "\u201cI see\u201d IC 342, the Hidden Galaxy! Today\u2019s image peers through the plane of the Milky Way, through all its gas, dust and stars, to unveil this spiral galaxy.",
+  "credit": "science.nasa.gov/apod"
+ },
+ "beat": []
+}
