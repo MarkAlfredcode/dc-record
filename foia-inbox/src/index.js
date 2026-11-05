@@ -42,10 +42,28 @@ function stripHtml(html) {
 // drafting pass as appeal candidates even when the letter can't be tied to a tracker request.
 const DENIED = new RegExp([
   'neither confirm nor deny', 'expedited (processing|treatment)[^.]{0,80}(is |are |has been |have been |is hereby )?(denied|not granted)',
-  '(deny|denying|denied|denial of) (your )?(request for )?expedit', 'your request (is|has been) (hereby )?(denied|closed)',
+  '(deny|denying|denied|denial of) (your )?(request for )?expedit', '(this|the) expedit\\w* (processing |treatment )?denial',
+  'expedit\\w*( processing| treatment)? justification[^.]{0,40}(was|is) insufficient', 'your request (is|has been) (hereby )?(denied|closed)',
   'we (are )?(den(y|ying)|unable to grant)', 'no (responsive )?records (were|was) (found|located)', 'did not locate any (responsive )?records',
   'adverse determination', 'withh(old|eld|olding) (the records )?in full', '(request|it) (is|has been) administratively closed'
 ].join('|'), 'i');
+
+const DENIED_G = new RegExp(DENIED.source, 'gi');
+// Appeal-rights boilerplate names a denial without being one: Census's fee-waiver-granted letter (inbox 308) says
+// appeals should explain "why the adverse determination was in error", and that alone marked the request Denied. ICE:
+// "If you consider the decision to deny expedited treatment ... to be an adverse determination, you may file an
+// administrative appeal". NASA: "include a copy of your initial request, the adverse determination". Any sentence that
+// pairs the phrase with appeal instructions is boilerplate.
+const APPEAL_BOILERPLATE = /appeal|if you consider|copy of (?:your|the)/i;
+// Every real denial phrase, sentence by sentence. A refusal of the records themselves comes first, so a letter that
+// denies records and expediting is filed (and appealed) as a records denial, not an expedite one.
+function denialOf(text) {
+  const found = [];
+  for (const s of String(text).split(/(?<=[.!?])\s+|\n+/)) {
+    for (const m of s.matchAll(DENIED_G)) if (!(/adverse determination/i.test(m[0]) && APPEAL_BOILERPLATE.test(s))) found.push(m);
+  }
+  return found.find(function (m) { return !/expedit/i.test(m[0]); }) || found[0] || null;
+}
 
 // Agency says it won't process an emailed request at all; it has to be refiled elsewhere.
 const REJECTED = new RegExp([
@@ -108,7 +126,9 @@ async function record(raw, env) {
   const rejected = !auto && (REJECTED.test(lead) || !!(plain && plain.kind === 'rejected'));
   const noAck = auto || rejected ? 1 : 0;
   const ask = auto || rejected ? null : asksForReply(subject + '\n' + theirs.slice(0, 6000) + '\n' + attText.slice(0, 6000), mine);
-  const den = auto || rejected ? null : (subject + '\n' + stripOwn(theirs.slice(0, 8000), mine) + '\n' + stripOwn(attText.slice(0, 8000), mine)).match(DENIED);
+  const den = auto || rejected ? null : denialOf(subject + '\n' + stripOwn(theirs.slice(0, 8000), mine) + '\n' + stripOwn(attText.slice(0, 8000), mine));
+  // Only fast-tracking was refused. Mark doesn't appeal those (2026-10-29): log it, don't queue it as a denial to answer.
+  const expediteOnly = !!(den && /expedit/i.test(den[0]));
   // Our appeal of an expedited-processing denial was itself denied: that's the end of it. Don't queue another appeal.
   let expediteFinal = false;
   if (requestId && den && /expedit/i.test(den[0])) {
@@ -122,7 +142,8 @@ async function record(raw, env) {
   const ins = await db.prepare('INSERT INTO inbox (received_at, from_addr, from_name, to_addr, subject, message_id, in_reply_to, refs, text, snippet, attachments, request_id, auto, needs_reply, reason, status, plain) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
     .bind(now, from, (email.from && email.from.name) || null, (email.to || []).map(function (t) { return t.address; }).join(', '),
       subject, email.messageId || header('message-id'), email.inReplyTo || header('in-reply-to'), email.references || header('references'),
-      text, snippet, attachments || null, requestId, auto, expediteFinal ? 0 : ask || den ? 1 : 0, expediteFinal ? 'Expedite appeal denied: nothing further' : den ? 'Denial: ' + den[0] : ask ? ask.phrase : rejected ? 'Resubmit required' : null,
+      text, snippet, attachments || null, requestId, auto, expediteFinal ? 0 : ask || (den && !expediteOnly) ? 1 : 0,
+      expediteFinal ? 'Expedite appeal denied: nothing further' : den && !expediteOnly ? 'Denial: ' + den[0] : ask ? ask.phrase : expediteOnly ? 'Expedite denied: not appealed' : rejected ? 'Resubmit required' : null,
       expediteFinal || (!requestId && !ask && !den && (PORTAL_NOISE.test(subject) || (plain && plain.kind === 'account'))) ? 'handled' : 'new', plain ? JSON.stringify(plain) : null).run();
   const inboxId = ins.meta && ins.meta.last_row_id;
   if (inboxId && atts.length) {

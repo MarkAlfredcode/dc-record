@@ -313,7 +313,8 @@ const ASKS = [
     check: function (s, at) { const n = s.slice(Math.max(0, at - 70), at); return /\b(?:please|must|need to|needs to|required to|request(?:s|ed)? that you|ask(?:s|ed)? that you|asks? you to|should)\b/i.test(n) && !/\b(?:option|opportunity|may|can|could|wish|choose|if you)\b/i.test(n); } },
   { re: /certif(?:y|ication)/i,
     // Asked of us (missing, required, provide) and not our own "I certify" or certified mail.
-    check: function (s) { return !/\bI (?:hereby )?certif|certif\w* (?:that )?(?:the|this) (?:above|information|statement)|certified (?:mail|copy|copies|letter)|certifying official/i.test(s) && (/(?:please|must|need|require\w*|provide|submit|send|include|attach|complete|sign)\b[^.]{0,80}certif|certif\w+[^.]{0,60}\b(?:is|are) (?:required|needed|missing|necessary)|(?:did not|does not|failed to|fail to|lack\w*|without)\b[^.]{0,50}certif/i.test(s)); } },
+    // A regulation quoted at us ("in accordance with 15 CFR 4.6(f)(3), 'a requester who seeks ... must submit'") states the rule; it isn't a request.
+    check: function (s) { return !/\bI (?:hereby )?certif|certif\w* (?:that )?(?:the|this) (?:above|information|statement)|certified (?:mail|copy|copies|letter)|certifying official|\bC\.?F\.?R\.?\b|U\.S\.C\.|a request[eo]r who/i.test(s) && (/(?:please|must|need|require\w*|provide|submit|send|include|attach|complete|sign)\b[^.]{0,80}certif|certif\w+[^.]{0,60}\b(?:is|are) (?:required|needed|missing|necessary)|(?:did not|does not|failed to|fail to|lack\w*|without)\b[^.]{0,50}certif/i.test(s)); } },
   { re: RESPONDS, check: respondAsk },
   { re: /will be (?:closed|considered withdrawn|administratively closed)|abandon/i,
     // A closure notice isn't a question; a closure that depends on our answer is.
@@ -332,6 +333,9 @@ export function asksForReply(text, ownTexts, source) {  // source: the unsplit l
   const own = ownTexts && ownTexts.length ? ' ' + norm(decode(ownTexts.join(' '))) + ' ' : '';
   const sents = sentencesOf(text);
   for (const s of sents) {
+    // Anything about fast-tracking is optional: Mark stopped pursuing expedited processing (2026-10-29), so an offer to
+    // reconsider it, or the rule quoted while denying it, never makes a reply something he has to answer.
+    if (/expedit/i.test(s)) continue;
     for (const a of ASKS) {
       const m = a.re.exec(s);
       if (!m) continue;
@@ -507,8 +511,13 @@ const SAYS = [
   ['spam', /quarantined|missing one of your|caught in (?:our|a|the) (?:spam|junk)/i],
   ['closed', /(?:your |the |this )?request(?: #?[\w-]*\d[\w-]*)? (?:is|has been|was) (?:hereby )?(?:administratively )?closed|(?:we are|we have|I am) (?:now )?clos(?:ed|ing) (?:your|this|the) (?:request|case|file)/i,
     function (s) { return !/\b(?:unless|if|absent|without a response|fail\w*)\b/i.test(s); }],
-  ['expediteDenied', /expedit\w*(?: processing| treatment)?[^.]{0,80}\b(?:is|has been|are|was|were) (?:hereby )?(?:denied|not granted|not warranted)|den(?:y|ied|ying|ial of) (?:your )?(?:request for )?expedit|does not (?:meet|qualify for|warrant) expedit|(?:not|in)eligible (?:for )?expedit/i],
-  ['expediteGranted', /expedit\w*(?: processing| treatment)?[^.]{0,80}\b(?:is|has been|was) (?:hereby )?granted|grant(?:ed|ing) (?:your )?(?:request for )?expedit/i],
+  // Census (DOC-CEN-2027-000158) says it as "your expedited processing justification was insufficient" and "this
+  // expedited processing denial", never "is denied".
+  ['expediteDenied', /expedit\w*(?: processing| treatment)?[^.]{0,80}\b(?:is|has been|are|was|were) (?:hereby )?(?:denied|not granted|not warranted)|den(?:y|ied|ying|ial of) (?:your )?(?:request for )?expedit|does not (?:meet|qualify for|warrant) expedit|(?:not|in)eligible (?:for )?expedit|(?:this|the) expedit\w* (?:processing |treatment )?denial|expedit\w*(?: processing| treatment)? (?:justification|request)[^.]{0,40}\b(?:was|is) (?:insufficient|inadequate)|(?:cannot|can ?not|unable to|will not|not able to) (?:appropriately )?grant[^.]{0,40}expedit/i],
+  // The agency granting it, not describing the test for it: "whether the statutory standard for granting expediting
+  // processing has been met" is boilerplate that comes before a denial as often as a grant.
+  ['expediteGranted', /expedit\w*(?: processing| treatment)?[^.]{0,80}\b(?:is|has been|was) (?:hereby )?granted|grant(?:ed|ing) (?:your )?(?:request for )?expedit/i,
+    function (s) { return !/standard for granting|whether|factors?|criteria|(?:may|can|could|will) (?:be )?(?:appropriately )?grant|\bif\b/i.test(s); }],
   ['feeDenied', /fee waiver[^.]{0,80}\b(?:is|has been|was) (?:hereby )?(?:denied|not granted)|den(?:y|ied|ying) your (?:request for a )?fee waiver/i],
   ['feeWaived', /fee waiver[^.]{0,80}\b(?:is|has been|was) (?:hereby )?granted|grant(?:ed|ing) your (?:request for a )?fee waiver|no fees? (?:will|shall) be (?:assessed|charged)|(?:fees?|costs?) (?:will be|shall be|are|is|have been|has been) waived|determined that no fees/i,
     function (s) { return !/waived (?:where|if|when|unless)|\$\s?25(?:\.00)? or less/i.test(s); }],
@@ -576,6 +585,7 @@ export function explainReply(subject, text, ownTexts, received) {
     delete hit.released;
   }
   if (!hit.released && hit.partial && /releas|grant|redact/i.test(hit.partial.m[0])) hit.released = hit.partial;
+  if (hit.expediteDenied) delete hit.expediteGranted;  // a letter that refuses fast-tracking anywhere didn't grant it
   const src = String(subject || '') + '\n' + String(text || '');
   const ask = asksForReply(sents.join('\n'), ownTexts || [], src);
   const pts = [];
@@ -643,8 +653,16 @@ export function explainReply(subject, text, ownTexts, received) {
   else if (hit.feeWaived) add('No fees.');
   else if (hit.feePending) add('They haven’t decided on your fee waiver yet.');
   if (hit.media && !hit.feeWaived) add('They put you in the news-media fee group, the cheapest one.');
-  if (hit.expediteDenied && !(hit.appealDecided && aAbout && aAbout.kind === 'expedite')) add('Your request to jump the line (expedited processing) was denied.');
+  if (hit.expediteDenied && !(hit.appealDecided && aAbout && aAbout.kind === 'expedite')) {
+    add('Your request to jump the line (expedited processing) was denied. The request itself is still being processed, just not on the fast track.');
+    // Mark doesn't appeal these (2026-10-29), so a resubmission offer is optional, never "they need something from you".
+    if (/(?:further consideration|reconsider\w*|additional (?:information|justification)|detailed explanation)[^.]{0,160}expedit|expedit[^.]{0,160}(?:further consideration|reconsider\w*)/i.test(all))
+      add('Optional: they’d reconsider if you sent a more detailed justification with a signed “true and correct” certification. Nothing is waiting on it.');
+  }
   if (hit.expediteGranted) add('Your request to jump the line (expedited processing) was granted.');
+  // Subject says "responsive document" but the attachment is only a letter about fees and fast-tracking.
+  if (!hit.released && !hit.partial && /responsive (?:document|record)s?|production/i.test(String(subject || '')) && (hit.ack || hit.feeWaived || hit.feeDenied || hit.expediteDenied || hit.expediteGranted))
+    add('No records came with this. The attachment is a letter about how they’re handling your request.');
   if (hit.track) {
     const line = hit.track.m[1].toLowerCase();
     const avg = /average processing time[^.]{0,60}?\b(\d+) (?:business |working )?days for simple[^.]{0,60}?\b(\d+) (?:business |working )?days for complex/i.exec(all);
@@ -656,7 +674,8 @@ export function explainReply(subject, text, ownTexts, received) {
   if (!ask && (hit.track || hit.extension) && /narrow(?:ing)? (?:options|the scope|your request)/i.test(all)) add('They’d move it faster if you narrowed it.');
 
   // How long to appeal, when there's something to appeal.
-  const adverse = hit.glomar || hit.withheld || hit.norecords || hit.partial || hit.expediteDenied || hit.feeDenied || hit.closed ||
+  // An expedite denial alone isn't appealed any more (Mark, 2026-10-29), so it gets no appeal clock.
+  const adverse = hit.glomar || hit.withheld || hit.norecords || hit.partial || hit.feeDenied || hit.closed ||
     (hit.appealDecided && /den|dismiss|affirm|uphe|sustain/i.test(hit.appealDecided.m[0]));
   if (adverse) {
     const ap = /appeal[^]{0,260}?\b(?:within|no later than) (\d+|thirty|sixty|ninety|forty-five) (calendar[- ]|business |working )?days/i.exec(all);
@@ -690,7 +709,7 @@ export function explainReply(subject, text, ownTexts, received) {
   else if (hit.appealAck) { kind = 'appealAck'; headline = 'Appeal received'; tone = 'info'; }
   else if (hit.ack) {
     kind = 'ack'; tone = 'info'; priority = 2;
-    headline = 'Request received' + (hit.expediteGranted ? '; fast-track granted' : hit.expediteDenied ? '; fast-track denied' : '') + (hit.feeDenied ? '; fee waiver denied' : '');
+    headline = 'Request received' + (hit.expediteGranted ? '; fast-track granted' : hit.expediteDenied ? '; fast-track denied' : '') + (hit.feeDenied ? '; fee waiver denied' : hit.feeWaived ? '; no fees' : '');
     if (hit.expediteGranted || hit.feeDenied) priority = 3;
   }
   else if (hit.expediteDenied || hit.expediteGranted || hit.feeDenied || hit.feeWaived || hit.extension || hit.eta || hit.track) { kind = 'update'; headline = 'Status update'; tone = hit.expediteDenied || hit.feeDenied ? 'bad' : 'info'; priority = 2; }
