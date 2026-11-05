@@ -59,6 +59,9 @@ COMMITTEE_CAND_PATH = "data/committee-candidates.json"
 MEMBER_PATH = "data/member-committees.json"
 NEGATIVE_PATH = "data/negative_amounts_candidates.json"
 MAX_DOC_CHARS = 60_000
+BULK_RFAI = int(os.environ.get("DC_BULK_RFAI", "150"))     # above this many RFAIs, batch the routine ones
+RFAI_CHUNK = int(os.environ.get("DC_RFAI_CHUNK", "120"))   # letters per batch pass
+CHUNK_DIR = "data/campaigns_rfai_chunks"
 
 KEYWORD_RE = re.compile(
     r"fraud|fraudulent|embezzl|misappropriat|theft|steal|stolen"
@@ -458,14 +461,68 @@ def main():
 
     order = lambda r: (not r["sitting"], not r["keywords"], r["committee"] or "")  # noqa: E731
     frq = sorted([r for r in recs if r["form"] == "FRQ"], key=order)
+    # Bulk day (2026-11-05: 1,456 RFAIs, an 825K-char bundle, 135K output
+    # tokens and an invalid-JSON reply): past BULK_RFAI letters, the RFAIs
+    # with no sitting-lawmaker tag and no keyword hit leave the main pass and
+    # go to run_rfai_batches.py in chunks of RFAI_CHUNK, each written by its
+    # own small pass and appended to the RFAI section. Every RFAI still gets
+    # its own linked line (prompt rule); only who writes it changes.
+    bulk = []
+    if len(frq) > BULK_RFAI:
+        bulk = [r for r in frq if not r["sitting"] and not r["keywords"]]
+        bulk.sort(key=lambda r: (r["office"] not in ("H", "S", "P"), r["report"] or "", r["committee"] or ""))
+        frq = [r for r in frq if r["sitting"] or r["keywords"]]
     f99 = sorted([r for r in recs if r["form"] == "F99" and not r["termination"]], key=order)
     terms = sorted([r for r in recs if r["termination"]], key=lambda r: r["committee"] or "")
-    num = {id(r): i + 1 for i, r in enumerate(frq + f99 + terms)}
-    for r in frq + f99 + terms:
+    num = {id(r): i + 1 for i, r in enumerate(frq + bulk + f99 + terms)}
+    for r in frq + bulk + f99 + terms:
         refs[str(num[id(r)])] = r["pdf_url"]
         r["n"] = num[id(r)]
     for r, b in zip(frq, point_back([(num[id(r)], r["body"]) for r in frq])):
         r["body"] = b
+    out["bulk_chunks"] = []
+    if bulk:
+        os.makedirs(CHUNK_DIR, exist_ok=True)
+        for old in os.listdir(CHUNK_DIR):
+            os.remove(os.path.join(CHUNK_DIR, old))
+        for ci in range(0, len(bulk), RFAI_CHUNK):
+            part = bulk[ci:ci + RFAI_CHUNK]
+            # point_back within the chunk only: a pointer must name a letter
+            # the same pass can read.
+            bodies = point_back([(r["n"], r["body"]) for r in part])
+            C = [f"=== RFAI BATCH {ci // RFAI_CHUNK + 1} of {(len(bulk) + RFAI_CHUNK - 1) // RFAI_CHUNK} "
+                 f"(TODAY = {today}; {len(part)} letters) ==="]
+            for r, b in zip(part, bodies):
+                C += [f"[{r['n']}] {head(r)}", b if len(b) <= MAX_DOC_CHARS else b[:MAX_DOC_CHARS] + " [...truncated]", ""]
+            if template:
+                C.append(f"--- TEMPLATE LINES removed from the letters above (each appeared in 40%+ of today's "
+                         f"{len(letters)} letters; they apply to every letter that lacks its own version) ---")
+                C += template
+            path = os.path.join(CHUNK_DIR, f"chunk-{ci // RFAI_CHUNK + 1:02d}.txt")
+            with open(path, "w") as f:
+                f.write("\n".join(C) + "\n")
+            out["bulk_chunks"].append({
+                "path": path, "refs": [r["n"] for r in part],
+                "rows": [{"n": r["n"], "committee": r["committee"], "report": r["report"],
+                          "candidate": r["office"] in ("H", "S", "P"), "received": r["received"]} for r in part]})
+        cand_n = sum(r["office"] in ("H", "S", "P") for r in bulk)
+        reports = Counter(r["report"] or "unspecified report" for r in bulk).most_common(6)
+        items = Counter()
+        for r in bulk:
+            m = re.search(r"following (\d+) item", r["text"], re.I)
+            items[int(m.group(1)) if m else 0] += 1
+        L.append(f"--- BULK RFAI BATCH ({len(bulk)} more RFAIs, written by separate passes) ---")
+        L.append(f"Today is a bulk day: {len(bulk)} RFAI letters with no sitting-lawmaker tag and no red-flag keyword "
+                 "are NOT in your input. Separate passes write one headline one-liner for each and a script appends "
+                 "them to your Requests for Additional Information section. Keep that section (even if you have no "
+                 "items of your own for it, then give it no list block), and make its headline and summary describe "
+                 "the whole batch using these counts. Do not write items or invent details for these letters.")
+        L.append(f"Candidate committees: {cand_n}; PACs/party committees: {len(bulk) - cand_n}.")
+        L.append("Reports referenced: " + "; ".join(f"{k} ({v})" for k, v in reports) + ".")
+        L.append("Items asked per letter: " + "; ".join(f"{k or 'unknown'} item(s): {v}" for k, v in sorted(items.items())) + ".")
+        recv = Counter(r["received"] for r in bulk)
+        L.append("Received: " + "; ".join(f"{k} ({v})" for k, v in sorted(recv.items())) + ".")
+        L.append("")
     L.append(f"--- RFAI LETTERS (form FRQ) -- header and numbered items; frame text removed ({len(frq)}) ---")
     for r in frq:
         L += [f"[{num[id(r)]}] {head(r)}", body(r), ""]

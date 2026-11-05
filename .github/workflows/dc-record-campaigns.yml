@@ -70,7 +70,9 @@ jobs:
     needs: guard
     if: needs.guard.outputs.skip != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # 30 -> 60 (2026-11-05): a 1,496-filing day took 16 min to fetch and the
+    # RFAI batch passes need room after the main pass.
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -126,7 +128,7 @@ jobs:
           FEC_KEYS: ${{ secrets.FEC_KEYS }}
           MODE: ${{ github.event.inputs.mode || 'am' }}
         run: |
-          timeout 900 python3 scripts/fetch_campaigns.py || echo "fetch_campaigns failed -- main pass will say so"
+          timeout 1500 python3 scripts/fetch_campaigns.py || echo "fetch_campaigns failed -- main pass will say so"
 
       - name: Run DC Record • Campaigns (content generation)
         id: run_edition
@@ -162,6 +164,14 @@ jobs:
           CLAUDE_EXIT=$?
           echo "::endgroup::"
           set -e
+
+          # Bulk day: the routine RFAIs fetch_campaigns.py split off are
+          # written by small parallel passes and appended (2026-11-05).
+          if [ "$CLAUDE_EXIT" == "0" ] && jq -e '.bulk_chunks | length > 0' data/campaigns_candidates.json >/dev/null 2>&1; then
+            echo "::group::RFAI batch passes (Campaigns)"
+            python3 scripts/run_rfai_batches.py "content-$TODAY.json" data/campaigns_candidates.json || echo "run_rfai_batches failed"
+            echo "::endgroup::"
+          fi
 
           if jq -e . "content-$TODAY.json" >/dev/null 2>&1; then
             echo "content written" > content_written.flag
@@ -317,6 +327,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: newsletter-campaigns-${{ github.run_id }}
-          path: newsletter-*.html
+          # Raw replies and the input bundle too, so a failed pass can be
+          # diagnosed (the 11/05 bad-JSON reply was lost).
+          path: |
+            newsletter-*.html
+            *.raw.txt
+            claude_result*.json
+            data/campaigns_input.txt
           if-no-files-found: ignore
           retention-days: 30

@@ -1,0 +1,12 @@
+You are writing part of today's "DC Record • Campaigns," a daily newsletter for a journalist covering FEC compliance. Today brought a very large batch of FEC Requests for Additional Information (RFAIs), so they are split across several passes; this pass covers only the letters below. It runs unattended and no human reviews it before it publishes. Get every fact right and never assert anything that isn't in the letter text.
+
+Each letter below has a number like [412]. The letter text keeps the header (date, treasurer, committee, report referenced, response due date) and the numbered items; the fixed FEC frame text was removed. A sentence that repeats across letters is printed in full only in the first letter in this batch that has it; later letters say "[... N sentence(s) of standard FEC item text, printed in full in letter [k] ...]", so read letter [k] for that text.
+
+Write EXACTLY one item per letter, in the order given, for every letter. Never skip, merge or summarize letters into a count. Each item is a HEADLINE ONE-LINER:
+`<strong>Headline sentence</strong>. Optional one or two short plain sentences only when a fact doesn't fit the headline (a treasurer shared with other letters in this batch, a response due date, a filing lag). (<a href="#412">RFAI</a>)`
+
+The headline: the committee or candidate as the subject, an active verb (is asked, must explain, told to), what the FEC wants in plain English, and the dollar figure, vendor or schedule that matters. Example register: "FEC asks Friends of Don Beyer to explain $12,400 in payments described only as 'Compliance Consulting'". Write a genuine plain-English paraphrase with the letter's own figures, not a truncated quote of the boilerplate. Write full names in normal case (FEC records are in capitals); PAC, FEC, RFAI are fine. Label PACs and party committees as such. If a letter's received date is more than 1 day before TODAY, add a short clause such as "filed 11/02, not indexed by FEC until 11/04". If a letter has no text, describe it from its header line and say the PDF couldn't be read. Inline HTML may use only <strong>, <em> and <a href="#n">. No em dashes or semicolons to tack on fields. No advice to the reader.
+
+Reply with this JSON object only, nothing before or after it, no code fences:
+{"items": [{"n": 412, "html": "<strong>...</strong>. (<a href=\"#412\">RFAI</a>)"}, ...]}
+

@@ -98,11 +98,11 @@ def unlink_bad(obj, bad):
     return obj
 
 
-def run_claude(prompt):
+def run_claude(prompt, result_path="claude_result.json", system=SYSTEM):
     """The one-turn Claude pass. Returns (envelope, None), or (None, why it failed)."""
     env = {**os.environ, "DISABLE_PROMPT_CACHING": "1", "MAX_THINKING_TOKENS": THINKING}
     exe = shutil.which("claude") or os.path.expanduser("~/.local/bin/claude")
-    cmd = [exe, "-p", "--tools", "", "--system-prompt", SYSTEM, "--output-format", "json"]
+    cmd = [exe, "-p", "--tools", "", "--system-prompt", system, "--output-format", "json"]
     # Thinking was 39k of 57k output tokens at the default effort on the
     # Campaigns test (MAX_THINKING_TOKENS is ignored by this model).
     cmd += ["--effort", os.environ.get("DC_EFFORT", "medium")]
@@ -113,7 +113,7 @@ def run_claude(prompt):
     except (OSError, subprocess.TimeoutExpired) as e:
         print(f"claude did not run: {e}", file=sys.stderr)
         return None, str(e)
-    with open("claude_result.json", "w") as f:
+    with open(result_path, "w") as f:
         f.write(proc.stdout or json.dumps({"error": (proc.stderr or "")[:2000]}))
     try:
         envl = json.loads(proc.stdout)
@@ -160,6 +160,17 @@ def run_gemini_backup(prompt, failure):
                   "important against the linked source documents.")
 
 
+def parse_reply(envl, raw_base):
+    """(content, None) or (None, why); a bad reply is kept as <raw_base>.raw.txt."""
+    try:
+        return extract_json(envl.get("result")), None
+    except (ValueError, json.JSONDecodeError) as e:
+        with open(raw_base + ".raw.txt", "w") as f:
+            f.write(envl.get("result") or "")
+        print(f"reply was not valid JSON ({e}); raw reply saved to {raw_base}.raw.txt", file=sys.stderr)
+        return None, f"Claude's reply was not valid JSON ({e})"
+
+
 def main():
     prompt_path, input_path, out_path = sys.argv[1:4]
     refs_path = sys.argv[4] if len(sys.argv) > 4 else None
@@ -169,19 +180,26 @@ def main():
         prompt += "\n" + f.read()
     envl, failure = run_claude(prompt)
     notice = None
-    if envl is None:
-        # Claude out of usage (or otherwise down): write the edition with
-        # Gemini's free tier and say so in a banner (2026-10-30).
+    content = None
+    if envl is not None:
+        content, failure = parse_reply(envl, out_path)
+        if content is None:
+            # 2026-11-05: a bad-JSON reply used to end the edition (the
+            # Gemini backup only covered a Claude that didn't answer at all).
+            # One more Claude try, then Gemini.
+            print("retrying the Claude pass once", file=sys.stderr)
+            envl, failure = run_claude(prompt)
+            if envl is not None:
+                content, failure = parse_reply(envl, out_path + ".retry")
+    if content is None:
+        # Claude out of usage, down, or twice unparseable: write the edition
+        # with Gemini's free tier and say so in a banner (2026-10-30).
         envl, notice = run_gemini_backup(prompt, failure)
         if envl is None:
             return 1
-    try:
-        content = extract_json(envl.get("result"))
-    except (ValueError, json.JSONDecodeError) as e:
-        with open(out_path + ".raw.txt", "w") as f:
-            f.write(envl.get("result") or "")
-        print(f"reply was not valid JSON ({e}); raw reply saved to {out_path}.raw.txt", file=sys.stderr)
-        return 1
+        content, _ = parse_reply(envl, out_path + ".gemini")
+        if content is None:
+            return 1
     if refs_path:
         with open(refs_path) as f:
             refs = json.load(f).get("refs", {})
