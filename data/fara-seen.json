@@ -8,6 +8,9 @@
   "fpterm:7338:Eduard Khudainatov": {
     "reported": "2026-10-28"
   },
+  "https://efile.fara.gov/docs/2110-Supplemental-Statement-20261104-46.pdf": {
+    "reported": "2026-11-05"
+  },
   "https://efile.fara.gov/docs/2165-Short-Form-20261027-13.pdf": {
     "reported": "2026-10-29"
   },
@@ -52,9 +55,6 @@
   },
   "https://efile.fara.gov/docs/4490-Supplemental-Statement-20261027-48.pdf": {
     "reported": "2026-10-29"
-  },
-  "https://efile.fara.gov/docs/5483-Supplemental-Statement-20261019-47.pdf": {
-    "reported": "2026-10-21"
   },
   "https://efile.fara.gov/docs/5870-Amendment-20261102-17.pdf": {
     "reported": "2026-11-04"
@@ -281,9 +281,6 @@
   "https://efile.fara.gov/docs/7649-Amendment-20261021-2.pdf": {
     "reported": "2026-10-23"
   },
-  "https://efile.fara.gov/docs/7649-Informational-Materials-20261020-34.pdf": {
-    "reported": "2026-10-21"
-  },
   "https://efile.fara.gov/docs/7649-Informational-Materials-20261021-35.pdf": {
     "reported": "2026-10-23"
   },
@@ -313,6 +310,9 @@
   },
   "https://efile.fara.gov/docs/7770-Informational-Materials-20261102-7.pdf": {
     "reported": "2026-11-03"
+  },
+  "https://efile.fara.gov/docs/7770-Informational-Materials-20261103-8.pdf": {
+    "reported": "2026-11-05"
   },
   "https://efile.fara.gov/docs/7770-Short-Form-20261028-9.pdf": {
     "reported": "2026-10-31"
@@ -347,6 +347,12 @@
   "https://efile.fara.gov/docs/7788-Short-Form-20261028-1.pdf": {
     "reported": "2026-10-31"
   },
+  "https://efile.fara.gov/docs/7792-Exhibit-AB-20261104-2.pdf": {
+    "reported": "2026-11-05"
+  },
+  "https://efile.fara.gov/docs/7792-Registration-Statement-20261104-1.pdf": {
+    "reported": "2026-11-05"
+  },
   "reg:7784": {
     "reported": "2026-10-25"
   },
@@ -355,5 +361,8 @@
   },
   "reg:7788": {
     "reported": "2026-10-31"
+  },
+  "reg:7792": {
+    "reported": "2026-11-05"
   }
 }
