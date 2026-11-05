@@ -168,6 +168,16 @@ def main():
     title = f"DC Record {window.upper()}: all {len(EDITIONS)} editions ready"
     tags = "white_check_mark"
     body = ", ".join(label for _, label, _, _ in statuses) + " have all finished."
+    # AI citation markers (utm_source=chatgpt.com, oaicite...) that turned up in today's editions, logged by assemble.py.
+    try:
+        import json as _json
+        hits = [e for e in _json.load(open("data/ai-markers.json")) if e.get("date") == today_str]
+        if hits:
+            names = sorted({h["marker"] for h in hits})[:3]
+            body += f" AI citation markers spotted today ({len(hits)}): {', '.join(names)} -- see data/ai-markers.json."
+            tags += ",robot"
+    except (OSError, ValueError, KeyError):
+        pass
 
     send_ntfy(title, tags, body)
     print(f"Sent {window.upper()} alert: {title}")

@@ -283,6 +283,31 @@ def fix_hollow_sections(content, before):
     return fixed
 
 
+def log_ai_markers(content, edition):
+    """Point out AI citation markers (utm_source=chatgpt.com, oaicite...) anywhere in a finished edition: log them to
+    data/ai-markers.json, which the all-editions status ntfy reports (Mark's standing request, 2026-11-05). The scan
+    covers link targets and text; findings the edition reports on purpose (a FARA filing carrying a marker) count too."""
+    try:
+        import doc_metadata
+        found = doc_metadata.ai_markers_in_text(json.dumps(content, ensure_ascii=False).replace("\\n", " ").replace('\\"', '"'))
+        if not found:
+            return 0
+        log = load_json("data/ai-markers.json", []) or []
+        today = today_la()
+        have = {(e.get("date"), e.get("edition"), e.get("marker")) for e in log}
+        for marker, ctx in found:
+            if (today, edition, marker) not in have:
+                log.append({"date": today, "edition": edition, "mode": run_mode(), "marker": marker, "context": ctx[:240]})
+        with open("data/ai-markers.json", "w") as f:
+            json.dump(log[-300:], f, indent=1)
+            f.write("\n")
+        print(f"assemble: AI CITATION MARKER(S) in {edition}: " + "; ".join(m for m, _ in found), file=sys.stderr)
+        return len(found)
+    except Exception as e:  # noqa: BLE001
+        print(f"assemble: AI-marker scan failed ({e})", file=sys.stderr)
+        return 0
+
+
 def main():
     if len(sys.argv) != 3:
         print("usage: assemble.py <edition> content-TODAY.json", file=sys.stderr)
@@ -315,6 +340,7 @@ def main():
         dropped = surfaced.drop_repeats(content, surfaced.prior(edition))
         fix_hollow_sections(content, before)
         surfaced.record(content, edition)
+    log_ai_markers(content, edition)
     content["beat"] = [] if edition == "congress" else beat(content)  # no Your Beat box on the Congress edition
     with open(path, "w") as f:
         json.dump(content, f, indent=2)

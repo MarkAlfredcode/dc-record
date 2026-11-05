@@ -1,4 +1,4 @@
-// foia-inbox: Email Worker behind foia@markalfred.news.
+// foia-inbox: Email Worker behind foia@markalfred.news (and, since 2026-11-05, oge@markalfred.news: see oge.js).
 //
 // 1. Forward to Mark's Yahoo inbox first, so mail keeps arriving even if logging fails.
 // 2. Parse the message and store it in D1 table `inbox` (FOIA tracker database).
@@ -20,6 +20,7 @@
 
 import PostalMime from 'postal-mime';
 import { readAll, toBase64 } from './attachments.js';
+import { recordOge } from './oge.js';
 import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply, learnRoute, regDomain, withRequirement, requirementLine } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
@@ -269,6 +270,14 @@ export default {
       raw = await new Response(message.raw).arrayBuffer();
     } catch (e) {
       console.error('foia-inbox: could not read message', e && e.message);
+    }
+    // oge@markalfred.news (OGE Form 201 deliveries, added 2026-11-05) shares this Worker: same Yahoo forward, its own tables.
+    // Unlike foia@, a forward that Cloudflare refuses (sender fails SPF/DKIM: "non-authenticated emails cannot be forwarded")
+    // must not stop the delivery from being logged, so the document still gets read and summarized.
+    if (/^oge@/i.test(String(message.to || ''))) {
+      try { await message.forward(FORWARD_TO); } catch (e) { console.error('foia-inbox: oge forward failed', e && e.message); }
+      if (raw) ctx.waitUntil(recordOge(raw, env).catch(function (e) { console.error('foia-inbox: oge record failed', e && (e.stack || e.message)); }));
+      return;
     }
     await message.forward(FORWARD_TO);
     if (raw) {

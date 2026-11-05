@@ -800,3 +800,32 @@ export function learnRoute(plain, text, fromAddr) {
   }
   return null;
 }
+
+// ---- AI-chatbot citation markers (added 2026-11-05) ---------------------------------------------------------------
+//
+// Mark wants every AI citation marker pointed out wherever it turns up: the tracking parameters ChatGPT and other
+// assistants append to the links they cite (utm_source=chatgpt.com), and the artifacts their citations leave in pasted
+// text (contentReference[oaicite:0], citeturn0search1, 【4:2†source】, sandbox:/mnt/data). This is the text-only twin of
+// the Python scan in dc-record scripts/doc_metadata.py (which also reads PDF link annotations and file properties);
+// keep the patterns in step. -> [{ kind, marker, excerpt }] (at most 6, one per distinct marker), [] when clean.
+const AI_SRC = 'chatgpt(?:\\.com)?|openai(?:\\.com)?|perplexity(?:\\.ai)?|claude(?:\\.ai)?|copilot(?:\\.microsoft\\.com)?|gemini(?:\\.google\\.com)?|grok|deepseek|phind|poe(?:\\.com)?|you\\.com|bing\\.com/chat';
+const AI_MARKERS = [
+  ['AI tracking parameter', new RegExp('[?&#;](?:utm_source|utm_medium|utm_campaign|utm_content|ref|referrer|source|src)=(?:' + AI_SRC + ')(?![\\w.-])', 'gi')],
+  ['AI chat link', /chat\.openai\.com\/|chatgpt\.com\/(?:c|g|share)\/|oaiusercontent\.com|claude\.ai\/(?:chat|share)\/|perplexity\.ai\/search\/|gemini\.google\.com\/(?:app|share)\//gi],
+  ['AI citation artifact', /\bcontentReference\[oaicite:\d+\]|:contentReference\[|\bciteturn\d+(?:search|view|news)\d+|【\d+:\d+†[^】]{0,60}】|\bturn\d+(?:search|view|news)\d+\b|sandbox:\/mnt\/data/gi],
+  ['Chatbot phrase', /\bas an ai language model\b|\bChatGPT said:|\bregenerate response\b|\bcertainly! here/gi]
+];
+export function aiMarkers(text) {
+  const t = String(text || ''), out = [], seen = {};
+  for (const [kind, re] of AI_MARKERS) {
+    re.lastIndex = 0;
+    let m;
+    while ((m = re.exec(t)) && out.length < 6) {
+      const key = kind + '|' + m[0].toLowerCase();
+      if (seen[key]) continue;
+      seen[key] = 1;
+      out.push({ kind: kind, marker: m[0].replace(/^[?&#;]/, ''), excerpt: t.slice(Math.max(0, m.index - 100), m.index + m[0].length + 100).replace(/\s+/g, ' ').trim() });
+    }
+  }
+  return out;
+}

@@ -118,7 +118,8 @@ def officials():
     inp = load_json("data/officials_input.json", {}) or {}
     if not inp or inp.get("errors") or inp.get("new_items", 1):
         return "run"
-    if any(ex.get("sections") for ex in load_extras("officials")):
+    # oge_received (mail from oge@) is assembled onto the stub as is; it needs no model pass of its own
+    if any(ex.get("sections") for ex in load_extras("officials") if ex.get("name") != "oge_received"):
         return "run"
     write_stub("No new ethics, lobbying or disclosure filings since the last edition",
                "No new financial disclosures, stock-trade reports, lobbying or foreign-agent registrations, or "

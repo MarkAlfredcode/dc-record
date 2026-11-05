@@ -309,7 +309,7 @@ jobs:
           fi
           git add data/incumbent-candidates-manifest.json data/committee-candidates.json data/fec-filings-seen.json data/negative-amounts-seen.json \
             data/money-out-seen.json data/election-seen.json data/outside-money-seen.json data/megadonors-seen.json data/former-members-committees.json data/member-committees.json \
-            data/surfaced-links.json digest/ archive/
+            data/surfaced-links.json data/ai-markers.json digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

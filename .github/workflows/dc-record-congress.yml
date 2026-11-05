@@ -220,7 +220,7 @@ jobs:
           else
             echo "No page produced this run (likely a skipped/failed run) -- leaving digest/congress*.html as-is."
           fi
-          git add digest/ archive/ data/vote-tally.json data/discharge-petitions.json data/congress-covered.json 2>/dev/null || git add digest/ archive/
+          git add digest/ archive/ data/vote-tally.json data/discharge-petitions.json data/congress-covered.json data/ai-markers.json 2>/dev/null || git add digest/ archive/
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

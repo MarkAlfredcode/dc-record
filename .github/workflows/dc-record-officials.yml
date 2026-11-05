@@ -101,6 +101,17 @@ jobs:
           python3 scripts/fetch_oge.py; echo "fetch_oge exit=$?"
           set -e
 
+      # File OGE Online Form 201 for every document newly marked "Request this Document" in OGE's
+      # index (added 2026-11-05). News media / Journalist, The Washington Sun, delivered to
+      # oge@markalfred.news. Runs on EVERY run, including site-refresh-only ones: it files real
+      # requests, and data/oge-requests-seen.json (committed below, never reverted) is what stops a
+      # second filing. See scripts/oge_requests.py.
+      - name: File OGE Form 201 requests for newly requestable documents
+        continue-on-error: true
+        env:
+          OGE_LIVE: "1"
+        run: timeout 900 python3 scripts/oge_requests.py
+
       # Deterministic sections, built with no LLM (added 2026-10-03) -- see
       # scripts/dc_extras.py. Each writes extras/officials/<name>.json, which
       # assemble.py appends after the main pass; failures never fail the job.
@@ -115,6 +126,19 @@ jobs:
             timeout 600 python3 scripts/$s; echo "$s exit=$?"
           done
           set -e
+
+      # Documents OGE emailed to oge@markalfred.news (Email Worker -> D1 -> /api/oge-queue): read,
+      # summarized and written to extras/officials/oge_received.json, which assemble.py puts at the very
+      # top of the edition. No mail, no section. See scripts/oge_inbox.py. Must run before gate.py.
+      - name: Summarize documents OGE delivered to oge@markalfred.news
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          FOIA_INGEST_TOKEN: ${{ secrets.FOIA_INGEST_TOKEN }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MODE: ${{ github.event.inputs.mode || 'am' }}
+        run: python3 scripts/oge_inbox.py
 
       - name: Run mechanical content pass (OGE Ethics Filings, cheap model)
         id: run_mechanical
@@ -316,12 +340,14 @@ jobs:
           # naturally re-find and correctly email whatever this run scraped
           # first.
           if [ "$IS_SITE_REFRESH" == "true" ]; then
-            git checkout -- data/pfd-ptr-seen.json data/fara-seen.json data/fara-top-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json data/stock-act-ledger.json 2>/dev/null || true
+            git checkout -- data/pfd-ptr-seen.json data/fara-seen.json data/fara-top-seen.json data/oge-filings-seen.json data/ethics-tracker-seen.json data/presidential-trades-seen.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json data/stock-act-ledger.json data/oge-inbox-shown.json 2>/dev/null || true
           fi
           git add data/pfd-ptr-seen.json data/fara-seen.json data/fara-top-seen.json data/fara-top-scanned.json \
             data/oge-filings-seen.json data/ethics-tracker-seen.json \
             data/presidential-trades-seen.json data/ethics-agreements.json data/pardon-lobbying-seen.json data/stopped-trading-seen.json data/lda-trends-seen.json \
-            data/stock-act-ledger.json digest/ archive/
+            data/stock-act-ledger.json data/oge-inbox-shown.json data/ai-markers.json digest/ archive/
+          # The OGE request ledger records filings that really happened: always committed, never reverted.
+          git add data/oge-requests-seen.json data/oge-requests-seed.json
           if ! git diff --cached --quiet; then
             git config user.name "dc-record-bot"
             git config user.email "actions@users.noreply.github.com"

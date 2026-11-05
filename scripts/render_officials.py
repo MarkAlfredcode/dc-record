@@ -204,8 +204,13 @@ def render(content):
     date_str = content["date"]
     parts = [HEAD.format(date=date_str), MASTHEAD.format(green=GREEN, gold=GOLD, ink=INK, body=BODY_INK, date_upper=date_str.upper())]
     parts.append(email_boxes(content, GREEN, INK, BODY_INK))
-    parts.append(render_top_story(content["top_story"]))
     sections = content.get("sections", [])
+    # A section flagged above_top (OGE documents Mark requested, scripts/oge_inbox.py) leads the whole edition, ahead of the Top Story.
+    for s in [s for s in sections if s.get("above_top")]:
+        parts.append(f'\n<!-- SECTION: {esc(s["eyebrow"]).upper()} -->')
+        parts.append(render_section(s))
+    sections = [s for s in sections if not s.get("above_top")]
+    parts.append(render_top_story(content["top_story"]))
     news_sections = [s for s in sections if not s.get("no_news")]
     quiet_sections = [s for s in sections if s.get("no_news")]
     for s in news_sections + quiet_sections:

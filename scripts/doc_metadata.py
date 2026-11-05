@@ -330,3 +330,20 @@ if __name__ == "__main__":
     for p in sys.argv[1:]:
         t, m, i = sam_reader.read_file(p)
         print(p, m, json.dumps({k: i.get(k) for k in ("meta", "md_flags", "meta_error")}, indent=1))
+
+
+def ai_markers_in_text(text):
+    """AI-citation markers in plain text or HTML (added 2026-11-05): [(marker, context)], at most 8, one per distinct marker.
+    Text-only twin of the checks _scan() runs on documents; used by assemble.py on every finished edition."""
+    out, seen = [], set()
+    t = html.unescape(text or "")
+    for rx in (AI_PARAM, AI_URL, AI_PHRASE):
+        for m in rx.finditer(t):
+            key = m.group(0).lower().lstrip("?&#;")
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append((m.group(0).lstrip("?&#;"), re.sub(r"\s+", " ", t[max(0, m.start() - 90): m.end() + 90]).strip()))
+            if len(out) >= 8:
+                return out
+    return out
