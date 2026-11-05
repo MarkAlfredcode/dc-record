@@ -10,17 +10,18 @@ Cloudflare Cron Triggers (independently reliable) to call each workflow's
 
 ## How it works
 
-`wrangler.toml` declares 4 Cron Triggers (2 edition batches + 2
-usage-window pings). The edition slots match the times that used to live in
-each workflow's (now-disabled, left commented for reference) `schedule:`
-block:
+`wrangler.toml` declares ONE Cron Trigger, `0 * * * *` (hourly, UTC). On each
+tick the Worker converts the scheduled time to US Eastern (`America/New_York`)
+and fires whatever is due that hour. All times are Eastern and **follow EST/EDT
+automatically** -- there is nothing to change at the DST switch.
 
-| Cron (UTC) | ~Pacific (PDT) | Fires |
+| Eastern hour | Slot | Fires |
 |---|---|---|
-| `0 14 * * *` | 7:00am | Campaigns, Officials, The Feds -- AM edition (`mode: "am"`) -- plus Congress |
-| `45 22 * * *` | 3:45pm | Campaigns, Officials, The Feds -- PM edition (`mode: "pm"`) -- plus Congress |
-| `0 10 * * *` | 3:00am | Usage-window ping (`dc-record-window-ping.yml`) -- one Haiku message so the 5h Claude usage window opens ~4h before the AM batch and resets right after it |
-| `45 18 * * *` | 11:45am | Usage-window ping, ~4h before the PM batch |
+| 8:00am | `am` | Campaigns, Officials, The Feds -- AM edition (`mode: "am"`) -- plus Congress |
+| 3:00pm | `pm` | Campaigns, Officials, The Feds -- PM edition (`mode: "pm"`) -- plus Congress |
+| every hour, 4am-9pm | `ping` | Usage-window ping (`ping.yml` in `MarkAlfredcode/cron-utils`) -- one Haiku message; a no-op while a 5h Claude usage window is already open, so a window starts at the first ping after the previous one ends (4am, then 9am, 2pm, 7pm if nothing else opens one) |
+
+The 8am and 3pm ticks fire both their edition slot and the ping.
 
 `src/index.js`'s `scheduled()` handler looks up which workflows that exact
 cron string maps to and fires one `workflow_dispatch` REST call per workflow,
@@ -38,16 +39,19 @@ declares none; passing any input would 422). It used to have its own
 functional reason; it now rides the main batches (pushes to `main` already
 rebase-and-retry, and each workflow has its own concurrency group).
 
-## DST caveat
+## DST
 
-Same as the workflows themselves: these are UTC cron expressions with no
-timezone support, so the Pacific-time column above drifts an hour each
-Nov/March DST change. Revisit `wrangler.toml`'s `[triggers].crons` then.
+Handled in code (`easternHour()` uses `Intl` with `America/New_York`), so the
+Eastern times above hold year-round. Edit the `AM_HOUR`/`PM_HOUR`/
+`PING_*_HOUR` constants in `src/index.js` to change them. (The separate
+`dc-record-status-alert.yml` GitHub crons are still fixed UTC and move an hour
+on Eastern clocks at DST; they run hours after the editions either way.)
 
 ## Secrets
 
 - `GITHUB_TOKEN` -- fine-grained PAT scoped to `MarkAlfredcode/dc-record`
-  only, Actions: read+write permission. Used to call `workflow_dispatch`.
+  AND `MarkAlfredcode/cron-utils` (needed for the ping dispatch), Actions:
+  read+write permission. Used to call `workflow_dispatch`.
 - `TRIGGER_SECRET` -- shared secret gating the manual test endpoint (see
   below). Any random string; not otherwise sensitive.
 
@@ -59,7 +63,7 @@ The Worker also answers plain HTTP GET, gated by `TRIGGER_SECRET`, so the
 dispatch logic can be verified without waiting for a real cron tick:
 
 ```
-curl "https://dc-record-scheduler.<subdomain>.workers.dev/?key=<TRIGGER_SECRET>&cron=45%2022%20*%20*%20*&dry=true"
+curl "https://dc-record-scheduler.<subdomain>.workers.dev/?key=<TRIGGER_SECRET>&slot=pm&dry=true"
 ```
 
 `dry=true` forces the manual skip input on every workflow that has one, so

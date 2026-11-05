@@ -8,11 +8,9 @@ compatibility_date = "2026-09-01"
 # late every single day on this repo, see the disabled `schedule:` blocks
 # left in place in ../.github/workflows/*.yml for the times these replace).
 #
-# All times UTC (Cloudflare Cron Triggers have no timezone support, same
-# caveat as GitHub Actions cron -- these drift an hour relative to Pacific
-# each Nov/March DST change and need revisiting then, same as before).
+# ONE hourly trigger. The Worker converts each tick to US Eastern
+# (America/New_York) and fires whatever is scheduled for that hour, so the
+# schedule follows EST/EDT automatically (see src/index.js):
+#   8am   AM edition      3pm   PM edition      4am-9pm hourly   window ping
 [triggers]
-crons = [
-  "0 14 * * *",   # AM: Campaigns / Officials / The Feds (mode:"am") + Congress -> ~7:00am PT (PDT)
-  "45 22 * * *",  # PM: Campaigns / Officials / The Feds (mode:"pm") + Congress -> ~3:45pm PT (PDT)
-]
+crons = ["0 * * * *"]
