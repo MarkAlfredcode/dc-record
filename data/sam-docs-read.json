@@ -160,6 +160,14 @@
       "s": "screened",
       "sol": "W911QX27QA002"
     },
+    "004ee9b6042f4aab9d1a9d2414837af6": {
+      "c": 547096,
+      "d": "2026-11-05",
+      "m": "ocr+pdf",
+      "n": "ASPEN DD FY27 Specification.pdf",
+      "s": "screened",
+      "sol": "ASPENSSNDDFY27"
+    },
     "005276ca841c44d7bb078a2e830ff33c": {
       "c": 3898,
       "d": "2026-10-13",
@@ -3512,7 +3520,7 @@
       "sol": "AM202603-25"
     },
     "066b9f965f7c4186ab448d8309f0a358": {
-      "a": 1,
+      "a": 2,
       "d": "2026-11-04",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -7392,6 +7400,14 @@
       "n": "1-BAA_Solicitation_PHMSA-26HM-BAA_AMD_0001.docx",
       "s": "screened",
       "sol": "PHMSA-26HM-BAA"
+    },
+    "0ddd932d61cd469ea69f76c97d8f5768": {
+      "c": 347,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "dodio-2000.16v1_afi10-245-o.pdf",
+      "s": "screened",
+      "sol": "FA8137-26-R-0040"
     },
     "0de2d677490d4f87a9a680d076847ce9": {
       "c": 6901,
@@ -11516,6 +11532,14 @@
       "s": "screened",
       "sol": "36C78626B0030"
     },
+    "15ba927405aa47cc837eed8632182d94": {
+      "c": 470,
+      "d": "2026-11-05",
+      "m": "docx",
+      "n": "36C26127P0041_1.docx",
+      "s": "screened",
+      "sol": "36C26127AP10881150"
+    },
     "15bc1845d00647fb9ec38122c3057504": {
       "c": 4407,
       "d": "2026-10-27",
@@ -13105,12 +13129,12 @@
       "sol": "FD20302301677-03"
     },
     "189d4c4f48684f54824e854af98838aa": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "C04.a 12445127Q004 SAM Package.pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "12445127Q0004"
     },
     "18a1df29c20842e99f5226265d6cb165": {
@@ -13423,6 +13447,14 @@
       "n": "REV Attachment 2 - Price Schedule.xlsx",
       "s": "screened",
       "sol": "70Z02327QCGRC0001"
+    },
+    "193e608cd613470b873f6daefabcc2cd": {
+      "c": 908,
+      "d": "2026-11-05",
+      "m": "ocr+pdf",
+      "n": "Attachment5_Capehart Parking Map_PDF.pdf",
+      "s": "screened",
+      "sol": "FA460027Q0001"
     },
     "19418e4feb534baaa85ceffcbbc42f4a": {
       "c": 0,
@@ -14400,6 +14432,14 @@
       "n": "FSS Justification_Signet_ESS.pdf",
       "s": "screened",
       "sol": "50310222A0008-50310224F0163"
+    },
+    "1af84a3474f84ccc896867114d0aff2e": {
+      "c": 230983,
+      "d": "2026-11-05",
+      "m": "ocr+pdf",
+      "n": "A0003 Attachment 13_ MSC SOM.pdf",
+      "s": "screened",
+      "sol": "N3220525R6003"
     },
     "1afab8b34a204207b4d9213655da7dcf": {
       "c": 3017,
@@ -16175,6 +16215,14 @@
       "n": "Solicitation - W911PT27QA008.pdf",
       "s": "screened",
       "sol": "W911PT27QA008"
+    },
+    "1eca1c2181cb41bca916aaa5c22aa5f9": {
+      "c": 72955,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "15BRRC27R00000002.pdf",
+      "s": "screened",
+      "sol": "15BRRC27R00000002 "
     },
     "1ece0c78e766431780b7cb46a9ee3cef": {
       "c": 7909,
@@ -19778,6 +19826,14 @@
       "s": "screened",
       "sol": "W91151-26-R-A004"
     },
+    "25ee65b1303c49d7a99f6c31822e2a7e": {
+      "c": 1114,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "AMENDMENT NO. 1 - RFP-2027-27107.pdf",
+      "s": "screened",
+      "sol": "RFP-2027-27107"
+    },
     "25eeb0af462b4a4a9ec42fd93cf75268": {
       "c": 271931,
       "d": "2026-11-04",
@@ -21138,6 +21194,14 @@
       "s": "boilerplate_only",
       "sol": "15BBNF26Q21600002"
     },
+    "28f845ac0d364c89aeddbf48ec43ab39": {
+      "c": 828216,
+      "d": "2026-11-05",
+      "m": "ocr+pdf",
+      "n": "Addendum 01_2026-10-09.pdf",
+      "s": "screened",
+      "sol": "36C26326B0020"
+    },
     "28fc25d587784806b5859b9345e0f6f6": {
       "c": 6362,
       "d": "2026-10-14",
@@ -21306,6 +21370,14 @@
       "n": "70Z08526QIBCT0051A00001.pdf",
       "s": "screened",
       "sol": "70Z08526QIBCT0051"
+    },
+    "2960f8baf7274d1e948201227950baeb": {
+      "c": 829,
+      "d": "2026-11-05",
+      "m": "pptx",
+      "n": "Randolph CISP Bldg 977 1st-2nd Floor Plan.pptx",
+      "s": "screened",
+      "sol": "FA873427QR001"
     },
     "296e9300962b4597b7c00db6b8309f00": {
       "c": 9907,
@@ -21613,6 +21685,14 @@
       "n": "Preliminary Question and Answer Sheet.docx",
       "s": "screened",
       "sol": "36C25627Q0041"
+    },
+    "2a36a5b485254fb6898fac739f524c3b": {
+      "c": 1226,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Attachment 1 Proprietary Information Agreement.pdf",
+      "s": "screened",
+      "sol": "47PB5126R0038 "
     },
     "2a3aa170dbcc49799710f6d420b0b155": {
       "c": 58846,
@@ -22861,6 +22941,14 @@
       "n": "Sole Source Tank Liner.pdf",
       "s": "screened",
       "sol": "W51AA127QA006"
+    },
+    "2ca14dfc167145eeb3e25a2e446d8471": {
+      "c": 1045,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Attachment_2_-_Price_Schedule.pdf",
+      "s": "screened",
+      "sol": "140FS326Q0120"
     },
     "2ca6261e098d4935bfbc98e898b2bc16": {
       "c": 10431,
@@ -26995,6 +27083,14 @@
       "n": "A02 JEFO_CENTCOM Equipment Sets_Redacted.pdf",
       "s": "screened",
       "sol": "W52P1J19F0400JEFO"
+    },
+    "345f5c670311428a907aadc1edc2ddb0": {
+      "c": 946,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Attachment 7. Base Pass  Request.pdf",
+      "s": "screened",
+      "sol": "FA483027Q0004"
     },
     "346093daad484bd1ab11a88bae50fa37": {
       "c": 2318,
@@ -40008,6 +40104,14 @@
       "s": "screened",
       "sol": "15M50027DA4400-TBD-20261015"
     },
+    "4c4d3a4b2d0a43f0b41ad2e67bde5e58": {
+      "c": 913,
+      "d": "2026-11-05",
+      "m": "docx",
+      "n": "36C26327Q0076.docx",
+      "s": "screened",
+      "sol": "36C26327Q0076"
+    },
     "4c4d86f32e734d1593a6b0cbc6b7d62c": {
       "c": 6848,
       "d": "2026-10-28",
@@ -41569,6 +41673,14 @@
       "n": "SF30 ROA FDS Mass Modification For Signature.pdf",
       "s": "screened",
       "sol": "ROAModificationFDS"
+    },
+    "4eed896eb8ed410a9066e3198d06b325": {
+      "c": 62329,
+      "d": "2026-11-05",
+      "m": "zip",
+      "n": "Calibration Certificates - Copy.zip",
+      "s": "screened",
+      "sol": "W81K0027QA015"
     },
     "4efd1cbae4744bfdb4345f3a43a02162": {
       "c": 53776,
@@ -45499,6 +45611,14 @@
       "s": "screened",
       "sol": "140P2026R0087"
     },
+    "56e47a1d8391443f8482d480f416a7e6": {
+      "c": 27,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Attachment G - Bill of Materials - PR511741 - Rev 2.pdf",
+      "s": "screened",
+      "sol": "RFQ511741"
+    },
     "56e545e32cf44f44ab14280df0a0e013": {
       "c": 947,
       "d": "2026-10-13",
@@ -48123,7 +48243,7 @@
       "sol": "36C26127Q0072"
     },
     "5bcdc95473244eda84d2fe7bbfa58ab0": {
-      "a": 1,
+      "a": 2,
       "d": "2026-11-04",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -48999,6 +49119,14 @@
       "n": "lrad331965pd_spec.pdf",
       "s": "screened",
       "sol": "FA813727R0002 "
+    },
+    "5d86695cb008434381dcec3ae91384ed": {
+      "c": 1320,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "MATERIAL ORDERING DATA 62887900.pdf",
+      "s": "screened",
+      "sol": "SPMYM227Q01170001"
     },
     "5d86e6ea06b845fe912ce4a212896473": {
       "c": 6712,
@@ -51923,6 +52051,14 @@
       "s": "screened",
       "sol": "36C25226Q0692"
     },
+    "6357848e79a84d4c885eba1ce6318736": {
+      "c": 1537,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "N0038327QHA17_Sources_Sought_Notice.pdf",
+      "s": "screened",
+      "sol": "N0038327QHA17"
+    },
     "635f1d84d5094fc99de0ce4ec290577c": {
       "c": 10246,
       "d": "2026-11-02",
@@ -54499,6 +54635,14 @@
       "s": "screened",
       "sol": "47QMCA27Q0002"
     },
+    "68591c3302264f54b2bbb4f82ac1b903": {
+      "c": 744,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Santa Cruz - RLP Amendment No 2.pdf",
+      "s": "screened",
+      "sol": "36C24W26R0077"
+    },
     "685bc07b37254abeb1483ee005483f24": {
       "a": 1,
       "d": "2026-10-10",
@@ -55322,6 +55466,14 @@
       "n": "Combined Synopsis Solicitation 12639527Q0009 Amendment 00001.pdf",
       "s": "screened",
       "sol": "12639527Q0009"
+    },
+    "69dd55c4253243e3902664a39032d2f6": {
+      "c": 760,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "06a A03 Form Past Performance_Experience Info.pdf",
+      "s": "screened",
+      "sol": "697DCK-26-R-00437"
     },
     "69dec1b8f6ee4397a57923ad309f06da": {
       "c": 1076,
@@ -56443,6 +56595,14 @@
       "n": "Attachment 1.4 - Amendment SF 30 (10_20_2026).pdf",
       "s": "screened",
       "sol": "FA810126R0004"
+    },
+    "6bd6ced513524b09ac1a70cd5b10c0cd": {
+      "c": 1411,
+      "d": "2026-11-05",
+      "m": "xlsx",
+      "n": "C04b_Attachement 2 Bill of Materials_12760427Q0010.xlsx",
+      "s": "screened",
+      "sol": "12760427Q0010"
     },
     "6bd6f354f1ad486ab66eb48040026029": {
       "c": 3331,
@@ -59971,6 +60131,14 @@
       "n": "Performance Work Statement (PWS).docx",
       "s": "screened",
       "sol": "W91CRB-27-Q-A002"
+    },
+    "72865b3dcf464b47b0fc20c8edbf5589": {
+      "c": 819,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Santa Cruz - RLP Amendment No 3.pdf",
+      "s": "screened",
+      "sol": "36C24W26R0077"
     },
     "728d31d7c439430991dcaf17daba3143": {
       "c": 8258,
@@ -63954,6 +64122,22 @@
       "s": "screened",
       "sol": "N0018927MACTC"
     },
+    "7927d6566cd449a69b9a6cf67c280e69": {
+      "c": 25043,
+      "d": "2026-11-05",
+      "f": [
+        {
+          "finding": "The Department of State is issuing a non-competitive contract extension to Africa Global Logistics in Mozambique to manage PEPFAR health commodity distribution and lab sample transport.",
+          "news": 4,
+          "quote": "This is a request to approve a non-competitive increase in contract funding and scope of work for contract number 72065621C00001 with Africa Global Logistics (AGL) , in support of the Commodities for Health Guaranteed Access and Reliability (CHEGAR ) and the President\u2019s activities from (GHSC-PSM)",
+          "verified": false
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "Justification and Approval CHEGAR Redacted.pdf",
+      "s": "screened",
+      "sol": "72065621C00001 "
+    },
     "7928a45cb49f43bfa8ef7a959d9f8967": {
       "c": 25881,
       "d": "2026-10-19",
@@ -64507,6 +64691,14 @@
       "n": "7 - Exhibit E - 0PR2126 - Carolina PR - 3517B General Clauses (Apr. 2026) - 10.16.2026.pdf",
       "s": "screened",
       "sol": "0PR2126-1"
+    },
+    "7a3b3a089ff3430399a6b8d850435298": {
+      "c": 1700,
+      "d": "2026-11-05",
+      "m": "docx",
+      "n": "Attachment 2 Deliverables from Manufacturer for Standard Lifts - Custom Built.docx",
+      "s": "screened",
+      "sol": "1333ND27QNB610AMD"
     },
     "7a46152c665a43e097ed3376b854c814": {
       "c": 0,
@@ -66508,6 +66700,14 @@
       "s": "screened",
       "sol": "W912CL26QA040"
     },
+    "7dc798e7a7db4abd9996410c0c2e968b": {
+      "c": 60283,
+      "d": "2026-11-05",
+      "m": "ocr+pdf",
+      "n": "ThinkForm_St. Louis VAMC Renovate Lobby_RBM Survey Report 1.pdf",
+      "s": "screened",
+      "sol": "36C25526R0167"
+    },
     "7dcc8127a6ac48dca22b8873eb672222": {
       "c": 3621,
       "d": "2026-11-03",
@@ -66887,6 +67087,23 @@
       "n": "Pre-Solicitation_Notice_-_SHS_Legacy_Cohort_Field_Centers_2.pdf",
       "s": "screened",
       "sol": "75N92026R00011"
+    },
+    "7e81121b193145289133b7e990115d0c": {
+      "c": 1694,
+      "d": "2026-11-05",
+      "f": [
+        {
+          "context": "merly known as the Davis-Bacon Act). Explain in detail. 7) Are there any ways in which the requirement of a PLA might increase costs on a project of this type in this area? Explain in detail. PAGE \\* MERGEFORMAT 2 PAGE \\* MERGEFORMAT 2 Project Labor Agreement (PLA) Request for Information (RFI) for DBB P-1417: Containerized Long Weapons Storage Magazine, Naval Weapons Station Yorktown, Yorktown, Virginia & P-1418: Conventional Prompt Strike (CPS) Weapons Maintenance and Storage Facility, Naval Weapons Station Yorktown, Yorktown, Virginia",
+          "finding": "The U.S. Navy is preparing construction plans for a Conventional Prompt Strike hypersonic weapons maintenance and storage facility at Naval Weapons Station Yorktown.",
+          "news": 3,
+          "quote": "DBB P-1417: Containerized Long Weapons Storage Magazine, Naval Weapons Station Yorktown, Yorktown, Virginia & P-1418: Conventional Prompt Strike (CPS) Weapons Maintenance and Storage Facility, Naval Weapons Station Yorktown, Yorktown, Virginia",
+          "verified": true
+        }
+      ],
+      "m": "docx",
+      "n": "27R0019 P1417 - 1418 - PLA Questionnaire .docx",
+      "s": "screened",
+      "sol": "N4008527R0019"
     },
     "7e88ceb409304750bd914c9898fa650a": {
       "c": 0,
@@ -73746,6 +73963,36 @@
       "s": "wage_determination",
       "sol": "SPE603-26-R-0529"
     },
+    "8b89bcb07c8b4171a72632c91aef1304": {
+      "c": 211579,
+      "d": "2026-11-05",
+      "f": [
+        {
+          "context": "uration changes that differ from Diagram 1 must provide the equivalent deck area as outlined within Diagram 1. Additionally, all sides of the winch or any van must be accessible and have a minimum of 4 feet of clearance as outlined in section 3.b.5. Offeror shall provide a notional drawing identifying the staterooms for government accommodations. The vessel must have an adequate number of staterooms in its skin for mission support members, excluding ship's crew, that would support berthing for 30 SURTASS-E government personnel. There shall be six (6) staterooms for individual occupancy, and an additional count of double to quad staterooms that would accommodate a total of 24 personnel additionally for an overall total of 30 persons. The drawing must illustrate the number of bunks per room for government use, and the number of rooms that share a bathroom. Offeror shall warrant that the vessel has a stern area allowing for the installation of a government furnished stern/over boarding section of 36 ft x 31.7 ft (10.97m x 9.7m) immedia",
+          "finding": "Contract requires the vessel to accommodate up to 30 SURTASS-E government mission personnel in addition to the ship's crew.",
+          "news": 4,
+          "quote": "The vessel must have an adequate number of staterooms in its skin for mission support members, excluding ship's crew, that would support berthing for 30 SURTASS-E government personnel.",
+          "verified": true
+        },
+        {
+          "context": "able to obtain the necessary waivers, Charterer shall have the option to cancel this Charter at no cost to the Government. The option to cancel shall be declared not later than 24 hours after the expiration of the aforementioned two-day period. The cost of any additional lifesaving equipment shall be for Owner\u2019s account. (ag)Statutory Employee Pursuant to Louisiana Revised Statutes (La.R.S.) 23:1061(A) (3) the Department of the Navy, by and through Military Sealift Command, and Contractor expressly provide and agree that the United States of America and/or the Department of the Navy, by and through Military Sealift Command, is the statutory employer of any of Contractor\u2019s employees and is entitled to the tort immunity provided in La.R.S. 23:1061 and La.R.S. 23:1032. (ah)RESERVED (ai)Security Threat In the event of a security threat or incident involving the Vessel, crew or cargo during the voyage, the Vessel's Master shall report any incident immediately to the MSC Area Command in whose area the Vessel is currently located. T",
+          "finding": "The Navy asserts statutory employer status and tort immunity under Louisiana law for contractor employees under the contract.",
+          "news": 4,
+          "quote": "Pursuant to Louisiana Revised Statutes (La.R.S.) 23:1061(A) (3) the Department of the Navy, by and through Military Sealift Command, and Contractor expressly provide and agree that the United States of America and/or the Department of the Navy, by and through Military Sealift Command, is the statuto",
+          "verified": true
+        },
+        {
+          "finding": "The Navy Military Sealift Command is soliciting a time charter vessel for the SURTASS-E (Surveillance Towed Array Sensor System Expeditionary) mission.",
+          "news": 4,
+          "quote": "NOTICE: N3220525R6003 - SURTASS-E RFP (N3220525R6003; DEPT OF DEFENSE.DEPT OF THE NAVY.MSC.MSC HQS.MSC NORFOLK; Solicitation)",
+          "verified": false
+        }
+      ],
+      "m": "docx",
+      "n": "A0004 Attachment 1_SPECIALTIME 2026 (02-26).docx",
+      "s": "screened",
+      "sol": "N3220525R6003"
+    },
     "8b8e5c38f99b4ea8be0e2f93babc31f2": {
       "c": 1955,
       "d": "2026-10-13",
@@ -76452,12 +76699,12 @@
       "sol": "FA945326XA001"
     },
     "900e7889dd0c4b8a9d1cacc12f9c5a69": {
-      "a": 2,
+      "a": 3,
       "d": "2026-11-03",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
       "n": "SF-1449 - Solicitation - W912CL-27-Q-A002 (Official).pdf",
-      "s": "retry",
+      "s": "failed",
       "sol": "W912CL-27-Q-A002"
     },
     "900ecc1bc0474c708d0da6775b3a7fea": {
@@ -77336,6 +77583,14 @@
       "n": "Attachment__7_WD_NM20260011_Heavy_-_McKinley_County__NM_0002.pdf",
       "s": "wage_determination",
       "sol": "140R4026B0002"
+    },
+    "91b4494ae6464b45bcf06b796f6cc6b0": {
+      "c": 581455,
+      "d": "2026-11-05",
+      "m": "ocr+pdf",
+      "n": "B08_Attachment_3_Exhibit_Conservation_Guidelines.pdf",
+      "s": "screened",
+      "sol": "140FF027Q0002"
     },
     "91b8348069824375b3538e888d370712": {
       "c": 805,
@@ -79260,6 +79515,14 @@
       "s": "screened",
       "sol": "W58RGZ26R0019"
     },
+    "9555218062744bc1a3b233c6804a5e15": {
+      "c": 605,
+      "d": "2026-11-05",
+      "m": "docx",
+      "n": "36C25027Q0049.docx",
+      "s": "screened",
+      "sol": "36C25027Q0049"
+    },
     "9558364db7e14a9a93b238269e61b193": {
       "c": 11806,
       "d": "2026-10-13",
@@ -79577,6 +79840,14 @@
       "n": "Attachment A_SOW.pdf",
       "s": "screened",
       "sol": "6923G527Q0001"
+    },
+    "95fe747d103a46ffa9e29e2b642b4eee": {
+      "c": 299,
+      "d": "2026-11-05",
+      "m": "xlsx",
+      "n": "Attachment_2a_Appendix_A_Corporate_Relationships_and_Structures4May26.xlsx",
+      "s": "screened",
+      "sol": "FA8137-26-R-0040"
     },
     "960069e33d0c42d7a9e22c9d381a26be": {
       "c": 642,
@@ -80658,6 +80929,14 @@
       "n": "Solicitation - 80KSC026Q0013.pdf",
       "s": "screened",
       "sol": "80KSC026Q0013"
+    },
+    "97e5b8de6a684b9cb766498a5acb4bea": {
+      "c": 637,
+      "d": "2026-11-05",
+      "m": "docx",
+      "n": "36C26127P0069_1.docx",
+      "s": "screened",
+      "sol": "36C26127AP1248"
     },
     "97edb2abb725462fa9f3b51db46c1518": {
       "c": 337614,
@@ -87565,6 +87844,14 @@
       "n": "Sources Sought - JBSA FSH (B3631.B3635) Replacement DOAS WSHP.pdf",
       "s": "screened",
       "sol": "A070764SS"
+    },
+    "a503d38e8a874607b5d91c30293f3fdd": {
+      "c": 1491,
+      "d": "2026-11-05",
+      "m": "docx",
+      "n": "36C25626R0117 EXHIBIT D Safety  Form.docx",
+      "s": "screened",
+      "sol": "36C25626R0117"
     },
     "a508f157e17d476fb1e70f92f12e933a": {
       "c": 0,
@@ -96959,6 +97246,23 @@
       "s": "screened",
       "sol": "140PP027B0002"
     },
+    "b6913be750bd494dbbe483482e16257b": {
+      "c": 59834,
+      "d": "2026-11-05",
+      "f": [
+        {
+          "context": "PROJECT TITLE RENOVATE H8 LABORATORY, B3 PROJECT NUMBER",
+          "finding": "The Air Force Research Laboratory in Rome, NY is renovating Suite H8 in Building 3 for a microelectronics lab, including cleanrooms and specialized equipment.",
+          "news": 4,
+          "quote": "RENOVATE H8 LABORATORY, B3",
+          "verified": true
+        }
+      ],
+      "m": "ocr+pdf",
+      "n": "FA875126Q0013 Attachment 1 Final Submission Complete Set.pdf",
+      "s": "screened",
+      "sol": "FA875126Q0013"
+    },
     "b69282b119b44cfda50549b4402c1018": {
       "a": 3,
       "c": 8601,
@@ -102477,7 +102781,7 @@
       "sol": "W81K0425PATBD01"
     },
     "c0a28a199ef2426898a1c398b93ed936": {
-      "a": 1,
+      "a": 2,
       "d": "2026-11-04",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -108092,6 +108396,14 @@
       "s": "wage_determination",
       "sol": "140FF027Q0011"
     },
+    "cb774b0cc0574bf980eb639283505517": {
+      "c": 206,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Attachment 12 - ODC Burden Rate Matrix - Amendment 0006 - 10.21.2026.pdf",
+      "s": "screened",
+      "sol": "FA239626RB008"
+    },
     "cb7df212fe3945f59ee823612aef8ca6": {
       "c": 23798,
       "d": "2026-10-18",
@@ -108597,6 +108909,14 @@
       "s": "screened",
       "sol": "36C24426R0012"
     },
+    "cc7e8e29d4264722bfebcbd01a0b5371": {
+      "c": 287278,
+      "d": "2026-11-05",
+      "m": "ocr+pdf",
+      "n": "Section J - attach 01 RRC SOW March 2022 Final.pdf",
+      "s": "screened",
+      "sol": "15BRRC27R00000002 "
+    },
     "cc85ebebd4ce451cacd23ebd26062c39": {
       "c": 1705,
       "d": "2026-10-13",
@@ -109016,7 +109336,7 @@
       "sol": "15BCMS26R51700001"
     },
     "cd5a6d399f0f4e8386d599b65cfc8bad": {
-      "a": 1,
+      "a": 2,
       "d": "2026-11-04",
       "e": "download failed: HTTP Error 400: Bad Request",
       "m": null,
@@ -110686,6 +111006,14 @@
       "n": "Sol_140P2026R0101_Amd_0004.pdf",
       "s": "screened",
       "sol": "140P2026R0101"
+    },
+    "d03ff85f91774d84a41b22358bd7674c": {
+      "c": 2640,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "DoR Mattresses Pilot Program (Draft).pdf",
+      "s": "screened",
+      "sol": "R218256281S101"
     },
     "d04a487b359d4a46a9a17d347dff5c50": {
       "c": 1807,
@@ -120568,6 +120896,13 @@
       "s": "screened",
       "sol": "36C24926Q0334_1"
     },
+    "e2144c5de5bc4ffd995cb46d1e0db669": {
+      "d": "2026-11-05",
+      "e": "not read within 14 days",
+      "n": "Encl 1_PWS_CPG_Iwakuni_w_combined.pdf",
+      "s": "failed",
+      "sol": "N4008426R1026"
+    },
     "e22799536494453083ec466a18c2b135": {
       "c": 34093,
       "d": "2026-10-11",
@@ -122712,6 +123047,14 @@
       "n": "2. Sample Subcontract, AA-2027-02.pdf",
       "s": "screened",
       "sol": "AA-2027-02"
+    },
+    "e59bb19790894c7b877639689ce227eb": {
+      "c": 1877,
+      "d": "2026-11-05",
+      "m": "xlsx",
+      "n": "RFI Response Questions.xlsx",
+      "s": "screened",
+      "sol": "HT9427-27-RFI-0001"
     },
     "e59deb2539f5470985d685c32ca6d979": {
       "c": 12508,
@@ -125305,6 +125648,23 @@
       "s": "screened",
       "sol": "140A2326Q0293"
     },
+    "ea6a88789b61477b8fb64b53bd0b7af0": {
+      "c": 4555,
+      "d": "2026-11-05",
+      "f": [
+        {
+          "context": "N3220525R60030003 Page 2 of 58 SF 30 BLOCK 14 CONTINUATION PAGE SUMMARY OF CHANGES Block 14 (Description of Amendment/Modification): The purpose of Amendment (0003) of N3220525R6003 is as follows: 1) This solicitation is being reopened due to Revolutionary FAR Overhaul (RFO) and requirement language changes with a due date of August 27, 2026 1:00pm EDT. OF=^ll=prior=attachments=were=removed=from=the=?iist=of=`ontract=aocumentsI=bxhibitsI=or=^ttachments?=section=of=the=pcNQQVI=and=are=now=listed under the \"Continuation of Description\" section. 3) A detailed Attachment 1 has been added incorporating the Feb 2026 version of the SPECIALTIME PROFORMA inclusive of the required Revolutionary Far Overhaul (RFO) changes as of 01 Feb 2026 and any subsequent updates through July 2026. 4) With the addition of Attachment 1 _ SPECIAL TIME PROFORMA (02-26), multiple FAR and DFARS Clauses/Provisions",
+          "finding": "Military Sealift Command reopened a major surveillance towed array sensor system (SURTASS-E) solicitation due to the 'Revolutionary FAR Overhaul' (RFO).",
+          "news": 4,
+          "quote": "This solicitation is being reopened due to Revolutionary FAR Overhaul (RFO) and requirement language changes with a due date of August 27, 2026 1:00pm EDT.",
+          "verified": true
+        }
+      ],
+      "m": "pdf",
+      "n": "Solicitation Amendment N3220525R60030003 SF 30.pdf",
+      "s": "screened",
+      "sol": "N3220525R6003"
+    },
     "ea731503b1c84226848a5fec6d44e8bc": {
       "c": 8428,
       "d": "2026-10-23",
@@ -127374,6 +127734,13 @@
       "n": "B08 Solicitation RFQ W91QVP27QA020.pdf",
       "s": "screened",
       "sol": "W91QVP27QA020"
+    },
+    "edd95c527b6c431b8ce09cb8e37e79fa": {
+      "d": "2026-11-05",
+      "e": "not read within 14 days",
+      "n": "Attachment_3_REV 2 - Seed SOW Bldg 586.pdf",
+      "s": "failed",
+      "sol": "FA820126R0020"
     },
     "edd99ea220c54c348967177a4e57a1fc": {
       "c": 3062,
@@ -131990,6 +132357,13 @@
       "s": "wage_determination",
       "sol": "FA466126Q0106"
     },
+    "f677b5fbe2c647f68d718eb171c9b58a": {
+      "d": "2026-11-05",
+      "e": "not read within 14 days",
+      "n": "Attachment_23_Building 586 Drawings.pdf",
+      "s": "failed",
+      "sol": "FA820126R0020"
+    },
     "f67a49f711e948e5810a5f5e2d11f948": {
       "c": 22727,
       "d": "2026-10-14",
@@ -133622,6 +133996,14 @@
       "n": "Sol_140A2326Q0286_Amd_0004.pdf",
       "s": "screened",
       "sol": "140A2326Q0286"
+    },
+    "f9ad5b64324344a789ade824c3c037a8": {
+      "c": 1654,
+      "d": "2026-11-05",
+      "m": "docx",
+      "n": "698KA8 DDLS Market Survey Synopsis 10.19.26.docx",
+      "s": "screened",
+      "sol": "693KA8-26-R-DDLS2"
     },
     "f9ae124f3b82424ea4accab5a51fc5f3": {
       "c": 61619,
@@ -135780,6 +136162,14 @@
       "n": "C04 Attachment 4 Wage Determination NV2026-0074 07-30-2026 Heavy Nye County NV.txt",
       "s": "wage_determination",
       "sol": "127EAX27Q0009"
+    },
+    "fd8229bb4e754fcbb5e943ba4207c0bb": {
+      "c": 1108,
+      "d": "2026-11-05",
+      "m": "pdf",
+      "n": "Appendix A - Abbreviations.pdf",
+      "s": "screened",
+      "sol": "FA8137-26-R-0040"
     },
     "fd829ba7ea454de1ba95fcbf8b3cf689": {
       "c": 12445,

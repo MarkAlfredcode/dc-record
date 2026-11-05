@@ -19,40 +19,10 @@
     "award_id": "2031JW27F00006",
     "recipient": "GUIDEHOUSE INC."
   },
-  "363215869": {
-    "action_date": "2026-10-05",
-    "award_id": "36C10B27C0005",
-    "recipient": "PICIS CLINICAL SOLUTIONS, INC."
-  },
-  "363215923": {
-    "action_date": "2026-10-05",
-    "award_id": "36C24127F0003",
-    "recipient": "NEXTERA ENERGY SERVICES RHODE ISLAND LLC"
-  },
-  "363215925": {
-    "action_date": "2026-10-05",
-    "award_id": "36C24127F0017",
-    "recipient": "DIRECT ENERGY BUSINESS LLC"
-  },
   "363216005": {
     "action_date": "2026-10-06",
     "award_id": "36C24427N0048",
     "recipient": "TRANS-MED AMBULANCE INC."
-  },
-  "363216185": {
-    "action_date": "2026-10-05",
-    "award_id": "36C25027N0012",
-    "recipient": "INCARE, LLC"
-  },
-  "363216260": {
-    "action_date": "2026-10-05",
-    "award_id": "36C25627C0004",
-    "recipient": "STANDARD COMMUNICATIONS INC"
-  },
-  "363216458": {
-    "action_date": "2026-10-05",
-    "award_id": "36C26327N0139",
-    "recipient": "PRIME PHYSICIANS TRI PROVIDERS LLC"
   },
   "363216586": {
     "action_date": "2026-10-06",
@@ -68,11 +38,6 @@
     "action_date": "2026-10-06",
     "award_id": "80ARC027P0001",
     "recipient": "LOCKHEED MARTIN CORPORATION"
-  },
-  "363217646": {
-    "action_date": "2026-10-05",
-    "award_id": "88310327F00004",
-    "recipient": "ISLAND EMPIRE TECHNOLOGY SYSTEMS LLC"
   },
   "363251252": {
     "action_date": "2026-10-07",
@@ -118,11 +83,6 @@
     "action_date": "2026-10-08",
     "award_id": "36C24827C0004",
     "recipient": "NAPC & HSCC JV LLC"
-  },
-  "363308503": {
-    "action_date": "2026-10-05",
-    "award_id": "36C26227N0119",
-    "recipient": "ROCHE DIAGNOSTICS CORPORATION"
   },
   "363308540": {
     "action_date": "2026-10-08",
@@ -199,6 +159,9 @@
   "CONT_AWD_1240LN27P0001_12C2_-NONE-_-NONE-": {
     "action_date": "2026-10-29"
   },
+  "CONT_AWD_127EAS27C0001_12C2_-NONE-_-NONE-": {
+    "action_date": "2026-11-02"
+  },
   "CONT_AWD_140D0427C0152_1406_-NONE-_-NONE-": {
     "action_date": "2026-10-23"
   },
@@ -252,6 +215,9 @@
   },
   "CONT_AWD_19AQMM27C0070_1900_-NONE-_-NONE-": {
     "action_date": "2026-10-31"
+  },
+  "CONT_AWD_19GE5027F0010_1900_19GE5024D0034_1900": {
+    "action_date": "2026-10-26"
   },
   "CONT_AWD_2031JG27F51620_2044_2031JG20D00010_2044": {
     "action_date": "2026-10-15"
@@ -313,6 +279,9 @@
   "CONT_AWD_2031JG27F70148_2044_2031JG23D00001_2044": {
     "action_date": "2026-10-06"
   },
+  "CONT_AWD_2031JG27F70149_2044_2031JG23D00001_2044": {
+    "action_date": "2026-11-01"
+  },
   "CONT_AWD_2031JG27F71130_2044_2031JG23D00002_2044": {
     "action_date": "2026-10-06"
   },
@@ -334,11 +303,11 @@
   "CONT_AWD_2099CA27F00010_2099_2033H623D00002_2036": {
     "action_date": "2026-10-16"
   },
+  "CONT_AWD_28321327C00060001_2800_-NONE-_-NONE-": {
+    "action_date": "2026-11-02"
+  },
   "CONT_AWD_36A79727N0019_3600_36H79725D0004_3600": {
     "action_date": "2026-10-22"
-  },
-  "CONT_AWD_36C10B27C0005_3600_-NONE-_-NONE-": {
-    "action_date": "2026-10-05"
   },
   "CONT_AWD_36C10B27F0026_3600_NNG15SD26B_8000": {
     "action_date": "2026-10-28"
@@ -384,12 +353,6 @@
   },
   "CONT_AWD_36C10X27K0201_3600_36C10G24D0111_3600": {
     "action_date": "2026-10-14"
-  },
-  "CONT_AWD_36C24127F0003_3600_47PA0825D0031_4740": {
-    "action_date": "2026-10-05"
-  },
-  "CONT_AWD_36C24127F0017_3600_47PA0825D0027_4740": {
-    "action_date": "2026-10-05"
   },
   "CONT_AWD_36C24127F0034_3600_SPE2D117D0023_9700": {
     "action_date": "2026-10-29"
@@ -460,6 +423,9 @@
   "CONT_AWD_36C24627C0002_3600_-NONE-_-NONE-": {
     "action_date": "2026-10-21"
   },
+  "CONT_AWD_36C24627N0217_3600_36C10G24D0058_3600": {
+    "action_date": "2026-11-01"
+  },
   "CONT_AWD_36C24727F0010_3600_47QSWA21D006G_4732": {
     "action_date": "2026-10-09"
   },
@@ -523,12 +489,6 @@
   "CONT_AWD_36C25027F0042_3600_36C10X24D0003_3600": {
     "action_date": "2026-10-13"
   },
-  "CONT_AWD_36C25027N0012_3600_36C25026D0033_3600": {
-    "action_date": "2026-10-05"
-  },
-  "CONT_AWD_36C25027N0013_3600_36C25026D0034_3600": {
-    "action_date": "2026-10-05"
-  },
   "CONT_AWD_36C25027N0082_3600_36C10X24D0003_3600": {
     "action_date": "2026-10-30"
   },
@@ -541,11 +501,11 @@
   "CONT_AWD_36C25227N0130_3600_36C25222D0021_3600": {
     "action_date": "2026-10-27"
   },
-  "CONT_AWD_36C25627C0004_3600_-NONE-_-NONE-": {
-    "action_date": "2026-10-05"
-  },
   "CONT_AWD_36C25627C0008_3600_-NONE-_-NONE-": {
     "action_date": "2026-10-19"
+  },
+  "CONT_AWD_36C25627N0216_3600_36C25624D0061_3600": {
+    "action_date": "2026-11-02"
   },
   "CONT_AWD_36C25727C0001_3600_-NONE-_-NONE-": {
     "action_date": "2026-10-27"
@@ -580,9 +540,6 @@
   "CONT_AWD_36C26227N0081_3600_36C26223D0086_3600": {
     "action_date": "2026-10-19"
   },
-  "CONT_AWD_36C26227N0119_3600_36C26224D0190_3600": {
-    "action_date": "2026-10-05"
-  },
   "CONT_AWD_36C26227N0125_3600_36C26222D0068_3600": {
     "action_date": "2026-10-14"
   },
@@ -594,9 +551,6 @@
   },
   "CONT_AWD_36C26327C0003_3600_-NONE-_-NONE-": {
     "action_date": "2026-10-29"
-  },
-  "CONT_AWD_36C26327N0139_3600_36C10X24D0010_3600": {
-    "action_date": "2026-10-05"
   },
   "CONT_AWD_36C26327N0193_3600_36C26327D0013_3600": {
     "action_date": "2026-10-14"
@@ -754,6 +708,9 @@
   "CONT_AWD_75N98027F00002_7529_75N95023A00001_7529": {
     "action_date": "2026-10-30"
   },
+  "CONT_AWD_75N99027F00001_7529_75N99023D00004_7529": {
+    "action_date": "2026-11-02"
+  },
   "CONT_AWD_75N99027F00001_7529_75N99024A00001_7529": {
     "action_date": "2026-10-28"
   },
@@ -787,6 +744,9 @@
   "CONT_AWD_80JSC027FA005_8000_80JSC022DA022_8000": {
     "action_date": "2026-10-23"
   },
+  "CONT_AWD_80KSC027F7002_8000_80SSC018D0010_8000": {
+    "action_date": "2026-11-02"
+  },
   "CONT_AWD_80MSFC27F7050_8000_80SSC018D0011_8000": {
     "action_date": "2026-10-08"
   },
@@ -810,9 +770,6 @@
   },
   "CONT_AWD_86616027F00001_8600_86614526D00002_8600": {
     "action_date": "2026-10-23"
-  },
-  "CONT_AWD_88310327F00004_8800_47QTCA24D006T_4732": {
-    "action_date": "2026-10-05"
   },
   "CONT_AWD_89303027FIM000232_8900_89303025AIM000023_8900": {
     "action_date": "2026-10-27"
@@ -1685,8 +1642,16 @@
     "action_date": "2026-07-23",
     "dod": true
   },
+  "CONT_AWD_W15P7T26C0005_9700_-NONE-_-NONE-": {
+    "action_date": "2026-08-04",
+    "dod": true
+  },
   "CONT_AWD_W15P7T26CA003_9700_-NONE-_-NONE-": {
     "action_date": "2026-07-23",
+    "dod": true
+  },
+  "CONT_AWD_W15P7T26F0181_9700_W15P7T23D0003_9700": {
+    "action_date": "2026-07-29",
     "dod": true
   },
   "CONT_AWD_W15QKN26FA253_9700_W15QKN24D0052_9700": {
@@ -1945,10 +1910,6 @@
     "action_date": "2026-07-22",
     "dod": true
   },
-  "CONT_AWD_W912DY26FA126_9700_W912DY25DA008_9700": {
-    "action_date": "2026-07-19",
-    "dod": true
-  },
   "CONT_AWD_W912DY26FA237_9700_47QSCA19D000F_4732": {
     "action_date": "2026-07-22",
     "dod": true
@@ -2036,9 +1997,6 @@
   },
   "tx:279517861": {
     "action_date": "2026-10-19"
-  },
-  "tx:279969826": {
-    "action_date": "2026-10-05"
   },
   "tx:279970299": {
     "action_date": "2026-10-30"
@@ -2230,7 +2188,15 @@
   "tx:311432673": {
     "action_date": "2026-10-29"
   },
+  "tx:349009051": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
   "tx:349011166": {
+    "action_date": "2026-07-29",
+    "dod": true
+  },
+  "tx:349059118": {
     "action_date": "2026-07-29",
     "dod": true
   },

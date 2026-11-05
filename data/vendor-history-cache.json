@@ -426,6 +426,28 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "africa global logistic": {
+    "d": "2026-11-05",
+    "examples": [
+      {
+        "agency": "Agency for International Development",
+        "amount": 57972677.0,
+        "recipient": "AFRICA GLOBAL LOGISTICS MOCAMBIQUE, S.A",
+        "start": "2021-06-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_72065621C00001_7200_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Agency for International Development",
+        "amount": 20710877.66,
+        "recipient": "AFRICA GLOBAL LOGISTICS MOCAMBIQUE, S.A",
+        "start": "2021-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_72065621C00007_7200_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2021-06-29",
+    "has_contracts": true,
+    "raw_hits": 2
+  },
   "agile 4 vets": {
     "d": "2026-10-23",
     "examples": [],
@@ -2596,6 +2618,35 @@
       }
     ],
     "first": "2008-10-23",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "chestnut ridge foam": {
+    "d": "2026-11-05",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 186190.0,
+        "recipient": "CHESTNUT RIDGE FOAM INC",
+        "start": "2025-07-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6833525C0288_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 176511.89,
+        "recipient": "CHESTNUT RIDGE FOAM INC",
+        "start": "2026-05-27",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0024426P0031_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 151738.6,
+        "recipient": "CHESTNUT RIDGE FOAM INC",
+        "start": "2017-02-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_0009_9700_SPM1C114D1008_9700"
+      }
+    ],
+    "first": "2007-12-13",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -8929,6 +8980,35 @@
     "first": null,
     "has_contracts": false,
     "raw_hits": 0
+  },
+  "seebyte": {
+    "d": "2026-11-05",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 5381079.27,
+        "recipient": "SEEBYTE LIMITED",
+        "start": "2023-07-10",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6600123F0804_9700_N6600122D0043_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3714103.82,
+        "recipient": "SEEBYTE LIMITED",
+        "start": "2023-08-16",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6600123F1000_9700_N6600122D0043_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3359691.06,
+        "recipient": "SEEBYTE LIMITED",
+        "start": "2023-05-17",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N6600123F0611_9700_N6600122D0043_9700"
+      }
+    ],
+    "first": "2008-08-04",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "serco": {
     "d": "2026-10-20",
