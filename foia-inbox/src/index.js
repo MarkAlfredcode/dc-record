@@ -46,7 +46,8 @@ const DENIED = new RegExp([
   '(deny|denying|denied|denial of) (your )?(request for )?expedit', '(this|the) expedit\\w* (processing |treatment )?denial',
   'expedit\\w*( processing| treatment)? justification[^.]{0,40}(was|is) insufficient', 'your request (is|has been) (hereby )?(denied|closed)',
   'we (are )?(den(y|ying)|unable to grant)', 'no (responsive )?records (were|was) (found|located)', 'did not locate any (responsive )?records',
-  'adverse determination', 'withh(old|eld|olding) (the records )?in full', '(request|it) (is|has been) administratively closed'
+  'adverse determination', 'withh(old|eld|olding) (the records )?in full', '(request|it) (is|has been) administratively closed',
+  'updated to (the )?(following )?status\\W{0,4}closed\\b'
 ].join('|'), 'i');
 
 const DENIED_G = new RegExp(DENIED.source, 'gi');

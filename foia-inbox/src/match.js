@@ -233,7 +233,7 @@ export function outcomeOf(reason) {
   const r = String(reason || '').replace(/^Denial:\s*/i, '');
   if (!r || /expedit/i.test(r)) return null;
   if (/no (?:responsive )?records|did not locate/i.test(r)) return 'No records';
-  if (/(?:is|has been) (?:hereby )?closed/i.test(r) && !/den(?:y|ied|ial)/i.test(r)) return 'Closed';
+  if (/(?:is|has been) (?:hereby )?closed|updated to (?:the )?(?:following )?status\W{0,4}closed\b/i.test(r) && !/den(?:y|ied|ial)/i.test(r)) return 'Closed';
   if (/administratively closed/i.test(r)) return null;
   if (/neither confirm nor deny|withh|den(?:y|ying|ied|ial)|adverse|unable to grant|(?:is|has been) (?:hereby )?(?:denied|closed)/i.test(r)) return 'Denied';
   return null;
@@ -509,7 +509,7 @@ const SAYS = [
   ['redirect', /(?:[Pp]lease|[Yy]ou (?:should|must|may|will need to|would need to)|[Ww]e (?:suggest|recommend)(?: that)? you|[Kk]indly|[Ii]t should be|should be) (?:re-?)?(?:submit\w*|send|sent|direct\w*|forward\w*|file|filed|address\w*) (?:(?:your|the|this|a|that) (?:records |foia |public records |open records )?requests? )?(?:directly )?to (?:the )?((?:[A-Z][\w&.'-]*)(?:\s+(?:[A-Z][\w&.'-]*|of|and|for|the|on))*)|(?:is|are) not the (?:appropriate|correct|right|proper) (?:office|agency|component|custodian|public body)/,
     function (s) { return !/(?:to (?:the |our )?)(?:online|web|portal|website|link|form|e-?mail)\b|\bif you\b|appeal/i.test(s); }],
   ['spam', /quarantined|missing one of your|caught in (?:our|a|the) (?:spam|junk)/i],
-  ['closed', /(?:your |the |this )?request(?: #?[\w-]*\d[\w-]*)? (?:is|has been|was) (?:hereby )?(?:administratively )?closed|(?:we are|we have|I am) (?:now )?clos(?:ed|ing) (?:your|this|the) (?:request|case|file)/i,
+  ['closed', /(?:your |the |this )?request(?: #?[\w-]*\d[\w-]*)? (?:is|has been|was) (?:hereby )?(?:administratively )?closed|updated to (?:the )?(?:following )?status\W{0,4}closed\b|(?:we are|we have|I am) (?:now )?clos(?:ed|ing) (?:your|this|the) (?:request|case|file)/i,
     function (s) { return !/\b(?:unless|if|absent|without a response|fail\w*)\b/i.test(s); }],
   // Census (DOC-CEN-2027-000158) says it as "your expedited processing justification was insufficient" and "this
   // expedited processing denial", never "is denied".
