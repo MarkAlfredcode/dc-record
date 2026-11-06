@@ -33,10 +33,34 @@ function docxText(bytes) {
     .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'"));
 }
 
+// Values typed into a PDF's fillable form (AcroForm). They are not in the page's text layer, so extractText() misses them:
+// OGE's Certificate of Divestiture arrives as a form whose number, date, eligible person and asset table are all fields.
+async function pdfFormFields(pdf) {
+  const lines = [];
+  const seen = new Set();
+  for (let n = 1; n <= Math.min(pdf.numPages, 50); n++) {
+    let annots = [];
+    try { annots = await (await pdf.getPage(n)).getAnnotations(); } catch (e) { continue; }
+    for (const a of annots) {
+      if (a.subtype !== 'Widget' || a.fieldType === 'Sig' || a.fieldType === 'Btn') continue;
+      let v = Array.isArray(a.fieldValue) ? a.fieldValue.join(', ') : a.fieldValue;
+      v = typeof v === 'string' ? v.replace(/\s+/g, ' ').trim() : '';
+      if (!v || v === 'Off') continue;
+      const key = (a.fieldName || '') + '\u0000' + v;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      lines.push((a.fieldName || 'field') + ': ' + v);
+    }
+  }
+  return lines.length ? '[Form field values on this PDF (fillable form; not part of the page text):\n' + lines.join('\n') + ']' : '';
+}
+
 async function pdfText(bytes) {
   const pdf = await getDocumentProxy(new Uint8Array(bytes));
   const out = await extractText(pdf, { mergePages: true });
-  return cleanText(Array.isArray(out.text) ? out.text.join('\n') : out.text);
+  const text = cleanText(Array.isArray(out.text) ? out.text.join('\n') : out.text);
+  const form = await pdfFormFields(pdf).catch(function () { return ''; });
+  return form ? (text ? text + '\n\n' + form : form) : text;
 }
 
 // Returns [{ filename, mime, size, status: 'read' | 'no_text' | 'skipped' | 'error', note, text }]

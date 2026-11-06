@@ -77,6 +77,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils tesseract-ocr
+          # pypdf: values typed into fillable-form PDFs (OGE certificates of divestiture), which pdftotext misses
+          python3 -m pip install --quiet pypdf || python3 -m pip install --quiet --break-system-packages pypdf || echo "pypdf not installed: fillable-form PDF values will be skipped"
           curl -fsSL https://claude.ai/install.sh | bash
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           "$HOME/.local/bin/claude" --version

@@ -76,8 +76,34 @@ def _ocr_page(pdf, page, d):
     return "\n".join(out)
 
 
+def pdf_form_fields(path):
+    """Values typed into a PDF's fillable form (AcroForm), as 'name: value' lines. pdftotext and OCR both miss them
+    (OGE's Certificate of Divestiture is a form: number, date, eligible person and the asset table are all fields).
+    Needs pypdf; returns [] without it, so the readers keep working where it isn't installed."""
+    try:
+        from pypdf import PdfReader
+        fields = PdfReader(path).get_fields() or {}
+    except Exception:  # noqa: BLE001 - missing pypdf, encrypted/corrupt file: no fields
+        return []
+    out = []
+    for name, f in fields.items():
+        if f.get("/FT") in ("/Sig", "/Btn"):
+            continue
+        v = f.get("/V")
+        if isinstance(v, list):
+            v = ", ".join(str(x) for x in v)
+        v = re.sub(r"\s+", " ", str(v)).strip() if v is not None else ""
+        if v and v != "Off" and not v.startswith("/"):
+            out.append(f"{name}: {v}")
+    return out
+
+
 def read_pdf(path, deadline=None):
     text, info = _read_pdf_text(path, deadline)
+    form = pdf_form_fields(path)
+    if form:
+        text = (text + "\n\n" if text.strip() else "") + "[Form field values on this PDF (fillable form; not part of the page text):\n" + "\n".join(form) + "]"
+        info["form_fields"] = len(form)
     doc_metadata.attach(path, text, info)
     return text, info
 
