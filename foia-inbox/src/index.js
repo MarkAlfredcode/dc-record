@@ -21,7 +21,7 @@
 import PostalMime from 'postal-mime';
 import { readAll, toBase64 } from './attachments.js';
 import { recordOge } from './oge.js';
-import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply, learnRoute, regDomain, withRequirement, requirementLine } from './match.js';
+import { resolveRequest, newsworthy, outcomeOf, decode, stripOwn, asksForReply, explainReply, learnRoute, regDomain, withRequirement, requirementLine, fromStates } from './match.js';
 
 const FORWARD_TO = 'markdalfred10@yahoo.com';
 const SELF = /@markalfred\.news$/i;
@@ -206,8 +206,9 @@ async function record(raw, env) {
     // First mail carrying the agency's own number: remember it so follow-ups match by tracking number.
     // A refusal of the request itself (Glomar, withheld in full, no records) moves the status; an expedite denial doesn't.
     const outcome = den ? outcomeOf(den[0]) : null;
-    if (outcome) await db.prepare("UPDATE requests SET status = ?, status_detail = ? WHERE id = ? AND status IN ('Awaiting reply', 'Acknowledged', 'In progress', 'Extended', 'Needs clarification')").bind(outcome, snippet.slice(0, 300), requestId).run();
-    else if (plain && plain.kind === 'released') await db.prepare("UPDATE requests SET status = 'Records released', status_detail = ? WHERE id = ? AND status IN ('Awaiting reply', 'Acknowledged', 'In progress', 'Extended', 'Needs clarification', 'Fee estimate')").bind(plain.headline + ': ' + snippet.slice(0, 280), requestId).run();
+    // Which statuses may move where is decided once, by canMove() in match.js.
+    if (outcome) await db.prepare("UPDATE requests SET status = ?, status_detail = ? WHERE id = ? AND status IN (" + fromStates(outcome, true) + ")").bind(outcome, snippet.slice(0, 300), requestId).run();
+    else if (plain && plain.kind === 'released') await db.prepare("UPDATE requests SET status = 'Records released', status_detail = ? WHERE id = ? AND status IN (" + fromStates('Records released', true) + ")").bind(plain.headline + ': ' + snippet.slice(0, 280), requestId).run();
     const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles' }).format(new Date());
     await db.batch([
       db.prepare('INSERT INTO messages (request_id, direction, sent_at, from_addr, subject, snippet, source, source_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
@@ -215,7 +216,7 @@ async function record(raw, env) {
       db.prepare("UPDATE requests SET last_activity_on = ?, last_activity = ?, acknowledged = CASE WHEN ? = 0 AND acknowledged != 'Yes' THEN 'Yes' ELSE acknowledged END, ack_on = CASE WHEN ? = 0 AND ack_on IS NULL THEN ? ELSE ack_on END, status = CASE WHEN ? = 0 AND status = 'Awaiting reply' THEN 'Acknowledged' ELSE status END WHERE id = ?")
         .bind(today, subject, noAck, noAck, today, noAck, requestId)
     ].concat(rejected ? [
-      db.prepare("UPDATE requests SET status = 'Resubmit required', status_detail = ? WHERE id = ?")
+      db.prepare("UPDATE requests SET status = 'Resubmit required', status_detail = ? WHERE id = ? AND status IN (" + fromStates('Resubmit required') + ")")
         .bind('Agency would not accept the emailed request: ' + snippet.slice(0, 300), requestId)
     ] : []));
     try { await learnTracking(db, requestId, trk, ctx, inboxId); } catch (e) { console.error('foia-inbox: tracking step failed', e && e.message); }

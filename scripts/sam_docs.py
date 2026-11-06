@@ -45,6 +45,7 @@ from urllib.parse import urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dc_common import download, http_get_json, load_manifest  # noqa: E402
+import sam_file_state  # noqa: E402
 from sam_reader import read_file  # noqa: E402
 
 RESOURCES = "https://sam.gov/api/prod/opps/v3/opportunities/{}/resources"
@@ -146,13 +147,13 @@ def enrich(justifications, notices=(), budget_sec=BUDGET_SEC, prelisted=None):
             rid, name = a["resourceId"], a.get("name") or ""
             public = a.get("accessLevel") == "public"
             cached = cache.get(rid)
-            status = "restricted" if not public else (cached or {}).get("s") if cached and cached.get("s") != "retry" else "pending"
+            status = sam_file_state.run_status(public, cached)
             n["attachments"].append({"rid": rid, "name": name, "url": FILE_URL.format(rid) if public else None,
                                      "size": a.get("size"), "posted": (a.get("postedDate") or "")[:10] or None,
                                      "status": status})
             if not public:
                 continue
-            need_screen = status == "pending"
+            need_screen = status == sam_file_state.PENDING
             if need_screen or kind == "justification":
                 f = files.setdefault(rid, {"name": name, "url": FILE_URL.format(rid), "size": a.get("size") or 0,
                                            "posted": a.get("postedDate"), "nids": [], "sols": [], "titles": [],
@@ -170,7 +171,7 @@ def enrich(justifications, notices=(), budget_sec=BUDGET_SEC, prelisted=None):
     # still in the window.
     queued = 0
     for rid, meta in load_manifest(PENDING_PATH).get("files", {}).items():
-        if rid in files or (cache.get(rid) or {}).get("s", "retry") != "retry":
+        if rid in files or not sam_file_state.needs_reading(cache.get(rid)):
             continue
         files[rid] = {**meta, "screen": True, "from_queue": True}
         queued += 1
@@ -189,8 +190,9 @@ def enrich(justifications, notices=(), budget_sec=BUDGET_SEC, prelisted=None):
     for kind, n in notices:
         for a in n["attachments"]:
             f = files.get(a["rid"])
-            if f and a["status"] == "pending":
-                a["status"] = "deferred" if f.get("deferred") else "error" if f.get("error") else "read"
+            if f and a["status"] == sam_file_state.PENDING:
+                a["status"] = (sam_file_state.DEFERRED if f.get("deferred") else sam_file_state.ERROR if f.get("error")
+                               else sam_file_state.READ_NOW)
         if kind != "justification":
             continue
         parts = sorted(((a["name"], files[a["rid"]].get("text") or "") for a in n["attachments"] if a["rid"] in files),
@@ -210,7 +212,7 @@ def enrich(justifications, notices=(), budget_sec=BUDGET_SEC, prelisted=None):
     deferred = sum(1 for f in files.values() if f.get("deferred"))
     errors = sum(1 for f in files.values() if f.get("error"))
     ocr = sum(1 for f in files.values() if "ocr" in (f.get("method") or ""))
-    cached = sum(1 for _, n in notices for a in n["attachments"] if a["status"] not in ("pending", "read", "deferred", "error", "restricted"))
+    cached = sum(1 for _, n in notices for a in n["attachments"] if a["status"] in sam_file_state.FINAL)
     print(f"SAM attachments: {sum(len(n['attachments']) for _, n in notices)} files on "
           f"{sum(1 for _, n in notices if n['attachments'])} notices; read {read} now ({ocr} with OCR), "
           f"{cached} already read by earlier runs, {queued} from the queue, {deferred} deferred to next run, "

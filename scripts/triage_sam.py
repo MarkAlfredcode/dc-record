@@ -50,6 +50,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 
 import extract_ja
+import sam_file_state
 import screen_sam_docs
 import vendor_history
 from dc_common import load_manifest, save_manifest, today_la
@@ -232,9 +233,7 @@ def score(j):
 
 
 DOC_BONUS = {5: 12, 4: 7, 3: 3}
-UNREAD_REASON = {"restricted": "access-restricted on SAM.gov", "unsupported": "no extractable text (video/CAD/etc.)",
-                 "failed": "could not be downloaded or read", "queued": "queued, read in a later edition",
-                 "retry": "read failed, retrying in a later edition"}
+UNREAD_REASON = sam_file_state.UNREAD_REASON
 
 
 def doc_view(notice, cache, read_now, previously_listed, queue=()):
@@ -245,9 +244,8 @@ def doc_view(notice, cache, read_now, previously_listed, queue=()):
     findings, unread, n_read = [], [], 0
     for a in notice.get("attachments") or []:
         rec = cache.get(a["rid"]) or {}
-        status = ("restricted" if a["status"] == "restricted" else "queued" if a["rid"] in queue
-                  else rec.get("s") or "queued")
-        if status in ("screened", "wage_determination", "boilerplate_only", "no_text"):
+        status = sam_file_state.edition_status(a["status"] == sam_file_state.RESTRICTED, a["rid"] in queue, rec)
+        if status in sam_file_state.READ_TO_END:
             n_read += 1
         elif status in UNREAD_REASON:
             unread.append({"file": a["name"], "reason": UNREAD_REASON[status], "url": a.get("url")})

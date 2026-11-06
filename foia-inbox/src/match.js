@@ -366,7 +366,44 @@ export function caseRange(text) {
 // A message that names a range of case numbers, from an agency we have exactly that many open requests with, is about
 // all of them. reqs: tracker requests (with .email, .status, .tracking). -> { ids, sure, why } or null. Never decides alone
 // unless the count lines up; the tracker offers it as one click.
-const OPEN = /^(?:Awaiting reply|Acknowledged|In progress|Extended|Needs clarification|Resubmit required)$/;
+
+// ---- Request status: the one state machine --------------------------------------------------------------------
+//
+// requests.status is written by the Worker (foia-inbox/src/index.js), the site's foia-action.js (matching a message by hand),
+// foia-reads.js (Claude's reading of agency mail) and, for human actions (a reply, appeal or re-send going out), foia-action.js
+// directly. Before 2026-11-06 each kept its own `status IN (...)` list and they disagreed (a Fee estimate could be released
+// but not denied; "Resubmit required" overwrote anything, even an appeal in flight). Every automatic move now goes through
+// canMove(); SQL guards are built from it with fromStates(). The tracker's own groupings (foia.html WAITING / YOUR_MOVE) are
+// display only.
+//
+//   Awaiting reply -> Acknowledged -> In progress / Extended / Needs clarification / Fee estimate   (the agency is working)
+//   any of those   -> Resubmit required (they refused the emailed request; a human re-files)
+//   any of those, Resubmit required, Appealed -> Records released | Denied | No records | Closed    (final outcomes)
+//   Appealed is set only by a human filing an appeal; automatic reads leave it alone unless a final outcome arrives.
+//   A final status is frozen (a later "closed" notice doesn't flip Records released); an appeal is a human action that sets
+//   Appealed first. The keyword rules (Worker, foia-action) never end an appeal: appeal acknowledgments quote the original
+//   denial. Only Claude's reading (foia-reads.js) can, so fromStates(to, true) leaves Appealed out.
+export const WORKING_STATUSES = ['Awaiting reply', 'Acknowledged', 'In progress', 'Extended', 'Needs clarification', 'Fee estimate'];
+export const FINAL_STATUSES = ['Records released', 'Denied', 'No records', 'Closed'];
+export const REQUEST_STATUSES = WORKING_STATUSES.concat(['Resubmit required', 'Appealed'], FINAL_STATUSES);
+// Requests still waiting on the agency (or on a fee decision) for sender matching and range matching.
+export const OPEN_STATUSES = WORKING_STATUSES.concat(['Resubmit required']);
+
+export function canMove(from, to) {
+  if (!from || !to || from === to || REQUEST_STATUSES.indexOf(from) < 0 || REQUEST_STATUSES.indexOf(to) < 0) return false;
+  if (FINAL_STATUSES.indexOf(to) >= 0) return FINAL_STATUSES.indexOf(from) < 0;          // any non-final status can end
+  if (FINAL_STATUSES.indexOf(from) >= 0 || from === 'Appealed' || to === 'Appealed') return false;
+  if (to === 'Resubmit required') return WORKING_STATUSES.indexOf(from) >= 0;
+  return OPEN_STATUSES.indexOf(from) >= 0;                                               // working <-> working, resubmit -> working
+}
+
+// SQL list of the statuses a request may move to `to` from, for `WHERE status IN (...)`. Constants only, never user text.
+// rulesOnly: the caller is a keyword rule, not Claude or a human, so a request under appeal stays put.
+export function fromStates(to, rulesOnly) {
+  return REQUEST_STATUSES.filter(function (s) { return canMove(s, to) && !(rulesOnly && s === 'Appealed'); }).map(function (s) { return "'" + s + "'"; }).join(', ');
+}
+
+const OPEN = new RegExp('^(?:' + OPEN_STATUSES.join('|') + ')$');
 export function matchRange(msg, reqs) {
   const range = caseRange(msg.subject + '\n' + String(msg.text || '').slice(0, 6000));
   if (!range) return null;

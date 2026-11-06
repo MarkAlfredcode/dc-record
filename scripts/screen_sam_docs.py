@@ -36,6 +36,7 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import doc_metadata  # noqa: E402
 import sam_boilerplate  # noqa: E402
+import sam_file_state as fs  # noqa: E402
 from dc_common import load_manifest, save_manifest  # noqa: E402
 from extract_ja import parse_array, run_claude  # noqa: E402
 from sam_docs import JA_FILE_NAME  # noqa: E402
@@ -224,7 +225,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
     # Skip anything already read to a final status (a re-run of this step,
     # or another run that got there first).
     todo = {rid: f for rid, f in files.items() if f.get("screen") and not f.get("deferred")
-            and (cache.get(rid) or {}).get("s", "retry") == "retry"}
+            and fs.needs_reading(cache.get(rid))}
 
     recs, docs = {}, {}
     for rid, f in todo.items():
@@ -233,13 +234,13 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         text = f.get("text")
         if text is None or f.get("error"):
             attempts = cache.get(rid, {}).get("a", 0) + 1
-            terminal = f.get("method") in ("unsupported",) or attempts >= MAX_ATTEMPTS
-            recs[rid] = {**base, "s": ("unsupported" if f.get("method") == "unsupported" else "failed") if terminal
-                         else "retry", "a": attempts, "e": f.get("error") or "no text"}
+            terminal = f.get("method") == fs.UNSUPPORTED or attempts >= MAX_ATTEMPTS
+            recs[rid] = {**base, "s": (fs.UNSUPPORTED if f.get("method") == fs.UNSUPPORTED else fs.FAILED) if terminal
+                         else fs.RETRY, "a": attempts, "e": f.get("error") or "no text"}
         elif not text.strip():
-            recs[rid] = {**base, "s": "no_text", "c": 0}
+            recs[rid] = {**base, "s": fs.NO_TEXT, "c": 0}
         elif sam_boilerplate.is_wage_determination(text):
-            recs[rid] = {**base, "s": "wage_determination", "c": 0}
+            recs[rid] = {**base, "s": fs.WAGE_DETERMINATION, "c": 0}
         else:
             docs[rid] = (text, (f.get("sols") or [rid])[0])
             recs[rid] = base
@@ -279,12 +280,12 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         repeat_chars += len(cleaned) - len(deduped)
         recs[rid]["c"] = len(deduped)
         if not cleaned.strip():
-            recs[rid]["s"] = "boilerplate_only"
+            recs[rid]["s"] = fs.BOILERPLATE_ONLY
             continue
         if not deduped.strip():
             # every line was in a file already sent this run for the same
             # solicitation (an amendment re-uploading its SOW): read there
-            recs[rid].update({"s": "screened", "r": "repeat of an earlier file on this notice"})
+            recs[rid].update({"s": fs.SCREENED, "r": "repeat of an earlier file on this notice"})
             continue
         note = f" ({repeats} lines identical to an earlier file of this solicitation omitted)" if repeats else ""
         pieces = [deduped[i:i + CHUNK_CHARS] for i in range(0, len(deduped), CHUNK_CHARS)]
@@ -332,14 +333,14 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
         del recs[rid]
 
     for rid in docs:
-        if rid in over_budget or rid in over_time or recs[rid].get("s") == "boilerplate_only":
+        if rid in over_budget or rid in over_time or recs[rid].get("s") == fs.BOILERPLATE_ONLY:
             continue
         if rid in failed:
             attempts = cache.get(rid, {}).get("a", 0) + 1
-            recs[rid].update({"s": "failed" if attempts >= MAX_ATTEMPTS else "retry", "a": attempts,
+            recs[rid].update({"s": fs.FAILED if attempts >= MAX_ATTEMPTS else fs.RETRY, "a": attempts,
                               "e": "screening call failed"})
             continue
-        recs[rid]["s"] = "screened"
+        recs[rid]["s"] = fs.SCREENED
         fs = [verify(f, docs[rid][0]) for f in found.get(rid, [])]
         if fs:
             recs[rid]["f"] = sorted(fs, key=lambda x: (-x["verified"], -x["news"]))[:6]
@@ -350,7 +351,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
     # Haiku's. A J&A also gets who its properties say wrote it.
     md_found = 0
     for rid, f in todo.items():
-        if rid not in recs or recs[rid]["s"] == "retry":
+        if rid not in recs or recs[rid]["s"] == fs.RETRY:
             continue
         info = f.get("info") or {}
         mdf = [{**x, "verified": True} for x in info.get("md_flags") or []]
@@ -364,7 +365,7 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
 
     cache.update(recs)
     for rid, (sol, lines) in file_lines.items():
-        if recs.get(rid, {}).get("s") == "screened" and lines:
+        if recs.get(rid, {}).get("s") == fs.SCREENED and lines:
             d, hs = memory.get(sol, ("", set()))
             memory[sol] = (today, hs | lines)
     try:
@@ -377,26 +378,26 @@ def screen(today, files_path=FILES_PATH, cache_path=CACHE_PATH, pending_path=PEN
     cutoff = (date.fromisoformat(today) - timedelta(days=QUEUE_DAYS)).isoformat()
     deferred = {rid for rid, f in files.items() if f.get("screen") and f.get("deferred")}
     queue = {}
-    for rid in deferred | over_budget | over_time | {r for r, x in recs.items() if x["s"] == "retry"}:
+    for rid in deferred | over_budget | over_time | {r for r, x in recs.items() if x["s"] == fs.RETRY}:
         f = files[rid]
         meta = {k: f.get(k) for k in QUEUE_META}
         meta["queued_since"] = (pending.get(rid) or {}).get("queued_since") or f.get("queued_since") or today
         if meta["queued_since"] < cutoff:
-            cache[rid] = {"d": today, "n": f.get("name"), "sol": (f.get("sols") or [None])[0], "s": "failed",
+            cache[rid] = {"d": today, "n": f.get("name"), "sol": (f.get("sols") or [None])[0], "s": fs.FAILED,
                           "e": f"not read within {QUEUE_DAYS} days"}
             continue
         queue[rid] = meta
     for rid, meta in pending.items():  # e.g. this run's fetch never got to the queue
-        if rid not in files and (cache.get(rid) or {}).get("s", "retry") == "retry":
+        if rid not in files and fs.needs_reading(cache.get(rid)):
             queue.setdefault(rid, meta)
     save_manifest(cache_path, {"files": cache})
     save_manifest(pending_path, {"files": queue})
     stats = {
-        "files_screened": sum(1 for r in recs.values() if r["s"] == "screened"),
-        "files_boilerplate_only": sum(1 for r in recs.values() if r["s"] in ("boilerplate_only", "wage_determination")),
-        "files_no_text": sum(1 for r in recs.values() if r["s"] == "no_text"),
-        "files_unsupported": sum(1 for r in recs.values() if r["s"] == "unsupported"),
-        "files_failed": sum(1 for r in recs.values() if r["s"] in ("failed", "retry")),
+        "files_screened": sum(1 for r in recs.values() if r["s"] == fs.SCREENED),
+        "files_boilerplate_only": sum(1 for r in recs.values() if r["s"] in (fs.BOILERPLATE_ONLY, fs.WAGE_DETERMINATION)),
+        "files_no_text": sum(1 for r in recs.values() if r["s"] == fs.NO_TEXT),
+        "files_unsupported": sum(1 for r in recs.values() if r["s"] == fs.UNSUPPORTED),
+        "files_failed": sum(1 for r in recs.values() if r["s"] in (fs.FAILED, fs.RETRY)),
         "files_deferred_time_budget": len(deferred),
         "files_deferred_screen_budget": len(over_budget),
         "files_deferred_screen_time": len(over_time),

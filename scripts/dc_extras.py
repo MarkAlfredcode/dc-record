@@ -152,9 +152,12 @@ def mdY(iso):
 
 class SeenManifest:
     """Same persisted "already reported" pattern as the other manifests:
-    {key: {"reported": YYYY-MM-DD}}, pruned on save. Workflows revert these
-    files on site-refresh-only runs so nothing is marked seen without having
-    been emailed."""
+    {key: {"reported": YYYY-MM-DD}}, pruned on save.
+
+    Lifecycle of an item: new -> marked here, on disk, by the run -> kept only if the edition really emailed
+    (email_sent.flag). A site-refresh-only run reverts the file (`git checkout --`), so nothing counts as reported that
+    never reached anyone. Each workflow lists its ledgers twice, in that revert and in its `git add`;
+    scripts/test_seen_ledgers.py fails when a ledger is missing from either list."""
 
     def __init__(self, path, keep_days=30):
         self.path = path
