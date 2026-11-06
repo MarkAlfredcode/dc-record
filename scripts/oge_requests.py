@@ -245,6 +245,8 @@ def main():
     ap.add_argument("--days", type=int, default=None, help="testing: consider unseen rows dated in the last N days, ignoring the seed")
     ap.add_argument("--limit", type=int, default=None, help="file at most N request batches this run")
     ap.add_argument("--only", default=None, help="only this last name (testing)")
+    ap.add_argument("--agency", default=None, help="targeted pull: only rows whose agency contains this text; ignores the historical seed (rows already filed/seen are still skipped)")
+    ap.add_argument("--since", default=None, help="with --agency: only rows dated on/after this YYYY-MM-DD")
     a = ap.parse_args()
     live = a.live or os.environ.get("OGE_LIVE") == "1"
 
@@ -260,10 +262,13 @@ def main():
             save_ledger(led)
         if a.seed_only:
             return
-    known = set(led["seed"]) | set(led["seen"])
+    known = set(led["seen"]) if a.agency else set(led["seed"]) | set(led["seen"])
 
     horizon = (datetime.now(ET).date() - timedelta(days=a.days)).isoformat() if a.days else None
     new = [r for r in req if row_key(r) not in known and (horizon is None or (r.get("docDate") or "")[:10] >= horizon)]
+    if a.agency:
+        new = [r for r in new if a.agency.lower() in (r.get("agency") or "").lower()
+               and (not a.since or (r.get("docDate") or "")[:10] >= a.since)]
     if a.only:
         new = [r for r in new if r["name"].lower().startswith(a.only.lower())]
     print(f"oge-requests: {len(req)} requestable rows in OGE's index, {len(new)} new. {'LIVE' if live else 'DRY RUN'}.", file=sys.stderr)

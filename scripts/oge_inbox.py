@@ -204,6 +204,21 @@ def build_section(mails, mode):
     }
 
 
+def held_mail(pending):
+    """ids of pending mail that carries one of the held people's documents (data/oge-held.json): a bulk pull Mark wants
+    collected to a folder, not summarized into the edition. Matched on the attachment's file name ("Last, First ...pdf")."""
+    try:
+        names = [n.lower() for n in json.load(open(os.path.join(ROOT, "data", "oge-held.json"))).get("names", [])]
+    except (OSError, ValueError):
+        return set()
+    out = set()
+    for m in pending:
+        for a in (m.get("attachments") or "").split(";"):
+            if any(a.strip().lower().startswith(n) for n in names):
+                out.add(m["id"])
+    return out
+
+
 def main():
     if not os.environ.get("FOIA_INGEST_TOKEN"):
         print("oge-inbox: FOIA_INGEST_TOKEN not set; skipping", file=sys.stderr)
@@ -216,6 +231,10 @@ def main():
         return
 
     pending = q.get("pending") or []
+    held = held_mail(pending)
+    if held:
+        pending = [m for m in pending if m["id"] not in held]
+        print(f"oge-inbox: {len(held)} held-back mail(s) (data/oge-held.json) left alone", file=sys.stderr)
     ai_by_id = {}
     if pending:
         work = tempfile.mkdtemp(prefix="oge-inbox-")
