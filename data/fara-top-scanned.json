@@ -792,16 +792,6 @@
     "stamped": "2026-10-28",
     "type": "Informational Materials"
   },
-  "https://efile.fara.gov/docs/6698-Amendment-20261015-3.pdf": {
-    "fp": "",
-    "hits": [],
-    "more": 0,
-    "num": "6698",
-    "registrant": "Teneo Strategy LLC",
-    "scanned": "2026-10-17",
-    "stamped": "2026-10-15",
-    "type": "Amendment"
-  },
   "https://efile.fara.gov/docs/6698-Amendment-20261030-10.pdf": {
     "fp": "",
     "hits": [],
@@ -1098,6 +1088,17 @@
     "scanned": "2026-10-25",
     "stamped": "2026-10-21",
     "type": "Exhibit AB"
+  },
+  "https://efile.fara.gov/docs/7144-Supplemental-Statement-20261104-9.pdf": {
+    "fp": "",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7144",
+    "registrant": "National Representative Council of Eritrea - GIE",
+    "scanned": "2026-11-06",
+    "stamped": "2026-11-04",
+    "type": "Supplemental Statement"
   },
   "https://efile.fara.gov/docs/7172-Supplemental-Statement-20261030-9.pdf": {
     "fp": "",
@@ -1491,17 +1492,6 @@
     "stamped": "2026-10-20",
     "type": "Supplemental Statement"
   },
-  "https://efile.fara.gov/docs/7627-Informational-Materials-20261015-22.pdf": {
-    "fp": "The National Assembly of the Republic of Korea (KOREA, SOUTH)",
-    "hits": [],
-    "md": [],
-    "more": 0,
-    "num": "7627",
-    "registrant": "Korea Inter-Parliamentary Exchange Center",
-    "scanned": "2026-10-21",
-    "stamped": "2026-10-15",
-    "type": "Informational Materials"
-  },
   "https://efile.fara.gov/docs/7649-Amendment-20261021-2.pdf": {
     "fp": "",
     "hits": [],
@@ -1512,23 +1502,6 @@
     "scanned": "2026-10-23",
     "stamped": "2026-10-21",
     "type": "Amendment"
-  },
-  "https://efile.fara.gov/docs/7649-Informational-Materials-20261015-33.pdf": {
-    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
-    "hits": [],
-    "md": [
-      {
-        "finding": "AI-chatbot fingerprint in the text: 3 link/citation marker(s) such as utm_source=chatgpt.com, which ChatGPT appends to links it cites \u2014 suggests text or links were copied from a chatbot",
-        "news": 5,
-        "quote": "not monolithic. <Cite refs={[\u201cturn821482search1\",\u201dturn821482search9\"}/> But t"
-      }
-    ],
-    "more": 0,
-    "num": "7649",
-    "registrant": "Clock Tower X LLC",
-    "scanned": "2026-10-21",
-    "stamped": "2026-10-15",
-    "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7649-Informational-Materials-20261020-34.pdf": {
     "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
@@ -1672,6 +1645,257 @@
     "registrant": "Clock Tower X LLC",
     "scanned": "2026-11-05",
     "stamped": "2026-10-22",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-48.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-49.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-51.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "More from Breaking Defense / Hegseth talks autonomy at AUSA, a key show wr / focus Y a",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      },
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "\u2014\u2014_\u2014.~ / Hegseth uses AUSA spotlight to push autonomy, / \u2018generational\u2019 defense investment",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-52.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-53.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-54.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-55.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-56.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-57.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-59.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-60.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "More from Breaking Defense / Hegseth talks autonomy at AUSA, a key show wr / focus Y a",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      },
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "\u2014\u2014_\u2014.~ / Hegseth uses AUSA spotlight to push autonomy, / \u2018generational\u2019 defense investment",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-61.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "More from Breaking Defense / Hegseth talks autonomy at AUSA, a key show wr / focus Y a",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      },
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "\u2014\u2014_\u2014.~ / Hegseth uses AUSA spotlight to push autonomy, / \u2018generational\u2019 defense investment",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-62.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "More from Breaking Defense / Hegseth talks autonomy at AUSA, a key show wr / focus Y a",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      },
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "Images from AUSA\u2019s final day >. yp __* = / Hegseth uses AUSA spotlight to push autonomy, / \u2018generational\u2019 defense investment",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-64.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-65.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
+    "type": "Informational Materials"
+  },
+  "https://efile.fara.gov/docs/7649-Informational-Materials-20261023-66.pdf": {
+    "fp": "State of Israel via Havas Media Germany GmbH (ISRAEL)",
+    "hits": [
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "More from Breaking Defense / Hegseth talks autonomy at AUSA, a key show wr / focus Y a",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      },
+      {
+        "method": "",
+        "role": "Secretary of Defense / War, 2025-",
+        "snippet": "Images from AUSA\u2019s final day >. yp __* = / Hegseth uses AUSA spotlight to push autonomy, / \u2018generational\u2019 defense investment",
+        "tier": "name",
+        "who": "Pete Hegseth"
+      }
+    ],
+    "md": [],
+    "more": 0,
+    "num": "7649",
+    "registrant": "Clock Tower X LLC",
+    "scanned": "2026-11-06",
+    "stamped": "2026-10-23",
     "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7649-Supplemental-Statement-20261030-2.pdf": {
@@ -1933,16 +2157,6 @@
     "scanned": "2026-11-03",
     "stamped": "2026-10-30",
     "type": "Exhibit AB"
-  },
-  "https://efile.fara.gov/docs/7778-Informational-Materials-20261015-1.pdf": {
-    "fp": "Olara Otunnu (UGANDA)",
-    "hits": [],
-    "more": 0,
-    "num": "7778",
-    "registrant": "Rubenstein Public Relations, Inc.",
-    "scanned": "2026-10-17",
-    "stamped": "2026-10-15",
-    "type": "Informational Materials"
   },
   "https://efile.fara.gov/docs/7778-Informational-Materials-20261019-2.pdf": {
     "fp": "Olara Otunnu (UGANDA)",
