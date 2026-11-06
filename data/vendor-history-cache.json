@@ -1071,6 +1071,64 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "analytical service & material": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 56941917.6,
+        "recipient": "ANALYTICAL SERVICES & MATERIALS, INC.",
+        "start": "2002-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NAS402021_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 24476157.24,
+        "recipient": "ANALYTICAL SERVICES & MATERIALS, INC.",
+        "start": "2016-11-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA865016F4107_9700_GS00Q14OADS304_4732"
+      },
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 10433589.68,
+        "recipient": "ANALYTICAL SERVICES & MATERIALS, INC.",
+        "start": "2026-02-04",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70T04026F7672N003_7013_70T04021A7672N003_7013"
+      }
+    ],
+    "first": "2002-05-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "andor technology": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Health and Human Services",
+        "amount": 561756.62,
+        "recipient": "ANDOR TECHNOLOGY LTD.",
+        "start": "2018-09-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75N96018P00148_7529_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 556906.0,
+        "recipient": "ANDOR TECHNOLOGY, INC.",
+        "start": "2023-06-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C26023P0391_3600_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 497905.0,
+        "recipient": "ANDOR TECHNOLOGY LTD.",
+        "start": "2014-08-26",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA24514P1826_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-08-18",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "anduril industrie": {
     "d": "2026-11-06",
     "examples": [
@@ -4831,6 +4889,35 @@
     "has_contracts": true,
     "raw_hits": 13
   },
+  "ge aviation system dowty propeller": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 251320826.3,
+        "recipient": "GE AVIATION SYSTEMS LLC",
+        "start": "2017-12-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0001918C0004_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 55366873.44,
+        "recipient": "GE AVIATION SYSTEMS LLC",
+        "start": "2000-03-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0042100C0433_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 52306794.0,
+        "recipient": "GE AVIATION SYSTEMS LLC",
+        "start": "2018-10-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_SPRPA119FKC00_9700_SPE4A114G0009_9700"
+      }
+    ],
+    "first": "2000-03-24",
+    "has_contracts": true,
+    "raw_hits": 250
+  },
   "ge aviation system eaton aerospace": {
     "d": "2026-10-10",
     "examples": [
@@ -5142,6 +5229,35 @@
     "first": "2007-04-19",
     "has_contracts": true,
     "raw_hits": 46
+  },
+  "gordian group": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Homeland Security",
+        "amount": 3899512.06,
+        "recipient": "THE GORDIAN GROUP, INC.",
+        "start": "2018-01-11",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_70FA3018C00000003_7022_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Energy",
+        "amount": 3500971.0,
+        "recipient": "THE GORDIAN GROUP, INC.",
+        "start": "2024-05-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_89233124CNA000362_8900_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Energy",
+        "amount": 3232306.52,
+        "recipient": "THE GORDIAN GROUP, INC.",
+        "start": "2020-03-25",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_89233120CNA000142_8900_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2011-09-29",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "govsmart": {
     "d": "2026-10-20",
@@ -5705,6 +5821,35 @@
       }
     ],
     "first": "2002-09-30",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "integrated medical solution": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Justice",
+        "amount": 2239401.57,
+        "recipient": "INTEGRATED MEDICAL SOLUTIONS, LLC",
+        "start": "2023-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15B61023P00000045_1540_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 1967220.79,
+        "recipient": "INTEGRATED MEDICAL SOLUTIONS, LLC",
+        "start": "2020-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_15B51420FVB210010_1540_DJBP0514BPA13009_1540"
+      },
+      {
+        "agency": "Department of Justice",
+        "amount": 1733321.38,
+        "recipient": "INTEGRATED MEDICAL SOLUTIONS, LLC",
+        "start": "2010-07-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DJBP0514JB210006_1540_DJB51402214_1540"
+      }
+    ],
+    "first": "2010-07-01",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -7468,6 +7613,35 @@
     "first": "2014-04-24",
     "has_contracts": true,
     "raw_hits": 100
+  },
+  "mts system": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 40491970.0,
+        "recipient": "MTS SYSTEMS CORPORATION",
+        "start": "1999-09-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_DAAD0599C0024_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "National Aeronautics and Space Administration",
+        "amount": 10326377.0,
+        "recipient": "MTS SYSTEMS CORPORATION",
+        "start": "2006-07-05",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_NNM06AA90C_8000_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 10297730.84,
+        "recipient": "MTS SYSTEMS CORPORATION",
+        "start": "2006-07-24",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W911QX06C0095_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "1999-09-29",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "mundo system": {
     "d": "2026-10-10",
@@ -9728,6 +9902,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "sirsi": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 1011269.87,
+        "recipient": "SIRSI LIMITED",
+        "start": "2009-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA561310P0001_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 807761.68,
+        "recipient": "SIRSI CORPORATION",
+        "start": "2013-09-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA489013C0011_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 723000.74,
+        "recipient": "SIRSI CORPORATION",
+        "start": "2006-08-31",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_FA445206C0006_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2005-11-07",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "skf usa": {
     "d": "2026-10-22",
     "examples": [
@@ -11214,6 +11417,35 @@
     "has_contracts": true,
     "raw_hits": 8
   },
+  "uei:E7H3M5F27DR3": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 147245.0,
+        "recipient": "OTICON MEDICAL LLC",
+        "start": "2025-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79125K0259_3600_36C79121D0012_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 140900.0,
+        "recipient": "OTICON MEDICAL LLC",
+        "start": "2024-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79124K0304_3600_36C79121D0012_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 125550.0,
+        "recipient": "OTICON MEDICAL LLC",
+        "start": "2025-01-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79125K0137_3600_36C79121D0012_3600"
+      }
+    ],
+    "first": "2010-10-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:EBZEDJKGEHJ3": {
     "d": "2026-10-10",
     "examples": [
@@ -11764,6 +11996,35 @@
     "first": "2003-11-26",
     "has_contracts": true,
     "raw_hits": 100
+  },
+  "uei:HPCGN8HY9M76": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1405544.8,
+        "recipient": "ADVANCED BIONICS, LLC",
+        "start": "2017-04-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA79117E0800_3600_VA79116D0011_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1265138.02,
+        "recipient": "ADVANCED BIONICS, LLC",
+        "start": "2020-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79121K0151_3600_VA79116D0011_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1210530.96,
+        "recipient": "ADVANCED BIONICS, LLC",
+        "start": "2025-08-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79125K0313_3600_36C79122D0001_3600"
+      }
+    ],
+    "first": "2017-04-03",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "uei:HQAJMSZDK666": {
     "d": "2026-10-13",
@@ -12875,6 +13136,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:PMWNJNEFCYN1": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 860983.0,
+        "recipient": "MED-EL CORPORATION",
+        "start": "2020-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79121K0150_3600_VA79116D0013_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 654400.0,
+        "recipient": "MED-EL CORPORATION",
+        "start": "2017-04-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA79117E0803_3600_VA79116D0013_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 609787.0,
+        "recipient": "MED-EL CORPORATION",
+        "start": "2025-08-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79125K0315_3600_36C79122D0003_3600"
+      }
+    ],
+    "first": "2011-12-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:PTJJE6LNBD23": {
     "d": "2026-10-14",
     "examples": [
@@ -13165,6 +13455,35 @@
     "has_contracts": true,
     "raw_hits": 50
   },
+  "uei:RRFJZGASZJ41": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 9631408985.78,
+        "recipient": "V2X SYSTEMS LLC",
+        "start": "2010-09-29",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J10C0062_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 4536552040.46,
+        "recipient": "V2X SYSTEMS LLC",
+        "start": "2019-04-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J19F0400_9700_W52P1J19D0045_9700"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 3067015852.9,
+        "recipient": "V2X SYSTEMS LLC",
+        "start": "2019-04-12",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_W52P1J19F0402_9700_W52P1J19D0045_9700"
+      }
+    ],
+    "first": "2000-08-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
   "uei:S3WEXDTREVY5": {
     "d": "2026-10-14",
     "examples": [
@@ -13193,6 +13512,35 @@
     "first": "2005-01-01",
     "has_contracts": true,
     "raw_hits": 21
+  },
+  "uei:S4FNET9BJCG8": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 6327968.39,
+        "recipient": "COCHLEAR AMERICAS CORPORATION",
+        "start": "2020-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79121K0149_3600_VA79116D0012_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 5234214.5,
+        "recipient": "COCHLEAR AMERICAS CORPORATION",
+        "start": "2017-04-03",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_VA79117E0801_3600_VA79116D0012_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 3994164.25,
+        "recipient": "COCHLEAR AMERICAS CORPORATION",
+        "start": "2023-03-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C79123K0211_3600_36C79122D0002_3600"
+      }
+    ],
+    "first": "2017-04-03",
+    "has_contracts": true,
+    "raw_hits": 50
   },
   "uei:SJ7DG9KSK4U5": {
     "d": "2026-10-10",
@@ -13546,6 +13894,35 @@
       }
     ],
     "first": "2011-03-15",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:UQJVK6S9WDP7": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Defense",
+        "amount": 797500.0,
+        "recipient": "PACIFIC SCIENTIFIC COMPANY",
+        "start": "2023-12-18",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0010424PLA56_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 691650.0,
+        "recipient": "PACIFIC SCIENTIFIC COMPANY",
+        "start": "2025-04-07",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0038325PT079_9700_-NONE-_-NONE-"
+      },
+      {
+        "agency": "Department of Defense",
+        "amount": 608810.8,
+        "recipient": "PACIFIC SCIENTIFIC COMPANY",
+        "start": "2016-08-15",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_N0038316CD033_9700_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2008-07-09",
     "has_contracts": true,
     "raw_hits": 50
   },
@@ -13981,6 +14358,64 @@
       }
     ],
     "first": "2008-02-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:Z63RLN31BEE5": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1855199.42,
+        "recipient": "PETNET SOLUTIONS, INC.",
+        "start": "2025-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C26326N0205_3600_36C26326A0004_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1851105.42,
+        "recipient": "PETNET SOLUTIONS, INC.",
+        "start": "2026-10-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C26327N0037_3600_36C26326A0004_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 1575677.24,
+        "recipient": "PETNET SOLUTIONS, INC.",
+        "start": "2026-08-20",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24726P0726_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2007-10-01",
+    "has_contracts": true,
+    "raw_hits": 50
+  },
+  "uei:Z7NABFAK25Y7": {
+    "d": "2026-11-06",
+    "examples": [
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 7744948.67,
+        "recipient": "VETMED GROUP LLC",
+        "start": "2026-03-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24926N0373_3600_36C24926D0026_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 4465698.3,
+        "recipient": "VETMED GROUP LLC",
+        "start": "2026-05-01",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C25026N0480_3600_36C25025D0038_3600"
+      },
+      {
+        "agency": "Department of Veterans Affairs",
+        "amount": 4420196.5,
+        "recipient": "VETMED GROUP LLC",
+        "start": "2026-10-08",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_36C24727P0018_3600_-NONE-_-NONE-"
+      }
+    ],
+    "first": "2018-07-13",
     "has_contracts": true,
     "raw_hits": 50
   },
