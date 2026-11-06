@@ -484,6 +484,7 @@ def main():
             errors.append(f"House disclosures: {e}")
 
     # Senate
+    senate_failed = "efdsearch.senate.gov" in down
     if "efdsearch.senate.gov" not in down:
         try:
             s = senate_session()
@@ -524,6 +525,7 @@ def main():
                     L_pfd.append(head)
         except Exception as e:  # noqa: BLE001
             errors.append(f"Senate eFD: {e}")
+            senate_failed = True
 
     oge = load_json("data/oge_candidates.json", {}) or {}
     mech = load_json("content-mechanical.json", {}) or {}
@@ -570,7 +572,10 @@ def main():
         L.append("(none)")
     L += ["", f"--- FARA ({n['fara']} new items: registrants, foreign principals, filed documents; "
               f"since {lookback}, minus items reported earlier) ---"] + L_fara
-    L += ["", f"--- PERSONAL FINANCIAL DISCLOSURES ({n['house']} House, {n['senate']} Senate) ---",
+    senate_count = ("Senate NOT CHECKED: efdsearch.senate.gov refused the search, so Senate filings are unknown today. "
+                    "Do NOT say there were no Senate filings; a script adds a notice to this section"
+                    if senate_failed else f"{n['senate']} Senate")
+    L += ["", f"--- PERSONAL FINANCIAL DISCLOSURES ({n['house']} House, {senate_count}) ---",
           "Trade lines: ticker | asset | type | date | amount | owner | asset type | status | LATE Nd = disclosed N days "
           "after the trade (STOCK Act allows 45)."] + L_pfd
     L += ["", f"--- LDA ({n['lda']} filings) ---"] + L_lda
@@ -583,6 +588,13 @@ def main():
 
     # Stock-trade tables for assemble.py to append under the disclosures section.
     blocks = []
+    if senate_failed:
+        # Added 2026-11-05: eFD started refusing automated searches ~2026-10-23 and editions
+        # silently showed zero Senate filings. Say so in the newsletter instead.
+        blocks.append({"type": "note", "text": "Senate filings were not checked for this edition: the Senate's disclosure "
+                       "site (efdsearch.senate.gov) refused our automated search, so Senate stock trades and reports "
+                       f"filed since {lookback} are missing here, not absent. They will be picked up once the site "
+                       "allows access again."})
     for t in tables:
         blocks.append({"type": "subhead", "text": f"{html.escape(t['who'])} — trades (filed {t['filed']})"})
         blocks.append({"type": "table", "headers": ["Ticker", "Company", "Type", "Date", "Amount", "Late?"],
