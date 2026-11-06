@@ -1,0 +1,26 @@
+{
+ "date": "Friday, November 6, 2026",
+ "top_story": {
+  "eyebrow": "Top Story",
+  "headline": "No new FEC compliance filings surfaced since the last edition",
+  "dek": "All 1,619 RFAI and Form 99 filings in the three-day window were already reported in earlier editions.",
+  "paragraphs": [
+   "The scripts found 1,619 requests for additional information and Form 99 filings received since November 3, 2026, and every one of them was already reported in a prior edition. Nothing new is waiting for this edition.",
+   "The deterministic extras found nothing to add: no deadline findings, no new $1 million-plus gifts, no new independent expenditures of $50,000 or more, and no notable refunds, forfeitures, investments or former-member spending in the Schedule B data that loaded."
+  ],
+  "callout": null
+ },
+ "sections": [],
+ "footer": {
+  "coverage_window": "FEC RFAI (FRQ) and Form 99 filings received November 3, 2026 onward, as of the Friday, November 6, 2026 PM edition. No voided or negative transactions of $10,000 or more were new.",
+  "sources": "FEC filings API; FEC Schedule A/B itemized transactions.",
+  "known_gaps": "The Schedule A fetch for voided and negative transactions failed with an HTTP 504 (query timed out), so voided or negative contributions of $10,000 or more may be missing from this edition. The Money Out check of Schedule B for Trump properties ('Trump National') also failed with an HTTP 504, so that part of the spending review did not run."
+ },
+ "apod": {
+  "title": "A Farewell to Swift",
+  "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Swift_Millionth_Image_Mosaic.jpg?w=1024",
+  "caption": "It is time to say goodbye to NASA's Neil Gehrels Swift Observatory. After nearly 22 years of service, the satellite re-entered Earth's atmosphere on November 4 at 7:39 EST over the North Sumatra region of Indonesia.",
+  "credit": "science.nasa.gov/apod"
+ },
+ "beat": []
+}
