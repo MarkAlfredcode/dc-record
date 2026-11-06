@@ -40,6 +40,10 @@
     "checked": "2026-11-05",
     "result": null
   },
+  "aesus design group": {
+    "checked": "2026-11-06",
+    "result": null
+  },
   "after action medical dental supply": {
     "checked": "2026-10-11",
     "result": null
@@ -121,6 +125,10 @@
     "checked": "2026-11-01",
     "result": null
   },
+  "asrc federal data network technologies": {
+    "checked": "2026-11-06",
+    "result": null
+  },
   "associated milk producers": {
     "checked": "2026-10-22",
     "result": null
@@ -193,6 +201,27 @@
     "checked": "2026-10-11",
     "result": null
   },
+  "blue origin": {
+    "checked": "2026-11-06",
+    "result": {
+      "client": "BLUE ORIGIN LLC",
+      "firms": [
+        "BALLARD PARTNERS",
+        "BARNES & THORNBURG, LLP",
+        "BLUE ORIGIN, LLC"
+      ],
+      "issues": [
+        "Defense",
+        "Budget/Appropriations",
+        "Science/Technology",
+        "Aerospace"
+      ],
+      "n_filings": 18,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/7beed9a3-8f80-46de-9702-f12732f52926/print/",
+      "ytd": 1640000.0
+    }
+  },
   "bongards creameries": {
     "checked": "2026-10-22",
     "result": null
@@ -240,6 +269,10 @@
       "ytd": 210000.0
     }
   },
+  "cape aptim jv1": {
+    "checked": "2026-11-06",
+    "result": null
+  },
   "capex construction": {
     "checked": "2026-10-19",
     "result": null
@@ -262,6 +295,24 @@
       "ytd": 20000.0
     }
   },
+  "cargill": {
+    "checked": "2026-11-06",
+    "result": {
+      "client": "CARGILL, INCORPORATED",
+      "firms": [
+        "FEDERAL STREET STRATEGIES, LLC"
+      ],
+      "issues": [
+        "Agriculture",
+        "Food Industry (safety, labeling, etc.)",
+        "Environment/Superfund"
+      ],
+      "n_filings": 3,
+      "quarters": 3,
+      "url": "https://lda.gov/filings/public/filing/d5b0c640-d0d0-400e-b8a0-ecae567e8b4f/print/",
+      "ytd": 120000.0
+    }
+  },
   "cci facility contractors": {
     "checked": "2026-10-25",
     "result": null
@@ -272,6 +323,10 @@
   },
   "chelsea jewish green house": {
     "checked": "2026-10-23",
+    "result": null
+  },
+  "chimborazo jv": {
+    "checked": "2026-11-06",
     "result": null
   },
   "christian dozer trucking": {
@@ -323,6 +378,10 @@
     "checked": "2026-10-09",
     "result": null
   },
+  "credence management solutions limited liability": {
+    "checked": "2026-11-06",
+    "result": null
+  },
   "csi aviation": {
     "checked": "2026-11-02",
     "result": {
@@ -340,6 +399,10 @@
       "url": "https://lda.gov/filings/public/filing/0a1aed23-114c-4662-ac6c-a6c65e767f58/print/",
       "ytd": 270000.0
     }
+  },
+  "cyberstar": {
+    "checked": "2026-11-06",
+    "result": null
   },
   "daniels building": {
     "checked": "2026-11-01",
@@ -369,8 +432,16 @@
     "checked": "2026-10-30",
     "result": null
   },
+  "doxa space": {
+    "checked": "2026-11-06",
+    "result": null
+  },
   "dsfederal": {
     "checked": "2026-10-23",
+    "result": null
+  },
+  "east baking": {
+    "checked": "2026-11-06",
     "result": null
   },
   "ega associates": {
@@ -425,6 +496,10 @@
     "checked": "2026-11-01",
     "result": null
   },
+  "gentry controls consulting": {
+    "checked": "2026-11-06",
+    "result": null
+  },
   "geo group": {
     "checked": "2026-10-31",
     "result": {
@@ -460,6 +535,10 @@
   },
   "guidehouse": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "gxc": {
+    "checked": "2026-11-06",
     "result": null
   },
   "hamilton pacific chamberlain": {
@@ -517,6 +596,10 @@
   },
   "insurance auto auctions": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "integrated data services": {
+    "checked": "2026-11-06",
     "result": null
   },
   "integrated maintenance bus services": {
@@ -733,6 +816,10 @@
     "checked": "2026-10-31",
     "result": null
   },
+  "medex medical transport service": {
+    "checked": "2026-11-06",
+    "result": null
+  },
   "medical records maryland": {
     "checked": "2026-10-25",
     "result": null
@@ -839,6 +926,20 @@
     "checked": "2026-10-08",
     "result": null
   },
+  "pacific shipyards international": {
+    "checked": "2026-11-06",
+    "result": {
+      "client": "PACIFIC SHIPYARDS INTERNATIONAL LLC",
+      "firms": [
+        "WINSTON TAYLOR LLP (FORMERLY KNOWN AS WINSTON & STRAWN LLP)"
+      ],
+      "issues": [],
+      "n_filings": 1,
+      "quarters": 0,
+      "url": "https://lda.gov/filings/public/filing/8284c169-99ca-4c80-abe0-9faeebdc10ee/print/",
+      "ytd": 0
+    }
+  },
   "pafford medical services": {
     "checked": "2026-11-05",
     "result": null
@@ -894,6 +995,10 @@
   },
   "potomac electric power": {
     "checked": "2026-10-08",
+    "result": null
+  },
+  "primary care solutions": {
+    "checked": "2026-11-06",
     "result": null
   },
   "prime physicians tri providers": {
@@ -980,6 +1085,10 @@
   },
   "sea pac engineering": {
     "checked": "2026-10-09",
+    "result": null
+  },
+  "serviam construction": {
+    "checked": "2026-11-06",
     "result": null
   },
   "shield ai": {
@@ -1085,6 +1194,14 @@
   },
   "southwest valley constructors": {
     "checked": "2026-10-11",
+    "result": null
+  },
+  "southwestern dakotah": {
+    "checked": "2026-11-06",
+    "result": null
+  },
+  "spectrum security services": {
+    "checked": "2026-11-06",
     "result": null
   },
   "standard communications": {
@@ -1249,6 +1366,10 @@
   },
   "welch allyn": {
     "checked": "2026-10-22",
+    "result": null
+  },
+  "whiting turner contracting": {
+    "checked": "2026-11-06",
     "result": null
   },
   "wieland rolled products north america": {
